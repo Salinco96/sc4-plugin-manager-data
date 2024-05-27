@@ -1,0 +1,54 @@
+gizmo/day-night-mod:
+  category: 970
+  conflictGroups:
+    - darknite
+  name: "Day-Night Mod"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:62-day-night-mod-by-gizmo28@2.0.0
+      url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/62-day-night-mod-by-gizmo28
+      version: 2.0.0
+
+gizmo/ground-fog-effect-mod:
+  category: 970
+  name: "Ground Fog Effect Mod"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:63-ground-fog-effect-by-gizmo28@1.0.0
+      url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/63-ground-fog-effect-by-gizmo28
+      version: 1.0.0
+
+gizmo/street-rr-gate-replacement-mod:
+  category: 700
+  name: "Street-Railway Gate Replacement Mod"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:128-gizmo-street-rr-gate-replacement-mod@1.0.0
+          include:
+            - path: "**/All_Street_RR_Gates_to_Sign/**"
+      docs: "~Documents/Gizmo_Readmes/Read Me_Street-RR Gate Replacement Mod.htm"
+      name: "All Streets"
+      url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/128-gizmo-street-rr-gate-replacement-mod
+      version: 1.0.0
+    rural-only:
+      assets:
+        - id: sc4evermore:128-gizmo-street-rr-gate-replacement-mod@1.0.0
+          include:
+            - path: "**/Unzoned-Agricultural_Streets_to_Sign/**"
+      docs: "~Documents/Gizmo_Readmes/Read Me_Street-RR Gate Replacement Mod.htm"
+      name: "Rural Streets"
+      url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/128-gizmo-street-rr-gate-replacement-mod
+      version: 1.0.0
+
+gizmo/weather-effect-mod:
+  category: 970
+  name: "Weather Effect Mod"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:65-weather-effects-mod-by-gizmo28@1.0.0
+      url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/65-weather-effects-mod-by-gizmo28
+      version: 1.0.0

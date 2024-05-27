@@ -1,0 +1,18 @@
+nam/network-addon-mod-lite:
+  category: 770
+  conflictGroups:
+    - nam
+  name: "Network Addon Mod"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:2-network-addon-mod@48
+      name: "Full"
+      url: https://www.sc4nam.com/docs/getting-started/start-here
+      version: 48.0.0
+    lite:
+      assets:
+        - id: sc4evermore:40-nam-lite@3
+      name: "Lite"
+      url: https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/40-nam-lite
+      version: 3.0.0
