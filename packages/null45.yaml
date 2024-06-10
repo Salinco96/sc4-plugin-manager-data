@@ -1,4 +1,6 @@
 null45/auto-save-dll:
+  authors:
+    - null45
   category: 60
   name: "Auto-Save"
   variants:
@@ -9,36 +11,50 @@ null45/auto-save-dll:
       version: 1.2.0
 
 null45/city-date-sync-dll:
+  authors:
+    - null45
   category: 60
   name: "City Date Sync"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-city-date-sync#SC4CityDateSync.zip@v1.0.3
+          sha256: abfb3a0f44c0dd99f10d8e27c327c2b47757f11e03eca8ec6adabbe098834097
+          size: 35341
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/254-sc4citydatesync-dll-plugin
       version: 1.0.3
 
 null45/cpu-options-dll:
+  authors:
+    - null45
   category: 60
   name: "CPU Options"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-cpu-options#SC4CPUOptions.zip@v1.0.1
+          sha256: 1e649bfac44ba0d1d9c4b2105ee992614646180f966e5ec5094197e74b3db2a1
+          size: 52259
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/261-sc4cpuoptions-dll-plugin
       version: 1.0.1
 
 null45/disable-cheats-dll:
+  authors:
+    - null45
   category: 10
   name: "Disable Cheats"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-disable-cheats#SC4DisableCheats.zip@v1.0.0
+          sha256: 454b2f2c63b0857d11f2a87766b72fdb0423b80242648d0f10218d22f0d6f008
+          size: 36171
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/251-sc4-disable-cheats-dll-plugin
       version: 1.0.0
 
 null45/disable-demolition-animation-dll:
+  authors:
+    - null45
   category: 60
   name: "Disable Demolition Animation"
   variants:
@@ -49,112 +65,156 @@ null45/disable-demolition-animation-dll:
       version: 1.0.0
 
 null45/disable-lot-plop-smoke-dll:
+  authors:
+    - null45
   category: 60
   name: "Disable Lot Plop Smoke"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-disable-lot-plop-smoke#SC4DisableLotPlopSmoke.zip@v1.0
+          sha256: a4c4a3a447a15de6788024f38bac013ba0e8253df0f451fd66ade7cb68dc344e
+          size: 36096
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/262-sc4disablelotplopsmoke-dll-plugin
       version: 1.0.0
 
 null45/disable-network-construction-sounds-dll:
+  authors:
+    - null45
   category: 60
   name: "Disable Network Construction Sounds"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-disable-network-construction-sounds#SC4DisableNetworkConstructionSounds.zip@v1.0
+          sha256: 0ec5e559afbfc24effa8f1c76f2521034a284d7a776e3fa1e6fd1a29d3cbd19d
+          size: 36595
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/263-sc4disablenetworkconstructionsounds
       version: 1.0.0
 
 null45/full-screen-32-bit-dll:
+  authors:
+    - null45
   category: 60
   name: "Full Screen 32-bit Color"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-full-screen-32-bit#SC4FullScreen32Bit.zip@v1.0
+          sha256: 9fce989bde8a2db65add593025410dbd5f1ac2b96562deda735f5bf9bafcc906
+          size: 36501
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/258-sc4-full-screen-32-bit-color-dll-plugin
       version: 1.0.0
 
 null45/graphics-options-dll:
+  authors:
+    - null45
   category: 60
   name: "Graphics Options"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-graphics-options#SC4GraphicsOptions.zip@v1.2.0
+          sha256: a75269f9975cc9674abf4c68cb52696eef40c1843b10bbe3a9ea3a48bc04cd8a
+          size: 79694
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/259-sc4graphicsoptions-dll-plugin
       version: 1.2.0
 
 null45/growify-plops-dll:
+  authors:
+    - null45
   category: 10
   name: "Growify Plopped Buildings Cheat"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-growify#SC4Growify.zip@v1.0.1
+          sha256: 02dae5d6cacfb8091b9fe5db4eb4948519d01fde48a08d59f53a52c7ed062ad3
+          size: 41414
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/266-growify-plopped-buildings-cheat-dll-plugin
       version: 1.0.0
 
 null45/humane-society-ordinance:
+  authors:
+    - null45
   category: 70
   name: "Humane Society Ordinance"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-humane-society-ordinance#SC4HumaneSocietyOrdinance.zip@v1.0
+          sha256: d2931e1b8135183a9bb2a1f683fda3384e8484e91873b45a0b8bd18511499a95
+          size: 62653
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/252-humane-society-ordinance-dll-plugin
       version: 1.0.0
 
 null45/legalize-gambling-ordinance:
+  authors:
+    - null45
   category: 70
   name: "Legalize Gambling Ordinance"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-legalize-gambling-ordinance-upgrade#SC4LegalizeGamblingUpgrade.zip@v1.0.0
+          sha256: 0d39a73488079de8c80626ba25aa580da9205ec9879df291112db65566effb2a
+          size: 67503
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/253-legalize-gambling-ordinance-upgrade-dll-plugin
       version: 1.0.0
 
 null45/more-building-styles-dll:
-  category: 60
+  authors:
+    - null45
+  category: 100
   name: "More Building Styles"
   variants:
     default:
       experimental: true
       assets:
         - id: github:0xC0000054/sc4-more-building-styles#SC4MoreBuildingStyles.zip@v1.1.0
+          sha256: 270c1d0ec6f8a4f7f4bc9dd63521af38d4cea75f58cc8feae05ee26cc6e1374b
+          size: 43357
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/260-allow-more-building-styles-dll-plugin
       version: 1.1.0
 
 null45/more-demand-info-dll:
-  category: 60
+  authors:
+    - null45
+  category: 100
   name: "More Demand Info"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-more-demand-info#SC4MoreDemandInfo.zip@v1.2.0
+          sha256: 4876009b1620f9e6c73121e63277e054472e7cd363374f180188c846a8760d94
+          size: 1699084
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/255-sc4moredemandinfo-dll-plugin
       version: 1.1.0
 
 null45/no-kickout-dll:
+  authors:
+    - null45
   category: 60
   name: "No Kickout Lower Wealth"
   variants:
     default:
       assets:
         - id: github:0xC0000054/sc4-no-kick-out#SC4NoKickOut.zip@v1.0
+          sha256: cbe23b9c4d79e3b7496653558c580fe0e50fa622b90ab6ff5f417e4e10040034
+          size: 37433
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/265-no-kickout-lower-wealth-dll-plugin
       version: 1.0.0
 
 null45/region-view-census-dll:
+  authors:
+    - null45
   category: 60
   name: "Region View Census"
   variants:
     default:
       assets:
-        - id: github:0xC0000054/sc4-region-census#sc4-region-censusgionCensus.zip@v1.0.1
+        - id: github:0xC0000054/sc4-region-census#SC4RegionCensus.zip@v1.0.1
+          sha256: f3a6e06523241b9f6529c9dfb1c888cfdbbd13e582c5af67de76e8e436472e7a
+          size: 58573
       url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/264-region-view-census-ui-dll-plugin
       version: 1.0.1

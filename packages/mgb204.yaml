@@ -1,0 +1,66 @@
+# .exe installer is not currently supported
+# mgb204/rail-depot-pack:
+#   authors:
+#     - MGB204
+#   category: 120
+#   name: "MGB204 - Rail Depot Pack (RDP)"
+#   variants:
+#     default:
+#       assets:
+#         - id: sc4evermore:92-mgb204-rail-depot-pack-rdp@1.1
+#           sha256: 563f7f936504e2c5e382178db92e71f7f65a99b8f0ab4286828889f19b429dde
+#           size: 18757694
+#       installer: MGBs Rail Depot Pack 1.01 Setup.exe
+#       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/92-mgb204-rail-depot-pack-rdp
+#       version: 1.1.0
+
+mgb204/retail-signage-pack:
+  authors:
+    - MGB204
+  category: 120
+  name: "MGB204 - Retail Signage Pack (RSP)"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:91-mgb204-retail-signage-pack-rsp@1.0
+          sha256: 0bd8434b7bfe6e16d0263dc5b04605c3c98ae00d6875bb4958e8220a3c0dcea8
+          size: 4306759
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/91-mgb204-retail-signage-pack-rsp
+      version: 1.0.0
+
+mgb204/tennis-props:
+  authors:
+    - MGB204
+  category: 120
+  name: "MGB204 - AnyOne for Tennis (AoT)"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:88-mgb204-anyone-for-tennis-aot@1.0
+          sha256: e8f7d20c490b087334a707564c3dbfc4cf12dd8936aea4fca3d4bbcb28a12ffa
+          size: 15222319
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/88-mgb204-anyone-for-tennis-aot
+      version: 1.0.0
+
+mgb204/texture-pack:
+  authors:
+    - MGB204
+  category: 110
+  name: "MGB204 - Texture Pack"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:90-mgb204-texture-pack@1.0
+          cleanitol: _MGB_TexturePack_Cleanitol.txt
+          files: # TODO - Conditions
+            - path: MGB Texture Pack.dat
+            - path: US/MGB Texture Pack.dat
+            - path: zMGB Texture Pack_RVT TSR Stret Override.dat
+            - path: zMGB Texture Pack_SAM10 SD Override.dat
+            - path: zMGB Texture Pack_SAM5 RVT Override.dat
+            - path: zMGB Texture Pack_SAM6 DK Override.dat
+            - path: zMGB Texture Pack_SAM7 BP Override.dat
+          sha256: 7703d15b68b88ac5b679cfca0d011e4f1589d5ba6fcc4acdb491ad5af1b0ea8c
+          size: 2838384
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
+      version: 1.0.0

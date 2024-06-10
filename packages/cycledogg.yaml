@@ -1,0 +1,105 @@
+cycledogg/mega-props-civics:
+  authors:
+    - cycledogg
+  category: 120
+  name: "BSC MEGA Props CP Civics"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+          include:
+            - path: "**/BSC MEGA Props - CP Civics*/"
+              as: .
+          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
+          size: 1805447535
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 1.0.0
+
+cycledogg/mega-props-houses:
+  authors:
+    - cycledogg
+  category: 120
+  name: "BSC MEGA Props CP Houses"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+          include:
+            - path: "**/BSC MEGA Props - CP Houses*/"
+              as: .
+          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
+          size: 1805447535
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 1.0.0
+
+cycledogg/mega-props-industrials:
+  authors:
+    - cycledogg
+  category: 120
+  name: "BSC MEGA Props CP Industrials"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+          include:
+            - path: "**/BSC MEGA Props - CP Industrials*/"
+              as: .
+          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
+          size: 1805447535
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 1.0.0
+
+cycledogg/mega-props-vol01:
+  authors:
+    - cycledogg
+  category: 120
+  name: "BSC MEGA Props CP Vol01"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+          include:
+            - path: "**/BSC MEGA Props - CP Vol01*/"
+              as: .
+            - path: Readme_BSC MEGA PropPack - CP Vol01.htm
+              as: ~Documents/*
+          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
+          size: 1805447535
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 1.0.0
+
+cycledogg/mega-props-vol02:
+  authors:
+    - cycledogg
+  category: 120
+  name: "BSC MEGA Props CP Vol02"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+          include:
+            - path: BSC MEGA Props CP Vol 02.htm
+              as: ~docs/*
+            - path: "**/BSC MEGA Props - CP Vol02*/"
+              as: .
+          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
+          size: 1805447535
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 1.0.0
+
+cycledogg/texture-pack-vol01:
+  authors:
+    - cycledogg
+  category: 110
+  name: "BSC Texture Pack Cycledogg Vol01"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+          include:
+            - path: "**/BSC TexturePack Cycledogg V01b*/"
+              as: .
+          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
+          size: 1805447535
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 1.0.2

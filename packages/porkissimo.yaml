@@ -1,0 +1,38 @@
+porkissimo/jenx-porkie-expanded-props:
+  authors:
+    - Porkissimo
+    - xannepan
+  category: 120
+  name: "JENX-Porkie Expanded Porkie Props"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:10-jenxporkie-expanded-porkie-props@1.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol
+          include:
+            - path: ~Documents/Porkissimo_Readmes
+              as: ~docs/*
+            - path: Porkissimo/Props
+              as: .
+          sha256: 522dbb5ac52ac900bde48ead58924149438cc89a5685f6f928c002976fdddfe0
+          size: 3312511
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props
+      version: 1.0.0
+
+porkissimo/mega-props-vol01:
+  authors:
+    - Porkissimo
+  category: 120
+  name: "Porkissimo MEGA Props vol01"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:9-porkissimo-mega-props-vol01@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol
+          include:
+            - path: Porkissimo/Props
+              as: .
+          sha256: e58bebb6c334a97c13447e48b20bf670f52b353cf1c90e46b3b551d7ca8495e6
+          size: 30831635
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/9-porkissimo-mega-props-vol01
+      version: 2.0.0
