@@ -1,0 +1,37 @@
+pegasus/mtp-super-pack:
+  authors:
+    - Pegasus
+  category: 120
+  name: "PEG MTP SUPER PACK"
+  url: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
+  variants:
+    default:
+      assets:
+        - id: simtropolis:20966-peg-mtp-super-pack@1.5
+          # include:
+          #   - path: PEGPROD/MODs/Security Fencing/*.dat
+          #     as: ./*
+          #   - path: PEGPROD/MODs/Security Fencing
+          #     as: ~docs
+          # sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
+          # size: 227413
+      version: 1.5.0
+
+pegasus/security-fencing-kit:
+  authors:
+    - Pegasus
+  category: 120
+  name: "PEG Security Fencing Kit"
+  url: https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/
+  variants:
+    default:
+      assets:
+        - id: simtropolis:19338-peg-security-fencing-kit@1.0
+          include:
+            - path: PEGPROD/MODs/Security Fencing/*.dat
+              as: ./*
+            - path: PEGPROD/MODs/Security Fencing
+              as: ~docs
+          sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
+          size: 227413
+      version: 1.0.0

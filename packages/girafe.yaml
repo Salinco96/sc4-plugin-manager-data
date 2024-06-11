@@ -1,3 +1,51 @@
+girafe/4-rue-des-lilas:
+  authors:
+    - Girafe
+  category: 220
+  dependencies:
+    - bsc/essentials
+    - cycledogg/mega-props-vol01
+    - cycledogg/texture-pack-vol01
+    - girafe/carpack-vol04
+    - girafe/flora-pack # Narcissus, Lindens, Subalpine firs
+    - girafe/urbanpack-vol01
+  name: "BSC VIP Girafe 4 Rue Des Lilas"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:220-bsc-vip-girafe-4-rue-des-lilas-v2@2.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/4 rue des Lilas
+              as: .
+          exclude:
+            - path: DN Model
+          sha256: 7c0cf2d6164f80c0ed44f5d44df903999394db829172f255b1dc004f9416697f
+          size: 1074082
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/220-bsc-vip-girafe-4-rue-des-lilas-v2
+      version: 2.0.0
+    darknite:
+      assets:
+        - id: sc4evermore:220-bsc-vip-girafe-4-rue-des-lilas-v2@2.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/4 rue des Lilas
+              as: .
+          exclude:
+            - path: MN Model
+          sha256: 7c0cf2d6164f80c0ed44f5d44df903999394db829172f255b1dc004f9416697f
+          size: 1074082
+      name: Dark Nite
+      requirements:
+        darknite: true
+      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/220-bsc-vip-girafe-4-rue-des-lilas-v2
+      version: 2.0.0
+
 girafe/carpack-vol01-02:
   authors:
     - Girafe
@@ -78,6 +126,157 @@ girafe/carpack-vol04:
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
+girafe/cb21-tower:
+  authors:
+    - Girafe
+    - Orange
+  category: 330
+  name: "BSC VIP Girafe CB21 Tower"
+  url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/223-bsc-vip-girafe-cb21-tower
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:223-bsc-vip-girafe-cb21-tower@1.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/CB21 Tower
+              as: .
+          exclude:
+            - path: DN Model
+          sha256: a73b1416b28e6bc23ea212097a04932d716cd62c383c95215b2b2f803c656da7
+          size: 8764509
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 1.0.0
+    darknite:
+      assets:
+        - id: sc4evermore:223-bsc-vip-girafe-cb21-tower@1.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/CB21 Tower
+              as: .
+          exclude:
+            - path: MN Model
+          sha256: a73b1416b28e6bc23ea212097a04932d716cd62c383c95215b2b2f803c656da7
+          size: 8764509
+      name: Dark Nite
+      requirements:
+        darknite: true
+      version: 1.0.0
+
+girafe/chalet-edelweiss:
+  authors:
+    - Girafe
+    - Mattb325
+  category: 320
+  dependencies:
+    - bsc/essentials
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - cycledogg/texture-pack-vol01
+    - girafe/flora-pack # Subalpine firs
+  name: "BSC VIP Girafe Chalet Edelweiss"
+  url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/222-bsc-vip-girafe-chalet-edelweiss
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:222-bsc-vip-girafe-chalet-edelweiss@1.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/Chalet Edelweiss
+              as: .
+          exclude:
+            - path: DN Model
+          sha256: c4ee1eeaf3eb3748356e0aa1f6205994e81e380889d50726d846e4084748ba64
+          size: 3738861
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 1.0.0
+    darknite:
+      assets:
+        - id: sc4evermore:222-bsc-vip-girafe-chalet-edelweiss@1.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/Chalet Edelweiss
+              as: .
+          exclude:
+            - path: MN Model
+          sha256: c4ee1eeaf3eb3748356e0aa1f6205994e81e380889d50726d846e4084748ba64
+          size: 3738861
+      name: Dark Nite
+      requirements:
+        darknite: true
+      version: 1.0.0
+
+girafe/edf-tower:
+  authors:
+    - Girafe
+    - Jmyers2043
+    - Mattb325
+  category: 330
+  name: "BSC VIP Girafe EDF Tower"
+  url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/224-bsc-vip-girafe-edf-tower
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:224-bsc-vip-girafe-edf-tower@1.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/EDF Tower
+              as: .
+          exclude:
+            - path: DN Model
+          sha256: 933b3f5f1cb427b5802ca702c9e676f9501cee29bee0388bef264772af6a63db
+          size: 8573084
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 1.0.0
+    darknite:
+      assets:
+        - id: sc4evermore:224-bsc-vip-girafe-edf-tower@1.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/EDF Tower
+              as: .
+          exclude:
+            - path: MN Model
+          sha256: 933b3f5f1cb427b5802ca702c9e676f9501cee29bee0388bef264772af6a63db
+          size: 8573084
+      name: Dark Nite
+      requirements:
+        darknite: true
+      version: 1.0.0
+
+girafe/flora-pack:
+  authors:
+    - Girafe
+  category: 100
+  name: "BSC VIP Girafe Flora Pack"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:27-sc4d-lex-legacy-bsc-vip-girafe-flora@3.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: installation/BSC/girafe
+              as: .
+          sha256: d5604d1e4b6fc51b8b3ed06b597d1cef2396b098b97c4e52e1ac49d836e27b9c
+          size: 243243893
+      dependencies:
+        - lowkey33/seasonal-flora-patch
+      url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora
+      version: 3.0.0
+
 girafe/hedges:
   authors:
     - Girafe
@@ -115,3 +314,51 @@ girafe/urbanpack-vol01:
           size: 1805447535
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
+
+girafe/villa-libeskind:
+  authors:
+    - Girafe
+  category: 230
+  dependencies:
+    - bsc/essentials
+    - cycledogg/texture-pack-vol01
+    - girafe/carpack-vol03
+    - girafe/carpack-vol04
+    - girafe/flora-pack # Common Spruce, Honey Locust
+    - girafe/hedges
+    - girafe/urbanpack-vol01
+  name: "BSC VIP Girafe Villa Libeskind"
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/221-bsc-vip-girafe-villa-libeskind-v2
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:221-bsc-vip-girafe-villa-libeskind-v2@2.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/Villa Libeskind
+              as: .
+          exclude:
+            - path: DN Model
+          sha256: 0d688c9090400af2cdacb3918ce08128024927463a362ab2af0c48eba1c0deb6
+          size: 2168493
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 2.0.0
+    darknite:
+      assets:
+        - id: sc4evermore:221-bsc-vip-girafe-villa-libeskind-v2@2.0
+          include:
+            - path: ~Documents/BSC_Readmes/girafe
+              as: ~docs
+            - path: BSC/girafe/Villa Libeskind
+              as: .
+          exclude:
+            - path: MN Model
+          sha256: 0d688c9090400af2cdacb3918ce08128024927463a362ab2af0c48eba1c0deb6
+          size: 2168493
+      name: Dark Nite
+      requirements:
+        darknite: true
+      version: 2.0.0

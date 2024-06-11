@@ -1,0 +1,57 @@
+lowkey33/seasonal-flora-patch:
+  authors:
+    - Lowkey33
+  category: 100
+  description: The Flora Tuning Exemplar defines the maximum height a tree will be placed in god-mode. It also makes it possible for seasonal flora to exist. Many terrain mods use this exemplar with different tree heights, however since they were made before seasonal flora was understood, a patch should be made. This is such a patch.
+  name: "BSC LK33 Terrain Seasonal Flora Patch"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:36-lk33-seasonalflorapatch@2.0
+          include:
+            - path: installation/~Documents/BSC_Readmes/Lowkee33
+              as: ~docs
+            - path: =Maxis or Other
+              as: .
+          # TODO: Include with condition
+          exclude:
+            - path: -CP Canyonlands and LowerSnowPatch
+              as: .
+            - path: -CP Columbus
+              as: .
+            - path: -CP Columbus Snowcapped
+              as: .
+            - path: -CP Columbus Snowcapped Low
+              as: .
+            - path: -CP Columbus Snowcapped Lower
+              as: .
+            - path: -CP GrandCanyon
+              as: .
+            - path: -CP GrandCanyon LowerLowerSnowPatch
+              as: .
+            - path: -CP GrandCanyon LowerSnowPatch
+              as: .
+            - path: -CP Italia HigherSnowPatch
+              as: .
+            - path: -CP Italia LowerSnowPatch
+              as: .
+            - path: -CP MeadowShire
+              as: .
+            - path: -CP MeadowShire HigherSnowPatch
+              as: .
+            - path: -CP MeadowShire LowerSnowPatch
+              as: .
+            - path: -CP MissouriBreaks
+              as: .
+            - path: -CP MonumentValley
+              as: .
+            - path: -CP Olympic
+              as: .
+            - path: -CP PaintedDesert
+              as: .
+            - path: -Heblem All
+              as: .
+          sha256: 5b9ef5b4a1fb3f83d0602cc2c3bfd5591ac7193fb97ba19862ebd6d1bf88134b
+          size: 221840
+      url: https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch
+      version: 2.0.0

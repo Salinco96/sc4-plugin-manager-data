@@ -1,0 +1,52 @@
+homefryes/american-foursquare-homes:
+  authors:
+    - Homefryes
+    - BarbyW
+  category: 220
+  name: "American Foursquare Homes by Homefryes"
+  variants:
+    nightmode=maxis:
+      assets:
+        - id: sc4evermore:106-american-foursquare-homes-by-homefryes@2.0
+          include:
+            - path: _Documents/Homefryes_Readmes
+              as: ~docs
+            - path: Homefryes/American Four Square Homes
+              as: .
+          sha256: a217ce3678757355d7045dc768ff9e17633de6c329f31f1fccfe9947daf95a3d
+          size: 621364
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/106-american-foursquare-homes-by-homefryes
+      version: 2.0.0
+
+homefryes/cambridge-townhomes:
+  authors:
+    - Homefryes
+    - BarbyW
+  category: 220
+  name: "Cambridge Townhomes by Homefryes"
+  variants:
+    nightmode=maxis:
+      assets:
+        - id: sc4evermore:107-cambridge-townhomes-by-homefryes@1.0
+          include:
+            - path: _Documents/Homefryes_Readmes
+              as: ~docs
+            - path: Homefryes/Cambridge Townhomes
+              as: .
+          sha256: a5588670c03ccbfa07b7933db80956c5965683722af303f36f7ac565ec5994a8
+          size: 5951607
+      dependencies:
+        - bsc/texture-pack-vol01
+        - bsc/texture-pack-vol02
+        - bsc/texture-pack-vol03
+        - cycledogg/mega-props-vol01
+        - cycledogg/texture-pack-vol01
+        - dolphin66/mega-props-vol01
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/107-cambridge-townhomes-by-homefryes
+      version: 1.0.0

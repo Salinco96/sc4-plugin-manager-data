@@ -14,3 +14,36 @@ kevdan25/mega-props-vol01:
           size: 1805447535
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
+
+kevdan25/restaurants:
+  authors:
+    - kevdan25
+    - BarbyW
+    - jplumbley
+  category: 300
+  dependencies:
+    - bsc/essentials
+    - csx/mega-props-vol03
+    - kevdan25/mega-props-vol01
+    - mikeseith/mega-props-vol01
+  description: |
+    A set of chain restaurants BATs by the BSC's kevdan25, on predominantly growable Lots.
+    Originally Lotted and Modded by BarbyW and jplumbley, and repackaged by Tyberius06 and Tarkus.
+    All Lots are either CS$ or CS$$, ranging from Stage 1 up to Stage 5, and are compatible with both Maxis and CAM gameplay.
+  name: "BSC KevDan25 Restaurants"
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:54-bsc-kevdan25-restaurants@2.0
+          cleanitol: _Documents/kevdan25lots - Replace Cleanitol - RUN ONCE BEFORE installing.txt
+          include:
+            - path: _Documents/BSC_Readmes/kevdan25
+              as: ~docs
+            - path: BSC/kevdan25/Restaurant Lots
+              as: .
+          sha256: ae55a3623b4af9618bdd296f16bfb74d9ff8116b5905585311eb1a13ea25880b
+          size: 1108924
+      requirements:
+        darknite: false
+      url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/54-bsc-kevdan25-restaurants
+      version: 2.0.0

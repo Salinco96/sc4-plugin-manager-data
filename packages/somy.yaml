@@ -1,0 +1,280 @@
+somy/danchi-apartments:
+  authors:
+    - SOMY
+  category: 210
+  description: A set of apartments from SOMY. There are four different styles of low wealth residential buildings plus a water tower. These have been updated using SC4PIM and the models have been centred using cogeo's Model Tweaker. There are three different style of 2x5 growable lot - the original style made by SOMY, a set of lots with a LH corner and a set with a RH corner. There is also a set of 5x2 low wealth residential lots.
+  name: "SOMY Danchi Apartments"
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/244-somy-danchi-apartments
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:244-somy-danchi-apartments@1.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SOMY Danchi Apartments.txt
+          include:
+            - path: ~Documents/SOMY_Readmes
+              as: ~docs
+            - path: SOMY/Danchi Apartments
+              as: .
+          sha256: d5ddcde6e67dd5916eda941b0f7f897c8407bae6da3adb7207d38f7515b581b1
+          size: 94019
+      dependencies:
+        - somy/mega-props-vol05
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+somy/mega-props-collection:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Collection"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol01.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 01*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      dependencies:
+        - somy/mega-props-vol01
+        - somy/mega-props-vol02
+        - somy/mega-props-vol03
+        - somy/mega-props-vol04
+        - somy/mega-props-vol05
+        - somy/mega-props-vol06
+        - somy/mega-props-vol07
+        - somy/mega-props-vol08
+        - somy/mega-props-vol09
+        - somy/mega-props-vol10
+      version: 2.0.0
+
+somy/mega-props-vol01:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol01"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol01.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 01*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol02:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol02"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol02.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 02*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol03:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol03"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol03.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 03*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol04:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol04"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol04.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 04*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol05:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol05"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol05.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 05*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol06:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol06"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol06.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 06*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol07:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol07"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol07.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 07*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol08:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol08"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol08.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 08*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol09:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol09"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol09.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: "**/SOMY MEGA Props Vol 09*/"
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/mega-props-vol10:
+  authors:
+    - SOMY
+  category: 120
+  name: "SOMY Mega Props Vol10"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:174-sc4d-lex-legacy-somy-dependencies-pack@2.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol10.txt
+          include:
+            - path: /readme*
+              as: ~docs/*
+            - path: /**/SOMY MEGA Props Vol 10*/
+              as: .
+          sha256: 82b675c9fdf2cf620f3cd6c9afa1f40fd5df78cefbabf098da882b1713f35f12
+          size: 175077627
+      version: 1.0.0
+
+somy/modern-japanese-house-set:
+  authors:
+    - SOMY
+  category: 220
+  description: A set of 10 houses by SOMY that have been updated using the X_Tool and also have had the dummy building replaced by a building model. The capacity now varies according to the number and size of houses on the lot. All except one are stage 3 R$$ and the lotting is unchanged from the originals.
+  name: "SOMY Modern Japanese House Set"
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/245-somy-modern-japanese-house-set
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:245-somy-modern-japanese-house-set@1.0
+          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SOMY_jpn_houses.txt
+          include:
+            - path: ~Documents/SOMY_Readmes
+              as: ~docs
+            - path: SOMY/Modern Japanese Houses*
+              as: .
+          sha256: aeb9163ffe2b9d884ceecb0bfee17362ef05aee7c900b3178f843f65904a041a
+          size: 63543
+      dependencies:
+        - somy/mega-props-vol07
+      requirements:
+        darknite: false
+      version: 1.0.0

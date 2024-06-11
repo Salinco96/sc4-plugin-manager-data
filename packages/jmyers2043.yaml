@@ -1,3 +1,25 @@
+jmyers2043/homes-pack:
+  authors:
+    - JMyers2043
+  category: 200
+  name: "JMyers Homes Pack"
+  variants:
+    nightmode=maxis:
+      assets:
+        - id: sc4evermore:4-sc4d-lex-legacy-jmyers-homes-pack@1.0
+          include:
+            - path: installation/BSC/^BSCProps
+              as: .
+            - path: installation/BSC/JMyers
+              as: .
+          sha256: d544d11a9df1e2956d9df890bb865b814aa3516cc6694345463c696a26ac76fd
+          size: 7403678
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/4-sc4d-lex-legacy-jmyers-homes-pack
+      version: 1.0.0
+
 jmyers2043/mega-props-agriculture-vol01:
   authors:
     - JMyers2043

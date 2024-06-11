@@ -1,0 +1,40 @@
+hooha47/modular-parking:
+  authors:
+    - hooha47
+  category: 700
+  dependencies:
+    # - BSC Hedges (for BSC_ParkFeatures.dat, for arrows, very helpful when placing lots) -  Available on the LEX
+    # - WalkingSnake Textures Vol 01.dat - https://community.simtropolis.com/files/file/15354-shopping-center-parking-pack-4-and-more/
+    - bsc/mega-props-misc-vol02
+    - hooha47/parking-textures-vol01
+    - simgoober/mega-props-vol01
+  name: "HH Modular Parking Gray"
+  url: https://community.simtropolis.com/files/file/22527-hh-modular-parking-gray-version-2/
+  variants:
+    default:
+      assets:
+        - id: simtropolis:22527-hh-modular-parking-gray-version-2@2.0
+          # include:
+          #   - path: PEGPROD/MODs/Security Fencing/*.dat
+          #     as: ./*
+          #   - path: PEGPROD/MODs/Security Fencing
+          #     as: ~docs
+          # sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
+          # size: 227413
+      version: 2.0.0
+
+hooha47/parking-textures-vol01:
+  authors:
+    - hooha47
+  category: 110
+  name: "HH Modular Parking Gray"
+  url: https://community.simtropolis.com/files/file/22527-hh-modular-parking-gray-version-2/
+  variants:
+    default:
+      assets:
+        - id: simtropolis:22527-hh-modular-parking-gray-version-2@2.0
+          include:
+            - path: HH Parking Textures*
+          # sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
+          # size: 227413
+      version: 2.0.0
