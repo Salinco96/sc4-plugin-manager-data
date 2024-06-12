@@ -8,7 +8,7 @@ mattb325/bat-props-cottages-ornee-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 Cottages Ornee Vol01*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Cottages Ornee Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -25,7 +25,7 @@ mattb325/bat-props-cottages-ornee-vol02:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 Cottages Ornee Vol02*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Cottages Ornee Vol02*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -42,7 +42,7 @@ mattb325/bat-props-london-w2w-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 London W2W Vol01*/"
+            - path: BSCProps#/BSC BATProps Mattb325 London W2W Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -59,7 +59,7 @@ mattb325/bat-props-mcmansion-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 McMansion Vol01*/"
+            - path: BSCProps#/BSC BATProps Mattb325 McMansion Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -76,7 +76,7 @@ mattb325/bat-props-shopping-mall-pack-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 Shopping Mall Pack Vol01*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Shopping Mall Pack Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -93,7 +93,7 @@ mattb325/bat-props-small-modern-house-pack-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 Small Modern House Pack*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Small Modern House Pack*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -112,7 +112,7 @@ mattb325/bat-props-vol01:
           include:
             - path: ~Documents/BSC_Readmes/Mattb325/Batprops*
               as: ~docs/*
-            - path: "**/BSC BATProps Mattb325 Vol01*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -129,7 +129,7 @@ mattb325/bat-props-vol02:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 Vol02*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Vol02*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -146,7 +146,7 @@ mattb325/bat-props-vol03:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 Vol03*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Vol03*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -167,7 +167,7 @@ mattb325/bat-props-vol04:
               as: ~docs/Images/*
             - path: ~Documents/BSC_Readmes/Mattb325/*Vol04*
               as: ~docs/*
-            - path: "**/BSC BATProps Mattb325 Vol04*/"
+            - path: BSCProps#/BSC BATProps Mattb325 Vol04*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -184,7 +184,7 @@ mattb325/bat-props-w2w-prop-pack-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC BATProps Mattb325 W2W Prop Pack Vol01*/"
+            - path: BSCProps#/BSC BATProps Mattb325 W2W Prop Pack Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -207,9 +207,9 @@ mattb325/commercial-pack:
           include:
             - path: ~Documents/Mattb325 Commercial
               as: ~docs
-            - path: installation/BSC/Mattb325/Commercial
+            - path: BSC/Mattb325/Commercial
               as: .
-            - path: installation/BSC/Mattb325/Shared Resources
+            - path: BSC/Mattb325/Shared Resources
               as: .
           sha256: 9392d9ef0531a7c5d4de80de5bf3e5c4211e7b458fd5d7b2261663e42f0f2359
           # size: 32833740
@@ -223,9 +223,9 @@ mattb325/commercial-pack:
           include:
             - path: ~Documents/Mattb325 Commercial
               as: ~docs
-            - path: installation/BSC/Mattb325/Commercial
+            - path: BSC/Mattb325/Commercial
               as: .
-            - path: installation/BSC/Mattb325/Shared Resources
+            - path: BSC/Mattb325/Shared Resources
               as: .
           sha256: 93cbf66fb6124b4ced9ff3472f132781fa7823e9f4d834d6e23b7b083bb98f2c
           # size: 31648806
@@ -255,9 +255,9 @@ mattb325/commercial-w2w-pack:
           include:
             - path: ~Documents/Mattb325 Commercial W2W
               as: ~docs
-            - path: installation/BSC/Mattb325/Commercial W2W
+            - path: BSC/Mattb325/Commercial W2W
               as: .
-            - path: installation/BSC/Mattb325/Shared Resources
+            - path: BSC/Mattb325/Shared Resources
               as: .
           sha256: a3b465f0f155684148f9971399e7ca04652c524ab932a69749a7e80e183e9a1a
           size: 12302774
@@ -272,9 +272,9 @@ mattb325/commercial-w2w-pack:
           include:
             - path: ~Documents/Mattb325 Commercial W2W
               as: ~docs
-            - path: installation/BSC/Mattb325/Commercial W2W
+            - path: BSC/Mattb325/Commercial W2W
               as: .
-            - path: installation/BSC/Mattb325/Shared Resources
+            - path: BSC/Mattb325/Shared Resources
               as: .
           sha256: add8e4b214c3d20b7aa6e8feaa4206d9e3bc32e329e6b658fa053dbd480d43f0
           size: 12237836
@@ -297,15 +297,15 @@ mattb325/residential-multi-unit-pack:
             - path: ~Documents/Mattb325 Residential Multi-Unit/readme*
               as: ~docs/*
             # TODO: Add condition
-            - path: installation/BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
+            - path: BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
               as: Casa de Manana-Temperate
-            - path: installation/BSC/Mattb325/Residential Multi-Unit
+            - path: BSC/Mattb325/Residential Multi-Unit
               as: .
-            - path: installation/BSC/Mattb325/Shared Resources
+            - path: BSC/Mattb325/Shared Resources
               as: .
           exclude:
             # TODO: Include with condition
-            - path: installation/BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
+            - path: BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
               as: Casa de Manana-Subtropical
           sha256: 23ae9dde93334831e5a526f243153a67f2c52d2800959130a5a91cd1cdd8b8f2
           size: 32833740
@@ -321,13 +321,13 @@ mattb325/residential-multi-unit-pack:
             - path: ~Documents/Mattb325 Residential Multi-Unit/readme*
               as: ~docs/*
             # TODO: Add condition
-            - path: installation/BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
+            - path: BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
               as: Casa de Manana-Temperate
-            - path: installation/BSC/Mattb325/Residential Multi-Unit
+            - path: BSC/Mattb325/Residential Multi-Unit
               as: .
           exclude:
             # TODO: Include with condition
-            - path: installation/BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
+            - path: BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
               as: Casa de Manana-Subtropical
           sha256: b4bca9b5a4238f295868e4d7e341630c920715a660c3db5a5adf20691ab2afdc
           size: 31648806

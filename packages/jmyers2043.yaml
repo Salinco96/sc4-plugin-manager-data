@@ -8,9 +8,9 @@ jmyers2043/homes-pack:
       assets:
         - id: sc4evermore:4-sc4d-lex-legacy-jmyers-homes-pack@1.0
           include:
-            - path: installation/BSC/^BSCProps
+            - path: BSC/^BSCProps
               as: .
-            - path: installation/BSC/JMyers
+            - path: BSC/JMyers
               as: .
           sha256: d544d11a9df1e2956d9df890bb865b814aa3516cc6694345463c696a26ac76fd
           size: 7403678
@@ -30,7 +30,7 @@ jmyers2043/mega-props-agriculture-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - JMyers Agriculture 01*/"
+            - path: BSCProps#/BSC MEGA Props - JMyers Agriculture 01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -47,7 +47,7 @@ jmyers2043/mega-props-agriculture-vol02:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - JMyers Agriculture 02*/"
+            - path: BSCProps#/BSC MEGA Props - JMyers Agriculture 02*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -64,7 +64,7 @@ jmyers2043/mega-props-common-props:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - JMyers Common Props*/"
+            - path: BSCProps#/BSC MEGA Props - JMyers Common Props*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535

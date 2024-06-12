@@ -10,11 +10,11 @@ ndex/textures-vol01:
     default:
       assets:
         - id: simtropolis:11617-ndex-texture-set-volume-1@2.0
-          # include:
-          #   - path: PEGPROD/MODs/Security Fencing/*.dat
-          #     as: ./*
-          #   - path: PEGPROD/MODs/Security Fencing
-          #     as: ~docs
-          # sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
-          # size: 227413
+          include:
+            - path: _Documents
+              as: ~docs
+            - path: NDEX/NDEX and Associates
+              as: .
+          sha256: 8dbc290e13493b9334ba19d650bb9f5bab20086dd94a86f75f427ee1463792ee
+          size: 769941
       version: 2.0.0

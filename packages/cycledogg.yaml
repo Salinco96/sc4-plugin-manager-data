@@ -12,7 +12,7 @@ cycledogg/early-19th-century-high-wealth-houses:
               as: ~docs/*
             - path: ~Documents/*HiWealthHses*
               as: ~docs/*
-            - path: installation/BSC/CP/R$$$Houses
+            - path: BSC/CP/R$$$Houses
               as: .
           sha256: cf375e19a09ec1fb16f7e85f7144067187b260ef22b20dcb14f0be1336a3d0b2
           size: 13165904
@@ -42,7 +42,7 @@ cycledogg/early-19th-century-medium-houses:
       assets:
         - id: sc4evermore:5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack@1.0
           include:
-            - path: installation/BSC/CP/R$$MediumHouses
+            - path: BSC/CP/R$$MediumHouses
               as: .
           sha256: cf375e19a09ec1fb16f7e85f7144067187b260ef22b20dcb14f0be1336a3d0b2
           size: 13165904
@@ -72,7 +72,7 @@ cycledogg/early-19th-century-small-houses:
       assets:
         - id: sc4evermore:5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack@1.0
           include:
-            - path: installation/BSC/CP/R$SmallHouses
+            - path: BSC/CP/R$SmallHouses
               as: .
           sha256: cf375e19a09ec1fb16f7e85f7144067187b260ef22b20dcb14f0be1336a3d0b2
           size: 13165904
@@ -104,7 +104,7 @@ cycledogg/early-19th-century-tenements-pack:
           include:
             - path: ~Documents/*Tenements*
               as: ~docs/*
-            - path: installation/BSC/CP/R$Tenements
+            - path: BSC/CP/R$Tenements
               as: .
           sha256: cf375e19a09ec1fb16f7e85f7144067187b260ef22b20dcb14f0be1336a3d0b2
           size: 13165904
@@ -134,7 +134,7 @@ cycledogg/mega-props-civics:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - CP Civics*/"
+            - path: BSCProps#/BSC MEGA Props - CP Civics*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -151,7 +151,7 @@ cycledogg/mega-props-houses:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - CP Houses*/"
+            - path: BSCProps#/BSC MEGA Props - CP Houses*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -168,7 +168,7 @@ cycledogg/mega-props-industrials:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - CP Industrials*/"
+            - path: BSCProps#/BSC MEGA Props - CP Industrials*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -185,7 +185,7 @@ cycledogg/mega-props-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC MEGA Props - CP Vol01*/"
+            - path: BSCProps#/BSC MEGA Props - CP Vol01*
               as: .
             - path: Readme_BSC MEGA PropPack - CP Vol01.htm
               as: ~Documents/*
@@ -206,7 +206,7 @@ cycledogg/mega-props-vol02:
           include:
             - path: BSC MEGA Props CP Vol 02.htm
               as: ~docs/*
-            - path: "**/BSC MEGA Props - CP Vol02*/"
+            - path: BSCProps#/BSC MEGA Props - CP Vol02*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -223,7 +223,7 @@ cycledogg/texture-pack-vol01:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC TexturePack Cycledogg V01b*/"
+            - path: BSCTextures#/BSC TexturePack Cycledogg V01b*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535

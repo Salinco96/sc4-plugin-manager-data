@@ -60,7 +60,7 @@ girafe/carpack-vol01-02:
               as: ~docs/Images
             - path: ~Documents/BSC_Readmes/girafe/readme_carpack_vol. 1 & 2.html
               as: ~docs/*
-            - path: "**/BSC VIP Girafe Carpack Vol01-02 Original*/"
+            - path: BSCProps#/BSC VIP Girafe Carpack Vol01-02 Original*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -81,7 +81,7 @@ girafe/carpack-vol01-02-remaster:
               as: ~docs/Images
             - path: ~Documents/BSC_Readmes/girafe/readme_carpack_vol. 1 & 2 remastered.html
               as: ~docs/*
-            - path: "**/BSC VIP Girafe Carpack Vol01-02 Remastered*/"
+            - path: BSCProps#/BSC VIP Girafe Carpack Vol01-02 Remastered*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -102,7 +102,7 @@ girafe/carpack-vol03:
               as: ~docs/Images
             - path: ~Documents/BSC_Readmes/girafe/readme_carpack_vol. 3.html
               as: ~docs/*
-            - path: "**/BSC VIP Girafe Carpack Vol03*/"
+            - path: BSCProps#/BSC VIP Girafe Carpack Vol03*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -119,7 +119,7 @@ girafe/carpack-vol04:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC VIP Girafe Carpack Vol04*/"
+            - path: BSCProps#/BSC VIP Girafe Carpack Vol04*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -268,7 +268,7 @@ girafe/flora-pack:
           include:
             - path: ~Documents/BSC_Readmes/girafe
               as: ~docs
-            - path: installation/BSC/girafe
+            - path: BSC/girafe
               as: .
           sha256: d5604d1e4b6fc51b8b3ed06b597d1cef2396b098b97c4e52e1ac49d836e27b9c
           size: 243243893
@@ -287,7 +287,7 @@ girafe/hedges:
       assets:
         - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
           include:
-            - path: "**/BSC VIP Girafe Hedges*/"
+            - path: BSCProps#/BSC VIP Girafe Hedges*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -308,7 +308,7 @@ girafe/urbanpack-vol01:
               as: ~docs/Images
             - path: ~Documents/BSC_Readmes/girafe/readme_urbanpack_vol. 1.html
               as: ~docs/*
-            - path: "**/BSC VIP Girafe Urbanpack Vol01*/"
+            - path: BSCProps#/BSC VIP Girafe Urbanpack Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535

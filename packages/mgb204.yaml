@@ -1,18 +1,62 @@
-# .exe installer is not currently supported
-# mgb204/rail-depot-pack:
-#   authors:
-#     - MGB204
-#   category: 120
-#   name: "MGB204 - Rail Depot Pack (RDP)"
-#   variants:
-#     default:
-#       assets:
-#         - id: sc4evermore:92-mgb204-rail-depot-pack-rdp@1.1
-#           sha256: 563f7f936504e2c5e382178db92e71f7f65a99b8f0ab4286828889f19b429dde
-#           size: 18757694
-#       installer: MGBs Rail Depot Pack 1.01 Setup.exe
-#       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/92-mgb204-rail-depot-pack-rdp
-#       version: 1.1.0
+mgb204/rail-depot-pack:
+  authors:
+    - MGB204
+  category: 120
+  name: "MGB204 - Rail Depot Pack (RDP)"
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/92-mgb204-rail-depot-pack-rdp
+  variants:
+    default:
+      assets:
+        - id: sc4evermore:92-mgb204-rail-depot-pack-rdp@1.1
+          include:
+            # TODO: Conditions
+            # - path: zMGB_RDPTextureType_RoadUS.dat
+            # - path: zMGB_RDPTextureType_RailPEG.dat
+            # - path: zMGB_RDPTextureType_RailMaxis.dat
+            # - path: zMGB_RDPTextureType_HSRNAM.dat
+            # - path: zMGB_RDPTextureType_GLRNAM.dat
+            # - path: MGB_RDPDepot_Props_SD-MN.dat
+            - path: "*.bmp"
+              as: ~docs/*
+            - path: "*readme*"
+              as: ~docs/*
+            - path: MGB_RDP_Textures.dat
+              as: ./*
+            - path: MGB_RDP_Resource.dat
+              as: ./*
+            - path: MGB_RDPDepot_Props_HD-MN.dat
+              as: ./*
+          sha256: 563f7f936504e2c5e382178db92e71f7f65a99b8f0ab4286828889f19b429dde
+          size: 18757694
+      requirements:
+        darknite: false
+      version: 1.1.0
+    darknite:
+      assets:
+        - id: sc4evermore:92-mgb204-rail-depot-pack-rdp@1.1
+          include:
+            # TODO: Conditions
+            # - path: zMGB_RDPTextureType_RoadUS.dat
+            # - path: zMGB_RDPTextureType_RailPEG.dat
+            # - path: zMGB_RDPTextureType_RailMaxis.dat
+            # - path: zMGB_RDPTextureType_HSRNAM.dat
+            # - path: zMGB_RDPTextureType_GLRNAM.dat
+            # - path: MGB_RDPDepot_Props_SD-MN.dat
+            - path: "*.bmp"
+              as: ~docs/*
+            - path: "*readme*"
+              as: ~docs/*
+            - path: MGB_RDP_Textures.dat
+              as: ./*
+            - path: MGB_RDP_Resource.dat
+              as: ./*
+            - path: MGB_RDPDepot_Props_HD-DN.dat
+              as: ./*
+          sha256: 563f7f936504e2c5e382178db92e71f7f65a99b8f0ab4286828889f19b429dde
+          size: 18757694
+      requirements:
+        darknite: true
+      version: 1.1.0
 
 mgb204/retail-signage-pack:
   authors:
@@ -52,7 +96,7 @@ mgb204/texture-pack:
       assets:
         - id: sc4evermore:90-mgb204-texture-pack@1.0
           cleanitol: _MGB_TexturePack_Cleanitol.txt
-          files: # TODO - Conditions
+          include: # TODO - Conditions
             - path: MGB Texture Pack.dat
             - path: US/MGB Texture Pack.dat
             - path: zMGB Texture Pack_RVT TSR Stret Override.dat

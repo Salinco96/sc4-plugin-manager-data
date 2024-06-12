@@ -8,11 +8,10 @@ glenni/mega-props-vol01:
     default:
       assets:
         - id: simtropolis:19096-ndex-glenni-mega-props-vol01@1.0
-          # include:
-          #   - path: PEGPROD/MODs/Security Fencing/*.dat
-          #     as: ./*
-          #   - path: PEGPROD/MODs/Security Fencing
-          #     as: ~docs
-          # sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
-          # size: 227413
+          cleanitol: Install_NDEX_Glenni_MEGA_Props_Vol01/RemoveListGlenniMEGAProps.txt
+          include:
+            - path: NDEX Glenni MEGA Props Vol01.dat
+              as: ./*
+          sha256: ddc5ca640173864e81dec2b8bfccdca9cafeebca9324275fb9cf9ee48c88f79e
+          size: 9673118
       version: 1.0.0

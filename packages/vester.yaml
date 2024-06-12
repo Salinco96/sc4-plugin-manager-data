@@ -10,7 +10,7 @@ vester/bat-props-vol01:
           include:
             - path: ~Documents/BSC_Readmes/Vester/*Vol01*
               as: ~docs/*
-            - path: "**/BSC BATProps VDK Vol01*/"
+            - path: BSCProps#/BSC BATProps VDK Vol01*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
@@ -29,7 +29,7 @@ vester/bat-props-vol02:
           include:
             - path: ~Documents/BSC_Readmes/Vester/*Vol02*
               as: ~docs/*
-            - path: "**/BSC BATProps VDK Vol02*/"
+            - path: BSCProps#/BSC BATProps VDK Vol02*
               as: .
           sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
           size: 1805447535
