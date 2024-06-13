@@ -6,11 +6,12 @@ geoffhaw/prop-pack-flag-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC Prop Pack - Geoffhaw Flag Pack Compilation*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC Prop Pack - Geoffhaw Flag Pack Compilation*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC Prop Pack - Geoffhaw Flag Pack Compilation*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0

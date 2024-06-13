@@ -6,14 +6,10 @@ jmyers2043/homes-pack:
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore:4-sc4d-lex-legacy-jmyers-homes-pack@1.0
+        - id: sc4evermore/4-sc4d-lex-legacy-jmyers-homes-pack
           include:
-            - path: BSC/^BSCProps
-              as: .
-            - path: BSC/JMyers
-              as: .
-          sha256: d544d11a9df1e2956d9df890bb865b814aa3516cc6694345463c696a26ac76fd
-          size: 7403678
+            - BSC/^BSCProps
+            - BSC/JMyers
       name: Maxis Nite
       requirements:
         darknite: false
@@ -28,12 +24,13 @@ jmyers2043/mega-props-agriculture-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC MEGA Props - JMyersAgriculture01*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - JMyers Agriculture 01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - JMyers Agriculture 01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
@@ -45,12 +42,13 @@ jmyers2043/mega-props-agriculture-vol02:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC MEGA Props - JMyersAgriculture02*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - JMyers Agriculture 02*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - JMyers Agriculture 02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
@@ -62,11 +60,12 @@ jmyers2043/mega-props-common-props:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC MEGA Props - JMyers Common Props*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - JMyers Common Props*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - JMyers Common Props*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0

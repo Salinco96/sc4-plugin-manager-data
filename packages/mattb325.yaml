@@ -6,12 +6,12 @@ mattb325/bat-props-cottages-ornee-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 Cottages Ornee Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Cottages Ornee Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -23,12 +23,12 @@ mattb325/bat-props-cottages-ornee-vol02:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 Cottages Ornee Vol02*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Cottages Ornee Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -40,12 +40,12 @@ mattb325/bat-props-london-w2w-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 London W2W Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 London W2W Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -57,12 +57,12 @@ mattb325/bat-props-mcmansion-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 McMansion Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 McMansion Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -74,12 +74,12 @@ mattb325/bat-props-shopping-mall-pack-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 Shopping Mall Pack Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Shopping Mall Pack Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -91,12 +91,12 @@ mattb325/bat-props-small-modern-house-pack-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 Small Modern House Pack*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Small Modern House Pack*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -108,14 +108,13 @@ mattb325/bat-props-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC BATProps MattB325 Vol01*
+          docs:
+            - ~Documents/BSC_Readmes/Mattb325/Batprops*
           include:
-            - path: ~Documents/BSC_Readmes/Mattb325/Batprops*
-              as: ~docs/*
-            - path: BSCProps#/BSC BATProps Mattb325 Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -127,12 +126,12 @@ mattb325/bat-props-vol02:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 Vol02*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -144,12 +143,12 @@ mattb325/bat-props-vol03:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 Vol03*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -161,16 +160,13 @@ mattb325/bat-props-vol04:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/BSC_Readmes/Mattb325/*Vol04*
+            - ~Documents/BSC_Readmes/Mattb325/Images:Images
           include:
-            - path: ~Documents/BSC_Readmes/Mattb325/Images/*Vol04*
-              as: ~docs/Images/*
-            - path: ~Documents/BSC_Readmes/Mattb325/*Vol04*
-              as: ~docs/*
-            - path: BSCProps#/BSC BATProps Mattb325 Vol04*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 Vol04*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -182,12 +178,12 @@ mattb325/bat-props-w2w-prop-pack-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC BATProps Mattb325 W2W Prop Pack Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC BATProps Mattb325 W2W Prop Pack Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -203,32 +199,24 @@ mattb325/commercial-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore:103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite@1.0
+        - id: sc4evermore/103-sc4d-lex-legacy-mattb325-commercial-pack-maxisnite
+          docs:
+            - ~Documents/Mattb325 Commercial
           include:
-            - path: ~Documents/Mattb325 Commercial
-              as: ~docs
-            - path: BSC/Mattb325/Commercial
-              as: .
-            - path: BSC/Mattb325/Shared Resources
-              as: .
-          sha256: 9392d9ef0531a7c5d4de80de5bf3e5c4211e7b458fd5d7b2261663e42f0f2359
-          # size: 32833740
+            - BSC/Mattb325/Commercial
+            - BSC/Mattb325/Shared Resources
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:102-sc4d-lex-legacy-mattb325-commercial-pack-darknite@1.0
+        - id: sc4evermore/102-sc4d-lex-legacy-mattb325-commercial-pack-darknite
+          docs:
+            - ~Documents/Mattb325 Commercial
           include:
-            - path: ~Documents/Mattb325 Commercial
-              as: ~docs
-            - path: BSC/Mattb325/Commercial
-              as: .
-            - path: BSC/Mattb325/Shared Resources
-              as: .
-          sha256: 93cbf66fb6124b4ced9ff3472f132781fa7823e9f4d834d6e23b7b083bb98f2c
-          # size: 31648806
+            - BSC/Mattb325/Commercial
+            - BSC/Mattb325/Shared Resources
       name: Dark Nite
       requirements:
         darknite: true
@@ -251,16 +239,12 @@ mattb325/commercial-w2w-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore:105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite@1.1
+        - id: sc4evermore/105-sc4d-lex-legacy-mattb325-commercial-w2w-pack-maxisnite
+          docs:
+            - ~Documents/Mattb325 Commercial W2W
           include:
-            - path: ~Documents/Mattb325 Commercial W2W
-              as: ~docs
-            - path: BSC/Mattb325/Commercial W2W
-              as: .
-            - path: BSC/Mattb325/Shared Resources
-              as: .
-          sha256: a3b465f0f155684148f9971399e7ca04652c524ab932a69749a7e80e183e9a1a
-          size: 12302774
+            - BSC/Mattb325/Commercial W2W
+            - BSC/Mattb325/Shared Resources
       name: Maxis Nite
       requirements:
         darknite: false
@@ -268,16 +252,12 @@ mattb325/commercial-w2w-pack:
       version: 1.1.0
     darknite:
       assets:
-        - id: sc4evermore:104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite@1.1
+        - id: sc4evermore/104-sc4d-lex-legacy-mattb325-commercial-w2w-pack-darknite
+          docs:
+            - ~Documents/Mattb325 Commercial W2W
           include:
-            - path: ~Documents/Mattb325 Commercial W2W
-              as: ~docs
-            - path: BSC/Mattb325/Commercial W2W
-              as: .
-            - path: BSC/Mattb325/Shared Resources
-              as: .
-          sha256: add8e4b214c3d20b7aa6e8feaa4206d9e3bc32e329e6b658fa053dbd480d43f0
-          size: 12237836
+            - BSC/Mattb325/Commercial W2W
+            - BSC/Mattb325/Shared Resources
       name: Dark Nite
       requirements:
         darknite: true
@@ -292,23 +272,17 @@ mattb325/residential-multi-unit-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore:99-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-maxisnite@1.0.2
+        - id: sc4evermore/99-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-maxisnite
+          docs:
+            - ~Documents/Mattb325 Residential Multi-Unit
           include:
-            - path: ~Documents/Mattb325 Residential Multi-Unit/readme*
-              as: ~docs/*
             # TODO: Add condition
-            - path: BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
-              as: Casa de Manana-Temperate
-            - path: BSC/Mattb325/Residential Multi-Unit
-              as: .
-            - path: BSC/Mattb325/Shared Resources
-              as: .
+            # - BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
+            - BSC/Mattb325/Residential Multi-Unit
+            - BSC/Mattb325/Shared Resources
           exclude:
-            # TODO: Include with condition
-            - path: BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
-              as: Casa de Manana-Subtropical
-          sha256: 23ae9dde93334831e5a526f243153a67f2c52d2800959130a5a91cd1cdd8b8f2
-          size: 32833740
+            # TODO: Add condition
+            - BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
       name: Maxis Nite
       requirements:
         darknite: false
@@ -316,21 +290,16 @@ mattb325/residential-multi-unit-pack:
       version: 1.0.2
     darknite:
       assets:
-        - id: sc4evermore:98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite@1.0.2
+        - id: sc4evermore/98-sc4d-lex-legacy-mattb325-residential-multi-unit-pack-darknite
+          docs:
+            - ~Documents/Mattb325 Residential Multi-Unit
           include:
-            - path: ~Documents/Mattb325 Residential Multi-Unit/readme*
-              as: ~docs/*
             # TODO: Add condition
-            - path: BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
-              as: Casa de Manana-Temperate
-            - path: BSC/Mattb325/Residential Multi-Unit
-              as: .
+            # - BSC/Mattb325/Residential Multi-Unit/=Casa de Manana-Temperate
+            - BSC/Mattb325/Residential Multi-Unit
           exclude:
-            # TODO: Include with condition
-            - path: BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
-              as: Casa de Manana-Subtropical
-          sha256: b4bca9b5a4238f295868e4d7e341630c920715a660c3db5a5adf20691ab2afdc
-          size: 31648806
+            # TODO: Add condition
+            - BSC/Mattb325/Residential Multi-Unit/-Casa de Manana-Subtropical
       name: Dark Nite
       requirements:
         darknite: true
@@ -347,32 +316,24 @@ mattb325/simcoug-historic-shops:
   variants:
     default:
       assets:
-        - id: sc4evermore:229-mattb325-simcoug-historic-shops@1.0
+        - id: sc4evermore/229-mattb325-simcoug-historic-shops
+          docs:
+            - ~Documents/BSC_Readmes/Mattb325
           include:
-            - path: ~Documents/BSC_Readmes/Mattb325
-              as: ~docs
-            - path: BSC/MattB325/HistoricShops
-              as: .
-            - path: Mattb325_Old_Shops_MN.dat
-              as: ./*
-          sha256: 4119fbe5b91ba8f593903f7d342138d3afb6e420c59abbd8d66b220bc3aa5d33
-          size: 8153788
+            - BSC/MattB325/HistoricShops
+            - Mattb325_Old_Shops_MN.dat
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:229-mattb325-simcoug-historic-shops@1.0
+        - id: sc4evermore/229-mattb325-simcoug-historic-shops
+          docs:
+            - ~Documents/BSC_Readmes/Mattb325
           include:
-            - path: ~Documents/BSC_Readmes/Mattb325
-              as: ~docs
-            - path: BSC/MattB325/HistoricShops
-              as: .
-            - path: Mattb325_Old_Shops_DN.dat
-              as: ./*
-          sha256: 4119fbe5b91ba8f593903f7d342138d3afb6e420c59abbd8d66b220bc3aa5d33
-          size: 8153788
+            - BSC/MattB325/HistoricShops
+            - Mattb325_Old_Shops_DN.dat
       name: Dark Nite
       requirements:
         darknite: true
@@ -386,12 +347,9 @@ mattb325/urban-civics-props-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:97-mattb325-urban-civics-prop-pack-vol01-maxisnite@1.0
+        - id: sc4evermore/97-mattb325-urban-civics-prop-pack-vol01-maxisnite
           include:
-            - path: BSC/BSCProps
-              as: .
-          sha256: b5dad4532f196922d49756e2f9c38ff1394a2d89e43e05062fae913eb35be03a
-          size: 37353194
+            - BSC/BSCProps
       name: Maxis Nite
       requirements:
         darknite: false
@@ -399,12 +357,9 @@ mattb325/urban-civics-props-vol01:
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:96-mattb325-urban-civics-prop-pack-vol01-darknite@1.0
+        - id: sc4evermore/96-mattb325-urban-civics-prop-pack-vol01-darknite
           include:
-            - path: BSC/BSCProps
-              as: .
-          sha256: 318fb58f137d6b2f18de15a0ab3ffe47617e32fcce9662642a4c9d107a5affbd
-          size: 36876457
+            - BSC/BSCProps
       name: Dark Nite
       requirements:
         darknite: true

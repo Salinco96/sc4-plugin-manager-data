@@ -3,12 +3,12 @@ zero7/commercial-pack:
     - zero7
   category: 300
   dependencies:
-    - bsc/texture-pack-vol01
-    - bsc/texture-pack-vol02
+    - bsc/textures-vol01
+    - bsc/textures-vol02
     - bsc/mega-props-misc-vol02
     - cycledogg/mega-props-vol01
-    - cycledogg/texture-pack-vol01
-    - dolphin66/texture-pack-vol01
+    - cycledogg/textures-vol01
+    - dolphin66/mega-props-vol01
     - gascooker/mega-props-vol01
     - glenni/mega-props-vol01
     - hooha47/parking-textures-vol01
@@ -24,19 +24,15 @@ zero7/commercial-pack:
   name: "zero7 Commercial Pack"
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/138-sc4d-lex-legacy-zero7-commercial-pack
   variants:
-    darknite:
+    default:
       assets:
-        - id: sc4evermore:138-sc4d-lex-legacy-zero7-commercial-pack@1.0
-          # include:
-          #   - path: ~Documents/Mattb325 Commercial
-          #     as: ~docs
-          #   - path: BSC/Mattb325/Commercial
-          #     as: .
-          #   - path: BSC/Mattb325/Shared Resources
-          #     as: .
-          # sha256: 9392d9ef0531a7c5d4de80de5bf3e5c4211e7b458fd5d7b2261663e42f0f2359
-          # size: 32833740
-      name: Dark Nite
+        - id: sc4evermore/138-sc4d-lex-legacy-zero7-commercial-pack
+          include:
+            - path: CAM/zero7
+              condition: { cam: true }
+            - zero7/Commercial
+            - zero7/^Shared Resources
+      name: Maxis Nite
       requirements:
-        darknite: true
+        darknite: false
       version: 1.0.0

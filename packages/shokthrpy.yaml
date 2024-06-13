@@ -7,29 +7,21 @@ shokthrpy/shk-parking-pack:
   variants:
     default:
       assets:
-        - id: simtropolis:27563-shk-parking-pack@1.2
+        - id: simtropolis/27563-shk-parking-pack
+          docs:
+            - Documentation
           include:
-            - path: Documentation
-              as: ~docs
-            - path: SHK_ParkingPack.dat
-              as: ./*
-            - path: SHK_ParkingTextures_02_Overlays_White.dat
-              as: ./*
-          sha256: 4986574d220a30bde90a61f80948209dcb50cff11ef1c2de6d8a9869cfc409b2
-          size: 2833823
+            - SHK_ParkingPack.dat
+            - SHK_ParkingTextures_02_Overlays_White.dat
       name: White Lines
       version: 1.2.0
     yellow-lines:
       assets:
-        - id: simtropolis:27563-shk-parking-pack@1.2
+        - id: simtropolis/27563-shk-parking-pack
+          docs:
+            - Documentation
           include:
-            - path: Documentation
-              as: ~docs
-            - path: SHK_ParkingPack.dat
-              as: ./*
-            - path: SHK_ParkingTextures_01_Overlays_Yellow.dat
-              as: ./*
-          sha256: 4986574d220a30bde90a61f80948209dcb50cff11ef1c2de6d8a9869cfc409b2
-          size: 2833823
+            - SHK_ParkingPack.dat
+            - SHK_ParkingTextures_01_Overlays_Yellow.dat
       name: Yellow Lines
       version: 1.2.0

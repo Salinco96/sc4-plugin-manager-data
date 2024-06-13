@@ -6,12 +6,13 @@ kevdan25/mega-props-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC MEGA Props - KevDan25 Vol01*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - KevDan25  Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - KevDan25 *Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
@@ -34,15 +35,11 @@ kevdan25/restaurants:
   variants:
     default:
       assets:
-        - id: sc4evermore:54-bsc-kevdan25-restaurants@2.0
-          cleanitol: _Documents/kevdan25lots - Replace Cleanitol - RUN ONCE BEFORE installing.txt
+        - id: sc4evermore/54-bsc-kevdan25-restaurants
+          docs:
+            - _Documents/BSC_Readmes/kevdan25
           include:
-            - path: _Documents/BSC_Readmes/kevdan25
-              as: ~docs
-            - path: BSC/kevdan25/Restaurant Lots
-              as: .
-          sha256: ae55a3623b4af9618bdd296f16bfb74d9ff8116b5905585311eb1a13ea25880b
-          size: 1108924
+            - BSC/kevdan25/Restaurant Lots
       requirements:
         darknite: false
       url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/54-bsc-kevdan25-restaurants

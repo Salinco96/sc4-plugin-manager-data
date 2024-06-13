@@ -9,12 +9,9 @@ ndex/textures-vol01:
   variants:
     default:
       assets:
-        - id: simtropolis:11617-ndex-texture-set-volume-1@2.0
+        - id: simtropolis/11617-ndex-texture-set-volume-1
+          docs:
+            - _Documents
           include:
-            - path: _Documents
-              as: ~docs
-            - path: NDEX/NDEX and Associates
-              as: .
-          sha256: 8dbc290e13493b9334ba19d650bb9f5bab20086dd94a86f75f427ee1463792ee
-          size: 769941
+            - NDEX/NDEX and Associates
       version: 2.0.0

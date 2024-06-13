@@ -1,23 +1,23 @@
-rtmt/rtmt:
-  # authors: TODO
-  category: 700
-  name: "Road-Top Mass Transit (RTMT)"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore:6-road-top-mass-transit@3.5.0
-      url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/6-road-top-mass-transit
-      version: 3.5.0
+# rtmt/rtmt:
+#   # authors: TODO
+#   category: 700
+#   name: "Road-Top Mass Transit (RTMT)"
+#   variants:
+#     default:
+#       assets:
+#         - id: sc4evermore/6-road-top-mass-transit
+#       url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/6-road-top-mass-transit
+#       version: 3.5.0
 
-rtmt/rtmt-addon-pack:
-  # authors: TODO
-  category: 700
-  name: "Road-Top Mass Transit (RTMT) Addon-Pack"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore:8-rtmt-add-on-pack-v3-60@3.6.0
-      dependencies:
-        - rtmt/rtmt
-      url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/8-rtmt-add-on-pack-v3-60
-      version: 3.6.0
+# rtmt/rtmt-addon-pack:
+#   # authors: TODO
+#   category: 700
+#   name: "Road-Top Mass Transit (RTMT) Addon-Pack"
+#   variants:
+#     default:
+#       assets:
+#         - id: sc4evermore/8-rtmt-add-on-pack-v3-60
+#       dependencies:
+#         - rtmt/rtmt
+#       url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/8-rtmt-add-on-pack-v3-60
+#       version: 3.6.0

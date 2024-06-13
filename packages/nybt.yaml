@@ -7,17 +7,13 @@ nybt/essentials:
   variants:
     default:
       assets:
-        - id: simtropolis:22916-nybt-essentials@2.0
+        - id: simtropolis/22916-nybt-essentials
+          docs:
+            - readme*
           include:
-            - path: readme*
-              as: ~docs/*
-            - path: NYBT_essentials.dat
-              as: ./*
+            - NYBT_essentials.dat
             # TODO: Add condition
-            - path: zz_NYBT_essentials_new_skyline.dat
-              as: ./*
-          sha256: 3b68ecc5a8f46219bdd0361be6caeff8b8b001ac2739c427142ef2d5ecd2abd2
-          size: 171286
+            - zz_NYBT_essentials_new_skyline.dat
       url: https://community.simtropolis.com/files/file/22916-nybt-essentials/
       version: 2.0.0
 
@@ -30,14 +26,11 @@ nybt/query-replace:
   variants:
     default:
       assets:
-        - id: simtropolis:22916-nybt-essentials@2.0
+        - id: simtropolis/22916-nybt-essentials
+          docs:
+            - readme*
           include:
-            - path: readme*
-              as: ~docs/*
-            - path: NYBT_maxis_query_replace.dat
-              as: ./*
-          sha256: 3b68ecc5a8f46219bdd0361be6caeff8b8b001ac2739c427142ef2d5ecd2abd2
-          size: 171286
+            - NYBT_maxis_query_replace.dat
       dependencies:
         - nybt/essentials
       url: https://community.simtropolis.com/files/file/22916-nybt-essentials/
@@ -51,14 +44,11 @@ nybt/residentials-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore:162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition@1.0
+        - id: sc4evermore/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
+          docs:
+            - _Documents
           include:
-            - path: _Documents
-              as: ~docs
-            - path: NYBT/Aaron Graham
-              as: .
-          sha256: 9b96049214e916560335bbe8e83cce32075764f696e496f0b03fb2649b045913
-          size: 8461054
+            - NYBT/Aaron Graham
       dependencies:
         - nybt/essentials
       name: Maxis Nite
@@ -68,14 +58,11 @@ nybt/residentials-pack:
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version@1.0
+        - id: sc4evermore/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
+          docs:
+            - _Documents
           include:
-            - path: _Documents
-              as: ~docs
-            - path: NYBT/Aaron Graham
-              as: .
-          sha256: 43dffadfb85d12c81e527ae95556c3449299fdff9f424075586a93867b2c99cb
-          size: 7992412
+            - NYBT/Aaron Graham
       dependencies:
         - nybt/essentials
       name: Dark Nite

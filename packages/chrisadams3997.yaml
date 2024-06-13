@@ -6,12 +6,13 @@ chrisadams3997/mega-props-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC MEGA Props - ALN vol01*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - ALN Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - ALN Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
@@ -23,12 +24,12 @@ chrisadams3997/mega-props-vol02:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol: []
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - ALN Vol02*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - ALN Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -40,11 +41,12 @@ chrisadams3997/mega-props-vol03:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC MEGA Props - ALN vol03*
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC MEGA Props - ALN Vol03*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC MEGA Props - ALN Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0

@@ -7,14 +7,14 @@ pegasus/mtp-super-pack:
   variants:
     default:
       assets:
-        - id: simtropolis:20966-peg-mtp-super-pack@1.5
-          # include:
-          #   - path: PEGPROD/MODs/Security Fencing/*.dat
-          #     as: ./*
-          #   - path: PEGPROD/MODs/Security Fencing
-          #     as: ~docs
-          # sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
-          # size: 227413
+        - id: simtropolis/20966-peg-mtp-super-pack
+          docs:
+            - _Documents/PEG Readmes
+          include:
+            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK
+            # TODO: Add conditions
+            - PEG-SUPER_TEXTURES_EUOverride.dat
+            - PEG-SUPER_TEXTURES_RRWOverride.dat
       version: 1.5.0
 
 pegasus/security-fencing-kit:
@@ -26,12 +26,9 @@ pegasus/security-fencing-kit:
   variants:
     default:
       assets:
-        - id: simtropolis:19338-peg-security-fencing-kit@1.0
+        - id: simtropolis/19338-peg-security-fencing-kit
+          docs:
+            - PEGPROD/MODs/Security Fencing
           include:
-            - path: PEGPROD/MODs/Security Fencing/*.dat
-              as: ./*
-            - path: PEGPROD/MODs/Security Fencing
-              as: ~docs
-          sha256: 555ed2486d8180e7dc25184a2e365a3586f1dee462896356cf966663e3f37a1f
-          size: 227413
+            - PEGPROD/MODs/Security Fencing
       version: 1.0.0

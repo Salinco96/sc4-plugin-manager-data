@@ -18,15 +18,11 @@ romualdillo/props-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:269-romualdillo-props-vol01-v1-2@1.2
-          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Romualdillo_Props_VOL01.txt
+        - id: sc4evermore/269-romualdillo-props-vol01-v1-2
+          docs:
+            - Romualdillo_Readmes
           include:
-            - path: ~Documents/Romualdillo_Readmes
-              as: ~docs
-            - path: Romualdillo/Props
-              as: .
-          sha256: a86e50ec84db0289a7e06b6e1727d1a1863c16f92e1f3baa94c7bfccce279a39
-          size: 55240324
+            - Romualdillo/Props
       dependencies:
         - girafe/flora-pack # Cypresses
       version: 1.2.0
@@ -58,15 +54,11 @@ romualdillo/spanish-low-wealth-residentals-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore:270-romualdillo-spanish-low-wealth-residental-lots@1.0
-          cleanitol: ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Romualdillo Spanish R$ Residental Lots.txt
+        - id: sc4evermore/270-romualdillo-spanish-low-wealth-residental-lots
+          docs:
+            - Romualdillo_Readmes
           include:
-            - path: ~Documents/Romualdillo_Readmes
-              as: ~docs
-            - path: Romualdillo/Spanish R$ Residental Lots Vol01
-              as: .
-          sha256: 4b32c1ff5424ed789ab7bcfea357fc534e7233bcd3cf95ff76dff3252b8c2719
-          size: 514882
+            - Romualdillo/Spanish R$ Residental Lots Vol01
       dependencies:
         - girafe/flora-pack # Cypresses
         - romualdillo/props-vol01

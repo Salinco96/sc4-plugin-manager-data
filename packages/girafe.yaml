@@ -5,24 +5,20 @@ girafe/4-rue-des-lilas:
   dependencies:
     - bsc/essentials
     - cycledogg/mega-props-vol01
-    - cycledogg/texture-pack-vol01
-    - girafe/carpack-vol04
+    - cycledogg/textures-vol01
     - girafe/flora-pack # Narcissus, Lindens, Subalpine firs
     - girafe/urbanpack-vol01
   name: "BSC VIP Girafe 4 Rue Des Lilas"
   variants:
     default:
       assets:
-        - id: sc4evermore:220-bsc-vip-girafe-4-rue-des-lilas-v2@2.0
+        - id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/4 rue des Lilas
-              as: .
+            - BSC/girafe/4 rue des Lilas
           exclude:
-            - path: DN Model
-          sha256: 7c0cf2d6164f80c0ed44f5d44df903999394db829172f255b1dc004f9416697f
-          size: 1074082
+            - DN Model
       name: Maxis Nite
       requirements:
         darknite: false
@@ -30,16 +26,13 @@ girafe/4-rue-des-lilas:
       version: 2.0.0
     darknite:
       assets:
-        - id: sc4evermore:220-bsc-vip-girafe-4-rue-des-lilas-v2@2.0
+        - id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/4 rue des Lilas
-              as: .
+            - BSC/girafe/4 rue des Lilas
           exclude:
-            - path: MN Model
-          sha256: 7c0cf2d6164f80c0ed44f5d44df903999394db829172f255b1dc004f9416697f
-          size: 1074082
+            - MN Model
       name: Dark Nite
       requirements:
         darknite: true
@@ -54,16 +47,15 @@ girafe/carpack-vol01-02:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC-VIP Girafe Carpack vol01-vol02 v?.txt
+          docs:
+            - readme_carpack_vol. 1 & 2.html
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_Carpack1&2_1.jpg:Images/*
           include:
-            - path: ~Documents/BSC_Readmes/girafe/Images
-              as: ~docs/Images
-            - path: ~Documents/BSC_Readmes/girafe/readme_carpack_vol. 1 & 2.html
-              as: ~docs/*
-            - path: BSCProps#/BSC VIP Girafe Carpack Vol01-02 Original*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC VIP Girafe Carpack Vol01-02 Original*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -75,16 +67,15 @@ girafe/carpack-vol01-02-remaster:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC-VIP Girafe Carpack vol01-vol02 (Remastered).txt
+          docs:
+            - readme_carpack_vol. 1 & 2 remastered.html
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_Carpack1&2_remastered_1.jpg:Images/*
           include:
-            - path: ~Documents/BSC_Readmes/girafe/Images
-              as: ~docs/Images
-            - path: ~Documents/BSC_Readmes/girafe/readme_carpack_vol. 1 & 2 remastered.html
-              as: ~docs/*
-            - path: BSCProps#/BSC VIP Girafe Carpack Vol01-02 Remastered*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC VIP Girafe Carpack Vol01-02 Remastered*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -96,35 +87,17 @@ girafe/carpack-vol03:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC-VIP Girafe Carpack vol03*
+          docs:
+            - readme_carpack_vol. 3.html
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_Carpack3_1.jpg:Images/*
           include:
-            - path: ~Documents/BSC_Readmes/girafe/Images
-              as: ~docs/Images
-            - path: ~Documents/BSC_Readmes/girafe/readme_carpack_vol. 3.html
-              as: ~docs/*
-            - path: BSCProps#/BSC VIP Girafe Carpack Vol03*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC VIP Girafe Carpack Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
-
-girafe/carpack-vol04:
-  authors:
-    - Girafe
-  category: 120
-  name: "BSC VIP Girafe Carpack Vol04"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
-          include:
-            - path: BSCProps#/BSC VIP Girafe Carpack Vol04*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-      version: 1.0.0
 
 girafe/cb21-tower:
   authors:
@@ -136,32 +109,26 @@ girafe/cb21-tower:
   variants:
     default:
       assets:
-        - id: sc4evermore:223-bsc-vip-girafe-cb21-tower@1.0
+        - id: sc4evermore/223-bsc-vip-girafe-cb21-tower
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/CB21 Tower
-              as: .
+            - BSC/girafe/CB21 Tower
           exclude:
-            - path: DN Model
-          sha256: a73b1416b28e6bc23ea212097a04932d716cd62c383c95215b2b2f803c656da7
-          size: 8764509
+            - DN Model
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:223-bsc-vip-girafe-cb21-tower@1.0
+        - id: sc4evermore/223-bsc-vip-girafe-cb21-tower
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/CB21 Tower
-              as: .
+            - BSC/girafe/CB21 Tower
           exclude:
-            - path: MN Model
-          sha256: a73b1416b28e6bc23ea212097a04932d716cd62c383c95215b2b2f803c656da7
-          size: 8764509
+            - MN Model
       name: Dark Nite
       requirements:
         darknite: true
@@ -176,39 +143,33 @@ girafe/chalet-edelweiss:
     - bsc/essentials
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
-    - cycledogg/texture-pack-vol01
+    - cycledogg/textures-vol01
     - girafe/flora-pack # Subalpine firs
   name: "BSC VIP Girafe Chalet Edelweiss"
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/222-bsc-vip-girafe-chalet-edelweiss
   variants:
     default:
       assets:
-        - id: sc4evermore:222-bsc-vip-girafe-chalet-edelweiss@1.0
+        - id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/Chalet Edelweiss
-              as: .
+            - BSC/girafe/Chalet Edelweiss
           exclude:
-            - path: DN Model
-          sha256: c4ee1eeaf3eb3748356e0aa1f6205994e81e380889d50726d846e4084748ba64
-          size: 3738861
+            - DN Model
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:222-bsc-vip-girafe-chalet-edelweiss@1.0
+        - id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/Chalet Edelweiss
-              as: .
+            - BSC/girafe/Chalet Edelweiss
           exclude:
-            - path: MN Model
-          sha256: c4ee1eeaf3eb3748356e0aa1f6205994e81e380889d50726d846e4084748ba64
-          size: 3738861
+            - MN Model
       name: Dark Nite
       requirements:
         darknite: true
@@ -225,32 +186,26 @@ girafe/edf-tower:
   variants:
     default:
       assets:
-        - id: sc4evermore:224-bsc-vip-girafe-edf-tower@1.0
+        - id: sc4evermore/224-bsc-vip-girafe-edf-tower
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/EDF Tower
-              as: .
+            - BSC/girafe/EDF Tower
           exclude:
-            - path: DN Model
-          sha256: 933b3f5f1cb427b5802ca702c9e676f9501cee29bee0388bef264772af6a63db
-          size: 8573084
+            - DN Model
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore:224-bsc-vip-girafe-edf-tower@1.0
+        - id: sc4evermore/224-bsc-vip-girafe-edf-tower
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/EDF Tower
-              as: .
+            - BSC/girafe/EDF Tower
           exclude:
-            - path: MN Model
-          sha256: 933b3f5f1cb427b5802ca702c9e676f9501cee29bee0388bef264772af6a63db
-          size: 8573084
+            - MN Model
       name: Dark Nite
       requirements:
         darknite: true
@@ -264,14 +219,11 @@ girafe/flora-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore:27-sc4d-lex-legacy-bsc-vip-girafe-flora@3.0
+        - id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe
-              as: .
-          sha256: d5604d1e4b6fc51b8b3ed06b597d1cef2396b098b97c4e52e1ac49d836e27b9c
-          size: 243243893
+            - BSC/girafe
       dependencies:
         - lowkey33/seasonal-flora-patch
       url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora
@@ -285,12 +237,13 @@ girafe/hedges:
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_Grfe_Props_Pack_LE_Hedges.txt
+          docs:
+            - ~Documents/readme*
           include:
-            - path: BSCProps#/BSC VIP Girafe Hedges*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC VIP Girafe Hedges*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -298,20 +251,21 @@ girafe/urbanpack-vol01:
   authors:
     - Girafe
   category: 120
-  name: "BSC VIP Girafe Urbanpack Vol01"
+  name: "BSC VIP Girafe Carpack Vol04 / Urbanpack Vol01"
   variants:
     default:
       assets:
-        - id: sc4evermore:3-sc4d-lex-legacy-bsc-common-dependencies-pack@9a
+        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          cleanitol:
+            - Cleanitol_BSC-VIP Girafe Urbanpack *vol01*
+          docs:
+            - readme_urbanpack_vol*1.html
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
+            - ~Documents/BSC_Readmes/girafe/Images/Image_1.jpg:Images/*
+            - ~Documents/BSC_Readmes/girafe/Images/*urbanpack*:Images/*
           include:
-            - path: ~Documents/BSC_Readmes/girafe/Images
-              as: ~docs/Images
-            - path: ~Documents/BSC_Readmes/girafe/readme_urbanpack_vol. 1.html
-              as: ~docs/*
-            - path: BSCProps#/BSC VIP Girafe Urbanpack Vol01*
-              as: .
-          sha256: cd64e47f77df936f99f89807053841226c186755f75724ef331ac82711757ba0
-          size: 1805447535
+            - BSC VIP Girafe Carpack Vol04*
+            - BSC VIP Girafe Urbanpack Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
@@ -321,9 +275,8 @@ girafe/villa-libeskind:
   category: 230
   dependencies:
     - bsc/essentials
-    - cycledogg/texture-pack-vol01
+    - cycledogg/textures-vol01
     - girafe/carpack-vol03
-    - girafe/carpack-vol04
     - girafe/flora-pack # Common Spruce, Honey Locust
     - girafe/hedges
     - girafe/urbanpack-vol01
@@ -332,32 +285,26 @@ girafe/villa-libeskind:
   variants:
     default:
       assets:
-        - id: sc4evermore:221-bsc-vip-girafe-villa-libeskind-v2@2.0
+        - id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/Villa Libeskind
-              as: .
+            - BSC/girafe/Villa Libeskind
           exclude:
-            - path: DN Model
-          sha256: 0d688c9090400af2cdacb3918ce08128024927463a362ab2af0c48eba1c0deb6
-          size: 2168493
+            - DN Model
       name: Maxis Nite
       requirements:
         darknite: false
       version: 2.0.0
     darknite:
       assets:
-        - id: sc4evermore:221-bsc-vip-girafe-villa-libeskind-v2@2.0
+        - id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
+          docs:
+            - ~Documents/BSC_Readmes/girafe
           include:
-            - path: ~Documents/BSC_Readmes/girafe
-              as: ~docs
-            - path: BSC/girafe/Villa Libeskind
-              as: .
+            - BSC/girafe/Villa Libeskind
           exclude:
-            - path: MN Model
-          sha256: 0d688c9090400af2cdacb3918ce08128024927463a362ab2af0c48eba1c0deb6
-          size: 2168493
+            - MN Model
       name: Dark Nite
       requirements:
         darknite: true

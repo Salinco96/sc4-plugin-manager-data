@@ -7,11 +7,9 @@ glenni/mega-props-vol01:
   variants:
     default:
       assets:
-        - id: simtropolis:19096-ndex-glenni-mega-props-vol01@1.0
-          cleanitol: Install_NDEX_Glenni_MEGA_Props_Vol01/RemoveListGlenniMEGAProps.txt
+        - id: simtropolis/19096-ndex-glenni-mega-props-vol01
+          cleanitol:
+            - RemoveListGlenniMEGAProps.txt
           include:
-            - path: NDEX Glenni MEGA Props Vol01.dat
-              as: ./*
-          sha256: ddc5ca640173864e81dec2b8bfccdca9cafeebca9324275fb9cf9ee48c88f79e
-          size: 9673118
+            - NDEX Glenni MEGA Props Vol01.dat
       version: 1.0.0

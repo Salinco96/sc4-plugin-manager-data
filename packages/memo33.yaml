@@ -3,11 +3,14 @@ memo33/submenus-dll:
     - memo33
   category: 60
   name: "Submenus DLL"
+  repository: https://github.com/memo33/submenus-dll
+  url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/268-submenus-dll-plugin
   variants:
     default:
       assets:
-        - id: github:memo33/submenus-dll#submenus-dll-1.1.2.zip@1.1.2
-          sha256: 9a0a1b8445cf5cddcae6b06379b112cf026825a553c1c8d941ad8222968be9f8
-          size: 682011
-      url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/268-submenus-dll-plugin
-      version: 1.1.2
+        - id: github/memo33/submenus-dll
+          sha256: e485456f1a839082ecf4c57607f7fdb585681d59975e68127f902c5d6e210dec
+          size: 705607
+          url: https://github.com/{path}/releases/download/{version}/submenus-dll-{version}.zip
+          version: "1.1.3"
+      version: 1.1.3

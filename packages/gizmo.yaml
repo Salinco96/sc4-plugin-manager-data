@@ -8,14 +8,11 @@ gizmo/day-night-mod:
   variants:
     default:
       assets:
-        - id: sc4evermore:62-day-night-mod-by-gizmo28@2.0.0
+        - id: sc4evermore/62-day-night-mod-by-gizmo28
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo/Day-Night Mod v*
-              as: .
-          sha256: 3fc9a0623dfe8841b2dbd298fd56ff9f98a96665dd263b840361b02987bf9155
-          size: 3170890
+            - Gizmo/Day-Night Mod*
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/62-day-night-mod-by-gizmo28
       version: 2.0.0
 
@@ -27,14 +24,11 @@ gizmo/ground-fog-effect-mod:
   variants:
     default:
       assets:
-        - id: sc4evermore:63-ground-fog-effect-by-gizmo28@1.0.0
+        - id: sc4evermore/63-ground-fog-effect-by-gizmo28
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo/Ground Fog v*
-              as: .
-          sha256: 3ccafce55e4cef66b810174701b6290df59a12bef4b6d8ed0b9040c4c2f5babd
-          size: 214250
+            - Gizmo/Ground Fog*
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/63-ground-fog-effect-by-gizmo28
       version: 1.0.0
 
@@ -46,27 +40,21 @@ gizmo/street-rr-gate-replacement-mod:
   variants:
     default:
       assets:
-        - id: sc4evermore:128-gizmo-street-rr-gate-replacement-mod@1.0.0
+        - id: sc4evermore/128-gizmo-street-rr-gate-replacement-mod
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo/Street-RR Gate Replacement Mod/All_Street_RR_Gates_to_Sign
-              as: .
-          sha256: 165ba17a69b91e2a3e201d7c51185dbafb98f2d475484821517b572461b43e84
-          size: 81374
+            - All_Street_RR_Gates_to_Sign
       name: "All Streets"
       url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/128-gizmo-street-rr-gate-replacement-mod
       version: 1.0.0
     rural-only:
       assets:
-        - id: sc4evermore:128-gizmo-street-rr-gate-replacement-mod@1.0.0
+        - id: sc4evermore/128-gizmo-street-rr-gate-replacement-mod
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo/Street-RR Gate Replacement Mod/Unzoned-Agricultural_Streets_to_Sign
-              as: .
-          sha256: 165ba17a69b91e2a3e201d7c51185dbafb98f2d475484821517b572461b43e84
-          size: 81374
+            - Unzoned-Agricultural_Streets_to_Sign
       name: "Rural Streets"
       url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/128-gizmo-street-rr-gate-replacement-mod
       version: 1.0.0
@@ -79,14 +67,11 @@ gizmo/train-props-collection:
   variants:
     default:
       assets:
-        - id: sc4evermore:66-gizmo-train-props-collection@1.0
+        - id: sc4evermore/66-gizmo-train-props-collection
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo
-              as: .
-          sha256: 3283512dcf214de6787daf9202ee6e93591f4a151ba2f09068ff70526ea9bca2
-          size: 13062786
+            - Gizmo
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/66-gizmo-train-props-collection
       version: 1.0.0
 
@@ -98,14 +83,11 @@ gizmo/vehicle-props:
   variants:
     default:
       assets:
-        - id: sc4evermore:59-gizmo-vehicle-props@5.0
+        - id: sc4evermore/59-gizmo-vehicle-props
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo/Vehicle Props v*
-              as: .
-          sha256: 9ca4ac7741fe3fd77f001f4a32e2ed072cbda452b15b7d392853a4475fa2a5e2
-          size: 544308
+            - Gizmo/Vehicle Props*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/59-gizmo-vehicle-props
       version: 5.0.0
 
@@ -117,13 +99,10 @@ gizmo/weather-effect-mod:
   variants:
     default:
       assets:
-        - id: sc4evermore:65-weather-effects-mod-by-gizmo28@1.0.0
+        - id: sc4evermore/65-weather-effects-mod-by-gizmo28
+          docs:
+            - Gizmo_Readmes
           include:
-            - path: ~Documents/Gizmo_Readmes
-              as: ~docs
-            - path: Gizmo/Weather Effect Mod v*
-              as: .
-          sha256: c6075c1526cb93c32a0b88dc62b192ae0719dcdd49c516560e3fe894ee3a0279
-          size: 2755291
+            - Gizmo/Weather Effect Mod*
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/65-weather-effects-mod-by-gizmo28
       version: 1.0.0

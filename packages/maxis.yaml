@@ -6,13 +6,10 @@ maxis/maxis-buildings-as-props:
   variants:
     default:
       assets:
-        - id: sc4evermore:14-maxis-buildings-as-props-and-dlc-props-v2-1@2.1
+        - id: sc4evermore/14-maxis-buildings-as-props-and-dlc-props-v2-1
+          docs:
+            - _Documents
           include:
-            - path: _Documents
-              as: ~docs
-            - path: Maxis Original
-              as: .
-          sha256: 59d4c4faa6f388e3b94bf066c447e8966f8e9b1aec10fe95db1cdb069a0c2955
-          size: 4507791
+            - Maxis Original
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/14-maxis-buildings-as-props-and-dlc-props-v2-1
       version: 2.1.0
