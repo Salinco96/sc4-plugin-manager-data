@@ -3,21 +3,21 @@
     - "11241036"
   category: 660
   dependencies:
-    # - 11241036/textures
+    - 11241036/textures
+    - 11241036/various-lot-foundations-and-retaining-walls
     # - bsc/common-dependencies
+    - buddybud/jeronij-concrete-wall-addon-stairs
     - girafe/flora-pack
     - maxis/maxis-buildings-as-props
-    # - murimk/props-vol01
-    # - murimk/props-vol02
+    - murimk/props-vol01
+    - murimk/props-vol02
     # - nam/network-addon-mod
     - porkissimo/jenx-porkie-expanded-props
+    - ralphaelninja/plugin-landmark-props
     # - sfbt/essentials
-    # - Plugin Landmark Props: https://community.simtropolis.com/files/file/21286-plugin-landmark-props/
     # - Historic Harbour: https://community.simtropolis.com/files/file/29880-historic-harbor/ (You only need the file Fence - Iron small.dat.)
-    # - Jeronij Concrete Wall AddOn STAIRS: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/
-    # - Various Lot Foundations and Retaining Walls: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
-    # - WMP The Bridges of Shoreline County: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/
-    # - RDG Prop Pack 1: https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/
+    - robdragon/rdg-prop-pack-1
+    - wmp/the-bridges-of-shoreline-county
   description: >-
     There are some plaza plugins out there on the STEX, even a few modular ones, but with this set, I'm aiming at creating a fully comprehensive modular system of plazas which
 
@@ -129,7 +129,7 @@
   name: Modular Plaza System (MPS)
   optional:
     - memo/submenus-dll
-    # - SPOT: https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/
+    - rebalynnts/spot-simpeg-plop-orientation-tool
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
   url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps
   variants:
@@ -362,3 +362,152 @@
   warnings:
     - id: bulldoze
       on: disable
+
+11241036/textures:
+  authors:
+    - "11241036"
+  category: 100
+  description: >-
+    Short description:
+
+
+    This dependency package contains a set of textures derived from Maxis, BSC Textures Vol 1 and 2, and Pegasus' MTP for your lotting pleasure. The tables in this archive list all of them along with
+    their respective Instance ID's. The graphics should speak for themselves. Some of them are cropped overlay textures, intended to give you more possibilities while creating new lots. The farm field
+    textures are derived from Maxis, with two additional textures that have been slightly recolored. There are also new asphalt path (derived from Maxis textures) and gravel path (derived from
+    Pegasus) textures (the texture table will be uploaded soon).
+
+
+    This package also contains a few extra textures which are required for a few of my past uploads. All of them are derived from either NAM or Maxis.
+
+
+    Files being replaced:
+
+
+    This dependency package replaces some files I've made some years ago which are obsolete now. If you have downloaded and installed some of my plugins, please search for the files mentioned below
+    and remove them:
+
+
+    MPS Textures.dat: found in Modular Plaza System (MPS)
+
+
+    TBS_Textures.dat: found in Traffic Blocker Set
+
+
+    Dependencies:
+
+
+    This plugin requires no external dependencies.
+
+
+    Installation:
+
+
+    Please move or copy all existing files (except the Readme files) into the Plugins folder of your edition of SimCity 4. To uninstall this plugin, remove all files coming with this plugin from your
+    Plugins folder.
+
+
+    Credits:
+
+
+    I'm hereby giving special credit to those people creating the base textures serving as templates for these overlay textures in the first place:
+
+      -  Maxis: all textures from F85D4005-F85D43AA; all textures from F85C40B0-F85C40CA
+      -  The NAM team: F85C405A
+      -  All BSC people (unfortunately, I don't know who exactly created these textures): all textures from F85D4405-F85D45AA. SC4D Encyclopedia link: https://wiki.sc4devotion.com/index.php?title=BSC
+      -  Pegasus: all textures from F85D4605-F85D47AA
+
+    The uploading has been kindly permitted by @xxdita (in case of the BSC Textures) and @CorinaMarie (on behalf of Pegasus).
+
+
+    Support:
+
+
+    Please feel free to post issues, bug reports, and suggestions in this thread:
+  name: 11241036 Textures
+  url: https://community.simtropolis.com/files/file/33651-11241036-textures
+  variants:
+    default:
+      assets:
+        - docs:
+            - 11241036 Textures
+          id: simtropolis/33651-11241036-textures
+          include:
+            - 11241036 Textures
+      version: 3.0.0
+
+11241036/various-lot-foundations-and-retaining-walls:
+  authors:
+    - "11241036"
+  category: 600
+  description: >-
+    Disclaimer:
+
+
+    Please feel free to develop your own lots using these lot foundations/retaining walls, but if sharing them, please point to this files as a dependency.
+
+
+    Short description:
+
+
+    Some lots, when being placed on slopes, will either raise the floor beneath them, or cut into the hill. In the former case, a lot foundation is being created, in the latter, a retaining wall.
+    Perhaps it's just me, but I'm quite surprised that I've only found very few plugins with custom foundations and none at all with retaining walls; therefore, I've turned some textures by Maxis or
+    other authors (see below for credits) into lot foundations and retaining walls. This plugin therefore acts as a dependency for plugin developers, providing them with the necessary textures and
+    exemplar files.
+
+
+    Dependencies:
+
+
+    As it is a dependency itself, this plugin has no external dependencies.
+
+
+    Contained Files:
+
+
+    LotFoundations.dat: Contains textures and exemplar files for lot foundations. Mandatory.
+
+
+    RetainingWalls.dat: Contains textures and exemplar files for retaining walls. Mandatory.
+
+
+    TestLots.dat: This file contains some testing lots that have one texture from both files applied to them, allowing you to test them in-game. These lots do not cost anything and do not have any
+    special features. They are at the bottom of the park menu. If you do not want these lots, you can remove this file safely.
+
+
+    Other than that, this download contains a Readme (unfortunately, due to its size, this time only in English) containing all necessary informations, as well as a tutorial on how to actually switch
+    to another fondation/retaining wall and how to use lots if they are supposed to be placed on slopes.
+
+
+    Installation:
+
+
+    Move or copy all files in this archive into the Plugins folder of your copy of SimCity 4. To uninstall, just remove these files.
+
+
+    Compatibility:
+
+
+    This plugin should be compatible with all versions of SimCity 4. If you find out that this is not the case, please tell me.
+
+
+    Credits:
+
+
+    My special thanks go to all authors that kindly gave me permission to modify and share their work. At the moment, this ist just one person:
+
+      -  Mas71: His set of Japanese hill retaining walls surely is part of the plugins that I'm using most frequently. Now, their functionability is even being expanded.
+
+    Support:
+
+
+    Please feel free to post issues, bug reports, and suggestions in this thread:
+  name: Various Lot Foundations and Retaining Walls
+  url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls
+  variants:
+    default:
+      assets:
+        - id: simtropolis/31346-various-lot-foundations-and-retaining-walls
+          exclude:
+            # TODO: Option to include this
+            - TestLots.dat
+      version: 1.0.0

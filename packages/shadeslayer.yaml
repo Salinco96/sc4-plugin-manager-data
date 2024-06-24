@@ -1,0 +1,15 @@
+shadeslayer/scag-cargo-lots:
+  authors:
+    - ShadeSlayer
+  category: 700
+  name: SCAG Cargo Lots
+  url: https://community.simtropolis.com/files/file/23004-scag-cargo-lots-v10
+  variants:
+    default:
+      assets:
+        - docs:
+            - SCAG-CLSS
+          id: simtropolis/23004-scag-cargo-lots-v10
+          include:
+            - SCAG-CLSS
+      version: 1.0.0

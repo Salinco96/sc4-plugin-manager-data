@@ -1,0 +1,72 @@
+wmp/the-bridges-of-shoreline-county:
+  authors:
+    - DocRorlach
+    - d_j_p1
+  # dependencies:
+  #   - TODO: WMP Mega Props vol. 01 - Misc General Props and for the SC4D LEX Link
+  #   - TODO: WMP Essentials v1.0 and for the SC4D LEX Link
+  description: >-
+    The Bridges of Shoreline County, batte(re)d & lotted by DocRorlach WorkingMan BATtery
+
+
+    A series of eye-candy only bridges for both rural and urban areas. All bridges, with the exception of the transit-enabled version of the Wooden Bridge (5x1), are 1x1 lots with the respective
+    bridge off-set. The covered bridges and the standard wooden bridge are for heights up to 8m; the Hang Ten bridge can cover variable heights and even small rivers or bays. The Pont Tarielle and the
+    transit-enabled Wooden Bridge have a clearing height of 5m which is sufficient for cars but not for trucks or buses. Covered bridges have a clearing height of 7.5m. All lots come with a
+    transparent base, and should work well with ploppable water.
+
+
+    Lot Details and Information can be found in the readme. Read it.
+
+            Dependencies
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+
+    Required WMP Dependencies:
+
+      -  wmp_bridge_props_v2.dat (INCLUDED) (Models/props and custom paths for the TE bridge. It also contains the models for the Abteibruecke)
+      -  WMP Mega Props vol. 01 - Misc General Props and for the SC4D LEX Link
+      -  WMP Essentials v1.0 and for the SC4D LEX Link
+
+
+
+    Installation: Unzip the whole bundle, or COPY the "WMP" folder from the *.zip into your plugin folder. You don't need to keep the "_Documents" folder. To uninstall, bulldoze any instance of this
+    lot in your city, then remove the file(s) from your Plugins.
+
+
+    For further details, please read the provided readme AND IF you still have questions, ask @Tyberius06.
+
+
+    Credits:
+
+      -   Original Creditings: Thanks to everyone around the Pegasus site for their help with our first attempts at the BAT. Credit for the custom pathing of the wooden bridge goes to rivit, ever the expert.
+      -   Additional Credits:
+      -  DocRorlach and the WMP team and his associates for creating the models, props and the original lots.
+      -  David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+      -  Tyberius06 (STEX Custodian) and xxdita for the restoration/rehosting of these contents.
+
+
+
+     Support:
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested here or in the STEX Custodian General
+    Support Topic. Best include a screen-shot illustrating the problem.
+
+
+    (These very same lots can be/will be found on the LEX too, look for the WMP contents.)
+  name: WMP The Bridges of Shoreline County
+  url: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/wmp_bridges_readme.html
+            - _Documents/images/workingman_lottery.png
+            - _Documents/images/sc4t_footer2.png
+            - _Documents/images/bridges08.jpg
+            - _Documents/images/bridge7.jpg
+          id: simtropolis/26171-wmp-the-bridges-of-shoreline-county
+          include:
+            - WMP/Props/wmp_bridge_props_v2.dat
+            - WMP/DocRorlach/The Bridges of Shoreline County/WMP_Bridges_Lots_v2.dat
+      version: 2.0.0

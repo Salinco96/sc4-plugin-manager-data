@@ -2,14 +2,14 @@ shokthrpy/shk-parking-pack:
   authors:
     - shokthrpy
   category: 100
-  name: "SHK Parking Pack"
-  url: https://community.simtropolis.com/files/file/27563-shk-parking-pack/
+  name: SHK Parking Pack
+  url: https://community.simtropolis.com/files/file/27563-shk-parking-pack
   variants:
     default:
       assets:
-        - id: simtropolis/27563-shk-parking-pack
-          docs:
+        - docs:
             - Documentation
+          id: simtropolis/27563-shk-parking-pack
           include:
             - SHK_ParkingPack.dat
             - SHK_ParkingTextures_02_Overlays_White.dat
@@ -17,9 +17,9 @@ shokthrpy/shk-parking-pack:
       version: 1.2.0
     yellow-lines:
       assets:
-        - id: simtropolis/27563-shk-parking-pack
-          docs:
+        - docs:
             - Documentation
+          id: simtropolis/27563-shk-parking-pack
           include:
             - SHK_ParkingPack.dat
             - SHK_ParkingTextures_01_Overlays_Yellow.dat

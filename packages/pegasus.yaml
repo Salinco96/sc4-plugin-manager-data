@@ -2,14 +2,14 @@ pegasus/mtp-super-pack:
   authors:
     - Pegasus
   category: 120
-  name: "PEG MTP SUPER PACK"
+  name: PEG MTP SUPER PACK
   url: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
   variants:
     default:
       assets:
-        - id: simtropolis/20966-peg-mtp-super-pack
-          docs:
+        - docs:
             - _Documents/PEG Readmes
+          id: simtropolis/20966-peg-mtp-super-pack
           include:
             - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK
             # TODO: Add conditions
@@ -20,15 +20,14 @@ pegasus/mtp-super-pack:
 pegasus/security-fencing-kit:
   authors:
     - Pegasus
-  category: 120
-  name: "PEG Security Fencing Kit"
-  url: https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/
+  name: PEG Security Fencing Kit
+  url: https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit
   variants:
     default:
       assets:
-        - id: simtropolis/19338-peg-security-fencing-kit
-          docs:
+        - docs:
             - PEGPROD/MODs/Security Fencing
+          id: simtropolis/19338-peg-security-fencing-kit
           include:
             - PEGPROD/MODs/Security Fencing
       version: 1.0.0
