@@ -1,0 +1,52 @@
+mntoes/bosham-church:
+  authors:
+    - mntoes
+  category: 650
+  description: >-
+    Bosham Church, Established AD 850 and featured in the Bayeux tapestry depicting the visit of Harold II to the church.
+
+
+    Situated within the Diocese of Chichester (Uk) this is one of the earliest churches in Sussex.
+
+
+    Plop cost $5000.
+
+
+    Monthly cost $98
+
+
+    Installation: COPY/Extract the Mntoes parent folder from the *.zip into your Plugins folder. If you extracted the ~Documents folder into your plugins, too, it's highly recommended to keep it, but
+    move it out of the Plugins folder.
+
+
+    Please make sure that you first removed the original/former Mntoes Bosham Church.dat
+
+
+    To uninstall: bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+
+    For more information on the Bayeux Tapestry follow this link:-
+
+
+    http://www.bayeuxtapestry.org.uk/BayeuxContents.htm
+
+
+    Thanks go to Simfox for advice concerning texturing of the roof (much appreicated).
+
+
+    Enjoy
+
+
+    Mntoes.
+  name: Bosham Church
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2006/thumb-7787272f99ada78ee84c28914f533b44-Bosham%20Church%20Day.jpg
+  url: https://community.simtropolis.com/files/file/17530-bosham-church
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/Mntoes
+          id: simtropolis/17530-bosham-church
+          include:
+            - Mntoes/Bosham Church
+      version: 2.0.0

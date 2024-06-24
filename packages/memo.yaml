@@ -1,0 +1,56 @@
+memo/submenus-dll:
+  authors:
+    - memo
+    - Panda
+    - Null 45
+  category: 60
+  description: >-
+    A DLL plugin for SimCity 4 that
+
+      -  enables submenu functionality: This DLL is a dependency for other submenu-compatible plugins.
+      -  adds more than 50 standard submenus such as Plazas, Green Spaces, Sports and many more.
+      -  fixes the game's menu rendering issues caused by duplicate or missing menu icons.
+      -  implements Exemplar Patching functionality.
+
+    System requirements
+
+      -  SimCity 4, version 1.1.641 (the digital release) (more info)
+      -  Windows 7+ or Linux
+
+    Dependencies
+
+      -  SC4ResourceLoadingHooks DLL by @Null 45
+
+    Installation
+
+      -  Copy the DLLs into the top-level directory of either Plugins folder (place it directly in &lt;Documents&gt;\SimCity 4\Plugins or &lt;SC4 install folder&gt;\Plugins, not in a subfolder).
+      -  Copy the file submenu-essentials.dat and optionally the individual submenu files anywhere into your Plugins folder. You may skip installing an optional submenu if it contains neither Flora nor any sub-submenus. In that case, the buildings of that submenu will appear in the default top-level menu instead.
+
+    Alternatively, the mod can be installed with Sc4pac: memo:submenus-dll
+
+
+    Credits
+
+      -  Submenu icons created by @Panda
+      -  Exemplar Patching implemented in collaboration with @Null 45
+
+    Further information
+
+      -  The DLL dynamically creates new submenus by checking for some new exemplar properties, for example in the building exemplars of ploppable lots. This allows anyone to create additional submenus for their lot sets. The modding details are described in the Readme file.
+      -  List of Standard Submenus added by this mod.
+      -  Simtropolis discussion thread
+  features:
+    - submenus
+  name: Submenus DLL
+  repository: https://github.com/memo33/submenus-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.thumb.jpeg.b849d44b5fa1dc01e969a9deeff7a2dd.jpeg
+  url: https://community.simtropolis.com/files/file/36142-submenus-dll
+  variants:
+    default:
+      assets:
+        - id: github/memo33/submenus-dll
+          sha256: e485456f1a839082ecf4c57607f7fdb585681d59975e68127f902c5d6e210dec
+          size: 705607
+          url: https://github.com/{path}/releases/download/{version}/submenus-dll-{version}.zip
+          version: "1.1.3"
+      version: 1.1.3
