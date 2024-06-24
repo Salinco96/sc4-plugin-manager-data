@@ -2,6 +2,17 @@ joelmk2/dhl-air-freight-centre:
   authors:
     - JoelMk2
   category: 430
+  dependencies:
+    - girafe/flora-pack
+    - joelyboy911/scag-mega-dependency-1 # TODO: Only required for the airport themed lots
+    - mushymushy/hd-north-american-40ft-semi-trailers-vol01
+    - mushymushy/hd-north-american-53ft-semi-trailers-vol01
+    - mushymushy/hd-north-american-semi-truck-cabs-vol01
+    - pegasus/security-fencing-kit
+    - shadeslayer/scag-cargo-lots # TODO: Only required for the airport themed lots
+    - shokthrpy/shk-parking-pack
+    # https://community.simtropolis.com/files/file/27200-light-replacement-mod-lrm-v40-mega-pack/ # TODO: Only the props file required
+    # https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack # TODO: Only required for the airport themed lots
   description: >-
     My first foray back into custom content after ~ten years away from the game, this pack is a DHL-themed building set. My earlier mostly-airports content posted at @joelyboy911.
 
@@ -20,9 +31,7 @@ joelmk2/dhl-air-freight-centre:
     dependencies below. The original B777 model was made by pilotdaryl (adapted by me).
 
 
-    There are a number of dependencies for the lots. Sorry! Many of these are fairly common:
-
-             Name   Link   What     HD North American 53ft Semi Trailers Vol.1   HD North American 53ft Semi Trailers Vol.1 - Dependencies - Simtropolis   Props (trucks)     HD North American 40ft Semi Trailers Vol.1   HD North American 40ft Semi Trailers Vol.1 - Dependencies - Simtropolis   Props (trucks)     HD North American Semi Trucks Cabs   HD North American Semi Truck Cabs Vol.1 - Dependencies - Simtropolis   Props (trucks)     PEG Security Fencing   PEG Security Fencing Kit - SimPeg (PLEX) Files - Simtropolis   Props (fences)     SHK Parking Pack   SHK Parking Pack - Dependencies - Simtropolis   Props and Textures (parking)     LRM Light Poles   Light Replacement Mod (LRM) v4.0 Mega Pack - Graphical Mods - Simtropolis   Props (light poles - only the props file required)     Girafe Flora   SC4D LEX LEGACY - BSC VIP Girafe Flora Pack Version 3   Props (Plants / Trees)     Only required for the airport themed lots:     SCAG-CLSS Props   SCAG Cargo Lots v1.0 - Transportation - Simtropolis   Props (cargo stuff)     SCAG Mega Dependency 1   SCAG Mega Dependency #1   Props and Textures     LEX Legacy Ultimate Airport Pack   SC4D LEX Legacy Ultimate Airport Pack Version 1   Props and Textures
+    There are a number of dependencies for the lots. Sorry!
   name: DHL Air Freight Centre
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/665d910d47c40_DHL1.thumb.jpg.b3b98be0845f572406356d6507adb73d.jpg
   url: https://community.simtropolis.com/files/file/36278-dhl-air-freight-centre
