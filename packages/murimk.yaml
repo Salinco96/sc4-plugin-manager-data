@@ -1,9 +1,210 @@
-murimk/props-vol01:
+murimk/bike-lots:
   authors:
     - murimk
-  category: 100
+    - paeng
+  category: 700
   dependencies:
-    - paeng/pamu-bikes-inc
+    - murimk/bike-props
+    - pegasus/cdk3-sp-rail-fleet
+    - pegasus/mtp-super-pack
+    - pegasus/security-fencing-kit
+    - simgoober/mega-props-vol01
+  description: >-
+    There were these two guys with a faible for bicycles, dreaming how good it would be to have bikes roaming all over the sim-planet... better air, fewer fat people, new business opportunities... So
+    they put together their meager resources, leased a run down warehouse, started deforming metal... and built an empire!
+
+
+    LOTS
+
+
+    Industrials (plop)
+
+
+    * 5x3 PAMU Metalworks (Shelters, Stands etc.) - 74 I-M jobs
+
+
+    * 3x3 PAMU Manufacture (Custom Bikes) - 58 I-M jobs
+
+
+    Commercials (plop)
+
+
+    * 4x3 PAMU Headquarters - 42 CS$$ jobs
+
+
+    * 2x2 PAMU Retail Store - 9 CS$ jobs
+
+
+    * 2x2 PAMU Service and Repair - 12 CS$ jobs
+
+
+    * 2x1 Bike Couriers - 32 CS$ jobs
+
+
+    * 2x1 Second Hand / Repair Shop - 5 CS$ jobs
+
+
+    Bike Parking
+
+
+    * 1x1 Corner
+
+
+    * 1x1 Straight
+
+
+    * 1x1 Straight with one bad weather shelter
+
+
+    * 1x1 Straight with two bad weather shelters
+
+
+    * 1x1 PAMU Bike Rental Station
+
+
+    Park+Ride
+
+
+    * 2x1 Combined Car/Bike Parking - Capacity: 250
+
+
+    * 2x2 Combined Car/Bike Parking - Capacity: 400
+
+
+    The traffic switch is still from car to ped - but at least it *looks* as if some are arriving with their bikes, too...
+
+
+    Others
+
+
+    * 6x6 PAMU Traffic Kindergarten and Bike Training - Capacity: 50
+
+
+    Works like a real school, but for a limited number of students - so don't try to skimp on the rest of your education program...
+
+
+    All other stats like power, water, monthly costs etc. are indicated via the ingame menu.
+
+
+    The 'IND and COM' lots are in the 'Landmarks' menu.
+
+
+    The various 'Parking' lots are in the 'Traffic | Miscellaneous' menu.
+
+
+    The 'Traffic Kindergarten' is in the 'Education' menu.
+
+
+    They all have custom icons for easy identification.
+
+
+    DEPENDENCIES
+
+
+    * PEG MTP SUPER PACK
+
+
+    * BSC MEGA Props - SG Vol 01
+
+
+    Additional (for the industrial lots)
+
+
+    * PEG Security Fencing Kit
+
+
+    * PEG Rail-Fleet RESOURCE
+
+
+    It is assumed that you have * bldgprop vol1 and vol2 installed as well.
+
+
+    DEVELOPER NOTES
+
+
+    Many of the lots come in two flavors - urban and rural. You can use the sets together or just one of them. This goes for all the included lots - delete any you do not wish to use.
+
+
+    Just make sure you always keep the complete folder named *PAMU-Bikes_Resource* installed.
+
+
+    More detailed infos -e.g. on benefits, randomized and timed props etc.- in the included Read_Me.
+
+
+    RECOMMENDATION
+
+
+    To add bikes outside of the designated lots we recommended this set of major mode ploppables (optional):
+
+
+    * Bikes by NBVC
+
+
+    CREDITS
+
+
+    BATting: Murimk
+
+
+    LOTting and MODding: Paeng
+
+
+    The props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
+
+
+    SUPPORT
+
+
+    Should you need support for these items please visit the * PAMU Dev Thread with a History and many action-packed images :-)
+  name: PAMU Bikes Inc.
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2010/thumb-3d5619d3aecf37e1691f620299516324-stex1.jpg
+  url: https://community.simtropolis.com/files/file/25433-pamu-bikes-inc/
+  variants:
+    default:
+      assets:
+        - docs:
+            - PAMU_Bikes_v100
+          id: simtropolis/25433-pamu-bikes-inc
+          include:
+            - PAMU_Bikes_v100/PAMU_Bikes_Lots
+            - PAMU_Bikes_v100/PAMU-Bikes_Resource/KEEP_Common_Files
+      version: 1.0.0
+
+murimk/bike-mmps:
+  authors:
+    - murimk
+    - paeng
+  category: 670
+  dependencies:
+    - murimk/bike-props
+  description: >-
+    Murimk Bicycle MMPs
+
+
+    For questions or support please visit the 'PAMU Dev-Thread'. [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0]
+
+
+    A big thank you to Paeng for modding everything and setting up the MMP file!
+
+
+    Enjoy!
+  name: Murimk Bicycle MMPs
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2011/thumb-c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
+  url: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Bicycles_Readme
+          id: simtropolis/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp
+          include:
+            - Bikers_MMP.dat
+      version: 1.0.0
+
+murimk/bike-props:
+  authors:
+    - murimk
+  category: 120
   description: >-
     Murimk Bicycle Props
 
@@ -17,7 +218,7 @@ murimk/props-vol01:
       -  Bike Shelters (2 types, with various colors)
       -  Shop Signs (2 variations)
 
-    In addition to the single props you'll also find prop-families for most items, as well as a MayorMode Ploppable (MMP) set for the bikers.
+    In addition to the single props you'll also find prop-families for most items.
 
 
     All props are named with the prefix 'MUR' to easily locate them in LE.
@@ -29,44 +230,22 @@ murimk/props-vol01:
     NOTE: Props only - this package does not include any lots!
 
 
-    (There is a test-lot in the ReadMe folder for preview purposes only - you can safely delete it).
-
-
-    This is a standalone version of the props used for PAMU Bikes Inc. - if you have that set, you don't need this pack. The only difference is the included MMP set.
-
-
-    If you already have 'PAMU-Bikes' installed but want the MMP set: Download this pack, get the Bikers_MMP.dat file from the subfolder called 'Bikers' and put in the PAMU folder located in your
-    plugins folder.
-
-
     For questions or support please visit the 'PAMU Dev-Thread'. [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0]
 
 
-    A big thank you to Paeng for providing pictures for this prop pack, as well as modding everything and setting up the MMP file!
+    A big thank you to Paeng for providing pictures for this prop pack!
 
 
     Enjoy!
-
-
-    -Cori Edit: Fixed formatting and broken linky.
-  name: Murimk - Props Vol01 - Bicycle Props with Bikers MMP
+  name: Murimk Props Vol01 - Bicycle Props
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2011/thumb-c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
   url: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
   variants:
     default:
       assets:
         - docs:
-            - Murimk_Bicycle_Props/Bicycles_Readme/MUR_Bikes_ReadMe.txt
-            - Murimk_Bicycle_Props/Bicycles_Readme/mbp02.jpg
-            - Murimk_Bicycle_Props/Bicycles_Readme/mbp01.jpg
-          id: simtropolis/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp
+            - PAMU_Bikes_v100
+          id: simtropolis/25433-pamu-bikes-inc
           include:
-            - Murimk_Bicycle_Props/Family-Names.dat
-            - Murimk_Bicycle_Props/Signs/signs.dat
-            - Murimk_Bicycle_Props/Bike_Stands/stands-simple.dat
-            - Murimk_Bicycle_Props/Bike_Stands/stands-shop.dat
-            - Murimk_Bicycle_Props/Bike_Shelters/shelters.dat
-            - Murimk_Bicycle_Props/Bikes/bikes.dat
-            - Murimk_Bicycle_Props/Bikers/Bikers_MMP.dat
-            - Murimk_Bicycle_Props/Bikers/bikers.dat
-            - Murimk_Bicycle_Props/Bicycles_Readme/MUR_Bicycle-Props_Testlot_3a39c1b5.SC4Lot
+            - PAMU_Bikes_v100/PAMU-Bikes_Resource/PAMU-Bikes_Props
       version: 1.0.0

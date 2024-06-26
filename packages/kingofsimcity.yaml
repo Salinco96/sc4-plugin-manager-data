@@ -1,82 +1,9 @@
-kingofsimcity/supershk-fa3-parking-textures:
-  authors:
-    - kingofsimcity
-  category: 100
-  dependencies:
-    - kingofsimcity/supershk-mega-parking-textures
-    - shokthrpy/shk-parking-pack
-  description: >-
-    KOSC presents: SuperSHK+ FA3 Parking Textures
-
-
-    Introduction
-
-
-    Happy New Year! Need some irregularity in your lotting? SuperSHK is back with a plus and a whole assortment of FA3-aligned textures for you to play with.
-
-
-    Overview
-
-
-    This set contains at total of 482 new overlay textures.
-
-
-    SuperSHK+ takes the original set and adds quite a bit of additional support for FA3 angled pathways. Additionally, there are a host of extra textures included meant to patch some missing areas
-    from the first set.
-
-
-    Details
-
-
-    These textures are broken into 4 DATs. The included resource guide offers a slightly more detailed look at the different texture options offered here.
-
-
-    DAT 1 - Curbs: Contains an assortment of FA3 aligned curb pieces and connectors.
-
-
-    DAT 2 - Parking Transitions: Contains transitions and intersections between different parking types with FA3 curbs.
-
-
-    DAT 3 - Pseudo-FA3 (PFA3): Contains a set of FA3 aligned orthogonal parking spaces and a few basic transitions.
-
-
-    DAT 4 - Extras: Adds medians and additional support for S-Curves from the original set.
-
-
-    Install Instructions
-
-
-    Drop the files in your My Documents/SimCity 4/Plugins folder. These should show up under the overlay texture section in the lot editor and PIM-X.
-
-
-    Dependencies
-
-
-    NONE. This set is a dependency. Lotters that want to take full advantage of this set will need the SHK Parking Pack and base set:
-
-
-    Credit to shokthrpy for the original SHK set. Additional thanks goes out to rsc204 & rivit for their invaluable work with GoFSH (and Bender) and texture replacement - this set would not be
-    possible without their tools.
-  name: SuperSHK+ FA3 Parking Textures
-  url: https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/
-  variants:
-    default:
-      assets:
-        - docs:
-            - KOSC SP SuperSHK+.pdf
-          id: simtropolis/31423-supershk-fa3-parking-textures
-          include:
-            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_Transitions.dat
-            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_PFA3.dat
-            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_Curbs.dat
-            - SP SuperSHK+ FA3 Textures/SuperSHK+_Extras.dat
-      version: 1.0.0
-
 kingofsimcity/supershk-mega-parking-textures:
   authors:
     - kingofsimcity
   category: 100
   dependencies:
+    - kingofsimcity/supershk-mega-parking-textures
     - shokthrpy/shk-parking-pack
   description: >-
     KOSC presents: SuperSHK MEGA Parking Textures
@@ -172,24 +99,15 @@ kingofsimcity/supershk-mega-parking-textures:
 
     Enjoy!
   name: SuperSHK MEGA Parking Textures
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_01/cheese.thumb.jpg.e910c6e07f5fea3668a6d8e9b1e31a30.jpg
   url: https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/
   variants:
     default:
       assets:
-        - docs:
-            - ResourceGuide.pdf
-            - RemoveList.txt
-            - README.txt
-            - PIMXGroups.txt
-          id: simtropolis/31006-supershk-mega-parking-textures
+        - id: simtropolis/31006-supershk-mega-parking-textures
           include:
-            - SP SuperSHK MEGA Textures/SuperSHK_Ortho.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_Miscellaneous.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_Markings.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_Islands&Paths&Curbs.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_Extras.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_DTypes.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_Diagonals.dat
-            - SP SuperSHK MEGA Textures/SuperSHK_ComboPieces.dat
-            - Sample Lot/PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot
+            - SP SuperSHK MEGA Textures
+        - id: simtropolis/31423-supershk-fa3-parking-textures
+          include:
+            - SP SuperSHK+ FA3 Textures
       version: 1.0.1
