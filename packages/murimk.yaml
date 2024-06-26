@@ -205,9 +205,8 @@ murimk/bike-props:
   authors:
     - murimk
   category: 120
-  description: >-
+  description: |-
     Murimk Bicycle Props
-
 
     For all who wish to introduce biycle-related items to their cities, here is the prop pack just for you. It is organized in different packages containing the following:
 
@@ -220,21 +219,15 @@ murimk/bike-props:
 
     In addition to the single props you'll also find prop-families for most items.
 
-
     All props are named with the prefix 'MUR' to easily locate them in LE.
-
 
     The props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
 
-
     NOTE: Props only - this package does not include any lots!
-
 
     For questions or support please visit the 'PAMU Dev-Thread'. [https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0]
 
-
     A big thank you to Paeng for providing pictures for this prop pack!
-
 
     Enjoy!
   images:
@@ -251,4 +244,160 @@ murimk/bike-props:
           id: simtropolis/25433-pamu-bikes-inc
           include:
             - PAMU_Bikes_v100/PAMU-Bikes_Resource/PAMU-Bikes_Props
+      version: 1.0.0
+
+murimk/props-vol03:
+  authors:
+    - murimk
+  category: 120
+  description: >-
+    Murimk Prop Pack Vol03 - Industrials
+
+
+    Here is a prop pack containing more than 300 small and large props, designed to create great versatility in lotting and designing industry themed lots and sets. Included is a large range of
+    different industrial... stuff ;-)
+
+
+    LIST OF ITEMS
+
+
+    * Small Props - pallets, barrels, drums, hollow blocks, pipes, petrol tanks, girders, tires, cable drums, safety gear, trash containers, wooden fences - and more
+
+
+    * Large Props - sheds, garages, mobile offices, tents and warehouses
+
+
+    * Offset Props - short, long and diagonal offsets
+
+
+    * Industrial Fences - puzzle pieces of different sizes, orientations and offsets
+
+
+    * Filler Props (Dirt & Grunge Texture)
+
+
+    * Extender Props (Dirt & Grunge Texture)
+
+
+    Aldo included -
+
+
+    * 6 MMP sequences - containing most of the small props
+
+
+    DEPENDENCIES
+
+
+    None!
+
+
+    DEVELOPER NOTES
+
+
+    * All props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
+
+
+    * The props all have reduced bounding boxes (occupant size), to ensure maximum MMP 'paintability'.
+
+
+    * There are no XML files included in this pack, as most of these props are designed to be overhanging, and therefore should not be made into building exemplars. If you do wish to make them into
+    something other than props, you can fabricate exemplars in Reader, and refer them to the model in question (RKT1).
+
+
+    * Most of the small and large props come in many variations -
+
+
+    * orthogonal
+
+
+    * diagonal
+
+
+    * angled
+
+
+    * offset
+
+
+    * different colors
+
+
+    * The MMPs are divided into six groups -
+
+
+    1: Blue Drums, Barrels, Water- and Petrol Tank
+
+
+    2: Pallets, Pallet Bins, Hollow Blocks, Cement Bags
+
+
+    3: Iron Girders, Concrete- and PVC-Pipes
+
+
+    4: Electric Cables, Cable Drums, Propane Cylinders
+
+
+    5: Tires, Safety Items, Concrete Barriers
+
+
+    6: Mobile Office Waggons and Tents, Trash Container
+
+
+    * Find them at or near the end of the Mayor Menu with custom icons.
+
+
+    * All MMP sequences have a blind prop at the end.
+
+
+    * The MMPs are stored in a separate folder, and they are not packed together. That way, you can choose to omit any sequences you don't want in your game, to save menu space.
+
+
+    [box]Note: This Pack includes NO Lots![/box]
+
+
+    INSTALLATION
+
+
+    Unpack into the plugins folder (in 'My Documents').
+
+
+    All new props are packed into a resource dat. The lots are unpacked and kept in two different subfolders.
+
+
+    If you wish to use only some of the lots, just remove the unwanted lots from your plugin folder.
+
+
+    CREDITS
+
+
+    Although all props are batted by Murimk, this has really been a team project with efforts, input and brainstorming from the Nightowls: Paeng, Shokthrpy, Epicblunder and Craig-Abcvs.
+
+
+    The MMPs were modded by Epicblunder, Shokthrpy and Paeng.
+
+
+    SUPPORT
+
+
+    If you have comments or find yourself in need of support please visit:
+
+
+    NightOwl Productions
+
+
+    or
+
+
+    Murimk Productions
+  name: Murimk - Props Vol03 - Industrials
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2012/thumb-2958b100ed814cc1a30a8b19139aced8-.jpg
+  url: https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Murimk Productions/Murimk Prop Pack Vol03*
+          id: simtropolis/27698-murimk-props-vol03-industrials
+          include:
+            - Murimk Productions/Murimk Prop Pack Vol03*
       version: 1.0.0
