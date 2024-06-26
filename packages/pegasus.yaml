@@ -1,34 +1,8 @@
 pegasus/mtp-super-pack:
   authors:
     - Pegasus
-  category: 0
-  dependencies:
-    - pegasus/spam-super-resource-pack
+  category: 100
   description: >-
-    UPDATE: 04.07.2022 - The PEG_MTP_SUPER_TEXTURES_PACK.dat has been replaced by the all inclusive PEG-SUPER_TEXTURES.dat, which contains all, but the textures from the PEG SPAM Super Resource Pack
-    (PEG-SPAM_TEXTURES_RESOURCE_b200.dat), created and released by Pegasus from the entire collection (including: CDK and CDK3, CDK3-OWW, OWW2 and Marina, Utopia, CSK, PPonds etc...). This update
-    brings all these textures under one DAT (which actually already have held 2/3 of the textures created by Pegasus). Bear in mind this is only part one of a major update and clean-up of this
-    dependency pack focusing on the textures for now.
-
-
-    For the full list of texture contents please check the included *-index.jpg files.
-
-
-    Install: copy/extract the PEGPROD parent folder into your plugins. If you extracted the _Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the
-    Plugins folder.
-
-    In the _Documents folder you will find 2 other subfolders:
-
-      -  PEG Readmes: this folder will be the generic storage of all the readmes and images for the future updated PEGProd contents. This folder also contains the texture catalague index images of the base and overlay textures and the optional EU and RRW (Real-RailWay) texture overrides.
-      -  PEG Optional Texture Overrides: as a temporary solution it contains the PEG-SUPER_TEXTURES_EUOverride.dat and PEG-SUPER_TEXTURES_RRWOverride.dat files. To use either or both of the files, simply move/copy them into the main PEGPROD\Mountain Theme Pack\_MTP SUPER PACK\ folder, but make sure they load after the PEG-SUPER_TEXTURES.dat.
-
-    The v1.5 update is the first part of a collection wide update and cleanup focusing of the textures only. While the original textures and props where created by Pegasus and his team, this (and the
-    following) update was made by the @STEX Custodian (with the permission of Pegasus).
-
-
-    --------------------------------------------------------------------------------------------------------------------------------
-
-
     Faster than a speeding Llama... ( a really old one... with gout )...
 
 
@@ -91,11 +65,8 @@ pegasus/mtp-super-pack:
 
 
     All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
-
-
-    Moderator note (September 9th 2018):
-
-    File updated to version 1.02 from the old PLEX (thanks to @Tyberius06 for providing the updated files). The older v1.01 is available in the changelog section below.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2009/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   name: PEG MTP SUPER PACK
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   url: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
@@ -103,25 +74,19 @@ pegasus/mtp-super-pack:
     default:
       assets:
         - docs:
-            - _Documents/PEG Readmes/pspbrwse.jbf
-            - _Documents/PEG Readmes/product_image_324.jpg
-            - _Documents/PEG Readmes/PEG-SUPER_TEXTURES_RRWOverride-index.jpg
-            - _Documents/PEG Readmes/PEG-SUPER_TEXTURES_EUOverride-index.jpg
-            - _Documents/PEG Readmes/PEG SUPER TEXTURES_overlay-index.jpg
-            - _Documents/PEG Readmes/PEG SUPER TEXTURES_base-index.jpg
-            - _Documents/PEG Readmes/MTP_ResourceSuperPak_324.htm
+            - _Documents/PEG Readmes
           id: simtropolis/20966-peg-mtp-super-pack
           include:
+            - _MTP SUPER PACK
+          exclude: # TODO: Conditions
             - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
             - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
-            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK/PEG_MTP_SUPER_RESOURCE_PACK.dat
-            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK/PEG-SUPER_TEXTURES.dat
       version: 1.5.0
 
 pegasus/security-fencing-kit:
   authors:
     - Pegasus
-  category: 0
+  category: 120
   description: >-
     This resource pack is a collection of chain link fence props that can be used on any type of lot that requires security fencing. The props in this pack may be used by other developers to enhance
     the appearance of their lots.
@@ -134,6 +99,9 @@ pegasus/security-fencing-kit:
 
 
     All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2008/e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2008/e93137f82ebbfe8be9f12c8d2085c058-product_image1.jpg
   name: PEG Security Fencing Kit
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2008/thumb-e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
   url: https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/
@@ -151,7 +119,7 @@ pegasus/security-fencing-kit:
 pegasus/spam-super-resource-pack:
   authors:
     - Pegasus
-  category: 411
+  category: 100
   description: >-
     NOTE: You do not need this pack if youalready downloaded / plan to download the full
 
@@ -205,19 +173,15 @@ pegasus/spam-super-resource-pack:
 
 
     All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+  images:
+    - https://www.simtropolis.com/objects/screens/0030/23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   name: PEG SPAM Super Resource Pack
   thumbnail: https://www.simtropolis.com/objects/screens/0030/thumb-23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   url: https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/
   variants:
     default:
       assets:
-        - docs:
-            - spam-sp_plex_480.jpg
-            - readme_SuperPack.txt
-            - PEGPROD/SPAM/readme.txt
-          id: simtropolis/26079-peg-spam-super-resource-pack
+        - id: simtropolis/26079-peg-spam-super-resource-pack
           include:
-            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Textures/PEG-SPAM_TEXTURES_RESOURCE_b200.dat
-            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Resource/PEG-SPAM_RESOURCE-01_b200.dat
-            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Crops_Resource/PEG-SPAM_CROPS-01_RESOURCE_b200.dat
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack
       version: 1.0.0

@@ -48,30 +48,33 @@ shokthrpy/shk-parking-pack:
 
     Props, textures and modding by shokthrpy.
 
-      - Special thanks to my fellow Nightowls Paeng and Murimk, for without their knowledge, assistance, determination and occasional prod with a sharp stick would this have ever been possible.
-
-    Feedback & Support
-
-
-    I test my content as thoroughly as possible, but should you encounter any issues please visit my BAT thread at
-
-
-    http://www.simpeg.co...hp?topic=9391.0
+    Special thanks to my fellow Nightowls Paeng and Murimk, for without their knowledge, assistance, determination and occasional prod with a sharp stick would this have ever been possible.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/a3b963d4e8cd9e2f722ba2ee59825f88-main.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/36c48c9ed5fb1e0822dcf91e5c3297b6-textures.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/65d50153b8498fb8bbd0a763c6c02d47-vehicles.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/4e07fdb394387d56454c4bf5b976dc03-props.jpg
   name: SHK Parking Pack
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-a3b963d4e8cd9e2f722ba2ee59825f88-main.jpg
   url: https://community.simtropolis.com/files/file/27563-shk-parking-pack/
   variants:
-    default:
+    white-lines:
       assets:
         - docs:
-            - SHK Parking Pack/Documentation/readme.html
-            - SHK Parking Pack/Documentation/Images/timezones.jpg
-            - SHK Parking Pack/Documentation/Images/LE.jpg
-            - SHK Parking Pack/Documentation/Images/islands.jpg
-            - SHK Parking Pack/Documentation/Images/Header.jpg
+            - SHK Parking Pack/Documentation
           id: simtropolis/27563-shk-parking-pack
           include:
             - SHK Parking Pack/SHK_ParkingTextures_02_Overlays_White.dat
+            - SHK Parking Pack/SHK_ParkingPack.dat
+      name: White Lines
+      version: 1.2.0
+    yellow-lines:
+      assets:
+        - docs:
+            - SHK Parking Pack/Documentation
+          id: simtropolis/27563-shk-parking-pack
+          include:
             - SHK Parking Pack/SHK_ParkingTextures_01_Overlays_Yellow.dat
             - SHK Parking Pack/SHK_ParkingPack.dat
+      name: Yellow Lines
       version: 1.2.0
