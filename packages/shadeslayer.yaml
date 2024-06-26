@@ -1,7 +1,24 @@
 shadeslayer/scag-cargo-lots:
   authors:
     - ShadeSlayer
+    - joelyboy911
+    - cameron1991
+    - RustyXL
   category: 700
+  dependencies:
+    # - TODO: AC MEGA Textures vol1
+    # - TODO: AC Cargo Planes vol1
+    # - TODO: AC MEGA Props vol2
+    # - TODO: AC MEGA Props vol5
+    # - TODO: ACB-VLT Series 2
+    - cogeo/logistics-centres-megapack
+    - cogeo/warehouses-batprops-part-a
+    - cogeo/warehouses-batprops-part-b
+    - cycledogg/textures-vol01
+    - gascooker/mega-props-vol01
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - jestarr/mega-props-vol03
   description: >-
     About
 
@@ -85,8 +102,12 @@ shadeslayer/scag-cargo-lots:
 
 
     SCAG Team Room: www.sc4devotion.com/forums/index.php
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_04_2010/0b356be2061e8c1831a6dd3ba4c9f953-screenDay.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2010/0b356be2061e8c1831a6dd3ba4c9f953-screenNight.jpg
   name: SCAG Cargo Lots
-  url: https://community.simtropolis.com/files/file/23004-scag-cargo-lots-v10
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_04_2010/thumb-0b356be2061e8c1831a6dd3ba4c9f953-screenDay.jpg
+  url: https://community.simtropolis.com/files/file/23004-scag-cargo-lots-v10/
   variants:
     default:
       assets:

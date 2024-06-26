@@ -54,28 +54,28 @@ mgb204/convenience-stores:
   variants:
     default:
       assets:
-        - id: simtropolis/31244-mgb-convenience-store
-          exclude:
-            - path: Models/*DN*
-              condition:
+        - exclude:
+            - condition:
                 darknite: false
-            - path: Models/*MN*
-              condition:
+              path: Models/*DN*
+            - condition:
                 darknite: true
+              path: Models/*MN*
             - Models/*HD*
+          id: simtropolis/31244-mgb-convenience-store
       name: Default
       version: 1.0.1
     hd:
       assets:
-        - id: simtropolis/31244-mgb-convenience-store
-          exclude:
-            - path: Models/*DN*
-              condition:
+        - exclude:
+            - condition:
                 darknite: false
-            - path: Models/*MN*
-              condition:
+              path: Models/*DN*
+            - condition:
                 darknite: true
+              path: Models/*MN*
             - Models/*SD*
+          id: simtropolis/31244-mgb-convenience-store
       name: HD
       version: 1.0.1
 
@@ -158,15 +158,15 @@ mgb204/texture-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore/90-mgb204-texture-pack
-          include:
-            - MGB Texture Pack.dat
-          exclude: # TODO: Conditions
+        - exclude: # TODO: Conditions
             - US/MGB Texture Pack.dat
             - zMGB Texture Pack_RVT TSR Stret Override.dat
             - zMGB Texture Pack_SAM10 SD Override.dat
             - zMGB Texture Pack_SAM5 RVT Override.dat
             - zMGB Texture Pack_SAM6 DK Override.dat
             - zMGB Texture Pack_SAM7 BP Override.dat
+          id: sc4evermore/90-mgb204-texture-pack
+          include:
+            - MGB Texture Pack.dat
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
       version: 1.0.0

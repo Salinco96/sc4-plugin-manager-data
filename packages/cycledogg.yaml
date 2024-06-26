@@ -2,14 +2,14 @@ cycledogg/early-19th-century-high-wealth-houses:
   authors:
     - cycledogg
   category: 230
-  name: "CP Early 19th-Century High Wealth Houses"
+  name: CP Early 19th-Century High Wealth Houses
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          docs:
+        - docs:
             - ~Documents/*HiWealthHses*
             - ~Documents/*R$$$Houses*
+          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$$$Houses
       dependencies:
@@ -32,12 +32,12 @@ cycledogg/early-19th-century-medium-houses:
   authors:
     - cycledogg
   category: 220
-  name: "CP Early 19th-Century Medium Houses"
+  name: CP Early 19th-Century Medium Houses
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          docs: []
+        - docs: []
+          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$$MediumHouses
       dependencies:
@@ -60,12 +60,12 @@ cycledogg/early-19th-century-small-houses:
   authors:
     - cycledogg
   category: 210
-  name: "CP Early 19th-Century Small Houses"
+  name: CP Early 19th-Century Small Houses
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          docs: []
+        - docs: []
+          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$SmallHouses
       dependencies:
@@ -88,13 +88,13 @@ cycledogg/early-19th-century-tenements-pack:
   authors:
     - cycledogg
   category: 220
-  name: "CP Early 19th-Century Tenements"
+  name: CP Early 19th-Century Tenements
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          docs:
+        - docs:
             - ~Documents/*Tenements*
+          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$Tenements
       dependencies:
@@ -117,15 +117,15 @@ cycledogg/mega-props-civics:
   authors:
     - cycledogg
   category: 120
-  name: "BSC MEGA Props CP Civics"
+  name: BSC MEGA Props CP Civics
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - CP Civics*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - CP Civics*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -135,15 +135,15 @@ cycledogg/mega-props-houses:
   authors:
     - cycledogg
   category: 120
-  name: "BSC MEGA Props CP Houses"
+  name: BSC MEGA Props CP Houses
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - CP Houses*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - CP Houses*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -153,15 +153,15 @@ cycledogg/mega-props-industrials:
   authors:
     - cycledogg
   category: 120
-  name: "BSC MEGA Props CP Industrials"
+  name: BSC MEGA Props CP Industrials
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - CP Industrials*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - CP Industrials*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -171,15 +171,15 @@ cycledogg/mega-props-vol01:
   authors:
     - cycledogg
   category: 120
-  name: "BSC MEGA Props CP Vol01"
+  name: BSC MEGA Props CP Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - CP Vol01*
           docs:
             - Readme_BSC MEGA PropPack - CP Vol01.htm
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - CP Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -189,15 +189,15 @@ cycledogg/mega-props-vol02:
   authors:
     - cycledogg
   category: 120
-  name: "BSC MEGA Props CP Vol02"
+  name: BSC MEGA Props CP Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - CP Vol02*
           docs:
             - BSC MEGA Props CP Vol 02.htm
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - CP Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -207,14 +207,14 @@ cycledogg/textures-vol01:
   authors:
     - cycledogg
   category: 110
-  name: "BSC Texture Pack Cycledogg Vol01"
+  name: BSC Texture Pack Cycledogg Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol: []
+        - cleanitol: []
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC TexturePack Cycledogg V01b*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack

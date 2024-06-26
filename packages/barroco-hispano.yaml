@@ -189,3 +189,49 @@ barroco-hispano/agc-heavy-machinery-dlc:
       requirements:
         darknite: true
       version: 1.0.0
+
+barroco-hispano/agc-streets-dlc:
+  authors:
+    - Barroco Hispano
+  category: 120
+  description: |-
+    Thanks to @Bobelboy and @hugues aroux for the support.
+
+    This DLC contains props (Doesn't include lots).
+
+    Lot editor:
+
+    AGC_Props_St_
+
+    AGC_Subway_
+
+    I will update this DLC constantly so you must be on the lookout.
+
+    Includes Maxisnite and Darknite (Choose just one).
+
+    Scale of the models: 133% on all axes.
+
+    If you like my work, you can make a donation to fund my other projects!
+
+    https://www.paypal.com/donate/?hosted_button_id=WF9FDNHXCHDVU
+
+    Thanks to the few people who have donated to me.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/66303707e23c9_image(19).thumb.png.accf1a954189a245230d49266bfc597a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/6644d9331ae87_image(20).thumb.png.ac92f2537b572cf7dc0998b31fbd56d7.png
+  name: AGC - Streets DLC
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/66303707e23c9_image(19).thumb.png.accf1a954189a245230d49266bfc597a.png
+  url: https://community.simtropolis.com/files/file/36152-agc-streets-dlc/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36152-agc-streets-dlc#201344
+      requirements:
+        darknite: false
+      version: 3.0.0
+    darknite:
+      assets:
+        - id: simtropolis/36152-agc-streets-dlc#201345
+      requirements:
+        darknite: true
+      version: 3.0.0

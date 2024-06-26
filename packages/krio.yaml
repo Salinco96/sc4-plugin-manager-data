@@ -1,3 +1,52 @@
+krio/tennispalatsi:
+  authors:
+    - Krio
+  category: 360
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+  description: >-
+    Tennispalatsi is the largest cinema complex in Finland with 14 auditoriums. Originally built for Helsinki Olympics in 1937, building was first turned into car showroom before Helsinki hosted
+    olympics in 1952 and basketball games was played there. Tennis was played in newer Kisahalli. After the Olympics it was converted to department store and in 1993 it was converted to cinema complex
+    with museums, restaurants and small movie-themed shops.
+
+
+    In the SimCity it acts as static landmark. Despite the pictures, building has nightlights.
+
+
+    STATS
+
+    Lot size: 4x7
+
+    Plop Cost: 15 000 §
+
+    Monthly Cost: 150 §
+
+
+    Dependacies:
+
+    BSC Textures vol.1
+
+    BSC Textures vol.2
+
+
+    All feedback should go here instead: Krioworks at SimPeg
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/783c9f1491712288f56aa19efc71d9d1-tennari35.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/4bf2c1da37556636e98fad0c99360210-tennari36.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/0186f401c04991f1b85eb2140de6b0f1-tennari37.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2015/fff51c598ce91102e478eb3a4544d630-tennari38.jpg
+  name: Tennispalatsi
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2015/thumb-783c9f1491712288f56aa19efc71d9d1-tennari35.jpg
+  url: https://community.simtropolis.com/files/file/27353-tennispalatsi/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/27353-tennispalatsi
+          include:
+            - TG Tennispalatsi
+      version: 1.0.0
+
 krio/tg-krio-autotalo:
   authors:
     - Krio
@@ -81,9 +130,13 @@ krio/tg-krio-autotalo:
     Model and lot files: Krio
 
     Revision, readme, packaging and initial upload: Tyberius06
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6660c5ba604fa_TGKrioAutotalo-d.thumb.jpg.9a919612bb112d57a04fdaf4b7af5460.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6660c5bac3128_TGKrioAutotalo-n.thumb.jpg.84020fd420570d9cd3a04cba6499fae8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6660c5bb964b6_TGKrioAutotalo-PlopMenu.thumb.jpg.c6765e3b31c217309ee04bccd41b0b4f.jpg
   name: TG Krio Autotalo
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/6660c5ba604fa_TGKrioAutotalo-d.thumb.jpg.9a919612bb112d57a04fdaf4b7af5460.jpg
-  url: https://community.simtropolis.com/files/file/36289-tg-krio-autotalo
+  url: https://community.simtropolis.com/files/file/36289-tg-krio-autotalo/
   variants:
     default:
       assets:
@@ -99,11 +152,12 @@ krio/tg-krio-brand-plaza:
     - Krio
   category: 340
   dependencies:
+    # - AGC - Automobile DLC v6
+    # - AGC - Streets DLC v3
+    # - SC4D LEX Legacy - BSC Common Dependencies Pack v9a (and above)
+    - barroco-hispano/agc-streets-dlc
     - girafe/carpack-vol04
-    - SC4D LEX Legacy - BSC Common Dependencies Pack v9a (and above)
-    - AGC - Streets DLC v3
-    - AGC - Automobile DLC v6
-    - KOSC SuperSHK MEGA Parking Textures
+    - kingofsimcity/supershk-mega-parking-textures
   description: >-
     Fictious office building by Krio, based on 70's American brutalist style housing research company Brand, subsidary of Roxxon.
 
@@ -229,7 +283,14 @@ krio/tg-krio-brand-plaza:
     Model: Krio
 
     Lotting, readme, packaging and initial upload: Tyberius06
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b01081923_TGBrandPlaza-d1.thumb.jpg.a4afce4da2099679ae04041268381d7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b01135974_TGBrandPlaza-n1.thumb.jpg.de6659976cc024ec8d3d0f16c299183f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b011b7614_TGBrandPlaza-d2.thumb.jpg.5873e406343d4c94def9fa4fee4d144a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b01258271_TGBrandPlaza-n2.thumb.jpg.8fc7bc35ba0485cb49059f56cfa8aea7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b01329aa7_TGBrandPlaza-PlopMenu.thumb.jpg.6c8182159f95e10d15762b4a3b1618cb.jpg
   name: TG Krio Brand Plaza
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b01081923_TGBrandPlaza-d1.thumb.jpg.a4afce4da2099679ae04041268381d7d.jpg
   url: https://community.simtropolis.com/files/file/36290-tg-krio-brand-plaza/
   variants:
     default:
