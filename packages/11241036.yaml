@@ -329,7 +329,8 @@
       version: 2.0.0
     vortexture-cobblestone-1:
       dependencies:
-        - Vortexture: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+        - vortex/textures-vol01
+        - vortex/textures-vol02
       assets:
         - docs:
             - Readme Files
@@ -348,7 +349,8 @@
       version: 2.0.0
     vortexture-cobblestone-2:
       dependencies:
-        - Vortexture: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+        - vortex/textures-vol01
+        - vortex/textures-vol02
       assets:
         - docs:
             - Readme Files
@@ -372,7 +374,7 @@
 11241036/textures:
   authors:
     - "11241036"
-  category: 100
+  category: 110
   description: >-
     This dependency package contains a set of textures derived from Maxis, BSC Textures Vol 1 and 2, and Pegasus' MTP for your lotting pleasure. The tables in this archive list all of them along with
     their respective Instance ID's. The graphics should speak for themselves. Some of them are cropped overlay textures, intended to give you more possibilities while creating new lots. The farm field
@@ -441,7 +443,7 @@
 11241036/various-lot-foundations-and-retaining-walls:
   authors:
     - "11241036"
-  category: 600
+  category: 100
   description: >-
     Disclaimer:
 

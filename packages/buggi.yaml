@@ -1,11 +1,86 @@
-buggi/extra-cheats-dll:
+buggi/extra-cheats:
   authors:
     - Buggi
-  category: 60
-  name: "Buggi's Extra Cheats DLL"
+  category: 10
+  description: >-
+    The SimCity 4 Extra Cheats Plugin
+
+
+    Overview:
+
+
+    The SimCity 4 Extra Cheats Plugin was originally an internal SimCity 4 file, used by Maxis during the development phase to test the game before its release to the public. However, in the years
+    following the release of the game, Buggi, a prominent modder resident here at Simtropolis, contacted Maxis and was given permission to release this file to the public.
+
+
+    The extra cheats plugin adds many additional features to the game, such as the ability to plop any building or lot at will, the ability to easily set how much money is in your city's treasury and
+    even the ability to add snow to your terrains, as well as many other additional functions.
+
+
+    However, it should be kept in mind that this file was originally never intended to be released to the public. It was built for testing purposes only. As a result, it should be treated with
+    caution. Using this file incorrectly can lead to game instability and even crashes. No guarantees or comprehensive user guides can be provided with this file, if you choose to use it, you must do
+    so at your own risk.
+
+
+    How to use this file in the game:
+
+
+    After you install (see below), enter a city and press the key combination [CTRL] + [x] to open the cheat box. Right click anywhere within the cheat box, you will see a drop down list appear. You
+    can now select a cheat from the list by clicking on it. After you have selected a cheat, press enter to confirm your selection.
+
+
+    Below is a list of all known cheat codes enabled by this file (as well as the standard game cheats) and a description of their effects. As the effects of some cheats are unknown, not all cheats
+    have available descriptions.
+
+
+
+
+    UPDATE:
+
+
+    To fill in some unknowns Maxis has given me the details on a few of the missing descriptions.
+
+
+    Barstuck - Once invoked, all of your small commercial services (low-density 1x3 lots) start turning into coffee bars, and then they stay that way forever.
+
+
+    WatchMeMove - Enables animation stepping. After it is enabled, control-shift-alt-F11 and control-shift-alt-P implement animation stepping and pausing, respectively.
+
+
+    GP  - Enables or disables game pause when you switch to another application. This is useful for if you go away from the game and you want it to sleep while it is in the background.
+
+
+    Flora (on | off) | (preserve on | off) | (propogation on | off) | (blast <splat_count> <per_splat_count> )
+
+
+    Controls flora simulation parameters. By default, during city play flora simulation is on, preservation is off, and propogation is off. Preservation refers to the keeping of trees on land when the
+    land is developed. Propogation refers to the spreading of seeds and automatic creation of new flora life in the city.
+
+
+    Example(s)
+
+
+    Flora on
+
+
+    Flora preserve off
+
+
+    Flora propogation on
+
+
+    Flora blast 5 8 60
+
+
+    Installation Instructions:
+
+
+    Extract the file SimCity 4 Extra Cheats Plugin.dll to the root directory of your plugins folder. This means put the file in C:\...\My Documents\SimCity 4\Plugins. DO NOT put the file into a
+    sub-folder, it will only work if placed into the main directory. Then enter your game and follow the instructions above.
+  name: SimCity 4 Extra Cheats Plugin
+  url: https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/
   variants:
     default:
       assets:
         - id: simtropolis/21118-simcity-4-extra-cheats-plugin
-      url: https://community.simtropolis.com/files/file/21118-simcit-dlly-4-extra-cheats-plugin
       version: 1.0.0

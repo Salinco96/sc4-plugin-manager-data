@@ -1,0 +1,330 @@
+rsc204/koscs-supershk-mega-parking-for-tgn-swn:
+  authors:
+    - rsc204
+  category: 700
+  dependencies:
+    - kingofsimcity/supershk-mega-parking-textures
+    - kingofsimcity/supershk-fa3-parking-textures
+  description: >-
+    Are you currently using @kingofsimcity's excellent SuperSHK+ MEGA Parking Textures? Would you prefer them with TGN-compatible grasses? How about some custom sidewalk choices too? Otherwise,
+    perhaps you want to make a custom set just for your setup? Well now all this is possible, thanks to the generosity of KOSC.
+
+
+    For full details of SuperSHK+ MEGA Parking Textures, please see the original release, I won't duplicate it all here. Note that these files are intended to be a total replacement for both of these
+    packages:
+
+
+    Installation
+
+
+    Unlike the original mod, these have been re-packaged into an installer. This just makes installation way simpler and less prone to error, given the number of choices available (currently 24
+    different sets). By default they install into either your SWN or TGN folders, since the use of this download means you should at least be using one or the other. If you don't select either SWN or
+    TGN from the first options screen, the installer won't actually install anything.
+
+
+    Included is a resource guide containing a general breakdown of the set as well as a sample lot (found in the parks menu) and layout examples. There are also PIM-X groups included, for better
+    organization and some time saving while digging through this massive set!
+
+
+    These included resources are installed (optionally), to the following folder:
+
+    My Documents\SimCity 4\STEX_Downloads\KOSC SuperSHK Parking
+
+    This is to avoid clutter in your plugins folder.
+
+
+    Lotters, copy the contents of SSHK_PIMX_Groups.txt into your groups.ini file located in the PIM-X install directory. Note if you were using the previous release, this file supersedes the previous
+    one named "PIMXGroups.txt".
+
+
+    Thanks to KOSC again for allowing me to release these mods, based on his original textures / repository.
+  name: KOSC's SuperSHK+ MEGA Parking for TGN / SWN
+  url: https://community.simtropolis.com/files/file/31248-koscs-supershk-mega-parking-for-tgn-swn/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SSHK_PIMX_Groups.txt
+            - ResourceGuide.pdf
+            - RemoveList.txt
+            - readme.htm
+            - PavementType.bmp
+            - modern-wizard.bmp
+            - modern-header.bmp
+            - GrassType.bmp
+          id: simtropolis/31248-koscs-supershk-mega-parking-for-tgn-swn
+          include:
+            - TGN - SuperSHK Parking.dat
+            - System.dll
+            - SWN - SuperSHK Parking.dat
+            - PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot
+            - nsDialogs.dll
+      version: 3.0.0
+
+rsc204/mgb-convenience-store:
+  authors:
+    - rsc204
+  category: 300
+  dependencies:
+    - shokthrpy/shk-parking-pack
+    - kingofsimcity/supershk-mega-parking-textures
+    - rsc204/koscs-supershk-mega-parking-for-tgn-swn
+  description: >-
+    This package contains a small convenience store, with three model variations in a buildings family, along with lots to use them. Inside the "Models" folder, please ensure you remove 3 files you
+    will not need. Included are models for the following options:
+
+      -   HD (High Definition/Better Quality textures)
+      -   SD (Default texture quality)
+      -   DN (DarkNite, for users of SimFox's DarkNite mod)
+      -   MN (MaxisNite, for default lighting)
+
+    So for example, if you are using HD-MN, you should remove the files ending HD-DN, SD-DN and SD-MN, leaving only your preferred choice behind.
+
+
+    Using my Retail Signage Pack dependency, these stores will show randomly one of the installed Banner/Logo options.
+
+
+    3 Lots are included:
+
+      -   Stage 2 CS$$ 3x2
+      -   Stage 2 CS$$ 3x3 (Right Corner)
+      -   Stage 1 CS$$ 4x4.
+
+    Dependencies (Required for all Lots)
+
+      -  MGB Retail Signage Pack (RSP)
+      -  Girafe Urbanpack
+      -  Girafe Elms
+      -  Girafe Ashes
+      -  VIP Vnaoned Post Office
+    Note: only the file Grfe_hedge_3m.dat from this package is required.
+      -  SHK Parking Pack:
+
+    Each lot has 54 CS$$ Jobs and stats generated using PIM-X. For full details see the included readme file.
+
+
+    Ensure you keep the file MGB_ConvenienceStore_Resource.dat or these lots will not function correctly. But you can discard any of the lots you may not wish to use.
+  name: MGB - Convenience Store
+  url: https://community.simtropolis.com/files/file/31244-mgb-convenience-store/
+  variants:
+    default:
+      assets:
+        - docs:
+            - MGB Convenience Store.jpg
+            - MGB Convenience Store Readme.htm
+          id: simtropolis/31244-mgb-convenience-store
+          include:
+            - MGB_ConvenienceStore_Resource.dat
+            - Models/MGB_ConvenienceStore_SD-MN.dat
+            - Models/MGB_ConvenienceStore_SD-DN.dat
+            - Models/MGB_ConvenienceStore_HD-MN.dat
+            - Models/MGB_ConvenienceStore_HD-DN.dat
+            - Lots/CS$$2_3x3_MGB Convenience Store_05387230.SC4Lot
+            - Lots/CS$$2_3x2_MGB Convenience Store_3538721e.SC4Lot
+            - Lots/CS$$1_4x4_MGB Convenience Store_55377e3b.SC4Lot
+      version: 1.0.1
+
+rsc204/mgb-maxis-texture-replacement-dev-kit:
+  authors:
+    - rsc204
+  category: 60
+  description: >-
+    The MTRDK came about as part of my earlier Sidewalk/Texture modding, but it's as useful today as it's always been. This updated version relies solely on the Automation options which are included
+    in Rivit's excellent GoFSH tool (required).
+
+
+    This download allows you to automate the creation of one or more of the following texture overrides:
+
+      -  Sidewalk Mod
+      -  Maxis Texture Replacer
+      -  Extended Maxis Texture Replacer
+
+    If you are creating a new Sidewalk Mod, using this download you can create a working override with just a few clicks. This is perfect for trying out multiple styles or changes without having to
+    convert or pack textures and the like manually.
+
+
+    But the core function is to take an existing sidewalk and extend it, so that it covers the vast number of lots that use the Maxis LE Textures.
+
+
+
+
+    This image shows a city which is mostly comprised of Maxis lots, whilst a custom sidewalk has been installed, this is how things look without an additional Maxis (Lot Editor) Texture replacer.
+
+
+
+
+    Here is the same scene, but including the MTRDK and MTRDK Extended replacements to match the sidewalk. Note how the Plaza and many commercial lots now have base textures that match the installed
+    sidewalk, as do the driveways and other parts of the residential lots. In short this small mod, (otherwise included as part of SWN), can be used to both create an initial sidewalk mod and/or to
+    better unify your game by adding your sidewalk to the Maxis lot textures which make use of them.
+
+
+    I've kept this mod as a separate download, because many people might just want to update their own sidewalks, without using the entire SWN package. But it may also be useful for SWN users who'd
+    like to customise these textures from their defaults.
+
+
+    For example, the Paeng Sandstone (PSS) version of SWN is based around using all three sidewalk wealth textures. But Paeng's Sidewalks mod includes the ability to customise which wealth texture is
+    used for each wealth. You can set GoFSH to mirror how you are using the three different wealths, to create MTRDK files that better match your personal setup. Of course, this process will work with
+    any sidewalk or even textures you can find/make yourself, to create a game-ready mod using them.
+
+
+    INSTALLATION
+
+
+    It is very important that you extract the contents of the included .zip file into a single folder and that you do not change or alter the file/folder structure in any way.
+
+
+    The extracted files are known as a repository, which includes all the resources you need for use with GoFSH, so it can build your custom mod for you.
+
+
+    Using the Repository (Instructions)
+
+      -  Run GoFSH and Click on the Run Script option from the main interface.
+      -  Click on Select Buildfile, you need to tell GoFSH where the script from the download is on your computer and select it.
+      -  Click on Select Textures
+    The first thing you need is between one and three sidewalk textures, if using an existing mod this post details how to extract the textures from your sidewalk mod to use with this process. But you
+    can simply click the Paving ? buttons to select any BMP texture to use for each of the three Sidewalks:
+
+      -  At this point you can click on Start Build and GoFSH will create your custom mod.
+    The created .dat files will appear in the same folder where you extracted the repository.
+
+
+    Please see here for full step-by-step instructions on setting up and running GoFSH scripts, including links to a video tutorial.
+
+
+    Note, the script MTRDK.txt by default only creates the MTRDK textures, if you want to create the base sidewalk mod also, you must open the script and remove the ' characters from the twelve lines
+    under Build Sidewalk Mod. The ' tells GoFSH to ignore anything on the same line after it when reading the scripts. Essentially adding one to a line of the script disables that line, whereas
+    removing them enables them again. Since these are also used to add helpful notes to the script, be careful not to accidentally enable those. But it provides a simple way to edit the script so you
+    only build what you want.
+
+
+    Need Assistance?
+
+
+    Having problems and need some help? Or otherwise have feedback on my modding? Then please visit my threads at either SC4D (MGB's Mods and other stuff) or Simtropolis (MGB's Lot and Mod Shack)
+    where I'll do my best to help.
+  name: MGB - Maxis Texture Replacement Dev Kit.
+  url: https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Build MTRDK.txt
+            - MTRDK/7AB50E44-0986135E-26252004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-26252004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-261E2004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-261E2004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-25B02004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-25B02004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-25AF2004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-25AF2004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-25AE2004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-25AE2004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-253D2004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-253D2004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-253A2004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-253A2004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-25352004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-25352004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-25342004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-25342004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-252F2004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-252F2004-C0.bmp
+            - MTRDK/7AB50E44-0986135E-25262004-D0.bmp
+            - MTRDK/7AB50E44-0986135E-25262004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26353004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26353004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26343004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26343004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26333004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26333004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26323004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26323004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26313004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26313004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26303004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-26303004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-262F3004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-262F3004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-262E3004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-262E3004-C0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-258E3004-D0.bmp
+            - MTRDK/3_Base Extended/7AB50E44-0986135E-258E3004-C0.bmp
+            - MTRDK/3_Base/7AB50E44-0986135E-258F2004-D0.bmp
+            - MTRDK/3_Base/7AB50E44-0986135E-258F2004-C0.bmp
+            - MTRDK/0_Sidewalks/7AB50E44-1ABE787D-08200004-D0.bmp
+            - MTRDK/0_Sidewalks/7AB50E44-1ABE787D-08200004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-26263004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-26263004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-26220004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-26220004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25FA0004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25FA0004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F90004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F90004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F80004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F80004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F70004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F70004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F60004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F60004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F50004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25F50004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-259F3004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-259F3004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-259E3004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-259E3004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-259D3004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-259D3004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-253C3004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-253C3004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-253B3004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-253B3004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-252D3004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-252D3004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25283004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25283004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25223004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25223004-C0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25213004-D0.bmp
+            - MTRDK/$$$/7AB50E44-0986135E-25213004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-26241004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-26241004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25C11004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25C11004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25C01004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25C01004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25BF1004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25BF1004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25391004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25391004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25381004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25381004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25371004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25371004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25331004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25331004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25311004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25311004-C0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25291004-D1.bmp
+            - MTRDK/$/7AB50E44-0986135E-25291004-D0.bmp
+            - MTRDK/$/7AB50E44-0986135E-25291004-C1.bmp
+            - MTRDK/$/7AB50E44-0986135E-25291004-C0.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-D3.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-D2.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-D1.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-D0.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-C3.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-C2.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-C1.bmp
+            - MTRDK/3_Base Extended/Multi-FSH/7AB50E44-0986135E-258E3004-C0.bmp
+            - MTRDK/3_Base/$$$/7AB50E44-0986135E-26060004-D0.bmp
+            - MTRDK/3_Base/$$$/7AB50E44-0986135E-26060004-C0.bmp
+            - MTRDK/3_Base/$/7AB50E44-0986135E-25901004-D0.bmp
+            - MTRDK/3_Base/$/7AB50E44-0986135E-25901004-C0.bmp
+            - MTRDK/0_Sidewalks/$$$/7AB50E44-1ABE787D-08300004-D0.bmp
+            - MTRDK/0_Sidewalks/$$$/7AB50E44-1ABE787D-08300004-C0.bmp
+            - MTRDK/0_Sidewalks/$/7AB50E44-1ABE787D-08100004-D0.bmp
+            - MTRDK/0_Sidewalks/$/7AB50E44-1ABE787D-08100004-C0.bmp
+          id: simtropolis/30033-mgb-maxis-texture-replacement-dev-kit
+          include: []
+      version: 2.0.0

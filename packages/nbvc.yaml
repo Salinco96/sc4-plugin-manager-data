@@ -1,0 +1,19 @@
+nbvc/bikes:
+  authors:
+    - nbvc
+  category: 20
+  description: |-
+    Bikes for the mayor menu.
+
+    You can change the color and direction of a bike with additional clicks on the same bike.
+
+    The bikes can also be used as props in the Lot-Editor for your custom lots.
+  name: Bikes
+  url: https://community.simtropolis.com/files/file/24859-bikes/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/24859-bikes
+          include:
+            - NBVC_Bikes
+      version: 1.0.0

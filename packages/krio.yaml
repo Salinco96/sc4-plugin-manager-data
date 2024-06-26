@@ -104,65 +104,133 @@ krio/tg-krio-brand-plaza:
     - AGC - Streets DLC v3
     - AGC - Automobile DLC v6
     - KOSC SuperSHK MEGA Parking Textures
-  description: |-
+  description: >-
     Fictious office building by Krio, based on 70's American brutalist style housing research company Brand, subsidary of Roxxon.
+
 
     Growable Version CAM Stage 11:
 
+
     Lot size: 4 x 2 tiles
+
     Building style(s): Building: Commercial,Style: Euro, Style: Huston, Style: Chicago, Style: New York, Building: CO$$, CAM: Co$$ CAMeLot, CAM: Co$$ Stage 11
+
     Growth stage: 11
+
     Occupants: CO-$$ : 3280
+
     Bulldoze cost: § 1939
+
     Building Value: § 22927
+
     Construction Time: 193 days
+
     Max. Fire Stage: 40
+
     Power consumption: 66 MWh/month
+
     Water consumption: 666 Gallons/month
+
     Air pollution: 13 over 5 tiles
+
     Water pollution: 13 over 6 tiles
+
     Garbage pollution: 6 over 0 tiles
+
 
     Growable Version Regular Stage 8:
 
+
     Lot size: 4 x 3 tiles
+
     Building style(s): Building: Commercial,Style: Euro, Style: Huston, Style: Chicago, Style: New York, Building: CO$$
+
     Growth stage: 8
+
     Occupants: CO-$$ : 2798
+
     Bulldoze cost: § 1939
+
     Building Value: § 19558
+
     Construction Time: 193 days
+
     Max. Fire Stage: 40
+
     Power consumption: 56 MWh/month
+
     Water consumption: 569 Gallons/month
+
     Air pollution: 11 over 5 tiles
+
     Water pollution: 11 over 6 tiles
+
     Garbage pollution: 5 over 0 tiles
+
 
     Ploppable Version:
 
+
     Lot size: 4 x 2 tiles
+
     Menu position: Building: Landmark,Building: CO$$
+
     Jobs: CO-$$ : 1931
+
     Plop cost: § 25000
+
     Bulldoze cost: § 1939
+
     Monthly cost: § 0
+
     Park effect: over tiles
+
     Landmark effect: over tiles
+
     Max. Fire Stage: 40
+
     Power consumption: 39 MWh/month
+
     Water consumption: 396 Gallons/month
+
     Air pollution: 7 over 5 tiles
+
     Water pollution: 7 over 6 tiles
+
     Garbage pollution: 4 over 0 tiles
+
+
+    Installation
+
+    COPY/Extract the Team Grater and CAM* parent folders from the *.zip into your Plugins folder. If you extracted the ~Documents folder into your plugins, too, it's highly recommended to keep it, but
+    move it out of the Plugins folder.
+
+    *Bear in mind, that with the Project ZIP efforts the CAM (Colossus Addon Mod) related LOTs are having a dedicated folder for now on.
+
+    If you play with the CAM lot, make sure that you kept the TG_Brand-Plaza01-0x5ad0e817_0x29d24ef9_0x30000.SC4Model in the Team Grater/Krio/TG Brand Plaza folder or elsewhere in your plugins, as it
+    is essential to avoid an ugly brown box.
+
+
+    To uninstall: bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+
+    Dependencies:
+
+      -  SC4D LEX Legacy - BSC Common Dependencies Pack v9a (and above)
+      -  BSC-VIP Girafe Urbanpack (CarPack vol04) vol01 (Grfe_Props_Pack_Urbanpack.dat)
+      -  AGC - Streets DLC v3
+      -  AGC - Automobile DLC v6
+      -  KOSC SuperSHK MEGA Parking Textures
+      -  Colossus Addon Mod 2.1.0 - only if you want to use the Stage 11 CAM lot.
 
     Credits:
 
+
     Model: Krio
+
     Lotting, readme, packaging and initial upload: Tyberius06
   name: TG Krio Brand Plaza
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/6661b01081923_TGBrandPlaza-d1.thumb.jpg.a4afce4da2099679ae04041268381d7d.jpg
-  url: https://community.simtropolis.com/files/file/36290-tg-krio-brand-plaza
+  url: https://community.simtropolis.com/files/file/36290-tg-krio-brand-plaza/
   variants:
     default:
       assets:
