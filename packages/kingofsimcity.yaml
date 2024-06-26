@@ -1,8 +1,10 @@
 kingofsimcity/supershk-fa3-parking-textures:
   authors:
     - kingofsimcity
-    - shokthrpy
-  category: 110
+  category: 100
+  dependencies:
+    - kingofsimcity/supershk-mega-parking-textures
+    - shokthrpy/shk-parking-pack
   description: >-
     KOSC presents: SuperSHK+ FA3 Parking Textures
 
@@ -60,16 +62,22 @@ kingofsimcity/supershk-fa3-parking-textures:
   variants:
     default:
       assets:
-        - id: simtropolis/31423-supershk-fa3-parking-textures
+        - docs:
+            - KOSC SP SuperSHK+.pdf
+          id: simtropolis/31423-supershk-fa3-parking-textures
           include:
-            - SP SuperSHK+ FA3 Textures
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_Transitions.dat
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_PFA3.dat
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_Curbs.dat
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_Extras.dat
       version: 1.0.0
 
 kingofsimcity/supershk-mega-parking-textures:
   authors:
     - kingofsimcity
-    - shokthrpy
-  category: 110
+  category: 100
+  dependencies:
+    - shokthrpy/shk-parking-pack
   description: >-
     KOSC presents: SuperSHK MEGA Parking Textures
 
@@ -168,9 +176,20 @@ kingofsimcity/supershk-mega-parking-textures:
   variants:
     default:
       assets:
-        - id: simtropolis/31006-supershk-mega-parking-textures
+        - docs:
+            - ResourceGuide.pdf
+            - RemoveList.txt
+            - README.txt
+            - PIMXGroups.txt
+          id: simtropolis/31006-supershk-mega-parking-textures
           include:
-            - SP SuperSHK MEGA Textures
-          exclude:
-            - "*SPSample*"
+            - SP SuperSHK MEGA Textures/SuperSHK_Ortho.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_Miscellaneous.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_Markings.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_Islands&Paths&Curbs.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_Extras.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_DTypes.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_Diagonals.dat
+            - SP SuperSHK MEGA Textures/SuperSHK_ComboPieces.dat
+            - Sample Lot/PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot
       version: 1.0.1

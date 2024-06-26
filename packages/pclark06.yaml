@@ -1,26 +1,34 @@
+pclark06/mega-props-vol01:
+  authors:
+    - pclark06
+  category: 100
+  description: Mega Prop Pack. This has props for future uploads.
+  name: PC Mega Props 1
+  url: https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/32952-pc-mega-props-vol-1
+          include:
+            - PC Mega Props 1
+      version: 1.0.1
+
 pclark06/mega-props-vol02:
   authors:
     - pclark06
-  category: 120
+  category: 100
   description: |-
     Mega props 2. A dependency for past and future releases.
 
     Includes:
-    Auto repair signs
-    Bank signs
-    Car Dealer Signs
-    Cars
-    Gas Canopies from rural gas sets
-    Hotel Signs
-    New Billboards
-    RV Props from the previous RV Set Release
-
-    1.021 (11/2021)
-
-    Added new gas canopies for future releases.
-    Ampol
-    Nomnom purple canopy (Hawaiian Gas Station update)
-    United Petroleum
+      - Auto repair signs
+      - Bank signs
+      - Car Dealer Signs
+      - Cars
+      - Gas Canopies from rural gas sets
+      - Hotel Signs
+      - New Billboards
+      - RV Props from the previous RV Set Release
   name: PC Mega Props 2
   url: https://community.simtropolis.com/files/file/33533-pc-mega-props-2/
   variants:
@@ -31,36 +39,21 @@ pclark06/mega-props-vol02:
             - PC Mega Props 2
       version: 1.0.21
 
-pclark06/mega-props-vol01:
-  authors:
-    - pclark06
-  category: 120
-  description: This pack includes new signs, but lots can be found above.
-  name: PC Mega Props Vol. 1
-  url: https://community.simtropolis.com/files/file/32952-pc-mega-props-vol-1/
-  variants:
-    default:
-      assets:
-        - id: simtropolis/32952-pc-mega-props-vol-1
-          include:
-            - PC Mega Props 1
-      version: 1.0.1
-
-pclark06/pc-mgb-convenience-stores-global-expansion:
+pclark06/mgb-convenience-stores:
   authors:
     - pclark06
   category: 300
   dependencies:
-    - buggi/simcity-4-extra-cheats-plugin
-    - rsc204/mgb-convenience-store
-    - pclark06/pc-mega-props-vol-1
-    - pclark06/pc-mega-props-2
-    - shokthrpy/shk-parking-pack
+    - girafe/carpack-vol01-02-remaster
+    - girafe/flora-pack # Beech, Birch, Feather Grass, Hedges, Linden, Maple, Poplar, Rowan
     - kingofsimcity/supershk-mega-parking-textures
-    - kingofsimcity/supershk-fa3-parking-textures
+    - mgb204/convenience-stores
+    - pclark06/mega-props-vol01
+    - pclark06/mega-props-vol02
     - rretail/mega-props-vol01
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
+    - shokthrpy/shk-parking-pack
   description: >-
     This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
     props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
@@ -68,417 +61,77 @@ pclark06/pc-mgb-convenience-stores-global-expansion:
     and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
     Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
 
-        UK     ASDA petrol
-    B&M     EuroGarages/Shell     Iceland
+    UK
+      - ASDA petrol
+      - B&M
+      - EuroGarages/Shell
+      - Iceland
+      - Morning, Noon, and Night (taken over by Scotmid in the mid-2000s)
+      - Poundland
+      - Poundstretcher
+      - Scotmid
 
-    Morning, Noon, and Night (taken over by Scotmid in the mid-2000s)     Poundland     Poundstretcher     Scotmid         Benelux     Avia     Delhaize/Q8     Jumbo     Plus
-        Canada     Bulk Barn     Lawton Drugs     Mac's/Circle K pumps     Needs Convenience/Shell
-        Italy     Conad     CRAI     Eurospin
-    Famila (forgot to add this so it's in zip file now)     IP petrol station
-        Iberia (Spain/Portugal)     Galp/Tangerina     Continente     Froiz     Dia     Eroski     Repsol/Repshop     Cepsa/Depaso     Minipreco
-        Scandinavia (Nor/Icl/Swe/Den)     Rema 1000 (DEN/NOR)     Pressbryan (SWE)     Preem (SWE)     Bonus (ICL)     Kiwi (DEN/NOR)     Handlarn (SWE)     Narvesen (NOR)     Bunnpris (NOR)     Joker (NOR)     Olis (ICL)     N1/Nesti (ICL)     Willys (SWE)
-        Caribbean - mostly Puerto Rican brands     Amigo     Pueblo     Econo     Puma/Super7
-        Asia-Australia     CU (Korea)     Cheers/Esso (Singapore)     FairpriceXpress/Esso (Singapore)     Seiyu (Japan)     NightOwl (AU)
+    Benelux
+      - Avia
+      - Delhaize/Q8
+      - Jumbo
+      - Plus
 
-    Dependencies
+    Canada
+      - Bulk Barn
+      - Lawton Drugs
+      - Mac's/Circle K pumps
+      - Needs Convenience/Shell
 
-      -  MGB Convenience Stores and any dependencies with that
-      -  BSC - VIP Girafe Carpack
-      -  PC Mega Prop Pack 1
-      -  PC Mega Prop Pack 2
-      -  SHK Parking Pack
-      -  SuperSHK MEGA Parking Textures 1.0.1
-      -  SuperSHK + FA3 Parking Textures
-      -  RR Mega Prop Pack 1
-      -  RR Mega Prop Pack 2
-      -  RR Mega Prop Pack 3 (additional props needed for Esso and Shell canopies)
-      -  BSC - VIP Girafe Trees/Shrubs
-      -  Beech Trees
-      -  Birch Trees
-      -  Feather Grass
-      -  Hedges
-      -  Linden Trees
-      -  Maple Trees
-      -  Poplar Trees
-      -  Rowan Trees
+    Italy
+      - Conad
+      - CRAI
+      - Eurospin
+      - Famila (forgot to add this so it's in zip file now)
+      - IP petrol station
+
+    Iberia (Spain/Portugal)
+      - Galp/Tangerina
+      - Continente
+      - Froiz
+      - Dia
+      - Eroski
+      - Repsol/Repshop
+      - Cepsa/Depaso
+      - Minipreco
+
+    Scandinavia (Nor/Icl/Swe/Den)
+      - Rema 1000 (DEN/NOR)
+      - Pressbryan (SWE)
+      - Preem (SWE)
+      - Bonus (ICL)
+      - Kiwi (DEN/NOR)
+      - Handlarn (SWE)
+      - Narvesen (NOR)
+      - Bunnpris (NOR)
+      - Joker (NOR)
+      - Olis (ICL)
+      - N1/Nesti (ICL)
+      - Willys (SWE)
+
+    Caribbean - mostly Puerto Rican brands
+      - Amigo
+      - Pueblo
+      - Econo
+      - Puma/Super7
+
+    Asia-Australia
+      - CU (Korea)
+      - Cheers/Esso (Singapore)
+      - FairpriceXpress/Esso (Singapore)
+      - Seiyu (Japan)
+      - NightOwl (AU)
   name: PC MGB Convenience Stores Global Expansion
   url: https://community.simtropolis.com/files/file/35031-pc-mgb-convenience-stores-global-expansion/
   variants:
     default:
       assets:
-        - docs: []
-          id: simtropolis/35031-pc-mgb-convenience-stores-global-expansion
+        - id: simtropolis/35031-pc-mgb-convenience-stores-global-expansion
           include:
-            - PC MGB Convenience Stores Global Expansion/UK/PC Scotmid Coop UK-0x5ad0e817_0xaf3537d7_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC Scotmid Coop Banner UK-0x6534284a-0xbf2aa679-0xcf3d25b3.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC Poundstretcher UK-0x5ad0e817_0x4f353a85_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC Poundstretcher Banner UK-0x6534284a-0xbf2aa679-0x6f3d2604.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC Poundland UK-0x5ad0e817_0x6f353c1c_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC Poundland Banner UK-0x6534284a-0xbf2aa679-0xaf3d2618.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC Morning Noon And Night Banner-0x6534284a-0xbf2aa679-0xaf4e48c8.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC Morning Noon And Night Banner-0x5ad0e817_0xcf465f4e_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC Iceland UK-0x5ad0e817_0xaf353929_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC Iceland Banner UK-0x6534284a-0xbf2aa679-0x4f3d25dd.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC EuroGarages Banner-0x6534284a-0xbf2aa679-0xcf50ef6b.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC EuroGarages Banner-0x5ad0e817_0xf49064b_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC BM UK-0x5ad0e817_0xef3538ce_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/PC BM Banner UK-0x6534284a-0xbf2aa679-0x4f3d25c4.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC Asda Banner UK-0x6534284a-0xbf2aa679-0x0f3d25a7.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/UK/PC Asda Banner UK-0x5ad0e817_0xf353780_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_Scotmid_ef3bcf5b.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_Poundstretcher_8f3d3d56.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_Poundland_0f3d3d7d.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_MorningNoonAndNight_2f4e4f5e.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_Iceland_ef4e5900.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_EuroGaragesShell_af50f6d6.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_BM_af3d3dc9.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/UK/CS$$1_4x4_ASDA_2f3bcf33.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Willys Banner SWE-0x6534284a-0xbf2aa679-0x0f47a13a.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Willys Banner SWE-0x5ad0e817_0xcf3fb822_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Rema 1000 Banner DEN-0x6534284a-0xbf2aa679-0xaf422346.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Rema 1000 Banner DEN-0x5ad0e817_0x8f3a377c_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Pressbryan Banner SWE-0x6534284a-0xbf2aa679-0x6f42823a.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Pressbryan Banner SWE-0x5ad0e817_0xaf3a6f98_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Preem Sign-0x6534284a-0xbf2aa679-0x4f425590.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Preem Sign-0x5ad0e817_0x4f3a3928_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Preem Banner SWE-0x6534284a-0xbf2aa679-0x2f4222a2.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Preem Banner SWE-0x5ad0e817_0x4f3a382f_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Olis Banner ICL-0x6534284a-0xbf2aa679-0x4f4f8bef.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Olis Banner ICL-0x5ad0e817_0xcf47a262_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Narvesen Banner NOR-0x6534284a-0xbf2aa679-0x4f47a058.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Narvesen Banner NOR-0x5ad0e817_0xaf3fb661_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC N1 Nesti Banner ICL-0x6534284a-0xbf2aa679-0x8f4f8bf8.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC N1 Nesti Banner ICL-0x5ad0e817_0x2f47a28b_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Kiwi Banner NOR-0x6534284a-0xbf2aa679-0xcf42a4e9.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Kiwi Banner NOR-0x5ad0e817_0xaf3abb8f_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Joker Banner NOR-0x6534284a-0xbf2aa679-0x2f47a062.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Joker Banner NOR-0x5ad0e817_0x4f3fb60a_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Handlarn Banner-0x6534284a-0xbf2aa679-0x0f44fcab.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Handlarn Banner-0x5ad0e817_0x2f3d10b5_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Bunnpris Banner NOR-0x6534284a-0xbf2aa679-0x2f47a075.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Bunnpris Banner NOR-0x5ad0e817_0xcf3fb568_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Bonus Banner ICL-0x6534284a-0xbf2aa679-0x4f428244.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/PC Bonus Banner ICL-0x5ad0e817_0xcf3a7398_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Willys_ef47a9c6.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Rema1000_0f4254eb.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Pressbryan_4f4287d3.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Preem_cf4254bf.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Olis_4f4f9a82.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_NarvesenSE_8f523d3c.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_N1_ef4f9ab5.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Kiwi_ef42a737.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Joker_cf47a82a.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_HandlarnSE_cf523d9a.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_Bunnpris_6f47a842.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Scandinavia/CS$$1_4x4_BonusICL_cf50eea4.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Italy/PC IP Italy Banner-0x6534284a-0xbf2aa679-0x2f50c83c.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Italy/PC IP Italy Banner-0x5ad0e817_0xf48dedd_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Italy/PC Famila Banner-0x6534284a-0xbf2aa679-0xef53cb17.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Italy/PC Famila Banner-0x5ad0e817_0x2f4bdacf_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Italy/PC EuroSpin Banner ITA-0x6534284a-0xbf2aa679-0xcf47a06c.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Italy/PC EuroSpin Banner ITA-0x5ad0e817_0xf3fb5ab_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Italy/PC Crai Banner ITA-0x6534284a-0xbf2aa679-0x2f411a9b.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Italy/PC Crai Banner ITA-0x5ad0e817_0x6f392fb3_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Italy/PC Conad Banner ITA-0x6534284a-0xbf2aa679-0x8f411a8f.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Italy/PC Conad Banner ITA-0x5ad0e817_0xcf392e61_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Italy/CS$$1_4x4_IP_8f50e68e.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Italy/CS$$1_4x4_Famila_6f53d97b.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Italy/CS$$1_4x4_EUSpin_af50ee75.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Italy/CS$$1_4x4_Crai_ef412930.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Repsol Sign-0x6534284a-0xbf2aa679-0xcf48d537.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Repsol Sign-0x5ad0e817_0x8f40eb7c_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Repsol Repshop Banner-0x6534284a-0xbf2aa679-0x8f48d546.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Repsol Repshop Banner-0x5ad0e817_0x6f40ea9d_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Pingo Doce Banner ESP-0x6534284a-0xbf2aa679-0x8f467810.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Pingo Doce Banner ESP-0x5ad0e817_0xaf3e8d2f_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC MiniPreco Banner POR-0x6534284a-0xbf2aa679-0x8f467818.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC MiniPreco Banner POR-0x5ad0e817_0x4f3e8cd2_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Galp Tangerina Banner POR-0x6534284a-0xbf2aa679-0x4f4676e3.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Galp Tangerina Banner POR-0x5ad0e817_0x2f3e8bda_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Galp Sign-0x6534284a-0xbf2aa679-0xaf4676f1.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Galp Sign-0x5ad0e817_0xaf3e8c34_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Froiz Banner ESP-0x6534284a-0xbf2aa679-0x6f467738.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Froiz Banner ESP-0x5ad0e817_0xcf3e8c64_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Eroski Banner-0x6534284a-0xbf2aa679-0x8f44fca2.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Eroski Banner-0x5ad0e817_0xaf3d1066_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Eroski 8 Pumps-0x6534284a-0xbf2aa679-0x0f4c8b61.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Eroski 8 Pumps-0x5ad0e817_0x4f44a140_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Dia Banner ESP-0x6534284a-0xbf2aa679-0x0f428a04.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Dia Banner ESP-0x5ad0e817_0x4f3a9e0a_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Continente Banner POR-0x6534284a-0xbf2aa679-0x6f467743.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Continente Banner POR-0x5ad0e817_0xaf3e8c95_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC CEPSA Sign-0x6534284a-0xbf2aa679-0x2f48d524.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC CEPSA Sign-0x5ad0e817_0xef40ebcb_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Cepsa Depaso Banner ESP-0x6534284a-0xbf2aa679-0x6f48d54d.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Iberia/PC Cepsa Depaso Banner ESP-0x5ad0e817_0x4f40ea70_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_Repsol_af48da67.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_PingoDoce_6f479d1d.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_MiniPrecoPR_ef523d68.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_Galp_ef479cbc.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_FroizSupermercado_2f52316a.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_Eroski_cf450df2.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_Dia_ef428c66.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_ContinentePR_ef523c6d.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_Conad_8f4128ea.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Iberia/CS$$1_4x4_Cepsa_cf48d9e0.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Puma Super7 PR-0x6534284a-0xbf2aa679-0x2f428a18.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Puma Super7 PR-0x5ad0e817_0x8f3aa048_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Puma Gas Sign-0x6534284a-0xbf2aa679-0x2f428a31.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Puma Gas Sign-0x5ad0e817_0xaf3aa0e1_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Pueblo Banner PR-0x6534284a-0xbf2aa679-0x8f44fc7e.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Pueblo Banner PR-0x5ad0e817_0xaf3d0ff0_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Econo Banner PR-0x6534284a-0xbf2aa679-0x4f44fc73.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Econo Banner PR-0x5ad0e817_0xef3d0f7b_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Amigo Banner PR-0x6534284a-0xbf2aa679-0x2f44fc66.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Caribbean/PC Amigo Banner PR-0x5ad0e817_0xaf3d0f36_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Caribbean/CS$$1_4x4_PumaSuper7_ef428c0c.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Caribbean/CS$$1_4x4_Pueblo_ef450d9b.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Caribbean/CS$$1_4x4_EconoPR_ef523cd7.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Caribbean/CS$$1_4x4_AmigoPR_cf523caf.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Needs Banner CDN-0x6534284a-0xbf2aa679-0xaf3e6f3b.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Needs Banner CDN-0x5ad0e817_0x4f3683a6_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Macs Banner CDN-0x6534284a-0xbf2aa679-0x8f3e6f0d.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Macs Banner CDN-0x5ad0e817_0x6f368549_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Lawtons Drugs Banner CDN-0x6534284a-0xbf2aa679-0xaf3e6efe.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Lawtons Drugs Banner CDN-0x5ad0e817_0x6f36858d_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Bulk Barn Banner CDN-0x6534284a-0xbf2aa679-0x2f3e6f26.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Canada/PC Bulk Barn Banner CDN-0x5ad0e817_0x6f3684ad_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Canada/CS$$1_4x4_NeedsShell_ef3fb204.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Canada/CS$$1_4x4_Macs_2f3fb269.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Canada/CS$$1_4x4_LawtonDrugs_0f3fb28d.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Canada/CS$$1_4x4_BulkBarn_4f3fb2be.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Proxy Delhaize Banner-0x6534284a-0xbf2aa679-0xaf3e6f31.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Proxy Delhaize Banner-0x5ad0e817_0xf368471_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Plus Banner NED-0x6534284a-0xbf2aa679-0xaf41199c.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Plus Banner NED-0x5ad0e817_0xef392a92_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Jumbo Banner NED-0x6534284a-0xbf2aa679-0x2f3e6f16.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Jumbo Banner NED-0x5ad0e817_0xf3684fd_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Avia Sign-0x6534284a-0xbf2aa679-0x4f52194f.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Avia Sign-0x5ad0e817_0x6f4a3003_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Avia Banner-0x6534284a-0xbf2aa679-0x0f521947.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Benelux/PC Avia Banner-0x5ad0e817_0x4f4a2fbf_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Benelux/CS$$1_4x4_ProxyDelhaize_af3fb307.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Benelux/CS$$1_4x4_Plus_4f41294f.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Benelux/CS$$1_4x4_JumboFoodMarkt_af3fb33e.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Benelux/CS$$1_4x4_Avia_ef5230c9.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC Seiyu Banner JP-0x6534284a-0xbf2aa679-0x4f44fc9b.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC Seiyu Banner JP-0x5ad0e817_0xcf3d1039_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC NightOwl AU Banner-0x6534284a-0xbf2aa679-0x6f4ce02f.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC NightOwl AU Banner-0x5ad0e817_0xf44f6b3_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC FairpriceXpress Banner-0x6534284a-0xbf2aa679-0xef48d52e.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC FairpriceXpress Banner-0x5ad0e817_0x6f40eaec_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC CU Banner Korea-0x6534284a-0xbf2aa679-0x6f48d556.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC CU Banner Korea-0x5ad0e817_0xaf40ea1e_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC Cheers Banner-0x6534284a-0xbf2aa679-0xaf48d55d.SC4Desc
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/PC Cheers Banner-0x5ad0e817_0xcf40e9f0_0x30000.SC4Model
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/CS$$1_4x4_Seiyu_8f450d5e.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/CS$$1_4x4_NightOwl_8f4cfcbd.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/CS$$1_4x4_FairpriceXpress_ef48dae5.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/CS$$1_4x4_CU_8f48dac1.SC4Lot
-            - PC MGB Convenience Stores Global Expansion/Asia-Australia/CS$$1_4x4_CheersEsso_af48db14.SC4Lot
+            - PC MGB Convenience Stores Global Expansion
       version: 1.0.0
-
-pclark06/pc-prop-pack-2:
-  authors:
-    - pclark06
-  category: 100
-  dependencies:
-    - pclark06/pc-mega-props-vol-1
-  description: |-
-    This set can be found in my Mega Prop Pack. Please download here. This file is deprecated.
-
-    Props for future releases.
-
-    Includes:
-    Boats for Boat dealerships
-    Boat Dealer signs
-    711 Signs for a future building pack
-    A table from my previous Potbelly release
-  name: PC Prop Pack 2
-  url: https://community.simtropolis.com/files/file/32732-pc-prop-pack-2/
-  variants:
-    default:
-      assets:
-        - docs: []
-          id: simtropolis/32732-pc-prop-pack-2
-          include:
-            - PC Prop Pack 2/PC Table Set-0x6534284a-0xc80b6ac4-0x694e6377.SC4Desc
-            - PC Prop Pack 2/PC Table Set-0x5ad0e817_0x6947cb03_0x30000.SC4Model
-            - PC Prop Pack 2/PC Mocks sign-0x6534284a-0xc80b6ac4-0xa95a6a71.SC4Desc
-            - PC Prop Pack 2/PC Mocks sign-0x5ad0e817_0xc953cf13_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 7-0x6534284a-0xc80b6ac4-0x495bbcc1.SC4Desc
-            - PC Prop Pack 2/PC Boat 7-0x5ad0e817_0x9552507_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 6-0x6534284a-0xc80b6ac4-0x895a2c43.SC4Desc
-            - PC Prop Pack 2/PC Boat 6-0x5ad0e817_0xc953718a_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 5-0x6534284a-0xc80b6ac4-0xc95a2c1f.SC4Desc
-            - PC Prop Pack 2/PC Boat 5-0x5ad0e817_0x2953710e_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 4-0x6534284a-0xc80b6ac4-0x095a2c32.SC4Desc
-            - PC Prop Pack 2/PC Boat 4-0x5ad0e817_0xc95370c3_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 3-0x6534284a-0xc80b6ac4-0x6959fa1c.SC4Desc
-            - PC Prop Pack 2/PC Boat 3-0x5ad0e817_0xe9535ed3_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 2-0x6534284a-0xc80b6ac4-0x4959fa11.SC4Desc
-            - PC Prop Pack 2/PC Boat 2-0x5ad0e817_0xe9535ad1_0x30000.SC4Model
-            - PC Prop Pack 2/PC Boat 1-0x6534284a-0xc80b6ac4-0x4959fa06.SC4Desc
-            - PC Prop Pack 2/PC Boat 1-0x5ad0e817_0xa9535848_0x30000.SC4Model
-            - PC Prop Pack 2/PC 711 Sign 4-0x6534284a-0xc80b6ac4-0xc95ce72a.SC4Desc
-            - PC Prop Pack 2/PC 711 Sign 4-0x5ad0e817_0x69564f2d_0x30000.SC4Model
-            - PC Prop Pack 2/PC 711 Sign 3-0x6534284a-0xc80b6ac4-0x495ce71b.SC4Desc
-            - PC Prop Pack 2/PC 711 Sign 3-0x5ad0e817_0x89564f09_0x30000.SC4Model
-            - PC Prop Pack 2/PC 711 Sign 2-0x6534284a-0xc80b6ac4-0xa95ce711.SC4Desc
-            - PC Prop Pack 2/PC 711 Sign 2-0x5ad0e817_0xa9564d5e_0x30000.SC4Model
-            - PC Prop Pack 2/PC 711 Sign 1-0x6534284a-0xc80b6ac4-0xa95ce704.SC4Desc
-            - PC Prop Pack 2/PC 711 Sign 1-0x5ad0e817_0xe9564c4b_0x30000.SC4Model
-            - PC Prop Pack 2/desktop.ini
-            - PC Prop Pack 2/Boatrights Sign-0x6534284a-0xc80b6ac4-0x895cfb91.SC4Desc
-            - PC Prop Pack 2/Boatrights Sign-0x5ad0e817_0xc956639b_0x30000.SC4Model
-            - PC Prop Pack 2/Billys sign-0x6534284a-0xc80b6ac4-0x695bb697.SC4Desc
-            - PC Prop Pack 2/Billys sign-0x5ad0e817_0x29551ecc_0x30000.SC4Model
-      version: 1.0.0
-
-pclark06/pc-prop-pack-vol-1:
-  authors:
-    - pclark06
-  category: 100
-  dependencies:
-    - pclark06/pc-mega-props-vol-1
-  description: |-
-    This set can be found in my Mega Prop Pack. Please download here. This file is deprecated.
-
-    A prop pack that will be needed for my Powersports lot. Included are 2 ATVs, 2 sports bikes, 3 dirt bikes, as well a couple lumberyard signs (not needed for the powersports lot).
-  name: PC Prop Pack Vol. 1
-  url: https://community.simtropolis.com/files/file/32660-pc-prop-pack-vol-1/
-  variants:
-    default:
-      assets:
-        - docs: []
-          id: simtropolis/32660-pc-prop-pack-vol-1
-          include:
-            - PC Prop Pack 1/PC Yamaha Bike-0x6534284a-0xc80b6ac4-0xe91b121b.SC4Desc
-            - PC Prop Pack 1/PC Yamaha Bike-0x5ad0e817_0xc9147a73_0x30000.SC4Model
-            - PC Prop Pack 1/PC MotoBike Sport-0x6534284a-0xc80b6ac4-0x6919ae65.SC4Desc
-            - PC Prop Pack 1/PC MotoBike Sport-0x5ad0e817_0xa91315c0_0x30000.SC4Model
-            - PC Prop Pack 1/PC MotoBike Sport Kawasaki-0x6534284a-0xc80b6ac4-0xa91b0d90.SC4Desc
-            - PC Prop Pack 1/PC MotoBike Sport Kawasaki-0x5ad0e817_0xe91475dc_0x30000.SC4Model
-            - PC Prop Pack 1/PC KTM Bike-0x6534284a-0xc80b6ac4-0x291b1212.SC4Desc
-            - PC Prop Pack 1/PC KTM Bike-0x5ad0e817_0xa9147a45_0x30000.SC4Model
-            - PC Prop Pack 1/PC Honda Bike-0x6534284a-0xc80b6ac4-0xe91b1209.SC4Desc
-            - PC Prop Pack 1/PC Honda Bike-0x5ad0e817_0xa9147974_0x30000.SC4Model
-            - PC Prop Pack 1/PC ATV Kawasaki Pink-0x6534284a-0xc80b6ac4-0xa91b0d83.SC4Desc
-            - PC Prop Pack 1/PC ATV Kawasaki Pink-0x5ad0e817_0x691475a1_0x30000.SC4Model
-            - PC Prop Pack 1/PC ATV Kawasaki Green-0x6534284a-0xc80b6ac4-0xe91af67a.SC4Desc
-            - PC Prop Pack 1/PC ATV Kawasaki Green-0x5ad0e817_0x491452c1_0x30000.SC4Model
-            - PC Prop Pack 1/PC 84 lumber sign-0x6534284a-0xc80b6ac4-0x8919b141.SC4Desc
-            - PC Prop Pack 1/PC 84 lumber sign-0x5ad0e817_0x291319aa_0x30000.SC4Model
-            - PC Prop Pack 1/Carter Lumber Sign-0x6534284a-0xc80b6ac4-0x691dc978.SC4Desc
-            - PC Prop Pack 1/Carter Lumber Sign-0x5ad0e817_0x891731c7_0x30000.SC4Model
-      version: 1.0.0
-
-pclark06/pc-towering-sign-set-1:
-  authors:
-    - pclark06
-  category: 660
-  dependencies:
-    - simtropolis/32308-rlm-modular-motel-system
-    - pclark06/pc-mega-props-vol-1
-    - shokthrpy/shk-parking-pack
-  description: >-
-    A set of branded signs as commonly seen from the interstate, especially in many rural and suburban highway exits.
-
-
-    Personally I use the hotel brands with @RebaLynnTS's Modular Motel System, and pair them with @kingofsimcity's modular parking that use @shokthrpy's parking pack textures, hence why the hotel
-    brands have a pavement texture instead of a grass texture. I also have the lots and props in separate folders in case you don't want to use the lots, considering they do add a bunch of entries to
-    the parks menu in-game.
-
-
-    Dependencies:
-
-    PC Mega Props Vol. 1
-
-    SHK Parking Pack
-
-
-    There are 74 signs included, including some brands that don't have existing buildings on here.
-
-           76 Ball     7-Eleven     Alon       America's Best Value       Americinn     Applebee's     Baymont sign     Big Boy     Bob Evans     Budget Host     Burger King     Captain D's     Cenex     Chevron new     Chipotle     Clark     Comfort Inn     Cracker Barrel     Denny's     Drury     Econo Lodge     Extended Stay     Fred Meyer     Gold Star     Golden Corral     Home Depot     Howard Johnson     Huddle House     IHOP     Jack In The Box     KFC     Kroger     Kwik Trip     La Quinta Tall     Lowe's     Marathon       Merryweather Inn       Microtel     Motel 6     Outback       Pear Tree by Drury       Perkins     Phillips 66     Pizza Hut       Pizza Hut Wingstreet       Quality Inn     Quiktrip     Ramada     Red Carpet Inn     Rhoads Inn     Rodeway     Roy Rogers     Sheetz     Shell new     Shilo     Shoneys     Sinclair     Skyline     Sleep Inn     Sonic     Speedway     Starbucks     Steak N Shake     Stuckeys     Taco Bell     Texaco new     Thorntons     Tim Hortons     Travelodge     Valero     Village Inn     Waffle House     Walmart     Wendy's
-  name: PC Towering Sign Set 1
-  url: https://community.simtropolis.com/files/file/32832-pc-towering-sign-set-1/
-  variants:
-    default:
-      assets:
-        - docs: []
-          id: simtropolis/32832-pc-towering-sign-set-1
-          include:
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Sleep Inn Sign_499303fa.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Rodeway Inn Sign_699303e5.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_RhoadsSign_49944b3a.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_RedCarpetSign_e9985f63.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Ramada Sign_099aec75.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Quality Inn Sign_499303ce.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Pear Tree by Drury Sign_69944b9c.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCWendysSign_89994ede.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCWalmartSign_89994f21.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCWaffleHouseSign_499da669.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCVillageInnSign_499aecc7.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCValeroSign_299c469d.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCTimHortonsSign_899c54ee.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCThorntonsSign_49a39bdf.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCTexacoSign_a99986b8.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCTacoBellSign_099af13c.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCStuckeysSign_a9a1a449.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCStarbucksSign_09a6e142.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCSpeedwaySign_49985f0c.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCSonicSign_299c46bb.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCSNSSign_e99ac312.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCSkylineSign_49a446d5.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCSinclairSign_099ac325.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCShoneysSign_499af18f.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCShellSign_a999868d.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCSheetzsign_499915e6.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCRoyRogersSign_c99986f0.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCQTsign_499915d1.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCPizzaHutSign2_89992f70.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCPizzaHutSign1_89992f61.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCPhillips66Sign_a9a1a435.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCPerkinsSign_e9a44675.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCOutbackSign_69a44658.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCMotel6SignTall_e9a2ebe7.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCMarathonSign_8999159f.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCLowesSign_29a39bf9.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCKwikTripSign_49a1a487.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCKrogerSign_89994f34.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCKFCSign_c9994eff.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCKFCSignNew_c99c4670.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCJackSign_a99c467f.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCIHOPSign_499da684.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCHuddleHouseSign_a9a58b2d.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCHomeDepotSign_499c4658.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCGoldStarSign_49a44709.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCGoldenCorralSign_a99aecb0.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCFredMeyerSign_29a2ebd1.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCDennysign_29a6e15a.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCCrackerBarrelSign_099986cb.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCClarkSign_09a2ebbf.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCChipotleSign_49994f47.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCChevronSign_a99986a2.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCCenexSign_89a1a4a5.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCCaptainDSign_a99da6a3.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCBPSignPre2001_a9a58af5.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCBobEvansSign_c9a1a45b.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCBKSign_e9992f93.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCBigBoySign_a99da62d.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCApplebeesSign_e9a1a473.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PCAlonSign_69a2ebfe.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PC76Sign_89a58b16.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PC711SignTallNew_499c463f.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_PC AmericInn Sign_c9a39bb5.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_MicrotelSign_09985f36.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_MerryweatherSign_c9944b49.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_La Quinta Sign Tall_29a39b91.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Knights Inn Sign Tall_29a3a033.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_HoJoSign_89994f69.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_ExtendedStaySign_c9a2ec24.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Econo Lodge Sign_e99303ba.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_Comfort Inn Sign_e99303a2.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_BudgetHostSign_a9985f48.SC4Lot
-            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)/PLOP_1x1_BaymontSign_29944b81.SC4Lot
-      version: 1.0.1

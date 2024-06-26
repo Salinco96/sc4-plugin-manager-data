@@ -1,22 +1,21 @@
 dead_end/scandinavian-supermarkets:
   authors:
     - Dead_End
+    - pclark06
+    - rsc204
   category: 300
   dependencies:
-    - rsc204/mgb-maxis-texture-replacement-dev-kit
-    - rsc204/mgb-convenience-store
-    - pclark06/pc-mgb-convenience-stores-global-expansion
-    - kingofsimcity/supershk-mega-parking-textures
-    - shokthrpy/shk-parking-pack
-    - murimk/murimk-props-vol01-bicycle-props-with-bikers-mmp
     - flann/girafe-maxis-fence-hd-replacement-mod
+    - kingofsimcity/supershk-mega-parking-textures
+    - mgb204/convenience-stores
+    - murimk/props-vol01
+    - pclark06/mgb-convenience-stores
+    - pegasus/mtp-super-pack
+    - porkissimo/jenx-porkie-expanded-props
     - robdragon/rdg-prop-pack-1
-    - porkissimo/jenx-porkie-expanded-porkie-props
-    - pegasus/peg-mtp-super-pack
-    - rsc204/koscs-supershk-mega-parking-for-tgn-swn
-    - sc4evermore/41-appalachian-terrain-mod-by-lowkee33
-    - sc4evermore/13-sfbt-essentials
-    - sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+    - sfbt/essentials
+    - shokthrpy/shk-parking-pack
+    - simgoober/mega-props-vol01
   description: >-
     This download contains lots for three different supermarket franchises from Scandinavian countries: Joker (growable 3x2 and 4x2) Kiwi (ploppable monument 3x2) and REMA 1000 (growable 3x2). The
     latter two lots are meant for more urban environments and as such do only come with a parking lot for bikes . All lots feature 32 CS$$ jobs. I created these for my own towns and cities, but
@@ -65,9 +64,10 @@ dead_end/scandinavian-supermarkets:
 dead_end/spar-supermarket:
   authors:
     - Dead_End
-  category: 300
+    - Glenni
+  category: 320
   dependencies:
-    # - TODO: Girafe Maxis Fence HD Replacement Mod
+    - flann/girafe-maxis-fence-hd-replacement-mod
     - girafe/flora-pack
     - glenni/mega-props-vol02
     - kingofsimcity/super-shk-mega-parking-textures
@@ -106,16 +106,12 @@ dead_end/spar-supermarket:
 
       -  KOSC's SuperSHK+ MEGA Parking for TGN / SWN (changes grass and pavement on the parking textures)
   name: Spar Supermarket
-  # optional:
-  #   - TODO: KOSC's SuperSHK+ MEGA Parking for TGN / SWN (changes grass and pavement on the parking textures)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/66707bd95e57a_ScreenshotSpar.thumb.JPG.f50981464fc8cc1992447d09b9019d12.JPG
   url: https://community.simtropolis.com/files/file/36314-spar-supermarket
   variants:
     default:
       assets:
-        - docs: []
-          id: simtropolis/36314-spar-supermarket
+        - id: simtropolis/36314-spar-supermarket
           include:
-            - DE_Spar-Glenni/DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot
-            - DE_Spar-Glenni/DE_Glenni-Spar_grocerystore-0x6534284a-0x50508c53-0x33f448cc.SC4Desc
+            - DE_Spar-Glenni
       version: 1.0.0

@@ -1,3 +1,79 @@
+mgb204/convenience-stores:
+  authors:
+    - rsc204
+  category: 320
+  dependencies:
+    # - Grfe_hedge_3m.dat (in VIP Vnaoned Post Office?)
+    - girafe/carpack-vol04
+    - girafe/flora-pack # Ashes, Elms
+    - kingofsimcity/supershk-mega-parking-textures
+    - mgb204/retail-signage-pack
+    - shokthrpy/shk-parking-pack
+  description: >-
+    This package contains a small convenience store, with three model variations in a buildings family, along with lots to use them. Inside the "Models" folder, please ensure you remove 3 files you
+    will not need. Included are models for the following options:
+
+      -   HD (High Definition/Better Quality textures)
+      -   SD (Default texture quality)
+      -   DN (DarkNite, for users of SimFox's DarkNite mod)
+      -   MN (MaxisNite, for default lighting)
+
+    So for example, if you are using HD-MN, you should remove the files ending HD-DN, SD-DN and SD-MN, leaving only your preferred choice behind.
+
+
+    Using my Retail Signage Pack dependency, these stores will show randomly one of the installed Banner/Logo options.
+
+
+    3 Lots are included:
+
+      -   Stage 2 CS$$ 3x2
+      -   Stage 2 CS$$ 3x3 (Right Corner)
+      -   Stage 1 CS$$ 4x4.
+
+    Dependencies (Required for all Lots)
+
+      -  MGB Retail Signage Pack (RSP)
+      -  Girafe Urbanpack
+      -  Girafe Elms
+      -  Girafe Ashes
+      -  VIP Vnaoned Post Office
+    Note: only the file Grfe_hedge_3m.dat from this package is required.
+      -  SHK Parking Pack:
+
+    Each lot has 54 CS$$ Jobs and stats generated using PIM-X. For full details see the included readme file.
+
+
+    Ensure you keep the file MGB_ConvenienceStore_Resource.dat or these lots will not function correctly. But you can discard any of the lots you may not wish to use.
+  name: MGB - Convenience Store
+  url: https://community.simtropolis.com/files/file/31244-mgb-convenience-store/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/31244-mgb-convenience-store
+          exclude:
+            - path: Models/*DN*
+              condition:
+                darknite: false
+            - path: Models/*MN*
+              condition:
+                darknite: true
+            - Models/*HD*
+      name: Default
+      version: 1.0.1
+    hd:
+      assets:
+        - id: simtropolis/31244-mgb-convenience-store
+          exclude:
+            - path: Models/*DN*
+              condition:
+                darknite: false
+            - path: Models/*MN*
+              condition:
+                darknite: true
+            - Models/*SD*
+      name: HD
+      version: 1.0.1
+
 mgb204/rail-depot-pack:
   authors:
     - MGB204

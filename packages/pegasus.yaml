@@ -1,7 +1,9 @@
 pegasus/mtp-super-pack:
   authors:
     - Pegasus
-  category: 120
+  category: 0
+  dependencies:
+    - pegasus/spam-super-resource-pack
   description: >-
     UPDATE: 04.07.2022 - The PEG_MTP_SUPER_TEXTURES_PACK.dat has been replaced by the all inclusive PEG-SUPER_TEXTURES.dat, which contains all, but the textures from the PEG SPAM Super Resource Pack
     (PEG-SPAM_TEXTURES_RESOURCE_b200.dat), created and released by Pegasus from the entire collection (including: CDK and CDK3, CDK3-OWW, OWW2 and Marina, Utopia, CSK, PPonds etc...). This update
@@ -101,19 +103,25 @@ pegasus/mtp-super-pack:
     default:
       assets:
         - docs:
-            - _Documents/PEG Readmes
+            - _Documents/PEG Readmes/pspbrwse.jbf
+            - _Documents/PEG Readmes/product_image_324.jpg
+            - _Documents/PEG Readmes/PEG-SUPER_TEXTURES_RRWOverride-index.jpg
+            - _Documents/PEG Readmes/PEG-SUPER_TEXTURES_EUOverride-index.jpg
+            - _Documents/PEG Readmes/PEG SUPER TEXTURES_overlay-index.jpg
+            - _Documents/PEG Readmes/PEG SUPER TEXTURES_base-index.jpg
+            - _Documents/PEG Readmes/MTP_ResourceSuperPak_324.htm
           id: simtropolis/20966-peg-mtp-super-pack
           include:
-            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK
-            # TODO: Add conditions
-            - PEG-SUPER_TEXTURES_EUOverride.dat
-            - PEG-SUPER_TEXTURES_RRWOverride.dat
+            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
+            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
+            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK/PEG_MTP_SUPER_RESOURCE_PACK.dat
+            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK/PEG-SUPER_TEXTURES.dat
       version: 1.5.0
 
 pegasus/security-fencing-kit:
   authors:
     - Pegasus
-  category: 120
+  category: 0
   description: >-
     This resource pack is a collection of chain link fence props that can be used on any type of lot that requires security fencing. The props in this pack may be used by other developers to enhance
     the appearance of their lots.
@@ -133,7 +141,8 @@ pegasus/security-fencing-kit:
     default:
       assets:
         - docs:
-            - PEGPROD/MODs/Security Fencing
+            - PEGPROD/MODs/Security Fencing/readme_243.htm
+            - PEGPROD/MODs/Security Fencing/product_image.jpg
           id: simtropolis/19338-peg-security-fencing-kit
           include:
             - PEGPROD/MODs/Security Fencing/PEG_ChainLinkFence_RESOURCE.dat
@@ -142,9 +151,9 @@ pegasus/security-fencing-kit:
 pegasus/spam-super-resource-pack:
   authors:
     - Pegasus
-  category: 100
+  category: 411
   description: >-
-    NOTE: You do not need this pack if you already downloaded / plan to download the full
+    NOTE: You do not need this pack if youalready downloaded / plan to download the full
 
     SIMPEG AGRICULTURAL MOD (SPAM)!
 
@@ -176,7 +185,9 @@ pegasus/spam-super-resource-pack:
 
     NOTE: This pack includes no lots!
 
-    AGAIN: You do not need this pack if you already downloaded / plan to download the full
+    AGAIN: You do not need this pack if you
+
+    already downloaded / plan to download the full
 
     SIMPEG AGRICULTURAL MOD (SPAM)!
 
@@ -195,14 +206,18 @@ pegasus/spam-super-resource-pack:
 
     All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
   name: PEG SPAM Super Resource Pack
-  requirements:
-    spam: false
   thumbnail: https://www.simtropolis.com/objects/screens/0030/thumb-23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   url: https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/
   variants:
     default:
       assets:
-        - id: simtropolis/26079-peg-spam-super-resource-pack
+        - docs:
+            - spam-sp_plex_480.jpg
+            - readme_SuperPack.txt
+            - PEGPROD/SPAM/readme.txt
+          id: simtropolis/26079-peg-spam-super-resource-pack
           include:
-            - PEGPROD/SPAM/SPAM_Super_Resource_Pack
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Textures/PEG-SPAM_TEXTURES_RESOURCE_b200.dat
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Resource/PEG-SPAM_RESOURCE-01_b200.dat
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Crops_Resource/PEG-SPAM_CROPS-01_RESOURCE_b200.dat
       version: 1.0.0

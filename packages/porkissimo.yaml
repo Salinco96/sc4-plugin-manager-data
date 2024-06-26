@@ -1,8 +1,7 @@
 porkissimo/jenx-porkie-expanded-props:
   authors:
     - Porkissimo
-    - xannepan
-  category: 120
+  category: 100
   description: >-
     UPDATE on 24.01.2022
 
@@ -71,24 +70,12 @@ porkissimo/jenx-porkie-expanded-props:
     default:
       assets:
         - docs:
-            - _Documents
+            - _Documents/PK-street_trees.jpg
+            - _Documents/PK-street_props.jpg
+            - _Documents/JENX-Porkie Expanded Porkie Props_index.png
+            - _Documents/JENX-Porkie Expanded Porkie Props vol01_readme.txt
+            - _Documents/Cleanitol_JENX-Porkie Expanded Porkie Props vol01.txt
           id: simtropolis/11421-jenx-porkie-expanded-porkie-props
           include:
-            - Porkissimo/Props
+            - Porkissimo/Props/JENX-Porkie Expanded Porkie Props.dat
       version: 1.0.0
-
-porkissimo/mega-props-vol01:
-  authors:
-    - Porkissimo
-  category: 120
-  name: "Porkissimo MEGA Props vol01"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore/9-porkissimo-mega-props-vol01
-          docs:
-            - Porkissimo MEGA Props vol01*
-          include:
-            - Porkissimo/Props
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/9-porkissimo-mega-props-vol01
-      version: 2.0.0
