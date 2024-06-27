@@ -12,19 +12,6 @@ girafe/4-rue-des-lilas:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_4_rue_des_Lilas_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/220-bsc-vip-girafe-4-rue-des-lilas-v2
   variants:
-    default:
-      assets:
-        - docs:
-            - ~Documents/BSC_Readmes/girafe
-          exclude:
-            - DN Model
-          id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
-          include:
-            - BSC/girafe/4 rue des Lilas
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 2.0.0
     darknite:
       assets:
         - docs:
@@ -37,6 +24,19 @@ girafe/4-rue-des-lilas:
       name: Dark Nite
       requirements:
         darknite: true
+      version: 2.0.0
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          exclude:
+            - DN Model
+          id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
+          include:
+            - BSC/girafe/4 rue des Lilas
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 2.0.0
   warnings:
     - id: bulldoze
@@ -71,31 +71,31 @@ girafe/cb21-tower:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/223-bsc-vip-girafe-cb21-tower
   variants:
-    default:
-      assets:
-        - id: sc4evermore/223-bsc-vip-girafe-cb21-tower
-          docs:
-            - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/CB21 Tower
-          exclude:
-            - DN Model
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore/223-bsc-vip-girafe-cb21-tower
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/CB21 Tower
           exclude:
             - MN Model
+          id: sc4evermore/223-bsc-vip-girafe-cb21-tower
+          include:
+            - BSC/girafe/CB21 Tower
       name: Dark Nite
       requirements:
         darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          exclude:
+            - DN Model
+          id: sc4evermore/223-bsc-vip-girafe-cb21-tower
+          include:
+            - BSC/girafe/CB21 Tower
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -116,31 +116,31 @@ girafe/chalet-edelweiss:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_Chalet_Edelweiss_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/222-bsc-vip-girafe-chalet-edelweiss
   variants:
-    default:
-      assets:
-        - id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
-          docs:
-            - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/Chalet Edelweiss
-          exclude:
-            - DN Model
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/Chalet Edelweiss
           exclude:
             - MN Model
+          id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
+          include:
+            - BSC/girafe/Chalet Edelweiss
       name: Dark Nite
       requirements:
         darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          exclude:
+            - DN Model
+          id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
+          include:
+            - BSC/girafe/Chalet Edelweiss
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -156,31 +156,31 @@ girafe/edf-tower:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/224-bsc-vip-girafe-edf-tower
   variants:
-    default:
-      assets:
-        - id: sc4evermore/224-bsc-vip-girafe-edf-tower
-          docs:
-            - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/EDF Tower
-          exclude:
-            - DN Model
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore/224-bsc-vip-girafe-edf-tower
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/EDF Tower
           exclude:
             - MN Model
+          id: sc4evermore/224-bsc-vip-girafe-edf-tower
+          include:
+            - BSC/girafe/EDF Tower
       name: Dark Nite
       requirements:
         darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          exclude:
+            - DN Model
+          id: sc4evermore/224-bsc-vip-girafe-edf-tower
+          include:
+            - BSC/girafe/EDF Tower
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -236,31 +236,31 @@ girafe/villa-libeskind:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_villa_Libeskind_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/221-bsc-vip-girafe-villa-libeskind-v2
   variants:
-    default:
-      assets:
-        - id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
-          docs:
-            - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/Villa Libeskind
-          exclude:
-            - DN Model
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 2.0.0
     darknite:
       assets:
-        - id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/Villa Libeskind
           exclude:
             - MN Model
+          id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
+          include:
+            - BSC/girafe/Villa Libeskind
       name: Dark Nite
       requirements:
         darknite: true
+      version: 2.0.0
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          exclude:
+            - DN Model
+          id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
+          include:
+            - BSC/girafe/Villa Libeskind
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 2.0.0
   warnings:
     - id: bulldoze

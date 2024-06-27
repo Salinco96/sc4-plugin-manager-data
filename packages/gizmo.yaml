@@ -59,11 +59,12 @@ gizmo/street-rr-gate-replacement-mod:
       name: Rural Streets
       version: 1.0.0
 
-gizmo/train-props-collection:
+gizmo/train-props:
   authors:
     - Gizmo
   category: 120
-  name: Gizmo Train Props Collection
+  name: Gizmo Train Props
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/66-gizmo-train-props-collection
   variants:
     default:
       assets:
@@ -72,7 +73,6 @@ gizmo/train-props-collection:
           id: sc4evermore/66-gizmo-train-props-collection
           include:
             - Gizmo
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/66-gizmo-train-props-collection
       version: 1.0.0
 
 gizmo/vehicle-props:
@@ -80,6 +80,7 @@ gizmo/vehicle-props:
     - Gizmo
   category: 120
   name: Gizmo Vehicle Props
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/59-gizmo-vehicle-props
   variants:
     default:
       assets:
@@ -88,7 +89,6 @@ gizmo/vehicle-props:
           id: sc4evermore/59-gizmo-vehicle-props
           include:
             - Gizmo/Vehicle Props*
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/59-gizmo-vehicle-props
       version: 5.0.0
 
 gizmo/weather-effect-mod:

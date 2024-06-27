@@ -7,7 +7,7 @@ homefryes/american-foursquare-homes:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AFS_s.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/106-american-foursquare-homes-by-homefryes
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - docs:
             - Homefryes_Readmes
@@ -17,7 +17,6 @@ homefryes/american-foursquare-homes:
       name: Maxis Nite
       requirements:
         darknite: false
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/106-american-foursquare-homes-by-homefryes
       version: 2.0.0
   warnings:
     - id: bulldoze
@@ -32,7 +31,7 @@ homefryes/cambridge-townhomes:
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/HF_Cambridge_day.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/107-cambridge-townhomes-by-homefryes
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - docs:
             - Homefryes_Readmes
@@ -49,7 +48,6 @@ homefryes/cambridge-townhomes:
       name: Maxis Nite
       requirements:
         darknite: false
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/107-cambridge-townhomes-by-homefryes
       version: 1.0.0
   warnings:
     - id: bulldoze

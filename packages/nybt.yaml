@@ -40,23 +40,12 @@ nybt/residentials-pack:
   authors:
     - Aaron Graham
   category: 200
+  dependencies:
+    - nybt/essentials
   name: NYBT Residentials Pack
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
   variants:
-    default:
-      assets:
-        - docs:
-            - _Documents
-          id: sc4evermore/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
-          include:
-            - NYBT/Aaron Graham
-      dependencies:
-        - nybt/essentials
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
-      version: 1.0.0
     darknite:
       assets:
         - docs:
@@ -64,13 +53,22 @@ nybt/residentials-pack:
           id: sc4evermore/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
           include:
             - NYBT/Aaron Graham
-      dependencies:
-        - nybt/essentials
       name: Dark Nite
       requirements:
         darknite: true
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day.jpg
       url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
+      version: 1.0.0
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: sc4evermore/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
+          include:
+            - NYBT/Aaron Graham
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
