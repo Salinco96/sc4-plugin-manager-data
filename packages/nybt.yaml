@@ -3,13 +3,13 @@ nybt/essentials:
     - Aaron Graham
     - Gwail
   category: 100
-  name: "NYBT Essentials"
+  name: NYBT Essentials
   variants:
     default:
       assets:
-        - id: simtropolis/22916-nybt-essentials
-          docs:
+        - docs:
             - readme*
+          id: simtropolis/22916-nybt-essentials
           include:
             - NYBT_essentials.dat
             # TODO: Add condition
@@ -22,13 +22,13 @@ nybt/query-replace:
     - Aaron Graham
     - Gwail
   category: 900
-  name: "NYBT Maxis Query Overrides"
+  name: NYBT Maxis Query Overrides
   variants:
     default:
       assets:
-        - id: simtropolis/22916-nybt-essentials
-          docs:
+        - docs:
             - readme*
+          id: simtropolis/22916-nybt-essentials
           include:
             - NYBT_maxis_query_replace.dat
       dependencies:
@@ -40,13 +40,13 @@ nybt/residentials-pack:
   authors:
     - Aaron Graham
   category: 200
-  name: "NYBT Residentials Pack"
+  name: NYBT Residentials Pack
   variants:
     default:
       assets:
-        - id: sc4evermore/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
-          docs:
+        - docs:
             - _Documents
+          id: sc4evermore/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
           include:
             - NYBT/Aaron Graham
       dependencies:
@@ -54,13 +54,14 @@ nybt/residentials-pack:
       name: Maxis Nite
       requirements:
         darknite: false
+      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
       url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
       version: 1.0.0
     darknite:
       assets:
-        - id: sc4evermore/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
-          docs:
+        - docs:
             - _Documents
+          id: sc4evermore/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
           include:
             - NYBT/Aaron Graham
       dependencies:
@@ -68,5 +69,9 @@ nybt/residentials-pack:
       name: Dark Nite
       requirements:
         darknite: true
+      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day.jpg
       url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

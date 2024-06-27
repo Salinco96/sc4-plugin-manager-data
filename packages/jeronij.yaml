@@ -2,13 +2,13 @@ jeronij/mega-props-vol01:
   authors:
     - jeronij
   category: 120
-  name: "BSC MEGA Props JRJ Vol01"
+  name: BSC MEGA Props JRJ Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/165-sc4d-lex-legacy-jeronij-ship-pack
-          docs:
+        - docs:
             - Jeronij_Readmes
+          id: sc4evermore/165-sc4d-lex-legacy-jeronij-ship-pack
           include:
             - BSC/BSCProps
       version: 2.0.0
@@ -17,15 +17,15 @@ jeronij/mega-props-vol02:
   authors:
     - jeronij
   category: 120
-  name: "BSC MEGA Props JRJ Vol02"
+  name: BSC MEGA Props JRJ Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JRJ Vol02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JRJ Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -35,15 +35,15 @@ jeronij/mega-props-vol03:
   authors:
     - jeronij
   category: 120
-  name: "BSC MEGA Props JRJ Vol03"
+  name: BSC MEGA Props JRJ Vol03
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JRJ Vol03*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JRJ Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -53,15 +53,15 @@ jeronij/mega-props-vol04:
   authors:
     - jeronij
   category: 120
-  name: "BSC MEGA Props JRJ Vol04"
+  name: BSC MEGA Props JRJ Vol04
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JRJ Vol04*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JRJ Vol04*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -71,15 +71,15 @@ jeronij/mega-props-vol05:
   authors:
     - jeronij
   category: 120
-  name: "BSC MEGA Props JRJ Vol05"
+  name: BSC MEGA Props JRJ Vol05
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JRJ Vol05*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JRJ Vol05*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -89,15 +89,15 @@ jeronij/mega-props-vol06:
   authors:
     - jeronij
   category: 120
-  name: "BSC MEGA Props JRJ Vol06"
+  name: BSC MEGA Props JRJ Vol06
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JRJ Vol06*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JRJ Vol06*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -107,15 +107,15 @@ jeronij/prop-pack-cpt-trees-as-props:
   authors:
     - jeronij
   category: 120
-  name: "BSC Prop Pack - JRJ CPT Trees as Props"
+  name: BSC Prop Pack - JRJ CPT Trees as Props
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_JRJ CPT Trees as props*
           docs:
             - ~Documents/BSC_Readmes/Jeronij
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Prop Pack - JRJ CPT Trees as props*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -125,16 +125,20 @@ jeronij/ship-pack:
   authors:
     - jeronij
   category: 360
-  name: "Jeronij Ship Pack"
+  dependencies:
+    - jeronij/mega-props-vol01
+  name: Jeronij Ship Pack
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/JRJ_Ships_JJSister.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/165-sc4d-lex-legacy-jeronij-ship-pack
   variants:
     default:
       assets:
-        - id: sc4evermore/165-sc4d-lex-legacy-jeronij-ship-pack
-          docs:
+        - docs:
             - Jeronij_Readmes
+          id: sc4evermore/165-sc4d-lex-legacy-jeronij-ship-pack
           include:
             - Jeronij/JRJ Ships Compilation
-      dependencies:
-        - jeronij/mega-props-vol01
-      url: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/165-sc4d-lex-legacy-jeronij-ship-pack
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

@@ -1,357 +1,368 @@
-# 11241036/modular-plaza-system-mps:
-#   authors:
-#     - "11241036"
-#   category: 660
-#   dependencies:
-#     - 11241036/textures
-#     - 11241036/various-lot-foundations-and-retaining-walls
-#     # - TODO: bsc/common-dependencies
-#     - buddybud/jeronij-concrete-wall-addon-stairs
-#     - girafe/flora-pack
-#     # - TODO: Historic Harbour: https://community.simtropolis.com/files/file/29880-historic-harbor/ (You only need the file Fence - Iron small.dat.)
-#     - maxis/maxis-buildings-as-props
-#     - murimk/bike-props
-#     - murimk/props-vol02
-#     # - TODO: nam/network-addon-mod
-#     - porkissimo/jenx-porkie-expanded-props
-#     - ralphaelninja/plugin-landmark-props
-#     - robdragon/rdg-prop-pack-1
-#     - sfbt/essentials
-#     - wmp/the-bridges-of-shoreline-county
-#   description: >-
-#     There are some plaza plugins out there on the STEX, even a few modular ones, but with this set, I'm aiming at creating a fully comprehensive modular system of plazas which
+11241036/modular-plaza-system-mps:
+  authors:
+    - "11241036"
+  category: 660
+  dependencies:
+    - 11241036/textures
+    - 11241036/various-lot-foundations-and-retaining-walls
+    - bsc/common-dependencies
+    - buddybud/jeronij-concrete-wall-addon-stairs
+    - girafe/flora-pack
+    - historic-harbor/historic-harbor-props # You only need the file Fence - Iron small.dat
+    - maxis/maxis-buildings-as-props
+    - murimk/bike-props
+    - murimk/props-vol02
+    # - TODO: nam/network-addon-mod
+    - porkissimo/jenx-porkie-expanded-props
+    - ralphaelninja/plugin-landmark-props
+    - robdragon/rdg-prop-pack-1
+    - sfbt/essentials
+    - wmp/the-bridges-of-shoreline-county
+  description: >-
+    There are some plaza plugins out there on the STEX, even a few modular ones, but with this set, I'm aiming at creating a fully comprehensive modular system of plazas which
 
-#       -  have a variety of different functions,
-#       -  are easy to combine,
-#       -  and allow adjustment of textures.
+      -  have a variety of different functions,
+      -  are easy to combine,
+      -  and allow adjustment of textures.
 
-#     This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees - nearly
-#     everything is available, I'll leave it to your experimenting pleasure to find out. Most of them are purely decorational (while having park and landmark effect), only the market stalls will yield a
-#     bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the
-#     default Maxis parks.
+    This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees - nearly
+    everything is available, I'll leave it to your experimenting pleasure to find out. Most of them are purely decorational (while having park and landmark effect), only the market stalls will yield a
+    bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the
+    default Maxis parks.
 
-#     By default, all lots will use the standard Maxis white pavement texture, however, I've included some texture override files that will allow you to customize this plugin in a way that all lots will
-#     change their textures. Mainly included are textures fitting with the PedMall puzzle pieces from the NAM, but since I've seen many users using plugins that override the PedMall textures, I've also
-#     included a few extra overrides.
+    By default, all lots will use the standard Maxis white pavement texture, however, I've included some texture override files that will allow you to customize this plugin in a way that all lots will
+    change their textures. Mainly included are textures fitting with the PedMall puzzle pieces from the NAM, but since I've seen many users using plugins that override the PedMall textures, I've also
+    included a few extra overrides.
 
-#     Note: There has been a last-minute change to this plugin that isn't reflected in the screenshots above: I had to remove all the people lurking around on the lots because their immense amount
-#     looked horrible, and I couldn't find a way to randomize their appearance.
+    Note: There has been a last-minute change to this plugin that isn't reflected in the screenshots above: I had to remove all the people lurking around on the lots because their immense amount
+    looked horrible, and I couldn't find a way to randomize their appearance.
 
-#     Please make sure to read the included readme carefully, since you can't just install this plugin and play - due to the texture overrides, you need to customize it first.
+    Please make sure to read the included readme carefully, since you can't just install this plugin and play - due to the texture overrides, you need to customize it first.
 
-#     Available languages: English, German
+    Available languages: English, German
 
-#     Dependencies:
+    Dependencies:
 
-#     Please refer to the Readme for information about what the dependencies do. Unfortunately, this time you get a good load of dependencies, fortunately, however, most of them are candidates I'm using
-#     frequently, anyway, or just dependency packages that do nothing except adding props/textures and won't flood you with a lot of lots that will fill your menu quickly. Exception: I've had to use one
-#     file from the Historic Harbor plugin, which comes with many lots. You only need one file from there (see below).
+    Please refer to the Readme for information about what the dependencies do. Unfortunately, this time you get a good load of dependencies, fortunately, however, most of them are candidates I'm using
+    frequently, anyway, or just dependency packages that do nothing except adding props/textures and won't flood you with a lot of lots that will fill your menu quickly. Exception: I've had to use one
+    file from the Historic Harbor plugin, which comes with many lots. You only need one file from there (see below).
 
-#     Important: If you have downloaded and installed this before June 16th, 2020, please look for the file MPS Textures.dat and remove it. It has become obsolete with the release of the 11241036
-#     Textures.
+    Important: If you have downloaded and installed this before June 16th, 2020, please look for the file MPS Textures.dat and remove it. It has become obsolete with the release of the 11241036
+    Textures.
 
-#       -  Network Addon Mod: https://community.simtropolis.com/files/file/26793-network-addon-mod-NAM-for-windows-installer/
-#       -  BSC Common Dependencies Pack: https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX-legacy-bsc-common-dependencies-pack
-#       -  BSC VIP Girafe Flora Pack: https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-LEX-legacy-bsc-vip-girafe-flora
-#       -  Buildings as Props: can be found here: https://community.simtropolis.com/sc4-maxis-files/
-#       -  Plugin Landmark Props: https://community.simtropolis.com/files/file/21286-plugin-landmark-props/
-#       -  SFBT Essentials: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials
-#       -  Historic Harbour: https://community.simtropolis.com/files/file/29880-historic-harbor/ (You only need the file Fence - Iron small.dat.)
-#       -  Jeronij Concrete Wall AddOn STAIRS: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/
-#       -  Murimk - Props Vol01 - Bicycle Props with Bikers MMP: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
-#       -  Murimk Props Vol02: https://community.simtropolis.com/files/file/25888-murimk-props-vol02/
-#       -  Various Lot Foundations and Retaining Walls: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
-#       -  11241036 Textures: https://community.simtropolis.com/files/file/33651-11241036-textures/
-#       -  WMP The Bridges of Shoreline County: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/
-#       -  JENX Porkie Expanded Porkie Props: https://community.simtropolis.com/files/file/11421-jenx-porkie-expanded-porkie-props/
-#       -  RDG Prop Pack 1: https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/
+      -  Network Addon Mod: https://community.simtropolis.com/files/file/26793-network-addon-mod-NAM-for-windows-installer/
+      -  BSC Common Dependencies Pack: https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX-legacy-bsc-common-dependencies-pack
+      -  BSC VIP Girafe Flora Pack: https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-LEX-legacy-bsc-vip-girafe-flora
+      -  Buildings as Props: can be found here: https://community.simtropolis.com/sc4-maxis-files/
+      -  Plugin Landmark Props: https://community.simtropolis.com/files/file/21286-plugin-landmark-props/
+      -  SFBT Essentials: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials
+      -  Historic Harbour: https://community.simtropolis.com/files/file/29880-historic-harbor/ (You only need the file Fence - Iron small.dat.)
+      -  Jeronij Concrete Wall AddOn STAIRS: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/
+      -  Murimk - Props Vol01 - Bicycle Props with Bikers MMP: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
+      -  Murimk Props Vol02: https://community.simtropolis.com/files/file/25888-murimk-props-vol02/
+      -  Various Lot Foundations and Retaining Walls: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
+      -  11241036 Textures: https://community.simtropolis.com/files/file/33651-11241036-textures/
+      -  WMP The Bridges of Shoreline County: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/
+      -  JENX Porkie Expanded Porkie Props: https://community.simtropolis.com/files/file/11421-jenx-porkie-expanded-porkie-props/
+      -  RDG Prop Pack 1: https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/
 
-#     Optional but helpful:
+    Optional but helpful:
 
-#       -  SPOT: https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/
-#       -  Submenus DLL (for submenu compatibility, please read the rest of this carefully!): https://community.simtropolis.com/files/file/36142-submenus-dll/
+      -  SPOT: https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/
+      -  Submenus DLL (for submenu compatibility, please read the rest of this carefully!): https://community.simtropolis.com/files/file/36142-submenus-dll/
 
-#     The following dependencies are required for some of the texture overrides, but the base MPS plugin will entirely work without them:
+    The following dependencies are required for some of the texture overrides, but the base MPS plugin will entirely work without them:
 
-#       -  Vortexture: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt
-#       -  MTP Super Pack: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
+      -  Vortexture: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+      -  MTP Super Pack: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
 
-#     Submenu Compatibility:
+    Submenu Compatibility:
 
-#     This plugin has been optimized for usage with memo's Submenus DLL plugin. This means that users that are using it will find the MPS lots in their own submenu, which is further divided into 7
-#     submenus (see below). Users not using the Submenus DLL mod will simply find the MPS lots in the park menu, somewhere in the center. Please read the installation instructions below to avoid
-#     problems like missing lot icons. The submenu button looks like this (only one out of the four circles is visible at a time):
+    This plugin has been optimized for usage with memo's Submenus DLL plugin. This means that users that are using it will find the MPS lots in their own submenu, which is further divided into 7
+    submenus (see below). Users not using the Submenus DLL mod will simply find the MPS lots in the park menu, somewhere in the center. Please read the installation instructions below to avoid
+    problems like missing lot icons. The submenu button looks like this (only one out of the four circles is visible at a time):
 
-#     Included Files:
+    Included Files:
 
-#     MPS Core Files.dat (mandatory): Contains all lots for the Modular Plaza System, along with their descriptions and icons.
+    MPS Core Files.dat (mandatory): Contains all lots for the Modular Plaza System, along with their descriptions and icons.
 
-#     Seawall Connection Lots.dat (optional): 4 lots that can be used on slopes to connect ground traffic routes to the overpass puzzle pieces from the NAM and thereby blending them in with the seawall
-#     system you get with this download. You can, of course, as well do this with the NAM's default hillside transition pieces, but they won't fit into the seawalls, visually.
+    Seawall Connection Lots.dat (optional): 4 lots that can be used on slopes to connect ground traffic routes to the overpass puzzle pieces from the NAM and thereby blending them in with the seawall
+    system you get with this download. You can, of course, as well do this with the NAM's default hillside transition pieces, but they won't fit into the seawalls, visually.
 
-#     z_(Name).dat (all optional): A total of 12 additional files that you can choose form that will override your existing MPS lots to give them different base textures. Keep only one of them, or just
-#     remove them all if you want to play with the base Maxis white pavement texture (see installation instructions below).
+    z_(Name).dat (all optional): A total of 12 additional files that you can choose form that will override your existing MPS lots to give them different base textures. Keep only one of them, or just
+    remove them all if you want to play with the base Maxis white pavement texture (see installation instructions below).
 
-#     MPS_Submenu Park.dat, MPS_Submenu Plazas.dat (mandatory when using memo's Submenus DLL mod): contains the submenu entry files for the MPS lots. Only use one of these two files.
+    MPS_Submenu Park.dat, MPS_Submenu Plazas.dat (mandatory when using memo's Submenus DLL mod): contains the submenu entry files for the MPS lots. Only use one of these two files.
 
-#     Installation:
+    Installation:
 
-#     Step 1: Please move or copy all existing files (except the Readme files) into the Plugins folder of your edition of SimCity 4.
+    Step 1: Please move or copy all existing files (except the Readme files) into the Plugins folder of your edition of SimCity 4.
 
-#     Step 2: Choose one texture override. These texture overrides are located one each in all files starting with z_. To apply one, remove all other texture override. To play with the default Maxis
-#     White Pavement, remove all texture overrides. You may want to look into the folder “Screenshots Texture Overrides“ to find out how they will look in-game. You can at any time switch to another
-#     texture system by replacing the existing texture override file with another one, in-game, the textures will adapt automatically.
+    Step 2: Choose one texture override. These texture overrides are located one each in all files starting with z_. To apply one, remove all other texture override. To play with the default Maxis
+    White Pavement, remove all texture overrides. You may want to look into the folder “Screenshots Texture Overrides“ to find out how they will look in-game. You can at any time switch to another
+    texture system by replacing the existing texture override file with another one, in-game, the textures will adapt automatically.
 
-#     Step 3: To make the submenu buttons appear correctly, install either the file MPS_Submenu Parks.dat or the file MPS_Submenu Plazas.dat (only one out of these two files). The first file moves the
-#     MPS submenu simply into the Park menu, the latter one into memo's Plaza submenu.
+    Step 3: To make the submenu buttons appear correctly, install either the file MPS_Submenu Parks.dat or the file MPS_Submenu Plazas.dat (only one out of these two files). The first file moves the
+    MPS submenu simply into the Park menu, the latter one into memo's Plaza submenu.
 
-#     Uninstalling: To uninstall this plugin, please bulldoze all MPS lots in your cities and then remove all MPS files from your Plugins folder.
+    Uninstalling: To uninstall this plugin, please bulldoze all MPS lots in your cities and then remove all MPS files from your Plugins folder.
 
-#     Compatibility:
+    Compatibility:
 
-#     Since this plugin requires installation of the NAM, it is only compatible with SimCity 4: Rush Hour or SimCity 4 Deluxe.
+    Since this plugin requires installation of the NAM, it is only compatible with SimCity 4: Rush Hour or SimCity 4 Deluxe.
 
-#     Support:
+    Support:
 
-#     Please feel free to post issues, bug reports, and suggestions in this thread:
-#   name: Modular Plaza System (MPS)
-#   optional:
-#     - memo/submenus-dll
-#     - rebalynnts/spot-simpeg-plop-orientation-tool
-#   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
-#   url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps
-#   variants:
-#     maxis-white-pavement:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: Maxis White Pavement
-#       version: 2.0.0
-#     maxis-concrete:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_Maxis Concrete.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: Maxis Concrete
-#       version: 2.0.0
-#     bsc-diagonal-brick:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_BSC Diagonal Brick.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: BSC Diagonal Brick
-#       version: 2.0.0
-#     bsc-pink-pavement:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_BSC Pink Pavement.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: BSC Pink Pavement
-#       version: 2.0.0
-#     bsc-red-cobblestone:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_BSC Mediterranean Red Cobblestone.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: BSC Red Cobblestone
-#       version: 2.0.0
-#     mtp-red-sandstone:
-#       dependencies:
-#         - pegasus/mtp-super-pack
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_MTP Red Sandstone.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: MTP Red Sandstone
-#       version: 2.0.0
-#     nam-cobblestone:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_NAM Cobblestone.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: NAM Cobblestone
-#       version: 2.0.0
-#     nam-industrial:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_NAM Industrial.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: NAM Industrial
-#       version: 2.0.0
-#     nam-pink-pavement:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_NAM Pink Pavement.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: NAM Pink Pavement
-#       version: 2.0.0
-#     nam-red-brick:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_NAM Red Brick.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: NAM Red Brick
-#       version: 2.0.0
-#     nam-sandstone:
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_NAM Sandstone.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: NAM Sandstone
-#       version: 2.0.0
-#     vortexture-cobblestone-1:
-#       dependencies:
-#         - vortex/textures-vol01
-#         - vortex/textures-vol02
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_Vortexture Cobblestone 1.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: Vortexture Cobblestone 1
-#       version: 2.0.0
-#     vortexture-cobblestone-2:
-#       dependencies:
-#         - vortex/textures-vol01
-#         - vortex/textures-vol02
-#       assets:
-#         - docs:
-#             - Readme Files
-#           id: simtropolis/31351-modular-plaza-system-mps
-#           include:
-#             - MPS Core Files.dat
-#             - Seawall Connection Lots.dat
-#             - z_Vortexture Cobblestone 2.dat
-#             - path: MPS_Submenu Park.dat
-#               condition:
-#                 submenus: true
-#             - path: MPS_Submenu Plazas.dat
-#               condition:
-#                 submenus: true
-#       name: Vortexture Cobblestone 2
-#       version: 2.0.0
-#   warnings:
-#     - id: bulldoze
-#       on: disable
+    Please feel free to post issues, bug reports, and suggestions in this thread:
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de410f54_MPSFlowerbeds.thumb.jpg.ae451b287cc66f5c7504ef5313fee078.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de42d42e_MPSMarketStalls.thumb.jpg.b4455ba5346259b7262f60a6034932db.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de43f72d_MPSPlazas.thumb.jpg.0ffd408fec0a4d0c2f2fee2dacb76d0b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de45aba8_MPSSeawalls.thumb.jpg.9103e838c3e308a9b41e5e98c3e77944.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de477d88_MPSStatues.thumb.jpg.0f073a5455053e71c17c509a67adf3a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de487ec7_MPSTrees.thumb.jpg.7157f005fc631f4538fec2fd6efc2377.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de49d523_SeawallConnectionLots.thumb.jpg.61c564813065f2a929144f49bef6f84b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666221e9c6d66_MPSSquares2.thumb.jpg.f0a1ba9b6289b4fbe3aa090364c1cae6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224d80ace3_2MPS.thumb.png.1106483e88801e2a09412d3345ecee42.png
+  name: Modular Plaza System (MPS)
+  optional:
+    - memo/submenus-dll
+    - rebalynnts/spot-simpeg-plop-orientation-tool
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
+  url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: Maxis White Pavement
+      version: 2.0.0
+    maxis-concrete:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_Maxis Concrete.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: Maxis Concrete
+      version: 2.0.0
+    bsc-diagonal-brick:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_BSC Diagonal Brick.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: BSC Diagonal Brick
+      version: 2.0.0
+    bsc-pink-pavement:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_BSC Pink Pavement.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: BSC Pink Pavement
+      version: 2.0.0
+    bsc-red-cobblestone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_BSC Mediterranean Red Cobblestone.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: BSC Red Cobblestone
+      version: 2.0.0
+    mtp-red-sandstone:
+      dependencies:
+        - pegasus/mtp-super-pack
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_MTP Red Sandstone.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: MTP Red Sandstone
+      version: 2.0.0
+    nam-cobblestone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_NAM Cobblestone.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: NAM Cobblestone
+      version: 2.0.0
+    nam-industrial:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_NAM Industrial.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: NAM Industrial
+      version: 2.0.0
+    nam-pink-pavement:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_NAM Pink Pavement.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: NAM Pink Pavement
+      version: 2.0.0
+    nam-red-brick:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_NAM Red Brick.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: NAM Red Brick
+      version: 2.0.0
+    nam-sandstone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_NAM Sandstone.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: NAM Sandstone
+      version: 2.0.0
+    vortexture-cobblestone-1:
+      dependencies:
+        - vortex/textures-vol01
+        - vortex/textures-vol02
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_Vortexture Cobblestone 1.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: Vortexture Cobblestone 1
+      version: 2.0.0
+    vortexture-cobblestone-2:
+      dependencies:
+        - vortex/textures-vol01
+        - vortex/textures-vol02
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_Vortexture Cobblestone 2.dat
+            - path: MPS_Submenu Park.dat
+              condition:
+                submenus: true
+            - path: MPS_Submenu Plazas.dat
+              condition:
+                submenus: true
+      name: Vortexture Cobblestone 2
+      version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 11241036/textures:
   authors:

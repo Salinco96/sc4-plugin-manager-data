@@ -3,13 +3,15 @@ homefryes/american-foursquare-homes:
     - Homefryes
     - BarbyW
   category: 220
-  name: "American Foursquare Homes by Homefryes"
+  name: American Foursquare Homes by Homefryes
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AFS_s.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/106-american-foursquare-homes-by-homefryes
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore/106-american-foursquare-homes-by-homefryes
-          docs:
+        - docs:
             - Homefryes_Readmes
+          id: sc4evermore/106-american-foursquare-homes-by-homefryes
           include:
             - Homefryes/American Four Square Homes
       name: Maxis Nite
@@ -17,19 +19,24 @@ homefryes/american-foursquare-homes:
         darknite: false
       url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/106-american-foursquare-homes-by-homefryes
       version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 homefryes/cambridge-townhomes:
   authors:
     - Homefryes
     - BarbyW
   category: 220
-  name: "Cambridge Townhomes by Homefryes"
+  name: Cambridge Townhomes by Homefryes
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/HF_Cambridge_day.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/107-cambridge-townhomes-by-homefryes
   variants:
     nightmode=maxis:
       assets:
-        - id: sc4evermore/107-cambridge-townhomes-by-homefryes
-          docs:
+        - docs:
             - Homefryes_Readmes
+          id: sc4evermore/107-cambridge-townhomes-by-homefryes
           include:
             - Homefryes/Cambridge Townhomes
       dependencies:
@@ -44,3 +51,6 @@ homefryes/cambridge-townhomes:
         darknite: false
       url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/107-cambridge-townhomes-by-homefryes
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

@@ -1,10 +1,23 @@
+mgb204/anyone-for-tennis:
+  authors:
+    - MGB204
+  category: 120
+  name: MGB204 - AnyOne for Tennis (AoT)
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AoT_1.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/88-mgb204-anyone-for-tennis-aot
+  variants:
+    default:
+      assets:
+        - id: sc4evermore/88-mgb204-anyone-for-tennis-aot
+      version: 1.0.0
+
 mgb204/convenience-stores:
   authors:
-    - rsc204
+    - MGB204
   category: 320
   dependencies:
     # - Grfe_hedge_3m.dat (in VIP Vnaoned Post Office?)
-    - girafe/carpack-vol04
+    - girafe/carpack
     - girafe/flora-pack # Ashes, Elms
     - kingofsimcity/supershk-mega-parking-textures
     - mgb204/retail-signage-pack
@@ -84,14 +97,15 @@ mgb204/rail-depot-pack:
     - MGB204
   category: 120
   name: MGB204 - Rail Depot Pack (RDP)
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/92-mgb204-rail-depot-pack-rdp
   variants:
     default:
       assets:
-        - id: sc4evermore/92-mgb204-rail-depot-pack-rdp
-          docs:
+        - docs:
             - "*readme*"
             - "*.bmp"
+          id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
             # TODO: Conditions
             - path: MGB_RDP_Resource.dat
@@ -108,10 +122,10 @@ mgb204/rail-depot-pack:
       version: 1.1.0
     darknite:
       assets:
-        - id: sc4evermore/92-mgb204-rail-depot-pack-rdp
-          docs:
+        - docs:
             - "*readme*"
             - "*.bmp"
+          id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
             # TODO: Conditions
             - path: MGB_RDP_Resource.dat
@@ -131,23 +145,12 @@ mgb204/retail-signage-pack:
     - MGB204
   category: 120
   name: MGB204 - Retail Signage Pack (RSP)
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/large_RSP.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/91-mgb204-retail-signage-pack-rsp
   variants:
     default:
       assets:
         - id: sc4evermore/91-mgb204-retail-signage-pack-rsp
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/91-mgb204-retail-signage-pack-rsp
-      version: 1.0.0
-
-mgb204/tennis-props:
-  authors:
-    - MGB204
-  category: 120
-  name: MGB204 - AnyOne for Tennis (AoT)
-  variants:
-    default:
-      assets:
-        - id: sc4evermore/88-mgb204-anyone-for-tennis-aot
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/88-mgb204-anyone-for-tennis-aot
       version: 1.0.0
 
 mgb204/texture-pack:
@@ -155,6 +158,8 @@ mgb204/texture-pack:
     - MGB204
   category: 110
   name: MGB204 - Texture Pack
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
   variants:
     default:
       assets:
@@ -168,5 +173,4 @@ mgb204/texture-pack:
           id: sc4evermore/90-mgb204-texture-pack
           include:
             - MGB Texture Pack.dat
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
       version: 1.0.0

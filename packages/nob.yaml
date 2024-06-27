@@ -1,17 +1,41 @@
-nob/mega-props-vol01:
+nob/mega-props-collection:
   authors:
     - NOB
-  category: 120
-  name: "NOB Mega Props Vol01"
+  category: 100
+  dependencies:
+    - nob/mega-props-vol01
+    - nob/mega-props-vol02
+    - nob/mega-props-vol03
+    - nob/mega-props-vol04
+    - nob/mega-props-vol05
+    - nob/mega-props-vol06
+    - nob/mega-props-vol07
+    - nob/mega-props-vol08
+    - nob/textures-vol01
+  name: NOB Mega Props Collection
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/NOB Mega Props Vol01 v2lexD.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
   variants:
     default:
       assets:
         - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+          include: []
+      version: 2.0.0
+
+nob/mega-props-vol01:
+  authors:
+    - NOB
+  category: 120
+  name: NOB Mega Props Vol01
+  variants:
+    default:
+      assets:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol01*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol01*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -21,16 +45,16 @@ nob/mega-props-vol02:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol02"
+  name: NOB Mega Props Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol02*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol02*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -40,16 +64,16 @@ nob/mega-props-vol03:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol03"
+  name: NOB Mega Props Vol03
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol03*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol03*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -59,16 +83,16 @@ nob/mega-props-vol04:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol04"
+  name: NOB Mega Props Vol04
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol04*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol04*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol04*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -78,16 +102,16 @@ nob/mega-props-vol05:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol05"
+  name: NOB Mega Props Vol05
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol05*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol05*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol05*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -97,16 +121,16 @@ nob/mega-props-vol06:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol06"
+  name: NOB Mega Props Vol06
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol06*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol06*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol06*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -116,16 +140,16 @@ nob/mega-props-vol07:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol07"
+  name: NOB Mega Props Vol07
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol07*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol07*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol07*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -135,16 +159,16 @@ nob/mega-props-vol08:
   authors:
     - NOB
   category: 120
-  name: "NOB Mega Props Vol08"
+  name: NOB Mega Props Vol08
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Mega Props Vol08*.txt
           docs:
             - ~Documents/readme*
             - NOB Mega Props Vol08*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Mega Props Vol08*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack
@@ -154,16 +178,16 @@ nob/textures-vol01:
   authors:
     - NOB
   category: 110
-  name: "NOB Texture Pack Vol01 - FTextures"
+  name: NOB Texture Pack Vol01 - FTextures
   variants:
     default:
       assets:
-        - id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_NOB Texture Pack Vol01*.txt
           docs:
             - ~Documents/readme*
             - NOB Texture Pack Vol01*
+          id: sc4evermore/11-sc4d-lex-legacy-nob-dependencies-pack
           include:
             - NOB Texture Pack Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/11-sc4d-lex-legacy-nob-dependencies-pack

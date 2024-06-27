@@ -13,55 +13,72 @@ romualdillo/props-vol01:
     I got MandelSoft's permission to use his great light cones in my streetlights, which are included.
 
     This set is inspired in the Spanish architecture from 1800's to 1920's.
-  name: "Romualdillo Props Vol 01"
+  name: Romualdillo Props Vol 01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Props VOL01 Main.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/269-romualdillo-props-vol01-v1-2
   variants:
     default:
       assets:
-        - id: sc4evermore/269-romualdillo-props-vol01-v1-2
-          docs:
+        - docs:
             - Romualdillo_Readmes
+          id: sc4evermore/269-romualdillo-props-vol01-v1-2
           include:
             - Romualdillo/Props
       dependencies:
-        - girafe/flora-pack # Cypresses
+        - girafe/flora-pack
       version: 1.2.0
 
 romualdillo/spanish-low-wealth-residentals-vol01:
   authors:
     - Romualdillo
   category: 210
-  description: |
+  description: >
     This is a low wealth and low density residential set inspired in Spanish urban architecture from 1800's to 1920's. You can find this architecture in large areas of Spain and South America.
-    This kind of houses are a variation of traditional Roman-Arabic houses in Spain, which were built around an inner courtyard. By the years most of these houses were split into two houses, now with side-yards. During the XIX century new houses were built already in such way due to the lack of space in the fast growing cities.
+
+    This kind of houses are a variation of traditional Roman-Arabic houses in Spain, which were built around an inner courtyard. By the years most of these houses were split into two houses, now with
+    side-yards. During the XIX century new houses were built already in such way due to the lack of space in the fast growing cities.
+
 
     I tried to make the houses to match the style of as many countries as possible, so perhaps you won't recognize any special country in them. I hope you like them.
 
+
     This is my first building set.
+
 
     Lots' Information:
 
+
     * Zone: Residential
+
     * Density: Low Density
+
     * Wealth: Low Wealth
+
     * Building Style: European
+
     * Lot Sizes: 1x2,1x3,2x2,2x3 (corner lots: 1x2, 2x2)
+
     * Inhabitants: 7 to 35 (7 per home)
 
+
     The lots represent different growth stages. You'll find lots with a lot of free space and others totally built. Normally all the free spaces disappear with the natural city growth.
-  name: "Spanish Low Wealth Residental Lots Vol 01"
+  name: Spanish Low Wealth Residental Lots Vol 01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Spanish R Residental Lots.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/270-romualdillo-spanish-low-wealth-residental-lots
   variants:
     default:
       assets:
-        - id: sc4evermore/270-romualdillo-spanish-low-wealth-residental-lots
-          docs:
+        - docs:
             - Romualdillo_Readmes
+          id: sc4evermore/270-romualdillo-spanish-low-wealth-residental-lots
           include:
             - Romualdillo/Spanish R$ Residental Lots Vol01
       dependencies:
-        - girafe/flora-pack # Cypresses
+        - girafe/flora-pack
         - romualdillo/props-vol01
       requirements:
         darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

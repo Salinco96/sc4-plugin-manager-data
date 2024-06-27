@@ -21,18 +21,23 @@ zero7/commercial-pack:
     - porkissimo/jenx-porkie-expanded-props
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
-  name: "zero7 Commercial Pack"
+  name: zero7 Commercial Pack
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GinzaPearl_day.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/138-sc4d-lex-legacy-zero7-commercial-pack
   variants:
     default:
       assets:
         - id: sc4evermore/138-sc4d-lex-legacy-zero7-commercial-pack
           include:
-            - path: CAM/zero7
-              condition: { cam: true }
+            - condition:
+                cam: true
+              path: CAM/zero7
             - zero7/Commercial
             - zero7/^Shared Resources
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

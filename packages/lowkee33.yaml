@@ -2,17 +2,17 @@ lowkey33/seasonal-flora-patch:
   authors:
     - Lowkey33
   category: 100
-  description: The Flora Tuning Exemplar defines the maximum height a tree will be placed in god-mode. It also makes it possible for seasonal flora to exist. Many terrain mods use this exemplar with different tree heights, however since they were made before seasonal flora was understood, a patch should be made. This is such a patch.
-  name: "BSC LK33 Terrain Seasonal Flora Patch"
+  description:
+    The Flora Tuning Exemplar defines the maximum height a tree will be placed in god-mode. It also makes it possible for seasonal flora to exist. Many terrain mods use this exemplar with
+    different tree heights, however since they were made before seasonal flora was understood, a patch should be made. This is such a patch.
+  name: BSC LK33 Terrain Seasonal Flora Patch
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/LEXimageLK33seasonalpatch.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/36-lk33-seasonalflorapatch
   variants:
     default:
       assets:
-        - id: sc4evermore/36-lk33-seasonalflorapatch
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/Lowkee33
-          include:
-            - =Maxis*
-          # TODO: Include with condition
           exclude:
             - -CP Canyonlands and LowerSnowPatch
             - -CP Columbus
@@ -32,5 +32,8 @@ lowkey33/seasonal-flora-patch:
             - -CP Olympic
             - -CP PaintedDesert
             - -Heblem All
+          id: sc4evermore/36-lk33-seasonalflorapatch
+          include:
+            - =Maxis*
       url: https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch
       version: 2.0.0

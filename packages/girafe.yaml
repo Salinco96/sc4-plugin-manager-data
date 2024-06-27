@@ -6,127 +6,69 @@ girafe/4-rue-des-lilas:
     - bsc/essentials
     - cycledogg/mega-props-vol01
     - cycledogg/textures-vol01
+    - girafe/carpack
     - girafe/flora-pack # Narcissus, Lindens, Subalpine firs
-    - girafe/carpack-vol04
-  name: "BSC VIP Girafe 4 Rue Des Lilas"
+  name: BSC VIP Girafe 4 Rue Des Lilas
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_4_rue_des_Lilas_1.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/220-bsc-vip-girafe-4-rue-des-lilas-v2
   variants:
     default:
       assets:
-        - id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/4 rue des Lilas
           exclude:
             - DN Model
+          id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
+          include:
+            - BSC/girafe/4 rue des Lilas
       name: Maxis Nite
       requirements:
         darknite: false
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/220-bsc-vip-girafe-4-rue-des-lilas-v2
       version: 2.0.0
     darknite:
       assets:
-        - id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
-          include:
-            - BSC/girafe/4 rue des Lilas
           exclude:
             - MN Model
+          id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
+          include:
+            - BSC/girafe/4 rue des Lilas
       name: Dark Nite
       requirements:
         darknite: true
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/220-bsc-vip-girafe-4-rue-des-lilas-v2
       version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
-girafe/carpack-vol01-02:
+girafe/carpack:
   authors:
     - Girafe
   category: 120
-  name: "BSC VIP Girafe Carpack Vol01-02 Original"
+  name: BSC VIP Girafe Carpack / Urbanpack Vol01-04
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
-            - Cleanitol_BSC-VIP Girafe Carpack vol01-vol02 v?.txt
+        - cleanitol:
+            - Cleanitol_BSC-VIP Girafe Carpack*
+            - Cleanitol_BSC-VIP Girafe Urbanpack*
           docs:
-            - readme_carpack_vol. 1 & 2.html
-            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
-            - ~Documents/BSC_Readmes/girafe/Images/Icon_Carpack1&2_1.jpg:Images/*
+            - ~Documents/BSC_Readmes/girafe
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
-            - BSC VIP Girafe Carpack Vol01-02 Original*
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-      version: 1.0.0
-
-girafe/carpack-vol01-02-remaster:
-  authors:
-    - Girafe
-  category: 120
-  name: "BSC VIP Girafe Carpack Vol01-02 Remastered"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
-            - Cleanitol_BSC-VIP Girafe Carpack vol01-vol02 (Remastered).txt
-          docs:
-            - readme_carpack_vol. 1 & 2 remastered.html
-            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
-            - ~Documents/BSC_Readmes/girafe/Images/Icon_Carpack1&2_remastered_1.jpg:Images/*
-          include:
-            - BSC VIP Girafe Carpack Vol01-02 Remastered*
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-      version: 1.0.0
-
-girafe/carpack-vol03:
-  authors:
-    - Girafe
-  category: 120
-  name: "BSC VIP Girafe Carpack Vol03"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
-            - Cleanitol_BSC-VIP Girafe Carpack vol03*
-          docs:
-            - readme_carpack_vol. 3.html
-            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
-            - ~Documents/BSC_Readmes/girafe/Images/Icon_Carpack3_1.jpg:Images/*
-          include:
-            - BSC VIP Girafe Carpack Vol03*
+            - BSC VIP Girafe Carpack*
+            - BSC VIP Girafe Urbanpack*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
-
-girafe/carpack-vol04:
-  authors:
-    - Girafe
-  category: 120
-  name: "BSC VIP Girafe Carpack Vol04 / Urbanpack Vol01"
-  variants:
-    default:
-      assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
-            - Cleanitol_BSC-VIP Girafe Urbanpack *vol01*
-          docs:
-            - readme_urbanpack_vol*1.html
-            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg:Images/*
-            - ~Documents/BSC_Readmes/girafe/Images/Image_1.jpg:Images/*
-            - ~Documents/BSC_Readmes/girafe/Images/*urbanpack*:Images/*
-          include:
-            - BSC VIP Girafe Carpack Vol04*
-            - BSC VIP Girafe Urbanpack Vol01*
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-      version: 1.0.0
 
 girafe/cb21-tower:
   authors:
     - Girafe
     - Orange
   category: 330
-  name: "BSC VIP Girafe CB21 Tower"
+  name: BSC VIP Girafe CB21 Tower
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/223-bsc-vip-girafe-cb21-tower
   variants:
     default:
@@ -155,6 +97,9 @@ girafe/cb21-tower:
       requirements:
         darknite: true
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 girafe/chalet-edelweiss:
   authors:
@@ -167,7 +112,8 @@ girafe/chalet-edelweiss:
     - cycledogg/mega-props-vol02
     - cycledogg/textures-vol01
     - girafe/flora-pack # Subalpine firs
-  name: "BSC VIP Girafe Chalet Edelweiss"
+  name: BSC VIP Girafe Chalet Edelweiss
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_Chalet_Edelweiss_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/222-bsc-vip-girafe-chalet-edelweiss
   variants:
     default:
@@ -196,6 +142,9 @@ girafe/chalet-edelweiss:
       requirements:
         darknite: true
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 girafe/edf-tower:
   authors:
@@ -203,7 +152,8 @@ girafe/edf-tower:
     - Jmyers2043
     - Mattb325
   category: 330
-  name: "BSC VIP Girafe EDF Tower"
+  name: BSC VIP Girafe EDF Tower
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/12-commercial/224-bsc-vip-girafe-edf-tower
   variants:
     default:
@@ -232,18 +182,21 @@ girafe/edf-tower:
       requirements:
         darknite: true
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 girafe/flora-pack:
   authors:
     - Girafe
   category: 100
-  name: "BSC VIP Girafe Flora Pack"
+  name: BSC VIP Girafe Flora Pack
   variants:
     default:
       assets:
-        - id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
-          docs:
+        - docs:
             - ~Documents/BSC_Readmes/girafe
+          id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
           include:
             - BSC/girafe
       dependencies:
@@ -255,15 +208,15 @@ girafe/hedges:
   authors:
     - Girafe
   category: 120
-  name: "BSC VIP Girafe Hedges"
+  name: BSC VIP Girafe Hedges
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_Grfe_Props_Pack_LE_Hedges.txt
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC VIP Girafe Hedges*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -276,11 +229,11 @@ girafe/villa-libeskind:
   dependencies:
     - bsc/essentials
     - cycledogg/textures-vol01
-    - girafe/carpack-vol03
+    - girafe/carpack
     - girafe/flora-pack # Common Spruce, Honey Locust
     - girafe/hedges
-    - girafe/carpack-vol04
-  name: "BSC VIP Girafe Villa Libeskind"
+  name: BSC VIP Girafe Villa Libeskind
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_villa_Libeskind_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/221-bsc-vip-girafe-villa-libeskind-v2
   variants:
     default:
@@ -309,3 +262,6 @@ girafe/villa-libeskind:
       requirements:
         darknite: true
       version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

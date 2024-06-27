@@ -1,15 +1,294 @@
-bsc/essentials:
-  # authors: TODO
-  category: 120
-  name: "BSC Essentials"
+bsc/canals-collection:
+  authors:
+    - SimGoober
+    - callagrafx
+    - Citynut
+    - zero7
+    - Mattb325
+    - MGB204
+  category: 660
+  name: SC4D LEX Legacy - BSC Canals Collection
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/header.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - docs:
+            - readme*
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Indexes
+            - ~Documents/BSC_Readmes
+          id: sc4evermore/277-sc4d-lex-legacy-bsc-canals-collection
+          # include: TODO
+          #   - BSC/CAL/Gateshead for SG Brick Canals/SG Brick Canals CAL Gateshead Millennium Bridge_d36ff416.SC4Lot
+          #   - BSC/@2Canals/Zero7 Sunken Canals/Zero7 Sunken Canals.dat
+          #   - BSC/@1BSCProps#/@8BSC BATProps SG Urban Canal/BSC BATProps SG Urban Canal.dat
+          #   - BSC/@1BSCProps#/@7BSC BATProps SG Ditches 2009/BSC BATProps SG Ditches 2009.dat
+          #   - BSC/@1BSCProps#/@6BSC BATProps SG Irrigation Canals v2/BSC BATProps SG Irrigation Canals v2.dat
+          #   - BSC/@1BSCProps#/@5Zero7 Sunken Canal Props/Zero7_SunkenCanalProps.dat
+          #   - BSC/@1BSCProps#/@4BSC MEGA Props - Canals Newman Inc Rivers and Ponds/BSC MEGA Props - Canals Newman Inc Rivers and Ponds.dat
+          #   - BSC/@1BSCProps#/@3BSC MEGA Props - Canals CAL Stone Canals/BSC MEGA Props - Canals CAL Stone Canals.dat
+          #   - BSC/@1BSCProps#/@2BSC MEGA Props - Canals CAL Remastered SimGoober Style/BSC MEGA Props - Canals CAL Remastered SimGoober Style.dat
+          #   - BSC/@1BSCProps#/@1BSC MEGA Props - Canals SimGoober Brick Style/BSC MEGA Props - Canals SimGoober Brick Style.dat
+          #   - BSC/@2Canals/SimGoober Sets/Urban Canals/SG Urban Canals.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Ditches 2009#/Ponds/SG Irrigation Ditches 2009 - Ponds.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Ditches 2009#/Water Sources/SG Irrigation Ditches 2009 - Water Sources.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Ditches 2009#/Channels/SG Irrigation Ditches 2009 - Channels.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Canals 2004#/Water Sources/SG Irrigation Canals 2004 - Water Sources.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Canals 2004#/SG Canal Transition/SG Irrigation Canals 2004 - SG Canal Transition.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Canals 2004#/Ponds/SG Irrigation Canals 2004 - Ponds.dat
+          #   - BSC/@2Canals/SimGoober Sets/Irrigation Canals 2004#/Channels/SG Irrigation Canals 2004 - Channels.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Narrow Canals Waterfall/SG Narrow Canals Waterfall.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Narrow Canals Diagonals/SG Narrow Canals Diagonals.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Narrow Canals Bridges/SG Narrow Canals Bridges.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Narrow Canals BaseSet/SG Narrow Canals BaseSet.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Wharves/SG Brick Canals Wharves.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Utilities/SG Brick Canals Utilities.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Terraces/SG Brick Canals Terraces.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Paddleboats/SG Brick Canals Paddleboats.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Overhangs/SG Brick Canals Overhangs.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Locks/SG Brick Canals Locks.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Gondola Landings/SG Brick Canals Gondola Landings.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Diagonals (Mattb325 and MGB204)/SG Brick Canals Diagonals (Mattb325 and MGB204).dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Culverts/SG Brick Canals Culverts.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Canal Parks/SG Brick Canals Canal Parks.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals Bridges/SG Brick Canals Bridges.dat
+          #   - BSC/@2Canals/SimGoober Sets/Brick Canals#/SG Brick Canals BaseSet/SG Brick Canals BaseSet.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@4Campgrounds/BSC Newman Inc RPK Campgrounds.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Water Sources/Newman Inc ASC Canal Water Pumps.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Water Sources/Newman Inc ASC Canal Water Pumps with path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Ditch Set/Newman Inc ASC Ditch Set.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Stone Canals#/CAL Stone Canals Overhangs/CAL Stone Canals Overhangs.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Stone Canals#/CAL Stone Canals Morris Marina/CAL Stone Canals Morris Marina.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Stone Canals#/CAL Stone Canals Brixham Sculling Club/CAL Stone Canals Brixham Sculling Club.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Stone Canals#/CAL Stone Canals Bridges NE/CAL Stone Canals Bridges NE.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Stone Canals#/CAL Stone Canals Bridges/CAL Stone Canals Bridges.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Stone Canals#/CAL Stone Canals Base Set/CAL Stone Canals Base Set.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@bCAL SG-Remasted Canal Industrial Wharves/CAL SG-Remasted Canal Industrial Wharves.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@aCAL SG-Remasted Canal Holiday Inn/CAL SG-Remasted Canal Holiday Inn.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@9CAL SG-Remasted Canal Terraces/CAL SG-Remasted Canal Terraces.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@8CAL SG-Remasted Canal Pedalos/CAL SG-Remasted Canal Pedalos.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@7CAL SG-Remasted Canal Canal Parks/CAL SG-Remasted Canal Canal Parks.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@6CAL SG-Remasted Canal Aqueduct/CAL SG-Remasted Canal Aqueduct.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@5CAL SG-Remasted Canal Millennium Bridge/CAL SG-Remasted Canal Millennium Bridge v2.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@4CAL SG-Remasted Canal Lock and Bridges/CAL SG-Remasted Canal Lock and Bridges.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@3CAL SG-Remasted Canal Overhangs/CAL SG-Remasted Canal Overhangs.dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@2CAL SG-Remasted Canal Diagonals (Mattb325 and MGB204)/CAL SG-Remasted Canal Diagonals (Mattb325 and MGB204).dat
+          #   - BSC/@2Canals/Callagrafx Sets/Remastered SG Canals#/@1CAL SG-Remasted Canal Baseset/CAL SG-Remasted Canal Baseset.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@3Waterfalls and Extras/WaterLogs/BSC Newman Inc RPK WaterLogs.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@3Waterfalls and Extras/Waterfall with Rapids/BSC Newman Inc RPK Waterfall with Rapids.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@3Waterfalls and Extras/Waterfall/BSC Newman Inc RPK Waterfall.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@2Transitions/BSC River to SG Canals/BSC Newman Inc RPK River to SG Canals Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@2Transitions/BSC River to PEG Waters/BSC Newman Inc RPK River to PEG Waters Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@2Transitions/BSC Calm Water to Rapids/BSC Newman Inc RPK Calm Water to Rapids Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@1Base Sets/Rapids/BSC Newman Inc RPK BaseSet with Rapids.dat
+          #   - BSC/@2Canals/Newman INC Sets/BSC River and Pond Kit (RPK)#/@1Base Sets/Calm Water/BSC Newman Inc RPK BaseSet.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to SG Canals/Newman Inc ASC Canal to SG Canal Transition with path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to RPK set/Newman Inc ASC Canal to RPK Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to RPK set/Newman Inc ASC Canal to RPK Transition with path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to Rivers/Newman Inc ASC Canal to River Transition with path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to PEG Ponds and Sreams/Newman Inc ASC Canal to PEG River Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to PEG Ponds and Sreams/Newman Inc ASC Canal to PEG Pond Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to PEG Ponds and Sreams/Newman Inc ASC Canal to PEG Pond Transition with path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Transitions/to Ditch set/Newman Inc ASC Canal to Ditch Transition.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Base Sets/Without Path/Newman Inc ASC Canal BaseSet without path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Base Sets/With Path/Newman Inc ASC Canal BaseSet with path.dat
+          #   - BSC/@2Canals/Newman INC Sets/Agricultural Suburban Canals (ASC)#/Base Sets/Water Tiles/Newman Inc ASC Canal BaseSet WaterTiles.dat
+      version: 1.0.0
+
+bsc/common-dependencies:
+  # authors: TODO
+  category: 100
+  dependencies:
+    - bsc/essentials
+    - bsc/mega-props-misc-vol01
+    - bsc/mega-props-misc-vol02
+    - bsc/mega-props-misc-vol03
+    - bsc/mega-props-snm-vol01
+    - bsc/mega-props-snm-vol02
+    - bsc/mega-props-w2w-vol01
+    - bsc/prop-family-names
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - callagrafx/mega-props-vol01
+    - callagrafx/prop-pack-ships-vol01
+    - callagrafx/prop-pack-small-boats-vol01
+    - cerulean/mega-props-vol01
+    - cerulean/mega-props-vol02
+    - cerulean/mega-props-vol03
+    - cerulean/mega-props-vol04
+    - cerulean/mega-props-vol05
+    - cerulean/mega-props-vol06
+    - cerulean/mega-props-vol07
+    - cerulean/mega-props-vol08
+    - chrisadams3997/mega-props-vol01
+    - chrisadams3997/mega-props-vol02
+    - chrisadams3997/mega-props-vol03
+    - citynut/bat-props-rpk-vol01
+    - citynut/bat-props-wfk-vol01
+    - citynut/mega-props-vol01
+    - citynut/mega-props-vol02
+    - citynut/mega-props-vol03
+    - citynut/mega-props-vol04
+    - citynut/mega-props-vol05
+    - cobb32118/mega-props-vol01
+    - cobb32118/mega-props-vol02
+    - cobb32118/mega-props-vol03
+    - cobb32118/mega-props-vol04
+    - cobb32118/mega-props-vol05
+    - cobb32118/mega-props-vol06
+    - couchpotato/mega-props-vol01
+    - couchpotato/mega-props-vol02
+    - csx/mega-props-vol01
+    - csx/mega-props-vol02
+    - csx/mega-props-vol03
+    - csx/mega-props-vol04
+    - csx/mega-props-vol05
+    - csx/mega-props-vol06
+    - csx/mega-props-vol07
+    - csx/mega-props-vol08
+    - csx/mega-props-vol09
+    - cycledogg/mega-props-civics
+    - cycledogg/mega-props-houses
+    - cycledogg/mega-props-industrials
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - cycledogg/textures-vol01
+    - deadwoods/mega-props-vol01
+    - deadwoods/mega-props-vol02
+    - debussyman/mega-props-vol01
+    - debussyman/mega-props-vol02
+    - dolphin66/mega-props-vol01
+    - dolphin66/mega-props-vol02
+    - dolphin66/mega-props-vol03
+    - garyreggae/mega-props-vol01
+    - gascooker/mega-props-vol01
+    - gascooker/mega-props-vol02
+    - geoffhaw/prop-pack-flag-pack
+    - girafe/carpack
+    - jbsimio/mega-props-vol01
+    - jbsimio/mega-props-vol02
+    - jbsimio/mega-props-vol03
+    - jenp/mega-props-vol01
+    - jeronij/mega-props-vol02
+    - jeronij/mega-props-vol03
+    - jeronij/mega-props-vol04
+    - jeronij/mega-props-vol05
+    - jeronij/mega-props-vol06
+    - jeronij/prop-pack-cpt-trees-as-props
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - jestarr/mega-props-vol03
+    - jestarr/mega-props-vol04
+    - jestarr/mega-props-vol05
+    - jestarr/mega-props-vol06
+    - jestarr/mega-props-vol07
+    - jestarr/mega-props-vol08
+    - jestarr/mega-props-vol09
+    - jmyers2043/mega-props-agriculture-vol01
+    - jmyers2043/mega-props-agriculture-vol02
+    - jmyers2043/mega-props-common-props
+    - kevdan25/mega-props-vol01
+    - kwakelaar/mega-props-vol01
+    - kwakelaar/mega-props-vol02
+    - kwakelaar/mega-props-vol03
+    - lilith/mega-props-vol01
+    - mattb325/bat-props-cottages-ornee-vol01
+    - mattb325/bat-props-cottages-ornee-vol02
+    - mattb325/bat-props-london-w2w-vol01
+    - mattb325/bat-props-mcmansion-vol01
+    - mattb325/bat-props-shopping-mall-pack-vol01
+    - mattb325/bat-props-small-modern-house-pack-vol01
+    - mattb325/bat-props-vol01
+    - mattb325/bat-props-vol02
+    - mattb325/bat-props-vol03
+    - mattb325/bat-props-vol04
+    - mattb325/bat-props-w2w-prop-pack-vol01
+    - mickebear/mega-props-vol01
+    - mickebear/mega-props-vol02
+    - mickebear/mega-props-vol03
+    - mickebear/mega-props-vol04
+    - mikeseith/mega-props-vol01
+    - mikeseith/mega-props-vol03
+    - prepo/mega-props-vol01
+    - ripptide/mega-props-vol01
+    - ripptide/mega-props-vol02
+    - ripptide/mega-props-vol03
+    - ripptide/mega-props-vol04
+    - ripptide/mega-props-wfk-vol01
+    - ripptide/mega-props-wfk-vol02
+    - rubik3/mega-props-vol01
+    - simgoober/mega-props-vol01
+    - simgoober/models-adult
+    - simgoober/models-agriculture
+    - simgoober/models-civic-education
+    - simgoober/models-civic-rewards
+    - simgoober/models-civic-services
+    - simgoober/models-department-stores
+    - simgoober/models-entertainment
+    - simgoober/models-grocery-stores
+    - simgoober/models-hotels-vol01
+    - simgoober/models-hotels-vol02
+    - simgoober/models-iht
+    - simgoober/models-im-vol01
+    - simgoober/models-im-vol02
+    - simgoober/models-large-stores
+    - simgoober/models-malls
+    - simgoober/models-medium-shops
+    - simgoober/models-motels
+    - simgoober/models-offices-highrise-vol01
+    - simgoober/models-offices-highrise-vol02
+    - simgoober/models-offices-medium
+    - simgoober/models-residentials-vol01
+    - simgoober/models-residentials-vol02
+    - simgoober/models-residentials-vol03
+    - simgoober/models-residentials-vol04
+    - simgoober/models-restaurants
+    - simgoober/models-sainsbury
+    - simgoober/models-small-shops
+    - simgoober/models-transportation
+    - simgoober/models-utilities
+    - simgoober/models-w2w-commercials
+    - swi21/mega-props-vol01
+    - swi21/mega-props-vol02
+    - tag-one/mega-props-vol01
+    - tag-one/mega-props-vol02
+    - tag-one/mega-props-vol03
+    - tag-one/mega-props-vol04
+    - vester/bat-props-vol01
+    - vester/bat-props-vol02
+    - xannepan/mega-props-vol01
+    - xannepan/mega-props-vol02
+    - xannepan/mega-props-vol03
+    - xannepan/mega-props-vol04
+    - xannepan/mega-props-vol05
+    - xannepan/prop-pack-tree-props-vol01
+    - xannepan/prop-pack-tree-props-vol02
+    - xannepan/prop-pack-tree-props-vol03
+  name: BSC Common Dependencies
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_MASTER REMOVE LIST_BSC Common Dependencies Pack*
+          docs:
+            - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include: []
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+      version: 9.1.0
+
+bsc/essentials:
+  category: 120
+  name: BSC Essentials
+  variants:
+    default:
+      assets:
+        - cleanitol:
             - Cleanitol_BSC_Essentials*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Essentials*.dat
             - BSC_Reward_essential.dat
@@ -17,170 +296,160 @@ bsc/essentials:
       version: 2024.0.1
 
 bsc/mega-props-misc-vol01:
-  # authors: TODO
   category: 120
-  name: "BSC MEGA Props Misc Vol01"
+  name: BSC MEGA Props Misc Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - Misc Vol01*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Misc Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
 bsc/mega-props-misc-vol02:
-  # authors: TODO
   category: 120
-  name: "BSC MEGA Props Misc Vol02"
+  name: BSC MEGA Props Misc Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - Misc Vol02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Misc Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 4.0.0
 
 bsc/mega-props-misc-vol03:
-  # authors: TODO
   category: 120
-  name: "BSC MEGA Props Misc Vol03"
+  name: BSC MEGA Props Misc Vol03
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - Misc Vol03*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Misc Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
 bsc/mega-props-snm-vol01:
-  # authors: TODO
   category: 120
-  name: "BSC MEGA Props SNM Vol01"
+  name: BSC MEGA Props SNM Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - SNM Vol01*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - SNM Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
 bsc/mega-props-snm-vol02:
-  # authors: TODO
   category: 120
-  name: "BSC MEGA Props SNM Vol02 - Naval"
+  name: BSC MEGA Props SNM Vol02 - Naval
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - SNM Vol02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - SNM Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
 bsc/mega-props-w2w-vol01:
-  # authors: TODO
   category: 120
-  name: "BSC MEGA Props W2W Vol01"
+  name: BSC MEGA Props W2W Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - W2W Vol01*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - W2W Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
 
 bsc/prop-family-names:
-  # authors: TODO
   category: 120
-  name: "BSC Prop Family Names"
+  name: BSC Prop Family Names
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC_PropFamilyNames*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC_PropFamilyNames*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 4.0.0
 
 bsc/textures-vol01:
-  # authors: TODO
   category: 110
-  name: "BSC Textures Vol01"
+  name: BSC Textures Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC Textures Vol01*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Textures Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
 bsc/textures-vol02:
-  # authors: TODO
   category: 110
-  name: "BSC Textures Vol02"
+  name: BSC Textures Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC Textures Vol02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Textures Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
 bsc/textures-vol03:
-  # authors: TODO
   category: 110
-  name: "BSC Textures Vol03"
+  name: BSC Textures Vol03
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC Textures Vol03*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Textures Vol03*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack

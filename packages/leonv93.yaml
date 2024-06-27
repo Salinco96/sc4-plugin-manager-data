@@ -23,16 +23,27 @@ leonv93/cathedral:
   authors:
     - leonv93
   category: 650
-  description: Cathedral; No Dependencies
+  description: Large Gothic Cathedral; No Dependencies
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f30369960_Regopolis-Dec.141301717888542.thumb.png.b1780fce026c051a7c5c16454967f220.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f30422766_Regopolis-Dec.141301717888530.thumb.png.aa54f79c8d46e145c7c64c70a22a88e2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f304c45dc_Regopolis-Dec.141301717888523.thumb.png.d776e6e5d7c63cb67073fcab2982a15f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f30586fd8_Regopolis-Mar.111311717888791.thumb.png.9550b64b97ade5644d5f23c3569d68f7.png
   name: Cathedral
-  url: https://community.simtropolis.com/files/file/36268-cathedral
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f304c45dc_Regopolis-Dec.141301717888523.thumb.png.d776e6e5d7c63cb67073fcab2982a15f.png
+  url: https://community.simtropolis.com/files/file/36268-cathedral/
   variants:
     default:
       assets:
         - id: simtropolis/36268-cathedral#201658
           include:
-            - Sim Cathedral*
-      version: 2.0.0
+            - Sim Cathedra*
+      requirements:
+        darknite: false
+      version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/cletus-house:
   authors:
