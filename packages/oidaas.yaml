@@ -42,6 +42,9 @@ oidaas/esa-gantries-vol01:
           include:
             - ESA Gantries/ESA/Lots
       version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 oidaas/esa-rail-props-1:
   authors:

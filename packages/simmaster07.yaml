@@ -2,10 +2,53 @@ simmaster07/extra-cheats-dll:
   authors:
     - simmaster07
   category: 10
-  name: "Simmaster's Extra Cheats DLL"
+  name: Simmaster's Extra Cheats DLL
   variants:
     default:
       assets:
         - id: simtropolis/31350-simmasters-extra-cheats-dll
       url: https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll
       version: 1.1.1
+
+simmaster07/sc4fix:
+  authors:
+    - simmaster07
+  category: 30
+  description: >-
+    What does this do?
+
+      -  Fixes a serialization bug that could corrupt the savegame, particularly when mods are installed that modify existing exemplars (i.e. Prop Pox).
+      -  Resolves a crash-to-desktop when hovering NAM puzzle pieces over transit-enabled lots.
+      -  Allows other DLLs to load into SC4's memory without a GZCOM framework.
+
+    Requirements
+
+    This fix is made for versions 640 and 641 of SimCity 4 on Windows. Version 640 is a fully-patched SC4 retail copy, and version 641 is a fully-patched digital distribution version (i.e. Steam,
+    Origin, GOG). Although v641 is supported, it has only been officially tested on Steam.
+
+
+    To see if SC4Fix is working properly, check the title of your game window. If you are playing in fullscreen mode, alt-tab out and hover over the SimCity taskbar icon. The titlebar will show
+    "SC4Fix (version #)" if loaded properly.
+
+
+    Repairing cities already affected by Prop Pox
+
+    Thanks to kingofsimcity for these instructions:
+
+      -  In the region view, open the graphics settings and change City Detail to Low.
+      -  Close and relaunch SC4.
+      -  Open the offending city tile and save immediately.
+      -  Exit to region without saving and change City Detail back to High.
+      -  Close and relaunch SC4.
+      -  Open the offending city tile and save again.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_12/sc4fix.thumb.png.ced8b7b12af0c352bbb50b295298a062.png
+  name: "SC4Fix: Third-party patches for SC4"
+  repository: https://github.com/nsgomez/sc4fix
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2015_12/sc4fix.thumb.png.ced8b7b12af0c352bbb50b295298a062.png
+  url: https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/30883-sc4fix-third-party-patches-for-sc4
+      version: 1.0.7

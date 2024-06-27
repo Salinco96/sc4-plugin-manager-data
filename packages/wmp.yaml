@@ -3,9 +3,9 @@ wmp/the-bridges-of-shoreline-county:
     - DocRorlach
     - d_j_p1
   category: 660
-  # dependencies:
-  #   - TODO: WMP Mega Props vol. 01 - Misc General Props and for the SC4D LEX Link
-  #   - TODO: WMP Essentials v1.0 and for the SC4D LEX Link
+  dependencies:
+    - wmp/essentials
+    - wmp/mega-props-vol01
   description: >-
     The Bridges of Shoreline County, batte(re)d & lotted by DocRorlach WorkingMan BATtery
 
@@ -55,8 +55,13 @@ wmp/the-bridges-of-shoreline-county:
 
 
     (These very same lots can be/will be found on the LEX too, look for the WMP contents.)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/95de0088b226f006c8422a54e40b96cb-bridge7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/e4fc78e773fff9e305842acb23c25327-susp_bridge02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/226de68c91ed93e4567ad805b337ddc1-bridge09.jpg
   name: WMP The Bridges of Shoreline County
-  url: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2011/thumb-95de0088b226f006c8422a54e40b96cb-bridge7.jpg
+  url: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/
   variants:
     default:
       assets:

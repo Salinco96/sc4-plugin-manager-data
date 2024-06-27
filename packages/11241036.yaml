@@ -433,6 +433,79 @@
             - 11241036 Textures
       version: 3.0.0
 
+11241036/traffic-blocker-set:
+  authors:
+    - "11241036"
+  category: 970
+  dependencies:
+    # TODO: NAM
+    - 11241036/textures
+    - mgb204/texture-pack
+    - sfbt/essentials
+  description: >-
+    This is a set of car, freight car, and bus traffic blockers for default maxis, SAM, GLR, and RHW routes. They will block one kind of traffic while allowing the other kinds of traffic and
+    pedestrians to pass. This may be useful for creating bus lines, simply reducing traffic, preventing cars from taking a shortcut through settlements, keeping freight cars away from residential
+    zones and so on. Traffic blockers for roads, one-way roads, avenues, side roads, and railway are already existing on the STEX, but not for SAM and RHW routes, so I thought they might be useful.
+
+
+    I've tried to keep them as inconspicuous as possible (so not to disrupt the look of your city); therefore the screenshots won't be spectacular. The screenshot below shows a small city where buses
+    and pedestrians are taking the SAM 2 Herringbone Street to get to work, while cars are forced to take a detour.
+
+
+    There are traffic blockers for the subsequently mentioned traffic routes:
+
+      -  Maxis routes: road, street, avenue, one-way road
+      -  SAM streets: 2-11
+      -  RHW routes: RHW-2, RHW-4, RHW-6, RHW-8, RHW-10, MIS
+      -  GLR: Tram-on-Road (only with concrete pavement in the center), Tram-on-Avenue, Tram-on-Street
+
+    For further information, please refer to the readme in the download.
+
+
+    Dependencies:
+
+
+    SFBT Essentials
+
+
+    https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials
+
+
+    MGB Texture Pack
+
+
+    https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
+
+
+    Network Addon Mod Version 37.0 or newer
+
+
+    http://community.simtropolis.com/files/file/26793-network-addon-mod-for-windows-installer-offsite
+
+
+    11241036 Textures
+
+
+    To be done:
+
+      -  Also, I'd appreciate if someone could explain me how to make Menu Management Lots. Although traffic blockers are sometimes helpful, we probably won't use them everyday, and therefore you may probably want to save space in your game menu.
+      -  If I'm getting enough requests, I may include other traffic blockers in later updates.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/b3e889c444c37b6950f9e07339bc5a74-test.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e973f61ad2a1_SAM8Override.thumb.jpg.f72e111b8dbddaad3060205663f06a46.jpg
+  name: Traffic Blocker Set
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
+  url: https://community.simtropolis.com/files/file/28975-traffic-blocker-set/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/28975-traffic-blocker-set
+      version: 3.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 11241036/various-lot-foundations-and-retaining-walls:
   authors:
     - "11241036"
@@ -476,18 +549,6 @@
     to another fondation/retaining wall and how to use lots if they are supposed to be placed on slopes.
 
 
-    Installation:
-
-
-    Move or copy all files in this archive into the Plugins folder of your copy of SimCity 4. To uninstall, just remove these files.
-
-
-    Compatibility:
-
-
-    This plugin should be compatible with all versions of SimCity 4. If you find out that this is not the case, please tell me.
-
-
     Credits:
 
 
@@ -499,8 +560,12 @@
 
 
     Please feel free to post issues, bug reports, and suggestions in this thread:
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.thumb.png.cb0ee5322a751f204134fec329ea2025.png
   name: Various Lot Foundations and Retaining Walls
-  url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
+  url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
   variants:
     default:
       assets:

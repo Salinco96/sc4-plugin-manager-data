@@ -16,20 +16,20 @@ gizmo/day-night-mod:
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/62-day-night-mod-by-gizmo28
       version: 2.0.0
 
-gizmo/ground-fog-effect-mod:
+gizmo/ground-fog-effect:
   authors:
     - Gizmo
   category: 920
   name: Ground Fog Effect Mod
+  url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/63-ground-fog-effect-by-gizmo28
   variants:
     default:
       assets:
         - docs:
-            - Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes
           id: sc4evermore/63-ground-fog-effect-by-gizmo28
           include:
             - Gizmo/Ground Fog*
-      url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/63-ground-fog-effect-by-gizmo28
       version: 1.0.0
 
 gizmo/street-rr-gate-replacement-mod:
@@ -91,18 +91,49 @@ gizmo/vehicle-props:
             - Gizmo/Vehicle Props*
       version: 5.0.0
 
-gizmo/weather-effect-mod:
+gizmo/weather-effects:
   authors:
     - Gizmo
   category: 920
+  description: >-
+    NOTE: This file, by gizmo28, was originally hosted on Gizmo's SimCity 4 Mods, which has been non-functional since January 2019. It has been uploaded to the LEX in good faith to restore access and
+    availability, following reasonable attempts to contact the original author. Further details can be found on the appropriate thread in the SC4 Community Preservation and Access Board on the SC4
+    Devotion Forums. In the absence of the original author, technical support will be provided by Preservation and Access (P&A) Project on the previously linked board.
+
+
+    This file is packaged as a .zip archive, and may be easily opened on any platform.
+
+
+
+
+    Details
+
+
+    This mod is a effect placed on a lot that has to be plopped in your city, the effect starts randomly after the first of year. If you don't see the clouds/rain at all after that, you may have to
+    bulldoze the lot and place it somewhere else as the effect may be out of bounds, this isn't something that I have control over since the effect is on a lot and has no way of running on its own.
+
+        Plop Cost: $10,000
+
+       Monthly Cost: $1,000
+
+       Monthly Income: N/A
+
+       Menu Location: Water Utilities, Gizmo_Weather_Plant
+
+       Lot Size: 6 x 7
+
+       Lot Effects: -500 water pollution in a 75 tile radius, 7500 water produced,
+    100 power consumed, and 500 water consumed.
+
+       Requirements: Power, water and road connections.
   name: Weather Effect Mod
+  url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/65-weather-effects-mod-by-gizmo28
   variants:
     default:
       assets:
         - docs:
-            - Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes
           id: sc4evermore/65-weather-effects-mod-by-gizmo28
           include:
             - Gizmo/Weather Effect Mod*
-      url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/65-weather-effects-mod-by-gizmo28
       version: 1.0.0
