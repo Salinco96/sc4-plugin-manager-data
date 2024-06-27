@@ -20,9 +20,6 @@ shadeslayer/scag-cargo-lots:
     - jestarr/mega-props-vol02
     - jestarr/mega-props-vol03
   description: >-
-    About
-
-
     It's finally here! SCAG Cargo Lots by ShadeSlayer (SCAG-CLSS) is a series of lots aimed to enhance the cargo aspect of SimCity Airports.
 
 
@@ -41,12 +38,6 @@ shadeslayer/scag-cargo-lots:
       -  Some pictures to make it look pretty.
 
     All of this is contained in a .zip file. There is no EXE installer as to maintain cross-compatability between different Operating Systems.
-
-     Installation Instructions
-
-    Unzip (extract) the .ZIP file into your "My Documents/SimCity 4/Plugins" folder.
-
-     Dependencies
 
     Sorry for the huge amount of dependencies, but I created this under the assumption that most users downloading this would already have airports, and thus, have about half of the dependencies
     already.
@@ -67,26 +58,25 @@ shadeslayer/scag-cargo-lots:
 
     You may also use the included Cleanitol file to make this job easier...
 
-     Credits/Thanks
+    Credits/Thanks
 
     This package was created by myself, with assistance with some fellow team members in the area of prop making, namely:
 
 
-    joelyboy911: Cargo Loaders
+      - joelyboy911: Cargo Loaders
 
 
-    cameron1991: LD3 containers
+      - cameron1991: LD3 containers
 
 
-    RustyXL: LD3 carts
+      - RustyXL: LD3 carts
 
 
-    AC Team: for creating the plane models
+      - AC Team: for creating the plane models
 
 
     Also thanks to the SCAG team. Without them, this probably wouldn't have been as face-smashingly awesome.
 
-     Copyright
 
     Copyright © 2009, SimCity Aviation Group
 
@@ -96,10 +86,8 @@ shadeslayer/scag-cargo-lots:
 
     Do not redistribute the included lots without direct permission.
 
-     Contact
 
-    If you wish to contact me, my email is:
-
+    Contact
 
     SCAG Team Room: www.sc4devotion.com/forums/index.php
   images:
@@ -117,3 +105,6 @@ shadeslayer/scag-cargo-lots:
           include:
             - SCAG-CLSS
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

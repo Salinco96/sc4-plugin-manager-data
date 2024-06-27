@@ -3,12 +3,6 @@ buggi/extra-cheats:
     - Buggi
   category: 10
   description: >-
-    The SimCity 4 Extra Cheats Plugin
-
-
-    Overview:
-
-
     The SimCity 4 Extra Cheats Plugin was originally an internal SimCity 4 file, used by Maxis during the development phase to test the game before its release to the public. However, in the years
     following the release of the game, Buggi, a prominent modder resident here at Simtropolis, contacted Maxis and was given permission to release this file to the public.
 
@@ -85,10 +79,5 @@ buggi/extra-cheats:
   variants:
     default:
       assets:
-        - docs:
-            - Extra_Cheats_Plugin_02.jpg
-            - Extra_Cheats_Plugin_01.jpg
-          id: simtropolis/21118-simcity-4-extra-cheats-plugin
-          include:
-            - SimCity 4 Extra Cheats Plugin.dll
+        - id: simtropolis/21118-simcity-4-extra-cheats-plugin
       version: 1.0.0

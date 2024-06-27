@@ -2,24 +2,72 @@ somy/danchi-apartments:
   authors:
     - SOMY
   category: 210
-  description: A set of apartments from SOMY. There are four different styles of low wealth residential buildings plus a water tower. These have been updated using SC4PIM and the models have been
-    centred using cogeo's Model Tweaker. There are three different style of 2x5 growable lot - the original style made by SOMY, a set of lots with a LH corner and a set with a RH corner. There is also
-    a set of 5x2 low wealth residential lots.
+  dependencies:
+    - somy/mega-props-vol05
+  description: >-
+    A set of apartments from SOMY. There are four different styles of low wealth residential buildings plus a water tower. These have been updated using SC4PIM and the models have been centred using
+    cogeo's Model Tweaker.
+
+    There are three different style of 2x5 growable lot - the original style made by SOMY, a set of lots with a LH corner and a set with a RH corner. There is also a set of 5x2 low wealth residential
+    lots.
+
+    Growable Version:
+
+      - Lot size: 2 x 5 and 5x2 tiles
+      - Building style(s): Building: Residential, Building: R$, Style: Chicago, Style: New York, Style: Houston, Style: Euro
+      - Growth stage: 5
+      - Occupants: from 290 to 382 depending on model style
+      - Bulldoze cost: § 247 to 284
+      - Building Value: § 3941 to 5191
+      - Construction Time: 26 days
+      - Max Fire Stage: 3
+      - Power consumption: 2 MWh/month
+      - Water consumption: 4 Gallons/month
+      - Air pollution: 1 over 5 tiles
+      - Water pollution: 1 over 5 tiles
+      - Garbage pollution: 4 over 0 tiles
+
+    Water Tower:
+
+      - Lot size: 1 x 1 tiles
+      - Menu position: Building: Utility, Building: Water
+      - Jobs: n/a
+      - Plop cost: § 650
+      - Bulldoze cost: § 30
+      - Monthly cost: § 200
+      - Water Produced 9400 gallons/month
+      - Max. Fire Stage: 3
+      - Power consumption: 2 MWh/month
+      - Water consumption: 5 Gallons/month
+      - Air pollution: 0 over 2 tiles
+      - Water pollution: 0 over 0 tiles
+      - Garbage pollution: 0 over 0 tiles
+
+
+    Credits:
+
+
+    Original models and lots by SOMY. The models have been centred using cogoe's Model Tweaker and the descriptos have been remade using wounanagaine's SC4PIM. These lots are CAMpatible.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_s.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_sn.jpg
   name: SOMY Danchi Apartments
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_s.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/244-somy-danchi-apartments
   variants:
     default:
       assets:
         - docs:
-            - SOMY_Readmes
+            - ~Documents/SOMY_Readmes
           id: sc4evermore/244-somy-danchi-apartments
           include:
-            - SOMY/Danchi Apartments*
-      dependencies:
-        - somy/mega-props-vol05
+            - SOMY/Danchi Apartments
       requirements:
         darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 somy/mega-props-collection:
   authors:
@@ -238,21 +286,50 @@ somy/mega-props-vol10:
 somy/modern-japanese-house-set:
   authors:
     - SOMY
+    - BarbyW
   category: 220
-  description: A set of 10 houses by SOMY that have been updated using the X_Tool and also have had the dummy building replaced by a building model. The capacity now varies according to the number and
-    size of houses on the lot. All except one are stage 3 R$$ and the lotting is unchanged from the originals.
+  dependencies:
+    - somy/mega-props-vol07
+  description: >-
+    A set of 10 houses by SOMY that have been updated using the X_Tool and also have had the dummy building replaced by a building model. The capacity now varies according to the number and size of
+    houses on the lot. All except one are stage 3 R$$ and the lotting is unchanged from the originals.
+
+    Growable Version:
+
+      - Lot size: 1 x 4 tiles
+      - Building style(s): Building: Residential, Building: R$$, Style: Chicago, Style: New York, Style: Houston, Style: Euro
+      - Growth stage: 3
+      - Occupants: R-$: 44 to 94, R-$$: 26 to 53
+      - Bulldoze cost: § 215
+      - Worth: § 678
+      - Construction Time: 21 days
+      - Max Fire Stage: 3
+      - Power consumption: 1 MWh/month
+      - Water consumption: 2 Gallons/month
+      - Air pollution: 1 over 5 tiles
+      - Water pollution: 1 over 6 tiles
+      - Garbage pollution: 4 over 0 tiles
+
+    Credits
+
+    Original BATs and lots by SOMY. Updating by BarbyW
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/somy-jpn-house1x4.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/simtop3.jpg
   name: SOMY Modern Japanese House Set
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/somy-jpn-house1x4.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/245-somy-modern-japanese-house-set
   variants:
     default:
       assets:
         - docs:
-            - SOMY_Readmes
+            - ~Documents/SOMY_Readmes
           id: sc4evermore/245-somy-modern-japanese-house-set
           include:
-            - SOMY/Modern Japanese Houses*
-      dependencies:
-        - somy/mega-props-vol07
+            - SOMY/Modern Japanese Houses (1x4)
       requirements:
         darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

@@ -58,12 +58,12 @@ pclark06/mgb-convenience-stores:
     - pclark06/mgb-convenience-stores-italy
     - pclark06/mgb-convenience-stores-scandinavia
     - pclark06/mgb-convenience-stores-uk
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -91,12 +91,12 @@ pclark06/mgb-convenience-stores-asia:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -112,6 +112,9 @@ pclark06/mgb-convenience-stores-asia:
           include:
             - PC MGB Convenience Stores Global Expansion/Asia-Australia
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-benelux:
   authors:
@@ -128,12 +131,12 @@ pclark06/mgb-convenience-stores-benelux:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -149,6 +152,9 @@ pclark06/mgb-convenience-stores-benelux:
           include:
             - PC MGB Convenience Stores Global Expansion/Benelux
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-canada:
   authors:
@@ -165,12 +171,12 @@ pclark06/mgb-convenience-stores-canada:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -186,6 +192,9 @@ pclark06/mgb-convenience-stores-canada:
           include:
             - PC MGB Convenience Stores Global Expansion/Canada
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-caribbean:
   authors:
@@ -202,12 +211,12 @@ pclark06/mgb-convenience-stores-caribbean:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -223,6 +232,9 @@ pclark06/mgb-convenience-stores-caribbean:
           include:
             - PC MGB Convenience Stores Global Expansion/Caribbean
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-iberia:
   authors:
@@ -239,12 +251,12 @@ pclark06/mgb-convenience-stores-iberia:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -260,6 +272,9 @@ pclark06/mgb-convenience-stores-iberia:
           include:
             - PC MGB Convenience Stores Global Expansion/Iberia
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-italy:
   authors:
@@ -276,12 +291,12 @@ pclark06/mgb-convenience-stores-italy:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -297,6 +312,9 @@ pclark06/mgb-convenience-stores-italy:
           include:
             - PC MGB Convenience Stores Global Expansion/Italy
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-scandinavia:
   authors:
@@ -313,12 +331,12 @@ pclark06/mgb-convenience-stores-scandinavia:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -334,6 +352,9 @@ pclark06/mgb-convenience-stores-scandinavia:
           include:
             - PC MGB Convenience Stores Global Expansion/Scandinavia
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pclark06/mgb-convenience-stores-uk:
   authors:
@@ -350,12 +371,12 @@ pclark06/mgb-convenience-stores-uk:
     - rretail/mega-props-vol02
     - rretail/mega-props-vol03
     - shokthrpy/shk-parking-pack
-  description: >-
-    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model and the
-    props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original props
-    for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by region,
-    and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the Extra
-    Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
+  description:
+    This is not an April Fool's joke. I have made some new global brands for the MGB Convenience store. I felt like it would be the right time to revisit the modular nature of @rsc204's model
+    and the props to go along with it, and create additional stores from areas around the world that had not been covered by that. These don't use prop families, nor do they overlap with the original
+    props for this, since over the years I have made unique props for these brands and figured, why not use them for this project? Each are in individual growable 4x4 lots. They are all separated by
+    region, and you can choose which folders you want to use, or if you like a chaotic, global region, use all of them (be my guest!). If you want to plop these lots, use the LotPlop cheat from the
+    Extra Cheats DLL. Also many of the gas canopies used are by @RRetail and were of great help for this project so special thanks to him for making them!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe1411873_Oolong-Dec.1001647306758.thumb.png.e5237597b904baff2570859202ab07f4.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6246fe150fd71_Gurneysville-Dec.22011648782916.thumb.png.b85229e15361f61dec65402db35c9517.png
@@ -371,3 +392,6 @@ pclark06/mgb-convenience-stores-uk:
           include:
             - PC MGB Convenience Stores Global Expansion/UK
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

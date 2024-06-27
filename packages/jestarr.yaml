@@ -423,7 +423,7 @@ jestarr/the-moxie-bottling-company:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/MoxieBottlingCompany_Day.thumb.jpg.073ba563b64696fb2091baf6ee77de2f.jpg
   url: https://community.simtropolis.com/files/file/36271-the-moxie-bottling-company/
   variants:
-    sd:
+    default:
       assets:
         - docs:
             - Documentation
@@ -431,10 +431,9 @@ jestarr/the-moxie-bottling-company:
           include:
             - BSC/BSCProps
             - BSC/jestarr
-            - path: CAM/jestarr/jes_MoxieBottlingCompany
-              condition:
+            - condition:
                 cam: true
-      name: SD
+              path: CAM/jestarr/jes_MoxieBottlingCompany
       version: 1.0.0
     hd:
       assets:
@@ -444,8 +443,11 @@ jestarr/the-moxie-bottling-company:
           include:
             - BSC/BSCProps
             - BSC/jestarr
-            - path: CAM/jestarr/jes_MoxieBottlingCompany
-              condition:
+            - condition:
                 cam: true
+              path: CAM/jestarr/jes_MoxieBottlingCompany
       name: HD
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

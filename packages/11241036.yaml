@@ -132,39 +132,6 @@
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
   url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
   variants:
-    default:
-      assets:
-        - docs:
-            - Readme Files
-          id: simtropolis/31351-modular-plaza-system-mps
-          include:
-            - MPS Core Files.dat
-            - Seawall Connection Lots.dat
-            - path: MPS_Submenu Park.dat
-              condition:
-                submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
-                submenus: true
-      name: Maxis White Pavement
-      version: 2.0.0
-    maxis-concrete:
-      assets:
-        - docs:
-            - Readme Files
-          id: simtropolis/31351-modular-plaza-system-mps
-          include:
-            - MPS Core Files.dat
-            - Seawall Connection Lots.dat
-            - z_Maxis Concrete.dat
-            - path: MPS_Submenu Park.dat
-              condition:
-                submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
-                submenus: true
-      name: Maxis Concrete
-      version: 2.0.0
     bsc-diagonal-brick:
       assets:
         - docs:
@@ -174,12 +141,12 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_BSC Diagonal Brick.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: BSC Diagonal Brick
       version: 2.0.0
     bsc-pink-pavement:
@@ -191,12 +158,12 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_BSC Pink Pavement.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: BSC Pink Pavement
       version: 2.0.0
     bsc-red-cobblestone:
@@ -208,17 +175,48 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_BSC Mediterranean Red Cobblestone.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: BSC Red Cobblestone
       version: 2.0.0
+    default:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - condition:
+                submenus: true
+              path: MPS_Submenu Park.dat
+            - condition:
+                submenus: true
+              path: MPS_Submenu Plazas.dat
+      name: Maxis White Pavement
+      version: 2.0.0
+    maxis-concrete:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat
+            - z_Maxis Concrete.dat
+            - condition:
+                submenus: true
+              path: MPS_Submenu Park.dat
+            - condition:
+                submenus: true
+              path: MPS_Submenu Plazas.dat
+      name: Maxis Concrete
+      version: 2.0.0
     mtp-red-sandstone:
-      dependencies:
-        - pegasus/mtp-super-pack
       assets:
         - docs:
             - Readme Files
@@ -227,12 +225,14 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_MTP Red Sandstone.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
+      dependencies:
+        - pegasus/mtp-super-pack
       name: MTP Red Sandstone
       version: 2.0.0
     nam-cobblestone:
@@ -244,12 +244,12 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_NAM Cobblestone.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: NAM Cobblestone
       version: 2.0.0
     nam-industrial:
@@ -261,12 +261,12 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_NAM Industrial.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: NAM Industrial
       version: 2.0.0
     nam-pink-pavement:
@@ -278,12 +278,12 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_NAM Pink Pavement.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: NAM Pink Pavement
       version: 2.0.0
     nam-red-brick:
@@ -295,12 +295,12 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_NAM Red Brick.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: NAM Red Brick
       version: 2.0.0
     nam-sandstone:
@@ -312,18 +312,15 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_NAM Sandstone.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
       name: NAM Sandstone
       version: 2.0.0
     vortexture-cobblestone-1:
-      dependencies:
-        - vortex/textures-vol01
-        - vortex/textures-vol02
       assets:
         - docs:
             - Readme Files
@@ -332,18 +329,18 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_Vortexture Cobblestone 1.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
-      name: Vortexture Cobblestone 1
-      version: 2.0.0
-    vortexture-cobblestone-2:
+              path: MPS_Submenu Plazas.dat
       dependencies:
         - vortex/textures-vol01
         - vortex/textures-vol02
+      name: Vortexture Cobblestone 1
+      version: 2.0.0
+    vortexture-cobblestone-2:
       assets:
         - docs:
             - Readme Files
@@ -352,12 +349,15 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - z_Vortexture Cobblestone 2.dat
-            - path: MPS_Submenu Park.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: MPS_Submenu Plazas.dat
-              condition:
+              path: MPS_Submenu Park.dat
+            - condition:
                 submenus: true
+              path: MPS_Submenu Plazas.dat
+      dependencies:
+        - vortex/textures-vol01
+        - vortex/textures-vol02
       name: Vortexture Cobblestone 2
       version: 2.0.0
   warnings:
@@ -504,8 +504,7 @@
   variants:
     default:
       assets:
-        - id: simtropolis/31346-various-lot-foundations-and-retaining-walls
-          exclude:
-            # TODO: Option to include this
+        - exclude: # TODO: Option to include this
             - TestLots.dat
+          id: simtropolis/31346-various-lot-foundations-and-retaining-walls
       version: 1.0.0

@@ -3,8 +3,9 @@ cycledogg/early-19th-century-high-wealth-houses:
     - cycledogg
   category: 230
   name: CP Early 19th-Century High Wealth Houses
+  url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - docs:
             - ~Documents/*HiWealthHses*
@@ -37,7 +38,7 @@ cycledogg/early-19th-century-medium-houses:
   category: 220
   name: CP Early 19th-Century Medium Houses
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - docs: []
           id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
@@ -68,7 +69,7 @@ cycledogg/early-19th-century-small-houses:
   category: 210
   name: CP Early 19th-Century Small Houses
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - docs: []
           id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
@@ -99,7 +100,7 @@ cycledogg/early-19th-century-tenements-pack:
   category: 220
   name: CP Early 19th-Century Tenements
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - docs:
             - ~Documents/*Tenements*

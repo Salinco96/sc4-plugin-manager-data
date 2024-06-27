@@ -40,19 +40,19 @@ barroco-hispano/agc-a-frame-houses:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/664e910c456a7_image(20).thumb.png.746ba7ef3a3c111c24a8a51245bbfe69.png
   url: https://community.simtropolis.com/files/file/36259-agc-a-frame-houses/
   variants:
-    default:
-      assets:
-        - id: simtropolis/36259-agc-a-frame-houses#201518
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 2.0.0
     darknite:
       assets:
         - id: simtropolis/36259-agc-a-frame-houses#201519
       name: Dark Nite
       requirements:
         darknite: true
+      version: 2.0.0
+    default:
+      assets:
+        - id: simtropolis/36259-agc-a-frame-houses#201518
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 2.0.0
   warnings:
     - id: bulldoze
@@ -149,6 +149,10 @@ barroco-hispano/agc-fishing-vessel-g-01:
 
     Includes Maxisnite and Darknite (Choose just one).
 
+    Dependencies:
+
+    No
+
     Scale of the models: 100% on all axes (Real World Scale).
 
     If you like my work, you can make a donation to fund my other projects!
@@ -164,19 +168,19 @@ barroco-hispano/agc-fishing-vessel-g-01:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/665e4ce8810a8_image(23).thumb.png.030422ff88713a32256f26307233e1ce.png
   url: https://community.simtropolis.com/files/file/36279-agc-fishing-vessel-g-01/
   variants:
-    default:
-      assets:
-        - id: simtropolis/36279-agc-fishing-vessel-g-01#201555
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/36279-agc-fishing-vessel-g-01#201556
       name: Dark Nite
       requirements:
         darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36279-agc-fishing-vessel-g-01#201555
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -210,19 +214,19 @@ barroco-hispano/agc-heavy-machinery-dlc:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/Red-D3D-HeavyMachines.thumb.jpg.c466d829acbde1691482c66470778b6e.jpg
   url: https://community.simtropolis.com/files/file/36292-agc-heavy-machinery-dlc/
   variants:
-    default:
-      assets:
-        - id: simtropolis/36292-agc-heavy-machinery-dlc#201632
-      name: Maxis Nite
-      requirements:
-        darknite: false
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/36292-agc-heavy-machinery-dlc#201633
       name: Dark Nite
       requirements:
         darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36292-agc-heavy-machinery-dlc#201632
+      name: Maxis Nite
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -233,7 +237,7 @@ barroco-hispano/agc-streets-dlc:
     - Barroco Hispano
   category: 120
   description: |-
-    Thanks to @Bobelboy and @hugues aroux for the support.
+    Thanks to @Bobelboy and @hugues aroux for the support
 
     This DLC contains props (Doesn't include lots).
 
@@ -261,15 +265,15 @@ barroco-hispano/agc-streets-dlc:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/66303707e23c9_image(19).thumb.png.accf1a954189a245230d49266bfc597a.png
   url: https://community.simtropolis.com/files/file/36152-agc-streets-dlc/
   variants:
-    default:
-      assets:
-        - id: simtropolis/36152-agc-streets-dlc#201344
-      requirements:
-        darknite: false
-      version: 3.0.0
     darknite:
       assets:
         - id: simtropolis/36152-agc-streets-dlc#201345
       requirements:
         darknite: true
+      version: 3.0.0
+    default:
+      assets:
+        - id: simtropolis/36152-agc-streets-dlc#201344
+      requirements:
+        darknite: false
       version: 3.0.0

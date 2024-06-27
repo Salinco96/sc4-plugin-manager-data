@@ -154,8 +154,8 @@ krio/tg-krio-brand-plaza:
   dependencies:
     # - AGC - Automobile DLC v6
     # - AGC - Streets DLC v3
-    # - SC4D LEX Legacy - BSC Common Dependencies Pack v9a (and above)
     - barroco-hispano/agc-streets-dlc
+    - bsc/common-dependencies # all of it :(
     - girafe/carpack
     - kingofsimcity/supershk-mega-parking-textures
   description: >-
@@ -300,7 +300,7 @@ krio/tg-krio-brand-plaza:
           id: simtropolis/36290-tg-krio-brand-plaza
           include:
             - Team Grater/Krio/TG Brand Plaza
-            - path: CAM/Krio/TG Brand Plaza
-              condition:
+            - condition:
                 cam: true
+              path: CAM/Krio/TG Brand Plaza
       version: 1.0.0

@@ -2,10 +2,10 @@ jmyers2043/homes-pack:
   authors:
     - JMyers2043
   category: 200
-  name: "JMyers Homes Pack"
+  name: JMyers Homes Pack
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/4-sc4d-lex-legacy-jmyers-homes-pack
   variants:
-    nightmode=maxis:
+    default:
       assets:
         - id: sc4evermore/4-sc4d-lex-legacy-jmyers-homes-pack
           include:
@@ -23,15 +23,15 @@ jmyers2043/mega-props-agriculture-vol01:
   authors:
     - JMyers2043
   category: 120
-  name: "BSC MEGA Props JMyers Agriculture 01"
+  name: BSC MEGA Props JMyers Agriculture 01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JMyersAgriculture01*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JMyers Agriculture 01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -41,15 +41,15 @@ jmyers2043/mega-props-agriculture-vol02:
   authors:
     - JMyers2043
   category: 120
-  name: "BSC MEGA Props JMyers Agriculture 02"
+  name: BSC MEGA Props JMyers Agriculture 02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JMyersAgriculture02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JMyers Agriculture 02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -59,15 +59,15 @@ jmyers2043/mega-props-common-props:
   authors:
     - JMyers2043
   category: 120
-  name: "BSC MEGA Props JMyers Common Props"
+  name: BSC MEGA Props JMyers Common Props
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - JMyers Common Props*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - JMyers Common Props*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack

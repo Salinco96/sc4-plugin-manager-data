@@ -75,12 +75,12 @@ pegasus/mtp-super-pack:
       assets:
         - docs:
             - _Documents/PEG Readmes
-          id: simtropolis/20966-peg-mtp-super-pack
-          include:
-            - _MTP SUPER PACK
           exclude: # TODO: Conditions
             - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
             - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
+          id: simtropolis/20966-peg-mtp-super-pack
+          include:
+            - _MTP SUPER PACK
       version: 1.5.0
 
 pegasus/security-fencing-kit:
