@@ -1,7 +1,74 @@
+wmp/essentials:
+  authors:
+    - DocRorlach
+    - d_j_p1
+  category: 100
+  description: >-
+    The WMP Essentials v1.0 is a must have dependency pack for all the previously released WMP custom contents by DocRorlach. It completely replaces the previously released wmp_dummies.dat file.
+
+
+    This is a dependency package, and it doesn't contain any ploppable or growable elements.
+
+
+    DO NOT USE THIS PACK FOR YOUR OWN LOTTING PROJECTS!!!
+
+
+    Since the original workingman-productions.co.uk/ website is no longer up and running, the decision has been made, that these contents of DocRorlach's will be re-hosted on the main exchanges (LEX
+    and STEX) as legacy contents on behalf of DocRorlach. For easier access and due to a more userfriendly approach, we put together these mega packs, which are completely replacing the previous
+    smaller prop packs.
+
+
+    It is highly recommended to use the attached cleanitol file (WMP Essentials.cleanitol.txt) and remove all the listed contents. The best way to do it, if you use the BSC Cleanitol TM (v1.0) tool.
+    Install the application (if you don't already have), run it, browse the attached *.cleanitol.txt file and let the program remove the listed elements.
+
+
+    This Essential file contains following elements from the previously released WMP creations:
+
+      -  - all the previously released wmp dummies/blank model files
+      -  - all the different WMP custom queries and UIs from the prop packs, resource files and lot sets.
+      -  - all the custom made TE network paths for the WMP lots (the default paths in the WMP Essentials.dat support RHD setup)
+      -  - Since the original Causeway set and Boardwalk set had the same custom queries, a new UI property (with new IID) has been added which gives a slightly modified text to the WMP Murimk Boardwalks. (NEW!!! WMP Essentials v1.0.1)
+      -  - as an addition IF you use Left-Hand Drive (LHD) setup, you can find a LHD support file in the Documents folder. You need to place/copy that z___zWMP_LHD_Paths folder into the Plugins\WMP\Essentials\ folder if you used the default/provided folder structue, otherwise it MUST load after the WMP Essentials.dat file.
+
+    Installation: Unzip the whole bundle, or COPY the "WMP" folder from the *.zip into your plugin folder. You don't need to keep the "_Documents" folder. To uninstall, bulldoze any instance of this
+    lot in your city, then remove the file(s) from your Plugins.
+
+
+    For further details, please read the provided readme AND IF you still have questions, ask @Tyberius06.
+
+
+    Credits:
+
+      -  DocRorlach, the WMP Team for creating these original contents: custom paths, UIs, dummie model files.
+      -  David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+      -  xxdita and Tyberius06 (and the STEX Custodian) for putting together the mega packs and making the files available again.
+
+     Support:
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested here or in the STEX Custodian General
+    Support Topic. Best include a screen-shot illustrating the problem.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe29f27350_WMPEssentials.thumb.jpg.20e4d4ca59001a550b403f38d35ee594.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe29f9d375_WMPEssentials01.thumb.jpg.666ebb11933c4edd58b007047b46efd4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe29fed88d_WMPEssentials02.thumb.jpg.e31b37333f97b637e753234535254faa.jpg
+  name: WMP Essentials
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe29f27350_WMPEssentials.thumb.jpg.20e4d4ca59001a550b403f38d35ee594.jpg
+  url: https://community.simtropolis.com/files/file/33620-wmp-essentials-v101/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: simtropolis/33620-wmp-essentials-v101
+          include:
+            # TODO: - _Documents/z___zWMP_LHD_Paths/z___zWMP_LHD_Paths.dat
+            - WMP/Essentials
+      version: 1.0.1
+
 wmp/mega-props-vol01:
   authors:
-    - WMP
     - DocRorlach
+    - d_j_p1
   category: 120
   description: >-
     The WMP Mega Props vol. 01 is the first dependency pack, which superseds many of the previously released single, individual WMP prop packs by DocRorlach.

@@ -1,0 +1,37 @@
+giraffemountain/new-york-cs-shops:
+  authors:
+    - giraffemountain
+  category: 300
+  dependencies:
+    - cycledogg/textures-vol01
+    - shokthrpy/shk-parking-pack
+  description: >-
+    Contains a set of five 1x2 low-density (stage 3 for the corner lots, stage 2 for the others), medium-wealth growable commercial lots. Also includes a ploppable 5x2 landmark with all five
+    buildings.
+
+
+    They are inspired by wall-to-wall businesses in Brooklyn, and will grow on NY tileset only.
+
+
+    This is my first STEX upload. Please let me know what you think!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/nyshops.thumb.jpg.4f8b95d646fbdabfe4260dc22eb60259.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/back.thumb.jpg.81bf5bbe975a1378ee1a0e2c8391fd72.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/leftside.thumb.jpg.7990c42fba4e929e9a406cd2415c484b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/rightside.thumb.jpg.9ed02828cfaae1009cbe14c4139a5bb5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/nitelites.thumb.jpg.c07112e0e08332844c0f26396ae9e876.jpg
+  name: New York CS$$ Shops
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/nyshops.thumb.jpg.4f8b95d646fbdabfe4260dc22eb60259.jpg
+  url: https://community.simtropolis.com/files/file/36323-new-york-cs-shops/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36323-new-york-cs-shops
+          include:
+            - NY Shops
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

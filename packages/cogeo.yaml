@@ -1,3 +1,263 @@
+cogeo/logistics-centres-megapack:
+  authors:
+    - cogeo
+  category: 700
+  dependencies:
+    - cogeo/warehouses-batprops-part-a
+    - cogeo/warehouses-batprops-part-b
+    - jestarr/mega-props-vol01
+    - simgoober/mega-props-vol01
+  description: >-
+    ![](https://www.simtropolis.com/library/misc/big-heart-icon.png)
+
+
+    This pack contains 5 Logistics Centres Lots for your cities, 4 RCI and an Enhanced Freight Rail Station.
+
+
+    The BATs are warehouses and ancillary buildings. They are completely fictional, but I have used the logos and liveries of containers of real companies.
+
+
+    All lots look the same and are 10x10 tiles large. They widely use prop families. As a result, you will get a different prop combination (and appearance) each time you grow or plop them. In
+    addition many of them are time-dependent, eg the trucks appear and disappear periodically while the gates close during the night. The streets inside the lots as well as the parking areas are
+    transit- and UDI\-enabled. Also they spawn freight truck and train vehicles.
+
+
+    The RCI lots are actually commercial services. One would say to make them industrial, however this kind of operations is essentially commercial, plus industry tends to decline as HQ and EQ rise
+    while CS demand is usually all-high, especially after offices have developed and displaced services. The stats are all the same.
+
+
+    The Freight Rail Station is specially modded so as to become two-way (provide both rail-to-truck and truck-to-rail traffic conversions). It also lifts caps for the ID and IM sectors.
+
+
+    The lots are installed by an installer and there is nothing else you need to do except of installing the needed dependencies. However it is possible to customise the lots' appearance. Please check
+    the readme for detailed instructions, and also for tips on placing them. If you don't want some certain lots, eg the ploppables, you can delete their .SC4Lot files.
+
+
+    **Dependencies**
+
+
+    1.  [Warehouses BATProps Part A](https://community.simtropolis.com/files/file/15582-warehouses-batprops-part-a/)  (These are the BATs)
+
+    2.  [Warehouses BATProps Part B](https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/)  (These are the BATs)
+
+    3.  [BSC Mega Props JES Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+    4.  [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+
+    Lot Statistics
+
+
+     Growable CS$/CS$$ 
+
+
+     Ploppable CS$/CS$$ 
+
+
+     Freight Rail Station 
+
+
+     Lot size
+
+
+     10x10
+
+
+     10x10
+
+
+     10x10
+
+
+     Building Styles
+
+
+     Chic,NY,Hous,Euro
+
+
+     -
+
+
+     -
+
+
+     Growth Stage
+
+
+     5
+
+
+     -
+
+
+     -
+
+
+     Plop Cost
+
+
+     -
+
+
+     $15000/$25000
+
+
+     $25000
+
+
+     Bulldoze Cost
+
+
+     $1100
+
+
+     $1100
+
+
+     $1100
+
+
+     Monthly Cost
+
+
+     -
+
+
+     -
+
+
+     $500
+
+
+     Demand Cap Relief
+
+
+     -
+
+
+     -
+
+
+     ID:25000, IM:25000
+
+
+     Building Value
+
+
+     $8000/$10000
+
+
+     $8000/$10000
+
+
+     -
+
+
+     Jobs
+
+
+     1191/793
+
+
+     1191/793
+
+
+     158$ 72$$ 23$$$
+
+
+     Flamability/Stage
+
+
+     45/4
+
+
+     45/4
+
+
+     45/4
+
+
+     Power Consumed
+
+
+     225 MWh/mo
+
+
+     225 MWh/mo
+
+
+     225 MWh/mo
+
+
+     Water Consumed
+
+
+     800 cu.m/mo
+
+
+     800 cu.m/mo
+
+
+     800 cu.m/mo
+
+
+     Pollution (Air/Water) 
+
+
+     35/25 over 6/7 tiles
+
+
+     35/25 over 6/7 tiles
+
+
+     35/25 over 6/7 tiles
+
+
+     Garbage Produced
+
+
+     80 tons/mo
+
+
+     80 tons/mo
+
+
+     80 tons/mo
+
+
+    **Credits**
+
+
+    *   Special thanks to [Jestarr](https://community.simtropolis.com/profile/27468-jestarr/content/?type=downloads_file) for his custom consist prop models.
+
+    *   Special thanks to [Swamper77](https://community.simtropolis.com/profile/21263-swamper77/content/?type=downloads_file) for the automata-spawning scripts.
+
+    *   Many thanks to [BarbyW](https://community.simtropolis.com/profile/6605-barbyw/content/?type=downloads_file) and [T
+    Wrecks](https://community.simtropolis.com/profile/48496-t-wrecks/content/?type=downloads_file) for their modding and stats help.
+
+
+    [View my other Lots on the STEX](https://community.simtropolis.com/profile/45188-cogeo/content/?type=downloads_file)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2008/195c4fa65c373a74b16e342dca6b49bc-LPLeft2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2008/195c4fa65c373a74b16e342dca6b49bc-LPRight2.jpg
+  name: Logistics Centres MegaPack
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2008/thumb-195c4fa65c373a74b16e342dca6b49bc-LPLeft2.jpg
+  url: https://community.simtropolis.com/files/file/16119-logistics-centres-megapack/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/16119-logistics-centres-megapack
+          exclude:
+            - path: LCP_UK_PathingPatch.dat
+              condition:
+                rhd: false
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 cogeo/warehouses-batprops-part-a:
   authors:
     - cogeo

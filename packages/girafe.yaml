@@ -190,6 +190,8 @@ girafe/flora-pack:
   authors:
     - Girafe
   category: 100
+  dependencies:
+    - lowkee33/seasonal-flora-patch
   name: BSC VIP Girafe Flora Pack
   variants:
     default:
@@ -199,8 +201,6 @@ girafe/flora-pack:
           id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
           include:
             - BSC/girafe
-      dependencies:
-        - lowkey33/seasonal-flora-patch
       url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora
       version: 3.0.0
 

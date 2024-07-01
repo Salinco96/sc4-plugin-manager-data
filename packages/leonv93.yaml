@@ -148,6 +148,37 @@ leonv93/quigley-acres:
             - Quigley Acres*
       version: 1.1.0
 
+leonv93/sim-university:
+  authors:
+    - leonv93
+  category: 620
+  description: Sim University; Contains (5) 12x12 lots and (1) 12x6 lot. All dependencies are included in the file.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f27d59e_Peoria-Apr.26171719631848.thumb.png.5c3bfd988e487c5581f5f0d541440e51.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f3206dc_Peoria-Aug.30181719632111.thumb.png.2645c0f67b3e5d3119ebc265c854dac0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f39782a_Peoria-Feb.18171719631824.thumb.png.7a5ac0a1f31b32bd51d3728bc5753a11.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f41bb30_Peoria-Jul.11181719632083.thumb.png.f1e8ca0dc2714d6c8332b1461d770159.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f48b908_Peoria-Nov.8181719706937.thumb.png.48b0d0fd58081395ec5481880a4b62bc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f5083f7_Peoria-Nov.8181719707098.thumb.png.2ef1c87a26082fdfe815dd7efcd5fbcd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f5772bf_Peoria-Oct.18161719631802.thumb.png.12a3ded58b31435707a4275eb81a2d2f.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f5e40c3_Peoria-Oct.27161719631810.thumb.png.dde571092b1ba62585228d3b49d5be17.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f65cec7_Peoria-Sep.20161719631795.thumb.png.ef7bd54e4d5fcbd09bf8508377a0b096.png
+  name: Sim University
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f48b908_Peoria-Nov.8181719706937.thumb.png.48b0d0fd58081395ec5481880a4b62bc.png
+  url: https://community.simtropolis.com/files/file/36322-sim-university/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36322-sim-university
+          include:
+            - University
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 leonv93/small-school:
   authors:
     - leonv93

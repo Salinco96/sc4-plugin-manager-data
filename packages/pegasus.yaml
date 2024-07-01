@@ -83,6 +83,41 @@ pegasus/mtp-super-pack:
             - _MTP SUPER PACK
       version: 1.5.0
 
+pegasus/cdk3-sp-rail-fleet:
+  authors:
+    - Pegasus
+  category: 120
+  description: >-
+    This is a RESOURCE file for the PEG-CDK3 Seaport collection of lots. It is a required dependency, specifically, for the upcoming break-bulk freight dock lots and the new freight rail stations.
+
+
+    The pack contains a ton of static, timed and random rolling stock & locomotive props. These are intended for use as props on various lots. These are NOT game automata... however, many will be
+    released separately as such.
+
+
+    * As the game automata trains are considerably under scaled, these props are larger... and scaled to look more appropriate on lots with properly scaled structures, vehicles, peeps and other props.
+
+
+    ** Players and developers may use these props on their own lots... subject to the terms of the EULA that is documented in the included readme file.
+
+
+    All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image1.jpg
+  name: PEG CDK3 SP Rail Fleet
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2008/thumb-2486e017b6687d2453d8105021e06971-product_image.jpg
+  url: https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ZZZZ_PEG SEAPORTS/Rail Fleet
+          id: simtropolis/19786-peg-cdk3-sp-rail-fleet
+          include:
+            - ZZZZ_PEG SEAPORTS/Rail Fleet
+      version: 1.0.0
+
 pegasus/security-fencing-kit:
   authors:
     - Pegasus

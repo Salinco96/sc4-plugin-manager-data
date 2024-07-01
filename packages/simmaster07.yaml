@@ -1,13 +1,26 @@
-simmaster07/extra-cheats-dll:
+simmaster07/extra-cheats:
   authors:
     - simmaster07
   category: 10
+  description: >-
+    This is a DLL for SimCity 4 that adds a few more cheat codes beyond Buggi's Extra Cheats DLL.
+
+      -  SievertBeGone — removes all radiation from a city, including from buildings that produce radiation when plopped (such as the advanced research center).
+      -  Chernobyl — irradiates an entire city
+      -  hazmat — creates a toxic spill disaster on whatever tile the mouse is pointed at
+      -  UncivilDisobedience — creates a riot disaster on whatever tile the mouse is pointed at. The mouse must be pointed at a road, street or avenue tile.
+
+    The development thread can be found at this link. Source code can be found here. Make sure to follow this file in case more cheats are added!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/spills.thumb.PNG.0943721225dea37e7bf774d50dd1e215.PNG
   name: Simmaster's Extra Cheats DLL
+  repository: https://github.com/nsgomez/gzcom-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/spills.thumb.PNG.0943721225dea37e7bf774d50dd1e215.PNG
+  url: https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll/
   variants:
     default:
       assets:
         - id: simtropolis/31350-simmasters-extra-cheats-dll
-      url: https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll
       version: 1.1.1
 
 simmaster07/sc4fix:
