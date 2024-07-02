@@ -3,21 +3,21 @@ wannglondon/los-angeles-home-pack-1:
     - WannGLondon
   category: 220
   description: >-
-    After another viewing of L.A. Confidential, I created a pack of four homes (and a lotted bungalow court) found all over beautiful Los Angeles, California (my home). These sprung up all over the
+    After another viewing of _L.A. Confidential_, I created a pack of four homes (and a lotted bungalow court) found all over beautiful Los Angeles, California (my home). These sprung up all over the
     city in the 1920s and there are a plethora of them still around today, also found in neighboring cities. I personally love them and even lotted a bungalow court (another LA favorite style of
     mine).
 
 
-    - Medium wealth, 1x2 lots
+    \- Medium wealth, 1x2 lots
 
 
-    - Chicago Tileset
+    \- Chicago Tileset
 
 
-    - All densities
+    \- All densities
 
 
-    - DarkNite versions only
+    \- DarkNite versions only
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/Day.thumb.jpg.9aaca65c91d2128721e57ffb97b8908f.jpg
   name: Los Angeles Home Pack 1
@@ -32,3 +32,6 @@ wannglondon/los-angeles-home-pack-1:
       requirements:
         darknite: true
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

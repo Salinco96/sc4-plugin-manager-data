@@ -2,22 +2,24 @@ flann/girafe-maxis-fence-hd-replacement-mod:
   authors:
     - Flann
     - Girafe
-  category: 900
+  category: 920
+  dependencies:
+    - girafe/fences
   description: >-
-    This mod replaces 7 of the original Maxis fences with brand new HD props by @Girafe. See screenshots for which fences are replaced. Great care was taken to create props which behave in the same
-    way as the Maxis props in order to ensure a seamless override.
+    This mod replaces 7 of the original Maxis fences with brand new HD props by [@Girafe](https://community.simtropolis.com/profile/319793-girafe/).  See screenshots for which fences are replaced. 
+    Great care was taken to create props which behave in the same way as the Maxis props in order to ensure a seamless override.
 
 
     There are three .dats in this download:
 
 
-    Grfe-Maxis-Fence_Models.dat - Required
+    **Grfe-Maxis-Fence\_Models.dat** \- _Required_
 
 
-    Grfe-Maxis-Fence_Override-Exemplars.dat - Semi-required, overrides the Maxis props everywhere they are used.
+    **Grfe-Maxis-Fence\_Override-Exemplars.dat** \- _Semi-required,_ overrides the Maxis props everywhere they are used.
 
 
-    Grfe-Maxis-Fence_New-LE-Props.dat - Optional; contains non-override prop exemplars for use in the lot editor.
+    **Grfe-Maxis-Fence\_New-LE\-Props.dat** \- _Optional;_ contains non-override prop exemplars for use in the lot editor.
 
 
     Many thanks to Girafe for spending time creating these wonderful models, and to Tyberius for assistance in testing.
@@ -35,4 +37,6 @@ flann/girafe-maxis-fence-hd-replacement-mod:
     default:
       assets:
         - id: simtropolis/33965-girafe-maxis-fence-hd-replacement-mod
+          include:
+            - Grfe-Maxis-Fence_Override-Exemplars.dat
       version: 1.0.0

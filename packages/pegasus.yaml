@@ -1,18 +1,138 @@
+pegasus/cdk3-sp-rail-fleet:
+  authors:
+    - Pegasus
+  category: 120
+  description: >-
+    This is a RESOURCE file for the PEG\-CDK3 Seaport collection of lots. It is a required dependency, specifically, for the upcoming break-bulk freight dock lots and the new freight rail stations.
+
+
+    The pack contains a ton of static, timed and random rolling stock & locomotive props. These are intended for use as props on various lots. These are NOT game automata... however, many will be
+    released separately as such.
+
+
+    \* As the game automata trains are considerably under scaled, these props are larger... and scaled to look more appropriate on lots with properly scaled structures, vehicles, peeps and other
+    props.
+
+
+    \*\* Players and developers may use these props on their own lots... subject to the terms of the EULA  that is documented in the  included readme file. 
+
+     
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be
+    requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image1.jpg
+  name: PEG CDK3 SP Rail Fleet
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2008/thumb-2486e017b6687d2453d8105021e06971-product_image.jpg
+  url: https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ZZZZ_PEG SEAPORTS/Rail Fleet
+          id: simtropolis/19786-peg-cdk3-sp-rail-fleet
+          include:
+            - ZZZZ_PEG SEAPORTS/Rail Fleet
+      version: 1.0.0
+
+pegasus/mtp-scenic-views:
+  authors:
+    - Pegasus
+  category: 360
+  dependencies:
+    - pegasus/mtp-super-pack
+  description: >-
+    "Down in the valley... the valley so low.   Hang your head over.... Let your lunch go!!"
+
+
+    By request... we have added 4 new MTP style lots to add along your remote roadways or incorporate into your Mountain Trail system. These scenic look-outs will add an extra realistic feel to your
+    blossoming mountainous and rural regions. No detail has been "overlooked" \[drum hit\]... including the prerequisite stone mounted plaque (recycled ranger station sign) that always recounts that
+    here, on this spot, at some time, long ago, someone, did something note worthy. Thus, the plaque!
+
+
+    The lots are designed to be plopped along the top of moderately steep cliffs. The viewing decks will extend over the edge  and their foundations/supports will blend in with the face of the cliff.
+    There are 4 lots in total; 2 for use with the PEG Mountain Trails and 2 for general use along any roadways. Additionally, there are 2 different styles of viewing decks; a standard straight deck
+    and an "L" shaped deck for use on corners. The straight decks are part of a random prop family that includes 5 different styles of  foundations/supports.
+
+
+    Most of the lots provide some sort of rest-stop/picnic facilities. The straight roadside lot features an asphalt parking area that is transit enabled for a seamless connection to any adjacent
+    roadway. All of the lots are very similar to a normal Mountain Trail lot with mild park & landmark properties and very little monthly maintenance costs. Lot sizes range from 1x1 to 2x2.
+
+
+    \* The 2 different types of lots, Roadside & Mountain Trail, are contained in separate files so can easily remove either one if you choose not to use it. The Mountain Trail lots will appear in the
+    Parks Menu, along with the other Mountain Trail lots. The roadside lots will appear in the Misc. Transportation Menu below the MTP Parking Lot lots..
+
+
+    **\*\* This file requires the following dependency:** [PEG MTP Super Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+
+    **\*\*This file currently contains an .exe installer suitable for windows users.  These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be
+    requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2006/3290f30934ff476be4b189b76ea03df8-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_01_2006/3290f30934ff476be4b189b76ea03df8-product_image2.jpg
+  name: PEG MTP Scenic Views
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2006/thumb-3290f30934ff476be4b189b76ea03df8-product_image1.jpg
+  url: https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/14809-peg-mtp-scenic-views
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 pegasus/mtp-super-pack:
   authors:
     - Pegasus
   category: 100
   description: >-
-    Faster than a speeding Llama... ( a really old one... with gout )...
+    **UPDATE: 04.07.2022** - The _PEG\_MTP\_SUPER\_TEXTURES\_PACK.dat_ has been replaced by the all inclusive **PEG\-SUPER\_TEXTURES.dat**, which contains all, but the textures from the [PEG SPAM
+    Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (PEG\-SPAM\_TEXTURES\_RESOURCE\_b200.dat), created and released by Pegasus from the entire
+    collection (including: CDK and CDK3, CDK3\-OWW, OWW2 and Marina, Utopia, CSK, PPonds etc...). This update brings all these textures under one DAT (which actually already have held 2/3 of the
+    textures created by Pegasus). Bear in mind this is only part one of a major update and clean-up of this dependency pack focusing on the textures for now. 
 
 
-    More Powerful than my breath after a Tequila and burrito binge......
+    For the full list of texture contents please check the included \*-index.jpg files. 
 
 
-    Able to leap tall brown gift boxes in a single install.
+    Install: copy/extract the **PEGPROD** parent folder into your plugins. If you extracted the _\_Documents_\* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.
+
+    In the \_Documents folder you will find 2 other subfolders:
 
 
-    "LOOK !! Up on the STEX !! Its a Mod !! Its a Lot !! Its... its..."
+    *   **PEG Readmes**: this folder will be the generic storage of all the readmes and images for the future updated PEGProd contents. This folder also contains the texture catalague index images of
+    the base and overlay textures and the optional EU and RRW (Real-RailWay) texture overrides.
+
+    *   **PEG Optional Texture Overrides**: as a temporary solution it contains the **_PEG\-SUPER\_TEXTURES\_EUOverride.dat_** and **_PEG\-SUPER\_TEXTURES\_RRWOverride.dat_** files. To use either or
+    both of the files, simply move/copy them into the main _PEGPROD\\Mountain Theme Pack\\\_MTP SUPER PACK\\_ folder, but make sure they load after the PEG\-SUPER\_TEXTURES.dat.
+
+
+    The **v1.5** update is the first part of a collection wide update and cleanup focusing of the textures only. While the original textures and props where created by Pegasus and his team, this (and
+    the following) update was made by the [@STEX Custodian](https://community.simtropolis.com/profile/779745-stex-custodian/) (with the permission of Pegasus).
+
+
+    \--------------------------------------------------------------------------------------------------------------------------------
+
+
+    **Faster than a speeding Llama...** ( _a really old one... with gout_ )**...**
+
+
+    **More Powerful than my breath after a Tequila and burrito binge......**
+
+
+    **Able to leap tall brown gift boxes in a single install.**
+
+
+    **"LOOK !! Up on the STEX !! Its a Mod !! Its a Lot !! Its...** its..."
 
 
     "Oh forget it. Its just a dependency."
@@ -20,51 +140,57 @@ pegasus/mtp-super-pack:
 
     You asked for it! And now you got it! The all-inclusive... the all encapsulating...one size fits all... MTP SUPER PACK !!
 
-
-    * Tights & Cape sold separately. Tights void where prohibited. Do not wear capes near jet aircraft engines. Installation of the SUPER PACK may not enable you to fly.
-
+    _\* Tights & Cape sold separately. Tights void where prohibited. Do not wear capes near jet aircraft engines. Installation of the SUPER PACK may not enable you to fly._
 
     The MTP SUPER PACK combines all the standard MTP dependencies into a single download... and also includes a substantial amount of new material that will be used in future development. This file
     will be the primary MTP dependency listed on all future MTP lots.
 
 
+    * * *
 
 
-    Please Note: This dependency contains no material that alters the appearance ofgame default props or textures... and will not interfere in any way with playing a non-MTP or rural themed city.
+    **_Please Note_**: This dependency contains no material that alters the appearance ofgame default props or textures... and will not interfere in any way with playing a non-MTP or rural themed
+    city.
 
 
+    * * *
 
 
-    The MTP SUPER PACK combines both MTP props and textures into a single download. However, it will install props and textures as separate files to make any future updates easier and faster.
+    The ****MTP SUPER PACK**** combines both MTP props and textures into a single download. However, it will install props and textures as separate files to make any future updates easier and faster.
 
 
-    The MTP SUPERPACK replaces the following previous MTP dependencies... which can now be removed from your Plugins folder:
+    The **MTP SUPERPACK** replaces the following previous MTP dependencies... which can now be removed from your Plugins folder:
 
 
-    * PEG Mountain Theme Pack
+    \* **PEG Mountain Theme Pack**
 
-    ( PEG_MTP_RESOURCE_vol1.dat & PEG_MTP_TEXTURES_vol1.dat )
-
-
-    * PEG-MTP Texture Pack Volume 2
-
-    ( PEG-MTP_TEXTURES_vol2.dat )
+    ( _PEG\_MTP\_RESOURCE\_vol1.dat_ & _PEG\_MTP\_TEXTURES\_vol1.dat_ )
 
 
-    * PEG-MTP Resource Pack 2 [beta]
+    \* **PEG\-MTP Texture Pack Volume 2**
 
-    ( PEG-MTP_RESOURCE2_b102.dat )
-
-
-    * PEG Pine Tree Mod [ resource file only ]
-
-    ( PEG-MTP_GM-TreeMod_RESOURCE )
+    ( _PEG\-MTP\_TEXTURES\_vol2.dat_ )
 
 
-    ** This dependency has no dependencies.
+    \* **PEG\-MTP Resource Pack 2 \[beta\]**
+
+    ( _PEG\-MTP\_RESOURCE2\_b102.dat_ )
 
 
-    All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+    \* **PEG Pine Tree Mod \[ resource file only \]**
+
+    ( _PEG\-MTP\_GM-TreeMod\_RESOURCE_ )
+
+    **\*\* This dependency has no dependencies.** 
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be
+    requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+
+    Moderator note (September 9th 2018):
+
+    File updated to version 1.02 from the old PLEX (thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for providing the updated files). The older v1.01 is available
+    in the changelog section below.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2009/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   name: PEG MTP SUPER PACK
@@ -83,57 +209,85 @@ pegasus/mtp-super-pack:
             - _MTP SUPER PACK
       version: 1.5.0
 
-pegasus/cdk3-sp-rail-fleet:
+pegasus/pond-kit-2:
   authors:
     - Pegasus
-  category: 120
+  category: 660
   description: >-
-    This is a RESOURCE file for the PEG-CDK3 Seaport collection of lots. It is a required dependency, specifically, for the upcoming break-bulk freight dock lots and the new freight rail stations.
+    After literally months in development and countless trips back to the drawing board, Pegasus Productions is proud to finally release this **Deluxe Edition** of the **Pond Kit**. Although similar
+    in appearance, every lot and model have been rebuilt from the pond bottom up to eliminate the bad and make room for the good.
 
 
-    The pack contains a ton of static, timed and random rolling stock & locomotive props. These are intended for use as props on various lots. These are NOT game automata... however, many will be
-    released separately as such.
+    Improvements in the Deluxe Edition include:
 
 
-    * As the game automata trains are considerably under scaled, these props are larger... and scaled to look more appropriate on lots with properly scaled structures, vehicles, peeps and other props.
+    1\. **NO SEAMS!!**  That's right... those pesky hairline seams that appeared between many sections are now gone for good.
 
 
-    ** Players and developers may use these props on their own lots... subject to the terms of the EULA that is documented in the included readme file.
+    2\. **Improved Slope Tolerance**. It is now possible to build a straight river up a modest slope. Larger areas such as ponds and lakes should still be built on level areas... but you can easily
+    run straight sections of a river up a smooth incline.
 
 
-    All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+    3\. **WATERFALLS!!!** Yes... we finally engineered an improved system for making waterfalls that are easy to plop and nice to look at. Blending old & new... texture and BAT, we now have a
+    waterfall that will flex and stretch to fit any single-tile height slope you create. With left, center and right side waterfall lots, you can create a waterfalls  virtually any width. These lots
+    also include the top, center and bottom of the falls all in a single lot. No more separate top and bottom lots to contend with.
+
+
+    4\. **Open Modular Architecture**. The Pond Kit has been restructured from the ground up to allow easier add-ons. This includes completely new  pond styles that you will be able to change as
+    easily as a rock or water mod style by simply exchanging a single file. This will also allow transparent versions of each style so those of you who use alternate terrain or snow mods will be able
+    to use the ponds as well.
+
+
+    5\. **Reduced Costs... Reduced Effects**. The plop and maintenance costs have been reduced significantly. Accordingly, the Park & Landmark effects have been reduced as well. Although the cost and
+    effects for each lot was fairly modest, collectively, it all could easily add up to a significant monthly expense and and an easily capped out desirability. The new reductions should make even
+    extensive water systems affordable and viable in rural and agricultural areas.
+
+
+    6\. **Auto Update!!** Probably the best news of all for those with extensive Pond systems, this new kit will automatically update all your existing Pond lots in the game... except for the water
+    tiles with Lilly Pads. Just remove the old files, install the new ones... and you're all set... except for replopping any Lilly Pad water tiles, of course. 
+
+
+    Collectively, all these new features add up to a much improved and much easier to use Pond/River development system. With these new standards now in  place, the flood gates are finally open for
+    new add-ons, new styles and lots of new development in your cities.
+
+
+    **\*\*This file currently contains an .exe installer suitable for windows users.  These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.**
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image1.jpg
-  name: PEG CDK3 SP Rail Fleet
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2008/thumb-2486e017b6687d2453d8105021e06971-product_image.jpg
-  url: https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/
+    - https://www.simtropolis.com/objects/screens/monthly_04_2005/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_04_2005/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
+  name: PEG Pond Kit II
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_04_2005/thumb-2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
+  url: https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/
   variants:
     default:
       assets:
-        - docs:
-            - ZZZZ_PEG SEAPORTS/Rail Fleet
-          id: simtropolis/19786-peg-cdk3-sp-rail-fleet
-          include:
-            - ZZZZ_PEG SEAPORTS/Rail Fleet
-      version: 1.0.0
+        - id: simtropolis/12329-peg-pond-kit-ii-deluxe-edition-v206
+      version: 2.0.6
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pegasus/security-fencing-kit:
   authors:
     - Pegasus
   category: 120
   description: >-
-    This resource pack is a collection of chain link fence props that can be used on any type of lot that requires security fencing. The props in this pack may be used by other developers to enhance
+    This resource pack is a collection of chain link fence props that can be used on any type of lot that requires security fencing.  The props in this pack may be used by other developers to enhance
     the appearance of their lots.
 
 
-    The pack contains two styles of fencing (with or without barb wire) and includes extra items such as diagonal fence sections, corner sections, pedestrian gates and automatic rolling styled gates.
+    The pack contains two styles of fencing (with or without barb wire) and includes extra items such as diagonal fence sections, corner sections, pedestrian gates and automatic rolling styled gates.
 
 
-    ** This dependency has no dependencies.
+     **\*\* This dependency has no dependencies.**
 
 
-    All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be
+    requested [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_02_2008/e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2008/e93137f82ebbfe8be9f12c8d2085c058-product_image1.jpg
@@ -156,58 +310,54 @@ pegasus/spam-super-resource-pack:
     - Pegasus
   category: 100
   description: >-
-    NOTE: You do not need this pack if youalready downloaded / plan to download the full
+    **NOTE: You do not need this pack if you****already downloaded / plan to download the full**
 
-    SIMPEG AGRICULTURAL MOD (SPAM)!
-
+    **SIMPEG AGRICULTURAL MOD (SPAM)!**
 
     This package is the main dependency for all things SPAM - from the main mod to most of the current or future additional sets. This standalone version is meant for all players who do not want to
     use the full mod but still wish to play with lots and items that utilize these props and textures.
 
 
+
     The SPAM SUPER PACK combines all SPAM props and textures into a single download. However, it will install props and textures as separate files to make any uture updates easier and faster.
 
+    **INCLUDED**
 
-    INCLUDED
-
-
-    * SPAM_Resource
+    \* SPAM\_Resource
 
     All models and props used for the agricultural mod
 
-
-    * SPAM_Crops_Resource
+    \* SPAM\_Crops\_Resource
 
     All models and props for the seasonal crop varieties
 
-
-    * SPAM_Textures
+    \* SPAM\_Textures
 
     All textures used in the agricultural mod
 
 
-    NOTE: This pack includes no lots!
+    **NOTE: This pack includes no lots!**
 
-    AGAIN: You do not need this pack if you
+    **AGAIN: You do not need this pack if you**
 
-    already downloaded / plan to download the full
+    **already downloaded / plan to download the full**
 
-    SIMPEG AGRICULTURAL MOD (SPAM)!
+    **SIMPEG AGRICULTURAL MOD (SPAM)!**
 
 
     You can use all the material for your own lotting projects. However, you may not include any of these items with your uploads - please point to this pack as a dependency!
 
-
-    DEPENDENCIES
-
+    **DEPENDENCIES**
 
     This dependency has no dependencies :-)
 
+    \* The entire PEG SPAM collection is available on the PLEX (on the) STEX.
 
-    * The entire PEG SPAM collection is available on the PLEX (on the) STEX.
+    ![pdt_logo01.png](http://i211.photobucket.com/albums/bb210/abcvs/Pegasus%20Productions/pdt_logo01.png)
 
 
-    All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be
+    requested [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
   images:
     - https://www.simtropolis.com/objects/screens/0030/23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   name: PEG SPAM Super Resource Pack

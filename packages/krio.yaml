@@ -6,13 +6,11 @@ krio/tennispalatsi:
     - bsc/textures-vol01
     - bsc/textures-vol02
   description: >-
-    Tennispalatsi is the largest cinema complex in Finland with 14 auditoriums. Originally built for Helsinki Olympics in 1937, building was first turned into car showroom before Helsinki hosted
+    **Tennispalatsi** is the largest cinema complex in Finland with 14 auditoriums. Originally built for Helsinki Olympics in 1937, building was first turned into car showroom before Helsinki hosted
     olympics in 1952 and basketball games was played there. Tennis was played in newer Kisahalli. After the Olympics it was converted to department store and in 1993 it was converted to cinema complex
     with museums, restaurants and small movie-themed shops.
 
-
     In the SimCity it acts as static landmark. Despite the pictures, building has nightlights.
-
 
     STATS
 
@@ -22,15 +20,13 @@ krio/tennispalatsi:
 
     Monthly Cost: 150 §
 
-
     Dependacies:
 
     BSC Textures vol.1
 
     BSC Textures vol.2
 
-
-    All feedback should go here instead: Krioworks at SimPeg
+    All feedback should go here instead: [Krioworks at SimPeg](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=6097.0)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_02_2015/783c9f1491712288f56aa19efc71d9d1-tennari35.jpg
     - https://www.simtropolis.com/objects/screens/monthly_02_2015/4bf2c1da37556636e98fad0c99360210-tennari36.jpg
@@ -45,86 +41,103 @@ krio/tennispalatsi:
         - id: simtropolis/27353-tennispalatsi
           include:
             - TG Tennispalatsi
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 krio/tg-krio-autotalo:
   authors:
     - Krio
   category: 340
   description: >-
-    TG Autotalo is a building from Helsinki, Finland.
+    **TG Autotalo** is a building from Helsinki, Finland.
 
     Two towers were built 1958 and were inspired by Lever House from Manhattan. During the years the complex grew to four towers, which don't share the looks of the original two and Autotalo now
     occupies whole city block in Kamppi. Besides offices building has several bars and nightclubs and restaurants, from lowly fast-food to one of the finest ones in Helsinki. Tenants in towers vary
-    from small one people business to head offices of several hundreds of people; here you find offices of great Krioworks.
+    from small one people business to head offices of several hundreds of people; here you find offices of great Krioworks. 
 
 
-    If you want to recreate Helsinki in your SimCity, download Tennispalatsi and place it next to Autotalo.
+    If you want to recreate Helsinki in your SimCity, download [Tennispalatsi](https://community.simtropolis.com/files/file/27353-tennispalatsi/) and place it next to Autotalo. 
 
 
-    Growable Version:
+    **_Growable Version:_**
 
 
-    Lot size: 4 x 4 tiles
+    Lot size:    4 x 4 tiles
 
-    Building style(s): Building: Commercial, Style: Euro, Building: CO$$
+    Building style(s):    Building: Commercial,Style: Euro,Building: CO$$
 
-    Growth stage: 7
+    Growth stage:    7
 
-    Occupants: CO-$$ : 2692
+    Occupants:    CO-$$ : 2692
 
-    Bulldoze cost: § 897
+    Bulldoze cost:    § 897
 
-    Worth: § 18817
+    Worth:    § 18817
 
-    Construction Time: 89 days
+    Construction Time:    89 days
 
-    Max. Fire Stage: 40
+    Max. Fire Stage:    40
 
-    Power consumption: 54 MWh/month
+    Power consumption:    54 MWh/month
 
-    Water consumption: 548 Gallons/month
+    Water consumption:    548 Gallons/month
 
-    Air pollution: 10 over 5 tiles
+    Air pollution:    10 over 5 tiles
 
-    Water pollution: 10 over 6 tiles
+    Water pollution:    10 over 6 tiles
 
-    Garbage pollution: 5 over 0 tiles
-
-
-    Ploppable Version:
+    Garbage pollution:    5 over 0 tiles
 
 
-    Lot size: 4 x 4 tiles
-
-    Menu position: Building: Landmark,Building: CO$$
-
-    Jobs: CO-$$ : 1348
-
-    Plop cost: § 12540
-
-    Bulldoze cost: § 897
-
-    Monthly cost: § 0
-
-    Park effect: over tiles
-
-    Landmark effect: over tiles
-
-    Max. Fire Stage: 40
-
-    Power consumption: 27 MWh/month
-
-    Water consumption: 279 Gallons/month
-
-    Air pollution: 5 over 5 tiles
-
-    Water pollution: 5 over 6 tiles
-
-    Garbage pollution: 4 over 0 tiles
+    **_Ploppable Version:_**
 
 
-    Credits:
+    Lot size:    4 x 4 tiles
+
+    Menu position:    Building: Landmark,Building: CO$$
+
+    Jobs:    CO-$$ : 1348
+
+    Plop cost:    § 12540
+
+    Bulldoze cost:    § 897
+
+    Monthly cost:    § 0
+
+    Park effect:    over tiles
+
+    Landmark effect:    over tiles
+
+    Max. Fire Stage:    40
+
+    Power consumption:    27 MWh/month
+
+    Water consumption:    279 Gallons/month
+
+    Air pollution:    5 over 5 tiles
+
+    Water pollution:    5 over 6 tiles
+
+    Garbage pollution:    4 over 0 tiles
+
+
+    **Installation**: COPY/Extract the **Team Grater** parent folder from the \*.zip into your Plugins folder. If you extracted the _~Documents_ folder into your plugins, too, it's highly recommended
+    to keep it, but move it out of the Plugins folder.
+
+    **To uninstall**: bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+
+    **Dependencies**:
+
+
+    *   NONE
+
+
+    **Credits**:
 
 
     Model and lot files: Krio
@@ -145,7 +158,12 @@ krio/tg-krio-autotalo:
           id: simtropolis/36289-tg-krio-autotalo
           include:
             - Team Grater/Krio/TG Autotalo
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 krio/tg-krio-brand-plaza:
   authors:
@@ -162,122 +180,129 @@ krio/tg-krio-brand-plaza:
     Fictious office building by Krio, based on 70's American brutalist style housing research company Brand, subsidary of Roxxon.
 
 
-    Growable Version CAM Stage 11:
+    _**Growable Version CAM Stage 11**_:
 
 
-    Lot size: 4 x 2 tiles
+    Lot size:    4 x 2 tiles
 
-    Building style(s): Building: Commercial,Style: Euro, Style: Huston, Style: Chicago, Style: New York, Building: CO$$, CAM: Co$$ CAMeLot, CAM: Co$$ Stage 11
+    Building style(s):    Building: Commercial,Style: Euro, Style: Huston, Style: Chicago, Style: New York, Building: CO$$, CAM: Co$$ CAMeLot, CAM: Co$$ Stage 11
 
-    Growth stage: 11
+    Growth stage:    11
 
-    Occupants: CO-$$ : 3280
+    Occupants:    CO-$$ : 3280
 
-    Bulldoze cost: § 1939
+    Bulldoze cost:    § 1939
 
-    Building Value: § 22927
+    Building Value:    § 22927
 
-    Construction Time: 193 days
+    Construction Time:    193 days
 
-    Max. Fire Stage: 40
+    Max. Fire Stage:    40
 
-    Power consumption: 66 MWh/month
+    Power consumption:    66 MWh/month
 
-    Water consumption: 666 Gallons/month
+    Water consumption:    666 Gallons/month
 
-    Air pollution: 13 over 5 tiles
+    Air pollution:    13 over 5 tiles
 
-    Water pollution: 13 over 6 tiles
+    Water pollution:    13 over 6 tiles
 
-    Garbage pollution: 6 over 0 tiles
-
-
-    Growable Version Regular Stage 8:
+    Garbage pollution:    6 over 0 tiles
 
 
-    Lot size: 4 x 3 tiles
-
-    Building style(s): Building: Commercial,Style: Euro, Style: Huston, Style: Chicago, Style: New York, Building: CO$$
-
-    Growth stage: 8
-
-    Occupants: CO-$$ : 2798
-
-    Bulldoze cost: § 1939
-
-    Building Value: § 19558
-
-    Construction Time: 193 days
-
-    Max. Fire Stage: 40
-
-    Power consumption: 56 MWh/month
-
-    Water consumption: 569 Gallons/month
-
-    Air pollution: 11 over 5 tiles
-
-    Water pollution: 11 over 6 tiles
-
-    Garbage pollution: 5 over 0 tiles
+    _**Growable Version Regular Stage 8**_:
 
 
-    Ploppable Version:
+    Lot size:    4 x 3 tiles
+
+    Building style(s):    Building: Commercial,Style: Euro, Style: Huston, Style: Chicago, Style: New York, Building: CO$$
+
+    Growth stage:    8
+
+    Occupants:    CO-$$ : 2798
+
+    Bulldoze cost:    § 1939
+
+    Building Value:    § 19558
+
+    Construction Time:    193 days
+
+    Max. Fire Stage:    40
+
+    Power consumption:    56 MWh/month
+
+    Water consumption:    569 Gallons/month
+
+    Air pollution:    11 over 5 tiles
+
+    Water pollution:    11 over 6 tiles
+
+    Garbage pollution:    5 over 0 tiles
 
 
-    Lot size: 4 x 2 tiles
-
-    Menu position: Building: Landmark,Building: CO$$
-
-    Jobs: CO-$$ : 1931
-
-    Plop cost: § 25000
-
-    Bulldoze cost: § 1939
-
-    Monthly cost: § 0
-
-    Park effect: over tiles
-
-    Landmark effect: over tiles
-
-    Max. Fire Stage: 40
-
-    Power consumption: 39 MWh/month
-
-    Water consumption: 396 Gallons/month
-
-    Air pollution: 7 over 5 tiles
-
-    Water pollution: 7 over 6 tiles
-
-    Garbage pollution: 4 over 0 tiles
+    _**Ploppable Version**_:
 
 
-    Installation
+    Lot size:    4 x 2 tiles
 
-    COPY/Extract the Team Grater and CAM* parent folders from the *.zip into your Plugins folder. If you extracted the ~Documents folder into your plugins, too, it's highly recommended to keep it, but
-    move it out of the Plugins folder.
+    Menu position:    Building: Landmark,Building: CO$$
 
-    *Bear in mind, that with the Project ZIP efforts the CAM (Colossus Addon Mod) related LOTs are having a dedicated folder for now on.
+    Jobs:    CO-$$ :  1931
 
-    If you play with the CAM lot, make sure that you kept the TG_Brand-Plaza01-0x5ad0e817_0x29d24ef9_0x30000.SC4Model in the Team Grater/Krio/TG Brand Plaza folder or elsewhere in your plugins, as it
-    is essential to avoid an ugly brown box.
+    Plop cost:    § 25000
+
+    Bulldoze cost:    § 1939
+
+    Monthly cost:    § 0
+
+    Park effect:    over tiles
+
+    Landmark effect:    over tiles
+
+    Max. Fire Stage:    40
+
+    Power consumption:    39 MWh/month
+
+    Water consumption:    396 Gallons/month
+
+    Air pollution:    7 over 5 tiles
+
+    Water pollution:    7 over 6 tiles
+
+    Garbage pollution:    4 over 0 tiles
 
 
-    To uninstall: bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+    **Installation**
+
+    COPY/Extract the **Team Grater** and **CAM**\* parent folders from the \*.zip into your Plugins folder. If you extracted the _~Documents_ folder into your plugins, too, it's highly recommended to
+    keep it, but move it out of the Plugins folder.
+
+    \*Bear in mind, that with the Project ZIP efforts the CAM (Colossus Addon Mod) related LOTs are having a dedicated folder for now on.
+
+    If you play with the CAM lot, make sure that you kept the **TG\_Brand-Plaza01-0x5ad0e817\_0x29d24ef9\_0x30000.SC4Model** in the _Team Grater/Krio/TG Brand Plaza_ folder or elsewhere in your
+    plugins, as it is essential to avoid an ugly brown box.
+
+    **To uninstall**: bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
 
 
-    Dependencies:
+    **Dependencies**:
 
-      -  SC4D LEX Legacy - BSC Common Dependencies Pack v9a (and above)
-      -  BSC-VIP Girafe Urbanpack (CarPack vol04) vol01 (Grfe_Props_Pack_Urbanpack.dat)
-      -  AGC - Streets DLC v3
-      -  AGC - Automobile DLC v6
-      -  KOSC SuperSHK MEGA Parking Textures
-      -  Colossus Addon Mod 2.1.0 - only if you want to use the Stage 11 CAM lot.
 
-    Credits:
+    *   [SC4D LEX Legacy - BSC Common Dependencies Pack v9a](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)
+        *   BSC\-VIP Girafe Urbanpack (CarPack vol04) vol01 (Grfe\_Props\_Pack\_Urbanpack.dat)
+
+         
+    *   [AGC - Streets DLC v3](https://community.simtropolis.com/files/file/36152-agc-streets-dlc/)
+
+    *   [AGC - Automobile DLC v6](AGC%20-%20Automobile%20DLC)
+
+    *   [KOSC SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+    *   [Colossus Addon Mod 2.1.0](https://sc4evermore.com/index.php/downloads/download/26-gameplay-mods/51-colossus-addon-mod-version-2-1-0-windows-by-invisichem) - **only if you want to use the
+    Stage 11 CAM lot**.
+
+
+    **Credits**:
 
 
     Model: Krio
@@ -303,4 +328,9 @@ krio/tg-krio-brand-plaza:
             - condition:
                 cam: true
               path: CAM/Krio/TG Brand Plaza
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

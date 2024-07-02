@@ -2,27 +2,46 @@ cycledogg/early-19th-century-high-wealth-houses:
   authors:
     - cycledogg
   category: 230
+  dependencies:
+    # - CP_PropPack_2009a.dat
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - jeronij/mega-props-vol04
+    - jeronij/mega-props-vol05
+    - simgoober/mega-props-vol01
+    - pegasus/mtp-super-pack
+  description: |-
+    A complete pack of Early 19th Century Residentials from c.p.
+
+    Dependencies:
+
+    *   [LEX Legacy BSC Common Dependencies Pack](/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+    *   [PEG MTP Super Pack (on STEX)](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
   name: CP Early 19th-Century High Wealth Houses
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
   variants:
     default:
       assets:
         - docs:
-            - ~Documents/*HiWealthHses*
-            - ~Documents/*R$$$Houses*
+            - ~Documents/LEX_TenementsMain.jpg
+            - ~Documents/LEXTenements2nd.jpg
+            - ~Documents/GreekRevHiWealthHsesR1.JPG
+            - ~Documents/GreekRevHiWealthHsesL1.JPG
+            - ~Documents/CP_Early19thCentury_Tenements_readme.htm
+            - ~Documents/CP_Early19thCentury_R$$$Houses_readme.htm
           id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
-            - BSC/CP/R$$$Houses
-      dependencies:
-        # - CP_PropPack_2009a.dat
-        - bsc/textures-vol01
-        - bsc/textures-vol02
-        - couchpotato/mega-props-vol01
-        - cycledogg/mega-props-vol01
-        - cycledogg/textures-vol01
-        - jeronij/mega-props-vol04
-        - jeronij/mega-props-vol05
-        - simgoober/mega-props-vol01
+            - BSC/CP/R$Tenements/CP_Early19thCenturyTenements_Models.dat
+            - BSC/CP/R$Tenements/CP_Early19thCenturyTenements_Lots.dat
+            - BSC/CP/R$SmallHouses/CP_Early19thCentury_Small$Houses_Models.dat
+            - BSC/CP/R$SmallHouses/CP_Early19thCentury_Small$Houses_Lots.dat
+            - BSC/CP/R$$MediumHouses/CP_Early19thCent_MedHse_Models.dat
+            - BSC/CP/R$$MediumHouses/CP_Early19thCent_MedHse_Lots.dat
+            - BSC/CP/R$$$Houses/CP_Early19thCentury_R$$$Houses_Models.dat
+            - BSC/CP/R$$$Houses/CP_Early19thCentury_R$$$Houses_Lots.dat
       name: Maxis Nite
       requirements:
         darknite: false
@@ -36,6 +55,17 @@ cycledogg/early-19th-century-medium-houses:
   authors:
     - cycledogg
   category: 220
+  dependencies:
+    # - CP_PropPack_2009a.dat
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - jeronij/mega-props-vol04
+    - jeronij/mega-props-vol05
+    - simgoober/mega-props-vol01
+    - pegasus/mtp-super-pack
   name: CP Early 19th-Century Medium Houses
   variants:
     default:
@@ -44,16 +74,6 @@ cycledogg/early-19th-century-medium-houses:
           id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$$MediumHouses
-      dependencies:
-        # - CP_PropPack_2009a.dat
-        - bsc/textures-vol01
-        - bsc/textures-vol02
-        - couchpotato/mega-props-vol01
-        - cycledogg/mega-props-vol01
-        - cycledogg/textures-vol01
-        - jeronij/mega-props-vol04
-        - jeronij/mega-props-vol05
-        - simgoober/mega-props-vol01
       name: Maxis Nite
       requirements:
         darknite: false
@@ -67,6 +87,17 @@ cycledogg/early-19th-century-small-houses:
   authors:
     - cycledogg
   category: 210
+  dependencies:
+    # - CP_PropPack_2009a.dat
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - jeronij/mega-props-vol04
+    - jeronij/mega-props-vol05
+    - simgoober/mega-props-vol01
+    - pegasus/mtp-super-pack
   name: CP Early 19th-Century Small Houses
   variants:
     default:
@@ -75,16 +106,6 @@ cycledogg/early-19th-century-small-houses:
           id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$SmallHouses
-      dependencies:
-        # - CP_PropPack_2009a.dat
-        - bsc/textures-vol01
-        - bsc/textures-vol02
-        - couchpotato/mega-props-vol01
-        - cycledogg/mega-props-vol01
-        - cycledogg/textures-vol01
-        - jeronij/mega-props-vol04
-        - jeronij/mega-props-vol05
-        - simgoober/mega-props-vol01
       name: Maxis Nite
       requirements:
         darknite: false
@@ -98,6 +119,17 @@ cycledogg/early-19th-century-tenements-pack:
   authors:
     - cycledogg
   category: 220
+  dependencies:
+    # - CP_PropPack_2009a.dat
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - jeronij/mega-props-vol04
+    - jeronij/mega-props-vol05
+    - simgoober/mega-props-vol01
+    - pegasus/mtp-super-pack
   name: CP Early 19th-Century Tenements
   variants:
     default:
@@ -107,16 +139,6 @@ cycledogg/early-19th-century-tenements-pack:
           id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
           include:
             - BSC/CP/R$Tenements
-      dependencies:
-        # - CP_PropPack_2009a.dat
-        - bsc/textures-vol01
-        - bsc/textures-vol02
-        - couchpotato/mega-props-vol01
-        - cycledogg/mega-props-vol01
-        - cycledogg/textures-vol01
-        - jeronij/mega-props-vol04
-        - jeronij/mega-props-vol05
-        - simgoober/mega-props-vol01
       name: Maxis Nite
       requirements:
         darknite: false

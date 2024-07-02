@@ -9,38 +9,60 @@ memo/submenus-dll:
   description: >-
     A DLL plugin for SimCity 4 that
 
-      -  enables submenu functionality: This DLL is a dependency for other submenu-compatible plugins.
-      -  adds more than 50 standard submenus such as Plazas, Green Spaces, Sports and many more.
-      -  fixes the game's menu rendering issues caused by duplicate or missing menu icons.
-      -  implements Exemplar Patching functionality.
 
-    System requirements
+    *   enables submenu functionality: This DLL is a dependency for other submenu-compatible plugins.
 
-      -  SimCity 4, version 1.1.641 (the digital release) (more info)
-      -  Windows 7+ or Linux
+    *   adds more than 50 standard submenus such as Plazas, Green Spaces, Sports and many more.
 
-    Dependencies
+    *   fixes the game's menu rendering issues caused by duplicate or missing menu icons.
 
-      -  SC4ResourceLoadingHooks DLL by Null 45
-
-    Installation
-
-      -  Copy the DLLs into the top-level directory of either Plugins folder (place it directly in \SimCity 4\Plugins or \Plugins, not in a subfolder).
-      -  Copy the file submenu-essentials.dat and optionally the individual submenu files anywhere into your Plugins folder. You may skip installing an optional submenu if it contains neither Flora nor any sub-submenus. In that case, the buildings of that submenu will appear in the default top-level menu instead.
-
-    Alternatively, the mod can be installed with Sc4pac: memo:submenus-dll
+    *   implements Exemplar Patching functionality.
 
 
-    Credits
+    **System requirements**
 
-      -  Submenu icons created by @Panda
-      -  Exemplar Patching implemented in collaboration with @Null 45
 
-    Further information
+    *   SimCity 4, version 1.1.641 (the digital release) ([more
+    info](https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/))
 
-      -  The DLL dynamically creates new submenus by checking for some new exemplar properties, for example in the building exemplars of ploppable lots. This allows anyone to create additional submenus for their lot sets. The modding details are described in the Readme file.
-      -  List of Standard Submenus added by this mod.
-      -  Simtropolis discussion thread
+    *   Windows 7+ or Linux
+
+
+    **Dependencies**
+
+
+    *   [SC4ResourceLoadingHooks DLL](https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/) by Null 45
+
+
+    **Installation**
+
+
+    *   Copy the DLLs into the top-level directory of either Plugins folder (place it directly in <Documents>\\SimCity 4\\Plugins or <SC4 install folder>\\Plugins, not in a subfolder).
+
+    *   Copy the file submenu-essentials.dat and optionally the individual submenu files anywhere into your Plugins folder. You may skip installing an optional submenu if it contains neither Flora nor
+    any sub-submenus. In that case, the buildings of that submenu will appear in the default top-level menu instead.
+
+
+    Alternatively, the mod can be installed with Sc4pac: [memo:submenus-dll](https://memo33.github.io/sc4pac/channel/?pkg=memo:submenus-dll)
+
+
+    **Credits**
+
+
+    *   Submenu icons created by [@Panda](https://community.simtropolis.com/profile/789206-panda/)
+
+    *   Exemplar Patching implemented in collaboration with [@Null 45](https://community.simtropolis.com/profile/246111-null-45/)
+
+
+    **Further information**
+
+
+    *   The DLL dynamically creates new submenus by checking for some new exemplar properties, for example in the building exemplars of ploppable lots. This allows anyone to create additional submenus
+    for their lot sets. The modding details are described in the [Readme file](https://github.com/memo33/submenus-dll).
+
+    *   List of [Standard Submenus](https://github.com/memo33/submenus-dll/tree/main?tab=readme-ov-file#standard-submenus) added by this mod.
+
+    *   Simtropolis [discussion thread](https://community.simtropolis.com/forums/topic/763010-submenus-dll/)
   features:
     - submenus
   images:

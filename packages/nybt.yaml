@@ -3,7 +3,103 @@ nybt/essentials:
     - Aaron Graham
     - Gwail
   category: 100
+  description: >-
+    This is the NYBT essentials pack for many upcoming releases. It contains query windows - standard NYBT query windows for most common building types and a special 9/11 query. The essentials will be
+    modified and improved when needed.
+
+
+    Remember to put the essentials file into the Plugins folder in order to see the NYBT query windows.
+
+
+    *   The standard NYC skyline can be changed into the new one, including new WTC complex - just unzip the file NYBT\_essentials\_new\_skyline into your plugin folder.
+
+    *   If you wish to replace the standard Maxis query windows with the NYBT custom windows, unzip the file NYBT\_maxis\_query\_replace into the plugin folder. Remember to use NYBT essentials main
+    file in order to see the custom headers.
+
+
+    Info for NYBT members:
+
+
+    You have to edit the building exemplar with Ilive's Reader and change the query exemplar GUID property with following values:
+
+
+    *   0xB4ADBA01 - landmarks,
+
+    *   0xB4ADBA02 - commercials,
+
+    *   0xB4ADBA03 - industrials,
+
+    *   0xB4ADBA04 - landmarks - 9/11 version,
+
+    *   0xB4ADBA07 - residentials,
+
+    *   0xB4ADBA08 - Police stations,
+
+    *   0xB4ADBA09 - City Jail,
+
+    *   0xB4ADBA0a - Federal Prison,
+
+    *   0xB4ADBA0b - Fire Stations,
+
+    *   0xB4ADBA0c - School,
+
+    *   0xB4ADBA0d - Library,
+
+    *   0xB4ADBA0e - Main Library,
+
+    *   0xB4ADBA0f - College,
+
+    *   0xB4ADBA10 - Museum,
+
+    *   0xB4ADBA11 - University,
+
+    *   0xB4ADBA12 - Major Art Museum,
+
+    *   0xB4ADBA13 - Private School,
+
+    *   0xB4ADBA14 - Hospital & Clinic,
+
+    *   0xB4ADBA15 - Disease Research Center,
+
+    *   0xB4ADBA16 - All Park Types,
+
+    *   0xB4ADBA17 - Bus stop,
+
+    *   0xB4ADBA18 - Car Garage,
+
+    *   0xB4ADBA19 - Subway Stations,
+
+    *   0xB4ADBA1a - Toll Booth,
+
+    *   0xB4ADBA1b - Train Station & Freight Station,
+
+    *   0xB4ADBA1c - Church,
+
+    *   0xB4ADBA1d - Statue,
+
+    *   0xB4ADBA1e - Cemetery,
+
+    *   0xB4ADBA1f - Court House,
+
+    *   0xB4ADBA20 - City Hall,
+
+    *   0xB4ADBA21 - Power Plant.
+
+
+    CREDITS:
+
+
+    Thanks to Kelis for the lovely NYBT logo.
+
+
+    Special thanks to Aaron Graham - he's a main contributor for almost all of the NYBT query windows.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/27785ff263dc27633f16be7dad3cb162-nybt_essentials-main.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/799f60ab08af5d795cfbc035b9f4caf8-nybt_essentials-add1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2011/576e780e1acabd59fe9664b41d0516c0-nybt_essentials-add2.jpg
   name: NYBT Essentials
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2011/thumb-27785ff263dc27633f16be7dad3cb162-nybt_essentials-main.jpg
+  url: https://community.simtropolis.com/files/file/22916-nybt-essentials/
   variants:
     default:
       assets:
@@ -43,6 +139,64 @@ nybt/residentials-pack:
   category: 200
   dependencies:
     - nybt/essentials
+  description: >-
+    The SC4D LEX Legacy - NYBT Residentials Pack contains the Residential BATs released by the New York BAT Team (NYBT) on the former SC4 Devotion LEX. This is the Maxis Nite edition, for those not
+    using a Day-Night Mod.
+
+
+    **CONTENTS**
+
+
+    *   Bainbridge Row by Aaron Graham
+
+    *   Beck Arms by Aaron Graham
+
+    *   Concord Arms by Aaron Graham
+
+    *   Kingsbridge Apartments by Aaron Graham
+
+    *   Tapscott Houses by Aaron Graham
+
+
+    **DEPENDENCIES**
+
+
+    *   [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+
+
+    **COMPATIBILITY**
+
+
+    This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
+
+
+    **INSTALLATION**
+
+
+    **Installation**: Run the Java installer (.jar extension), which will guide you through the installation process, or open it using 7-zip or Keka for manual install. If doing a manual install, go
+    into the "installation" folder, then copy/extract the NYBT parent folder into your plugins. If you extracted the \_Documents folder into your plugins, too, it's highly recommended to keep it, but
+    move it out of the Plugins folder.
+
+
+    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    **CREDITS**
+
+
+    BATs:
+
+
+    *   Aaron Graham
+
+
+    Project ZIP repackaging for SC4Evermore by Tyberius06, Ulisse Wolf, and Tarkus.
+
+     [![Day1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/Day1.jpg)[![Night2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/Night.jpg) [![Day23](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day2.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/Day2.jpg)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day2.jpg
   name: NYBT Residentials Pack
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition

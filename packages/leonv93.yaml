@@ -2,7 +2,10 @@ leonv93/burns-mansion:
   authors:
     - leonv93
   category: 230
-  description: Burn's Mansion; R$$$; Landmark; No Dependencies
+  description: |-
+    Burn's Mansion; R$$$ & Landmark; No Dependencies
+
+    [C.M. Burns Mansion.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102644)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6666516b11c61_NortheastReopolis-May.18111717981193.thumb.png.69bdbe6525c49e9be85fecb7ed91b2fa.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6666516c23e17_NortheastReopolis-May.18111717981202.thumb.png.e3650412f0bb00805dec8e9d84a8bd90.png
@@ -17,7 +20,12 @@ leonv93/burns-mansion:
         - id: simtropolis/36298-burns-mansion
           include:
             - C.M. Burns Mansion*
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/cathedral:
   authors:
@@ -49,7 +57,10 @@ leonv93/cletus-house:
   authors:
     - leonv93
   category: 210
-  description: Cletus' House; R$; Landmark; No Dependencies
+  description: |-
+    Cletus' House; R$; Landmark; No Dependencies 
+
+    [Cletus' House.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102645)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666652067e10c_Sprungver-Aug.3081717975916.thumb.png.dadc8ddf39e76d96f17b1094e189e1b4.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6666520772c0a_Sprungver-Jan.5131717976087.thumb.png.1ecb6bcd6c3fcc574d5ecc4fb3db6591.png
@@ -64,7 +75,12 @@ leonv93/cletus-house:
         - id: simtropolis/36299-cletus-house
           include:
             - Cletus' House*
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/high-school:
   authors:
@@ -94,7 +110,10 @@ leonv93/kwik-e-mart:
   authors:
     - leonv93
   category: 340
-  description: Kwik-E-Mart; CO$$; No Dependencies
+  description: |-
+    Kwik-E-Mart; Commercial $$; No Dependencies
+
+    [Kwik-E-Mart.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102474)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665bb9638f243_Regopolis-Dec.171281717286166.thumb.png.8099368f750346cab202ac566b123c0d.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665bb964912b5_Regopolis-May.191291717286192.thumb.png.4789423a693b4ddba702f9927e6d6379.png
@@ -108,13 +127,21 @@ leonv93/kwik-e-mart:
         - id: simtropolis/36274-kwik-e-mart
           include:
             - Kwik-E-Mart*
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/lard-lads-donuts:
   authors:
     - leonv93
   category: 320
-  description: Lard Lad's Donuts; CS$$; Landmark; No Dependencies
+  description: |-
+    Lard Lad's Donuts; CS$$/Landmark/ No Dependencies 
+
+    [Lard Lad's Donuts.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102518)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665cf2d79cc91_NewCity-Jan.2001717302790.thumb.png.7bb26d18f0b09ca45008d987152dfafd.png
   name: Lard Lad's Donuts
@@ -126,7 +153,12 @@ leonv93/lard-lads-donuts:
         - id: simtropolis/36277-lard-lads-donuts
           include:
             - Lard Lad's Donuts*
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/quigley-acres:
   authors:
@@ -152,7 +184,8 @@ leonv93/sim-university:
   authors:
     - leonv93
   category: 620
-  description: Sim University; Contains (5) 12x12 lots and (1) 12x6 lot. All dependencies are included in the file.
+  description: |-
+    Sim University; Contains (5) 12x12 lots (1)12x6 lot. All dependencies are included in the file.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f27d59e_Peoria-Apr.26171719631848.thumb.png.5c3bfd988e487c5581f5f0d541440e51.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6680a7f3206dc_Peoria-Aug.30181719632111.thumb.png.2645c0f67b3e5d3119ebc265c854dac0.png
@@ -207,7 +240,10 @@ leonv93/victorian-mansion:
   authors:
     - leonv93
   category: 230
-  description: Victorian Mansion; No Dependencies
+  description: |-
+    Victorian Mansion; no dependencies 
+
+    [100 Vetnor Ave.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102472)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1ff48b164_Ascott-Feb.1061718491515.thumb.png.922ff9b77cac3be785c6b63b396a8f79.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1ff5a2986_Ascott-Feb.1061718491544.thumb.png.96e0f7cdef81fea3fec34a0802d2180f.png
@@ -222,4 +258,9 @@ leonv93/victorian-mansion:
         - id: simtropolis/36272-victorian-mansion
           include:
             - Victorian House*
+      requirements:
+        darknite: false
       version: 1.1.1
+  warnings:
+    - id: bulldoze
+      on: disable
