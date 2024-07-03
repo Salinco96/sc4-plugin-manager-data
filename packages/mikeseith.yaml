@@ -57,52 +57,35 @@ mikeseith/multi-level-modular-garages:
   description: >-
     The **SC4D LEX Legacy - Mikeseith Multi-level Modular Garages** contains the popular 2-level and 8-level Modular Parking Garages by MikeSeith, including the Airport Shuttle automatas. The 2-level
     garages have 8 modular pieces, including entrances (in prop family), several wall pieces and ramp piece. The 8-level garages have 18 modular pieces, including an entrance, two different types of
-    ramps, several wall pieces, overhanging bride pieces over other networks, a police kiosk/parking security, but stop and an airport shuttle spawner bus stop. The original lots were created by
-    MikeSeith, however they underwent some necessary revision and updates mostly performed by rsc204/mgb204. **[Most of the changes that he made are detailed in this
+    ramps, several wall pieces, overhanging bride pieces over other networks, a police kiosk/parking security, but stop and an airport shuttle spawner bus stop. The original lots were created by
+    MikeSeith, however they underwent some necessary revision and updates mostly performed by rsc204/mgb204. **[Most of the changes that he made are detailed in this
     post](https://community.simtropolis.com/forums/topic/761517-mgbs-lil-bits/?tab=comments#comment-1767404)**. A final revision and update was made by Tyberius06 for this legacy compilation.
 
 
     **The highlights:**
 
 
-    *   Only the **Entrance lot(s)** and the **Airport Shuttle Busstop** have TE (transti enabled) parking garage function.
+    - Only the **Entrance lot(s)** and the **Airport Shuttle Busstop** have TE (transti enabled) parking garage function.
 
-    *   All the lots (except the former Police Kiosk, now Parking Security which can be found in the Civic - Police menu) have been moved to the Misc Transportation menu from the Park menu.
+    - All the lots (except the former Police Kiosk, now Parking Security which can be found in the Civic - Police menu) have been moved to the Misc Transportation menu from the Park menu.
 
-    *   The former Police Kiosk is now called as **Parking Security** and after some tweaks it sits somewhere between the Maxis Kiosk and Small Police Station in terms of it's effectiveness, with a
+    - The former Police Kiosk is now called as **Parking Security** and after some tweaks it sits somewhere between the Maxis Kiosk and Small Police Station in terms of it's effectiveness, with a
     larger radius to keep it in line with the intended function around Airports.
-        **!!! VERY IMPORTANT !!!** - As with the Police Station Fix above, you can NOT use this override, until all prior instances of the original Police Station from this pack are removed from your cities. But given the overall modifications here, that's a good idea more generally too if using this update.
-    *   The **Bus Stop**, mainly just modded to conform to more modern TE standards.
 
-    *   The **Airport Shuttle** now acts as a BusStop with parking function and optionally spawning airport shuttle automatas if the airport shuttles.dat is installed.
+        **!!! VERY IMPORTANT !!!** - As with the Police Station Fix above, you can NOT use this override, until all prior instances of the original Police Station from this pack are removed from your cities. But given the overall modifications here, that's a good idea more generally too if using this update.
+    - The **Bus Stop**, mainly just modded to conform to more modern TE standards.
+
+    - The **Airport Shuttle** now acts as a BusStop with parking function and optionally spawning airport shuttle automatas if the airport shuttles.dat is installed.
+
         Optionally, both the Bus Stop and the Airport Shuttle lot recevied RTMT replacement versions, which alternately use the Bus Shelter and Bus Sign Props from your RTMT setup, (v3.6 or later compatible), instead of the default prop.
-    *   Some pieces, like the entrance and the corner pieces are offering commercial service jobs.
+    - Some pieces, like the entrance and the corner pieces are offering commercial service jobs.
 
-    *   This legacy compilation meant to replace any previous versions of these parking garages. The formerly available _BSC MEGA Props Mikeseith vol02_ (which exclusively contains models and props
-    only for these sets and which was formerly released as an individual upload on the SC4D LEX file exchange, then released as part of the SC4D LEX Legacy - BSC Common Dependencies V6 and prior) has
-    been included with this compilation (you will find it in the BSC/BSCProps folder) and will be removed with later updates from the BSC Common Dependnecies (from version 7). So **LOTters using these
-    models and props need to reference this upload (SC4D LEX Legacy - Mikeseith Multi-level Modular Garages)**, instead of the former SC4Devotion LEX link or the BSC Common Dependencies compilation. 
+    - This legacy compilation meant to replace any previous versions of these parking garages. The formerly available *BSC MEGA Props Mikeseith vol02* (which exclusively contains models and props only
+    for these sets and which was formerly released as an individual upload on the SC4D LEX file exchange, then released as part of the SC4D LEX Legacy - BSC Common Dependencies V6 and prior) has been
+    included with this compilation (you will find it in the BSC/BSCProps folder) and will be removed with later updates from the BSC Common Dependnecies (from version 7). So **LOTters using these
+    models and props need to reference this upload (SC4D LEX Legacy - Mikeseith Multi-level Modular Garages)**, instead of the former SC4Devotion LEX link or the BSC Common Dependencies compilation.
 
-    *   For more details check out the readme file in the _~Documents_ folder. You will find a cleanitol file and prop catalogue index image of the contents of the included dependency pack.
-
-
-    **Installation:**
-
-
-    **Installation**: Run the Java installer (.jar extension), which will guide you through the installation process, or open it using 7-zip or Keka for manual install. If doing a manual install, go
-    into the "installation" folder, then copy/extract the BSC and Mikeseith parent folders into your plugins. If you extracted the _~Documents_ folder into your plugins, too, it's highly recommended
-    to keep it, but move it out of the Plugins folder.
-
-
-    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins. It might be necessary to bulldoze any existing lots from the previous versions
-    of these sets before you install this new version.
-
-    Optionally in the ~Documents folder in the main ZIP you can find the _Cleanitol\_SC4D LEX Legacy - Mikeseith Multi-level Modular Garages.txt_ file and by using either the newer **[nos.17's SC4
-    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or the older **[BSC Cleanitol](/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)** tool you can
-    search and remove old and outdated versions of these files.
-
-
-    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+    - For more details check out the readme file in the *~Documents* folder. You will find a cleanitol file and prop catalogue index image of the contents of the included dependency pack.
 
 
     **Dependencies:**
@@ -111,16 +94,15 @@ mikeseith/multi-level-modular-garages:
     To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
 
 
-    *   BSC MEGA Props Mikeseith Vol02 v2 - **INCLUDED**
+    - BSC MEGA Props Mikeseith Vol02 v2 - **INCLUDED**
+
         The formerly released version, that was available in the BSC Common Dependencies V6 (and prior), have been updated and have been removed from the BSC Common Dependencies compilation and have been made available exclusively with this SC4D LEX Legacy - Mikeseith Multi-Level Modular Garages.
 
     **Credits:**
 
 
     These modular parking garages pieces were modelled and originally lotted by Mikeseith. MGB204/RSC204 made significant facelift on the functionality of the lots, see details above. Final update,
-    packing the assembly of the prop pack, that is containing these models were originally created for Project ZIP then SC4D Legacy Restoration by Tyberius06.  
-
-     [![MikeSeiths 2 garages front](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeiths 2 garages front.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/MikeSeiths 2 garages front.jpg)[![mikeseith 8 level garages12](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mikeseith 8 level garages1.JPG)](https://www.sc4evermore.com/images/jdownloads/screenshots/mikeseith 8 level garages1.JPG) [![MikeSeith - airport shuttle3](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeith - airport shuttle.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/MikeSeith - airport shuttle.jpg)
+    packing the assembly of the prop pack, that is containing these models were originally created for Project ZIP then SC4D Legacy Restoration by Tyberius06.
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeiths 2 garages front.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mikeseith 8 level garages1.JPG

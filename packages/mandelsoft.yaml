@@ -2,14 +2,11 @@ mandelsoft/light-props:
   authors:
     - MandelSoft
   category: 120
-  description: >-
+  description: |-
     The Light Replacement Mod (LRM) v4.0 Mega Pack consists of three parts: a prop pack, some plopable streetlights sets and a streetlight override mod.
-
     The first part, the prop pack, is essential for this mod. It contains 59 new streetlight designs and over 200 new props you can use for lots.
 
-
     Best,
-
     Maarten
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2012/307fdb483c3fe24f4cbd76290323326a-promo.jpg
@@ -22,24 +19,22 @@ mandelsoft/light-props:
   variants:
     default:
       assets:
-        - id: simtropolis/27200-light-replacement-mod-lrm-v40-mega-pack#98163
+        - exclude:
+            # TODO: Option
+            # - LRMv4_Models_Streetlights_Belgium_WHITE.dat            - LRMv4_Models_Streetlights_Belgium_GREY.dat
+            - LRMv4_Models_Streetlights_Belgium_GREEN.dat
+            - condition:
+                darknite: true
+              path: LRMv4_Models_LightCones_MaxisNite.dat
+            - condition:
+                darknite: false
+              path: LRMv4 Models & Props/LRMv4_Models_LightCones_DarkNite.dat
+          id: simtropolis/27200-light-replacement-mod-lrm-v40-mega-pack#98163
           include:
             - LRMv4 Models & Props
-          exclude:
-            # TODO: Option
-            # - LRMv4_Models_Streetlights_Belgium_WHITE.dat
-            - LRMv4_Models_Streetlights_Belgium_GREY.dat
-            - LRMv4_Models_Streetlights_Belgium_GREEN.dat
-            - path: LRMv4_Models_LightCones_MaxisNite.dat
-              condition:
-                darknite: true
-            - path: LRMv4 Models & Props/LRMv4_Models_LightCones_DarkNite.dat
-              condition:
-                darknite: false
       version: 4.0.0
 
 mandelsoft/light-replacement-mod:
-  disabled: true
   authors:
     - MandelSoft
   category: 920
@@ -52,18 +47,43 @@ mandelsoft/light-replacement-mod:
     characteristic look. There's a large variety of designs available in various styles. Want to make your cities look more American, European or Commie? No problem! You can even compose your own
     style, isn't that great?
 
+
     All streetlights in this pack also have a more uniform light spreading, making your cities not only looking great from up close, but also from further away. So what are you waiting for? Install
     some new lights and give your city a whole new look at day and night!
 
 
-    Compatibility
+    **Compatibility**
 
-    The streetlight override part of this mod is incompatible with the Uniform Streetlight Mod or earlier versions of the Light Replacement Mod.
+
+    The streetlight override part of this mod is incompatible with the Uniform Streetlight Mod or earlier versions of the Light Replacement Mod. This mod also replaces the following packs with a new,
+    updated version:
+
+
+    - LRM Plopable RHW Median Light Pack 01
+
+
+    - LRM Plopable Streetlights 01 & 02
+
+
+    - LRM Prop Pack 01 & 02
+
+
+    **Feedback and support**
+
+
+    For Frequently Asked Questions feedback or support issues, please visit the [LRM Support & Development Thread on
+    SimTropolis](https://www.simtropolis.com/forum/topic/45710-lrm-light-replacement-mod-support-development-and-discussion/). We will attempt to answer them to the best of our knowledge, and as
+    quickly as possible.
+
+
+    **Note**: Download the Windows version for an automatic installer. Download the MAC version for manual installation.
 
 
     Best,
 
+
     Maarten
+  disabled: true
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2012/307fdb483c3fe24f4cbd76290323326a-promo.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2012/594d1ee4c52b50e13d43561a47aec946-preview01.jpg
@@ -585,7 +605,8 @@ mandelsoft/ploppable-streelights:
   description: >-
     The Light Replacement Mod (LRM) v4.0 Mega Pack consists of three parts: a prop pack, some plopable streetlights sets and a streetlight override mod.
 
-    The second part, the plopable streetlights sets, contains 31 sets of plopable streetlights for on the road sides and 20 sets for RHW medians. These can be used to enlighten your (Real) Highways. With lots of variation, there’s plenty of choice for everyone!
+    The second part, the plopable streetlights sets, contains 31 sets of plopable streetlights for on the road sides and 20 sets for RHW medians. These can be used to enlighten your (Real) Highways.
+    With lots of variation, there's plenty of choice for everyone!
 
     All streetlights in this pack also have a more uniform light spreading, making your cities not only looking great from up close, but also from further away. So what are you waiting for? Install
     some new lights and give your city a whole new look at day and night!

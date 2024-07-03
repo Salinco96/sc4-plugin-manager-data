@@ -26,70 +26,63 @@ cogeo/logistics-centres-megapack:
     The Freight Rail Station is specially modded so as to become two-way (provide both rail-to-truck and truck-to-rail traffic conversions). It also lifts caps for the ID and IM sectors.
 
 
-    The lots are installed by an installer and there is nothing else you need to do except of installing the needed dependencies. However it is possible to customise the lots' appearance. Please check
-    the readme for detailed instructions, and also for tips on placing them. If you don't want some certain lots, eg the ploppables, you can delete their .SC4Lot files.
-
-
     **Dependencies**
 
 
-    1.  [Warehouses BATProps Part A](https://community.simtropolis.com/files/file/15582-warehouses-batprops-part-a/)  (These are the BATs)
+    1.  [Warehouses BATProps Part A](https://community.simtropolis.com/files/file/15582-warehouses-batprops-part-a/) (These are the BATs)
 
-    2.  [Warehouses BATProps Part B](https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/)  (These are the BATs)
+    2.  [Warehouses BATProps Part B](https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/) (These are the BATs)
 
     3.  [BSC Mega Props JES Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
 
     4.  [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
 
 
-    | Lot Statistics |  Growable CS$/CS$$  |  Ploppable CS$/CS$$  |  Freight Rail Station  |
+    | Lot Statistics | Growable CS$/CS$$ | Ploppable CS$/CS$$ | Freight Rail Station |
 
-    | :-: | :-- | :-- | :-- |
+    | --- | --- | --- | --- |
 
-    |  Lot size |  10x10 |  10x10 |  10x10 |
+    | Lot size | 10x10 | 10x10 | 10x10 |
 
-    |  Building Styles |  Chic,NY,Hous,Euro |  - |  - |
+    | Building Styles | Chic,NY,Hous,Euro | \-  | \-  |
 
-    |  Growth Stage |  5 |  - |  - |
+    | Growth Stage | 5   | \-  | \-  |
 
-    |  Plop Cost |  - |  $15000/$25000 |  $25000 |
+    | Plop Cost | \-  | $15000/$25000 | $25000 |
 
-    |  Bulldoze Cost |  $1100 |  $1100 |  $1100 |
+    | Bulldoze Cost | $1100 | $1100 | $1100 |
 
-    |  Monthly Cost |  - |  - |  $500 |
+    | Monthly Cost | \-  | \-  | $500 |
 
-    |  Demand Cap Relief |  - |  - |  ID:25000, IM:25000 |
+    | Demand Cap Relief | \-  | \-  | ID:25000, IM:25000 |
 
-    |  Building Value |  $8000/$10000 |  $8000/$10000 |  - |
+    | Building Value | $8000/$10000 | $8000/$10000 | \-  |
 
-    |  Jobs |  1191/793 |  1191/793 |  158$ 72$$ 23$$$ |
+    | Jobs | 1191/793 | 1191/793 | 158$ 72$$ 23$$$ |
 
-    |  Flamability/Stage |  45/4 |  45/4 |  45/4 |
+    | Flamability/Stage | 45/4 | 45/4 | 45/4 |
 
-    |  Power Consumed |  225 MWh/mo |  225 MWh/mo |  225 MWh/mo |
+    | Power Consumed | 225 MWh/mo | 225 MWh/mo | 225 MWh/mo |
 
-    |  Water Consumed |  800 cu.m/mo |  800 cu.m/mo |  800 cu.m/mo |
+    | Water Consumed | 800 cu.m/mo | 800 cu.m/mo | 800 cu.m/mo |
 
-    |  Pollution (Air/Water)  |  35/25 over 6/7 tiles |  35/25 over 6/7 tiles |  35/25 over 6/7 tiles |
+    | Pollution (Air/Water) | 35/25 over 6/7 tiles | 35/25 over 6/7 tiles | 35/25 over 6/7 tiles |
 
-    |  Garbage Produced |  80 tons/mo |  80 tons/mo |  80 tons/mo |
+    | Garbage Produced | 80 tons/mo | 80 tons/mo | 80 tons/mo |
 
 
     **Credits**
 
 
-    *   Special thanks to [Jestarr](https://community.simtropolis.com/profile/27468-jestarr/content/?type=downloads_file) for his custom consist prop models.
+    - Special thanks to [Jestarr](https://community.simtropolis.com/profile/27468-jestarr/content/?type=downloads_file) for his custom consist prop models.
 
-    *   Special thanks to [Swamper77](https://community.simtropolis.com/profile/21263-swamper77/content/?type=downloads_file) for the automata-spawning scripts.
+    - Special thanks to [Swamper77](https://community.simtropolis.com/profile/21263-swamper77/content/?type=downloads_file) for the automata-spawning scripts.
 
-    *   Many thanks to [BarbyW](https://community.simtropolis.com/profile/6605-barbyw/content/?type=downloads_file) and [T
+    - Many thanks to [BarbyW](https://community.simtropolis.com/profile/6605-barbyw/content/?type=downloads_file) and [T
     Wrecks](https://community.simtropolis.com/profile/48496-t-wrecks/content/?type=downloads_file) for their modding and stats help.
 
 
     [View my other Lots on the STEX](https://community.simtropolis.com/profile/45188-cogeo/content/?type=downloads_file)
-
-
-    **\-CB Edit:** Updated links and added note to inform others of a possible solution for missing models on these lots.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2008/195c4fa65c373a74b16e342dca6b49bc-LPLeft2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_06_2008/195c4fa65c373a74b16e342dca6b49bc-LPRight2.jpg
@@ -99,11 +92,11 @@ cogeo/logistics-centres-megapack:
   variants:
     default:
       assets:
-        - id: simtropolis/16119-logistics-centres-megapack
-          exclude:
-            - path: LCP_UK_PathingPatch.dat
-              condition:
+        - exclude:
+            - condition:
                 rhd: false
+              path: LCP_UK_PathingPatch.dat
+          id: simtropolis/16119-logistics-centres-megapack
       requirements:
         darknite: false
       version: 1.0.0
@@ -116,7 +109,7 @@ cogeo/warehouses-batprops-part-a:
     - cogeo
   category: 120
   description: >-
-    This pack of  warehouse props is currently used in the [Logistics Centres Mega-Pack](https://www.simtropolis.com/stex/index.cfm?id=16119) lots.
+    This pack of warehouse props is currently used in the [Logistics Centres Mega-Pack](https://www.simtropolis.com/stex/index.cfm?id=16119) lots.
 
 
     There are twelve BATs in total, plus a special horizontal floodlight model (lightcone).
@@ -137,9 +130,12 @@ cogeo/warehouses-batprops-part-a:
 
     **Credits**
 
-    I would like to thank 6459978., jasoncw, jestarr, johnb, scipio, sargeantcm, spa and trigger\_tre for their BATting advice and the commenting/reviewing they have provided.
+
+    I would like to thank 6459978., jasoncw, jestarr, johnb, scipio, sargeantcm, spa and trigger_tre for their BATting advice and the commenting/reviewing they have provided.
+
 
     **See Also:** [Warehouses BAT Props Part B](https://www.simtropolis.com/stex/index.cfm?id=15583)
+
 
     [View my other posts on the STEX](https://www.simtropolis.com/stex/index.cfm?page=1&keyword=cogeo&type=all)
   images:
@@ -159,7 +155,7 @@ cogeo/warehouses-batprops-part-b:
     - cogeo
   category: 120
   description: >-
-    This pack of  warehouse props is currently used in the [Logistics Centres Mega-Pack](https://www.simtropolis.com/stex/index.cfm?id=16119) lots.
+    This pack of warehouse props is currently used in the [Logistics Centres Mega-Pack](https://www.simtropolis.com/stex/index.cfm?id=16119) lots.
 
 
     There are twelve BATs in total, plus a special horizontal floodlight model (lightcone).
@@ -180,9 +176,12 @@ cogeo/warehouses-batprops-part-b:
 
     **Credits**
 
-    I would like to thank 6459978., jasoncw, jestarr, johnb, scipio, sargeantcm, spa and trigger\_tre for their BATting advice and the commenting/reviewing they have provided.
+
+    I would like to thank 6459978., jasoncw, jestarr, johnb, scipio, sargeantcm, spa and trigger_tre for their BATting advice and the commenting/reviewing they have provided.
+
 
     **See Also:** [Warehouses BAT Props Part A](https://www.simtropolis.com/stex/index.cfm?id=15582)
+
 
     [View my other Posts on the STEX](https://www.simtropolis.com/stex/index.cfm?page=1&keyword=cogeo&type=all)
   images:

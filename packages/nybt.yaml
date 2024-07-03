@@ -11,10 +11,10 @@ nybt/essentials:
     Remember to put the essentials file into the Plugins folder in order to see the NYBT query windows.
 
 
-    *   The standard NYC skyline can be changed into the new one, including new WTC complex - just unzip the file NYBT\_essentials\_new\_skyline into your plugin folder.
+    - The standard NYC skyline can be changed into the new one, including new WTC complex - just unzip the file NYBT_essentials_new_skyline into your plugin folder.
 
-    *   If you wish to replace the standard Maxis query windows with the NYBT custom windows, unzip the file NYBT\_maxis\_query\_replace into the plugin folder. Remember to use NYBT essentials main
-    file in order to see the custom headers.
+    - If you wish to replace the standard Maxis query windows with the NYBT custom windows, unzip the file NYBT_maxis_query_replace into the plugin folder. Remember to use NYBT essentials main file in
+    order to see the custom headers.
 
 
     Info for NYBT members:
@@ -23,67 +23,67 @@ nybt/essentials:
     You have to edit the building exemplar with Ilive's Reader and change the query exemplar GUID property with following values:
 
 
-    *   0xB4ADBA01 - landmarks,
+    - 0xB4ADBA01 - landmarks,
 
-    *   0xB4ADBA02 - commercials,
+    - 0xB4ADBA02 - commercials,
 
-    *   0xB4ADBA03 - industrials,
+    - 0xB4ADBA03 - industrials,
 
-    *   0xB4ADBA04 - landmarks - 9/11 version,
+    - 0xB4ADBA04 - landmarks - 9/11 version,
 
-    *   0xB4ADBA07 - residentials,
+    - 0xB4ADBA07 - residentials,
 
-    *   0xB4ADBA08 - Police stations,
+    - 0xB4ADBA08 - Police stations,
 
-    *   0xB4ADBA09 - City Jail,
+    - 0xB4ADBA09 - City Jail,
 
-    *   0xB4ADBA0a - Federal Prison,
+    - 0xB4ADBA0a - Federal Prison,
 
-    *   0xB4ADBA0b - Fire Stations,
+    - 0xB4ADBA0b - Fire Stations,
 
-    *   0xB4ADBA0c - School,
+    - 0xB4ADBA0c - School,
 
-    *   0xB4ADBA0d - Library,
+    - 0xB4ADBA0d - Library,
 
-    *   0xB4ADBA0e - Main Library,
+    - 0xB4ADBA0e - Main Library,
 
-    *   0xB4ADBA0f - College,
+    - 0xB4ADBA0f - College,
 
-    *   0xB4ADBA10 - Museum,
+    - 0xB4ADBA10 - Museum,
 
-    *   0xB4ADBA11 - University,
+    - 0xB4ADBA11 - University,
 
-    *   0xB4ADBA12 - Major Art Museum,
+    - 0xB4ADBA12 - Major Art Museum,
 
-    *   0xB4ADBA13 - Private School,
+    - 0xB4ADBA13 - Private School,
 
-    *   0xB4ADBA14 - Hospital & Clinic,
+    - 0xB4ADBA14 - Hospital & Clinic,
 
-    *   0xB4ADBA15 - Disease Research Center,
+    - 0xB4ADBA15 - Disease Research Center,
 
-    *   0xB4ADBA16 - All Park Types,
+    - 0xB4ADBA16 - All Park Types,
 
-    *   0xB4ADBA17 - Bus stop,
+    - 0xB4ADBA17 - Bus stop,
 
-    *   0xB4ADBA18 - Car Garage,
+    - 0xB4ADBA18 - Car Garage,
 
-    *   0xB4ADBA19 - Subway Stations,
+    - 0xB4ADBA19 - Subway Stations,
 
-    *   0xB4ADBA1a - Toll Booth,
+    - 0xB4ADBA1a - Toll Booth,
 
-    *   0xB4ADBA1b - Train Station & Freight Station,
+    - 0xB4ADBA1b - Train Station & Freight Station,
 
-    *   0xB4ADBA1c - Church,
+    - 0xB4ADBA1c - Church,
 
-    *   0xB4ADBA1d - Statue,
+    - 0xB4ADBA1d - Statue,
 
-    *   0xB4ADBA1e - Cemetery,
+    - 0xB4ADBA1e - Cemetery,
 
-    *   0xB4ADBA1f - Court House,
+    - 0xB4ADBA1f - Court House,
 
-    *   0xB4ADBA20 - City Hall,
+    - 0xB4ADBA20 - City Hall,
 
-    *   0xB4ADBA21 - Power Plant.
+    - 0xB4ADBA21 - Power Plant.
 
 
     CREDITS:
@@ -105,12 +105,12 @@ nybt/essentials:
       assets:
         - docs:
             - readme*
-          id: simtropolis/22916-nybt-essentials
-          include:
-            - NYBT_essentials.dat
           exclude:
             # TODO: Add condition
             - zz_NYBT_essentials_new_skyline.dat
+          id: simtropolis/22916-nybt-essentials
+          include:
+            - NYBT_essentials.dat
       url: https://community.simtropolis.com/files/file/22916-nybt-essentials/
       version: 2.0.0
 
@@ -147,21 +147,21 @@ nybt/residentials-pack:
     **CONTENTS**
 
 
-    *   Bainbridge Row by Aaron Graham
+    - Bainbridge Row by Aaron Graham
 
-    *   Beck Arms by Aaron Graham
+    - Beck Arms by Aaron Graham
 
-    *   Concord Arms by Aaron Graham
+    - Concord Arms by Aaron Graham
 
-    *   Kingsbridge Apartments by Aaron Graham
+    - Kingsbridge Apartments by Aaron Graham
 
-    *   Tapscott Houses by Aaron Graham
+    - Tapscott Houses by Aaron Graham
 
 
     **DEPENDENCIES**
 
 
-    *   [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
+    - [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
 
 
     **COMPATIBILITY**
@@ -170,29 +170,20 @@ nybt/residentials-pack:
     This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
 
 
-    **INSTALLATION**
-
-
-    **Installation**: Run the Java installer (.jar extension), which will guide you through the installation process, or open it using 7-zip or Keka for manual install. If doing a manual install, go
-    into the "installation" folder, then copy/extract the NYBT parent folder into your plugins. If you extracted the \_Documents folder into your plugins, too, it's highly recommended to keep it, but
-    move it out of the Plugins folder.
-
-
-    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
-
-
     **CREDITS**
 
 
     BATs:
 
 
-    *   Aaron Graham
+    - Aaron Graham
 
 
     Project ZIP repackaging for SC4Evermore by Tyberius06, Ulisse Wolf, and Tarkus.
 
-     [![Day1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/Day1.jpg)[![Night2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/Night.jpg) [![Day23](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day2.jpg)](https://www.sc4evermore.com/images/jdownloads/screenshots/Day2.jpg)
+    ![Day1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg)
+    ![Night2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg)
+    ![Day23](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day2.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg

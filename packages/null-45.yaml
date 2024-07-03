@@ -222,29 +222,20 @@ null-45/resource-loading-hooks-dll:
     **System Requirements**
 
 
-    *   SimCity 4 version 641
+    - SimCity 4 version 641
 
-    *   Windows 10 or later
+    - Windows 10 or later
 
 
     The plugin may work on Windows 7 or later with the [Microsoft Visual C++ 2022 x86 Redistribute](https://aka.ms/vs/17/release/vc_redist.x86.exe) installed, but I do not have the ability to test
     that.
 
 
-    **Installation**
-
-
-    1.  Close SimCity 4.
-
-    2.  Copy _SC4ResourceLoadingHooks.dll_ into the top level of either plugins folder (place it directly in <Documents>\\SimCity 4\\Plugins or <SC4 install folder>\\Plugins, not in a subfolder).
-
-    3.  Start SimCity 4.
-
-
     **Troubleshooting**
 
 
-    The plugin should write a _SC4ResourceLoadingHooks.log_ file in the same folder as the plugin.
+    The plugin should write a *SC4ResourceLoadingHooks.log* file in the same folder as the plugin.
+
 
     The log contains status information for the most recent run of the plugin.
 
@@ -256,11 +247,10 @@ null-45/resource-loading-hooks-dll:
     [https://community.simtropolis.com/forums/topic/763167-resource-loading-hooks-dll-for-SimCity-4/](https://community.simtropolis.com/forums/topic/763167-resource-loading-hooks-dll-for-simcity-4/)
 
 
-    The plugin's source code and issue tracker are located on GitHub: [https://github.com/0xC0000054/sc4-resource-loading-hooks](https://github.com/0xC0000054/sc4-resource-loading-hooks)
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-resource-loading-hooks
 
 
-    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal:
-    [https://paypal.me/0xC0000054](https://paypal.me/0xC0000054)
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
 
 
     Thanks to the few people who have donated to me.
@@ -290,60 +280,51 @@ null-45/startup-performance-optimization-dll:
     **Features**
 
 
-    *   Reduces the time for the game to show the SC4 logo by up to 90%.
+    - Reduces the time for the game to show the SC4 logo by up to 90%.
 
-    *   Adds an optimization to the game code for large data reads.
+    - Adds an optimization to the game code for large data reads.
 
-    *   Disables the game code that searches the entire file if the DBPF signature was not found.
+    - Disables the game code that searches the entire file if the DBPF signature was not found.
 
-    *   Changes the game code that loads the .SC4\* files to ignore files with non-DBPF file extensions, .txt, .png, etc.
-        *   With this change only .SC4Desc, .SC4Lot, .SC4Model, and files without any file extension will be loaded.
-        *   Files without any file extension are included due to some older plugins having that issue.
-    *   Changes the 'missing plugin' dialog to display the plugin pack ID in hexadecimal.
+    - Changes the game code that loads the .SC4\* files to ignore files with non-DBPF file extensions, .txt, .png, etc.
+        - With this change only .SC4Desc, .SC4Lot, .SC4Model, and files without any file extension will be loaded.
+        - Files without any file extension are included due to some older plugins having that issue.
+    - Changes the 'missing plugin' dialog to display the plugin pack ID in hexadecimal.
 
 
     **System Requirements**
 
 
-    *   SimCity 4 version 641
+    - SimCity 4 version 641
 
-    *   Windows 10 or later
+    - Windows 10 or later
 
 
     The plugin may work on Windows 7 or later with the [Microsoft Visual C++ 2022 x86 Redistribute](https://aka.ms/vs/17/release/vc_redist.x86.exe) installed, but I do not have the ability to test
     that.
 
 
-    **Installation**
-
-
-    1.  Close SimCity 4.
-
-    2.  Copy _SC4DBPFLoading.dll_ into the top level of either plugins folder (place it directly in _<Documents>\\SimCity 4\\Plugins_ or _<SC4 install folder>\\Plugins_, not in a subfolder).
-
-    3.  Start SimCity 4.
-
-
     **Command Line Argument**
 
 
-    The plugin adds a _\-StartupDBPFLoadTrace:_ command line argument that can be used for advanced tracing/debugging of the plugin loading process.
+    The plugin adds a *\-StartupDBPFLoadTrace:* command line argument that can be used for advanced tracing/debugging of the plugin loading process.
 
 
     It supports to following options (only 1 can be used at a time):
 
 
-    *   _ShowLoadTime_ \- shows a message box with the resource loading time in milliseconds.
+    - *ShowLoadTime* \- shows a message box with the resource loading time in milliseconds.
 
-    *   _WinAPI_ - shows message boxes before and after the resource loading code runs, this allows the user to start and stop a Process Monitor trace when the message box is shown.
+    - *WinAPI* - shows message boxes before and after the resource loading code runs, this allows the user to start and stop a Process Monitor trace when the message box is shown.
 
-    *   _ListLoadedFiles_ - writes the loaded DBPF files to the plugin's log file in the order SC4 reads them.
+    - *ListLoadedFiles* - writes the loaded DBPF files to the plugin's log file in the order SC4 reads them.
 
 
     **Troubleshooting**
 
 
-    The plugin should write a _SC4DBPFLoading.log_ file in the same folder as the plugin.
+    The plugin should write a *SC4DBPFLoading.log* file in the same folder as the plugin.
+
 
     The log contains status information for the most recent run of the plugin.
 
@@ -351,14 +332,13 @@ null-45/startup-performance-optimization-dll:
     **Source Code and Support**
 
 
-    Plugin thread: [https://community.simtropolis.com/forums/topic/763113-sc4dbpfloading](https://community.simtropolis.com/forums/topic/763113-sc4dbpfloading)
+    Plugin thread: https://community.simtropolis.com/forums/topic/763113-sc4dbpfloading
 
 
-    The plugin's source code and issue tracker are located on GitHub: [https://github.com/0xC0000054/sc4-dbpf-loading](https://github.com/0xC0000054/sc4-dbpf-loading)
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-dbpf-loading
 
 
-    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal:
-    [https://paypal.me/0xC0000054](https://paypal.me/0xC0000054)
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
 
 
     Thanks to the few people who have donated to me.
