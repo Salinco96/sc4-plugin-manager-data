@@ -1,0 +1,21 @@
+options:
+  - id: rhd
+    label: Do you have cars driving on the left?
+    section: transport
+    type: boolean
+    display: switch
+  - id: road-textures
+    label: Road textures
+    section: transport
+    type: string
+    choices:
+      - label: US
+        value: us
+      - label: EU
+        value: eu
+  - id: culs-de-sacs
+    label: Enable cul-de-sac textures
+    section: transport
+    type: boolean
+    condition:
+      nam: true

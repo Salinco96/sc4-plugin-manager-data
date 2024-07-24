@@ -2,15 +2,15 @@ debussyman/mega-props-vol01:
   authors:
     - DebussyMan
   category: 120
-  name: "BSC MEGA Props DBSSYMN Vol01"
+  name: BSC MEGA Props DBSSYMN Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - DBSSYMN Vol01*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - DBSSYMN Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -20,16 +20,35 @@ debussyman/mega-props-vol02:
   authors:
     - DebussyMan
   category: 120
-  name: "BSC MEGA Props DBSSYMN Vol02"
+  name: BSC MEGA Props DBSSYMN Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - DBSSYMN Vol02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - DBSSYMN Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 2.0.0
+
+debussyman/wz-recreation-palais:
+  authors:
+    - debussyman
+  category: 360
+  description: A recreation of a BAT by WolfZe. This one works as a landmark. No dependencies required.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/WZPalais.thumb.PNG.9e3c35f53b09bb6cbd370acba8956aca.PNG
+  name: "WZ Recreation: Palais"
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/WZPalais.thumb.PNG.9e3c35f53b09bb6cbd370acba8956aca.PNG
+  url: https://community.simtropolis.com/files/file/36334-wz-recreation-palais/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36334-wz-recreation-palais
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

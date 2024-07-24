@@ -9,6 +9,38 @@ null-45/auto-save-dll:
     default:
       assets:
         - id: github/0xC0000054/sc4-auto-save
+          include:
+            - SC4AutoSave.dll
+      options:
+        - condition:
+            never: true
+          default: true
+          filename: SC4AutoSave.ini
+          id: Admin.Enabled
+          type: boolean
+        - default: 15
+          filename: SC4AutoSave.ini
+          id: AutoSave.IntervalInMinutes
+          label: Auto-save interval in minutes
+          max: 120
+          min: 1
+          type: number
+        - default: true
+          filename: SC4AutoSave.ini
+          id: AutoSave.FastSave
+          label: Use Fast Save (no region thumbnail update)
+          type: boolean
+        - default: true
+          description: Controls whether the time the game spends paused is ignored when counting towards the next auto-save point.
+          filename: SC4AutoSave.ini
+          id: AutoSave.IgnoreTimePaused
+          label: Ignore time paused
+          type: boolean
+        - default: true
+          filename: SC4AutoSave.ini
+          id: AutoSave.LogSaveEvents
+          label: Enable save event logs
+          type: boolean
       version: 1.2.0
 
 null-45/city-date-sync-dll:
@@ -22,6 +54,15 @@ null-45/city-date-sync-dll:
     default:
       assets:
         - id: github/0xC0000054/sc4-city-date-sync
+          include:
+            - SC4CityDateSync.dll
+      options:
+        - condition:
+            never: true
+          default: true
+          filename: SC4CityDateSync.ini
+          id: Admin.Enabled
+          type: boolean
       version: 1.0.3
 
 null-45/cpu-options-dll:
@@ -35,6 +76,26 @@ null-45/cpu-options-dll:
     default:
       assets:
         - id: github/0xC0000054/sc4-cpu-options
+          include:
+            - SC4CPUOptions.dll
+      options:
+        - condition:
+            never: true
+          default: true
+          filename: SC4CPUOptions.ini
+          id: Admin.Enabled
+          type: boolean
+        - choices:
+            - High
+            - AboveNormal
+            - Normal
+            - BelowNormal
+            - Low
+          default: AboveNormal
+          filename: SC4CPUOptions.ini
+          id: CPUOptions.Priority
+          label: Priority
+          type: string
       version: 1.0.1
 
 null-45/disable-cheats-dll:
@@ -113,6 +174,73 @@ null-45/graphics-options-dll:
     default:
       assets:
         - id: github/0xC0000054/sc4-graphics-options
+          include:
+            - SC4GraphicsOptions.dll
+      options:
+        - condition:
+            never: true
+          default: true
+          filename: SC4GraphicsOptions.ini
+          id: Admin.Enabled
+          type: boolean
+        - default: true
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.EnableIntroVideo
+          label: Play intro video on startup
+          type: boolean
+        - default: false
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.PauseGameOnFocusLoss
+          label: Pause the game when it loses focus
+          type: boolean
+        - choices:
+            - label: DirectX
+              value: DirectX
+            - label: OpenGL
+              value: OpenGL
+            - label: Software
+              value: Software
+          default: DirectX
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.Driver
+          label: Driver
+          type: string
+        - choices:
+            - label: Full screen
+              value: FullScreen
+            - label: Borderless window
+              value: Borderless
+            - label: Window
+              value: Windowed
+          default: FullScreen
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.WindowMode
+          label: Window mode
+          type: string
+        - condition:
+            GraphicsOptions.WindowMode: Windowed
+          default: 1920
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.WindowWidth
+          label: Window width
+          min: 800
+          type: number
+        - condition:
+            GraphicsOptions.WindowMode: Windowed
+          default: 1080
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.WindowHeight
+          label: Window height
+          min: 600
+          type: number
+        - choices:
+            - 16
+            - 32
+          default: 32
+          filename: SC4GraphicsOptions.ini
+          id: GraphicsOptions.ColorDepth
+          label: Color depth
+          type: number
       version: 1.2.0
 
 null-45/growify-plops-dll:
@@ -152,16 +280,138 @@ null-45/legalize-gambling-ordinance:
     default:
       assets:
         - id: github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
+          include:
+            - SC4LegalizeGamblingUpgrade.dll
+      options:
+        - condition:
+            never: true
+          default: true
+          filename: SC4LegalizeGamblingUpgrade.ini
+          id: Admin.Enabled
+          type: boolean
+        - default: 250
+          filename: SC4LegalizeGamblingUpgrade.ini
+          id: GamblingOrdinance.BaseMonthlyIncome
+          label: Base monthly income
+          type: number
+        - default: 0.02
+          filename: SC4LegalizeGamblingUpgrade.ini
+          id: GamblingOrdinance.R$IncomeFactor
+          label: Income factor for the R$ population
+          step: 0.01
+          type: number
+        - default: 0.03
+          filename: SC4LegalizeGamblingUpgrade.ini
+          id: GamblingOrdinance.R$$IncomeFactor
+          label: Income factor for the R$$ population
+          step: 0.01
+          type: number
+        - default: 0.05
+          filename: SC4LegalizeGamblingUpgrade.ini
+          id: GamblingOrdinance.R$$$IncomeFactor
+          label: Income factor for the R$$$ population
+          step: 0.01
+          type: number
+        - default: 0.05
+          filename: SC4LegalizeGamblingUpgrade.ini
+          id: GamblingOrdinance.CrimeEffectMultiplier
+          label: Crime effect multiplier
+          max: 2
+          min: 0.01
+          step: 0.01
+          type: number
       version: 1.0.0
 
 null-45/more-building-styles-dll:
   authors:
     - Null 45
   category: 100
-  experimental: true
-  name: More Building Styles
+  description: >-
+    A DLL Plugin for SimCity 4 that allows the game to use more than 4 building styles.
+
+
+    This DLL mod is intended as a dependency for other mods that add new building styles beyond the 4 that Maxis included, it does not add any building styles to the game by itself.
+
+
+    Maxis programmed the Building Style Control UI to only recognize the check boxes of the 4 built-in styles, no matter how may check boxes are actually present. This mod patches the game's memory to
+    remove that restriction.
+
+
+    **Adding More Building Styles into SC4**
+
+
+    This is a brief overview of the process required to add new building styles into the game.
+
+
+    1.  Create a patch that overrides the default Building Style Control UI, TGI 0x00000000,0x96a006b0,0x6bc61f19 in *SimCity_1.dat*.
+
+    2.  Edit the building style UI in the patch to add a check box for your new style(s).
+        - The check box ID (e.g. 0x2003) identifies the building style to the game, these IDs should be in the range of 0x2000 to 0x2fff.
+    3.  Update the building OG values to use the new style.
+
+
+    [@CorinaMarie](https://community.simtropolis.com/profile/737259-corinamarie/) has a
+    [post](https://community.simtropolis.com/forums/topic/758810-partial-mythbusting-building-style-tilesets-not-locked-down-in-the-exe/?do=findComment&comment=1765958) with more details on how to
+    update a building to a new style. Note that you only need to follow the steps in that post up to step 8. The additional steps in that post are not required with this mod. It is not necessary to
+    edit the Building Development Simulator when using the edited Building Style Control UI.
+
+
+    **Auto-Historical Check Box**
+
+
+    The DLL supports an optional check box that will automatically mark new growable residential and commercial lots as historical when SC4 creates them.
+
+
+    This check box uses the reserved id value: *0x9476D8DA*
+
+
+    **Cheat Codes**
+
+
+    The DLL provides the following cheat codes:
+
+
+    *ActiveStyle* shows an in-game message box with the ID of the currently active style when *Change building style every N years* is selected. When *Build all styles at once* is selected, using this
+    cheat will display a message saying that mode is active.
+
+
+    *DebugActiveStyles* writes the IDs of all the active/checked styles to the plugin's log file.
+
+
+    **System Requirements**
+
+
+    - SimCity 4 version 641
+
+    - Windows 10 or later
+
+
+    The plugin may work on Windows 7 or later with the [Microsoft Visual C++ 2022 x86 Redistribute](https://aka.ms/vs/17/release/vc_redist.x86.exe) installed, but I do not have the ability to test
+    that.
+
+
+    **Troubleshooting**
+
+
+    The plugin should write a *SC4MoreBuildingStyles.log* file in the same folder as the plugin.
+
+
+    The log contains status information for the most recent run of the plugin.
+
+
+    **Source Code and Support**
+
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/762969-allow-more-building-styles-dll-plugin/
+
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-more-building-styles
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.d0a231227c791acd31e13fe612986fb2.png
+  name: More Building Styles DLL
   repository: https://github.com/0xC0000054/sc4-more-building-styles
-  url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/260-allow-more-building-styles-dll-plugin
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.d0a231227c791acd31e13fe612986fb2.png
+  url: https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/
   variants:
     default:
       assets:
@@ -172,13 +422,132 @@ null-45/more-demand-info-dll:
   authors:
     - Null 45
   category: 100
-  name: More Demand Info
+  description: >-
+    A DLL plugin for SimCity 4 that provides modders with more RCI demand info.
+
+
+    With this plugin installed there will be the following new variables that can be used from LUA scripts and UI files:
+
+
+    **Variable name Description**
+
+
+    g_cs1_active_demand Cs§ active demand
+
+
+    g_cs1_demand Cs§ demand
+
+
+    g_cs2_active_demand Cs§§ active demand
+
+
+    g_cs2_demand Cs§§ demand
+
+
+    g_cs3_active_demand Cs§§§ active demand
+
+
+    g_cs3_demand Cs§§§ demand
+
+
+    g_ir_active_demand IR (I-Ag) active demand
+
+
+    g_ir_demand IR (I-Ag) demand
+
+
+    g_current_ir_cap Current IR (I-Ag) cap
+
+
+    g_id_demand ID demand
+
+
+    g_im_demand IM demand
+
+
+    g_iht_demand IHT demand
+
+
+    g_region_r1_population Region R§ population
+
+
+    g_region_r2_population Region R§§ population
+
+
+    g_region_r3_population Region R§§§ population
+
+
+    g_region_cs1_population Region Cs§ population
+
+
+    g_region_cs2_population Region Cs§§ population
+
+
+    g_region_cs3_population Region Cs§§§ population
+
+
+    g_region_co2_population Region Co§§ population
+
+
+    g_region_co3_population Region Co§§§ population
+
+
+    g_region_ir_population Region IR (I-Ag) population
+
+
+    g_region_id_population Region ID population
+
+
+    g_region_im_population Region IM population
+
+
+    g_region_iht_population Region IHT population
+
+
+    The download includes a patch for RippleJet's Census Repository v3.5 that shows the new data, you will need to have the [original
+    mod](https://sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet) installed.
+
+
+    **System Requirements**
+
+
+    - Windows 10 or later
+
+
+    The plugin may work on Windows 7 or later with the [Microsoft Visual C++ 2022 x86 Redistribute](https://aka.ms/vs/17/release/vc_redist.x86.exe) installed, but I do not have the ability to test
+    that.
+
+
+    **Troubleshooting**
+
+
+    The plugin should write a *SC4MoreDemandInfo.log* file in the same folder as the plugin.
+
+
+    The log contains status information for the most recent run of the plugin.
+
+
+    **Source Code and Support**
+
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/762906-sc4moredemandinfo
+
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-more-demand-info
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.thumb.png.4baf70a67eff4ba39d69bcbd17bfe144.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/MoreDemandInfo.thumb.png.ec03107b3e79c5af25a7c16f3d47c15f.png
+  name: SC4 More Demand Info
   repository: https://github.com/0xC0000054/sc4-more-demand-info
-  url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/255-sc4moredemandinfo-dll-plugin
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.thumb.png.4baf70a67eff4ba39d69bcbd17bfe144.png
+  url: https://community.simtropolis.com/files/file/35978-sc4-more-demand-info/
   variants:
     default:
       assets:
         - id: github/0xC0000054/sc4-more-demand-info
+          include:
+            - SC4MoreDemandInfo.dll
+            # TODO: - Census Repository v3.5 Patch/RJ - Census_Repository_Model_and_Query_3.1.dat
       version: 1.2.0
 
 null-45/no-kickout-dll:
@@ -193,6 +562,116 @@ null-45/no-kickout-dll:
       assets:
         - id: github/0xC0000054/sc4-no-kick-out
       version: 1.0.0
+
+null-45/query-tool-ui-extensions-dll:
+  authors:
+    - Null 45
+  category: 100
+  description: |-
+    This DLL plugin adds over two dozen new values for use in the building query UI and a network query advanced/debug tool tip.
+
+    For DLL developers, it also provides services that can be used to add more building query values and/or customize the building and network tool tips.
+
+    **New Building Query Variables**
+
+    The following new variables that can be used in the LTEXT files of a building query dialog in the form of \`#variable_name#\`.
+
+    **Name Description**
+
+    building_styles Shows a list of the building's styles.
+
+    r1_occupancy The current number of R§ occupants.
+
+    r1_capacity The R§ occupant capacity.
+
+    r2_occupancy The current number of R§§ occupants.
+
+    r2_capacity The R§§ occupant capacity.
+
+    r3_occupancy The current number of R§§§ occupants.
+
+    r3_capacity The R§§§ occupant capacity.
+
+    cs1_occupancy The current number of Cs§ occupants.
+
+    cs1_capacity The Cs§ occupant capacity.
+
+    cs2_occupancy The current number of Cs§§ occupants.
+
+    cs2_capacity The Cs§§ occupant capacity.
+
+    cs3_occupancy The current number of Cs§§§ occupants.
+
+    cs3_capacity The Cs§§§ occupant capacity.
+
+    co2_occupancy The current number of Co§§ occupants.
+
+    co2_capacity The Co§§ occupant capacity.
+
+    co3_occupancy The current number of Co§§§ occupants.
+
+    co3_capacity The Co§§§ occupant capacity.
+
+    ir_occupancy The current number of I-R occupants.
+
+    ir_capacity The I-R occupant capacity.
+
+    id_occupancy The current number of I-D occupants.
+
+    id_capacity The I-D occupant capacity.
+
+    im_occupancy The current number of I-M occupants.
+
+    im_capacity The I-M occupant capacity.
+
+    iht_occupancy The current number of I-HT occupants.
+
+    iht_capacity The I-HT occupant capacity.
+
+    Multiple *\*_*occupancy and *\*\_capacity* variables can be combined in a LTEXT query to show the filled/available occupancy,
+
+    e.g. #cs1_occupancy#/#cs1_capacity#.
+
+    **Advanced Network Query Tool Tip**
+
+    A custom advanced/debug query tool tip is provided for the transportation networks, excluding power lines and pipes.
+
+    This tool tip is accessed by holding *Control + Alt + Shift* when hovering over a network piece.
+
+    **System Requirements**
+
+    - SimCity 4 version 641
+    - Windows 10 or later
+
+    The plugin may work on Windows 7 or later, but I do not have the ability to test that.
+
+    **Troubleshooting**
+
+    The plugin should write a *SC4QueryUIHooks.log* file in the same folder as the plugin.
+
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763107-query-tool-ui-extensions-dll/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-query-ui-hooks
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+
+    Thanks to the few people who have donated to me.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.thumb.png.ff8b2dce5ef2d377f18e5401653e1c02.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/CustomNetworkTooltip.thumb.jpg.95fdf33c7716f430430ea7b9a76916f9.jpg
+  name: Query Tool UI Extensions DLL
+  repository: https://github.com/0xC0000054/sc4-query-ui-hooks
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.thumb.png.ff8b2dce5ef2d377f18e5401653e1c02.png
+  url: https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36202-query-tool-ui-extensions-dll-for-simcity-4
+      version: 1.1.0
 
 null-45/region-view-census-dll:
   authors:

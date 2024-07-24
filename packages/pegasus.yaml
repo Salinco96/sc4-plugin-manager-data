@@ -281,11 +281,10 @@ pegasus/security-fencing-kit:
     default:
       assets:
         - docs:
-            - PEGPROD/MODs/Security Fencing/readme_243.htm
-            - PEGPROD/MODs/Security Fencing/product_image.jpg
+            - PEGPROD/MODs/Security Fencing
           id: simtropolis/19338-peg-security-fencing-kit
           include:
-            - PEGPROD/MODs/Security Fencing/PEG_ChainLinkFence_RESOURCE.dat
+            - PEGPROD/MODs/Security Fencing
       version: 1.0.0
 
 pegasus/spam-super-resource-pack:
@@ -360,5 +359,7 @@ pegasus/spam-super-resource-pack:
       assets:
         - id: simtropolis/26079-peg-spam-super-resource-pack
           include:
-            - PEGPROD/SPAM/SPAM_Super_Resource_Pack
+            - condition:
+                spam: false
+              path: PEGPROD/SPAM/SPAM_Super_Resource_Pack
       version: 1.0.0

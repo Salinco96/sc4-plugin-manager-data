@@ -321,11 +321,16 @@ murimk/props-vol02:
       assets:
         - docs:
             - Documentation_Murimk_Props_Vol02
-          exclude: # TODO: Options
-            - Test_Lots
           id: simtropolis/25888-murimk-props-vol02-mixed-props
           include:
+            - path: Test_Lots
+              condition:
+                test-lots: true
             - Murimk Productions/Murimk_Props_Vol02*
+      options:
+        - id: test-lots
+          label: Enable test lots
+          type: boolean
       version: 1.0.0
 
 murimk/props-vol03:

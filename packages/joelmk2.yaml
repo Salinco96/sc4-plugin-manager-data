@@ -5,13 +5,13 @@ joelmk2/dhl-air-freight-centre:
   dependencies:
     - bsc/ultimate-airport-pack
     - girafe/flora-pack
-    - joelyboy911/scag-mega-dependency-1 # TODO: Only required for the airport themed lots
+    - joelyboy911/scag-mega-dependency-1
     - mandelsoft/light-props
     - mushymushy/hd-north-american-40ft-semi-trailers-vol01
     - mushymushy/hd-north-american-53ft-semi-trailers-vol01
     - mushymushy/hd-north-american-semi-truck-cabs-vol01
     - pegasus/security-fencing-kit
-    - shadeslayer/scag-cargo-lots # TODO: Only required for the airport themed lots
+    - shadeslayer/scag-cargo-lots
     - shokthrpy/shk-parking-pack
   description: >-
     My first foray back into custom content after ~ten years away from the game, this pack is a DHL-themed building set. My earlier mostly-airports content posted at
@@ -87,6 +87,75 @@ joelmk2/dhl-air-freight-centre:
           include:
             - JoelMk2/DHL Airport Freight Centre
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+joelmk2/next-gen-planes-vol01:
+  authors:
+    - JoelMk2
+  category: 700
+  dependencies:
+    - bsc/ultimate-airport-pack
+  description: >-
+    In years gone by, SC4 aviation creators gave us modular airports allowing city builders to create more realistic, sometimes-sprawling airports with customisable terminals, concourses and runways.
+
+
+    But in 2024, some aspects could use an update. New models of aircraft have been designed and launched, while older ones have retired. Airlines have started up, closed down, merged and rebranded.
+
+
+    This set is designed to bring a new set of airliners to the modular airport systems released by **AC Team** and others, which are now all found in the [SC4D LEX Legacy Ultimate Airport
+    Pack](https://www.sc4evermore.com/index.php/downloads/download/19-transportation/7-sc4d-lex-legacy-ultimate-airport-pack). This pack is the only external dependency for this set (and this set also
+    doesn't make sense unless used together with the runways, taxiways and terminals found in the legacy pack).
+
+
+    **What's included here:**
+
+
+    Passenger airliners from five aircraft families in a range of airline liveries:
+
+
+    - **Airbus A220 -** the smallest Airbus, a large regional jet or small mainline jet.
+
+    - **Airbus A320neo -** the 'new engine option' versions of the A320 family, a single-aisle jet that is one of the most common in the sky.
+
+    - **Airbus A330neo -** the 'new engine option' version of the A330 family, a twin-engine widebody jet for medium/long-haul flights.
+
+    - **Airbus A350XWB -** the newest Airbus widebody jet equipped with advanced tech, capable of ultra long haul flights.
+
+    - **Boeing 777 -** the largest Boeing twin-engine jet, also used on long-haul routes.
+
+
+    Each one is lotted on a jetway lot. The widebody jets are on lots designed to fit in with the original AC Team Boeing 747 gates, while the narrowbody jets fit in with original Airbus A320 and
+    Boeing 737 gates. There are also a few planes on 'remote' gates - using air-stairs rather than a jetway. These will link nicely to passenger walkways from the 'RMIP' sets.
+
+
+    There are lots for empty gates, and some lots included if you want to customise things with parked planes and planes on your taxiways.
+
+
+    These are primarily for visually simulating an airport - but the planes do return some revenue to your city (in line with other modular plane lots released in the past - simulating fees paid by
+    airlines).
+
+
+    *The A320neo, A330neo and 777 have been developed as updates starting with models I recovered in old files from when I was part of the SimCity Aviation Group (SCAG). Original 777 model credit to
+    **Pilotdaryl**. A350 and A220 models I have created new.*
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/667d1c7a1ce01_NextGenPlanesReleasePic1.thumb.jpg.27f5df3f30587732b40a7d9c627c90b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/667d1c7a3181a_NextGenPlanesReleasePic2.thumb.jpg.73a529613c59389404db20af8dd11391.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/667d1c7a469b7_NextGenPlanesReleasePic4.thumb.jpg.0d225a3f76b0122176853de4199db9b4.jpg
+  name: Next Gen Planes Pack 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/667d1c7a1ce01_NextGenPlanesReleasePic1.thumb.jpg.27f5df3f30587732b40a7d9c627c90b6.jpg
+  url: https://community.simtropolis.com/files/file/36317-next-gen-planes-pack-1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36317-next-gen-planes-pack-1#201786
+          include:
+            - JoelMk2/Next Gen Planes
+        - id: simtropolis/36317-next-gen-planes-pack-1#201785
+          include:
+            - JoelMk2/Next Gen Planes
+      version: 1.0.2
   warnings:
     - id: bulldoze
       on: disable

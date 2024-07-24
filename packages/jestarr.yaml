@@ -1,3 +1,72 @@
+jestarr/1x1-dirty-industrials:
+  authors:
+    - jestarr
+  category: 420
+  dependencies:
+    - bsc/mega-props-misc-vol02
+    - cycledogg/mega-props-vol01
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - jestarr/mega-props-vol04
+    - jestarr/mega-props-vol05
+    - jestarr/mega-props-vol09
+    - jestarr/resourcepack-vol27
+    - simgoober/mega-props-vol01
+  description: |-
+    A set of four 1x1 I-D growable and ploppable lots.
+
+    Lot Details and Information:
+
+    Lot size: 1x1 tiles
+
+    Building style(s): Building: Industrial, Building: ID, Industry: Anchor, BTE: Ind - Dirty
+
+    Growth stage: 1
+
+    Occupants: I-D - 2 to 4
+
+    Bulldoze cost: $100 to $141
+
+    Max. Fire Stage: 1 to 2
+
+    Power consumption: 1 to 2 MWh/month
+
+    Water consumption: 1 to 3 Gallons/month
+
+    Air pollution: 1 over 16 tiles
+
+    Water pollution: 1 over 20 tiles
+
+    Garbage pollution: 4 over 0 tiles
+
+    Compatibility:
+
+    This download is only compatible with SimCity 4 “Rush Hour” or SimCity 4 Deluxe.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/1x1_IndustrialLots_Day.thumb.jpg.64e1b7b4cf129cc3757b1578d0fe9723.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_09/1x1_IndustrialLots_Nite.thumb.jpg.9a19e45b297430f7fb6b0e91cf13a472.jpg
+  name: 1x1 Dirty Industrials
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/1x1_IndustrialLots_Day.thumb.jpg.64e1b7b4cf129cc3757b1578d0fe9723.jpg
+  url: https://community.simtropolis.com/files/file/35633-1x1-dirty-industrials/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Documentation
+          id: simtropolis/35633-1x1-dirty-industrials
+          include:
+            - BSC/jestarr
+            # - BSC/jestarr/PumpingStation
+            # - BSC/jestarr/MechanicalBuilding
+            # - BSC/jestarr/ContainerOnBlocks
+            # - BSC/jestarr/ContainerOffice
+      requirements:
+        darknite: false # TODO: Check
+      version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
 jestarr/bsc-batprops_hd-jes-vol10:
   authors:
     - jestarr
@@ -42,9 +111,9 @@ jestarr/bsc-batprops_hd-jes-vol13:
   authors:
     - jestarr
   category: 120
-  description: >-
-    This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the substation which
-    is only in 90 degrees.
+  description:
+    This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the
+    substation which is only in 90 degrees.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bf14cb4085a_BSCBATProps_HD-JESVol13a.thumb.jpg.6ea7d877a34eb24bc2cf87c6553d7457.jpg
   name: BSC BATProps_HD - JES Vol13
@@ -80,6 +149,28 @@ jestarr/bsc-batprops_hd-jes-vol15:
             - BSC/BSCProps
       version: 1.0.0
 
+jestarr/bsc-batprops_hd-jes-vol17:
+  authors:
+    - jestarr
+  category: 120
+  description: |-
+    A set of 36 HD models rendered in 11.25 degrees L/R, 22.5 degrees L/R, 45 degrees and 90 degrees for a total of 216 shipping container props.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de153aea98_BSCBATProps_HD-JESVol17a.thumb.jpg.f132f9c925f6400a9b300164e908a0ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de153bf8aa_BSCBATProps_HD-JESVol17b.thumb.jpg.91dd803b2b51af593c73d738069b82ed.jpg
+  name: BSC BATProps_HD - JES Vol17
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/667de153aea98_BSCBATProps_HD-JESVol17a.thumb.jpg.f132f9c925f6400a9b300164e908a0ba.jpg
+  url: https://community.simtropolis.com/files/file/36318-bsc-batprops_hd-jes-vol17/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Documentation
+          id: simtropolis/36318-bsc-batprops_hd-jes-vol17
+          include:
+            - BSC/BSCProps
+      version: 1.0.0
+
 jestarr/jes_resourcepack_vol27:
   authors:
     - jestarr
@@ -88,9 +179,10 @@ jestarr/jes_resourcepack_vol27:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c38055cc_BSC_PropPack_JES_Vol27v2a.thumb.jpg.11d10fe0a4c77c00e440e8b64db95c06.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c3820c9f_BSC_TexturePack_JES_Vol27v2a.thumb.jpg.5a438b5417b4b5ff2b061a42b4587e53.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/669ea19bee75c_BSC_TexturePack_JES_Vol27v2.thumb.jpg.a0824a271ae9f14282b4907f19ef36a9.jpg
   name: jes_ResourcePack_Vol27
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c38055cc_BSC_PropPack_JES_Vol27v2a.thumb.jpg.11d10fe0a4c77c00e440e8b64db95c06.jpg
-  url: https://community.simtropolis.com/files/file/35753-jes_resourcepack_vol27/
+  url: https://community.simtropolis.com/files/file/35753-jes_resourcepack_vol27-v3/
   variants:
     default:
       assets:
@@ -100,7 +192,7 @@ jestarr/jes_resourcepack_vol27:
           include:
             - BSC/BSCTextures
             - BSC/BSCProps
-      version: 1.0.2
+      version: 1.0.3
 
 jestarr/mega-props-vol01:
   authors:
@@ -435,3 +527,34 @@ jestarr/the-moxie-bottling-company:
   warnings:
     - id: bulldoze
       on: disable
+
+jestarr/warehouses-props:
+  authors:
+    - jestarr
+  category: 120
+  description: |-
+    Eight buildings as props rendered in 45 & 90 degrees. One building as a prop rendered at 45 degrees only. There are both SD & HD versions.
+
+    Note: These are props only for use in PIM\-X/LE. There are no lots included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/jes_BuildingProps.thumb.jpg.ceac21acb4eb99855013553598450ecb.jpg
+  name: Warehouses
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/jes_BuildingProps.thumb.jpg.ceac21acb4eb99855013553598450ecb.jpg
+  url: https://community.simtropolis.com/files/file/36320-jes_buildingprops/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Documentation
+          id: simtropolis/36320-jes_buildingprops#201806
+          include:
+            - BSC/BSCProps
+      version: 1.0.0
+    hd:
+      assets:
+        - docs:
+            - Documentation
+          id: simtropolis/36320-jes_buildingprops#201805
+          include:
+            - BSC/BSCProps
+      version: 1.0.0

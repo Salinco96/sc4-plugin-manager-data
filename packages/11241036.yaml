@@ -1,3 +1,129 @@
+11241036/cp-floral-mmp-collection:
+  authors:
+    - "11241036"
+  category: 670
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - lowkee33/seasonal-flora-patch
+  description: >-
+    **Warning! Please take yourself time to read the Readme in order to avoid nasty side effects, such as the double icon bug, and some entries not working the way you want.**
+
+
+    **Dependencies:**
+
+
+    **BSC Common Dependencies Pack Version 8 or higher:**
+    [https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+
+    *In particular, you need the following files: BSC MEGA Props - CP Vol01.dat, BSC Mega Props - CP Vol02.dat*
+
+
+    **Seasonal Flora Patch** (if your terrain mod doesn't support seasonal flora):
+    https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/36-lk33-seasonalflorapatch
+
+
+    **Submenus DLL** (optional): https://community.simtropolis.com/files/file/36142-submenus-dll/
+
+
+    **Other MMP plugins related to CP's content you might be interested in:**
+
+
+    **BSC CP MMPs for CP MEGA Prop Packs:** https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/132-bsc-cp-mmp-for-cp-mega-prop-packs
+
+
+    **Description:**
+
+
+    This plugin contains, as its name already implies, a few plant MMP's derivated from CP's props. Like all other MMP's, they are available in your Mayor Mode menu. There's nothing special to tell
+    about them, and there isn't really a coherent theme they all would be part of, but in my opinion they are a nice addition to the game, and they aren't part of any other upload. Some of them are
+    seasonal, therefore, please read the item descriptions carefully, because some of these seasonal items need to be planted in in-game September, and some in March.
+
+
+    **Note about the adapting MMP's:**
+
+
+    Two of the MMP's are seasonal but come with 4 seasons. Unfortunately, it is not possible yet to make MMP's with 4 rotating seasons (the maximum is 3), thus, I've resorted to a bit of a dirty trick
+    there that, as far as I know, hasn't ever been used by anybody yet: Both of these MMP's (the Cherry and the Plum Tree) have been turned into so-called **adapting MMP's**. That means: They will not
+    change the look over in-game time, but after plopping them in your cities and saving, you can just replace a file to make them look differently (the graphics will adapt automatically). There are 4
+    files per tree, and they have been named accordingly, but please make sure to read the installation instructions below to avoid the double icon bug!
+
+
+    By the way, the cherry and plum tree additionally come with 3 variants with different season cycles, where I simply left out one of the seasons each. Please read the in-game description to know
+    which seasons will be applicable. The flowers also come in both an always flourishing and a seasonal variant. The seasonal variant will be there for 3 months after plopping, and then turn
+    invisible.
+
+
+    **Available languages:** English, German
+
+
+    **Submenu compatibility:**
+
+
+    This upload has been optimized for usage with memo's Submenus DLL mod. This means that users who have installed this mod will find all entries located in their own submenu (in the Mayor Mode menu,
+    where all other MMP's are). Users who haven't installed it will simply find all entries somewhere in the MMP menu. The submenu icon looks like this:
+
+
+    ![SubI_CP.thumb.png.950f4701ce6e4bc288fabd](https://www.simtropolis.com/objects/screens/monthly_2024_07/SubI_CP.thumb.png.950f4701ce6e4bc288fabdb20c4a9504.png)
+
+
+    Please also note that due to the number of entries there are **3 further submenus**: Trees - Seasonal Flowers - Evergreen Flowers. All other entries are located in the default CP Floral MMP's
+    submenu.
+
+
+    **Compatibility:**
+
+
+    This plugin is only compatible with SC4 Deluxe or SC4 with the Rush Hour Expansion Pack.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/Scr_CP.thumb.jpg.f9e9867a177bfea36552fc94ae96f919.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/SubI_CP.thumb.png.950f4701ce6e4bc288fabdb20c4a9504.png
+  name: CP Floral MMP Collection
+  optional:
+    - memo/submenus-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/Scr_CP.thumb.jpg.f9e9867a177bfea36552fc94ae96f919.jpg
+  url: https://community.simtropolis.com/files/file/36339-cp-floral-mmp-collection/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36339-cp-floral-mmp-collection
+          include:
+            - CP Floral MMP Collection_Core Files.dat
+            - path: CP Floral MMP Collection_Submenu.dat
+              condition:
+                submenus: true
+            - path: CP_*_Spring.dat
+              condition:
+                season: spring
+            - path: CP_*_Summer.dat
+              condition:
+                season: summer
+            - path: CP_*_Fall.dat
+              condition:
+                season: fall
+            - path: CP_*_Winter.dat
+              condition:
+                season: winter
+      options:
+        - choices:
+            - label: Spring
+              value: spring
+            - label: Summer
+              value: summer
+            - label: Fall
+              value: fall
+            - label: Winter
+              value: winter
+          description: Season
+          id: season
+          label: Season
+          type: string
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 11241036/modular-plaza-system-mps:
   authors:
     - "11241036"
@@ -12,7 +138,6 @@
     - maxis/maxis-buildings-as-props
     - murimk/bike-props
     - murimk/props-vol02
-    # - TODO: nam/network-addon-mod
     - porkissimo/jenx-porkie-expanded-props
     - ralphaelninja/plugin-landmark-props
     - robdragon/rdg-prop-pack-1
@@ -138,6 +263,18 @@
   optional:
     - memo/submenus-dll
     - rebalynnts/spot-simpeg-plop-orientation-tool
+  options:
+    - choices:
+        - label: Park
+          value: parks
+        - label: Plazas
+          value: plazas
+      description: Choose under which submenu the MPS should appear (requires memo/submenus-dll)
+      id: submenu
+      label: Submenu
+      type: string
+  requirements:
+    nam: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
   url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
   variants:
@@ -151,9 +288,11 @@
             - Seawall Connection Lots.dat
             - z_BSC Diagonal Brick.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: BSC Diagonal Brick
@@ -168,9 +307,11 @@
             - Seawall Connection Lots.dat
             - z_BSC Pink Pavement.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: BSC Pink Pavement
@@ -185,9 +326,11 @@
             - Seawall Connection Lots.dat
             - z_BSC Mediterranean Red Cobblestone.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: BSC Red Cobblestone
@@ -201,9 +344,11 @@
             - MPS Core Files.dat
             - Seawall Connection Lots.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: Maxis White Pavement
@@ -218,9 +363,11 @@
             - Seawall Connection Lots.dat
             - z_Maxis Concrete.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: Maxis Concrete
@@ -235,9 +382,11 @@
             - Seawall Connection Lots.dat
             - z_MTP Red Sandstone.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       dependencies:
@@ -254,9 +403,11 @@
             - Seawall Connection Lots.dat
             - z_NAM Cobblestone.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: NAM Cobblestone
@@ -271,9 +422,11 @@
             - Seawall Connection Lots.dat
             - z_NAM Industrial.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: NAM Industrial
@@ -288,9 +441,11 @@
             - Seawall Connection Lots.dat
             - z_NAM Pink Pavement.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: NAM Pink Pavement
@@ -305,9 +460,11 @@
             - Seawall Connection Lots.dat
             - z_NAM Red Brick.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: NAM Red Brick
@@ -322,9 +479,11 @@
             - Seawall Connection Lots.dat
             - z_NAM Sandstone.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       name: NAM Sandstone
@@ -339,9 +498,11 @@
             - Seawall Connection Lots.dat
             - z_Vortexture Cobblestone 1.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       dependencies:
@@ -359,9 +520,11 @@
             - Seawall Connection Lots.dat
             - z_Vortexture Cobblestone 2.dat
             - condition:
+                submenu: parks
                 submenus: true
               path: MPS_Submenu Park.dat
             - condition:
+                submenu: plazas
                 submenus: true
               path: MPS_Submenu Plazas.dat
       dependencies:
@@ -458,7 +621,6 @@
     - "11241036"
   category: 970
   dependencies:
-    # TODO: NAM
     - 11241036/textures
     - mgb204/texture-pack
     - sfbt/essentials
@@ -545,6 +707,8 @@
     - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e973f61ad2a1_SAM8Override.thumb.jpg.f72e111b8dbddaad3060205663f06a46.jpg
   name: Traffic Blocker Set
+  requirements:
+    nam: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
   url: https://community.simtropolis.com/files/file/28975-traffic-blocker-set/
   variants:
@@ -619,7 +783,15 @@
   variants:
     default:
       assets:
-        - exclude: # TODO: Option to include this
-            - TestLots.dat
-          id: simtropolis/31346-various-lot-foundations-and-retaining-walls
+        - id: simtropolis/31346-various-lot-foundations-and-retaining-walls
+          include:
+            - condition:
+                test-lots: true
+              path: TestLots.dat
+            - LotFoundations.dat
+            - RetainingWalls.dat
+      options:
+        - id: test-lots
+          label: Enable test lots
+          type: boolean
       version: 1.0.0

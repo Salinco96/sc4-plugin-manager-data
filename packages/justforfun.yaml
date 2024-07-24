@@ -1,0 +1,36 @@
+justforfun/crown-union-jack-gardens:
+  authors:
+    - justforfun
+  category: 660
+  dependencies:
+    - aarsgevogelte/heuvelstraat-109-stationsstraat-41-tilburg
+    - dolphin66/mega-props-vol01
+  description: |-
+    A pair of floral arrangements that can be used together or separately to decorate your parks and plazas.
+
+    The Crown measures 6x5 tiles, the Union Jack is made of two rotated 4x5 lots. Both have a monthly maintenance cost of 200 and come with custom query sounds.
+
+    DEPENDENCIES:
+
+    BSC MEGA Props - D66 Vol01 contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+    [AGV Heuvelstraat 109 & Stationsstraat 41](https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/)
+
+    As usual stay tuned for more coming to the STEX!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/668c202f3ba1a_JFFCrown-UJackGardens.thumb.jpg.20b235d64a0736fd9f9ef63f97bfb843.jpg
+  name: Crown & Union Jack Gardens
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/668c202f3ba1a_JFFCrown-UJackGardens.thumb.jpg.20b235d64a0736fd9f9ef63f97bfb843.jpg
+  url: https://community.simtropolis.com/files/file/36332-crown-union-jack-gardens/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFCrown&UnionJackGardens
+          id: simtropolis/36332-crown-union-jack-gardens
+          include:
+            - JFFCrown&UnionJackGardens
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

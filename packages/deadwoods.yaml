@@ -1,16 +1,584 @@
+deadwoods/bsc-dedwd-elrail-shops:
+  authors:
+    - deadwoods
+  category: 310
+  dependencies:
+    - bsc/essentials
+    - deadwoods/mega-props-vol01
+    - deadwoods/mega-props-vol02
+  description: >-
+    Want public transport in your congested cities, but hate giving up valuable realestate to monorail or elevated rail. This set of lots combine elevated rail with commercial services (CS$) providing
+    jobs for your sims in a series of brick arch style shops and workshops. Each is network enabled, so just plop and run the rail over it. The lots feature prop a prop family for the shopfronts, so a
+    different combination will appear each time one of them is plopped.
+
+
+    This package contains four plopable lots; one 3 tiles wide (in the direction of the rail), one four tiles wide, one five tiles wide and one six tiles wide. All the lots are one tile deep, so you
+    could have parallel rail lines running. Because the lots are network enabled they cannot be joined end-to-end; there must be a one tile gap (perhaps for a road). They are also very gradient
+    sensitive. If you want to join a string of them together you should level the area first.
+
+
+    These lots are not the same as simrolle's sbahhoff lots. His are are plopped on either side of a rail line (or elevated road) with the rail running down the middle. These are single lots that
+    include the relevant rail. His are three tiles deep whereas these are one tile deep. His have special lots to include roads/avenues. These do not.
+
+
+    These lots are BSC BTE enabled. This means they will contribute to reward chains. Having enough of these in your city may entitle you to specific rewards.
+
+
+    * * *
+
+
+    This is Version 3 (v103). All the lots have been updated with SC4PIM-X (x-tool), some underlying issues have been fixed and the contents have got the "Project ZIP" threatment. The IDs remained the
+    same in this pack.
+
+
+    This v103 version (released as an update on STEX) will be equivalent with the version that is/will be released on SC4Evermore as part of the SC4D LEX Legacy compilations.
+
+
+    In all cases players who has previous versions installed of these lots are required to bulldoze these lots in their cities and remove them from their plugins folder before installing this update.
+    For removing old versions you need to run the included cleanitol scrip with the [nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or with the [BSC
+    Cleanitol TM](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool.
+
+
+    ## Lot Specs
+
+
+    STAGE:N/ALOT_SIZE:3 x 1, 4 x 1, 5 x 1, 6 x 1TYPE:ServicesPOLLUTION_EFFECT:Air = 2 (3x), 4 (4x), 6 (5x), 7 (6x)
+
+
+    Water = 1 (3x), 2 (4x), 3 (5x), 3 (6x)
+
+
+    Garbage = 8 (3x), 13 (4x), 18 (5x), 22 (6x)
+
+
+    Radiation = 0POLLUTION_RADII:Air = 5, Water = 5, Garbage = 0, Radiation = 0OCCUPANT_GROUPS:
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | 0x1003 | Building: Transportation |
+
+    | 0x1303 | Building: El Train |
+
+    | 0x130A | Building: MiscTransit |
+
+    | 0x13110 | Building: CS$ |
+
+    | 0xB5C00A08 | 0xB5C00A08 |
+
+    | 0xB5C00200 | 0xB5C00200 |
+
+    | 0xB5C00202 | 0xB5C00202 |
+
+
+    POWER_CONSUMED:6 (3x), 9 (4x), 13 (5x), 15 (6x)WATER_CONSUMED:61 (3x), 90 (4x), 127 (5x), 150 (6x)BULLDOZE_COST:192PLOP_COST:90 (3x), 120 (4x), 200 (5x), 300 (6x)WORTH:192CAPACITY_SATISFIED
+    (JOBS):
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | CS$ commerce | 116 (3x), 156 (4x), 177 (5x), 259 (6x) |
+
+
+    DEMAND_SATISFIED:
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Amenities $ | 116 (3x), 156 (4x), 177 (5x), 259 (6x) |
+
+
+    INCOME:0COST:10 (3x), 12 (4x), 15 (5x), 20 (6x)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/d6c34a2e472e9bd5c35c4ac79388f67c-DEDWD_ElRailShops_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/d6c34a2e472e9bd5c35c4ac79388f67c-DEDWD_ElRailShops_stexpic2.jpg
+  name: BSC DEDWD ElRail Shops
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_07_2005/thumb-d6c34a2e472e9bd5c35c4ac79388f67c-DEDWD_ElRailShops_stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/12913-bsc-dedwd-elrail-shops/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/Deadwoods
+          id: simtropolis/12913-bsc-dedwd-elrail-shops
+          include:
+            - deadwoods/Under Rail Shops
+      version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/bsc-dedwd-monorail-shops:
+  authors:
+    - deadwoods
+  category: 310
+  dependencies:
+    - bsc/essentials
+    - deadwoods/mega-props-vol01
+    - deadwoods/mega-props-vol02
+  description: >-
+    Want public transport in your congested cities, but hate giving up valuable realestate to monorail or elevated rail. This set of lots combine monorail with commercial services (CS$) providing jobs
+    for your sims in a series of brick arch style shops and workshops. Each is network enabled, so just plop and run the rail over it. The lots feature prop a prop family for the shopfronts, so a
+    different combination will appear each time one of them is plopped.
+
+
+    This package contains four plopable lots; one 3 tiles wide (in the direction of the rail), one four tiles wide, one five tiles wide and one six tiles wide. All the lots are one tile deep, so you
+    could have parallel rail lines running. Because the lots are network enabled they cannot be joined end-to-end; there must be a one tile gap (perhaps for a road). They are also very gradient
+    sensitive. If you want to join a string of them together you should level the area first.
+
+
+    These lots are not the same as simrolle's sbahhoff lots. His are plopped on either side of a rail line (or elevated road) with the rail running down the middle. These are single lots that include
+    the relevant rail. His are three tiles deep whereas these are one tile deep. His have special lots to include roads/avenues. These do not.
+
+
+    These lots are BSC BTE enabled. This means they will contribute to reward chains. Having enough of these in your city may entitle you to specific rewards.
+
+
+    * * *
+
+
+    This is Version 3 (v103). All the lots have been updated with SC4PIM-X (x-tool), some underlying issues have been fixed and the contents have got the "Project ZIP" threatment. The IDs remained the
+    same in this pack.
+
+
+    This v103 version (released as an update on STEX) will be equivalent with the version that is/will be released on SC4Evermore as part of the SC4D LEX Legacy compilations.
+
+
+    In all cases players who has previous versions installed of these lots are required to bulldoze these lots in their cities and remove them from their plugins folder before installing this update.
+    For removing old versions you need to run the included cleanitol scrip with the **[nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or with the **[BSC
+    Cleanitol TM](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)** tool.
+
+
+    ## Lot Specs
+
+
+    STAGE:N/ALOT_SIZE:3 x 1, 4 x 1, 5 x 1, 6 x 1TYPE:ServicesPOLLUTION_EFFECT:Air = 2 (3x), 4 (4x), 6 (5x), 7 (6x)
+
+
+    Water = 1 (3x), 2 (4x), 3 (5x), 3 (6x)
+
+
+    Garbage = 8 (3x), 13 (4x), 18 (5x), 22 (6x)
+
+
+    Radiation = 0POLLUTION_RADII:Air = 5, Water = 5, Garbage = 0, Radiation = 0OCCUPANT_GROUPS:
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | 0x1003 | Building: Transportation |
+
+    | 0x1300 | Building: Rail |
+
+    | 0x1307 | Building: MonoRail |
+
+    | 0x13110 | Building: CS$ |
+
+    | 0xB5C00A08 | 0xB5C00A08 |
+
+    | 0xB5C00200 | 0xB5C00200 |
+
+    | 0xB5C00202 | 0xB5C00202 |
+
+
+    POWER_CONSUMED:6 (3x), 9 (4x), 13 (5x), 15 (6x)WATER_CONSUMED:61 (3x), 90 (4x), 127 (5x), 150 (6x)BULLDOZE_COST:192PLOP_COST:90 (3x), 120 (4x), 200 (5x), 300 (6x)WORTH:192CAPACITY_SATISFIED
+    (JOBS):
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | CS$ commerce | 116 (3x), 156 (4x), 177 (5x), 259 (6x) |
+
+
+    DEMAND_SATISFIED:
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Amenities $ | 116 (3x), 156 (4x), 177 (5x), 259 (6x) |
+
+
+    INCOME:0COST:10 (3x), 12 (4x), 15 (5x), 20 (6x)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/1deca5e4e9d5f67206ebd678dfb789cc-DEDWD_MonorailShops_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/1deca5e4e9d5f67206ebd678dfb789cc-DEDWD_MonorailShops_stexpic2.jpg
+  name: BSC DEDWD Monorail Shops
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_07_2005/thumb-1deca5e4e9d5f67206ebd678dfb789cc-DEDWD_MonorailShops_stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/12914-bsc-dedwd-monorail-shops/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/Deadwoods
+          id: simtropolis/12914-bsc-dedwd-monorail-shops
+          include:
+            - deadwoods/Under Rail Shops
+      version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/bsc-dedwd-small-shops-1x1-set:
+  authors:
+    - deadwoods
+  category: 300
+  dependencies:
+    - bsc/essentials
+    - deadwoods/mega-props-vol02
+  description: >-
+    This package contains a set of small shops on 1x1 lots. I noticed a distinct lack of unique buildings in this space provided by Maxis (Simgoober has created some great 1x1 lots). The buildings on
+    these lots are based on brick shops found in many of the older (early 20th Century) suburbs in Australia. However the style is very common and can be found in many places worldwide. I've seen
+    shops like these in small towns in the USA.
+
+
+    There are two buildings in this set; a single storey one and a double storey one. Each one has different roof and plumbing texture combinations, so there are actually a dozen models. The buildings
+    are in building families so they appear randomly. The shopfronts are provided by the shop front props in the ~~DEDWD_SmallShops_Props pack~~ **[BSC MEGA Props DEDWD/DAE
+    Vol02](https://community.simtropolis.com/files/file/13153-bsc-mega-props-dae-vol02/).** With the combination of building models and storefront props there are about 800 possible combinations
+    providing a bit of variety to your cities.
+
+
+    There are also CS$ and CS$$ varieties of each. So there are four lots in all.
+
+
+    These lots are BSC BTE enabled. This means they will contribute to reward chains. Having enough of these in your city may entitle you to specific rewards.
+
+
+    * * *
+
+
+    This is Version 3 (v103). All the lots have been updated with SC4PIM-X (x-tool), some underlying issues have been fixed and the contents have got the "Project ZIP" threatment. The IDs remained the
+    same in this pack.
+
+
+    This v103 version (released as an update on STEX) will be equivalent with the version that is/will be released on SC4Evermore as part of the SC4D LEX Legacy compilations.
+
+
+    In all cases players who have previous versions installed of these lots are required to bulldoze these lots in their cities and remove them from their plugins folder before installing this update.
+    For removing old versions you need to run the included cleanitol scrip with the **[nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or with the **[BSC
+    Cleanitol TM](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)** tool.
+
+
+    ## Lot Specs
+
+
+    |     |     |     |     |     |
+
+    | --- | --- | --- | --- | --- |
+
+    | Setting | CS1 | CS1 | CS2 | CS2 |
+
+    |     | Single | Double | Single | Double |
+
+    | STAGE: | 2   | 3   | 2   | 2   |
+
+    | LOT_SIZE: | 1x1 | 1x1 | 1x1 | 1x1 |
+
+    | TYPE: | Services | "   | "   | "   |
+
+    | POLLUTION_EFFECT: | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 |
+
+    | POLLUTION_RADII: | 5,5,0,0, | 5,5,0,0, | 5,5,0,0, | 5,5,0,0, |
+
+    | OCCUPANT_GROUPS: | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 |
+
+    | POWER_CONSUMED: | 1   | 1   | 1   | 1   |
+
+    | WATER_CONSUMED: | 7   | 10  | 10  | 13  |
+
+    | BULLDOZE_COST: | 120 | 170 | 122 | 174 |
+
+    | WORTH: | 120 | 170 | 122 | 174 |
+
+    | CAPACITY_SATISFIED (JOBS): | CS$: 26 | CS$: 40 | CS$: 26<br><br>CS$$: 9 | CS$: 40<br><br>CS$$: 12 |
+
+    | VALUE: | 199 | 306 | 223 | 343 |
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/149344fed48b75345316e8a9c921ee91-DEDWD_SmallShops_1x1_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/149344fed48b75345316e8a9c921ee91-DEDWD_SmallShops_1x1_stexpic2.jpg
+  name: BSC DEDWD Small Shops 1x1 Set
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_07_2005/thumb-149344fed48b75345316e8a9c921ee91-DEDWD_SmallShops_1x1_stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/13168-bsc-dedwd-small-shops-1x1-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/Deadwoods
+          id: simtropolis/13168-bsc-dedwd-small-shops-1x1-set
+          include:
+            - deadwoods/Small Shops
+      requirements:
+        darknite: false # TODO: Check
+      version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/bsc-dedwd-small-shops-1x2-set:
+  authors:
+    - deadwoods
+  category: 300
+  dependencies:
+    - bsc/essentials
+    - deadwoods/mega-props-vol02
+  description: >-
+    This package contains a set of small shops on 1x2 lots. These are modifications of my 1x1 series buildings, so have the same look and textures. They also use the same shopfronts as the 1x1's. The
+    buildings on these lots are based on brick shops found in many of the older (early 20th Century) suburbs in Australia. However the style is very common and can be found in many places worldwide.
+    I've seen shops like these in small towns in the USA.
+
+
+    There are two buildings in this set; a single storey one and a double storey one. Each one has different roof and plumbing texture combinations, so there are actually a dozen models. The buildings
+    are in building families so they appear randomly. The shopfronts are provided by the shop front props in the ~~DEDWD_SmallShops_Props pack~~ **[BSC MEGA Props DEDWD/DAE
+    Vol02](https://community.simtropolis.com/files/file/13153-bsc-mega-props-dae-vol02/)**. With the combination of building models and storefront props there are about 800 possible combinations
+    providing a bit of variety to your cities.
+
+
+    There are also CS$ and CS$$ varieties of each. So there are four lots in all.
+
+
+    These lots are BSC BTE enabled. This means they will contribute to reward chains. Having enough of these in your city may entitle you to specific rewards.
+
+
+    * * *
+
+
+    This is Version 3 (v103). All the lots have been updated with SC4PIM-X (x-tool), some underlying issues have been fixed and the contents have got the "Project ZIP" threatment. The IDs remained the
+    same in this pack.
+
+
+    This v103 version (released as an update on STEX) will be equivalent with the version that is/will be released on SC4Evermore as part of the SC4D LEX Legacy compilations.
+
+
+    In all cases players who has previous versions installed of these lots are required to bulldoze these lots in their cities and remove them from their plugins folder before installing this update.
+    For removing old versions you need to run the included cleanitol scrip with the **[nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or with the **[BSC
+    Cleanitol TM](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)** tool.
+
+
+    ## Lot Specs
+
+
+    |     |     |     |     |     |
+
+    | --- | --- | --- | --- | --- |
+
+    | Setting | CS1 | CS1 | CS2 | CS2 |
+
+    |     | Single | Double | Single | Double |
+
+    | STAGE: | 2   | 3   | 2   | 2   |
+
+    | LOT_SIZE: | 1x2 | 1x2 | 1x2 | 1x2 |
+
+    | TYPE: | Services | "   | "   | "   |
+
+    | POLLUTION_EFFECT: | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 |
+
+    | POLLUTION_RADII: | 5,5,0,0, | 5,5,0,0, | 5,6,0,0, | 5,6,0,0, |
+
+    | OCCUPANT_GROUPS: | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 |
+
+    | POWER_CONSUMED: | 1   | 2   | 1   | 2   |
+
+    | WATER_CONSUMED: | 10  | 13  | 14  | 17  |
+
+    | BULLDOZE_COST: | 122 | 170 | 125 | 174 |
+
+    | WORTH: | 122 | 170 | 125 | 174 |
+
+    | CAPACITY_SATISFIED (JOBS): | CS$: 42 | CS$: 58 | CS$: 42<br><br>CS$$: 13 | CS$: 58<br><br>CS$$: 17 |
+
+    | VALUE: | 321 | 444 | 360 | 497 |
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/56abd0cb52e5dcb78bc231ba8edb4471-DEDWD_SmallShops_1x2_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_07_2005/56abd0cb52e5dcb78bc231ba8edb4471-DEDWD_SmallShops_1x2_stexpic2.jpg
+  name: BSC DEDWD Small Shops 1x2 Set
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_07_2005/thumb-56abd0cb52e5dcb78bc231ba8edb4471-DEDWD_SmallShops_1x2_stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/13169-bsc-dedwd-small-shops-1x2-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/Deadwoods
+          id: simtropolis/13169-bsc-dedwd-small-shops-1x2-set
+          include:
+            - deadwoods/Small Shops
+      requirements:
+        darknite: false # TODO: Check
+      version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/bsc-dedwd-small-shops-flat-roof-versions-set:
+  authors:
+    - deadwoods
+  category: 300
+  dependencies:
+    - bsc/essentials
+    - deadwoods/mega-props-vol02
+  description: >-
+    This package contains a set of small shops on 1x1 and 1x2 lots. After the first set of Small Shops, I had a request for a flat roofed set (as is more common in the US). So here they are. There are
+    five buildings in this set; two single storey and three double storey one. The shopfronts are provided by the shop front props in the ~~DEDWD_SmallShops_Props pack~~ **[BSC MEGA Props DEDWD/DAE
+    Vol02](https://community.simtropolis.com/files/file/13153-bsc-mega-props-dae-vol02/)**. With the combination of building models and storefront props there are hundreds of possible combinations
+    providing a bit of variety to your cities. You can use these lots in conjunction with the other sets of Small Shops (the 1x1 and 1x2 sets).
+
+
+    There are also CS$ and CS$$ varieties of each. So there are eight lots in all (~~these are the same lots as the other sets~~**\*\*** I've just added some more buildings to the same building
+    families).
+
+
+    These lots are BSC BTE enabled. This means they will contribute to reward chains. Having enough of these in your city may entitle you to specific rewards.
+
+
+    This is Version 3 (v103). All the lots have been updated with SC4PIM-X (x-tool), some underlying issues have been fixed and the contents have got the "Project ZIP" threatment.
+
+
+    **\*\*The Instance IDs for the lots have been changed in this set**, because they shared the same IDs as the other two DEDWD Small Shops Sets. This update therefore brings 8 unique lot files that
+    can be used with or without the other two sets.
+
+
+    This v103 version (released as an update on STEX) will be equivalent with the version that is/will be released on SC4Evermore as part of the SC4D LEX Legacy compilations.
+
+
+    In all cases players who has previous versions installed of these lots are required to bulldoze these lots in their cities and remove them from their plugins folder before installing this update.
+    For removing old versions you need to run the included cleanitol scrip with the **[nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or with the **[BSC
+    Cleanitol TM](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)** tool.
+
+
+    ## Lot Specs
+
+
+    **1x1 Lots**
+
+
+    |     |     |     |     |     |
+
+    | --- | --- | --- | --- | --- |
+
+    | Setting | CS1 | CS1 | CS2 | CS2 |
+
+    |     | Single | Double | Single | Double |
+
+    | STAGE: | 2   | 3   | 2   | 2   |
+
+    | LOT_SIZE: | 1x1 | 1x1 | 1x1 | 1x1 |
+
+    | TYPE: | Services | "   | "   | "   |
+
+    | POLLUTION_EFFECT: | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 |
+
+    | POLLUTION_RADII: | 5,5,0,0, | 5,5,0,0, | 5,5,0,0, | 5,5,0,0, |
+
+    | OCCUPANT_GROUPS: | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 |
+
+    | POWER_CONSUMED: | 1   | 1   | 1   | 1   |
+
+    | WATER_CONSUMED: | 7   | 10  | 10  | 13  |
+
+    | BULLDOZE_COST: | 120 | 170 | 122 | 174 |
+
+    | WORTH: | 120 | 170 | 122 | 174 |
+
+    | CAPACITY_SATISFIED (JOBS): | CS$: 26 | CS$: 40 | CS$: 26<br><br>CS$$: 9 | CS$: 40<br><br>CS$$: 12 |
+
+    | VALUE: | 199 | 306 | 223 | 343 |
+
+
+    **1x2 Lots**
+
+
+    |     |     |     |     |     |
+
+    | --- | --- | --- | --- | --- |
+
+    | Setting | CS1 | CS1 | CS2 | CS2 |
+
+    |     | Single | Double | Single | Double |
+
+    | STAGE: | 2   | 3   | 2   | 2   |
+
+    | LOT_SIZE: | 1x2 | 1x2 | 1x2 | 1x2 |
+
+    | TYPE: | Services | "   | "   | "   |
+
+    | POLLUTION_EFFECT: | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 | 1,1,4,0 |
+
+    | POLLUTION_RADII: | 5,5,0,0, | 5,5,0,0, | 5,6,0,0, | 5,6,0,0, |
+
+    | OCCUPANT_GROUPS: | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 | Building: Commercial<br><br>Building: CS$$<br><br>Style: Chicago<br><br>Style: New York<br><br>Style: Houston<br><br>Style:
+    Euro<br><br>0xB5C00200<br><br>0xB5C00204<br><br>0xB5C00A08 |
+
+    | POWER_CONSUMED: | 1   | 2   | 1   | 2   |
+
+    | WATER_CONSUMED: | 10  | 13  | 14  | 17  |
+
+    | BULLDOZE_COST: | 122 | 170 | 125 | 174 |
+
+    | WORTH: | 122 | 170 | 125 | 174 |
+
+    | CAPACITY_SATISFIED (JOBS): | CS$: 42 | CS$: 58 | CS$: 42<br><br>CS$$: 13 | CS$: 58<br><br>CS$$: 17 |
+
+    | VALUE: | 321 | 444 | 360 | 497 |
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2005/8e4347acef8947590713acc357d3adde-DEDWD_SmallShops_FlatRoof_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2005/8e4347acef8947590713acc357d3adde-DEDWD_SmallShops_FlatRoof_stexpic2.jpg
+  name: BSC DEDWD Small Shops Flat Roof Versions Set
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_08_2005/thumb-8e4347acef8947590713acc357d3adde-DEDWD_SmallShops_FlatRoof_stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/13396-bsc-dedwd-small-shops-flat-roof-versions-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/Deadwoods
+          id: simtropolis/13396-bsc-dedwd-small-shops-flat-roof-versions-set
+          include:
+            - deadwoods/Small Shops
+      requirements:
+        darknite: false # TODO: Check
+      version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
 deadwoods/mega-props-vol01:
   authors:
     - deadwoods
   category: 120
-  name: "BSC MEGA Props DAE Vol01"
+  name: BSC MEGA Props DAE Vol01
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - DEDWD vol01*
           docs:
             - ~Documents/BSC_Readmes/Deadwoods
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - DAE Vol01*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -20,15 +588,15 @@ deadwoods/mega-props-vol02:
   authors:
     - deadwoods
   category: 120
-  name: "BSC MEGA Props DAE Vol02"
+  name: BSC MEGA Props DAE Vol02
   variants:
     default:
       assets:
-        - id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-          cleanitol:
+        - cleanitol:
             - Cleanitol_BSC MEGA Props - DEDWD vol02*
           docs:
             - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - DAE Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack

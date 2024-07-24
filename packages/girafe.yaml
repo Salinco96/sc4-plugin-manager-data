@@ -8,66 +8,41 @@ girafe/4-rue-des-lilas:
     - cycledogg/textures-vol01
     - girafe/carpack
     - girafe/flora-pack # Narcissus, Lindens, Subalpine firs
-  description: >-
+  description: |-
     This package includes day, maxisnite and darknite version of 4 rue des Lilas.
-
 
     For LOTters, the LOT is available in Lot Editor, under the name: R$$2_2x2_Grfe_4_rue_des_Lilas.
 
-
     This package includes few props:
-
 
     - Grfe_barbecue
 
-
     - Grfe_mailbox
-
 
     - Grfe_stone_small_wall_8x2
 
-
     Special thanks to **VIP / SC4 devotion members for their support**.
-
 
     ### LOT Details and information
 
-
     |     |     |
-
     | --- | --- |
-
     | LOT size | (R$$) 2x2 |
-
     | Building style | Building: residential, R$$, Style: Euro |
-
     | Growth stages | 2,  |
-
     | Capacity stages | R$: 24; R$$: 15 |
-
     | Buldoze cost | 147$ |
-
     | Worth | 147 |
-
     | Max. Fire stage | 2   |
-
     | Flammability | 40  |
-
     | Power consumption | 1   |
-
     | Water consumption | 2   |
-
     | Air pollution | 1   |
-
     | Water pollution | 1   |
-
     | Garbage pollution | 4   |
-
     | Construction time | 14  |
 
-
     ### Dependencies:
-
 
     - [SC4D LEX Legacy - BSC Common Dependencies v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (or above)
         - BSC Essentials
@@ -77,14 +52,12 @@ girafe/4-rue-des-lilas:
 
     - - BSC TexturePack Cycledogg V01b
 
-
     - [SC4D LEX Legacy - BSC VIP Girafe Flora Pack V3](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
         - BSC-VIP Girafe Narcissus
         - BSC-VIP Girafe Lindens
         - BSC-VIP Girafe Subalpine firs
 
     - [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - if you are using the DN (Dark Night/True Night) models
-
 
     Note: run 1 year before timed props work correctly.
   images:
@@ -124,6 +97,38 @@ girafe/4-rue-des-lilas:
     - id: bulldoze
       on: disable
 
+girafe/french-road-signs:
+  authors:
+    - Girafe
+  category: 120
+  dependencies:
+    - simfox/simfox-day-and-nite-modd
+  description: >-
+    This is a props pack that regroup 130 french road signs in 90° degree version.
+
+
+    For LOTters, these props are available in Lot Editor Ptops Section's, under the name: **SignFR...**
+
+
+    Special thanks to **BSC** **/ TSC Members**.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Sans titre.jpg
+  name: BSC-TSC Girafe French Road Signs
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/214-bsc-tsc-girafe-french-road-signs
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          id: sc4evermore/214-bsc-tsc-girafe-french-road-signs
+          include:
+            - BSC/BSCProps/Grfe_Props
+      requirements:
+        darknite: true
+      version: 1.0.0
+
 girafe/carpack:
   authors:
     - Girafe
@@ -149,45 +154,28 @@ girafe/cb21-tower:
     - Girafe
     - Orange
   category: 330
-  description: >-
+  description: |-
     This package includes darknite and maxis night version of the CB21 Tower located in La Defense in Paris, France.
-
 
     For LOTters, these LOTs are available in Lot Editor, under the name: **PLOP_5x4_CB21_Tower.**
 
-
     Special thanks to Orange for modding, **BSC** **/ Simtropolis Members**...
-
 
     ### LOT Details and information:
 
-
     |     |     |
-
     | --- | --- |
-
     | Lot size: | 5x4 |
-
     | Menu position: | Building: Landmark CO$$$ |
-
     | Jobs: | CO$$ 7204 CO$$$ 5039 |
-
     | Plop cost: | § 32.578 |
-
     | Bulldoze cost: | § 2083 |
-
     | Monthly cost: | \-  |
-
     | Max fire stages: | 5   |
-
     | Power consumption: | 169 |
-
     | Water consumption: | 1815 |
-
     | Air pollution: | 25/6 |
-
     | Water pollution: | 25/7 |
-
     | Garbage pollution: | 10  |
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_1.jpg
@@ -238,72 +226,45 @@ girafe/chalet-edelweiss:
     - cycledogg/mega-props-vol02
     - cycledogg/textures-vol01
     - girafe/flora-pack # Subalpine firs
-  description: >-
+  description: |-
     This package includes darknite / maxisnite growable version of the Chalet Edelweiss.
-
 
     For LOTters, the LOT is available in Lot Editor, under the name: **CS$$2_4x4_Grfe_Edelweis.**
 
-
     Special thanks to **Mattb325** for the modding and lotting, TSC **/ Simtropolis / SC4 devotion members** for their support.
-
 
     ### LOT Details and information
 
-
     |     |     |
-
     | --- | --- |
-
     | Lot size: | 4x4 |
-
     | Building style: | Building: commercial, building CS$$, Style: Euro |
-
     | Growth stages: | 2   |
-
     | Capacity satisfied: | CS$: 342, C$$: 88 |
-
     | Bulldoze cost: | 229$ |
-
     | Worth: | 229 |
-
     | Max. Fire stage: | 3   |
-
     | Flammability: | 40  |
-
     | Power consumption: | 7   |
-
     | Water consumption: | 86  |
-
     | Air pollution: | 3   |
-
     | Water pollution: | 2   |
-
     | Garbage pollution: | 4   |
-
     | Construction time: | 22  |
-
 
     ### Dependencies:
 
-
     [SC4D LEX Legacy - BSC Common Dependencies v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
 
     BSC Essentials
 
-
     BSC MEGA Props CP Vol01
-
 
     BSC MEGA Props CP Vol02
 
-
     BSC TexturePack Cycledogg V01b
 
-
     [SC4D LEX Legacy - BSC VIP Girafe Flora Pack V3](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
-
 
     BSC-VIP Girafe Subalpine firs
   images:
@@ -349,43 +310,27 @@ girafe/edf-tower:
     - Jmyers2043
     - Mattb325
   category: 330
-  description: >-
+  description: |-
     This package includes maxisnite and darknite versions of the EDF Tower located in La Défense in Paris, France.
-
 
     For LOTters, these LOTs are available in Lot Editor, under the name: **PLOP_6x3_EDF_Tower.**
 
-
     Special thanks to Jmyers2043 & Mattb325 for modding, **BSC** **/ Simtropolis Members**...
-
 
     ### LOT Details and information:
 
-
     |     |     |
-
     | --- | --- |
-
     | Lot size: | 6x3 |
-
     | Menu position: | Building: Landmark CO$$$ |
-
     | Jobs: | CO$$ 5285 CO$$$ 3697 |
-
     | Plop cost: | § 26322 |
-
     | Bulldoze cost: | § 1683 |
-
     | Max fire stages: | 5   |
-
     | Power consumption: | 144 |
-
     | Water consumption: | 1557 |
-
     | Air pollution: | 21  |
-
     | Water pollution: | 21  |
-
     | Garbage pollution: | 8   |
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_1.jpg
@@ -453,7 +398,8 @@ girafe/flora-pack:
     Complete pack of Girafe Flora, including props and mayor-mode ploppables (MMPs).
 
 
-    - Requires [Seasonal Flora Patch](/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch) in order for Seasonal Mayor-Mode Ploppables (MMPs) to work.
+    - Requires [Seasonal Flora Patch](https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch) in order for Seasonal Mayor-Mode
+    Ploppables (MMPs) to work.
 
     - Updated to Version 2 on 4 September 2023 (fixed file encoding issue preventing Canary Date Palms from being DatPacked, moved \_Documents folder out of installer)
 
@@ -627,54 +573,33 @@ girafe/villa-libeskind:
     - girafe/carpack
     - girafe/flora-pack # Common Spruce, Honey Locust
     - girafe/hedges
-  description: >-
+  description: |-
     This package includes day, maxisnite and darknite version of villa Libeskind.
-
 
     For LOTters, the LOT is available in Lot Editor, under the name: R$$$4_3x2_Grfe_villa_Libeskind.
 
-
     Special thanks to **Orange, Simfox, Badsim, Carl and all BSC members**.
-
 
     ### LOT Details and information:
 
-
     |     |     |
-
     | --- | --- |
-
     | LOT size | (R$$$) 3x2 |
-
     | Building style | Building: residential, R$$$, Style: Euro |
-
     | Growth stages | 4   |
-
     | Capacity stages | R$: 81; R$$: 46 ; R$$$: 22 |
-
     | Buldoze cost | 143$ |
-
     | Worth | 143 |
-
     | Max. Fire stage | 3   |
-
     | Flammability | 35  |
-
     | Power consumption | 3   |
-
     | Water consumption | 7   |
-
     | Air pollution | 1   |
-
     | Water pollution | 1   |
-
     | Garbage pollution | 4   |
-
     | Construction time | 14  |
 
-
     ### Dependencies:
-
 
     - [SC4D LEX Legacy - BSC Common Dependencies v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (or above)
         - BSC Essentials
@@ -683,7 +608,6 @@ girafe/villa-libeskind:
         - BSC-VIP Girafe Carpack vol03 v2
 
     - - BSC TexturePack Cycledogg V01b
-
 
     - [SC4D LEX Legacy - BSC VIP Girafe Flora Pack V3](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
         - BSC-VIP Girafe Honey Locust

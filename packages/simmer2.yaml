@@ -80,3 +80,76 @@ simmer2/mega-props-vol02:
           include:
             - SM2/Props
       version: 1.0.0
+
+simmer2/mega-props-vol04:
+  authors:
+    - Simmer2
+  category: 120
+  description: |-
+    Another giant prop pack for upcoming projects.
+
+    Dozens of HD props and buildings for you to play with.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de4980fe7a3f_SM2MegaPropPackVol4.thumb.jpg.12341ab21ac53977b52f6951d6853e16.jpg
+  name: SM2 Mega Prop Pack Vol4
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_12/5de4980fe7a3f_SM2MegaPropPackVol4.thumb.jpg.12341ab21ac53977b52f6951d6853e16.jpg
+  url: https://community.simtropolis.com/files/file/33304-sm2-mega-prop-pack-vol4/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33304-sm2-mega-prop-pack-vol4
+          include:
+            - SM2/Props
+      version: 1.0.0
+
+simmer2/sm2-medium-water-treatment-plant:
+  authors:
+    - Simmer2
+  category: 500
+  dependencies:
+    - simmer2/essentials
+    - simmer2/mega-props-vol01
+    - simmer2/mega-props-vol04
+  description: |-
+    Plop 1 or 2 of these plants and watch the water pollution recede.
+
+    Flatten terrain before placing and connect it to the water network.
+
+    Requires power to function.
+
+    Lot size 3X2
+
+    Plop cost 1500
+
+    Bulldoze cost 150
+
+    Power req 9
+
+    Water req 20
+
+    Monthly maintenance cost 50
+
+    **Cleans up to 80,000m3 of water over 50 tiles radius.**
+
+    You will find it under the water menu.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm1.thumb.jpg.3fbaaebb688113fca165bb6f762d3bc9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm2.thumb.jpg.ab5c4351c4f367c49e9b4d053ba80365.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm3.thumb.jpg.49ded876fae675f42a6887032a9dccfc.jpg
+  name: SM2 Medium Water Treatment Plant
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm3.thumb.jpg.49ded876fae675f42a6887032a9dccfc.jpg
+  url: https://community.simtropolis.com/files/file/33238-sm2-medium-water-treatment-plant/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SM2/Documents
+          id: simtropolis/33238-sm2-medium-water-treatment-plant
+          include:
+            - SM2/SM2 Medium Water Treatment Plant
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

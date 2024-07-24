@@ -28,3 +28,45 @@ sander97/rowhouse-9:
   warnings:
     - id: bulldoze
       on: disable
+
+sander97/sport-hall:
+  authors:
+    - sander97
+  category: 600
+  description: This is a sport hall for gymnastic clubs and for elementairy schools to do their gym class. There's a small version on a 3x4 lot and a large on a 4x5 lot. They can be found in the park-menu.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/Gymzalen.thumb.jpg.0a7f85dc2d6fbba8162696500cdbaced.jpg
+  name: Sport hall
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/Gymzalen.thumb.jpg.0a7f85dc2d6fbba8162696500cdbaced.jpg
+  url: https://community.simtropolis.com/files/file/36347-sport-hall/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36347-sport-hall
+          include:
+            - path: Gymzaal groot
+              condition:
+                lots: large
+            - path: Gymzaal
+              condition:
+                lots: small
+      options:
+        - id: lots
+          label: Included lots
+          display: checkbox
+          multi: true
+          type: string
+          default:
+            - small
+            - large
+          choices:
+            - label: Small (3x4)
+              value: small
+            - label: Large (4x5)
+              value: large
+      requirements: # TODO: Check this
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

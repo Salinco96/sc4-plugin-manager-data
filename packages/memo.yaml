@@ -65,4 +65,83 @@ memo/submenus-dll:
     default:
       assets:
         - id: github/memo33/submenus-dll
+          include:
+            - submenu-essentials.dat
+            - path: commercial
+              condition:
+                commercial: true
+            - path: education
+              condition:
+                education: true
+            - path: health
+              condition:
+                health: true
+            - path: industrial
+              condition:
+                industrial: true
+            - path: landmark
+              condition:
+                landmark: true
+            - path: misc-transit
+              condition:
+                transit: true
+            - path: park
+              condition:
+                park: true
+            - path: police
+              condition:
+                police: true
+            - path: power
+              condition:
+                power: true
+            - path: rail
+              condition:
+                transit: true
+            - path: residential
+              condition:
+                residential: true
+            - path: water-transit
+              condition:
+                transit: true
+      options:
+        - id: residential
+          label: Submenus for residential ploppables
+          type: boolean
+          default: true
+        - id: commercial
+          label: Submenus for commercial ploppables
+          type: boolean
+          default: true
+        - id: industrial
+          label: Submenus for industrial ploppables
+          type: boolean
+          default: true
+        - id: police
+          label: Submenus for police stations
+          type: boolean
+          default: true
+        - id: education
+          label: Submenus for schools and libraries
+          type: boolean
+          default: true
+        - id: health
+          label: Submenus for clinics and hospitals
+          type: boolean
+          default: true
+        - id: landmark
+          label: Submenus for landmarks
+          type: boolean
+          default: true
+        - id: park
+          label: Submenus for parks
+          type: boolean
+          default: true
+        - id: transit
+          label: Submenus for transportation
+          type: boolean
+          default: true
+        - id: power
+          label: Submenus for utilities
+          type: boolean
+          default: true
       version: 1.1.3

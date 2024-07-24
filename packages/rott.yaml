@@ -1,0 +1,37 @@
+rott/pacific-supply:
+  authors:
+    - Rott
+  category: 430
+  description: >-
+    A plain old building supply warehouse in a now very run down part of Oakland, California.
+
+
+    Figured we needed more nondescript industrial as fillers so I made this one. Because there isn't really a proper industrial designation for this type of thing we made it an I-M lot but modified
+    the stats to reflect it more accurately of a warehouse found in an industrial area, pollutes way less and uses way less city resources than a typical I-M at the cost of having much less jobs and
+    taking up more space than a typical larger industrial lot would (5 x 3 lot).
+
+
+    Also, this is just the vanilla version, there is a much more decorated prop dependent version I'm working on I will release soon.
+
+
+    Thanks [@sejr99999](https://community.simtropolis.com/profile/279388-sejr99999/) for testing this
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/1.thumb.jpg.59fcdf24134dcf851f5a54d7bdff1792.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/2.thumb.jpg.eefb6fa53247d8169028855bcecd741c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/3.thumb.jpg.1b8fd471a696d459a6d89bad8b1359a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/4.thumb.jpg.b995f78b1e496d3de335637c38166af8.jpg
+  name: Pacific Supply
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/1.thumb.jpg.59fcdf24134dcf851f5a54d7bdff1792.jpg
+  url: https://community.simtropolis.com/files/file/36328-pacific-supply/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36328-pacific-supply
+          include:
+            - Pacific Supply
+      requirements: # TODO: Check
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

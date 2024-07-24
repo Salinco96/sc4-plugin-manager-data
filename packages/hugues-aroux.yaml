@@ -19,4 +19,187 @@ hugues-aroux/scoty-textures-packs:
         - id: simtropolis/36297-scoty-textures-packs
           include:
             - Scoty/scoty_textures
-      version: 1.0.0
+      version: 1.0.1
+
+hugues-aroux/westwind-streets:
+  authors:
+    - hugues aroux
+  category: 970
+  dependencies:
+    - sfbt/street-tree-mod
+  description: >-
+    The WestWind Streets (WWS) is a texture replacement mod for Maxis Streets. It covers all intersections with the various networks present in the NAM (47,48,...). Such as RealRailWay (RRW), Tram
+    (GLR) or the various NWM roads with 3, 4, ... lanes.
+
+
+    It adds a little variety to the street network with 4 types of T and X crossroads (one type for wealth0 ; 1 ; 2-3 ; 4-5-6), plus a set of "countryside" textures (w7) in 2 options versions:
+    unkerbed or gravel-sides. WWStreets also cover the Tram-in-Street (GLR) network and the FLUPS underground tunnels.
+
+
+    A number of segments have been produced in RHD and LHD. A fairly generic LHD, between Oceania and the UK.
+
+
+    Insofar as the network's operating rules allow.
+
+
+    Following the example of RIVIT's Tarseal Street plugin, I offer texture replacement for JRJ Parking Bays - for the SFBT Street Mod plugin (since I use it!) And as a small tribute to RIVIT, an
+    adaptation of its Lot textures.
+
+
+    Of course, the automata paths are adapted accordingly. As well as some LHD and RHD T21s.
+
+
+    **Distribution**
+
+
+    You can download, on this page, the ready-to-play version with Maxis grass textures.
+
+
+    Or you can pick up the WestWindStreets_Fabrik_x ([on my drive](https://1drv.ms/f/s!AlD-_0WBCRHjiyfobnRthZ2S9PHX)) to generate the set with your own grass textures. Using GoFSH (From RIVIT).
+    Production file : *build_WWStreets.txt*
+
+
+    News, preparation for updating this mod ... on [this thread](https://community.simtropolis.com/forums/topic/761614-scotys-small-tinkering/) !
+
+
+    **Installation**
+
+
+    .. As this Mod must be loaded after the NAM, and others... drop the contents of the ZIP: z_\_scoty_mods\\ directly in the Plugins folder : Documents\\SimCity 4\\Plugins\\
+
+
+    .. To be on the safe side, keep the tree structure of the ready-to-play version. And for the Fabrik version, place the contents of \_prod\\ in a directory named: z_\___scoty_mods.
+
+
+    **For all distribution ..**
+
+
+    .. To keep or not to keep the \[WWS - zOptional Cul-de-Sac\] directory: Circular end street. (See screenshots above).
+
+
+    .. If you're an SFBT Street Tree Mod user ([here revised version](https://community.simtropolis.com/files/file/35660-sfbt-street-tree-mod-revised/)), the directory: WWS - JRJ Side Parking bays,
+    contains an overload of this plugin adapted for WWStreets.
+
+
+    .. Delete the WWS - T21s \[LHD|RLHD\]\] directory according to your driving direction.
+
+
+    WWStreets modifies/adapts the positioning of some intersection props (T21). Maxis and NAM. Please ensure that these files are not overloaded by another plugin. Such as Mandelsoft's
+    Stoplights_replacement_mod plugin. The latter can coexist with WWStreets, without any degradation, if it is loaded beforehand.
+
+
+    **In Scoty-WWStreets\\** directory ..
+
+
+    .. discard files that are not for your traffic direction (LHD/RHD) and your region: EU and US (for the moment) - or both, e.g.: EU LHD, ...
+
+
+    .. and choose one of the Rural option : Unkerbed or Gravel sides. (See screenshots above).
+
+
+    .. Keep only the SAM transitions (scoty-WWStreets - z_opt WWS-SAM nnnnn.dat) for which you have installed the plugins (Rivit, MGB, Magneto).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/668aa03dca016_Capturedcran2024-07-07131254.thumb.jpg.abf38ff1a307797cd63719b9a114336b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_various-intersections-1.thumb.jpg.9eb7134097ae1d6dbc474cdf988df42a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_gravel_option.thumb.jpg.94aa46349c6f2d00de3dbfc57d033e90.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_unkerbed_option.thumb.jpg.49b52085e0030f9165cbf2e70d594495.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_SAMs_NAM.thumb.jpg.633d348f408a2798e310a4feb41f84b1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_NWM.thumb.jpg.e7e9ae606858c6b8a10047cfcd4965c3.jpg
+  name: WestWind Streets
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/668aa03dca016_Capturedcran2024-07-07131254.thumb.jpg.abf38ff1a307797cd63719b9a114336b.jpg
+  url: https://community.simtropolis.com/files/file/36330-westwind-streets/
+  variants:
+    default:
+      assets:
+        - docs:
+            - z____scoty_mods
+          id: simtropolis/36330-westwind-streets
+          include:
+            - condition:
+                nam: true
+                rhd: false
+              path: z____scoty_mods/WWS - T21s LHD/*NAM*
+            - condition:
+                nam: true
+                rhd: true
+              path: z____scoty_mods/WWS - T21s RHD/*NAM*
+            - condition:
+                nam: true
+              path: z____scoty_mods/WWS - Paths/*NAM*
+            - condition:
+                nam: true
+              path: z____scoty_mods/WWS - NAM_Supp
+            - condition:
+                rhd: false
+              path: z____scoty_mods/WWS - T21s LHD
+            - condition:
+                rhd: true
+              path: z____scoty_mods/WWS - T21s RHD
+            - condition:
+                culs-de-sacs: true
+              path: z____scoty_mods/WWS - zOptional Cul-de-Sac
+            - condition:
+                rural-textures: unkerbed
+              path: z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Rural Unkerbed.dat
+            - condition:
+                rural-textures: gravel
+              path: z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Rural Gravel sides.dat
+            - condition:
+                road-textures: eu
+              path: z____scoty_mods/Scoty-WWStreets/*EU*
+            - condition:
+                road-textures: us
+              path: z____scoty_mods/Scoty-WWStreets/*US*
+            - condition:
+                rhd: false
+                road-textures: eu
+              path: z____scoty_mods/Scoty-WWStreets/*EU*LHD*
+            - condition:
+                rhd: true
+                road-textures: eu
+              path: z____scoty_mods/Scoty-WWStreets/*EU*RHD*
+            - condition:
+                rhd: false
+                road-textures: us
+              path: z____scoty_mods/Scoty-WWStreets/*US*LHD*
+            - condition:
+                rhd: true
+                road-textures: us
+              path: z____scoty_mods/Scoty-WWStreets/*US*RHD*
+            - condition:
+                rhd: false
+              path: z____scoty_mods/Scoty-WWStreets/*LHD*
+            - condition:
+                rhd: true
+              path: z____scoty_mods/Scoty-WWStreets/*RHD*
+            - z____scoty_mods/*
+            # TODO: Only if necessary?
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM7 MGB bikepaths.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM6 darkned MGB.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM5 RVT TSR Rural.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM4 RVT NZ Gravel.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM2 RVT Grey H-Brick.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM1 Parking Magneto.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - WWS-SAM11 EU.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Street-SAM bases.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - RRWx RHD.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - RRWx LHD.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Rivit Lot Support.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Lots SCILT CULDESAC.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - GLR.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - GLR TIS US.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - GLR TIS EU.dat
+      options:
+        - global: true
+          id: road-textures
+        - choices:
+            - label: Gravel
+              value: gravel
+            - label: Unkerbed
+              value: unkerbed
+          id: rural-textures
+          label: Rural road textures
+          type: string
+        - global: true
+          id: culs-de-sacs
+      version: 1.5.48

@@ -1,0 +1,222 @@
+marcosmx/blam-burger-king:
+  authors:
+    - MarcosMX
+  category: 320
+  dependencies:
+    - bsc/textures-vol01
+    - marcosmx/mx-essentials
+  description: >-
+    As sometines happens, files from the various SimCity 4 sites go missing. When possible and practical, we make attempts to restore those files when found. In all such cases, this is done in good
+    faith for the benefit the author and the community. This particular item has been uploaded here under MarcosMX's account as part of the BLaM team as it had been uploaded on the original location.
+    The files are provided in the same condition that they had been in when they were previously available with one exception. The readme has been replaced with updated information regarding
+    dependencies. Otherwise, the files are presented as is with no other changes made. If anyone has information that would help clarify this upload, or if any issues arise, please contact any staff
+    member.
+
+
+    Burger King (often abbreviated to BK) is a large international chain of fast food restaurants, predominantly selling burgers, french fries, soft drinks, desserts, and various sandwiches. It is
+    headquartered in unincorporated Miami-Dade County, Florida, just outside the city of Miami.
+
+
+    Growable Version: (Ploppable version included)
+
+
+    Lot size: 3 x 3 tiles
+
+
+    Building style(s): Building: Landmark,Building: CS$$,Style: Chicago,Style: New York,Style: Houston,Style: Euro
+
+
+    Growth stage: 4
+
+
+    Occupants: CS-$$
+
+
+    Bulldoze cost: § 120
+
+
+    Max. Fire Stage: 10
+
+
+    Power consumption: 45 MWh/month
+
+
+    Water consumption: 5 Gallons/month
+
+
+    Air pollution: 2 over 2 tiles
+
+
+    Water pollution: 1 over 2 tiles
+
+
+    Garbage pollution: 8 over 0 tiles
+
+
+    Menu position: Landmark Menu
+
+
+    Plop cost: § 2740
+
+
+    Jobs: 24 Cs-$$
+
+
+    This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
+
+
+    Dependencies:
+
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder:
+
+
+    MarcosMX Essentials - [On the STEX](https://community.simtropolis.com/files/file/36346-mx-essentials/)
+
+
+    BSC Texture Mega Pack Vol 1 found in the [BSC Common Dependency Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack).
+
+
+    In order to see the nightlighting, you must install the EP1-Update 1 for Rush Hour/SimCity 4 Deluxe, and then afterwards, install the SC4-Update for nightlighting (note: you have to be logged in
+    in order to see the download link). If this update isn't installed, you won't see any lighting effects on custom BAT buildings.
+
+
+    Reviewed and posted by staff.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/BKD.thumb.JPG.b813e870488262d79f0b7b8827c9fb50.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/BKN.thumb.JPG.b9b8443f02673aaf23740d168ab77360.JPG
+  name: BLaM Burger King
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/BKD.thumb.JPG.b813e870488262d79f0b7b8827c9fb50.JPG
+  url: https://community.simtropolis.com/files/file/36345-blam-burger-king/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36345-blam-burger-king
+      requirements:
+        darknite: false # TODO: Check this
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+marcosmx/blam-mx-passenger-rail-station:
+  authors:
+    - MarcosMX
+  category: 700
+  description: >-
+    As sometines happens, files from the various SimCity 4 sites go missing. When possible and practical, we make attempts to restore those files when found. In all such cases, this is done in good
+    faith for the benefit the author and the community. This particular item has been uploaded here under **MarcosMX**'s account as part of the BLaM team as it had been uploaded on the original
+    location. The station's function and stats *have* been updated to NAM/MTA standards.
+
+
+    **Stats (same as Maxis Passenger Rail Station)**
+
+
+    Lot size: 3 x 4 tiles
+
+
+    Building style(s): Building: Transportation,Building: Rail,Building: Strikable Transit,Building: Taxi_Maker,Building: PassengerRail, Building: Bus Stop
+
+
+    Capacity 70000
+
+
+    Demand Created Jobs-$: 14, Jobs-$$: 5, Jobs-$$$: 0, R $: 14, R-$$: 5, R-$$$: 0
+
+
+    Bulldoze cost: 50
+
+
+    Max. Fire Stage: 37
+
+
+    Power consumption: 4 MWh/month
+
+
+    Water consumption: 13 Gallons/month
+
+
+    Air pollution: 3 over 1 tiles
+
+
+    Water pollution: 2 over 2 tiles
+
+
+    Garbage pollution: 6 over 0 tiles
+
+
+    Plop Cost 650
+
+
+    Menu Position: Rail Menu
+
+
+    This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/PRD.thumb.JPG.c885a3e03b71642c96f386036e3623f3.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/PRNi.thumb.JPG.30ae638c0f2ebfead0d1282179d04d6a.JPG
+  name: BLaM MX Passenger Rail Station
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/PRD.thumb.JPG.c885a3e03b71642c96f386036e3623f3.JPG
+  url: https://community.simtropolis.com/files/file/36344-blam-mx-passenger-rail-station/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/BLaM_Readers/MarcosMX
+          id: simtropolis/36344-blam-mx-passenger-rail-station
+          include:
+            - BLaM/MarcosMX/Passenger Rail Station
+      requirements:
+        darknite: false # TODO: Check this
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+marcosmx/mx-essentials:
+  authors:
+    - MarcosMX
+  category: 100
+  description: >-
+    As sometines happens, files from the various SimCity 4 sites go missing. When possible and practical, we make attempts to restore those files when found. In all such cases, this is done in good
+    faith for the benefit the author and the community. This particular item has been uploaded here under MarcosMX's account as part of the BLaM team as it had been uploaded on the original location.
+    The files are provided in the same condition that they had been in when they were previously available. No changes were made. If anyone has information that would help clarify this upload, or if
+    any issues arise, please contact any staff member.
+
+
+    Includes files that may be dependencies for other content.
+
+
+    MProps Floral Col1 and BlaM MX Props V1 have been combined into this pack.
+
+
+    Included:
+
+
+    - MPropsFloralDAT
+
+
+    - MpropsFloralDAT2
+
+
+    - CustomQuerriesMarcosMX
+
+
+    - MX Props FloraV1
+
+
+    If you have downloaded MProps Floral Col1, make sure you delete that so you won't any problems with using this pack.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/MX.thumb.JPG.bbf99064a7628495652c51d2d4eafd3a.JPG
+  name: MX Essentials
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/MX.thumb.JPG.bbf99064a7628495652c51d2d4eafd3a.JPG
+  url: https://community.simtropolis.com/files/file/36346-mx-essentials/
+  variants:
+    default:
+      assets:
+        - docs:
+            - MarcosMX Essentials
+          id: simtropolis/36346-mx-essentials
+          include:
+            - MarcosMX Essentials
+      version: 1.0.0
