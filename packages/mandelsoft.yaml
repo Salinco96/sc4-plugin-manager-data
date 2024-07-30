@@ -38,16 +38,16 @@ mandelsoft/light-props:
               path: LRMv4_Models_LightCones_MaxisNite.dat
             - LRMv4 Models & Props
       options:
-        - id: be-color
-          label: Belgian Streetlights Color
-          type: string
-          choices:
+        - choices:
             - label: Gray
               value: gray
             - label: Green
               value: green
             - label: White
               value: white
+          id: be-color
+          label: Belgian Streetlights Color
+          type: string
       version: 4.0.0
 
 mandelsoft/light-replacement-mod:
@@ -109,1345 +109,1377 @@ mandelsoft/light-replacement-mod:
       assets:
         - id: simtropolis/27200-light-replacement-mod-lrm-v40-mega-pack#98163
           include:
-            - path: LRMv4_Lights_AVE-2_$_BE_An.dat
-              condition:
+            - condition:
                 $-ave-2: be-an
-            - path: LRMv4_Lights_AVE-2_$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_BE_An.dat
+            - condition:
                 $-ave-2: be-li
-            - path: LRMv4_Lights_AVE-2_$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_BE_Li.dat
+            - condition:
                 $-ave-2: de-bfh
-            - path: LRMv4_Lights_AVE-2_$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_DE_BFH.dat
+            - condition:
                 $-ave-2: de-bfp
-            - path: LRMv4_Lights_AVE-2_$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_DE_BFP.dat
+            - condition:
                 $-ave-2: de-gen-o
-            - path: LRMv4_Lights_AVE-2_$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_DE_Gen_O.dat
+            - condition:
                 $-ave-2: de-gen-w
-            - path: LRMv4_Lights_AVE-2_$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_DE_Gen_W.dat
+            - condition:
                 $-ave-2: de-nr-wf-o
-            - path: LRMv4_Lights_AVE-2_$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_DE_NrWf_O.dat
+            - condition:
                 $-ave-2: de-nr-wf-w
-            - path: LRMv4_Lights_AVE-2_$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_DE_NrWf_W.dat
+            - condition:
                 $-ave-2: im-br
-            - path: LRMv4_Lights_AVE-2_$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_IM_Br.dat
+            - condition:
                 $-ave-2: im-yu
-            - path: LRMv4_Lights_AVE-2_$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_IM_Yu.dat
+            - condition:
                 $-ave-2: lu-gen
-            - path: LRMv4_Lights_AVE-2_$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_LU_Gen.dat
+            - condition:
                 $-ave-2: nfsu-gen-c
-            - path: LRMv4_Lights_AVE-2_$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_NFSU_Gen_C.dat
+            - condition:
                 $-ave-2: nl-gen-cl
-            - path: LRMv4_Lights_AVE-2_$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_NL_Gen_Cl.dat
+            - condition:
                 $-ave-2: nl-gen-md
-            - path: LRMv4_Lights_AVE-2_$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_NL_Gen_Md.dat
+            - condition:
                 $-ave-2: se-got
-            - path: LRMv4_Lights_AVE-2_$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_SE_Got.dat
+            - condition:
                 $-ave-2: uk-gen
-            - path: LRMv4_Lights_AVE-2_$_UK_Lon_Blue.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_UK_Gen.dat
+            - condition:
                 $-ave-2: uk-lon-blue
-            - path: LRMv4_Lights_AVE-2_$_UK_Lon_Green.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_UK_Lon_Blue.dat
+            - condition:
                 $-ave-2: uk-lon-green
-            - path: LRMv4_Lights_AVE-2_$_UK_Lon_Red.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_UK_Lon_Green.dat
+            - condition:
                 $-ave-2: uk-lon-red
-            - path: LRMv4_Lights_AVE-2_$_UK_Lon_Yellow.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_UK_Lon_Red.dat
+            - condition:
                 $-ave-2: uk-lon-yellow
-            - path: LRMv4 Replacement Sets/Override Sets/$-AVE-2/LRMv4_Lights_AVE-2_$_USA_Gen_S.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$_UK_Lon_Yellow.dat
+            - condition:
                 $-ave-2: usa-gen-s
-            - path: LRMv4 Replacement Sets/Override Sets/$-AVE-2/LRMv4_Lights_AVE-2_$_USA_Gen.dat
-              condition:
+              path: LRMv4 Replacement Sets/Override Sets/$-AVE-2/LRMv4_Lights_AVE-2_$_USA_Gen_S.dat
+            - condition:
                 $-ave-2: usa-gen
-            - path: LRMv4 Replacement Sets/Override Sets/$-AVE-2/LRMv4_Lights_AVE-2_$_USA_Man.dat
-              condition:
+              path: LRMv4 Replacement Sets/Override Sets/$-AVE-2/LRMv4_Lights_AVE-2_$_USA_Gen.dat
+            - condition:
                 $-ave-2: usa-man
-            - path: LRMv4_Lights_AVE-2_$$_BE_An.dat
-              condition:
+              path: LRMv4 Replacement Sets/Override Sets/$-AVE-2/LRMv4_Lights_AVE-2_$_USA_Man.dat
+            - condition:
                 $$-ave-2: be-an
-            - path: LRMv4_Lights_AVE-2_$$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_BE_An.dat
+            - condition:
                 $$-ave-2: be-li
-            - path: LRMv4_Lights_AVE-2_$$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_BE_Li.dat
+            - condition:
                 $$-ave-2: de-bfh
-            - path: LRMv4_Lights_AVE-2_$$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_BFH.dat
+            - condition:
                 $$-ave-2: de-bfp
-            - path: LRMv4_Lights_AVE-2_$$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_BFP.dat
+            - condition:
                 $$-ave-2: de-gen-o
-            - path: LRMv4_Lights_AVE-2_$$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_Gen_O.dat
+            - condition:
                 $$-ave-2: de-gen-w
-            - path: LRMv4_Lights_AVE-2_$$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_Gen_W.dat
+            - condition:
                 $$-ave-2: de-hh
-            - path: LRMv4_Lights_AVE-2_$$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_HH.dat
+            - condition:
                 $$-ave-2: de-nr-wf-o
-            - path: LRMv4_Lights_AVE-2_$$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_NrWf_O.dat
+            - condition:
                 $$-ave-2: de-nr-wf-w
-            - path: LRMv4_Lights_AVE-2_$$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_DE_NrWf_W.dat
+            - condition:
                 $$-ave-2: im-br
-            - path: LRMv4_Lights_AVE-2_$$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_IM_Br.dat
+            - condition:
                 $$-ave-2: im-yu
-            - path: LRMv4_Lights_AVE-2_$$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_IM_Yu.dat
+            - condition:
                 $$-ave-2: lu-gen
-            - path: LRMv4_Lights_AVE-2_$$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_LU_Gen.dat
+            - condition:
                 $$-ave-2: nfsu-bh
-            - path: LRMv4_Lights_AVE-2_$$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_NFSU_BH.dat
+            - condition:
                 $$-ave-2: nfsu-gen-c
-            - path: LRMv4_Lights_AVE-2_$$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_NFSU_Gen_C.dat
+            - condition:
                 $$-ave-2: nl-gen-cl
-            - path: LRMv4_Lights_AVE-2_$$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_NL_Gen_Cl.dat
+            - condition:
                 $$-ave-2: nl-gen-md
-            - path: LRMv4_Lights_AVE-2_$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_NL_Gen_Md.dat
+            - condition:
                 $$-ave-2: se-got
-            - path: LRMv4_Lights_AVE-2_$$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_SE_Got.dat
+            - condition:
                 $$-ave-2: uk-gen
-            - path: LRMv4_Lights_AVE-2_$$_UK_Lon_Blue.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_UK_Gen.dat
+            - condition:
                 $$-ave-2: uk-lon-blue
-            - path: LRMv4_Lights_AVE-2_$$_UK_Lon_Green.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_UK_Lon_Blue.dat
+            - condition:
                 $$-ave-2: uk-lon-green
-            - path: LRMv4_Lights_AVE-2_$$_UK_Lon_Red.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_UK_Lon_Green.dat
+            - condition:
                 $$-ave-2: uk-lon-red
-            - path: LRMv4_Lights_AVE-2_$$_UK_Lon_Yellow.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_UK_Lon_Red.dat
+            - condition:
                 $$-ave-2: uk-lon-yellow
-            - path: LRMv4_Lights_AVE-2_$$_USA_Gen_S.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_UK_Lon_Yellow.dat
+            - condition:
                 $$-ave-2: usa-gen-s
-            - path: LRMv4_Lights_AVE-2_$$_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_USA_Gen_S.dat
+            - condition:
                 $$-ave-2: usa-gen
-            - path: LRMv4_Lights_AVE-2_$$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_USA_Gen.dat
+            - condition:
                 $$-ave-2: usa-man
-            - path: LRMv4_Lights_AVE-2_$$$_CXL_Cl.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$_USA_Man.dat
+            - condition:
                 $$$-ave-2: cxl-cl
-            - path: LRMv4_Lights_AVE-2_$$$_CXL_Md.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_CXL_Cl.dat
+            - condition:
                 $$$-ave-2: cxl-md
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_CXL_Md.dat
+            - condition:
                 $$$-ave-2: de-gen-o
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Gen_O.dat
+            - condition:
                 $$$-ave-2: de-gen-w
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Res_Blue.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Gen_W.dat
+            - condition:
                 $$$-ave-2: de-res-blue
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Res_Green.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Res_Blue.dat
+            - condition:
                 $$$-ave-2: de-res-green
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Res_Red.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Res_Green.dat
+            - condition:
                 $$$-ave-2: de-res-red
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Res_Yellow.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Res_Red.dat
+            - condition:
                 $$$-ave-2: de-res-yellow
-            - path: LRMv4_Lights_AVE-2_$$$_DE_Sol.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Res_Yellow.dat
+            - condition:
                 $$$-ave-2: de-sol
-            - path: LRMv4_Lights_AVE-2_$$$_FR_VT2.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_DE_Sol.dat
+            - condition:
                 $$$-ave-2: fr-vt2
-            - path: LRMv4_Lights_AVE-2_$$$_GEN_OT2.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_FR_VT2.dat
+            - condition:
                 $$$-ave-2: gen-ot2
-            - path: LRMv4_Lights_AVE-2_$$$_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_GEN_OT2.dat
+            - condition:
                 $$$-ave-2: uk-park
-            - path: LRMv4_Lights_AVE-2_$$$_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_UK_Park.dat
+            - condition:
                 $$$-ave-2: usa-cbd
-            - path: LRMv4_Lights_AVE-2_$$$_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_USA_CBD.dat
+            - condition:
                 $$$-ave-2: usa-gen
-            - path: LRMv4_Lights_AVE-4_$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_AVE-2_$$$_USA_Gen.dat
+            - condition:
                 $-ave-4: be-an
-            - path: LRMv4_Lights_AVE-4_$_BE_Br.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_BE_An.dat
+            - condition:
                 $-ave-4: be-br
-            - path: LRMv4_Lights_AVE-4_$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_BE_Br.dat
+            - condition:
                 $-ave-4: be-li
-            - path: LRMv4_Lights_AVE-4_$_DE_BAP.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_BE_Li.dat
+            - condition:
                 $-ave-4: de-bap
-            - path: LRMv4_Lights_AVE-4_$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_BAP.dat
+            - condition:
                 $-ave-4: de-bfh
-            - path: LRMv4_Lights_AVE-4_$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_BFH.dat
+            - condition:
                 $-ave-4: de-bfp
-            - path: LRMv4_Lights_AVE-4_$_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_BFP.dat
+            - condition:
                 $-ave-4: de-bla
-            - path: LRMv4_Lights_AVE-4_$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_BLA.dat
+            - condition:
                 $-ave-4: de-hh
-            - path: LRMv4_Lights_AVE-4_$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_HH.dat
+            - condition:
                 $-ave-4: de-nr-wf-o
-            - path: LRMv4_Lights_AVE-4_$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_NrWf_O.dat
+            - condition:
                 $-ave-4: de-nr-wf-w
-            - path: LRMv4_Lights_AVE-4_$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_NrWf_W.dat
+            - condition:
                 $-ave-4: de-sh
-            - path: LRMv4_Lights_AVE-4_$_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_SH.dat
+            - condition:
                 $-ave-4: de-sw-o
-            - path: LRMv4_Lights_AVE-4_$_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_SW_O.dat
+            - condition:
                 $-ave-4: de-sw-w
-            - path: LRMv4_Lights_AVE-4_$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_DE_SW_W.dat
+            - condition:
                 $-ave-4: im-br
-            - path: LRMv4_Lights_AVE-4_$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_IM_Br.dat
+            - condition:
                 $-ave-4: im-yu
-            - path: LRMv4_Lights_AVE-4_$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_IM_Yu.dat
+            - condition:
                 $-ave-4: lu-gen
-            - path: LRMv4_Lights_AVE-4_$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_LU_Gen.dat
+            - condition:
                 $-ave-4: nfsu-gen-c
-            - path: LRMv4_Lights_AVE-4_$_NFSU_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_NFSU_Gen_C.dat
+            - condition:
                 $-ave-4: nfsu-gen-fw
-            - path: LRMv4_Lights_AVE-4_$_NL_Al.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_NFSU_Gen_FW.dat
+            - condition:
                 $-ave-4: nl-al
-            - path: LRMv4_Lights_AVE-4_$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_NL_Al.dat
+            - condition:
                 $-ave-4: nl-gen-cl
-            - path: LRMv4_Lights_AVE-4_$_NL_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_NL_Gen_Cl.dat
+            - condition:
                 $-ave-4: nl-gen-fw
-            - path: LRMv4_Lights_AVE-4_$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_NL_Gen_FW.dat
+            - condition:
                 $-ave-4: nl-gen-md
-            - path: LRMv4_Lights_AVE-4_$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_NL_Gen_Md.dat
+            - condition:
                 $-ave-4: se-gen
-            - path: LRMv4_Lights_AVE-4_$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_SE_Gen.dat
+            - condition:
                 $-ave-4: se-got
-            - path: LRMv4_Lights_AVE-4_$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_SE_Got.dat
+            - condition:
                 $-ave-4: uk-gen
-            - path: LRMv4_Lights_AVE-4_$_UK_In.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_UK_Gen.dat
+            - condition:
                 $-ave-4: uk-in
-            - path: LRMv4_Lights_AVE-4_$_UK_Lon_Blue.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_UK_In.dat
+            - condition:
                 $-ave-4: uk-lon-blue
-            - path: LRMv4_Lights_AVE-4_$_UK_Lon_Green.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_UK_Lon_Blue.dat
+            - condition:
                 $-ave-4: uk-lon-green
-            - path: LRMv4_Lights_AVE-4_$_UK_Lon_Red.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_UK_Lon_Green.dat
+            - condition:
                 $-ave-4: uk-lon-red
-            - path: LRMv4_Lights_AVE-4_$_UK_Lon_Yellow.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_UK_Lon_Red.dat
+            - condition:
                 $-ave-4: uk-lon-yellow
-            - path: LRMv4_Lights_AVE-4_$_USA_Chi.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_UK_Lon_Yellow.dat
+            - condition:
                 $-ave-4: usa-chi
-            - path: LRMv4_Lights_AVE-4_$_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_USA_Chi.dat
+            - condition:
                 $-ave-4: usa-gen
-            - path: LRMv4_Lights_AVE-4_$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_USA_Gen.dat
+            - condition:
                 $-ave-4: usa-man
-            - path: LRMv4_Lights_AVE-4_$_ZM_CR.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_USA_Man.dat
+            - condition:
                 $-ave-4: zm-cr
-            - path: LRMv4_Lights_AVE-4_$$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$_ZM_CR.dat
+            - condition:
                 $$-ave-4: be-an
-            - path: LRMv4_Lights_AVE-4_$$_BE_Br.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_BE_An.dat
+            - condition:
                 $$-ave-4: be-br
-            - path: LRMv4_Lights_AVE-4_$$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_BE_Br.dat
+            - condition:
                 $$-ave-4: be-li
-            - path: LRMv4_Lights_AVE-4_$$_DE_BAP.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_BE_Li.dat
+            - condition:
                 $$-ave-4: de-bap
-            - path: LRMv4_Lights_AVE-4_$$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_BAP.dat
+            - condition:
                 $$-ave-4: de-bfh
-            - path: LRMv4_Lights_AVE-4_$$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_BFH.dat
+            - condition:
                 $$-ave-4: de-bfp
-            - path: LRMv4_Lights_AVE-4_$$_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_BFP.dat
+            - condition:
                 $$-ave-4: de-bla
-            - path: LRMv4_Lights_AVE-4_$$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_BLA.dat
+            - condition:
                 $$-ave-4: de-hh
-            - path: LRMv4_Lights_AVE-4_$$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_HH.dat
+            - condition:
                 $$-ave-4: de-nr-wf-o
-            - path: LRMv4_Lights_AVE-4_$$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_NrWf_O.dat
+            - condition:
                 $$-ave-4: de-nr-wf-w
-            - path: LRMv4_Lights_AVE-4_$$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_NrWf_W.dat
+            - condition:
                 $$-ave-4: de-sh
-            - path: LRMv4_Lights_AVE-4_$$_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_SH.dat
+            - condition:
                 $$-ave-4: de-sw-o
-            - path: LRMv4_Lights_AVE-4_$$_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_SW_O.dat
+            - condition:
                 $$-ave-4: de-sw-w
-            - path: LRMv4_Lights_AVE-4_$$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_DE_SW_W.dat
+            - condition:
                 $$-ave-4: im-br
-            - path: LRMv4_Lights_AVE-4_$$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_IM_Br.dat
+            - condition:
                 $$-ave-4: im-yu
-            - path: LRMv4_Lights_AVE-4_$$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_IM_Yu.dat
+            - condition:
                 $$-ave-4: lu-gen
-            - path: LRMv4_Lights_AVE-4_$$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_LU_Gen.dat
+            - condition:
                 $$-ave-4: nfsu-bh
-            - path: LRMv4_Lights_AVE-4_$$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NFSU_BH.dat
+            - condition:
                 $$-ave-4: nfsu-gen-c
-            - path: LRMv4_Lights_AVE-4_$$_NFSU_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NFSU_Gen_C.dat
+            - condition:
                 $$-ave-4: nfsu-gen-fw
-            - path: LRMv4_Lights_AVE-4_$$_NL_Al.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NFSU_Gen_FW.dat
+            - condition:
                 $$-ave-4: nl-al
-            - path: LRMv4_Lights_AVE-4_$$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NL_Al.dat
+            - condition:
                 $$-ave-4: nl-gen-cl
-            - path: LRMv4_Lights_AVE-4_$$_NL_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NL_Gen_Cl.dat
+            - condition:
                 $$-ave-4: nl-gen-fw
-            - path: LRMv4_Lights_AVE-4_$$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NL_Gen_FW.dat
+            - condition:
                 $$-ave-4: nl-gen-md
-            - path: LRMv4_Lights_AVE-4_$$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_NL_Gen_Md.dat
+            - condition:
                 $$-ave-4: se-gen
-            - path: LRMv4_Lights_AVE-4_$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_SE_Gen.dat
+            - condition:
                 $$-ave-4: se-got
-            - path: LRMv4_Lights_AVE-4_$$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_SE_Got.dat
+            - condition:
                 $$-ave-4: uk-gen
-            - path: LRMv4_Lights_AVE-4_$$_UK_In.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_UK_Gen.dat
+            - condition:
                 $$-ave-4: uk-in
-            - path: LRMv4_Lights_AVE-4_$$_UK_Lon_Blue.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_UK_In.dat
+            - condition:
                 $$-ave-4: uk-lon-blue
-            - path: LRMv4_Lights_AVE-4_$$_UK_Lon_Green.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_UK_Lon_Blue.dat
+            - condition:
                 $$-ave-4: uk-lon-green
-            - path: LRMv4_Lights_AVE-4_$$_UK_Lon_Red.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_UK_Lon_Green.dat
+            - condition:
                 $$-ave-4: uk-lon-red
-            - path: LRMv4_Lights_AVE-4_$$_UK_Lon_Yellow.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_UK_Lon_Red.dat
+            - condition:
                 $$-ave-4: uk-lon-yellow
-            - path: LRMv4_Lights_AVE-4_$$_USA_Chi.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_UK_Lon_Yellow.dat
+            - condition:
                 $$-ave-4: usa-chi
-            - path: LRMv4_Lights_AVE-4_$$_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_USA_Chi.dat
+            - condition:
                 $$-ave-4: usa-gen
-            - path: LRMv4_Lights_AVE-4_$$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_USA_Gen.dat
+            - condition:
                 $$-ave-4: usa-man
-            - path: LRMv4_Lights_AVE-4_$$_ZM_CR.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_USA_Man.dat
+            - condition:
                 $$-ave-4: zm-cr
-            - path: LRMv4_Lights_AVE-4_$$$_CXL_Cl.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$_ZM_CR.dat
+            - condition:
                 $$$-ave-4: cxl-cl
-            - path: LRMv4_Lights_AVE-4_$$$_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_CXL_Cl.dat
+            - condition:
                 $$$-ave-4: de-bla
-            - path: LRMv4_Lights_AVE-4_$$$_DE_LH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_BLA.dat
+            - condition:
                 $$$-ave-4: de-lh
-            - path: LRMv4_Lights_AVE-4_$$$_DE_Res_Blue.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_LH.dat
+            - condition:
                 $$$-ave-4: de-res-blue
-            - path: LRMv4_Lights_AVE-4_$$$_DE_Res_Green.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_Res_Blue.dat
+            - condition:
                 $$$-ave-4: de-res-green
-            - path: LRMv4_Lights_AVE-4_$$$_DE_Res_Red.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_Res_Green.dat
+            - condition:
                 $$$-ave-4: de-res-red
-            - path: LRMv4_Lights_AVE-4_$$$_DE_Res_Yellow.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_Res_Red.dat
+            - condition:
                 $$$-ave-4: de-res-yellow
-            - path: LRMv4_Lights_AVE-4_$$$_DE_Sol.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_Res_Yellow.dat
+            - condition:
                 $$$-ave-4: de-sol
-            - path: LRMv4_Lights_AVE-4_$$$_FR_CE.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_DE_Sol.dat
+            - condition:
                 $$$-ave-4: fr-ce
-            - path: LRMv4_Lights_AVE-4_$$$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_FR_CE.dat
+            - condition:
                 $$$-ave-4: nfsu-bh
-            - path: LRMv4_Lights_AVE-4_$$$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_NFSU_BH.dat
+            - condition:
                 $$$-ave-4: se-gen
-            - path: LRMv4_Lights_AVE-4_$$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_SE_Gen.dat
+            - condition:
                 $$$-ave-4: se-got
-            - path: LRMv4_Lights_AVE-4_$$$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_SE_Got.dat
+            - condition:
                 $$$-ave-4: usa-man
-            - path: LRMv4_Lights_Bridges_BE_An.dat
-              condition:
+              path: LRMv4_Lights_AVE-4_$$$_USA_Man.dat
+            - condition:
                 bridges: be-an
-            - path: LRMv4_Lights_Bridges_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_Bridges_BE_An.dat
+            - condition:
                 bridges: be-li
-            - path: LRMv4_Lights_Bridges_CXL_Cl.dat
-              condition:
+              path: LRMv4_Lights_Bridges_BE_Li.dat
+            - condition:
                 bridges: cxl-cl
-            - path: LRMv4_Lights_Bridges_DE_BFh.dat
-              condition:
+              path: LRMv4_Lights_Bridges_CXL_Cl.dat
+            - condition:
                 bridges: de-bfh
-            - path: LRMv4_Lights_Bridges_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_BFh.dat
+            - condition:
                 bridges: de-hh
-            - path: LRMv4_Lights_Bridges_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_HH.dat
+            - condition:
                 bridges: de-nr-wf-o
-            - path: LRMv4_Lights_Bridges_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_NrWf_O.dat
+            - condition:
                 bridges: de-nr-wf-w
-            - path: LRMv4_Lights_Bridges_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_NrWf_W.dat
+            - condition:
                 bridges: de-sh
-            - path: LRMv4_Lights_Bridges_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_SH.dat
+            - condition:
                 bridges: de-sw-o
-            - path: LRMv4_Lights_Bridges_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_SW_O.dat
+            - condition:
                 bridges: de-sw-w
-            - path: LRMv4_Lights_Bridges_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_Bridges_DE_SW_W.dat
+            - condition:
                 bridges: im-br
-            - path: LRMv4_Lights_Bridges_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_Bridges_IM_Br.dat
+            - condition:
                 bridges: im-yu
-            - path: LRMv4_Lights_Bridges_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_Bridges_IM_Yu.dat
+            - condition:
                 bridges: lu-gen
-            - path: LRMv4_Lights_Bridges_NFSU_Mixed.dat
-              condition:
+              path: LRMv4_Lights_Bridges_LU_Gen.dat
+            - condition:
                 bridges: nfsu-mixed
-            - path: LRMv4_Lights_Bridges_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_Bridges_NFSU_Mixed.dat
+            - condition:
                 bridges: nl-gen-cl
-            - path: LRMv4_Lights_Bridges_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_Bridges_NL_Gen_Cl.dat
+            - condition:
                 bridges: nl-gen-md
-            - path: LRMv4_Lights_Bridges_SE_Mixed.dat
-              condition:
+              path: LRMv4_Lights_Bridges_NL_Gen_Md.dat
+            - condition:
                 bridges: se-mixed
-            - path: LRMv4_Lights_Bridges_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_Bridges_SE_Mixed.dat
+            - condition:
                 bridges: uk-gen
-            - path: LRMv4_Lights_Bridges_USA_Mixed.dat
-              condition:
+              path: LRMv4_Lights_Bridges_UK_Gen.dat
+            - condition:
                 bridges: usa-mixed
-            - path: LRMv4_Lights_Bridges_ZM_CR.dat
-              condition:
+              path: LRMv4_Lights_Bridges_USA_Mixed.dat
+            - condition:
                 bridges: zm-cr
-            - path: LRMv4_Lights_LOT_$$_CXL_Md.dat
-              condition:
+              path: LRMv4_Lights_Bridges_ZM_CR.dat
+            - condition:
                 $$-lots: cxl-md
-            - path: LRMv4_Lights_LOT_$$_DE_BP.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_CXL_Md.dat
+            - condition:
                 $$-lots: de-bp
-            - path: LRMv4_Lights_LOT_$$_DE_Fr.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_DE_BP.dat
+            - condition:
                 $$-lots: de-fr
-            - path: LRMv4_Lights_LOT_$$_FR_VT1.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_DE_Fr.dat
+            - condition:
                 $$-lots: fr-vt1
-            - path: LRMv4_Lights_LOT_$$_GEN_OT1.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_FR_VT1.dat
+            - condition:
                 $$-lots: gen-ot1
-            - path: LRMv4_Lights_LOT_$$_NL_Vinex.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_GEN_OT1.dat
+            - condition:
                 $$-lots: nl-vinex
-            - path: LRMv4_Lights_LOT_$$_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_NL_Vinex.dat
+            - condition:
                 $$-lots: uk-park
-            - path: LRMv4_Lights_LOT_$$_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_UK_Park.dat
+            - condition:
                 $$-lots: usa-cbd
-            - path: LRMv4_Lights_LOT_$$$_DE_Fr.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$_USA_CBD.dat
+            - condition:
                 $$$-lots: de-fr
-            - path: LRMv4_Lights_LOT_$$$_FR_VT1.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_DE_Fr.dat
+            - condition:
                 $$$-lots: fr-vt1
-            - path: LRMv4_Lights_LOT_$$$_FR_VT2.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_FR_VT1.dat
+            - condition:
                 $$$-lots: fr-vt2
-            - path: LRMv4_Lights_LOT_$$$_GEN_OT1.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_FR_VT2.dat
+            - condition:
                 $$$-lots: gen-ot1
-            - path: LRMv4_Lights_LOT_$$$_GEN_OT2.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_GEN_OT1.dat
+            - condition:
                 $$$-lots: gen-ot2
-            - path: LRMv4_Lights_LOT_$$$_NL_BSt.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_GEN_OT2.dat
+            - condition:
                 $$$-lots: nl-bst
-            - path: LRMv4_Lights_LOT_$$$_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_NL_BSt.dat
+            - condition:
                 $$$-lots: uk-park
-            - path: LRMv4_Lights_LOT_$$$_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_UK_Park.dat
+            - condition:
                 $$$-lots: usa-cbd
-            - path: LRMv4_Lights_MedSuspBridges_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_LOT_$$$_USA_CBD.dat
+            - condition:
                 bridges-median: be-li
-            - path: LRMv4_Lights_MedSuspBridges_CXL_Cl.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_BE_Li.dat
+            - condition:
                 bridges-median: cxl-cl
-            - path: LRMv4_Lights_MedSuspBridges_DE_LH.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_CXL_Cl.dat
+            - condition:
                 bridges-median: de-lh
-            - path: LRMv4_Lights_MedSuspBridges_FR_CE.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_DE_LH.dat
+            - condition:
                 bridges-median: fr-ce
-            - path: LRMv4_Lights_MedSuspBridges_FR_VT2.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_FR_CE.dat
+            - condition:
                 bridges-median: fr-vt2
-            - path: LRMv4_Lights_MedSuspBridges_GEN_OT2.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_FR_VT2.dat
+            - condition:
                 bridges-median: gen-ot2
-            - path: LRMv4_Lights_MedSuspBridges_NFSU_JH.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_GEN_OT2.dat
+            - condition:
                 bridges-median: nfsu-jh
-            - path: LRMv4_Lights_MedSuspBridges_NL_BSt.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_NFSU_JH.dat
+            - condition:
                 bridges-median: nl-bst
-            - path: LRMv4_Lights_MedSuspBridges_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_NL_BSt.dat
+            - condition:
                 bridges-median: se-got
-            - path: LRMv4_Lights_MHW_Median_BE_An.dat
-              condition:
+              path: LRMv4_Lights_MedSuspBridges_SE_Got.dat
+            - condition:
                 mhw-median: be-an
-            - path: LRMv4_Lights_MHW_Median_BE_Ard.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_BE_An.dat
+            - condition:
                 mhw-median: be-ard
-            - path: LRMv4_Lights_MHW_Median_BE_Br.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_BE_Ard.dat
+            - condition:
                 mhw-median: be-br
-            - path: LRMv4_Lights_MHW_Median_BE_E313.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_BE_Br.dat
+            - condition:
                 mhw-median: be-e313
-            - path: LRMv4_Lights_MHW_Median_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_BE_E313.dat
+            - condition:
                 mhw-median: be-li
-            - path: LRMv4_Lights_MHW_Median_BE_Os.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_BE_Li.dat
+            - condition:
                 mhw-median: be-os
-            - path: LRMv4_Lights_MHW_Median_DE_BAP.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_BE_Os.dat
+            - condition:
                 mhw-median: de-bap
-            - path: LRMv4_Lights_MHW_Median_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_DE_BAP.dat
+            - condition:
                 mhw-median: de-bla
-            - path: LRMv4_Lights_MHW_Median_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_DE_BLA.dat
+            - condition:
                 mhw-median: de-hh
-            - path: LRMv4_Lights_MHW_Median_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_DE_HH.dat
+            - condition:
                 mhw-median: de-sw-o
-            - path: LRMv4_Lights_MHW_Median_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_DE_SW_O.dat
+            - condition:
                 mhw-median: de-sw-w
-            - path: LRMv4_Lights_MHW_Median_GEN_LT_O.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_DE_SW_W.dat
+            - condition:
                 mhw-median: gen-lt-o
-            - path: LRMv4_Lights_MHW_Median_GEN_LT_W.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_GEN_LT_O.dat
+            - condition:
                 mhw-median: gen-lt-w
-            - path: LRMv4_Lights_MHW_Median_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_GEN_LT_W.dat
+            - condition:
                 mhw-median: im-br
-            - path: LRMv4_Lights_MHW_Median_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_IM_Br.dat
+            - condition:
                 mhw-median: im-yu
-            - path: LRMv4_Lights_MHW_Median_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_IM_Yu.dat
+            - condition:
                 mhw-median: lu-gen
-            - path: LRMv4_Lights_MHW_Median_NFSU_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_LU_Gen.dat
+            - condition:
                 mhw-median: nfsu-gen-fw
-            - path: LRMv4_Lights_MHW_Median_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_NFSU_Gen_FW.dat
+            - condition:
                 mhw-median: nl-gen-cl
-            - path: LRMv4_Lights_MHW_Median_NL_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_NL_Gen_Cl.dat
+            - condition:
                 mhw-median: nl-gen-fw
-            - path: LRMv4_Lights_MHW_Median_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_NL_Gen_FW.dat
+            - condition:
                 mhw-median: nl-gen-md
-            - path: LRMv4_Lights_MHW_Median_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_NL_Gen_Md.dat
+            - condition:
                 mhw-median: se-gen
-            - path: LRMv4_Lights_MHW_Median_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_SE_Gen.dat
+            - condition:
                 mhw-median: uk-gen
-            - path: LRMv4_Lights_MHW_Median_UK_In.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_UK_Gen.dat
+            - condition:
                 mhw-median: uk-in
-            - path: LRMv4_Lights_MHW_Median_USA_Chi.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_UK_In.dat
+            - condition:
                 mhw-median: usa-chi
-            - path: LRMv4_Lights_MHW_Median_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_USA_Chi.dat
+            - condition:
                 mhw-median: usa-gen
-            - path: LRMv4_Lights_MHW_Median_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_USA_Gen.dat
+            - condition:
                 mhw-median: usa-man
-            - path: LRMv4_Lights_MHW_Sides_BE_An.dat
-              condition:
+              path: LRMv4_Lights_MHW_Median_USA_Man.dat
+            - condition:
                 mhw-sides: be-an
-            - path: LRMv4_Lights_MHW_Sides_BE_Br.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_BE_An.dat
+            - condition:
                 mhw-sides: be-br
-            - path: LRMv4_Lights_MHW_Sides_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_BE_Br.dat
+            - condition:
                 mhw-sides: be-li
-            - path: LRMv4_Lights_MHW_Sides_DE_BAP.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_BE_Li.dat
+            - condition:
                 mhw-sides: de-bap
-            - path: LRMv4_Lights_MHW_Sides_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_DE_BAP.dat
+            - condition:
                 mhw-sides: de-bla
-            - path: LRMv4_Lights_MHW_Sides_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_DE_BLA.dat
+            - condition:
                 mhw-sides: de-hh
-            - path: LRMv4_Lights_MHW_Sides_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_DE_HH.dat
+            - condition:
                 mhw-sides: de-sw-o
-            - path: LRMv4_Lights_MHW_Sides_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_DE_SW_O.dat
+            - condition:
                 mhw-sides: de-sw-w
-            - path: LRMv4_Lights_MHW_Sides_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_DE_SW_W.dat
+            - condition:
                 mhw-sides: im-br
-            - path: LRMv4_Lights_MHW_Sides_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_IM_Br.dat
+            - condition:
                 mhw-sides: im-yu
-            - path: LRMv4_Lights_MHW_Sides_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_IM_Yu.dat
+            - condition:
                 mhw-sides: lu-gen
-            - path: LRMv4_Lights_MHW_Sides_NFSU_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_LU_Gen.dat
+            - condition:
                 mhw-sides: nfsu-gen-fw
-            - path: LRMv4_Lights_MHW_Sides_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_NFSU_Gen_FW.dat
+            - condition:
                 mhw-sides: nl-gen-cl
-            - path: LRMv4_Lights_MHW_Sides_NL_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_NL_Gen_Cl.dat
+            - condition:
                 mhw-sides: nl-gen-fw
-            - path: LRMv4_Lights_MHW_Sides_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_NL_Gen_FW.dat
+            - condition:
                 mhw-sides: nl-gen-md
-            - path: LRMv4_Lights_MHW_Sides_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_NL_Gen_Md.dat
+            - condition:
                 mhw-sides: se-gen
-            - path: LRMv4_Lights_MHW_Sides_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_SE_Gen.dat
+            - condition:
                 mhw-sides: uk-gen
-            - path: LRMv4_Lights_MHW_Sides_UK_In.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_UK_Gen.dat
+            - condition:
                 mhw-sides: uk-in
-            - path: LRMv4_Lights_MHW_Sides_USA_Chi.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_UK_In.dat
+            - condition:
                 mhw-sides: usa-chi
-            - path: LRMv4_Lights_MHW_Sides_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_USA_Chi.dat
+            - condition:
                 mhw-sides: usa-gen
-            - path: LRMv4_Lights_MHW_Sides_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_USA_Gen.dat
+            - condition:
                 mhw-sides: usa-man
-            - path: LRMv4_Lights_NWM_$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_MHW_Sides_USA_Man.dat
+            - condition:
                 $-nwm: be-an
-            - path: LRMv4_Lights_NWM_$_BE_Br.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_BE_An.dat
+            - condition:
                 $-nwm: be-br
-            - path: LRMv4_Lights_NWM_$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_BE_Br.dat
+            - condition:
                 $-nwm: be-li
-            - path: LRMv4_Lights_NWM_$_DE_BAP.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_BE_Li.dat
+            - condition:
                 $-nwm: de-bap
-            - path: LRMv4_Lights_NWM_$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_BAP.dat
+            - condition:
                 $-nwm: de-bfh
-            - path: LRMv4_Lights_NWM_$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_BFH.dat
+            - condition:
                 $-nwm: de-bfp
-            - path: LRMv4_Lights_NWM_$_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_BFP.dat
+            - condition:
                 $-nwm: de-bla
-            - path: LRMv4_Lights_NWM_$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_BLA.dat
+            - condition:
                 $-nwm: de-hh
-            - path: LRMv4_Lights_NWM_$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_HH.dat
+            - condition:
                 $-nwm: de-nr-wf-o
-            - path: LRMv4_Lights_NWM_$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_NrWf_O.dat
+            - condition:
                 $-nwm: de-nr-wf-w
-            - path: LRMv4_Lights_NWM_$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_NrWf_W.dat
+            - condition:
                 $-nwm: de-sh
-            - path: LRMv4_Lights_NWM_$_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_SH.dat
+            - condition:
                 $-nwm: de-sw-o
-            - path: LRMv4_Lights_NWM_$_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_SW_O.dat
+            - condition:
                 $-nwm: de-sw-w
-            - path: LRMv4_Lights_NWM_$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_DE_SW_W.dat
+            - condition:
                 $-nwm: im-br
-            - path: LRMv4_Lights_NWM_$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_IM_Br.dat
+            - condition:
                 $-nwm: im-yu
-            - path: LRMv4_Lights_NWM_$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_IM_Yu.dat
+            - condition:
                 $-nwm: lu-gen
-            - path: LRMv4_Lights_NWM_$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_LU_Gen.dat
+            - condition:
                 $-nwm: nfsu-bh
-            - path: LRMv4_Lights_NWM_$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_NFSU_BH.dat
+            - condition:
                 $-nwm: nfsu-gen-c
-            - path: LRMv4_Lights_NWM_$_NFSU_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_NFSU_Gen_C.dat
+            - condition:
                 $-nwm: nfsu-gen-fw
-            - path: LRMv4_Lights_NWM_$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_NFSU_Gen_FW.dat
+            - condition:
                 $-nwm: nl-gen-cl
-            - path: LRMv4_Lights_NWM_$_NL_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_NL_Gen_Cl.dat
+            - condition:
                 $-nwm: nl-gen-fw
-            - path: LRMv4_Lights_NWM_$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_NL_Gen_FW.dat
+            - condition:
                 $-nwm: nl-gen-md
-            - path: LRMv4_Lights_NWM_$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_NL_Gen_Md.dat
+            - condition:
                 $-nwm: se-gen
-            - path: LRMv4_Lights_NWM_$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_SE_Gen.dat
+            - condition:
                 $-nwm: se-got
-            - path: LRMv4_Lights_NWM_$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_SE_Got.dat
+            - condition:
                 $-nwm: uk-gen
-            - path: LRMv4_Lights_NWM_$_UK_Ind.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_UK_Gen.dat
+            - condition:
                 $-nwm: uk-ind
-            - path: LRMv4_Lights_NWM_$_UK_Mid_Blue.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_UK_Ind.dat
+            - condition:
                 $-nwm: uk-mid-blue
-            - path: LRMv4_Lights_NWM_$_UK_Mid_Green.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_UK_Mid_Blue.dat
+            - condition:
                 $-nwm: uk-mid-green
-            - path: LRMv4_Lights_NWM_$_UK_Mid_Red.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_UK_Mid_Green.dat
+            - condition:
                 $-nwm: uk-mid-red
-            - path: LRMv4_Lights_NWM_$_UK_Mid_Yellow.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_UK_Mid_Red.dat
+            - condition:
                 $-nwm: uk-mid-yellow
-            - path: LRMv4_Lights_NWM_$_USA_Chi.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_UK_Mid_Yellow.dat
+            - condition:
                 $-nwm: usa-chi
-            - path: LRMv4_Lights_NWM_$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_USA_Chi.dat
+            - condition:
                 $-nwm: usa-man
-            - path: LRMv4_Lights_NWM_$_ZM_CR.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_USA_Man.dat
+            - condition:
                 $-nwm: zm-cr
-            - path: LRMv4_Lights_NWM_$$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_NWM_$_ZM_CR.dat
+            - condition:
                 $$-nwm: be-an
-            - path: LRMv4_Lights_NWM_$$_BE_Br.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_BE_An.dat
+            - condition:
                 $$-nwm: be-br
-            - path: LRMv4_Lights_NWM_$$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_BE_Br.dat
+            - condition:
                 $$-nwm: be-li
-            - path: LRMv4_Lights_NWM_$$_DE_BAP.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_BE_Li.dat
+            - condition:
                 $$-nwm: de-bap
-            - path: LRMv4_Lights_NWM_$$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_BAP.dat
+            - condition:
                 $$-nwm: de-bfh
-            - path: LRMv4_Lights_NWM_$$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_BFH.dat
+            - condition:
                 $$-nwm: de-bfp
-            - path: LRMv4_Lights_NWM_$$_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_BFP.dat
+            - condition:
                 $$-nwm: de-bla
-            - path: LRMv4_Lights_NWM_$$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_BLA.dat
+            - condition:
                 $$-nwm: de-hh
-            - path: LRMv4_Lights_NWM_$$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_HH.dat
+            - condition:
                 $$-nwm: de-nr-wf-o
-            - path: LRMv4_Lights_NWM_$$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_NrWf_O.dat
+            - condition:
                 $$-nwm: de-nr-wf-w
-            - path: LRMv4_Lights_NWM_$$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_NrWf_W.dat
+            - condition:
                 $$-nwm: de-sh
-            - path: LRMv4_Lights_NWM_$$_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_SH.dat
+            - condition:
                 $$-nwm: de-sw-o
-            - path: LRMv4_Lights_NWM_$$_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_SW_O.dat
+            - condition:
                 $$-nwm: de-sw-w
-            - path: LRMv4_Lights_NWM_$$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_DE_SW_W.dat
+            - condition:
                 $$-nwm: im-br
-            - path: LRMv4_Lights_NWM_$$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_IM_Br.dat
+            - condition:
                 $$-nwm: im-yu
-            - path: LRMv4_Lights_NWM_$$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_IM_Yu.dat
+            - condition:
                 $$-nwm: lu-gen
-            - path: LRMv4_Lights_NWM_$$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_LU_Gen.dat
+            - condition:
                 $$-nwm: nfsu-bh
-            - path: LRMv4_Lights_NWM_$$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_NFSU_BH.dat
+            - condition:
                 $$-nwm: nfsu-gen-c
-            - path: LRMv4_Lights_NWM_$$_NFSU_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_NFSU_Gen_C.dat
+            - condition:
                 $$-nwm: nfsu-gen-fw
-            - path: LRMv4_Lights_NWM_$$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_NFSU_Gen_FW.dat
+            - condition:
                 $$-nwm: nl-gen-cl
-            - path: LRMv4_Lights_NWM_$$_NL_Gen_FW.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_NL_Gen_Cl.dat
+            - condition:
                 $$-nwm: nl-gen-fw
-            - path: LRMv4_Lights_NWM_$$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_NL_Gen_FW.dat
+            - condition:
                 $$-nwm: nl-gen-md
-            - path: LRMv4_Lights_NWM_$$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_NL_Gen_Md.dat
+            - condition:
                 $$-nwm: se-gen
-            - path: LRMv4_Lights_NWM_$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_SE_Gen.dat
+            - condition:
                 $$-nwm: se-got
-            - path: LRMv4_Lights_NWM_$$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_SE_Got.dat
+            - condition:
                 $$-nwm: uk-gen
-            - path: LRMv4_Lights_NWM_$$_UK_Ind.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_UK_Gen.dat
+            - condition:
                 $$-nwm: uk-ind
-            - path: LRMv4_Lights_NWM_$$_UK_Mid_Blue.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_UK_Ind.dat
+            - condition:
                 $$-nwm: uk-mid-blue
-            - path: LRMv4_Lights_NWM_$$_UK_Mid_Green.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_UK_Mid_Blue.dat
+            - condition:
                 $$-nwm: uk-mid-green
-            - path: LRMv4_Lights_NWM_$$_UK_Mid_Red.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_UK_Mid_Green.dat
+            - condition:
                 $$-nwm: uk-mid-red
-            - path: LRMv4_Lights_NWM_$$_UK_Mid_Yellow.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_UK_Mid_Red.dat
+            - condition:
                 $$-nwm: uk-mid-yellow
-            - path: LRMv4_Lights_NWM_$$_USA_Chi.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_UK_Mid_Yellow.dat
+            - condition:
                 $$-nwm: usa-chi
-            - path: LRMv4_Lights_NWM_$$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_USA_Chi.dat
+            - condition:
                 $$-nwm: usa-man
-            - path: LRMv4_Lights_NWM_$$_ZM_CR.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_USA_Man.dat
+            - condition:
                 $$-nwm: zm-cr
-            - path: LRMv4_Lights_NWM_$$$_CXL_Cl.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$_ZM_CR.dat
+            - condition:
                 $$$-nwm: cxl-cl
-            - path: LRMv4_Lights_NWM_$$$_DE_BLA.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_CXL_Cl.dat
+            - condition:
                 $$$-nwm: de-bla
-            - path: LRMv4_Lights_NWM_$$$_DE_LH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_BLA.dat
+            - condition:
                 $$$-nwm: de-lh
-            - path: LRMv4_Lights_NWM_$$$_DE_Res_Blue.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_LH.dat
+            - condition:
                 $$$-nwm: de-res-blue
-            - path: LRMv4_Lights_NWM_$$$_DE_Res_Green.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_Res_Blue.dat
+            - condition:
                 $$$-nwm: de-res-green
-            - path: LRMv4_Lights_NWM_$$$_DE_Res_Red.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_Res_Green.dat
+            - condition:
                 $$$-nwm: de-res-red
-            - path: LRMv4_Lights_NWM_$$$_DE_Res_Yellow.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_Res_Red.dat
+            - condition:
                 $$$-nwm: de-res-yellow
-            - path: LRMv4_Lights_NWM_$$$_DE_Sol.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_Res_Yellow.dat
+            - condition:
                 $$$-nwm: de-sol
-            - path: LRMv4_Lights_NWM_$$$_FR_CE.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_DE_Sol.dat
+            - condition:
                 $$$-nwm: fr-ce
-            - path: LRMv4_Lights_NWM_$$$_FR_VT1.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_FR_CE.dat
+            - condition:
                 $$$-nwm: fr-vt1
-            - path: LRMv4_Lights_NWM_$$$_FR_VT2.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_FR_VT1.dat
+            - condition:
                 $$$-nwm: fr-vt2
-            - path: LRMv4_Lights_NWM_$$$_GEN_OT1.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_FR_VT2.dat
+            - condition:
                 $$$-nwm: gen-ot1
-            - path: LRMv4_Lights_NWM_$$$_GEN_OT2.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_GEN_OT1.dat
+            - condition:
                 $$$-nwm: gen-ot2
-            - path: LRMv4_Lights_NWM_$$$_NFSU_JH.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_GEN_OT2.dat
+            - condition:
                 $$$-nwm: nfsu-jh
-            - path: LRMv4_Lights_NWM_$$$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_NFSU_JH.dat
+            - condition:
                 $$$-nwm: se-gen
-            - path: LRMv4_Lights_NWM_$$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_SE_Gen.dat
+            - condition:
                 $$$-nwm: se-got
-            - path: LRMv4_Lights_NWM_$$$_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_SE_Got.dat
+            - condition:
                 $$$-nwm: uk-park
-            - path: LRMv4_Lights_NWM_$$$_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_UK_Park.dat
+            - condition:
                 $$$-nwm: usa-cbd
-            - path: LRMv4_Lights_NWM_$$$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_USA_CBD.dat
+            - condition:
                 $$$-nwm: usa-man
-            - path: LRMv4_Lights_RD_$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_NWM_$$$_USA_Man.dat
+            - condition:
                 $-rd: be-an
-            - path: LRMv4_Lights_RD_$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_RD_$_BE_An.dat
+            - condition:
                 $-rd: be-li
-            - path: LRMv4_Lights_RD_$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_RD_$_BE_Li.dat
+            - condition:
                 $-rd: de-bfh
-            - path: LRMv4_Lights_RD_$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_BFH.dat
+            - condition:
                 $-rd: de-bfp
-            - path: LRMv4_Lights_RD_$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_BFP.dat
+            - condition:
                 $-rd: de-gen-o
-            - path: LRMv4_Lights_RD_$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_Gen_O.dat
+            - condition:
                 $-rd: de-gen-w
-            - path: LRMv4_Lights_RD_$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_Gen_W.dat
+            - condition:
                 $-rd: de-hh
-            - path: LRMv4_Lights_RD_$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_HH.dat
+            - condition:
                 $-rd: de-nr-wf-o
-            - path: LRMv4_Lights_RD_$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_NrWf_O.dat
+            - condition:
                 $-rd: de-nr-wf-w
-            - path: LRMv4_Lights_RD_$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_NrWf_W.dat
+            - condition:
                 $-rd: de-sh
-            - path: LRMv4_Lights_RD_$_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_SH.dat
+            - condition:
                 $-rd: de-sw-o
-            - path: LRMv4_Lights_RD_$_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_SW_O.dat
+            - condition:
                 $-rd: de-sw-w
-            - path: LRMv4_Lights_RD_$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_RD_$_DE_SW_W.dat
+            - condition:
                 $-rd: im-br
-            - path: LRMv4_Lights_RD_$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_RD_$_IM_Br.dat
+            - condition:
                 $-rd: im-yu
-            - path: LRMv4_Lights_RD_$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$_IM_Yu.dat
+            - condition:
                 $-rd: lu-gen
-            - path: LRMv4_Lights_RD_$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_RD_$_LU_Gen.dat
+            - condition:
                 $-rd: nfsu-bh
-            - path: LRMv4_Lights_RD_$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_RD_$_NFSU_BH.dat
+            - condition:
                 $-rd: nfsu-gen-c
-            - path: LRMv4_Lights_RD_$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_RD_$_NFSU_Gen_C.dat
+            - condition:
                 $-rd: nl-gen-cl
-            - path: LRMv4_Lights_RD_$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_RD_$_NL_Gen_Cl.dat
+            - condition:
                 $-rd: nl-gen-md
-            - path: LRMv4_Lights_RD_$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$_NL_Gen_Md.dat
+            - condition:
                 $-rd: se-gen
-            - path: LRMv4_Lights_RD_$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_RD_$_SE_Gen.dat
+            - condition:
                 $-rd: se-got
-            - path: LRMv4_Lights_RD_$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$_SE_Got.dat
+            - condition:
                 $-rd: uk-gen
-            - path: LRMv4_Lights_RD_$_UK_Sub.dat
-              condition:
+              path: LRMv4_Lights_RD_$_UK_Gen.dat
+            - condition:
                 $-rd: uk-sub
-            - path: LRMv4_Lights_RD_$_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$_UK_Sub.dat
+            - condition:
                 $-rd: usa-gen
-            - path: LRMv4_Lights_RD_$$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_RD_$_USA_Gen.dat
+            - condition:
                 $$-rd: be-an
-            - path: LRMv4_Lights_RD_$$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_BE_An.dat
+            - condition:
                 $$-rd: be-li
-            - path: LRMv4_Lights_RD_$$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_BE_Li.dat
+            - condition:
                 $$-rd: de-bfh
-            - path: LRMv4_Lights_RD_$$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_BFH.dat
+            - condition:
                 $$-rd: de-bfp
-            - path: LRMv4_Lights_RD_$$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_BFP.dat
+            - condition:
                 $$-rd: de-gen-o
-            - path: LRMv4_Lights_RD_$$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_Gen_O.dat
+            - condition:
                 $$-rd: de-gen-w
-            - path: LRMv4_Lights_RD_$$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_Gen_W.dat
+            - condition:
                 $$-rd: de-hh
-            - path: LRMv4_Lights_RD_$$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_HH.dat
+            - condition:
                 $$-rd: de-nr-wf-o
-            - path: LRMv4_Lights_RD_$$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_NrWf_O.dat
+            - condition:
                 $$-rd: de-nr-wf-w
-            - path: LRMv4_Lights_RD_$$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_NrWf_W.dat
+            - condition:
                 $$-rd: de-sh
-            - path: LRMv4_Lights_RD_$$_DE_SW_O.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_SH.dat
+            - condition:
                 $$-rd: de-sw-o
-            - path: LRMv4_Lights_RD_$$_DE_SW_W.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_SW_O.dat
+            - condition:
                 $$-rd: de-sw-w
-            - path: LRMv4_Lights_RD_$$_IM_Br.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_DE_SW_W.dat
+            - condition:
                 $$-rd: im-br
-            - path: LRMv4_Lights_RD_$$_IM_Yu.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_IM_Br.dat
+            - condition:
                 $$-rd: im-yu
-            - path: LRMv4_Lights_RD_$$_LU_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_IM_Yu.dat
+            - condition:
                 $$-rd: lu-gen
-            - path: LRMv4_Lights_RD_$$_NFSU_BH.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_LU_Gen.dat
+            - condition:
                 $$-rd: nfsu-bh
-            - path: LRMv4_Lights_RD_$$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_NFSU_BH.dat
+            - condition:
                 $$-rd: nfsu-gen-c
-            - path: LRMv4_Lights_RD_$$_NL_Gen_Cl.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_NFSU_Gen_C.dat
+            - condition:
                 $$-rd: nl-gen-cl
-            - path: LRMv4_Lights_RD_$$_NL_Gen_Md.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_NL_Gen_Cl.dat
+            - condition:
                 $$-rd: nl-gen-md
-            - path: LRMv4_Lights_RD_$$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_NL_Gen_Md.dat
+            - condition:
                 $$-rd: se-gen
-            - path: LRMv4_Lights_RD_$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_SE_Gen.dat
+            - condition:
                 $$-rd: se-got
-            - path: LRMv4_Lights_RD_$$_UK_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_SE_Got.dat
+            - condition:
                 $$-rd: uk-gen
-            - path: LRMv4_Lights_RD_$$_UK_Sub.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_UK_Gen.dat
+            - condition:
                 $$-rd: uk-sub
-            - path: LRMv4_Lights_RD_$$_USA_Gem.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_UK_Sub.dat
+            - condition:
                 $$-rd: usa-gen
-            - path: LRMv4_Lights_RD_$$_USA_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_USA_Gem.dat
+            - condition:
                 $$-rd: usa-gen
-            - path: LRMv4_Lights_RD_$$$_CXL_Cl.dat
-              condition:
+              path: LRMv4_Lights_RD_$$_USA_Gen.dat
+            - condition:
                 $$$-rd: cxl-cl
-            - path: LRMv4_Lights_RD_$$$_DE_Fr.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_CXL_Cl.dat
+            - condition:
                 $$$-rd: de-fr
-            - path: LRMv4_Lights_RD_$$$_DE_LH.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_Fr.dat
+            - condition:
                 $$$-rd: de-lh
-            - path: LRMv4_Lights_RD_$$$_DE_Res_Blue.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_LH.dat
+            - condition:
                 $$$-rd: de-res-blue
-            - path: LRMv4_Lights_RD_$$$_DE_Res_Green.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_Res_Blue.dat
+            - condition:
                 $$$-rd: de-res-green
-            - path: LRMv4_Lights_RD_$$$_DE_Res_Red.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_Res_Green.dat
+            - condition:
                 $$$-rd: de-res-red
-            - path: LRMv4_Lights_RD_$$$_DE_Res_Yellow.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_Res_Red.dat
+            - condition:
                 $$$-rd: de-res-yellow
-            - path: LRMv4_Lights_RD_$$$_DE_Sol.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_Res_Yellow.dat
+            - condition:
                 $$$-rd: de-sol
-            - path: LRMv4_Lights_RD_$$$_FR_CE.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_DE_Sol.dat
+            - condition:
                 $$$-rd: fr-ce
-            - path: LRMv4_Lights_RD_$$$_FR_VT1.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_FR_CE.dat
+            - condition:
                 $$$-rd: fr-vt1
-            - path: LRMv4_Lights_RD_$$$_FR_VT2.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_FR_VT1.dat
+            - condition:
                 $$$-rd: fr-vt2
-            - path: LRMv4_Lights_RD_$$$_GEN_OT1.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_FR_VT2.dat
+            - condition:
                 $$$-rd: gen-ot1
-            - path: LRMv4_Lights_RD_$$$_GEN_OT2.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_GEN_OT1.dat
+            - condition:
                 $$$-rd: gen-ot2
-            - path: LRMv4_Lights_RD_$$$_NFSU_JH.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_GEN_OT2.dat
+            - condition:
                 $$$-rd: nfsu-jh
-            - path: LRMv4_Lights_RD_$$$_NL_BSt.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_NFSU_JH.dat
+            - condition:
                 $$$-rd: nl-bst
-            - path: LRMv4_Lights_RD_$$$_SE_Gen.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_NL_BSt.dat
+            - condition:
                 $$$-rd: se-gen
-            - path: LRMv4_Lights_RD_$$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_SE_Gen.dat
+            - condition:
                 $$$-rd: se-got
-            - path: LRMv4_Lights_RD_$$$_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_SE_Got.dat
+            - condition:
                 $$$-rd: uk-park
-            - path: LRMv4_Lights_RD_$$$_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_UK_Park.dat
+            - condition:
                 $$$-rd: usa-cbd
-            - path: LRMv4_Lights_RD_$$$_USA_Man.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_USA_CBD.dat
+            - condition:
                 $$$-rd: usa-man
-            - path: LRMv4_Lights_Roundabouts_CXL_Md.dat
-              condition:
+              path: LRMv4_Lights_RD_$$$_USA_Man.dat
+            - condition:
                 roundabouts: cxl-md
-            - path: LRMv4_Lights_Roundabouts_DE_BP.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_CXL_Md.dat
+            - condition:
                 roundabouts: de-bp
-            - path: LRMv4_Lights_Roundabouts_DE_Fr.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_DE_BP.dat
+            - condition:
                 roundabouts: de-fr
-            - path: LRMv4_Lights_Roundabouts_FR_VT1.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_DE_Fr.dat
+            - condition:
                 roundabouts: fr-vt1
-            - path: LRMv4_Lights_Roundabouts_GEN_OT1.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_FR_VT1.dat
+            - condition:
                 roundabouts: gen-ot1
-            - path: LRMv4_Lights_Roundabouts_NL_Vinex.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_GEN_OT1.dat
+            - condition:
                 roundabouts: nl-vinex
-            - path: LRMv4_Lights_Roundabouts_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_NL_Vinex.dat
+            - condition:
                 roundabouts: uk-park
-            - path: LRMv4_Lights_Roundabouts_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_UK_Park.dat
+            - condition:
                 roundabouts: usa-cbd
-            - path: LRMv4_Lights_ST_$_BE_An.dat
-              condition:
+              path: LRMv4_Lights_Roundabouts_USA_CBD.dat
+            - condition:
                 $-st: be-an
-            - path: LRMv4_Lights_ST_$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_ST_$_BE_An.dat
+            - condition:
                 $-st: be-li
-            - path: LRMv4_Lights_ST_$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_ST_$_BE_Li.dat
+            - condition:
                 $-st: de-bfh
-            - path: LRMv4_Lights_ST_$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_BFH.dat
+            - condition:
                 $-st: de-bfp
-            - path: LRMv4_Lights_ST_$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_BFP.dat
+            - condition:
                 $-st: de-gen-o
-            - path: LRMv4_Lights_ST_$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_Gen_O.dat
+            - condition:
                 $-st: de-gen-w
-            - path: LRMv4_Lights_ST_$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_Gen_W.dat
+            - condition:
                 $-st: de-hh
-            - path: LRMv4_Lights_ST_$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_HH.dat
+            - condition:
                 $-st: de-nr-wf-o
-            - path: LRMv4_Lights_ST_$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_NrWf_O.dat
+            - condition:
                 $-st: de-nr-wf-w
-            - path: LRMv4_Lights_ST_$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_NrWf_W.dat
+            - condition:
                 $-st: de-sh
-            - path: LRMv4_Lights_ST_$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_ST_$_DE_SH.dat
+            - condition:
                 $-st: nfsu-gen-c
-            - path: LRMv4_Lights_ST_$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_ST_$_NFSU_Gen_C.dat
+            - condition:
                 $-st: se-got
-            - path: LRMv4_Lights_ST_$_UK_Sub.dat
-              condition:
+              path: LRMv4_Lights_ST_$_SE_Got.dat
+            - condition:
                 $-st: uk-sub
-            - path: LRMv4 Replacement Sets/Override Sets/$-ST/LRMv4_Lights_ST_$_USA_Gen_S.dat
-              condition:
+              path: LRMv4_Lights_ST_$_UK_Sub.dat
+            - condition:
                 $-st: usa-gen-s
-            - path: LRMv4_Lights_ST_$$_BE_An.dat
-              condition:
+              path: LRMv4 Replacement Sets/Override Sets/$-ST/LRMv4_Lights_ST_$_USA_Gen_S.dat
+            - condition:
                 $$-st: be-an
-            - path: LRMv4_Lights_ST_$$_BE_Li.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_BE_An.dat
+            - condition:
                 $$-st: be-li
-            - path: LRMv4_Lights_ST_$$_DE_BFH.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_BE_Li.dat
+            - condition:
                 $$-st: de-bfh
-            - path: LRMv4_Lights_ST_$$_DE_BFP.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_BFH.dat
+            - condition:
                 $$-st: de-bfp
-            - path: LRMv4_Lights_ST_$$_DE_Gen_O.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_BFP.dat
+            - condition:
                 $$-st: de-gen-o
-            - path: LRMv4_Lights_ST_$$_DE_Gen_W.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_Gen_O.dat
+            - condition:
                 $$-st: de-gen-w
-            - path: LRMv4_Lights_ST_$$_DE_HH.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_Gen_W.dat
+            - condition:
                 $$-st: de-hh
-            - path: LRMv4_Lights_ST_$$_DE_NrWf_O.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_HH.dat
+            - condition:
                 $$-st: de-nr-wf-o
-            - path: LRMv4_Lights_ST_$$_DE_NrWf_W.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_NrWf_O.dat
+            - condition:
                 $$-st: de-nr-wf-w
-            - path: LRMv4_Lights_ST_$$_DE_SH.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_NrWf_W.dat
+            - condition:
                 $$-st: de-sh
-            - path: LRMv4_Lights_ST_$$_NFSU_Gen_C.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_DE_SH.dat
+            - condition:
                 $$-st: nfsu-gen-c
-            - path: LRMv4_Lights_ST_$$_SE_Got.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_NFSU_Gen_C.dat
+            - condition:
                 $$-st: se-got
-            - path: LRMv4_Lights_ST_$$_UK_Sub.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_SE_Got.dat
+            - condition:
                 $$-st: uk-sub
-            - path: LRMv4_Lights_ST_$$_USA_Gen_S.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_UK_Sub.dat
+            - condition:
                 $$-st: usa-gen-s
-            - path: LRMv4_Lights_ST_$$$_DE_Fr.dat
-              condition:
+              path: LRMv4_Lights_ST_$$_USA_Gen_S.dat
+            - condition:
                 $$$-st: de-fr
-            - path: LRMv4_Lights_ST_$$$_FR_VT1.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_DE_Fr.dat
+            - condition:
                 $$$-st: fr-vt1
-            - path: LRMv4_Lights_ST_$$$_FR_VT2.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_FR_VT1.dat
+            - condition:
                 $$$-st: fr-vt2
-            - path: LRMv4_Lights_ST_$$$_GEN_OT1.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_FR_VT2.dat
+            - condition:
                 $$$-st: gen-ot1
-            - path: LRMv4_Lights_ST_$$$_GEN_OT2.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_GEN_OT1.dat
+            - condition:
                 $$$-st: gen-ot2
-            - path: LRMv4_Lights_ST_$$$_NL_BSt.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_GEN_OT2.dat
+            - condition:
                 $$$-st: nl-bst
-            - path: LRMv4_Lights_ST_$$$_UK_Park.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_NL_BSt.dat
+            - condition:
                 $$$-st: uk-park
-            - path: LRMv4_Lights_ST_$$$_USA_CBD.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_UK_Park.dat
+            - condition:
                 $$$-st: usa-cbd
-            - path: T21_Avenue_MedianLights.dat
-              condition:
+              path: LRMv4_Lights_ST_$$$_USA_CBD.dat
+            - condition:
                 t21-ave-placement: median
-            - path: T21_Avenue_SideLights.dat
-              condition:
+              path: T21_Avenue_MedianLights.dat
+            - condition:
                 t21-ave-placement: sides
-            - path: T21_MHW_MedianLights.dat
-              condition:
+              path: T21_Avenue_SideLights.dat
+            - condition:
                 t21-mwh-placement: median
-            - path: T21_MHW_NoLights.dat
-              condition:
+              path: T21_MHW_MedianLights.dat
+            - condition:
                 t21-mwh-placement: none
+              path: T21_MHW_NoLights.dat
             - LRMv4 Replacement Sets
       options:
-        - id: t21-ave-placement
-          label: Avenue Streetlight Placement
-          description: Changes the streetlight placement on avenues
-          type: string
-          choices:
+        - choices:
             - label: Median Lights
               value: median
             - label: Side Lights
               value: sides
-        - id: t21-mwh-placement
-          label: Maxis Highway Streetlight Placement
-          description: Changes the streetlight placement on Maxis highways
+          description: Changes the streetlight placement on avenues
+          id: t21-ave-placement
+          label: Avenue Streetlight Placement
           type: string
-          choices:
+        - choices:
             - label: Side Lights (Standard)
               value: sides
             - label: Median Lights
               value: median
             - label: No Lights
               value: none
-        - id: $-st
+          description: Changes the streetlight placement on Maxis highways
+          id: t21-mwh-placement
+          label: Maxis Highway Streetlight Placement
+          type: string
+        - choices:
+            - label: Maxis
+              value: default
+            - label: Belgium - Antwerpen
+              value: be-an
+            - label: Belgium - Liège
+              value: be-li
+            - label: Germany - Fehnpfuhl
+              value: de-bfp
+            - label: Germany - Friedrichshain
+              value: de-bfh
+            - label: Germany - Generic (Orange)
+              value: de-gen-o
+            - label: Germany - Generic (White)
+              value: de-gen-w
+            - label: Germany - Hamburg
+              value: de-hh
+            - label: Germany - Nordrhein-Westfalen (Orange)
+              value: de-nr-wf-o
+            - label: Germany - Nordrhein-Westfalen (White)
+              value: de-nr-wf-w
+            - label: Germany - Südheide
+              value: de-sh
+            - label: Need For Speed Underground - City
+              value: nfsu-gen-c
+            - label: Sweden - Göteborg
+              value: se-got
+            - label: UK - Suburbs
+              value: uk-sub
+            - label: USA - Generic
+              value: usa-gen-s
+          id: $-st
           label: Street ($)
-          choices:
+          type: string
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -1478,44 +1510,10 @@ mandelsoft/light-replacement-mod:
               value: uk-sub
             - label: USA - Generic
               value: usa-gen-s
-          type: string
-        - id: $$-st
+          id: $$-st
           label: Street ($$)
-          choices:
-            - label: Maxis
-              value: default
-            - label: Belgium - Antwerpen
-              value: be-an
-            - label: Belgium - Liège
-              value: be-li
-            - label: Germany - Fehnpfuhl
-              value: de-bfp
-            - label: Germany - Friedrichshain
-              value: de-bfh
-            - label: Germany - Generic (Orange)
-              value: de-gen-o
-            - label: Germany - Generic (White)
-              value: de-gen-w
-            - label: Germany - Hamburg
-              value: de-hh
-            - label: Germany - Nordrhein-Westfalen (Orange)
-              value: de-nr-wf-o
-            - label: Germany - Nordrhein-Westfalen (White)
-              value: de-nr-wf-w
-            - label: Germany - Südheide
-              value: de-sh
-            - label: Need For Speed Underground - City
-              value: nfsu-gen-c
-            - label: Sweden - Göteborg
-              value: se-got
-            - label: UK - Suburbs
-              value: uk-sub
-            - label: USA - Generic
-              value: usa-gen-s
           type: string
-        - id: $$$-st
-          label: Street ($$$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: France - Paris, Voie Triomphale (Single)
@@ -1534,10 +1532,64 @@ mandelsoft/light-replacement-mod:
               value: uk-park
             - label: USA - CBD
               value: usa-cbd
+          id: $$$-st
+          label: Street ($$$)
           type: string
-        - id: $-rd
+        - choices:
+            - label: Maxis
+              value: default
+            - label: Belgium - Antwerpen
+              value: be-an
+            - label: Belgium - Liège
+              value: be-li
+            - label: Germany - Fehnpfuhl
+              value: de-bfp
+            - label: Germany - Friedrichshain
+              value: de-bfh
+            - label: Germany - Generic (Orange)
+              value: de-gen-o
+            - label: Germany - Generic (White)
+              value: de-gen-w
+            - label: Germany - Hamburg
+              value: de-hh
+            - label: Germany - Nordrhein-Westfalen (Orange)
+              value: de-nr-wf-o
+            - label: Germany - Nordrhein-Westfalen (White)
+              value: de-nr-wf-w
+            - label: Germany - Schwarzwald (Orange)
+              value: de-sw-o
+            - label: Germany - Schwarzwald (White)
+              value: de-sw-w
+            - label: Germany - Südheide
+              value: de-sh
+            - label: Imaginia - Brinasken
+              value: im-br
+            - label: Imaginia - Yutan
+              value: im-yu
+            - label: Luxembourg - Generic
+              value: lu-gen
+            - label: Need For Speed Underground - Beacon Hills
+              value: nfsu-bh
+            - label: Need For Speed Underground - City
+              value: nfsu-gen-c
+            - label: Netherlands - Classic
+              value: nl-gen-cl
+            - label: Netherlands - Modern
+              value: nl-gen-md
+            - label: Sweden - Generic
+              value: se-gen
+            - label: Sweden - Göteborg
+              value: se-got
+            - label: UK - Generic
+              value: uk-gen
+            - label: UK - Suburbs
+              value: uk-sub
+            - label: USA - Generic
+              value: usa-gen
+          id: $-rd
           label: Road ($)
-          choices:
+          type: string
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -1588,64 +1640,10 @@ mandelsoft/light-replacement-mod:
               value: uk-sub
             - label: USA - Generic
               value: usa-gen
-          type: string
-        - id: $$-rd
+          id: $$-rd
           label: Road ($$)
-          choices:
-            - label: Maxis
-              value: default
-            - label: Belgium - Antwerpen
-              value: be-an
-            - label: Belgium - Liège
-              value: be-li
-            - label: Germany - Fehnpfuhl
-              value: de-bfp
-            - label: Germany - Friedrichshain
-              value: de-bfh
-            - label: Germany - Generic (Orange)
-              value: de-gen-o
-            - label: Germany - Generic (White)
-              value: de-gen-w
-            - label: Germany - Hamburg
-              value: de-hh
-            - label: Germany - Nordrhein-Westfalen (Orange)
-              value: de-nr-wf-o
-            - label: Germany - Nordrhein-Westfalen (White)
-              value: de-nr-wf-w
-            - label: Germany - Schwarzwald (Orange)
-              value: de-sw-o
-            - label: Germany - Schwarzwald (White)
-              value: de-sw-w
-            - label: Germany - Südheide
-              value: de-sh
-            - label: Imaginia - Brinasken
-              value: im-br
-            - label: Imaginia - Yutan
-              value: im-yu
-            - label: Luxembourg - Generic
-              value: lu-gen
-            - label: Need For Speed Underground - Beacon Hills
-              value: nfsu-bh
-            - label: Need For Speed Underground - City
-              value: nfsu-gen-c
-            - label: Netherlands - Classic
-              value: nl-gen-cl
-            - label: Netherlands - Modern
-              value: nl-gen-md
-            - label: Sweden - Generic
-              value: se-gen
-            - label: Sweden - Göteborg
-              value: se-got
-            - label: UK - Generic
-              value: uk-gen
-            - label: UK - Suburbs
-              value: uk-sub
-            - label: USA - Generic
-              value: usa-gen
           type: string
-        - id: $$$-rd
-          label: Road ($$$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Cities XL - Classic
@@ -1688,10 +1686,10 @@ mandelsoft/light-replacement-mod:
               value: usa-cbd
             - label: USA - Manhattan
               value: usa-man
+          id: $$$-rd
+          label: Road ($$$)
           type: string
-        - id: $-ave-2
-          label: AVE-2 ($)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -1740,10 +1738,10 @@ mandelsoft/light-replacement-mod:
               value: usa-gen
             - label: USA - Manhattan
               value: usa-man
+          id: $-ave-2
+          label: AVE-2 ($)
           type: string
-        - id: $$-ave-2
-          label: AVE-2 ($$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -1796,10 +1794,10 @@ mandelsoft/light-replacement-mod:
               value: usa-gen
             - label: USA - Manhattan
               value: usa-man
+          id: $$-ave-2
+          label: AVE-2 ($$)
           type: string
-        - id: $$$-ave-2
-          label: AVE-2 ($$$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Cities XL - Classic
@@ -1830,10 +1828,10 @@ mandelsoft/light-replacement-mod:
               value: usa-cbd
             - label: USA - Generic
               value: usa-gen
+          id: $$$-ave-2
+          label: AVE-2 ($$$)
           type: string
-        - id: $-ave-4
-          label: AVE-4 ($)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -1904,10 +1902,10 @@ mandelsoft/light-replacement-mod:
               value: usa-gen
             - label: USA - Manhattan
               value: usa-man
+          id: $-ave-4
+          label: AVE-4 ($)
           type: string
-        - id: $$-ave-4
-          label: AVE-4 ($$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -1980,10 +1978,10 @@ mandelsoft/light-replacement-mod:
               value: usa-gen
             - label: USA - Manhattan
               value: usa-man
+          id: $$-ave-4
+          label: AVE-4 ($$)
           type: string
-        - id: $$$-ave-4
-          label: AVE-4 ($$$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Cities XL - Classic
@@ -2012,10 +2010,82 @@ mandelsoft/light-replacement-mod:
               value: se-got
             - label: USA - Manhattan
               value: usa-man
+          id: $$$-ave-4
+          label: AVE-4 ($$$)
           type: string
-        - id: $-nwm
+        - choices:
+            - label: Maxis
+              value: default
+            - label: Belgium - Antwerpen
+              value: be-an
+            - label: Belgium - Brussels
+              value: be-br
+            - label: Belgium - Liège
+              value: be-li
+            - label: Germany - Berlin, Alexanderplatz
+              value: de-bap
+            - label: Germany - Berlin, Leipziger Allee
+              value: de-bla
+            - label: Germany - Fehnpfuhl
+              value: de-bfp
+            - label: Germany - Friedrichshain
+              value: de-bfh
+            - label: Germany - Hamburg
+              value: de-hh
+            - label: Germany - Nordrhein-Westfalen (Orange)
+              value: de-nr-wf-o
+            - label: Germany - Nordrhein-Westfalen (White)
+              value: de-nr-wf-w
+            - label: Germany - Schwarzwald (Orange)
+              value: de-sw-o
+            - label: Germany - Schwarzwald (White)
+              value: de-sw-w
+            - label: Germany - Südheide
+              value: de-sh
+            - label: Imaginia - Brinasken
+              value: im-br
+            - label: Imaginia - Yutan
+              value: im-yu
+            - label: Luxembourg - Generic
+              value: lu-gen
+            - label: Need For Speed Underground - Beacon Hills
+              value: nfsu-bh
+            - label: Need For Speed Underground - City
+              value: nfsu-gen-c
+            - label: Need For Speed Underground - Freeway
+              value: nfsu-gen-fw
+            - label: Netherlands - Classic
+              value: nl-gen-cl
+            - label: Netherlands - Freeway
+              value: nl-gen-fw
+            - label: Netherlands - Modern
+              value: nl-gen-md
+            - label: Netherlands - Zoetermeer, City Ring
+              value: zm-cr
+            - label: Sweden - Generic
+              value: se-gen
+            - label: Sweden - Göteborg
+              value: se-got
+            - label: UK - Generic
+              value: uk-gen
+            - label: UK - Industria
+              value: uk-ind
+            - label: UK - Midlands (Blue)
+              value: uk-mid-blue
+            - label: UK - Midlands (Red)
+              value: uk-mid-red
+            - label: UK - Midlands (Yellow)
+              value: uk-mid-yellow
+            - label: UK - Midllands (Green)
+              value: uk-mid-green
+            - label: USA - Chicago
+              value: usa-chi
+            - label: USA - Manhattan
+              value: usa-man
+          id: $-nwm
           label: NWM ($)
-          choices:
+          type: string
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -2084,82 +2154,10 @@ mandelsoft/light-replacement-mod:
               value: usa-chi
             - label: USA - Manhattan
               value: usa-man
-          type: string
-        - id: $$-nwm
+          id: $$-nwm
           label: NWM ($$)
-          choices:
-            - label: Maxis
-              value: default
-            - label: Belgium - Antwerpen
-              value: be-an
-            - label: Belgium - Brussels
-              value: be-br
-            - label: Belgium - Liège
-              value: be-li
-            - label: Germany - Berlin, Alexanderplatz
-              value: de-bap
-            - label: Germany - Berlin, Leipziger Allee
-              value: de-bla
-            - label: Germany - Fehnpfuhl
-              value: de-bfp
-            - label: Germany - Friedrichshain
-              value: de-bfh
-            - label: Germany - Hamburg
-              value: de-hh
-            - label: Germany - Nordrhein-Westfalen (Orange)
-              value: de-nr-wf-o
-            - label: Germany - Nordrhein-Westfalen (White)
-              value: de-nr-wf-w
-            - label: Germany - Schwarzwald (Orange)
-              value: de-sw-o
-            - label: Germany - Schwarzwald (White)
-              value: de-sw-w
-            - label: Germany - Südheide
-              value: de-sh
-            - label: Imaginia - Brinasken
-              value: im-br
-            - label: Imaginia - Yutan
-              value: im-yu
-            - label: Luxembourg - Generic
-              value: lu-gen
-            - label: Need For Speed Underground - Beacon Hills
-              value: nfsu-bh
-            - label: Need For Speed Underground - City
-              value: nfsu-gen-c
-            - label: Need For Speed Underground - Freeway
-              value: nfsu-gen-fw
-            - label: Netherlands - Classic
-              value: nl-gen-cl
-            - label: Netherlands - Freeway
-              value: nl-gen-fw
-            - label: Netherlands - Modern
-              value: nl-gen-md
-            - label: Netherlands - Zoetermeer, City Ring
-              value: zm-cr
-            - label: Sweden - Generic
-              value: se-gen
-            - label: Sweden - Göteborg
-              value: se-got
-            - label: UK - Generic
-              value: uk-gen
-            - label: UK - Industria
-              value: uk-ind
-            - label: UK - Midlands (Blue)
-              value: uk-mid-blue
-            - label: UK - Midlands (Red)
-              value: uk-mid-red
-            - label: UK - Midlands (Yellow)
-              value: uk-mid-yellow
-            - label: UK - Midllands (Green)
-              value: uk-mid-green
-            - label: USA - Chicago
-              value: usa-chi
-            - label: USA - Manhattan
-              value: usa-man
           type: string
-        - id: $$$-nwm
-          label: NWM ($$$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Cities XL - Classic
@@ -2200,10 +2198,10 @@ mandelsoft/light-replacement-mod:
               value: usa-cbd
             - label: USA - Manhattan
               value: usa-man
+          id: $$$-nwm
+          label: NWM ($$$)
           type: string
-        - id: mhw-median
-          label: Maxis Highway (Median)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -2258,10 +2256,10 @@ mandelsoft/light-replacement-mod:
               value: usa-gen
             - label: USA - Manhattan
               value: usa-man
+          id: mhw-median
+          label: Maxis Highway (Median)
           type: string
-        - id: mhw-sides
-          label: Maxis Highway (Sides)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -2306,10 +2304,10 @@ mandelsoft/light-replacement-mod:
               value: usa-gen
             - label: USA - Manhattan
               value: usa-man
+          id: mhw-sides
+          label: Maxis Highway (Sides)
           type: string
-        - id: $$-lots
-          label: Lots ($$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Cities XL - Modern
@@ -2328,10 +2326,10 @@ mandelsoft/light-replacement-mod:
               value: uk-park
             - label: USA - CBD
               value: usa-cbd
+          id: $$-lots
+          label: Lots ($$)
           type: string
-        - id: $$$-lots
-          label: Lots ($$$)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: France - Paris, Voie Triomphale (Single)
@@ -2350,10 +2348,10 @@ mandelsoft/light-replacement-mod:
               value: uk-park
             - label: USA - CBD
               value: usa-cbd
+          id: $$$-lots
+          label: Lots ($$$)
           type: string
-        - id: bridges
-          label: Bridges
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Antwerpen
@@ -2396,10 +2394,10 @@ mandelsoft/light-replacement-mod:
               value: uk-gen
             - label: USA - Mixed
               value: usa-mixed
+          id: bridges
+          label: Bridges
           type: string
-        - id: bridges-median
-          label: Suspended Bridges (Median)
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Belgium - Liège
@@ -2420,10 +2418,10 @@ mandelsoft/light-replacement-mod:
               value: gen-ot2
             - label: Sweden - Göteborg
               value: se-got
+          id: bridges-median
+          label: Suspended Bridges (Median)
           type: string
-        - id: roundabouts
-          label: Roundabouts
-          choices:
+        - choices:
             - label: Maxis
               value: default
             - label: Cities XL - Modern
@@ -2442,6 +2440,8 @@ mandelsoft/light-replacement-mod:
               value: uk-park
             - label: USA - CBD
               value: usa-cbd
+          id: roundabouts
+          label: Roundabouts
           type: string
       version: 1.0.0
 
@@ -2482,223 +2482,223 @@ mandelsoft/ploppable-streetlights:
       assets:
         - id: simtropolis/27200-light-replacement-mod-lrm-v40-mega-pack#98163
           include:
-            - path: LRM RHW Median Lights - Set 01 - IM Andaluh.dat
-              condition:
+            - condition:
                 median-set01: true
-            - path: LRM RHW Median Lights - Set 02 - IM Yutan.dat
-              condition:
+              path: LRM RHW Median Lights - Set 01 - IM Andaluh.dat
+            - condition:
                 median-set02: true
-            - path: LRM RHW Median Lights - Set 03 - NL Catenary Lights.dat
-              condition:
+              path: LRM RHW Median Lights - Set 02 - IM Yutan.dat
+            - condition:
                 median-set03: true
-            - path: LRM RHW Median Lights - Set 04 - NFSU Generic.dat
-              condition:
+              path: LRM RHW Median Lights - Set 03 - NL Catenary Lights.dat
+            - condition:
                 median-set04: true
-            - path: LRM RHW Median Lights - Set 05 - IM Jonker.dat
-              condition:
+              path: LRM RHW Median Lights - Set 04 - NFSU Generic.dat
+            - condition:
                 median-set05: true
-            - path: LRM RHW Median Lights - Set 06 - BE Brussels.dat
-              condition:
+              path: LRM RHW Median Lights - Set 05 - IM Jonker.dat
+            - condition:
                 median-set06: true
-            - path: LRM RHW Median Lights - Set 07 - BE 'Ossenkop'.dat
-              condition:
+              path: LRM RHW Median Lights - Set 06 - BE Brussels.dat
+            - condition:
                 median-set07: true
-            - path: LRM RHW Median Lights - Set 08 - NL Generic City.dat
-              condition:
+              path: LRM RHW Median Lights - Set 07 - BE 'Ossenkop'.dat
+            - condition:
                 median-set08: true
-            - path: LRM RHW Median Lights - Set 09 - IM Brinasken.dat
-              condition:
+              path: LRM RHW Median Lights - Set 08 - NL Generic City.dat
+            - condition:
                 median-set09: true
-            - path: LRM RHW Median Lights - Set 10 - SE Generic.dat
-              condition:
+              path: LRM RHW Median Lights - Set 09 - IM Brinasken.dat
+            - condition:
                 median-set10: true
-            - path: LRM RHW Median Lights - Set 11 - LU A1.dat
-              condition:
+              path: LRM RHW Median Lights - Set 10 - SE Generic.dat
+            - condition:
                 median-set11: true
-            - path: LRM RHW Median Lights - Set 12 - UK Generic.dat
-              condition:
+              path: LRM RHW Median Lights - Set 11 - LU A1.dat
+            - condition:
                 median-set12: true
-            - path: LRM RHW Median Lights - Set 13 - BE E313.dat
-              condition:
+              path: LRM RHW Median Lights - Set 12 - UK Generic.dat
+            - condition:
                 median-set13: true
-            - path: LRM RHW Median Lights - Set 14 - BE Ardennes.dat
-              condition:
+              path: LRM RHW Median Lights - Set 13 - BE E313.dat
+            - condition:
                 median-set14: true
-            - path: LRM RHW Median Lights - Set 15 - DE Schwarzwald.dat
-              condition:
+              path: LRM RHW Median Lights - Set 14 - BE Ardennes.dat
+            - condition:
                 median-set15: true
-            - path: LRM RHW Median Lights - Set 16 - NL Generic Freeway.dat
-              condition:
+              path: LRM RHW Median Lights - Set 15 - DE Schwarzwald.dat
+            - condition:
                 median-set16: true
-            - path: LRM RHW Median Lights - Set 17 - US Generic.dat
-              condition:
+              path: LRM RHW Median Lights - Set 16 - NL Generic Freeway.dat
+            - condition:
                 median-set17: true
-            - path: LRM RHW Median Lights - Set 18 - US Chicago.dat
-              condition:
+              path: LRM RHW Median Lights - Set 17 - US Generic.dat
+            - condition:
                 median-set18: true
-            - path: LRM RHW Median Lights - Set 19 - US Manhattan.dat
-              condition:
+              path: LRM RHW Median Lights - Set 18 - US Chicago.dat
+            - condition:
                 median-set19: true
-            - path: LRM RHW Median Lights - Set 20 - UK Industria.dat
-              condition:
+              path: LRM RHW Median Lights - Set 19 - US Manhattan.dat
+            - condition:
                 median-set20: true
-            - path: LRM Plopable Streetlights - Set 01 - USA.dat
-              condition:
+              path: LRM RHW Median Lights - Set 20 - UK Industria.dat
+            - condition:
                 roadside-set01: true
-            - path: LRM Plopable Streetlights - Set 02 - UK.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 01 - USA.dat
+            - condition:
                 roadside-set02: true
-            - path: LRM Plopable Streetlights - Set 03 - Germany.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 02 - UK.dat
+            - condition:
                 roadside-set03: true
-            - path: LRM Plopable Streetlights - Set 04 - The Netherlands.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 03 - Germany.dat
+            - condition:
                 roadside-set04: true
-            - path: LRM Plopable Streetlights - Set 05 - Belgium.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 04 - The Netherlands.dat
+            - condition:
                 roadside-set05: true
-            - path: LRM Plopable Streetlights - Set 06 - Sweden.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 05 - Belgium.dat
+            - condition:
                 roadside-set06: true
-            - path: LRM Plopable Streetlights - Set 07 - Luxembourg.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 06 - Sweden.dat
+            - condition:
                 roadside-set07: true
-            - path: LRM Plopable Streetlights - Set 08 - Generic Light Towers.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 07 - Luxembourg.dat
+            - condition:
                 roadside-set08: true
-            - path: LRM Plopable Streetlights - Set 09 - Imaginia.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 08 - Generic Light Towers.dat
+            - condition:
                 roadside-set09: true
-            - path: LRM Plopable Streetlights - Set 10 - NFSU.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 09 - Imaginia.dat
+            - condition:
                 roadside-set10: true
-            - path: LRM Plopable Streetlights - Set 11 - Misc.dat
-              condition:
+              path: LRM Plopable Streetlights - Set 10 - NFSU.dat
+            - condition:
                 roadside-set11: true
+              path: LRM Plopable Streetlights - Set 11 - Misc.dat
             - LRMv4 Plopable Lights*
       options:
-        - id: median-set01
+        - default: true
+          id: median-set01
           label: RHW Median - Set 01 - IM Andaluh
-          default: true
           type: boolean
-        - id: median-set02
+        - default: true
+          id: median-set02
           label: RHW Median - Set 02 - IM Yutan
-          default: true
           type: boolean
-        - id: median-set03
+        - default: true
+          id: median-set03
           label: RHW Median - Set 03 - NL Catenary Lights
-          default: true
           type: boolean
-        - id: median-set04
+        - default: true
+          id: median-set04
           label: RHW Median - Set 04 - NFSU Generic
-          default: true
           type: boolean
-        - id: median-set05
+        - default: true
+          id: median-set05
           label: RHW Median - Set 05 - IM Jonker
-          default: true
           type: boolean
-        - id: median-set06
+        - default: true
+          id: median-set06
           label: RHW Median - Set 06 - BE Brussels
-          default: true
           type: boolean
-        - id: median-set07
+        - default: true
+          id: median-set07
           label: RHW Median - Set 07 - BE 'Ossenkop'
-          default: true
           type: boolean
-        - id: median-set08
+        - default: true
+          id: median-set08
           label: RHW Median - Set 08 - NL Generic City
-          default: true
           type: boolean
-        - id: median-set09
+        - default: true
+          id: median-set09
           label: RHW Median - Set 09 - IM Brinasken
-          default: true
           type: boolean
-        - id: median-set10
+        - default: true
+          id: median-set10
           label: RHW Median - Set 10 - SE Generic
-          default: true
           type: boolean
-        - id: median-set11
+        - default: true
+          id: median-set11
           label: RHW Median - Set 11 - LU A1
-          default: true
           type: boolean
-        - id: median-set12
+        - default: true
+          id: median-set12
           label: RHW Median - Set 12 - UK Generic
-          default: true
           type: boolean
-        - id: median-set13
+        - default: true
+          id: median-set13
           label: RHW Median - Set 13 - BE E313
-          default: true
           type: boolean
-        - id: median-set14
+        - default: true
+          id: median-set14
           label: RHW Median - Set 14 - BE Ardennes
-          default: true
           type: boolean
-        - id: median-set15
+        - default: true
+          id: median-set15
           label: RHW Median - Set 15 - DE Schwarzwald
-          default: true
           type: boolean
-        - id: median-set16
+        - default: true
+          id: median-set16
           label: RHW Median - Set 16 - NL Generic Freeway
-          default: true
           type: boolean
-        - id: median-set17
+        - default: true
+          id: median-set17
           label: RHW Median - Set 17 - US Generic
-          default: true
           type: boolean
-        - id: median-set18
+        - default: true
+          id: median-set18
           label: RHW Median - Set 18 - US Chicago
-          default: true
           type: boolean
-        - id: median-set19
+        - default: true
+          id: median-set19
           label: RHW Median - Set 19 - US Manhattan
-          default: true
           type: boolean
-        - id: median-set20
+        - default: true
+          id: median-set20
           label: RHW Median - Set 20 - UK Industria
-          default: true
           type: boolean
-        - id: roadside-set01
+        - default: true
+          id: roadside-set01
           label: Roadsides - Set 01 - USA
-          default: true
           type: boolean
-        - id: roadside-set02
+        - default: true
+          id: roadside-set02
           label: Roadsides - Set 02 - UK
-          default: true
           type: boolean
-        - id: roadside-set03
+        - default: true
+          id: roadside-set03
           label: Roadsides - Set 03 - Germany
-          default: true
           type: boolean
-        - id: roadside-set04
+        - default: true
+          id: roadside-set04
           label: Roadsides - Set 04 - The Netherlands
-          default: true
           type: boolean
-        - id: roadside-set05
+        - default: true
+          id: roadside-set05
           label: Roadsides - Set 05 - Belgium
-          default: true
           type: boolean
-        - id: roadside-set06
+        - default: true
+          id: roadside-set06
           label: Roadsides - Set 06 - Sweden
-          default: true
           type: boolean
-        - id: roadside-set07
+        - default: true
+          id: roadside-set07
           label: Roadsides - Set 07 - Luxembourg
-          default: true
           type: boolean
-        - id: roadside-set08
+        - default: true
+          id: roadside-set08
           label: Roadsides - Set 08 - Generic Light Towers
-          default: true
           type: boolean
-        - id: roadside-set09
+        - default: true
+          id: roadside-set09
           label: Roadsides - Set 09 - Imaginia
-          default: true
           type: boolean
-        - id: roadside-set10
+        - default: true
+          id: roadside-set10
           label: Roadsides - Set 10 - NFSU
-          default: true
           type: boolean
-        - id: roadside-set11
+        - default: true
+          id: roadside-set11
           label: Roadsides - Set 11 - Misc
-          default: true
           type: boolean
       version: 4.0.0

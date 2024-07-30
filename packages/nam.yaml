@@ -17,322 +17,425 @@ nam/network-addon-mod:
           id: sc4evermore/2-network-addon-mod
           include:
             - path: "@0=0 NAM Controller_RHD_4GB_Full"
+              as: 0 - Controller/Controller_RHD_4GB_Full
               condition:
                 features.rhw: true
                 rhd: true
             - path: "@1-0 NAM Controller_LHD_4GB_Full"
+              as: 0 - Controller/Controller_LHD_4GB_Full
               condition:
                 features.rhw: true
                 rhd: false
             - path: "@2-0 NAM Controller_RHD_LowRAM_NoRHW"
+              as: 0 - Controller/Controller_RHD_LowRAM_NoRHW
               condition:
                 features.rhw: false
                 rhd: true
             - path: "@3-0 NAM Controller_LHD_LowRAM_NoRHW"
+              as: 0 - Controller/Controller_LHD_LowRAM_NoRHW
               condition:
                 features.rhw: false
                 rhd: false
-            - "@4^1 Core"
+            - path: "@4^1 Core"
+              as: 1 - Core
             - path: "@52 Network Features/Pedestrian Malls and Paths#"
+              as: 2 - Features/Pedestrian Malls and Paths
               condition:
                 features.pedmalls: true
             - path: "@52 Network Features/Subway and FLUPs#"
+              as: 2 - Features/Subway and FLUPs
               condition:
                 features.flups: true
             - path: "@52 Network Features/Street#/Street Addon Mod"
+              as: 2 - Features/Street Addon Mod
               condition:
                 features.sam: true
+            - path: "@52 Network Features/Street#/^Base Features"
+              as: 2 - Features/Street
             - path: "@52 Network Features/RRW Tunnel and Slope Parameters#/@2=Moderate"
+              as: 2 - Features/RealRailway/Tunnel and Slope Parameters
               condition:
                 features.rrw.slope: moderate
             - path: "@52 Network Features/RRW Tunnel and Slope Parameters#/@1-Maxis Default"
+              as: 2 - Features/RealRailway/Tunnel and Slope Parameters
               condition:
                 features.rrw.slope: maxis
             - path: "@52 Network Features/RRW Tunnel and Slope Parameters#/@3-Strict"
+              as: 2 - Features/RealRailway/Tunnel and Slope Parameters
               condition:
                 features.rrw.slope: strict
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/Rural Roads Plugin/NetworkAddonMod_Rural_Roads_SAM_*.dat"
+              as: 2 - Features/Roads/Rural Roads Plugin/*
               condition:
                 features.rural-roads: true
                 features.sam: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/Rural Roads Plugin"
+              as: 2 - Features/Roads/Rural Roads Plugin
               condition:
                 features.rural-roads: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/RealExpressway"
+              as: 2 - Features/RealExpressway
               condition:
                 features.expressway: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/Network Widening Mod and Turn Lanes"
+              as: 2 - Features/Network Widening Mod
               condition:
                 features.nwm: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/Elevated Viaducts"
+              as: 2 - Features/Roads/Elevated Viaducts
               condition:
                 features.viaducts: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/!Legacy Turn Lane Extension Piece (TuLEP) Menu Access"
+              as: 2 - Features/Roads/Legacy/Legacy Turn Lane Extension Piece (TuLEP) Menu Access
               condition:
                 legacy.tuleps: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/!Legacy Auto Avenue Turn Lanes"
+              as: 2 - Features/Roads/Legacy/Legacy Auto Avenue Turn Lanes
               condition:
                 legacy.auto-turn-lanes: true
-            - path: "@52 Network Features/RealHighway#"
-              condition:
-                features.rhw: true
-            - path: "@52 Network Features/Monorail#/High Speed Rail Project"
-              condition:
-                features.hsr: true
-            - path: "@52 Network Features/Monorail#/High Elevated Monorail Puzzle Pieces"
-              condition:
-                features.high-monorail: true
-            - path: "@52 Network Features/Maxis Highway#/@1=Default Style"
-              condition:
-                features.rhw.mhw-override: false
-            - path: "@52 Network Features/Maxis Highway#/@2-Maxis Highway Override (RHW-Style)"
-              condition:
-                features.rhw.mhw-override: true
-                features.rhw: true
-            - path: "@52 Network Features/Light Rail#/*Elevated Light Rail*"
-              condition:
-                features.elr: true
-            - path: "@52 Network Features/Light Rail#/*Ground Light Rail*"
-              condition:
-                features.glr: true
-            - path: "@52 Network Features/Hybrid Railway (RRW-RHSR)"
-              condition:
-                features.hsr: true
-                features.hybrid-rail: true
-            - path: "@52 Network Features/Water Transport#/Canal Addon Mod#/@1=Callagrafx Style"
-              condition:
-                features.canam: true
-                features.canam.style: cal
-            - path: "@52 Network Features/Water Transport#/Canal Addon Mod#/@2-SimGoober Style"
-              condition:
-                features.canam: true
-                features.canam.style: sg
-            - path: "@52 Network Features/Water Transport#/Canal Addon Mod#"
-              condition:
-                features.canam: true
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/!One-Way Road Arrow Plugins/Single Arrows for One-Way Roads"
+              as: 2 - Features/Roads/One-Way Road Arrow Plugins
               condition:
                 textures.owr-arrow-style: single
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/!One-Way Road Arrow Plugins/-One-Way Road Arrow Reduction"
+              as: 2 - Features/Roads/One-Way Road Arrow Plugins
               condition:
                 textures.owr-arrow-frequency: reduce
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/!One-Way Road Arrow Plugins/=One-Way Road Arrow Elimination"
+              as: 2 - Features/Roads/One-Way Road Arrow Plugins
               condition:
                 textures.owr-arrow-frequency: remove
             - path: "@52 Network Features/Road, One-Way Road, and Avenue#/!One-Way Road Arrow Plugins/-RealExpressway_Arrow_Remover"
+              as: 2 - Features/Roads/One-Way Road Arrow Plugins
               condition:
                 textures.owr-arrow-frequency: remove-on-expressway
+            - path: "@52 Network Features/Road, One-Way Road, and Avenue#/^Base Features"
+              as: 2 - Features/Roads
             - path: "@52 Network Features/RealHighway#/a_Legacy Support#/!Legacy Puzzle Piece Menu Buttons"
+              as: 2 - Features/RealHighway/Legacy/Legacy Puzzle Piece Menu Buttons
               condition:
                 features.rhw: true
                 legacy.rhw-buttons: true
             - path: "@52 Network Features/RealHighway#/a_Legacy Support#/RHW FLUPs Legacy Support"
+              as: 2 - Features/RealHighway/Legacy/RHW FLUPs Legacy Support
               condition:
                 features.flups: true
                 features.rhw: true
-            - "@52 Network Features"
-            - "@53 Additional Transit Stations"
+            - path: "@52 Network Features/RealHighway#"
+              as: 2 - Features/RealHighway
+              condition:
+                features.rhw: true
+            - path: "@52 Network Features/Monorail#/High Speed Rail Project"
+              as: 2 - Features/Monorail/High Speed Rail
+              condition:
+                features.hsr: true
+            - path: "@52 Network Features/Monorail#/High Elevated Monorail Puzzle Pieces"
+              as: 2 - Features/Monorail/High Elevated Monorail Puzzle Pieces
+              condition:
+                features.high-monorail: true
+            - path: "@52 Network Features/Monorail#/^Base Features"
+              as: 2 - Features/Monorail
+            - path: "@52 Network Features/Maxis Highway#/@1=Default Style"
+              as: 2 - Features/Maxis Highway/Default
+              condition:
+                features.rhw.mhw-override: false
+            - path: "@52 Network Features/Maxis Highway#/@2-Maxis Highway Override (RHW-Style)"
+              as: 2 - Features/Maxis Highway/Override
+              condition:
+                features.rhw.mhw-override: true
+                features.rhw: true
+            - path: "@52 Network Features/Light Rail#/*Elevated Light Rail*"
+              as: 2 - Features/Light Rail/Elevated Light Rail
+              condition:
+                features.elr: true
+            - path: "@52 Network Features/Light Rail#/*Ground Light Rail*"
+              as: 2 - Features/Light Rail/Ground Light Rail
+              condition:
+                features.glr: true
+            - path: "@52 Network Features/Hybrid Railway (RRW-RHSR)"
+              as: 2 - Features/Hybrid Railway
+              condition:
+                features.hsr: true
+                features.hybrid-rail: true
+            - path: "@52 Network Features/Water Transport#/Canal Addon Mod#/@1=Callagrafx Style"
+              as: 2 - Features/Canal Addon Mod/Callagrafx
+              condition:
+                features.canam: true
+                features.canam.style: cal
+            - path: "@52 Network Features/Water Transport#/Canal Addon Mod#/@2-SimGoober Style"
+              as: 2 - Features/Canal Addon Mod/SimGoober
+              condition:
+                features.canam: true
+                features.canam.style: sg
+            - path: "@52 Network Features/Water Transport#/Canal Addon Mod#"
+              as: 2 - Features/Canal Addon Mod
+              condition:
+                features.canam: true
+            - path: "@52 Network Features/^z_Rail (RealRailway)"
+              as: 2 - Features/RealRailway
+            - path: "@52 Network Features"
+              as: 2 - Features
+            - path: "@53 Additional Transit Stations"
+              as: 3 - Stations
             - path: "@54 Automata Controller#/@1-Standard"
+              as: 4 - Automata
               condition:
                 automata.controller: standard
                 automata.persistent: false
                 automata.24h: true
             - path: "@54 Automata Controller#/@2-Standard 24-Hour"
+              as: 4 - Automata
               condition:
                 automata.controller: standard
                 automata.persistent: false
                 automata.24h: true
             - path: "@54 Automata Controller#/@3=Standard Persistent"
+              as: 4 - Automata
               condition:
                 automata.controller: standard
                 automata.persistent: true
                 automata.24h: true
             - path: "@54 Automata Controller#/@4-Standard Persistent 24-Hour"
+              as: 4 - Automata
               condition:
                 automata.controller: standard
                 automata.persistent: true
                 automata.24h: true
             - path: "@54 Automata Controller#/@5-Radical"
+              as: 4 - Automata
               condition:
                 automata.controller: radical
                 automata.persistent: false
                 automata.24h: true
             - path: "@54 Automata Controller#/@6-Radical 24-Hour"
+              as: 4 - Automata
               condition:
                 automata.controller: radical
                 automata.persistent: false
                 automata.24h: true
             - path: "@54 Automata Controller#/@7-Radical Persistent"
+              as: 4 - Automata
               condition:
                 automata.controller: radical
                 automata.persistent: true
                 automata.24h: true
             - path: "@54 Automata Controller#/@8-Radical Persistent 24-Hour"
+              as: 4 - Automata
               condition:
                 automata.controller: radical
                 automata.persistent: true
                 automata.24h: true
             # TODO: What is this?
             # - path: "@54 Automata Controller#/@9-LB Radical Persistent 24-Hour"
+            #   as: 4 - Automata
             #   condition:
             #     automata.controller: radical
             #     automata.persistent: true
             #     automata.24h: true
             - path: "@55 DataView Options#/Zone Data View"
+              as: 5 - Data Views
               condition:
                 dataviews.zones: true
             - path: "@55 DataView Options#/Transit Station Data View"
+              as: 5 - Data Views
               condition:
                 dataviews.stations: true
             - path: "@55 DataView Options#/Abandoned Buildings Data View"
+              as: 5 - Data Views
               condition:
                 dataviews.abandoned: true
             - path: "@56 Miscellaneous/Extended Station Queries#/@1=Standard"
+              as: 6 - Miscellaneous/Extended Station Queries
               condition:
                 misc.stations-queries: standard
             - path: "@56 Miscellaneous/Extended Station Queries#/@2-Simple"
+              as: 6 - Miscellaneous/Extended Station Queries
               condition:
                 misc.stations-queries: simple
             - path: "@56 Miscellaneous/Extended Station Queries#/@3-Wide"
+              as: 6 - Miscellaneous/Extended Station Queries
               condition:
                 misc.stations-queries: wide
             - path: "@56 Miscellaneous/Maxis Transit Lots#/Airport Capacity Adjustment#/@2=Maxis Airport Medium Capacity"
+              as: 6 - Miscellaneous/Maxis Transit Lots
               condition:
                 simulator.airport-capacity: standard
             - path: "@56 Miscellaneous/Maxis Transit Lots#/Airport Capacity Adjustment#/@3-Maxis Airport Large Capacity"
+              as: 6 - Miscellaneous/Maxis Transit Lots
               condition:
                 simulator.airport-capacity: large
-            - "@56 Miscellaneous"
+            - path: "@56 Miscellaneous"
+              as: 6 - Miscellaneous
             - path: "@57 Bridges/*/SAM"
+              as: 7 - Bridges/Street Addon Mod
               condition:
                 features.sam: true
             - path: "@57 Bridges/*/NWM"
+              as: 7 - Bridges/Network Widening Mod
               condition:
                 features.rhw: true
             - path: "@57 Bridges/*/El-Rail"
+              as: 7 - Bridges/Light Rail/Elevated Light Rail
               condition:
                 features.elr: true
             - path: "@57 Bridges/*/GLR"
+              as: 7 - Bridges/Light Rail/Ground Light Rail
               condition:
                 features.glr: true
             - path: "@57 Bridges/*/HSR*"
+              as: 7 - Bridges/Monorail/High Speed Rail
               condition:
                 features.hsr: true
             - path: "@57 Bridges/*/RHW"
+              as: 7 - Bridges/RealHighway
               condition:
                 features.rhw: true
             - path: "@57 Bridges/*Real Highway"
+              as: 7 - Bridges/RealHighway
               condition:
                 features.rhw: true
-            - "@57 Bridges"
+            - path: "@57 Bridges"
+              as: 7 - Bridges
             - path: "@58 Texture and Drive Side Support/@0=US/@1=US_RightSide/=US Maxis Nite"
+              as: 8 - Textures/US/1 - RightSide/Maxis Nite
               condition:
                 darknite: false
                 rhd: true
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US/@1=US_RightSide/-US Dark Nite"
+              as: 8 - Textures/US/1 - RightSide/Dark Nite
               condition:
                 darknite: true
                 rhd: true
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US/@1=US_RightSide"
+              as: 8 - Textures/US/1 - RightSide
               condition:
                 rhd: true
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US/@2-US_LeftSide/=US Maxis Nite"
+              as: 8 - Textures/US/2 - LeftSide/Maxis Nite
               condition:
                 darknite: false
                 rhd: false
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US/@2-US_LeftSide/-US Dark Nite"
+              as: 8 - Textures/US/2 - LeftSide/Dark Nite
               condition:
                 darknite: true
                 rhd: false
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US/@2-US_LeftSide"
+              as: 8 - Textures/US/2 - LeftSide
               condition:
                 rhd: false
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US/@3z_Cul-De-Sacs"
+              as: 8 - Textures/US/3 - Cul-De-Sacs
               condition:
                 textures.cul-de-sacs: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@0=US/@4!z_Mid-High Density Street Intersection Islands"
+              as: 8 - Textures/US/4 - Mid-High Density Street Intersection Islands
               condition:
                 textures.intersection-islands: true
                 road-textures: us
+            - path: "@58 Texture and Drive Side Support/@0=US/US_RHD_*"
+              as: 8 - Textures/US/2 - LeftSide/*
+              condition:
+                rhd: true
+                road-textures: us
             - path: "@58 Texture and Drive Side Support/@0=US"
+              as: 8 - Textures/US
               condition:
                 road-textures: us
             - path: "@58 Texture and Drive Side Support/@1-EU/@1=EU_RightSide/=EU Maxis Nite"
+              as: 8 - Textures/EU/1 - RightSide/Maxis Nite
               condition:
                 darknite: false
                 rhd: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@1=EU_RightSide/-EU Dark Nite"
+              as: 8 - Textures/EU/1 - RightSide/Dark Nite
               condition:
                 darknite: true
                 rhd: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@1=EU_RightSide/!Maxis Highway Override Support"
+              as: 8 - Textures/EU/1 - RightSide/Maxis Highway Override Support
               condition:
                 features.rhw.mhw-override: true
                 features.rhw: textures
                 rhd: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@1=EU_RightSide"
+              as: 8 - Textures/EU/1 - RightSide
               condition:
                 rhd: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@2-EU_LeftSide/=EU Maxis Nite"
+              as: 8 - Textures/EU/2 - LeftSide/Maxis Nite
               condition:
                 darknite: false
                 rhd: false
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@2-EU_LeftSide/-EU Dark Nite"
+              as: 8 - Textures/EU/2 - LeftSide/Dark Nite
               condition:
                 darknite: true
                 rhd: false
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@2-EU_LeftSide/!Maxis Highway Override Support"
+              as: 8 - Textures/EU/2 - LeftSide/Maxis Highway Override Support
               condition:
                 features.rhw.mhw-override: true
                 features.rhw: textures
                 rhd: false
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@2-EU_LeftSide"
+              as: 8 - Textures/EU/2 - LeftSide
               condition:
                 rhd: false
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@3z_Cul-De-Sacs"
+              as: 8 - Textures/EU/3 - Cul-De-Sacs
               condition:
                 textures.cul-de-sacs: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@4!z_Mid-High Density Street Intersection Islands"
+              as: 8 - Textures/EU/4 - Mid-High Density Street Intersection Islands
               condition:
                 textures.intersection-islands: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU/@5!z_Avenue and One-Way Road Intersection Zebras"
+              as: 8 - Textures/EU/5 - Avenue and One-Way Road Intersection Zebras
               condition:
                 textures.intersection-zebras: true
                 road-textures: eu
             - path: "@58 Texture and Drive Side Support/@1-EU"
+              as: 8 - Textures/EU
               condition:
                 road-textures: eu
-            - "@58 Texture and Drive Side Support"
+            - path: "@58 Texture and Drive Side Support"
+              as: 8 - Textures
             - path: "@59 Traffic Simulator#/@1-Classic (Original Maxis Capacity - Lowest Capacity)"
+              as: 9 - Simulator
               condition:
                 simulator.traffic-capacity: lowest
             - path: "@59 Traffic Simulator#/@2=Low (Recommended)"
+              as: 9 - Simulator
               condition:
                 simulator.traffic-capacity: low
             - path: "@59 Traffic Simulator#/@3-Medium"
+              as: 9 - Simulator
               condition:
                 simulator.traffic-capacity: medium
             - path: "@59 Traffic Simulator#/@4-High"
+              as: 9 - Simulator
               condition:
                 simulator.traffic-capacity: high
             - path: "@59 Traffic Simulator#/@5-Ultra (Highest Capacity)"
+              as: 9 - Simulator
               condition:
                 simulator.traffic-capacity: highest
       options:

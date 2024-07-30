@@ -77,8 +77,8 @@
 
     This plugin is only compatible with SC4 Deluxe or SC4 with the Rush Hour Expansion Pack.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/Scr_CP.thumb.jpg.f9e9867a177bfea36552fc94ae96f919.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/SubI_CP.thumb.png.950f4701ce6e4bc288fabdb20c4a9504.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/Scr_CP.jpg.720dc96a65120ac388460663e1cdcc06.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/SubI_CP.png.763b73b929417d1cafbeb0604870ecec.png
   name: CP Floral MMP Collection
   optional:
     - memo/submenus-dll
@@ -90,21 +90,21 @@
         - id: simtropolis/36339-cp-floral-mmp-collection
           include:
             - CP Floral MMP Collection_Core Files.dat
-            - path: CP Floral MMP Collection_Submenu.dat
-              condition:
+            - condition:
                 submenus: true
-            - path: CP_*_Spring.dat
-              condition:
+              path: CP Floral MMP Collection_Submenu.dat
+            - condition:
                 season: spring
-            - path: CP_*_Summer.dat
-              condition:
+              path: CP_*_Spring.dat
+            - condition:
                 season: summer
-            - path: CP_*_Fall.dat
-              condition:
+              path: CP_*_Summer.dat
+            - condition:
                 season: fall
-            - path: CP_*_Winter.dat
-              condition:
+              path: CP_*_Fall.dat
+            - condition:
                 season: winter
+              path: CP_*_Winter.dat
       options:
         - choices:
             - label: Spring
@@ -249,16 +249,16 @@
 
     Since this plugin requires installation of the NAM, it is only compatible with SimCity 4: Rush Hour or SimCity 4 Deluxe.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de410f54_MPSFlowerbeds.thumb.jpg.ae451b287cc66f5c7504ef5313fee078.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de42d42e_MPSMarketStalls.thumb.jpg.b4455ba5346259b7262f60a6034932db.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de43f72d_MPSPlazas.thumb.jpg.0ffd408fec0a4d0c2f2fee2dacb76d0b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de45aba8_MPSSeawalls.thumb.jpg.9103e838c3e308a9b41e5e98c3e77944.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de477d88_MPSStatues.thumb.jpg.0f073a5455053e71c17c509a67adf3a1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de487ec7_MPSTrees.thumb.jpg.7157f005fc631f4538fec2fd6efc2377.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de49d523_SeawallConnectionLots.thumb.jpg.61c564813065f2a929144f49bef6f84b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666221e9c6d66_MPSSquares2.thumb.jpg.f0a1ba9b6289b4fbe3aa090364c1cae6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224d80ace3_2MPS.thumb.png.1106483e88801e2a09412d3345ecee42.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f877e6bff2_MPSFlowerbeds.jpg.5889083c3a2281192f06e8fe9c33264b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878469e0f_MPSMarketStalls.jpg.92bf5fafa666103aea84553130a8a82b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f87856a0c5_MPSPlazas.jpg.10aa5cd7a833d3381d452d8361df1178.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8789df844_MPSSeawalls.jpg.976ebdcb8c4ed5cd2989a70d6b591d00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878c7eb98_MPSSquares.jpg.ae8a5bd6bcdbb9a29c431d524c5d47f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878d61b0b_MPSStatues.jpg.aad4b752d61f7076b9414063f86b41fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878e5682f_MPSTrees.jpg.f0065d2827f9ca245b936235ce0d178c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8790c8b18_SeawallConnectionLots.jpg.98b8e5096e6d35b0430ee739654cfc1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666221d7475d9_MPSSquares2.jpg.461eb175d27c232dbeb39ff56351adeb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224ce84643_2MPS.png.997e8a240e19873333f98d98b00afdf1.png
   name: Modular Plaza System (MPS)
   optional:
     - memo/submenus-dll
@@ -600,9 +600,9 @@
 
     Please feel free to post issues, bug reports, and suggestions in this thread:
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.thumb.png.7ea0b4211bfe832221bcc4f84252afbf.png
-    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table2.thumb.png.cf6283bb8541706c3bcb4d039ff1a5ba.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_05/Feldtexturen_Tabelle.thumb.png.b7c1eb5421bacb319e1f2b73fff99da2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.png.294c9a02a2559972a86b080dafc0bfe9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table2.png.a4248fa0552c5df23d90e55c0e6ba5e4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/Feldtexturen_Tabelle.png.6ffafee6b2233aeacb555e68f65de393.png
   name: 11241036 Textures
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.thumb.png.7ea0b4211bfe832221bcc4f84252afbf.png
   url: https://community.simtropolis.com/files/file/33651-11241036-textures/
@@ -704,8 +704,8 @@
     - odrzutowiec for the idea of introducing the GLR traffic blockers
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/b3e889c444c37b6950f9e07339bc5a74-test.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e973f61ad2a1_SAM8Override.thumb.jpg.f72e111b8dbddaad3060205663f06a46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.jpg.a8c450b3ad3b1e88d97fc958a1b09d5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e973f57ccea8_SAM8Override.jpg.17789009f252e4cb6c02b97e783e5c2a.jpg
   name: Traffic Blocker Set
   requirements:
     nam: true
@@ -775,8 +775,8 @@
 
     - **Mas71:** His set of Japanese hill retaining walls surely is part of the plugins that I'm using most frequently. Now, their functionability is even being expanded.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.thumb.png.cb0ee5322a751f204134fec329ea2025.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.jpg.d34b5066fa746c20427bb6e6fea90199.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.png.de43eb44243c947ce7eff75c17b88c17.png
   name: Various Lot Foundations and Retaining Walls
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
   url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/

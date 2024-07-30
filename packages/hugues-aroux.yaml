@@ -1,3 +1,434 @@
+hugues-aroux/scoty-subway-bus-stations:
+  authors:
+    - hugues aroux
+  category: 700
+  dependencies:
+    - barroco-hispano/agc-casual-sims-dlc
+    - barroco-hispano/agc-environment-dlc
+    - barroco-hispano/agc-streets-dlc
+    - bsc/common-dependencies
+    - cogeo/additional-subway-entrance-props
+    - girafe/flora-pack
+    - girafe/french-road-signs
+    - khoianh94/european-bus-and-tram-stops
+    - nam/network-addon-mod
+    - sfbt/essentials
+    - tjh876/modern-realistic-subway-station-v2
+    - uroncha/diagonal-intersection-roadtop-subwaybus-station
+    - vnaoned/vip-props-vol01
+  description: >-
+    Introduced in 2017 (scoty sub-bus A) with a single Bus and Metro line**\***, Scoty Subway & Bus Stations, is a new version of this plugin, offering not one, but three sets of Stations.
+
+
+    Here are the A, B and C lines.
+
+
+    **A** - The [@namspopof](https://community.simtropolis.com/profile/86503-namspopof/) shelters, from the previous version of the plugin.
+
+
+    B - Shelters, sims and street furnitures from [@Barroco Hispano](https://community.simtropolis.com/profile/415633-barroco-hispano/)
+
+
+    C - Shelters from [@uroncha](https://community.simtropolis.com/profile/28733-uroncha/) (back to the origins! .. And the source of inspiration for this plugin).
+
+
+    Each Set includes 22 Lots of subway stations and bus stops.
+
+
+    .. 12 bus stops :
+
+
+    On street, road, oneway and avenue: ortho, diagonal.
+
+
+    On street and road T and X.
+
+
+    .. 10 metro + bus stations :
+
+
+    On street ortho and diagonal
+
+
+    On road ortho, diagonal, T and X.
+
+
+    On oneway and avenue ortho and diagonal.
+
+
+    The capacity of the bus stop: Street, Road and oneway: 17000+ ; Avenue: 20000.
+
+
+    The capacity of the metro stations: 24000+.
+
+
+    Note that stations on T and X can be placed in front of residences, without blocking the «road connection».
+
+
+    These lots appear in the miscellaneous transport menu.
+
+
+    **Road markings styles & Textures**
+
+
+    This version 1.4 offers 8 styles of road markings. Each is available for Avenue, Oneway, Route EU, Route US, and for the 3 streets textures variants: Maxis, TarSealedStreets by Rivit and
+    WestWindStreets by ... me.
+
+
+    The inspiration for some of these marker styles comes from markers seen in a city in the country indicated in the file suffix: DE, NL, ES, IT and UK. It's just a file name! The STD and STDW (for
+    white) formats are visible in several countries. And the 8th «NoM» for: no marking, also visible in (many) countries!
+
+
+    With the exception of OneWay-Avenue, each network file is separate, allowing you to mix and match styles.
+
+
+    **Previous version**
+
+
+    Lots from previous versions (1 to 1.3), planted in your cities, don't have to be deleted. The names of the A-line DAT files have changed, but not the IDs.
+
+
+    Thanks to all the creators of the props used here: Namspopof, Barroco-Hispano, Uroncha, Girafe (always !), McDrye, tjh876, khoianh & Fluggi, Vnaoned, the SFBT team and The NAM\-Team!
+
+
+    **\*** .. *«bah non !» ... Of course, there's no «Lines» management in SC4! ..* ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;&#41;")
+
+
+    **\*\*** .. *make sure you have all the files for these DLC and Pack-Element (Simple ref. in Cleanitol) !!*
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/annonce_01.jpg.60f6559b3cbd71dbe13a176dcb86234b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/sbs_B_STD_s.jpg.4fc5aa56940684ac71b8dfd72f9cd8e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/sbs_tex_styles.jpg.128eb26da5f812a321219abf1857f8f0.jpg
+  name: Scoty Subway & Bus Stations
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/annonce_01.thumb.jpg.f610d853868146661e57e894bafd1f0b.jpg
+  url: https://community.simtropolis.com/files/file/31940-scoty-subway-bus-stations/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Scoty/scoty_SubBusStations/SBS_notice_1-4.pdf
+            - Scoty/scoty_SubBusStations/Clean&Dep_scoty_SBS_1-4.txt
+          id: simtropolis/31940-scoty-subway-bus-stations
+          include:
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C/*_EU_RHD.dat
+              condition:
+                lines: C
+                rhd: true
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C/*_EU_LHD.dat
+              condition:
+                lines: C
+                rhd: false
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C/*_EU.dat
+              condition:
+                lines: C
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C/*_US.dat
+              condition:
+                lines: C
+                road-textures: us
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C/*_RHD.dat
+              condition:
+                lines: C
+                rhd: true
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C/*_LHD.dat
+              condition:
+                lines: C
+                rhd: false
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_C
+              condition:
+                lines: C
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_B/*_EU_RHD.dat
+              condition:
+                lines: B
+                rhd: true
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_B/*_EU_LHD.dat
+              condition:
+                lines: B
+                rhd: false
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_B/*_EU.dat
+              condition:
+                lines: B
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_B/*_US.dat
+              condition:
+                lines: B
+                road-textures: us
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_B
+              condition:
+                lines: B
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A/*_EU_RHD.dat
+              condition:
+                lines: A
+                rhd: true
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A/*_EU_LHD.dat
+              condition:
+                lines: A
+                rhd: false
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A/*_EU.dat
+              condition:
+                lines: A
+                road-textures: eu
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A/*_US_RHD.dat
+              condition:
+                lines: A
+                rhd: true
+                road-textures: us
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A/*_RHD.dat
+              condition:
+                lines: A
+                rhd: true
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A/*_LHD.dat
+              condition:
+                lines: A
+                rhd: false
+            - path: Scoty/scoty_SubBusStations/scoty_SubBusStations_A
+              condition:
+                lines: A
+            - path: scoty_SBStations_tex_*_WWS_UK.dat
+              condition:
+                marking-style: UK
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_UK.dat
+              condition:
+                marking-style: UK
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_UK.dat
+              condition:
+                marking-style: UK
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_US_UK.dat
+              condition:
+                marking-style: UK
+                road-textures: us
+            - path: scoty_SBStations_tex_*_UK.dat
+              condition:
+                marking-style: UK
+            - path: scoty_SBStations_tex_*_WWS_STDW.dat
+              condition:
+                marking-style: STDW
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_STDW.dat
+              condition:
+                marking-style: STDW
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_STDW.dat
+              condition:
+                marking-style: STDW
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_STDW.dat
+              condition:
+                marking-style: STDW
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_STDW.dat
+              condition:
+                marking-style: STDW
+                road-textures: us
+            - path: scoty_SBStations_tex_*_STDW.dat
+              condition:
+                marking-style: STDW
+            - path: scoty_SBStations_tex_*_WWS_NoM.dat
+              condition:
+                marking-style: NoM
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_NoM.dat
+              condition:
+                marking-style: NoM
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_NoM.dat
+              condition:
+                marking-style: NoM
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_NoM.dat
+              condition:
+                marking-style: NoM
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_NoM.dat
+              condition:
+                marking-style: NoM
+                road-textures: us
+            - path: scoty_SBStations_tex_*_NoM.dat
+              condition:
+                marking-style: NoM
+            - path: scoty_SBStations_tex_*_WWS_STD.dat
+              condition:
+                marking-style: STD
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_STD.dat
+              condition:
+                marking-style: STD
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_STD.dat
+              condition:
+                marking-style: STD
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_STD.dat
+              condition:
+                marking-style: STD
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_STD.dat
+              condition:
+                marking-style: STD
+                road-textures: us
+            - path: scoty_SBStations_tex_*_STD.dat
+              condition:
+                marking-style: STD
+            - path: scoty_SBStations_tex_*_WWS_NL.dat
+              condition:
+                marking-style: NL
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_NL.dat
+              condition:
+                marking-style: NL
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_NL.dat
+              condition:
+                marking-style: NL
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_NL.dat
+              condition:
+                marking-style: NL
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_NL.dat
+              condition:
+                marking-style: NL
+                road-textures: us
+            - path: scoty_SBStations_tex_*_NL.dat
+              condition:
+                marking-style: NL
+            - path: scoty_SBStations_tex_*_WWS_IT.dat
+              condition:
+                marking-style: IT
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_IT.dat
+              condition:
+                marking-style: IT
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_IT.dat
+              condition:
+                marking-style: IT
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_IT.dat
+              condition:
+                marking-style: IT
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_IT.dat
+              condition:
+                marking-style: IT
+                road-textures: us
+            - path: scoty_SBStations_tex_*_IT.dat
+              condition:
+                marking-style: IT
+            - path: scoty_SBStations_tex_*_WWS_ES.dat
+              condition:
+                marking-style: ES
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_ES.dat
+              condition:
+                marking-style: ES
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_ES.dat
+              condition:
+                marking-style: ES
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_ES.dat
+              condition:
+                marking-style: ES
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_ES.dat
+              condition:
+                marking-style: ES
+                road-textures: us
+            - path: scoty_SBStations_tex_*_ES.dat
+              condition:
+                marking-style: ES
+            - path: scoty_SBStations_tex_*_WWS_DE.dat
+              condition:
+                marking-style: DE
+                street-style: WWS
+            - path: scoty_SBStations_tex_*_TSR_DE.dat
+              condition:
+                marking-style: DE
+                street-style: TSR
+            - path: scoty_SBStations_tex_*_Maxis_DE.dat
+              condition:
+                marking-style: DE
+                street-style: Maxis
+            - path: scoty_SBStations_tex_*_EU_DE.dat
+              condition:
+                marking-style: DE
+                road-textures: eu
+            - path: scoty_SBStations_tex_*_US_DE.dat
+              condition:
+                marking-style: DE
+                road-textures: us
+            - path: scoty_SBStations_tex_*_DE.dat
+              condition:
+                marking-style: DE
+      options:
+        - id: rhd
+          global: true
+        - choices:
+            - label: Line A (namspopof)
+              value: A
+            - label: Line B (Barroco Hispano)
+              value: B
+            - label: Line C (uroncha)
+              value: C
+          default: all
+          display: checkbox
+          id: lines
+          label: Lines
+          multi: true
+          section: Lines
+          type: string
+        - id: road-textures
+          global: true
+          section: Textures
+        - choices:
+            - label: Standard (Default)
+              value: STD
+            - label: Standard (White)
+              value: STDW
+            - label: Germany
+              value: DE
+            - label: Italy
+              value: IT
+            - label: Netherlands
+              value: NL
+            - label: Spain
+              value: ES
+            - label: United Kingdom
+              value: UK
+            - label: No markings
+              value: NoM
+          default: STD
+          id: marking-style
+          label: Marking style
+          section: Textures
+          type: string
+        - choices:
+            - label: Maxis (Default)
+              value: Maxis
+            - label: Tar Sealed Streets by Rivit
+              value: TSR
+            - label: WestWind Streets
+              value: WWS
+          default: Maxis
+          id: street-style
+          label: Street marking style
+          section: Textures
+          type: string
+      version: 1.4.1
+  warnings:
+    - id: bulldoze
+      on: disable
+
 hugues-aroux/scoty-textures-packs:
   authors:
     - hugues aroux
@@ -9,7 +440,7 @@ hugues-aroux/scoty-textures-packs:
 
     Pavements, paths, parks, etc.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/img_tech_diff_2.thumb.jpg.e905ab00be9b239260bf0dc4563250b9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/img_tech_diff_2.jpg.7196c6232b1007a2c1717a04ade1e5aa.jpg
   name: Scoty Textures Packs
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/img_tech_diff_2.thumb.jpg.e905ab00be9b239260bf0dc4563250b9.jpg
   url: https://community.simtropolis.com/files/file/36297-scoty-textures-packs/
@@ -62,15 +493,6 @@ hugues-aroux/westwind-streets:
     News, preparation for updating this mod ... on [this thread](https://community.simtropolis.com/forums/topic/761614-scotys-small-tinkering/) !
 
 
-    **Installation**
-
-
-    .. As this Mod must be loaded after the NAM, and others... drop the contents of the ZIP: z_\_scoty_mods\\ directly in the Plugins folder : Documents\\SimCity 4\\Plugins\\
-
-
-    .. To be on the safe side, keep the tree structure of the ready-to-play version. And for the Fabrik version, place the contents of \_prod\\ in a directory named: z_\___scoty_mods.
-
-
     **For all distribution ..**
 
 
@@ -99,12 +521,12 @@ hugues-aroux/westwind-streets:
 
     .. Keep only the SAM transitions (scoty-WWStreets - z_opt WWS-SAM nnnnn.dat) for which you have installed the plugins (Rivit, MGB, Magneto).
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/668aa03dca016_Capturedcran2024-07-07131254.thumb.jpg.abf38ff1a307797cd63719b9a114336b.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_various-intersections-1.thumb.jpg.9eb7134097ae1d6dbc474cdf988df42a.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_gravel_option.thumb.jpg.94aa46349c6f2d00de3dbfc57d033e90.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_unkerbed_option.thumb.jpg.49b52085e0030f9165cbf2e70d594495.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_SAMs_NAM.thumb.jpg.633d348f408a2798e310a4feb41f84b1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_NWM.thumb.jpg.e7e9ae606858c6b8a10047cfcd4965c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/668a9533a5f78_Capturedcran2024-07-07131254.jpg.a79f4f5fd5bd7196e749f5eba1b37a8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_various-intersections-1.jpg.73d1e96bc8a727906a9438881ac79e0a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_gravel_option.jpg.0204a86d0d18012fef8e88a3c1a8fdc1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_rural_unkerbed_option.jpg.56807bcc2585ff61fe5362a5b52481e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_SAMs_NAM.jpg.4953d66c8b49ee237645e61c0139bcc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/wws_NWM.jpg.1aa8f5b02cd587a89f1141ef0c36b419.jpg
   name: WestWind Streets
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/668aa03dca016_Capturedcran2024-07-07131254.thumb.jpg.abf38ff1a307797cd63719b9a114336b.jpg
   url: https://community.simtropolis.com/files/file/36330-westwind-streets/
@@ -145,12 +567,6 @@ hugues-aroux/westwind-streets:
                 rural-textures: gravel
               path: z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Rural Gravel sides.dat
             - condition:
-                road-textures: eu
-              path: z____scoty_mods/Scoty-WWStreets/*EU*
-            - condition:
-                road-textures: us
-              path: z____scoty_mods/Scoty-WWStreets/*US*
-            - condition:
                 rhd: false
                 road-textures: eu
               path: z____scoty_mods/Scoty-WWStreets/*EU*LHD*
@@ -160,18 +576,16 @@ hugues-aroux/westwind-streets:
               path: z____scoty_mods/Scoty-WWStreets/*EU*RHD*
             - condition:
                 rhd: false
-                road-textures: us
-              path: z____scoty_mods/Scoty-WWStreets/*US*LHD*
-            - condition:
-                rhd: true
-                road-textures: us
-              path: z____scoty_mods/Scoty-WWStreets/*US*RHD*
-            - condition:
-                rhd: false
               path: z____scoty_mods/Scoty-WWStreets/*LHD*
             - condition:
                 rhd: true
               path: z____scoty_mods/Scoty-WWStreets/*RHD*
+            - condition:
+                road-textures: eu
+              path: z____scoty_mods/Scoty-WWStreets/*EU*
+            - condition:
+                road-textures: us
+              path: z____scoty_mods/Scoty-WWStreets/*US*
             - z____scoty_mods/*
             # TODO: Only if necessary?
             # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM7 MGB bikepaths.dat

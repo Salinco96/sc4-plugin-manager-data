@@ -97,38 +97,6 @@ girafe/4-rue-des-lilas:
     - id: bulldoze
       on: disable
 
-girafe/french-road-signs:
-  authors:
-    - Girafe
-  category: 120
-  dependencies:
-    - simfox/simfox-day-and-nite-modd
-  description: >-
-    This is a props pack that regroup 130 french road signs in 90° degree version.
-
-
-    For LOTters, these props are available in Lot Editor Ptops Section's, under the name: **SignFR...**
-
-
-    Special thanks to **BSC** **/ TSC Members**.
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Sans titre.jpg
-  name: BSC-TSC Girafe French Road Signs
-  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
-  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/214-bsc-tsc-girafe-french-road-signs
-  variants:
-    default:
-      assets:
-        - docs:
-            - ~Documents/BSC_Readmes/girafe
-          id: sc4evermore/214-bsc-tsc-girafe-french-road-signs
-          include:
-            - BSC/BSCProps/Grfe_Props
-      requirements:
-        darknite: true
-      version: 1.0.0
-
 girafe/carpack:
   authors:
     - Girafe
@@ -544,6 +512,36 @@ girafe/flora-pack:
             - BSC/girafe
       url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora
       version: 3.0.0
+
+girafe/french-road-signs:
+  authors:
+    - Girafe
+  category: 120
+  dependencies:
+    - simfox/simfox-day-and-nite-modd
+  description: >-
+    This is a props pack that regroup 130 french road signs in 90° degree version.
+
+
+    For LOTters, these props are available in Lot Editor Ptops Section's, under the name: **SignFR...**
+
+
+    Special thanks to **BSC** **/ TSC Members**.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Sans titre.jpg
+  name: BSC-TSC Girafe French Road Signs
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/214-bsc-tsc-girafe-french-road-signs
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+          id: sc4evermore/214-bsc-tsc-girafe-french-road-signs
+          include:
+            - BSC/BSCProps/Grfe_Props
+      version: 1.0.0
 
 girafe/hedges:
   authors:

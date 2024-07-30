@@ -123,16 +123,16 @@ nybt/query-replace:
             - readme*
           id: simtropolis/22916-nybt-essentials
           include:
-            - path: zz_NYBT_essentials_new_skyline.dat
-              condition:
+            - condition:
                 new-skyline: true
+              path: zz_NYBT_essentials_new_skyline.dat
             - NYBT_maxis_query_replace.dat
       options:
-        - id: new-skyline
-          label: Use new skyline
+        - default: true
           description: The standard NYC skyline can be changed into the new one, including new WTC complex
+          id: new-skyline
+          label: Use new skyline
           type: boolean
-          default: true
       url: https://community.simtropolis.com/files/file/22916-nybt-essentials/
       version: 2.0.0
 
@@ -183,10 +183,6 @@ nybt/residentials-pack:
 
 
     Project ZIP repackaging for SC4Evermore by Tyberius06, Ulisse Wolf, and Tarkus.
-
-    ![Day1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg)
-    ![Night2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg)
-    ![Day23](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day2.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night.jpg

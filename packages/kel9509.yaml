@@ -62,6 +62,9 @@ kel9509/rci-dll-query-upgrade:
     2\. [Startup Performance Optimization DLL Plugin](https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/), by Null45
 
 
+    3\. [MySimtropolis: Members Immortalized in SC4](https://community.simtropolis.com/files/file/32690-mysimtropolis-members-immortalized-in-sc4/), by CoriBoom (CorinaMaria and Cyclone Boom):
+
+
     \*\*\*\*INSTALLATION\*\*\*\*
 
 
@@ -130,19 +133,22 @@ kel9509/rci-dll-query-upgrade:
     Commute
 
 
+    Building Lot Growth Stage\*
+
+
     X Make Historical
 
 
-    City RS Capacity (and Region\*)
+    RS Capacity City / and Region\*
 
 
-    City R$$ Capacity (and Region\*)
+    R$$ Capacity City / and Region\*
 
 
-    City R$$$ Capacity (and Region\*)
+    R$$$ Capacity City / and Region\*
 
 
-    City Residents (and Capacity)
+    City Residents / and Capacity
 
 
     Regional Residential Capacity
@@ -181,6 +187,9 @@ kel9509/rci-dll-query-upgrade:
     Building Style\*
 
 
+    MySim Icon and MySim Name
+
+
     COMMERCIAL QUERY:
 
 
@@ -217,22 +226,25 @@ kel9509/rci-dll-query-upgrade:
     Customers
 
 
+    Building Lot Growth Stage\*
+
+
     X Make Historical
 
 
-    CO$$ Capacity City (and Region\*)
+    CO$$ Capacity City / and Region\*
 
 
-    CO$$$ Capacity City (and Region\*)
+    CO$$$ Capacity City / and Region\*
 
 
-    CS$ Capacity City (and Region\*)
+    CS$ Capacity City / and Region\*
 
 
-    CS$$ Capacity City (and Region\*)
+    CS$$ Capacity City / and Region\*
 
 
-    CS$$$ Capacity City (and Region\*)
+    CS$$$ Capacity City / and Region\*
 
 
     Citywide Commercial Capacity
@@ -316,19 +328,22 @@ kel9509/rci-dll-query-upgrade:
     Freight Trips
 
 
+    Building Lot Growth Stage\*
+
+
     X Make Historical
 
 
-    I-Ag (agricultural Farms) Capacity City (and Region\*)
+    I-Ag (agricultural Farms) Capacity City / and Region\*
 
 
-    I-D Capacity City (and Region\*)
+    I-D Capacity City / and Region\*
 
 
-    I-M Capacity City (and Region\*)
+    I-M Capacity City / and Region\*
 
 
-    I-HT Capacity City (and Region\*)
+    I-HT Capacity City / and Region\*
 
 
     Citywide Industrial Capacity
@@ -380,21 +395,22 @@ kel9509/rci-dll-query-upgrade:
   features:
     - rci-queries
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_05/663dc541920ed_RCIDLLQuery-Residential.thumb.jpg.fb58437e5f0df2acf9d752d24cd83007.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_05/663dc54255734_RCIDLLQuery-Commercial.thumb.jpg.47a22e2b59718a158435cff1e06d05c2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_05/663dc543136de_RCIDLLQuery-Industrial.thumb.jpg.9231640139775e973f95111181fb12df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a5757aed289_RCIDLLQuery-ResidentialBuildingv1.1.jpg.fd2df5c582654c57157ec2d276b3297e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a5757f76d97_RCIDLLQuery-ResidentialBuilding-WithMySimtropolisIcon-v1.1.jpg.044b8b0364c88819c8d0d7f7673c8ec8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a5758408896_RCIDLLQuery-CommercialBuildingv1.1.jpg.884d532237fd875cba9fb3eb8997a282.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a575886795f_RCIDLLQuery-IndustrialBuildingv1.1.jpg.43f41b1342b772db5ee7b9c6623fe696.jpg
   name: RCI DLL Query Upgrade
   optional:
     - null-45/allow-more-building-styles-dll-plugin
     - null-45/startup-performance-optimization-dll
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/663dc541920ed_RCIDLLQuery-Residential.thumb.jpg.fb58437e5f0df2acf9d752d24cd83007.jpg
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/66a5759d8c188_RCIDLLQuery-ResidentialBuildingv1.1.thumb.jpg.daf6562144118bf74cbe5c765d045442.jpg
   url: https://community.simtropolis.com/files/file/36239-rci-dll-query-upgrade/
   variants:
     default:
       assets:
         - docs:
-            - RCI DLL Query Upgrade
+            - RCI DLL Query Upgrade*
           id: simtropolis/36239-rci-dll-query-upgrade
           include:
-            - RCI DLL Query Upgrade
-      version: 1.0.0
+            - RCI DLL Query Upgrade*
+      version: 1.1.0

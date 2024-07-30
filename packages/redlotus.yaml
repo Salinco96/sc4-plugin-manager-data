@@ -1,0 +1,66 @@
+redlotus/stupid-news-ticker:
+  authors:
+    - redlotus
+  category: 30
+  description: >-
+    Tired of having to clear out a message box full of useless news items? Or are you sick of missing important messages because you were ignoring all of the junk that your advisors were throwing at
+    you?
+
+
+    The end is here. This mod eliminates nearly all of the useless 'news items' that keep popping up.
+
+
+    **Version History:**
+
+
+    V1.2:
+
+
+    Fix by [@DrFrankinStein93](https://community.simtropolis.com/profile/826662-drfrankinstein93/): fixed a bug that made the airport upgrade prompt unavailable even though requirements were met.
+
+
+    V1.1:
+
+
+    Fixed a bug that made rewards unavailable even though requirements were met. I had to allow all City Planner messages through in order to fix this, so you will have more messages coming through.
+
+
+    V1.0:
+
+
+    Rather than listing the many messages that were deleted, here is a list of the types of messages you will still get:
+
+
+    Reward and Airport Upgrade alerts.
+
+
+    All messages that contain direct links to problem areas.
+
+
+    Messages that warn you about underfunded civic buildings where a strike is imminent.
+
+
+    Disaster and Strike Messages.
+
+
+    Population Milestones (I took out most of the other "Good Job" messages, so I had to leave something).
+
+
+    Reward 'news-only' items.
+
+
+    A few misc 'run-once' news items.
+  images:
+    - https://www.simtropolis.com/objects/screens/0005/21c26c630801c14cc47a7be39ba16216-default.jpg
+  name: Stupid News Ticker
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2004/thumb-21c26c630801c14cc47a7be39ba16216-default.jpg
+  url: https://community.simtropolis.com/files/file/21323-stupid-news-ticker-mod-v12/
+  variants:
+    default:
+      assets:
+        - docs:
+            - News_Filter_1_2
+          id: simtropolis/21323-stupid-news-ticker-mod-v12
+          include:
+            - News_Filter_1_2
+      version: 1.2.0

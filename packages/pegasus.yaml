@@ -20,8 +20,8 @@ pegasus/cdk3-sp-rail-fleet:
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_05_2008/2486e017b6687d2453d8105021e06971-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2486e017b6687d2453d8105021e06971-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0005/2486e017b6687d2453d8105021e06971-product_image1.jpg
   name: PEG CDK3 SP Rail Fleet
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2008/thumb-2486e017b6687d2453d8105021e06971-product_image.jpg
   url: https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/
@@ -73,8 +73,8 @@ pegasus/mtp-scenic-views:
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_01_2006/3290f30934ff476be4b189b76ea03df8-product_image1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_01_2006/3290f30934ff476be4b189b76ea03df8-product_image2.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image2.jpg
   name: PEG MTP Scenic Views
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2006/thumb-3290f30934ff476be4b189b76ea03df8-product_image1.jpg
   url: https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/
@@ -179,7 +179,7 @@ pegasus/mtp-super-pack:
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_01_2009/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0003/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   name: PEG MTP SUPER PACK
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   url: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
@@ -195,6 +195,82 @@ pegasus/mtp-super-pack:
           include:
             - _MTP SUPER PACK
       version: 1.5.0
+
+pegasus/peg-tennis-park:
+  authors:
+    - Pegasus
+  category: 660
+  description: >-
+    I went out and bought SC4 on the very first day it was released. And from that day, the default tennis court park has bothered me and I couldn't figure out why. I even mentally played a tennis
+    game on the default court: I serve... it goes long... and I watch the ball bounce out across the street and bean some old lady in the head. My second serve is returned and flies high and to the
+    right... and I watch it skip across the railroad tracks and get crushed by a passing forklift.
+
+
+    And then it hit me... **NO FENCES!!** I've never seen a tennis court that wasn't fenced in. Without fences, there would be 20 minute delays between serves while the players ran off to shag balls.
+    An otherwise enjoyable game... would radically suck!
+
+
+    Anyway... I put a custom BAT fence around the courts, stuffed 2 on a 3x3 lot and gave it some adequate parking. Voila!! Instant Tennis Park!!
+
+
+    This 3x3 park has all the size, costs and benefits of the game's standard large park. The park was designed to be used with the [PEG Trail
+    Parks](https://community.simtropolis.com/files/file/11001-peg-trail-parks-iii/) but works just as well by itself. It does not require that you have the PEG Trail Parks installed. It is fully
+    self-contained and has no dependencies.
+
+
+    \* Like the PEG Krispy Kremes, this lot also uses a BAT modeled parking area instead of textures. This allows true 3D curbs, planters and sidewalks that add a depth and realism to the lot.
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e63299972e6865ad473e39850634a4d1-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e63299972e6865ad473e39850634a4d1-product_image2.jpg
+  name: PEG Tennis Park
+  optional:
+    - pegasus/peg-trail-parks-3
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2005/thumb-e63299972e6865ad473e39850634a4d1-product_image.jpg
+  url: https://community.simtropolis.com/files/file/11688-peg-tennis-park/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/11688-peg-tennis-park
+      version: 2.0.5
+  warnings:
+    - id: bulldoze
+      on: disable
+
+pegasus/peg-trail-parks-3:
+  authors:
+    - Pegasus
+  category: 660
+  description: >-
+    The PEG Trail Parks have returned with a whole new visual makeover. This initial release introduces the new version of the basic Trail Parks... designed to blend seamlessly with the the [PEG
+    Random Woods](https://community.simtropolis.com/files/file/4526-peg-random-woods-v206/) & the [PEG Stream Kit II](https://community.simtropolis.com/files/file/11083-peg-stream-kit-ii-v205/).
+
+
+    These new parks feature BAT modeled pathways that replace the old textured paths. This means that the paths now show while you are plopping the lots. This makes them much easier to use.
+
+
+    These Trail Parks also feature two new trail lots that will allow you to run your trails anywhere. The new EL Transit lot will allow you to extend the trails under elevated rail & highways. The
+    new Pedestrian Tunnel allows you to visually run your trails under any road or rail... or even under entire buildings or blocks.
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8c4309f065ce08a2c18dd286d80a80f0-product_image.jpg
+  name: PEG Trail Parks III
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2004/thumb-8c4309f065ce08a2c18dd286d80a80f0-product_image.jpg
+  url: https://community.simtropolis.com/files/file/11001-peg-trail-parks-iii/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/11001-peg-trail-parks-iii
+      version: 3.0.5
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pegasus/pond-kit-2:
   authors:
@@ -240,8 +316,8 @@ pegasus/pond-kit-2:
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.**
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_04_2005/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_04_2005/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
   name: PEG Pond Kit II
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_04_2005/thumb-2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
   url: https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/
@@ -272,8 +348,8 @@ pegasus/security-fencing-kit:
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_02_2008/e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_02_2008/e93137f82ebbfe8be9f12c8d2085c058-product_image1.jpg
+    - https://www.simtropolis.com/objects/screens/0026/e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0026/e93137f82ebbfe8be9f12c8d2085c058-product_image1.jpg
   name: PEG Security Fencing Kit
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2008/thumb-e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
   url: https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/
@@ -350,7 +426,7 @@ pegasus/spam-super-resource-pack:
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
   images:
-    - https://www.simtropolis.com/objects/screens/0030/23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
+    - https://www.simtropolis.com/objects/screens/0029/23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   name: PEG SPAM Super Resource Pack
   thumbnail: https://www.simtropolis.com/objects/screens/0030/thumb-23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   url: https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/
