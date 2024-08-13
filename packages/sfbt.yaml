@@ -194,6 +194,7 @@ sfbt/street-tree-mod:
                 trees: cp-deciduous
               path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Deciduous_Trees.dat
             - as: Street Mods
+              category: 970
               path: SFBT/Street Tree Mod/Street Mods
             # TODO: Options?
             # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$MD.dat
@@ -219,23 +220,8 @@ sfbt/street-tree-mod:
             - SFBT_Street_mod_revised-v2.pdf
           id: simtropolis/35660-sfbt-street-tree-mod-revised
           include:
-            - Street Tree Mod
-            # TODO: Options?
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$MD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$LD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$HD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$MD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$LD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$HD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$$MD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$$LD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$$HD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_Plop.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_IR.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_Diagonal_RCI_LD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_C$$MDHD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_RoadsideMod_R$$_C$$LDMDHD.dat
-            # - SFBT/Street Tree Mod/Street Mods/SFBT_OnewayRoadsideMod_R$$LDMDHD.dat
+            - category: 970
+              path: Street Tree Mod
         - docs:
             - _Documents
           id: sc4evermore/86-sfbt-street-tree-mod
@@ -282,5 +268,5 @@ sfbt/street-tree-mod:
               path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Deciduous_Trees.dat
       authors:
         - hugues aroux
-      name: Hugues Aroux
+      name: Revisited by Hugues Aroux
       version: 1.0.0

@@ -18,3 +18,112 @@ mas71/mega-props-vol01:
             - MAS71/Props Pack
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc
       version: 1.0.0
+
+mas71/japanese-river-project:
+  authors:
+    - MAS71
+  category: 660
+  dependencies:
+    - bsc/textures-vol01
+    - cycledogg/mega-props-vol01
+    - mas71/mega-props-vol01
+    - memo/submenus-dll
+    - porkissimo/jenx-porkie-expanded-props
+    - simfox/simfox-treepack-2
+    - simgoober/mega-props-vol01
+  description: >-
+    This SC4 Devotion LEX Legacy Pack features the Japanese River Project (JRP) canal set by MAS71 (including the Suburban Canal Set and MAS71 MEGA Props Vol 02), which had been available on the Lot
+    Exchange (LEX) at SC4 Devotion. After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023,
+    and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
+    update, and provide technical support for the pack.
+
+
+    ### **CREDITS:**
+
+
+    The following members contributed models, textures, and modding support to this collection:
+
+
+    - MAS71
+
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus.
+
+
+    ##### Special Thanks
+
+
+    Webmaster & administration staff at SC4 Devotion.
+
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that
+    may of helped somewhere along the lines.
+
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+
+    #### Contents
+
+
+    This package contains the following former LEX downloads:
+
+
+    - MAS71 Mega Props Vol02 (this replaced the JRP-PROP Pack Vol01-05 in June 2022)
+
+    - JRP-Core Lot Pack
+
+    - JRP-Addon Lot Pack 1
+
+    - JRP-Addon Lot Pack 2
+
+    - JRP Suburban Canal
+
+
+    The Lots may be found under the Seaports menu.
+
+
+    The source model files, originally available for download on the LEX, can be found in the SC4D LEX Legacy - 3DSMAX & GMAX Models Pack.
+
+
+    Various pieces of original documentation (in both English and Japanese) and earlier Cleanitol definitions can be found in the "~Documents" folder, which, while installed in the Plugins directory,
+    should be removed.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_013.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_alp2_11.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Suburban Canal Addon1_01.jpg
+  name: Japanese River Project (JRP)
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_013.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/14-park/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
+  variants:
+    default:
+      assets:
+        - docs:
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/readme*
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes
+          id: sc4evermore/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
+          exclude: # TODO
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme/zz_mas71_jrp046_v-curves_none-ponton_v-curves.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Z___BSC MODs/MML/zz_Mas71_JRP-MML_080714.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@5!xx_Options#/!Transparent Water Lots/JRP_Transparent Water_LOTs.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@5!xx_Options#/!JRP Water Mod Beta/JRP_WaterMod_Beta.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@7!Lot Set - CHERRY tree/MAS71 JRP Suburban Canals - Cherry Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@5!Lot Set - PORKISSIMO tree/MAS71 JRP Suburban Canals - Porkissimo Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@6!Lot Set - SIMFOX tree/MAS71 JRP Suburban Canals - SimFox Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@4Lot Set - MAXIS tree/MAS71 JRP Suburban Canals - Maxis Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@303_OPTION (Guardrail)/03_JRPSC prop_Option Gurdrail 01.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Green/02_JRPSC prop_Fence-GREEN.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Black/02_JRPSC prop_Fence-BLACK.dat
+          include:
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/=White/02_JRPSC prop_Fence-WHITE.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2
+      name: Default
+      version: 2.0.0

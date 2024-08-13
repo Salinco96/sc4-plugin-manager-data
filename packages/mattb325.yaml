@@ -221,28 +221,6 @@ mattb325/commercial-pack:
     provide technical support for the pack.
 
 
-    #### Dependencies
-
-
-    The following files are required in order for the contents of this package to appear correctly (i.e., no "brown boxes" or missing textures):
-
-
-    - [SC4D LEX Legacy - BSC Common Dependencies Pack (Version 4 / 9 August 2023 or later)](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
-    - [JENXPorkie Expanded Porkie Props](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props)
-
-    - [Maxis Buildings As Props and DLC Props](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/14-maxis-buildings-as-props-and-dlc-props-v2-1)
-
-    - Mattb325 Urban Civics Prop Pack Vol 01 - [DarkNite](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/96-mattb325-urban-civics-prop-pack-vol01-darknite) or
-    [MaxisNite](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/97-mattb325-urban-civics-prop-pack-vol01-maxisnite)
-
-    - [PEG Security Fencing Kit](https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/)
-
-    - [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
-
-    - [Super SHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
-
-
     #### Credits
 
 
@@ -494,17 +472,6 @@ mattb325/commercial-w2w-pack:
     provide technical support for the pack.
 
 
-    #### Dependencies
-
-
-    The following files are required in order for the contents of this package to appear correctly (i.e., no "brown boxes" or missing textures):
-
-
-    - [SC4D LEX Legacy - BSC Common Dependencies Pack (Version 4 / 9 August 2023 or later)](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
-    - [JENXPorkie Expanded Porkie Props](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props)
-
-
     #### Credits
 
 
@@ -662,6 +629,67 @@ mattb325/commercial-w2w-pack:
     - id: bulldoze
       on: disable
 
+mattb325/holland-park-terraces:
+  authors:
+    - mattb325
+  category: 230
+  dependencies:
+    - cycledogg/mega-props-vol01
+  description: >-
+    At the request of a fellow SC4 player, these luxurious terraces fronting London's Holland Park are now available for SC4.
+
+
+    This wealthy part of London is famous for its glistening white, wide-fronted and commodious homes. These terraces are a far cry from the slums of the east end, or indeed the nearby mews which once
+    housed servants and stables. Given the multi million pound price tags, most of these terraces are now embassies and consulates.
+
+
+    This terrace provides a home for 23 R$$$ sims and is offered as a 1x1 and 1x2 lot for medium and high density zoning.
+
+
+    **STATS:**
+
+
+    Bulldoze Cost: $303
+
+
+    Capacity satisfied: R$$$ 23 (R$$ 49, R$ 86 when dilapidated)
+
+
+    Pollution at center: 1/1/4
+
+
+    Radius: 6/7/0
+
+
+    Water consumed: 7 Gallons
+
+
+    Power Consumed: 3 MwH
+
+
+    Thank you and enjoy
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/55d655c07978a06958a12e7f5d1e2c3f-hollandpark.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/31fbfaf0995b650f3f27fd3c71f12483-hollandpark1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/f4cb38492fb3227971405985df825fd8-hollandpark2.jpg
+  name: Holland Park Terraces
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-55d655c07978a06958a12e7f5d1e2c3f-hollandpark.jpg
+  url: https://community.simtropolis.com/files/file/28125-holland-park-terraces/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Mattb325 Holland Park
+          id: simtropolis/28125-holland-park-terraces
+          include:
+            - Mattb325 Holland Park
+      # requirements:
+      #   darknite: false # TODO
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 mattb325/residential-multi-unit-pack:
   authors:
     - Mattb325
@@ -682,20 +710,6 @@ mattb325/residential-multi-unit-pack:
 
     Please note that this pack ***may*** receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and
     provide technical support for the pack.
-
-
-    #### Dependencies
-
-
-    The following files are required in order for the contents of this package to appear correctly (i.e., no "brown boxes" or missing textures):
-
-
-    - [SC4D LEX Legacy - BSC Common Dependencies Pack (Version 4 / 9 August 2023 or later)](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
-    - Mattb325 Urban Civics Prop Pack Vol 01 - [Dark Nite](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/96-mattb325-urban-civics-prop-pack-vol01-darknite) or [Maxis
-    Nite](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/97-mattb325-urban-civics-prop-pack-vol01-maxisnite) Version
-
-    - [JENXPorkie Expanded Porkie Props](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props)
 
 
     #### Credits
@@ -900,16 +914,6 @@ mattb325/simcoug-historic-shops:
     >
 
     > \- SimCoug
-
-
-    ### Dependencies:
-
-
-    Just the mattb325 models - **INCLUDED**
-
-
-    If you use the dark nite version, you will need a dark nite mod. Either: (http://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) OR
-    (http://gizmo.aplaceforwebsite.com/index.php)
 
 
     ### Developer notes:

@@ -1,0 +1,518 @@
+diego-del-llano/bryant-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Bryant Building (Kansas City)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
+          include:
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL-BryantBuilding-HD-MN
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL-BryantBuilding-HD-DN
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/buttons-button:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Buttons Button
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202189
+          include:
+            - condition:
+                darknite: false
+                lots: growable
+              path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ButtonsButton-MN/DiegoDLL_ButtonsButton-MN-GROW-CS$$$.SC4Lot
+            - condition:
+                darknite: false
+                lots: landmark
+              path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ButtonsButton-MN/DiegoDLL_ButtonsButton-MN-PLOP-CS$$$.SC4Lot
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ButtonsButton-MN
+            - condition:
+                darknite: true
+                lots: growable
+              path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ButtonsButton-DN/DiegoDLL_ButtonsButton-DN-GROW-CS$$$.SC4Lot
+            - condition:
+                darknite: true
+                lots: landmark
+              path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ButtonsButton-DN/DiegoDLL_ButtonsButton-DN-PLOP-CS$$$.SC4Lot
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ButtonsButton-DN
+      options:
+        - choices:
+            - label: Growable CS$$$
+              value: growable
+            - label: Landmark CS$$$
+              value: landmark
+          default:
+            - landmark
+          display: checkbox
+          id: lots
+          label: Lots
+          multi: true
+          type: string
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/centerpoint-energy-plaza:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: CenterPoint Energy Tower (Houston)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202190
+          include:
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL-CenterpointEnergyPlaza-MN
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL-CenterpointEnergyPlaza-DN
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/chicago-board:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Chicago Board of Trade
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202189
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ChicagoBoard-MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ChicagoBoard-DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/cordoba-libertad:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Edificio Cordoba y Libertad (Buenos Aires)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202189
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_CordobaLibertad_HD_MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_CordobaLibertad_HD_DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/eastern-columbia-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Eastern Columbia Building (Los Angeles)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202190
+          include:
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL_EasternColumbiaBuilding_MN
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL_EasternColumbiaBuilding_DN
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/empire-state-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Empire State Building (New York City)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202190
+          include:
+            - DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL-EmpireStateBuilding-SD-DN
+      name: Dark Nite
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
+          include:
+            - DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL-EmpireStateBuilding-SD-MN
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/fuller-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Flatiron Building (New York City)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202190
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL_FullerBuilding-HD-MN
+              condition:
+                darknite: true
+            - path: DiegoDLL-MODELS 22 23 24 PART 3/DiegoDLL_FullerBuilding-HD-DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/kansas-city-power-and-light-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Kansas City Power and Light Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL-KansasCityPowerAndLightBuilding-HD-MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL-KansasCityPowerAndLightBuilding-HD-DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/la-jewelry-center:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: LA Jewelry Center
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202191
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 4/DiegoDLL_LAJewelryCenter_MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 4/DiegoDLL_LAJewelryCenter_DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/la-nacional-cmdx:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Edificio La Nacional (Mexico City)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202191
+          include:
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 4/DiegoDLL_LaNacionalCMDX_MN
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 4/DiegoDLL_LaNacionalCDMX_DN
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/la-nacional-monterrey:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Edificio La Nacional (Monterrey)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202191
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 4/DiegoDLL_LaNacionalMonterrey_MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 4/DiegoDLL_LaNacionalMonterrey_DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/ohio-bell-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Ohio Bell Building (Cleveland)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL_OhioBellBuilding_HD_MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL_OhioBellBuilding_HD_DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/one-south-broad:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: One South Broad (Philadelphia)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL-OneSouthBroad-HD-MN
+              condition:
+                darknite: false
+            - path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL-OneSouthBroad-HD-DN
+              condition:
+                darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/price-tower:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Price Tower (Bartlesville)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
+          include:
+            - condition:
+                lots: growable
+              path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL_PriceTower-DN/DiegoDLL_PriceTower- Grow (R$$3_3x3) DN.SC4Lot
+            - condition:
+                lots: landmark
+              path: DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL_PriceTower-DN/DiegoDLL_PriceTower- Plop (CS$$_3x3) DN.SC4Lot
+            - DiegoDLL-MODELS 22 23 24 PART 5/DiegoDLL_PriceTower-DN
+      name: Dark Nite
+      requirements:
+        darknite: true
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
+          include:
+            - condition:
+                lots: growable
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_PriceTower-MN/DiegoDLL_PriceTower- Grow (R$$$3_3x3) MN.SC4Lot
+            - condition:
+                lots: landmark
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_PriceTower-MN/DiegoDLL_PriceTower- Plop (CS$$_3x3) MN.SC4Lot
+            - DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_PriceTower-MN
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 1.0.0
+  options:
+    - choices:
+        - label: Growable R$$$, 3x3
+          value: growable
+        - label: Landmark CS$$, 3x3
+          value: landmark
+      default:
+        - landmark
+      display: checkbox
+      id: lots
+      label: Lots
+      multi: true
+      type: string
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/title-guarantee-building:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Title Guarantee and Trust Company Building (Los Angeles)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
+          include:
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_TitleGuarantee _MN
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_TitleGuarantee _DN
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/wells-fargo-minneapolis:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Wells Fargo Center (Minneapolis)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
+          include:
+            - condition:
+                darknite: false
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_WellsFargoMinneapolis_MN
+            - condition:
+                darknite: true
+              path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_WellsFargoMinneapolis_DN
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+diego-del-llano/wiltern-theatre:
+  authors:
+    - Diego Del Llano
+  category: 363
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  name: Wiltern Theatre (Los Angeles)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
+  url: https://community.simtropolis.com/files/file/36362-diego-del-llano-models-2022-23-24/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
+          include:
+            - path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_WilternTheatre_HD_DN
+              condition:
+                darknite: true
+            - path: DiegoDLL-MODELS 22 23 24 PART 1/DiegoDLL_WilternTheatre_HD_MN
+              condition:
+                darknite: false
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

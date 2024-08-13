@@ -1,41 +1,12 @@
 11241036/cp-floral-mmp-collection:
   authors:
     - "11241036"
-  category: 670
+  category: 672
   dependencies:
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
     - lowkee33/seasonal-flora-patch
   description: >-
-    **Warning! Please take yourself time to read the Readme in order to avoid nasty side effects, such as the double icon bug, and some entries not working the way you want.**
-
-
-    **Dependencies:**
-
-
-    **BSC Common Dependencies Pack Version 8 or higher:**
-    [https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
-
-    *In particular, you need the following files: BSC MEGA Props - CP Vol01.dat, BSC Mega Props - CP Vol02.dat*
-
-
-    **Seasonal Flora Patch** (if your terrain mod doesn't support seasonal flora):
-    https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/36-lk33-seasonalflorapatch
-
-
-    **Submenus DLL** (optional): https://community.simtropolis.com/files/file/36142-submenus-dll/
-
-
-    **Other MMP plugins related to CP's content you might be interested in:**
-
-
-    **BSC CP MMPs for CP MEGA Prop Packs:** https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/132-bsc-cp-mmp-for-cp-mega-prop-packs
-
-
-    **Description:**
-
-
     This plugin contains, as its name already implies, a few plant MMP's derivated from CP's props. Like all other MMP's, they are available in your Mayor Mode menu. There's nothing special to tell
     about them, and there isn't really a coherent theme they all would be part of, but in my opinion they are a nice addition to the game, and they aren't part of any other upload. Some of them are
     seasonal, therefore, please read the item descriptions carefully, because some of these seasonal items need to be planted in in-game September, and some in March.
@@ -93,28 +64,17 @@
             - condition:
                 submenus: true
               path: CP Floral MMP Collection_Submenu.dat
-            - condition:
-                season: spring
-              path: CP_*_Spring.dat
-            - condition:
-                season: summer
-              path: CP_*_Summer.dat
-            - condition:
-                season: fall
-              path: CP_*_Fall.dat
-            - condition:
-                season: winter
-              path: CP_*_Winter.dat
+            - CP_*_{{season}}.dat
       options:
         - choices:
             - label: Spring
-              value: spring
+              value: Spring
             - label: Summer
-              value: summer
+              value: Summer
             - label: Fall
-              value: fall
+              value: Fall
             - label: Winter
-              value: winter
+              value: Winter
           description: Season
           id: season
           label: Season
@@ -123,6 +83,97 @@
   warnings:
     - id: bulldoze
       on: disable
+
+11241036/fa-roads-t21-mod:
+  authors:
+    - "11241036"
+  category: 970
+  description: >-
+    This mod alters the FA\-2 and FA\-3 roads (only straight routes) that come with NAM to remove the trees (and the lanterns, if you want) there. The idea to do this came to me after reading this
+    thread: https://community.simtropolis.com/forums/topic/763344-fractional-angle-w2w/
+
+
+    Please make sure to read the installation instructions below, the plugin needs to be customized to avoid unwanted effects.
+
+
+    **Please note:**
+
+
+    - In unzoned and agricultural areas, no objects show up, anyway. This mod doesn't change this.
+
+    - To make the change reflected in-game close to already grown zones, you may need to plop with the Road tool into a FA\-2 or FA\-3 route.
+
+    - If you are growifying a plopped building with the Growify DLL, the zone changes to low, medium, or high density. This will affect adjacent routes, but only if you drag them again or plop into
+    them with the Road tool.
+
+
+    What the files do:
+
+
+    - *FA Roads T21 Mod_Remove All.dat*: removes all objects whatsoever from straight FA\-2 and FA\-3 routes.
+
+    - *FA Roads T21 Mod_Remove Trees all D.dat*: removes all trees whatsoever from straight FA\-2 and FA\-3 routes (the lanters remain).
+
+    - *FA Roads T21 Mod_Remove Trees Lanterns HD.dat*: removes all objects from straight FA\-2 and FA\-3 routes, but only on high-density zoning (residential, commercial, and industrial). Low-density
+    zoning (only residential and commercial), as well as the plopped zone, are not affected.
+
+
+    **Compatibility:**
+
+
+    This mod is only compatible with SC4: Deluxe or SC4 with Rush Hour installed. Furthermore, **this mod is incompatible with any other mod altering the placement of props via editing the T21
+    exemplar files with the same IID the NAM uses.**
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr.jpg.ed5e98ef6bc367a380d71e0369f0c545.jpg
+  name: FA Roads T21 Mod
+  requirements:
+    nam: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr.thumb.jpg.5d95f6f7180546b207c2f93d8a1d2274.jpg
+  url: https://community.simtropolis.com/files/file/36380-fa-roads-t21-mod/
+  variants:
+    default:
+      assets:
+        - docs:
+            - zFA Roads T21 Mod
+          id: simtropolis/36380-fa-roads-t21-mod
+          include:
+            - path: FA Roads T21 Mod_Remove All.dat
+              condition:
+                density: all
+                remove-lanterns: true
+                remove-trees: true
+            - path: FA Roads T21 Mod_Remove Trees Lanterns HD.dat
+              condition:
+                density: high-only
+                remove-lanterns: true
+                remove-trees: true
+            - path: FA Roads T21 Mod_Remove Trees all D.dat
+              condition:
+                remove-lanterns: false
+                remove-trees: true
+      options:
+        - default: true
+          id: remove-trees
+          label: Remove trees
+          type: boolean
+        - condition:
+            remove-trees: true
+          default: true
+          id: remove-lanterns
+          label: Remove lanterns
+          type: boolean
+        - choices:
+            - label: All
+              value: all
+            - label: High density only
+              value: high-only
+          condition:
+            remove-lanterns: true
+            remove-trees: true
+          id: density
+          label: Density
+          type: string
+      version: 1.0.0
 
 11241036/modular-plaza-system-mps:
   authors:

@@ -1,0 +1,51 @@
+building-architecht-dude/large-freight-train-station:
+  authors:
+    - Building Architecht Dude
+  category: 732
+  dependencies:
+    - pegasus/cdk3-super-pack
+    - pegasus/mtp-super-pack
+    - pegasus/spam-super-resource-pack
+  description: >-
+    Been looking for a better Large Freight Yard? Well, look no further!
+
+
+    Thanks to an incredible amount of reviews I have put together an improved version of the original Large Freight Yard. This new version has extensive updating to stats, textures, props, main
+    building, and more!
+
+
+    **Stats**
+
+
+    Power: 180 Volts
+
+
+    Water: 20
+
+
+    Capacity: 6000
+
+
+    Monthly Maintenance Fee: 200 Simolians
+
+
+    I would like to thank all of those who helped me to improve this BAT with their reviews! Thank you all!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/c5c54e3f5fea1b797226f65feb41433a-main-large-freight-train-v11-pic.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/64b62fd247ac0df37752835e9bafdd94-night-time-large-train-v11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_08_2012/46af2f7755d9f31178c9555cc8b0a397-day-time-view-large-freight-train-v11.jpg
+  name: Large Freight Train Station
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_08_2012/c5c54e3f5fea1b797226f65feb41433a-main-large-freight-train-v11-pic.jpg
+  url: https://community.simtropolis.com/files/file/27938-large-freight-train-station/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Large Freight Train Station
+          id: simtropolis/27938-large-freight-train-station
+          include:
+            - Large Freight Train Station
+      version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable

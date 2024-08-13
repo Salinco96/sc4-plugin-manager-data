@@ -22,3 +22,33 @@ davide1983it/milcoln-tower:
   warnings:
     - id: bulldoze
       on: disable
+
+davide1983it/outdoor-set-v1:
+  authors:
+    - davide1983it
+  category: 120
+  description: |-
+    Here some prop, from sketchup forum i converted some item into SimCity
+
+    American car
+
+    1 patio
+
+    garden forniture as deck, table, umbrella, driveway (3 style), plants
+
+    3 different swimming pool
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60eb60b32abec_outdoorset(1).jpg.a2e1cd05738a05a2ac7dd3975a129784.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60eb60b876c25_outdoorset(2).jpg.7bacebed70a0438a2f90420b98615c0d.jpg
+  name: Outdoor Set Vol 01
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60eb61357bb91_outdoorset(1).thumb.jpg.d472832f29791a2132b45e9ca7a3ef1f.jpg
+  url: https://community.simtropolis.com/files/file/34586-outdoor-set-v1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - outdoor v1
+          id: simtropolis/34586-outdoor-set-v1
+          include:
+            - outdoor v1
+      version: 2.0.0

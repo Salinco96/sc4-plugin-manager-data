@@ -1,0 +1,76 @@
+blahdy/blp-ndex-boston-big-dig-project:
+  authors:
+    - Blahdy
+  category: 700
+  dependencies:
+    - memo/submenus-dll
+  description: >-
+    This SC4 Devotion LEX Legacy Pack features the complete set of Boston Central Artery-Tunnel (Big Dig) by Blahdy, including Props and Lots, which had been available on the Lot Exchange (LEX) at SC4
+    Devotion.
+
+
+    ***This mod has partial support for Left Hand Drive (LHD). Only the Ground Maxis Highway ramp is not compatible with Left Hand Drive (LHD) and cannot have support because of how the prop was
+    rendered.***
+
+
+    It includes the contents of 2 previously separate downloads.
+
+
+    After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to
+    collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
+    update, and provide technical support for the pack.
+
+
+    ### **CREDITS:**
+
+
+    The following members contributed models, textures, and modding support to this collection:
+
+
+    - Blahdy
+
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Ulisse Wolf.
+
+
+    ##### Special Thanks
+
+
+    Webmaster & administration staff at SC4Evermore and SC4 Devotion.
+
+
+    For memo for subsequent updates on the NAM/Java installer.
+
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that
+    may of helped somewhere along the lines.
+
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/stex-a-cn1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/stex-a-cn2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/stex-bigd1.jpg
+  name: BLP-NDEX Boston Central Artery-Tunnel (Big Dig)
+  requirements:
+    nam: true
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/stex-a-cn1.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/280-blp-ndex-boston-big-dig-project
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents
+          id: sc4evermore/280-blp-ndex-boston-big-dig-project
+          include:
+            - Boston Central Artery - Tunnel Project (Big Dig)
+      version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

@@ -1,0 +1,33 @@
+walkingsnake/parking-textures-vol01:
+  authors:
+    - WalkingSnake
+  category: 110
+  description: |-
+    Contains the popular Parking Lot texture dependency by WalkingSnake (previously sc4jeeks). From the author:
+
+    These textures were previously known under my old name, **Sc4jeeks**. By the help of BSC they have been updated to remedy the texture conflict reported on them.
+
+    These textures are also known as **WalkingSnake Textures**. If you have used the old Sc4jeeks version, be sure to run Cleanitol with the enclosed file to remove the following outdatedfiles:
+
+    - plottextures0.dat
+    - plottextures2.dat
+    - plottextures3.dat
+    - plottextures4.dat
+    - plottextures5.dat
+    - plottextures7.dat
+    - plottextures9.dat
+    - sc4jeeks_textures.dat
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/WS Textures.jpg
+  name: WalkingSnake (Sc4jeeks) Parking Textures Vol 01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/WS Textures.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/131-walkingsnake-sc4jeeks-parking-textures-vol-01
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: sc4evermore/131-walkingsnake-sc4jeeks-parking-textures-vol-01
+          include:
+            - WalkingSnake/Textures
+      version: 1.0.0

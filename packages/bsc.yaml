@@ -1,11 +1,12 @@
 bsc/canals-collection:
   authors:
     - SimGoober
-    - callagrafx
     - Citynut
-    - zero7
     - Mattb325
     - MGB204
+    - Tyberius06
+    - callagrafx
+    - zero7
   category: 660
   dependencies:
     - bsc/essentials
@@ -20,7 +21,6 @@ bsc/canals-collection:
     - csx/mega-props-vol01
     - cycledogg/mega-props-vol01
     - cycledogg/textures-vol01
-    - ripptide/mega-props-vol01
     - dolphin66/mega-props-vol01
     - dolphin66/mega-props-vol02
     - jestarr/mega-props-vol01
@@ -29,13 +29,16 @@ bsc/canals-collection:
     - jestarr/mega-props-vol05
     - jestarr/mega-props-vol07
     - jestarr/mega-props-vol08
+    - memo/submenus-dll
     - ncd/railyard-textures-vol01
     - pegasus/mtp-scenic-views
     - pegasus/mtp-super-pack
     - pegasus/pond-kit-2
+    - ripptide/mega-props-vol01
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
     - tag-one/mega-props-vol03
+    - walkingsnake/parking-textures-vol01
   description: >-
     This SC4 Devotion LEX Legacy Pack features the BSC Team and SC4D LEX Restoration Team-assembled canal and waterway uploads of multiple popular BSC BATers and their associates like: **SimGoober**,
     **Callagrafx**, **Newman Inc** (**CityNut**), **Zero7** (rp2004/2005), **Mattb325** and **MGB204/rsc204** (with diagonal addons), which had been available on the Lot Exchange (LEX) at SC4 Devotion
@@ -95,8 +98,7 @@ bsc/canals-collection:
 
 
     Optionally in the *~Documents* folder in the main ZIP you can find a collective/master and separately all the individual cleanitol files and by using either the newer **[nos.17's SC4
-    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or the older **[BSC Cleanitol](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol)** tool you can
-    search and remove old and outdated versions of these files.
+    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or the older **BSC Cleanitol** tool you can search and remove old and outdated versions of these files.
 
 
     Bear in mind that this Collection contains Prop packs only available with this upload. Those prop packs can be used and referenced by other contents may not part of this collection as
@@ -105,66 +107,16 @@ bsc/canals-collection:
     help for lotters.
 
 
-    ### DEPENDENCIES:
+    ### DLL DEPENDENCIES:
 
 
-    The following files are required in order for the contents of this package to appear correctly (i.e., no "brown boxes" or missing textures) (the below listed dependencies are covering a full
-    install; for dependencies for individual collections see the ***readme_SC4D LEX Legacy - BSC Canals Collection V1.html*** in the ZIP. Bear in mind that the original readmes are also available in
-    the *~Documents/BSC_Readmes* folder, but they have **not** been updated):
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed
+    dependencies are covering a full install):
 
 
-    - **SC4D LEX Legacy - BSC Canals and Waterways Collection v1** (and above) - **INCLUDED**
+    - [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.
 
-        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
-
-    - - BSC MEGA Props - Canals SimGoober Brick Style
-        - BSC MEGA Props - Canals CAL Remastered SimGoober Style
-        - BSC MEGA Props - Canals CAL Stone Canals
-        - BSC MEGA Props - Canals Newman Inc Rivers and Ponds
-        - BSC BATProps SG Irrigation Canals v2
-        - BSC BATProps SG Ditches 2009
-        - BSC BATProps SG Urban Canal
-        - Zero7 Sunken Canal Props
-
-    - [**SC4D LEX Legacy - BSC Common Dependencies Pack v9**](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)
-
-        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
-
-    - - BSC Essentials
-        - BSC MEGA Props - SG Vol01 v4
-        - BSC MEGA Props - CP Vol01
-        - BSC MEGA Props - RT Vol01 v4
-        - BSC MEGA Props - SWI21 Vol01 v4
-        - BSC MEGA Props - D66 Vol01 v3
-        - BSC MEGA Props - D66 Vol02
-        - BSC MEGA Props - JES Vol01 v2
-        - BSC MEGA Props - JES Vol03 v2
-        - BSC MEGA Props - JES Vol04 v2
-        - BSC MEGA Props - JES Vol05 v2
-        - BSC MEGA Props - JES Vol07 v2
-        - BSC MEGA Props - JES Vol08 v2
-        - BSC MEGA Props - T1 Vol03
-        - BSC MEGA Props - CAL Vol01 v2
-        - BSC MEGA Props - Newman Inc Vol01 v3
-        - BSC MEGA Props - MISC Vol01 v2
-        - BSC MEGA Props - MISC Vol02 v4
-        - BSC Prop Pack - CAL Small Boats Vol01
-        - CSX MEGA Props - Vol01 v3
-
-    - - BSC Textures Vol01
-        - BSC Textures Vol02
-        - BSC Textures Vol03 v4
-        - BSC TexturePack Cycledogg V01b
-
-    - [**PEG MTP SUPER PACK v1.5**](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/ "PEG-SUPER_TEXTURES.dat") - you only need the PEG-SUPER_TEXTURES.dat for this.
-
-    - [**PEG PondKit 2 - Deluxe Edition v206**](https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/)
-
-    - [**PEG MTP Scienic Views**](https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/ "PEG_ScenicViews_RESOURCE.dat") (only the PEG_ScenicViews_RESOURCE.dat)
-
-    - [**NCD Railyard Texture Mega-Pack Vol 1 v03**](https://www.sc4evermore.com/index.php/downloads/download/246-ncd-railyard-texture-mega-pack-vol01-v3)
-
-    - [**WalkingSnake (Sc4jeeks) Parking Textures Vol 01**](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/131-walkingsnake-sc4jeeks-parking-textures-vol-01)
+        Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
 
 
     ### **CREDITS:**
@@ -220,10 +172,8 @@ bsc/canals-collection:
             - ~Documents/BSC_Readmes
           id: sc4evermore/277-sc4d-lex-legacy-bsc-canals-collection
           include:
-            - BSC/CAL
-            - BSC/@1BSCProps#
-            - BSC/@2Canals
-      version: 1.0.0
+            - BSC
+      version: 2.0.0
 
 bsc/common-dependencies:
   # authors: TODO

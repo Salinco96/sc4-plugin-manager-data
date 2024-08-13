@@ -10,12 +10,6 @@ justforfun/crown-union-jack-gardens:
 
     The Crown measures 6x5 tiles, the Union Jack is made of two rotated 4x5 lots. Both have a monthly maintenance cost of 200 and come with custom query sounds.
 
-    DEPENDENCIES:
-
-    BSC MEGA Props - D66 Vol01 contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
-    [AGV Heuvelstraat 109 & Stationsstraat 41](https://community.simtropolis.com/files/file/31406-heuvelstraat-109-stationsstraat-41-tilburg/)
-
     As usual stay tuned for more coming to the STEX!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/668c1f6185371_JFFCrown-UJackGardens.jpg.bb11c69cb25484673380341282b66aa2.jpg
@@ -30,6 +24,1134 @@ justforfun/crown-union-jack-gardens:
           id: simtropolis/36332-crown-union-jack-gardens
           include:
             - JFFCrown&UnionJackGardens
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/farr-passenger-train-station:
+  authors:
+    - justforfun
+  category: 732
+  dependencies:
+    - bombardiere/british-boxes
+    - cycledogg/mega-props-vol01
+    - deadwoods/mega-props-vol01
+    - justforfun/post-offices-pack-2
+    - justforfun/victorian-row-shops-diagonal
+    - justforfun/victorian-row-shops-pack-01
+    - simfanatik/london-taxis-cab
+  description: >-
+    So... your sims need to get the train on fractional-angle railroads but they can't for lack of stations?
+
+
+    Here is one to plop on 72-degree rail, that is FARR 3, with a capacity of 65,000 passengers and modding revised by @Tyberius to the best NAM standard. It sits on a 4x2 lot and features an
+    overhanging platform.
+
+
+    The model is a true 3d therefore suitable for any camera angles, and the whole package weighs a mere 57 KB!
+
+
+    What do your sims think of their new oblique facility? Let me know through likes and reviews, and as usual stay tuned for more coming to the STEX!
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/front.jpg.0af350a673e9e9b2207c6d7b3c69ad76.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/platform.jpg.612858bec599d234350c1f87eb149e17.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/right.jpg.58a22ee0b0c23a94ea020b1d2d882990.jpg
+  name: FARR Passenger Train Station
+  requirements:
+    nam: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/front.thumb.jpg.d22f5cd03d3664f3e33491d773e8c82c.jpg
+  url: https://community.simtropolis.com/files/file/36386-farr-passenger-train-station/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFF FARRstation
+          id: simtropolis/36386-farr-passenger-train-station
+          include:
+            - JFF FARRstation
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/post-offices-pack-1:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - 11241036/textures
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - bombardiere/british-boxes
+    - bombardiere/clerkenwell-close
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-row-shops-pack-02
+    - justforfun/victorian-semi-detached-houses-pack-02
+    - mattb325/bat-props-vol02
+    - porkissimo/jenx-porkie-expanded-props
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - vortext/textures-vol01
+  description: >-
+    Give your sims a widespread and efficient mail network with this set of 10 post offices!
+
+
+    They come in a variety of styles and lot sizes suitable for straight, diagonal, corner, or roundabout settings.
+
+
+    If you download the ploppable version you'll find the icons in the landmark menu, with descriptions of which layout each post office is suitable for and how many CO$$ or CO$$$ jobs it provides.
+
+
+    Alternatively you can download the growable version and plop these with the extracheats plugin, like I personally do. In this case you'll find them listed under CO$$ JFF Post office, as they all
+    share the same CO$$ building.
+
+
+    Included in the file are also straight, diagonal, and 22.5-angled props of the van which you can use in the LE.
+
+
+    Lastly, both the growable and ploppable versions weigh about 700KB, the rest of the download is pictures!
+
+
+    If you enjoy this new mail service, please like and review and stay tuned for more coming to the STEX!
+
+
+    Justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e1fb590d4_Postoffice01.jpg.85a38eb6ee56067a21a32a546cf0057e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e205cbd9b_Postoffice02.jpg.d6f005c6e6de9e9e88944ae3a33ceaf7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e20c5e4a4_Postoffice03.jpg.746e3fa649e83b53cea05f73c5ca544e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e2128f15e_Postoffice04.jpg.9b7672fbfc28f88ee8c540464d165288.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e21a6c7bd_Postoffice05.jpg.4d8aa80affce37b76e0d3b09be8e1b5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e2207abb4_Postoffice06.jpg.13527358bf765edc0d1dce27e8dd6497.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e22967730_Postoffice07.jpg.eecf89ca8b2da0734927fe25eba6eba1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e22e3379c_Postoffice08.jpg.4d047e1c974f494c16ca915fb6179898.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e235601ef_Postoffice09.jpg.3959cd246e2e5e01095676cccd90aefe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e23b1f4e7_Postoffice10.jpg.b190d2323ef763a5699d6ffbd1766008.jpg
+  name: Post Offices Pack 1
+  optional:
+    - justforfun/royal-mail-van
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e44da1973_Postoffice01.thumb.jpg.f69ed5003590fe35c77d18936d67f6d5.jpg
+  url: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFF PostOfficesPack1 GROW
+          id: simtropolis/35797-post-offices-pack-1-mail-van-automata#198684
+          include:
+            - as: Growables
+              condition:
+                growables: true
+              path: JFF PostOfficesPack1 GROW
+        - docs: []
+          id: simtropolis/35797-post-offices-pack-1-mail-van-automata#198685
+          include:
+            - as: Landmarks
+              condition:
+                landmarks: true
+              path: JFF PostOfficesPack1 PLOP
+      options:
+        - choices:
+            - label: Growables
+              value: growables
+            - label: Landmarks
+              value: landmarks
+          default: all
+          display: checkbox
+          id: lots
+          label: Lots
+          multi: true
+          type: string
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/post-offices-pack-2:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - anotn/augustenborg-houses
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - bombardiere/british-boxes
+    - bombardiere/clerkenwell-close
+    - bsc/textures-vol03
+    - gascooker/mega-props-vol01
+    - justforfun/post-offices-pack-1
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-diagonal
+    - justforfun/victorian-row-shops-pack-02
+    - justforfun/victorian-row-shops-pack-03
+    - justforfun/victorian-semi-detached-houses-pack-02
+    - namspopof/props-vol02
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  description: >-
+    The ten post offices of the first pack weren't enough to cover your sprawling city? Here come ten more! Once again in various styles and lot sizes suitable for straight, diagonal, and corner
+    settings.
+
+
+    If you download the ploppable version you'll find the icons in the landmark menu, with descriptions of which layout each post office is suitable for and how many CO$$ or CO$$$ jobs it provides.
+
+
+    Alternatively you can download the growable version and plop these with the extracheats plugin, like I personally do. In this case you'll find them listed under "CO$$ JFF Post office", as they all
+    share the same CO$$ building.
+
+
+    Did you get the mail delivery van along with pack 1? Then also these new offices will spawn the little Morris automata.
+
+
+    The growable version weighs 642KB and the ploppable one 724KB - the rest of the download is pictures!
+
+
+    If you enjoy this expanded mail service, please like and review and stay tuned for more coming to the STEX!
+
+
+    Justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/16.jpg.1daf36483dda19c1a693c012c12c29a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/17.jpg.cd05bee9352ec518ca77020249c60c58.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/15.jpg.86ed84029a9a9b94f8a187b85e1f9760.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/13.jpg.cc5de6f5dc22e1f9514aecb01b8a8fcf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/18.jpg.65116a557af954b26a053cb965d3f646.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/11.jpg.011e6403c04d85da15b3815e38da3773.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/12.jpg.10b4a387bd0ad761c95bb2cea43a94b2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/14.jpg.ea4514628b6aa93fb32372c6cafdf77f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/19.jpg.d3ce45a17c4302077977ee35bb6c6fd2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/20.jpg.d1bd58891390062385939c065a1b3b67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/menu.jpg.455ebc8b113c8aed38b9d6f4562bd60d.jpg
+  name: Post Offices Pack 2
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_01/16.thumb.jpg.e34cd70403d9425a1981ea5815a16dfc.jpg
+  url: https://community.simtropolis.com/files/file/36034-post-offices-pack-2/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFPostOfficesPack2-GROW
+          id: simtropolis/36034-post-offices-pack-2#199378
+          include:
+            - as: Growables
+              condition:
+                growables: true
+              path: JFFPostOfficesPack2-GROW
+        - docs: []
+          id: simtropolis/36034-post-offices-pack-2#199379
+          include:
+            - as: Landmarks
+              condition:
+                landmarks: true
+              path: JFFPostOfficesPack2-PLOP
+      options:
+        - choices:
+            - label: Growables
+              value: growables
+            - label: Landmarks
+              value: landmarks
+          default: all
+          display: checkbox
+          id: lots
+          label: Lots
+          multi: true
+          type: string
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/royal-mail-van:
+  authors:
+    - justforfun
+  category: 700
+  description: 1950s Morris van upscaled 20% to make it fit with Maxis vehicles. The "Royal Mail" logo on its side isn't really noticeable so this little automaton can suit any vintage city.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e23fd0c90_RoyalMailvan.jpg.8d85d934fa389780221c78e53a03fc06.jpg
+  name: Royal Mail Van Automata
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e454bfe54_RoyalMailvan.thumb.jpg.be4d78f6e50f0333b0732a09e09441b5.jpg
+  url: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35797-post-offices-pack-1-mail-van-automata#198683
+      version: 1.0.0
+
+justforfun/royal-main-van-automata:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - 11241036/textures
+    - bombardiere/british-boxes
+    - bombardiere/clerkenwell-close
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-row-shops-pack-02
+    - justforfun/victorian-semi-detached-houses-pack-02
+    - porkissimo/jenx-porkie-expanded-props
+  description: >-
+    Give your sims a widespread and efficient mail network with this set of 10 post offices!
+
+
+    They come in a variety of styles and lot sizes suitable for straight, diagonal, corner, or roundabout settings.
+
+
+    If you download the ploppable version you'll find the icons in the landmark menu, with descriptions of which layout each post office is suitable for and how many CO$$ or CO$$$ jobs it provides.
+
+
+    Alternatively you can download the growable version and plop these with the extracheats plugin, like I personally do. In this case you'll find them listed under CO$$ JFF Post office, as they all
+    share the same CO$$ building.
+
+
+    Additionally, if you want your post offices to spawn a vintage mail delivery van, you can download the separate file containing the UDI automaton. It is a 1950s Morris van upscaled 20% to make it
+    fit with Maxis vehicles. The "Royal Mail" logo on its side isn't really noticeable so this little automaton can suit any vintage city.
+
+
+    Included in the file are also straight, diagonal, and 22.5-angled props of the van which you can use in the LE.
+
+
+    Lastly, both the growable and ploppable versions weigh about 700KB, the rest of the download is pictures!
+
+
+    DEPENDENCIES
+
+
+    Essential for the models:
+
+
+    [JFF Victorian Row Houses Megapack 01](https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/)
+
+
+    [JFF Victorian Row Houses Megapack 02](https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/)
+
+
+    [JFF Semidetached House Pack 02](https://community.simtropolis.com/files/file/35547-victorian-semi-detached-houses-pack-02/)
+
+
+    [JFF Victorian Row Shops Pack 01](https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/)
+
+
+    [JFF Victorian Row Shops Pack 02](https://community.simtropolis.com/files/file/35494-victorian-row-shops-pack-02/)
+
+
+    Textures:
+
+
+    [11241036 Textures](https://community.simtropolis.com/files/file/33651-11241036-textures/)
+
+
+    [Vortexture 1 - Base Set v1](https://www.sc4evermore.com/index.php/downloads/download/168-vortext-vortexture-1-2-base-set-grass-and-dirt)
+
+
+    Recommended:
+
+
+    (BSC MEGA Props - CP Vol01
+
+
+    BSC Mega Props - CP Vol02
+
+
+    BSC MEGA Props - SG Vol 01
+
+
+    BSCBATPropsMattb325_Vol02) all contained in the [BSC Common Dependencies Pack](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+
+    [Bombardiere British Boxes](https://community.simtropolis.com/files/file/29965-british-boxes/)
+
+
+    [Bombardiere - Clerkenwell Close](https://community.simtropolis.com/files/file/31011-clerkenwell-close-hd-version/)
+
+
+    [PorkieProps-Vol1](https://community.simtropolis.com/files/file/11421-jenx-porkie-expanded-porkie-props/)
+
+
+    [SFBT Essentials](https://sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+
+    If you enjoy this new mail service, please like and review and stay tuned for more coming to the STEX!
+
+
+    Justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e1fb590d4_Postoffice01.jpg.85a38eb6ee56067a21a32a546cf0057e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e205cbd9b_Postoffice02.jpg.d6f005c6e6de9e9e88944ae3a33ceaf7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e20c5e4a4_Postoffice03.jpg.746e3fa649e83b53cea05f73c5ca544e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e2128f15e_Postoffice04.jpg.9b7672fbfc28f88ee8c540464d165288.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e21a6c7bd_Postoffice05.jpg.4d8aa80affce37b76e0d3b09be8e1b5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e2207abb4_Postoffice06.jpg.13527358bf765edc0d1dce27e8dd6497.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e22967730_Postoffice07.jpg.eecf89ca8b2da0734927fe25eba6eba1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e22e3379c_Postoffice08.jpg.4d047e1c974f494c16ca915fb6179898.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e235601ef_Postoffice09.jpg.3959cd246e2e5e01095676cccd90aefe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e23b1f4e7_Postoffice10.jpg.b190d2323ef763a5699d6ffbd1766008.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e23fd0c90_RoyalMailvan.jpg.8d85d934fa389780221c78e53a03fc06.jpg
+  name: Post Offices Pack 1 + mail van automata
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/6575e44da1973_Postoffice01.thumb.jpg.f69ed5003590fe35c77d18936d67f6d5.jpg
+  url: https://community.simtropolis.com/files/file/35797-post-offices-pack-1-mail-van-automata/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/35797-post-offices-pack-1-mail-van-automata#198683
+          include:
+            - JFF RoyalMailVan.dat
+      name: Default
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/semi-detached-houses-pack-03:
+  authors:
+    - justforfun
+  category: 200
+  dependencies:
+    - aarsgevogelte/heuvelstraat-109-stationsstraat-41-tilburg
+    - barroco-hispano/agc-environment-dlc
+    - bsc/mega-props-misc-vol01
+    - bsc/mega-props-misc-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - davide1983it/outdoor-set-v1
+    - deadwoods/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - jenp/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - justforfun/post-offices-pack-1
+    - justforfun/post-offices-pack-2
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-diagonal
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-row-shops-pack-02
+    - justforfun/victorian-semi-detached-houses-pack-01
+    - justforfun/victorian-semi-detached-houses-pack-02
+    - lbt/mega-props-vol01
+    - mattb325/bat-props-vol02
+    - namspopof/props-vol01
+    - namspopof/props-vol02
+    - ndex/textures-vol01
+    - sciurus/s54-proppack-vol1
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - wmp/mega-props-vol02
+    - xannepan/prop-pack-tree-props-vol01
+  description: |-
+    This third pack of semi-detached homes provides 6 R$$ and 6 R$$$ in a variety of Victorian and Georgian designs.
+
+    They grow under Chicago tileset on medium or low-density 4x2, 5x2, 4x3, or 5x3 lots as detailed below:
+
+    R$$$ semi 13 5x3, medium density
+
+    R$$$ semi 14 4x3, low or medium density
+
+    R$$$ semi 15 5x3, low or medium density
+
+    R$$$ semi 16 4x3, medium density
+
+    R$$$ semi 17 4x3, low or medium density
+
+    R$$$ semi 18 4x3, low or medium density
+
+    R$$ semi 13 4x2, medium density
+
+    R$$ semi 14 4x2, low or medium density
+
+    R$$ semi 15 4x2, low or medium density
+
+    R$$ semi 16 5x2, medium density
+
+    R$$ semi 17 5x2, low or medium density
+
+    R$$ semi 18 5x2, low or medium density
+
+    The models are true 3d suitable for all camera angles, and along with the lots are packed into a single file which only weighs 667 KB.
+
+    Recommended for full prop and texture variety:
+
+    TODO: BSC Mansion - Uppark Estate
+
+    TODO: [HaS dependencies](http://hide-inoki.com/bbs/archives/sc4_0372.html)
+
+    Do your sims enjoy their new leafy quarters? Let me know through likes and reviews, and as usual stay tuned for more coming to the STEX!
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d18ff14f2_Rsemi16front.jpg.e47b894ff0e17b2160aa3f5a076c448f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d1ae35d47_Rsemi14.jpg.38e10b41c64f117234c766e0ca83942e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d1b80d9e5_Rsemi13.jpg.e48dd90b80b8de1f117c2ac8ead7391d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d1e4c2ee1_Rsemi16.jpg.4344c293a7e09b38fe9d74dd1b62d67b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d1f52b6bc_Rsemi17.png.7b4eab3df136131396b42b5900793771.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d1fbe93ed_Rsemi13.jpg.0524d1b07770725d2a181281d6e44cea.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d2051af18_Rsemi17.jpg.f11ce74458a3e4dda3ac490a3a4ae178.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d21716039_Rsemi15.jpg.4edffae8fe6498028bfe411ffb3c202f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d220dc64c_Rsemi18.jpg.ae93ec63154e471a46c00c8b90a674a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d22b12532_Rsemi14.jpg.1c950fd69e1e804a9e80ed4502321137.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d2344d3ae_Rsemi18.jpg.56ec0258fedbc7ea2033aa998486e3fc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d23a6724d_Rsemi15.jpg.b5aa13a3b7893a127573ddbd7cbd50f1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d2687e00b_Rsemi16side.jpg.19fdfafc6e904d5e44644783b725423c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d26c27c9f_Modelsa.jpg.a2ae30f06b7b33a61fc5443328ab9393.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b340845713b_Modelsb.jpg.7b3b02cc6ed051db1ff081682a32b6d2.jpg
+  name: Semi-detached houses Pack 03
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b0d610828a1_Rsemi16front.thumb.jpg.954f3d2b9a3ed12a7fc9238ce8da32b4.jpg
+  url: https://community.simtropolis.com/files/file/36373-semi-detached-houses-pack-03/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFSemiHousePack03
+          id: simtropolis/36373-semi-detached-houses-pack-03
+          include:
+            - JFFSemiHousePack03
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-row-houses-megapack-01:
+  authors:
+    - justforfun
+  category: 200
+  dependencies:
+    - 11241036/textures
+    - aarsgevogelte/heuvelstraat-109-stationsstraat-41-tilburg
+    - bombardiere/clerkenwell-close
+    - bsc/essentials
+    - bsc/mega-props-misc-vol01
+    - bsc/mega-props-misc-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - davide1983it/outdoor-set-v1
+    - deadwoods/mega-props-vol01
+    - debussyman/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - gascooker/mega-props-vol01
+    - historic-harbor/historic-harbor-props
+    - jenp/mega-props-vol01
+    - mattb325/bat-props-vol02
+    - ndex/textures-vol01
+    - rebalynnts/fence-props
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - swi21/mega-props-vol01
+    - vortext/textures-vol01
+    - xannepan/prop-pack-tree-props-vol01
+  description: >-
+    Have you ever wanted to build a Victorian city or district, yet felt frustrated by lack of variety? This pack is here to help, bringing to you no less than 100 new types of period row houses,
+    namely 30 R$, 45 R$$, and 25 R$$$, many in several colour variations, plus a few wall and fence props which will allow you to create a wide variety of period streets.
+
+
+    All the models are w2w and most grow on a 4x2 medium-density lot under Chicago tileset.
+
+
+    The mews houses grow on a 2x4 or 1x4 lot.
+
+
+    Two R$$$ are grid-breaking diagonals that grow on a 1x1 lot. To build streets with these, I suggest using the "buildingplop" cheat (you'll find the set under "R$ JFF terrace", "R$$ JFF terrace",
+    and "R$$$ JFF terrace" and following entries) and then the fantastic growification tool by [@smf_16](https://community.simtropolis.com/profile/259789-smf_16/)
+
+
+    If you want to use the props in the Lot Editor, they are easily found under the prefix JFF.
+
+
+    IMPORTANT: these models are S3Ds, not BATs, which means they look like the in-game automata, with crisp textures yet no shading. They will stand out from other models and look sharper and
+    brighter. There might be a future release in standard BAT format if the conversion is resumed. Personally I use the S3Ds in game as I love the high definition and the tiny memory they require when
+    compared to BATs - the whole pack inclusive of .desc and .lot files weighs less than 5MB!
+
+
+    TODO: [BSC Mansion - Uppark Estate](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=144)
+
+
+    TODO: [HaS dependencies](http://hide-inoki.com/bbs/archives/sc4_0372.html)
+
+
+    TODO: [RDQ HD Prop Pack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3432)
+
+
+    If you enjoy these models, stay tuned for more packs coming to the STEX!
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5d21ccc4c_R24.jpg.0301c87b2cba3b6b8cf5386c687aca8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5d2c5c46d_R25.jpg.b51655c1d12de32835438eaebaf6686a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5d6c97bdb_R28.jpg.31e2d4140b069ece5385ac7c19b4b368.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5db53e639_R08.jpg.24c94ccbcb65af41dfbb4a7a8472431c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5df5a55c9_R24.png.ef7c5771cd97c18953a8990b7105b782.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5e0aa1987_R26R29.png.93bb0551ef354004c75052dc1285c88b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/619e5e2468651_R38.jpg.9cf7bdc537aded585fd9f52c6cc2fac1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models1.jpg.ad0c982db190b27690ae6c69e092b08a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models2.jpg.6a345d2b4dc3609f8c56af3501365da2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models3.jpg.956d9d1084474481de6d17088c33f38e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models4.jpg.fb2060d50c589077ff28313b1354079c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models5.jpg.107cc80bc7b61dafec1e7d7fd971e08f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models6.jpg.6e292cb98c43af19a19d653d8e27d3c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models7.jpg.c560401e9a2b797e315579daa1978e32.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models8.jpg.0faf31d5576e815705ddea17811a0cc7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_11/Models9.jpg.76361f4c10c3d189729da4b9592f2ed7.jpg
+  name: Victorian Row Houses MegaPack 01
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/619e655b01e61_R24.thumb.jpg.61bc88df721d35e475ec3d4dcd4be229.jpg
+  url: https://community.simtropolis.com/files/file/34759-victorian-row-houses-megapack-01/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFRowHouseMegaPack01
+          id: simtropolis/34759-victorian-row-houses-megapack-01
+          include:
+            - JFFRowHouseMegaPack01
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-row-houses-megapack-02:
+  authors:
+    - justforfun
+  category: 200
+  dependencies:
+    - historic-harbor/historic-harbor-props
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-semi-detached-houses-pack-01
+    - lbt/mega-props-vol01
+    - mattb325/holland-park-terraces
+  description: >-
+    While the first Row Houses MegaPack provided 100 house designs, this Megapack 02 brings to you, well, 100 more! That's right: 100 more Victorian, Edwardian, Georgian, and even Tudor w2w models and
+    114 lots, to build rows upon rows of traditional terraces. The designs draw largely from London, but also from American and Canadian cities.
+
+
+    You will find 30 new R$, 55 R$$, and 15 R$$$, plus colour variations, mirrored versions, and a few fence props. The grand total of both packs thus comes to 60 R$, 100 R$$, and 40 R$$$.
+
+
+    The rows grow on medium-density Chicago tileset; most on 4x2 prints, others on 4x3, 4x1, 2x4, 1x4, or 2x6 prints, as detailed in the separate documentation images. Along with 10 new mews houses, I
+    also threw in a few additional lots for the mews of Megapack 01.
+
+
+    Stats are realistic rather than Maxis (for example a R$$ house will typically host 5 people, obviously more if taller) and the lots feature the same dummy buildings of Megapack 01 plus new ones.
+
+
+    Since each house is a single prop, the rows are moderately slop-friendly.
+
+
+    In case you are going to plop them using the extracheat plugin, note that some designs come with lot A and lot B, which are meant to alternate so that the architectural features align. The props
+    are found in the LE under the prefix JFF.
+
+
+    As incredible as it sounds, all models and lots are contained in one single file which weighs less than 4 MB! That's possible because these models are S3Ds, not BATs, which also means they look
+    like the ingame automata, with crisp textures yet no shading.
+
+
+    So... if you like the result of \*many\* months of painstaking, fingertip-breaking work, please let me know through likes and reviews!
+
+
+    And as always stay tuned for more upcoming fun.
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/01.jpg.ad88d31dca56bdd6847b337285de1f51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/02.jpg.aa8094bdc7bd12fbeba801beaecc3ea5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/03.jpg.f8db994e4a319eb962424320da1adc0e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/04.jpg.afd56d9883a4eab1c690d8e12c8df7c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/05.jpg.05138013630a71602356e3001e710509.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/06.jpg.30b3c9da1292a0646d2e810a554fb4dd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/07.jpg.ae50229acff731074f5d7730749d862f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/08.jpg.ae2e7fc44fada2e2e2226f9fd2c337be.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/09.jpg.903a82dfbad86dbf880e6b8a0a39724e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/10.jpg.943c535338f8c8abbe191d38f80a1025.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/11.jpg.4ef913d3568a4f961fafbc41d6fdf9bd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/12.jpg.7ae5cd5ca7f4dd28bbff50b73b444c9c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/13.jpg.d44dd933336bb32bd5ffbdc952475649.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/14.jpg.ef1484a0830aea27d3e2bfd77f08b6e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/15.jpg.c5cc05f35ce06e4c43ac21aa5967198f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/16.jpg.fd9bc1e60ac30f21c8336ac2f76b41db.jpg
+  name: Victorian Row Houses MegaPack 02
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_01/01.thumb.jpg.674d253177807bed027be6affb806e72.jpg
+  url: https://community.simtropolis.com/files/file/35406-victorian-row-houses-megapack-02/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFRowHouseMegaPack02-Documentation images
+          id: simtropolis/35406-victorian-row-houses-megapack-02#196085
+        - docs:
+            - JFFRowHousePack2
+          id: simtropolis/35406-victorian-row-houses-megapack-02#196084
+          include:
+            - JFFRowHousePack2
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-row-shops-diagonal:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - bsc/mega-props-misc-vol01
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - historic-harbor/historic-harbor-props
+    - jenp/mega-props-vol01
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-row-shops-pack-02
+    - murimk/props-vol03
+  description: |-
+    Add visual interest and jobs to your diagonal networks with this set of 11 detailed shop parades!
+
+    They come in 1x1 lots with overhanging props in various lengths, covering from 3 to 5.5 diagonal tiles. Seven of them are Cs$$, one is Cs$$$, and three are Cs$.
+
+    The ploppable version includes icons in the landmark menu, and the description will tell you how many tiles each parade covers.
+
+    Alternatively you can download the growable version and plop these with the extracheats plugin, like I personally do. In this case you'll find them listed under Cs$$$/Cs$$/Cs$ JFF shop parade.
+
+    Both versions only weigh about 1900KB, the rest of the download is pictures!
+
+    If you enjoy these models, stay tuned for more coming to the STEX!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/1.jpg.c43dc39935d30e7e64060e01e4837bbe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/2.jpg.1489a39e7a48682fd07c06d38216c0d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/3.jpg.08fd172bdd82675eb30d035f2890bfbd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/4.jpg.8e839030960783b3bf5a3428b2cfa1af.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/5.jpg.9e4b02060704d0ddcc20b6cb5c3cfaa2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/6.jpg.bff762022f605ae923f9f895b2c5bf9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/7.jpg.622feef1008582100bc838fff94e1063.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/8.jpg.e3831fb2b63a1198c1f848a1b08fae0d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/9.jpg.f8aa2845eea7f4b0cf30398e0e260a30.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/10.jpg.e7aeb3340d37ad8a1084e4cde5165c91.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/11.jpg.5e5c1c4d4c517274dd9b16cae8039ff2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/12.jpg.7779b0270d4a934d28553a8d447c6d92.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_05/13.jpg.74c1dd0bf5f250e3060caf65ec1e05c3.jpg
+  name: Victorian Row Shops Diagonal
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_05/1.thumb.jpg.a503bffca5fdd65a10bdb9a87fd7dcce.jpg
+  url: https://community.simtropolis.com/files/file/35527-victorian-row-shops-diagonal/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFRowShopsDiagonal GROW
+          id: simtropolis/35527-victorian-row-shops-diagonal#197074
+          include:
+            - as: Growables
+              condition:
+                growables: true
+              path: JFFRowShopsDiagonal GROW
+        - docs: []
+          id: simtropolis/35527-victorian-row-shops-diagonal#197075
+          include:
+            - as: Landmarks
+              condition:
+                landmarks: true
+              path: JFFRowShopsDiagonal PLOP
+      options:
+        - choices:
+            - label: Growables
+              value: growables
+            - label: Landmarks
+              value: landmarks
+          default: all
+          display: checkbox
+          id: lots
+          label: Lots
+          multi: true
+          type: string
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-row-shops-pack-01:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - 11241036/textures
+    - aarsgevogelte/heuvelstraat-109-stationsstraat-41-tilburg
+    - bombardiere/british-boxes
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - davide1983it/outdoor-set-v1
+    - dolphin66/mega-props-vol01
+    - historic-harbor/historic-harbor-props
+    - jbsimio/mega-props-vol01
+    - jenp/mega-props-vol01
+    - justforfun/victorian-row-houses-megapack-01
+    - mattb325/bat-props-vol02
+    - ndex/textures-vol01
+    - rp2007/uk-tiny-terraces
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - wmp/the-cougar-fruit-packing-ltd
+  description: >-
+    This pack contains 15 S3D Victorian shop parades of various lot size, featuring individual shopfronts and divided as follows:
+
+
+    #3 Cs$ parades with 34 shop fronts,
+
+
+    #6 Cs$$ parades with 95 shop fronts,
+
+
+    #6 Cs$$$ parades with 72 shop fronts,
+
+
+    for a grand total of \*201\* individual shop fronts. Do you think your sims have enough choice?
+
+
+    You can find both the props in the lot editor and the buildings in the "buildingplop" cheat as JFF Cs$/Cs$$/Cs$$$.
+
+
+    The lots use shared dummy buildings and all grow on medium density, please see the included pictures for detailed lot sizes.
+
+
+    Models, buildings and lots are all included in a single file that weighs less than 3MB, for the relief of your hard drive.
+
+
+    IMPORTANT: these models are S3Ds, not BATs, which means they look like the ingame automata, with crisp textures yet no shading. They will stand out from other models and look sharper and brighter.
+    Personally I love the high definition and the tiny memory they require when compared to BATs.
+
+
+    This is my Christmas present to all users that can make use of S3D models. And to sim shoppers too!
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene52.jpg.d7ea3454ddb9c785307500d692576322.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene58.jpg.e856b87b7802275cda9434ae9b055bba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene53.jpg.1e6bdb5972bdfec27c2775b2d423e5e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene64.jpg.2f775f4e4a87018978303581d494dbdd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene66.jpg.ff3304e1a607b18af0b8bb84544d3f48.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene65.jpg.dee734a7438923b200317f4438aec9b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene50.jpg.f5d91ecec5c589194e7d1014c5c1c266.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene67.jpg.bf9a038c6ff07abdd2466207630aaa01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene56.jpg.6dd5973c75fd1608939011ca894579d1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene49.jpg.9f2e30d64aef1bb7908bc08f04053947.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene60.jpg.1484ae3c777b62b215fe8145a11e1d51.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene47.jpg.9954b2e90036b76f40b0898890d78b6b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene45.jpg.0c32682717dbad39bcbbf3dc351a52c9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene55.jpg.c12f5a2e10ab0d36239a9c76652c5a46.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene48.jpg.48cb88d048611554d37a98c63b41fbb8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene68.jpg.ee7934684cdf1e94bef5cc9989bc2129.jpg
+  name: Victorian Row Shops Pack 01
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_12/Scene52.thumb.jpg.ba4e3ec9aabb5900ad3e74aac9b421b8.jpg
+  url: https://community.simtropolis.com/files/file/34809-victorian-row-shops-pack-01/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFRowShopsPack01
+          id: simtropolis/34809-victorian-row-shops-pack-01
+          include:
+            - JFFRowShopsPack01
+      version: 1.1.1
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-row-shops-pack-02:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - 11241036/textures
+    - bombardiere/british-boxes
+    - bsc/essentials
+    - bsc/mega-props-misc-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - davide1983it/outdoor-set-v1
+    - deadwoods/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - gascooker/mega-props-vol01
+    - gizmo/vehicle-props
+    - historic-harbor/historic-harbor-props
+    - jbsimio/mega-props-vol02
+    - jenp/mega-props-vol01
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-semi-detached-houses-pack-01
+    - lbt/mega-props-vol01
+    - ndex/textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - swi21/mega-props-vol01
+    - wmp/the-cougar-fruit-packing-ltd
+  description: >-
+    If the 15 shop parades of pack 1 were not enough to quench your sims' commercial thirst, here is a pack of 16 more, divided as follows:
+
+
+    #5 Cs$ parades with 50 shop fronts,
+
+
+    #7 Cs$$ parades with 106 shop fronts,
+
+
+    #4 Cs$$$ parades with 44 shop fronts,
+
+
+    for a total of 20 lots and 200 shops selling all sorts of goods and services from clothing, hardware and stationery to food, antiques, plumbing, jewellery, flowers, spectacles, toys, and much
+    more. These are all real shops hailing from London, Paris, New York, the Netherlands, and elsewhere. Browse their windows at zoom 6 or use the extra-cheats to zoom in further and enjoy the fine
+    details allowed by S3D modelling!
+
+
+    The lots use shared dummy buildings and grow on medium-density Chicago tileset, in various sizes as specified in the documentation images.
+
+
+    All models and lots are included in a single file that claims barely 3.16 MB of your disk.
+
+
+    Fun fact: if plopped next to each other, the combined parades of the two packs form a strip of 401 shops that is exactly 3.2 km long, or about 2 miles.
+
+
+    Recommended for full prop variety:
+
+
+    TODO: [Manchou Village Pack 04 TSC](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2311) (for the white barrel)
+
+
+    If you appreciate this fresh wave of commercial galore, let me know through likes and reviews!
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/642d30d2b3e7a_Csparade07closeup.jpg.018b38b42155c75c6de5b43418c815b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/642d30da8c04d_CsParade10cut.jpg.e5ce63b5a6c83610b49b177dfb6b0bd1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/642d30dc947c8_Csparade09closeup.jpg.77283552d7a13aba315761d96901a79c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/642d30df06af0_Csparade08closeup.jpg.4353a958ad1ab08446bfa68988300af2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/642d30e4b8120_Csparade11B.jpg.b8c043f118e200afc36372eadfc3321e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/642d30ed33ad8_Csparade09closeup1.jpg.5e218a54e368fdaa1bc434b847e363f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/10.jpg.7d4b5df241925085c1169f5ae4ab0243.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/11.jpg.ae5ad5a64611ef9b5fdcf017ffb873c5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/9.jpg.60aa628a61037037d5847f85e49aa232.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/8.jpg.35beacc4c633225297a100eabdc6dfb1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/7.jpg.9b438966e4d854f51a45a5d124ce48c6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/1.jpg.41b748e7a0ab53d4bd1eb36719f92210.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/3.jpg.473abdb7e09a73114e3cfc90d9a700e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/4.jpg.87d2e05ccd58e188e71441c381bd2b77.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/2.jpg.1fb2d97726d223c526b92199cef7cdf9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_04/5.jpg.587457ae5e7f181c129961f6f3147239.jpg
+  name: Victorian Row Shops Pack 02
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_04/642d36ca4530b_Csparade07closeup.thumb.jpg.89051467d3bde7c4af57358ca204708b.jpg
+  url: https://community.simtropolis.com/files/file/35494-victorian-row-shops-pack-02/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFRowShopsPack02
+          id: simtropolis/35494-victorian-row-shops-pack-02
+          include:
+            - JFFRowShopsPack02
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-row-shops-pack-03:
+  authors:
+    - justforfun
+  category: 300
+  dependencies:
+    - 11241036/textures
+    - anotn/augustenborg-houses
+    - bombardiere/british-boxes
+    - bsc/mega-props-misc-vol01
+    - bsc/mega-props-misc-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - davide1983it/outdoor-set-v1
+    - deadwoods/mega-props-vol01
+    - debussyman/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - gizmo/vehicle-props
+    - glenni/mega-props-vol01
+    - historic-harbor/historic-harbor-props
+    - jbsimio/mega-props-vol02
+    - jenp/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-diagonal
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-semi-detached-houses-pack-02
+    - lbt/mega-props-vol01
+    - mattb325/bat-props-vol02
+    - murimk/props-vol03
+    - ndex/textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - swi21/mega-props-vol01
+    - wmp/mega-props-vol02
+  description: >-
+    Trying to make your sim high streets even more varied than those in real life? Then this pack of commercial parades featuring 163 new shop fronts will do the job, bringing the grand total of all
+    packs to 700 different shops. Zoom in close and personal to savour the details!
+
+
+    All 14 lots use shared dummy buildings and grow on medium-density Chicago tileset, in various sizes as specified in the documentation images. As with previous packs, the shop fronts are individual
+    S3D props that can be used in the Lot Editor.
+
+
+    Models, exemplars, and lots are contained in a single file that only weighs 2.3 MB.
+
+
+    TODO: Manchou Props Vol.04
+
+
+    If you enjoy this fresh boom of the sim-economy let me know through likes and reviews!
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5f601e432_Csparade12.jpg.3a2b664cfdb4bc824e162726dc07bea0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5f84c74dc_Csparade22closeup.jpg.f054c0f804491540674015c81ef963d5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5f8a449f2_Csparade13.jpg.f5ec41fd6be41a0494c1e79898e3c8b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5f957fc24_Csparade242.jpg.a40a44c619863c88dda6a66995bce337.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5f9ddadbd_Csparade26.jpg.c8651b3218a43100976031daa76f399c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5fb003eee_Csparade28.jpg.4ef25e792aeaca174bc76f841d5a0460.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5fcb7e64c_Csparade25.jpg.43b4ed6993495dc565ced242a83a2d3b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5fd52c651_Csparade27.jpg.fa51af15d46ebf30536d0ca05149082e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5fdb75950_Csparade12.jpg.0ab9e48629391ff23dc0f6506ce906ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5fe1abdeb_Csparade23.jpg.b7f6236fccaaa693cbabdcbd94925a4f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d5ff98c7ba_Csparade13.jpg.021a24eecf6aaed69079482d81f60f3e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d6003d21a7_Csparade14.jpg.743eb6cd64bf685951e490b7485dba66.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d60164f0f0_Csparade12side.jpg.75bbd8e9af0dbc5039b13bd61b16fb67.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d603613157_Csparade13side.jpg.84b549b28fe81b491d2febea882f3c54.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d60406a619_Csparade14back.jpg.2146a8f447bd639845972e415ae6c83e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_10/653d605f776a9_Csparade13back.jpg.92b27237781f1ab1e482759085c6e027.jpg
+  name: Victorian Row Shops Pack 03
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/653d62cf03f76_Csparade12.thumb.jpg.824d16afbd0f27e9df4bf23005281824.jpg
+  url: https://community.simtropolis.com/files/file/35713-victorian-row-shops-pack-03/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFRowShopsPack03
+          id: simtropolis/35713-victorian-row-shops-pack-03
+          include:
+            - JFFRowShopsPack03
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-semi-detached-houses-pack-01:
+  authors:
+    - justforfun
+  category: 200
+  dependencies:
+    - barroco-hispano/agc-environment-dlc
+    - bombardiere/clerkenwell-library
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-shops-pack-01
+  description: >-
+    To provide ever more content for your period cities, here is a pack of 12 semi-detached houses in Victorian/Georgian style.
+
+
+    Seven of them are R$$, five are R$$$. They grow on medium-density Chicago-tileset 4x2 lots, except for the R$$$ semi 03, which takes a 5x2 lot, and the R$$$ semi 05, which takes a 6x3 lot.
+
+
+    IMPORTANT: these models are S3Ds, not BATs, which means they look like the ingame automata, with crisp textures yet no shading. They will stand out from other models and look sharper and brighter.
+    Personally I love the high definition and the tiny memory they require when compared to BATs - the whole pack inclusive of .desc and .lot files weighs less than 500KB!
+
+
+    If you enjoy these models, stay tuned for more packs coming to the STEX!
+
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/627015f159caa_Rsemi02-1.jpg.5cd48fe2457c95339df95cc7a4a1a8d3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6270161505f12_Rsemi01.jpg.b804437d79e51081e88b0af95943260f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/627016224ea17_Rsemi05.jpg.34fcd39ec20fde9470d1b37e64703831.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6270162f5d2ad_Rsemi03.jpg.52252e890e3cce6d5f4b8436f65d9558.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6270163553e28_Rsemi04.jpg.58d756169923ecf39827d3f7ccfbd2f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6270164a3744c_Rsemi03.jpg.be02109624a62a1a8c2c0018e070367e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/627016543ba91_Rsemi01.jpg.04e2978c71d78413ebca6e22de525a19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/627016591caa3_Rsemi02.jpg.ab65b83a6e076efc0c123ae5d4c81442.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6270165ee7212_Rsemi04.jpg.8ad1eb31c2a77beba156d666012c9cc6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/62701662ad448_Rsemi05.jpg.93258513a8b3b865e19f00c483caa847.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/62701667ce0a1_Rsemi06.jpg.4854167cf2a5d779a9d3edce7ae79736.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6270166db4ab1_Rsemi07.jpg.594a5717f7cd6db6c37fef1ba7f2d58c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/627016731b4ac_Rsemi02-2.jpg.3b97436e78fba343ee382e25e4dcfe54.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/JFFsemisPack01.jpg.2061ea494c2042e06cb7638ff60a3d3e.jpg
+  name: Victorian Semi-detached Houses Pack 01
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_05/627018f08da87_Rsemi02-1.thumb.jpg.a34c8256b4b956744ec1b8885536ff59.jpg
+  url: https://community.simtropolis.com/files/file/35172-victorian-semi-detached-houses-pack-01/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFSemiHousePack01
+          id: simtropolis/35172-victorian-semi-detached-houses-pack-01
+          include:
+            - JFFSemiHousePack01
+      version: 1.0.1
+  warnings:
+    - id: bulldoze
+      on: disable
+
+justforfun/victorian-semi-detached-houses-pack-02:
+  authors:
+    - justforfun
+  category: 200
+  dependencies:
+    - justforfun/victorian-row-houses-megapack-01
+    - justforfun/victorian-row-houses-megapack-02
+    - justforfun/victorian-row-shops-pack-01
+    - justforfun/victorian-row-shops-pack-02
+    - justforfun/victorian-semi-detached-houses-pack-01
+  description: |-
+    Give your cities more character with this second pack of 12 semi-detached houses: this time five R$$ and seven R$$$, two of which come in several colour variations.
+
+    They grow under Chicago tileset on medium or low-density 4x2, 5x2, or 4x3 lots as detailed in the Readme.
+
+    All the models and lots are contained in a single file that will only claim 800 KB of your precious plugins folder, the rest of the upload is pictures.
+
+    If you like these creations, as usual stay tuned for more uploads!
+
+    justforfun
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c78590e72c_Rsemi08.jpg.9b57eec560d341066dbc8d4599dedceb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c786ea14fa_Rsemi07.jpg.64b98b2e6108b772213369f25bf8d24f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c787a2db50_Rsemi09.jpg.0b6f018a7afbba3230f4088016aa6ce3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c787f469cc_Rsemi10.jpg.9f8c7458518e8591b553be4adb0f306e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c78854bb3b_Rsemi11.jpg.a8831f67a1a62047e9bf63a04fa7fedf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c7887f3f4d_Rsemi12.jpg.fc198e170f9a5b916bc8c679c71f4cdc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c7897452d6_Rsemi10.jpg.28e0684391c91a9405e6b695426ed1b4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c78b50bbd6_Rsemi11.jpg.ca24fdb048cfa240cda6157b646a0898.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c7905d968a_Rsemi09.jpg.433dcf7bbfa549361e4a8843051363f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c7910da9ef_Rsemi06.jpg.bc0788d4d9dd9aa12bbc80fb18e4a0b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c7919e0265_Rsemi08.jpg.c29ad91c2dd356cba94719abe683deb4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_06/648c79236d688_Rsemi12.jpg.3fb8552495f86d7a70b14ba74bdf6bba.jpg
+  name: Victorian Semi-detached Houses Pack 02
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_06/648c7bcfdfc24_Rsemi08.thumb.jpg.8d9171fe40c3a03e33c486fd6d4b86b8.jpg
+  url: https://community.simtropolis.com/files/file/35547-victorian-semi-detached-houses-pack-02/
+  variants:
+    default:
+      assets:
+        - docs:
+            - JFFSemiHousePack02
+          id: simtropolis/35547-victorian-semi-detached-houses-pack-02
+          include:
+            - JFFSemiHousePack02
       version: 1.0.0
   warnings:
     - id: bulldoze

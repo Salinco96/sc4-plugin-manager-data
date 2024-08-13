@@ -82,6 +82,28 @@ leonv93/cletus-house:
     - id: bulldoze
       on: disable
 
+leonv93/gold-tower:
+  authors:
+    - leonv93
+  category: 363
+  description: Gold Tower; Landmark; CO$$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93928e690d_NewCity-Jan.2001723386619.png.553078f75b8c63361074f7dc1a08217e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b9396f0131b_NewCity-Jan.2001723386648.png.971e75deab39bbc7f62ace10f4bf9f88.png
+  name: Gold Tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b939adaf121_NewCity-Jan.2001723386619.thumb.png.0635bcbc128975f91e4e20637557b0b3.png
+  url: https://community.simtropolis.com/files/file/36387-gold-tower/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36387-gold-tower
+          include:
+            - Gold Tower
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 leonv93/high-school:
   authors:
     - leonv93
@@ -153,6 +175,38 @@ leonv93/lard-lads-donuts:
       requirements:
         darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+leonv93/palazzos-apartments:
+  authors:
+    - leonv93
+  category: 200
+  description: |-
+    Building/Lot Based on Palazzo's Apartments of SimCity 3000.
+
+    Contains Residential Lot and Landmark. Not sure if there are issues with the growable lot as I have not/cannot enable the cheat console on whatever version of SimCity 4 I have now.
+
+    Let me know and I will try to fix any issues with the Lot.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb2ba49dcd_Regopolis-Jan.122221722650331.png.ea40a5fbfb5dd38a65c1a2e8185c92ef.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb2bb42d23_Regopolis-Nov.182211722650317.png.84f2186081aa1b92d18ae61caf953bdd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb2bc8149c_Regopolis-Oct.282211722650308.png.3b0f3d02a769b318848da62934501469.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb2bdb9604_Regopolis-Oct.22211722650300.png.967ce844783d54ee382a3f7a35bbfa81.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb2d791a3d_Regopolis-Mar.252221721187544.png.79ba8664a3d6fb50d6a42b95cab561d5.png
+  name: Palazzo's Apartments
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb335718b7_Regopolis-Oct.22211722650300.thumb.png.ea7c55ecffb5ac8b8bec1ccb96016edf.png
+  url: https://community.simtropolis.com/files/file/36222-palazzos-apartments/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36222-palazzos-apartments
+          include:
+            - Palazzo Apartments
+      requirements:
+        darknite: false
+      version: 1.2.0
   warnings:
     - id: bulldoze
       on: disable
@@ -231,6 +285,55 @@ leonv93/small-school:
           include:
             - Small School*
       version: 1.0.0
+
+leonv93/smiley-sons-and-daughters-foundation:
+  authors:
+    - leonv93
+  category: 363
+  description: CO$$$; Landmark
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93a0c02f29_NewCity-Jan.2001723386555.png.ecc1000a669b3907832b4d2a764f5f16.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93a0f3ed6e_NewCity-Jan.2001723386573.png.9767ace9eefe5e8e985b6ce56d5cc686.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93a10d21e6_NewCity-Jan.2001723386590.png.29f45dbba2622368bec3bb3540dff5cf.png
+  name: Smiley Sons and Daughters Foundation
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93a5363047_NewCity-Jan.2001723386555.thumb.png.3af5f0c56c214b8c0e22f2f1c2215d12.png
+  url: https://community.simtropolis.com/files/file/36388-smiley-sons-and-daughters-foundation/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36388-smiley-sons-and-daughters-foundation
+          include:
+            - Smiley Sons and Daughters(2)
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+leonv93/the-fritz:
+  authors:
+    - leonv93
+  category: 362
+  description: R$$$; Landmark; No Dependencies
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeaf67cb344_Coppert-Jan.2001722703487.png.877a3f202ed7053505841f38cbb7b75b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeafb90c07a_Regopolis-Jan.22211722650136.png.b694c1fb1cd654fd314ba8036c60915d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb037edf8d_NewCity-Mar.13001721568331.png.3d02604fda4920dbeb42a6fa25165abc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb039c25e9_NewCity-Mar.13001721568339.png.34a5a05be0690de669c571dd16e490a6.png
+  name: The Fritz
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeb0900a220_Coppert-Jan.2001722703487.thumb.png.2d436b2d1fb274b1df2cfa8fe8d6b19f.png
+  url: https://community.simtropolis.com/files/file/36368-the-fritz/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36368-the-fritz
+          include:
+            - The Fritz
+      requirements:
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/victorian-mansion:
   authors:

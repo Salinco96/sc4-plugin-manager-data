@@ -35,6 +35,62 @@ pegasus/cdk3-sp-rail-fleet:
             - ZZZZ_PEG SEAPORTS/Rail Fleet
       version: 1.0.0
 
+pegasus/cdk3-super-pack:
+  authors:
+    - Pegasus
+  category: 100
+  description: >-
+    This is a compilation of the primary CDK3 dependency files. If you already have the dependency files listed below, you will not have to download and install this file. However, all future CDK3
+    lots requiring any of the listed dependencies, will list this file instead. There also may be a slight game load time reduction having all the dependencies combined into a single file.
+
+
+    This SUPER PAK replaces the following CDK3 dependency files:
+
+
+    1. CDK3 Resource Pack 1 ( PEG\-CDK3_Resource-Pack_01.dat )
+
+
+    2. CDK3 Ship Pack 1 ( PEG\-CDK3_PropPack_Ships_01.dat )
+
+
+    3. CDK3 Vehicle Pack 1 ( PEG\-CDK3_PropPack_Vehicles_01.dat )
+
+
+    4. CDK3 Trawler Pack 1 ( CDK3_Trawlers_RESOURCE.dat )
+
+
+    5. CDK3 REC Boats Pack ( PEG\-CDK3_Rec-Boats_RESOURCE_101.dat )
+
+
+    6. CDK3 Basics\* ( PEG\-CDK3_Basics_100.dat )
+
+
+    Once the CDK3 SUPER PACK is installed, you can safely remove the files listed above.
+
+
+    <ins>IMPORTANT:</ins> The original CDK3 Basics file contained lots as well as dependency data. That dependency data only has been moved into the CDK3 SUPER PAK. The lot data only has been
+    repackaged into a new file (version 1.10) which is included with this download. If you remove the original CDK3 Basics file, you should move the new version ( PEG\-CDK3_Basics_110.dat ) into the
+    CDK3 Basics folder.
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
+  name: PEG CDK3 Super Pack
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2008/thumb-e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
+  url: https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/
+  variants:
+    default:
+      assets:
+        - docs:
+            - PEGPROD/CDK3/CDK3 SUPER PAK
+          id: simtropolis/19880-peg-cdk3-super-pak
+          include:
+            - PEGPROD/CDK3/CDK3 SUPER PAK
+      name: Default
+      version: 1.1.0
+
 pegasus/mtp-scenic-views:
   authors:
     - Pegasus
@@ -188,7 +244,7 @@ pegasus/mtp-super-pack:
       assets:
         - docs:
             - _Documents/PEG Readmes
-          exclude: # TODO: Conditions
+          exclude:
             - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
             - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
           id: simtropolis/20966-peg-mtp-super-pack
@@ -325,6 +381,40 @@ pegasus/pond-kit-2:
     default:
       assets:
         - id: simtropolis/12329-peg-pond-kit-ii-deluxe-edition-v206
+      version: 2.0.6
+  warnings:
+    - id: bulldoze
+      on: disable
+
+pegasus/seasonal-woods:
+  authors:
+    - Pegasus
+  category: 660
+  description: >-
+    Prepare for the onslaught as hoards of Leafers besiege your city every Fall to take in the beauty of the Autumn leaves. The Seasonal Woods lots are very similar to the PEG Random Woods... except
+    these trees change with the seasons. Winter, Spring, Summer & Fall... the trees change to reflect the time of year in your cities. The Seasonal Woods also shuns the game's default "lolly-pop"
+    trees and introduces 18 new BATed trees for greater realism.
+
+
+    The Seasonal Woods provides you with a fast & flexible means of adding realistic woodlands to your cities and surrounding rural areas. The Seasonal Woods randomly generates different types of
+    trees as you plop the lot. This eliminates the need of constantly rotating the lot when plopping for a random look... and provides a more natural & realistic look when covering large areas.
+
+
+    The Seasonal Woods includes 4 new lots: A 1x1 lot with full ground texture. A 2x2 lot with full ground texture. A 1x1 lot with transparent ground texture. A 2x2 lot with transparent ground
+    texture.
+
+
+    The Random Forest is PEG tested & Tree-Hugger approved. Each lot has properties similar to a small green park with slightly improved air pollution qualities. This lot is also 'Slope Conforming' so
+    you can place it almost anywhere.
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/fe3f12ba258a7384a446b96957480326-product_image.jpg
+  name: PEG Seasonal Woods
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2004/thumb-fe3f12ba258a7384a446b96957480326-product_image.jpg
+  url: https://community.simtropolis.com/files/file/4515-peg-seasonal-woods-v206b/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/4515-peg-seasonal-woods-v206b
       version: 2.0.6
   warnings:
     - id: bulldoze

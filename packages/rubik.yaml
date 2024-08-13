@@ -1,7 +1,7 @@
 rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
   authors:
     - Rubik
-  category: 360
+  category: 363
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol03
@@ -38,6 +38,8 @@ rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
     - BSC Rubik3 WTC Reward
 
     - BSC WTC Submenu
+
+    - One and Two World Trade - added with Version 2
 
 
     ### **CREDITS:**
@@ -86,23 +88,33 @@ rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/day.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night1.jpg
   name: Rubik WTC Complex
+  optional:
+    - cam/colossus-addon-mod
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/day.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex
   variants:
     default:
       assets:
         - docs:
-            - SC4D LEX Legacy - BSC Custodian Rubik WTC Complex/readme*
-            - SC4D LEX Legacy - BSC Custodian Rubik WTC Complex/~Documents/Prop-Texture Catalogue Index and Cleanitol
-            - SC4D LEX Legacy - BSC Custodian Rubik WTC Complex/~Documents/BSC_Readmes
+            - ~Documents/BSC_Readmes/Rubik3
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - ~Documents
           id: sc4evermore/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex
           include:
-            - SC4D LEX Legacy - BSC Custodian Rubik WTC Complex/BSC/BSC Custodian/Rubik3/World Trade Center Complex
-            - SC4D LEX Legacy - BSC Custodian Rubik WTC Complex/BSC/BSCProps
-            - SC4D LEX Legacy - BSC Custodian Rubik WTC Complex/BSC/BSC Submenu
-      requirements:
-        darknite: false
-      version: 1.0.0
+            - path: CAM/Rubik3/World Trade Center Towers
+              condition:
+                cam: true
+            - BSC/BSC Custodian/Rubik3
+            - BSC/BSCProps
+            - BSC/BSC Submenu
+            # - CAM/Rubik3/World Trade Center Towers/CO$$$15_4x4_WTC_Complex_Two World Trade_Co$$$_043264c8.SC4Lot
+            # - CAM/Rubik3/World Trade Center Towers/CO$$$15_4x4_WTC_Complex_One World Trade_Co$$$_243260d7.SC4Lot
+            # - BSC/BSC Custodian/Rubik3/World Trade Center Complex/WTC_Complex_Reward_ae3f8aea.SC4Lot
+            # - BSC/BSC Custodian/Rubik3/World Trade Center Complex/WTC_Complex_Placeholder_0e44f044.SC4Lot
+            # - BSC/BSC Custodian/Rubik3/World Trade Center Complex/WTC_Complex_Landmark_4e4dd98d.SC4Lot
+            # - BSC/BSC Custodian/Rubik3/Two World Trade Tower/Two World Trade with Jobs.dat
+            # - BSC/BSC Custodian/Rubik3/One World Trade Tower/One World Trade with Jobs.dat
+      version: 2.0.0
   warnings:
     - id: bulldoze
       on: disable

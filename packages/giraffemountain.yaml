@@ -40,8 +40,6 @@ giraffemountain/charmeuse-apartments:
           id: simtropolis/36348-charmeuse-apartments
           include:
             - Charmeuse Apartments
-      requirements:
-        darknite: false # TODO: Check
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -50,7 +48,7 @@ giraffemountain/charmeuse-apartments:
 giraffemountain/fa2-mid-rises:
   authors:
     - giraffemountain
-  category: 360
+  category: 362
   description: |-
     This is a set of four buildings for fractionally angled networks. Included is an FA2 building overhanging a 2x2 lot, an FA3 building overhanging a 3x2 lot, and a mirrored version of each.
 
@@ -72,8 +70,23 @@ giraffemountain/fa2-mid-rises:
         - id: simtropolis/36329-fa2-and-fa3-mid-rises#201910
           include:
             - FA2 NY mid-rises
-      requirements:
-        darknite: false # TODO: Check
+      name: Default
+      version: 1.0.0
+    growify:
+      assets:
+        - id: simtropolis/36329-fa2-and-fa3-mid-rises#201910
+          include:
+            - FA2 NY mid-rises
+        - docs:
+            - FA2 NY mid-rises
+          id: simtropolis/36372-fa2-and-fa3-giraffemountain-growify-residential-ploppables
+          include:
+            - FA2 NY mid-rises
+      authors:
+        - Kel9509
+      dependencies:
+        - null-45/growify-plops-dll
+      name: Growify
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -82,7 +95,7 @@ giraffemountain/fa2-mid-rises:
 giraffemountain/fa3-mid-rises:
   authors:
     - giraffemountain
-  category: 360
+  category: 362
   description: |-
     This is a set of four buildings for fractionally angled networks. Included is an FA2 building overhanging a 2x2 lot, an FA3 building overhanging a 3x2 lot, and a mirrored version of each.
 
@@ -104,8 +117,27 @@ giraffemountain/fa3-mid-rises:
         - id: simtropolis/36329-fa2-and-fa3-mid-rises#201909
           include:
             - FA3 NY mid-rises
+      name: Default
       requirements:
-        darknite: false # TODO: Check
+        darknite: false
+      version: 1.0.0
+    growify:
+      assets:
+        - id: simtropolis/36329-fa2-and-fa3-mid-rises#201909
+          include:
+            - FA3 NY mid-rises
+        - docs:
+            - FA3 NY mid-rises
+          id: simtropolis/36372-fa2-and-fa3-giraffemountain-growify-residential-ploppables
+          include:
+            - FA3 NY mid-rises
+      authors:
+        - Kel9509
+      dependencies:
+        - null-45/growify-plops-dll
+      name: Growify
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -152,8 +184,6 @@ giraffemountain/jacquard-apartments:
           id: simtropolis/36349-jacquard-apartments
           include:
             - Jacquard Apartments
-      requirements:
-        darknite: false # TODO: Check
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -162,7 +192,7 @@ giraffemountain/jacquard-apartments:
 giraffemountain/new-york-cs-shops:
   authors:
     - giraffemountain
-  category: 300
+  category: 320
   dependencies:
     - cycledogg/textures-vol01
     - shokthrpy/shk-parking-pack
@@ -172,15 +202,6 @@ giraffemountain/new-york-cs-shops:
 
 
     They are inspired by wall-to-wall businesses in Brooklyn, and will grow on NY tileset only.
-
-
-    Dependencies:
-
-
-    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
-
-
-    [BSC Texture Pack Cycledogg V01](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/)
 
 
     This is my first STEX upload. Please let me know what you think!
@@ -196,9 +217,49 @@ giraffemountain/new-york-cs-shops:
   variants:
     default:
       assets:
-        - id: simtropolis/36323-new-york-cs-shops
+        - docs:
+            - NY Shops
+          id: simtropolis/36323-new-york-cs-shops
           include:
             - NY Shops
+      version: 1.0.1
+  warnings:
+    - id: bulldoze
+      on: disable
+
+giraffemountain/new-york-cs-shops-pack-2:
+  authors:
+    - giraffemountain
+  category: 320
+  dependencies:
+    - cycledogg/textures-vol01
+    - shokthrpy/shk-parking-pack
+  description: >-
+    I enjoyed making my [first set](https://community.simtropolis.com/files/file/36323-new-york-cs-shops/) so much that I made some more!
+
+
+    This download contains five 1x2 low-density (stage 3 for the corner lots, stage 2 for the others), medium-wealth growable commercial lots. Also includes a ploppable 5x2 landmark with all five
+    buildings.
+
+
+    They are inspired by wall-to-wall businesses in Brooklyn and Queens, and will grow on NY tileset only.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Front2.jpg.026eff1a55b80994256235feecbb6ded.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/left2.jpg.e7a7a82047b4753e84a2c3e57a0b36ec.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/nite2.jpg.91eba7fecceea7396298ffd14e398974.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/back2.jpg.ea1fca31238e5b0640164b8233e9383b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/right2.jpg.144eabc8dce03a54e21ae30f24c0000b.jpg
+  name: New York CS$$ Shops Pack 2
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Front2.thumb.jpg.97677306d4a20a660150d598b7f23c04.jpg
+  url: https://community.simtropolis.com/files/file/36367-new-york-cs-shops-pack-2/
+  variants:
+    default:
+      assets:
+        - docs:
+            - NY Shops Pack 2
+          id: simtropolis/36367-new-york-cs-shops-pack-2
+          include:
+            - NY Shops Pack 2
       version: 1.0.0
   warnings:
     - id: bulldoze

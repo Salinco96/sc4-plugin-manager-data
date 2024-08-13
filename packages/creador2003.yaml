@@ -26,6 +26,36 @@ creador2003/mediterranean-style-buildings:
     - id: bulldoze
       on: disable
 
+creador2003/modern-corner-building:
+  authors:
+    - Creador2003
+  category: 320
+  description: |-
+    Hello friends! After spending a good time experimenting with glass facade textures, I bring you this commercial building.
+
+    $$ mid-wealth commercial building. It grows in stage 3, so it will be easy to grow. I hope you like it
+
+    You know, please let me know of any errors.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b53e7057f22_Edificiomodernodeesquina.png.5b9c762158f93c735b09c59895e9ef74.png
+  name: Modern Corner Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b53f6abdf39_Edificiomodernodeesquina.thumb.png.06922daf0244998452a8d95cc00c9ea5.png
+  url: https://community.simtropolis.com/files/file/36382-modern-corner-building/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Edificio de esquina moderno
+          id: simtropolis/36382-modern-corner-building
+          include:
+            - Edificio de esquina moderno/Edificio Moderno de esquina
+      requirements:
+        darknite: false # TODO
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 creador2003/scandinavian-buildings-pack-1:
   authors:
     - Creador2003
@@ -50,7 +80,37 @@ creador2003/scandinavian-buildings-pack-1:
           include:
             - Edificios Escandinavos by Creador2003
       requirements:
-        darknite: false # TODO: Check
+        darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+creador2003/spanish-buildings-pack-1:
+  authors:
+    - Creador2003
+  category: 200
+  description: |-
+    Hello friends! I bring you a new package of add-ons for your cities. This time it is about typical buildings from Spanish cities.
+
+    The package consists of five buildings, all 1x2 and they grow in stage 3 so they are easy to grow. They are residential buildings, I will soon upload the commercial version CS$.
+
+    Please let me know if there are any errors. I hope you like it.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba72aa90f1f_EdificiosEspaolpack1byCreador2003.png.956e06d2155de4fb6d9c6a7af378a6bc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba72e26806d_Capturadepantalla(51).png.c579eb0792e5e50f610f140c19746f08.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba72f5bd3ce_Capturadepantalla(63).png.6d77d2858efd0704c9ff4e98efc020be.png
+  name: Spanish Buildings Pack 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66ba74611dc06_EdificiosEspaolpack1byCreador2003.thumb.png.9df4343cedbdf52cd427e0500432129d.png
+  url: https://community.simtropolis.com/files/file/36392-spanish-buildings-pack-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - edificios españoles Pack 1
+          id: simtropolis/36392-spanish-buildings-pack-1
+          include:
+            - edificios españoles Pack 1
       version: 1.0.0
   warnings:
     - id: bulldoze

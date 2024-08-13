@@ -92,8 +92,6 @@ marcosmx/blam-burger-king:
     default:
       assets:
         - id: simtropolis/36345-blam-burger-king
-      requirements:
-        darknite: false # TODO: Check this
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -102,7 +100,7 @@ marcosmx/blam-burger-king:
 marcosmx/blam-mx-passenger-rail-station:
   authors:
     - MarcosMX
-  category: 700
+  category: 731
   description: >-
     As sometines happens, files from the various SimCity 4 sites go missing. When possible and practical, we make attempts to restore those files when found. In all such cases, this is done in good
     faith for the benefit the author and the community. This particular item has been uploaded here under **MarcosMX**'s account as part of the BLaM team as it had been uploaded on the original
@@ -166,8 +164,6 @@ marcosmx/blam-mx-passenger-rail-station:
           id: simtropolis/36344-blam-mx-passenger-rail-station
           include:
             - BLaM/MarcosMX/Passenger Rail Station
-      requirements:
-        darknite: false # TODO: Check this
       version: 1.0.0
   warnings:
     - id: bulldoze

@@ -57,7 +57,7 @@ cogeo/additional-subway-entrance-props:
 cogeo/logistics-centres-megapack:
   authors:
     - cogeo
-  category: 700
+  category: 363
   dependencies:
     - cogeo/warehouses-batprops-part-a
     - cogeo/warehouses-batprops-part-b
@@ -80,18 +80,6 @@ cogeo/logistics-centres-megapack:
 
 
     The Freight Rail Station is specially modded so as to become two-way (provide both rail-to-truck and truck-to-rail traffic conversions). It also lifts caps for the ID and IM sectors.
-
-
-    **Dependencies**
-
-
-    1.  [Warehouses BATProps Part A](https://community.simtropolis.com/files/file/15582-warehouses-batprops-part-a/) (These are the BATs)
-
-    2.  [Warehouses BATProps Part B](https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/) (These are the BATs)
-
-    3.  [BSC Mega Props JES Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
-
-    4.  [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
 
 
     | Lot Statistics | Growable CS$/CS$$ | Ploppable CS$/CS$$ | Freight Rail Station |
@@ -142,19 +130,52 @@ cogeo/logistics-centres-megapack:
   images:
     - https://www.simtropolis.com/objects/screens/0004/195c4fa65c373a74b16e342dca6b49bc-LPLeft2.jpg
     - https://www.simtropolis.com/objects/screens/0004/195c4fa65c373a74b16e342dca6b49bc-LPRight2.jpg
-  name: Logistics Centres MegaPack
+  name: Logistics Centres Mega Pack
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2008/thumb-195c4fa65c373a74b16e342dca6b49bc-LPLeft2.jpg
   url: https://community.simtropolis.com/files/file/16119-logistics-centres-megapack/
   variants:
     default:
       assets:
-        - exclude:
+        - id: simtropolis/16119-logistics-centres-megapack
+          include:
             - condition:
-                rhd: false
+                lots: growable-cs$$
+              path: CS$$5_10x10_LogisticsCentre.SC4Lot
+            - condition:
+                lots: landmark-cs$$
+              path: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
+            - condition:
+                lots: growable-cs$
+              path: CS$5_10x10_LogisticsCentre.SC4Lot
+            - condition:
+                lots: landmark-cs$
+              path: CS$PLOP_10x10_LogisticsCentre.SC4Lot
+            - condition:
+                lots: freight-rail-station
+              path: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
+            - condition:
+                rhd: true
               path: LCP_UK_PathingPatch.dat
-          id: simtropolis/16119-logistics-centres-megapack
-      requirements:
-        darknite: false
+            - FreightAutomataSpawningScripts_Swamper77.dat
+            - LCP_*.dat
+      options:
+        - choices:
+            - label: Growable CS$, Stage 5, 10x10
+              value: growable-cs$
+            - label: Growable CS$$, Stage 5, 10x10
+              value: growable-cs$$
+            - label: Landmark CS$, 10x10
+              value: landmark-cs$
+            - label: Landmark CS$$, 10x10
+              value: landmark-cs$$
+            - label: Freight rail station, 10x10
+              value: freight-rail-station
+          default: all
+          display: checkbox
+          id: lots
+          label: Lots
+          multi: true
+          type: string
       version: 1.0.0
   warnings:
     - id: bulldoze

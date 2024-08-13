@@ -338,30 +338,30 @@ pclark06/mgb-convenience-stores:
       assets:
         - id: simtropolis/35031-pc-mgb-convenience-stores-global-expansion
           include:
-            - path: PC MGB Convenience Stores Global Expansion/Asia-Australia
-              condition:
+            - condition:
                 regions: Asia-Australia
-            - path: PC MGB Convenience Stores Global Expansion/Benelux
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Asia-Australia
+            - condition:
                 regions: Benelux
-            - path: PC MGB Convenience Stores Global Expansion/Canada
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Benelux
+            - condition:
                 regions: Canada
-            - path: PC MGB Convenience Stores Global Expansion/Caribbean
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Canada
+            - condition:
                 regions: Caribbean
-            - path: PC MGB Convenience Stores Global Expansion/Iberia
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Caribbean
+            - condition:
                 regions: Iberia
-            - path: PC MGB Convenience Stores Global Expansion/Italy
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Iberia
+            - condition:
                 regions: Italy
-            - path: PC MGB Convenience Stores Global Expansion/Scandinavia
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Italy
+            - condition:
                 regions: Scandinavia
-            - path: PC MGB Convenience Stores Global Expansion/UK
-              condition:
+              path: PC MGB Convenience Stores Global Expansion/Scandinavia
+            - condition:
                 regions: UK
+              path: PC MGB Convenience Stores Global Expansion/UK
       options:
         - choices:
             - label: Asia-Australia
@@ -724,3 +724,34 @@ pclark06/pc-office-park-10-12:
   warnings:
     - id: bulldoze
       on: disable
+
+pclark06/pc-towering-sign-set-1:
+  authors:
+    - pclark06
+  category: 670
+  dependencies:
+    - pclark06/mega-props-vol01
+    - shokthrpy/shk-parking-pack
+  description:
+    "A set of branded signs as commonly seen from the interstate, especially in many rural and suburban highway exits. Personally I use the hotel brands with @RebaLynnTS's Modular Motel
+    System, and pair them with @kingofsimcity's modular parking that use @shokthrpy's parking pack textures, hence why the hotel brands have a pavement texture instead of a grass texture. I also have
+    the lots and props in separate folders in case you don't want to use the lots, considering they do add a bunch of entries to the parks menu in-game. Dependencies: PC Mega Props Vol. 1 SHK Parking
+    Pack There are 74 signs included, including some brands that don't have existing buildings on here. 76 Ball 7-Eleven Alon America's Best Value Americinn Applebee's Baymont sign Big Boy Bob Evans
+    Budget Host Burger King Captain D's Cenex Chevron new Chipotle Clark Comfort Inn Cracker Barrel Denny's Drury Econo Lodge Extended Stay Fred Meyer Gold Star Golden Corral Home Depot Howard Johnson
+    Huddle House IHOP Jack In The Box KFC Kroger Kwik Trip La Quinta Tall Lowe's Marathon Merryweather Inn Microtel Motel 6 Outback Pear Tree by Drury Perkins Phillips 66 Pizza Hut Pizza Hut
+    Wingstreet Quality Inn Quiktrip Ramada Red Carpet Inn Rhoads Inn Rodeway Roy Rogers Sheetz Shell new Shilo Shoneys Sinclair Skyline Sleep Inn Sonic Speedway Starbucks Steak N Shake Stuckeys Taco
+    Bell Texaco new Thorntons Tim Hortons Travelodge Valero Village Inn Waffle House Walmart Wendy's"
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9c46868fb70_Eichman-May.6041553744024.thumb.png.86a089a9f497170a855c9226bd9dc405.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9c46875e1e9_Kimmons-Jun.8421553316924.thumb.png.5662f16a13c80614da33d9472626028a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9c4687f3ad3_Kimmons-May.13411552710317.thumb.png.b6bbf72dc0663a27ce7d82481f1bb190.png
+  name: PC Towering Sign Set 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_03/5c9c46868fb70_Eichman-May.6041553744024.thumb.png.86a089a9f497170a855c9226bd9dc405.png
+  url: https://community.simtropolis.com/files/file/32832-pc-towering-sign-set-1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/32832-pc-towering-sign-set-1
+          include:
+            - PC Towering Sign Set 1/PC Towering Sign Set (lots only)
+      version: 1.0.1

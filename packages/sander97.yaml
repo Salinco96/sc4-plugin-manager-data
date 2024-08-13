@@ -12,32 +12,7 @@ sander97/arc-park:
     - simgoober/mega-props-vol01
   description: >-
     This is a park in the shape of a half circle. Around it are some semidetached houses. It is a really big lot (10x19) which you can find it in the park menu. It's based on a street in Duiven (the
-    Netherlands) but the park is fictional
-
-
-    The dependencies are:
-
-
-    - [Peg's MTP Super Resource Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/) (prop file for pagoda)
-
-    - [Peg's SPAM Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (texture file for dirt paths)
-
-    - [Peg's Tennis Park](https://community.simtropolis.com/files/file/11688-peg-tennis-park/)
-
-    - [Polish Mega Props - MISC vol01 v](https://community.simtropolis.com/files/file/33497-polish-mega-props-misc-vol01-v2/)2 (path tiles from the pagoda)
-
-    - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials) (small yellow -ish building)
-
-
-    And...
-
-
-    - BSC MEGA Props SG Vol01 v4
-
-    - BSC Textures Vol02
-
-
-    Both are in the [BSC Common Dependency Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+    Netherlands) but the park is fictional.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a62096201bc_Arcpark2.jpg.cc639b8b372d0c49b6993285f2356c6d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a6209a3c71b_Arcpark.jpg.0690c452678289e554eeaf88c7ff174d.jpg
@@ -48,7 +23,14 @@ sander97/arc-park:
     default:
       assets:
         - id: simtropolis/36353-arc-park#202141
+          include:
+            - Kromme straat met park
+      requirements:
+        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 sander97/rowhouse-9:
   authors:
@@ -76,6 +58,8 @@ sander97/rowhouse-9:
         - id: simtropolis/36313-rowhouse-9
           include:
             - Rijtjeshuis 9
+      requirements:
+        darknite: false
       version: 1.0.0
   warnings:
     - id: bulldoze

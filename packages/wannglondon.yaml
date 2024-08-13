@@ -35,3 +35,33 @@ wannglondon/los-angeles-home-pack-1:
   warnings:
     - id: bulldoze
       on: disable
+
+wannglondon/san-francisco-buildings-1:
+  authors:
+    - WannGLondon
+  category: 220
+  description: |-
+    It has always astonished me how few BATs there are from beautiful San Francisco, California. This is my attempt to help close that gap.
+
+    - R$$ Stage 5
+
+    - 1x2 lots
+
+    - DarkNite version only
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/SF.jpg.b4052ab6fbc9f4f09e5bc8f5094c129d.jpg
+  name: San Francisco Buildings 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/SF.thumb.jpg.d8c7e4d976308163c11d738e75ccabb5.jpg
+  url: https://community.simtropolis.com/files/file/36385-san-francisco-buildings-1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36385-san-francisco-buildings-1
+          include:
+            - SF Bldg 1_DN
+      requirements:
+        darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
