@@ -158,24 +158,32 @@ cogeo/logistics-centres-megapack:
               path: LCP_UK_PathingPatch.dat
             - FreightAutomataSpawningScripts_Swamper77.dat
             - LCP_*.dat
-      options:
-        - choices:
-            - label: Growable CS$, Stage 5, 10x10
-              value: growable-cs$
-            - label: Growable CS$$, Stage 5, 10x10
-              value: growable-cs$$
-            - label: Landmark CS$, 10x10
-              value: landmark-cs$
-            - label: Landmark CS$$, 10x10
-              value: landmark-cs$$
-            - label: Freight rail station, 10x10
-              value: freight-rail-station
-          default: all
-          display: checkbox
-          id: lots
-          label: Lots
-          multi: true
-          type: string
+      lots:
+        - label: Growable CS$, Stage 5, 10x10
+          id: growable-cs$
+          category: 310
+          size: 10x10
+          stage: 5
+        - label: Growable CS$$, Stage 5, 10x10
+          id: growable-cs$$
+          category: 320
+          size: 10x10
+          stage: 5
+        - label: Landmark CS$, 10x10
+          id: landmark-cs$
+          category: 363
+          size: 10x10
+          stage: 5
+        - label: Landmark CS$$, 10x10
+          id: landmark-cs$$
+          category: 363
+          size: 10x10
+          stage: 5
+        - label: Freight rail station, 10x10
+          category: 732
+          id: freight-rail-station
+          size: 10x10
+          stage: 5
       version: 1.0.0
   warnings:
     - id: bulldoze

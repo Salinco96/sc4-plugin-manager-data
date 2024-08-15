@@ -86,20 +86,13 @@ sander97/sport-hall:
             - condition:
                 lots: small
               path: Gymzaal
-      options:
-        - choices:
-            - label: Small (3x4)
-              value: small
-            - label: Large (4x5)
-              value: large
-          default:
-            - small
-            - large
-          display: checkbox
-          id: lots
-          label: Included lots
-          multi: true
-          type: string
+      lots:
+        - label: Small (3x4)
+          id: small
+          size: 3x4
+        - label: Large (4x5)
+          id: large
+          size: 4x5
       requirements:
         darknite: false
       version: 1.0.0

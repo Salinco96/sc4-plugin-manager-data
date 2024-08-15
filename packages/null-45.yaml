@@ -899,6 +899,59 @@ null-45/sc4-auto-run-cheats-dll-plugin:
     that.
 
 
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4AutoRunCheats.dll* and *SC4AutoRunCheats.ini* into the Plugins folder in the SimCity 4 installation directory.
+
+    3.  Configure the plugin settings, see the Configuring the plugin section.
+
+
+    **Configuring the plugin**
+
+
+    1.  Open *SC4AutoRunCheats.ini* in a text editor (e.g. Notepad). Note that depending on the permissions of your SimCity 4 installation directory you may need to start the text editor with
+    administrator permissions to be able to save the file.
+
+    2.  Adjust the settings in the *\[Startup\]*, *\[Tile\]*, *\[EstablishedTile\]* and *\[UnestablishedTile\]* sections to your preferences.
+
+    3.  Save the file and start the game.
+
+
+    **Settings overview**
+
+
+    The commands or cheat codes will be applied at the specified stages in the game's loading process. The RunOnce versions will only be applied for the first matching city tile that is loaded.
+
+
+    The command strings can use one of two formats:
+
+
+    - A comma-separated list of commands/cheats.
+
+    - A File:&lt;path&gt; string that specifies an external file containing the commands/cheats.
+
+
+    \[Startup\]: The commands in this section will be run once when the game starts up.
+
+
+    \[Tile\]: The commands in this section will be run when loading either an established or unestablished city tile.
+
+
+    \[EstablishedTile\]: The commands in this section will be run when loading an established city tile or when a city is established.
+
+
+    \[UnestablishedTile\]: The commands in this section will be run when loading an unestablished city tile.
+
+
+    **External File Format**
+
+
+    The external file must place each command or cheat on its own line. The cheats/commands will be executed sequentially starting from the top of the file.
+
+
     **Troubleshooting**
 
 
@@ -934,7 +987,7 @@ null-45/sc4-auto-run-cheats-dll-plugin:
           include:
             - SC4AutoRunCheats.ini # TODO
             - SC4AutoRunCheats.dll
-      version: 1.0.1
+      version: 1.1.0
 
 null-45/startup-performance-optimization-dll:
   authors:

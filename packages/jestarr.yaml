@@ -676,19 +676,16 @@ jestarr/small-brick-factory:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.jpg.1d7b399b0b242767e3a33c870b561b46.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Nite.jpg.d5b9ecb3842c89d9c4158a943f0e98b1.jpg
+  lots:
+    - label: Growable I-M, 2x2
+      id: growable
+      category: 430
+      size: 2x2
+    - label: Landmark I-M, 2x2
+      id: landmark
+      category: 364
+      size: 2x2
   name: Small Brick Factory
-  options:
-    - choices:
-        - label: Growable I-M, 2x2
-          value: growable
-        - label: Landmark I-M, 2x2
-          value: landmark
-      default: all
-      display: checkbox
-      id: lots
-      label: Lots
-      multi: true
-      type: string
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.thumb.jpg.cffd9131448602466cc79b87dab843a3.jpg
   url: https://community.simtropolis.com/files/file/36370-small-brick-factory/
   variants:

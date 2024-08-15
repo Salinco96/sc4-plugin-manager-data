@@ -163,23 +163,24 @@ effthegrid/fa3-181-east-gun-hill-rd:
             - condition:
                 lots: cs$$-2x1
               path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
+      lots:
+        - label: R$$, 2x2
+          id: r$$-2x2
+          category: 362
+          size: 2x2
+        - label: R$$, 2x1 Overhang
+          id: r$$-2x1
+          category: 362
+          size: 2x1
+        - label: CS$$, 2x2
+          id: cs$$-2x2
+          category: 363
+          size: 2x2
+        - label: CS$$, 2x1 Overhang
+          id: cs$$-2x1
+          category: 363
+          size: 2x1
       name: Maxis Nite
-      options:
-        - choices:
-            - label: R$$, 2x2
-              value: r$$-2x2
-            - label: R$$, 2x1 Overhang
-              value: r$$-2x1
-            - label: CS$$, 2x2
-              value: cs$$-2x2
-            - label: CS$$, 2x1 Overhang
-              value: cs$$-2x1
-          default: all
-          display: checkbox
-          id: lots
-          label: Lots
-          multi: true
-          type: string
       requirements:
         darknite: false
       version: 1.0.0
@@ -200,23 +201,24 @@ effthegrid/fa3-181-east-gun-hill-rd:
             - condition:
                 lots: cs$$-2x1
               path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
+      lots:
+        - label: R$$, 2x2
+          id: r$$-2x2
+          category: 362
+          size: 2x2
+        - label: R$$, 2x1 Overhang
+          id: r$$-2x1
+          category: 362
+          size: 2x1
+        - label: CS$$, 2x2
+          id: cs$$-2x2
+          category: 363
+          size: 2x2
+        - label: CS$$, 2x1 Overhang
+          id: cs$$-2x1
+          category: 363
+          size: 2x1
       name: Dark Nite
-      options:
-        - choices:
-            - label: R$$, 2x2
-              value: r$$-2x2
-            - label: R$$, 2x1 Overhang
-              value: r$$-2x1
-            - label: CS$$, 2x2
-              value: cs$$-2x2
-            - label: CS$$, 2x1 Overhang
-              value: cs$$-2x1
-          default: all
-          display: checkbox
-          id: lots
-          label: Lots
-          multi: true
-          type: string
       requirements:
         darknite: true
       version: 1.0.0

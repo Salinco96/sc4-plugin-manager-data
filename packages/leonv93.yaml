@@ -303,8 +303,16 @@ leonv93/smiley-sons-and-daughters-foundation:
       assets:
         - id: simtropolis/36388-smiley-sons-and-daughters-foundation
           include:
-            - Smiley Sons and Daughters(2)
-      version: 1.0.0
+            - Smiley Sons and Daughters*/{{lots}}_*.SC4Lot
+            - Smiley Sons and Daughters*/*
+      lots:
+        - id: SSDFCO$$$
+          label: Growable CO$$$
+          category: 350
+        - id: SSDFLandmark
+          label: Landmark
+          category: 360
+      version: 1.0.2
   warnings:
     - id: bulldoze
       on: disable
