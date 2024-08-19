@@ -14,11 +14,10 @@ simmer2/essentials:
     This Essentials pack will be updated from time to time and it will be required to be re-downloaded when necessary. Proper warning will be given on future uploads.
 
     Thank you.
-
-    Simmer2
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f16d7e6cf_SM2Essentialscopy.jpg.1d07b83d9bdca7459542ba1654cdfe02.jpg
   name: SM2 Essentials
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f2086ae7a_SM2Essentialscopy.thumb.jpg.879c7bc89040db92a2fb24b4ba6e93d4.jpg
   url: https://community.simtropolis.com/files/file/32979-sm2-essentials-v4/
   variants:
@@ -31,78 +30,82 @@ simmer2/essentials:
             - SM2/Essentials
       version: 4.0.0
 
-simmer2/mega-props-vol01:
+simmer2/hv-transformer:
   authors:
     - Simmer2
-  category: 120
+  category: 500
+  dependencies:
+    - simmer2/mega-props-vol06
   description: |-
-    **SM2 Mega Prop Pack Vol1** is a compendium of 670 models I created over the years. It replaces many files and eliminates the need to have many dependencies.
+    SM2 HV Transformer
 
-    Please use the included cleanitol text file. It is very important to do so as to avoid redundant and unnecessary files taking up space in your plugin.
+    A nondescript 1x1 power lot designed to blend in any urban and non urban setting just like real life ones.
 
-    Many lots are being updated to point to this file.
+    Lot size 1x1
 
-    Besides the usage of the cleanitol files no further action is required.
-
-    Thank you
-
-    Simmer2
+    Power output 7500.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f271c98dc_SM2MegaPropPackvol1.jpg.1fe6b65468fd32e54c720050131561f1.jpg
-  name: SM2 Mega Prop Pack Vol1
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f2bc6b916_SM2MegaPropPackvol1.thumb.jpg.4bcdc11ff3946e39ac284c82a16ac92d.jpg
-  url: https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv1.jpg.0a23dca3909a3af4c2f4056439f19778.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv2.jpg.9a6e9bb11c339169b3a1058e5d66cda1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv3.jpg.9b0df013658a4fb68db3ade9c24ce7f2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv4.jpg.8b8ee116e86e6baa1be16ce4e7d7392d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_03/hv5.jpg.925fdc67cf9b18692dfa72b6611b27ce.jpg
+  name: SM2 HV Transformer
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_03/hv3.thumb.jpg.e266d22f6831940bc904f920e8dcca91.jpg
+  url: https://community.simtropolis.com/files/file/32790-sm2-hv-transformer/
   variants:
     default:
       assets:
-        - id: simtropolis/32980-sm2-mega-prop-pack-vol1
+        - docs:
+            - SM2/Documents
+          id: simtropolis/32790-sm2-hv-transformer
           include:
-            - SM2/Props
-      version: 1.0.0
+            - SM2/SM2 HV Transformer
+      version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
-simmer2/mega-props-vol02:
+simmer2/main-transformers:
   authors:
     - Simmer2
-  category: 120
+  category: 500
+  dependencies:
+    - simmer2/mega-props-vol01
   description: |-
-    Another giant prop pack filled with dozens of HD models I made over the years.
+    Two more power substations to play with.
 
-    Simmer2
+    1) 1x2 lot with 600 output.
+
+    2) 2x2 lot with 1000 output.
+
+    Textures included.
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f3c07c56d_SM2MegaPropPackVol2.jpg.c9084c726b11d0e2fb5bce3b49f37136.jpg
-  name: SM2 Mega Prop Pack Vol2
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f454a9e83_SM2MegaPropPackVol2.thumb.jpg.9c3b9eadca0d23043e91f4904bfe0cf4.jpg
-  url: https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/2.jpg.2a05d55ded81d70b4300b93e04a07a79.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/1.jpg.b0aee1a007e9126e6c7aac2fc7311f95.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/3.jpg.f0641f4a7889f337e6eec194409c72d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/4.jpg.0e1a483d56aa6b8b91003f5deb28f68f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Logotr.jpg.6fb33f79ed8f17f07fbe26c9a3108e5c.jpg
+  name: SM2 Main Transformers
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/Logotr.thumb.jpg.17d741652fb4b8a21bc15f53c98bdd4b.jpg
+  url: https://community.simtropolis.com/files/file/31369-sm2-main-transformers/
   variants:
     default:
       assets:
-        - id: simtropolis/32981-sm2-mega-prop-pack-vol2
+        - docs:
+            - SM2/Documents
+          id: simtropolis/31369-sm2-main-transformers
           include:
-            - SM2/Props
-      version: 1.0.0
+            - SM2/Main Transformers
+            - SM2/Textures
+      version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
-simmer2/mega-props-vol04:
-  authors:
-    - Simmer2
-  category: 120
-  description: |-
-    Another giant prop pack for upcoming projects.
-
-    Dozens of HD props and buildings for you to play with.
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de4977c14f0d_SM2MegaPropPackVol4.jpg.5e66d5785e84acd5657ae1590ab410a2.jpg
-  name: SM2 Mega Prop Pack Vol4
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_12/5de4980fe7a3f_SM2MegaPropPackVol4.thumb.jpg.12341ab21ac53977b52f6951d6853e16.jpg
-  url: https://community.simtropolis.com/files/file/33304-sm2-mega-prop-pack-vol4/
-  variants:
-    default:
-      assets:
-        - id: simtropolis/33304-sm2-mega-prop-pack-vol4
-          include:
-            - SM2/Props
-      version: 1.0.0
-
-simmer2/sm2-medium-water-treatment-plant:
+simmer2/medium-water-treatment-plant:
   authors:
     - Simmer2
   category: 500
@@ -137,6 +140,7 @@ simmer2/sm2-medium-water-treatment-plant:
     - https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm2.jpg.1344896cfbcd4268918a7818e07f364a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm3.jpg.2327659ae438369c07c711a406e1e119.jpg
   name: SM2 Medium Water Treatment Plant
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_10/wtm3.thumb.jpg.49ded876fae675f42a6887032a9dccfc.jpg
   url: https://community.simtropolis.com/files/file/33238-sm2-medium-water-treatment-plant/
   variants:
@@ -147,9 +151,174 @@ simmer2/sm2-medium-water-treatment-plant:
           id: simtropolis/33238-sm2-medium-water-treatment-plant
           include:
             - SM2/SM2 Medium Water Treatment Plant
-      requirements:
-        darknite: false
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+simmer2/mega-props-vol01:
+  authors:
+    - Simmer2
+  category: 120
+  description: |-
+    **SM2 Mega Prop Pack Vol1** is a compendium of 670 models I created over the years. It replaces many files and eliminates the need to have many dependencies.
+
+    Please use the included cleanitol text file. It is very important to do so as to avoid redundant and unnecessary files taking up space in your plugin.
+
+    Many lots are being updated to point to this file.
+
+    Besides the usage of the cleanitol files no further action is required.
+
+    Thank you
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f271c98dc_SM2MegaPropPackvol1.jpg.1fe6b65468fd32e54c720050131561f1.jpg
+  name: SM2 Mega Prop Pack Vol1
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f2bc6b916_SM2MegaPropPackvol1.thumb.jpg.4bcdc11ff3946e39ac284c82a16ac92d.jpg
+  url: https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/32980-sm2-mega-prop-pack-vol1
+          include:
+            - SM2/Props
+      version: 1.0.0
+
+simmer2/mega-props-vol02:
+  authors:
+    - Simmer2
+  category: 120
+  description: Another giant prop pack filled with dozens of HD models I made over the years.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f3c07c56d_SM2MegaPropPackVol2.jpg.c9084c726b11d0e2fb5bce3b49f37136.jpg
+  name: SM2 Mega Prop Pack Vol2
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f454a9e83_SM2MegaPropPackVol2.thumb.jpg.9c3b9eadca0d23043e91f4904bfe0cf4.jpg
+  url: https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/32981-sm2-mega-prop-pack-vol2
+          include:
+            - SM2/Props
+      version: 1.0.0
+
+simmer2/mega-props-vol03:
+  authors:
+    - Simmer2
+  category: 120
+  description: |-
+    Another giant prop pack for upcoming projects.
+
+    196 HD props and buildings for you to play with.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f4b24fd1f_SM2MegaPropPackVol3.jpg.1d104711ad6d5e960b2234657b729229.jpg
+  name: SM2 Mega Prop Pack Vol3
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f4f2de4cb_SM2MegaPropPackVol3.thumb.jpg.02c586abedcc3e4f789f697d1d6d32fc.jpg
+  url: https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Documents
+          id: simtropolis/32982-sm2-mega-prop-pack-vol3
+          include:
+            - SM2/Props
+      version: 1.0.0
+
+simmer2/mega-props-vol04:
+  authors:
+    - Simmer2
+  category: 120
+  description: |-
+    Another giant prop pack for upcoming projects.
+
+    Dozens of HD props and buildings for you to play with.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_12/5de4977c14f0d_SM2MegaPropPackVol4.jpg.5e66d5785e84acd5657ae1590ab410a2.jpg
+  name: SM2 Mega Prop Pack Vol4
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_12/5de4980fe7a3f_SM2MegaPropPackVol4.thumb.jpg.12341ab21ac53977b52f6951d6853e16.jpg
+  url: https://community.simtropolis.com/files/file/33304-sm2-mega-prop-pack-vol4/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33304-sm2-mega-prop-pack-vol4
+          include:
+            - SM2/Props
+      version: 1.0.0
+
+simmer2/mega-props-vol05:
+  authors:
+    - Simmer2
+  category: 120
+  description: Another giant prop pack for existing and upcoming projects. Dozens of HD props and buildings for you to play with.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/605ab989943f0_megapropvol5copy.jpg.4d5b89c99bffc6fb2fcf5e7967d77103.jpg
+  name: SM2 Mega Prop Pack Vol5
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/605aba3089fbb_megapropvol5copy.thumb.jpg.922dda4bc3c24d59b375584da5ad2e48.jpg
+  url: https://community.simtropolis.com/files/file/34316-sm2-mega-prop-pack-vol5/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SM2
+          id: simtropolis/34316-sm2-mega-prop-pack-vol5
+          include:
+            - SM2/Props
+      version: 1.0.0
+
+simmer2/mega-props-vol06:
+  authors:
+    - Simmer2
+  category: 120
+  description: Another giant prop pack for existing and upcoming projects. Dozens of HD props and buildings for you to play with.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/6218fedfa8935_SM2megaproppaclvol6copy.jpg.3ab718469e0f5290cf5647564b733f75.jpg
+  name: SM2 Mega Prop Pack Vol6
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/621902115271a_SM2megaproppaclvol6copy.thumb.jpg.fdc6d8feaf4d2ce8f0e702cc8e7afb26.jpg
+  url: https://community.simtropolis.com/files/file/34872-sm2-mega-prop-pack-vol6/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SM2
+          id: simtropolis/34872-sm2-mega-prop-pack-vol6
+          include:
+            - SM2/Props/SM2 Mega Prop Pack Vol6
+      version: 1.0.0
+
+simmer2/mobile-power-generator:
+  authors:
+    - Simmer2
+  category: 500
+  dependencies:
+    - simmer2/mega-props-vol01
+  description: |-
+    For all your sports events, outdoor entertainment and emergency needs.
+
+    Lot is 1x2 with no base texture. Plop it and dress it.
+
+    Power output = 1500 with little to no emissions.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/12.jpg.7518895ed6e8f5ba490d274befe8b1f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/14.jpg.6442586457ff10b6dcc06b20587f89b7.jpg
+  name: SM2 Mobile Power Generator
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_01/14.thumb.jpg.0282720cc0789faec015d5f0edeff857.jpg
+  url: https://community.simtropolis.com/files/file/31431-sm2-mobile-power-generator/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SM2/Documents
+          id: simtropolis/31431-sm2-mobile-power-generator
+          include:
+            - SM2/Mobile Power Generator
+      version: 2.0.0
   warnings:
     - id: bulldoze
       on: disable

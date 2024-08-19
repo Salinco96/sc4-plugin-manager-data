@@ -3,6 +3,7 @@ cam/colossus-addon-mod:
   features:
     - cam
   name: Colossus Addon Mod
+  release: 2024-08-19T09:13:11.692Z
   url: https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/276-colossus-addon-mod-2-5-release-candidate-1
   variants:
     default:
@@ -13,21 +14,21 @@ cam/colossus-addon-mod:
           id: sc4evermore/51-colossus-addon-mod-version-2-1-0-windows-by-invisichem
           include:
             - a__CAM/a__Core/CAM_2.1.0_Main_Controller.dat
-            - path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Extended.dat
-              condition:
+            - condition:
                 controller: extended
-            - path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Midrise.dat
-              condition:
+              path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Extended.dat
+            - condition:
                 controller: midrise
-            - path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Rural.dat
-              condition:
+              path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Midrise.dat
+            - condition:
                 controller: rural
-            - path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_SkyScraper.dat
-              condition:
+              path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Rural.dat
+            - condition:
                 controller: skyscraper
-            - path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Standard.dat
-              condition:
+              path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_SkyScraper.dat
+            - condition:
                 controller: standard
+              path: a__CAM/a__Core/CAM_2.1.0_PlayStyle_Standard.dat
             - a__CAM/a__Core/CAM_2.1.0_Rural_Farm_Demand_Override.dat
             - a__CAM/Core Buildings/CAM_2.1.0_Buildings.dat
         - id: github/memo33/cam-exemplar-patch
@@ -44,18 +45,18 @@ cam/colossus-addon-mod:
         **NOTE: If you have merged your SimCity_1.dat file with the original CAM 1.0 file, restore your original SimCity_1.dat file before running this installer.**
 
 
-        Welcome to the *Colossus Addon Mod* (CAM). CAM changes the way cities and regions develop. This is possible through the use of *Growth Stages* (Read in Basics of the Manual). This causes the game
-        to progress from small stores, single houses and farms/small factories to Commercial Office towers, Residential High Rises and Large industrial factories less rapidly and much more
+        Welcome to the *Colossus Addon Mod* (CAM). CAM changes the way cities and regions develop. This is possible through the use of *Growth Stages* (Read in Basics of the Manual). This causes the
+        game to progress from small stores, single houses and farms/small factories to Commercial Office towers, Residential High Rises and Large industrial factories less rapidly and much more
         *realistically*.
 
 
         The altered growth also allows the player better control their cities through the use of *zoning density*. If the player wanted a nice rural town, zone only light density, with some medium in
-        larger areas. On the other side, the skyscrapers and other large buildings become more balanced and possible with very developed regions. Use of high density zoning will allow these to grow when
-        ready.
+        larger areas. On the other side, the skyscrapers and other large buildings become more balanced and possible with very developed regions. Use of high density zoning will allow these to grow
+        when ready.
 
 
-        As with any new software or mod, be sure to *read the Readme's* and this guide before installing or using the mod. Page 4 of the manual contains the specifics of installation. The manuals can be
-        downloaded or read in both English and Japanese [here](https://www.sc4devotion.com/forums/index.php?topic=17318.0).
+        As with any new software or mod, be sure to *read the Readme's* and this guide before installing or using the mod. Page 4 of the manual contains the specifics of installation. The manuals can
+        be downloaded or read in both English and Japanese [here](https://www.sc4devotion.com/forums/index.php?topic=17318.0).
 
 
         **Description of new Styles**
@@ -64,8 +65,8 @@ cam/colossus-addon-mod:
         **Install Types**:
 
 
-        - **IR Fix Only** - Will only Patch the SimCity_1.dat file. This will cause IR to be included in the totals for industry for regular SimCity 4. It will also allow normal industrial connections to
-        work for IR. All other install types include this already. Original SimCity 4 files are backed up in the folder DocumentsSimCity 4Original SimCity Files
+        - **IR Fix Only** - Will only Patch the SimCity_1.dat file. This will cause IR to be included in the totals for industry for regular SimCity 4. It will also allow normal industrial connections
+        to work for IR. All other install types include this already. Original SimCity 4 files are backed up in the folder DocumentsSimCity 4Original SimCity Files
 
 
         - **Extended (InvisiChem)** - This is CAM 2.1.0 Standard with extended stage ranges for larger regions. The growth I feel is more balanced and lifelike.
@@ -83,12 +84,12 @@ cam/colossus-addon-mod:
         - **Skyscraper** - Stages have been set to allow Skyscrapers to grow quickly, even in one city regions.
 
 
-        All stage settings, except for the Extended version, are the values that were originally developed by RippleJet. All the new CAM 2.1.0 fixes have been included in all versions. The only difference
-        between types is the stages for specific play style.
+        All stage settings, except for the Extended version, are the values that were originally developed by RippleJet. All the new CAM 2.1.0 fixes have been included in all versions. The only
+        difference between types is the stages for specific play style.
 
 
-        Feel free to add comments here, the CAM General discussions board at SC4Devotion, or if you start a thread here at Simtropolis, let me know so I can be as helpful as possible. Feel free to discuss
-        any myths about this mod that have circulated in the past. I will be more than happy to share what this mod is truly about, including how it helps regional play.
+        Feel free to add comments here, the CAM General discussions board at SC4Devotion, or if you start a thread here at Simtropolis, let me know so I can be as helpful as possible. Feel free to
+        discuss any myths about this mod that have circulated in the past. I will be more than happy to share what this mod is truly about, including how it helps regional play.
 
 
         Cheers everyone,
@@ -97,10 +98,7 @@ cam/colossus-addon-mod:
         InvisiChem.
       name: Stable (2.1)
       options:
-        - id: controller
-          label: Controller
-          type: string
-          choices:
+        - choices:
             - label: Extended (Default)
               value: extended
             - label: Standard (Legacy)
@@ -113,6 +111,9 @@ cam/colossus-addon-mod:
               value: skyscraper
             - label: IR Fix Only
               value: none
+          id: controller
+          label: Controller
+          type: string
       url: https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/51-colossus-addon-mod-version-2-1-0-windows-by-invisichem
       version: 2.1.1
     experimental:
@@ -123,27 +124,26 @@ cam/colossus-addon-mod:
             - ~Documents
           id: sc4evermore/276-colossus-addon-mod-2-5-release-candidate-1
           include:
-            - path: CAM_2.5.0_Advanced_Water_Allert.dat
-              condition:
+            - condition:
                 advanced-water-management: true
-            - path: AdvancedWaterManagement.dll
-              condition:
+              path: CAM_2.5.0_Advanced_Water_Allert.dat
+            - condition:
                 advanced-water-management: true
-            - path: UpgradeableCityHalls.dll
-              condition:
+              path: AdvancedWaterManagement.dll
+            - condition:
                 upgradable-city-halls: true
+              path: UpgradeableCityHalls.dll
             - a_CAM
-            - SimCity_1.dat # TODO: What to do with this?
-      # authors: TODO
-      name: Experimental (2.5)
+            - SimCity_1.dat
       experimental: true
+      name: Experimental (2.5)
       options:
-        - id: advanced-water-management
+        - default: true
+          id: advanced-water-management
           label: Enable advanced water management
           type: boolean
-          default: true
-        - id: upgradable-city-halls
+        - default: true
+          id: upgradable-city-halls
           label: Enable upgradable city halls
           type: boolean
-          default: true
       version: 2.5.0-rc1

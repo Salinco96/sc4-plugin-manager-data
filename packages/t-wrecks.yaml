@@ -1,0 +1,235 @@
+t-wrecks/industrial-revolution-mod:
+  authors:
+    - T Wrecks
+  category: 30
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - cycledogg/mega-props-vol01
+    - deadwoods/mega-props-vol01
+    - gascooker/mega-props-vol01
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - jestarr/mega-props-vol03
+    - jestarr/mega-props-vol05
+    - jestarr/mega-props-vol08
+    - ncd/railyard-textures-vol01
+    - simgoober/mega-props-vol01
+  description: >-
+    The Industrial Revolution Mod (IRM in short) is designed to make playing with industrial lots much more enjoyable. It addresses some of the most annoying shortcomings of Maxis' industrial lots:
+
+
+    - The lots themselves look boring and repetitive
+
+    - The resulting industrial areas look cluttered and unrealistic
+
+    - Everything mixes wildly - modern and old, high-tech and heavy industry
+
+    - There is no real control - a dirty industry lot might grow right in the middle of a high-tech area and cause the high-tech facilities to dilapidate with its pollution
+
+
+    If at least one of these points has always bothered you, then this mod might be something for you.
+
+
+    **What does this mod offer me?**
+
+
+    Imagine building a city where...
+
+
+    - ...industrial areas actually look interesting and vivid
+
+    - ...you can zone for areas filled with old brick factories and smokestacks - or clean, modern facilities
+
+    - ...industry is no longer a necessary evil, but becomes an integral part of your city and adds to its flair
+
+
+    Does this sound like a deal?
+
+
+    If so, then read on! And make sure you **READ THOROUGHLY**, because this mod is **not recommended for beginners**. It is important that you know what you do. There is more in the works, and this
+    is not a mod where you can click "install" and "continue" a few times, and you're set. You should be clear about the way plugins work, and you should feel comfortable with manual file handling.
+    You should know your way around your plugins folder and be able to find things you are looking for.
+
+
+    **How does the mod work? How does it achieve the changes mentioned above?**
+
+
+    **1 - INTRODUCTION/OVERVIEW**
+
+
+    **APPEARANCE**
+
+
+    The altered appearance of all in-game industry is achieved by a simple **remake of all roughly 250 Maxis lots**, which have been completely overhauled and spiced up with custom textures, props,
+    and lighting. These new lots will override their Maxis counterparts and make your industrial zones much more interesting to look at!
+
+
+    **GAMEPLAY**
+
+
+    **Better control** and a **clear separation between "dirty" and "clean" industry** becomes possible through a **new zoning logic**.
+
+
+    Originally, medium-density industrial zones were intended for smaller industrial buildings, whereas high-density zones used to be reserved for bigger facilities. The downside to this was that all
+    types of industry could grow wildly mixed. As a consequence, industrial areas often looked cluttered, and it was nearly impossible to keep "dirty" and "clean" industries from interfering with each
+    other.
+
+
+    With this mod in place, the cheaper medium-density zones will be used for **I-D (Dirty Industry)**, which will help you when starting a city. Finally, you will be able to grow large facilities and
+    employ many Sims in your starter towns with low education level without having to fork out precious funds for those expensive dense industrial zones.
+
+
+    In contrast, **I-HT (High-Tech Industry)** will only be able to grow on dense industrial zones. This is in line with the way the game progresses: The better your Sims are educated, the further
+    your city has progressed. Later in game, when your Sims are smart enough to work in I-HT jobs, you will probably have made enough money to afford the more expensive dense industrial zones. And
+    isn't it only logical that laying out plots of land for those picky, demanding high-tech facilities will cost you more than reserving some land for a primitive old factory that will pollute its
+    surroundings anyway?
+
+
+    Now what about the third category, **I-M (Manufacturing Industry)**? There is no free zone type left, so it was not possible to assign I-M to its own zone. This is not really problematic, though,
+    because Manufacturing Industry has a big advantage:
+
+
+    - On the one hand, it is robust and forgiving enough to grow next to Dirty Industry without dilapidating or getting abandoned.
+
+    - On the other hand, I-M buildings themselves do not pollute their surroundings too heavily, allowing High-Tech Industry to grow right next door without serious problems.
+
+
+    So in short, I-M mixes well with both other types of industry. This is why it is distributed over the different zones according to its looks: Old-fashioned I-M brick factories will be restricted
+    to medium density, where they will mix well with any I-D buildings. Modern-looking I-M facilities will be restricted to high density and will integrate seamlessly into any high-tech area. Generic,
+    nondescript structures will be able to grow on zones of both densities.
+
+
+    **2 - THE TECH STUFF**
+
+
+    **What does the download contain?**
+
+
+    This package contains a set of 250 lots and one invisible dummy building that I used for some lots where I split building families. (If the last part of the foregoing sentence doesn't make sense
+    to you, don't worry: simply keep that dummy model file, and everything will be fine.)
+
+
+    **Can I simply add this mod to a pre-existing city/region?**
+
+
+    Yes and no. It is possible with some drawbacks, but **it is not recommended**. The reason for this is that I changed lot sizes.When you add this mod "on the fly" (i.e., when you already have
+    industrial areas), the lots will suddenly extend over adjacent tiles (transport networks, empty terrain, other lots), and the industrial area will look all chaotic and garbled. You will have to
+    bulldoze it and rebuild it anyway. After bulldozing, some tiles will refuse to disappear. You can simply zone over these tiles and de-zone again, this will make them disappear.
+
+
+    If you do add this mod and intend to continue playing with your existing industrial areas, **I strongly recommend backing up your region before**.
+
+
+    **How to install this mod?**
+
+
+    Simply unzip the IRM folder and copy it into your plugins folder (or into a sub-folder of your plugins folder). I recommend keeping the folder structure inside the IRM folder.
+
+
+    **What if I want to de-install this mod?**
+
+
+    It's pretty much the same as with any other download:
+
+
+    1.  Delete all lots pertaining to this mod (in this case, all industrial lots that are based on Maxis buildings!)
+
+    2.  Save all the cities and exit the game when you're done bulldozing
+
+    3.  Remove the IRM folder from your plugins
+
+
+    **Hint:** Just to be sure, I recommend moving the IRM folder somewhere else and doing some checks before you delete it permanently. This way, if it turns out you forgot to bulldoze something, you
+    can add it back in temporarily until you're done.
+
+
+    **Is this mod compatible with the** **[Industrial Jobs Quadrupler by Toroca](http://www.simcityplaza.de/index.php/mods/bugfixes?download=417:industry-quadrupler-von-toroca)****?**
+
+
+    Absolutely. I would even recommend using the quadrupler because I enlarged most of the lots to make them look more realistic. Hence, industry will consume a bit more space than it used to.
+    Considering that Maxis gave industrial facilities few jobs to begin with, the Industry Quadrupler is a good compensation. It will allow you to sustain your population without covering endless
+    areas in industry, even with the larger lots.
+
+
+    **Is this mod compatible with the Colossus Addon Mod (****CAM****)?**
+
+
+    No. The CAM contains copies of all Maxis lots that have been assigned to different stages and given a different IID. That's why the IRM lots cannot override the CAM lots.
+
+
+    **3 - DEPENDENCIES**
+
+
+    ...don't we all love them? Of course, it would have been impossible to re-design all these lots so radically without custom props and textures - loads of them, in fact. I still tried to keep
+    dependencies at a reasonable level and use packages that are rather commonplace for any custom content user, especially for players with an interest in industry. Remember that the following
+    dependencies were used for 250 lots (and will stay the same for upcoming stuff!). I have seen single lots with more dependencies, just saying...
+
+
+    **OPTIONAL**
+
+
+    I added lamps with custom light cones that will improve the lighting of the lots at night. The lots will look perfectly ok without these light cones, but if you want them, you will have to
+    download this pack:
+
+
+    [PEG](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+    [](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)[MTP](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/) [Super
+    Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+
+    **4 - FINAL WORDS**
+
+
+    I've been working on this mod and off with long breaks, motivation was a serious issue. Making a lot is nice. Making two lots is okay. Making 250 lots is a serious pain in lower body regions; it's
+    not even funny. In total, it took me nearly two years to piece all this together, test it, write the documentation, make screenshots, and all that. For the most part, it was by far more boring and
+    painful grunt work than a pleasant creative task. So much time has passed that by now I'm already dissatisfied with several of the lots. It's about time I released this so I have it off my plate.
+    I'm exhausted, fed up with it, glad it's done with. I hope you guys will like it although it's far from perfect. At least I hope it will be an improvement over the Maxis lots.
+
+
+    I have some more nearly finished stuff in store that will be released soon, most notably two IRM addon packs with another ~80 lots in total, plus some filler sets further down the road. These
+    should enable you to take even more control over your industrial areas and make halfways realistic-looking facilities. So make sure you watch the STEX!
+
+
+    The next logical step would be to re-lot some popular industrial BATs for seamless integration into this mod, but we'll see how that goes.
+
+
+    I would like to thank all the fine people who made the tools, the props, and the textures that I used, as well as the entire SC4 crowd for keeping this game alive, and for having me around.
+
+
+    **Should you want to share and/or modify this**, be my guest - just try not to be a jerk and give credit where credit is due. In case of doubt, just drop me a line via PM here on Simtropolis.
+
+
+    Finally, for those annoying people who keep saying things like *"Duh, the Lot Editor simply won't cut it these days, you need to make your own* *BAT**"* in STEX comments, I have [a little
+    dedication](http://www.ld-host.de/uploads/images/60922c0de94671f690a4f781c74f1bfe.jpg), too.
+
+
+    T Wrecks, December 2, 2012
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/4b9851036c763fc60269d1e29ac4a28f-irm_i-d_comparison.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/d6651dac13d11ef1e5912cc6ee7da9cf-irm_i-m_comparison.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/19203995a87599af1ead5a6e1e17c617-irm_i-h_comparison.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/fcbd073c4eeb31c6ee0896cc8d5007dc-irm_dirtyindustry2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/1bd33ca81ca9312c01c0cef2bb068b4e-irm_cleanindustry2.jpg
+  name: Industrial Revolution Mod - Base Pack (Maxis Lots)
+  optional:
+    - pegasus/mtp-super-pack
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-4b9851036c763fc60269d1e29ac4a28f-irm_i-d_comparison.jpg
+  url: https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/
+  variants:
+    default:
+      assets:
+        - docs:
+            - IRM Base Pack
+          id: simtropolis/28268-industrial-revolution-mod-base-pack-maxis-lots
+          include:
+            - IRM Base Pack
+      name: Original
+      requirements:
+        cam: false
+      version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable

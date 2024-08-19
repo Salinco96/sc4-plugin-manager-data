@@ -90,6 +90,7 @@ rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
   name: Rubik WTC Complex
   optional:
     - cam/colossus-addon-mod
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/day.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/20-ploppable/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex
   variants:
@@ -101,19 +102,12 @@ rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
             - ~Documents
           id: sc4evermore/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex
           include:
-            - path: CAM/Rubik3/World Trade Center Towers
-              condition:
+            - condition:
                 cam: true
+              path: CAM/Rubik3/World Trade Center Towers
             - BSC/BSC Custodian/Rubik3
             - BSC/BSCProps
             - BSC/BSC Submenu
-            # - CAM/Rubik3/World Trade Center Towers/CO$$$15_4x4_WTC_Complex_Two World Trade_Co$$$_043264c8.SC4Lot
-            # - CAM/Rubik3/World Trade Center Towers/CO$$$15_4x4_WTC_Complex_One World Trade_Co$$$_243260d7.SC4Lot
-            # - BSC/BSC Custodian/Rubik3/World Trade Center Complex/WTC_Complex_Reward_ae3f8aea.SC4Lot
-            # - BSC/BSC Custodian/Rubik3/World Trade Center Complex/WTC_Complex_Placeholder_0e44f044.SC4Lot
-            # - BSC/BSC Custodian/Rubik3/World Trade Center Complex/WTC_Complex_Landmark_4e4dd98d.SC4Lot
-            # - BSC/BSC Custodian/Rubik3/Two World Trade Tower/Two World Trade with Jobs.dat
-            # - BSC/BSC Custodian/Rubik3/One World Trade Tower/One World Trade with Jobs.dat
       version: 2.0.0
   warnings:
     - id: bulldoze

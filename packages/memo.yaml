@@ -1,3 +1,45 @@
+memo/region-thumbnail-fix-dll:
+  authors:
+    - memo
+  category: 60
+  description: >-
+    This DLL plugin fixes the rendering bug of a city's region view thumbnail that affects large screen sizes.
+
+
+    The bug occurs with any vertical screen resolution larger than 1024 pixels. When saving a large city tile, it results in an incomplete rendering of the terrain, leading to a visible gap in the
+    region view.
+
+
+    **Troubleshooting**
+
+
+    The plugin should write a .log file in the folder containing the plugin. The log contains status information for the most recent run of the plugin.
+
+
+    If no .log file is written, the DLL failed to load. In this case, make sure the [Microsoft Visual C++ 2022+ x86 Redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe) is installed.
+
+
+    **Source Code**
+
+
+    Available on [GitHub](https://github.com/memo33/sc4-thumbnail-fix-dll).
+
+
+    Thanks to [@Ulisse Wolf](https://community.simtropolis.com/profile/321174-ulisse-wolf/), [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/),
+    [@redfox85](https://community.simtropolis.com/profile/101198-redfox85/) and [@Eggman121](https://community.simtropolis.com/profile/205071-eggman121/) for testing the DLL.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.147e3ee01bff54be8999236ff119a78b.jpeg
+  name: Region Thumbnail Fix DLL
+  release: 2024-08-19T09:13:11.692Z
+  repository: https://github.com/memo33/sc4-thumbnail-fix-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.thumb.jpeg.6908f13c639304448a7d9bc9a4295b25.jpeg
+  url: https://community.simtropolis.com/files/file/36396-region-thumbnail-fix-dll/
+  variants:
+    default:
+      assets:
+        - id: github/memo33/sc4-thumbnail-fix-dll
+      version: 1.0.0
+
 memo/submenus-dll:
   authors:
     - memo
@@ -17,21 +59,6 @@ memo/submenus-dll:
     - fixes the game's menu rendering issues caused by duplicate or missing menu icons.
 
     - implements Exemplar Patching functionality.
-
-
-    **System requirements**
-
-
-    - SimCity 4, version 1.1.641 (the digital release) ([more
-    info](https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/))
-
-    - Windows 7+ or Linux
-
-
-    **Dependencies**
-
-
-    - [SC4ResourceLoadingHooks DLL](https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/) by Null 45
 
 
     **Credits**
@@ -58,6 +85,7 @@ memo/submenus-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/parks-submenus-animation.gif.fc7b73b36d2cfd59d4aca263a753285c.gif
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/commercial-submenus.jpeg.7fd15082d193a82259d3a0fff766ebf7.jpeg
   name: Submenus DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/memo33/submenus-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.thumb.jpeg.b849d44b5fa1dc01e969a9deeff7a2dd.jpeg
   url: https://community.simtropolis.com/files/file/36142-submenus-dll/
@@ -139,6 +167,7 @@ memo/transparent-texture-fix-dll:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.0ff9c72de8289d13d1854c204a6efc49.jpeg
   name: Transparent Texture Fix DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/memo33/transparent-texture-fix-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.thumb.jpeg.dce7652797c99365f8945704768dd0b8.jpeg
   url: https://community.simtropolis.com/files/file/36379-transparent-texture-fix-dll/

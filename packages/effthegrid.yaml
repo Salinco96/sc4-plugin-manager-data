@@ -17,6 +17,7 @@ effthegrid/fa2-the-bradhurst:
     - https://www.simtropolis.com/objects/screens/monthly_2021_07/bradhurst-4.jpg.5b1aa365b2e4a53b6bae1c81adaebff2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_07/bradhurst-5.jpg.6d08d015f849d6988ff69e92e4abf74e.jpg
   name: FA2 The Bradhurst
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/bradhurst-3.thumb.jpg.ac92c45d35f828381de908702595e8b1.jpg
   url: https://community.simtropolis.com/files/file/34599-fa2-the-bradhurst/
   variants:
@@ -164,23 +165,24 @@ effthegrid/fa3-181-east-gun-hill-rd:
                 lots: cs$$-2x1
               path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
       lots:
-        - label: R$$, 2x2
+        - category: 362
           id: r$$-2x2
-          category: 362
+          label: R$$, 2x2
           size: 2x2
-        - label: R$$, 2x1 Overhang
+        - category: 362
           id: r$$-2x1
-          category: 362
+          label: R$$, 2x1 Overhang
           size: 2x1
-        - label: CS$$, 2x2
+        - category: 363
           id: cs$$-2x2
-          category: 363
+          label: CS$$, 2x2
           size: 2x2
-        - label: CS$$, 2x1 Overhang
+        - category: 363
           id: cs$$-2x1
-          category: 363
+          label: CS$$, 2x1 Overhang
           size: 2x1
       name: Maxis Nite
+      release: 2024-08-19T09:13:11.692Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -202,25 +204,132 @@ effthegrid/fa3-181-east-gun-hill-rd:
                 lots: cs$$-2x1
               path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
       lots:
-        - label: R$$, 2x2
+        - category: 362
           id: r$$-2x2
-          category: 362
+          label: R$$, 2x2
           size: 2x2
-        - label: R$$, 2x1 Overhang
+        - category: 362
           id: r$$-2x1
-          category: 362
+          label: R$$, 2x1 Overhang
           size: 2x1
-        - label: CS$$, 2x2
+        - category: 363
           id: cs$$-2x2
-          category: 363
+          label: CS$$, 2x2
           size: 2x2
-        - label: CS$$, 2x1 Overhang
+        - category: 363
           id: cs$$-2x1
-          category: 363
+          label: CS$$, 2x1 Overhang
           size: 2x1
       name: Dark Nite
+      release: 2024-08-19T09:13:11.692Z
       requirements:
         darknite: true
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+effthegrid/fa3-559-anderson-ave:
+  authors:
+    - EffTheGrid
+  category: 220
+  description: |-
+    Break the grid! Nyoooooooom....... **BOOM.** There goes the grid!
+
+    Here's a fractionally angled version of Cliffside Park, NJ's most average brick apartment building. This one is located along Anderson Ave (Bergenline) and is 5 over 1, mid to late 20th century.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/559-anderson-R.jpg.6b167bf2d9532be7047eab2b8b52cb40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/559-anderson-L.jpg.48e46618c2ccfff70c636eb64100a2f0.jpg
+  name: FA3 559 Anderson Ave
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/559-anderson-R.thumb.jpg.e5275ff55ffb67b4812b5ffdab0d4593.jpg
+  url: https://community.simtropolis.com/files/file/34864-fa3-559-anderson-ave-residential/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/34864-fa3-559-anderson-ave-residential
+          include:
+            - FA3 559 Anderson {{lots}}.SC4Lot
+            - FTG 559 Anderson Ave
+      lots:
+        - id: L_8f95054d
+          label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
+        - id: R_4f950542
+          label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
+      name: Original
+      version: 1.0.0
+    kel9509:
+      assets:
+        - id: simtropolis/34864-fa3-559-anderson-ave-residential
+          include:
+            - FA3 559 Anderson {{lots}}.SC4Lot
+            - FTG 559 Anderson Ave
+        - docs:
+            - FA3 559 Anderson Ave Growify
+          id: simtropolis/36399-fa3-559-anderson-ave-growify
+          include:
+            - "{{lots}}.SC4Lot"
+      authors:
+        - Kel9509
+      dependencies:
+        - null-45/growify-plops-dll
+      description: >-
+        Based off of EffTheGrid's model: FA3 559 Anderson Ave (Residential).
+
+
+        Included are two FA3 lots based off of EffTheGrid's original lot and model. It has been transformed into a ploppable R$ Residential lot that can be used in the game if Growifed with the
+        growify DLL mod by Null45.
+
+
+        These are LOTS ONLY, and does not include the model. These are new lots and do not overwrite EffTheGrid's original landmark eyecandy lots.
+
+
+        Note: This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All dependencies listed below are REQUIRED
+        for this RCI DLL Query Upgrade Mod to work. For more information about compatible versions of Simcity4 and DLL mods, see here:
+
+
+        https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/
+
+
+        TO USE:
+
+
+        Pause the game, plop the lot along a FA3 street (the lot pointing to the FA3 street), use the Growify cheat code "Growify R M" or "Growify R H" to growify the lot as medium density or high
+        density lots. Make sure it has water and power or, like any other lot, it may abandon. If you have the submenu DLL mod by memo, the lots will appear in the Residential Zone menu under R$
+        Ploppables.
+
+
+        Stats:
+
+
+        Left: R$ 251 residents.
+
+
+        Right: R$ 278 residents.
+      images:
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236867ab6_FA3559AndersonAveGrowify1.jpg.32c6f8021331378d5faa17f602dd986d.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236b6fce4_FA3559AndersonAveGrowify2.jpg.053d1db1775d302cb1222e1283ae14eb.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236e71a12_FA3559AndersonAveGrowify3.jpg.00e718c3028dd5041d53601f14007397.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c12370a8e7d_FA3559AndersonAveGrowify4.jpg.2759ef9f048aab3eaa4ba84e11186c6b.jpg
+      lots:
+        - category: 210
+          id: PLOP_1x1_FA3 559 Anderson Ave (Left) Growify_3436999b
+          label: FA3 559 Anderson Ave, Left (Growify R$, 1x1)
+          size: 1x1
+        - category: 210
+          id: PLOP_1x1_FA3 559 Anderson Ave (Right) Growify_04369954
+          label: FA3 559 Anderson Ave, Right (Growify R$, 1x1)
+          size: 1x1
+        - category: 360
+          id: L_8f95054d
+          label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
+          size: 1x1
+        - category: 360
+          id: R_4f950542
+          label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
+          size: 1x1
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c123ec1b239_FA3559AndersonAveGrowify1.thumb.jpg.467fe045bbafdde36e87d4dbc9e3a918.jpg
+      url: https://community.simtropolis.com/files/file/36399-fa3-559-anderson-ave-growify/
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -239,6 +348,7 @@ effthegrid/fa3-928-s-broadway:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/01.jpg.707c3b88a0d8ba99ca04d329430b8628.jpg
   name: FA3 928 S Broadway
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_01/01.thumb.jpg.f171291b9a910dee183ae41dbffdcd04.jpg
   url: https://community.simtropolis.com/files/file/34064-fa3-928-s-broadway/
   variants:
@@ -271,24 +381,24 @@ effthegrid/fa3-928-s-broadway:
         Based off of EffTheGrid's model: FA3 928 S Broadway.
 
 
-        Included is one FA3 lot based off of EffTheGrid's original lot and model. It has been transformed into a ploppable R$ Residential lot that can be used in the game if Growifed with the growify DLL
-        mod by Null45.
+        Included is one FA3 lot based off of EffTheGrid's original lot and model. It has been transformed into a ploppable R$ Residential lot that can be used in the game if Growifed with the growify
+        DLL mod by Null45.
 
 
         This is a LOT ONLY, and does not include the model. This is a new lot and does not overwrite EffTheGrid's original landmark eyecandy lot. It is rotated slightly differently than EffTheGrid's
         original lot (but appears the same), in order to provide better access to the street.
 
 
-        Note: This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All dependencies listed below are REQUIRED for
-        this RCI DLL Query Upgrade Mod to work.
+        Note: This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All dependencies listed below are REQUIRED
+        for this RCI DLL Query Upgrade Mod to work.
 
 
         TO USE:
 
 
-        Pause the game, plop the lot along a FA3 street with an orthogonal street on the alternate side (the lot pointing to the FA3 street), use the Growify cheat code "Growify R M" or "Growify R H" to
-        growify the lot as medium density or high density lots. Make sure it has water and power or, like any other lot, it may abandon. If you have the submenu DLL mod by memo, the lots will appear in
-        the Residential Zone menu under R$ Ploppables.
+        Pause the game, plop the lot along a FA3 street with an orthogonal street on the alternate side (the lot pointing to the FA3 street), use the Growify cheat code "Growify R M" or "Growify R H"
+        to growify the lot as medium density or high density lots. Make sure it has water and power or, like any other lot, it may abandon. If you have the submenu DLL mod by memo, the lots will
+        appear in the Residential Zone menu under R$ Ploppables.
 
 
         Stats:

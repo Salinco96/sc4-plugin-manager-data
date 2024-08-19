@@ -1,3 +1,70 @@
+11241036/community-gardens:
+  authors:
+    - "11241036"
+  category: 660
+  dependencies:
+    - 11241036/textures
+    - bsc/mega-props-misc-vol02
+    - bsc/textures-vol01
+    - couchpotato/mega-props-vol01
+    - cycledogg/textures-vol01
+    - cycledogg/mega-props-vol02
+    - franku/bnl-essentials
+    - girafe/flora-pack
+    - hund88/sunflower-field
+    - pegasus/spam-super-resource-pack
+    - simgoober/farm-fields-vol02
+    - wmp/mega-props-vol01
+  description: >-
+    This is a small set of community gardens, working as a supplement to the default Maxis community gardens, for those mayors that want their sims to grow their own food. These lots come in 4 sizes,
+    from 1x1 to 2x2, and provide a small park effect, as well as a small farming demand cap relief, while charging only low monthly cost.
+
+
+    For further information and lot statistics, please refer to the Readme.
+
+
+    **Available languages:** English and German
+
+
+    **Dependencies**
+
+
+    TODO: **Maxis Castle Set** (direct download link): https://community.simtropolis.com/library/maxis/sc4/buildings/Longfellow_Castle.zip
+
+
+    **Special notes:**
+
+
+    **This plugin contains seasonal and semi-seasonal props.** They may not always show up right after plopping. Please let the game run for a few in-game months, and they will appear sooner or later.
+
+
+    **This plugin has been optimized for usage with memo's Submenus DLL mod.** This means that users who have downloaded this mod will find this plugin being packed into its own submenu (make sure to
+    read the installation instructions below). Users who don't use it will simply find it in their park menu, somewhere in the center. The submenu icon looks like this (only one of the 4 circles is
+    visible at a time):
+
+
+    ![Icon_CG_Submenu.thumb.png.ac068eaec43b7f](https://www.simtropolis.com/objects/screens/monthly_2024_05/Icon_CG_Submenu.thumb.png.ac068eaec43b7fd77ddfe937d18a241c.png)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/CG_Scr.jpg.3dc07c1f7c103e42c75a59d52b82cf8e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/Icon_CG_Submenu.png.3b8b1d7ee92435a55d29c1369d3865ae.png
+  name: Community Gardens
+  optional:
+    - memo/submenus-dll
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/CG_Scr.thumb.jpg.df3abc6f591d6fec367144c5af9b7850.jpg
+  url: https://community.simtropolis.com/files/file/36243-community-gardens/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36243-community-gardens
+          include:
+            - Community Gardens.dat
+            - CG_Submenu Park.dat
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 11241036/cp-floral-mmp-collection:
   authors:
     - "11241036"
@@ -53,6 +120,7 @@
   name: CP Floral MMP Collection
   optional:
     - memo/submenus-dll
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/Scr_CP.thumb.jpg.f9e9867a177bfea36552fc94ae96f919.jpg
   url: https://community.simtropolis.com/files/file/36339-cp-floral-mmp-collection/
   variants:
@@ -126,6 +194,7 @@
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr.jpg.ed5e98ef6bc367a380d71e0369f0c545.jpg
   name: FA Roads T21 Mod
+  release: 2024-08-19T09:13:11.692Z
   requirements:
     nam: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr.thumb.jpg.5d95f6f7180546b207c2f93d8a1d2274.jpg
@@ -137,20 +206,20 @@
             - zFA Roads T21 Mod
           id: simtropolis/36380-fa-roads-t21-mod
           include:
-            - path: FA Roads T21 Mod_Remove All.dat
-              condition:
+            - condition:
                 density: all
                 remove-lanterns: true
                 remove-trees: true
-            - path: FA Roads T21 Mod_Remove Trees Lanterns HD.dat
-              condition:
+              path: FA Roads T21 Mod_Remove All.dat
+            - condition:
                 density: high-only
                 remove-lanterns: true
                 remove-trees: true
-            - path: FA Roads T21 Mod_Remove Trees all D.dat
-              condition:
+              path: FA Roads T21 Mod_Remove Trees Lanterns HD.dat
+            - condition:
                 remove-lanterns: false
                 remove-trees: true
+              path: FA Roads T21 Mod_Remove Trees all D.dat
       options:
         - default: true
           id: remove-trees
@@ -185,7 +254,7 @@
     - bsc/common-dependencies
     - buddybud/jeronij-concrete-wall-addon-stairs
     - girafe/flora-pack
-    - historic-harbor/historic-harbor-props # You only need the file Fence - Iron small.dat
+    - historic-harbor/historic-harbor-props
     - maxis/maxis-buildings-as-props
     - murimk/bike-props
     - murimk/props-vol02
@@ -324,6 +393,7 @@
       id: submenu
       label: Submenu
       type: string
+  release: 2024-08-19T09:13:11.692Z
   requirements:
     nam: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
@@ -587,6 +657,44 @@
     - id: bulldoze
       on: disable
 
+11241036/sg-gardening-mmp-collection:
+  authors:
+    - "11241036"
+    - SimGoober
+  category: 670
+  dependencies:
+    - bsc/common-dependencies
+  description: >-
+    This plugin makes SimGoober's Azaleas, Hydrangeas, and Wildflowers that are already featured in many plugins in the internet, available for your Mayor Mode Menu, for your gardening pleasure. For a
+    long time, up to still now, they have played an important role in park and garden design. There are, admittedly, more detailed graphics available, but they are still quite useful and versatile and
+    fulfill their purpose - this time, even from out of your Mayor Mode Menu, to give you even more freedom in designing your parks and gardens.
+
+    For further information, please refer to the Readme in the download.
+
+
+    Available languages: English, German
+
+
+    **Support:**
+
+
+    Please feel free to post questions, suggestions, and bug reports in this thread:
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Scr1.png.87a60078fa22f5c3b7f34eca78d2b31c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Scr2.jpg.94ca9456ff83eff1b3bd30ca31a1bdfa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Scr3.png.bdd4e0f1c292b23a97e45f79c1557c3f.png
+  name: SG Gardening MMP Collection
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/Scr2.thumb.jpg.85f8f9550cf130e308fc580fe7a70973.jpg
+  url: https://community.simtropolis.com/files/file/33897-sg-gardening-mmp-collection/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33897-sg-gardening-mmp-collection
+          include:
+            - SG Gardening MMP Collection_Combined Entries.dat
+      version: 1.0.0
+
 11241036/textures:
   authors:
     - "11241036"
@@ -655,6 +763,7 @@
     - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table2.png.a4248fa0552c5df23d90e55c0e6ba5e4.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/Feldtexturen_Tabelle.png.6ffafee6b2233aeacb555e68f65de393.png
   name: 11241036 Textures
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.thumb.png.7ea0b4211bfe832221bcc4f84252afbf.png
   url: https://community.simtropolis.com/files/file/33651-11241036-textures/
   variants:
@@ -758,6 +867,7 @@
     - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.jpg.a8c450b3ad3b1e88d97fc958a1b09d5c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e973f57ccea8_SAM8Override.jpg.17789009f252e4cb6c02b97e783e5c2a.jpg
   name: Traffic Blocker Set
+  release: 2024-08-19T09:13:11.692Z
   requirements:
     nam: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
@@ -829,6 +939,7 @@
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.jpg.d34b5066fa746c20427bb6e6fea90199.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.png.de43eb44243c947ce7eff75c17b88c17.png
   name: Various Lot Foundations and Retaining Walls
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
   url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
   variants:

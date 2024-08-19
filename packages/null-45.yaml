@@ -168,6 +168,8 @@ null-45/graphics-options-dll:
     - Null 45
   category: 60
   name: Graphics Options
+  optional:
+    - memo/region-thumbnail-fix-dll
   repository: https://github.com/0xC0000054/sc4-graphics-options
   url: https://www.sc4evermore.com/index.php/downloads/download/42-dll-mods/259-sc4graphicsoptions-dll-plugin
   variants:
@@ -335,6 +337,7 @@ null-45/growify-plops-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/Before.jpg.b3944172ebbdc52f6e0878fd2c10699a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/After.jpg.6d7423b6d948306a7465a8ae298a3803.jpg
   name: Growify Plopped Buildings Cheat DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-growify
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_03/STEXIcon.thumb.png.49fdef61e541247ae4aeaacdc0e6a4d5.png
   url: https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/
@@ -516,6 +519,7 @@ null-45/more-building-styles-dll:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.349200b77528f735e0b85e347f5a6cb5.png
   name: More Building Styles DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-more-building-styles
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.d0a231227c791acd31e13fe612986fb2.png
   url: https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/
@@ -645,6 +649,7 @@ null-45/more-demand-info-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.png.59c37a3a6c5bd2aa3f9d1f55d9094d62.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/MoreDemandInfo.png.c3511a969cc46a867c82ffdad708ec45.png
   name: SC4 More Demand Info
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-more-demand-info
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.thumb.png.4baf70a67eff4ba39d69bcbd17bfe144.png
   url: https://community.simtropolis.com/files/file/35978-sc4-more-demand-info/
@@ -654,7 +659,6 @@ null-45/more-demand-info-dll:
         - id: github/0xC0000054/sc4-more-demand-info
           include:
             - SC4MoreDemandInfo.dll
-            # TODO: - Census Repository v3.5 Patch/RJ - Census_Repository_Model_and_Query_3.1.dat
       version: 1.2.0
 
 null-45/no-kickout-dll:
@@ -800,6 +804,7 @@ null-45/query-tool-ui-extensions-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.png.37043c91bc3b2c34245c6ef2bcf8a07c.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/CustomNetworkTooltip.jpg.2cbf9c5d0ac1069689147b7427fbeebc.jpg
   name: Query Tool UI Extensions DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-query-ui-hooks
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.thumb.png.ff8b2dce5ef2d377f18e5401653e1c02.png
   url: https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/
@@ -872,6 +877,7 @@ null-45/resource-loading-hooks-dll:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.png.d211e9d6dd6920f2b1ae48a86e26964c.png
   name: Resource Loading Hooks DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-resource-loading-hooks
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.thumb.png.d6b99a97951fcfd4e8128d917e2ea7be.png
   url: https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/
@@ -977,6 +983,7 @@ null-45/sc4-auto-run-cheats-dll-plugin:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/STEXIcon.png.b0766777b89d637524e08ec53f9d7da7.png
   name: SC4 Auto Run Cheats DLL
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-auto-run-cheats
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/STEXIcon.thumb.png.72fa844d04c6aae9acea9dd1f3bf97b6.png
   url: https://community.simtropolis.com/files/file/36384-sc4-auto-run-cheats-dll-plugin/
@@ -985,7 +992,7 @@ null-45/sc4-auto-run-cheats-dll-plugin:
       assets:
         - id: github/0xC0000054/sc4-auto-run-cheats
           include:
-            - SC4AutoRunCheats.ini # TODO
+            - SC4AutoRunCheats.ini
             - SC4AutoRunCheats.dll
       version: 1.1.0
 
@@ -1068,6 +1075,7 @@ null-45/startup-performance-optimization-dll:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.png.9174478a28a769493ac7948ea0b7f5b1.png
   name: Startup Performance Optimization DLL for SimCity 4
+  release: 2024-08-19T09:13:11.692Z
   repository: https://github.com/0xC0000054/sc4-dbpf-loading
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.thumb.png.46691a9dc1db4b041b41d00b1180e880.png
   url: https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/

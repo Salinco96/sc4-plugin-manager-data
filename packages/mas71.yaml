@@ -1,24 +1,3 @@
-mas71/mega-props-vol01:
-  authors:
-    - MAS71
-  category: 120
-  description: New 2022 repackaged version of MAS71 Props, courtesy of Tyberius06 as part of the **Project ZIP** effort.
-  images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71 Mega Props vol01lex.jpg
-  name: MAS71 MEGA Prop Pack Vol01 - Misc
-  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71 Mega Props vol01lex.jpg
-  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc
-  variants:
-    default:
-      assets:
-        - docs:
-            - Mas71 Mega Props vol01_index.jpg
-          id: sc4evermore/87-mas71-mega-prop-pack-vol01-misc
-          include:
-            - MAS71/Props Pack
-      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc
-      version: 1.0.0
-
 mas71/japanese-river-project:
   authors:
     - MAS71
@@ -99,6 +78,7 @@ mas71/japanese-river-project:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_alp2_11.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Suburban Canal Addon1_01.jpg
   name: Japanese River Project (JRP)
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_013.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/14-park/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
   variants:
@@ -109,8 +89,7 @@ mas71/japanese-river-project:
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes
-          id: sc4evermore/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
-          exclude: # TODO
+          exclude:
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme/zz_mas71_jrp046_v-curves_none-ponton_v-curves.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Z___BSC MODs/MML/zz_Mas71_JRP-MML_080714.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@5!xx_Options#/!Transparent Water Lots/JRP_Transparent Water_LOTs.dat
@@ -122,8 +101,31 @@ mas71/japanese-river-project:
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@303_OPTION (Guardrail)/03_JRPSC prop_Option Gurdrail 01.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Green/02_JRPSC prop_Fence-GREEN.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Black/02_JRPSC prop_Fence-BLACK.dat
+          id: sc4evermore/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
           include:
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/=White/02_JRPSC prop_Fence-WHITE.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2
       name: Default
       version: 2.0.0
+
+mas71/mega-props-vol01:
+  authors:
+    - MAS71
+  category: 120
+  description: New 2022 repackaged version of MAS71 Props, courtesy of Tyberius06 as part of the **Project ZIP** effort.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71 Mega Props vol01lex.jpg
+  name: MAS71 MEGA Prop Pack Vol01 - Misc
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71 Mega Props vol01lex.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc
+  variants:
+    default:
+      assets:
+        - docs:
+            - Mas71 Mega Props vol01_index.jpg
+          id: sc4evermore/87-mas71-mega-prop-pack-vol01-misc
+          include:
+            - MAS71/Props Pack
+      url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc
+      version: 1.0.0

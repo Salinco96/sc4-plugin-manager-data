@@ -11,12 +11,31 @@ debussyman/dresden-frauenkirche:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheLight.png.7ca7e0acb69fc0cf35cdfb5d44757eef.png
   name: Dresden Frauenkirche
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheLight.thumb.png.d7d1e54772d298e53438a4a208f7c4b6.png
   url: https://community.simtropolis.com/files/file/36393-dresden-frauenkirche/
   variants:
     default:
       assets:
         - id: simtropolis/36393-dresden-frauenkirche
+      name: Default
+      version: 1.0.0
+    pre-war-version:
+      assets:
+        - id: simtropolis/36395-dresden-frauenkirche-pre-war-version
+          include:
+            - "{{lots}}.SC4Lot"
+            - "*"
+      description: Pre-war look of a previously uploaded church. Also located under "Landmarks"
+      images:
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheDark.png.f0ec6fd84202b8e17a24e121a7b25f78.png
+      lots:
+        - id: PLOP_4x4_Dresden Frauenkirche_Dark_53cb8009
+          label: Dresden Frauenkirche, Pre-war (Landmark, 4x4)
+          size: 4x4
+      name: Pre-war
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheDark.thumb.png.31506a9fac39389e4de90713543fed23.png
+      url: https://community.simtropolis.com/files/file/36395-dresden-frauenkirche-pre-war-version/
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -66,6 +85,7 @@ debussyman/wz-recreation-palais:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/WZPalais.PNG.c2e98a4eae8585a4b0bea61a433c8e90.PNG
   name: "WZ Recreation: Palais"
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/WZPalais.thumb.PNG.9e3c35f53b09bb6cbd370acba8956aca.PNG
   url: https://community.simtropolis.com/files/file/36334-wz-recreation-palais/
   variants:

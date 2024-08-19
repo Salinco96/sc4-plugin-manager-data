@@ -1,3 +1,34 @@
+pegasus/cdk3-sp-container-ship-fleet:
+  authors:
+    - Pegasus
+  category: 120
+  description: >-
+    This is a collection of 7 container ship props to be used with the upcoming PEG\-CDK3 Seaport (CDK3\-SP) series of lots. It is a required dependency, specifically, for the Container Ship Seaport
+    lot and may be used with other CDK3\-SP lots.
+
+
+    \* Players and developers may use these props on their own lots... subject to the terms of the EULA that is documented in the included readme file.
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9a57e91e92c954ee460896c165554887-product_image.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9a57e91e92c954ee460896c165554887-product_image1.jpg
+  name: PEG CDK3 SP Container Ship Fleet
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_08_2008/thumb-9a57e91e92c954ee460896c165554887-product_image.jpg
+  url: https://community.simtropolis.com/files/file/19577-peg-cdk3-sp-container-ship-fleet/
+  variants:
+    default:
+      assets:
+        - docs:
+            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet
+          id: simtropolis/19577-peg-cdk3-sp-container-ship-fleet
+          include:
+            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet
+      version: 1.0.1
+
 pegasus/cdk3-sp-rail-fleet:
   authors:
     - Pegasus
@@ -23,6 +54,7 @@ pegasus/cdk3-sp-rail-fleet:
     - https://www.simtropolis.com/objects/screens/0005/2486e017b6687d2453d8105021e06971-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0005/2486e017b6687d2453d8105021e06971-product_image1.jpg
   name: PEG CDK3 SP Rail Fleet
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2008/thumb-2486e017b6687d2453d8105021e06971-product_image.jpg
   url: https://community.simtropolis.com/files/file/19786-peg-cdk3-sp-rail-fleet/
   variants:
@@ -78,6 +110,7 @@ pegasus/cdk3-super-pack:
   images:
     - https://www.simtropolis.com/objects/screens/0025/e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
   name: PEG CDK3 Super Pack
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2008/thumb-e1b1c9d53f9b6fc379ec8bf0195776fd-product_image.jpg
   url: https://community.simtropolis.com/files/file/19880-peg-cdk3-super-pak/
   variants:
@@ -132,6 +165,7 @@ pegasus/mtp-scenic-views:
     - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image1.jpg
     - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image2.jpg
   name: PEG MTP Scenic Views
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2006/thumb-3290f30934ff476be4b189b76ea03df8-product_image1.jpg
   url: https://community.simtropolis.com/files/file/14809-peg-mtp-scenic-views/
   variants:
@@ -237,6 +271,7 @@ pegasus/mtp-super-pack:
   images:
     - https://www.simtropolis.com/objects/screens/0003/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   name: PEG MTP SUPER PACK
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   url: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
   variants:
@@ -251,6 +286,35 @@ pegasus/mtp-super-pack:
           include:
             - _MTP SUPER PACK
       version: 1.5.0
+
+pegasus/one-flag-many-nations:
+  authors:
+    - Pegasus
+  category: 120
+  dependencies:
+    - maxis/day-of-peace
+  description: >-
+    The One Flag... Many Nations mod allows Lot Developers to place a generic flag on their lots which will then display the user's specific or chosen national flag when that lot is used in their
+    game. The player decides which flag will be displayed by installing the one modified flag .dat files enclosed in this mod.
+
+
+    Please note that this mod merely references the flag graphic images contained in the Day of Peace Add-On. Additional flags can not be added unless created by Maxis or a 3rd party developer. If
+    your flag isn't included and/or you prefer not to have a flag displayed on lots that use this mod, simply don't install this mod.
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2012/75dbec6dd5d5e27c7b5d3b7a4d11a304-peg_ofmn.jpg
+  name: PEG One Flag Many Nations
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2012/thumb-75dbec6dd5d5e27c7b5d3b7a4d11a304-peg_ofmn.jpg
+  url: https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/27711-peg-one-flag-many-nations-mod
+      version: 1.0.0
 
 pegasus/peg-tennis-park:
   authors:
@@ -285,6 +349,7 @@ pegasus/peg-tennis-park:
   name: PEG Tennis Park
   optional:
     - pegasus/peg-trail-parks-3
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2005/thumb-e63299972e6865ad473e39850634a4d1-product_image.jpg
   url: https://community.simtropolis.com/files/file/11688-peg-tennis-park/
   variants:
@@ -317,6 +382,7 @@ pegasus/peg-trail-parks-3:
   images:
     - https://www.simtropolis.com/objects/screens/0016/8c4309f065ce08a2c18dd286d80a80f0-product_image.jpg
   name: PEG Trail Parks III
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2004/thumb-8c4309f065ce08a2c18dd286d80a80f0-product_image.jpg
   url: https://community.simtropolis.com/files/file/11001-peg-trail-parks-iii/
   variants:
@@ -375,6 +441,7 @@ pegasus/pond-kit-2:
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image21.jpg
   name: PEG Pond Kit II
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_04_2005/thumb-2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
   url: https://community.simtropolis.com/files/file/12329-peg-pond-kit-ii-deluxe-edition-v206/
   variants:
@@ -409,6 +476,7 @@ pegasus/seasonal-woods:
   images:
     - https://www.simtropolis.com/objects/screens/0028/fe3f12ba258a7384a446b96957480326-product_image.jpg
   name: PEG Seasonal Woods
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2004/thumb-fe3f12ba258a7384a446b96957480326-product_image.jpg
   url: https://community.simtropolis.com/files/file/4515-peg-seasonal-woods-v206b/
   variants:
@@ -441,6 +509,7 @@ pegasus/security-fencing-kit:
     - https://www.simtropolis.com/objects/screens/0026/e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0026/e93137f82ebbfe8be9f12c8d2085c058-product_image1.jpg
   name: PEG Security Fencing Kit
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2008/thumb-e93137f82ebbfe8be9f12c8d2085c058-product_image.jpg
   url: https://community.simtropolis.com/files/file/19338-peg-security-fencing-kit/
   variants:
@@ -451,6 +520,100 @@ pegasus/security-fencing-kit:
           id: simtropolis/19338-peg-security-fencing-kit
           include:
             - PEGPROD/MODs/Security Fencing
+      version: 1.0.0
+
+pegasus/spam:
+  authors:
+    - Pegasus
+  category: 41
+  dependencies:
+    - pegasus/mtp-super-pack
+    - pegasus/spam-super-resource-pack
+  description: >-
+    The **S**im**P**eg **A**gricultural **M**od (**SPAM**) is an absolute, total and complete replacement for the game-default farming system.
+
+
+    The default system was never really finished before game release and was, in fact, designed to be short-lived and used only initially in starter cities. The game, as it progresses, actually is
+    designed to kill off all desire and usefulness for farming.
+
+
+    **We changed all that.**
+
+
+    Not only have we changed how all the farms look... but we also changed how they play.
+
+
+    Originally in a city, you could hug a tree... or kiss the sky with glass and steel. Now... you can do both.
+
+
+    At its most basic function and goal, the SPAM is an *IND MTP Replacement Mod*... similar to the RES and COM MTP replacement mods.
+
+
+    Its primary goal is to give an MTP\-ish look and feel to the game's default farm lots.
+
+
+    Want to know more? Yeah of course... As a matter of fact, you NEED to know A LOT more - so before you install, we invite you to visit the Full ReadMe and learn more about these.
+
+
+    ![spam-pre01.jpg](http://i211.photobucket.com/albums/bb210/abcvs/Pegasus%20Productions/spam-pre01.jpg)
+
+
+    **FEATURES**
+
+
+    - Development Stages
+
+    - Agricultural (I-R) Demand
+
+    - Employment
+
+    - Education
+
+    - No Power? No Water?
+
+    - Pollution
+
+    - Sub-Divide and Conquer
+
+    - Crop Only Lots
+
+    - Improved Lot Orientation
+
+    - Crop Selection
+
+    - Future SPAM
+
+    - SPAM Comparison
+
+    - Developer Notes on General Troubleshooting and Compatibility
+
+
+    ![farming30.jpg](http://i211.photobucket.com/albums/bb210/abcvs/Pegasus%20Productions/farming30.jpg)
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+
+
+    ![pdt_logo01.png](http://i211.photobucket.com/albums/bb210/abcvs/Pegasus%20Productions/pdt_logo01.png)
+  features:
+    - spam
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2012/39a2a7e52169570a7f3ca1b46e9174d9-.jpg
+  name: SimPeg Agricultural Mod (SPAM)
+  release: 2024-08-19T09:13:11.692Z
+  requirements:
+    cam: false
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2012/thumb-39a2a7e52169570a7f3ca1b46e9174d9-.jpg
+  url: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam/
+  variants:
+    default:
+      assets:
+        - docs:
+            - PEGPROD/SPAM/SPAM_Documentation
+          id: simtropolis/26080-simpeg-agricultural-mod-spam
+          include:
+            - PEGPROD/SPAM
       version: 1.0.0
 
 pegasus/spam-super-resource-pack:
@@ -465,46 +628,13 @@ pegasus/spam-super-resource-pack:
     The SPAM SUPER PACK combines all SPAM props and textures into a single download. However, it will install props and textures as separate files to make any uture updates easier and faster.
 
 
-    **INCLUDED**
-
-
-    \* SPAM_Resource
-
-
-    All models and props used for the agricultural mod
-
-
-    \* SPAM_Crops_Resource
-
-
-    All models and props for the seasonal crop varieties
-
-
-    \* SPAM_Textures
-
-
     All textures used in the agricultural mod
 
 
     **NOTE: This pack includes no lots!**
 
 
-    **AGAIN: You do not need this pack if you**
-
-
-    **already downloaded / plan to download the full**
-
-
-    **SIMPEG AGRICULTURAL MOD (SPAM)!**
-
-
     You can use all the material for your own lotting projects. However, you may not include any of these items with your uploads - please point to this pack as a dependency!
-
-
-    **DEPENDENCIES**
-
-
-    This dependency has no dependencies :-)
 
 
     \* The entire PEG SPAM collection is available on the PLEX (on the) STEX.
@@ -518,6 +648,7 @@ pegasus/spam-super-resource-pack:
   images:
     - https://www.simtropolis.com/objects/screens/0029/23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   name: PEG SPAM Super Resource Pack
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/0030/thumb-23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   url: https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/
   variants:
@@ -528,4 +659,13 @@ pegasus/spam-super-resource-pack:
             - condition:
                 spam: false
               path: PEGPROD/SPAM/SPAM_Super_Resource_Pack
+      name: Default
+      requirements:
+        spam: false
+      version: 1.0.0
+    spam:
+      assets: []
+      name: SPAM
+      requirements:
+        spam: true
       version: 1.0.0

@@ -20,6 +20,7 @@ mgb204/anyone-for-tennis:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AoT_1.jpg
   name: MGB204 - AnyOne for Tennis (AoT)
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AoT_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/88-mgb204-anyone-for-tennis-aot
   variants:
@@ -33,9 +34,8 @@ mgb204/convenience-stores:
     - MGB204
   category: 320
   dependencies:
-    # - Grfe_hedge_3m.dat (in VIP Vnaoned Post Office?)
     - girafe/carpack
-    - girafe/flora-pack # Ashes, Elms
+    - girafe/flora-pack
     - kingofsimcity/supershk-mega-parking-textures
     - mgb204/retail-signage-pack
     - shokthrpy/shk-parking-pack
@@ -96,6 +96,7 @@ mgb204/convenience-stores:
     - https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_day.jpg.bbdf953a17ac51bdcbf8fc564edf224f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_Nite.jpg.7b1c44e36ca275854b56e136d3d5c01f.jpg
   name: MGB204 - Convenience Stores
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_day.thumb.jpg.f73e48729370e6afc6f78083b66d14c2.jpg
   url: https://community.simtropolis.com/files/file/31244-mgb-convenience-store/
   variants:
@@ -129,6 +130,86 @@ mgb204/convenience-stores:
     - id: bulldoze
       on: disable
 
+mgb204/diagonal-filler-set:
+  authors:
+    - MGB204
+  category: 660
+  dependencies:
+    - sfbt/essentials
+  description: >-
+    Far too long in the works, but finally here, is version 2 of my Filler Set.
+
+
+    Used together, this set of lots can provide a powerful set of tools to deal with the diagonal jaggies problem and help to create more visually pleasing areas. The basic filler lots are
+    texture-based and intended to transition cleanly between Sidewalks, Grass & Concrete textures. Sometimes though, we want to fill half a tile or an unsightly gap, which such fillers alone can't
+    handle. Due to game limitations, a lot can either be fully transparent or completely show a texture. If you try to use partial transparency, the water bug appears, which is both ugly and annoying.
+    Overhanging Lots can help here, because they do not use textures, but models that display them. So we can use transparency and/or extend textures beyond the boundaries of the lots they are upon.
+    The main downside is that such models aren't very slope tolerant.
+
+
+    During install, you can choose which types, if any, of overhanging fillers to install. Note that different textures include different pieces, I've tried to balance flexibility whilst being mindful
+    of the number of menu items. Each sidewalk variant has 8 lots, grass comes with 5 and all others just 2. But, I think for most users that will cover the bulk of situations you will really need.
+    Find all installed lots at the top of your Parks Menu. The Extender options are as follows:
+
+
+    ![DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b](https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b1f.jpg)
+
+
+    Lotters/Tinkerers will find 156 props to play with, 13 for each of the 12 supported textures. So if you are willing to make some lots, it's possible to have every prop type for every network. But
+    that wasn't something I felt I wanted to do for various reasons. The complete package runs to 60-ish lots already too, you have to stop somewhere.
+
+
+    ## Support
+
+
+    Problems / Comments? Please visit my development thread, MGB Lot and Mod Shack, here on Simtropolis:
+  images:
+    - https://www.simtropolis.com/objects/attachments/monthly_2019_02/SandstoneBooster.jpg.9769f346e6c322bba6a2703e529ff548.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/2b7cda864a79ad816295611fe5e21d10-mgb-diag-fillers.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_1.jpg.f504b5c529d3ffd8e91dd295ffd5577b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_3.jpg.ec1bd2bf5a3d93dcbd225cb4a8b73b1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_5.jpg.aa2519ca5d345509e8661e5f2f410012.jpg
+  name: MGB - Diagonal Filler Set
+  release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_1.thumb.jpg.494007598f816c3037f8180f7e337644.jpg
+  url: https://community.simtropolis.com/files/file/29797-mgb-diagonal-filler-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods
+          id: simtropolis/29797-mgb-diagonal-filler-set
+          include:
+            - MGB S3D Props.dat
+            - MGB Overhanging Filler Lots {{overhanging-lots}}.dat
+            - condition:
+                filler-lots: true
+              path: MGB Filler Set.dat
+            - category: 970
+              path: Paeng* Overrides.dat
+      options:
+        - default: true
+          id: filler-lots
+          label: Filler lots
+          type: boolean
+        - choices:
+            - Concrete (I-M & I-HT)
+            - Grass $
+            - Grass $$
+            - Grass $$$
+            - Pedmalls (Cobble, Red Brick & Sandstone)
+            - Rural (Rail & I-AG)
+            - Sidewalk $
+            - Sidewalk $$
+            - Sidewalk $$$
+          default: all
+          display: checkbox
+          id: overhanging-lots
+          label: Overhanging lots
+          multi: true
+          type: string
+      version: 2.2.0
+
 mgb204/rail-depot-pack:
   authors:
     - MGB204
@@ -151,6 +232,7 @@ mgb204/rail-depot-pack:
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg
   name: MGB204 - Rail Depot Pack (RDP)
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/92-mgb204-rail-depot-pack-rdp
   variants:
@@ -161,15 +243,9 @@ mgb204/rail-depot-pack:
             - "*.bmp"
           id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
-            # TODO: Conditions
             - path: MGB_RDP_Resource.dat
             - path: MGB_RDP_Textures.dat
             - path: MGB_RDPDepot_Props_HD-DN.dat
-            # - path: zMGB_RDPTextureType_GLRNAM.dat
-            # - path: zMGB_RDPTextureType_HSRNAM.dat
-            # - path: zMGB_RDPTextureType_RailMaxis.dat
-            # - path: zMGB_RDPTextureType_RailPEG.dat
-            # - path: zMGB_RDPTextureType_RoadUS.dat
       name: Dark Nite
       requirements:
         darknite: true
@@ -181,16 +257,9 @@ mgb204/rail-depot-pack:
             - "*.bmp"
           id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
-            # TODO: Conditions
             - path: MGB_RDP_Resource.dat
             - path: MGB_RDP_Textures.dat
             - path: MGB_RDPDepot_Props_HD-MN.dat
-            # - path: MGB_RDPDepot_Props_SD-MN.dat
-            # - path: zMGB_RDPTextureType_GLRNAM.dat
-            # - path: zMGB_RDPTextureType_HSRNAM.dat
-            # - path: zMGB_RDPTextureType_RailMaxis.dat
-            # - path: zMGB_RDPTextureType_RailPEG.dat
-            # - path: zMGB_RDPTextureType_RoadUS.dat
       name: Maxis Nite
       requirements:
         darknite: false
@@ -236,6 +305,7 @@ mgb204/retail-signage-pack:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/large_RSP.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/small_RSP.jpg
   name: MGB204 - Retail Signage Pack (RSP)
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/large_RSP.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/91-mgb204-retail-signage-pack-rsp
   variants:
@@ -309,12 +379,13 @@ mgb204/texture-pack:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference2.jpg
   name: MGB204 - Texture Pack
+  release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
   variants:
     default:
       assets:
-        - exclude: # TODO: Conditions
+        - exclude:
             - US/MGB Texture Pack.dat
             - zMGB Texture Pack_RVT TSR Stret Override.dat
             - zMGB Texture Pack_SAM10 SD Override.dat
