@@ -7,7 +7,7 @@ bsc/canals-collection:
     - Tyberius06
     - callagrafx
     - zero7
-  category: 660
+  category: parks
   dependencies:
     - bsc/essentials
     - bsc/mega-props-misc-vol01
@@ -175,9 +175,12 @@ bsc/canals-collection:
           include:
             - BSC
       version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 bsc/common-dependencies:
-  category: 100
+  category: dependencies
   dependencies:
     - bsc/essentials
     - bsc/mega-props-misc-vol01
@@ -900,7 +903,7 @@ bsc/common-dependencies:
       version: 9.1.0
 
 bsc/essentials:
-  category: 120
+  category: props
   name: BSC Essentials
   variants:
     default:
@@ -917,7 +920,7 @@ bsc/essentials:
       version: 2024.0.1
 
 bsc/mega-props-misc-vol01:
-  category: 120
+  category: props
   name: BSC MEGA Props Misc Vol01
   variants:
     default:
@@ -933,7 +936,7 @@ bsc/mega-props-misc-vol01:
       version: 2.0.0
 
 bsc/mega-props-misc-vol02:
-  category: 120
+  category: props
   name: BSC MEGA Props Misc Vol02
   variants:
     default:
@@ -949,7 +952,7 @@ bsc/mega-props-misc-vol02:
       version: 4.0.0
 
 bsc/mega-props-misc-vol03:
-  category: 120
+  category: props
   name: BSC MEGA Props Misc Vol03
   variants:
     default:
@@ -965,7 +968,7 @@ bsc/mega-props-misc-vol03:
       version: 1.0.0
 
 bsc/mega-props-snm-vol01:
-  category: 120
+  category: props
   name: BSC MEGA Props SNM Vol01
   variants:
     default:
@@ -981,7 +984,7 @@ bsc/mega-props-snm-vol01:
       version: 2.0.0
 
 bsc/mega-props-snm-vol02:
-  category: 120
+  category: props
   name: BSC MEGA Props SNM Vol02 - Naval
   variants:
     default:
@@ -997,7 +1000,7 @@ bsc/mega-props-snm-vol02:
       version: 2.0.0
 
 bsc/mega-props-w2w-vol01:
-  category: 120
+  category: props
   name: BSC MEGA Props W2W Vol01
   variants:
     default:
@@ -1013,7 +1016,7 @@ bsc/mega-props-w2w-vol01:
       version: 2.0.0
 
 bsc/prop-family-names:
-  category: 120
+  category: props
   name: BSC Prop Family Names
   variants:
     default:
@@ -1029,7 +1032,7 @@ bsc/prop-family-names:
       version: 4.0.0
 
 bsc/textures-vol01:
-  category: 110
+  category: textures
   name: BSC Textures Vol01
   variants:
     default:
@@ -1045,7 +1048,7 @@ bsc/textures-vol01:
       version: 1.0.0
 
 bsc/textures-vol02:
-  category: 110
+  category: textures
   name: BSC Textures Vol02
   variants:
     default:
@@ -1061,7 +1064,7 @@ bsc/textures-vol02:
       version: 1.0.0
 
 bsc/textures-vol03:
-  category: 110
+  category: textures
   name: BSC Textures Vol03
   variants:
     default:
@@ -1080,7 +1083,7 @@ bsc/ultimate-airport-pack:
   authors:
     - tabi
     - xannepan
-  category: 740
+  category: airports
   dependencies:
     - bsc/common-dependencies
     - maxis/maxis-buildings-as-props

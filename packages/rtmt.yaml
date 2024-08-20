@@ -1,5 +1,5 @@
 rtmt/rtmt:
-  category: 724
+  category: bus,subway
   description: Version 3.50 of Road-Top Mass Transit (RTMT).
   name: Road-Top Mass Transit (RTMT)
   release: 2024-08-19T09:13:11.692Z
@@ -19,7 +19,7 @@ rtmt/rtmt:
       on: disable
 
 rtmt/rtmt-addon-pack:
-  category: 724
+  category: bus,subway
   dependencies:
     - rtmt/rtmt
   description: |-

@@ -1,7 +1,7 @@
 robertame/amps:
   authors:
     - RobertaME
-  category: 30
+  category: gameplay
   dependencies:
     - kaos78414/rusty-generator
     - kloudkicker/small-transformers
@@ -51,6 +51,6 @@ robertame/amps:
       assets:
         - id: simtropolis/36238-amps-beta-v032
           include:
-            - category: 900
+            - category: overrides
               path: zzzzz_AMPS
       version: 0.3.2

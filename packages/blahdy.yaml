@@ -1,7 +1,7 @@
 blahdy/blp-ndex-boston-big-dig-project:
   authors:
     - Blahdy
-  category: 700
+  category: transport
   dependencies:
     - memo/submenus-dll
   description: >-
@@ -70,7 +70,53 @@ blahdy/blp-ndex-boston-big-dig-project:
             - ~Documents
           id: sc4evermore/280-blp-ndex-boston-big-dig-project
           include:
-            - Boston Central Artery - Tunnel Project (Big Dig)
+            - "{{lots}}.SC4Lot"
+            - _Resources
+      lots:
+        - id: BLP Big Dig - Slurry Wall Construction_b1eeaa8d
+          label: BLP Big Dig - Slurry Wall Construction_b1eeaa8d
+        - id: BLP Boston CAT 2 - On Slope Construction Entrance_92989a16
+          label: BLP Boston CAT 2 - On Slope Construction Entrance_92989a16
+        - id: BLP Boston CAT 2 - On Slope Construction Exit_9298a038
+          label: BLP Boston CAT 2 - On Slope Construction Exit_9298a038
+        - id: BLP Boston CAT 2 - Avenue MTunnel Entrance Sign_b24ef3a3
+          label: BLP Boston CAT 2 - Avenue MTunnel Entrance Sign_b24ef3a3
+        - id: BLP Boston CAT 2 - Black Gantry Street Sign Road 90_924ef3ca
+          label: BLP Boston CAT 2 - Black Gantry Street Sign Road 90_924ef3ca
+        - id: BLP Boston CAT 2 - Black Gantry Street Sign Road 92_9298a499
+          label: BLP Boston CAT 2 - Black Gantry Street Sign Road 92_9298a499
+        - id: BLP Boston CAT 2 - Blue Gantry Street Sign Road 90_324f9105
+          label: BLP Boston CAT 2 - Blue Gantry Street Sign Road 90_324f9105
+        - id: BLP Boston CAT 2 - Blue Gantry Street Sign Road 92_9298a61f
+          label: BLP Boston CAT 2 - Blue Gantry Street Sign Road 92_9298a61f
+        - id: BLP Boston CAT 2 - Blue Pipe Street Sign Road 90_124f9132
+          label: BLP Boston CAT 2 - Blue Pipe Street Sign Road 90_124f9132
+        - id: BLP Boston CAT 2 - LCS Highway Sign Post_9298a358
+          label: BLP Boston CAT 2 - LCS Highway Sign Post_9298a358
+        - id: BLP Boston CAT 2 - MSL Highway Sign 1 with LCS_529874ab
+          label: BLP Boston CAT 2 - MSL Highway Sign 1 with LCS_529874ab
+        - id: BLP Boston CAT 2 - MSL Highway Sign 3 VF1420_f299ec9b
+          label: BLP Boston CAT 2 - MSL Highway Sign 3 VF1420_f299ec9b
+        - id: BRAC HW Electronic Sign 6 lane_3157d412
+          label: BRAC HW Electronic Sign 6 lane_3157d412
+        - id: BRAC HW Sign 6 lane_b1571af0
+          label: BRAC HW Sign 6 lane_b1571af0
+        - id: BLP Big Dig - 2 Lane Offramp Extended_d1cc36f9
+          label: BLP Big Dig - 2 Lane Offramp Extended_d1cc36f9
+        - id: BLP Big Dig - 2 Lane Offramp Intersecting_31cc36c2
+          label: BLP Big Dig - 2 Lane Offramp Intersecting_31cc36c2
+        - id: BLP Big Dig - 2 Lane Onramp Tunnel_11cc3694
+          label: BLP Big Dig - 2 Lane Onramp Tunnel_11cc3694
+        - id: BLP Big Dig - 3 Lane High-Capacity Tunnel Entrance_51cc4679
+          label: BLP Big Dig - 3 Lane High-Capacity Tunnel Entrance_51cc4679
+        - id: BLP Big Dig - Atlantic Connector Ramp (BIGD-C17A6.A-CN)_52934fb7
+          label: BLP Big Dig - Atlantic Connector Ramp (BIGD-C17A6.A-CN)_52934fb7
+        - id: BLP Big Dig - Ground Highway to Tunnel_11cc4577
+          label: BLP Big Dig - Ground Highway to Tunnel_11cc4577
+        - id: BLP Big Dig - Leverett Connector Onramp (BIGD-T1X-ONR1)_922b242e
+          label: BLP Big Dig - Leverett Connector Onramp (BIGD-T1X-ONR1)_922b242e
+        - id: BLP Big Dig - Short-Straight Onramp (BIGD-T1X-ONR1B)_b24acb0e
+          label: BLP Big Dig - Short-Straight Onramp (BIGD-T1X-ONR1B)_b24acb0e
       version: 2.0.0
   warnings:
     - id: bulldoze

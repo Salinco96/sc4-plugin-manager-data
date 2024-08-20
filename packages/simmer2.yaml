@@ -1,7 +1,7 @@
 simmer2/essentials:
   authors:
     - Simmer2
-  category: 100
+  category: dependencies
   description: |-
     **SM2 Essentials v4** includes recurrent family/timed sets and many often used textures.
 
@@ -33,7 +33,7 @@ simmer2/essentials:
 simmer2/hv-transformer:
   authors:
     - Simmer2
-  category: 500
+  category: utilities
   dependencies:
     - simmer2/mega-props-vol06
   description: |-
@@ -70,7 +70,7 @@ simmer2/hv-transformer:
 simmer2/main-transformers:
   authors:
     - Simmer2
-  category: 500
+  category: utilities
   dependencies:
     - simmer2/mega-props-vol01
   description: |-
@@ -108,7 +108,7 @@ simmer2/main-transformers:
 simmer2/medium-water-treatment-plant:
   authors:
     - Simmer2
-  category: 500
+  category: utilities
   dependencies:
     - simmer2/essentials
     - simmer2/mega-props-vol01
@@ -159,7 +159,7 @@ simmer2/medium-water-treatment-plant:
 simmer2/mega-props-vol01:
   authors:
     - Simmer2
-  category: 120
+  category: props
   description: |-
     **SM2 Mega Prop Pack Vol1** is a compendium of 670 models I created over the years. It replaces many files and eliminates the need to have many dependencies.
 
@@ -187,7 +187,7 @@ simmer2/mega-props-vol01:
 simmer2/mega-props-vol02:
   authors:
     - Simmer2
-  category: 120
+  category: props
   description: Another giant prop pack filled with dozens of HD models I made over the years.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2019_06/5d14f3c07c56d_SM2MegaPropPackVol2.jpg.c9084c726b11d0e2fb5bce3b49f37136.jpg
@@ -206,7 +206,7 @@ simmer2/mega-props-vol02:
 simmer2/mega-props-vol03:
   authors:
     - Simmer2
-  category: 120
+  category: props
   description: |-
     Another giant prop pack for upcoming projects.
 
@@ -230,7 +230,7 @@ simmer2/mega-props-vol03:
 simmer2/mega-props-vol04:
   authors:
     - Simmer2
-  category: 120
+  category: props
   description: |-
     Another giant prop pack for upcoming projects.
 
@@ -252,7 +252,7 @@ simmer2/mega-props-vol04:
 simmer2/mega-props-vol05:
   authors:
     - Simmer2
-  category: 120
+  category: props
   description: Another giant prop pack for existing and upcoming projects. Dozens of HD props and buildings for you to play with.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/605ab989943f0_megapropvol5copy.jpg.4d5b89c99bffc6fb2fcf5e7967d77103.jpg
@@ -273,7 +273,7 @@ simmer2/mega-props-vol05:
 simmer2/mega-props-vol06:
   authors:
     - Simmer2
-  category: 120
+  category: props
   description: Another giant prop pack for existing and upcoming projects. Dozens of HD props and buildings for you to play with.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_02/6218fedfa8935_SM2megaproppaclvol6copy.jpg.3ab718469e0f5290cf5647564b733f75.jpg
@@ -294,7 +294,7 @@ simmer2/mega-props-vol06:
 simmer2/mobile-power-generator:
   authors:
     - Simmer2
-  category: 500
+  category: utilities
   dependencies:
     - simmer2/mega-props-vol01
   description: |-

@@ -1,7 +1,7 @@
 historic-harbor/historic-harbor-lots:
   authors:
     - Historic Harbor
-  category: 758
+  category: waterfront,fillers
   dependencies:
     - historic-harbor/historic-harbor-props
   description: >-
@@ -132,7 +132,7 @@ historic-harbor/historic-harbor-lots:
 historic-harbor/historic-harbor-mmps:
   authors:
     - Historic Harbor
-  category: 759
+  category: waterfront,mmps
   dependencies:
     - historic-harbor/historic-harbor-props
   description: >-
@@ -261,7 +261,7 @@ historic-harbor/historic-harbor-mmps:
 historic-harbor/historic-harbor-props:
   authors:
     - Historic Harbor
-  category: 120
+  category: props
   description: >-
     Historic Harbor is a comprehensive 'modular set' that includes over 1,000 BATed models, a wide assortment of MMPs, and over 100 individual lots (each with custom icons).
 
@@ -366,5 +366,5 @@ historic-harbor/historic-harbor-props:
           include:
             - Historic Harbor - Dependencies - HD
       name: HD
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.0

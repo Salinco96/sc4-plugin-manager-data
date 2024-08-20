@@ -1,7 +1,7 @@
 paeng/bikepaths:
   authors:
     - paeng
-  category: 708
+  category: transport,bikes
   dependencies:
     - murimk/bike-props
     - porkissimo/jenx-porkie-expanded-props
@@ -282,6 +282,7 @@ paeng/bikepaths:
           id: preserve-original
           label: Preserve original set
           type: boolean
+      release: 2024-08-20T10:45:45.232Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b14e5db3f2b_PhilScoty4colorsBikepath.thumb.jpg.c2e77dc699862d163f2a00340a731266.jpg
       url: https://community.simtropolis.com/files/file/36374-phil-scoty-seasonal-paeng-mgb-bikepaths/
       version: 1.0.0
@@ -289,7 +290,7 @@ paeng/bikepaths:
 paeng/parks-revisited:
   authors:
     - paeng
-  category: 660
+  category: parks
   dependencies:
     - couchpotato/mega-props-vol02
     - dolphin66/mega-props-vol02
@@ -434,7 +435,7 @@ paeng/parks-revisited:
 paeng/streetside-diagonal-parking:
   authors:
     - paeng
-  category: 707
+  category: parkings
   dependencies:
     - shokthrpy/shk-parking-pack
     - simgoober/mega-props-vol01
@@ -494,7 +495,7 @@ paeng/streetside-diagonal-parking:
 paeng/textures:
   authors:
     - paeng
-  category: 110
+  category: textures
   description: |-
     This is a set of overlay textures (for pathways) and is a dependency for many of my lots and sets.
 

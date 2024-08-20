@@ -1,7 +1,7 @@
 cycledogg/early-19th-century-high-wealth-houses:
   authors:
     - cycledogg
-  category: 230
+  category: r$$$
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol02
@@ -48,7 +48,7 @@ cycledogg/early-19th-century-high-wealth-houses:
 cycledogg/early-19th-century-medium-houses:
   authors:
     - cycledogg
-  category: 220
+  category: r$$
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol02
@@ -80,7 +80,7 @@ cycledogg/early-19th-century-medium-houses:
 cycledogg/early-19th-century-small-houses:
   authors:
     - cycledogg
-  category: 210
+  category: r$
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol02
@@ -112,7 +112,7 @@ cycledogg/early-19th-century-small-houses:
 cycledogg/early-19th-century-tenements-pack:
   authors:
     - cycledogg
-  category: 220
+  category: r$$
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol02
@@ -145,7 +145,7 @@ cycledogg/early-19th-century-tenements-pack:
 cycledogg/mega-props-civics:
   authors:
     - cycledogg
-  category: 120
+  category: props
   name: BSC MEGA Props CP Civics
   variants:
     default:
@@ -163,7 +163,7 @@ cycledogg/mega-props-civics:
 cycledogg/mega-props-houses:
   authors:
     - cycledogg
-  category: 120
+  category: props
   name: BSC MEGA Props CP Houses
   variants:
     default:
@@ -181,7 +181,7 @@ cycledogg/mega-props-houses:
 cycledogg/mega-props-industrials:
   authors:
     - cycledogg
-  category: 120
+  category: props
   name: BSC MEGA Props CP Industrials
   variants:
     default:
@@ -199,7 +199,7 @@ cycledogg/mega-props-industrials:
 cycledogg/mega-props-mmps:
   authors:
     - cycledogg
-  category: 670
+  category: mmps
   dependencies:
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
@@ -326,7 +326,7 @@ cycledogg/mega-props-mmps:
 cycledogg/mega-props-vol01:
   authors:
     - cycledogg
-  category: 120
+  category: props
   name: BSC MEGA Props CP Vol01
   variants:
     default:
@@ -344,7 +344,7 @@ cycledogg/mega-props-vol01:
 cycledogg/mega-props-vol02:
   authors:
     - cycledogg
-  category: 120
+  category: props
   name: BSC MEGA Props CP Vol02
   variants:
     default:
@@ -362,7 +362,7 @@ cycledogg/mega-props-vol02:
 cycledogg/textures-vol01:
   authors:
     - cycledogg
-  category: 110
+  category: textures
   name: BSC Texture Pack Cycledogg Vol01
   variants:
     default:
@@ -379,7 +379,7 @@ cycledogg/textures-vol01:
 cycledogg/tree-controllers:
   authors:
     - cycledogg
-  category: 920
+  category: graphics,overrides
   dependencies:
     - couchpotato/mega-props-vol01
     - cycledogg/mega-props-vol01
@@ -637,7 +637,7 @@ cycledogg/tree-controllers:
 cycledogg/tree-models:
   authors:
     - cycledogg
-  category: 120
+  category: props
   description: This file replaces both of the formerly available CPT_No8_TreeModelsPartOne.dat and CPT_No9_TreeModelsPartTwo.dat files.
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg

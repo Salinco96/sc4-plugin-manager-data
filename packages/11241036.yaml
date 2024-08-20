@@ -1,7 +1,7 @@
 11241036/community-gardens:
   authors:
     - "11241036"
-  category: 660
+  category: parks
   dependencies:
     - 11241036/textures
     - bsc/mega-props-misc-vol02
@@ -68,7 +68,7 @@
 11241036/cp-floral-mmp-collection:
   authors:
     - "11241036"
-  category: 672
+  category: mmps,flora
   dependencies:
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
@@ -155,7 +155,7 @@
 11241036/fa-roads-t21-mod:
   authors:
     - "11241036"
-  category: 970
+  category: transport,overrides
   description: >-
     This mod alters the FA\-2 and FA\-3 roads (only straight routes) that come with NAM to remove the trees (and the lanterns, if you want) there. The idea to do this came to me after reading this
     thread: https://community.simtropolis.com/forums/topic/763344-fractional-angle-w2w/
@@ -247,7 +247,7 @@
 11241036/modular-plaza-system-mps:
   authors:
     - "11241036"
-  category: 660
+  category: parks
   dependencies:
     - 11241036/textures
     - 11241036/various-lot-foundations-and-retaining-walls
@@ -661,7 +661,7 @@
   authors:
     - "11241036"
     - SimGoober
-  category: 670
+  category: mmps
   dependencies:
     - bsc/common-dependencies
   description: >-
@@ -698,7 +698,7 @@
 11241036/textures:
   authors:
     - "11241036"
-  category: 110
+  category: textures
   description: >-
     This dependency package contains a set of textures derived from Maxis, BSC Textures Vol 1 and 2, and Pegasus' MTP for your lotting pleasure. The tables in this archive list all of them along with
     their respective Instance ID's. The graphics should speak for themselves. Some of them are cropped overlay textures, intended to give you more possibilities while creating new lots. The farm field
@@ -779,7 +779,7 @@
 11241036/traffic-blocker-set:
   authors:
     - "11241036"
-  category: 970
+  category: transport,overrides
   dependencies:
     - 11241036/textures
     - mgb204/texture-pack
@@ -884,7 +884,7 @@
 11241036/various-lot-foundations-and-retaining-walls:
   authors:
     - "11241036"
-  category: 100
+  category: dependencies
   description: >-
     Some lots, when being placed on slopes, will either raise the floor beneath them, or cut into the hill. In the former case, a lot foundation is being created, in the latter, a retaining wall.
     Perhaps it's just me, but I'm quite surprised that I've only found very few plugins with custom foundations and none at all with retaining walls; therefore, I've turned some textures by Maxis or

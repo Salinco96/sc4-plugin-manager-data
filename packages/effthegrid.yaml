@@ -1,7 +1,7 @@
 effthegrid/fa2-the-bradhurst:
   authors:
     - EffTheGrid
-  category: 362
+  category: landmarks,diagonal
   description: |-
     Break the grid!!!
 
@@ -26,7 +26,7 @@ effthegrid/fa2-the-bradhurst:
         - id: simtropolis/34599-fa2-the-bradhurst
           include:
             - FA2 The Bradhurst
-      name: Default
+      name: Original
       version: 1.0.0
     kel9509:
       assets:
@@ -46,6 +46,7 @@ effthegrid/fa2-the-bradhurst:
               path: FA2 The Bradhurst Growify
       authors:
         - Kel9509
+      category: landmarks,r$$,diagonal
       dependencies:
         - null-45/growify-plops-dll
       description: >-
@@ -86,6 +87,7 @@ effthegrid/fa2-the-bradhurst:
           id: preserve-original
           label: Preserve original lots
           type: boolean
+      release: 2024-08-20T10:45:45.232Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b2a91a3f4f2_FA2Bradhurst1.thumb.jpg.736e72575161fa4b011325c24cce2d28.jpg
       url: https://community.simtropolis.com/files/file/36375-fa2-the-bradhurst-growify/
       version: 1.0.0
@@ -97,7 +99,7 @@ effthegrid/fa3-181-east-gun-hill-rd:
   authors:
     - EffTheGrid
     - kaimai
-  category: 220
+  category: landmarks,diagonal
   description: >-
     First of all I should mention these are not my models: they were made (with exhaustive attention to detail) by [@EffTheGrid](https://community.simtropolis.com/profile/402017-effthegrid/) some
     years ago. **I have not changed anything** on these, my only contributions here are adding nightlights (in MaxisNite or DarkNite—use only one), mirroring the recolor, and of course re-exporting in
@@ -164,25 +166,34 @@ effthegrid/fa3-181-east-gun-hill-rd:
             - condition:
                 lots: cs$$-2x1
               path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
+      category: landmarks,r$$,cs$$,diagonal
       lots:
-        - category: 362
+        - category: landmarks,r$$
+          demand:
+            r$$: 295
           id: r$$-2x2
           label: R$$, 2x2
           size: 2x2
-        - category: 362
+        - category: landmarks,r$$
+          demand:
+            r$$: 295
           id: r$$-2x1
           label: R$$, 2x1 Overhang
           size: 2x1
-        - category: 363
+        - category: landmarks,cs$$
+          demand:
+            cs$$: 169
           id: cs$$-2x2
           label: CS$$, 2x2
           size: 2x2
-        - category: 363
+        - category: landmarks,cs$$
+          demand:
+            cs$$: 169
           id: cs$$-2x1
           label: CS$$, 2x1 Overhang
           size: 2x1
       name: Maxis Nite
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -203,25 +214,26 @@ effthegrid/fa3-181-east-gun-hill-rd:
             - condition:
                 lots: cs$$-2x1
               path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
+      category: landmarks,r$$,cs$$,diagonal
       lots:
-        - category: 362
+        - category: landmarks,r$$
           id: r$$-2x2
           label: R$$, 2x2
           size: 2x2
-        - category: 362
+        - category: landmarks,r$$
           id: r$$-2x1
           label: R$$, 2x1 Overhang
           size: 2x1
-        - category: 363
+        - category: landmarks,cs$$
           id: cs$$-2x2
           label: CS$$, 2x2
           size: 2x2
-        - category: 363
+        - category: landmarks,cs$$
           id: cs$$-2x1
           label: CS$$, 2x1 Overhang
           size: 2x1
       name: Dark Nite
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       version: 1.0.0
@@ -232,7 +244,7 @@ effthegrid/fa3-181-east-gun-hill-rd:
 effthegrid/fa3-559-anderson-ave:
   authors:
     - EffTheGrid
-  category: 220
+  category: landmarks,diagonal
   description: |-
     Break the grid! Nyoooooooom....... **BOOM.** There goes the grid!
 
@@ -271,6 +283,7 @@ effthegrid/fa3-559-anderson-ave:
             - "{{lots}}.SC4Lot"
       authors:
         - Kel9509
+      category: landmarks,r$,diagonal
       dependencies:
         - null-45/growify-plops-dll
       description: >-
@@ -297,37 +310,33 @@ effthegrid/fa3-559-anderson-ave:
         Pause the game, plop the lot along a FA3 street (the lot pointing to the FA3 street), use the Growify cheat code "Growify R M" or "Growify R H" to growify the lot as medium density or high
         density lots. Make sure it has water and power or, like any other lot, it may abandon. If you have the submenu DLL mod by memo, the lots will appear in the Residential Zone menu under R$
         Ploppables.
-
-
-        Stats:
-
-
-        Left: R$ 251 residents.
-
-
-        Right: R$ 278 residents.
       images:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236867ab6_FA3559AndersonAveGrowify1.jpg.32c6f8021331378d5faa17f602dd986d.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236b6fce4_FA3559AndersonAveGrowify2.jpg.053d1db1775d302cb1222e1283ae14eb.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236e71a12_FA3559AndersonAveGrowify3.jpg.00e718c3028dd5041d53601f14007397.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c12370a8e7d_FA3559AndersonAveGrowify4.jpg.2759ef9f048aab3eaa4ba84e11186c6b.jpg
       lots:
-        - category: 210
+        - category: landmarks,r$
+          demand:
+            r$: 251
           id: PLOP_1x1_FA3 559 Anderson Ave (Left) Growify_3436999b
           label: FA3 559 Anderson Ave, Left (Growify R$, 1x1)
           size: 1x1
-        - category: 210
+        - category: landmarks,r$
+          demand:
+            r$: 278
           id: PLOP_1x1_FA3 559 Anderson Ave (Right) Growify_04369954
           label: FA3 559 Anderson Ave, Right (Growify R$, 1x1)
           size: 1x1
-        - category: 360
+        - category: landmarks
           id: L_8f95054d
           label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
           size: 1x1
-        - category: 360
+        - category: landmarks
           id: R_4f950542
           label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
           size: 1x1
+      release: 2024-08-20T10:45:45.232Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c123ec1b239_FA3559AndersonAveGrowify1.thumb.jpg.467fe045bbafdde36e87d4dbc9e3a918.jpg
       url: https://community.simtropolis.com/files/file/36399-fa3-559-anderson-ave-growify/
       version: 1.0.0
@@ -338,7 +347,7 @@ effthegrid/fa3-559-anderson-ave:
 effthegrid/fa3-928-s-broadway:
   authors:
     - EffTheGrid
-  category: 360
+  category: landmarks,diagonal
   description: |-
     Another eyecandy lot for your FAR\-3 networks. This is an ortho corner 2x1 ploppaple landmark.
 
@@ -375,6 +384,7 @@ effthegrid/fa3-928-s-broadway:
               path: FA3 928 S Broadway Growify
       authors:
         - Kel9509
+      category: landmarks,r$,diagonal
       dependencies:
         - null-45/growify-plops-dll
       description: >-
@@ -416,6 +426,7 @@ effthegrid/fa3-928-s-broadway:
           id: preserve-original
           label: Preserve original lots
           type: boolean
+      release: 2024-08-20T10:45:45.232Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95ca286360_FA3928SBroadway1.thumb.jpg.0531c3cf4f98c1545f765c849d4e2178.jpg
       url: https://community.simtropolis.com/files/file/36389-fa3-928-s-broadway-growify/
       version: 1.0.0

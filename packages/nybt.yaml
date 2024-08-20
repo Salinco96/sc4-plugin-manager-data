@@ -2,7 +2,7 @@ nybt/essentials:
   authors:
     - Aaron Graham
     - Gwail
-  category: 100
+  category: dependencies
   description: >-
     This is the NYBT essentials pack for many upcoming releases. It contains query windows - standard NYBT query windows for most common building types and a special 9/11 query. The essentials will be
     modified and improved when needed.
@@ -107,7 +107,7 @@ nybt/query-replace:
   authors:
     - Aaron Graham
     - Gwail
-  category: 920
+  category: graphics,overrides
   dependencies:
     - nybt/essentials
   features:
@@ -142,7 +142,7 @@ nybt/query-replace:
 nybt/residentials-pack:
   authors:
     - Aaron Graham
-  category: 200
+  category: residential
   dependencies:
     - nybt/essentials
   description: >-
@@ -203,7 +203,7 @@ nybt/residentials-pack:
           include:
             - NYBT/Aaron Graham
       name: Dark Nite
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day.jpg

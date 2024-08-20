@@ -3,7 +3,7 @@ cogeo/additional-subway-entrance-props:
     - cogeo
     - Mcdrye
     - RalphaelNinja
-  category: 120
+  category: props
   description: >-
     This set of Subway Entrance Props is intended for use with the [Roadtop Mass-Transit package](https://www.simtropolis.com/stex/details.cfm?id=13510) but it can be used in other lots as well.
 
@@ -58,7 +58,7 @@ cogeo/additional-subway-entrance-props:
 cogeo/logistics-centres-megapack:
   authors:
     - cogeo
-  category: 363
+  category: landmarks,commercial
   dependencies:
     - cogeo/warehouses-batprops-part-a
     - cogeo/warehouses-batprops-part-b
@@ -161,27 +161,27 @@ cogeo/logistics-centres-megapack:
             - FreightAutomataSpawningScripts_Swamper77.dat
             - LCP_*.dat
       lots:
-        - category: 310
+        - category: cs$
           id: growable-cs$
           label: Growable CS$, Stage 5, 10x10
           size: 10x10
           stage: 5
-        - category: 320
+        - category: cs$$
           id: growable-cs$$
           label: Growable CS$$, Stage 5, 10x10
           size: 10x10
           stage: 5
-        - category: 363
+        - category: landmarks,commercial
           id: landmark-cs$
           label: Landmark CS$, 10x10
           size: 10x10
           stage: 5
-        - category: 363
+        - category: landmarks,commercial
           id: landmark-cs$$
           label: Landmark CS$$, 10x10
           size: 10x10
           stage: 5
-        - category: 732
+        - category: rail,freight
           id: freight-rail-station
           label: Freight rail station, 10x10
           size: 10x10
@@ -194,7 +194,7 @@ cogeo/logistics-centres-megapack:
 cogeo/warehouses-batprops-part-a:
   authors:
     - cogeo
-  category: 120
+  category: props
   description: >-
     This pack of warehouse props is currently used in the [Logistics Centres Mega-Pack](https://www.simtropolis.com/stex/index.cfm?id=16119) lots.
 
@@ -241,7 +241,7 @@ cogeo/warehouses-batprops-part-a:
 cogeo/warehouses-batprops-part-b:
   authors:
     - cogeo
-  category: 120
+  category: props
   description: >-
     This pack of warehouse props is currently used in the [Logistics Centres Mega-Pack](https://www.simtropolis.com/stex/index.cfm?id=16119) lots.
 

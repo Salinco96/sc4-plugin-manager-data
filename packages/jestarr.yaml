@@ -1,7 +1,7 @@
 jestarr/1x1-dirty-industrials:
   authors:
     - jestarr
-  category: 420
+  category: i-d
   dependencies:
     - bsc/mega-props-misc-vol02
     - cycledogg/mega-props-vol01
@@ -65,7 +65,7 @@ jestarr/1x1-dirty-industrials:
 jestarr/bsc-batprops_hd-jes-vol10:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 124 props rendered in HD. There's a cleanitol file included.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ec558b0825_jes_BATProps_HD_Vol10.jpg.15a907ebf4f16e77655ea55209e236e4.jpg
@@ -86,7 +86,7 @@ jestarr/bsc-batprops_hd-jes-vol10:
 jestarr/bsc-batprops_hd-jes-vol11:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 100 props rendered in HD. Most are rendered in 90, 45 and 22.5 degrees.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/65a1be5b31e4c_BSCBATProps_HD-JESVol11.jpg.a228fdc2559381ca6347a90246c4a9b8.jpg
@@ -107,7 +107,7 @@ jestarr/bsc-batprops_hd-jes-vol11:
 jestarr/bsc-batprops_hd-jes-vol12:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 122 props rendered in HD. Most are rendered in 90, 45 and 22.5 degrees.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/65a8321b09f91_BSCBATProps_HD-JESVol12a.jpg.9504ff0863b5e7bf3abc6bfd2d36f1eb.jpg
@@ -128,7 +128,7 @@ jestarr/bsc-batprops_hd-jes-vol12:
 jestarr/bsc-batprops_hd-jes-vol13:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the
     substation which is only in 90 degrees.
   images:
@@ -150,7 +150,7 @@ jestarr/bsc-batprops_hd-jes-vol13:
 jestarr/bsc-batprops_hd-jes-vol14:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 76 props rendered in HD for use in the LE.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65c5999e1f08c_BSCBATProps_HD-JESVol14.jpg.b80e8f1c0c56b9721a6b666e7de17a55.jpg
@@ -171,7 +171,7 @@ jestarr/bsc-batprops_hd-jes-vol14:
 jestarr/bsc-batprops_hd-jes-vol15:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 45 props rendered in HD for use in the LE.    Unzip the file into your plugins folder. The documentation older should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/660df93960ec3_BSCBATProps_HD-JESVol15.jpg.ccec75993d4a4e0a5ebcbcff45779ccc.jpg
@@ -192,7 +192,7 @@ jestarr/bsc-batprops_hd-jes-vol15:
 jestarr/bsc-batprops_hd-jes-vol16:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: This is a pack of 25 props rendered in HD for use in the LE. Most of the props are buildings rendered in both 90 and 45 degrees.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/664d15c18fbe5_BSCBATProps_HD-JESVol16.jpg.a27e25bd607271f7d3481c527605904e.jpg
@@ -213,7 +213,7 @@ jestarr/bsc-batprops_hd-jes-vol16:
 jestarr/bsc-batprops_hd-jes-vol17:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: A set of 36 HD models rendered in 11.25 degrees L/R, 22.5 degrees L/R, 45 degrees and 90 degrees for a total of 216 shipping container props.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de0f2600ce_BSCBATProps_HD-JESVol17a.jpg.2317213e7942df53e6a912b9df0cbb65.jpg
@@ -235,7 +235,7 @@ jestarr/bsc-batprops_hd-jes-vol17:
 jestarr/central-coop-creamery:
   authors:
     - jestarr
-  category: 400
+  category: industry
   dependencies:
     - barroco-hispano/agc-automobile-dlc
     - bsc/textures-vol02
@@ -339,6 +339,7 @@ jestarr/central-coop-creamery:
           label: Landmark, 4x5
           size: 4x5
       name: HD
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -347,7 +348,7 @@ jestarr/central-coop-creamery:
 jestarr/fall-river-mill:
   authors:
     - jestarr
-  category: 430
+  category: i-m
   dependencies:
     - bsc/textures-vol02
     - bsc/textures-vol03
@@ -422,7 +423,7 @@ jestarr/fall-river-mill:
             - BSC/BSCProps
             - BSC/BSCTextures
       name: HD
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -431,7 +432,7 @@ jestarr/fall-river-mill:
 jestarr/mega-props-vol01:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol01
   variants:
     default:
@@ -449,7 +450,7 @@ jestarr/mega-props-vol01:
 jestarr/mega-props-vol02:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol02
   variants:
     default:
@@ -467,7 +468,7 @@ jestarr/mega-props-vol02:
 jestarr/mega-props-vol03:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol03
   variants:
     default:
@@ -485,7 +486,7 @@ jestarr/mega-props-vol03:
 jestarr/mega-props-vol04:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol04
   variants:
     default:
@@ -503,7 +504,7 @@ jestarr/mega-props-vol04:
 jestarr/mega-props-vol05:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol05
   variants:
     default:
@@ -521,7 +522,7 @@ jestarr/mega-props-vol05:
 jestarr/mega-props-vol06:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol06
   variants:
     default:
@@ -539,7 +540,7 @@ jestarr/mega-props-vol06:
 jestarr/mega-props-vol07:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol07
   variants:
     default:
@@ -557,7 +558,7 @@ jestarr/mega-props-vol07:
 jestarr/mega-props-vol08:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol08
   variants:
     default:
@@ -575,7 +576,7 @@ jestarr/mega-props-vol08:
 jestarr/mega-props-vol09:
   authors:
     - jestarr
-  category: 120
+  category: props
   name: BSC MEGA Props JES Vol09
   variants:
     default:
@@ -594,7 +595,7 @@ jestarr/mmp-livestock:
   authors:
     - Chrisadams3997
     - Jestarr
-  category: 670
+  category: mmps
   dependencies:
     - jestarr/mega-props-vol07
   description: >-
@@ -662,7 +663,7 @@ jestarr/mmp-rocks:
   authors:
     - Chrisadams3997
     - Jestarr
-  category: 670
+  category: mmps
   dependencies:
     - jestarr/mega-props-vol07
   description: >-
@@ -723,7 +724,7 @@ jestarr/mmp-rocks:
 jestarr/resourcepack-vol27:
   authors:
     - jestarr
-  category: 100
+  category: dependencies
   description: This is a consolidation of my latest SD props & newer textures to keep your plugins file neat and tidy. I'll be adding to this over time. There's a cleanitol file included.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c002243f_BSC_PropPack_JES_Vol27v2a.jpg.ba891ab81276dd0fb69d5908da6c1697.jpg
@@ -749,7 +750,7 @@ jestarr/resourcepack-vol27:
 jestarr/small-brick-factory:
   authors:
     - jestarr
-  category: 430
+  category: i-m
   dependencies:
     - bsc/textures-vol02
     - girafe/carpack
@@ -800,11 +801,11 @@ jestarr/small-brick-factory:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.jpg.1d7b399b0b242767e3a33c870b561b46.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Nite.jpg.d5b9ecb3842c89d9c4158a943f0e98b1.jpg
   lots:
-    - category: 430
+    - category: i-m
       id: growable
       label: Growable I-M, 2x2
       size: 2x2
-    - category: 364
+    - category: landmarks,industry
       id: landmark
       label: Landmark I-M, 2x2
       size: 2x2
@@ -842,7 +843,7 @@ jestarr/small-brick-factory:
                 lots: landmark
               path: BSC/jestarr/jes_SmallBrickFactory_HD/Ploppable
       name: HD
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -851,7 +852,7 @@ jestarr/small-brick-factory:
 jestarr/the-moxie-bottling-company:
   authors:
     - jestarr
-  category: 400
+  category: industry
   dependencies:
     - bsc/textures-vol02
     - bsc/textures-vol03
@@ -996,7 +997,7 @@ jestarr/the-moxie-bottling-company:
                 cam: true
               path: CAM/jestarr/jes_MoxieBottlingCompany
       name: HD
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -1005,7 +1006,7 @@ jestarr/the-moxie-bottling-company:
 jestarr/warehouses-props:
   authors:
     - jestarr
-  category: 120
+  category: props
   description: |-
     Eight buildings as props rendered in 45 & 90 degrees. Three buildings as a prop rendered at 45 degrees only. There are both SD & HD versions.
 
@@ -1034,5 +1035,5 @@ jestarr/warehouses-props:
           include:
             - BSC/BSCProps
       name: HD
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.2

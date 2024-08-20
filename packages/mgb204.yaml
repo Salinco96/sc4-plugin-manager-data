@@ -1,7 +1,7 @@
 mgb204/anyone-for-tennis:
   authors:
     - MGB204
-  category: 120
+  category: props
   description: >-
     This package contains a number of textures and HD rendered props for making Tennis scenes in the Lot Editor\*.
 
@@ -32,7 +32,7 @@ mgb204/anyone-for-tennis:
 mgb204/convenience-stores:
   authors:
     - MGB204
-  category: 320
+  category: cs$$
   dependencies:
     - girafe/carpack
     - girafe/flora-pack
@@ -133,7 +133,7 @@ mgb204/convenience-stores:
 mgb204/diagonal-filler-set:
   authors:
     - MGB204
-  category: 660
+  category: parks
   dependencies:
     - sfbt/essentials
   description: >-
@@ -185,7 +185,7 @@ mgb204/diagonal-filler-set:
             - condition:
                 filler-lots: true
               path: MGB Filler Set.dat
-            - category: 970
+            - category: transport,overrides
               path: Paeng* Overrides.dat
       options:
         - default: true
@@ -213,7 +213,7 @@ mgb204/diagonal-filler-set:
 mgb204/rail-depot-pack:
   authors:
     - MGB204
-  category: 120
+  category: props
   description: >-
     This package contains modular rail depot models, rail service platforms plus props (linked to automata) and textures to use with them.
 
@@ -268,7 +268,7 @@ mgb204/rail-depot-pack:
 mgb204/retail-signage-pack:
   authors:
     - MGB204
-  category: 120
+  category: props
   description: >-
     This package contains props which show banners with retail logos.
 
@@ -317,7 +317,7 @@ mgb204/retail-signage-pack:
 mgb204/texture-pack:
   authors:
     - MGB204
-  category: 110
+  category: textures
   description: >-
     The MGB Texture Pack is intended for lotters and includes a number of useful textures. Of course this file will be a necessary dependency for any lots made using the included resources. Please
     note, there is no content that you will find in-game from installing this download stand-alone.

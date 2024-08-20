@@ -1,7 +1,7 @@
 bombardiere/british-boxes:
   authors:
     - Bombardiere
-  category: 120
+  category: props
   description: >-
     This is a prop pack for Victorian and early 20th century British style street furniture. These props are intended to period use, but time scale is long. The props are based on real life examples
     and can be seen on British streets even today. Although many, such as village pump or cattle trough, are left as ornate and do not carry anymore the original function.
@@ -176,7 +176,7 @@ bombardiere/british-boxes:
 bombardiere/british-english-stone-houses:
   authors:
     - Bombardiere
-  category: 200
+  category: residential
   dependencies:
     - gascooker/mega-props-vol01
   description: >-
@@ -275,7 +275,7 @@ bombardiere/british-english-stone-houses:
 bombardiere/clerkenwell-close:
   authors:
     - Bombardiere
-  category: 200
+  category: residential
   dependencies:
     - bombardiere/british-boxes
     - bombardiere/clerkenwell-close-dependencies
@@ -443,7 +443,7 @@ bombardiere/clerkenwell-close:
           label: Lots
           multi: true
           type: string
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       version: 1.0.0
@@ -454,7 +454,7 @@ bombardiere/clerkenwell-close:
 bombardiere/clerkenwell-close-dependencies:
   authors:
     - Bombardiere
-  category: 120
+  category: props
   description: >-
     Caution: The file has only the SC4 Models and Desc. Lots are not included.
 
@@ -493,7 +493,7 @@ bombardiere/clerkenwell-close-dependencies:
           include:
             - ClerkenwellClose_HD_MN
       name: HD (Maxis Nite)
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -502,7 +502,7 @@ bombardiere/clerkenwell-library:
   authors:
     - Bombardiere
     - Simmer2
-  category: 600
+  category: civics
   dependencies:
     - bombardiere/british-boxes
     - cycledogg/mega-props-vol01
@@ -618,7 +618,7 @@ bombardiere/clerkenwell-library:
           include:
             - Clerkenwell Library DN
       name: Dark Nite
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       version: 1.0.0

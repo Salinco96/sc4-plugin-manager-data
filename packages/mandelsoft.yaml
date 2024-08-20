@@ -1,7 +1,7 @@
 mandelsoft/light-props:
   authors:
     - MandelSoft
-  category: 120
+  category: props
   description: |-
     The Light Replacement Mod (LRM) v4.0 Mega Pack consists of three parts: a prop pack, some plopable streetlights sets and a streetlight override mod.
     The first part, the prop pack, is essential for this mod. It contains 59 new streetlight designs and over 200 new props you can use for lots.
@@ -53,7 +53,7 @@ mandelsoft/light-props:
 mandelsoft/light-replacement-mod:
   authors:
     - MandelSoft
-  category: 920
+  category: graphics,overrides
   dependencies:
     - mandelsoft/light-props
   description: >-
@@ -2449,7 +2449,7 @@ mandelsoft/light-replacement-mod:
 mandelsoft/ploppable-streetlights:
   authors:
     - MandelSoft
-  category: 676
+  category: mmps,streetlights
   dependencies:
     - mandelsoft/light-props
   description: >-

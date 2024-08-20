@@ -1,7 +1,7 @@
 sfbt/essentials:
   authors:
     - SFBT
-  category: 100
+  category: dependencies
   dependencies:
     - cycledogg/mega-props-vol01
     - cycledogg/tree-models
@@ -72,7 +72,7 @@ sfbt/street-tree-mod:
     - SFBT
     - Andreas Roth
     - jeronij
-  category: 970
+  category: transport,overrides
   dependencies:
     - cycledogg/mega-props-vol01
     - cycledogg/tree-models
@@ -195,7 +195,7 @@ sfbt/street-tree-mod:
                 trees: cp-deciduous
               path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Deciduous_Trees.dat
             - as: Street Mods
-              category: 970
+              category: transport,overrides
               path: SFBT/Street Tree Mod/Street Mods
       name: Original
       version: 1.0.0
@@ -205,7 +205,7 @@ sfbt/street-tree-mod:
             - SFBT_Street_mod_revised-v2.pdf
           id: simtropolis/35660-sfbt-street-tree-mod-revised
           include:
-            - category: 970
+            - category: transport,overrides
               path: Street Tree Mod
         - docs:
             - _Documents
@@ -254,4 +254,5 @@ sfbt/street-tree-mod:
       authors:
         - hugues aroux
       name: Revisited by Hugues Aroux
+      release: 2024-08-20T10:45:45.232Z
       version: 1.0.0

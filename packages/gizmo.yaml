@@ -1,7 +1,7 @@
 gizmo/day-night-mod:
   authors:
     - Gizmo
-  category: 920
+  category: graphics,overrides
   description: >-
     This mod involved editing the effects directory and numerous FSH files, 3d models and a few exemplars. This was a best effort mod, as some things can't be fixed as the main exe might be
     controlling them, this can be seen with the lights, the brightness can only be raised to a certain point at night. It also involved hex editing a few animated 3d models which took a long time to
@@ -32,7 +32,7 @@ gizmo/day-night-mod:
 gizmo/ground-fog-effect:
   authors:
     - Gizmo
-  category: 920
+  category: graphics,overrides
   description: Ground Fog Effect by gizmo28
   name: Ground Fog Effect Mod
   release: 2024-08-19T09:13:11.692Z
@@ -50,7 +50,7 @@ gizmo/ground-fog-effect:
 gizmo/street-rr-gate-replacement-mod:
   authors:
     - Gizmo
-  category: 970
+  category: transport,overrides
   description: |-
     There are two versions included in this mod, you can only use one at time, chose which one you want and delete the other folder.
 
@@ -86,7 +86,7 @@ gizmo/street-rr-gate-replacement-mod:
 gizmo/train-props:
   authors:
     - Gizmo
-  category: 120
+  category: props
   description: |-
     This is a compilation of 16 train/rail car prop sets created by several members of the SC4 community (including Gizmo) and originally were compiled together by Gizmo.
 
@@ -141,7 +141,7 @@ gizmo/train-props:
 gizmo/vehicle-props:
   authors:
     - Gizmo
-  category: 120
+  category: props
   description: This mod adds all the default UDI vehicles, as props to the lot editor.
   name: Gizmo Vehicle Props
   release: 2024-08-19T09:13:11.692Z
@@ -159,7 +159,7 @@ gizmo/vehicle-props:
 gizmo/weather-effects:
   authors:
     - Gizmo
-  category: 20
+  category: graphics
   description: >-
     This mod is a effect placed on a lot that has to be plopped in your city, the effect starts randomly after the first of year. If you don't see the clouds/rain at all after that, you may have to
     bulldoze the lot and place it somewhere else as the effect may be out of bounds, this isn't something that I have control over since the effect is on a lot and has no way of running on its own.

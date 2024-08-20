@@ -1,7 +1,7 @@
 pegasus/cdk3-sp-container-ship-fleet:
   authors:
     - Pegasus
-  category: 120
+  category: props
   description: >-
     This is a collection of 7 container ship props to be used with the upcoming PEG\-CDK3 Seaport (CDK3\-SP) series of lots. It is a required dependency, specifically, for the Container Ship Seaport
     lot and may be used with other CDK3\-SP lots.
@@ -32,7 +32,7 @@ pegasus/cdk3-sp-container-ship-fleet:
 pegasus/cdk3-sp-rail-fleet:
   authors:
     - Pegasus
-  category: 120
+  category: props
   description: >-
     This is a RESOURCE file for the PEG\-CDK3 Seaport collection of lots. It is a required dependency, specifically, for the upcoming break-bulk freight dock lots and the new freight rail stations.
 
@@ -70,7 +70,7 @@ pegasus/cdk3-sp-rail-fleet:
 pegasus/cdk3-super-pack:
   authors:
     - Pegasus
-  category: 100
+  category: dependencies
   description: >-
     This is a compilation of the primary CDK3 dependency files. If you already have the dependency files listed below, you will not have to download and install this file. However, all future CDK3
     lots requiring any of the listed dependencies, will list this file instead. There also may be a slight game load time reduction having all the dependencies combined into a single file.
@@ -127,7 +127,7 @@ pegasus/cdk3-super-pack:
 pegasus/mtp-scenic-views:
   authors:
     - Pegasus
-  category: 360
+  category: landmarks
   dependencies:
     - pegasus/mtp-super-pack
   description: >-
@@ -180,24 +180,8 @@ pegasus/mtp-scenic-views:
 pegasus/mtp-super-pack:
   authors:
     - Pegasus
-  category: 100
+  category: dependencies
   description: >-
-    **UPDATE: 04.07.2022** - The *PEG_MTP_SUPER_TEXTURES_PACK.dat* has been replaced by the all inclusive **PEG\-SUPER_TEXTURES.dat**, which contains all, but the textures from the [PEG SPAM Super
-    Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (PEG\-SPAM_TEXTURES_RESOURCE_b200.dat), created and released by Pegasus from the entire collection
-    (including: CDK and CDK3, CDK3\-OWW, OWW2 and Marina, Utopia, CSK, PPonds etc...). This update brings all these textures under one DAT (which actually already have held 2/3 of the textures created
-    by Pegasus). Bear in mind this is only part one of a major update and clean-up of this dependency pack focusing on the textures for now.
-
-
-    For the full list of texture contents please check the included \*-index.jpg files.
-
-
-    The **v1.5** update is the first part of a collection wide update and cleanup focusing of the textures only. While the original textures and props where created by Pegasus and his team, this (and
-    the following) update was made by the [@STEX Custodian](https://community.simtropolis.com/profile/779745-stex-custodian/) (with the permission of Pegasus).
-
-
-    \--------------------------------------------------------------------------------------------------------------------------------
-
-
     **Faster than a speeding Llama...** ( *a really old one... with gout* )**...**
 
 
@@ -223,47 +207,7 @@ pegasus/mtp-super-pack:
     will be the primary MTP dependency listed on all future MTP lots.
 
 
-    * * *
-
-
-    ***Please Note***: This dependency contains no material that alters the appearance ofgame default props or textures... and will not interfere in any way with playing a non-MTP or rural themed
-    city.
-
-
-    * * *
-
-
     The ****MTP SUPER PACK**** combines both MTP props and textures into a single download. However, it will install props and textures as separate files to make any future updates easier and faster.
-
-
-    The **MTP SUPERPACK** replaces the following previous MTP dependencies... which can now be removed from your Plugins folder:
-
-
-    \* **PEG Mountain Theme Pack**
-
-
-    ( *PEG_MTP_RESOURCE_vol1.dat* & *PEG_MTP_TEXTURES_vol1.dat* )
-
-
-    \* **PEG\-MTP Texture Pack Volume 2**
-
-
-    ( *PEG\-MTP_TEXTURES_vol2.dat* )
-
-
-    \* **PEG\-MTP Resource Pack 2 \[beta\]**
-
-
-    ( *PEG\-MTP_RESOURCE2_b102.dat* )
-
-
-    \* **PEG Pine Tree Mod \[ resource file only \]**
-
-
-    ( *PEG\-MTP_GM-TreeMod_RESOURCE* )
-
-
-    **\*\* This dependency has no dependencies.**
 
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
@@ -279,18 +223,27 @@ pegasus/mtp-super-pack:
       assets:
         - docs:
             - _Documents/PEG Readmes
-          exclude:
-            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
-            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
           id: simtropolis/20966-peg-mtp-super-pack
           include:
+            - condition:
+                road-textures: eu
+              path: PEG-SUPER_TEXTURES_EUOverride.dat
+              priority: 970
+            - condition:
+                nam: true
+              path: PEG-SUPER_TEXTURES_RRWOverride.dat
+              priority: 970
             - _MTP SUPER PACK
+      options:
+        - global: true
+          id: road-textures
+          section: Textures
       version: 1.5.0
 
 pegasus/one-flag-many-nations:
   authors:
     - Pegasus
-  category: 120
+  category: props
   dependencies:
     - maxis/day-of-peace
   description: >-
@@ -319,7 +272,7 @@ pegasus/one-flag-many-nations:
 pegasus/peg-tennis-park:
   authors:
     - Pegasus
-  category: 660
+  category: parks
   description: >-
     I went out and bought SC4 on the very first day it was released. And from that day, the default tennis court park has bothered me and I couldn't figure out why. I even mentally played a tennis
     game on the default court: I serve... it goes long... and I watch the ball bounce out across the street and bean some old lady in the head. My second serve is returned and flies high and to the
@@ -364,7 +317,7 @@ pegasus/peg-tennis-park:
 pegasus/peg-trail-parks-3:
   authors:
     - Pegasus
-  category: 660
+  category: parks
   description: >-
     The PEG Trail Parks have returned with a whole new visual makeover. This initial release introduces the new version of the basic Trail Parks... designed to blend seamlessly with the the [PEG
     Random Woods](https://community.simtropolis.com/files/file/4526-peg-random-woods-v206/) & the [PEG Stream Kit II](https://community.simtropolis.com/files/file/11083-peg-stream-kit-ii-v205/).
@@ -397,7 +350,7 @@ pegasus/peg-trail-parks-3:
 pegasus/pond-kit-2:
   authors:
     - Pegasus
-  category: 660
+  category: parks
   description: >-
     After literally months in development and countless trips back to the drawing board, Pegasus Productions is proud to finally release this **Deluxe Edition** of the **Pond Kit**. Although similar
     in appearance, every lot and model have been rebuilt from the pond bottom up to eliminate the bad and make room for the good.
@@ -456,7 +409,7 @@ pegasus/pond-kit-2:
 pegasus/seasonal-woods:
   authors:
     - Pegasus
-  category: 660
+  category: parks
   description: >-
     Prepare for the onslaught as hoards of Leafers besiege your city every Fall to take in the beauty of the Autumn leaves. The Seasonal Woods lots are very similar to the PEG Random Woods... except
     these trees change with the seasons. Winter, Spring, Summer & Fall... the trees change to reflect the time of year in your cities. The Seasonal Woods also shuns the game's default "lolly-pop"
@@ -491,7 +444,7 @@ pegasus/seasonal-woods:
 pegasus/security-fencing-kit:
   authors:
     - Pegasus
-  category: 120
+  category: props
   description: >-
     This resource pack is a collection of chain link fence props that can be used on any type of lot that requires security fencing. The props in this pack may be used by other developers to enhance
     the appearance of their lots.
@@ -525,10 +478,9 @@ pegasus/security-fencing-kit:
 pegasus/spam:
   authors:
     - Pegasus
-  category: 41
+  category: gameplay,spam
   dependencies:
     - pegasus/mtp-super-pack
-    - pegasus/spam-super-resource-pack
   description: >-
     The **S**im**P**eg **A**gricultural **M**od (**SPAM**) is an absolute, total and complete replacement for the game-default farming system.
 
@@ -619,7 +571,7 @@ pegasus/spam:
 pegasus/spam-super-resource-pack:
   authors:
     - Pegasus
-  category: 100
+  category: dependencies
   description: >-
     This package is the main dependency for all things SPAM - from the main mod to most of the current or future additional sets. This standalone version is meant for all players who do not want to
     use the full mod but still wish to play with lots and items that utilize these props and textures.
@@ -659,13 +611,4 @@ pegasus/spam-super-resource-pack:
             - condition:
                 spam: false
               path: PEGPROD/SPAM/SPAM_Super_Resource_Pack
-      name: Default
-      requirements:
-        spam: false
-      version: 1.0.0
-    spam:
-      assets: []
-      name: SPAM
-      requirements:
-        spam: true
       version: 1.0.0

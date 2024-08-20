@@ -1,7 +1,7 @@
 rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
   authors:
     - Rubik
-  category: 363
+  category: landmarks,commercial
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol03
@@ -102,12 +102,39 @@ rubik/sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex:
             - ~Documents
           id: sc4evermore/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex
           include:
+            - "{{lots}}.SC4Lot"
             - condition:
-                cam: true
-              path: CAM/Rubik3/World Trade Center Towers
-            - BSC/BSC Custodian/Rubik3
+                submenus: true
+              path: BSC/BSC Submenu
             - BSC/BSCProps
-            - BSC/BSC Submenu
+            - BSC/BSC Custodian/Rubik3
+            # TODO: Check this
+            # - BSC/BSC Custodian/Rubik3/One World Trade Tower/One World Trade with Jobs.dat
+            # - BSC/BSC Custodian/Rubik3/Two World Trade Tower/Two World Trade with Jobs.dat
+      lots:
+        - category: landmarks
+          id: WTC_Complex_Landmark_4e4dd98d
+          label: WTC Complex (Landmark)
+        - category: landmarks,rewards
+          id: WTC_Complex_Reward_ae3f8aea
+          label: WTC Complex (Reward)
+        - category: landmarks,rewards
+          id: WTC_Complex_Placeholder_0e44f044
+          label: WTC Complex (Reward Placeholder)
+        - category: co$$$,cam
+          condition:
+            cam: true
+          id: CO$$$15_4x4_WTC_Complex_One World Trade_Co$$$_243260d7
+          label: WTC One (CO$$$, Stage 15, 4x4)
+          size: 4x4
+          stage: 15
+        - category: co$$$,cam
+          condition:
+            cam: true
+          id: CO$$$15_4x4_WTC_Complex_Two World Trade_Co$$$_043264c8
+          label: WTC Two (CO$$$, Stage 15, 4x4)
+          size: 4x4
+          stage: 15
       version: 2.0.0
   warnings:
     - id: bulldoze

@@ -3,7 +3,7 @@ wmp/essentials:
     - DocRorlach
     - WMP
     - d_j_p1
-  category: 100
+  category: dependencies
   description: >-
     The **WMP Essentials v1.0** is a **must have dependency pack** for all the previously released WMP custom contents by **DocRorlach**. It completely replaces the previously released wmp_dummies.dat
     file.
@@ -68,7 +68,7 @@ wmp/essentials:
             - _Documents
           id: simtropolis/33620-wmp-essentials-v101
           include:
-            - category: 900
+            - category: overrides
               condition:
                 rhd: false
               path: z___zWMP_LHD_Paths.dat
@@ -104,7 +104,7 @@ wmp/mega-props-vol01:
     - DocRorlach
     - WMP
     - d_j_p1
-  category: 120
+  category: props
   description: >-
     The **WMP Mega Props vol. 01** is the first dependency pack, which superseds many of the previously released single, individual WMP prop packs by **DocRorlach**.
 
@@ -165,7 +165,7 @@ wmp/mega-props-vol02:
     - DocRorlach
     - WMP
     - d_j_p1
-  category: 120
+  category: props
   description: >-
     The **WMP Mega Props vol. 02** is the second dependency pack, which superseds many of the previously released single, individual WMP prop packs by **DocRorlach**.
 
@@ -226,7 +226,7 @@ wmp/mega-props-vol03:
     - DocRorlach
     - WMP
     - d_j_p1
-  category: 120
+  category: props
   description: >-
     The **WMP Mega Props vol. 03** is the third dependency pack, which superseds many of the previously released single, individual WMP prop packs by **DocRorlach**.
 
@@ -285,7 +285,7 @@ wmp/mega-props-vol04:
     - DocRorlach
     - WMP
     - d_j_p1
-  category: 120
+  category: props
   description: >-
     The **WMP Mega Props vol. 04** is the forth dependency pack, which superseds many of the previously released single, individual WMP prop packs by **DocRorlach**.
 
@@ -342,7 +342,7 @@ wmp/mega-props-vol05:
     - DocRorlach
     - WMP
     - d_j_p1
-  category: 120
+  category: props
   description: >-
     The **WMP Mega Props vol. 05** is the fifth dependency pack, which superseds many of the previously released single, individual WMP prop packs by **DocRorlach**.
 
@@ -403,7 +403,7 @@ wmp/mega-textures:
     - WMP Team
     - pLynn
     - RFY Team
-  category: 110
+  category: textures
   description: >-
     **WMP Mega Textures v1.02** is a dependency pack, which superseds many of the previously released single, individual WMP texture packs and the previous WMP Mega Textures by **DocRorlach**.
 
@@ -459,7 +459,7 @@ wmp/the-bridges-of-shoreline-county:
   authors:
     - DocRorlach
     - d_j_p1
-  category: 660
+  category: parks
   dependencies:
     - wmp/essentials
     - wmp/mega-props-vol01
@@ -506,7 +506,7 @@ wmp/the-cougar-fruit-packing-ltd:
   authors:
     - d_j_p1
     - Rivit
-  category: 732
+  category: rail,freight
   dependencies:
     - mattb325/bat-props-vol02
     - wmp/mega-props-vol05

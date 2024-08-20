@@ -1,7 +1,7 @@
 ct1999/szdc:
   authors:
     - Ct1999
-  category: 320
+  category: cs$$
   description: |-
     SZDC (Chinese :深圳发展中心). This is a 4x8 CS$$ LOT. Growable and Landmark LOT is available.
 
@@ -34,16 +34,16 @@ ct1999/szdc:
               path: SZDC(DN)/LM
             - SZDC(DN)
       lots:
-        - category: 320
+        - category: cs$$
           id: growable
           label: SZDC (Growable CS$$, 4x8)
           size: 4x8
-        - category: 363
+        - category: landmarks,commercial
           id: landmark
           label: SZDC (Landmark CS$$, 4x8)
           size: 4x8
       name: Dark Nite
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       version: 1.0.0
@@ -54,7 +54,7 @@ ct1999/szdc:
 ct1999/villagebox4:
   authors:
     - Ct1999
-  category: 330
+  category: cs$$$
   description: |-
     VillageBox4 (Chinese: 农民房4). This is a 1x1 CS$$$ LOT. Only Growable LOT is available.
 
@@ -82,12 +82,12 @@ ct1999/villagebox4:
               path: VillageBox4(DN)/CS$$$
             - VillageBox4(DN)
       lots:
-        - category: 330
+        - category: cs$$$
           id: growable
           label: VillageBox4 (Growable CS$$$, 1x1)
           size: 1x1
       name: Dark Nite
-      release: 2024-08-19T09:13:11.692Z
+      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       version: 1.0.0

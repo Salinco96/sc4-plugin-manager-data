@@ -2,7 +2,7 @@ ulisse-wolf/five-nights-at-freddys:
   authors:
     - Joey W.
     - Ulisse Wolf
-  category: 300
+  category: commercial
   dependencies:
     - bsc/common-dependencies
     - kingofsimcity/supershk-mega-parking-textures
@@ -71,12 +71,12 @@ ulisse-wolf/five-nights-at-freddys:
             - as: Lots/*
               path: "{{lots}}_Freddy Fazbear's Pizza*.SC4Lot"
       lots:
-        - category: 320
+        - category: cs$$
           id: CS$$2_6x6
           label: Growable CS$$
           size: 6x6
           stage: 2
-        - category: 363
+        - category: landmarks,commercial
           id: PLOP_6x6
           label: Landmark CS$
           size: 6x6
@@ -101,7 +101,7 @@ ulisse-wolf/hrw-subway-converter:
   authors:
     - MGB204
     - Ulisse Wolf
-  category: 700
+  category: transport
   description: >-
     After a long development finally Hybrid Railway (HRW) has a tunnel system. This mod is a pioneer in the field of Hybrid Railway as it is the only mod that manages to convert rail and monorail
     traffic into subways and vice versa simultaneously.

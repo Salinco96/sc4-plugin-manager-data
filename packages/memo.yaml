@@ -1,7 +1,7 @@
 memo/region-thumbnail-fix-dll:
   authors:
     - memo
-  category: 60
+  category: graphics,bugfixes,dll
   description: >-
     This DLL plugin fixes the rendering bug of a city's region view thumbnail that affects large screen sizes.
 
@@ -45,7 +45,7 @@ memo/submenus-dll:
     - memo
     - Panda
     - Null 45
-  category: 60
+  category: gameplay,dll
   dependencies:
     - null-45/resource-loading-hooks-dll
   description: >-
@@ -136,7 +136,7 @@ memo/submenus-dll:
 memo/transparent-texture-fix-dll:
   authors:
     - memo
-  category: 60
+  category: graphics,bugfixes,dll
   description: >-
     This DLL plugin fixes the underground view bug ([water bug](https://community.simtropolis.com/forums/topic/760847-coris-partial-water-bug-fix-ready-for-testing/)) that occurs on lots using overlay
     textures without a base texture, after exiting the underground view.
