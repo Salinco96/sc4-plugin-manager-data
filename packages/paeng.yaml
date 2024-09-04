@@ -75,6 +75,11 @@ paeng/bikepaths:
           id: simtropolis/26110-paengs-bicycle-paths-with-alley-parks
           include:
             - Paeng_BikePaths_v100
+        # TODO: Extender does not work well
+        # - id: simtropolis/46045-paeng-nightowl-extenders
+        #   include:
+        #     - path: bikepath_extenders.dat
+        #       as: 0_Original/BikePath_Lots/BikePath_Extenders.dat
       name: Original
       version: 1.0.0
     extended-mgb204:
@@ -85,6 +90,11 @@ paeng/bikepaths:
           include:
             - as: 0_Original
               path: Paeng_BikePaths_v100
+        # TODO: Extender does not work well
+        # - id: simtropolis/46045-paeng-nightowl-extenders
+        #   include:
+        #     - path: bikepath_extenders.dat
+        #       as: 0_Original/BikePath_Lots/BikePath_Extenders.dat
         - exclude:
             - MGB_LP-BikePath_Extenders.dat
           id: simtropolis/84749-mgb-lp-paengbikepaths
@@ -157,6 +167,11 @@ paeng/bikepaths:
           include:
             - as: 0_Original
               path: Paeng_BikePaths_v100
+        # TODO: Extender does not work well
+        # - id: simtropolis/46045-paeng-nightowl-extenders
+        #   include:
+        #     - path: bikepath_extenders.dat
+        #       as: 0_Original/BikePath_Lots/BikePath_Extenders.dat
         - exclude:
             - MGB_LP-BikePath_Extenders.dat
           id: simtropolis/84749-mgb-lp-paengbikepaths

@@ -1,3 +1,35 @@
+debussyman/berlin-w2w-wmf-haus:
+  authors:
+    - debussyman
+  category: cs$$
+  description: A 2x1 C$$ building based on the WMF-Haus in Berlin. Growable and Landmark with jobs included in the zip.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/WMF_Haus.png.044a93edb46609640a806e062ae806a2.png
+  name: Berlin W2W WMF-Haus
+  release: 2024-08-22T13:06:29.434Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/WMF_Haus.thumb.png.1eb6419d1f3dac03a0b14ad32106ed29.png
+  url: https://community.simtropolis.com/files/file/36405-berlin-w2w-wmf-haus/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36405-berlin-w2w-wmf-haus
+      lots:
+        - category: cs$$
+          filename: CS$$5_2x1_DBSSY_BerlinW2W_WMF_Haus_8448d09c.SC4Lot
+          id: 8448d09c
+          label: Berlin W2W WMF-Haus (CS$$, Stage 5, 2x1)
+          size: 2x1
+          stage: 5
+        - category: landmark,cs$$
+          filename: PLOP_2x1_DBSSY_BerlinW2W_WMF_Haus_b449ca9b.SC4Lot
+          id: b449ca9b
+          label: Berlin W2W WMF-Haus (CS$$, Landmark, 2x1)
+          size: 2x1
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 debussyman/dresden-frauenkirche:
   authors:
     - debussyman
@@ -23,14 +55,12 @@ debussyman/dresden-frauenkirche:
     pre-war-version:
       assets:
         - id: simtropolis/36395-dresden-frauenkirche-pre-war-version
-          include:
-            - "{{lots}}.SC4Lot"
-            - "*"
       description: Pre-war look of a previously uploaded church. Also located under "Landmarks"
       images:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheDark.png.f0ec6fd84202b8e17a24e121a7b25f78.png
       lots:
-        - id: PLOP_4x4_Dresden Frauenkirche_Dark_53cb8009
+        - filename: PLOP_4x4_Dresden Frauenkirche_Dark_53cb8009.SC4Lot
+          id: 53cb8009
           label: Dresden Frauenkirche, Pre-war (Landmark, 4x4)
           size: 4x4
       name: Pre-war
@@ -76,7 +106,7 @@ debussyman/mega-props-vol02:
           include:
             - BSC MEGA Props - DBSSYMN Vol02*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
-      version: 2.0.0
+      version: 3.0.0
 
 debussyman/wz-recreation-palais:
   authors:

@@ -1,3 +1,119 @@
+kingofsimcity/irm-diagonal-filler-set:
+  authors:
+    - kingofsimcity
+  category: irm,diagonal,fillers
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - ncd/railyard-textures-vol01
+    - sfbt/essentials
+  description: >-
+    This is a set of filler lots for dirty, manufacturing, and hi-tech industry geared towards adding FA (Fractional Angle) support to the originals. The set was designed with IRM in mind and as such,
+    utilizes matching bases and walls from that of **T Wrecks**' original release.
+
+
+    **Package Overview**
+
+
+    This package contains a set of **12** wall filler lots: **4** for dirty, manufacturing and hi-tech industry respectively. FA2 (2x1) and FA3 (3x1) are supported and each type comes with a mirrored
+    version. With the exception of I-HT variants - which are *wall-less* pieces - both I-D and I-M use the same walls as the originals.
+
+
+    Lot stats are designed to match the original IRM fillers as closely as possible. Positioning indicators are present to help with lot placement and alignment. Every lot is practically neutral, with
+    negligible amounts of pollution, no power/water consumption and cost nothing to maintain. It takes §5 to bulldoze a lot and are extremely cheap to plop (§5 for I-D, §6 for I-M, §7 for I-HT).
+
+
+    The lots are located in the landmarks menu and are positioned in-line with the originals.
+
+
+    **Acknowledgements**
+
+
+    Thanks to all the content creators behind the props and textures that made this possible! Thanks to **T Wrecks** for the original Industrial Revolution Mod.
+
+
+    Enjoy!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/splash.jpg.57791f64620ce5b4dccf099bffdd6c84.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/detail_1.jpg.398b8ff36bcd5e23d4e1e847a62568c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2018_08/lots.jpg.ee2dbd5d8cc401821f3787600af07771.jpg
+  name: Industrial Revolution Mod - Base FA Filler Set
+  optional:
+    - t-wrecks/industrial-revolution-mod
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2018_08/splash.thumb.jpg.8f8fd9ad78d7a27a9c326b92dd2a402c.jpg
+  url: https://community.simtropolis.com/files/file/32426-industrial-revolution-mod-base-fa-filler-set/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/32426-industrial-revolution-mod-base-fa-filler-set
+          include:
+            - Industrial Revolution Mod/IRM FA Filler Set
+      lots:
+        - category: i-d,diagonal,fillers
+          filename: PLOP_2x1_IRM_I-D_Filler_WallFA2_L_88ecc3fd.SC4Lot
+          id: 88ecc3fd
+          label: FA2 Wall, Left (I-D, 2x1)
+          size: 2x1
+        - category: i-d,diagonal,fillers
+          filename: PLOP_2x1_IRM_I-D_Filler_WallFA2_R_28ecc22e.SC4Lot
+          id: 28ecc22e
+          label: FA2 Wall, Right (I-D, 2x1)
+          size: 2x1
+        - category: i-d,diagonal,fillers
+          filename: PLOP_3x1_IRM_I-D_Filler_WallFA3_L_68eee57c.SC4Lot
+          id: 68eee57c
+          label: FA3 Wall, Left (I-D, 3x1)
+          size: 3x1
+        - category: i-d,diagonal,fillers
+          filename: PLOP_3x1_IRM_I-D_Filler_WallFA3_R_98eef47c.SC4Lot
+          id: 98eef47c
+          label: FA3 Wall, Right (I-D, 3x1)
+          size: 3x1
+        - category: i-m,diagonal,fillers
+          filename: PLOP_2x1_IRM_I-M_Filler_WallFA2_L_38ee1005.SC4Lot
+          id: 38ee1005
+          label: FA2 Wall, Left (I-M, 2x1)
+          size: 2x1
+        - category: i-m,diagonal,fillers
+          filename: PLOP_2x1_IRM_I-M_Filler_WallFA2_R_88ee31a1.SC4Lot
+          id: 88ee31a1
+          label: FA2 Wall, Right (I-M, 2x1)
+          size: 2x1
+        - category: i-m,diagonal,fillers
+          filename: PLOP_3x1_IRM_I-M_Filler_WallFA3_L_18f8602f.SC4Lot
+          id: 18f8602f
+          label: FA3 Wall, Left (I-M, 3x1)
+          size: 3x1
+        - category: i-m,diagonal,fillers
+          filename: PLOP_3x1_IRM_I-M_Filler_WallFA3_R_38ef1e40.SC4Lot
+          id: 38ef1e40
+          label: FA3 Wall, Right (I-M, 3x1)
+          size: 3x1
+        - category: i-ht,diagonal,fillers
+          filename: PLOP_2x1_IRM_I-HT_Filler_FA2_L_58ee1058.SC4Lot
+          id: 58ee1058
+          label: FA2 Wall, Left (I-HT, 2x1)
+          size: 2x1
+        - category: i-ht,diagonal,fillers
+          filename: PLOP_2x1_IRM_I-HT_Filler_FA2_R_38ff2a75.SC4Lot
+          id: 38ff2a75
+          label: FA2 Wall, Right (I-HT, 2x1)
+          size: 2x1
+        - category: i-ht,diagonal,fillers
+          filename: PLOP_3x1_IRM_I-HT_Filler_FA3_L_b8ff2b27.SC4Lot
+          id: b8ff2b27
+          label: FA3 Wall, Left (I-HT, 3x1)
+          size: 3x1
+        - category: i-ht,diagonal,fillers
+          filename: PLOP_3x1_IRM_I-HT_Filler_FA3_R_58ff2955.SC4Lot
+          id: 58ff2955
+          label: FA3 Wall, Right (I-HT, 3x1)
+          size: 3x1
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 kingofsimcity/logistics-essentials:
   authors:
     - kingofsimcity

@@ -7,7 +7,7 @@ girafe/4-rue-des-lilas:
     - cycledogg/mega-props-vol01
     - cycledogg/textures-vol01
     - girafe/carpack
-    - girafe/flora-pack
+    - girafe/flora-pack # Narcissus, Lindens, Subalpine firs
   description: |-
     This package includes day, maxisnite and darknite version of 4 rue des Lilas.
 
@@ -178,7 +178,7 @@ girafe/chalet-edelweiss:
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
     - cycledogg/textures-vol01
-    - girafe/flora-pack
+    - girafe/flora-pack # Subalpine firs
   description: |-
     This package includes darknite / maxisnite growable version of the Chalet Edelweiss.
 
@@ -548,6 +548,123 @@ girafe/hedges:
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 1.0.0
 
+girafe/train-corail-automata:
+  authors:
+    - Girafe
+  category: rail,automata
+  description: |-
+    This is a set of HD automatas for the passenger train.
+
+    It includes:
+
+    - 5 passenger train engines, 1 replacement of the regular passenger engine (BB26000 orange) and 4 additional skins (BB 26000 en voyage, BB26000 grandest, BB26000 carmillon, BB26000 grey).
+    - 3 passenger wagons, replacement and additional skins (1st class, 2nd class and 2nd class tagged)
+
+    All the engines and wagons are available as props only in Darknite version.
+
+    Special thanks to **Anachron for the 3d models of the engine BB26000, VIP and BSC members**.
+
+    **Thanks to Tibi for maintaining these files over the years.**
+
+    ### MOD Details and information
+
+    **Automata replacement and additional skins for passenger train engine and wagons.**
+
+    The skins appear randomly for the automatas.
+
+    Nightlights are included.
+
+    Automata can be driven in free mod in automata panel.
+
+    These engines and wagons are available in Lot Editor props section under the name:
+
+    - Grfe_BB26000_...
+    - Grfe_Corail_...
+
+    The LE props of this pack have been datpacked into two files: **Grfe_Props_Pack_LE_Train BB26000.dat** and **Grfe_Props_Pack_LE_Train Corail.dat**.
+
+    Note: The automata models are high poly which could affect negatively the performance of your game.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c50a3c333e2_Icon_Train_CorailHDBB26000_1.jpg.a3cc5f400ab406d4ca190f66b398bad2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c50a431514a_Icon_Train_CorailHDBB26000_2.jpg.2fa0d570798fd3d7615d0e477a3e7114.jpg
+  name: Train Corail and BB26000 Automata
+  release: 2024-08-21T10:51:21.894Z
+  requirements:
+    darknite: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c50b6066fb1_Icon_Train_CorailHDBB26000_2.thumb.jpg.dfd1fe55c8793a55418cd520f0c0943f.jpg
+  url: https://community.simtropolis.com/files/file/36402-bsc-vip-girafe-train-corail-hd-and-bb26000/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+          id: simtropolis/36402-bsc-vip-girafe-train-corail-hd-and-bb26000
+          include:
+            - BSC/BSCProps/Grfe_Props
+            - BSC/girafe/Grfe_Automatas
+      version: 1.0.0
+
+girafe/train-tgv-automata:
+  authors:
+    - Girafe
+  category: rail,automata
+  description: |-
+    This is a set of HD automatas replacing the freight train.
+
+    Note: reverse engine modding is only possible with freigth train replacement.
+
+    It includes:
+
+    - 22 TGV train wagons with 3 different skins (1st class, 2nd class and restaurant) replacing all freight train wagons.
+    - 2 TGV engines replacing the freight train engine and the freight steam engine.
+    - 1 TGV reverse engine replacing the caboose.
+
+    Special thanks to **VIP and BSC members**.
+
+    Thanks to **Tibi** for maintaining this file over the years.
+
+    ### MOD Details and information
+
+    **Automata replacing skins for the freight train.**
+
+    **Remove any previous skins affecting the freight train engine, steam engine and wagons for this mod to appear properly.**
+
+    The skins appear randomly for the automatas.
+
+    Nightlights are included.
+
+    Automata can be driven in free mod in automata panel.
+
+    All the wagons and engines are available as props (Darknite versions only) under the name:
+
+    Grfe_TGV_...
+
+    The props of this pack have been datpacked into one file: **Grfe_Props_Pack_LE_Train TGV Duplex.dat**.
+
+    Note: The automata models are high poly which could affect negatively the performance of your game.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_TGV_Duplex_1.jpg.0713e4fbd3002a9f29927db12f3d26e1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_TGV_Duplex_2.jpg.17f7b5c9fa8a903f7abaedec7fb664e9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cb05ed6923d_TGVDuplex.jpg.1205c687c393d074b89c9a89c5c76268.jpg
+  name: BSC-VIP Girafe Train TGV Duplex
+  release: 2024-08-27T09:21:20.239Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_TGV_Duplex_1.thumb.jpg.bfe5dce79f37046048b42e8251a574ef.jpg
+  url: https://community.simtropolis.com/files/file/36411-bsc-vip-girafe-train-tgv-duplex/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+          id: simtropolis/36411-bsc-vip-girafe-train-tgv-duplex
+          include:
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex
+            - BSC/BSCProps/Grfe_Props
+      requirements:
+        darknite: true
+      version: 1.0.0
+
 girafe/villa-libeskind:
   authors:
     - Girafe
@@ -556,7 +673,7 @@ girafe/villa-libeskind:
     - bsc/essentials
     - cycledogg/textures-vol01
     - girafe/carpack
-    - girafe/flora-pack
+    - girafe/flora-pack # Common Spruce, Honey Locust
     - girafe/hedges
   description: |-
     This package includes day, maxisnite and darknite version of villa Libeskind.

@@ -1,0 +1,383 @@
+gn-leugim/arched-house:
+  authors:
+    - Gn_leugim
+  category: r$$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/968e7b7b2467906753413232903cd16d-cidade-de-testes-19-dez--011222711950.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/26fdf4e1967ada7472d37f1f01bf5530-cidade-de-testes-19-dez--011222711966.jpg
+  name: GnL_EHA Arched House
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2012/thumb-968e7b7b2467906753413232903cd16d-cidade-de-testes-19-dez--011222711950.jpg
+  url: https://community.simtropolis.com/files/file/20470-gnl_eha-arched-house/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/20470-gnl_eha-arched-house
+      version: 1.0.0
+
+gn-leugim/azuleijitos-apartment:
+  authors:
+    - Gn_leugim
+  category: r$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/5e635c61c2fbc4927c74497054b8eabd-img.png
+    - https://www.simtropolis.com/objects/screens/monthly_01_2013/555e1bbda7e1b8f5da77eb1b4941479a-img2.png
+  name: GnL EHA Azuleijitos Apartment
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2013/thumb-5e635c61c2fbc4927c74497054b8eabd-img.png
+  url: https://community.simtropolis.com/files/file/28343-gnl-eha-azuleijitos-apartment/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/EBLT_Readmes/Gn_Leugim
+          id: simtropolis/28343-gnl-eha-azuleijitos-apartment
+          include:
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment
+      version: 1.0.0
+
+gn-leugim/essentials:
+  authors:
+    - Gn_leugim
+  category: dependencies
+  description: |-
+    Gn_Leugim Essentials Jan 09
+
+    This is (and I hope it to be the only one) dependency pack from me. here you will find (most of them Portuguese) textures and props, and most of my next releases will need this one.
+
+    It includes a Cleanitol file, so when installing it, run it ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
+
+    Check for the updates, this will be only file.. you can see the version on the top.
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/f248742a6263bbe004c4f53331f20d49-essentials.jpg
+  name: GnLeugim Essentials
+  release: 2024-08-27T18:29:58.801Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-f248742a6263bbe004c4f53331f20d49-essentials.jpg
+  url: https://community.simtropolis.com/files/file/21060-gnleugim-essentials/
+  variants:
+    default:
+      assets:
+        - docs:
+            - GnL_Essencials/cleanitol file.txt
+          id: simtropolis/21060-gnleugim-essentials
+          include:
+            - GnL_Essencials/GnL_Essencials.dat
+      name: Default
+      version: 1.0.0
+
+gn-leugim/furniture-shop:
+  authors:
+    - Gn_leugim
+  category: cs$$
+  dependencies:
+    - gn-leugim/essentials
+  description: |-
+    This is a small Furniture shop to grow in your cities.
+
+    It's multi language and supports: English (both UK and US) French Spanish and Portuguese. (sorry for the others, but this is the languages I can handle)
+  images:
+    - https://www.simtropolis.com/objects/screens/0006/2e4aefacb362c6fba46ba7327acc7f77-mn.JPG
+    - https://www.simtropolis.com/objects/screens/0006/2e4aefacb362c6fba46ba7327acc7f77-md.JPG
+  lots:
+    - bulldoze: 174
+      demand:
+        cs$: 80
+        cs$$: 25
+      filename: CS$$_Furniture_grow.dat
+      flamability: 40
+      garbage: 7
+      id: growable-cs$$
+      label: Furniture Shop (CS$$, 2x2)
+      pollution: 4 over 5 tiles
+      power: 3
+      size: 2x2
+      water: 84
+      waterPollution: 2 over 6 tiles
+      worth: 1114
+  name: Furniture Shop
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-2e4aefacb362c6fba46ba7327acc7f77-mn.JPG
+  url: https://community.simtropolis.com/files/file/21062-furniture-shop/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/21062-furniture-shop
+      version: 1.0.0
+
+gn-leugim/high-fall-apartments:
+  authors:
+    - Gn_leugim
+  category: r$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/a87f96256e1ee76e8de139eac750b2df-img.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_03_2013/62853eb1c0394a5827428edd3b77f9d2-img2.jpg
+  name: GnL EHA High Fall Apartments
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2013/thumb-a87f96256e1ee76e8de139eac750b2df-img.jpg
+  url: https://community.simtropolis.com/files/file/28528-gnl-eha-high-fall-apartments/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/EBLT_Readmes/Gn_Leugim
+          id: simtropolis/28528-gnl-eha-high-fall-apartments
+          include:
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments
+      version: 1.0.0
+
+gn-leugim/house-with-view:
+  authors:
+    - Gn_leugim
+  category: r$$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/bf625324f3927a03c3cbf5aa69f36685-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/8f7414bc01f58c7ea8a868bca0c66e22-night.jpg
+  name: GnL_EHA House with View
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2012/thumb-bf625324f3927a03c3cbf5aa69f36685-day.jpg
+  url: https://community.simtropolis.com/files/file/20280-gnl_eha-house-with-view/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/20280-gnl_eha-house-with-view
+      version: 1.0.0
+
+gn-leugim/nice-house:
+  authors:
+    - Gn_leugim
+  category: r$$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/f107cb5305ade5607e7f567c41f0c3b9-day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/8f56158f12d25296f0faea87acc21edf-night.jpg
+  name: GnL_EHA Nice House
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2012/thumb-f107cb5305ade5607e7f567c41f0c3b9-day.jpg
+  url: https://community.simtropolis.com/files/file/20278-gnl_eha-nice-house/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/20278-gnl_eha-nice-house
+      version: 1.0.0
+
+gn-leugim/pharmacy:
+  authors:
+    - Gn_leugim
+  category: cs$$
+  dependencies:
+    - gn-leugim/essentials
+  description: |-
+    This is a small pharmacy which will grow on your cities.
+
+    It's multi language and supports: English (both UK and US) French Spanish and Portuguese. (sorry for the others, but this is the languages I can handle)
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/d48a889bfaec4dc3640a118cd7a682d3-fd.JPG
+    - https://www.simtropolis.com/objects/screens/0023/d48a889bfaec4dc3640a118cd7a682d3-fn.JPG
+  lots:
+    - bulldoze: 112
+      demand:
+        cs$: 15
+        cs$$: 7
+      filename: CS$$_pharmacy_grow.dat
+      flamability: 40
+      garbage: 2
+      id: growable-cs$$
+      label: Pharmacy (CS$$, 1x2)
+      pollution: 1 over 5 tiles
+      power: 1
+      size: 1x2
+      stage: 1
+      water: 2
+      waterPollution: 0 over 6 tiles
+      worth: 274
+  name: GnL Pharmacy
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-d48a889bfaec4dc3640a118cd7a682d3-fd.JPG
+  url: https://community.simtropolis.com/files/file/21061-gnl-pharmacy/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/21061-gnl-pharmacy
+      version: 1.0.0
+
+gn-leugim/pleasant-block:
+  authors:
+    - Gn_leugim
+  category: r$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/70162d3ae3729015f92a3b4bc0e075d0-cidade-de-testes-30-nov--011222714762.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/8ba5666ecb776f13da5ae2daaaa4bdd4-cidade-de-testes-30-nov--011222714772.jpg
+  name: GnL_EHA Pleasant Block
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2012/thumb-70162d3ae3729015f92a3b4bc0e075d0-cidade-de-testes-30-nov--011222714762.jpg
+  url: https://community.simtropolis.com/files/file/20472-gnl_eha-pleasant-block/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/20472-gnl_eha-pleasant-block
+      version: 1.0.0
+
+gn-leugim/pretty-house:
+  authors:
+    - Gn_leugim
+  category: r$$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/6a41b8b866882bb958da931e467cbc3c-cidade-de-testes-19-dez--011222711979.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/97719a94c795f1a91d266615963beeaa-cidade-de-testes-19-dez--011222711987.jpg
+  name: GnL_EHA Pretty House
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2012/thumb-6a41b8b866882bb958da931e467cbc3c-cidade-de-testes-19-dez--011222711979.jpg
+  url: https://community.simtropolis.com/files/file/20469-gnl_eha-pretty-house/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/20469-gnl_eha-pretty-house
+      version: 1.0.0
+
+gn-leugim/villa-de-vinho:
+  authors:
+    - Gn_leugim
+  category: r$$$
+  description: >-
+    European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
+    archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
+
+
+    This building was made in accordance with the size of the Maxi's original building and it's occupant capacity. The rest of the values were archived using the PIM\-X, which provides the best
+    balanced values possible at the moment.
+
+
+    This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
+
+
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+
+
+    Rates and Comments are welcome.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/8db58ab62e58bd13e6c2da1b31758466-img.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_09_2012/725387b36e6d527e0a713db0353cfdac-img2.jpg
+  name: GnL EHA Villa de Vinho
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2012/thumb-8db58ab62e58bd13e6c2da1b31758466-img.jpg
+  url: https://community.simtropolis.com/files/file/28048-gnl-eha-villa-de-vinho/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/EBLT_Readmes/Gn_Leugim
+          id: simtropolis/28048-gnl-eha-villa-de-vinho
+          include:
+            - EBLT/Gn_Leugim/EHA/Villa de Vinho
+      version: 1.0.0

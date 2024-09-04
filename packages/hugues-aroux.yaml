@@ -452,7 +452,7 @@ hugues-aroux/scoty-textures-packs:
         - id: simtropolis/36297-scoty-textures-packs
           include:
             - Scoty/scoty_textures
-      version: 1.0.1
+      version: 1.0.2
 
 hugues-aroux/westwind-streets:
   authors:
@@ -590,6 +590,22 @@ hugues-aroux/westwind-streets:
                 road-textures: us
               path: z____scoty_mods/Scoty-WWStreets/*US*
             - z____scoty_mods/*
+            # TODO: Only if necessary?
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM7 MGB bikepaths.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM6 darkned MGB.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM5 RVT TSR Rural.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM4 RVT NZ Gravel.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM2 RVT Grey H-Brick.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - z_opt WWS-SAM1 Parking Magneto.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - WWS-SAM11 EU.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Street-SAM bases.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - RRWx RHD.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - RRWx LHD.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Rivit Lot Support.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - Lots SCILT CULDESAC.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - GLR.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - GLR TIS US.dat
+            # - z____scoty_mods/Scoty-WWStreets/scoty-WWStreets - GLR TIS EU.dat
       options:
         - global: true
           id: road-textures

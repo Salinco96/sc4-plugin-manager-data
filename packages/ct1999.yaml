@@ -26,20 +26,16 @@ ct1999/szdc:
             - SZDC(DN)
           id: simtropolis/36241-szdc
           include:
-            - condition:
-                lots: growable
-              path: SZDC(DN)/CS$$
-            - condition:
-                lots: landmark
-              path: SZDC(DN)/LM
             - SZDC(DN)
       lots:
         - category: cs$$
-          id: growable
+          filename: CS$$8_4x8_SZDC_116c3be3.SC4Lot
+          id: 116c3be3
           label: SZDC (Growable CS$$, 4x8)
           size: 4x8
-        - category: landmarks,commercial
-          id: landmark
+        - category: cs$$,landmarks
+          filename: LM4x8_SZDC_f16c3980.SC4Lot
+          id: f16c3980
           label: SZDC (Landmark CS$$, 4x8)
           size: 4x8
       name: Dark Nite
@@ -77,13 +73,11 @@ ct1999/villagebox4:
             - VillageBox4(DN)
           id: simtropolis/36240-villagebox4
           include:
-            - condition:
-                lots: growable
-              path: VillageBox4(DN)/CS$$$
             - VillageBox4(DN)
       lots:
         - category: cs$$$
-          id: growable
+          filename: CS$$$3_1x1_VillageBox4(HD)_11ab7c65.SC4Lot
+          id: 11ab7c65
           label: VillageBox4 (Growable CS$$$, 1x1)
           size: 1x1
       name: Dark Nite

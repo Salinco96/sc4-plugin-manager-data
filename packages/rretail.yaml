@@ -38,13 +38,14 @@ rretail/flying-j-truckstop:
             - RR Flying J Truckstop
           id: simtropolis/34640-flying-j-truckstop
           include:
-            - RR_FlyingJTruckstop_{{lots}}_*.SC4Lot
             - RR Flying J Truckstop/RR Flying J Truckstop
       lots:
-        - id: Cars
+        - filename: RR_FlyingJTruckstop_Cars_8e1161b5.SC4Lot
+          id: 8e1161b5
           label: Main Building & Cars (8x5)
           size: 8x5
-        - id: Trucks
+        - filename: RR_FlyingJTruckstop_Trucks_0df455a6.SC4Lot
+          id: 0df455a6
           label: Truck Area (8x9)
           size: 8x9
       version: 1.1.0
@@ -147,13 +148,14 @@ rretail/loves-truckstop:
             - RR Love's Truckstop
           id: simtropolis/34655-loves-truckstop
           include:
-            - RR_LovesTruckstop_{{lots}}_*.SC4Lot
             - RR Love's Truckstop/RR Love's Truckstop
       lots:
-        - id: Cars
+        - filename: RR_LovesTruckstop_Cars_4e2baee5.SC4Lot
+          id: 4e2baee5
           label: Main Building, Truck Parking & Cars (7x10)
           size: 7x10
-        - id: Trucks
+        - filename: RR_LovesTruckstop_Trucks_0e2bebb0.SC4Lot
+          id: 0e2bebb0
           label: Truck Gas Pumps Area (6x10)
           size: 6x10
       version: 1.1.0
@@ -265,13 +267,14 @@ rretail/pilot-truckstop:
             - RR Pilot Truckstop
           id: simtropolis/34639-pilot-truckstop
           include:
-            - RR_PilotTruckstop_{{lots}}_*.SC4Lot
             - RR Pilot Truckstop/RR Pilot Truckstop
       lots:
-        - id: Cars
+        - filename: RR_PilotTruckstop_Cars_8e117166.SC4Lot
+          id: "8e117166"
           label: Main Building & Cars (8x5)
           size: 8x5
-        - id: Trucks
+        - filename: RR_PilotTruckstop_Trucks_8e201180.SC4Lot
+          id: "8e201180"
           label: Truck Area (8x9)
           size: 8x9
       version: 1.1.2

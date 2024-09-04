@@ -171,6 +171,59 @@ marcosmx/blam-mx-passenger-rail-station:
     - id: bulldoze
       on: disable
 
+marcosmx/blam-zaxbys:
+  authors:
+    - MarcosMX
+  category: co$$
+  description:
+    Zaxby's is a franchised chain of fast casual restaurants that operates in the southeastern United States. In this chain there are about 350 locations. Its menu is built around high
+    quality buffalo wings and chicken fingers, including them on platters, in sandwiches, and on salads. The first Zaxby's was opened in Statesboro, Georgia.
+  images:
+    - https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg
+    - https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicnight2.jpg
+  name: BlaM Zaxbys
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_08_2006/thumb-19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg
+  url: https://community.simtropolis.com/files/file/16614-blam-zaxbys/
+  variants:
+    default:
+      assets:
+        - docs:
+            - BlaM_MX_Zaxby's
+          id: simtropolis/16614-blam-zaxbys
+          include:
+            - BlaM_MX_Zaxby's
+      lots:
+        - bulldoze: 135
+          category: cs$$
+          demand:
+            cs$: 197
+            cs$$: 7
+          filename: CS$$1_BLaM_MX_4x3_Zaxby's_51e68294.SC4Lot
+          flamability: 40
+          id: "51e68294"
+          label: Zaxby's (CS$$, Stage 1, 3x4)
+          power: 31
+          size: 3x4
+          stage: 1
+          water: 38
+        - bulldoze: 135
+          cost: 1120
+          demand:
+            cs$: 197
+            cs$$: 7
+          filename: BlaM_MX_3x4_Zaxby's_71e8ff64.SC4Lot
+          flamability: 40
+          id: 71e8ff64
+          label: Zaxby's (CS$$, Landmark, 3x4)
+          power: 31
+          size: 3x4
+          water: 38
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 marcosmx/mx-essentials:
   authors:
     - MarcosMX

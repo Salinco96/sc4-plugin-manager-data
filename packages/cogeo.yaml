@@ -141,48 +141,38 @@ cogeo/logistics-centres-megapack:
         - id: simtropolis/16119-logistics-centres-megapack
           include:
             - condition:
-                lots: growable-cs$$
-              path: CS$$5_10x10_LogisticsCentre.SC4Lot
-            - condition:
-                lots: landmark-cs$$
-              path: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
-            - condition:
-                lots: growable-cs$
-              path: CS$5_10x10_LogisticsCentre.SC4Lot
-            - condition:
-                lots: landmark-cs$
-              path: CS$PLOP_10x10_LogisticsCentre.SC4Lot
-            - condition:
-                lots: freight-rail-station
-              path: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
-            - condition:
                 rhd: true
               path: LCP_UK_PathingPatch.dat
-            - FreightAutomataSpawningScripts_Swamper77.dat
-            - LCP_*.dat
+            # TODO: - FreightAutomataSpawningScripts_Swamper77.dat
+            - "*"
       lots:
         - category: cs$
+          filename: CS$5_10x10_LogisticsCentre.SC4Lot
           id: growable-cs$
           label: Growable CS$, Stage 5, 10x10
           size: 10x10
           stage: 5
         - category: cs$$
+          filename: CS$$5_10x10_LogisticsCentre.SC4Lot
           id: growable-cs$$
           label: Growable CS$$, Stage 5, 10x10
           size: 10x10
           stage: 5
-        - category: landmarks,commercial
+        - category: cs$,landmarks
+          filename: CS$PLOP_10x10_LogisticsCentre.SC4Lot
           id: landmark-cs$
           label: Landmark CS$, 10x10
           size: 10x10
           stage: 5
-        - category: landmarks,commercial
+        - category: c$$,landmarks
+          filename: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
           id: landmark-cs$$
           label: Landmark CS$$, 10x10
           size: 10x10
           stage: 5
         - category: rail,freight
-          id: freight-rail-station
+          filename: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
+          id: freight-station
           label: Freight rail station, 10x10
           size: 10x10
           stage: 5

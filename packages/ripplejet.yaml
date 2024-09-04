@@ -26,7 +26,8 @@ ripplejet/block-road-barriers:
   authors:
     - ripplejet
   category: transport,overrides
-  description: The black and yellow road barrier props appear at the end of all ordinary networks, Streets, Roads, One-Way Roads, Avenues and Highways. This little mod simply disables two small props,
+  description:
+    The black and yellow road barrier props appear at the end of all ordinary networks, Streets, Roads, One-Way Roads, Avenues and Highways. This little mod simply disables two small props,
     and removes all barriers on the fly.
   name: Block Road Barriers
   release: 2024-08-19T09:13:11.692Z
@@ -106,29 +107,32 @@ ripplejet/census-repository-building:
   category: landmarks,mods
   description: Census Repository Building
   lots:
-    - id: RW_3x1_Census Repository Facility
+    - filename: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+      id: facility
       label: Census Repository Facility
       size: 3x1
-    - id: RW_2x2_Census Repository Vault
+    - filename: RW_2x2_Census Repository Vault.SC4Lot
+      id: vault
       label: Census Repository Vault
       size: 2x2
   name: Census Repository Building
-  options:
-    - choices:
-        - label: Classic
-          value: CLASSIC
-        - label: Low
-          value: LOW
-        - label: Medium
-          value: MEDIUM
-        - label: High
-          value: HIGH
-        - label: Ultra
-          value: ULTRA
-      default: ULTRA
-      id: facility
-      label: Census Repository Facility
-      type: string
+  # TODO
+  # options:
+  #   - choices:
+  #       - label: Classic
+  #         value: CLASSIC
+  #       - label: Low
+  #         value: LOW
+  #       - label: Medium
+  #         value: MEDIUM
+  #       - label: High
+  #         value: HIGH
+  #       - label: Ultra
+  #         value: ULTRA
+  #     default: ULTRA
+  #     id: facility
+  #     label: Census Repository Facility
+  #     type: string
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/6642981d499ae_CensusRepositoryDLLUpgradePatch-1.thumb.jpg.75c66956caeb28c65279bbeeb577d9ea.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
@@ -139,8 +143,6 @@ ripplejet/census-repository-building:
             - _Documents/BSC_Readmes/RippleJet
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
-            - "{{lots}}_Z*_{{facility}}.SC4Lot"
-            - "{{lots}}.SC4Lot"
             - BSC/Ripplejet/Census Repository
         - id: simtropolis/49203-rx-coris-cam-2-1-0a-neutral-tax-override-for-rj-census-repository-3-1
           include:

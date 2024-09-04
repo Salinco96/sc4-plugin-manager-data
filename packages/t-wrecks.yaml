@@ -233,3 +233,310 @@ t-wrecks/industrial-revolution-mod:
   warnings:
     - id: bulldoze
       on: disable
+
+t-wrecks/industrial-revolution-mod-i-d-filler-set-1:
+  authors:
+    - T Wrecks
+  category: i-d,irm,fillers
+  dependencies:
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - ncd/railyard-textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  description: >-
+    This is a set of **12 ploppable filler lots** for dirty industry (I-D) that can be used to complement grown industrial areas with some open yards, walls, and several types of cargo stacked
+    outside. The set has been made for the [IRM](https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/) and, as such, blends in well with I-D areas because
+    it uses the same base texture, and the brick walls look good in connection with older brick factories and their side buildings.
+
+
+    You will find these lots in the landmark menu, conveniently grouped together. Names and descriptions are bilingual once again, i.e. if your SimCity installation has a German locale, you will
+    automatically see German names and descriptions. All other locales will display English names and descriptions.
+
+
+    The lots with stacked cargo on them will be restricted to relatively level ground - after all, you wouldn't stack containers or pallets of cargo on an incline! The open areas and walls, however,
+    are highly slope-tolerant, which makes them extremely versatile fillers.
+
+
+    Most props have been highly randomised. In some cases there is not only a random selection of the particular prop to appear, but also a certain probability wheter any prop will appear at all - or
+    not. This has been made to maximise variation and visual interest.
+
+
+    When you have these lots on your mouse cursor, you will notice orange-coloured bars being displayed on them. These are **positioning indicators** that show the position and alignment of the most
+    important props before you plop so there is no trial and error involved. Play around with it a bit, and I'm sure you'll find it to be self-explanatory. After plopping a lot, the positioning
+    indicators will appear once for a second or so, and then disappear forever.
+
+
+    In terms of game stats, these lots are almost neutral. They do not contain any park/landmark effect, cause a negligible amount of pollution, and cost §5 to plop/bulldoze each. There are no running
+    costs whatsoever, so plopping a lot of these will not harm your budget even in the tiniest starter town.
+
+
+    After so much growable stuff, I hope you will enjoy these ploppable fillers as well and find them useful to "dress up" grown industrial areas. Similar filler sets for manufacturing and high-tech
+    industry are in the making.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/c20873b8fbbee7b64f3f4dff84ce3d3c-irm_i-d_fillerset_screen1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/444f20757784fc259b74badcda0bd7c6-irm_i-d_fillerset_screen2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/559190a251e4f1fadbb615211f996f04-irm_i-d_fillerset_screen3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/bcf7416cc8f82ed8d7f7a11083653e71-irm_i-d_fillerset_screen4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/73b88b831fa79cdb1f7d74e4717e1aaa-irm_i-d_fillerset_screen5.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/e6844cf42864a62495a7e1c09fd97e3a-irm_i-d_fillerset_screen6.jpg
+  name: Industrial Revolution Mod - I-D Filler Set 1
+  optional:
+    - t-wrecks/industrial-revolution-mod
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-c20873b8fbbee7b64f3f4dff84ce3d3c-irm_i-d_fillerset_screen1.jpg
+  url: https://community.simtropolis.com/files/file/28295-industrial-revolution-mod-i-d-filler-set-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - IRM I-D Filler Set 1
+          id: simtropolis/28295-industrial-revolution-mod-i-d-filler-set-1
+          include:
+            - IRM I-D Filler Set 1
+      lots:
+        - filename: IRM_I-D_Filler_Bags_9802172d.SC4Lot
+          id: 9802172d
+          label: Bags
+        - filename: IRM_I-D_Filler_Barrels_d8022650.SC4Lot
+          id: d8022650
+          label: Barrels
+        - filename: IRM_I-D_Filler_ConcreteBlocks_98022572.SC4Lot
+          id: "98022572"
+          label: Concrete Blocks
+        - filename: IRM_I-D_Filler_Containers_5dd3ec6e.SC4Lot
+          id: 5dd3ec6e
+          label: Containers
+        - filename: IRM_I-D_Filler_OpenArea_18020e45.SC4Lot
+          id: "18020e45"
+          label: Open Area
+        - filename: IRM_I-D_Filler_ParkingLot_980221ee.SC4Lot
+          id: 980221ee
+          label: Parking Lot
+        - filename: IRM_I-D_Filler_Pipes_d80226e0.SC4Lot
+          id: d80226e0
+          label: Pipes
+        - filename: IRM_I-D_Filler_WallCorner_bdd545bc.SC4Lot
+          id: bdd545bc
+          label: Wall - Corner
+        - filename: IRM_I-D_Filler_WallDiagonal_ddd5471e.SC4Lot
+          id: ddd5471e
+          label: Wall - Diagonal
+        - filename: IRM_I-D_Filler_WallDumpster_3dd78488.SC4Lot
+          id: 3dd78488
+          label: Wall - Dumpster
+        - filename: IRM_I-D_Filler_WallEntrance_5dd54771.SC4Lot
+          id: 5dd54771
+          label: Wall - Entrance
+        - filename: IRM_I-D_Filler_WallStraight_bdd547b1.SC4Lot
+          id: bdd547b1
+          label: Wall - Straight
+      version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+t-wrecks/industrial-revolution-mod-i-ht-filler-set-1:
+  authors:
+    - T Wrecks
+  category: i-ht,irm,fillers
+  dependencies:
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - ncd/railyard-textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  description: >-
+    This is a set of **12 ploppable filler lots** for high-tech industry (I-HT) that can be used to complement grown industrial areas with some open yards, walls, and several types of cargo stacked
+    outside. The set has been made for the [IRM](https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/) and, as such, blends in well with I-HT areas
+    because it uses the same base texture, and the green fences look rather modern and suitable for high-tech industry.
+
+
+    You will find these lots in the landmark menu, conveniently grouped together right under the I-M fillers. Names and descriptions are bilingual once again, i.e. if your SimCity installation has a
+    German locale, you will automatically see German names and descriptions. All other locales will display English names and descriptions.
+
+
+    The lots with stacked cargo on them will be restricted to relatively level ground - after all, you wouldn't stack containers or pallets of cargo on an incline! The open areas and walls, however,
+    are highly slope-tolerant, which makes them extremely versatile fillers. Check the existing [I-D filler
+    set](https://community.simtropolis.com/files/file/28295-industrial-revolution-mod-i-d-filler-set-1/) for more details.
+
+
+    Most props have been highly randomised. In some cases there is not only a random selection of the particular prop to appear, but also a certain probability wheter any prop will appear at all - or
+    not. This has been made to maximise variation and visual interest. This time around, there are no stacked pipes, but you'll get an assortment of chemical tanks instead - this seemed somewhat more
+    high-tech to me.
+
+
+    When you have these lots on your mouse cursor, you will notice orange-coloured bars being displayed on them. These are **positioning indicators** that show the position and alignment of the most
+    important props before you plop so there is no trial and error involved. Play around with it a bit, and I'm sure you'll find it to be self-explanatory. After plopping a lot, the positioning
+    indicators will appear once for a second or so, and then disappear forever.
+
+
+    In terms of game stats, these lots are almost neutral. They do not contain any park/landmark effect, cause a negligible amount of pollution, and cost §7 to plop / §5 to bulldoze each. There are no
+    running costs whatsoever, so plopping a lot of these will not harm your budget even in the tiniest starter town.
+
+
+    Phew, this concludes the series of ploppable filler lots for the IRM! This is also going to be the last IRM upload you're going to see for a while - this year at least. I've had enough of it for
+    now. In the running month, I have uploaded **369 lots** for you guys and gals to enjoy - that will have to do for a while.
+
+
+    Some time next year, I guess I'm going to "IRM\-ify" some popular industrial BATs. This is likely to happen one by one. However, all this is pure theory right now. I'm going to enjoy the holidays
+    without touching the Lot Editor, and I wish you a merry Christmas and a happy new year, too. ![:)](https://community.simtropolis.com/public/style_emoticons/)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/c0036f8465e239f81a26cd933e8a10ce-irm_i-ht_fillerset_screen1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/d9ba93507733f6e2b5cea6be144caa3f-irm_i-ht_fillerset_screen2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/7891c7d1f76cafda92b8ecbb164ba4b2-irm_i-ht_fillerset_screen3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/e8e2806f50177433d3365a828fb6cf53-irm_i-ht_fillerset_screen4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/ffb85a5ea84d7985c4d76153f66b9758-irm_i-ht_fillerset_screen5.jpg
+  name: Industrial Revolution Mod - I-HT Filler Set 1
+  optional:
+    - t-wrecks/industrial-revolution-mod
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-c0036f8465e239f81a26cd933e8a10ce-irm_i-ht_fillerset_screen1.jpg
+  url: https://community.simtropolis.com/files/file/28302-industrial-revolution-mod-i-ht-filler-set-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - IRM I-HT Filler Set 1
+          id: simtropolis/28302-industrial-revolution-mod-i-ht-filler-set-1
+          include:
+            - IRM I-HT Filler Set 1
+      lots:
+        - filename: IRM_I-HT_Filler_Bags_7ddc893a.SC4Lot
+          id: 7ddc893a
+          label: Bags
+        - filename: IRM_I-HT_Filler_Barrels_3ddc8948.SC4Lot
+          id: 3ddc8948
+          label: Barrels
+        - filename: IRM_I-HT_Filler_ConcreteBlocks_dddc8956.SC4Lot
+          id: dddc8956
+          label: Concrete Blocks
+        - filename: IRM_I-HT_Filler_Containers_5ddc8962.SC4Lot
+          id: 5ddc8962
+          label: Containers
+        - filename: IRM_I-HT_Filler_FenceCorner_9ddc9d3e.SC4Lot
+          id: 9ddc9d3e
+          label: Fence - Corner
+        - filename: IRM_I-HT_Filler_FenceDiagonal_9ddc9dd0.SC4Lot
+          id: 9ddc9dd0
+          label: Fence - Diagonal
+        - filename: IRM_I-HT_Filler_FenceDumpster_3ddc9e3e.SC4Lot
+          id: 3ddc9e3e
+          label: Fence - Dumpster
+        - filename: IRM_I-HT_Filler_FenceEntrance_3ddca0b7.SC4Lot
+          id: 3ddca0b7
+          label: Fence - Entrance
+        - filename: IRM_I-HT_Filler_FenceStraight_7ddca158.SC4Lot
+          id: 7ddca158
+          label: Fence - Straight
+        - filename: IRM_I-HT_Filler_OpenArea_7ddc896f.SC4Lot
+          id: 7ddc896f
+          label: Open Area
+        - filename: IRM_I-HT_Filler_ParkingLot_dddc89f2.SC4Lot
+          id: dddc89f2
+          label: Parking Lot
+        - filename: IRM_I-HT_Filler_Tanks_5ddc950f.SC4Lot
+          id: 5ddc950f
+          label: Tanks
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+t-wrecks/industrial-revolution-mod-i-m-filler-set-1:
+  authors:
+    - T Wrecks
+  category: i-m,irm,fillers
+  dependencies:
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - ncd/railyard-textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  description: >-
+    This is a set of **12 ploppable filler lots** for manufacturing industry (I-M) that can be used to complement grown industrial areas with some open yards, walls, and several types of cargo stacked
+    outside. The set has been made for the [IRM](https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/) and, as such, blends in well with I-M areas because
+    it uses the same base texture, and the rather neutrally designed walls are a good compromise between old and modern, which will make them look good in connection with any I-M facilities.
+
+
+    You will find these lots in the landmark menu, conveniently grouped together right under the I-D fillers. Names and descriptions are bilingual once again, i.e. if your SimCity installation has a
+    German locale, you will automatically see German names and descriptions. All other locales will display English names and descriptions.
+
+
+    The lots with stacked cargo on them will be restricted to relatively level ground - after all, you wouldn't stack containers or pallets of cargo on an incline! The open areas and walls, however,
+    are highly slope-tolerant, which makes them extremely versatile fillers. Check the existing [I-D filler
+    set](https://community.simtropolis.com/files/file/28295-industrial-revolution-mod-i-d-filler-set-1/) for more details.
+
+
+    Most props have been highly randomised. In some cases there is not only a random selection of the particular prop to appear, but also a certain probability wheter any prop will appear at all - or
+    not. This has been made to maximise variation and visual interest.
+
+
+    When you have these lots on your mouse cursor, you will notice orange-coloured bars being displayed on them. These are **positioning indicators** that show the position and alignment of the most
+    important props before you plop so there is no trial and error involved. Play around with it a bit, and I'm sure you'll find it to be self-explanatory. After plopping a lot, the positioning
+    indicators will appear once for a second or so, and then disappear forever.
+
+
+    In terms of game stats, these lots are almost neutral. They do not contain any park/landmark effect, cause a negligible amount of pollution, and cost §6 to plop/bulldoze each. There are no running
+    costs whatsoever, so plopping a lot of these will not harm your budget even in the tiniest starter town.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/85b2ba5dbb98c4694e135c0f0c2c4208-irm_i-m_fillerset_screen1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/2a6a0245477d298b9621f87ec39451b5-irm_i-m_fillerset_screen2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/2522f68b07492d64a60fcf528039f611-irm_i-m_fillerset_screen3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/ce2af7c103a6ca4e1c7d59c3b8fb5f9b-irm_i-m_fillerset_screen4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2012/82e2960004e64c915c2ca8aa8fd6965e-irm_i-m_fillerset_screen5.jpg
+  name: Industrial Revolution Mod - I-M Filler Set 1
+  optional:
+    - t-wrecks/industrial-revolution-mod
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2012/thumb-85b2ba5dbb98c4694e135c0f0c2c4208-irm_i-m_fillerset_screen1.jpg
+  url: https://community.simtropolis.com/files/file/28298-industrial-revolution-mod-i-m-filler-set-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - IRM I-M Filler Set 1
+          id: simtropolis/28298-industrial-revolution-mod-i-m-filler-set-1
+          include:
+            - IRM I-M Filler Set 1
+      lots:
+        - filename: IRM_I-M_Filler_Bags_1ddb111d.SC4Lot
+          id: 1ddb111d
+          label: Bags
+        - filename: IRM_I-M_Filler_Barrels_bddb112b.SC4Lot
+          id: bddb112b
+          label: Barrels
+        - filename: IRM_I-M_Filler_ConcreteBlocks_3ddb113b.SC4Lot
+          id: 3ddb113b
+          label: Concrete Blocks
+        - filename: IRM_I-M_Filler_Containers_7ddb1147.SC4Lot
+          id: 7ddb1147
+          label: Containers
+        - filename: IRM_I-M_Filler_OpenArea_fddb1154.SC4Lot
+          id: fddb1154
+          label: Open Area
+        - filename: IRM_I-M_Filler_ParkingLot_1ddb1163.SC4Lot
+          id: 1ddb1163
+          label: Parking Lot
+        - filename: IRM_I-M_Filler_Pipes_bddb1190.SC4Lot
+          id: bddb1190
+          label: Pipes
+        - filename: IRM_I-M_Filler_WallCorner_bddb12d2.SC4Lot
+          id: bddb12d2
+          label: Wall - Corner
+        - filename: IRM_I-M_Filler_WallDiagonal_bddb13a9.SC4Lot
+          id: bddb13a9
+          label: Wall - Diagonal
+        - filename: IRM_I-M_Filler_WallDumpster_3ddb1c1e.SC4Lot
+          id: 3ddb1c1e
+          label: Wall - Dumpster
+        - filename: IRM_I-M_Filler_WallEntrance_1ddb1cca.SC4Lot
+          id: 1ddb1cca
+          label: Wall - Entrance
+        - filename: IRM_I-M_Filler_WallStraight_3ddb1d51.SC4Lot
+          id: 3ddb1d51
+          label: Wall - Straight
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

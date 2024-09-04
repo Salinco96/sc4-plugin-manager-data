@@ -12,6 +12,7 @@
     - franku/bnl-essentials
     - girafe/flora-pack
     - hund88/sunflower-field
+    - maxis/longfellow-castle
     - pegasus/spam-super-resource-pack
     - simgoober/farm-fields-vol02
     - wmp/mega-props-vol01
@@ -24,12 +25,6 @@
 
 
     **Available languages:** English and German
-
-
-    **Dependencies**
-
-
-    TODO: **Maxis Castle Set** (direct download link): https://community.simtropolis.com/library/maxis/sc4/buildings/Longfellow_Castle.zip
 
 
     **Special notes:**
@@ -244,7 +239,7 @@
           type: string
       version: 1.0.0
 
-11241036/modular-plaza-system-mps:
+11241036/modular-plaza-system:
   authors:
     - "11241036"
   category: parks
@@ -254,7 +249,7 @@
     - bsc/common-dependencies
     - buddybud/jeronij-concrete-wall-addon-stairs
     - girafe/flora-pack
-    - historic-harbor/historic-harbor-props
+    - historic-harbor/historic-harbor-props # You only need the file Fence - Iron small.dat
     - maxis/maxis-buildings-as-props
     - murimk/bike-props
     - murimk/props-vol02
@@ -657,6 +652,265 @@
     - id: bulldoze
       on: disable
 
+11241036/parking-lot-system:
+  authors:
+    - "11241036"
+  category: parkings
+  dependencies:
+    - 11241036/seasonal-woods # GSW_Dummy Props.dat
+    - 11241036/textures
+    - girafe/carpack
+    - pegasus/mtp-super-pack
+    - sciurus/s54-props-vol01
+  description: >-
+    This plugin contains some sets of modular parking lots that can be put together in many ways (your imagination is your limit) to create parking lots. Since there are already some modular systems
+    with asphalt textures with white parking lines online, I created sets with gravel and dirt textures instead. Most of these lots allow cars to park on them; however, it is arguable whether this is
+    so useful, since, as you may know, one cannot put several transit-enabled lots next to each other because traffic cannot travel between two lots. Currently, there is a total of three sets, sorted
+    by texture: Gravel, dark dirt, and light dirt.
+
+
+    For further information, please refer to the Readme in the download.
+
+
+    **Note:** There's been a last-minute change which is not reflected in the screenshot. I had to use different car props due to some technical issues with some cars appearing only during the day,
+    others only appearing during the night. However, they are mostly placed the same way it looks in the screenshot.
+
+
+    **Available languages:** English, German
+
+
+    This plugin has been optimized for usage with Memo's Submenus DLL. This means that users that have downloaded and installed this mod will find all parking lots being placed into their own
+    submenus. You will find a PLS submenu containing three lower submenus, each containing one texture set of parking lots. All other users will simply find these lots in the Miscellaneous Transport
+    menu. The PLS submenu icon looks like this (not very creative, but it will have to do):
+
+
+    ![66ca44047c37c_PLSSubmenu.thumb.png.8c44e](https://www.simtropolis.com/objects/screens/monthly_2024_08/66ca44047c37c_PLSSubmenu.thumb.png.8c44ea481923d60ff0fe07d34f5ee043.png)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr1.jpg.ad44d509ae68a8e596c5e20a4f7a6df8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66ca4252eb48e_PLSSubmenu.png.5dd282bcd77411c9f87a62d0bfcc8f7e.png
+  lots:
+    - filename: PLS DirtDark.dat
+      id: DirtDark
+      label: Parking Lots - Dirt (Dark)
+    - filename: PLS DirtLight.dat
+      id: DirtLight
+      label: Parking Lots - Dirt (Light)
+    - filename: PLS Gravel.dat
+      id: Gravel
+      label: Parking Lots - Gravel
+  name: Parking Lot System (PLS)
+  optional:
+    - memo/submenus-dll
+    - rebalynnts/spot-simpeg-plop-orientation-tool
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr1.thumb.jpg.bc7052b0238de14f13b068a4debf926e.jpg
+  url: https://community.simtropolis.com/files/file/36409-parking-lot-system-pls/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36409-parking-lot-system-pls
+          include:
+            - condition:
+                submenus: true
+              path: PLS Submenus.dat
+            - "*"
+      version: 1.0.0
+
+11241036/seasonal-woods:
+  authors:
+    - "11241036"
+    - Girafe
+  category: parks,flora
+  dependencies:
+    - girafe/flora-pack
+    - maxis/stonehenge
+  description: >-
+    This plugin contains a row of forest combinations on ploppable lots. These have been designed to fill a certain gap in the game: For filling large areas with trees, there are tree controllers, and
+    for creating detailed scenes on a small scale, there are MMP's - however, when trying to place forests on small lots, mostly gaps between buildings, lots, farm fields, or in parks, you can use
+    neither nor, because tree controllers are not exact enough, and with MMP's, it will take too long.
+
+
+    This plugin is supposed to provide a solution: It contains seasonally changing woods that can be placed in such gaps. All lots have a slight park effect, reduce pollution and increase demand for
+    residential areas. Furthermore, I've also placed other stuff on these lots that can be found in forests - weeds, ferns, rocks, tree stumps, leaves, berries, and moss. As for the design, I tried to
+    find a solution between realism (design it after common forest mixes in central Europe), aesthetics, the trees that are available in the first place (uploaded by Girafe and Orange), and adaption
+    to the game (especially to two already available tree controllers).
+
+
+    Available languages: English, German
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c16c6b21fc_OverviewGSW2.jpg.3e36b47c7ea1fa61bb47f4f3b59f5f19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Embankment.jpg.d1bc8bc4d47d1131e734f34ccccca73c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Fields.jpg.b97aedb2b5444c15a7200d2c40c44507.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c16d18385f_ForestTransition.jpg.5a09d2a1c07c4342d42e0bd8e3a018a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c16d34ae7c_UrbanForest.jpg.d96ccc9dd77233d2005e16627d446997.jpg
+  name: Seasonal Woods
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c1706582f0_OverviewGSW2.thumb.jpg.b3f53d733230068e362bccce49e6ed05.jpg
+  url: https://community.simtropolis.com/files/file/33889-seasonal-woods-2nd-iteration/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Documentation_English.pdf
+            - Forest Combinations.pdf
+            # - Dokumentation_Deutsch.pdf
+          id: simtropolis/33889-seasonal-woods-2nd-iteration
+          include:
+            - condition:
+                seasonal: false
+              path: zGSW_Evergreen Woods Override.dat
+            - "*"
+      dependencies:
+        - chrisadams3997/rrp-pasture-flora
+        - pegasus/spam-super-resource-pack
+      name: Default
+      options:
+        - default: true
+          id: seasonal
+          label: Seasonal
+          type: boolean
+      version: 1.0.0
+    legacy:
+      assets:
+        - docs:
+            - Readme English.pdf
+          exclude:
+            - GSW_Description_Deutsch.dat
+          id: simtropolis/29749-seasonal-wood-lots-girafes-trees
+          include:
+            - GSW Seasonal Woods Girafe Trees/GSW Girafe Trees Seasonal Woods
+      # deprecated: true
+      description: >-
+        This plugin contains 24 lots with seasonally changing woods, based on the seasonally changing trees by girafe. Like other lots, they can be found in the park menu. Plop and demolition cost are
+        kept low, and they don't charge monthly costs. They have a low park effect and slightly reduce air and water pollution. I've furthermore tried to create tree combinations corresponding to the
+        most common forest combination in central Europe.
+
+
+        Since I'm using prop families, there shouldn't be any repetitive tree patterns in the trees. There are 3 lot sizes; 1x1 can be used in any small gap in your city, 4x1 can be used for long gaps
+        (such as between farm fields) and with the 4x4 lot, you should be able to fill even a large space with trees pretty fast. All lots don't have any base texture and can therefore be combined
+        with any terrain mod. They don't trigger the infamous transparent textures bug.
+
+
+        For further information and more screenshots, please refer to the readme file in the download.
+
+
+        **Currently available languages:** English, German
+
+
+        **Credits:**
+
+
+        **Girafe** for the trees that are making this plugin possible in the first place, and for the permission to duplicate and regroup the props.
+      images:
+        - https://www.simtropolis.com/objects/screens/monthly_03_2015/7a51a43f8726e015a992c6bdf6b09f4f-main-mit-text.png
+      lots:
+        - filename: GSW Ash & Maple 1x1_3fd1357d.SC4Lot
+          id: 3fd1357d
+          label: Ash & Maple, 1x1
+          size: 1x1
+        - filename: GSW Ash & Maple 4x1_e2109473.SC4Lot
+          id: e2109473
+          label: Ash & Maple, 4x1
+          size: 4x1
+        - filename: GSW Ash & Maple 4x4_7fd255f1.SC4Lot
+          id: 7fd255f1
+          label: Ash & Maple, 4x4
+          size: 4x4
+        - filename: GSW Beech 1x1_3fd135c2.SC4Lot
+          id: 3fd135c2
+          label: Beech, 1x1
+          size: 1x1
+        - filename: GSW Beech 4x1_0210945f.SC4Lot
+          id: 0210945f
+          label: Beech, 4x1
+          size: 4x1
+        - filename: GSW Beech 4x4_ffd256e4.SC4Lot
+          id: ffd256e4
+          label: Beech, 4x4
+          size: 4x4
+        - category: agriculture
+          filename: GSW Birch 1x1_1fd0c207.SC4Lot
+          id: 1fd0c207
+          label: Birch, 1x1
+          size: 1x1
+        - category: agriculture
+          filename: GSW Birch 4x1_4210944d.SC4Lot
+          id: 4210944d
+          label: Birch, 4x1
+          size: 4x1
+        - category: agriculture
+          filename: GSW Birch 4x4_1fd257c7.SC4Lot
+          id: 1fd257c7
+          label: Birch, 4x4
+          size: 4x4
+        - filename: GSW Chestnut 1x1_bfd5e470.SC4Lot
+          id: bfd5e470
+          label: Chestnut, 1x1
+          size: 1x1
+        - filename: GSW Chestnut 4x1_4210943d.SC4Lot
+          id: 4210943d
+          label: Chestnut, 4x1
+          size: 4x1
+        - filename: GSW Chestnut 4x4_9fd5e513.SC4Lot
+          id: 9fd5e513
+          label: Chestnut, 4x4
+          size: 4x4
+        - filename: GSW Conifer Evergreen 1x1_3fd136c4.SC4Lot
+          id: 3fd136c4
+          label: Conifer (Evergreen), 1x1
+          size: 1x1
+        - filename: GSW Conifer Evergreen 4x1_4210942a.SC4Lot
+          id: 4210942a
+          label: Conifer (Evergreen), 4x1
+          size: 4x1
+        - filename: GSW Conifer Evergreen 4x4_bfd25904.SC4Lot
+          id: bfd25904
+          label: Conifer (Evergreen), 4x4
+          size: 4x4
+        - filename: GSW Conifer Seasonal 1x1_dfd13744.SC4Lot
+          id: dfd13744
+          label: Conifer (Seasonal), 1x1
+          size: 1x1
+        - filename: GSW Conifer Seasonal 4x1_02109412.SC4Lot
+          id: "02109412"
+          label: Conifer (Seasonal), 4x1
+          size: 4x1
+        - filename: GSW Conifer Seasonal 4x4_7fd25a02.SC4Lot
+          id: 7fd25a02
+          label: Conifer (Seasonal), 4x4
+          size: 4x4
+        - filename: GSW Mixed 1x1_7fd137f9.SC4Lot
+          id: 7fd137f9
+          label: Mixed, 1x1
+          size: 1x1
+        - filename: GSW Mixed 4x1_c21093fe.SC4Lot
+          id: c21093fe
+          label: Mixed, 4x1
+          size: 4x1
+        - filename: GSW Mixed 4x4_5fd25af5.SC4Lot
+          id: 5fd25af5
+          label: Mixed, 4x4
+          size: 4x4
+        - filename: GSW Ravine 1x1_1fd13640.SC4Lot
+          id: 1fd13640
+          label: Ravine, 1x1
+          size: 1x1
+        - filename: GSW Ravine 4x1_e21093dc.SC4Lot
+          id: e21093dc
+          label: Ravine, 4x1
+          size: 4x1
+        - filename: GSW Ravine 4x4_9fd25c1e.SC4Lot
+          id: 9fd25c1e
+          label: Ravine, 4x4
+          size: 4x4
+      name: Legacy
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2015/thumb-7a51a43f8726e015a992c6bdf6b09f4f-main-mit-text.png
+      url: https://community.simtropolis.com/files/file/29749-seasonal-wood-lots-girafes-trees/
+      version: 3.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 11241036/sg-gardening-mmp-collection:
   authors:
     - "11241036"
@@ -761,7 +1015,7 @@
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.png.294c9a02a2559972a86b080dafc0bfe9.png
     - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table2.png.a4248fa0552c5df23d90e55c0e6ba5e4.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_05/Feldtexturen_Tabelle.png.6ffafee6b2233aeacb555e68f65de393.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Table3.png.62618248dd7b0489b3d8133acd11ea6a.png
   name: 11241036 Textures
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.thumb.png.7ea0b4211bfe832221bcc4f84252afbf.png
@@ -769,12 +1023,8 @@
   variants:
     default:
       assets:
-        - docs:
-            - 11241036 Textures
-          id: simtropolis/33651-11241036-textures
-          include:
-            - 11241036 Textures
-      version: 3.0.0
+        - id: simtropolis/33651-11241036-textures
+      version: 4.0.0
 
 11241036/traffic-blocker-set:
   authors:

@@ -2,7 +2,8 @@ takemethere/diagonal-road-tunnel:
   authors:
     - TakemeThere
   category: transport
-  description: Have you ever wanted to make a diagonal road tunnel? Well now you can! The base version is a functional tunnel with a capacity of 5000 and can be found in the transportation menu. The lot
+  description:
+    Have you ever wanted to make a diagonal road tunnel? Well now you can! The base version is a functional tunnel with a capacity of 5000 and can be found in the transportation menu. The lot
     will convert road traffic into subway traffic and vice versa allowing you to create modular rail tunnels under any kind of terrain or development. Otherwise you can make use of it solely for
     cosmetic purposes. For some currently unknown reason car traffic will not use the tunnel, but it is passable by foot or bus. I recommend placing a bus station close by so that car users can
     'transfer' onto buses in order to pass through the tunnel. No dependencies are required.
@@ -19,6 +20,92 @@ takemethere/diagonal-road-tunnel:
         - id: simtropolis/36260-diagonal-road-tunnel
           include:
             - Diagonal road tunnel
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+takemethere/mount-royal-candelabra-tower:
+  authors:
+    - TakemeThere
+  category: i-ht,landmarks
+  description:
+    The 3rd release of the [Towers of Steel Project](https://community.simtropolis.com/journals/entry/26048-the-towers-of-steel-project/). The Mount Royal Candelabra Tower is a freestanding
+    lattice tower located on Mount Royal in Montreal, Canada. Nearly all of Montreal's TV & radio stations broadcast from here hence the need for the candelabra(multi-platform) design. The tower is
+    one of my shorter reproductions with an estimated height of 433ft/132m but it makes up for the lack of height by being quite detailed. The lot can be found at the bottom of the Landmark menu, some
+    industrial high tech cap relief is also provided.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/0fe9e5bffa161c407051280598f4f315-mertron-jan-25--001432779369.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/aa38829a9a4c1d6501645e5cd78397e5-top.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/4f525d587ddb1cc878b59f408f2dc3cb-mount-royal0.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/15934e50f85a553a7bd90a84c0d82d05-mont-mount-royal-candelabra.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/6e095a6360b77506cb006ad24a2863e7-mr.png
+  name: Mount Royal Candelabra Tower
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2015/thumb-0fe9e5bffa161c407051280598f4f315-mertron-jan-25--001432779369.png
+  url: https://community.simtropolis.com/files/file/30562-mount-royal-candelabra-tower/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/30562-mount-royal-candelabra-tower
+          include:
+            - Mount Royal Candelabra Tower
+      lots:
+        - cost: 4330
+          demand:
+            i-ht: 2750
+          filename: Mount Royal Candelabra Tower.SC4Lot
+          id: landmark-iht
+          label: Mount Royal Candelabra Tower
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+takemethere/mount-royal-transmission-tower:
+  authors:
+    - TakemeThere
+  category: i-ht, landmarks
+  dependencies:
+    - takemethere/mount-royal-candelabra-tower
+  description: >-
+    This is the updated 3ds HD version of the [3rd release](https://community.simtropolis.com/files/file/30562-mount-royal-candelabra-tower/) of the [Towers of Steel
+    Project](https://community.simtropolis.com/journals/entry/27107-towers-of-steel-revisited/#comments). The Mount Royal Transmission Tower is a freestanding lattice tower located on "Mount Royal" in
+    Montreal, Canada. Nearly all of Montreal's TV & radio stations broadcast from here hence the need for a candelabra(multi-platform) design. The actual height of the tower in the real world is not
+    publicized but I've estimated it at approximately 433ft/132m(including transmitters). It is one of the shorter towers but imo it makes up for the lack of height by being very detailed. The lot can
+    be found at the bottom of the Landmark menu. Some industrial high tech cap relief is also provided.
+
+
+    Three versions of the tower are available. This each versions has a different paint scheme. However, rather than having separate lots for each version I've instead used a prop family. Meaning,
+    each time you plop the lot you have a 33% change of getting a particular paint scheme. Additionally, the AWL(air craft warning lights) are low intensity night lights made in 3ds rather than the
+    previously used maxis red blinking props.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/572061fda877b_Mon3.jpg.de1f764b3073dd1c9f63f41d39a16076.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/details.jpg.df19911c2a20b3b942d329d7d65006b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/57214f83e4e30_Montrealother2.jpg.e7248c2208e3f5b0a17b5fc66aabd28c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/57214f8f77635_Monred.jpg.238181047500dfe21ff4f0ea5a3b288b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/57214f925fc4e_Monnite.jpg.70c78d6e0f364084b12dd52087c0f337.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/57214fa751d5e_MountRoyalCandelabra.jpg.50b739ca219c969c9a95b755f950b5e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/57214fa989466_montMountRoyalCandelabra.jpg.21afc9d0298dfe5bcc3f0dbcd1b6ab93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/57214fae8fcab_MountRoyalCandelabra.jpg.2faac1b904793cb1ea385982d015382a.jpg
+  name: Mount Royal Transmission Tower
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_04/572161d1d2185_Mon3.thumb.jpg.539721145ab4833fbbcbce17f6993431.jpg
+  url: https://community.simtropolis.com/files/file/31045-mount-royal-transmission-tower/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/31045-mount-royal-transmission-tower
+          include:
+            - Montreal - Mount Royal Tower
+      lots:
+        - cost: 4330
+          demand:
+            i-ht: 2750
+          filename: Montreal - Mount Royal Tower.SC4Lot
+          id: landmark-iht
+          label: Mount Royal Transmission Tower
+          # Landmark Effect: 20 radius: 10 # TODO: YIMBY?
       version: 1.0.0
   warnings:
     - id: bulldoze

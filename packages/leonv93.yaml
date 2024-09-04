@@ -15,12 +15,13 @@ leonv93/bradburry-building:
       assets:
         - id: simtropolis/36397-bradburry-building
           include:
-            - "{{lots}}.SC4Lot"
             - Bradburry Building
       lots:
-        - id: Bradburry Building_53cbd685
+        - filename: Bradburry Building_53cbd685.SC4Lot
+          id: 53cbd685
           label: Bradburry Building
-        - id: Bradburry Building_53cbf17e
+        - filename: Bradburry Building_53cbf17e.SC4Lot
+          id: 53cbf17e
           label: Bradburry Building
       version: 1.0.0
   warnings:
@@ -70,10 +71,10 @@ leonv93/cathedral:
       assets:
         - id: simtropolis/36268-cathedral
           include:
-            - "{{lots}}.SC4Lot"
             - Gothic Cathedral
       lots:
-        - id: Cathedral_d3cbd864
+        - filename: Cathedral_d3cbd864.SC4Lot
+          id: d3cbd864
           label: Gothic Cathedral
       requirements:
         darknite: false
@@ -266,12 +267,13 @@ leonv93/maxis-theater:
       assets:
         - id: simtropolis/36398-maxis-theater
           include:
-            - "{{lots}}.SC4Lot"
             - Maxis Theater
       lots:
-        - id: Maxis Theater_73cc88bd
+        - filename: Maxis Theater_73cc88bd.SC4Lot
+          id: 73cc88bd
           label: Maxis Theater
-        - id: MaxisTheater_73cc8706
+        - filename: MaxisTheater_73cc8706.SC4Lot
+          id: 73cc8706
           label: Maxis Theater
       version: 1.0.0
   warnings:
@@ -377,14 +379,16 @@ leonv93/sim-medical-center:
       assets:
         - id: simtropolis/36262-sim-medical-center
           include:
-            - "{{lots}}.SC4Lot"
             - Sim Medical Center
       lots:
-        - id: Main Building_935c03e8
+        - filename: Main Building_935c03e8.SC4Lot
+          id: 935c03e8
           label: Main Building
-        - id: AdminBuilding_935c054c
+        - filename: AdminBuilding_935c054c.SC4Lot
+          id: 935c054c
           label: Admin Building
-        - id: OldBuilding_535bf9bc
+        - filename: OldBuilding_535bf9bc.SC4Lot
+          id: 535bf9bc
           label: Old Building
       version: 1.0.0
   warnings:
@@ -464,14 +468,15 @@ leonv93/smiley-sons-and-daughters-foundation:
       assets:
         - id: simtropolis/36388-smiley-sons-and-daughters-foundation
           include:
-            - Smiley Sons and Daughters*/{{lots}}_*.SC4Lot
-            - Smiley Sons and Daughters*/*
+            - Smiley Sons and Daughters(3)
       lots:
         - category: co$$$
-          id: SSDFCO$$$
+          filename: SSDFCO$$$_b3c92dbe.SC4Lot
+          id: b3c92dbe
           label: Growable CO$$$
         - category: landmarks
-          id: SSDFLandmark
+          filename: SSDFLandmark_b3c92bbe.SC4Lot
+          id: b3c92bbe
           label: Landmark
       version: 1.0.2
   warnings:

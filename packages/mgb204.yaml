@@ -34,8 +34,9 @@ mgb204/convenience-stores:
     - MGB204
   category: cs$$
   dependencies:
+    # - Grfe_hedge_3m.dat (in VIP Vnaoned Post Office?)
     - girafe/carpack
-    - girafe/flora-pack
+    - girafe/flora-pack # Ashes, Elms
     - kingofsimcity/supershk-mega-parking-textures
     - mgb204/retail-signage-pack
     - shokthrpy/shk-parking-pack
@@ -243,9 +244,15 @@ mgb204/rail-depot-pack:
             - "*.bmp"
           id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
+            # TODO: Conditions
             - path: MGB_RDP_Resource.dat
             - path: MGB_RDP_Textures.dat
             - path: MGB_RDPDepot_Props_HD-DN.dat
+            # - path: zMGB_RDPTextureType_GLRNAM.dat
+            # - path: zMGB_RDPTextureType_HSRNAM.dat
+            # - path: zMGB_RDPTextureType_RailMaxis.dat
+            # - path: zMGB_RDPTextureType_RailPEG.dat
+            # - path: zMGB_RDPTextureType_RoadUS.dat
       name: Dark Nite
       requirements:
         darknite: true
@@ -257,9 +264,16 @@ mgb204/rail-depot-pack:
             - "*.bmp"
           id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
+            # TODO: Conditions
             - path: MGB_RDP_Resource.dat
             - path: MGB_RDP_Textures.dat
             - path: MGB_RDPDepot_Props_HD-MN.dat
+            # - path: MGB_RDPDepot_Props_SD-MN.dat
+            # - path: zMGB_RDPTextureType_GLRNAM.dat
+            # - path: zMGB_RDPTextureType_HSRNAM.dat
+            # - path: zMGB_RDPTextureType_RailMaxis.dat
+            # - path: zMGB_RDPTextureType_RailPEG.dat
+            # - path: zMGB_RDPTextureType_RoadUS.dat
       name: Maxis Nite
       requirements:
         darknite: false
@@ -385,7 +399,7 @@ mgb204/texture-pack:
   variants:
     default:
       assets:
-        - exclude:
+        - exclude: # TODO: Conditions
             - US/MGB Texture Pack.dat
             - zMGB Texture Pack_RVT TSR Stret Override.dat
             - zMGB Texture Pack_SAM10 SD Override.dat

@@ -68,16 +68,17 @@ ulisse-wolf/five-nights-at-freddys:
               condition:
                 darknite: true
               path: "- Dependency - Dark Nite"
-            - as: Lots/*
-              path: "{{lots}}_Freddy Fazbear's Pizza*.SC4Lot"
+            - "*"
       lots:
         - category: cs$$
-          id: CS$$2_6x6
+          filename: CS$$2_6x6_Freddy Fazbear's Pizza_527772fa.SC4Lot
+          id: 527772fa
           label: Growable CS$$
           size: 6x6
           stage: 2
         - category: landmarks,commercial
-          id: PLOP_6x6
+          filename: PLOP_6x6_Freddy Fazbear's Pizza (Landmark)_22781a8e.SC4Lot
+          id: 22781a8e
           label: Landmark CS$
           size: 6x6
       options:

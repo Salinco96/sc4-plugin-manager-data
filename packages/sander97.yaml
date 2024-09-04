@@ -10,7 +10,8 @@ sander97/arc-park:
     - sfbt/essentials
     - simcity-polska/polish-mega-props-misc-vol01
     - simgoober/mega-props-vol01
-  description: This is a park in the shape of a half circle. Around it are some semidetached houses. It is a really big lot (10x19) which you can find it in the park menu. It's based on a street in
+  description:
+    This is a park in the shape of a half circle. Around it are some semidetached houses. It is a really big lot (10x19) which you can find it in the park menu. It's based on a street in
     Duiven (the Netherlands) but the park is fictional.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a62096201bc_Arcpark2.jpg.cc639b8b372d0c49b6993285f2356c6d.jpg
@@ -60,7 +61,8 @@ sander97/rowhouse-8:
   authors:
     - sander97
   category: r$
-  description: Another rowhouse because I needed some more variety in rowhouses in my city. It is a medium wealth building which grows on a 1x2 lot. I made it quick so the backyard has only grass but
+  description:
+    Another rowhouse because I needed some more variety in rowhouses in my city. It is a medium wealth building which grows on a 1x2 lot. I made it quick so the backyard has only grass but
     you can put trees or bushes in the backyard by using some MMPs.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6652232e5de4d_Rijtjeshuis8.jpg.5f299c9e6e5db240c4eb56bbba53ca1c.jpg
@@ -106,6 +108,41 @@ sander97/rowhouse-9:
     - id: bulldoze
       on: disable
 
+sander97/semi-detached-houses-2:
+  authors:
+    - sander97
+  category: r$$
+  dependencies:
+    - sander97/arc-park
+  description:
+    'This is a semi-detached house for the wealthier middle class. It is still an medium wealth house but it is slightly larger and it has a carport and a shed. There are 2 color variations.
+    It grows on a 2x2 lot. For those who want to plop them with the buildingplop cheat: you can find it under the name "huis met carport" and "twee onder een kap met carport"'
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c9af606daeb_tweeondereenkap.jpg.6a8b8db6c8b1f8a6e9e569145809aaad.jpg
+  name: Semi-detached houses 2
+  release: 2024-08-27T05:49:08.398Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c9b22914b79_tweeondereenkap.thumb.jpg.bb3e1b7989d9855b21171be8c2acfb91.jpg
+  url: https://community.simtropolis.com/files/file/36408-semi-detached-houses-2/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36408-semi-detached-houses-2
+          include:
+            - twee onder een kap met carport
+      lots:
+        - filename: twee onder een kap 2x2_d3d5ed99.SC4Lot
+          id: d3d5ed99
+          label: Semi-detached house (R$$, 2x2)
+          size: 2x2
+        - filename: twee onder een kap met carport_13d53b96.SC4Lot
+          id: 13d53b96
+          label: Semi-detached house with carport (R$$, 2x2)
+          size: 2x2
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 sander97/sport-hall:
   authors:
     - sander97
@@ -121,18 +158,13 @@ sander97/sport-hall:
     default:
       assets:
         - id: simtropolis/36347-sport-hall
-          include:
-            - condition:
-                lots: large
-              path: Gymzaal groot
-            - condition:
-                lots: small
-              path: Gymzaal
       lots:
-        - id: small
+        - filename: Sportzaal 3x4 verbeterd_53a18ccc.SC4Lot
+          id: 53a18ccc
           label: Small (3x4)
           size: 3x4
-        - id: large
+        - filename: Sportzaal groot 2_73a1c745.SC4Lot
+          id: 73a1c745
           label: Large (4x5)
           size: 4x5
       requirements:

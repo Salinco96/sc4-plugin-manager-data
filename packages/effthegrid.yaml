@@ -153,44 +153,65 @@ effthegrid/fa3-181-east-gun-hill-rd:
       assets:
         - id: simtropolis/36383-effthegrids-fa3-181-east-gun-hill-rd#202351
           include:
-            - 181gunhill*.SC4Model
-            - condition:
-                lots: r$$-2x2
-              path: PLOP_2x2_FA3 * - R$$_*.SC4Lot
-            - condition:
-                lots: r$$-2x1
-              path: PLOP_2x1_FA3 * - R$$_*.SC4Lot
-            - condition:
-                lots: cs$$-2x2
-              path: PLOP_2x2_FA3 * - CS$$_*.SC4Lot
-            - condition:
-                lots: cs$$-2x1
-              path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
+            - 181 MN
+            - 181mirror MN
       category: landmarks,r$$,cs$$,diagonal
       lots:
         - category: landmarks,r$$
           demand:
             r$$: 295
-          id: r$$-2x2
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
+          id: 743a8986
           label: R$$, 2x2
           size: 2x2
         - category: landmarks,r$$
           demand:
             r$$: 295
-          id: r$$-2x1
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_443a8d06.SC4Lot
+          id: 443a8d06
+          label: R$$, 2x2 (Mirror)
+          size: 2x2
+        - category: landmarks,r$$
+          demand:
+            r$$: 295
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
+          id: b43a8a1a
           label: R$$, 2x1 Overhang
+          size: 2x1
+        - category: landmarks,r$$
+          demand:
+            r$$: 295
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
+          id: 643a8e52
+          label: R$$, 2x1 Overhang (Mirror)
           size: 2x1
         - category: landmarks,cs$$
           demand:
             cs$$: 169
-          id: cs$$-2x2
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
+          id: a43a81a2
           label: CS$$, 2x2
           size: 2x2
         - category: landmarks,cs$$
           demand:
             cs$$: 169
-          id: cs$$-2x1
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_a43a8aff.SC4Lot
+          id: a43a8aff
+          label: CS$$, 2x2 (Mirror)
+          size: 2x2
+        - category: landmarks,cs$$
+          demand:
+            cs$$: 169
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
+          id: e43a82e1
           label: CS$$, 2x1 Overhang
+          size: 2x1
+        - category: landmarks,cs$$
+          demand:
+            cs$$: 169
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_843a8b91.SC4Lot
+          id: 843a8b91
+          label: CS$$, 2x1 Overhang (Mirror)
           size: 2x1
       name: Maxis Nite
       release: 2024-08-20T10:45:45.232Z
@@ -201,36 +222,65 @@ effthegrid/fa3-181-east-gun-hill-rd:
       assets:
         - id: simtropolis/36383-effthegrids-fa3-181-east-gun-hill-rd#202350
           include:
-            - 181gunhill*.SC4Model
-            - condition:
-                lots: r$$-2x2
-              path: PLOP_2x2_FA3 * - R$$_*.SC4Lot
-            - condition:
-                lots: r$$-2x1
-              path: PLOP_2x1_FA3 * - R$$_*.SC4Lot
-            - condition:
-                lots: cs$$-2x2
-              path: PLOP_2x2_FA3 * - CS$$_*.SC4Lot
-            - condition:
-                lots: cs$$-2x1
-              path: PLOP_2x1_FA3 * - CS$$_*.SC4Lot
+            - 181 DN
+            - 181mirror DN
       category: landmarks,r$$,cs$$,diagonal
       lots:
         - category: landmarks,r$$
-          id: r$$-2x2
+          demand:
+            r$$: 295
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
+          id: 743a8986
           label: R$$, 2x2
           size: 2x2
         - category: landmarks,r$$
-          id: r$$-2x1
+          demand:
+            r$$: 295
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_443a8d06.SC4Lot
+          id: 443a8d06
+          label: R$$, 2x2 (Mirror)
+          size: 2x2
+        - category: landmarks,r$$
+          demand:
+            r$$: 295
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
+          id: b43a8a1a
           label: R$$, 2x1 Overhang
           size: 2x1
+        - category: landmarks,r$$
+          demand:
+            r$$: 295
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
+          id: 643a8e52
+          label: R$$, 2x1 Overhang (Mirror)
+          size: 2x1
         - category: landmarks,cs$$
-          id: cs$$-2x2
+          demand:
+            cs$$: 169
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
+          id: a43a81a2
           label: CS$$, 2x2
           size: 2x2
         - category: landmarks,cs$$
-          id: cs$$-2x1
+          demand:
+            cs$$: 169
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_a43a8aff.SC4Lot
+          id: a43a8aff
+          label: CS$$, 2x2 (Mirror)
+          size: 2x2
+        - category: landmarks,cs$$
+          demand:
+            cs$$: 169
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
+          id: e43a82e1
           label: CS$$, 2x1 Overhang
+          size: 2x1
+        - category: landmarks,cs$$
+          demand:
+            cs$$: 169
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_843a8b91.SC4Lot
+          id: 843a8b91
+          label: CS$$, 2x1 Overhang (Mirror)
           size: 2x1
       name: Dark Nite
       release: 2024-08-20T10:45:45.232Z
@@ -261,12 +311,13 @@ effthegrid/fa3-559-anderson-ave:
       assets:
         - id: simtropolis/34864-fa3-559-anderson-ave-residential
           include:
-            - FA3 559 Anderson {{lots}}.SC4Lot
             - FTG 559 Anderson Ave
       lots:
-        - id: L_8f95054d
+        - filename: FA3 559 Anderson L_8f95054d.SC4Lot
+          id: 8f95054d
           label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
-        - id: R_4f950542
+        - filename: FA3 559 Anderson R_4f950542.SC4Lot
+          id: 4f950542
           label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
       name: Original
       version: 1.0.0
@@ -274,13 +325,12 @@ effthegrid/fa3-559-anderson-ave:
       assets:
         - id: simtropolis/34864-fa3-559-anderson-ave-residential
           include:
-            - FA3 559 Anderson {{lots}}.SC4Lot
             - FTG 559 Anderson Ave
         - docs:
             - FA3 559 Anderson Ave Growify
           id: simtropolis/36399-fa3-559-anderson-ave-growify
           include:
-            - "{{lots}}.SC4Lot"
+            - FA3 559 Anderson Ave Growify
       authors:
         - Kel9509
       category: landmarks,r$,diagonal
@@ -319,21 +369,25 @@ effthegrid/fa3-559-anderson-ave:
         - category: landmarks,r$
           demand:
             r$: 251
-          id: PLOP_1x1_FA3 559 Anderson Ave (Left) Growify_3436999b
+          filename: PLOP_1x1_FA3 559 Anderson Ave (Left) Growify_3436999b.SC4Lot
+          id: 3436999b
           label: FA3 559 Anderson Ave, Left (Growify R$, 1x1)
           size: 1x1
         - category: landmarks,r$
           demand:
             r$: 278
-          id: PLOP_1x1_FA3 559 Anderson Ave (Right) Growify_04369954
+          filename: PLOP_1x1_FA3 559 Anderson Ave (Right) Growify_04369954.SC4Lot
+          id: "04369954"
           label: FA3 559 Anderson Ave, Right (Growify R$, 1x1)
           size: 1x1
         - category: landmarks
-          id: L_8f95054d
+          filename: FA3 559 Anderson L_8f95054d.SC4Lot
+          id: 8f95054d
           label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
           size: 1x1
         - category: landmarks
-          id: R_4f950542
+          filename: FA3 559 Anderson R_4f950542.SC4Lot
+          id: 4f950542
           label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
           size: 1x1
       release: 2024-08-20T10:45:45.232Z

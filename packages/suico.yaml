@@ -1,0 +1,98 @@
+suico/copacabana-beach:
+  authors:
+    - SUICO
+  category: landmarks # TODO: Beach?
+  description: |-
+    A set of 11 lots to create your copacabana Beach.
+
+    **Take a look at it on 1st january you'll have a surprise!** ![*:party:](https://community.simtropolis.com/assets/emoticons/default_39.gif "*:party:")
+
+    They all act as parks.
+
+    1. A 7x1 Simple Beach (it changes towels and umbrellas colors all the times you use it)
+
+    2. A 7x1 LifeGuard Beach just like the real "postos" in Rio
+
+    3. A 7x1 refreshment stand
+
+    4. Another 7x1 refreshment stand
+
+    5. The world famous walkways of copacabana with their ciclovias - straight
+
+    6. Inner Corner of the walkways
+
+    7. Outer Corner of the walkways
+
+    8. Sand 1x1
+
+    9. Sand underwater 1x1
+
+    10. Sand 3x1 for intermediate region
+
+    11. A crowded tile with lots of umbrellas and towels
+
+    This file only was possible to make thanks to kleston my co-admin on www.SimcityBrasil.com.br . He made all the tests and even found a compatibility problem with the files:
+
+    RoadOverRailOverpass0_8_0.dat
+
+    RoadOverRailOverpass0_5_0.dat
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ebaabfe574d22d2ab8cbd9e4b38b0eea-copapropagandaprincipal.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e2d7cc817_praiacopacheia.jpg.c1311edd60163e7e9d517943721e4f99.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e2d9474cb_praiacopaesportes.jpg.d0e50733d367491e0463046698af4868.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e2f12bc67_praiacopanoite.jpg.04ee44c9df93bb197df9c12ac92d3a1f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e2f847858_praiacopaefeitoparque.jpg.02683d6d6a4a608c0b857f81e5ca5015.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e3025450c_praiacopafogosdia.jpg.efb6de790aaad46b3b0e368f4d788c40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e3042c582_praiacopafogosnoite.jpg.4f8c592b58501bdbc2390510702f2b2e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e34f46bbd_submenucopasuico1.jpg.bda7f16f94927e802c81c1213429fc63.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e34fbbfd7_submenucopasuico2.jpg.b6d5cf3643dce07280ed6e299d15cabd.jpg
+  name: Copacabana Beach
+  optional:
+    - memo/submenus-dll
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e36cdfd48_praiacopacheia.thumb.jpg.a9cb033f3c6f4458fd6b4cf38a159506.jpg
+  url: https://community.simtropolis.com/files/file/3519-copacabana-beach/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/3519-copacabana-beach#202791
+          include:
+            - condition:
+                submenus: true
+              path: copacabana-beach-suico-submenu.dat
+            - copacabana.dat
+      version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+suico/copacabana-beach-addon-1-sports:
+  authors:
+    - SUICO
+  category: landmarks # TODO: Beach? Sport?
+  description: |-
+    The first addon to the copacabana beach is dedicated to sports:
+
+    1. Soccer on the Beach
+
+    2. Beach Volley
+
+    3. Gymnastics
+
+    4. I did add a 3x2 underwater sand file as J.O. asked.
+  images:
+    - https://www.simtropolis.com/objects/screens/0015/81038d99fa41da94ee9c8cd1be01cc82-copaaddoningles.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e42f205c1_praiacopaesportes.jpg.99bcf6d497b315788f3d841acfe96148.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e42f9539d_submenucopasuico1.jpg.04af4a640b110adbf0204fdc0fe899ee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e4300e332_submenucopasuico2.jpg.65f509eb3e4d5ff90e5273c3a3f34b08.jpg
+  name: Copacabana Beach Addon 1 Sports
+  optional:
+    - suico/copacabana-beach
+  release: 2024-08-27T05:38:57.049Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e4461a19f_praiacopaesportes.thumb.jpg.b1f3340c71cdfd5bc91ac9a82c71482b.jpg
+  url: https://community.simtropolis.com/files/file/3559-copacabana-beach-addon-1-sports/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/3559-copacabana-beach-addon-1-sports
+      version: 1.0.0

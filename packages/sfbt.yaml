@@ -3,10 +3,11 @@ sfbt/essentials:
     - SFBT
   category: dependencies
   dependencies:
-    - cycledogg/mega-props-vol01
-    - cycledogg/tree-models
-    - pegasus/mtp-super-pack
-  description: The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs. The file will be updated from time to time, so please check back to this
+    - cycledogg/mega-props-vol01 # Only required if using CP trees
+    - cycledogg/tree-models # Only required if using CP trees
+    - pegasus/mtp-super-pack # Only required if using PEG trees
+  description:
+    The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs. The file will be updated from time to time, so please check back to this
     download once in a while.
   name: SFBT Essentials
   release: 2024-08-19T09:13:11.692Z
@@ -74,9 +75,9 @@ sfbt/street-tree-mod:
     - jeronij
   category: transport,overrides
   dependencies:
-    - cycledogg/mega-props-vol01
-    - cycledogg/tree-models
-    - pegasus/mtp-super-pack
+    - cycledogg/mega-props-vol01 # Only required if using CP trees
+    - cycledogg/tree-models # Only required if using CP trees
+    - pegasus/mtp-super-pack # Only required if using PEG trees
   description: >-
     Following in jeronij's footsteps, this is another "all inclusive" mod that changes the look of your streets. The main focus is set to residential streets; however, a few commercial and
     agricultural zones can be altered as well. Other optional files will also change the look of the default Maxis trees on roads and oneway roads. The main goal of this mod is to add trees to streets
@@ -127,7 +128,7 @@ sfbt/street-tree-mod:
           value: cp-ponderosa-pines
         - label: Shore Pinyon Pine Trees (Cycledogg)
           value: cp-shore-pinyon-pines
-      id: trees
+      id: trees # TODO: Link to sfbt/essentials option?
       label: Trees
       type: string
     - choices:
@@ -197,6 +198,22 @@ sfbt/street-tree-mod:
             - as: Street Mods
               category: transport,overrides
               path: SFBT/Street Tree Mod/Street Mods
+            # TODO: Options?
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$MD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$LD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$HD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$MD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$LD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$HD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$$MD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$$LD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$$$HD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_Plop.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_IR.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_Diagonal_RCI_LD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_C$$MDHD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_RoadsideMod_R$$_C$$LDMDHD.dat
+            # - SFBT/Street Tree Mod/Street Mods/SFBT_OnewayRoadsideMod_R$$LDMDHD.dat
       name: Original
       version: 1.0.0
     hugues-aroux:

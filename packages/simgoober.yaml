@@ -51,24 +51,25 @@ simgoober/7-eleven-stores:
     default:
       assets:
         - id: simtropolis/3485-7eleven-stores-bsc
-          include:
-            - "{{lots}}_*.SC4Lot"
-            - "*"
       lots:
-        - id: CS$1_1x2_BSC_7-Eleven_Bowser
+        - filename: CS$1_1x2_BSC_7-Eleven_Bowser_cd9d00e4.SC4Lot
+          id: cd9d00e4
           label: 7-Eleven, with gas pump (Growable CS$, 1x2, Stage 1)
           size: 1x2
           stage: 1
         - default: false
-          id: CS$1_1x2_BSC_7-Elevenv2
+          filename: CS$1_1x2_BSC_7-Elevenv2_4db66b6b.SC4Lot
+          id: 4db66b6b
           label: 7-Eleven, without gas pump (Growable CS$, 1x2, Stage 1)
           size: 1x2
           stage: 1
-        - id: BCS_7-Eleven_Bowser
+        - filename: BCS_7-Eleven_Bowser_cd9cfe49.SC4Lot
+          id: cd9cfe49
           label: 7-Eleven, with gas pump (Landmark, 1x2)
           size: 1x2
         - default: false
-          id: BCS_7-Eleven
+          filename: BCS_7-Eleven_Bowser_cd9cfe49.SC4Lot
+          id: cd9cfe49
           label: 7-Eleven, without gas pump (Landmark, 1x2)
           size: 1x2
       version: 1.0.2
@@ -117,15 +118,14 @@ simgoober/costco-distribution-center:
     default:
       assets:
         - id: simtropolis/3910-costco-distribution-center
-          include:
-            - "{{lots}}_*.SC4Lot"
-            - "*"
       lots:
-        - id: I-m2_6x6_SG_CostcoDistribution
+        - filename: I-m2_6x6_SG_CostcoDistribution_4e0a5a28.SC4Lot
+          id: 4e0a5a28
           label: Costco Distribution Center (Growable I-M, 6x6, Stage 2)
           size: 6x6
           stage: 2
-        - id: SG_6x6_DistributionCenter_Costco
+        - filename: SG_6x6_DistributionCenter_Costco_90d0ff0b.SC4Lot
+          id: 90d0ff0b
           label: Costco Distribution Center (Landmark, 6x6)
           size: 6x6
       name: Original
@@ -133,12 +133,8 @@ simgoober/costco-distribution-center:
     kingofsimcity:
       assets:
         - id: simtropolis/3910-costco-distribution-center
-          include:
-            - "{{lots}}_*.SC4Lot"
-            - "*"
         - id: simtropolis/31668-idm-simgoobers-costco-distribution-center
           include:
-            - "{{lots}}.SC4Lot"
             - KOSC Relots/Industry Mania/SG's Costco Distribution Center
       authors:
         - kingofsimcity
@@ -151,33 +147,40 @@ simgoober/costco-distribution-center:
         - mushymushy/hd-north-american-semi-truck-cabs-vol01
         - shokthrpy/shk-parking-pack
       lots:
-        - id: IM$$1_8x9_SG_CostcoDistribution_Grow_96a06b81
+        - filename: IM$$1_8x9_SG_CostcoDistribution_Grow_96a06b81.SC4Lot
+          id: 96a06b81
           label: Costco Distribution Center (Growable I-M, 8x9, Stage 1)
           size: 8x9
           stage: 1
-        - id: IM$$2_7x6_SG_CostcoDistribution_Grow_96b09c5e
+        - filename: IM$$2_7x6_SG_CostcoDistribution_Grow_96b09c5e.SC4Lot
+          id: 96b09c5e
           label: Costco Distribution Center (Growable I-M, 7x6, Stage 2)
           size: 7x6
           stage: 2
-        - id: IM$$1_16x9_KOSC_SG_CostcoDist_Super_46501193
+        - filename: IM$$1_16x9_KOSC_SG_CostcoDist_Super_46501193.SC4Lot
+          id: "46501193"
           label: Costco Distribution Center, Super (Growable I-M, 16x9, Stage 1)
           size: 16x9
           stage: 1
-        - id: IM$$1_15x12_KOSC_SG_CostcoDist_Super_3659540f
+        - filename: IM$$1_15x12_KOSC_SG_CostcoDist_Super_3659540f.SC4Lot
+          id: 3659540f
           label: Costco Distribution Center, Super (Growable I-M, 15x12, Stage 1)
           size: 15x12
           stage: 1
-        - id: IM$$2_7x10_KOSC_SG_CostcoDist_Super_06a066c5
+        - filename: IM$$2_7x10_KOSC_SG_CostcoDist_Super_06a066c5.SC4Lot
+          id: 06a066c5
           label: Costco Distribution Center, Super (Growable I-M, 7x10, Stage 2)
           size: 7x10
           stage: 2
         - default: false
-          id: I-m2_6x6_SG_CostcoDistribution
+          filename: I-m2_6x6_SG_CostcoDistribution_4e0a5a28.SC4Lot
+          id: 4e0a5a28
           label: Costco Distribution Center, Original (Growable I-M, 6x6, Stage 2)
           size: 6x6
           stage: 2
         - default: false
-          id: SG_6x6_DistributionCenter_Costco
+          filename: SG_6x6_DistributionCenter_Costco_90d0ff0b.SC4Lot
+          id: 90d0ff0b
           label: Costco Distribution Center, Original (Landmark, 6x6)
           size: 6x6
       name: Revisited by KOSC
@@ -193,7 +196,8 @@ simgoober/farm-fields-vol02:
   authors:
     - SimGoober
   category: agriculture
-  description: This is a second set of prop based farm fields, to offer more variations to the Sim farmers out there. These lots designed for use with a related farm. They will not appear without a farm
+  description:
+    This is a second set of prop based farm fields, to offer more variations to the Sim farmers out there. These lots designed for use with a related farm. They will not appear without a farm
     lot that has them assigned to it.
   images:
     - https://www.simtropolis.com/objects/screens/0022/c9c713768e7f0f620c1ca2835e596d42-BSC%20Farm%20Fields%20SG%20Vol%2002_01.jpg
@@ -835,58 +839,68 @@ simgoober/parisian-corner-residentials:
             - ~Documents/BSC_Readmes/Simgoober
           id: sc4evermore/275-bsc-sg-jenx-parisian-corner-residential
           include:
-            - "{{lots}}_*.SC4Lot"
             - Simgoober/Residentials/JENX Paris ReLots
       lots:
-        - id: R$$$5_4x4_JENX_ParisBlock01_v2
+        - filename: R$$$5_4x4_JENX_ParisBlock01_v2_2f86cd32.SC4Lot
+          id: 2f86cd32
           label: Block 1 (Growable R$$$, 4x4, Stage 5)
           size: 4x4
           stage: 5
-        - id: R$$$5_4x4_JENX_ParisBlock02_v2
+        - filename: R$$$5_4x4_JENX_ParisBlock02_v2_cf86cd72.SC4Lot
+          id: cf86cd72
           label: Block 2 (Growable R$$$, 4x4, Stage 5)
           size: 4x4
           stage: 5
-        - id: R$$$5_4x4_JENX_ParisBlock03_v2
+        - filename: R$$$5_4x4_JENX_ParisBlock03_v2_8f86cdb1.SC4Lot
+          id: 8f86cdb1
           label: Block 3 (Growable R$$$, 4x4, Stage 5)
           size: 4x4
           stage: 5
-        - id: R$$$5_4x4_JENX_ParisBlock04
-          label: Block 4 (Growable R$$$, 4x4, Stage 5)
+        - label: Block 4 (Growable R$$$, 4x4, Stage 5)
           size: 4x4
           stage: 5
-        - id: R$$$7_4x4_JENX_ParisBlock05
+        - filename: R$$$7_4x4_JENX_ParisBlock05_0f86ce15.SC4Lot
+          id: 0f86ce15
           label: Block 5 (Growable R$$$, 4x4, Stage 7)
           size: 4x4
           stage: 7
-        - id: R$$$7_4x4_JENX_ParisBlock06
+        - filename: R$$$7_4x4_JENX_ParisBlock06_8f86ce3c.SC4Lot
+          id: 8f86ce3c
           label: Block 6 (Growable R$$$, 4x4, Stage 7)
           size: 4x4
           stage: 7
-        - id: R$$$6_4x4_JENX_ParisBlock07
+        - filename: R$$$6_4x4_JENX_ParisBlock07_2f86ce7f.SC4Lot
+          id: 2f86ce7f
           label: Block 7 (Growable R$$$, 4x4, Stage 6)
           size: 4x4
           stage: 6
-        - id: R$$$6_4x4_JENX_ParisBlock08
+        - filename: R$$$6_4x4_JENX_ParisBlock08_ef86cede.SC4Lot
+          id: ef86cede
           label: Block 8 (Growable R$$$, 4x4, Stage 6)
           size: 4x4
           stage: 6
-        - id: R$$$6_4x4_JENX_ParisBlock09
+        - filename: R$$$6_4x4_JENX_ParisBlock09_4f86cf40.SC4Lot
+          id: 4f86cf40
           label: Block 9 (Growable R$$$, 4x4, Stage 6)
           size: 4x4
           stage: 6
-        - id: R$$$6_4x4_JENX_ParisBlock10
+        - filename: R$$$6_4x4_JENX_ParisBlock10_af86cf9f.SC4Lot
+          id: af86cf9f
           label: Block 10 (Growable R$$$, 4x4, Stage 6)
           size: 4x4
           stage: 6
-        - id: R$$$6_4x4_JENX_ParisBlock11
+        - filename: R$$$6_4x4_JENX_ParisBlock11_0f86cfd5.SC4Lot
+          id: 0f86cfd5
           label: Block 11 (Growable R$$$, 4x4, Stage 6)
           size: 4x4
           stage: 6
-        - id: R$$$6_4x4_JENX_ParisBlock12
+        - filename: R$$$6_4x4_JENX_ParisBlock12_cf86d007.SC4Lot
+          id: cf86d007
           label: Block 12 (Growable R$$$, 4x4, Stage 6)
           size: 4x4
           stage: 6
-        - id: R$$$7_4x4_JENX_ParisBlock13
+        - filename: R$$$7_4x4_JENX_ParisBlock13_2f86d049.SC4Lot
+          id: 2f86d049
           label: Block 13 (Growable R$$$, 4x4, Stage 7)
           size: 4x4
           stage: 7
@@ -1188,7 +1202,8 @@ simgoober/residentials-pack:
               path: Simgoober/Commercials
           id: sc4evermore/274-sc4d-lex-legacy-bsc-simgoober-residentials
           include:
-            - "{{lots}}.SC4Lot"
+            # TODO
+            - "*.SC4Lot"
             - Simgoober/Residentials/Susan B Anthony House/SG_House_SusanBAnthony_GROW.dat
             - Simgoober/Landmarks/WallDoff Hotel/SG_3x3_WallDoff Hotel_Plop.dat
             - Simgoober/Landmarks/Astoria Pointe/SG_5x4_AstoriaPointe_Plop.dat
@@ -1238,42 +1253,51 @@ simgoober/residentials-pack:
             - "!CAM/Simgoober/Residentials#/Pencil Towers/Atlas/SG_ApartmentTowers_Atlas_GROW.dat"
       lots:
         - category: r$$$
-          id: R$$$4_4x3_SG_SchmuckerHouse_72c9ca68
+          filename: R$$$4_4x3_SG_SchmuckerHouse_72c9ca68.SC4Lot
+          id: 72c9ca68
           label: R$$$4_4x3_SG_SchmuckerHouse_72c9ca68
           size: 4x3
           stage: 4
         - category: r$$
-          id: R$$5_2x2_SG_Home_MarySue01_9527ab6f
+          filename: R$$5_2x2_SG_Home_MarySue01_9527ab6f.SC4Lot
+          id: 9527ab6f
           label: R$$5_2x2_SG_Home_MarySue01_9527ab6f
           size: 2x2
           stage: 5
         - category: r$$
-          id: R$$4_3x2_SG_Home_MarySue01_a527aba1
+          filename: R$$4_3x2_SG_Home_MarySue01_a527aba1.SC4Lot
+          id: a527aba1
           label: R$$4_3x2_SG_Home_MarySue01_a527aba1
           size: 3x2
           stage: 4
         - category: r$
-          id: R$8_2x3_SG_ApartmentBlockElwood_0807688b
+          filename: R$8_2x3_SG_ApartmentBlockElwood_0807688b.SC4Lot
+          id: 0807688b
           label: R$8_2x3_SG_ApartmentBlockElwood_0807688b
           size: 2x3
           stage: 8
         - category: landmarks
-          id: PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a
+          filename: PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a.SC4Lot
+          id: d795f70a
           label: PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a
           size: 3x3
-        - id: SG_3x3_SchmuckerHouse_32c9cad7
+        - filename: SG_3x3_SchmuckerHouse_32c9cad7.SC4Lot
+          id: 32c9cad7
           label: SG_3x3_SchmuckerHouse_32c9cad7
           size: 3x3
-        - id: SG SchmuckerHouse Museum_9f64ad09
+        - filename: SG SchmuckerHouse Museum_9f64ad09.SC4Lot
+          id: 9f64ad09
           label: SG SchmuckerHouse Museum_9f64ad09
-        - id: SG_1x2_Susan B Anthony Museum_65188d8c
+        - filename: SG_1x2_Susan B Anthony Museum_65188d8c.SC4Lot
+          id: 65188d8c
           label: SG_1x2_Susan B Anthony Museum_65188d8c
           size: 1x2
         - category: r$
-          condition:
-            cam: true
-          id: R$9_2x2_SG_ApartmentBlockElwood_d807687a
+          filename: R$9_2x2_SG_ApartmentBlockElwood_d807687a.SC4Lot
+          id: d807687a
           label: R$9_2x2_SG_ApartmentBlockElwood_d807687a
+          requirements:
+            cam: true
           size: 2x2
           stage: 9
       version: 1.0.0

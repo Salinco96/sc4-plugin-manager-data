@@ -6,7 +6,7 @@ vip/rural-pack:
     - Girafe
     - Orange
     - Vnaoned
-  category: dependencies
+  category: flora,mmps
   dependencies:
     - lowkee33/seasonal-flora-patch
   description: >-
@@ -79,12 +79,6 @@ vip/rural-pack:
 
 
     Models by Ben, Girafe, Orange, Vnaoned. Modding by Badsim.
-
-
-    If you have questions or problems you can leave us a message [SC4devotion thread](https://www.sc4devotion.com/forums/index.php?topic=12695.0)
-
-
-    ![110927120839846488803306.jpg](http://nsm05.casimages.com/img/2011/09/27/110927120839846488803306.jpg)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2011/83efce19914a0839f44897e772c39146-imagelexruralpack.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2011/8cd557cdab17f72b420035626b280e8b-imagedepresentation1.jpg
@@ -104,6 +98,9 @@ vip/rural-pack:
             - ~Documents/VIP_Readmes
           id: simtropolis/26806-vip-rural-pack-v2
           include:
-            - VIP/VIPProps
             - VIP/Rural Pack
+            - VIP/VIPProps
+        - id: simtropolis/33702-vip-trees-as-props
+          include:
+            - VIPTrees_Props.dat
       version: 2.0.0

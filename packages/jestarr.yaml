@@ -57,6 +57,10 @@ jestarr/1x1-dirty-industrials:
           id: simtropolis/35633-1x1-dirty-industrials
           include:
             - BSC/jestarr
+            # - BSC/jestarr/PumpingStation
+            # - BSC/jestarr/MechanicalBuilding
+            # - BSC/jestarr/ContainerOnBlocks
+            # - BSC/jestarr/ContainerOffice
       version: 1.0.3
   warnings:
     - id: bulldoze
@@ -129,7 +133,8 @@ jestarr/bsc-batprops_hd-jes-vol13:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the
+  description:
+    This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the
     substation which is only in 90 degrees.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bf1449165f1_BSCBATProps_HD-JESVol13a.jpg.ca78f91604544feeaf945f999d20b319.jpg
@@ -296,21 +301,24 @@ jestarr/central-coop-creamery:
             - Documentation
           id: simtropolis/36248-central-co-op-creamery#201340
           include:
-            - "{{lots}}_CentralCo-opCreamery_*.SC4Lot"
             - BSC/BSCTextures
             - BSC/BSCProps
+            - jes_CentralCo-opCreamery
       lots:
-        - id: IM$$3_4x5_jes
+        - filename: IM$$3_4x5_jes_CentralCo-opCreamery_SD_23c9de03.SC4Lot
+          id: 23c9de03
           label: Growable, Stage 3, 4x5
           size: 4x5
           stage: 3
-        - condition:
-            cam: true
-          id: IM$$4_4x5_jes
+        - filename: IM$$4_4x5_jes_CentralCo-opCreamery_SD_53c8ded4.SC4Lot
+          id: 53c8ded4
           label: Growable, Stage 4, 4x5 (CAM only)
+          requirements:
+            cam: true
           size: 4x5
           stage: 4
-        - id: jes_4x5_plop
+        - filename: jes_4x5_plop_CentralCo-opCreamery_SD_73c8da0d.SC4Lot
+          id: 73c8da0d
           label: Landmark, 4x5
           size: 4x5
       name: Default
@@ -321,21 +329,24 @@ jestarr/central-coop-creamery:
             - Documentation
           id: simtropolis/36248-central-co-op-creamery#201341
           include:
-            - "{{lots}}_CentralCo-opCreamery_*.SC4Lot"
             - BSC/BSCTextures
             - BSC/BSCProps
+            - jes_CentralCo-opCreamery
       lots:
-        - id: IM$$3_4x5_jes
+        - filename: IM$$3_4x5_jes_CentralCo-opCreamery_HD_93c8dfd0.SC4Lot
+          id: 93c8dfd0
           label: Growable, Stage 3, 4x5
           size: 4x5
           stage: 3
-        - condition:
-            cam: true
-          id: IM$$4_4x5_jes
+        - filename: IM$$4_4x5_jes_CentralCo-opCreamery_HD_23c8dd8e.SC4Lot
+          id: 23c8dd8e
           label: Growable, Stage 4, 4x5 (CAM only)
+          requirements:
+            cam: true
           size: 4x5
           stage: 4
-        - id: jes_4x5_plop
+        - filename: jes_4x5_plop_CentralCo-opCreamery_HD_13c8d9ed.SC4Lot
+          id: 13c8d9ed
           label: Landmark, 4x5
           size: 4x5
       name: HD
@@ -800,15 +811,14 @@ jestarr/small-brick-factory:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.jpg.1d7b399b0b242767e3a33c870b561b46.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Nite.jpg.d5b9ecb3842c89d9c4158a943f0e98b1.jpg
-  lots:
-    - category: i-m
-      id: growable
-      label: Growable I-M, 2x2
-      size: 2x2
-    - category: landmarks,industry
-      id: landmark
-      label: Landmark I-M, 2x2
-      size: 2x2
+  # TODO Lots
+  # lots:
+  #   - category: i-m
+  #     label: Growable I-M, 2x2
+  #     size: 2x2
+  #   - category: landmarks,industry
+  #     label: Landmark I-M, 2x2
+  #     size: 2x2
   name: Small Brick Factory
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.thumb.jpg.cffd9131448602466cc79b87dab843a3.jpg
@@ -821,12 +831,13 @@ jestarr/small-brick-factory:
           id: simtropolis/36370-small-brick-factory#202228
           include:
             - BSC/BSCProps
-            - condition:
-                lots: growable
-              path: BSC/jestarr/jes_SmallBrickFactory_SD/Growable
-            - condition:
-                lots: landmark
-              path: BSC/jestarr/jes_SmallBrickFactory_SD/Ploppable
+            - jes_SmallBrickFactory_SD
+            # - condition:
+            #     lots: growable
+            #   path: BSC/jestarr/jes_SmallBrickFactory_SD/Growable
+            # - condition:
+            #     lots: landmark
+            #   path: BSC/jestarr/jes_SmallBrickFactory_SD/Ploppable
       name: SD
       version: 1.0.0
     hd:
@@ -836,12 +847,13 @@ jestarr/small-brick-factory:
           id: simtropolis/36370-small-brick-factory#202227
           include:
             - BSC/BSCProps
-            - condition:
-                lots: growable
-              path: BSC/jestarr/jes_SmallBrickFactory_HD/Growable
-            - condition:
-                lots: landmark
-              path: BSC/jestarr/jes_SmallBrickFactory_HD/Ploppable
+            - jes_SmallBrickFactory_HD
+            # - condition:
+            #     lots: growable
+            #   path: BSC/jestarr/jes_SmallBrickFactory_HD/Growable
+            # - condition:
+            #     lots: landmark
+            #   path: BSC/jestarr/jes_SmallBrickFactory_HD/Ploppable
       name: HD
       release: 2024-08-20T10:45:45.232Z
       version: 1.0.0
