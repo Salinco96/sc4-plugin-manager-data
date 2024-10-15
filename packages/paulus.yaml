@@ -9,31 +9,31 @@ paulus/coal-and-ore-port-facilities:
     This set contains various lots to build your own (sort of) realistic looking coal- and ore yards and port facilities. Included in this set are:
 
 
-    - 2 cranes to unload coal and ore from large bulk carriers.
+    \- 2 cranes to unload coal and ore from large bulk carriers.
 
 
-    - 2 ship loaders to transfer coal and ore to smaller vessels.
+    \- 2 ship loaders to transfer coal and ore to smaller vessels.
 
 
-    - 2 bucket wheel excavators, used for transferring ore to and from temporary storage lots.
+    \- 2 bucket wheel excavators, used for transferring ore to and from temporary storage lots.
 
 
-    - a silo used for loading ore on trains.
+    \- a silo used for loading ore on trains.
 
 
-    - Large concrete silo's.
+    \- Large concrete silo's.
 
 
-    - 1 large ship.
+    \- 1 large ship.
 
 
-    - 7 lots with ore and coal heaps.
+    \- 7 lots with ore and coal heaps.
 
 
-    - various lots with single, double, triple or quadruple conveyor belts, to transport ore and coal.
+    \- various lots with single, double, triple or quadruple conveyor belts, to transport ore and coal.
 
 
-    - various miscellanious lots to spice up your coal yard.
+    \- various miscellanious lots to spice up your coal yard.
 
 
     Most of the models sit on 1x1 lots, with parts overhanging, to make it easier to combine them and run roads or railways through them.
@@ -85,7 +85,139 @@ paulus/coal-and-ore-port-facilities:
   variants:
     default:
       assets:
-        - id: simtropolis/36321-coal-and-ore-port-facilities
+        - docs:
+            - Instructions.txt
+            - Coalyard 5.jpg
+            - Coalyard 4.jpg
+            - Coalyard 3.jpg
+            - Coalyard 2.jpg
+            - Coalyard 1.jpg
+          id: simtropolis/36321-coal-and-ore-port-facilities
+      lastModified: 2024-06-29T21:26:31Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_Coalyard Belt2 with Roof_e3f4de6c.SC4Lot
+          id: e3f4de6c
+          label: PLOP_1x1_Coalyard Belt2 with Roof_e3f4de6c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_Coalyard Belt1 single_a3f4d497.SC4Lot
+          id: a3f4d497
+          label: PLOP_1x1_Coalyard Belt1 single_a3f4d497.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP Train loader_a26a3cac.SC4Lot
+          id: a26a3cac
+          label: PLOP Train loader_a26a3cac.SC4Lot
+        - category: landmarks
+          filename: PLOP Silos Large A_8273da9c.SC4Lot
+          id: 8273da9c
+          label: PLOP Silos Large A_8273da9c.SC4Lot
+        - category: landmarks
+          filename: PLOP Silo Large B_c273da3c.SC4Lot
+          id: c273da3c
+          label: PLOP Silo Large B_c273da3c.SC4Lot
+        - category: landmarks
+          filename: PLOP Ship Loader B_b1bf3518.SC4Lot
+          id: b1bf3518
+          label: PLOP Ship Loader B_b1bf3518.SC4Lot
+        - category: landmarks
+          filename: PLOP Ship Loader B_6273ca83.SC4Lot
+          id: 6273ca83
+          label: PLOP Ship Loader B_6273ca83.SC4Lot
+        - category: landmarks
+          filename: PLOP Excavator B_01c1cf70.SC4Lot
+          id: 01c1cf70
+          label: PLOP Excavator B_01c1cf70.SC4Lot
+        - category: landmarks
+          filename: PLOP Excavator A_c1c1cfe7.SC4Lot
+          id: c1c1cfe7
+          label: PLOP Excavator A_c1c1cfe7.SC4Lot
+        - category: landmarks
+          filename: PLOP Crane B_124adfc8.SC4Lot
+          id: 124adfc8
+          label: PLOP Crane B_124adfc8.SC4Lot
+        - category: landmarks
+          filename: PLOP Crane A_924ae028.SC4Lot
+          id: 924ae028
+          label: PLOP Crane A_924ae028.SC4Lot
+        - category: landmarks
+          filename: PLOP Coalyard Belt1 end Pit_93b8260e.SC4Lot
+          id: 93b8260e
+          label: PLOP Coalyard Belt1 end Pit_93b8260e.SC4Lot
+        - category: landmarks
+          filename: PLOP Coal ship A_a26b9cca.SC4Lot
+          id: a26b9cca
+          label: PLOP Coal ship A_a26b9cca.SC4Lot
+        - category: landmarks
+          filename: PLOP Belt3 Distribution tower_826b9838.SC4Lot
+          id: 826b9838
+          label: PLOP Belt3 Distribution tower_826b9838.SC4Lot
+        - category: landmarks
+          filename: PLOP Belt2 corner_a26a3b35.SC4Lot
+          id: a26a3b35
+          label: PLOP Belt2 corner_a26a3b35.SC4Lot
+        - category: landmarks
+          filename: PLOP Belt1 end Silo_627a5f3e.SC4Lot
+          id: 627a5f3e
+          label: PLOP Belt1 end Silo_627a5f3e.SC4Lot
+        - category: landmarks
+          filename: PLOP 1x1 Belt4_c273c995.SC4Lot
+          id: c273c995
+          label: PLOP 1x1 Belt4_c273c995.SC4Lot
+          size: 1x1
+        - filename: 8x5 Coalyard ore-coal transition1_53f71644.SC4Lot
+          id: 53f71644
+          label: 8x5 Coalyard ore-coal transition1_53f71644.SC4Lot
+        - filename: 8x5 Coalyard Ore heap2_6405f639.SC4Lot
+          id: 6405f639
+          label: 8x5 Coalyard Ore heap2_6405f639.SC4Lot
+        - filename: 8x5 Coalyard Ore heap1_73f716e8.SC4Lot
+          id: 73f716e8
+          label: 8x5 Coalyard Ore heap1_73f716e8.SC4Lot
+        - filename: 8x5 Coalyard Coal heap1_e3f71696.SC4Lot
+          id: e3f71696
+          label: 8x5 Coalyard Coal heap1_e3f71696.SC4Lot
+        - filename: 8x5 Coal heap2_a400a709.SC4Lot
+          id: a400a709
+          label: 8x5 Coal heap2_a400a709.SC4Lot
+        - filename: 8x3 Coalyard Ore Sand transition1_8404b683.SC4Lot
+          id: 8404b683
+          label: 8x3 Coalyard Ore Sand transition1_8404b683.SC4Lot
+        - filename: 8x3 Coalyard Coal Sand transition1_c404b659.SC4Lot
+          id: c404b659
+          label: 8x3 Coalyard Coal Sand transition1_c404b659.SC4Lot
+        - filename: 2x1 Belt2_1273d8ff.SC4Lot
+          id: 1273d8ff
+          label: 2x1 Belt2_1273d8ff.SC4Lot
+        - filename: 1x1 Empty dirt1_1df07026.SC4Lot
+          id: 1df07026
+          label: 1x1 Empty dirt1_1df07026.SC4Lot
+        - filename: 1x1 Coalyard Distribution tower_93b985ac.SC4Lot
+          id: 93b985ac
+          label: 1x1 Coalyard Distribution tower_93b985ac.SC4Lot
+        - filename: 1x1 Coalyard Belt4 end C_03d9e4f8.SC4Lot
+          id: 03d9e4f8
+          label: 1x1 Coalyard Belt4 end C_03d9e4f8.SC4Lot
+        - filename: 1x1 Coalyard Belt4 end A_63dbbccb.SC4Lot
+          id: 63dbbccb
+          label: 1x1 Coalyard Belt4 end A_63dbbccb.SC4Lot
+        - filename: 1x1 Coalyard Belt4 end A Mirror_13dbbd72.SC4Lot
+          id: 13dbbd72
+          label: 1x1 Coalyard Belt4 end A Mirror_13dbbd72.SC4Lot
+        - filename: 1x1 Coalyard Belt2 T junction_33b98584.SC4Lot
+          id: 33b98584
+          label: 1x1 Coalyard Belt2 T junction_33b98584.SC4Lot
+        - filename: 1x1 Coalyard Belt1 rails_13f4d3a7.SC4Lot
+          id: 13f4d3a7
+          label: 1x1 Coalyard Belt1 rails_13f4d3a7.SC4Lot
+        - filename: 1x1 Coalyard Belt1 fly over_23dbca7c.SC4Lot
+          id: 23dbca7c
+          label: 1x1 Coalyard Belt1 fly over_23dbca7c.SC4Lot
+        - filename: 1x1 Coalyard Belt1 end_e3f4d354.SC4Lot
+          id: e3f4d354
+          label: 1x1 Coalyard Belt1 end_e3f4d354.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

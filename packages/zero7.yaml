@@ -31,11 +31,6 @@ zero7/commercial-pack:
     provide technical support for the pack.
 
 
-    If using the CAMeLots, the Colossus Addon Mod is needed - Version 2.1.0a for
-    [Windows](https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/51-colossus-addon-mod-version-2-1-0-windows-by-invisichem) or
-    [Mac](https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/52-colossus-addon-mod-version-2-1-0a-mac-by-invisichem).
-
-
     This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus.
 
 
@@ -123,11 +118,6 @@ zero7/commercial-pack:
     18. Tamana Building
 
     19. Wedge Tower
-
-
-    Various pieces of original documentation and earlier Cleanitol definitions can be found in the "\_Documents" folder in the download.
-
-    ![GinzaPearl_day](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GinzaPearl_day.jpg)![Z7_CatStStudioDay2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Z7_CatStStudioDay.jpg)![GinzaPearl_night3](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GinzaPearl_night.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GinzaPearl_day.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Z7_CatStStudioDay.jpg
@@ -139,16 +129,220 @@ zero7/commercial-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore/138-sc4d-lex-legacy-zero7-commercial-pack
+        - docs:
+            - _Documents
+            - readme*
+          id: sc4evermore/138-sc4d-lex-legacy-zero7-commercial-pack
           include:
-            - condition:
-                cam: true
-              path: CAM/zero7
+            - CAM/zero7
             - zero7/Commercial
             - zero7/^Shared Resources
+      lastModified: 2023-08-26T23:57:58-07:00
+      lots:
+        - category: co$$$
+          filename: CO$$$8_2x4_Wedge Tower - zero7_984a6aa1.SC4Lot
+          id: 984a6aa1
+          label: Wedge Tower (CO$$$, Stage 8, 2x4)
+          size: 2x4
+          stage: 8
+        - category: co$$
+          filename: CO$$7_1x2_Tamana Building - zero7_686f4e42.SC4Lot
+          id: 686f4e42
+          label: Tamana Building (CO$$, Stage 7, 1x2)
+          size: 1x2
+          stage: 7
+        - category: cs$$
+          filename: CS$$1_3x2_SunnyDays Roadsters - zero7_4664ee4b.SC4Lot
+          id: 4664ee4b
+          label: SunnyDays Roadsters (CS$$, Stage 1, 3x2)
+          size: 3x2
+          stage: 1
+        - category: cs$$
+          filename: CS$$1_3x2_Z7_RoyalOakPub_33a36d84.SC4Lot
+          id: 33a36d84
+          label: Royal Oak Pub (CS$$, Stage 1, 3x2)
+          size: 3x2
+          stage: 1
+        - category: cs$$
+          filename: CS$$2_2x2_Richer Sounds and Rooms - zero7_1493f596.SC4Lot
+          id: 1493f596
+          label: Richer Sounds and Rooms (CS$$, Stage 2, 2x2)
+          size: 2x2
+          stage: 2
+        - category: cs$
+          filename: CS$7_2x4_Odeon Cinema (lw) - zero7_4959cdd1.SC4Lot
+          id: 4959cdd1
+          label: Odeon Cinema (CS$, Stage 7, 2x4)
+          size: 2x4
+          stage: 7
+        - category: cs$$
+          filename: CS$$5_2x4_Odeon Cinema (mw) - zero7_8959ce3b.SC4Lot
+          id: 8959ce3b
+          label: Odeon Cinema (CS$$, Stage 5, 2x4)
+          size: 2x4
+          stage: 5
+        - category: landmarks
+          filename: PLOP_1x1_New Horizon House - zero7_b47c34b9.SC4Lot
+          id: b47c34b9
+          label: Horizon House, New (Landmark, 1x1)
+          size: 1x1
+        - category: co$$$
+          filename: CO$$$5_2x2_MirrorBox Blue - zero7_94b1be71.SC4Lot
+          id: 94b1be71
+          label: MirrorBox Blue (CO$$$, Stage 5, 2x2)
+          size: 2x2
+          stage: 5
+        - category: cs$$$
+          filename: CS$$$4_1x2_Louis Vuitton - zero7_9964a318.SC4Lot
+          id: 9964a318
+          label: Louis Vuitton (CS$$$, Stage 4, 1x2)
+          size: 1x2
+          stage: 4
+        - category: cs$$$
+          filename: CS$$$8_1x2_Ginza Pearl - Zero7_394245ba.SC4Lot
+          id: 394245ba
+          label: Ginza Pearl (CS$$$, Stage 8, 1x2)
+          size: 1x2
+          stage: 8
+        - category: co$$
+          filename: CO$$6_3x2_EIP Insurance and Wok In - zero7_c4c5a9b9.SC4Lot
+          id: c4c5a9b9
+          label: EIP Insurance and Wok In (CO$$, Stage 6, 3x2)
+          size: 3x2
+          stage: 6
+        - category: co$$
+          filename: CO$$5_3x1_EnterpriseHouse_13900e64.SC4Lot
+          id: "13900e64"
+          label: Enterprise House (CO$$, Stage 5, 3x1)
+          size: 3x1
+          stage: 5
+        - category: co$$
+          filename: CO$$4_3x2_EnterpriseHouse_73900c20.SC4Lot
+          id: 73900c20
+          label: Enterprise House (CO$$, Stage 4, 3x2)
+          size: 3x2
+          stage: 4
+        - category: landmarks
+          filename: PLOP_1x1_Horizon House - zero7_4472fb69.SC4Lot
+          id: 4472fb69
+          label: Horizon House (Landmark, 1x1)
+          size: 1x1
+        - category: cs$$$
+          filename: CS$$$3_4x5_Cathedral Street Studios - zero7_d6956df5.SC4Lot
+          id: d6956df5
+          label: Cathedral Street Studios (CS$$$, Stage 3, 4x5)
+          size: 4x5
+          stage: 3
+        - category: co$$
+          filename: CO$$6_5x3_Bond Court - zero7_74d5885e.SC4Lot
+          id: 74d5885e
+          label: Bond Court (CO$$, Stage 6, 5x3)
+          size: 5x3
+          stage: 6
+        - category: co$$
+          filename: CO$$6_2x5_Bond Court - zero7_54d58b25.SC4Lot
+          id: 54d58b25
+          label: Bond Court (CO$$, Stage 6, 2x5)
+          size: 2x5
+          stage: 6
+        - category: co$$
+          filename: CO$$4_6x3_Calltech2 - zero7_751f37d9.SC4Lot
+          id: 751f37d9
+          label: Calltech B (CO$$$, Stage 4, 6x3)
+          size: 6x3
+          stage: 4
+        - category: co$$
+          filename: CO$$4_6x3_Calltech - zero7_85911352.SC4Lot
+          id: "85911352"
+          label: Calltech A (CO$$$, Stage 4, 6x3)
+          size: 6x3
+          stage: 4
+        - category: co$$$
+          filename: CO$$$5_2x3_Z7_w2w_BrightIdeasLtd_739d2e74.SC4Lot
+          id: 739d2e74
+          label: Bright Ideas Ltd (CO$$$, Stage 5, 2x3)
+          size: 2x3
+          stage: 5
+        - category: co$$$
+          filename: CO$$$5_2x2_Z7_w2w_BrightIdeasLtd_d39d2e1b.SC4Lot
+          id: d39d2e1b
+          label: Bright Ideas Ltd (CO$$$, Stage 5, 2x2)
+          size: 2x2
+          stage: 5
+        - category: cs$$
+          filename: CS$$9_2x2_Natama building (cs) - zero7_28a260b2.SC4Lot
+          id: 28a260b2
+          label: Natama building (CS$$, Stage 9, 2x2, CAM only)
+          requirements:
+            cam: true
+          size: 2x2
+          stage: 9
+        - category: co$$
+          filename: CO$$5_4x3_Abacus Financial Services - zero7_67cd0d9f.SC4Lot
+          id: 67cd0d9f
+          label: Abacus Financial Services (CO$$, Stage 5, 4x3)
+          size: 4x3
+          stage: 5
+        - category: co$$
+          filename: CO$$3_5x4_Abacus Financial Services - zero7_f777793d.SC4Lot
+          id: f777793d
+          label: Abacus Financial Services (CO$$, Stage 3, 5x4)
+          size: 5x4
+          stage: 3
       name: Maxis Nite
       requirements:
         darknite: false
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+zero7/z7-peckham-library-and-media-centre:
+  authors:
+    - zero7
+  category: civics
+  description: >-
+    Libraries are not generally the most distinctive buildings in the world, but Alsop Architects set out to change that when they designed the Peckham Library and Media Centre. The main features are
+    the pod rooms which extend above the roofline of the main library, the extreme cantilever of the upper floors and the six storeys of glass at the rear which is used to display art installations
+
+
+    Lot size: 4x3
+
+
+    Library items: 185000
+
+
+    **Dependencies**
+
+
+    [Porkie Props Vol 01](https://www.simtropolis.com/stex/details.cfm?id=11421)
+
+
+    [Mikeseith euro cars](https://www.simtropolis.com/stex/index.cfm?id=14400)
+
+
+    [Porkie Props Vol 02](https://www.simtropolis.com/stex/details.cfm?id=11420)
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/935adebdf2e70ae1120ea01370914400-PeckhamLibrary_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0017/935adebdf2e70ae1120ea01370914400-PeckhamLibrary_Night.jpg
+  name: Z7 Peckham Library and Media Centre
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2007/thumb-935adebdf2e70ae1120ea01370914400-PeckhamLibrary_Day.jpg
+  url: https://community.simtropolis.com/files/file/18628-z7-peckham-library-and-media-centre/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Readme_Z7_PeckhamLIbrary.htm
+          id: simtropolis/18628-z7-peckham-library-and-media-centre
+      lastModified: 2007-09-09T13:58:51Z
+      lots:
+        - category: landmarks
+          filename: PLOP_4x3_Peckham Library - zero7_b4608c16.SC4Lot
+          id: b4608c16
+          label: PLOP_4x3_Peckham Library - zero7_b4608c16.SC4Lot
+          size: 4x3
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

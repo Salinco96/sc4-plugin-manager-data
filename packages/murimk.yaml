@@ -4,8 +4,10 @@ murimk/bike-lots:
     - paeng
   category: transport,bikes
   dependencies:
+    - bsc/common-dependencies
     - maxis/maxis-buildings-as-props
     - murimk/bike-props
+    - nbvc/bikes
     - pegasus/cdk3-sp-rail-fleet
     - pegasus/mtp-super-pack
     - pegasus/security-fencing-kit
@@ -151,6 +153,16 @@ murimk/bike-lots:
 
 
     The props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
+
+
+    **SUPPORT**
+
+
+    ~~Should you need support for these items please visit the \* [PAMU Dev
+    Thread](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0) with a History and many action-packed images :-)~~
+
+
+    **\-Cori Edit:** Fixed formatting and broken linkys.
   images:
     - https://www.simtropolis.com/objects/screens/0008/3d5619d3aecf37e1691f620299516324-stex1.jpg
     - https://www.simtropolis.com/objects/screens/0008/3d5619d3aecf37e1691f620299516324-stex2.jpg
@@ -162,11 +174,82 @@ murimk/bike-lots:
     default:
       assets:
         - docs:
-            - PAMU_Bikes_v100
+            - PAMU_Bikes_v100/pic02.jpg
+            - PAMU_Bikes_v100/pic01.jpg
+            - PAMU_Bikes_v100/PAMU_readme.txt
           id: simtropolis/25433-pamu-bikes-inc
           include:
             - PAMU_Bikes_v100/PAMU_Bikes_Lots
             - PAMU_Bikes_v100/PAMU-Bikes_Resource/KEEP_Common_Files
+      lastModified: 2018-07-18T03:49:41Z
+      lots:
+        - filename: Bike_Rental-urb_d9f7d34d.SC4Lot
+          id: d9f7d34d
+          label: Bike_Rental-urb_d9f7d34d.SC4Lot
+        - filename: Bikestand_str-urb_79f7d323.SC4Lot
+          id: 79f7d323
+          label: Bikestand_str-urb_79f7d323.SC4Lot
+        - filename: Bikestand_single-shed-urb_79f81036.SC4Lot
+          id: 79f81036
+          label: Bikestand_single-shed-urb_79f81036.SC4Lot
+        - filename: Bikestand_shed01-urb_79f7e0cd.SC4Lot
+          id: 79f7e0cd
+          label: Bikestand_shed01-urb_79f7e0cd.SC4Lot
+        - filename: Bikestand_corner-urb_59f7d335.SC4Lot
+          id: 59f7d335
+          label: Bikestand_corner-urb_59f7d335.SC4Lot
+        - filename: Bike_Rental-rur_39f6dc1c.SC4Lot
+          id: 39f6dc1c
+          label: Bike_Rental-rur_39f6dc1c.SC4Lot
+        - filename: Bikestand_str-rur_39f6c2b8.SC4Lot
+          id: 39f6c2b8
+          label: Bikestand_str-rur_39f6c2b8.SC4Lot
+        - filename: Bikestand_single-shed-rur_79f80b06.SC4Lot
+          id: 79f80b06
+          label: Bikestand_single-shed-rur_79f80b06.SC4Lot
+        - filename: Bikestand_shed02-rur_79f7e2fc.SC4Lot
+          id: 79f7e2fc
+          label: Bikestand_shed02-rur_79f7e2fc.SC4Lot
+        - filename: Bikestand_corner-rur_39f6df44.SC4Lot
+          id: 39f6df44
+          label: Bikestand_corner-rur_39f6df44.SC4Lot
+        - filename: Bike_ParkandRide_urban_d9f96b32.SC4Lot
+          id: d9f96b32
+          label: Bike_ParkandRide_urban_d9f96b32.SC4Lot
+        - filename: Bike_ParkandRide_urban-large_d9fd524b.SC4Lot
+          id: d9fd524b
+          label: Bike_ParkandRide_urban-large_d9fd524b.SC4Lot
+        - filename: Bike_ParkandRide_rural_d9fd4da0.SC4Lot
+          id: d9fd4da0
+          label: Bike_ParkandRide_rural_d9fd4da0.SC4Lot
+        - filename: Bike_ParkandRide_rural-large_d9fd5cd3.SC4Lot
+          id: d9fd5cd3
+          label: Bike_ParkandRide_rural-large_d9fd5cd3.SC4Lot
+        - filename: Bike_Kindergarten_d9f99d8a.SC4Lot
+          id: d9f99d8a
+          label: Bike_Kindergarten_d9f99d8a.SC4Lot
+        - filename: Bike_Metalworks_d9f934ac.SC4Lot
+          id: d9f934ac
+          label: Bike_Metalworks_d9f934ac.SC4Lot
+        - filename: Bike_Manufacturer_59f743bd.SC4Lot
+          id: 59f743bd
+          label: Bike_Manufacturer_59f743bd.SC4Lot
+        - filename: BikeShop_secondhand_99f89f7e.SC4Lot
+          id: 99f89f7e
+          label: BikeShop_secondhand_99f89f7e.SC4Lot
+        - filename: Bikeshop_luxury_99f86dc5.SC4Lot
+          id: 99f86dc5
+          label: Bikeshop_luxury_99f86dc5.SC4Lot
+        - filename: BikeShop_39f71155.SC4Lot
+          id: 39f71155
+          label: BikeShop_39f71155.SC4Lot
+        - filename: BikeRepairRetail_d9f98171.SC4Lot
+          id: d9f98171
+          label: BikeRepairRetail_d9f98171.SC4Lot
+        - filename: BikeCouriers_99f89062.SC4Lot
+          id: 99f89062
+          label: BikeCouriers_99f89062.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -204,7 +287,12 @@ murimk/bike-props:
   authors:
     - murimk
   category: props
+  dependencies:
+    - murimk/bike-lots
   description: >-
+    **Murimk Bicycle Props**
+
+
     For all who wish to introduce biycle-related items to their cities, here is the prop pack just for you. It is organized in different packages containing the following:
 
 
@@ -244,10 +332,17 @@ murimk/bike-props:
     plugins folder.
 
 
+    ~~For questions or support please visit the 'PAMU Dev-Thread'.
+    \[[https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0\]](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0%5D)~~
+
+
     A big thank you to Paeng for providing pictures for this prop pack, as well as modding everything and setting up the MMP file!
 
 
     Enjoy!
+
+
+    **\-Cori Edit:** Fixed formatting and broken linky.
   images:
     - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
     - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex02.jpg
@@ -263,7 +358,21 @@ murimk/bike-props:
           id: simtropolis/25433-pamu-bikes-inc
           include:
             - PAMU_Bikes_v100/PAMU-Bikes_Resource/PAMU-Bikes_Props
+        - docs:
+            - Murimk_Bicycle_Props/Bicycles_Readme/MUR_Bikes_ReadMe.txt
+            - Murimk_Bicycle_Props/Bicycles_Readme/mbp02.jpg
+            - Murimk_Bicycle_Props/Bicycles_Readme/mbp01.jpg
+          id: simtropolis/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp
+      lastModified: 2018-07-18T03:35:23Z
+      lots:
+        - filename: MUR_Bicycle-Props_Testlot_3a39c1b5.SC4Lot
+          id: 3a39c1b5
+          label: MUR_Bicycle-Props_Testlot_3a39c1b5.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 murimk/props-vol02:
   authors:
@@ -271,6 +380,10 @@ murimk/props-vol02:
     - paeng
   category: props
   description: |-
+    **Murimk Props Vol02**
+
+    ***Last update: September 2011***
+
     *Parks, fences, graffiti and more*
 
     This is my second set of props (the first one beeing 'Murimk Bicycle Props v01').
@@ -313,6 +426,26 @@ murimk/props-vol02:
     BATting and MODding: Murimk
 
     LOTting and MODding: Paeng
+
+    \-----------------------------------------------
+
+    **SUPPORT**
+
+    \-----------------------------------------------
+
+    Should you need support for these items please visit and make contact through the
+
+    ***NightOwl Development thread***
+
+    ~~https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9154.0~~
+
+    and/or
+
+    ***Murimk Productions***
+
+    ~~https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=8654.0~~
+
+    **\-Cori Edit:** Fixed formatting
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2011/9e927ebe026ebcbe542f2534c5d1e854-mur_props201.jpg
   name: Murimk - Props Vol02 - Mixed Props
@@ -323,18 +456,53 @@ murimk/props-vol02:
     default:
       assets:
         - docs:
-            - Documentation_Murimk_Props_Vol02
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/_READ_ME.txt
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/park-props_small.jpg
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/park-props_large.jpg
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/Park-Props-Small.txt
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/Park-Props-Large.txt
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/park-fence_tiles.jpg
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/park-fence_puzzle.jpg
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/Park-Fence-Puzzle.txt
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/Industrial-Walls.txt
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/industrial-walls.jpg
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/Graffitti.txt
+            - Murimk Productions/Murimk_Props_Vol02_v201/Documentation_Murimk_Props_Vol02/graffitti.jpg
           id: simtropolis/25888-murimk-props-vol02-mixed-props
           include:
             - condition:
                 test-lots: true
               path: Test_Lots
             - Murimk Productions/Murimk_Props_Vol02*
+      lastModified: 2018-07-19T03:13:06Z
+      lots:
+        - filename: parkprops-small_tester_fa64412d.SC4Lot
+          id: fa64412d
+          label: parkprops-small_tester_fa64412d.SC4Lot
+        - filename: parkprops-large_tester_5a644121.SC4Lot
+          id: 5a644121
+          label: parkprops-large_tester_5a644121.SC4Lot
+        - filename: park-fence_tile_tester_5a601891.SC4Lot
+          id: 5a601891
+          label: park-fence_tile_tester_5a601891.SC4Lot
+        - filename: park-fence_puzzle_tester_9a60196e.SC4Lot
+          id: 9a60196e
+          label: park-fence_puzzle_tester_9a60196e.SC4Lot
+        - filename: industrial-wall_tester_3a601b84.SC4Lot
+          id: 3a601b84
+          label: industrial-wall_tester_3a601b84.SC4Lot
+        - filename: graffitti_tester_da5f6605.SC4Lot
+          id: da5f6605
+          label: graffitti_tester_da5f6605.SC4Lot
+      name: Default
       options:
         - id: test-lots
           label: Enable test lots
           type: boolean
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 murimk/props-vol03:
   authors:
@@ -445,7 +613,19 @@ murimk/props-vol03:
     \* The MMPs are stored in a separate folder, and they are not packed together. That way, you can choose to omit any sequences you don't want in your game, to save menu space.
 
 
-    **Note: This Pack includes NO Lots!**
+    \[box\]Note: This Pack includes NO Lots!\[/box\]
+
+
+    **INSTALLATION**
+
+
+    Unpack into the plugins folder (in 'My Documents').
+
+
+    All new props are packed into a resource dat. The lots are unpacked and kept in two different subfolders.
+
+
+    If you wish to use only some of the lots, just remove the unwanted lots from your plugin folder.
 
 
     **CREDITS**
@@ -456,6 +636,21 @@ murimk/props-vol03:
 
 
     The MMPs were modded by **Epicblunder**, **Shokthrpy** and **Paeng**.
+
+
+    **SUPPORT**
+
+
+    If you have comments or find yourself in need of support please visit:
+
+
+    [**<ins>NightOwl Productions</ins>**](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9154.0)
+
+
+    or
+
+
+    [**<ins>Murimk Productions</ins>**](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=8654.0)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2012/2958b100ed814cc1a30a8b19139aced8-.jpg
   name: Murimk - Props Vol03 - Industrials
@@ -466,8 +661,19 @@ murimk/props-vol03:
     default:
       assets:
         - docs:
-            - Murimk Productions/Murimk Prop Pack Vol03*
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/PropPack03_Readme.txt
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/mur_vol03_IND.jpg
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/mur_props-vol03.jpg
           id: simtropolis/27698-murimk-props-vol03-industrials
           include:
-            - Murimk Productions/Murimk Prop Pack Vol03*
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/Murimk_industrialprops_resource.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/KEEP_Resource_MMP.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/06_MobileOfficesContainers.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/05_TiresSafety.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/04_CablesPropane.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/03_GirdersPiping.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/02_PalletsBlocksBags.dat
+            - Murimk Productions/Murimk Prop Pack Vol03 - Industrials/MMPs/01_LiquidStorage.dat
+      lastModified: 2012-06-07T11:32:18Z
+      name: Default
       version: 1.0.0

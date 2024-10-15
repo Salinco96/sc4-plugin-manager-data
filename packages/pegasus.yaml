@@ -23,11 +23,14 @@ pegasus/cdk3-sp-container-ship-fleet:
     default:
       assets:
         - docs:
-            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet
+            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet/readme_248.htm
+            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet/product_image.jpg
           id: simtropolis/19577-peg-cdk3-sp-container-ship-fleet
           include:
-            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet
-      version: 1.0.1
+            - PEGPROD/CDK3/SEAPORT/Container Ship Fleet/CDK3-SP_Container-Fleet_RESOURCE.dat
+      lastModified: 2015-07-08T07:15:56Z
+      name: Default
+      version: 101.0.0
 
 pegasus/cdk3-sp-rail-fleet:
   authors:
@@ -61,10 +64,13 @@ pegasus/cdk3-sp-rail-fleet:
     default:
       assets:
         - docs:
-            - ZZZZ_PEG SEAPORTS/Rail Fleet
+            - ZZZZ_PEG SEAPORTS/Rail Fleet/readme_252.htm
+            - ZZZZ_PEG SEAPORTS/Rail Fleet/product_image.jpg
           id: simtropolis/19786-peg-cdk3-sp-rail-fleet
           include:
-            - ZZZZ_PEG SEAPORTS/Rail Fleet
+            - ZZZZ_PEG SEAPORTS/Rail Fleet/PEG_Rail-Fleet_RESOURCE.dat
+      lastModified: 2015-07-08T06:53:45Z
+      name: Default
       version: 1.0.0
 
 pegasus/cdk3-super-pack:
@@ -79,22 +85,22 @@ pegasus/cdk3-super-pack:
     This SUPER PAK replaces the following CDK3 dependency files:
 
 
-    1. CDK3 Resource Pack 1 ( PEG\-CDK3_Resource-Pack_01.dat )
+    > 1\. CDK3 Resource Pack 1 ( PEG\-CDK3_Resource-Pack_01.dat )
 
 
-    2. CDK3 Ship Pack 1 ( PEG\-CDK3_PropPack_Ships_01.dat )
+    2\. CDK3 Ship Pack 1 ( PEG\-CDK3_PropPack_Ships_01.dat )
 
 
-    3. CDK3 Vehicle Pack 1 ( PEG\-CDK3_PropPack_Vehicles_01.dat )
+    3\. CDK3 Vehicle Pack 1 ( PEG\-CDK3_PropPack_Vehicles_01.dat )
 
 
-    4. CDK3 Trawler Pack 1 ( CDK3_Trawlers_RESOURCE.dat )
+    4\. CDK3 Trawler Pack 1 ( CDK3_Trawlers_RESOURCE.dat )
 
 
-    5. CDK3 REC Boats Pack ( PEG\-CDK3_Rec-Boats_RESOURCE_101.dat )
+    5\. CDK3 REC Boats Pack ( PEG\-CDK3_Rec-Boats_RESOURCE_101.dat )
 
 
-    6. CDK3 Basics\* ( PEG\-CDK3_Basics_100.dat )
+    6\. CDK3 Basics\* ( PEG\-CDK3_Basics_100.dat )
 
 
     Once the CDK3 SUPER PACK is installed, you can safely remove the files listed above.
@@ -117,12 +123,15 @@ pegasus/cdk3-super-pack:
     default:
       assets:
         - docs:
-            - PEGPROD/CDK3/CDK3 SUPER PAK
+            - PEGPROD/CDK3/CDK3 SUPER PAK/readme_259.htm
+            - PEGPROD/CDK3/CDK3 SUPER PAK/product_image.jpg
           id: simtropolis/19880-peg-cdk3-super-pak
           include:
-            - PEGPROD/CDK3/CDK3 SUPER PAK
+            - PEGPROD/CDK3/CDK3 SUPER PAK/PEG-CDK3_SUPER-PAK_RESOURCE.dat
+            - PEGPROD/CDK3/CDK3 SUPER PAK/PEG-CDK3_Basics_110.dat
+      lastModified: 2015-07-08T03:01:12Z
       name: Default
-      version: 1.1.0
+      version: 1.0.0
 
 pegasus/christmas-development-kit:
   authors:
@@ -136,28 +145,42 @@ pegasus/christmas-development-kit:
     This kit includes:
 
 
-    1. Pine Tree/Christmas Tree. A common pine tree throughout the year... but decorated during the Holidays.
+    1\. Pine Tree/Christmas Tree. A common pine tree throughout the year... but decorated during the Holidays.
 
 
-    2. Billboard/Nativity Scene. Typical ad hype for 11 months. Redressed with a beautiful nativity scene for Christmas.
+    2\. Billboard/Nativity Scene. Typical ad hype for 11 months. Redressed with a beautiful nativity scene for Christmas.
 
 
-    3. Colored Christmas Lights. A short string of multicolored Christmas lights that can be strung together to decorate your favorite buildings. They only appear during the Holiday season.
+    3\. Colored Christmas Lights. A short string of multicolored Christmas lights that can be strung together to decorate your favorite buildings. They only appear during the Holiday season.
 
 
-    4. Small Nativity Scene. A common painted plywood decoration. Ideal for use on churches, parks or residential front yards. Appears only during the Holidays.
+    4\. Small Nativity Scene. A common painted plywood decoration. Ideal for use on churches, parks or residential front yards. Appears only during the Holidays.
 
 
-    5\ Snowmen. Offered in large and Mucho Grande sizes. Appears only during the Holidays.
+    5\. Snowmen. Offered in large and Mucho Grande sizes. Appears only during the Holidays.
 
 
-    6. Santa Clauses. Two sizes and styles to choose from. Appears only during the Holidays.
+    6\. Santa Clauses. Two sizes and styles to choose from. Appears only during the Holidays.
 
 
-    7. Santa's Sleigh. A large and colorful decoration suitable for display in plazas and shopping centers. Appears only during the Holidays.
+    7 Santa's Sleigh. A large and colorful decoration suitable for display in plazas and shopping centers. Appears only during the Holidays.
 
 
-    8. Santa's Sleigh & Reindeer. The classic Holiday decoration that can be used almost anywhere. Appears only during the Holidays.
+    8\. Santa's Sleigh & Reindeer. The classic Holiday decoration that can be used almost anywhere. Appears only during the Holidays.
+
+
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
+
+
+    ***To all of you from all the members and staff at Pegasus Productions... Have a very, merry Holiday and a wonderful New Year!***
+
+
+    ![product_image2.jpg](https://www.simtropolis.com/repository/attachments/monthly_2015_07/product_image2.thumb.jpg.9ce658e63bc0efb0bb91b52da3194ae9.jpg)
   images:
     - https://www.simtropolis.com/objects/screens/0014/77235ee54b5b3379d757e58ae1a3c902-product_image.jpg
   name: PEG Christmas Development Kit
@@ -167,13 +190,22 @@ pegasus/christmas-development-kit:
   variants:
     default:
       assets:
-        - id: simtropolis/11097-peg-christmas-development-kit
+        - docs:
+            - product_image.jpg
+            - readme_034.htm
+          id: simtropolis/11097-peg-christmas-development-kit
+          include:
+            - PEG_Xmas-Dev-Kit_205.dat
+      lastModified: 2015-07-11T00:11:22Z
+      name: Default
       version: 1.0.0
 
 pegasus/lighthouse-of-alexandria:
   authors:
     - Pegasus
   category: landmarks
+  dependencies:
+    - pegasus/oasis-park
   description: >-
     Ladies & Gentlemen... The Great Lighthouse of Alexandria.
 
@@ -197,6 +229,26 @@ pegasus/lighthouse-of-alexandria:
 
     The lot is designed to be plopped on water like the game's default seaport. However, it can also be plopped on dry land and used with the PEG Pond Kit to create a surrounding river or lake. The
     large parking area is transit enabled and when connected to your road network, cars and school buses will drive through it.
+
+
+    \*\* Special thanks to BarbyW, Andreas, Blackbeard, & ParadiseFarm
+
+
+    for their assistance during the development of this project.
+
+
+    **The Great Lighthouse has NO mandatory external dependencies.**
+
+
+    [The PEG Oasis Park](https://community.simtropolis.com/files/file/4592-peg-oasis-park-v205/) is recommended for expanding the museum/park complex.
+
+
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/).**
   images:
     - https://www.simtropolis.com/objects/screens/0011/5cc975b429a681154f8d92b07570b03a-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0011/5cc975b429a681154f8d92b07570b03a-product_image2a.jpg
@@ -207,7 +259,16 @@ pegasus/lighthouse-of-alexandria:
   variants:
     default:
       assets:
-        - id: simtropolis/13096-peg-the-great-lighthouse-of-alexandria
+        - docs:
+            - product_image.jpg
+            - readme_097.htm
+          id: simtropolis/13096-peg-the-great-lighthouse-of-alexandria
+          include:
+            - PEG_ Offset-Peeps_PROP.dat
+            - PEG_The-Great-Lighthouse_2fda8248.dat
+            - The Great Lighthouse-RESOURCE.dat
+      lastModified: 2017-01-27T14:53:40Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -250,6 +311,9 @@ pegasus/mtp-scenic-views:
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+
+    **\-Cori Edit:** Made dep a clickable linky.
   images:
     - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image1.jpg
     - https://www.simtropolis.com/objects/screens/0007/3290f30934ff476be4b189b76ea03df8-product_image2.jpg
@@ -260,7 +324,16 @@ pegasus/mtp-scenic-views:
   variants:
     default:
       assets:
-        - id: simtropolis/14809-peg-mtp-scenic-views
+        - docs:
+            - readme_156.htm
+            - product_image.jpg
+          id: simtropolis/14809-peg-mtp-scenic-views
+          include:
+            - PEG_ScenicViews_RESOURCE.dat
+            - PEG_Roadside-ScenicViews_205.dat
+            - PEG-MTP_MountainTrail-ScenicViews_205.dat
+      lastModified: 2018-07-17T21:05:29Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -270,7 +343,39 @@ pegasus/mtp-super-pack:
   authors:
     - Pegasus
   category: dependencies
+  dependencies:
+    - pegasus/spam-super-resource-pack
   description: >-
+    **UPDATE: 04.07.2022** - The *PEG_MTP_SUPER_TEXTURES_PACK.dat* has been replaced by the all inclusive **PEG\-SUPER_TEXTURES.dat**, which contains all, but the textures from the [PEG SPAM Super
+    Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (PEG\-SPAM_TEXTURES_RESOURCE_b200.dat), created and released by Pegasus from the entire collection
+    (including: CDK and CDK3, CDK3\-OWW, OWW2 and Marina, Utopia, CSK, PPonds etc...). This update brings all these textures under one DAT (which actually already have held 2/3 of the textures created
+    by Pegasus). Bear in mind this is only part one of a major update and clean-up of this dependency pack focusing on the textures for now.
+
+
+    For the full list of texture contents please check the included \*-index.jpg files.
+
+
+    Install: copy/extract the **PEGPROD** parent folder into your plugins. If you extracted the *\_Documents*\* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.
+
+
+    In the \_Documents folder you will find 2 other subfolders:
+
+
+    - **PEG Readmes**: this folder will be the generic storage of all the readmes and images for the future updated PEGProd contents. This folder also contains the texture catalague index images of
+    the base and overlay textures and the optional EU and RRW (Real-RailWay) texture overrides.
+
+    - **PEG Optional Texture Overrides**: as a temporary solution it contains the ***PEG\-SUPER_TEXTURES_EUOverride.dat*** and ***PEG\-SUPER_TEXTURES_RRWOverride.dat*** files. To use either or both of
+    the files, simply move/copy them into the main *PEGPROD\\Mountain Theme Pack\\\_MTP SUPER PACK\\* folder, but make sure they load after the PEG\-SUPER_TEXTURES.dat.
+
+
+    The **v1.5** update is the first part of a collection wide update and cleanup focusing of the textures only. While the original textures and props where created by Pegasus and his team, this (and
+    the following) update was made by the [@STEX Custodian](https://community.simtropolis.com/profile/779745-stex-custodian/) (with the permission of Pegasus).
+
+
+    \--------------------------------------------------------------------------------------------------------------------------------
+
+
     **Faster than a speeding Llama...** ( *a really old one... with gout* )**...**
 
 
@@ -296,11 +401,58 @@ pegasus/mtp-super-pack:
     will be the primary MTP dependency listed on all future MTP lots.
 
 
+    * * *
+
+
+    ***Please Note***: This dependency contains no material that alters the appearance ofgame default props or textures... and will not interfere in any way with playing a non-MTP or rural themed
+    city.
+
+
+    * * *
+
+
     The ****MTP SUPER PACK**** combines both MTP props and textures into a single download. However, it will install props and textures as separate files to make any future updates easier and faster.
+
+
+    The **MTP SUPERPACK** replaces the following previous MTP dependencies... which can now be removed from your Plugins folder:
+
+
+    \* **PEG Mountain Theme Pack**
+
+
+    ( *PEG_MTP_RESOURCE_vol1.dat* & *PEG_MTP_TEXTURES_vol1.dat* )
+
+
+    \* **PEG\-MTP Texture Pack Volume 2**
+
+
+    ( *PEG\-MTP_TEXTURES_vol2.dat* )
+
+
+    \* **PEG\-MTP Resource Pack 2 \[beta\]**
+
+
+    ( *PEG\-MTP_RESOURCE2_b102.dat* )
+
+
+    \* **PEG Pine Tree Mod \[ resource file only \]**
+
+
+    ( *PEG\-MTP_GM-TreeMod_RESOURCE* )
+
+
+    **\*\* This dependency has no dependencies.**
 
 
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+
+    Moderator note (September 9th 2018):
+
+
+    File updated to version 1.02 from the old PLEX (thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for providing the updated files). The older v1.01 is available
+    in the changelog section below.
   images:
     - https://www.simtropolis.com/objects/screens/0003/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   name: PEG MTP SUPER PACK
@@ -311,18 +463,21 @@ pegasus/mtp-super-pack:
     default:
       assets:
         - docs:
-            - _Documents/PEG Readmes
+            - _Documents/PEG Readmes/pspbrwse.jbf
+            - _Documents/PEG Readmes/product_image_324.jpg
+            - _Documents/PEG Readmes/PEG-SUPER_TEXTURES_RRWOverride-index.jpg
+            - _Documents/PEG Readmes/PEG-SUPER_TEXTURES_EUOverride-index.jpg
+            - _Documents/PEG Readmes/PEG SUPER TEXTURES_overlay-index.jpg
+            - _Documents/PEG Readmes/PEG SUPER TEXTURES_base-index.jpg
+            - _Documents/PEG Readmes/MTP_ResourceSuperPak_324.htm
           id: simtropolis/20966-peg-mtp-super-pack
           include:
-            - condition:
-                road-textures: eu
-              path: PEG-SUPER_TEXTURES_EUOverride.dat
-              priority: 970
-            - condition:
-                nam: true
-              path: PEG-SUPER_TEXTURES_RRWOverride.dat
-              priority: 970
-            - _MTP SUPER PACK
+            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
+            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
+            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK/PEG_MTP_SUPER_RESOURCE_PACK.dat
+            - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK/PEG-SUPER_TEXTURES.dat
+      lastModified: 2022-07-04T23:43:31Z
+      name: Default
       options:
         - global: true
           id: road-textures
@@ -333,9 +488,18 @@ pegasus/oasis-park:
   authors:
     - Pegasus
   category: parks
-  description: The Oasis Park has returned with a few graphic upgrades. Two new BAT models have been added to give the oasis an improved 3D appearance and an upgraded surrounding wall. Other than being
-    transit enabled for pedestrians, this park is identical to a large park in all aspects. It has lots of palms and other foliage and could be used as either an Oasis or Jungle themed park. A little
-    break from the traditional for your Sims!
+  description: >-
+    The Oasis Park has returned with a few graphic upgrades. Two new BAT models have been added to give the oasis an improved 3D appearance and an upgraded surrounding wall. Other than being transit
+    enabled for pedestrians, this park is identical to a large park in all aspects. It has lots of palms and other foliage and could be used as either an Oasis or Jungle themed park. A little break
+    from the traditional for your Sims!
+
+
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
     - https://www.simtropolis.com/objects/screens/0002/09333c9a2eac98e62c483c65bf81e3a3-product_image.jpg
   name: Oasis Park
@@ -345,8 +509,15 @@ pegasus/oasis-park:
   variants:
     default:
       assets:
-        - id: simtropolis/4592-peg-oasis-park-v205
-      version: 2.0.5
+        - docs:
+            - product_image.jpg
+            - readme_014.htm
+          id: simtropolis/4592-peg-oasis-park-v205
+          include:
+            - PEG_Oasis-Park_205.dat
+      lastModified: 2015-07-11T07:39:27Z
+      name: Default
+      version: 1.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -358,8 +529,26 @@ pegasus/one-flag-many-nations:
   dependencies:
     - maxis/day-of-peace
   description: >-
+    **PEG One Flag Many Nations Mod**
+
+
+    **By Pegasus**
+
+
     The One Flag... Many Nations mod allows Lot Developers to place a generic flag on their lots which will then display the user's specific or chosen national flag when that lot is used in their
     game. The player decides which flag will be displayed by installing the one modified flag .dat files enclosed in this mod.
+
+
+    Players should follow the Installation instructions below very carefully. Developers can learn more as to how this mod works in the Developer's Notes section below.
+
+
+    This is an updated version of the original mod and is dramatically reduced in size. To use this mod, the player must have the **Maxis Day of Peace** Add-On properly installed on their system:
+
+
+    **\- [Direct Download Link](https://community.simtropolis.com/library/maxis/sc4/buildings/dayopeace.dat)**
+
+
+    (Other Maxis Files can be downloaded [here](https://community.simtropolis.com/sc4-maxis-files/).)
 
 
     Please note that this mod merely references the flag graphic images contained in the Day of Peace Add-On. Additional flags can not be added unless created by Maxis or a 3rd party developer. If
@@ -377,13 +566,42 @@ pegasus/one-flag-many-nations:
   variants:
     default:
       assets:
-        - id: simtropolis/27711-peg-one-flag-many-nations-mod
+        - docs:
+            - readme_009.htm
+            - product_image.jpg
+          id: simtropolis/27711-peg-one-flag-many-nations-mod
+          include:
+            - PEG_OFMN_Flag_USA.dat
+            - PEG_OFMN_Flag_UK.dat
+            - PEG_OFMN_Flag_Thai.dat
+            - PEG_OFMN_Flag_Taiwan.dat
+            - PEG_OFMN_Flag_SWED.dat
+            - PEG_OFMN_Flag_Spain.dat
+            - PEG_OFMN_Flag_SKorea.dat
+            - PEG_OFMN_Flag_PORT.dat
+            - PEG_OFMN_Flag_Poland.dat
+            - PEG_OFMN_Flag_Norway.dat
+            - PEG_OFMN_Flag_NETH.dat
+            - PEG_OFMN_Flag_Japan.dat
+            - PEG_OFMN_Flag_Italy.dat
+            - PEG_OFMN_Flag_Germany.dat
+            - PEG_OFMN_Flag_France.dat
+            - PEG_OFMN_Flag_Finland.dat
+            - PEG_OFMN_Flag_Danish.dat
+            - PEG_OFMN_Flag_China.dat
+            - PEG_OFMN_Flag_CAN.dat
+            - PEG_OFMN_Flag_Brazil.dat
+            - PEG_OFMN_Flag_AUS.dat
+      lastModified: 2015-07-07T00:20:46Z
+      name: Default
       version: 1.0.0
 
 pegasus/peg-tennis-park:
   authors:
     - Pegasus
   category: parks
+  dependencies:
+    - pegasus/peg-trail-parks-3
   description: >-
     I went out and bought SC4 on the very first day it was released. And from that day, the default tennis court park has bothered me and I couldn't figure out why. I even mentally played a tennis
     game on the default court: I serve... it goes long... and I watch the ball bounce out across the street and bean some old lady in the head. My second serve is returned and flies high and to the
@@ -405,8 +623,15 @@ pegasus/peg-tennis-park:
     \* Like the PEG Krispy Kremes, this lot also uses a BAT modeled parking area instead of textures. This allows true 3D curbs, planters and sidewalks that add a depth and realism to the lot.
 
 
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+
+    **\-Cori Edit:** Added clickable linky to mentioned file.
   images:
     - https://www.simtropolis.com/objects/screens/0025/e63299972e6865ad473e39850634a4d1-product_image.jpg
     - https://www.simtropolis.com/objects/screens/0025/e63299972e6865ad473e39850634a4d1-product_image2.jpg
@@ -419,8 +644,15 @@ pegasus/peg-tennis-park:
   variants:
     default:
       assets:
-        - id: simtropolis/11688-peg-tennis-park
-      version: 2.0.5
+        - docs:
+            - readme_048.htm
+            - product_image.jpg
+          id: simtropolis/11688-peg-tennis-park
+          include:
+            - PEG_Tennis Park_205.dat
+      lastModified: 2018-07-18T16:06:01Z
+      name: Default
+      version: 1.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -429,6 +661,9 @@ pegasus/peg-trail-parks-3:
   authors:
     - Pegasus
   category: parks
+  dependencies:
+    - pegasus/peg-random-woods-v206
+    - pegasus/peg-stream-kit-ii-v205
   description: >-
     The PEG Trail Parks have returned with a whole new visual makeover. This initial release introduces the new version of the basic Trail Parks... designed to blend seamlessly with the the [PEG
     Random Woods](https://community.simtropolis.com/files/file/4526-peg-random-woods-v206/) & the [PEG Stream Kit II](https://community.simtropolis.com/files/file/11083-peg-stream-kit-ii-v205/).
@@ -441,8 +676,15 @@ pegasus/peg-trail-parks-3:
     new Pedestrian Tunnel allows you to visually run your trails under any road or rail... or even under entire buildings or blocks.
 
 
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
+
+
+    **\-Cori Edit:** Made mentioned files clickable linkys.
   images:
     - https://www.simtropolis.com/objects/screens/0016/8c4309f065ce08a2c18dd286d80a80f0-product_image.jpg
   name: PEG Trail Parks III
@@ -452,8 +694,16 @@ pegasus/peg-trail-parks-3:
   variants:
     default:
       assets:
-        - id: simtropolis/11001-peg-trail-parks-iii
-      version: 3.0.5
+        - docs:
+            - readme_021.htm
+            - product_image.jpg
+          id: simtropolis/11001-peg-trail-parks-iii
+          include:
+            - PEG_TrailParks_305b.dat
+            - PEG_TrailPark-Engine_305a.dat
+      lastModified: 2018-07-18T14:27:02Z
+      name: Default
+      version: 1.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -500,6 +750,10 @@ pegasus/pond-kit-2:
     add-ons, new styles and lots of new development in your cities.
 
 
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested here.**
   images:
     - https://www.simtropolis.com/objects/screens/0006/2ccf83fe8cf607c33d11e3b798cc2911-product_image1.jpg
@@ -511,8 +765,22 @@ pegasus/pond-kit-2:
   variants:
     default:
       assets:
-        - id: simtropolis/12329-peg-pond-kit-ii-deluxe-edition-v206
-      version: 2.0.6
+        - docs:
+            - readme_025.htm
+            - product_image.jpg
+            - plop5.jpg
+            - plop4.jpg
+            - plop3.jpg
+            - plop2.jpg
+            - plop1.jpg
+          id: simtropolis/12329-peg-pond-kit-ii-deluxe-edition-v206
+          include:
+            - PEG_Ponds_STYLE1_206.dat
+            - PEG_Ponds_206.dat
+            - PEG_Pond-WF_Medium_206.dat
+      lastModified: 2016-09-28T22:56:11Z
+      name: Default
+      version: 1.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -537,6 +805,18 @@ pegasus/seasonal-woods:
 
     The Random Forest is PEG tested & Tree-Hugger approved. Each lot has properties similar to a small green park with slightly improved air pollution qualities. This lot is also 'Slope Conforming' so
     you can place it almost anywhere.
+
+
+    \*\* This lot was designed for seamless integration with the PEG Trail Parks and the PEG Stream Kit. Obviously, it can be used by itself, singularly or in groups, anywhere in your cities where you
+    need a little flourish of flora.
+
+
+    **\*\*This file currently contains an .exe installer suitable for windows users. These files are in the process of being updated with zip files and this message will be removed once the update is
+    complete.**
+
+
+    **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
+    [here](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**.
   images:
     - https://www.simtropolis.com/objects/screens/0028/fe3f12ba258a7384a446b96957480326-product_image.jpg
   name: PEG Seasonal Woods
@@ -546,8 +826,17 @@ pegasus/seasonal-woods:
   variants:
     default:
       assets:
-        - id: simtropolis/4515-peg-seasonal-woods-v206b
-      version: 2.0.6
+        - docs:
+            - readme_011.htm
+            - product_image.jpg
+          id: simtropolis/4515-peg-seasonal-woods-v206b
+          include:
+            - PEG_Seasonal-Woods_206a.dat
+            - PEG_Seasonal-Woods-t_206a.dat
+            - PEG_Seasonal-Tree-Pack_206b.Dat
+      lastModified: 2015-07-11T08:01:42Z
+      name: Default
+      version: 1.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -580,10 +869,13 @@ pegasus/security-fencing-kit:
     default:
       assets:
         - docs:
-            - PEGPROD/MODs/Security Fencing
+            - PEGPROD/MODs/Security Fencing/readme_243.htm
+            - PEGPROD/MODs/Security Fencing/product_image.jpg
           id: simtropolis/19338-peg-security-fencing-kit
           include:
-            - PEGPROD/MODs/Security Fencing
+            - PEGPROD/MODs/Security Fencing/PEG_ChainLinkFence_RESOURCE.dat
+      lastModified: 2015-07-08T07:51:58Z
+      name: Default
       version: 1.0.0
 
 pegasus/spam:
@@ -654,6 +946,22 @@ pegasus/spam:
     ![farming30.jpg](http://i211.photobucket.com/albums/bb210/abcvs/Pegasus%20Productions/farming30.jpg)
 
 
+    **DEPENDENCIES**
+
+
+    This mod requires the <ins>**[MTP Super
+    Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)**</ins>[.](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
+
+
+    **INSTALLATION**
+
+
+    By default, the SPAM files will reside in a sub-folder named "SPAM" in your Documents Plugins folder.
+
+
+    See the included Full ReadMe for more information!
+
+
     **All Pegasus files are now legacy content and are no longer officially supported - however support from the wider community can be requested
     [here.](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
 
@@ -673,22 +981,204 @@ pegasus/spam:
     default:
       assets:
         - docs:
-            - PEGPROD/SPAM/SPAM_Documentation
+            - PEGPROD/SPAM/SPAM_Documentation/objectives.html
+            - PEGPROD/SPAM/SPAM_Documentation/index.html
+            - PEGPROD/SPAM/SPAM_Documentation/gameplay.html
+            - PEGPROD/SPAM/SPAM_Documentation/description.html
+            - PEGPROD/SPAM/SPAM_Documentation/addons.html
+            - PEGPROD/SPAM/SPAM_Documentation/css/spam.css
+            - PEGPROD/SPAM/SPAM_Documentation/img/vsl02.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/vsl01.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/spic-small.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/spar-small.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/spambadge-medium.png
+            - PEGPROD/SPAM/SPAM_Documentation/img/spam-pre02.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/spam-pre01.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/pdt_logo01.png
+            - PEGPROD/SPAM/SPAM_Documentation/img/farming30.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/farming28.jpg
+            - PEGPROD/SPAM/SPAM_Documentation/img/farming26.jpg
           id: simtropolis/26080-simpeg-agricultural-mod-spam
           include:
             - PEGPROD/SPAM
+      lastModified: 2015-07-11T08:16:55Z
+      lots:
+        - filename: I-r5_6x4_D_Large Granary_90001290.SC4Lot
+          id: "90001290"
+          label: I-r5_6x4_D_Large Granary_90001290.SC4Lot
+          size: 6x4
+        - filename: I-r5_5x6_TriBarn_BioFuel_7930b6be.SC4Lot
+          id: 7930b6be
+          label: I-r5_5x6_TriBarn_BioFuel_7930b6be.SC4Lot
+          size: 5x6
+        - filename: I-r5_4x6_LargeElevator_593083cb.SC4Lot
+          id: 593083cb
+          label: I-r5_4x6_LargeElevator_593083cb.SC4Lot
+          size: 4x6
+        - filename: I-r5_4x6_Elevator_593083cb.SC4Lot
+          id: 593083cb
+          label: I-r5_4x6_Elevator_593083cb.SC4Lot
+          size: 4x6
+        - filename: I-r5_4x6_D_Elevator_900012a0.SC4Lot
+          id: 900012a0
+          label: I-r5_4x6_D_Elevator_900012a0.SC4Lot
+          size: 4x6
+        - filename: I-r4_7x6_D_Dairy_90001341.SC4Lot
+          id: "90001341"
+          label: I-r4_7x6_D_Dairy_90001341.SC4Lot
+          size: 7x6
+        - filename: I-r4_4x4_D_Dairy_90001280.SC4Lot
+          id: "90001280"
+          label: I-r4_4x4_D_Dairy_90001280.SC4Lot
+          size: 4x4
+        - filename: I-r4_4x4_Dairy_59306c7c.SC4Lot
+          id: 59306c7c
+          label: I-r4_4x4_Dairy_59306c7c.SC4Lot
+          size: 4x4
+        - filename: I-r3_6x5_D_Ranch_90001251.SC4Lot
+          id: "90001251"
+          label: I-r3_6x5_D_Ranch_90001251.SC4Lot
+          size: 6x5
+        - filename: I-r3_2x3_BarnSilo_f9370279.SC4Lot
+          id: f9370279
+          label: I-r3_2x3_BarnSilo_f9370279.SC4Lot
+          size: 2x3
+        - filename: I-r3_2x2_Greenhouses_59309f52.SC4Lot
+          id: 59309f52
+          label: I-r3_2x2_Greenhouses_59309f52.SC4Lot
+          size: 2x2
+        - filename: I-r3_2x2_Elevator_Small_3936f638.SC4Lot
+          id: 3936f638
+          label: I-r3_2x2_Elevator_Small_3936f638.SC4Lot
+          size: 2x2
+        - filename: I-r2_3x2_D_Farm_90001260.SC4Lot
+          id: "90001260"
+          label: I-r2_3x2_D_Farm_90001260.SC4Lot
+          size: 3x2
+        - filename: I-r2_2x3_D_MultiFarm_90001360.SC4Lot
+          id: "90001360"
+          label: I-r2_2x3_D_MultiFarm_90001360.SC4Lot
+          size: 2x3
+        - filename: I-r2_2x3_D_GreenHouse02_90001270.SC4Lot
+          id: "90001270"
+          label: I-r2_2x3_D_GreenHouse02_90001270.SC4Lot
+          size: 2x3
+        - filename: I-r2_2x2__D_BigBarn_90001250.SC4Lot
+          id: "90001250"
+          label: I-r2_2x2__D_BigBarn_90001250.SC4Lot
+          size: 2x2
+        - filename: I-r2_2x2_D_Stables_90001350.SC4Lot
+          id: "90001350"
+          label: I-r2_2x2_D_Stables_90001350.SC4Lot
+          size: 2x2
+        - filename: I-r2_2x1_FancyBarn_f936f4fd.SC4Lot
+          id: f936f4fd
+          label: I-r2_2x1_FancyBarn_f936f4fd.SC4Lot
+          size: 2x1
+        - filename: I-r1_5x6_D_TriBarn_90001311.SC4Lot
+          id: "90001311"
+          label: I-r1_5x6_D_TriBarn_90001311.SC4Lot
+          size: 5x6
+        - filename: I-r1_3x2_D_Farmhouse wBarnSilo_90001320.SC4Lot
+          id: "90001320"
+          label: I-r1_3x2_D_Farmhouse wBarnSilo_90001320.SC4Lot
+          size: 3x2
+        - filename: I-r1_3x2_D_Farm wBarn_900012c0.SC4Lot
+          id: 900012c0
+          label: I-r1_3x2_D_Farm wBarn_900012c0.SC4Lot
+          size: 3x2
+        - filename: I-r1_3x2_D_Farm w silo_90001380.SC4Lot
+          id: "90001380"
+          label: I-r1_3x2_D_Farm w silo_90001380.SC4Lot
+          size: 3x2
+        - filename: I-r1_2x3_D_TriBarn_90001330.SC4Lot
+          id: "90001330"
+          label: I-r1_2x3_D_TriBarn_90001330.SC4Lot
+          size: 2x3
+        - filename: I-r1_2x3_D_Greenhouses_900012d0.SC4Lot
+          id: 900012d0
+          label: I-r1_2x3_D_Greenhouses_900012d0.SC4Lot
+          size: 2x3
+        - filename: I-r1_2x3_D_BasicBarn_90001390.SC4Lot
+          id: "90001390"
+          label: I-r1_2x3_D_BasicBarn_90001390.SC4Lot
+          size: 2x3
+        - filename: I-r1_2x2_D_Greenhouse_900012b0.SC4Lot
+          id: 900012b0
+          label: I-r1_2x2_D_Greenhouse_900012b0.SC4Lot
+          size: 2x2
+        - filename: I-r1_2x2_D_FulFarm_90001310.SC4Lot
+          id: "90001310"
+          label: I-r1_2x2_D_FulFarm_90001310.SC4Lot
+          size: 2x2
+        - filename: I-r1_2x2_D_FarmHouse-Silo_90001370.SC4Lot
+          id: "90001370"
+          label: I-r1_2x2_D_FarmHouse-Silo_90001370.SC4Lot
+          size: 2x2
+        - filename: I-r1_2x1_D_Shed_900012f0.SC4Lot
+          id: 900012f0
+          label: I-r1_2x1_D_Shed_900012f0.SC4Lot
+          size: 2x1
+        - filename: I-r1_2x1_BasicBarn_f9235e5a.SC4Lot
+          id: f9235e5a
+          label: I-r1_2x1_BasicBarn_f9235e5a.SC4Lot
+          size: 2x1
+        - filename: I-r1_1x2_Shed_7921769c.SC4Lot
+          id: 7921769c
+          label: I-r1_1x2_Shed_7921769c.SC4Lot
+          size: 1x2
+        - filename: I-r1_1x2_Homestead_b91ea651.SC4Lot
+          id: b91ea651
+          label: I-r1_1x2_Homestead_b91ea651.SC4Lot
+          size: 1x2
+        - filename: I-r1_1x2_D_Shed_90001300.SC4Lot
+          id: "90001300"
+          label: I-r1_1x2_D_Shed_90001300.SC4Lot
+          size: 1x2
+        - filename: I-r1_1x2_D_FarmMarket_90001340.SC4Lot
+          id: "90001340"
+          label: I-r1_1x2_D_FarmMarket_90001340.SC4Lot
+          size: 1x2
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 pegasus/spam-super-resource-pack:
   authors:
     - Pegasus
   category: dependencies
   description: >-
+    **NOTE: You do not need this pack if you****already downloaded / plan to download the full**
+
+
+    **SIMPEG AGRICULTURAL MOD (SPAM)!**
+
+
     This package is the main dependency for all things SPAM - from the main mod to most of the current or future additional sets. This standalone version is meant for all players who do not want to
     use the full mod but still wish to play with lots and items that utilize these props and textures.
 
 
     The SPAM SUPER PACK combines all SPAM props and textures into a single download. However, it will install props and textures as separate files to make any uture updates easier and faster.
+
+
+    **INCLUDED**
+
+
+    \* SPAM_Resource
+
+
+    All models and props used for the agricultural mod
+
+
+    \* SPAM_Crops_Resource
+
+
+    All models and props for the seasonal crop varieties
+
+
+    \* SPAM_Textures
 
 
     All textures used in the agricultural mod
@@ -697,7 +1187,22 @@ pegasus/spam-super-resource-pack:
     **NOTE: This pack includes no lots!**
 
 
+    **AGAIN: You do not need this pack if you**
+
+
+    **already downloaded / plan to download the full**
+
+
+    **SIMPEG AGRICULTURAL MOD (SPAM)!**
+
+
     You can use all the material for your own lotting projects. However, you may not include any of these items with your uploads - please point to this pack as a dependency!
+
+
+    **DEPENDENCIES**
+
+
+    This dependency has no dependencies :-)
 
 
     \* The entire PEG SPAM collection is available on the PLEX (on the) STEX.
@@ -717,9 +1222,15 @@ pegasus/spam-super-resource-pack:
   variants:
     default:
       assets:
-        - id: simtropolis/26079-peg-spam-super-resource-pack
+        - docs:
+            - spam-sp_plex_480.jpg
+            - readme_SuperPack.txt
+            - PEGPROD/SPAM/readme.txt
+          id: simtropolis/26079-peg-spam-super-resource-pack
           include:
-            - condition:
-                spam: false
-              path: PEGPROD/SPAM/SPAM_Super_Resource_Pack
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Textures/PEG-SPAM_TEXTURES_RESOURCE_b200.dat
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Resource/PEG-SPAM_RESOURCE-01_b200.dat
+            - PEGPROD/SPAM/SPAM_Super_Resource_Pack/SPAM_Crops_Resource/PEG-SPAM_CROPS-01_RESOURCE_b200.dat
+      lastModified: 2015-07-07T00:04:20Z
+      name: Default
       version: 1.0.0

@@ -12,19 +12,21 @@ debussyman/berlin-w2w-wmf-haus:
   variants:
     default:
       assets:
-        - id: simtropolis/36405-berlin-w2w-wmf-haus
+        - docs: []
+          id: simtropolis/36405-berlin-w2w-wmf-haus
+      lastModified: 2024-08-22T08:15:43Z
       lots:
-        - category: cs$$
-          filename: CS$$5_2x1_DBSSY_BerlinW2W_WMF_Haus_8448d09c.SC4Lot
+        - filename: CS$$5_2x1_DBSSY_BerlinW2W_WMF_Haus_8448d09c.SC4Lot
           id: 8448d09c
-          label: Berlin W2W WMF-Haus (CS$$, Stage 5, 2x1)
+          label: CS$$5_2x1_DBSSY_BerlinW2W_WMF_Haus_8448d09c.SC4Lot
           size: 2x1
           stage: 5
-        - category: landmark,cs$$
+        - category: landmarks
           filename: PLOP_2x1_DBSSY_BerlinW2W_WMF_Haus_b449ca9b.SC4Lot
           id: b449ca9b
-          label: Berlin W2W WMF-Haus (CS$$, Landmark, 2x1)
+          label: PLOP_2x1_DBSSY_BerlinW2W_WMF_Haus_b449ca9b.SC4Lot
           size: 2x1
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -39,7 +41,7 @@ debussyman/dresden-frauenkirche:
     destroyed in WW2.
 
 
-    Available on the "Landmarks" Menu
+    Aviable on the "Landmarks" Menu
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheLight.png.7ca7e0acb69fc0cf35cdfb5d44757eef.png
   name: Dresden Frauenkirche
@@ -49,22 +51,32 @@ debussyman/dresden-frauenkirche:
   variants:
     default:
       assets:
-        - id: simtropolis/36393-dresden-frauenkirche
+        - docs: []
+          id: simtropolis/36393-dresden-frauenkirche
+      lastModified: 2024-08-15T02:05:03Z
+      lots:
+        - category: landmarks
+          filename: PLOP_4x4_Dresden Frauenkirche_644243f2.SC4Lot
+          id: 644243f2
+          label: PLOP_4x4_Dresden Frauenkirche_644243f2.SC4Lot
+          size: 4x4
       name: Default
       version: 1.0.0
     pre-war-version:
       assets:
-        - id: simtropolis/36395-dresden-frauenkirche-pre-war-version
+        - docs: []
+          id: simtropolis/36395-dresden-frauenkirche-pre-war-version
       description: Pre-war look of a previously uploaded church. Also located under "Landmarks"
       images:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheDark.png.f0ec6fd84202b8e17a24e121a7b25f78.png
+      lastModified: 2024-08-16T20:23:01Z
       lots:
-        - filename: PLOP_4x4_Dresden Frauenkirche_Dark_53cb8009.SC4Lot
+        - category: landmarks
+          filename: PLOP_4x4_Dresden Frauenkirche_Dark_53cb8009.SC4Lot
           id: 53cb8009
-          label: Dresden Frauenkirche, Pre-war (Landmark, 4x4)
+          label: PLOP_4x4_Dresden Frauenkirche_Dark_53cb8009.SC4Lot
           size: 4x4
-      name: Pre-war
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/FrauenkircheDark.thumb.png.31506a9fac39389e4de90713543fed23.png
       url: https://community.simtropolis.com/files/file/36395-dresden-frauenkirche-pre-war-version/
       version: 1.0.0
@@ -108,6 +120,107 @@ debussyman/mega-props-vol02:
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
       version: 3.0.0
 
+debussyman/vienna-karlskirche-church:
+  authors:
+    - debussyman
+  category: civics
+  description: >-
+    The Rektoratskirche St. Karl Borromäus, commonly called the Karlskirche (English: St. Charles Church), is a Baroque church located on the south side of Karlsplatz in Vienna, Austria. Widely
+    considered the most outstanding baroque church in Vienna, as well as one of the city's greatest buildings, the church is dedicated to Saint Charles Borromeo, one of the great counter-reformers of
+    the sixteenth century
+
+
+    **Dependencies:**
+
+
+    None
+
+
+    **Stats:**
+
+
+    Size: 5x5x
+
+
+    Plop Cost: 50000
+
+
+    Manteinance: 100
+
+
+    \*Nightlighted
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/CarlN.png.73b96bc266aeaeb3306df29ceb3a7c94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/KarlsNewMain.png.3f8c02ae211b5aef418c1d7a74d5b4f3.png
+  name: Vienna Karlskirche Church
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_04/KarlsNewMain.thumb.png.a5c44fdf7ca4a7514ae6c520c8e6539d.png
+  url: https://community.simtropolis.com/files/file/33572-vienna-karlskirche-church/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Readme.txt
+          id: simtropolis/33572-vienna-karlskirche-church
+      lastModified: 2020-04-27T17:36:30Z
+      lots:
+        - filename: DBSSYMN_ViennaKarlskirche1_abb2ee27.SC4Lot
+          id: abb2ee27
+          label: DBSSYMN_ViennaKarlskirche1_abb2ee27.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+debussyman/wz-recreation-gare-avenue-foch:
+  authors:
+    - debussyman
+  category: transport
+  description: >-
+    This is a recreation of a former WolfZE BAT
+
+
+    Avenue Foch station is a station in the Paris express suburban rail system, the RER. It is in the 16th arrondissement of Paris. It had previous been called Avenue du Bois de Boulogne as part of
+    the Auteuil line, but was renamed following the change to the road itself.
+
+
+    The station was once a "sunken" station, meaning that it was not covered.
+
+
+    1x2 lot
+
+
+    Found in the transportation menu.
+
+
+    Special thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for his kind help modding the station.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/GareFoch.png.40b4f22ec589ce644986ff687755dd77.png
+  name: "WZ Recreation: Gare Avenue Foch"
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/GareFoch.thumb.png.8340d8ff4596c118ca76fd4ca90ba515.png
+  url: https://community.simtropolis.com/files/file/36426-wz-recreation-gare-avenue-foch/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/Debussyman Readmes/images/DBSSY Gare Av Foch-d.jpg
+            - ~Documents/Debussyman Readmes/images/DBSSY Gare Av Foch-n.jpg
+            - ~Documents/Debussyman Readmes/Readme_DBSSYMN - Gare Av Foch.htm
+          id: simtropolis/36426-wz-recreation-gare-avenue-foch
+      lastModified: 2024-09-04T10:51:26Z
+      lots:
+        - filename: DBSSY_1x2_WZ_Gare_Av_Foch_745ca26e.SC4Lot
+          id: 745ca26e
+          label: DBSSY_1x2_WZ_Gare_Av_Foch_745ca26e.SC4Lot
+          size: 1x2
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 debussyman/wz-recreation-palais:
   authors:
     - debussyman
@@ -122,7 +235,15 @@ debussyman/wz-recreation-palais:
   variants:
     default:
       assets:
-        - id: simtropolis/36334-wz-recreation-palais
+        - docs:
+            - WZPalais.PNG
+          id: simtropolis/36334-wz-recreation-palais
+      lastModified: 2024-07-11T20:30:17Z
+      lots:
+        - filename: DBSSY_WZRec_Palais_139bfe1e.SC4Lot
+          id: 139bfe1e
+          label: DBSSY_WZRec_Palais_139bfe1e.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

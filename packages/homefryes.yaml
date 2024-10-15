@@ -118,13 +118,52 @@ homefryes/american-foursquare-homes:
     default:
       assets:
         - docs:
-            - Homefryes_Readmes
+            - _Documents/Homefryes_Readmes
           id: sc4evermore/106-american-foursquare-homes-by-homefryes
           include:
             - Homefryes/American Four Square Homes
-      name: Maxis Nite
-      requirements:
-        darknite: false
+      lastModified: 2023-08-20T02:47:52-07:00
+      lots:
+        - filename: R$$4_1x1_American Four Square _8facf458.SC4Lot
+          id: 8facf458
+          label: R$$4_1x1_American Four Square _8facf458.SC4Lot
+          size: 1x1
+          stage: 4
+        - filename: R$$4_1x1_American Four Square _2faba7d8.SC4Lot
+          id: 2faba7d8
+          label: R$$4_1x1_American Four Square _2faba7d8.SC4Lot
+          size: 1x1
+          stage: 4
+        - filename: R$$3_1x2_American Four Square_afac2d37.SC4Lot
+          id: afac2d37
+          label: R$$3_1x2_American Four Square_afac2d37.SC4Lot
+          size: 1x2
+          stage: 3
+        - filename: R$$3_1x2_American Four Square_afac2668.SC4Lot
+          id: afac2668
+          label: R$$3_1x2_American Four Square_afac2668.SC4Lot
+          size: 1x2
+          stage: 3
+        - filename: R$$2_1x3_American Four Square_8fad038b.SC4Lot
+          id: 8fad038b
+          label: R$$2_1x3_American Four Square_8fad038b.SC4Lot
+          size: 1x3
+          stage: 2
+        - filename: R$$2_1x3_American Four Square_8facfb3c.SC4Lot
+          id: 8facfb3c
+          label: R$$2_1x3_American Four Square_8facfb3c.SC4Lot
+          size: 1x3
+          stage: 2
+        - filename: R$$2_1x3_American Four Square_6fad07f3.SC4Lot
+          id: 6fad07f3
+          label: R$$2_1x3_American Four Square_6fad07f3.SC4Lot
+          size: 1x3
+          stage: 2
+        - filename: R$$2_1x3_American Four Square_0facfef6.SC4Lot
+          id: 0facfef6
+          label: R$$2_1x3_American Four Square_0facfef6.SC4Lot
+          size: 1x3
+          stage: 2
       version: 2.0.0
   warnings:
     - id: bulldoze
@@ -135,6 +174,13 @@ homefryes/cambridge-townhomes:
     - Homefryes
     - BarbyW
   category: r$$
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - dolphin66/mega-props-vol01
   description: >-
     This is a set of 10 R$$ lots using building and prop families for many possible variations as they grow. The townhome/condominium buildings are based on a former builder here in the US called
     Cambridge Homes. The company has since been bought out by another builder, but when Cambridge was building their communities, they would usually give the streets British names. My buildings have
@@ -203,7 +249,7 @@ homefryes/cambridge-townhomes:
     To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
 
 
-    - [SC4D LEX Legacy BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+    - SC4D LEX Legacy BSC Common Dependencies Pack
         - BSC MEGA Props D66 Vol01 v2 (and above)
         - BSC MEGA Props CP Vol01
         - BSC TexturePack Cycledogg V01b
@@ -240,7 +286,7 @@ homefryes/cambridge-townhomes:
     default:
       assets:
         - docs:
-            - Homefryes_Readmes
+            - _Documents/Homefryes_Readmes
           id: sc4evermore/107-cambridge-townhomes-by-homefryes
           include:
             - Homefryes/Cambridge Townhomes
@@ -251,9 +297,58 @@ homefryes/cambridge-townhomes:
         - cycledogg/mega-props-vol01
         - cycledogg/textures-vol01
         - dolphin66/mega-props-vol01
-      name: Maxis Nite
-      requirements:
-        darknite: false
+      lastModified: 2023-08-20T02:47:00-07:00
+      lots:
+        - filename: R$$5_6x6 Cambridge Townhomes 8.2_138b86a4.SC4Lot
+          id: 138b86a4
+          label: R$$5_6x6 Cambridge Townhomes 8.2_138b86a4.SC4Lot
+          size: 6x6
+          stage: 5
+        - filename: R$$5_6x6 Cambridge Townhomes 8.1_538a6e0a.SC4Lot
+          id: 538a6e0a
+          label: R$$5_6x6 Cambridge Townhomes 8.1_538a6e0a.SC4Lot
+          size: 6x6
+          stage: 5
+        - filename: R$$5_6x4 Cambridge Townhomes 6.1_538a41c1.SC4Lot
+          id: 538a41c1
+          label: R$$5_6x4 Cambridge Townhomes 6.1_538a41c1.SC4Lot
+          size: 6x4
+          stage: 5
+        - filename: R$$5_5x4 Cambridge Townhomes 5.1_338a41b0.SC4Lot
+          id: 338a41b0
+          label: R$$5_5x4 Cambridge Townhomes 5.1_338a41b0.SC4Lot
+          size: 5x4
+          stage: 5
+        - filename: R$$4_6x6 Cambridge Townhomes 7.1_138a41d3.SC4Lot
+          id: 138a41d3
+          label: R$$4_6x6 Cambridge Townhomes 7.1_138a41d3.SC4Lot
+          size: 6x6
+          stage: 4
+        - filename: R$$4_4x4 Cambridge Townhomes 4.2_738a4a4e.SC4Lot
+          id: 738a4a4e
+          label: R$$4_4x4 Cambridge Townhomes 4.2_738a4a4e.SC4Lot
+          size: 4x4
+          stage: 4
+        - filename: R$$4_4x4 Cambridge Townhomes 4.1_538a4184.SC4Lot
+          id: 538a4184
+          label: R$$4_4x4 Cambridge Townhomes 4.1_538a4184.SC4Lot
+          size: 4x4
+          stage: 4
+        - filename: R$$4_2x2_Cambridge Townhomes - R-601-AtmYlwR$$_779586a7.SC4Lot
+          id: 779586a7
+          label: R$$4_2x2_Cambridge Townhomes - R-601-AtmYlwR$$_779586a7.SC4Lot
+          size: 2x2
+          stage: 4
+        - filename: R$$4_2x2_Cambridge Townhomes - L-603-NatClyR$$_87958595.SC4Lot
+          id: "87958595"
+          label: R$$4_2x2_Cambridge Townhomes - L-603-NatClyR$$_87958595.SC4Lot
+          size: 2x2
+          stage: 4
+        - filename: R$$3_3x3 Cambridge Townhomes 2.1_b38a4143.SC4Lot
+          id: b38a4143
+          label: R$$3_3x3 Cambridge Townhomes 2.1_b38a4143.SC4Lot
+          size: 3x3
+          stage: 3
       version: 1.0.0
   warnings:
     - id: bulldoze

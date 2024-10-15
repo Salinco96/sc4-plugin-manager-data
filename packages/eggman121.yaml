@@ -1,10 +1,18 @@
-# TODO: Add as dependency to NAM/RRW
-eggman121/real-railway-rrw-reskin-3rd-party-lot-support:
+eggman121/ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit:
   authors:
-    - Eggman121
-    - MGB204
-    - rivit
-  category: graphics,overrides
+    - eggman121
+  category: dependencies
+  dependencies:
+    - aptx/mega-props-collection
+    - bsc/common-dependencies
+    - nam/network-addon-mod
+    - ncd/railyard-textures-vol01
+    - nob/mega-props-collection
+    - nos-17/sc4-cleanitol
+    - pegasus/mtp-super-pack
+    - sc4evermore/18-bsc-cleanitol
+    - stex-custodian/pegasus-cdk3-collection
+    - wmp/mega-textures
   description: >-
     This upload has become now the **official release of the Real RailWay (RRW) Reskin 3rd Party Lot Support** and it is replacing the former and by now obsolete *NCD-BSC RealRailway Texture Pack by
     eggman121 and rivit* (**both the older V1 and recently made V2 update has become superseded by this update**)
@@ -13,6 +21,236 @@ eggman121/real-railway-rrw-reskin-3rd-party-lot-support:
     This is the updated version of the original *NCD Real Railway Texture Override Pack by eggman121*, as the original one became a bit outdated. This update contains the more coherent and up to date
     version of the RRW Reskin 3rd party Lot Supports by rivit, MGB and eggman121. The original files were replaced with the Reskin Kit LotSupport versions and the install folder is now identical with
     the RRW Reskin folder. Bear in mind this override set is only compatible with the original RealRailway (brownish) texture set. For alternative colour re-skins use the RRW Reskin Kit.
+
+
+    For removing the outdated/old versions you will find the *Cleanitol_RRW 3rd Party Lot Support v3.48.txt*. Run the script with one of the third party Cleanitol Tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    [BSC Cleanitol](https://sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) (old tool)
+
+
+    In order to make the RRW Reskin (a project to enable the recoloring of the Real Railway) a set of Lot Textures has been created for the Original RRW texture colours. With the help of a number of
+    modders (spotting, making and testing) a very comprehensive coverage has been achieved - roughly 1100 textures.
+
+
+    Older lot textures were made with the Maxis Rail in mind. This set contains RRW versions of those textures. They will not be perfect as they have been algorithmically redrawn. However they match
+    in color, guage and positioning.
+
+
+    If when using them you discover very poor quality please let us know so we can fix them.
+
+
+    The Set contains support for Rail Textures for lots using textures by the following authors:
+
+
+    NAM core, BSC (incl jes), Cogeo, MGB, PEG, NCD, NOB, APTX, Simmer2 and WMP sets of Lot Textures containing Rail.
+
+
+    ### Contents
+
+
+    This download contains RRW Override files for:
+
+
+    1.  *NCD Railyard Texture Mega-Pack Vol01* (v3) ([Railyard Texture Mega-Pack Vol 1.dat](https://community.simtropolis.com/files/file/15976-rail-yard-and-spur-textures-mega-pack-1/ "Rail Yard and
+    Spur Textures Mega Pack 1 on STEX")\*, ~~Railyard Texture Mega-Pack Vol 102.dat~~ and [Railyard Texture Mega-Pack Vol01
+    v3.dat](https://community.simtropolis.com/files/file/22325-ncd-railyard-texture-mega-pack-vol01-v3/ "STEX"))**
+
+        RealRailway_ReSkin_LotSupport_NCD.dat**
+    2.  *Various rail related textures (most of them) that can be found in the BSC Textures packs* (vol01-vol03)\*\***
+
+        RealRailway_ReSkin_LotSupport_BSC.dat**
+    3.  *APTX island type railstation textures* (8590_RailTexture.dat), *that can be found in the* APTX Textures Vol01.dat
+
+        **RealRailway_ReSkin_LotSupport_APTX.dat**
+    4.  *Various rail related textures from Cogeo.*
+
+        **RealRailway_ReSkin_LotSupport_Cogeo.dat**
+    5.  *Various rail related textures from MGB204/rsc204*
+
+        **RealRailway_ReSkin_LotSupport_MGB.dat**
+    6.  *Various rail related textures from NOB, that can be found in the* NOB Texture Pack Vol01_v2.dat (former Ftextures)
+
+        **RealRailway_ReSkin_LotSupport_NOB.dat**
+    7.  *Various rail related textures from Pegasus a.k.a. PEGPROD, that can be found now in the* [PEG-SUPER_TEXTURES.dat](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
+    "PEG-MTP SUPER PACK")
+
+        **RealRailway_ReSkin_LotSupport_PEG.dat**\*\*\*
+    8.  *Various rail related textures from Simmer2. Simmer2 has already created his textures for RRW in mind, but used custom colours, wearing etc.. These Reskin overrides in this DAT are transition
+    textures between his RRW textures and whatever RRW Reskin is in use by the player.*
+
+        **RealRailway_ReSkin_LotSupport_Simmer2.dat**
+    9.  *Various rail related textures created by the WMP Team, that can be found in the* [WMP Mega Textures v1.02](https://community.simtropolis.com/files/file/33626-wmp-mega-textures-v102/ "STEX").
+
+        **RealRailway_ReSkin_LotSupport_WMP.dat**
+    10. *These are the rail related lot support textures that came with the base game or added by the* *Network Addon Mod*.
+
+        **RealRailway_ReSkin_LotSupport_CORE.dat**\*\*\*\*
+
+    \*The *Rail Yard and Spur Textures Mega Pack 1* on STEX is an outdated legacy texture set. It is highly NOT recommended to be used for LOT making. **Use instead the NCD Railyard Texture Mega-Pack
+    Vol01 v3**.
+
+
+    \*\*The BSC Texture Packs are part of the BSC Common Dependencies Pack and they are still needed since only the rail related textures were updated! So Please keep these file in
+
+
+    your plugins folder!
+
+
+    \*\*\*The *RealRailway_ReSkin_LotSupport_PEG.dat* is (more or less) identical with the *PEG-SUPER_TEXTURES_RRWOverride.dat* that was released with the [Pegasus CDK3
+    Collection](https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/).
+
+
+    \*\*\*\*A more or less identical version of this file (*RealRailway_Textures_LotSupport.dat*) can also be found in the Network Addon Mod.
+
+
+    This update is highly recommended for anyone who is using the Real Railway and wishes for NCD Lots to conform
+
+
+    ### Change Log
+
+
+    - The former *NCD-BSC RealRailway Texture Pack by eggman121 and rivit* (both the older V1 and recently made V2 update) has become superseded by this upload, which is the official **Real RailWay
+    (RRW) Reskin 3rd Party Lot Support**
+
+    - The **APTX** files are the latest addition (found by Tyberius06)
+
+    - the **jes** files have been merged into the BSC files (req. Tyberius06)
+
+    - a number of **NCD102** textures have received corrected IIDs (found by Tyberius06)
+
+    - The **RealRailway_ReSkin_LotSupport_PEG.dat** now has become (more or less) identical with the *PEG-SUPER_TEXTURES_RRWOverride.dat* that was released with the [Pegasus CDK3
+    Collection](https://community.simtropolis.com/files/file/35353-pegasus-cdk3-collection/)
+
+
+    as a consequence of these changes, both versions have changed (from v2.47 to v3.48) and previous installs should be removed first before putting this in place.
+
+
+    ### Installation
+
+
+    As these are scattered throughout a number of Mods, Megapacks, Lots and .dats, these Lot Support files need to go after their likely (default) place in the loading sequence. This set should
+    therefore be placed in a special folder Plugins/**Z_\__RRW Reskin** i.e. as in this archive. Normally you do this by copying the contents of this Archive directly into User/Plugins as the folder
+    structure is already included.
+
+
+    If you have Lots that use rail that load after this place in the plugins folder they will not display the RRW textures.
+
+
+    Plugins/Z_\__RRW Reskin/LotSupport is the default home of all RRW (reskin) Lot Support files.
+
+
+    If you experience any issues with these packs you can post in the applicable thread at [SC4Evermore Discord](https://discordapp.com/invite/NsNZHEC).
+
+
+    ### Credits
+
+
+    The following people have had a substantial hand in this work!
+
+
+    eggman121 "Updating the packs to RRW standard"
+
+
+    North Country Dude (NCD) "For the initial work foundation"
+
+
+    Rivit "For the excellent set of tools to make this update possible
+
+
+    MGB204 "For help in using the tools Rivit provided"
+
+
+    The BSC Team "For Initial work foundation"
+
+
+    Swordmaster "For the initial RRW project"
+
+
+    Jan 2024 rivit, MGB204, Eggman121, Simmer2 and Tyberius06
+
+     ![NCD-BSC RealRailway Texture Pack V1-01](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/NCD-BSC%20RealRailway%20Texture%20Pack%20V1-01.jpg)![NCD-BSC RealRailway Texture Pack V1-022](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/NCD-BSC%20RealRailway%20Texture%20Pack%20V1-02.jpg)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/NCD-BSC RealRailway Texture Pack V1-01.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/NCD-BSC RealRailway Texture Pack V1-02.jpg
+  name: Real RailWay (RRW) Reskin 3rd Party Lot Support
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/NCD-BSC RealRailway Texture Pack V1-01.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/207-ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_RRW 3rd Party Lot Support v3.48.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_APTX_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_BSC-BASE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_BSC-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_Cogeo_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_CORE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_MGB_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NCD-BASE-pt1_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NCD-BASE-pt2_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NCD-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NOB_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_PEG-BASE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_PEG-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_Simmer2-BASE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_Simmer2-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_WMP_index.jpg
+            - ~Documents/Readme_Real RailWay (RRW) Reskin 3rd Party Lot Support.html
+            - ~Documents/Readme_RRW 3rd Party Lot Support v3.48.txt
+          id: sc4evermore/207-ncd-bsc-realrailway-texture-pack-by-eggman121-and-rivit
+          include:
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_APTX.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_BSC.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_Cogeo.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_CORE.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_MGB.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_NCD.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_NOB.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_PEG.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_Simmer2.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_WMP.dat
+      lastModified: 2024-01-28T16:21:45-08:00
+      name: Default
+      version: 3.48.0
+
+eggman121/real-railway-rrw-reskin-3rd-party-lot-support:
+  authors:
+    - Eggman121
+    - MGB204
+    - rivit
+  category: graphics,overrides
+  dependencies:
+    - aptx/mega-props-collection
+    - bsc/common-dependencies
+    - nam/network-addon-mod
+    - ncd/railyard-textures-vol01
+    - nob/mega-props-collection
+    - nos-17/sc4-cleanitol
+    - pegasus/mtp-super-pack
+    - stex-custodian/pegasus-cdk3-collection
+    - wmp/mega-textures
+  description: >-
+    This upload has become now the **official release of the Real RailWay (RRW) Reskin 3rd Party Lot Support** and it is replacing the former and by now obsolete *NCD-BSC RealRailway Texture Pack by
+    eggman121 and rivit* (**both the older V1 and recently made V2 update has become superseded by this update**)
+
+
+    This is the updated version of the original *NCD Real Railway Texture Override Pack by eggman121*, as the original one became a bit outdated. This update contains the more coherent and up to date
+    version of the RRW Reskin 3rd party Lot Supports by rivit, MGB and eggman121. The original files were replaced with the Reskin Kit LotSupport versions and the install folder is now identical with
+    the RRW Reskin folder. Bear in mind this override set is only compatible with the original RealRailway (brownish) texture set. For alternative colour re-skins use the RRW Reskin Kit.
+
+
+    For removing the outdated/old versions you will find the *Cleanitol_RRW 3rd Party Lot Support v3.48.txt*. Run the script with one of the third party Cleanitol Tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    [BSC Cleanitol](https://sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) (old tool)
 
 
     In order to make the RRW Reskin (a project to enable the recoloring of the Real Railway) a set of Lot Textures has been created for the Original RRW texture colours. With the help of a number of
@@ -156,9 +394,36 @@ eggman121/real-railway-rrw-reskin-3rd-party-lot-support:
     default:
       assets:
         - docs:
-            - ~Documents/Readme*
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_*_index.jpg
+            - ~Documents/Readme_RRW 3rd Party Lot Support v3.48.txt
+            - ~Documents/Readme_Real RailWay (RRW) Reskin 3rd Party Lot Support.html
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_WMP_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_Simmer2-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_Simmer2-BASE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_PEG-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_PEG-BASE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NOB_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NCD-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NCD-BASE-pt2_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_NCD-BASE-pt1_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_MGB_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_CORE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_Cogeo_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_BSC-OL_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_BSC-BASE_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/RealRailway_ReSkin_LotSupport_APTX_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_RRW 3rd Party Lot Support v3.48.txt
           id: simtropolis/31988-real-railway-rrw-reskin-3rd-party-lot-support
           include:
-            - Z___RRW Reskin/Lot Support
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_WMP.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_Simmer2.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_PEG.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_NOB.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_NCD.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_MGB.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_CORE.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_Cogeo.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_BSC.dat
+            - Z___RRW Reskin/Lot Support/RealRailway_ReSkin_LotSupport_APTX.dat
+      lastModified: 2024-01-29T00:47:49Z
+      name: Default
       version: 3.48.0

@@ -19,6 +19,7 @@ ripplejet/block-maxis-hanggliders:
           id: sc4evermore/44-block-maxis-hanggliders-mod-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T03:31:47-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/44-block-maxis-hanggliders-mod-by-ripplejet
       version: 1.0.0
 
@@ -40,6 +41,7 @@ ripplejet/block-road-barriers:
           id: sc4evermore/45-block-road-barriers-mod-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T03:32:08-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/45-block-road-barriers-mod-by-ripplejet
       version: 1.0.0
 
@@ -68,6 +70,7 @@ ripplejet/block-toilet-paper-trees:
           id: sc4evermore/49-toilet-paper-free-toilet-paper-tree-mod-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T03:39:42-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/49-toilet-paper-free-toilet-paper-tree-mod-by-ripplejet
       version: 1.0.0
 
@@ -98,6 +101,7 @@ ripplejet/brighter-street-lights:
           id: sc4evermore/46-brighter-street-lights-mod-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T03:39:53-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/46-brighter-street-lights-mod-by-ripplejet
       version: 1.0.0
 
@@ -105,9 +109,8 @@ ripplejet/census-repository-building:
   authors:
     - RippleJet
   category: landmarks,mods
-  description: Census Repository Building
   lots:
-    - filename: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+    - filename: RW_3x1_Census Repository Facility_Z*.SC4Lot
       id: facility
       label: Census Repository Facility
       size: 3x1
@@ -116,23 +119,24 @@ ripplejet/census-repository-building:
       label: Census Repository Vault
       size: 2x2
   name: Census Repository Building
-  # TODO
-  # options:
-  #   - choices:
-  #       - label: Classic
-  #         value: CLASSIC
-  #       - label: Low
-  #         value: LOW
-  #       - label: Medium
-  #         value: MEDIUM
-  #       - label: High
-  #         value: HIGH
-  #       - label: Ultra
-  #         value: ULTRA
-  #     default: ULTRA
-  #     id: facility
-  #     label: Census Repository Facility
-  #     type: string
+  options:
+    - choices:
+        - label: Classic
+          value: CLASSIC
+        - label: Low
+          value: LOW
+        - label: Medium
+          value: MEDIUM
+        - label: High
+          value: HIGH
+        - label: Ultra
+          value: ULTRA
+      condition:
+        lots: facility
+      default: ULTRA
+      id: facility
+      label: Census Repository Facility
+      type: string
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/6642981d499ae_CensusRepositoryDLLUpgradePatch-1.thumb.jpg.75c66956caeb28c65279bbeeb577d9ea.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
@@ -143,7 +147,9 @@ ripplejet/census-repository-building:
             - _Documents/BSC_Readmes/RippleJet
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
-            - BSC/Ripplejet/Census Repository
+            - _Documents/BSC_Readmes/RippleJet/**/RW_3x1_Census Repository Facility_Z*_{{facility}}.SC4Lot
+            - BSC/Ripplejet/Census Repository/RW_2x2_Census Repository Vault.SC4Lot
+            - BSC/Ripplejet/Census Repository/RJ - Census_Repository_Model_and_Query_3.1.dat
         - id: simtropolis/49203-rx-coris-cam-2-1-0a-neutral-tax-override-for-rj-census-repository-3-1
           include:
             - condition:
@@ -154,6 +160,7 @@ ripplejet/census-repository-building:
             - condition:
                 cam: false
               path: "*"
+      lastModified: 2023-07-20T03:48:28-07:00
       version: 3.5.0
     kel9509:
       assets:
@@ -163,9 +170,8 @@ ripplejet/census-repository-building:
             - RJ - Census_Repository_Model_and_Query_3.1.dat
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
-            - "{{lots}}_Z*_{{facility}}.SC4Lot"
-            - "{{lots}}.SC4Lot"
-            - BSC/Ripplejet/Census Repository
+            - _Documents/BSC_Readmes/RippleJet/**/RW_3x1_Census Repository Facility_Z*_{{facility}}.SC4Lot
+            - BSC/Ripplejet/Census Repository/RW_2x2_Census Repository Vault.SC4Lot
         - id: simtropolis/49203-rx-coris-cam-2-1-0a-neutral-tax-override-for-rj-census-repository-3-1
           include:
             - condition:
@@ -179,6 +185,8 @@ ripplejet/census-repository-building:
         - docs:
             - Census Repository Building DLL Upgrade
           id: simtropolis/36245-census-repository-building-dll-upgrade-patch
+          include:
+            - Census Repository Building DLL Upgrade
       authors:
         - Kel9509
       dependencies:
@@ -200,7 +208,7 @@ ripplejet/census-repository-building:
         - https://www.simtropolis.com/objects/screens/monthly_2024_05/66429669c9a71_CensusRepositoryDLLUpgradePatch-3.jpg.3d75f1b123269b476f5eff49ce353284.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_05/6642966db9bea_CensusRepositoryDLLUpgradePatch-4.jpg.3de999a8627e326dbb796402d54dc659.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_05/66429671977af_CensusRepositoryDLLUpgradePatch-5.jpg.6f3be110bcf83cf3b61f72480bcc9079.jpg
-      release: 2024-08-20T10:45:45.232Z
+      lastModified: 2024-05-13T22:45:50Z
       url: https://community.simtropolis.com/files/file/36245-census-repository-building-dll-upgrade-patch/
       version: 1.0.0
   warnings:
@@ -228,6 +236,7 @@ ripplejet/disable-bridge-wash-effect:
           id: sc4evermore/43-disable-bridge-wash-effect-mod-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T03:31:32-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/43-disable-bridge-wash-effect-mod-by-ripplejet
       version: 1.1.0
 
@@ -252,6 +261,7 @@ ripplejet/ghostbusters:
           id: sc4evermore/47-ghostbusters-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T03:39:50-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/47-ghostbusters-by-ripplejet
       version: 1.0.0
 
@@ -280,5 +290,6 @@ ripplejet/longer-night-lights:
           id: sc4evermore/48-longer-night-lights-mod-by-ripplejet
           include:
             - Z___BSC Mods/RJ MODs
+      lastModified: 2023-07-25T04:30:13-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/48-longer-night-lights-mod-by-ripplejet
       version: 1.0.0

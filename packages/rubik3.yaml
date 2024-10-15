@@ -7,14 +7,21 @@ rubik3/wtc-complex:
     - callagrafx
   category: landmarks,commercial
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol03
+    - cam/colossus-addon-mod
     - csx/mega-props-vol01
     - csx/mega-props-vol04
     - lord_quillian2/foss-construction-tower-crane
     - memo/submenus-dll
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
     - simgoober/mega-props-vol01
   description: >-
+    **SC4D LEX Legacy - BSC Custodian Rubik WTC Complex**
+
+
     This SC4 Devotion LEX Legacy Pack features the complete set of World Trade Center Compelex (Pre 11/9/2001) by Rubik, including Props and Lots, which had been available on the Lot Exchange (LEX) at
     SC4 Devotion.
 
@@ -44,6 +51,68 @@ rubik3/wtc-complex:
     - BSC WTC Submenu
 
     - One and Two World Trade - added with Version 2
+
+
+    ### INSTALLATION:
+
+
+    ***Please note: if you had any of the older versions of these contents (including the now added One and Two World Trade - came as: WTC_One World Trade.dat and WTC_Two World Trade.dat), first you
+    must bulldoze them in your cities, then remove the original files from your Plugins.***
+
+
+    This package is a simple .zip file.
+
+
+    Copy/extract the ***BSC*** and ***CAM*** parent folders into your plugins (or equivalent, if you have a custom Plugins folder location). If you extracted the ~Documents folder into your plugins,
+    too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+
+    ptionally in the ~Documents folder in the main ZIP you can find a collective/master and separately all the individual cleanitol files and by using either the newer **[nos.17's SC4
+    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or the older **BSC Cleanitol** tool you can search and remove old and outdated versions of these files.
+
+
+    ### DLL DEPENDENCIES:
+
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed
+    dependencies are covering a full install):
+
+
+    - [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.
+
+        Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+
+    ### DEPENDENCIES:
+
+
+    The following files are required in order for the contents of this package to appear correctly (i.e., no "brown boxes" or missing textures) (the below listed dependencies are covering a full
+    install; for dependencies for individual collections see the ***readme_bsc_custodian_rubik_wtc_complex.html*** in the ZIP. Bear in mind that the original readmes are also available in the
+    *~Documents/BSC_Readmes* folder, but they have **not** been updated):
+
+
+    - **SC4D LEX Legacy - BSC Custodian Rubik WTC Complex v1** (and above) - INCLUDED
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+        - BSC MEGA Props - Rubik3 Vol01 - WTC Props v2
+
+    - [**SC4D LEX Legacy - BSC Common Dependencies Pack v9**](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+        - BSC Essentials (custom queries for the CAM lots)
+        - BSC MEGA Props - SG Vol01 v4
+        - CSX MEGA Props - Vol01 v3
+        - CSX MEGA Props - Vol04 v3
+
+    - - BSC Textures Vol01
+        - BSC Textures Vol03 v4
+    - **[Foss Construction Tower Crane](https://community.simtropolis.com/files/file/2879-foss-construction-tower-crane/ "Foss Construction Tower Crane")** - You need them to make the cranes appear in
+    the WTC Placeholder Lot.
+
+    - **Colossus Addon Mod 2.1.1** (only if you want to use the growable versions of the two tower lots)
 
 
     ### **CREDITS:**
@@ -86,6 +155,8 @@ rubik3/wtc-complex:
 
 
     **We will never forget 9/11, the victims and the heroes of this day**
+
+     ![day](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/day.jpg)![Night12](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night1.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/day.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Night1.jpg
@@ -99,9 +170,19 @@ rubik3/wtc-complex:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/Rubik3
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
-            - ~Documents
+            - ~Documents/BSC_Readmes/Rubik3/LandmarkWTC.jpg
+            - ~Documents/BSC_Readmes/Rubik3/PlaceholderWTC.jpg
+            - ~Documents/BSC_Readmes/Rubik3/Readme_BSC_WTC_Landmark Lot.htm
+            - ~Documents/BSC_Readmes/Rubik3/Readme_BSC_WTC_Placeholder Lot.htm
+            - ~Documents/BSC_Readmes/Rubik3/Readme_BSC_WTC_Reward Lot.htm
+            - ~Documents/BSC_Readmes/Rubik3/readme_One and Two WTC Towers v2 (updated).html
+            - ~Documents/BSC_Readmes/Rubik3/RewardWTC.jpg
+            - ~Documents/BSC_Readmes/Rubik3/Rubik WTC Towers.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/BSC MEGA Props - Rubik3 Vol01 - WTC Props v2_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_BSC MEGA Props - Rubik3 - WTC Props v2.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Rubik3 - WTC Complex.txt
+            - ~Documents/readme.css
+            - ~Documents/readme_bsc_custodian_rubik_wtc_complex.html
           id: sc4evermore/279-sc4d-lex-legacy-bsc-custodian-rubik-wtc-complex
           include:
             - condition:
@@ -110,38 +191,34 @@ rubik3/wtc-complex:
             - BSC/BSCProps
             - BSC/BSC Custodian/Rubik3
             - CAM/Rubik3
-            # TODO: Check this
-            # - BSC/BSC Custodian/Rubik3/One World Trade Tower/One World Trade with Jobs.dat
-            # - BSC/BSC Custodian/Rubik3/Two World Trade Tower/Two World Trade with Jobs.dat
+      lastModified: 2024-09-02T16:42:33-07:00
       lots:
-        - category: landmarks
-          filename: WTC_Complex_Landmark_4e4dd98d.SC4Lot
+        - filename: WTC_Complex_Landmark_4e4dd98d.SC4Lot
           id: 4e4dd98d
-          label: WTC Complex (Landmark)
-        - category: landmarks,rewards
-          filename: WTC_Complex_Reward_ae3f8aea.SC4Lot
-          id: ae3f8aea
-          label: WTC Complex (Reward)
-        - category: landmarks,rewards
-          filename: WTC_Complex_Placeholder_0e44f044.SC4Lot
+          label: WTC_Complex_Landmark_4e4dd98d.SC4Lot
+        - filename: WTC_Complex_Placeholder_0e44f044.SC4Lot
           id: 0e44f044
-          label: WTC Complex (Reward Placeholder)
-        - category: co$$$,cam
+          label: WTC_Complex_Placeholder_0e44f044.SC4Lot
+        - filename: WTC_Complex_Reward_ae3f8aea.SC4Lot
+          id: ae3f8aea
+          label: WTC_Complex_Reward_ae3f8aea.SC4Lot
+        - category: co$$$
           filename: CO$$$15_4x4_WTC_Complex_One World Trade_Co$$$_243260d7.SC4Lot
           id: 243260d7
-          label: WTC One (CO$$$, Stage 15, 4x4)
+          label: CO$$$15_4x4_WTC_Complex_One World Trade_Co$$$_243260d7.SC4Lot
           requirements:
             cam: true
           size: 4x4
           stage: 15
-        - category: co$$$,cam
+        - category: co$$$
           filename: CO$$$15_4x4_WTC_Complex_Two World Trade_Co$$$_043264c8.SC4Lot
           id: 043264c8
-          label: WTC Two (CO$$$, Stage 15, 4x4)
+          label: CO$$$15_4x4_WTC_Complex_Two World Trade_Co$$$_043264c8.SC4Lot
           requirements:
             cam: true
           size: 4x4
           stage: 15
+      name: Default
       version: 2.0.0
   warnings:
     - id: bulldoze

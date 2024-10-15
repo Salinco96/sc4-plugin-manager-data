@@ -27,9 +27,18 @@ rott/pacific-supply:
   variants:
     default:
       assets:
-        - id: simtropolis/36328-pacific-supply
+        - docs: []
+          id: simtropolis/36328-pacific-supply
           include:
             - Pacific Supply
+      lastModified: 2024-07-04T02:17:26Z
+      lots:
+        - filename: I-m1_5x3_Pacific Supply_53906698.SC4Lot
+          id: "53906698"
+          label: I-m1_5x3_Pacific Supply_53906698.SC4Lot
+          size: 5x3
+          stage: 1
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

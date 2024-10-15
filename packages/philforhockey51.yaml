@@ -3,6 +3,7 @@ philforhockey51/irm-fillers-full-concrete-angles:
     - philforhockey51
   category: irm,diagonal,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
@@ -20,6 +21,8 @@ philforhockey51/irm-fillers-full-concrete-angles:
     - ncd/railyard-textures-vol01
     - sfbt/essentials
   description: |-
+    PHIL IRM Full Concrete Angles Filler Lots
+
     57 additional IRM filler lots that match with TWrecks IRM Fillers.
 
     These varied diagonal, FA2, and FA3 lots all have the same IRM style concrete textures on the full lot.
@@ -28,10 +31,47 @@ philforhockey51/irm-fillers-full-concrete-angles:
 
     A mix of 1x1, 2x1, 3x1 neutral lots using the IRM base texture and a mix of industrial props.
 
+    Dependencies:
+
+    Texture - SC4 base texture
+
+    Texture - [NCD Railyard Texture Mega-Pack Vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/246-ncd-railyard-texture-mega-pack-vol01-v3) -
+
+    Props - [Murimk - Props Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/) -
+
+    Props - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials) -
+
+    Props from [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack):
+
+    Texture - BSC Textures Vol01 and Vol02
+
+    Wall Props - BSC MEGA Props CP Vol01
+
+    Props - BSC MEGA Props JES Vol01 v2
+
+    Props - BSC MEGA Props JES Vol02 v2
+
+    Props - BSC MEGA Props JES Vol03 v2
+
+    Props - BSC MEGA Props JES Vol05 v2
+
+    Props - BSC MEGA Props SG Vol01 v4
+
+    Just in case I used them:
+
+    Props - BSC MEGA Props JES Vol01-Vol08
+
+    Props - BSC MEGA Props DAE Vol01
+
+    I've intentionally left the lots as individual files so any unwanted lots can be removed. Lots plopped in game will need to be demolished first if removing the file.
 
     Though I tried and tested multiple ways of sorting the lots in the in game menu none were successful.
 
     At minimum the Industry type groups together along with TWreck's IRM Fillers and KOSC's IRM Filler Sets.
+
+    Hope you enjoy them,
+
+    ~Phil
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0f8347305_I-DConcAll.jpeg.72f8fb12c6d3ace1d75c72705e56db69.jpeg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0f8e0dced_I-MConcAll.jpeg.3bc6c19ffe9eb5665c99585d6d5bd6ca.jpeg
@@ -46,182 +86,250 @@ philforhockey51/irm-fillers-full-concrete-angles:
     default:
       assets:
         - docs:
-            - Full Concrete Documents
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-D Conc All.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-D Conc FA3 L P1.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-D Conc Wall P3.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-HT Conc All.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-HT Conc FA2 R P2.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-HT Conc FA3 L P1.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-M Conc All.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-M Conc FA2 L P3.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/I-M Conc Wall P1.jpeg
+            - PHIL IRM Fillers - Full Concrete Angles/Full Concrete Documents/PHIL IRM Full Concrete Angles - Read Me.txt
           id: simtropolis/36413-phil-irm-fillers-full-concrete-angles
           include:
             - PHIL IRM Fillers - Full Concrete Angles
+      lastModified: 2024-08-26T05:22:55Z
       lots:
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P1_844bf18b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P1_844bf18b.SC4Lot
           id: 844bf18b
-          label: FA2 Wall, Left (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P2_e44bf2b1.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P1_844bf18b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P2_e44bf2b1.SC4Lot
           id: e44bf2b1
-          label: FA2 Wall, Left (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P3_744bf856.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P2_e44bf2b1.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P3_744bf856.SC4Lot
           id: 744bf856
-          label: FA2 Wall, Left (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L_e44bf061.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L P3_744bf856.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L_e44bf061.SC4Lot
           id: e44bf061
-          label: FA2 Wall, Left (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P1_e44be4fd.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 L_e44bf061.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P1_e44be4fd.SC4Lot
           id: e44be4fd
-          label: FA2 Wall, Right (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P2_244be8d3.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P1_e44be4fd.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P2_244be8d3.SC4Lot
           id: 244be8d3
-          label: FA2 Wall, Right (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P3_544bec23.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P2_244be8d3.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P3_544bec23.SC4Lot
           id: 544bec23
-          label: FA2 Wall, Right (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R_244be1df.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R P3_544bec23.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R_244be1df.SC4Lot
           id: 244be1df
-          label: FA2 Wall, Right (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P1_a44c810c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA2 R_244be1df.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P1_a44c810c.SC4Lot
           id: a44c810c
-          label: FA3 Wall, Left (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P2_444c8495.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P1_a44c810c.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P2_444c8495.SC4Lot
           id: 444c8495
-          label: FA3 Wall, Left (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P3_544c8b11.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P2_444c8495.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P3_544c8b11.SC4Lot
           id: 544c8b11
-          label: FA3 Wall, Left (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L_044c8335.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L P3_544c8b11.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L_044c8335.SC4Lot
           id: 044c8335
-          label: FA3 Wall, Left (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P1_344c6d8c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 L_044c8335.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P1_344c6d8c.SC4Lot
           id: 344c6d8c
-          label: FA3 Wall, Right (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P2_b44c70b4.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P1_344c6d8c.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P2_b44c70b4.SC4Lot
           id: b44c70b4
-          label: FA3 Wall, Right (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P3_b44c78fa.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P2_b44c70b4.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P3_b44c78fa.SC4Lot
           id: b44c78fa
-          label: FA3 Wall, Right (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R_944c6f12.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R P3_b44c78fa.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R_944c6f12.SC4Lot
           id: 944c6f12
-          label: FA3 Wall, Right (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P1_744bcb3c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-FA3 R_944c6f12.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P1_744bcb3c.SC4Lot
           id: 744bcb3c
-          label: Diagonal Wall (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P2_844bccc7.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P1_744bcb3c.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P2_844bccc7.SC4Lot
           id: 844bccc7
-          label: Diagonal Wall (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P3_844bd041.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P2_844bccc7.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P3_844bd041.SC4Lot
           id: 844bd041
-          label: Diagonal Wall (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P4_e44bd572.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P3_844bd041.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P4_e44bd572.SC4Lot
           id: e44bd572
-          label: Diagonal Wall (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall_a44bc913.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall P4_e44bd572.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall_a44bc913.SC4Lot
           id: a44bc913
-          label: Diagonal Wall (I-D, P5)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P1_144d38c4.SC4Lot
-          id: 144d38c4
-          label: FA2 Wall, Left (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P2_244d3bfa.SC4Lot
-          id: 244d3bfa
-          label: FA2 Wall, Left (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P3_b44d3e68.SC4Lot
-          id: b44d3e68
-          label: FA2 Wall, Left (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L_744d3a90.SC4Lot
-          id: 744d3a90
-          label: FA2 Wall, Left (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P1_444d268e.SC4Lot
-          id: 444d268e
-          label: FA2 Wall, Right (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P2_444d28a9.SC4Lot
-          id: 444d28a9
-          label: FA2 Wall, Right (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P3_244d34d6.SC4Lot
-          id: 244d34d6
-          label: FA2 Wall, Right (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R_244d2796.SC4Lot
-          id: 244d2796
-          label: FA2 Wall, Right (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P1_144d4ad2.SC4Lot
-          id: 144d4ad2
-          label: FA3 Wall, Left (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P2_344d4cc3.SC4Lot
-          id: 344d4cc3
-          label: FA3 Wall, Left (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P3_944d4ff1.SC4Lot
-          id: 944d4ff1
-          label: FA3 Wall, Left (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L_c44d4bc8.SC4Lot
-          id: c44d4bc8
-          label: FA3 Wall, Left (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P1_444d4252.SC4Lot
-          id: 444d4252
-          label: FA3 Wall, Right (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P2_c44d44a1.SC4Lot
-          id: c44d44a1
-          label: FA3 Wall, Right (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P3_144d4765.SC4Lot
-          id: 144d4765
-          label: FA3 Wall, Right (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R_b44d4349.SC4Lot
-          id: b44d4349
-          label: FA3 Wall, Right (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P1_e44d14e5.SC4Lot
-          id: e44d14e5
-          label: Diagonal Wall (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P2_244d1690.SC4Lot
-          id: 244d1690
-          label: Diagonal Wall (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P3_d44d19c6.SC4Lot
-          id: d44d19c6
-          label: Diagonal Wall (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall_444d15a9.SC4Lot
-          id: 444d15a9
-          label: Diagonal Wall (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L P1_b44cc6a9.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Concrete-Wall_a44bc913.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L P1_b44cc6a9.SC4Lot
           id: b44cc6a9
-          label: FA2 Wall, Left (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L P2_944ccf75.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L P1_b44cc6a9.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L P2_944ccf75.SC4Lot
           id: 944ccf75
-          label: FA2 Wall, Left (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L_144ccce9.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L P2_944ccf75.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L_144ccce9.SC4Lot
           id: 144ccce9
-          label: FA2 Wall, Left (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R P1_d44cbd72.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 L_144ccce9.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R P1_d44cbd72.SC4Lot
           id: d44cbd72
-          label: FA2 Wall, Right (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R P2_b44cbffe.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R P1_d44cbd72.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R P2_b44cbffe.SC4Lot
           id: b44cbffe
-          label: FA2 Wall, Right (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R_644cbeb2.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R P2_b44cbffe.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R_644cbeb2.SC4Lot
           id: 644cbeb2
-          label: FA2 Wall, Right (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L P1_344ce386.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA2 R_644cbeb2.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L P1_344ce386.SC4Lot
           id: 344ce386
-          label: FA3 Wall, Left (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L P2_444ce639.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L P1_344ce386.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L P2_444ce639.SC4Lot
           id: 444ce639
-          label: FA3 Wall, Left (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L_544ce9d8.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L P2_444ce639.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L_544ce9d8.SC4Lot
           id: 544ce9d8
-          label: FA3 Wall, Left (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R P1_344cdb71.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 L_544ce9d8.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R P1_344cdb71.SC4Lot
           id: 344cdb71
-          label: FA3 Wall, Right (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R P2_e44cdf27.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R P1_344cdb71.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R P2_e44cdf27.SC4Lot
           id: e44cdf27
-          label: FA3 Wall, Right (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R_a44cdd68.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R P2_e44cdf27.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R_a44cdd68.SC4Lot
           id: a44cdd68
-          label: FA3 Wall, Right (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P1_144cb638.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-FA3 R_a44cdd68.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P1_144cb638.SC4Lot
           id: 144cb638
-          label: Diagonal Wall (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P2_544cb85a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P1_144cb638.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P2_544cb85a.SC4Lot
           id: 544cb85a
-          label: Diagonal Wall (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P3_144cb9a1.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P2_544cb85a.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P3_144cb9a1.SC4Lot
           id: 144cb9a1
-          label: Diagonal Wall (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall_a44cb751.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall P3_144cb9a1.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall_a44cb751.SC4Lot
           id: a44cb751
-          label: Diagonal Wall (I-HT, P4)
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Concrete-Wall_a44cb751.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P1_144d38c4.SC4Lot
+          id: 144d38c4
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P1_144d38c4.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P2_244d3bfa.SC4Lot
+          id: 244d3bfa
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P2_244d3bfa.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P3_b44d3e68.SC4Lot
+          id: b44d3e68
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L P3_b44d3e68.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L_744d3a90.SC4Lot
+          id: 744d3a90
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 L_744d3a90.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P1_444d268e.SC4Lot
+          id: 444d268e
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P1_444d268e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P2_444d28a9.SC4Lot
+          id: 444d28a9
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P2_444d28a9.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P3_244d34d6.SC4Lot
+          id: 244d34d6
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R P3_244d34d6.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R_244d2796.SC4Lot
+          id: 244d2796
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA2 R_244d2796.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P1_144d4ad2.SC4Lot
+          id: 144d4ad2
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P1_144d4ad2.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P2_344d4cc3.SC4Lot
+          id: 344d4cc3
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P2_344d4cc3.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P3_944d4ff1.SC4Lot
+          id: 944d4ff1
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L P3_944d4ff1.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L_c44d4bc8.SC4Lot
+          id: c44d4bc8
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 L_c44d4bc8.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P1_444d4252.SC4Lot
+          id: 444d4252
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P1_444d4252.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P2_c44d44a1.SC4Lot
+          id: c44d44a1
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P2_c44d44a1.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P3_144d4765.SC4Lot
+          id: 144d4765
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R P3_144d4765.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R_b44d4349.SC4Lot
+          id: b44d4349
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-FA3 R_b44d4349.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P1_e44d14e5.SC4Lot
+          id: e44d14e5
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P1_e44d14e5.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P2_244d1690.SC4Lot
+          id: 244d1690
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P2_244d1690.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P3_d44d19c6.SC4Lot
+          id: d44d19c6
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall P3_d44d19c6.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall_444d15a9.SC4Lot
+          id: 444d15a9
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Concrete-Wall_444d15a9.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -232,6 +340,7 @@ philforhockey51/irm-fillers-grass-angles:
     - philforhockey51
   category: irm,diagonal,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
@@ -247,7 +356,10 @@ philforhockey51/irm-fillers-grass-angles:
     - kingofsimcity/irm-diagonal-filler-set
     - murimk/props-vol03
     - ncd/railyard-textures-vol01
+    - sfbt/essentials
   description: |-
+    PHIL IRM Grass Angles Filler Lots
+
     48 additional IRM filler lots that match with TWrecks IRM Fillers.
 
     These varied diagonal, FA2, and FA3 lots all have a grass texture on half the lot.
@@ -256,6 +368,40 @@ philforhockey51/irm-fillers-grass-angles:
 
     A mix of 1x1, 2x1, 3x1 neutral lots using the IRM base texture and a mix of industrial props.
 
+    Dependencies:
+
+    Texture - SC4 base texture
+
+    Texture - [NCD Railyard Texture Mega-Pack Vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/246-ncd-railyard-texture-mega-pack-vol01-v3)
+
+    Texture - KOSC_FA$Grass - [Industrial Revolution Mod Base FA Filler Set](https://community.simtropolis.com/files/file/32426-industrial-revolution-mod-base-fa-filler-set/)
+
+    Props - [Murimk - Props Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/)
+
+    Props - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    Props from [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack):
+
+    Texture - BSC Textures Vol01 and Vol02
+
+    Wall Props - BSC MEGA Props CP Vol01
+
+    Props - BSC MEGA Props JES Vol01 v2
+
+    Props - BSC MEGA Props JES Vol02 v2
+
+    Props - BSC MEGA Props JES Vol03 v2
+
+    Props - BSC MEGA Props JES Vol05 v2
+
+    Props - BSC MEGA Props SG Vol01 v4
+
+    Just in case I used them:
+
+    Props - BSC MEGA Props JES Vol01-Vol08
+
+    Props - BSC MEGA Props DAE Vol01
+
     I've intentionally left the lots as individual files so any unwanted lots can be removed. Lots plopped in game will need to be demolished first if removing the file.
 
     Though I tried and tested multiple ways of sorting the lots in the in game menu none were successful.
@@ -263,6 +409,10 @@ philforhockey51/irm-fillers-grass-angles:
     At minimum the Industry type groups together along with TWreck's IRM Fillers and KOSC's IRM Filler Sets.
 
     The file KOSC_FA$Grass.dat must be kept for the FA lots to work.
+
+    Hope you enjoy them,
+
+    ~Phil
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0bd47a23f_I-MGrassAll.jpeg.5f258a249dce668bfe7b59a0a8b0d761.jpeg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc0bd800e22_I-DGrassAll.jpeg.65b1607ef559c8a795f11603c4e7540c.jpeg
@@ -277,155 +427,215 @@ philforhockey51/irm-fillers-grass-angles:
     default:
       assets:
         - docs:
-            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-D Grass All.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-D-Grass-FA3 L P2 pic.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-D-Grass-Wall P2 pic.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-HT Grass All.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-HT Grass FA2 R P2.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-HT Grass Wall P4.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-M Grass All.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-M-Grass-FA2 L P1.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/I-M-Grass-Wall P3.jpeg
+            - PHIL IRM Fillers - Grass Angles/Grass Angles Documents/PHIL IRM Grass Angles - Read Me.txt
           id: simtropolis/36412-phil-irm-fillers-grass-angles
           include:
             - PHIL IRM Fillers - Grass Angles
+      lastModified: 2024-08-26T05:14:11Z
       lots:
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P1_944a89c6.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P1_944a89c6.SC4Lot
           id: 944a89c6
-          label: FA2 Wall, Left (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P2_e44a8c8d.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P1_944a89c6.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P2_e44a8c8d.SC4Lot
           id: e44a8c8d
-          label: FA2 Wall, Left (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P3_444a8ec0.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P2_e44a8c8d.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P3_444a8ec0.SC4Lot
           id: 444a8ec0
-          label: FA2 Wall, Left (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P1_a44a81d8.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 L P3_444a8ec0.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P1_a44a81d8.SC4Lot
           id: a44a81d8
-          label: FA2 Wall, Right (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P2_444a835c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P1_a44a81d8.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P2_444a835c.SC4Lot
           id: 444a835c
-          label: FA2 Wall, Right (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P3_244a8755.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P2_444a835c.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P3_244a8755.SC4Lot
           id: 244a8755
-          label: FA2 Wall, Right (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P1_844a9876.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA2 R P3_244a8755.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P1_844a9876.SC4Lot
           id: 844a9876
-          label: FA3 Wall, Left (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P2_d44a9a63.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P1_844a9876.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P2_d44a9a63.SC4Lot
           id: d44a9a63
-          label: FA3 Wall, Left (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P3_c44a9b7f.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P2_d44a9a63.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P3_c44a9b7f.SC4Lot
           id: c44a9b7f
-          label: FA3 Wall, Left (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P1_544a91bd.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 L P3_c44a9b7f.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P1_544a91bd.SC4Lot
           id: 544a91bd
-          label: FA3 Wall, Right (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P2_b44a934a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P1_544a91bd.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P2_b44a934a.SC4Lot
           id: b44a934a
-          label: FA3 Wall, Right (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P3_644a9469.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P2_b44a934a.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P3_644a9469.SC4Lot
           id: 644a9469
-          label: FA3 Wall, Right (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P1_e44a756f.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-FA3 R P3_644a9469.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P1_e44a756f.SC4Lot
           id: e44a756f
-          label: Diagonal Wall (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P2_d44a784d.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P1_e44a756f.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P2_d44a784d.SC4Lot
           id: d44a784d
-          label: Diagonal Wall (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P3_944a79a1.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P2_d44a784d.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P3_944a79a1.SC4Lot
           id: 944a79a1
-          label: Diagonal Wall (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P4_b44a7cb6.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P3_944a79a1.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P4_b44a7cb6.SC4Lot
           id: b44a7cb6
-          label: Diagonal Wall (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P1_e44ac27d.SC4Lot
-          id: e44ac27d
-          label: FA2 Wall, Left (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P2_c44ac3dd.SC4Lot
-          id: c44ac3dd
-          label: FA2 Wall, Left (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P3_944ac4f7.SC4Lot
-          id: 944ac4f7
-          label: FA2 Wall, Left (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P1_144aba61.SC4Lot
-          id: 144aba61
-          label: FA2 Wall, Right (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P2_944abc2c.SC4Lot
-          id: 944abc2c
-          label: FA2 Wall, Right (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P3_a44ac028.SC4Lot
-          id: a44ac028
-          label: FA2 Wall, Right (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P1_544ad107.SC4Lot
-          id: 544ad107
-          label: FA3 Wall, Left (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P2_844ad257.SC4Lot
-          id: 844ad257
-          label: FA3 Wall, Left (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P3_944ad3a9.SC4Lot
-          id: 944ad3a9
-          label: FA3 Wall, Left (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P1_b44aca68.SC4Lot
-          id: b44aca68
-          label: FA3 Wall, Right (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P2_744acbe3.SC4Lot
-          id: 744acbe3
-          label: FA3 Wall, Right (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P3_744acd72.SC4Lot
-          id: 744acd72
-          label: FA3 Wall, Right (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P1_644ab0bf.SC4Lot
-          id: 644ab0bf
-          label: Diagonal Wall (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P2_644ab263.SC4Lot
-          id: 644ab263
-          label: Diagonal Wall (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P3_744ab37b.SC4Lot
-          id: 744ab37b
-          label: Diagonal Wall (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P4_244ab5a6.SC4Lot
-          id: 244ab5a6
-          label: Diagonal Wall (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P1_b44b999c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-1-I-D-Grass-Wall P4_b44a7cb6.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P1_b44b999c.SC4Lot
           id: b44b999c
-          label: FA2 Wall, Left (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P2_144b9b59.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P1_b44b999c.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P2_144b9b59.SC4Lot
           id: 144b9b59
-          label: FA2 Wall, Left (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P3_244b9f0c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P2_144b9b59.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P3_244b9f0c.SC4Lot
           id: 244b9f0c
-          label: FA2 Wall, Left (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P1_c44b92d9.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 L P3_244b9f0c.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P1_c44b92d9.SC4Lot
           id: c44b92d9
-          label: FA2 Wall, Right (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P2_a44b94a5.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P1_c44b92d9.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P2_a44b94a5.SC4Lot
           id: a44b94a5
-          label: FA2 Wall, Right (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P3_144b96ae.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P2_a44b94a5.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P3_144b96ae.SC4Lot
           id: 144b96ae
-          label: FA2 Wall, Right (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P1_444bae5a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA2 R P3_144b96ae.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P1_444bae5a.SC4Lot
           id: 444bae5a
-          label: FA3 Wall, Left (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P2_744bafed.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P1_444bae5a.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P2_744bafed.SC4Lot
           id: 744bafed
-          label: FA3 Wall, Left (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P3_b44bb2fe.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P2_744bafed.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P3_b44bb2fe.SC4Lot
           id: b44bb2fe
-          label: FA3 Wall, Left (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P1_444ba2c4.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 L P3_b44bb2fe.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P1_444ba2c4.SC4Lot
           id: 444ba2c4
-          label: FA3 Wall, Right (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P2_944ba3c7.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P1_444ba2c4.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P2_944ba3c7.SC4Lot
           id: 944ba3c7
-          label: FA3 Wall, Right (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P3_844ba979.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P2_944ba3c7.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P3_844ba979.SC4Lot
           id: 844ba979
-          label: FA3 Wall, Right (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P1_244b89fb.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-FA3 R P3_844ba979.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P1_244b89fb.SC4Lot
           id: 244b89fb
-          label: Diagonal Wall (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P2_244b8bcc.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P1_244b89fb.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P2_244b8bcc.SC4Lot
           id: 244b8bcc
-          label: Diagonal Wall (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P3_644b8d4c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P2_244b8bcc.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P3_644b8d4c.SC4Lot
           id: 644b8d4c
-          label: Diagonal Wall (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P4_744b8fba.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P3_644b8d4c.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P4_744b8fba.SC4Lot
           id: 744b8fba
-          label: Diagonal Wall (I-HT, P4)
+          label: PHIL-IRM-Filler-Diagonal-3-I-HT-Grass-Wall P4_744b8fba.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P1_e44ac27d.SC4Lot
+          id: e44ac27d
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P1_e44ac27d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P2_c44ac3dd.SC4Lot
+          id: c44ac3dd
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P2_c44ac3dd.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P3_944ac4f7.SC4Lot
+          id: 944ac4f7
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 L P3_944ac4f7.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P1_144aba61.SC4Lot
+          id: 144aba61
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P1_144aba61.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P2_944abc2c.SC4Lot
+          id: 944abc2c
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P2_944abc2c.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P3_a44ac028.SC4Lot
+          id: a44ac028
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA2 R P3_a44ac028.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P1_544ad107.SC4Lot
+          id: 544ad107
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P1_544ad107.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P2_844ad257.SC4Lot
+          id: 844ad257
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P2_844ad257.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P3_944ad3a9.SC4Lot
+          id: 944ad3a9
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 L P3_944ad3a9.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P1_b44aca68.SC4Lot
+          id: b44aca68
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P1_b44aca68.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P2_744acbe3.SC4Lot
+          id: 744acbe3
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P2_744acbe3.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P3_744acd72.SC4Lot
+          id: 744acd72
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-FA3 R P3_744acd72.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P1_644ab0bf.SC4Lot
+          id: 644ab0bf
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P1_644ab0bf.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P2_644ab263.SC4Lot
+          id: 644ab263
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P2_644ab263.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P3_744ab37b.SC4Lot
+          id: 744ab37b
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P3_744ab37b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P4_244ab5a6.SC4Lot
+          id: 244ab5a6
+          label: PHIL-IRM-Filler-Diagonal-2-I-M-Grass-Wall P4_244ab5a6.SC4Lot
+      name: Default
+      version: 1.0.0
     version: 1.0.0
   warnings:
     - id: bulldoze
@@ -436,6 +646,7 @@ philforhockey51/irm-fillers-mixed-concrete-angles:
     - philforhockey51
   category: irm,diagonal,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
@@ -452,7 +663,10 @@ philforhockey51/irm-fillers-mixed-concrete-angles:
     - kingofsimcity/irm-diagonal-filler-set
     - murimk/props-vol03
     - ncd/railyard-textures-vol01
+    - sfbt/essentials
   description: |-
+    PHIL IRM Mixed Concrete Angles Filler Lots
+
     64 additional IRM filler lots that match with TWrecks IRM Fillers.
 
     These varied diagonal, FA2, and FA3 lots all have altering IRM style concrete textures on half the lot.
@@ -461,6 +675,40 @@ philforhockey51/irm-fillers-mixed-concrete-angles:
 
     A mix of 1x1, 2x1, 3x1 neutral lots using the IRM base texture and a mix of industrial props.
 
+    Dependencies:
+
+    Texture - SC4 base texture
+
+    Texture - [NCD Railyard Texture Mega-Pack Vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/246-ncd-railyard-texture-mega-pack-vol01-v3) -
+
+    Texture - Scoty Textures Packs - [Scoty_Tex_Pack_1-0-2](https://community.simtropolis.com/files/file/36297-scoty-textures-packs/) -
+
+    Props - [Murimk - Props Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/) -
+
+    Props - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials) -
+
+    Props from [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack):
+
+    Texture - BSC Textures Vol01 and Vol02
+
+    Wall Props - BSC MEGA Props CP Vol01
+
+    Props - BSC MEGA Props JES Vol01 v2
+
+    Props - BSC MEGA Props JES Vol02 v2
+
+    Props - BSC MEGA Props JES Vol03 v2
+
+    Props - BSC MEGA Props JES Vol05 v2
+
+    Props - BSC MEGA Props SG Vol01 v4
+
+    Just in case I used them:
+
+    Props - BSC MEGA Props JES Vol01-Vol08
+
+    Props - BSC MEGA Props DAE Vol01
+
     I've intentionally left the lots as individual files so any unwanted lots can be removed. Lots plopped in game will need to be demolished first if removing the file.
 
     Though I tried and tested multiple ways of sorting the lots in the in game menu none were successful.
@@ -468,6 +716,10 @@ philforhockey51/irm-fillers-mixed-concrete-angles:
     At minimum the Industry type groups together along with TWreck's IRM Fillers and KOSC's IRM Filler Sets.
 
     A Big Thank You to Hugues and his Kevin minions for creating the FA angled overlays. Note they are in the Scoty_Tex_Pack_1-0-2 update.
+
+    Hope you enjoy them,
+
+    ~Phil
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc1167c9287_I-MI-DAll.jpeg.9c72e3e3a1a3356e5b3e32db7ba52166.jpeg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66cc116b82efb_I-DI-MAll.jpeg.4c40fd0327de2f1ff40761843b54825f.jpeg
@@ -482,203 +734,278 @@ philforhockey51/irm-fillers-mixed-concrete-angles:
     default:
       assets:
         - docs:
-            - Mixed Concrete Angles Documents
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-D I-M All.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-D I-M FA2 L P1.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-D I-M Wall P2.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-M I-D All.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-M I-D FA2 L P3.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-M I-D Wall P2.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-M I-HT All.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-M I-HT FA2 R P3.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/I-M I-HT Wall I-HT P2.jpeg
+            - PHIL IRM Fillers - Mixed Concrete Angles/Mixed Concrete Angles Documents/PHIL IRM Mixed Concrete Angles - Read Me.txt
           id: simtropolis/36414-phil-irm-fillers-mixed-concrete-angles
           include:
             - PHIL IRM Fillers - Mixed Concrete Angles
+      lastModified: 2024-08-26T05:31:39Z
       lots:
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P1_644f591a.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P1_644f591a.SC4Lot
           id: 644f591a
-          label: FA2 Wall, Left (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P2_444f5b45.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P1_644f591a.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P2_444f5b45.SC4Lot
           id: 444f5b45
-          label: FA2 Wall, Left (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P3_244f5cd3.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P2_444f5b45.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P3_244f5cd3.SC4Lot
           id: 244f5cd3
-          label: FA2 Wall, Left (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D_944f5804.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D P3_244f5cd3.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D_944f5804.SC4Lot
           id: 944f5804
-          label: FA2 Wall, Left (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P1_444f433a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 L I-D_944f5804.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P1_444f433a.SC4Lot
           id: 444f433a
-          label: FA2 Wall, Right (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P2_444f4562.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P1_444f433a.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P2_444f4562.SC4Lot
           id: 444f4562
-          label: FA2 Wall, Right (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P3_c44f4994.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P2_444f4562.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P3_c44f4994.SC4Lot
           id: c44f4994
-          label: FA2 Wall, Right (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D_d44f41bc.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D P3_c44f4994.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D_d44f41bc.SC4Lot
           id: d44f41bc
-          label: FA2 Wall, Right (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P1_744f6b8f.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA2 R I-D_d44f41bc.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P1_744f6b8f.SC4Lot
           id: 744f6b8f
-          label: FA3 Wall, Left (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P2_244f6e62.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P1_744f6b8f.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P2_244f6e62.SC4Lot
           id: 244f6e62
-          label: FA3 Wall, Left (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P3_d44f73b1.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P2_244f6e62.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P3_d44f73b1.SC4Lot
           id: d44f73b1
-          label: FA3 Wall, Left (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D_844f69fa.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D P3_d44f73b1.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D_844f69fa.SC4Lot
           id: 844f69fa
-          label: FA3 Wall, Left (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P1_244f6247.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 L I-D_844f69fa.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P1_244f6247.SC4Lot
           id: 244f6247
-          label: FA3 Wall, Right (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P2_744f6465.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P1_244f6247.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P2_744f6465.SC4Lot
           id: 744f6465
-          label: FA3 Wall, Right (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P3_144f6683.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P2_744f6465.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P3_144f6683.SC4Lot
           id: 144f6683
-          label: FA3 Wall, Right (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D_a44f6151.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D P3_144f6683.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D_a44f6151.SC4Lot
           id: a44f6151
-          label: FA3 Wall, Right (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P1_a44f2962.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-FA3 R I-D_a44f6151.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P1_a44f2962.SC4Lot
           id: a44f2962
-          label: Diagonal Wall (I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P2_144f3179.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P1_a44f2962.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P2_144f3179.SC4Lot
           id: 144f3179
-          label: Diagonal Wall (I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P3_944f33e7.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P2_144f3179.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P3_944f33e7.SC4Lot
           id: 944f33e7
-          label: Diagonal Wall (I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D_244f268f.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D P3_944f33e7.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D_244f268f.SC4Lot
           id: 244f268f
-          label: Diagonal Wall (I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P1_644fc2ba.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-D I-M-Concrete-Wall I-D_244f268f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P1_644fc2ba.SC4Lot
           id: 644fc2ba
-          label: FA2 Wall, Left (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P2_244fc4af.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P1_644fc2ba.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P2_244fc4af.SC4Lot
           id: 244fc4af
-          label: FA2 Wall, Left (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P3_d44fc6d6.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P2_244fc4af.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P3_d44fc6d6.SC4Lot
           id: d44fc6d6
-          label: FA2 Wall, Left (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M_144fc195.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M P3_d44fc6d6.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M_144fc195.SC4Lot
           id: 144fc195
-          label: FA2 Wall, Left (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P1_c44f98ce.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 L I-M_144fc195.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P1_c44f98ce.SC4Lot
           id: c44f98ce
-          label: FA2 Wall, Right (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P2_744f9b0d.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P1_c44f98ce.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P2_744f9b0d.SC4Lot
           id: 744f9b0d
-          label: FA2 Wall, Right (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P3_644f9d2c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P2_744f9b0d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P3_644f9d2c.SC4Lot
           id: 644f9d2c
-          label: FA2 Wall, Right (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M_944f965a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M P3_644f9d2c.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M_944f965a.SC4Lot
           id: 944f965a
-          label: FA2 Wall, Right (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P1_244fd2e7.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA2 R I-M_944f965a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P1_244fd2e7.SC4Lot
           id: 244fd2e7
-          label: FA3 Wall, Left (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P2_344fd526.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P1_244fd2e7.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P2_344fd526.SC4Lot
           id: 344fd526
-          label: FA3 Wall, Left (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P3_944fd692.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P2_344fd526.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P3_944fd692.SC4Lot
           id: 944fd692
-          label: FA3 Wall, Left (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M_944fd1e3.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M P3_944fd692.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M_944fd1e3.SC4Lot
           id: 944fd1e3
-          label: FA3 Wall, Left (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P1_544fcb77.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 L I-M_944fd1e3.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P1_544fcb77.SC4Lot
           id: 544fcb77
-          label: FA3 Wall, Right (I-M, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P2_e44fcd77.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P1_544fcb77.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P2_e44fcd77.SC4Lot
           id: e44fcd77
-          label: FA3 Wall, Right (I-M, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P3_744fcf8f.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P2_e44fcd77.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P3_744fcf8f.SC4Lot
           id: 744fcf8f
-          label: FA3 Wall, Right (I-M, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M_844fc90c.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M P3_744fcf8f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M_844fc90c.SC4Lot
           id: 844fc90c
-          label: FA3 Wall, Right (I-M, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P1_544f80b8.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-FA3 R I-M_844fc90c.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P1_544f80b8.SC4Lot
           id: 544f80b8
-          label: Diagonal Wall (I-M/I-D, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P2_244f84b9.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P1_544f80b8.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P2_244f84b9.SC4Lot
           id: 244f84b9
-          label: Diagonal Wall (I-M/I-D, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P3_c44f8632.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P2_244f84b9.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P3_c44f8632.SC4Lot
           id: c44f8632
-          label: Diagonal Wall (I-M/I-D, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M_844f7fda.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M P3_c44f8632.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M_844f7fda.SC4Lot
           id: 844f7fda
-          label: Diagonal Wall (I-M/I-D, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P1_044e5d2f.SC4Lot
-          id: 044e5d2f
-          label: Diagonal Wall (I-M/I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P2_e44e6760.SC4Lot
-          id: e44e6760
-          label: Diagonal Wall (I-M/I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P3_744e6954.SC4Lot
-          id: "744e6954"
-          label: Diagonal Wall (I-M/I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M_444e6529.SC4Lot
-          id: "444e6529"
-          label: Diagonal Wall (I-M/I-HT, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P1_d44e7ae4.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-4-I-M I-D-Concrete-Wall I-M_844f7fda.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P1_d44e7ae4.SC4Lot
           id: d44e7ae4
-          label: FA2 Wall, Left (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P2_c44e7cea.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P1_d44e7ae4.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P2_c44e7cea.SC4Lot
           id: c44e7cea
-          label: FA2 Wall, Left (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P3_944e7f0a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P2_c44e7cea.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P3_944e7f0a.SC4Lot
           id: 944e7f0a
-          label: FA2 Wall, Left (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L_444e7949.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L P3_944e7f0a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L_444e7949.SC4Lot
           id: "444e7949"
-          label: FA2 Wall, Left (I-HT, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P1_c44e705b.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 L_444e7949.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P1_c44e705b.SC4Lot
           id: c44e705b
-          label: FA2 Wall, Right (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P2_244e7392.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P1_c44e705b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P2_244e7392.SC4Lot
           id: "244e7392"
-          label: FA2 Wall, Right (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P3_044e7659.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P2_244e7392.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P3_044e7659.SC4Lot
           id: "044e7659"
-          label: FA2 Wall, Right (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R_144e6c5e.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R P3_044e7659.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R_144e6c5e.SC4Lot
           id: 144e6c5e
-          label: FA2 Wall, Right (I-HT, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P1_544e8e8f.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA2 R_144e6c5e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P1_544e8e8f.SC4Lot
           id: 544e8e8f
-          label: FA3 Wall, Left (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P2_644e9131.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P1_544e8e8f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P2_644e9131.SC4Lot
           id: "644e9131"
-          label: FA3 Wall, Left (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P3_744e9434.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P2_644e9131.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P3_744e9434.SC4Lot
           id: "744e9434"
-          label: FA3 Wall, Left (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L_944e8c88.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L P3_744e9434.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L_944e8c88.SC4Lot
           id: 944e8c88
-          label: FA3 Wall, Left (I-HT, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P1_a44e84cf.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 L_944e8c88.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P1_a44e84cf.SC4Lot
           id: a44e84cf
-          label: FA3 Wall, Right (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P2_744e86fa.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P1_a44e84cf.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P2_744e86fa.SC4Lot
           id: 744e86fa
-          label: FA3 Wall, Right (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P3_a44e89bb.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P2_744e86fa.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P3_a44e89bb.SC4Lot
           id: a44e89bb
-          label: FA3 Wall, Right (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R_644e8350.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R P3_a44e89bb.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R_644e8350.SC4Lot
           id: "644e8350"
-          label: FA3 Wall, Right (I-HT, P4)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P1_644e55b7.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-FA3 R_644e8350.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P1_644e55b7.SC4Lot
           id: 644e55b7
-          label: Diagonal Wall (I-HT, P1)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P2_144e571a.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P1_644e55b7.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P2_144e571a.SC4Lot
           id: 144e571a
-          label: Diagonal Wall (I-HT, P2)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P3_144e58f5.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P2_144e571a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P3_144e58f5.SC4Lot
           id: 144e58f5
-          label: Diagonal Wall (I-HT, P3)
-        - filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT_744e5201.SC4Lot
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT P3_144e58f5.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT_744e5201.SC4Lot
           id: "744e5201"
-          label: Diagonal Wall (I-HT, P4)
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-HT_744e5201.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P1_044e5d2f.SC4Lot
+          id: 044e5d2f
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P1_044e5d2f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P2_e44e6760.SC4Lot
+          id: e44e6760
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P2_e44e6760.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P3_744e6954.SC4Lot
+          id: "744e6954"
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M P3_744e6954.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M_444e6529.SC4Lot
+          id: "444e6529"
+          label: PHIL-IRM-Filler-Diagonal-5-I-M I-HT-Concrete-Wall I-M_444e6529.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -689,6 +1016,7 @@ philforhockey51/phil-irm-fillers-dirt-angles:
     - philforhockey51
   category: irm,diagonal,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
@@ -706,6 +1034,8 @@ philforhockey51/phil-irm-fillers-dirt-angles:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   description: |-
+    **PHIL IRM Fillers - Dirt Angles**
+
     44 additional IRM filler lots that match with TWrecks IRM Fillers.
 
     These varied diagonal, FA2, and FA3 lots all have a dirt texture on half the lot.
@@ -716,12 +1046,37 @@ philforhockey51/phil-irm-fillers-dirt-angles:
 
     A mix of 1x1, 2x1, 3x1 neutral lots using the IRM base texture and a mix of industrial props.
 
+    Dependencies:
+
+    - Texture - [NCD Railyard Texture Mega-Pack Vol01 v3](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/246-ncd-railyard-texture-mega-pack-vol01-v3)
+    - Texture - MGB204/RSC204 FA Dirt (included)
+    - Props - [Murimk - Props Vol03 - Industrials](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/)
+    - Props - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
+
+    Props from [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack):
+
+    - Props - BSC MEGA Props JES Vol01 v2
+    - Props - BSC MEGA Props JES Vol02 v2
+    - Props - BSC MEGA Props JES Vol03 v2
+    - Props - BSC MEGA Props JES Vol05 v2
+    - Props - BSC MEGA Props SG Vol01 v4
+    - Wall Props - BSC MEGA Props CP Vol01
+
+    Just in case I used them:
+
+    - Props - BSC MEGA Props JES Vol01-Vol08
+    - Props - BSC MEGA Props DAE Vol01
+    - Texture - BSC Textures Vol01 and Vol02
 
     Though I tried and tested multiple ways of sorting the lots in the in game menu none were successful.
 
     At minimum the Industry type groups together along with TWreck's IRM Fillers and KOSC's IRM Filler Sets.
 
     A Big Thank You to RSC204/MGB204 for all the help with tips and answers to my questions along the way
+
+    Hope you enjoy them,
+
+    ~Phil
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666ea0392240d_PHILIRMDirtAnglesLots1.jpeg.7a457114685afef369d8e234831e58ec.jpeg
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666ea03bcf162_PHILIRMDirtAnglesLots2.jpeg.0f864b35e8c70acfb5cc4b7240c01811.jpeg
@@ -733,10 +1088,191 @@ philforhockey51/phil-irm-fillers-dirt-angles:
     default:
       assets:
         - docs:
-            - Documents
+            - PHIL IRM Fillers - Dirt Angles/Documents/PHIL IRM Dirt Angles Lots 2 .jpeg
+            - PHIL IRM Fillers - Dirt Angles/Documents/PHIL IRM Dirt Angles Lots 1 .jpeg
+            - PHIL IRM Fillers - Dirt Angles/Documents/PHIL IRM Dirt Angles - Read Me.txt
           id: simtropolis/36311-phil-irm-fillers-dirt-angles
           include:
             - PHIL IRM - Dirt - Angles - v*
+      lastModified: 2024-06-16T08:22:34Z
+      lots:
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 R_b3b3df81.SC4Lot
+          id: b3b3df81
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 R_b3b3df81.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 R Prop 1_13d642d1.SC4Lot
+          id: 13d642d1
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 R Prop 1_13d642d1.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 L_e3b3de60.SC4Lot
+          id: e3b3de60
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 L_e3b3de60.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 L Prop 1_93d64056.SC4Lot
+          id: 93d64056
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA3 L Prop 1_93d64056.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 R_a3b3dd05.SC4Lot
+          id: a3b3dd05
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 R_a3b3dd05.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 R Prop 1_33d63d62.SC4Lot
+          id: 33d63d62
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 R Prop 1_33d63d62.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 L_e3b3d7ab.SC4Lot
+          id: e3b3d7ab
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 L_e3b3d7ab.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 L Prop 1_23d639e5.SC4Lot
+          id: 23d639e5
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-FA2 L Prop 1_23d639e5.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal_13b3e9a1.SC4Lot
+          id: 13b3e9a1
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal_13b3e9a1.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal Wall_73b3eacd.SC4Lot
+          id: 73b3eacd
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal Wall_73b3eacd.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal Wall P2_e3b3ee8b.SC4Lot
+          id: e3b3ee8b
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal Wall P2_e3b3ee8b.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal Wall P1_a3b3ebda.SC4Lot
+          id: a3b3ebda
+          label: PHIL-IRM-Filler-w Dirt-3-I-HT-Diagonal Wall P1_a3b3ebda.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 R_53b3d5c0.SC4Lot
+          id: 53b3d5c0
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 R_53b3d5c0.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 R Prop 2_83d632bc.SC4Lot
+          id: 83d632bc
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 R Prop 2_83d632bc.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 R Prop 1_c3d62f8d.SC4Lot
+          id: c3d62f8d
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 R Prop 1_c3d62f8d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 L_33b3d47f.SC4Lot
+          id: 33b3d47f
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 L_33b3d47f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 L Prop 2_83d62be0.SC4Lot
+          id: 83d62be0
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 L Prop 2_83d62be0.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 L Prop 1_43d6286e.SC4Lot
+          id: 43d6286e
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA3 L Prop 1_43d6286e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 R_33b3d24d.SC4Lot
+          id: 33b3d24d
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 R_33b3d24d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 R Prop 2_93d533b1.SC4Lot
+          id: 93d533b1
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 R Prop 2_93d533b1.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 R Prop 1_a3d52fbf.SC4Lot
+          id: a3d52fbf
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 R Prop 1_a3d52fbf.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 L_53b3d092.SC4Lot
+          id: 53b3d092
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 L_53b3d092.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 L Prop 2_23d52c66.SC4Lot
+          id: 23d52c66
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 L Prop 2_23d52c66.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 L Prop 1_c3d52a14.SC4Lot
+          id: c3d52a14
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-FA2 L Prop 1_c3d52a14.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal_53b3e11c.SC4Lot
+          id: 53b3e11c
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal_53b3e11c.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal Wall_73b3e277.SC4Lot
+          id: 73b3e277
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal Wall_73b3e277.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal Wall P2_63b3e6d4.SC4Lot
+          id: 63b3e6d4
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal Wall P2_63b3e6d4.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal Wall P1_e3b3e3d3.SC4Lot
+          id: e3b3e3d3
+          label: PHIL-IRM-Filler-w Dirt-2-I-M-Diagonal Wall P1_e3b3e3d3.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 R_d3b3cea6.SC4Lot
+          id: d3b3cea6
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 R_d3b3cea6.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 R Prop 2_73d52668.SC4Lot
+          id: 73d52668
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 R Prop 2_73d52668.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 R Prop 1_23d52332.SC4Lot
+          id: 23d52332
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 R Prop 1_23d52332.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 L_53b3cc95.SC4Lot
+          id: 53b3cc95
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 L_53b3cc95.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 L Prop 2_83d51e9b.SC4Lot
+          id: 83d51e9b
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 L Prop 2_83d51e9b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 L Prop 1_e3d51a57.SC4Lot
+          id: e3d51a57
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA3 L Prop 1_e3d51a57.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 R_c3b3ca86.SC4Lot
+          id: c3b3ca86
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 R_c3b3ca86.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 R Prop 2_e3d511f2.SC4Lot
+          id: e3d511f2
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 R Prop 2_e3d511f2.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 R Prop 1_53d50f91.SC4Lot
+          id: 53d50f91
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 R Prop 1_53d50f91.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 L_c3b3c85e.SC4Lot
+          id: c3b3c85e
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 L_c3b3c85e.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 L Prop 2_63d50c13.SC4Lot
+          id: 63d50c13
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 L Prop 2_63d50c13.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 L Prop 1_63d506e8.SC4Lot
+          id: 63d506e8
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-FA2 L Prop 1_63d506e8.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal_53b3a958.SC4Lot
+          id: 53b3a958
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal_53b3a958.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal Wall_93b3ae8b.SC4Lot
+          id: 93b3ae8b
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal Wall_93b3ae8b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal Wall P2_33b3c25b.SC4Lot
+          id: 33b3c25b
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal Wall P2_33b3c25b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal Wall P1_93b3b056.SC4Lot
+          id: 93b3b056
+          label: PHIL-IRM-Filler-w Dirt-1-I-D-Diagonal Wall P1_93b3b056.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -747,6 +1283,7 @@ philforhockey51/phil-irm-fillers-i-d-lots:
     - philforhockey51
   category: irm,i-d,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - deadwoods/mega-props-vol01
@@ -763,6 +1300,8 @@ philforhockey51/phil-irm-fillers-i-d-lots:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   description: |-
+    **PHIL IRM I-D Filler Lots**
+
     31 additional IRM I-D filler lots that match with TWrecks IRM Fillers.
 
     A mix of 1x1 neutral lots using the IRM I-D base texture and a mix of industrial props.
@@ -808,10 +1347,140 @@ philforhockey51/phil-irm-fillers-i-d-lots:
     default:
       assets:
         - docs:
-            - Documents
+            - PHIL IRM Fillers - I-D Lots/Documents/PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 4.jpeg
+            - PHIL IRM Fillers - I-D Lots/Documents/PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 1.jpeg
+            - PHIL IRM Fillers - I-D Lots/Documents/PHIL IRM I-D Lots .jpeg
+            - PHIL IRM Fillers - I-D Lots/Documents/PHIL IRM I-D Fillers Lots.txt
           id: simtropolis/36306-phil-irm-fillers-i-d-lots
           include:
             - PHIL IRM - I-D - Filler Lot - v*
+      lastModified: 2024-06-16T08:00:25Z
+      lots:
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 9_c3ad8249.SC4Lot
+          id: c3ad8249
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 9_c3ad8249.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 8_b3ad7e45.SC4Lot
+          id: b3ad7e45
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 8_b3ad7e45.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 7_c3ad7ad6.SC4Lot
+          id: c3ad7ad6
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 7_c3ad7ad6.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 6_23ad7411.SC4Lot
+          id: 23ad7411
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 6_23ad7411.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 5_c3ab06cc.SC4Lot
+          id: c3ab06cc
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 5_c3ab06cc.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 4_93ab01ee.SC4Lot
+          id: 93ab01ee
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 4_93ab01ee.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 3_53aafb8a.SC4Lot
+          id: 53aafb8a
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 3_53aafb8a.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 2_b3aaf79e.SC4Lot
+          id: b3aaf79e
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 2_b3aaf79e.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 1_53aaf5f4.SC4Lot
+          id: 53aaf5f4
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 1_53aaf5f4.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 10_43ad8a35.SC4Lot
+          id: 43ad8a35
+          label: PHIL-IRM-Filler-Lot-1-I-D-Misc-Mix 10_43ad8a35.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Crates-Storage 2_c3aaf428.SC4Lot
+          id: c3aaf428
+          label: PHIL-IRM-Filler-Lot-1-I-D-Crates-Storage 2_c3aaf428.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Crates-Storage 1_63aaee11.SC4Lot
+          id: 63aaee11
+          label: PHIL-IRM-Filler-Lot-1-I-D-Crates-Storage 1_63aaee11.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Crates-Forklift_83aaeb99.SC4Lot
+          id: 83aaeb99
+          label: PHIL-IRM-Filler-Lot-1-I-D-Crates-Forklift_83aaeb99.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 3_83a14bf7.SC4Lot
+          id: 83a14bf7
+          label: PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 3_83a14bf7.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 2_43a14949.SC4Lot
+          id: 43a14949
+          label: PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 2_43a14949.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 1_13a14708.SC4Lot
+          id: 13a14708
+          label: PHIL-IRM-Filler-Lot-1-I-D-Cables-Storage 1_13a14708.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Cables-Loading_b3a15110.SC4Lot
+          id: b3a15110
+          label: PHIL-IRM-Filler-Lot-1-I-D-Cables-Loading_b3a15110.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Cables-Forklift_c3a14e59.SC4Lot
+          id: c3a14e59
+          label: PHIL-IRM-Filler-Lot-1-I-D-Cables-Forklift_c3a14e59.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Working 2_b3ad6db4.SC4Lot
+          id: b3ad6db4
+          label: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Working 2_b3ad6db4.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Working 1_83a06d8c.SC4Lot
+          id: 83a06d8c
+          label: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Working 1_83a06d8c.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Full_e3a06422.SC4Lot
+          id: e3a06422
+          label: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Full_e3a06422.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Forklift_33a06bd2.SC4Lot
+          id: 33a06bd2
+          label: PHIL-IRM-Filler-Lot-1-I-D-Boilers-Forklift_33a06bd2.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Mix Forklift 2_63a14089.SC4Lot
+          id: 63a14089
+          label: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Mix Forklift 2_63a14089.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Mix Forklift 1_c3a13cd5.SC4Lot
+          id: c3a13cd5
+          label: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Mix Forklift 1_c3a13cd5.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Misc Mix 3_93a137d1.SC4Lot
+          id: 93a137d1
+          label: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Misc Mix 3_93a137d1.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Misc Mix 2_c3a133d2.SC4Lot
+          id: c3a133d2
+          label: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Misc Mix 2_c3a133d2.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Misc Mix 1_03a11f9f.SC4Lot
+          id: 03a11f9f
+          label: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Misc Mix 1_03a11f9f.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Half_43a11ce2.SC4Lot
+          id: 43a11ce2
+          label: PHIL-IRM-Filler-Lot-1-I-D-Barrels-Half_43a11ce2.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Bags-Mix 2_23a18a8b.SC4Lot
+          id: 23a18a8b
+          label: PHIL-IRM-Filler-Lot-1-I-D-Bags-Mix 2_23a18a8b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Bags-Mix 1_53a1885b.SC4Lot
+          id: 53a1885b
+          label: PHIL-IRM-Filler-Lot-1-I-D-Bags-Mix 1_53a1885b.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Lot-1-I-D-Bags-Forklift_c3a18480.SC4Lot
+          id: c3a18480
+          label: PHIL-IRM-Filler-Lot-1-I-D-Bags-Forklift_c3a18480.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -822,6 +1491,7 @@ philforhockey51/phil-irm-fillers-i-d-walls:
     - philforhockey51
   category: irm,i-d,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
@@ -838,6 +1508,8 @@ philforhockey51/phil-irm-fillers-i-d-walls:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   description: |-
+    **PHIL IRM I-D Filler Walls**
+
     41 additional IRM I-D filler lots with Walls that match with TWrecks IRM Fillers.
 
     A mix of 1x1 neutral lots using the IRM I-D base texture and a mix of industrial props.
@@ -883,10 +1555,176 @@ philforhockey51/phil-irm-fillers-i-d-walls:
     default:
       assets:
         - docs:
-            - Documents
+            - PHIL IRM Fillers - I-D Walls/Documents/PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 4.jpeg
+            - PHIL IRM Fillers - I-D Walls/Documents/PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 1.jpeg
+            - PHIL IRM Fillers - I-D Walls/Documents/PHIL IRM I-D Lots Walls.jpeg
+            - PHIL IRM Fillers - I-D Walls/Documents/PHIL IRM I-D Fillers Walls.txt
           id: simtropolis/36307-phil-irm-fillers-i-d-walls
           include:
             - PHIL IRM - I-D - Filler Wall - v*
+      lastModified: 2024-06-16T08:05:17Z
+      lots:
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 5_53971fe9.SC4Lot
+          id: 53971fe9
+          label: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 5_53971fe9.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 4_03971ca4.SC4Lot
+          id: 03971ca4
+          label: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 4_03971ca4.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 3_b39716d1.SC4Lot
+          id: b39716d1
+          label: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 3_b39716d1.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 2_c39714cf.SC4Lot
+          id: c39714cf
+          label: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 2_c39714cf.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 1_639710d0.SC4Lot
+          id: 639710d0
+          label: PHIL-IRM-Filler-Wall-1-I-D-Misc-Mix 1_639710d0.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Mix Forklift_33aed78d.SC4Lot
+          id: 33aed78d
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Mix Forklift_33aed78d.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Misc Mix 2_03aed3b9.SC4Lot
+          id: 03aed3b9
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Misc Mix 2_03aed3b9.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Misc Mix 1_93aed055.SC4Lot
+          id: 93aed055
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Misc Mix 1_93aed055.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Half_63972ddd.SC4Lot
+          id: 63972ddd
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Half_63972ddd.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Half Stack Mix_63972c64.SC4Lot
+          id: 63972c64
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Half Stack Mix_63972c64.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Full_539728c6.SC4Lot
+          id: 539728c6
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Full_539728c6.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Crates-Full Stacked_33972752.SC4Lot
+          id: "33972752"
+          label: PHIL-IRM-Filler-Wall-1-I-D-Crates-Full Stacked_33972752.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Cables-Mix Forklift_83969e00.SC4Lot
+          id: "83969e00"
+          label: PHIL-IRM-Filler-Wall-1-I-D-Cables-Mix Forklift_83969e00.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Cables-Misc Mix 2_33ad9041.SC4Lot
+          id: 33ad9041
+          label: PHIL-IRM-Filler-Wall-1-I-D-Cables-Misc Mix 2_33ad9041.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Cables-Misc Mix 1_6396e383.SC4Lot
+          id: "6396e383"
+          label: PHIL-IRM-Filler-Wall-1-I-D-Cables-Misc Mix 1_6396e383.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Cables-Half Mix_53968ff9.SC4Lot
+          id: 53968ff9
+          label: PHIL-IRM-Filler-Wall-1-I-D-Cables-Half Mix_53968ff9.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Cables-Full_83968683.SC4Lot
+          id: "83968683"
+          label: PHIL-IRM-Filler-Wall-1-I-D-Cables-Full_83968683.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Boilers-Stored 3_3396822c.SC4Lot
+          id: 3396822c
+          label: PHIL-IRM-Filler-Wall-1-I-D-Boilers-Stored 3_3396822c.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Boilers-Stored 2_03909599.SC4Lot
+          id: "03909599"
+          label: PHIL-IRM-Filler-Wall-1-I-D-Boilers-Stored 2_03909599.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Boilers-Stored 1_639093f6.SC4Lot
+          id: 639093f6
+          label: PHIL-IRM-Filler-Wall-1-I-D-Boilers-Stored 1_639093f6.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 5_2396c7d4.SC4Lot
+          id: 2396c7d4
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 5_2396c7d4.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 4_b396c58a.SC4Lot
+          id: b396c58a
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 4_b396c58a.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 3_d396b4a4.SC4Lot
+          id: d396b4a4
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 3_d396b4a4.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 2_239086b7.SC4Lot
+          id: 239086b7
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 2_239086b7.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 1_d390847e.SC4Lot
+          id: d390847e
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Misc Mix 1_d390847e.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Half_238f3ede.SC4Lot
+          id: 238f3ede
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Half_238f3ede.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Half Mix_538f4114.SC4Lot
+          id: 538f4114
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Half Mix_538f4114.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Full 3_d38f39d2.SC4Lot
+          id: d38f39d2
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Full 3_d38f39d2.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Full 2_838f36eb.SC4Lot
+          id: 838f36eb
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Full 2_838f36eb.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Full 1_338f316e.SC4Lot
+          id: 338f316e
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Full 1_338f316e.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Forklift_a3907f87.SC4Lot
+          id: a3907f87
+          label: PHIL-IRM-Filler-Wall-1-I-D-Barrels-Forklift_a3907f87.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Mix Forklift 2_a3970df0.SC4Lot
+          id: a3970df0
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Mix Forklift 2_a3970df0.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Mix Forklift 1_53970c6f.SC4Lot
+          id: 53970c6f
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Mix Forklift 1_53970c6f.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Misc Mix 3_73970a23.SC4Lot
+          id: 73970a23
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Misc Mix 3_73970a23.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Misc Mix 2_23970537.SC4Lot
+          id: "23970537"
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Misc Mix 2_23970537.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Misc Mix 1_039703ce.SC4Lot
+          id: 039703ce
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Misc Mix 1_039703ce.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Half 1_6397017d.SC4Lot
+          id: 6397017d
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Half 1_6397017d.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-Bags-Full 1_8396ee38.SC4Lot
+          id: 8396ee38
+          label: PHIL-IRM-Filler-Wall-1-I-D-Bags-Full 1_8396ee38.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-An Empty-Wall_4389f006.SC4Lot
+          id: 4389f006
+          label: PHIL-IRM-Filler-Wall-1-I-D-An Empty-Wall_4389f006.SC4Lot
+        - category: i-d
+          filename: PHIL-IRM-Filler-Wall-1-I-D-An Empty-Corner_3389fea6.SC4Lot
+          id: 3389fea6
+          label: PHIL-IRM-Filler-Wall-1-I-D-An Empty-Corner_3389fea6.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -897,6 +1735,7 @@ philforhockey51/phil-irm-fillers-i-ht-lots-walls:
     - philforhockey51
   category: irm,i-ht,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - deadwoods/mega-props-vol01
@@ -912,6 +1751,8 @@ philforhockey51/phil-irm-fillers-i-ht-lots-walls:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   description: |-
+    **PHIL IRM I-HT Filler Lots & Walls .. err Fences**
+
     34 additional IRM I-HT filler lots and filler lots with fences that match with TWrecks IRM Fillers.
 
     A mix of 1x1 neutral lots using the IRM I-M base texture and a mix of industrial props.
@@ -957,10 +1798,153 @@ philforhockey51/phil-irm-fillers-i-ht-lots-walls:
     default:
       assets:
         - docs:
-            - Documents
+            - PHIL IRM Fillers - I-HT Walls & Lots/Documents/PHIL-IRM-Filler-Wall-3-I-HT-Crates-Mix Forklift.jpeg
+            - PHIL IRM Fillers - I-HT Walls & Lots/Documents/PHIL-IRM-Filler-Wall-3-I-HT-Cables-Misc Mix 2.jpeg
+            - PHIL IRM Fillers - I-HT Walls & Lots/Documents/PHIL-IRM-Filler-Lot-3-I-HT-Crates-Forklift 1.jpeg
+            - PHIL IRM Fillers - I-HT Walls & Lots/Documents/PHIL IRM I-HT Lots & Walls.jpeg
+            - PHIL IRM Fillers - I-HT Walls & Lots/Documents/PHIL IRM I-HT Fillers Lots & Walls - Read Me.txt
           id: simtropolis/36310-phil-irm-fillers-i-ht-lots-walls
           include:
             - PHIL IRM - I-HT - Filler Lot - v*
+      lastModified: 2024-06-16T08:19:00Z
+      lots:
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 5_73bc2107.SC4Lot
+          id: 73bc2107
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 5_73bc2107.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 4_13bc1e0f.SC4Lot
+          id: 13bc1e0f
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 4_13bc1e0f.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 3_d3bc18fd.SC4Lot
+          id: d3bc18fd
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 3_d3bc18fd.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 2_73bc16d4.SC4Lot
+          id: 73bc16d4
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 2_73bc16d4.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 1_03bc13fd.SC4Lot
+          id: 03bc13fd
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Misc-Mix 1_03bc13fd.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Mix Forklift_73bc108e.SC4Lot
+          id: 73bc108e
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Mix Forklift_73bc108e.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Mix Forklift 2_c3bc1204.SC4Lot
+          id: c3bc1204
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Mix Forklift 2_c3bc1204.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Misc Mix 3_c3bc1332.SC4Lot
+          id: c3bc1332
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Misc Mix 3_c3bc1332.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Misc Mix 2_b3bc0e91.SC4Lot
+          id: b3bc0e91
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Misc Mix 2_b3bc0e91.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Misc Mix 1_a3bc0b1e.SC4Lot
+          id: a3bc0b1e
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Misc Mix 1_a3bc0b1e.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Half_13bc0a27.SC4Lot
+          id: 13bc0a27
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Half_13bc0a27.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Full_43bc072a.SC4Lot
+          id: 43bc072a
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Crates-Full_43bc072a.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Misc Mix 2_43bc059b.SC4Lot
+          id: 43bc059b
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Misc Mix 2_43bc059b.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Misc Mix 1_83bc0428.SC4Lot
+          id: 83bc0428
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Misc Mix 1_83bc0428.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Half_73bc02de.SC4Lot
+          id: 73bc02de
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Half_73bc02de.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Full_33bc00d0.SC4Lot
+          id: 33bc00d0
+          label: PHIL-IRM-Filler-Wall-3-I-HT-Cables-Full_33bc00d0.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-An Empty-Wall_e3bbff6f.SC4Lot
+          id: e3bbff6f
+          label: PHIL-IRM-Filler-Wall-3-I-HT-An Empty-Wall_e3bbff6f.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Wall-3-I-HT-An Empty-Corner_b3bbf8fa.SC4Lot
+          id: b3bbf8fa
+          label: PHIL-IRM-Filler-Wall-3-I-HT-An Empty-Corner_b3bbf8fa.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 5_13c15770.SC4Lot
+          id: 13c15770
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 5_13c15770.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 4_23c15411.SC4Lot
+          id: 23c15411
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 4_23c15411.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 3_e3c14cc4.SC4Lot
+          id: e3c14cc4
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 3_e3c14cc4.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 2_53c1492b.SC4Lot
+          id: 53c1492b
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 2_53c1492b.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 1_43c138bb.SC4Lot
+          id: 43c138bb
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Misc-Mix 1_43c138bb.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Misc Mix 2_33beba70.SC4Lot
+          id: 33beba70
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Misc Mix 2_33beba70.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Misc Mix 1_b3beb8bd.SC4Lot
+          id: b3beb8bd
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Misc Mix 1_b3beb8bd.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Half_63beb800.SC4Lot
+          id: 63beb800
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Half_63beb800.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Full_33beb716.SC4Lot
+          id: 33beb716
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Full_33beb716.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Forklift 2_03bc414b.SC4Lot
+          id: 03bc414b
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Forklift 2_03bc414b.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Forklift 1_b3bc3f7f.SC4Lot
+          id: b3bc3f7f
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Crates-Forklift 1_b3bc3f7f.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Mix 2_43bc39fc.SC4Lot
+          id: 43bc39fc
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Mix 2_43bc39fc.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Mix 1_23bc3884.SC4Lot
+          id: 23bc3884
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Mix 1_23bc3884.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Half_03bc37d9.SC4Lot
+          id: 03bc37d9
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Half_03bc37d9.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Full_d3bc362a.SC4Lot
+          id: d3bc362a
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Full_d3bc362a.SC4Lot
+        - category: i-ht
+          filename: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Forklift_b3bc33b9.SC4Lot
+          id: b3bc33b9
+          label: PHIL-IRM-Filler-Lot-3-I-HT-Cables-Forklift_b3bc33b9.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -971,6 +1955,7 @@ philforhockey51/phil-irm-fillers-i-m-lots:
     - philforhockey51
   category: irm,i-m,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - deadwoods/mega-props-vol01
@@ -986,6 +1971,8 @@ philforhockey51/phil-irm-fillers-i-m-lots:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   description: |-
+    **PHIL IRM I-M Filler Lots**
+
     35 additional IRM I-M filler lots that match with TWrecks IRM Fillers.
 
     A mix of 1x1 neutral lots using the IRM I-M base texture and a mix of industrial props.
@@ -1030,10 +2017,156 @@ philforhockey51/phil-irm-fillers-i-m-lots:
     default:
       assets:
         - docs:
-            - Documents
+            - PHIL IRM Fillers - I-M Lots/Documents/PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 4.jpeg
+            - PHIL IRM Fillers - I-M Lots/Documents/PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 2.jpeg
+            - PHIL IRM Fillers - I-M Lots/Documents/PHIL IRM I-M Lots .jpeg
+            - PHIL IRM Fillers - I-M Lots/Documents/PHIL IRM I-M Fillers Lots.txt
           id: simtropolis/36308-phil-irm-fillers-i-m-lots
           include:
             - PHIL IRM - I-M - Filler Lot - v*
+      lastModified: 2024-06-16T08:12:30Z
+      lots:
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Mix 2_73b8150f.SC4Lot
+          id: 73b8150f
+          label: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Mix 2_73b8150f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Mix 1_e3b8121d.SC4Lot
+          id: e3b8121d
+          label: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Mix 1_e3b8121d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Full_83b80e6a.SC4Lot
+          id: 83b80e6a
+          label: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Full_83b80e6a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Forklift 1_23b81391.SC4Lot
+          id: 23b81391
+          label: PHIL-IRM-Filler-Lot-2-I-M-Pallets-Forklift 1_23b81391.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 5_a3b9621d.SC4Lot
+          id: a3b9621d
+          label: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 5_a3b9621d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 4_e3b95d74.SC4Lot
+          id: e3b95d74
+          label: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 4_e3b95d74.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 3_73b95b5a.SC4Lot
+          id: 73b95b5a
+          label: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 3_73b95b5a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 2_13b95812.SC4Lot
+          id: 13b95812
+          label: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 2_13b95812.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 1_03b9555b.SC4Lot
+          id: 03b9555b
+          label: PHIL-IRM-Filler-Lot-2-I-M-Misc-Mix 1_03b9555b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 3_93b80b19.SC4Lot
+          id: 93b80b19
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 3_93b80b19.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 2_83b8092b.SC4Lot
+          id: 83b8092b
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 2_83b8092b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 1_b3b80843.SC4Lot
+          id: b3b80843
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Mix 1_b3b80843.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Loading_a3b804b9.SC4Lot
+          id: a3b804b9
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Loading_a3b804b9.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Half_03b7fcaf.SC4Lot
+          id: 03b7fcaf
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Half_03b7fcaf.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Half Stacked_33b7fd79.SC4Lot
+          id: 33b7fd79
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Half Stacked_33b7fd79.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Full_e3b7fbed.SC4Lot
+          id: e3b7fbed
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Full_e3b7fbed.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Full Stacked_63b7f93c.SC4Lot
+          id: 63b7f93c
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Full Stacked_63b7f93c.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Forklift 2_b3b801fb.SC4Lot
+          id: b3b801fb
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Forklift 2_b3b801fb.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Forklift 1_d3b7fe2e.SC4Lot
+          id: d3b7fe2e
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Forklift 1_d3b7fe2e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Crates-Diag Stacked_53b8010a.SC4Lot
+          id: 53b8010a
+          label: PHIL-IRM-Filler-Lot-2-I-M-Crates-Diag Stacked_53b8010a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Cables-Mix 2_b3b6cd07.SC4Lot
+          id: b3b6cd07
+          label: PHIL-IRM-Filler-Lot-2-I-M-Cables-Mix 2_b3b6cd07.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Cables-Mix 1_13b6cb7f.SC4Lot
+          id: 13b6cb7f
+          label: PHIL-IRM-Filler-Lot-2-I-M-Cables-Mix 1_13b6cb7f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Cables-Loading_03b6c8ab.SC4Lot
+          id: 03b6c8ab
+          label: PHIL-IRM-Filler-Lot-2-I-M-Cables-Loading_03b6c8ab.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Cables-Half_33b6c811.SC4Lot
+          id: 33b6c811
+          label: PHIL-IRM-Filler-Lot-2-I-M-Cables-Half_33b6c811.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Cables-Full_63b6c5e9.SC4Lot
+          id: 63b6c5e9
+          label: PHIL-IRM-Filler-Lot-2-I-M-Cables-Full_63b6c5e9.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Cables-Forklift_43b6c41b.SC4Lot
+          id: 43b6c41b
+          label: PHIL-IRM-Filler-Lot-2-I-M-Cables-Forklift_43b6c41b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags-Mix 2_43b6d5de.SC4Lot
+          id: 43b6d5de
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags-Mix 2_43b6d5de.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags-Mix 1_43b6d3ab.SC4Lot
+          id: 43b6d3ab
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags-Mix 1_43b6d3ab.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Mix 3_73b6e138.SC4Lot
+          id: 73b6e138
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Mix 3_73b6e138.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Mix 2_e3b6dd4f.SC4Lot
+          id: e3b6dd4f
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Mix 2_e3b6dd4f.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Mix 1_63b6da80.SC4Lot
+          id: 63b6da80
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Mix 1_63b6da80.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Forklift_33b6d7dc.SC4Lot
+          id: 33b6d7dc
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Wht-Forklift_33b6d7dc.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Red-Mix 1_53b6e62b.SC4Lot
+          id: 53b6e62b
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Red-Mix 1_53b6e62b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Grn-Mix 1_03b6e483.SC4Lot
+          id: 03b6e483
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Grn-Mix 1_03b6e483.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Lot-2-I-M-Bags Blu-Mix 1_e3b6e2d4.SC4Lot
+          id: e3b6e2d4
+          label: PHIL-IRM-Filler-Lot-2-I-M-Bags Blu-Mix 1_e3b6e2d4.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -1044,6 +2177,7 @@ philforhockey51/phil-irm-fillers-i-m-walls:
     - philforhockey51
   category: irm,i-m,fillers
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
@@ -1060,6 +2194,8 @@ philforhockey51/phil-irm-fillers-i-m-walls:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   description: |-
+    **PHIL IRM I-M Filler Walls**
+
     40 additional IRM I-M filler lots with Walls that match with TWrecks IRM Fillers.
 
     A mix of 1x1 neutral lots using the IRM I-M base texture and a mix of industrial props.
@@ -1106,10 +2242,177 @@ philforhockey51/phil-irm-fillers-i-m-walls:
     default:
       assets:
         - docs:
-            - Documents
+            - PHIL IRM Fillers - I-M Walls/Documents/PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 3.jpeg
+            - PHIL IRM Fillers - I-M Walls/Documents/PHIL-IRM-Filler-Wall-2-I-M-Crates-Misc Mix 1.jpeg
+            - PHIL IRM Fillers - I-M Walls/Documents/PHIL-IRM-Filler-Wall-2-I-M-Bags-Forklift.jpeg
+            - PHIL IRM Fillers - I-M Walls/Documents/PHIL IRM I-M Lots Walls.jpeg
+            - PHIL IRM Fillers - I-M Walls/Documents/PHIL IRM I-M Fillers Walls.txt
           id: simtropolis/36309-phil-irm-fillers-i-m-walls
           include:
             - PHIL IRM - I-M - Filler Wall - v*
+      lastModified: 2024-06-16T08:15:58Z
+      lots:
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 6_13b2bdd1.SC4Lot
+          id: 13b2bdd1
+          label: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 6_13b2bdd1.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 5_53b28184.SC4Lot
+          id: 53b28184
+          label: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 5_53b28184.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 4_d3b25566.SC4Lot
+          id: d3b25566
+          label: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 4_d3b25566.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 3_43b2500e.SC4Lot
+          id: 43b2500e
+          label: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 3_43b2500e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 2_83b24ee4.SC4Lot
+          id: 83b24ee4
+          label: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 2_83b24ee4.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 1_b3b24b95.SC4Lot
+          id: b3b24b95
+          label: PHIL-IRM-Filler-Wall-2-I-M-Misc-Mix 1_b3b24b95.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Mix Forklift_23b2b622.SC4Lot
+          id: 23b2b622
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Mix Forklift_23b2b622.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Mix Forklift 2_a3b2b928.SC4Lot
+          id: a3b2b928
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Mix Forklift 2_a3b2b928.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Misc Mix 2_23b2b3e3.SC4Lot
+          id: 23b2b3e3
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Misc Mix 2_23b2b3e3.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Misc Mix 1_a3b2b117.SC4Lot
+          id: a3b2b117
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Misc Mix 1_a3b2b117.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Half Stack_03b2aee5.SC4Lot
+          id: 03b2aee5
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Half Stack_03b2aee5.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Half Stack Mix_33b2afed.SC4Lot
+          id: 33b2afed
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Half Stack Mix_33b2afed.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Full_a3b2ac1e.SC4Lot
+          id: a3b2ac1e
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Full_a3b2ac1e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Crates-Full Stacked_03b2ad9b.SC4Lot
+          id: 03b2ad9b
+          label: PHIL-IRM-Filler-Wall-2-I-M-Crates-Full Stacked_03b2ad9b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 5_23b2a7c9.SC4Lot
+          id: 23b2a7c9
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 5_23b2a7c9.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 4_e3b2a42b.SC4Lot
+          id: e3b2a42b
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 4_e3b2a42b.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 3_e3b29eca.SC4Lot
+          id: e3b29eca
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 3_e3b29eca.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 2_e3b29cec.SC4Lot
+          id: e3b29cec
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 2_e3b29cec.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 1_73b29b15.SC4Lot
+          id: 73b29b15
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Misc Mix 1_73b29b15.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Half_63b25332.SC4Lot
+          id: 63b25332
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Half_63b25332.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Full 3_23b249d1.SC4Lot
+          id: 23b249d1
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Full 3_23b249d1.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Full 2_63b24855.SC4Lot
+          id: 63b24855
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Full 2_63b24855.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Full 1_43b2459c.SC4Lot
+          id: 43b2459c
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Full 1_43b2459c.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Forklift_d3b29946.SC4Lot
+          id: d3b29946
+          label: PHIL-IRM-Filler-Wall-2-I-M-Barrels-Forklift_d3b29946.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags-Mix 2_73b26781.SC4Lot
+          id: 73b26781
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags-Mix 2_73b26781.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags-Mix 1_03b251ab.SC4Lot
+          id: 03b251ab
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags-Mix 1_03b251ab.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags-Full_23b2646e.SC4Lot
+          id: 23b2646e
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags-Full_23b2646e.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags-Forklift_43b265ab.SC4Lot
+          id: 43b265ab
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags-Forklift_43b265ab.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Mix 2_53b27e4d.SC4Lot
+          id: 53b27e4d
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Mix 2_53b27e4d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Mix 1_e3b27bd8.SC4Lot
+          id: e3b27bd8
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Mix 1_e3b27bd8.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Full_33b279be.SC4Lot
+          id: 33b279be
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Full_33b279be.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Forklift_03b276df.SC4Lot
+          id: 03b276df
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Wht-Forklift_03b276df.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Red-Mix 1_a3b274c8.SC4Lot
+          id: a3b274c8
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Red-Mix 1_a3b274c8.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Red-Full_93b272f6.SC4Lot
+          id: 93b272f6
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Red-Full_93b272f6.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Grn-Mix 1_a3b2706d.SC4Lot
+          id: a3b2706d
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Grn-Mix 1_a3b2706d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Grn-Full_83b26d9a.SC4Lot
+          id: 83b26d9a
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Grn-Full_83b26d9a.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Blu-Mix 1_23b26c1d.SC4Lot
+          id: 23b26c1d
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Blu-Mix 1_23b26c1d.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-Bags Blu-Full_73b269ef.SC4Lot
+          id: 73b269ef
+          label: PHIL-IRM-Filler-Wall-2-I-M-Bags Blu-Full_73b269ef.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-An Empty-Wall_63b23d17.SC4Lot
+          id: 63b23d17
+          label: PHIL-IRM-Filler-Wall-2-I-M-An Empty-Wall_63b23d17.SC4Lot
+        - category: i-m
+          filename: PHIL-IRM-Filler-Wall-2-I-M-An Empty-Corner_63b24141.SC4Lot
+          id: 63b24141
+          label: PHIL-IRM-Filler-Wall-2-I-M-An Empty-Corner_63b24141.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

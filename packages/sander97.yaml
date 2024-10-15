@@ -3,6 +3,7 @@ sander97/arc-park:
     - sander97
   category: parks
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol02
     - pegasus/mtp-super-pack
     - pegasus/peg-tennis-park
@@ -10,9 +11,37 @@ sander97/arc-park:
     - sfbt/essentials
     - simcity-polska/polish-mega-props-misc-vol01
     - simgoober/mega-props-vol01
-  description:
-    This is a park in the shape of a half circle. Around it are some semidetached houses. It is a really big lot (10x19) which you can find it in the park menu. It's based on a street in
-    Duiven (the Netherlands) but the park is fictional.
+  description: >-
+    This is a park in the shape of a half circle. Around it are some semidetached houses. It is a really big lot (10x19) which you can find it in the park menu. It's based on a street in Duiven (the
+    Netherlands) but the park is fictional
+
+
+    edit:
+
+
+    The dependencies are:
+
+
+    - [Peg's MTP Super Resource Pack](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/) (prop file for pagoda)
+
+    - [Peg's SPAM Super Resource Pack](https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/) (texture file for dirt paths)
+
+    - [Peg's Tennis Park](https://community.simtropolis.com/files/file/11688-peg-tennis-park/)
+
+    - [Polish Mega Props - MISC vol01 v](https://community.simtropolis.com/files/file/33497-polish-mega-props-misc-vol01-v2/)2 (path tiles from the pagoda)
+
+    - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials) (small yellow -ish building)
+
+
+    And...
+
+
+    - BSC MEGA Props SG Vol01 v4
+
+    - BSC Textures Vol02
+
+
+    Both are in the [BSC Common Dependency Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a62096201bc_Arcpark2.jpg.cc639b8b372d0c49b6993285f2356c6d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a6209a3c71b_Arcpark.jpg.0690c452678289e554eeaf88c7ff174d.jpg
@@ -26,6 +55,11 @@ sander97/arc-park:
         - id: simtropolis/36353-arc-park#202141
           include:
             - Kromme straat met park
+        - docs: []
+          id: simtropolis/36353-arc-park
+          include: []
+      lastModified: 2024-07-29T15:44:25Z
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -37,7 +71,9 @@ sander97/diagonal-industrial:
   authors:
     - sander97
   category: i-m
-  description: This is a diagonal version of a industrial company I made 2 years ago. It's a overhanging building on a 2x2 lot. You need the MGB diagonal filler set to fill the spaces around it.
+  dependencies:
+    - mgb204/diagonal-filler-set
+  description: "This is a diagonal version of a industrial company I made 2 years ago. It's a overhanging building on a 2x2 lot. You need the MGB diagonal filler set to fill the spaces around it:"
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6658ca8480b10_Bedrijfspandschuin.jpg.0fc77f23574b20ee4dd21c46641fae7a.jpg
   name: Diagonal Industrial
@@ -49,9 +85,16 @@ sander97/diagonal-industrial:
   variants:
     default:
       assets:
-        - id: simtropolis/36269-diagonal-industrial
+        - docs: []
+          id: simtropolis/36269-diagonal-industrial
           include:
             - Bedrijfspand schuin
+      lastModified: 2024-05-30T18:58:19Z
+      lots:
+        - filename: Bedrijfspand schuin 2_d364ff57.SC4Lot
+          id: d364ff57
+          label: Bedrijfspand schuin 2_d364ff57.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -61,8 +104,7 @@ sander97/rowhouse-8:
   authors:
     - sander97
   category: r$
-  description:
-    Another rowhouse because I needed some more variety in rowhouses in my city. It is a medium wealth building which grows on a 1x2 lot. I made it quick so the backyard has only grass but
+  description: Another rowhouse because I needed some more variety in rowhouses in my city. It is a medium wealth building which grows on a 1x2 lot. I made it quick so the backyard has only grass but
     you can put trees or bushes in the backyard by using some MMPs.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6652232e5de4d_Rijtjeshuis8.jpg.5f299c9e6e5db240c4eb56bbba53ca1c.jpg
@@ -73,9 +115,19 @@ sander97/rowhouse-8:
   variants:
     default:
       assets:
-        - id: simtropolis/36264-rowhouses-8
+        - docs: []
+          id: simtropolis/36264-rowhouses-8
           include:
             - Rijtjeshuis 8
+      lastModified: 2024-05-25T17:52:27Z
+      lots:
+        - category: r$$
+          filename: R$$3_1x2_Rijtjeshuis 8 verbeterd_135e620e.SC4Lot
+          id: 135e620e
+          label: R$$3_1x2_Rijtjeshuis 8 verbeterd_135e620e.SC4Lot
+          size: 1x2
+          stage: 3
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -86,9 +138,17 @@ sander97/rowhouse-9:
     - sander97
   category: r$
   dependencies:
+    - bsc/common-dependencies
     - cycledogg/mega-props-vol01
     - cycledogg/textures-vol01
-  description: This is a low wealth rowhouse which grows on a 1x2 lot. It was based by some 80s rowhouses in my town.
+  description: |-
+    This is a low wealth rowhouse which grows on a 1x2 lot. It was based by some 80s rowhouses in my town.
+
+    Dependencies:
+
+    - [BSC MEGA Props CP Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    - [BSC Prop Pack Cycledogg No 1](https://community.simtropolis.com/files/file/14842-bsc-prop-pack-cycledogg-no-1/)
+    - [BSC TexturePack Cycledogg V 01b](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/66705e2182202_Rijtjeshuis9.jpg.3e72bcaeb6114a4c71a89c8e267ce456.jpg
   name: Rowhouse 9
@@ -98,9 +158,17 @@ sander97/rowhouse-9:
   variants:
     default:
       assets:
-        - id: simtropolis/36313-rowhouse-9
+        - docs: []
+          id: simtropolis/36313-rowhouse-9
           include:
             - Rijtjeshuis 9
+      lastModified: 2024-06-17T16:11:50Z
+      lots:
+        - filename: Rijtjeshuis 9 1x2_d37c95d5.SC4Lot
+          id: d37c95d5
+          label: Rijtjeshuis 9 1x2_d37c95d5.SC4Lot
+          size: 1x2
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -114,9 +182,12 @@ sander97/semi-detached-houses-2:
   category: r$$
   dependencies:
     - sander97/arc-park
-  description:
-    'This is a semi-detached house for the wealthier middle class. It is still an medium wealth house but it is slightly larger and it has a carport and a shed. There are 2 color variations.
-    It grows on a 2x2 lot. For those who want to plop them with the buildingplop cheat: you can find it under the name "huis met carport" and "twee onder een kap met carport"'
+  description: >-
+    This is a semi-detached house for the wealthier middle class. It is still an medium wealth house but it is slightly larger and it has a carport and a shed. There are 2 color variations. It grows
+    on a 2x2 lot. For those who want to plop them with the buildingplop cheat: you can find it under the name "huis met carport" and "twee onder een kap met carport"
+
+
+    Dependency:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c9af606daeb_tweeondereenkap.jpg.6a8b8db6c8b1f8a6e9e569145809aaad.jpg
   name: Semi-detached houses 2
@@ -126,18 +197,20 @@ sander97/semi-detached-houses-2:
   variants:
     default:
       assets:
-        - id: simtropolis/36408-semi-detached-houses-2
+        - docs: []
+          id: simtropolis/36408-semi-detached-houses-2
           include:
             - twee onder een kap met carport
+      lastModified: 2024-08-24T10:12:57Z
       lots:
         - filename: twee onder een kap 2x2_d3d5ed99.SC4Lot
           id: d3d5ed99
-          label: Semi-detached house (R$$, 2x2)
+          label: twee onder een kap 2x2_d3d5ed99.SC4Lot
           size: 2x2
         - filename: twee onder een kap met carport_13d53b96.SC4Lot
           id: 13d53b96
-          label: Semi-detached house with carport (R$$, 2x2)
-          size: 2x2
+          label: twee onder een kap met carport_13d53b96.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -157,16 +230,18 @@ sander97/sport-hall:
   variants:
     default:
       assets:
-        - id: simtropolis/36347-sport-hall
+        - docs: []
+          id: simtropolis/36347-sport-hall
+      lastModified: 2024-07-15T20:38:58Z
       lots:
-        - filename: Sportzaal 3x4 verbeterd_53a18ccc.SC4Lot
-          id: 53a18ccc
-          label: Small (3x4)
-          size: 3x4
         - filename: Sportzaal groot 2_73a1c745.SC4Lot
           id: 73a1c745
-          label: Large (4x5)
-          size: 4x5
+          label: Sportzaal groot 2_73a1c745.SC4Lot
+        - filename: Sportzaal 3x4 verbeterd_53a18ccc.SC4Lot
+          id: 53a18ccc
+          label: Sportzaal 3x4 verbeterd_53a18ccc.SC4Lot
+          size: 3x4
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0

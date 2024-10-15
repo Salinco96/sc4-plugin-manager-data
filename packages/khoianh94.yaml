@@ -3,6 +3,9 @@ khoianh94/european-bus-and-tram-stops:
     - khoianh94
   category: bus,tram
   description: >-
+    **New: Additional lots with HD bus stops for FARR and some updates are available [here](https://www.simtropolis.com/stex/details.cfm?id=23722).**
+
+
     This Download contains 15 lots with several bus and tram stops for your city:
 
 
@@ -16,6 +19,12 @@ khoianh94/european-bus-and-tram-stops:
 
 
     khoianh's Models and props are HD rendered to show the maximum amount of details.
+
+
+    **Dependencies:**
+
+
+    - Network Addon Mod (for tram stations)
 
 
     |     |     |     |     |     |     |     |
@@ -57,9 +66,61 @@ khoianh94/european-bus-and-tram-stops:
   variants:
     default:
       assets:
-        - id: simtropolis/23417-european-bus-and-tram-stops
+        - docs:
+            - Readme.txt
+            - Overview Tram Stops.jpg
+            - Overview Bus Stops.jpg
+          id: simtropolis/23417-european-bus-and-tram-stops
           include:
             - European Bus and Tram Stops
+      lastModified: 2010-04-16T16:22:16Z
+      lots:
+        - filename: khoianh_Strassenbahnhaltestelle_rot_f8881bf4.SC4Lot
+          id: f8881bf4
+          label: khoianh_Strassenbahnhaltestelle_rot_f8881bf4.SC4Lot
+        - filename: khoianh_Strassenbahnhaltestelle_grau_d8881c3d.SC4Lot
+          id: d8881c3d
+          label: khoianh_Strassenbahnhaltestelle_grau_d8881c3d.SC4Lot
+        - filename: khoianh_Strassenbahnhaltestelle_blau_f8881390.SC4Lot
+          id: f8881390
+          label: khoianh_Strassenbahnhaltestelle_blau_f8881390.SC4Lot
+        - filename: khoianh_kleine_Strassenbahnhaltestelle_rot_9888a77e.SC4Lot
+          id: 9888a77e
+          label: khoianh_kleine_Strassenbahnhaltestelle_rot_9888a77e.SC4Lot
+        - filename: khoianh_kleine_Strassenbahnhaltestelle_grau_9888a7b2.SC4Lot
+          id: 9888a7b2
+          label: khoianh_kleine_Strassenbahnhaltestelle_grau_9888a7b2.SC4Lot
+        - filename: khoianh_kleine_Strassenbahnhaltestelle_blau_1888a718.SC4Lot
+          id: 1888a718
+          label: khoianh_kleine_Strassenbahnhaltestelle_blau_1888a718.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_RTL-rot_96f0b91a.SC4Lot
+          id: 96f0b91a
+          label: khoianh_Bushaltestelle_Version_RTL-rot_96f0b91a.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_RTL-klein_96efe4ed.SC4Lot
+          id: 96efe4ed
+          label: khoianh_Bushaltestelle_Version_RTL-klein_96efe4ed.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_RTL-grau_d6f0b8ef.SC4Lot
+          id: d6f0b8ef
+          label: khoianh_Bushaltestelle_Version_RTL-grau_d6f0b8ef.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_RTL-blau_36f0b8c7.SC4Lot
+          id: 36f0b8c7
+          label: khoianh_Bushaltestelle_Version_RTL-blau_36f0b8c7.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_1c_rot_b8888be4.SC4Lot
+          id: b8888be4
+          label: khoianh_Bushaltestelle_Version_1c_rot_b8888be4.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_1c_grau_18888bcd.SC4Lot
+          id: 18888bcd
+          label: khoianh_Bushaltestelle_Version_1c_grau_18888bcd.SC4Lot
+        - filename: khoianh_Bushaltestelle_Version_1c_blau_18888a12.SC4Lot
+          id: 18888a12
+          label: khoianh_Bushaltestelle_Version_1c_blau_18888a12.SC4Lot
+        - filename: Fluggi_Bushaltestelle_orthogonal_b8888c79.SC4Lot
+          id: b8888c79
+          label: Fluggi_Bushaltestelle_orthogonal_b8888c79.SC4Lot
+        - filename: Fluggi_Bushaltestelle_diagonal_58896e48.SC4Lot
+          id: "58896e48"
+          label: Fluggi_Bushaltestelle_diagonal_58896e48.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

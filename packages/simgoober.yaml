@@ -10,11 +10,29 @@ simgoober/7-eleven-stores:
   dependencies:
     - gizmo/vehicle-props
   description: >-
-    In 2002, 7-Eleven, Inc. celebrated its 75th birthday. 7-Eleven pioneered the convenience store concept, starting in 1927 as the Southland Ice Company in Dallas, Texas.
+    In 2002, 7-Eleven, Inc. celebrated its 75th birthday. 7-Eleven pioneered the convenience store concept, starting in 1927 as the Southland Ice Company in Dallas, Texas. More info in readme.
+
+
+    Contents :
+
+
+    1x2 Growable Lot (1 with Gas Pumps - Bowser, one without)
+
+
+    1x2 Ploppable Lot(1 with Gas Pumps - Bowser, one without)
 
 
     Both of these lots make use of prop / building families, to add variety to the game. The 7-Eleven building has 8 different styles, each of which has a random chance of showing up when either lot
     is developed.
+
+
+    Dependencies :
+
+
+    Vehicles_Props-V3.dat . This can be downloaded at : http://gizmo.lunarpages.com/ I would recommend placing this and all prop packs in a separate "props" folder for easy maintainance.
+
+
+    Lot Use:
 
 
     Please feel free to alter this lot for your own personal use, but do not redistribute this lot in any form without permission from a BSC member. If, at some future date, members cannot be reached,
@@ -24,22 +42,22 @@ simgoober/7-eleven-stores:
     Credits :
 
 
-    - BAT Buildings Designed by SimGoober.
+    BAT Buildings Designed by SimGoober.
 
 
-    - BAT Bowser Designed by Deadwoods.
+    BAT Bowser Designed by Deadwoods.
 
 
-    - Lots Designed by BarbyW.
+    Lots Designed by BarbyW.
 
 
-    - Custom Query designed by Dealey.
+    Custom Query designed by Dealey.
 
 
-    - Historical Background by Hogmeister.
+    Historical Background by Hogmeister.
 
 
-    - Lot Testing by Fire27521, Cat Person, Vlakhaas, Vatt3.
+    Lot Testing by Fire27521, Cat Person, Vlakhaas, Vatt3.
   images:
     - https://www.simtropolis.com/objects/screens/0003/12382cb72cac8e516d7fd9c185d1fa27-BSC_7-ElevenDay1.jpg
     - https://www.simtropolis.com/objects/screens/0003/12382cb72cac8e516d7fd9c185d1fa27-BSC_7-ElevenNite1.jpg
@@ -50,29 +68,61 @@ simgoober/7-eleven-stores:
   variants:
     default:
       assets:
-        - id: simtropolis/3485-7eleven-stores-bsc
+        - docs:
+            - BSC_Readme_7-Eleven.txt
+          id: simtropolis/3485-7eleven-stores-bsc
+      lastModified: 2004-07-09T07:25:28Z
       lots:
         - filename: CS$1_1x2_BSC_7-Eleven_Bowser_cd9d00e4.SC4Lot
           id: cd9d00e4
-          label: 7-Eleven, with gas pump (Growable CS$, 1x2, Stage 1)
+          label: CS$1_1x2_BSC_7-Eleven_Bowser_cd9d00e4.SC4Lot
           size: 1x2
           stage: 1
-        - default: false
-          filename: CS$1_1x2_BSC_7-Elevenv2_4db66b6b.SC4Lot
+        - filename: CS$1_1x2_BSC_7-Elevenv2_4db66b6b.SC4Lot
           id: 4db66b6b
-          label: 7-Eleven, without gas pump (Growable CS$, 1x2, Stage 1)
+          label: CS$1_1x2_BSC_7-Elevenv2_4db66b6b.SC4Lot
           size: 1x2
           stage: 1
         - filename: BCS_7-Eleven_Bowser_cd9cfe49.SC4Lot
           id: cd9cfe49
-          label: 7-Eleven, with gas pump (Landmark, 1x2)
-          size: 1x2
-        - default: false
-          filename: BCS_7-Eleven_Bowser_cd9cfe49.SC4Lot
-          id: cd9cfe49
-          label: 7-Eleven, without gas pump (Landmark, 1x2)
-          size: 1x2
-      version: 1.0.2
+          label: BCS_7-Eleven_Bowser_cd9cfe49.SC4Lot
+        - filename: BCS_7-Eleven_4da2da49.SC4Lot
+          id: 4da2da49
+          label: BCS_7-Eleven_4da2da49.SC4Lot
+      name: Default
+      version: 1.02.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+simgoober/blackbeards-den:
+  authors:
+    - simgoober
+  category: waterfront
+  description: Blackbeard
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/9bc6bed99d086ae4dd3f1df46a2104e5-SG_BlackbeardsDen_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0017/9bc6bed99d086ae4dd3f1df46a2104e5-SG_BlackbeardsDen_Nite.jpg
+  name: Blackbeards Den
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2005/thumb-9bc6bed99d086ae4dd3f1df46a2104e5-SG_BlackbeardsDen_Day.jpg
+  url: https://community.simtropolis.com/files/file/12392-blackbeards-den/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Readme_SG_BlackBeardsDen.htm
+            - SG_BlackbeardsDen_Day.jpg
+            - SG_BlackbeardsDen_Nite.jpg
+          id: simtropolis/12392-blackbeards-den
+      lastModified: 2005-05-04T19:53:35Z
+      lots:
+        - filename: SG_3x4_BlackbeardsDen_6f672fb6.SC4Lot
+          id: 6f672fb6
+          label: SG_3x4_BlackbeardsDen_6f672fb6.SC4Lot
+          size: 3x4
+      name: Default
+      version: 1.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -107,6 +157,12 @@ simgoober/costco-distribution-center:
     | Occupant Groups : | Building: Industrial,Building: IM,Industry: Anchor,BTE : Ind - Manufacturing,BTE : Ind - Warehouses,BTE : SimGoober Industrial,BTE : SimGoober Creation |
 
     | Bulldoze cost : |     |
+
+
+    EDIT: 8th July 2015
+
+
+    Fixed formatting.
   images:
     - https://www.simtropolis.com/objects/screens/0018/9d20456ee17a325ee9d42c31a2d84be7-SG_CostcoDistribution_Day.jpg
     - https://www.simtropolis.com/objects/screens/0018/9d20456ee17a325ee9d42c31a2d84be7-SG_CostcoDistribution_Nite1.jpg
@@ -117,23 +173,32 @@ simgoober/costco-distribution-center:
   variants:
     default:
       assets:
-        - id: simtropolis/3910-costco-distribution-center
+        - docs:
+            - SG_Readme_CostcoDistribution.htm
+            - SG_CostcoDistribution_Nite.jpg
+            - SG_CostcoDistribution_Day.jpg
+          id: simtropolis/3910-costco-distribution-center
+      lastModified: 2015-07-08T20:28:56Z
       lots:
-        - filename: I-m2_6x6_SG_CostcoDistribution_4e0a5a28.SC4Lot
-          id: 4e0a5a28
-          label: Costco Distribution Center (Growable I-M, 6x6, Stage 2)
-          size: 6x6
-          stage: 2
         - filename: SG_6x6_DistributionCenter_Costco_90d0ff0b.SC4Lot
           id: 90d0ff0b
-          label: Costco Distribution Center (Landmark, 6x6)
+          label: SG_6x6_DistributionCenter_Costco_90d0ff0b.SC4Lot
           size: 6x6
-      name: Original
-      version: 1.0.1
+        - filename: I-m2_6x6_SG_CostcoDistribution_4e0a5a28.SC4Lot
+          id: 4e0a5a28
+          label: I-m2_6x6_SG_CostcoDistribution_4e0a5a28.SC4Lot
+          size: 6x6
+          stage: 2
+      name: Default
+      version: 1.01.0
     kingofsimcity:
       assets:
         - id: simtropolis/3910-costco-distribution-center
-        - id: simtropolis/31668-idm-simgoobers-costco-distribution-center
+        - docs:
+            - readme.html
+            - detail_2.jpg
+            - detail_1.jpg
+          id: simtropolis/31668-idm-simgoobers-costco-distribution-center
           include:
             - KOSC Relots/Industry Mania/SG's Costco Distribution Center
       authors:
@@ -146,48 +211,180 @@ simgoober/costco-distribution-center:
         - mushymushy/hd-north-american-53ft-semi-trailers-vol01
         - mushymushy/hd-north-american-semi-truck-cabs-vol01
         - shokthrpy/shk-parking-pack
+        - simgoober/costco-distribution-center
+      description: >-
+        *KOSC Presents: IndustryMania: Simgoober's Costco Distribution Center*
+
+
+        **Introduction**
+
+
+        **Costco Distribution Center** is the **2nd** release of my **IndustryMania** series. This is a set of re-lots and expansions for Simgoober's Costco Distribution Center.
+
+
+        **Package Overview**
+
+
+        These lots were designed for accommodating logistics and freight in which the original could not. The lot sizes have been expanded overall so there's more rooms for worker parking as well as
+        freight to move around. Additionally, there is a new super distribution center that essentially doubles the available warehouse space in an attempt to emulate the massive, massive distribution
+        centers in real life. These gigantic lots boasts expansive spaces for trucks to move about, as well as a plethora of stalls for trucks and cargo alike.
+
+
+        Included in the following package is a set of custom base textures and 5 growable I-M lots: 3 for the super variant and 2 for the regular. There are IRM friendly versions for each of the
+        centers.
+
+
+        If you desire to plop the lots, use the **buildingPlop** cheat and look for the exemplar "**KOSC_SG_CostcoDist_Super****"** for the super version, and **"SG_CostcoDistribution_Grow"** for the
+        regular. **(requires ExtraCheats.dll)**
+
+
+        **General Stats**
+
+
+        The brand new **Super Distribution Center** lots will provide **750 I-M** jobs. They are available in the following configuration:
+
+
+        - 15x12, 16x9, stage 1
+
+        - 7x10, stage 2
+
+
+        Additionally, there are two re-lots of the original (which are also based off the original descriptor).
+
+
+        - 7x6, stage 2
+
+        - 8x9, stage 1
+
+
+        Detailed stats and information can be found in the enclosed README.
+
+
+        **Install Instructions**
+
+
+        Drop the files in your **My Documents/SimCity 4/Plugins** folder.
+
+
+        **Dependencies**
+
+
+        This one is a bit of a doozy when it comes to dependencies! The good news is that if you have the IRM, most of the prop packs should be accounted for.
+
+
+        #### Main Building(s)
+
+
+        You will only need one of the following versions for the lot to work.
+
+
+        **STEX Version**
+
+
+        - [Costco Distribution Center](https://community.simtropolis.com/files/file/3910-costco-distribution-center/)
+
+
+        **SC4D Version**
+
+
+        The PIM\-X version has the models and building descriptors separated.
+
+
+        - [SG Industrial Models I-M1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1137)
+
+        - [SG Industrial Lots IM1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1138)
+
+
+        #### Props
+
+
+        - [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+        - [BSC MEGA Props SG Vol. 1](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+
+        - [BSC MEGA Props CP Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+        - [BSC MEGA Props CP Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2790)
+
+        - [BSC MEGA Props Jestarr Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+        - [BSC MEGA Props Jestarr Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=338)
+
+        - [BSC MEGA Props Jestarr Vol. 3](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=339)
+
+        - [BSC MEGA Props Jestarr Vol. 5](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1263)
+
+        - [BSC MEGA Props Jestarr Vol. 8](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1778)
+
+        - [BSC MEGA Props Gascooker Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=397)
+
+        - [BSC MEGA Props Misc Vol. 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771)
+
+        - [HD North American 40ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/)
+
+        - [HD North American 53ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/)
+
+        - [HD North American Semi Truck Cabs Vol. 1](https://community.simtropolis.com/files/file/30732-hd-north-american-semi-truck-cabs-vol1/)
+
+        - [IdM - Trucking Essentials](https://community.simtropolis.com/files/file/31578-idm-trucking-essentials/)
+
+
+        #### Textures
+
+
+        - [BSC Textures Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+        - [BSC Texture Pack Cycledogg V01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=101)
+
+        - [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+        - [SuperSHK+ FA3 Parking Textures](https://community.simtropolis.com/files/file/31423-supershk-fa3-parking-textures/)
+
+
+        Credit to **Simgoober** for the original BAT!
+
+
+        Enjoy!
+      images:
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/splash.jpg.66699cdc2a8f3ec2dc4030240bb81fe5.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/detail_1.jpg.85d93471b82ba8dbc377fe83ed6e2753.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/detail_2.jpg.2ff96b8ccf4d56aff43b82bc3a32bf86.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/dist_front.jpg.be56ff86014f76d3fab9f582f59a6b08.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/dist_rear.jpg.915066d0ba749475c677632cc0f02ac3.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/super_front.jpg.10b53459691c382856b35a9e05cf8d7d.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/super_rear.jpg.f2e2697f5bc243fa69056dae493b7f75.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2017_05/irm_detail.jpg.1777137945460e5530f2c2c3a414094f.jpg
+      lastModified: 2017-05-30T03:02:01Z
       lots:
-        - filename: IM$$1_8x9_SG_CostcoDistribution_Grow_96a06b81.SC4Lot
-          id: 96a06b81
-          label: Costco Distribution Center (Growable I-M, 8x9, Stage 1)
-          size: 8x9
-          stage: 1
         - filename: IM$$2_7x6_SG_CostcoDistribution_Grow_96b09c5e.SC4Lot
           id: 96b09c5e
-          label: Costco Distribution Center (Growable I-M, 7x6, Stage 2)
+          label: IM$$2_7x6_SG_CostcoDistribution_Grow_96b09c5e.SC4Lot
           size: 7x6
           stage: 2
+        - filename: IM$$2_7x10_KOSC_SG_CostcoDist_Super_06a066c5.SC4Lot
+          id: 06a066c5
+          label: IM$$2_7x10_KOSC_SG_CostcoDist_Super_06a066c5.SC4Lot
+          size: 7x10
+          stage: 2
+        - filename: IM$$1_8x9_SG_CostcoDistribution_Grow_96a06b81.SC4Lot
+          id: 96a06b81
+          label: IM$$1_8x9_SG_CostcoDistribution_Grow_96a06b81.SC4Lot
+          size: 8x9
+          stage: 1
         - filename: IM$$1_16x9_KOSC_SG_CostcoDist_Super_46501193.SC4Lot
           id: "46501193"
-          label: Costco Distribution Center, Super (Growable I-M, 16x9, Stage 1)
+          label: IM$$1_16x9_KOSC_SG_CostcoDist_Super_46501193.SC4Lot
           size: 16x9
           stage: 1
         - filename: IM$$1_15x12_KOSC_SG_CostcoDist_Super_3659540f.SC4Lot
           id: 3659540f
-          label: Costco Distribution Center, Super (Growable I-M, 15x12, Stage 1)
+          label: IM$$1_15x12_KOSC_SG_CostcoDist_Super_3659540f.SC4Lot
           size: 15x12
           stage: 1
-        - filename: IM$$2_7x10_KOSC_SG_CostcoDist_Super_06a066c5.SC4Lot
-          id: 06a066c5
-          label: Costco Distribution Center, Super (Growable I-M, 7x10, Stage 2)
-          size: 7x10
-          stage: 2
-        - default: false
-          filename: I-m2_6x6_SG_CostcoDistribution_4e0a5a28.SC4Lot
-          id: 4e0a5a28
-          label: Costco Distribution Center, Original (Growable I-M, 6x6, Stage 2)
-          size: 6x6
-          stage: 2
-        - default: false
-          filename: SG_6x6_DistributionCenter_Costco_90d0ff0b.SC4Lot
-          id: 90d0ff0b
-          label: Costco Distribution Center, Original (Landmark, 6x6)
-          size: 6x6
-      name: Revisited by KOSC
-      release: 2024-08-20T10:45:45.232Z
-      thumbnail: https://community.simtropolis.com/files/file/31668-idm-simgoobers-costco-distribution-center/
+      release: 2024-09-04T10:03:15.374Z
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_05/splash.thumb.jpg.c7c117ea70ad161f3c1d5c86ea863d13.jpg
       url: https://community.simtropolis.com/files/file/31668-idm-simgoobers-costco-distribution-center/
-      version: 1.0.0
+      version: 1.00.0
   warnings:
     - id: bulldoze
       on: disable
@@ -196,9 +393,12 @@ simgoober/farm-fields-vol02:
   authors:
     - SimGoober
   category: agriculture
-  description:
-    This is a second set of prop based farm fields, to offer more variations to the Sim farmers out there. These lots designed for use with a related farm. They will not appear without a farm
-    lot that has them assigned to it.
+  description: >-
+    This is a second set of prop based farm fields, to offer more variations to the Sim farmers out there. These lots designed for use with a related farm. They will not appear without a farm lot that
+    has them assigned to it.
+
+
+    Full details are in the readme file.
   images:
     - https://www.simtropolis.com/objects/screens/0022/c9c713768e7f0f620c1ca2835e596d42-BSC%20Farm%20Fields%20SG%20Vol%2002_01.jpg
     - https://www.simtropolis.com/objects/screens/0022/c9c713768e7f0f620c1ca2835e596d42-BSC%20Farm%20Fields%20SG%20Vol%2002_02.jpg
@@ -209,8 +409,200 @@ simgoober/farm-fields-vol02:
   variants:
     default:
       assets:
-        - id: simtropolis/11935-bsc-farm-fields-sg-vol-02
+        - docs:
+            - Readme_SG_CropFields Vol 02.htm
+          id: simtropolis/11935-bsc-farm-fields-sg-vol-02
+      lastModified: 2005-03-12T23:21:46Z
+      lots:
+        - filename: SG Farm Field - WaxBeans_8f33bfee.SC4Lot
+          id: 8f33bfee
+          label: SG Farm Field - WaxBeans_8f33bfee.SC4Lot
+        - filename: SG Farm Field - TomatoesSeasonal_ef33bfce.SC4Lot
+          id: ef33bfce
+          label: SG Farm Field - TomatoesSeasonal_ef33bfce.SC4Lot
+        - filename: SG Farm Field - TobaccoSeasonal_8f33bfaf.SC4Lot
+          id: 8f33bfaf
+          label: SG Farm Field - TobaccoSeasonal_8f33bfaf.SC4Lot
+        - filename: SG Farm Field - SugarCaneSeasonal_8f33bf18.SC4Lot
+          id: 8f33bf18
+          label: SG Farm Field - SugarCaneSeasonal_8f33bf18.SC4Lot
+        - filename: SG Farm Field - SoyBeansSeasonal_ef33be4b.SC4Lot
+          id: ef33be4b
+          label: SG Farm Field - SoyBeansSeasonal_ef33be4b.SC4Lot
+        - filename: SG Farm Field - PumpkinsSeasonal_cf33beaf.SC4Lot
+          id: cf33beaf
+          label: SG Farm Field - PumpkinsSeasonal_cf33beaf.SC4Lot
+        - filename: SG Farm Field - PotatoesSeasonal_cf33be20.SC4Lot
+          id: cf33be20
+          label: SG Farm Field - PotatoesSeasonal_cf33be20.SC4Lot
+        - filename: SG Farm Field - PeppersYellow_cf33bbbe.SC4Lot
+          id: cf33bbbe
+          label: SG Farm Field - PeppersYellow_cf33bbbe.SC4Lot
+        - filename: SG Farm Field - PeppersRed_4f33afc6.SC4Lot
+          id: 4f33afc6
+          label: SG Farm Field - PeppersRed_4f33afc6.SC4Lot
+        - filename: SG Farm Field - PeppersMixed_4f33bbb1.SC4Lot
+          id: 4f33bbb1
+          label: SG Farm Field - PeppersMixed_4f33bbb1.SC4Lot
+        - filename: SG Farm Field - PeppersGreen_cf33afe0.SC4Lot
+          id: cf33afe0
+          label: SG Farm Field - PeppersGreen_cf33afe0.SC4Lot
+        - filename: SG Farm Field - LiquoriceSeasonal_ef33bdfa.SC4Lot
+          id: ef33bdfa
+          label: SG Farm Field - LiquoriceSeasonal_ef33bdfa.SC4Lot
+        - filename: SG Farm Field - HopsSeasonal_4f33bd45.SC4Lot
+          id: 4f33bd45
+          label: SG Farm Field - HopsSeasonal_4f33bd45.SC4Lot
+        - filename: SG Farm Field - CottonSeasonal_4f33bf5d.SC4Lot
+          id: 4f33bf5d
+          label: SG Farm Field - CottonSeasonal_4f33bf5d.SC4Lot
+        - filename: SG Farm Field - CantaloupeSeasonal_4f33af03.SC4Lot
+          id: 4f33af03
+          label: SG Farm Field - CantaloupeSeasonal_4f33af03.SC4Lot
+        - filename: SG Farm Field - AniseedSeasonal_0f33bd8b.SC4Lot
+          id: 0f33bd8b
+          label: SG Farm Field - AniseedSeasonal_0f33bd8b.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+simgoober/goobergen-rural-hospital:
+  authors:
+    - simgoober
+  category: civics
+  description: |-
+    A large, Rural hospital for more open spaces. It takes up a rather large chunk of real estate, and also comes with a helipad, for providing quick care to those patients out in the country.
+
+    Lot Size: 8x6
+
+    Monthly Cost: $2,500
+
+    Capacity: 7000
+
+    **Dependencies:**
+
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    [BSC Mega Props SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [BSC Mega Props CP Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    2014-12-18 - Prens: Added up-to-date links + tags.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/7a72583a7ba25cf8a78491f62f02ca47-sg_goobergenhospital_day.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/b68dcf7f888fe34c1441a407dc5ab890-sg_goobergenhospital_nite.jpg
+  name: GooberGen Rural Hospital
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2014/thumb-7a72583a7ba25cf8a78491f62f02ca47-sg_goobergenhospital_day.jpg
+  url: https://community.simtropolis.com/files/file/16015-goobergen-rural-hospital/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SG_GooberGenHospital_Day.jpg
+            - SG_GooberGenHospital_Nite.jpg
+            - SG_Readme_GooberGenRuralHosp.htm
+          id: simtropolis/16015-goobergen-rural-hospital
+      lastModified: 2014-12-18T06:51:06Z
+      lots:
+        - filename: SG_8x6_GooberGenRuralHospital_f15ec3bc.SC4Lot
+          id: f15ec3bc
+          label: SG_8x6_GooberGenRuralHospital_f15ec3bc.SC4Lot
+          size: 8x6
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+simgoober/lick-a-chick-restaurant:
+  authors:
+    - simgoober
+  category: commercial
+  description: >-
+    I was sent a picture of this Real World restaurant a while back, and thought to myself, now I really MUST do that one! The real version is located in Nova Scotia, Canada. With a name like this,
+    they really must have the best chicken around!
+
+
+    In game this one seems to grow very easily, but then upgrades to something else rather quickly. I'd suggest marking one or two historical, then let the rest disappear.
+
+
+    Growable CS$
+
+
+    **Dependencies:**
+
+
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+
+
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+
+    [BSC Textures Vol 02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+
+    [BSC Mega Props CP Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+
+    [BSC Mega Props SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+
+    [BSC MEGA Props_JBSimio_Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1829)
+
+
+    2014-12-17 - Prens: Added up-to-date links + tags.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/a0422e1bebe637e0d5e4faab832c6d8a-sg_lick-a-chick_01.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2014/cf502d4507c5b07c3fb4eee27a257a23-sg_lick-a-chick_02.jpg
+  name: Lick A Chick Restaurant
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2014/thumb-a0422e1bebe637e0d5e4faab832c6d8a-sg_lick-a-chick_01.jpg
+  url: https://community.simtropolis.com/files/file/20992-lick-a-chick-restaurant/
+  variants:
+    default:
+      assets:
+        - docs:
+            - images/footer.gif
+            - images/header.gif
+            - images/SG_Lick-A-Chick_01.jpg
+            - images/SG_Lick-A-Chick_02.jpg
+            - SG_Readme_LickAChick.htm
+          id: simtropolis/20992-lick-a-chick-restaurant
+      lastModified: 2014-12-17T03:21:26Z
+      lots:
+        - category: cs$
+          filename: CS$2_3x2_SG_LickAChick.SC4Lot
+          id: CS$2_3x2_SG_LickAChick.SC4Lot
+          label: CS$2_3x2_SG_LickAChick.SC4Lot
+          size: 3x2
+          stage: 2
+        - category: cs$
+          filename: CS$2_3x3_SG_LickAChick.SC4Lot
+          id: CS$2_3x3_SG_LickAChick.SC4Lot
+          label: CS$2_3x3_SG_LickAChick.SC4Lot
+          size: 3x3
+          stage: 2
+        - category: cs$
+          filename: CS$2_3x4_SG_LickAChick.SC4Lot
+          id: CS$2_3x4_SG_LickAChick.SC4Lot
+          label: CS$2_3x4_SG_LickAChick.SC4Lot
+          size: 3x4
+          stage: 2
+        - category: landmarks
+          filename: SG_PLOP_3x3_LickAChick.SC4Lot
+          id: SG_PLOP_3x3_LickAChick.SC4Lot
+          label: SG_PLOP_3x3_LickAChick.SC4Lot
+          size: 3x3
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 simgoober/mega-props-vol01:
   authors:
@@ -776,10 +1168,13 @@ simgoober/parisian-corner-residentials:
     - xannepan
   category: residential
   dependencies:
+    - bsc/common-dependencies
     - bsc/essentials
     - bsc/textures-vol01
     - dolphin66/mega-props-vol01
+    - nos-17/sc4-cleanitol
     - porkissimo/jenx-porkie-expanded-props
+    - sc4evermore/18-bsc-cleanitol
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
     - xannepan/mega-props-vol01
@@ -792,6 +1187,15 @@ simgoober/parisian-corner-residentials:
 
     All the lots have been updated with SC4PIM-X (X-tool), that had effect on occupancy and grow stages. The original lots were Stage 5 R$$$ growables, among the updated lots there are three which
     still will grow on stage 5, seven will grow on stage 6 and another three will grow on stage 7.
+
+
+    There is a *Cleanitol_BSC SG JENX Residentials.txt* that will help you to remove the old files. Use any of the third party cleanitol tools:
+
+
+    [nos.17 SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)
+
+
+    BSC Cleanitol
 
 
     ### **LOT DETAILS**
@@ -825,6 +1229,47 @@ simgoober/parisian-corner-residentials:
     | Water pollution: | 2-3 over 7 tiles |
 
     | Garbage pollution: | 4 tons per month |
+
+
+    ### **INSTALLATION**
+
+
+    **Installation:** Copy/extract the **Simgoober** parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it
+    out of the Plugins folder.
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    ### **DEPENDENCIES**
+
+
+    To ensure the proper functionality, make sure the files mentioned Below are installed in the plugins folder.
+
+
+    [SC4D LEX Legacy - BSC Common Dependencies Pack v9](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)
+
+
+    The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+
+    - BSC Essentials v2024a
+
+    - BSC MEGA Props JENX Vol01 **v4**
+
+    - BSC MEGA Props SG Vol01 v4
+
+    - BSC MEGA Props SWI21 Vol01 v4
+
+    - BSC MEGA Props D66 Vol01 V3
+
+
+    - - BSC Textures Vol01
+
+
+    JENX-Porki Expanded Porkie Props
+
+     ![SG_JenxParisHomes01](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SG_JenxParisHomes01.jpg)![SG_JenxParisHomes022](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SG_JenxParisHomes02.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SG_JenxParisHomes01.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SG_JenxParisHomes02.jpg
@@ -836,74 +1281,94 @@ simgoober/parisian-corner-residentials:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/Simgoober
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_BSC SG JENX Residentials.txt
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Paris Residentials.htm
+            - ~Documents/BSC_Readmes/Simgoober/imgages/SG_JenxParisHomes02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/imgages/SG_JenxParisHomes01.jpg
           id: sc4evermore/275-bsc-sg-jenx-parisian-corner-residential
           include:
             - Simgoober/Residentials/JENX Paris ReLots
+      lastModified: 2024-05-02T16:14:31-07:00
       lots:
-        - filename: R$$$5_4x4_JENX_ParisBlock01_v2_2f86cd32.SC4Lot
-          id: 2f86cd32
-          label: Block 1 (Growable R$$$, 4x4, Stage 5)
-          size: 4x4
-          stage: 5
-        - filename: R$$$5_4x4_JENX_ParisBlock02_v2_cf86cd72.SC4Lot
-          id: cf86cd72
-          label: Block 2 (Growable R$$$, 4x4, Stage 5)
-          size: 4x4
-          stage: 5
-        - filename: R$$$5_4x4_JENX_ParisBlock03_v2_8f86cdb1.SC4Lot
-          id: 8f86cdb1
-          label: Block 3 (Growable R$$$, 4x4, Stage 5)
-          size: 4x4
-          stage: 5
-        - label: Block 4 (Growable R$$$, 4x4, Stage 5)
-          size: 4x4
-          stage: 5
-        - filename: R$$$7_4x4_JENX_ParisBlock05_0f86ce15.SC4Lot
-          id: 0f86ce15
-          label: Block 5 (Growable R$$$, 4x4, Stage 7)
-          size: 4x4
-          stage: 7
-        - filename: R$$$7_4x4_JENX_ParisBlock06_8f86ce3c.SC4Lot
-          id: 8f86ce3c
-          label: Block 6 (Growable R$$$, 4x4, Stage 7)
-          size: 4x4
-          stage: 7
-        - filename: R$$$6_4x4_JENX_ParisBlock07_2f86ce7f.SC4Lot
-          id: 2f86ce7f
-          label: Block 7 (Growable R$$$, 4x4, Stage 6)
-          size: 4x4
-          stage: 6
-        - filename: R$$$6_4x4_JENX_ParisBlock08_ef86cede.SC4Lot
-          id: ef86cede
-          label: Block 8 (Growable R$$$, 4x4, Stage 6)
-          size: 4x4
-          stage: 6
-        - filename: R$$$6_4x4_JENX_ParisBlock09_4f86cf40.SC4Lot
-          id: 4f86cf40
-          label: Block 9 (Growable R$$$, 4x4, Stage 6)
-          size: 4x4
-          stage: 6
-        - filename: R$$$6_4x4_JENX_ParisBlock10_af86cf9f.SC4Lot
-          id: af86cf9f
-          label: Block 10 (Growable R$$$, 4x4, Stage 6)
-          size: 4x4
-          stage: 6
-        - filename: R$$$6_4x4_JENX_ParisBlock11_0f86cfd5.SC4Lot
-          id: 0f86cfd5
-          label: Block 11 (Growable R$$$, 4x4, Stage 6)
-          size: 4x4
-          stage: 6
-        - filename: R$$$6_4x4_JENX_ParisBlock12_cf86d007.SC4Lot
-          id: cf86d007
-          label: Block 12 (Growable R$$$, 4x4, Stage 6)
-          size: 4x4
-          stage: 6
-        - filename: R$$$7_4x4_JENX_ParisBlock13_2f86d049.SC4Lot
+        - category: r$$$
+          filename: R$$$7_4x4_JENX_ParisBlock13_2f86d049.SC4Lot
           id: 2f86d049
-          label: Block 13 (Growable R$$$, 4x4, Stage 7)
+          label: R$$$7_4x4_JENX_ParisBlock13_2f86d049.SC4Lot
           size: 4x4
           stage: 7
+        - category: r$$$
+          filename: R$$$7_4x4_JENX_ParisBlock06_8f86ce3c.SC4Lot
+          id: 8f86ce3c
+          label: R$$$7_4x4_JENX_ParisBlock06_8f86ce3c.SC4Lot
+          size: 4x4
+          stage: 7
+        - category: r$$$
+          filename: R$$$7_4x4_JENX_ParisBlock05_0f86ce15.SC4Lot
+          id: 0f86ce15
+          label: R$$$7_4x4_JENX_ParisBlock05_0f86ce15.SC4Lot
+          size: 4x4
+          stage: 7
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock12_cf86d007.SC4Lot
+          id: cf86d007
+          label: R$$$6_4x4_JENX_ParisBlock12_cf86d007.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock11_0f86cfd5.SC4Lot
+          id: 0f86cfd5
+          label: R$$$6_4x4_JENX_ParisBlock11_0f86cfd5.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock10_af86cf9f.SC4Lot
+          id: af86cf9f
+          label: R$$$6_4x4_JENX_ParisBlock10_af86cf9f.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock09_4f86cf40.SC4Lot
+          id: 4f86cf40
+          label: R$$$6_4x4_JENX_ParisBlock09_4f86cf40.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock08_ef86cede.SC4Lot
+          id: ef86cede
+          label: R$$$6_4x4_JENX_ParisBlock08_ef86cede.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock07_2f86ce7f.SC4Lot
+          id: 2f86ce7f
+          label: R$$$6_4x4_JENX_ParisBlock07_2f86ce7f.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$6_4x4_JENX_ParisBlock04_cf86cde9.SC4Lot
+          id: cf86cde9
+          label: R$$$6_4x4_JENX_ParisBlock04_cf86cde9.SC4Lot
+          size: 4x4
+          stage: 6
+        - category: r$$$
+          filename: R$$$5_4x4_JENX_ParisBlock03_v2_8f86cdb1.SC4Lot
+          id: 8f86cdb1
+          label: R$$$5_4x4_JENX_ParisBlock03_v2_8f86cdb1.SC4Lot
+          size: 4x4
+          stage: 5
+        - category: r$$$
+          filename: R$$$5_4x4_JENX_ParisBlock02_v2_cf86cd72.SC4Lot
+          id: cf86cd72
+          label: R$$$5_4x4_JENX_ParisBlock02_v2_cf86cd72.SC4Lot
+          size: 4x4
+          stage: 5
+        - category: r$$$
+          filename: R$$$5_4x4_JENX_ParisBlock01_v2_2f86cd32.SC4Lot
+          id: 2f86cd32
+          label: R$$$5_4x4_JENX_ParisBlock01_v2_2f86cd32.SC4Lot
+          size: 4x4
+          stage: 5
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -914,11 +1379,13 @@ simgoober/residentials-pack:
     - SimGoober
   category: residential
   dependencies:
+    - bsc/common-dependencies
     - bsc/essentials
     - bsc/mega-props-misc-vol01
     - bsc/mega-props-misc-vol02
     - bsc/textures-vol01
     - bsc/textures-vol02
+    - cam/colossus-addon-mod
     - couchpotato/mega-props-vol01
     - csx/mega-props-vol01
     - cycledogg/mega-props-vol01
@@ -928,12 +1395,41 @@ simgoober/residentials-pack:
     - dolphin66/mega-props-vol03
     - gascooker/mega-props-vol01
     - maxis/maxis-buildings-as-props
+    - nos-17/sc4-cleanitol
     - pegasus/mtp-super-pack
+    - sc4evermore/18-bsc-cleanitol
+    - simgoober/astoria-pointe-apartments
+    - simgoober/baltimore-sweel-front-town-homes
+    - simgoober/brownstone-apartments
+    - simgoober/bsc-evening-town-homes
+    - simgoober/country-homes
+    - simgoober/mathew-keenan-townhome
     - simgoober/mega-props-vol01
     - simgoober/models-residentials-vol01
     - simgoober/models-residentials-vol02
     - simgoober/models-residentials-vol03
     - simgoober/models-residentials-vol04
+    - simgoober/rls-cottages
+    - simgoober/rls-home-the-cheriton
+    - simgoober/rls-home-the-hagerman
+    - simgoober/rls-homes-suburban-collection
+    - simgoober/rls-homes-swedish-modern
+    - simgoober/rls-homes-swedish-villa-siljac
+    - simgoober/rls-homes-the-ashton
+    - simgoober/rls-homes-the-berwick
+    - simgoober/rls-homes-the-birka
+    - simgoober/rls-homes-the-claridge
+    - simgoober/rls-homes-the-colonial
+    - simgoober/rls-homes-the-highgrove
+    - simgoober/rls-homes-the-legacy
+    - simgoober/rls-mobile-homes
+    - simgoober/rls-small-homes
+    - simgoober/rls-suburban-condos
+    - simgoober/rls-suburban-townhomes
+    - simgoober/sardina-row-homes
+    - simgoober/scuttlebutt-row-homes
+    - simgoober/sugar-cane-farms
+    - simgoober/walldoff-apartments
     - swi21/mega-props-vol01
   description: >-
     This SC4 Devotion LEX Legacy Pack features the Residential Houses by legendary BSC BATer **SimGoober**, which had been available on the Lot Exchange (LEX) at SC4 Devotion and also on the
@@ -1191,18 +1687,151 @@ simgoober/residentials-pack:
     default:
       assets:
         - docs:
-            - readme*
-            - as: Readmes
-              path: ~Documents/BSC_Readmes/Simgoober
-            - as: Residentials
-              path: "!CAM/Simgoober/Residentials#"
-            - as: Residentials
-              path: Simgoober/Residentials
-            - as: Commercials
-              path: Simgoober/Commercials
+            - readme_BSC_SG_Residential_Collection.html
+            - readme.css
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SC4D LEX Legacy - SimGoober Residential Pack V1.txt
+            - ~Documents/BSC_Readmes/Simgoober/SG RES Vol04.jpg
+            - ~Documents/BSC_Readmes/Simgoober/SG RES Vol03.jpg
+            - ~Documents/BSC_Readmes/Simgoober/SG RES Vol02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/SG RES Vol01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_SusanBAnthonyBuilding.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Schmucker House.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Residentials Vol04.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Residentials Vol03.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Residentials Vol02.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Residentials Vol01.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_PencilTowers.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_Mobile_Homes.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_MarySue.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_ElwoodTower.htm
+            - ~Documents/BSC_Readmes/Simgoober/Readme_SG_ApartmentBlocks01.htm
+            - Simgoober/Residentials/Susan B Anthony House/STATs_Susan B Anthony House.txt
+            - Simgoober/Residentials/Schmucker House/STATs_Schmucker House.txt
+            - Simgoober/Residentials/Mary Sue Home/STATs_Mary Sue House.txt
+            - Simgoober/Residentials/Elwood Tower/STATs_Apartment Block Elwood.txt
+            - ~Documents/BSC_Readmes/Simgoober/images/Thumbs.db
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_WallDoffApartments_Day2.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_WallDoffApartments_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SugarPlantation.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SuburbanCondos_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SuburbanCondos_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SmithBlock.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SepsisCabins_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SepsisCabins_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_ScuttlebuttRow_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_ScuttlebuttRow_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SardinaRow_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_SardinaRow_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_SuburbanTownhomes_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_SuburbanTownhomes_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_SmallHomes.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_Legacy_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_Legacy_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_Ashton_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLS_Ashton_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLSHomes_Colonial_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLSHomes_Colonial_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLSHomes_ClaridgePlus.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLSHomes_Claridge01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLSCottages_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_RLSCottages_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_PrincessTower.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_PencilTowers02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_PencilTowers01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_MobileHomes_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_MobileHomes_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_MathewKeenan_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_MathewKeenan_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Katie02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Katie01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Homes_SwedishVilla_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Homes_SwedishVilla_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Homes_SwedishModern02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Homes_SwedishModern01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Homes_HighGrove_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Homes_HighGrove_Day01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_HomesCountry02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_HomesCountry01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Hagerman_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Hagerman_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Greendale02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Greendale01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Emily02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Emily01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Cheriton02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Cheriton01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_BrownStones_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_BrownStones_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_BirkaAddon_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_BirkaAddon_Day.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Berwick02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Berwick01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_BaltimoreTownhomes.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Astoria02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_Astoria01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_ApartmentElwoodTower02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_ApartmentElwoodTower01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_ApartmentBlocks1_02.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG_ApartmentBlocks1_01.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG Schmucker-n.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SG Schmucker-d.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SBA_ren.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/SBA_red.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/MarySue_ren.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/MarySue_red.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/logo_header.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/header.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/header.gif
+            - ~Documents/BSC_Readmes/Simgoober/images/footer.gif
+            - ~Documents/BSC_Readmes/Simgoober/images/BSC_SG_EveningTownhomes_Nite.jpg
+            - ~Documents/BSC_Readmes/Simgoober/images/BSC_SG_EveningTownhomes_Day.jpg
+            - Simgoober/Residentials/Apartment Blocks/STATs_Apartment Blocks.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol04/Walldoff Apartments/STATs_Walldoff Apartments.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol04/Astoria Pointe Apartments/STATs_Astoria Pointe Apartments.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol03/The Highgrove/STATs_The Highgrove.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol03/The Hagerman/STATs_The Hagerman.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol03/The Colonials/STATs_The Colonial.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol03/The Cheriton/STATs_The Cheriton.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol03/Mathew Keenan Townhomes/STATs_Mathew Keenan Townhomes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol03/Plantation Villas/STATs_Sugar Plantation Villas.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Suburban Townhomes/STATs_Suburban Townhomes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Suburban Condos/STATs_Suburban Condos.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Scuttle Butt Row/STATs_Scuttle Butt Row.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Evening Townhomes/STATs_Evening Town Homes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Sardina Row/STATs_Sardina Row Homes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Baltimore Swell Front Townhomes/STATs_Baltimore Swell Front Townhomes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol02/Brownstones/STATs_Brownstones.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/The Legacy/STATs_The Legacy.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/The Cottages/STATs_The Cottages.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/The Claridge/STATs_The Claridge.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/The Birka/STATs_The Birka.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/The Berwick/STATs_The Berwick.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/The Ashton/STATs_The Ashton.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Suburban Homes/STATs_Suburban Homes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Swedish Modern Homes/STATs_Swedish Modern Homes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Swedish Villas/STATs_Swedish Villa Siljan.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Small Homes/STATs_Small Homes.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Sepsis Cabins/STATs_Sepsis Cabins.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Rachael Anne Cottages/STATs_Rachael Anne Cottages.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Jacobson Cottages/STATs_Jacobson Cottages.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Glenn Allen/STATs_Glenn Allen.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Country/STATs_Country.txt
+            - Simgoober/Residentials/Residential LOT Collection Vol01/Ashley River Cottages/STATs_Ashley River Cottages.txt
+            - Simgoober/Commercials/Offices/Mathew Keegen Offices/STATs_Mathew Keenan Offices.txt
+            - "!CAM/Simgoober/Residentials#/Princess Tower/STATs_Princess Tower.txt"
+            - "!CAM/Simgoober/Residentials#/Smith Block/STATs_Smith Block.txt"
+            - "!CAM/Simgoober/Residentials#/Elwood Tower/STATs_Apartment Block Elwood (CAM).txt"
+            - Simgoober/Residentials/Mobile Homes/Sunnydale Park_5x4/STATs_Sunnydale Park.txt
+            - Simgoober/Residentials/Mobile Homes/NESCO Rollerhomes_5x4/STATs_NESCO Rollerhomes.txt
+            - Simgoober/Residentials/Mobile Homes/Mobile Homes/STATs_Mobile Homes.txt
+            - Simgoober/Residentials/Mobile Homes/House Trailers/STATs_House Trailers.txt
+            - Simgoober/Residentials/Mobile Homes/Fernelle Manor_5x4/STATs_Fernelle Manor.txt
+            - Simgoober/Residentials/Mobile Homes/Colony Mobile Home Park_10x10/STATs_Colony Mobile Home Park.txt
+            - "!CAM/Simgoober/Residentials#/Pencil Towers/Musgrave/STATs_Pencil Towers_Musgrave.txt"
+            - "!CAM/Simgoober/Residentials#/Pencil Towers/Cumberland/STATs_Pencil Towers_Cumberland.txt"
+            - "!CAM/Simgoober/Residentials#/Pencil Towers/Atlas/STATs_Pencil Towers_Atlas.txt"
           id: sc4evermore/274-sc4d-lex-legacy-bsc-simgoober-residentials
           include:
-            # TODO
             - "*.SC4Lot"
             - Simgoober/Residentials/Susan B Anthony House/SG_House_SusanBAnthony_GROW.dat
             - Simgoober/Landmarks/WallDoff Hotel/SG_3x3_WallDoff Hotel_Plop.dat
@@ -1251,55 +1880,110 @@ simgoober/residentials-pack:
             - "!CAM/Simgoober/Residentials#/Pencil Towers/Musgrave/SG_ApartmentTowers_Musgrave_GROW.dat"
             - "!CAM/Simgoober/Residentials#/Pencil Towers/Cumberland/SG_ApartmentTowers_Cumberland_GROW.dat"
             - "!CAM/Simgoober/Residentials#/Pencil Towers/Atlas/SG_ApartmentTowers_Atlas_GROW.dat"
+      lastModified: 2024-05-01T07:54:12-07:00
       lots:
         - category: r$$$
           filename: R$$$4_4x3_SG_SchmuckerHouse_72c9ca68.SC4Lot
           id: 72c9ca68
-          label: R$$$4_4x3_SG_SchmuckerHouse_72c9ca68
+          label: R$$$4_4x3_SG_SchmuckerHouse_72c9ca68.SC4Lot
           size: 4x3
           stage: 4
         - category: r$$
           filename: R$$5_2x2_SG_Home_MarySue01_9527ab6f.SC4Lot
           id: 9527ab6f
-          label: R$$5_2x2_SG_Home_MarySue01_9527ab6f
+          label: R$$5_2x2_SG_Home_MarySue01_9527ab6f.SC4Lot
           size: 2x2
           stage: 5
         - category: r$$
           filename: R$$4_3x2_SG_Home_MarySue01_a527aba1.SC4Lot
           id: a527aba1
-          label: R$$4_3x2_SG_Home_MarySue01_a527aba1
+          label: R$$4_3x2_SG_Home_MarySue01_a527aba1.SC4Lot
           size: 3x2
           stage: 4
         - category: r$
           filename: R$8_2x3_SG_ApartmentBlockElwood_0807688b.SC4Lot
           id: 0807688b
-          label: R$8_2x3_SG_ApartmentBlockElwood_0807688b
+          label: R$8_2x3_SG_ApartmentBlockElwood_0807688b.SC4Lot
           size: 2x3
           stage: 8
         - category: landmarks
           filename: PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a.SC4Lot
           id: d795f70a
-          label: PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a
+          label: PLOP_3x3_SG_ApartmentTower-Musgrave_d795f70a.SC4Lot
           size: 3x3
         - filename: SG_3x3_SchmuckerHouse_32c9cad7.SC4Lot
           id: 32c9cad7
-          label: SG_3x3_SchmuckerHouse_32c9cad7
+          label: SG_3x3_SchmuckerHouse_32c9cad7.SC4Lot
           size: 3x3
         - filename: SG SchmuckerHouse Museum_9f64ad09.SC4Lot
           id: 9f64ad09
-          label: SG SchmuckerHouse Museum_9f64ad09
+          label: SG SchmuckerHouse Museum_9f64ad09.SC4Lot
         - filename: SG_1x2_Susan B Anthony Museum_65188d8c.SC4Lot
           id: 65188d8c
-          label: SG_1x2_Susan B Anthony Museum_65188d8c
+          label: SG_1x2_Susan B Anthony Museum_65188d8c.SC4Lot
           size: 1x2
         - category: r$
           filename: R$9_2x2_SG_ApartmentBlockElwood_d807687a.SC4Lot
           id: d807687a
-          label: R$9_2x2_SG_ApartmentBlockElwood_d807687a
+          label: R$9_2x2_SG_ApartmentBlockElwood_d807687a.SC4Lot
           requirements:
             cam: true
           size: 2x2
           stage: 9
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+simgoober/washburn-water-tower:
+  authors:
+    - simgoober
+  category: utilities
+  description: >-
+    Mayor, the high wealth residents of your city have asked for a little nicer water tower, something to make them feel good about the prosperity of the city. This model is based off a real world one
+    of this name, near Minneapolis, Minnesota.
+
+
+    **Lot Details and Information**
+
+
+    **Building: Utility (has reward requirements)**
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Lot size: | 2 x 3 tiles |
+
+    | Lot Wealth : | Medium Wealth |
+
+    | Water Produced: | 20,000 Gallons |
+
+    | Plop cost : |     |
+  images:
+    - https://www.simtropolis.com/objects/screens/0020/b7486e04c7b03b8e466ce8ddd82b5bef-SG_WashburnWaterTower_Day.jpg
+    - https://www.simtropolis.com/objects/screens/0020/b7486e04c7b03b8e466ce8ddd82b5bef-SG_WashburnWaterTower_Nite.jpg
+  name: Washburn Water Tower
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2006/thumb-b7486e04c7b03b8e466ce8ddd82b5bef-SG_WashburnWaterTower_Day.jpg
+  url: https://community.simtropolis.com/files/file/14716-washburn-water-tower/
+  variants:
+    default:
+      assets:
+        - docs:
+            - SG_Readme_WashburnWaterTower.htm
+            - SG_WashburnWaterTower_Day.jpg
+            - SG_WashburnWaterTower_Nite.jpg
+          id: simtropolis/14716-washburn-water-tower
+      lastModified: 2006-01-17T16:45:46Z
+      lots:
+        - filename: SG_2x2_WashburnWaterTower_906c22db.SC4Lot
+          id: 906c22db
+          label: SG_2x2_WashburnWaterTower_906c22db.SC4Lot
+          size: 2x2
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

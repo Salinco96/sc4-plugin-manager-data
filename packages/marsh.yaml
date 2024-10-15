@@ -6,9 +6,21 @@ marsh/maxis-tree-replacement-mod:
     - cycledogg/mega-props-vol01
     - mattb325/bat-props-vol02
     - simfox/chestnuts
-  description:
-    This mod replaces all of the maxis trees in-game, oaks, pines & palms. It makes your neighborhoods much more "full" as they should be in real life. And you no longer have to wait for
-    saplings to grow over the years. A recommended mod is [SFBTs' street tree mod](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1196) (used in the pictures) or similar.
+  description: >-
+    This mod replaces all of the maxis trees in-game, oaks, pines & palms. It makes your neighborhoods much more "full" as they should be in real life. And you no longer have to wait for saplings to
+    grow over the years. A recommended mod is [SFBTs' street tree mod](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1196) (used in the pictures) or similar.
+
+
+    **Dependencies:**
+
+
+    [Simfoxes Chestnuts](https://www.simtropolis.com/forum/files/file/20411-simfox-chestnuts/)
+
+
+    [BSC MEGA Props CP Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+
+    [BSCPropsMattb325_Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2011/3f2a290ed0ea7ec147d89171dd03d48c-banner.png
     - https://www.simtropolis.com/objects/screens/monthly_09_2011/50dae41a55c91982f2870e3d7b367844-img0090.jpg
@@ -23,12 +35,15 @@ marsh/maxis-tree-replacement-mod:
     default:
       assets:
         - docs:
-            - Maxis tree replacement mod
+            - Maxis tree replacement mod/banner.png
+            - Maxis tree replacement mod/img0090.jpg
+            - Maxis tree replacement mod/img0091.jpg
+            - Maxis tree replacement mod/readme.txt
           id: simtropolis/26804-maxis-tree-replacement-mod
           include:
-            - Maxis tree replacement mod/M_tree replacement mod
-            # TODO
-            # - Maxis tree replacement mod/M_tree replacement mod/Oak Replacement.dat
-            # - Maxis tree replacement mod/M_tree replacement mod/Palm Replacement.dat
-            # - Maxis tree replacement mod/M_tree replacement mod/Pine Replacement.dat
+            - Maxis tree replacement mod/M_tree replacement mod/Oak Replacement.dat
+            - Maxis tree replacement mod/M_tree replacement mod/Palm Replacement.dat
+            - Maxis tree replacement mod/M_tree replacement mod/Pine Replacement.dat
+      lastModified: 2016-11-02T08:36:19Z
+      name: Default
       version: 1.0.0

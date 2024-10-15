@@ -12,6 +12,16 @@ rp2007/uk-tiny-terraces:
     There are 4 variations on the basic house and 4 different lots that combine them to give variation. Stats are set to allow them to grow early in a city's life.
 
     The lot size is 1x2. The building grow as R$ in the Euro tileset and have an occupancy of 6.
+
+    Dependencies:
+
+    BSC Mega Props - Misc Vol 1
+
+    BSC Mega Props - D66 Vol 1
+
+    BSC Mega Props - Gascooker Vol 1
+
+    These files are currently only available from [www.sc4devotion.com](http://www.sc4devotion.com).
   images:
     - https://www.simtropolis.com/objects/screens/0003/1520b91e0ff88cc983c163e3d3fdfd32-UK_TinyTerrace_Day.jpg
     - https://www.simtropolis.com/objects/screens/0003/1520b91e0ff88cc983c163e3d3fdfd32-UK_TinyTerrace_Night.jpg
@@ -22,9 +32,34 @@ rp2007/uk-tiny-terraces:
   variants:
     default:
       assets:
-        - id: simtropolis/18338-uk-tiny-terraces
+        - docs:
+            - Readme_RP_UK_TinyTerraces.htm
+          id: simtropolis/18338-uk-tiny-terraces
           include:
             - rp2007_TinyTerrace
+      lastModified: 2007-06-28T15:33:12Z
+      lots:
+        - filename: R$2_1x2_TinyTerrace4_738acef7.SC4Lot
+          id: 738acef7
+          label: R$2_1x2_TinyTerrace4_738acef7.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: R$2_1x2_TinyTerrace3_b38ac0f1.SC4Lot
+          id: b38ac0f1
+          label: R$2_1x2_TinyTerrace3_b38ac0f1.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: R$2_1x2_TinyTerrace2_138abde4.SC4Lot
+          id: 138abde4
+          label: R$2_1x2_TinyTerrace2_138abde4.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: R$2_1x2_TinyTerrace1_b38ab9d4.SC4Lot
+          id: b38ab9d4
+          label: R$2_1x2_TinyTerrace1_b38ab9d4.SC4Lot
+          size: 1x2
+          stage: 2
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

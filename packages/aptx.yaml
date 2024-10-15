@@ -2,6 +2,9 @@ aptx/mega-props-collection:
   authors:
     - APTX
   category: props
+  dependencies:
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
   description: >-
     This SC4 Devotion LEX Legacy Pack features the BSC Team and SC4D LEX Restoration Team-assembled prop packs of popular Japanese BATer APTX_8590, which had been available on the Lot Exchange (LEX)
     at SC4 Devotion. This compilation also contains most (if not all) of the models that APTX ever released on their websites over the years. After battling a number of technical issues, software
@@ -11,6 +14,33 @@ aptx/mega-props-collection:
 
     Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
     update, and provide technical support for the pack.
+
+
+    #### Installation
+
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)\--or a zip tool capable
+    of opening the installer to allow manual installation. For Windows/Linux, use [7-zip](https://www.7-zip.org), and for macOS, use [Keka](https://www.keka.io/en/).
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything).
+    Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). On the Cleanup tab, click "Start scan" to find any
+    outdated files that currently reside in your Plugins folder that may conflict with this package. Clicking "Backup" will remove these old files to a safe location. (The option to "Delete" them also
+    exists, but is not recommended.)\*\* After this, click over to the Install tab, and click "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a
+    message indicating it, after which you are safe to close the installer.
+
+
+    \*\* Though there is an inbuilt cleanitol function in the installer, at this point it is not working entirely properly so it is highly recommended to run the individual cleanitol files or the
+    master cleanitol for the compilation with one of the following 3rd party cleanitol tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    BSC Cleanitol (old tool)
 
 
     #### Credits
@@ -100,6 +130,9 @@ aptx/mega-props-collection:
             - the original textures that came with of APTX's uploads (8590_RailTexture.dat, 8590texture_OPL.dat, hachiko-base.dat, OCHbase.dat) have been compiled into this small texture pack. The texture pack also contains updated texture ID-s that should be used if one decided to use these textures for lotting purposes.
 
     Various pieces of original documentation and earlier Cleanitol definitions can be found in the "~Documents" folder.
+
+
+    ![APTX Ultra Props_banner_LEX](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/APTX%20Ultra%20Props_banner_LEX.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/APTX Ultra Props_banner_LEX.jpg
   name: APTX Dependencies Pack
@@ -110,10 +143,34 @@ aptx/mega-props-collection:
     default:
       assets:
         - docs:
-            - ~Documents/readme*
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - readme_APTX Dependency Pack V1.html
+            - readme.css
+            - ~Documents/readme_APTX Dependency Pack V1.html
+            - ~Documents/readme.css
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SC4 LEGACY - APTX Compilation V1__master.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Textures vol01.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Mega Props vol06.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Mega Props vol05.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Mega Props vol04.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Mega Props vol03.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Mega Props vol02.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_APTX Mega Props vol01.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Textures vol01_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Mega Prop Pack06_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Mega Prop Pack05_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Mega Prop Pack04_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Mega Prop Pack03_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Mega Prop Pack02_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/APTX Mega Prop Pack01_index.jpg
           id: sc4evermore/142-aptx-ultra-prop-pack
           include:
-            - APTX/MEGA Props#
-            - APTX/Textures#
+            - APTX/Textures#/APTX Textures Vol01/APTX Textures Vol01.dat
+            - APTX/MEGA Props#/APTX Mega Prop Pack Vol06/APTX MEGA Pack Vol06.dat
+            - APTX/MEGA Props#/APTX Mega Prop Pack Vol05/APTX MEGA Pack Vol05.dat
+            - APTX/MEGA Props#/APTX Mega Prop Pack Vol04/APTX MEGA Pack Vol04.dat
+            - APTX/MEGA Props#/APTX Mega Prop Pack Vol03/APTX MEGA Pack Vol03.dat
+            - APTX/MEGA Props#/APTX Mega Prop Pack Vol02/APTX MEGA Pack Vol02.dat
+            - APTX/MEGA Props#/APTX Mega Prop Pack Vol01/APTX MEGA Pack Vol01.dat
+      lastModified: 2024-01-20T05:16:24-08:00
+      name: Default
       version: 1.0.0

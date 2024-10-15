@@ -1,3 +1,58 @@
+berethor07/lbt-fire-station-pack:
+  authors:
+    - berethor07
+  category: civics
+  description: >-
+    This file contains two fire stations of medium and big size for your cities, both fire stations cover a good area of fire coverage (the half in a big city tile) you should find these at your fire
+    station civic menu. Enjoy!
+
+
+    Lot Details:
+
+
+    <table width="298" cellspacing="1" cellpadding="1" border="1" summary=""
+    style="height:196px;"><tbody><tr><td>Name:</td><td>Portales</td><td>Central</td></tr><tr><td>Size</td><td>5x4</td><td>4x4</td></tr><tr><td>Monthly
+    cost</td><td>$750</td><td>$350</td></tr><tr><td>Dependencies:</td><td colspan="2"><p><span style="font-size:8.5pt;font-family:Verdana;color:#000000;"></span></p><ul type="disc"
+    style="margin-bottom:0cm;"><li style="color:#000000;"><a href="../../stex/index.cfm?id=19044" rel=""><abbr title="Latin American BAT Team">LBT</abbr> Prop Pack 2</a></li><li
+    style="color:#000000;"><a href="../../stex/index.cfm?id=19366" rel=""><abbr title="Latin American BAT Team">LBT</abbr> Prop Pack 3</a></li></ul><p></p></td></tr></tbody></table>
+
+
+    **Special thanks to Heblem for modding and packaging for to upload.**
+
+
+    **More details in readme.**
+  images:
+    - https://www.simtropolis.com/objects/screens/0017/94aa9d4f9917b01bef9d8d68ae21107c-est1.jpg
+    - https://www.simtropolis.com/objects/screens/0017/94aa9d4f9917b01bef9d8d68ae21107c-est2.jpg
+  name: LBT Fire Station Pack
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2008/thumb-94aa9d4f9917b01bef9d8d68ae21107c-est1.jpg
+  url: https://community.simtropolis.com/files/file/19608-lbt-fire-station-pack/
+  variants:
+    default:
+      assets:
+        - docs:
+            - est1.jpg
+            - est2.jpg
+            - frente_leeme.jpg
+            - ReadMe_FireStations.htm
+          id: simtropolis/19608-lbt-fire-station-pack
+      lastModified: 2008-03-31T23:58:07Z
+      lots:
+        - category: landmarks
+          filename: LBT_Central_Plop4x4_7576ca2b.SC4Lot
+          id: 7576ca2b
+          label: LBT_Central_Plop4x4_7576ca2b.SC4Lot
+        - category: landmarks
+          filename: LBT_Portales_Plop5x4_3576c947.SC4Lot
+          id: 3576c947
+          label: LBT_Portales_Plop5x4_3576c947.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 berethor07/lbt-residentials-models-files-vol-01:
   authors:
     - LBT
@@ -25,6 +80,7 @@ berethor07/lbt-residentials-models-files-vol-01:
           id: simtropolis/20816-lbt-residentials-models-files-vol-01
           include:
             - Residentials models 1
+      lastModified: 2024-06-28T23:35:28Z
       version: 1.1.0
 
 berethor07/lbt-residentials-models-files-vol-02:
@@ -54,4 +110,5 @@ berethor07/lbt-residentials-models-files-vol-02:
           id: simtropolis/20817-lbt-residentials-models-files-vol-02
           include:
             - Residentials models 2
+      lastModified: 2024-06-28T23:26:36Z
       version: 1.1.0

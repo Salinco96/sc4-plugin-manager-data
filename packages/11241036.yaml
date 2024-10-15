@@ -7,16 +7,21 @@
     - bsc/mega-props-misc-vol02
     - bsc/textures-vol01
     - couchpotato/mega-props-vol01
-    - cycledogg/textures-vol01
     - cycledogg/mega-props-vol02
+    - cycledogg/textures-vol01
     - franku/bnl-essentials
     - girafe/flora-pack
     - hund88/sunflower-field
     - maxis/longfellow-castle
+    - memo/submenus-dll
+    - pegasus/spam
     - pegasus/spam-super-resource-pack
     - simgoober/farm-fields-vol02
     - wmp/mega-props-vol01
   description: >-
+    **Description:**
+
+
     This is a small set of community gardens, working as a supplement to the default Maxis community gardens, for those mayors that want their sims to grow their own food. These lots come in 4 sizes,
     from 1x1 to 2x2, and provide a small park effect, as well as a small farming demand cap relief, while charging only low monthly cost.
 
@@ -25,6 +30,72 @@
 
 
     **Available languages:** English and German
+
+
+    **Dependencies**
+
+
+    **BSC Farm Fields SG Vol 02:** https://community.simtropolis.com/files/file/11935-bsc-farm-fields-sg-vol-02/
+
+
+    **11241036 Textures Version 3 or higher:** If you have downloaded the 11241036 Textures before May 11th, 2024, please download and install them again. You can just overwrite previous versions with
+    the new version.
+
+
+    https://community.simtropolis.com/files/file/33651-11241036-textures/
+
+
+    **SimPeg Agricultural Mod "SPAM"** (either full mod or Super Resource Pack):
+
+
+    Full Mod: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam/
+
+
+    Super Resource Pack: https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/
+
+
+    **BSC Common Dependencies Pack Version 8 or higher:**
+    [https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+
+    *You need the following files:*
+
+
+    *BSC Textures Vol 01.dat*
+
+
+    *BSC_TexturePack_Cycledogg_V 01.dat*
+
+
+    *BSC MEGA Props - Misc Vol02.dat*
+
+
+    *BSC Mega Props - CP Vol02.dat*
+
+
+    *BSC MEGA Props - MJB Vol01.dat*
+
+
+    **WMP Mega Props vol. 01 - Misc General Props:** https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/
+
+
+    **BNL Essentials and its subsequent dependencies:** https://community.simtropolis.com/files/file/28639-bnl-essentials/
+
+
+    **BSC VIP Girafe Flora Pack:**
+    [https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+
+    *You need the following parts: Common Spruces*
+
+
+    **Sunflower Field:** https://community.simtropolis.com/files/file/21220-sunflower-field/
+
+
+    *You only need the .SC4Model and .SC4Desc files.*
+
+
+    **Maxis Castle Set** (direct download link): https://community.simtropolis.com/library/maxis/sc4/buildings/Longfellow_Castle.zip
 
 
     **Special notes:**
@@ -39,6 +110,28 @@
 
 
     ![Icon_CG_Submenu.thumb.png.ac068eaec43b7f](https://www.simtropolis.com/objects/screens/monthly_2024_05/Icon_CG_Submenu.thumb.png.ac068eaec43b7fd77ddfe937d18a241c.png)
+
+
+    You may want to download memo's Submenus DLL mod here: https://community.simtropolis.com/files/file/36142-submenus-dll/
+
+
+    **Installation:**
+
+
+    Step 1: To install the lots themselves, please put the file Community Gardens.dat into your Plugins folder.
+
+
+    Step 2 (optional): To allow the submenu button to show up, please either put the file *CG_Submenu Community Gardens.dat* or the file *CG_Submenu Park.dat* into your Plugins folder (do not install
+    both files). The first one will make the community garden submenu show up under memo's own Community Gardens submenu, the latter one will simply put it into your Park menu.
+
+
+    To uninstall this plugin, please remove all instances of this plugin from your cities and then remove all files coming with it.
+
+
+    **Compatibility:**
+
+
+    This plugin is only compatible with SC4 Deluxe or SC4 with the Rush Hour Expansion.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/CG_Scr.jpg.3dc07c1f7c103e42c75a59d52b82cf8e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/Icon_CG_Submenu.png.3b8b1d7ee92435a55d29c1369d3865ae.png
@@ -51,10 +144,16 @@
   variants:
     default:
       assets:
-        - id: simtropolis/36243-community-gardens
+        - docs:
+            - Community Gardens_Readme.pdf
+            - CG_Scr.jpg
+          id: simtropolis/36243-community-gardens
           include:
             - Community Gardens.dat
             - CG_Submenu Park.dat
+            - CG_Submenu Community Gardens.dat
+      lastModified: 2024-05-16T12:07:03Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -65,10 +164,41 @@
     - "11241036"
   category: mmps,flora
   dependencies:
+    - cycledogg/mega-props-mmps
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
     - lowkee33/seasonal-flora-patch
+    - memo/submenus-dll
   description: >-
+    **Warning! Please take yourself time to read the Readme in order to avoid nasty side effects, such as the double icon bug, and some entries not working the way you want.**
+
+
+    **Dependencies:**
+
+
+    **BSC Common Dependencies Pack Version 8 or higher:**
+    [https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+
+    *In particular, you need the following files: BSC MEGA Props - CP Vol01.dat, BSC Mega Props - CP Vol02.dat*
+
+
+    **Seasonal Flora Patch** (if your terrain mod doesn't support seasonal flora):
+    https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/36-lk33-seasonalflorapatch
+
+
+    **Submenus DLL** (optional): https://community.simtropolis.com/files/file/36142-submenus-dll/
+
+
+    **Other MMP plugins related to CP's content you might be interested in:**
+
+
+    **BSC CP MMPs for CP MEGA Prop Packs:** https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/132-bsc-cp-mmp-for-cp-mega-prop-packs
+
+
+    **Description:**
+
+
     This plugin contains, as its name already implies, a few plant MMP's derivated from CP's props. Like all other MMP's, they are available in your Mayor Mode menu. There's nothing special to tell
     about them, and there isn't really a coherent theme they all would be part of, but in my opinion they are a nice addition to the game, and they aren't part of any other upload. Some of them are
     seasonal, therefore, please read the item descriptions carefully, because some of these seasonal items need to be planted in in-game September, and some in March.
@@ -105,6 +235,19 @@
     submenu.
 
 
+    **Installation:**
+
+
+    Step 1: Move or copy all files except the Readme into your Plugins folder of SC4.
+
+
+    Step 2: The folders "Cherry Tree" and "Plum Tree" contain 4 files each, every file with the same entry but with varying graphics. **Only use one of these files per folder!** Remove the 3 others
+    from your Plugins folder. To change the season, you can just replace the file you've left there with any of the other files.
+
+
+    To uninstall, remove all of the MMP's that come with this plugin, and then remove all of its files.
+
+
     **Compatibility:**
 
 
@@ -121,13 +264,23 @@
   variants:
     default:
       assets:
-        - id: simtropolis/36339-cp-floral-mmp-collection
+        - docs:
+            - Scr_CP.png
+            - Readme.pdf
+          id: simtropolis/36339-cp-floral-mmp-collection
           include:
+            - CP Floral MMP Collection_Submenu.dat
             - CP Floral MMP Collection_Core Files.dat
-            - condition:
-                submenus: true
-              path: CP Floral MMP Collection_Submenu.dat
-            - CP_*_{{season}}.dat
+            - Plum Tree/CP_Plum_Winter.dat
+            - Plum Tree/CP_Plum_Summer.dat
+            - Plum Tree/CP_Plum_Spring.dat
+            - Plum Tree/CP_Plum_Fall.dat
+            - Cherry Tree/CP_Cherry_Winter.dat
+            - Cherry Tree/CP_Cherry_Summer.dat
+            - Cherry Tree/CP_Cherry_Spring.dat
+            - Cherry Tree/CP_Cherry_Fall.dat
+      lastModified: 2024-07-13T15:22:33Z
+      name: Default
       options:
         - choices:
             - label: Spring
@@ -151,7 +304,12 @@
   authors:
     - "11241036"
   category: transport,overrides
+  dependencies:
+    - nam-team/network-addon-mod-nam-cross-platform
   description: >-
+    **Description:**
+
+
     This mod alters the FA\-2 and FA\-3 roads (only straight routes) that come with NAM to remove the trees (and the lanterns, if you want) there. The idea to do this came to me after reading this
     thread: https://community.simtropolis.com/forums/topic/763344-fractional-angle-w2w/
 
@@ -168,6 +326,23 @@
 
     - If you are growifying a plopped building with the Growify DLL, the zone changes to low, medium, or high density. This will affect adjacent routes, but only if you drag them again or plop into
     them with the Road tool.
+
+
+    **Dependencies:**
+
+
+    Network Addon Mod:
+    [http://community.simtropolis.com/files/file/26793-network-addon-mod-for-windows-installer/](https://community.simtropolis.com/files/file/26793-network-addon-mod-for-windows-installer/)
+
+
+    **Installation:**
+
+
+    There are 3 files coming with this plugin, **only install one of them**. Please check the screenshots to observe the visual result.
+
+
+    To install, put one out of these 3 files into your Plugins folder, however, you need to make sure that it loads after NAM or it won't work. To make this sure, create a folder with a name that
+    comes later than the NAM folder in alphabet (or just put the entire folder zFA Roads T21 Mod into your Plugins folder).
 
 
     What the files do:
@@ -198,23 +373,15 @@
     default:
       assets:
         - docs:
-            - zFA Roads T21 Mod
+            - zFA Roads T21 Mod/Scr.jpg
+            - zFA Roads T21 Mod/Readme.txt
           id: simtropolis/36380-fa-roads-t21-mod
           include:
-            - condition:
-                density: all
-                remove-lanterns: true
-                remove-trees: true
-              path: FA Roads T21 Mod_Remove All.dat
-            - condition:
-                density: high-only
-                remove-lanterns: true
-                remove-trees: true
-              path: FA Roads T21 Mod_Remove Trees Lanterns HD.dat
-            - condition:
-                remove-lanterns: false
-                remove-trees: true
-              path: FA Roads T21 Mod_Remove Trees all D.dat
+            - zFA Roads T21 Mod/FA Roads T21 Mod_Remove Trees Lanterns HD.dat
+            - zFA Roads T21 Mod/FA Roads T21 Mod_Remove Trees all D.dat
+            - zFA Roads T21 Mod/FA Roads T21 Mod_Remove All.dat
+      lastModified: 2024-08-08T21:15:30Z
+      name: Default
       options:
         - default: true
           id: remove-trees
@@ -249,16 +416,25 @@
     - bsc/common-dependencies
     - buddybud/jeronij-concrete-wall-addon-stairs
     - girafe/flora-pack
-    - historic-harbor/historic-harbor-props # You only need the file Fence - Iron small.dat
+    - historic-harbor/historic-harbor
+    - historic-harbor/historic-harbor-props
     - maxis/maxis-buildings-as-props
+    - memo/submenus-dll
     - murimk/bike-props
     - murimk/props-vol02
+    - nam-team/network-addon-mod-nam-cross-platform
+    - pegasus/mtp-super-pack
     - porkissimo/jenx-porkie-expanded-props
     - ralphaelninja/plugin-landmark-props
+    - rebalynnts/spot-simpeg-plop-orientation-tool
     - robdragon/rdg-prop-pack-1
     - sfbt/essentials
+    - vortext/textures-vol01
     - wmp/the-bridges-of-shoreline-county
   description: >-
+    **Description:**
+
+
     There are some plaza plugins out there on the STEX, even a few modular ones, but with this set, I'm aiming at creating a fully comprehensive modular system of plazas which
 
 
@@ -296,6 +472,10 @@
     Please refer to the Readme for information about what the dependencies do. Unfortunately, this time you get a good load of dependencies, fortunately, however, most of them are candidates I'm using
     frequently, anyway, or just dependency packages that do nothing except adding props/textures and won't flood you with a lot of lots that will fill your menu quickly. Exception: I've had to use one
     file from the Historic Harbor plugin, which comes with many lots. You only need one file from there (see below).
+
+
+    **Important:** If you have downloaded and installed this before June 16<sup>th</sup>, 2020, please look for the file *MPS Textures.dat* and remove it. It has become obsolete with the release of
+    the 11241036 Textures.
 
 
     - **Network Addon Mod**:
@@ -359,10 +539,51 @@
     ![666224d80ace3_2MPS.thumb.png.1106483e888](https://www.simtropolis.com/objects/screens/monthly_2024_06/666224d80ace3_2MPS.thumb.png.1106483e88801e2a09412d3345ecee42.png)
 
 
+    **Included Files:**
+
+
+    **MPS Core Files.dat** (mandatory): Contains all lots for the Modular Plaza System, along with their descriptions and icons.
+
+
+    **Seawall Connection Lots.dat** (optional): 4 lots that can be used on slopes to connect ground traffic routes to the overpass puzzle pieces from the NAM and thereby blending them in with the
+    seawall system you get with this download. You can, of course, as well do this with the NAM's default hillside transition pieces, but they won't fit into the seawalls, visually.
+
+
+    **z_(Name).dat** (all optional): A total of 12 additional files that you can choose form that will override your existing MPS lots to give them different base textures. Keep only one of them, or
+    just remove them all if you want to play with the base Maxis white pavement texture (see installation instructions below).
+
+
+    **MPS_Submenu Park.dat, MPS_Submenu Plazas.dat** (mandatory when using memo‘s Submenus DLL mod): contains the submenu entry files for the MPS lots. Only use one of these two files.
+
+
+    **Installation:**
+
+
+    **Step 1:** Please move or copy all existing files (except the Readme files) into the Plugins folder of your edition of SimCity 4.
+
+
+    **Step 2:** Choose one texture override. These texture overrides are located one each in all files starting with z_. To apply one, remove all other texture override. To play with the default Maxis
+    White Pavement, remove all texture overrides. You may want to look into the folder “Screenshots Texture Overrides“ to find out how they will look in-game. You can at any time switch to another
+    texture system by replacing the existing texture override file with another one, in-game, the textures will adapt automatically.
+
+
+    **Step 3:** To make the submenu buttons appear correctly, install either the file MPS_Submenu Parks.dat or the file MPS_Submenu Plazas.dat (only one out of these two files). The first file moves
+    the MPS submenu simply into the Park menu, the latter one into memo's Plaza submenu.
+
+
+    **Uninstalling:** To uninstall this plugin, please bulldoze all MPS lots in your cities and then remove all MPS files from your Plugins folder.
+
+
     **Compatibility:**
 
 
     Since this plugin requires installation of the NAM, it is only compatible with SimCity 4: Rush Hour or SimCity 4 Deluxe.
+
+
+    **Support:**
+
+
+    Please feel free to post issues, bug reports, and suggestions in this thread:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f877e6bff2_MPSFlowerbeds.jpg.5889083c3a2281192f06e8fe9c33264b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878469e0f_MPSMarketStalls.jpg.92bf5fafa666103aea84553130a8a82b.jpg
@@ -454,20 +675,51 @@
     default:
       assets:
         - docs:
-            - Readme Files
+            - Readme Files/Dokumentation_Deutsch.pdf
+            - Readme Files/Documentation_English.pdf
+            - Readme Files/Dependencies and Values.xlsx
+            - Readme Files/Screenshots Texture Overrides/Vortexture Cobblestone 2.jpg
+            - Readme Files/Screenshots Texture Overrides/Vortexture Cobblestone 1.jpg
+            - Readme Files/Screenshots Texture Overrides/NAM Sandstone.jpg
+            - Readme Files/Screenshots Texture Overrides/NAM Red Brick.jpg
+            - Readme Files/Screenshots Texture Overrides/NAM Pavement.jpg
+            - Readme Files/Screenshots Texture Overrides/NAM Industrial.jpg
+            - Readme Files/Screenshots Texture Overrides/NAM Cobblestone.jpg
+            - Readme Files/Screenshots Texture Overrides/MTP Red Sandstone.jpg
+            - Readme Files/Screenshots Texture Overrides/Maxis Concrete.jpg
+            - Readme Files/Screenshots Texture Overrides/Default.jpg
+            - Readme Files/Screenshots Texture Overrides/BSC Pink Pavement.jpg
+            - Readme Files/Screenshots Texture Overrides/BSC Mediterranean Red Cobblestone.jpg
+            - Readme Files/Screenshots Texture Overrides/BSC Diagonal Brick.jpg
+            - Readme Files/Screenshots Lots/Seawall Connection Lots.jpg
+            - Readme Files/Screenshots Lots/MPS Trees.jpg
+            - Readme Files/Screenshots Lots/MPS Statues.jpg
+            - Readme Files/Screenshots Lots/MPS Squares2.jpg
+            - Readme Files/Screenshots Lots/MPS Squares.jpg
+            - Readme Files/Screenshots Lots/MPS Seawalls.jpg
+            - Readme Files/Screenshots Lots/MPS Plazas.jpg
+            - Readme Files/Screenshots Lots/MPS Market Stalls.jpg
+            - Readme Files/Screenshots Lots/MPS Flowerbeds.jpg
           id: simtropolis/31351-modular-plaza-system-mps
           include:
-            - MPS Core Files.dat
+            - z_Vortexture Cobblestone 2.dat
+            - z_Vortexture Cobblestone 1.dat
+            - z_NAM Sandstone.dat
+            - z_NAM Red Brick.dat
+            - z_NAM Pink Pavement.dat
+            - z_NAM Industrial.dat
+            - z_NAM Cobblestone.dat
+            - z_MTP Red Sandstone.dat
+            - z_Maxis Concrete.dat
+            - z_BSC Pink Pavement.dat
+            - z_BSC Mediterranean Red Cobblestone.dat
+            - z_BSC Diagonal Brick.dat
             - Seawall Connection Lots.dat
-            - condition:
-                submenu: parks
-                submenus: true
-              path: MPS_Submenu Park.dat
-            - condition:
-                submenu: plazas
-                submenus: true
-              path: MPS_Submenu Plazas.dat
-      name: Maxis White Pavement
+            - MPS_Submenu Plazas.dat
+            - MPS_Submenu Park.dat
+            - MPS Core Files.dat
+      lastModified: 2024-06-06T21:07:14Z
+      name: Default
       version: 2.0.0
     maxis-concrete:
       assets:
@@ -657,7 +909,9 @@
     - "11241036"
   category: parkings
   dependencies:
-    - 11241036/seasonal-woods # GSW_Dummy Props.dat
+    - id: 11241036/seasonal-woods
+      include:
+        - GSW_Dummy Props.dat
     - 11241036/textures
     - girafe/carpack
     - pegasus/mtp-super-pack
@@ -702,6 +956,18 @@
   optional:
     - memo/submenus-dll
     - rebalynnts/spot-simpeg-plop-orientation-tool
+  options:
+    - choices:
+        - label: Misc Transit
+          value: MiscTransit
+        - label: Parking
+          value: Parking
+      condition:
+        submenus: true
+      default: Parking
+      id: submenu
+      label: Submenu
+      type: string
   release: 2024-08-27T05:49:08.398Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Scr1.thumb.jpg.bc7052b0238de14f13b068a4debf926e.jpg
   url: https://community.simtropolis.com/files/file/36409-parking-lot-system-pls/
@@ -712,8 +978,9 @@
           include:
             - condition:
                 submenus: true
-              path: PLS Submenus.dat
+              path: PLS Submenus_{{submenu}}.dat
             - "*"
+      lastModified: 2024-09-01T16:31:55Z
       version: 1.0.0
 
 11241036/seasonal-woods:
@@ -763,6 +1030,8 @@
       dependencies:
         - chrisadams3997/rrp-pasture-flora
         - pegasus/spam-super-resource-pack
+        - sfbt/essentials
+      lastModified: 2024-03-09T22:04:42Z
       name: Default
       options:
         - default: true
@@ -779,7 +1048,9 @@
           id: simtropolis/29749-seasonal-wood-lots-girafes-trees
           include:
             - GSW Seasonal Woods Girafe Trees/GSW Girafe Trees Seasonal Woods
-      # deprecated: true
+      dependencies:
+        - lowkee33/seasonal-flora-patch
+      deprecated: true
       description: >-
         This plugin contains 24 lots with seasonally changing woods, based on the seasonally changing trees by girafe. Like other lots, they can be found in the park menu. Plop and demolition cost are
         kept low, and they don't charge monthly costs. They have a low park effect and slightly reduce air and water pollution. I've furthermore tried to create tree combinations corresponding to the
@@ -803,6 +1074,7 @@
         **Girafe** for the trees that are making this plugin possible in the first place, and for the permission to duplicate and regroup the props.
       images:
         - https://www.simtropolis.com/objects/screens/monthly_03_2015/7a51a43f8726e015a992c6bdf6b09f4f-main-mit-text.png
+      lastModified: 2024-03-09T21:58:01Z
       lots:
         - filename: GSW Ash & Maple 1x1_3fd1357d.SC4Lot
           id: 3fd1357d
@@ -828,18 +1100,15 @@
           id: ffd256e4
           label: Beech, 4x4
           size: 4x4
-        - category: agriculture
-          filename: GSW Birch 1x1_1fd0c207.SC4Lot
+        - filename: GSW Birch 1x1_1fd0c207.SC4Lot
           id: 1fd0c207
           label: Birch, 1x1
           size: 1x1
-        - category: agriculture
-          filename: GSW Birch 4x1_4210944d.SC4Lot
+        - filename: GSW Birch 4x1_4210944d.SC4Lot
           id: 4210944d
           label: Birch, 4x1
           size: 4x1
-        - category: agriculture
-          filename: GSW Birch 4x4_1fd257c7.SC4Lot
+        - filename: GSW Birch 4x4_1fd257c7.SC4Lot
           id: 1fd257c7
           label: Birch, 4x4
           size: 4x4
@@ -904,6 +1173,7 @@
           label: Ravine, 4x4
           size: 4x4
       name: Legacy
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2015/thumb-7a51a43f8726e015a992c6bdf6b09f4f-main-mit-text.png
       url: https://community.simtropolis.com/files/file/29749-seasonal-wood-lots-girafes-trees/
       version: 3.0.0
@@ -919,14 +1189,51 @@
   dependencies:
     - bsc/common-dependencies
   description: >-
+    **Short description:**
+
+
     This plugin makes SimGoober's Azaleas, Hydrangeas, and Wildflowers that are already featured in many plugins in the internet, available for your Mayor Mode Menu, for your gardening pleasure. For a
     long time, up to still now, they have played an important role in park and garden design. There are, admittedly, more detailed graphics available, but they are still quite useful and versatile and
     fulfill their purpose - this time, even from out of your Mayor Mode Menu, to give you even more freedom in designing your parks and gardens.
+
+
+    **Please make sure to read the installation instructions to avoid unwanted side effects!**
+
 
     For further information, please refer to the Readme in the download.
 
 
     Available languages: English, German
+
+
+    **Dependencies:**
+
+
+    **BSC Common Dependencies Pack**:
+    [https://sc4evermore.com/index.php/downloads/download/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://sc4evermore.com/index.php/downloads/download/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+
+    **Installation:**
+
+
+    Move or copy all files (except the Readme) coming with this plugin into the Plugins folder of your edition of SimCity 4. To uninstall, please remove all azaleas, hydrangeas, and wildflowers that
+    have been planted with this plugin, and then remove all files from this plugin.
+
+
+    **Please only keep one of the two .dat files - they are not compatible, and keeping both may cause unwanted side effects!**
+
+
+    - *SG Gardening MMP Collection_Combined Entries.dat*: Keep this file to save space in your Mayor Mode Menu. There are only 5 entries; all wildflowers and all blooming azaleas and hydrangeas are
+    grouped together to one entry each, and the non-blooming azaleas and hydrangeas get their own entries, each.
+
+    - *SG Gardening MMP Collection_Separate Entries.dat*: Every object gets its own entry. The reason: Since Windows 10, there have been some users affected by a strange bug that, while planting
+    MMP's, causes every other item to be skipped, effectively only making half of the entries available. This was the only somewhat feasible solution to this problem.
+
+
+    **Compatibility:**
+
+
+    This plugin should be compatible with all editions of SimCity 4. If not, please feel free to tell me.
 
 
     **Support:**
@@ -944,16 +1251,30 @@
   variants:
     default:
       assets:
-        - id: simtropolis/33897-sg-gardening-mmp-collection
+        - docs:
+            - Scr2.jpg
+            - Scr1.jpg
+            - Dokumentation_Deutsch.pdf
+            - Documentation_English.pdf
+          id: simtropolis/33897-sg-gardening-mmp-collection
           include:
+            - SG Gardening MMP Collection_Separate Entries.dat
             - SG Gardening MMP Collection_Combined Entries.dat
+      lastModified: 2024-05-14T03:48:27Z
+      name: Default
       version: 1.0.0
 
 11241036/textures:
   authors:
     - "11241036"
   category: textures
+  dependencies:
+    - 11241036/modular-plaza-system
+    - 11241036/traffic-blocker-set
   description: >-
+    **Short description:**
+
+
     This dependency package contains a set of textures derived from Maxis, BSC Textures Vol 1 and 2, and Pegasus' MTP for your lotting pleasure. The tables in this archive list all of them along with
     their respective Instance ID's. The graphics should speak for themselves. Some of them are cropped overlay textures, intended to give you more possibilities while creating new lots. The farm field
     textures are derived from Maxis, with two additional textures that have been slightly recolored. There are also new asphalt path (derived from Maxis textures) and gravel path (derived from
@@ -1023,7 +1344,16 @@
   variants:
     default:
       assets:
-        - id: simtropolis/33651-11241036-textures
+        - docs:
+            - Readme.pdf
+            - Table1.png
+            - Table2.png
+            - Table3.png
+          id: simtropolis/33651-11241036-textures
+          include:
+            - 11241036 Textures.dat
+      lastModified: 2024-08-20T21:56:23Z
+      name: Default
       version: 4.0.0
 
 11241036/traffic-blocker-set:
@@ -1033,8 +1363,13 @@
   dependencies:
     - 11241036/textures
     - mgb204/texture-pack
+    - nam-team/network-addon-mod-nam-cross-platform
     - sfbt/essentials
+    - simmaster07/sc4fix
   description: >-
+    **Short Description:**
+
+
     This is a set of car, freight car, and bus traffic blockers for default maxis, SAM, GLR, and RHW routes. They will block one kind of traffic while allowing the other kinds of traffic and
     pedestrians to pass. This may be useful for creating bus lines, simply reducing traffic, preventing cars from taking a shortcut through settlements, keeping freight cars away from residential
     zones and so on. Traffic blockers for roads, one-way roads, avenues, side roads, and railway are already existing on the STEX, but not for SAM and RHW routes, so I thought they might be useful.
@@ -1096,6 +1431,20 @@
     **Currently available languages:** English, German
 
 
+    **Installation:**
+
+
+    Download the archive and extract all files to a folder where you will find them. Move or copy this folder into your Plugins sub-folder of your edition of SimCity 4 (for instance:
+    C:/Programs/Maxis/SimCity 4/Plugins).
+
+
+    To uninstall, please bulldoze all instances of this plugin in your cities, then remove all of its files from your Plugins subfolder.
+
+
+    **Note, if you have versions prior to version 3 installed:** Please remove it before installing the new plugin. You don't need to bulldoze your already existing traffic stops, and nothing will
+    change in-game. However, to tidy up this plugin, I've reorganized the files and packed them into one big file. You'll have them twice if you simply copy this plugin into your plugin folder.
+
+
     **Extra note:** For people using my Cobblestone Street Override mod, I've added the extra file *z_TBS SAM 8 Override.dat*, which will alter the base texture to a cobblestone texture. Remove this
     file if you don't want this (see screenshots).
 
@@ -1112,6 +1461,21 @@
     - The Network Addon Mod Team for the textures of the routes
 
     - odrzutowiec for the idea of introducing the GLR traffic blockers
+
+
+    **Support:**
+
+
+    Please feel free to post issues, bug reports, and suggestions in this thread:
+
+
+    **To be done:**
+
+
+    - Also, I'd appreciate if someone could explain me how to make Menu Management Lots. Although traffic blockers are sometimes helpful, we probably won't use them everyday, and therefore you may
+    probably want to save space in your game menu.
+
+    - If I'm getting enough requests, I may include other traffic blockers in later updates.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/b3e889c444c37b6950f9e07339bc5a74-test.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.jpg.a8c450b3ad3b1e88d97fc958a1b09d5c.jpg
@@ -1125,7 +1489,15 @@
   variants:
     default:
       assets:
-        - id: simtropolis/28975-traffic-blocker-set
+        - docs:
+            - STEX/Screenshot.jpg
+            - STEX/Readme.pdf
+          id: simtropolis/28975-traffic-blocker-set
+          include:
+            - STEX/z_TBS SAM 8 Override.dat
+            - STEX/Traffic Blocker Set.dat
+      lastModified: 2024-03-09T20:55:24Z
+      name: Default
       version: 3.0.0
   warnings:
     - id: bulldoze
@@ -1136,17 +1508,19 @@
     - "11241036"
   category: dependencies
   description: >-
-    Some lots, when being placed on slopes, will either raise the floor beneath them, or cut into the hill. In the former case, a lot foundation is being created, in the latter, a retaining wall.
-    Perhaps it's just me, but I'm quite surprised that I've only found very few plugins with custom foundations and none at all with retaining walls; therefore, I've turned some textures by Maxis or
-    other authors (see below for credits) into lot foundations and retaining walls. This plugin therefore acts as a dependency for plugin developers, providing them with the necessary textures and
-    exemplar files.
-
-
-    **Information to LOTers:**
+    **Disclaimer:**
 
 
     Please feel free to develop your own lots using these lot foundations/retaining walls, but if sharing them, please point to this files as a dependency.
 
+
+    **Short description:**
+
+
+    Some lots, when being placed on slopes, will either raise the floor beneath them, or cut into the hill. In the former case, a lot foundation is being created, in the latter, a retaining wall.
+    Perhaps it's just me, but I'm quite surprised that I've only found very few plugins with custom foundations and none at all with retaining walls; therefore, I've turned some textures by Maxis or
+    other authors (see below for credits) into lot foundations and retaining walls. This plugin therefore acts as a dependency for plugin developers, providing them with the necessary textures and
+    exemplar files.
 
 
     **Dependencies:**
@@ -1172,6 +1546,12 @@
     switch to another fondation/retaining wall and how to use lots if they are supposed to be placed on slopes.
 
 
+    **Installation:**
+
+
+    Move or copy all files in this archive into the Plugins folder of your copy of SimCity 4. To uninstall, just remove these files.
+
+
     **Compatibility:**
 
 
@@ -1185,6 +1565,12 @@
 
 
     - **Mas71:** His set of Japanese hill retaining walls surely is part of the plugins that I'm using most frequently. Now, their functionability is even being expanded.
+
+
+    **Support:**
+
+
+    Please feel free to post issues, bug reports, and suggestions in this thread:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.jpg.d34b5066fa746c20427bb6e6fea90199.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.png.de43eb44243c947ce7eff75c17b88c17.png
@@ -1195,13 +1581,16 @@
   variants:
     default:
       assets:
-        - id: simtropolis/31346-various-lot-foundations-and-retaining-walls
+        - docs:
+            - Scr_1.jpg
+            - Readme.pdf
+          id: simtropolis/31346-various-lot-foundations-and-retaining-walls
           include:
-            - condition:
-                test-lots: true
-              path: TestLots.dat
-            - LotFoundations.dat
+            - TestLots.dat
             - RetainingWalls.dat
+            - LotFoundations.dat
+      lastModified: 2020-10-07T14:16:30Z
+      name: Default
       options:
         - id: test-lots
           label: Enable test lots

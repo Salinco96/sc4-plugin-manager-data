@@ -3,14 +3,21 @@ mas71/japanese-river-project:
     - MAS71
   category: parks
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - cycledogg/mega-props-vol01
     - mas71/mega-props-vol01
     - memo/submenus-dll
+    - nos-17/sc4-cleanitol
     - porkissimo/jenx-porkie-expanded-props
+    - sc4evermore/18-bsc-cleanitol
+    - sc4evermore/67-sc4d-lex-legacy-3dsmax-gmax-models-pack
     - simfox/simfox-treepack-2
     - simgoober/mega-props-vol01
   description: >-
+    **SC4D LEX Legacy - MAS71 Japanese River Project (JRP)**
+
+
     This SC4 Devotion LEX Legacy Pack features the Japanese River Project (JRP) canal set by MAS71 (including the Suburban Canal Set and MAS71 MEGA Props Vol 02), which had been available on the Lot
     Exchange (LEX) at SC4 Devotion. After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023,
     and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
@@ -18,6 +25,90 @@ mas71/japanese-river-project:
 
     Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
     update, and provide technical support for the pack.
+
+
+    ### INSTALLATION:
+
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--**[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)**\--or a zip tool
+    capable of opening the installer to allow manual installation. For Windows/Linux, use **[7-zip](https://www.7-zip.org/)**, and for macOS, use **[Keka](https://www.keka.io/en/)**.
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything).
+    Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). After this, click over to the Install tab, and click
+    "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a message indicating it, after which you are safe to close the installer.
+
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins. However it is also highly recommended to keep regular back-ups of your plugins
+    folder or specific contents listed in the cleanitol scripts just to be on the safe side.
+
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and separately all the individual cleanitol files and by using either the newer **[nos.17's SC4
+    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or the older **BSC Cleanitol** tool you can search and remove old and outdated versions of these files.
+
+
+    Bear in mind that this Collection contains Prop packs only available with this upload. Those prop packs can be used and referenced by other contents may not part of this collection as
+    dependencies. If a 3rd party upload references one of the prop packs available in this Collection, you don't need to install everything, you can select and install only the referenced prop pack.
+    All prop packs (and the lot packs as well) have individual cleanitol files (besides the ***Cleanitol_MASTER REMOVE LIST_Mas71 JRP Project.txt***) and they have Prop Catalogue index images as a
+    help for lotters.
+
+
+    ##### *Special Note Regarding "\_Documents" Folder*
+
+
+    The "~Documents" folder in this download, which is not part of the installer, does contain some optional files related to the JRP. The "\_alternative version -- see individual readme" folder
+    contains a version of the JRP in which the pontoons are taken off the V-curves. Additionally, there is an MML (Menu Management Lot) option within the "Z_\__BSC MODs" folder. Simply dragging either
+    (or both) of these folders into your Plugins should suffice for proper installation, if you wish to use these options.
+
+
+    ### DLL DEPENDENCIES:
+
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed
+    dependencies are covering a full install):
+
+
+    - [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.
+
+        Compatible only with the digital version (1.1.641) of SimCity 4 (Microsfot Windows and Linux only).
+
+
+    ### DEPENDENCIES:
+
+
+    The following files are dependencies of the Japanese River Project complete set. Failure to install may result in missing textures and/or brown boxes appearing in your city.
+
+
+    - **SC4D LEX Legacy MAS71 Japanese River Project V2** - INCLUDED
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+    - Mas71 Mega Props vol02 v2.dat
+
+    - 01_JRPSC prop_Canal.dat - required by Suburban Canals (can be found in the 01_Essential (canal props))
+
+    - 01_JRPSC prop_SAKURA.dat - required by Suburban Canals (can be found in the 01_Essential (canal props))
+
+
+    - [MAS71 MEGA Prop Pack Vol01 - Misc](https://sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc)
+
+
+    - **[SC4D LEX Legacy - BSC Common Dependencies Pack v9](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)** (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+    - BSC MEGA Props SG Vol 01
+
+    - BSC MEGA Props CP Vol 01 - required by Suburban Canals
+
+    - BSC Textures Vol01
+
+
+    - [**SimFox Tree Pack 2**](https://community.simtropolis.com/files/file/21640-simfox-treepack-2/) (optional, only required if using SimFox Trees option on Suburban Canals)
+
+    - [**JENXPorkie-Expanded Porkie Props**](https://sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props) (optional, only required if using Porkissimo
+    Trees option on Suburban Canals)
 
 
     ### **CREDITS:**
@@ -73,6 +164,8 @@ mas71/japanese-river-project:
 
     Various pieces of original documentation (in both English and Japanese) and earlier Cleanitol definitions can be found in the "~Documents" folder, which, while installed in the Plugins directory,
     should be removed.
+
+     ![jrp_013](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_013.jpg)![jrp_alp2_112](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_alp2_11.jpg)![Suburban Canal Addon1_013](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Suburban%20Canal%20Addon1_01.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_013.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/jrp_alp2_11.jpg
@@ -85,11 +178,70 @@ mas71/japanese-river-project:
     default:
       assets:
         - docs:
-            - SC4D LEX Legacy - MAS71 Japanese River Project V2/readme*
-            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme
-            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol
-            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes
-          exclude: # TODO
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/readme_mas71_japanese_river_project.html
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/readme.css
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Cleanitol_MASTER REMOVE LIST_Mas71 JRP Project.txt
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme/readme_mas71_jrp046_v-curves_none-pontoon.txt
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme/product_073_mas71_jrp046_v-curves_none-pontoon.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol/Mas71 Mega Props vol02 v2_index.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_MAS71 Mega Prop Pack vol02 v2.txt
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_MAS71 JRP Lot Collection.txt
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol file_MAS71 JPR Suburban Canals.txt
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Suburban Canal.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Suburban Canal Addon1_01.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-SC_Japanese.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-SC_English.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-CLP_JPN.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-CLP_ENG.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-ALP2_Japanese.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-ALP2_Engligh.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-ALP01_JPN.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/Readme_JRP-ALP01_ENG.htm
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/Thumbs.db
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/Mas71_jrpsc_05.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/Mas71_jrpsc_04.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/Mas71_jrpsc_03.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/Mas71_jrpsc_02.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/Mas71_jrpsc_01.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_bg.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_12.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_11.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_10.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_06.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_05.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_04.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_03.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_02.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp2_01.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_07.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_06.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_05.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_04.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_03.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_02.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_alp1_01.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_019.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_018.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_017.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_016.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_015.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_014_02.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_014_01.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_013.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_012.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_011.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_010.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_009.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_008.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_007.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_006.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_005.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_004.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_003.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_002.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_001.jpg
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/MAS71_Readmes/image/jrp_000.jpg
+          exclude:
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme/zz_mas71_jrp046_v-curves_none-ponton_v-curves.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Z___BSC MODs/MML/zz_Mas71_JRP-MML_080714.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@5!xx_Options#/!Transparent Water Lots/JRP_Transparent Water_LOTs.dat
@@ -103,8 +255,28 @@ mas71/japanese-river-project:
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Black/02_JRPSC prop_Fence-BLACK.dat
           id: sc4evermore/152-sc4d-lex-legacy-mas71-japanese-river-project-jrp
           include:
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@2MAS71 Submenu/MAS71_JPR_Canals.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@1^Props Pack#/Mas71 Mega Props vol02 v2.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/_alternative version -- see individual readme/zz_mas71_jrp046_v-curves_none-ponton_v-curves.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@3Addon Lot Pack 02#/MAS71 JRP Addon Lot Pack 02.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@2Addon Lot Pack 01/MAS71 JRP Addon Lot Pack 01.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@1Core Lot Pack/MAS71 JRP Core Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@1^Props Pack#/z_MAS71 JRP fix/zzzMas71_JRP_fix_z2.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@1^Props Pack#/z_MAS71 JRP fix/zzzMas71_JRP_fix_z1.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/~Documents/Z___BSC MODs/MML/zz_Mas71_JRP-MML_080714.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@5!xx_Options#/!Transparent Water Lots/JRP_Transparent Water_LOTs.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@5!xx_Options#/!JRP Water Mod Beta/JRP_WaterMod_Beta.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@7!Lot Set - CHERRY tree/MAS71 JRP Suburban Canals - Cherry Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@5!Lot Set - PORKISSIMO tree/MAS71 JRP Suburban Canals - Porkissimo Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@6!Lot Set - SIMFOX tree/MAS71 JRP Suburban Canals - SimFox Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@4Lot Set - MAXIS tree/MAS71 JRP Suburban Canals - Maxis Tree Lot Pack.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@303_OPTION (Guardrail)/03_JRPSC prop_Option Gurdrail 01.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@101_Essential (canal props)/01_JRPSC prop_SAKURA.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@101_Essential (canal props)/01_JRPSC prop_Canal.dat
             - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/=White/02_JRPSC prop_Fence-WHITE.dat
-            - SC4D LEX Legacy - MAS71 Japanese River Project V2
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Green/02_JRPSC prop_Fence-GREEN.dat
+            - SC4D LEX Legacy - MAS71 Japanese River Project V2/@3Japanese River Project/@4Suburban Canal/@202_Fence Colors (Choose Only ONE file)#/-Black/02_JRPSC prop_Fence-BLACK.dat
+      lastModified: 2024-08-10T07:44:55-07:00
       name: Default
       version: 2.0.0
 
@@ -112,7 +284,102 @@ mas71/mega-props-vol01:
   authors:
     - MAS71
   category: props
-  description: New 2022 repackaged version of MAS71 Props, courtesy of Tyberius06 as part of the **Project ZIP** effort.
+  description: >-
+    New 2022 repackaged version of MAS71 Props, courtesy of Tyberius06 as part of the **Project ZIP** effort.
+
+
+    Installation: copy/extract the **MAS71** parent folder into your Plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.
+
+
+    A Cleanitol is included, which lists the following previous files:
+
+
+    Mas71 PROPs Vol01.dat
+
+
+    Mas71 PROPs Vol01 (100520).dat
+
+
+    Mas71 PROPs Vol03_080808.dat
+
+
+    Mas71 PROPs Vol03_GuideArrows_v100.dat
+
+
+    Mas71 PROPs Vol03.dat
+
+
+    Mas71_GuideArrows_v100.dat
+
+
+    Mas71 YAMATO_TextureAndProps(20100525).dat
+
+
+    YAMATO_TextureAndProps_ver102.dat
+
+
+    YAMATO_ver103-0x5ad0e817_0xd22f07f3_0x1b0000.SC4Model
+
+
+    YAMATO_VerVoyaged-0x5ad0e817_0xd22f07f3_0x160000.SC4Model
+
+
+    Mas71 YAMATO_TextureAndProps_YAMATO_Onthe_Sea_01-0x6534284a-0x9b9d22a8-0xdd959878.SC4Desc
+
+
+    Mas71 YAMATO_TextureAndProps_YAMATO_sub-0x6534284a-0x9b9d22a8-0x5d95986e.SC4Desc
+
+
+    YAMATO_TextureAndProps(20100525).dat
+
+
+    JPN_Diagonal_Parks_Models.dat
+
+
+    Mas71_Models_JPN_Diagonal_Parks_Models modified.dat
+
+
+    Mas71_Models_JPN_SAKURA.dat
+
+
+    Mas71_Models_JPN_SunkeParks_Kiddy.dat
+
+
+    Mas71_Models_JPN_SunkeParks_Modern.dat
+
+
+    Mas71 SOGO PROP-HD.dat
+
+
+    Mas71_Porttower_PROP.dat
+
+
+    mas71_AVRB_St-SUB_L-0x5ad0e817_0xf38b01b9_0x30000.SC4Model
+
+
+    mas71_AVRB_St-SUB_L-0x6534284a-0xd22f07f3-0x538da7e8.SC4Desc
+
+
+    mas71_AVRB_St-SUB_R-0x5ad0e817_0xd38b5ddf_0x30000.SC4Model
+
+
+    mas71_AVRB_St-SUB_R-0x6534284a-0xd22f07f3-0x738e0983.SC4Desc
+
+
+    mas71_AVRB02_SSBS_L-0x5ad0e817_0xb2d3d450_0x30000.SC4Model
+
+
+    mas71_AVRB02_SSBS_L-0x6534284a-0xd22f07f3-0xf395a9f6.SC4Desc
+
+
+    mas71_AVRB02_SSBS_R-0x5ad0e817_0x32d3939e_0x30000.SC4Model
+
+
+    mas71_AVRB02_SSBS_R-0x6534284a-0xd22f07f3-0xf3957500.SC4Desc
+
+
+    ![Mas71 Mega Props vol01lex](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71%20Mega%20Props%20vol01lex.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Mas71 Mega Props vol01lex.jpg
   name: MAS71 MEGA Prop Pack Vol01 - Misc
@@ -123,9 +390,12 @@ mas71/mega-props-vol01:
     default:
       assets:
         - docs:
-            - Mas71 Mega Props vol01_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Mas71 Mega Props vol01_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_MAS71 Mega Prop Pack vol01.txt
           id: sc4evermore/87-mas71-mega-prop-pack-vol01-misc
           include:
-            - MAS71/Props Pack
+            - MAS71/Props Pack/Mas71 Mega Props vol01.dat
+      lastModified: 2024-01-20T05:09:53-08:00
+      name: Default
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/87-mas71-mega-prop-pack-vol01-misc
       version: 1.0.0

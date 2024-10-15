@@ -8,6 +8,7 @@ delecto/abelia-residence:
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
     - delecto/essentials
+    - simfox/simfox-day-and-nite-modd
     - simgoober/mega-props-vol01
   description: |-
     Delecto & TWrecks are happy to brings you...
@@ -17,6 +18,8 @@ delecto/abelia-residence:
     BAT design and render by **Delecto**
 
     Modding and LOTs design by **TWrecks**
+
+    DarkNite & MaxisNite are available, Readme included.
 
     \=============================================
 
@@ -29,6 +32,28 @@ delecto/abelia-residence:
     **Growing:** Stage 5
 
     **Occupants:** 152 R$$$
+
+    \=============================================
+
+    **Dependencies:**
+
+    \- [Delecto Essentials Files](https://community.simtropolis.com/files/file/29171-delecto-essentials-files/)
+
+    \- [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    \- [BSC Mega Textures Vol.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    \- [BSC Mega Props CP Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    \- [BSC Mega Props SG Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    \- [SimFox DarkNite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) (only if you download the DarkNite version)
+
+    \=============================================
+
+    Download, install, let grow, enjoy... long life to SimCity4. ![:party:](https://community.simtropolis.com/assets/emoticons/LlamaParty.gif)
+
+    Delecto.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/f0faccfdab5eddea7cba5db61fa437f4-abelia-01.jpg
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/755ef69b6e29517f17627e20c369e9b8-abelia_dn_day.jpg
@@ -43,73 +68,62 @@ delecto/abelia-residence:
   variants:
     darknite:
       assets:
-        - id: simtropolis/29175-delecto-abelia-residence#122477
+        - docs:
+            - Images/ABELIA BANNIERE.jpg
+            - Images/ABELIA_DAY_DN.jpg
+            - Images/ABELIA_NIGHT_DN.jpg
+            - Readme_Delecto_Abelia_Residence_DN.html
+          id: simtropolis/29175-delecto-abelia-residence#122477
+      lastModified: 2014-01-07T09:27:34Z
       lots:
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_SUBURBAN_3x4_3fa29dcd.SC4Lot
+        - filename: DEL_Abelia_SUBURBAN_3x4_3fa29dcd.SC4Lot
           id: 3fa29dcd
-          label: Abelia Residence, Suburban (R$$$, Stage 5, 3x4)
+          label: DEL_Abelia_SUBURBAN_3x4_3fa29dcd.SC4Lot
           size: 3x4
-          stage: 5
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_SUBURBAN_4x4_3fa29c4f.SC4Lot
+        - filename: DEL_Abelia_SUBURBAN_4x4_3fa29c4f.SC4Lot
           id: 3fa29c4f
-          label: Abelia Residence, Suburban (R$$$, Stage 5, 4x4)
+          label: DEL_Abelia_SUBURBAN_4x4_3fa29c4f.SC4Lot
           size: 4x4
-          stage: 5
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_URBAN_2x4_3fa00444.SC4Lot
+        - filename: DEL_Abelia_URBAN_2x4_3fa00444.SC4Lot
           id: 3fa00444
-          label: Abelia Residence, Urban (R$$$, Stage 5, 2x4)
+          label: DEL_Abelia_URBAN_2x4_3fa00444.SC4Lot
           size: 2x4
-          stage: 5
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_URBAN_4x3_dfa13624.SC4Lot
+        - filename: DEL_Abelia_URBAN_4x3_dfa13624.SC4Lot
           id: dfa13624
-          label: Abelia Residence, Urban (R$$$, Stage 5, 4x3)
+          label: DEL_Abelia_URBAN_4x3_dfa13624.SC4Lot
           size: 4x3
-          stage: 5
       name: Dark Nite
+      release: 2024-09-04T10:03:15.374Z
       requirements:
         darknite: true
       version: 1.0.0
     default:
       assets:
-        - id: simtropolis/29175-delecto-abelia-residence#122478
+        - docs:
+            - Images/ABELIA BANNIERE.jpg
+            - Images/ABELIA_DAY_MN.jpg
+            - Images/ABELIA_NIGHT_MN.jpg
+            - Readme_Delecto_Abelia_Residence_MN.html
+          id: simtropolis/29175-delecto-abelia-residence#122478
+      lastModified: 2014-01-07T09:27:34Z
       lots:
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_SUBURBAN_3x4_3fa29dcd.SC4Lot
+        - filename: DEL_Abelia_SUBURBAN_3x4_3fa29dcd.SC4Lot
           id: 3fa29dcd
-          label: Abelia Residence, Suburban (R$$$, Stage 5, 3x4)
+          label: DEL_Abelia_SUBURBAN_3x4_3fa29dcd.SC4Lot
           size: 3x4
-          stage: 5
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_SUBURBAN_4x4_3fa29c4f.SC4Lot
+        - filename: DEL_Abelia_SUBURBAN_4x4_3fa29c4f.SC4Lot
           id: 3fa29c4f
-          label: Abelia Residence, Suburban (R$$$, Stage 5, 4x4)
+          label: DEL_Abelia_SUBURBAN_4x4_3fa29c4f.SC4Lot
           size: 4x4
-          stage: 5
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_URBAN_2x4_3fa00444.SC4Lot
+        - filename: DEL_Abelia_URBAN_2x4_3fa00444.SC4Lot
           id: 3fa00444
-          label: Abelia Residence, Urban (R$$$, Stage 5, 2x4)
+          label: DEL_Abelia_URBAN_2x4_3fa00444.SC4Lot
           size: 2x4
-          stage: 5
-        - demand:
-            r$$$: 152
-          filename: DEL_Abelia_URBAN_4x3_dfa13624.SC4Lot
+        - filename: DEL_Abelia_URBAN_4x3_dfa13624.SC4Lot
           id: dfa13624
-          label: Abelia Residence, Urban (R$$$, Stage 5, 4x3)
+          label: DEL_Abelia_URBAN_4x3_dfa13624.SC4Lot
           size: 4x3
-          stage: 5
-      name: Maxis Nite
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -128,6 +142,7 @@ delecto/costa-obzor:
     - cycledogg/mega-props-vol01
     - delecto/essentials
     - sfbt/essentials
+    - simfox/simfox-day-and-nite-modd
     - simgoober/mega-props-vol01
   description: |-
     Delecto & TWrecks are now happy to brings you...
@@ -140,7 +155,41 @@ delecto/costa-obzor:
 
     DarkNite & MaxisNite are available, Readme included.
 
+    \=============================================
+
+    **Nine different LOTs are included in this download:**
+
+    **Lot Size:** 4x3, 4x4, 4x5, 5x4, 5x5
+
+    **Tilset:** Euro / Medium-density
+
+    **Growing:** Stage 5
+
+    **Occupants:** 200 R$$ / 400 R$$
+
+    \=============================================
+
+    **Dependencies:**
+
+    \- [Delecto Essentials Files](https://community.simtropolis.com/files/file/29171-delecto-essentials-files/)
+
+    \- [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    \- [BSC Mega Textures Vol.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=638)
+
+    \- [BSC Mega Props CP Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    \- [BSC Mega Props SG Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+
+    [\- SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+
+    \- [SimFox DarkNite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) (only if you download the DarkNite version)
+
+    \=============================================
+
     A special thank you to **T****Wrecks** for your "**Implacable** **Germanic Engineering** **Talent**" on this release. ![:thumb:](https://community.simtropolis.com/assets/emoticons/LlamaThumb.gif)
+
+    Delecto.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/7def7809b18a26906af73ded64cb5305-obzor_stex_front.jpg
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/39e5013a3babd318305a5e91faee4b89-obzor_stex_01.jpg
@@ -225,15 +274,90 @@ delecto/costa-obzor:
   variants:
     darknite:
       assets:
-        - id: simtropolis/29178-delecto-costa-obzor#122463
+        - docs:
+            - Images/OBZOR BANNIERE.jpg
+            - Images/OBZOR_README_DAY.jpg
+            - Images/OBZOR_README_DN.jpg
+            - Readme_Delecto_Costa_Obzor_DN.html
+          id: simtropolis/29178-delecto-costa-obzor#122463
+      lastModified: 2014-01-06T20:24:58Z
+      lots:
+        - filename: delecto_COSTA_OBZOR_00+45_4x5l_3fa3ed54.SC4Lot
+          id: 3fa3ed54
+          label: delecto_COSTA_OBZOR_00+45_4x5l_3fa3ed54.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00+45_4x5r_7fa3e968.SC4Lot
+          id: 7fa3e968
+          label: delecto_COSTA_OBZOR_00+45_4x5r_7fa3e968.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00_x1_4x3a_3fa3d2ab.SC4Lot
+          id: 3fa3d2ab
+          label: delecto_COSTA_OBZOR_00_x1_4x3a_3fa3d2ab.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00_x1_4x3b_3fa3d2a4.SC4Lot
+          id: 3fa3d2a4
+          label: delecto_COSTA_OBZOR_00_x1_4x3b_3fa3d2a4.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00_x2_4x5_ffc49086.SC4Lot
+          id: ffc49086
+          label: delecto_COSTA_OBZOR_00_x2_4x5_ffc49086.SC4Lot
+          size: 4x5
+        - filename: delecto_COSTA_OBZOR_00_x2_5x4_9fa3f545.SC4Lot
+          id: 9fa3f545
+          label: delecto_COSTA_OBZOR_00_x2_5x4_9fa3f545.SC4Lot
+          size: 5x4
+        - filename: delecto_COSTA_OBZOR_45_4x4l_7faf8849.SC4Lot
+          id: 7faf8849
+          label: delecto_COSTA_OBZOR_45_4x4l_7faf8849.SC4Lot
+        - filename: delecto_COSTA_OBZOR_45_4x4r_5faf8856.SC4Lot
+          id: 5faf8856
+          label: delecto_COSTA_OBZOR_45_4x4r_5faf8856.SC4Lot
+        - filename: delecto_COSTA_OBZOR_45_x2_5x5_dfa934d0.SC4Lot
+          id: dfa934d0
+          label: delecto_COSTA_OBZOR_45_x2_5x5_dfa934d0.SC4Lot
+          size: 5x5
       name: Dark Nite
+      release: 2024-09-04T10:03:15.374Z
       requirements:
         darknite: true
       version: 1.0.0
     default:
       assets:
-        - id: simtropolis/29178-delecto-costa-obzor#122464
-      name: Maxis Nite
+        - docs:
+            - Images/OBZOR BANNIERE.jpg
+            - Images/OBZOR_README_DAY.jpg
+            - Images/OBZOR_README_MN.jpg
+            - Readme_Delecto_Costa_Obzor_MN.html
+          id: simtropolis/29178-delecto-costa-obzor#122464
+      lastModified: 2014-01-06T20:24:58Z
+      lots:
+        - filename: delecto_COSTA_OBZOR_00+45_4x5l_3fa3ed54.SC4Lot
+          id: 3fa3ed54
+          label: delecto_COSTA_OBZOR_00+45_4x5l_3fa3ed54.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00+45_4x5r_7fa3e968.SC4Lot
+          id: 7fa3e968
+          label: delecto_COSTA_OBZOR_00+45_4x5r_7fa3e968.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00_x1_4x3a_3fa3d2ab.SC4Lot
+          id: 3fa3d2ab
+          label: delecto_COSTA_OBZOR_00_x1_4x3a_3fa3d2ab.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00_x1_4x3b_3fa3d2a4.SC4Lot
+          id: 3fa3d2a4
+          label: delecto_COSTA_OBZOR_00_x1_4x3b_3fa3d2a4.SC4Lot
+        - filename: delecto_COSTA_OBZOR_00_x2_4x5_ffc49086.SC4Lot
+          id: ffc49086
+          label: delecto_COSTA_OBZOR_00_x2_4x5_ffc49086.SC4Lot
+          size: 4x5
+        - filename: delecto_COSTA_OBZOR_00_x2_5x4_9fa3f545.SC4Lot
+          id: 9fa3f545
+          label: delecto_COSTA_OBZOR_00_x2_5x4_9fa3f545.SC4Lot
+          size: 5x4
+        - filename: delecto_COSTA_OBZOR_45_4x4l_7faf8849.SC4Lot
+          id: 7faf8849
+          label: delecto_COSTA_OBZOR_45_4x4l_7faf8849.SC4Lot
+        - filename: delecto_COSTA_OBZOR_45_4x4r_5faf8856.SC4Lot
+          id: 5faf8856
+          label: delecto_COSTA_OBZOR_45_4x4r_5faf8856.SC4Lot
+        - filename: delecto_COSTA_OBZOR_45_x2_5x5_dfa934d0.SC4Lot
+          id: dfa934d0
+          label: delecto_COSTA_OBZOR_45_x2_5x5_dfa934d0.SC4Lot
+          size: 5x5
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -247,6 +371,12 @@ delecto/essentials:
   category: dependencies
   description: |-
     Hello, here is a file, "**Delecto Essentials Files**", that is required for proper functionality of my future creations.
+
+    \================================================
+
+    V1.0 / January 2014
+
+    \================================================
 
     Currently this file contains the following props:
 
@@ -286,6 +416,8 @@ delecto/essentials:
 
     I'll update this file frequently. so keep an eye on it. ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif)
 
+    Readme included.
+
     For any question or comment, please have a look at my BAT Thread. https://community.simtropolis.com/topic/29013-delecto-move-the-mouse-quickly/
 
     Delecto. ![:party:](https://community.simtropolis.com/assets/emoticons/LlamaParty.gif)
@@ -298,7 +430,13 @@ delecto/essentials:
   variants:
     default:
       assets:
-        - id: simtropolis/29171-delecto-essentials-files
+        - docs:
+            - ReadMe Delecto Essentials.txt
+          id: simtropolis/29171-delecto-essentials-files
+          include:
+            - Delecto Essentials Files.dat
+      lastModified: 2014-01-04T10:43:41Z
+      name: Default
       version: 1.0.0
 
 delecto/pearl-sunshine:
@@ -312,15 +450,19 @@ delecto/pearl-sunshine:
     - delecto/essentials
     - simgoober/mega-props-vol01
   description: |-
-    BAT by **Delecto.**
+    **Delecto presents:**
 
-    Modding and Lots design by **Twrecks.**
+    **PEARL SUNSHINE**
 
-    Recreation of the **Pearl Sunshine** from Primorsko in Bulgaria. In this download you will find **three** orthogonal and **three** diagonal Models for a total of fourteen Lots.
+    \-BAT by **Delecto.**
 
-    More pictures of the Lots can be found [HERE!](https://www.simtropolis.com/forum/topic/29013-delectoback-on-the-bat/page__view__findpost__p__883232)
+    \-Modding and Lots design by **Twrecks.**
 
-    This is my first BAT, he is dedicated to all those who helped me one way or another to achieve it...
+    \-Recreation of the **Pearl Sunshine** from Primorsko in Bulgaria. In this download you will find **three** orthogonal and **three** diagonal Models for a total of fourteen Lots.
+
+    \-More pictures of the Lots can be found [HERE!](https://www.simtropolis.com/forum/topic/29013-delectoback-on-the-bat/page__view__findpost__p__883232)
+
+    \-This is my first BAT, he is dedicated to all those who helped me one way or another to achieve it...
 
     ...TWrecks, SimFox, SimHoTToDDy, Jasoncw, Andreas Roth, Amthaak... and many more.
 
@@ -335,6 +477,19 @@ delecto/pearl-sunshine:
     Growth stage: 4 and 5
 
     Occupants: 80, 160, 240, 320 R$$
+
+    **\-Dependencies**
+
+    \-To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+    - DEL_Pearl_Essentials.dat (included)
+    - [BSC MEGA Props - CP Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+    - [BSC MEGA Props - SG Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
+    - [BSC Textures Vol 01.dat](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+    \-Readme included.
+
+    \-Have fun_\__**Delecto & EBLTeam.**
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/6e2f3b0d89af3eadb42007154e51a863-pearl_night.jpg
     - https://www.simtropolis.com/objects/screens/monthly_01_2014/971674b0acff43169e7955a747839cd5-pearl_a.jpg
@@ -417,9 +572,83 @@ delecto/pearl-sunshine:
   variants:
     default:
       assets:
-        - id: simtropolis/23092-delecto-pearl-sunshine
+        - docs:
+            - images/PEARL_A.jpg
+            - Pearl_Readme.html
+          id: simtropolis/23092-delecto-pearl-sunshine
           include:
             - Delecto/Pearl Sunshine
+      lastModified: 2014-01-03T13:30:47Z
+      lots:
+        - filename: DEL_Pearl_2Buildings_R$$4_4x5_f81ef3cc.SC4Lot
+          id: f81ef3cc
+          label: DEL_Pearl_2Buildings_R$$4_4x5_f81ef3cc.SC4Lot
+          size: 4x5
+          stage: 4
+        - filename: DEL_Pearl_2Buildings_R$$4_5x4_781ef41c.SC4Lot
+          id: 781ef41c
+          label: DEL_Pearl_2Buildings_R$$4_5x4_781ef41c.SC4Lot
+          size: 5x4
+          stage: 4
+        - filename: DEL_Pearl_2Buildings_R$$4_5x5_f81ef676.SC4Lot
+          id: f81ef676
+          label: DEL_Pearl_2Buildings_R$$4_5x5_f81ef676.SC4Lot
+          size: 5x5
+          stage: 4
+        - filename: DEL_Pearl_3Buildings_R$$4_4x5_d81ef3d9.SC4Lot
+          id: d81ef3d9
+          label: DEL_Pearl_3Buildings_R$$4_4x5_d81ef3d9.SC4Lot
+          size: 4x5
+          stage: 4
+        - filename: DEL_Pearl_3Buildings_R$$4_5x4_581ef423.SC4Lot
+          id: 581ef423
+          label: DEL_Pearl_3Buildings_R$$4_5x4_581ef423.SC4Lot
+          size: 5x4
+          stage: 4
+        - filename: DEL_Pearl_3Buildings_R$$4_5x5_d81ef67c.SC4Lot
+          id: d81ef67c
+          label: DEL_Pearl_3Buildings_R$$4_5x5_d81ef67c.SC4Lot
+          size: 5x5
+          stage: 4
+        - filename: DEL_Pearl_4Buildings2_R$$5_4x5_781ef3f1.SC4Lot
+          id: 781ef3f1
+          label: DEL_Pearl_4Buildings2_R$$5_4x5_781ef3f1.SC4Lot
+          size: 4x5
+          stage: 5
+        - filename: DEL_Pearl_4Buildings2_R$$5_5x5_781ef686.SC4Lot
+          id: 781ef686
+          label: DEL_Pearl_4Buildings2_R$$5_5x5_781ef686.SC4Lot
+          size: 5x5
+          stage: 5
+        - filename: DEL_Pearl_4Buildings_R$$5_4x5_181ef3e0.SC4Lot
+          id: 181ef3e0
+          label: DEL_Pearl_4Buildings_R$$5_4x5_181ef3e0.SC4Lot
+          size: 4x5
+          stage: 5
+        - filename: DEL_Pearl_4Buildings_R$$5_5x4_d81ef635.SC4Lot
+          id: d81ef635
+          label: DEL_Pearl_4Buildings_R$$5_5x4_d81ef635.SC4Lot
+          size: 5x4
+          stage: 5
+        - filename: DEL_Pearl_4Buildings_R$$5_5x5_181ef682.SC4Lot
+          id: 181ef682
+          label: DEL_Pearl_4Buildings_R$$5_5x5_181ef682.SC4Lot
+          size: 5x5
+          stage: 5
+        - filename: DEL_Pearl_1x_diag_R$$4_2x2l_b81ecbe9.SC4Lot
+          id: b81ecbe9
+          label: DEL_Pearl_1x_diag_R$$4_2x2l_b81ecbe9.SC4Lot
+          stage: 4
+        - filename: DEL_Pearl_1x_diag_R$$4_2x2r_d81ecabc.SC4Lot
+          id: d81ecabc
+          label: DEL_Pearl_1x_diag_R$$4_2x2r_d81ecabc.SC4Lot
+          stage: 4
+        - filename: DEL_Pearl_1x_ortho_R$$4_2x2_d81ec61f.SC4Lot
+          id: d81ec61f
+          label: DEL_Pearl_1x_ortho_R$$4_2x2_d81ec61f.SC4Lot
+          size: 2x2
+          stage: 4
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

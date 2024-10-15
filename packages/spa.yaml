@@ -3,6 +3,11 @@ spa/bank-of-montreal:
     - spa
   category: co$$,landmarks
   description: >-
+    **Updated July 28, 2007!** All my old files are being updated and re-released to fix a host of minor issues and mistakes I made when I was still learning. The lot and desc files are the same the
+    original meaning that the new version will replace the old one in your cities without any brown boxes as long as you delete the previous version. A BSC Cleanitol file will be available on
+    [SC4Devotion](http://www.sc4devotion.com/)'s BSC exchange as soon as I have all the updated files released, which will make the job of deleting the old versions easy.
+
+
     The Bank of Montreal (BMO) is Canada's oldest bank. It was founded in Montreal in 1817. Until the creation of the Bank of Canada in 1935, the Bank of Montreal served as Canada's central bank.
     Today, BMO has lost its dominant position and is the smallest of Canada's five major banks. Its Toronto headquarters is the largest office tower in Canada.
 
@@ -13,7 +18,8 @@ spa/bank-of-montreal:
     more detailed stat information and installation instructions.
 
 
-    Check out my bat thread [here](https://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=73597&enterthread=y).
+    Check out my bat thread [here](https://www.simtropolis.com/forum/messageview.cfm?catid=37&threadid=73597&enterthread=y) or on
+    [SC4devotion](https://www.sc4devotion.com/forums/index.php?topic=573.0) for detailed information about the updates or my future projects
   images:
     - https://www.simtropolis.com/objects/screens/monthly_11_2014/2297d37c17ec8ca1e0443e5fe1b73ca0-bmo-release-1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_11_2014/16a0b36b2819f05a2f82c2b2dc230195-bmo-release-2.jpg
@@ -25,23 +31,20 @@ spa/bank-of-montreal:
   variants:
     default:
       assets:
-        - id: simtropolis/15552-bank-of-montreal
+        - docs:
+            - images/BMO 1.JPG
+            - images/BMO 2.JPG
+            - images/footer.gif
+            - images/header.gif
+            - Bank of Montreal Readme.htm
+          id: simtropolis/15552-bank-of-montreal
+      lastModified: 2019-06-29T06:40:14Z
       lots:
-        - category: co$$
-          demand:
-            co$$: 90
-          filename: Bank of Montreal 2x3 GROW.dat
-          id: growable-co$$
-          label: Bank of Montreal (CO$$, Stage 3, 2x2)
-          size: 2x2
-          stage: 3
-        - category: co$$,landmarks
-          demand:
-            co$$: 90
+        - category: landmarks
           filename: Bank of Montreal PLOP_f13f5855.SC4Lot
           id: f13f5855
-          label: Bank of Montreal (CO$$, Landmark, 2x2)
-          size: 2x2
+          label: Bank of Montreal PLOP_f13f5855.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

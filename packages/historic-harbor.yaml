@@ -12,8 +12,22 @@ historic-harbor/historic-harbor-lots:
     Look around at many waterfront cities today and you will find traces from a bygone era.
 
 
+    **Dependencies:**
+
+
+    **None!**
+
+
     Everything included in this download has been hand crafted for use with this set and any future 'Historic' add-ons. We will be updating the *Historic Harbor - Dependencies* with additional
     props/textures/resource files in order to consolidate everything in one 'master' dependency.
+
+
+    **Installation:**
+
+
+    Simply choose the version you wish (HD or SD) and unzip the folder and place into your plugin folder. If you want to play with the accompanying lots and MMPs, then be sure to download those files
+    as well (and place in your plugins folder). What if you change your mind and want to switch from HD to SD (or vise-versa)? No problem! Simply remove the version you don't want and place the new
+    version into your plugin folder. The models will switch automatically and you do not need to bulldoze anything.
 
 
     The set is broken down in an organized fashion, so users who are comfortable with customizing their setup may remove the lots that may not be used. For example you may not want to use any of the
@@ -75,36 +89,36 @@ historic-harbor/historic-harbor-lots:
     Specifically, we would like to thank our volunteer beta testers for graciously donating their time to go through this set and find all our mistakes:
 
 
-    - mgb
+    \-mgb
 
 
-    - Paeng
+    \-Paeng
 
 
-    - tariel
+    \-tariel
 
 
-    - epicblunder
+    \-epicblunder
 
 
-    - cmdp123789
+    \-cmdp123789
 
 
-    - Chris11
+    \-Chris11
 
 
-    - NielsC007
+    \-NielsC007
 
 
-    - rathefalcon
+    \-rathefalcon
 
 
-    - Indiana Joe
+    \-Indiana Joe
 
 
     Also, we would like to acknowledge NBVC for providing the BAT script that allows custom LOD's to work at all zoom levels - it makes a world of difference when viewing the Historic Harbor pieces
     from afar.
-  images:
+  images: &a1
     - https://www.simtropolis.com/objects/screens/monthly_09_2014/1baae1deb88b6e63553edbe1475a8402-hh_cover_art.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2014/b72b9d29247d3dc8fe5adeda43f1b4c4-screenshot6.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2014/5b12caef5716971d572ea76019ab3686-screenshot5.jpg
@@ -120,10 +134,142 @@ historic-harbor/historic-harbor-lots:
     default:
       assets:
         - docs:
-            - Historic Harbor - Lots/HH_ReadMe
+            - Historic Harbor - Lots/HH_ReadMe/HH_Style.css
+            - Historic Harbor - Lots/HH_ReadMe/HH_ReadMe.htm
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/jquery.fancybox.pack.js
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/jquery.fancybox.js
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/jquery.fancybox.css
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/jquery-1.10.2.min.js
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/fancybox_sprite@2x.png
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/fancybox_sprite.png
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/fancybox_overlay.png
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/fancybox_loading@2x.gif
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/fancybox_loading.gif
+            - Historic Harbor - Lots/HH_ReadMe/fancyBox/blank.gif
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_support.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_notes.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_lot_catalog.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_known_bugs.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_intro.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_installation.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Title_gameplay.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Wagons.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP UC Workers.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Small Props.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Resting Workers.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Pile Rotten.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Pile Old.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Pile New.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Medium Props.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Large Props.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Junk.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Dock Workers.png
+            - Historic Harbor - Lots/HH_ReadMe/images/MMP Birds.png
+            - Historic Harbor - Lots/HH_ReadMe/images/IronFenceConstruction02_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/IronFenceConstruction02.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/IronFenceConstruction01_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/IronFenceConstruction01.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Web_Icon.ico
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_ReadMe_BG.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Prev.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Paper.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Next.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Menu_04.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Menu_03.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Menu_02.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Menu_01.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Header.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Footer.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_13.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_12.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_11.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_10.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_09.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_08.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_07.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_06.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_05.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_04.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_03.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_02.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH_Btn_01.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - UC Lots_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - UC Lots.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Rope Lots_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Rope Lots.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Quay Lots_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Quay Lots.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Pier Lots_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Pier Lots.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Iron Fence Lots_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Iron Fence Lots.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Fill Lots_thumb.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH Lot Catalog - Fill Lots.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH instructional pic6.png
+            - Historic Harbor - Lots/HH_ReadMe/images/HH instructional pic4.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH instructional pic3.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/HH instructional pic1.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/Gate_Examples_01.jpg
+            - Historic Harbor - Lots/HH_ReadMe/images/Edition.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_19.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_18.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_17.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_16.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_15.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_14.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_13.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_12.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_11.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_10.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_09.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_08.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_07.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_06.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_05.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_04.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_03.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_02.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Divider_01.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_28.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_27.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_26.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_25.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_24.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_23.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_22.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_21.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_20.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_19.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_18.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_17.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_16.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_15.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_14.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_13.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_12.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_11.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_10.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_09.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_08.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_07.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_06.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_05.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_04.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_03.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_02.png
+            - Historic Harbor - Lots/HH_ReadMe/images/Ad_01.png
           id: simtropolis/29880-historic-harbor#141584
           include:
-            - Historic Harbor - Lots
+            - Historic Harbor - Lots/Under Construction.dat
+            - Historic Harbor - Lots/Quays.dat
+            - Historic Harbor - Lots/Piers.dat
+            - Historic Harbor - Lots/Misc.dat
+            - Historic Harbor - Lots/Fillers.dat
+            - Historic Harbor - Lots/Fence - Rope.dat
+            - Historic Harbor - Lots/Fence - Iron.dat
+            - Historic Harbor - Lots/Boats.dat
+      lastModified: 2014-09-03T21:07:45Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -153,9 +299,25 @@ historic-harbor/historic-harbor-mmps:
     props/textures/resource files in order to consolidate everything in one 'master' dependency.
 
 
+    **Installation:**
+
+
+    Simply choose the version you wish (HD or SD) and unzip the folder and place into your plugin folder. If you want to play with the accompanying lots and MMPs, then be sure to download those files
+    as well (and place in your plugins folder). What if you change your mind and want to switch from HD to SD (or vise-versa)? No problem! Simply remove the version you don't want and place the new
+    version into your plugin folder. The models will switch automatically and you do not need to bulldoze anything.
+
+
     The set is broken down in an organized fashion, so users who are comfortable with customizing their setup may remove the lots that may not be used. For example you may not want to use any of the
     'Under Construction' lots - in that case simply remove the file 'Under Construction.dat' from the Lots folder and those will not show up in your menu when you start the game. If you are using lots
     from a category that you wish to remove, it is advisable to delete all instances of those lots before you remove them from your plugins folder (per standard SC4 operating procedure).
+
+
+    Once installed, the lots will be at the end of the 'Seaport' menu. The lots will be grouped together in similar categories (Pier, Quay, Filler, etc.). Despite their organized appearance, the sheer
+    number of lots will make for lots of scrolling, so if you are a DAMN user, it is recommended that you take advantage of that program for this set.
+
+
+    A few stray lots will fall in their respected menu categories, such as the 'bus stop' and 'waste' lots (you will find this lot in the 'power' menu), but 99% of the lots will be in the 'Seaport'
+    menu.
 
 
     **Gameplay:**
@@ -204,43 +366,36 @@ historic-harbor/historic-harbor-mmps:
     Specifically, we would like to thank our volunteer beta testers for graciously donating their time to go through this set and find all our mistakes:
 
 
-    - mgb
+    \-mgb
 
 
-    - Paeng
+    \-Paeng
 
 
-    - tariel
+    \-tariel
 
 
-    - epicblunder
+    \-epicblunder
 
 
-    - cmdp123789
+    \-cmdp123789
 
 
-    - Chris11
+    \-Chris11
 
 
-    - NielsC007
+    \-NielsC007
 
 
-    - rathefalcon
+    \-rathefalcon
 
 
-    - Indiana Joe
+    \-Indiana Joe
 
 
     Also, we would like to acknowledge NBVC for providing the BAT script that allows custom LOD's to work at all zoom levels - it makes a world of difference when viewing the Historic Harbor pieces
     from afar.
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/1baae1deb88b6e63553edbe1475a8402-hh_cover_art.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/b72b9d29247d3dc8fe5adeda43f1b4c4-screenshot6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/5b12caef5716971d572ea76019ab3686-screenshot5.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/d14aedda4e96c4b084057b752649800b-screenshot4.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/4d007ee0e07212e1b20d7ef24d0c6d51-screenshot3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/9826e484b2ff1d184ed55543281a78bd-screenshot2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/8ff80ef921fdc22a68897bffbc5c7035-screenshot1.jpg
+  images: *a1
   name: Historic Harbor - MMPs
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2014/thumb-1baae1deb88b6e63553edbe1475a8402-hh_cover_art.jpg
@@ -249,10 +404,146 @@ historic-harbor/historic-harbor-mmps:
     default:
       assets:
         - docs:
-            - Historic Harbor - MMPs/HH_ReadMe
+            - Historic Harbor - MMPs/HH_ReadMe/HH_Style.css
+            - Historic Harbor - MMPs/HH_ReadMe/HH_ReadMe.htm
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/jquery.fancybox.pack.js
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/jquery.fancybox.js
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/jquery.fancybox.css
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/jquery-1.10.2.min.js
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/fancybox_sprite@2x.png
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/fancybox_sprite.png
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/fancybox_overlay.png
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/fancybox_loading@2x.gif
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/fancybox_loading.gif
+            - Historic Harbor - MMPs/HH_ReadMe/fancyBox/blank.gif
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_support.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_notes.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_lot_catalog.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_known_bugs.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_intro.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_installation.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Title_gameplay.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Wagons.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP UC Workers.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Small Props.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Resting Workers.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Pile Rotten.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Pile Old.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Pile New.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Medium Props.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Large Props.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Junk.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Dock Workers.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/MMP Birds.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/IronFenceConstruction02_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/IronFenceConstruction02.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/IronFenceConstruction01_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/IronFenceConstruction01.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Web_Icon.ico
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_ReadMe_BG.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Prev.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Paper.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Next.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Menu_04.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Menu_03.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Menu_02.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Menu_01.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Header.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Footer.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_13.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_12.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_11.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_10.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_09.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_08.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_07.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_06.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_05.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_04.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_03.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_02.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH_Btn_01.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - UC Lots_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - UC Lots.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Rope Lots_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Rope Lots.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Quay Lots_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Quay Lots.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Pier Lots_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Pier Lots.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Iron Fence Lots_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Iron Fence Lots.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Fill Lots_thumb.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH Lot Catalog - Fill Lots.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH instructional pic6.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH instructional pic4.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH instructional pic3.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/HH instructional pic1.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/Gate_Examples_01.jpg
+            - Historic Harbor - MMPs/HH_ReadMe/images/Edition.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_19.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_18.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_17.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_16.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_15.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_14.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_13.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_12.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_11.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_10.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_09.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_08.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_07.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_06.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_05.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_04.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_03.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_02.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Divider_01.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_28.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_27.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_26.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_25.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_24.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_23.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_22.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_21.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_20.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_19.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_18.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_17.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_16.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_15.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_14.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_13.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_12.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_11.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_10.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_09.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_08.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_07.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_06.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_05.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_04.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_03.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_02.png
+            - Historic Harbor - MMPs/HH_ReadMe/images/Ad_01.png
           id: simtropolis/29880-historic-harbor#141585
           include:
-            - Historic Harbor - MMPs
+            - Historic Harbor - MMPs/Workers/HH_WorkersResting_MMP.dat
+            - Historic Harbor - MMPs/Workers/HH_WorkersMoving_MMP.dat
+            - Historic Harbor - MMPs/Workers/HH_WorkersBuilding_MMP.dat
+            - Historic Harbor - MMPs/Wagons/HH_Wagons_MMP.dat
+            - Historic Harbor - MMPs/Piles/HH_DockPilesRotten_MMP.dat
+            - Historic Harbor - MMPs/Piles/HH_DockPilesOld_MMP.dat
+            - Historic Harbor - MMPs/Piles/HH_DockPilesNew_MMP.dat
+            - Historic Harbor - MMPs/Cargo/HH_PropsSmall_MMP.dat
+            - Historic Harbor - MMPs/Cargo/HH_PropsMedium_MMP.dat
+            - Historic Harbor - MMPs/Cargo/HH_PropsLarge_MMP.dat
+            - Historic Harbor - MMPs/Cargo/HH_JunkProps_MMP.dat
+            - Historic Harbor - MMPs/Birds/HH_Birds_MMP.dat
+      lastModified: 2014-09-03T21:07:45Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -280,6 +571,42 @@ historic-harbor/historic-harbor-props:
     props/textures/resource files in order to consolidate everything in one 'master' dependency.
 
 
+    **Installation:**
+
+
+    Simply choose the version you wish (HD or SD) and unzip the folder and place into your plugin folder. If you want to play with the accompanying lots and MMPs, then be sure to download those files
+    as well (and place in your plugins folder). What if you change your mind and want to switch from HD to SD (or vise-versa)? No problem! Simply remove the version you don't want and place the new
+    version into your plugin folder. The models will switch automatically and you do not need to bulldoze anything.
+
+
+    The set is broken down in an organized fashion, so users who are comfortable with customizing their setup may remove the lots that may not be used. For example you may not want to use any of the
+    'Under Construction' lots - in that case simply remove the file 'Under Construction.dat' from the Lots folder and those will not show up in your menu when you start the game. If you are using lots
+    from a category that you wish to remove, it is advisable to delete all instances of those lots before you remove them from your plugins folder (per standard SC4 operating procedure).
+
+
+    Once installed, the lots will be at the end of the 'Seaport' menu. The lots will be grouped together in similar categories (Pier, Quay, Filler, etc.). Despite their organized appearance, the sheer
+    number of lots will make for lots of scrolling, so if you are a DAMN user, it is recommended that you take advantage of that program for this set.
+
+
+    A few stray lots will fall in their respected menu categories, such as the 'bus stop' and 'waste' lots (you will find this lot in the 'power' menu), but 99% of the lots will be in the 'Seaport'
+    menu.
+
+
+    **Gameplay:**
+
+
+    For detailed instructions and example regarding the lots and MMPs, you will find everything you need in the 'readme' file located in both the *Historic Harbor - Lots* download and the *Historic
+    Harbor - MMPs* download. We encourage everyone to browse through the readme - it contains loads of vital information and it looks really cool!
+
+
+    **Known Bugs:**
+
+
+    There are a number of known issues and visual glitches associated with these lots (although easily remedied) and the accompanying readme explains everything in detail. So once again - please read
+    the readme!
+
+
+    **Developer notes:**
 
 
     This is a massive set that has been years in the making. There has been a thorough testing of each piece, but that doesn't mean everything will work perfectly. If you run into any problems, please
@@ -311,43 +638,36 @@ historic-harbor/historic-harbor-props:
     Specifically, we would like to thank our volunteer beta testers for graciously donating their time to go through this set and find all our mistakes:
 
 
-    - mgb
+    \-mgb
 
 
-    - Paeng
+    \-Paeng
 
 
-    - tariel
+    \-tariel
 
 
-    - epicblunder
+    \-epicblunder
 
 
-    - cmdp123789
+    \-cmdp123789
 
 
-    - Chris11
+    \-Chris11
 
 
-    - NielsC007
+    \-NielsC007
 
 
-    - rathefalcon
+    \-rathefalcon
 
 
-    - Indiana Joe
+    \-Indiana Joe
 
 
     Also, we would like to acknowledge NBVC for providing the BAT script that allows custom LOD's to work at all zoom levels - it makes a world of difference when viewing the Historic Harbor pieces
     from afar.
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/1baae1deb88b6e63553edbe1475a8402-hh_cover_art.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/b72b9d29247d3dc8fe5adeda43f1b4c4-screenshot6.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/5b12caef5716971d572ea76019ab3686-screenshot5.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/d14aedda4e96c4b084057b752649800b-screenshot4.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/4d007ee0e07212e1b20d7ef24d0c6d51-screenshot3.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/9826e484b2ff1d184ed55543281a78bd-screenshot2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_09_2014/8ff80ef921fdc22a68897bffbc5c7035-screenshot1.jpg
+  images: *a1
   name: Historic Harbor - Props
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2014/thumb-1baae1deb88b6e63553edbe1475a8402-hh_cover_art.jpg
@@ -355,16 +675,110 @@ historic-harbor/historic-harbor-props:
   variants:
     default:
       assets:
-        - id: simtropolis/29880-historic-harbor#141583
+        - docs: []
+          id: simtropolis/29880-historic-harbor#141583
           include:
-            - Historic Harbor - Dependencies - SD
-      name: SD
+            - Historic Harbor - Dependencies - SD/Vortexture - Historic Harbor.dat
+            - Historic Harbor - Dependencies - SD/HH_PropFamilyCohortFiles.dat
+            - Historic Harbor - Dependencies - SD/Workers/Workers Walk.dat
+            - Historic Harbor - Dependencies - SD/Workers/Workers Stand.dat
+            - Historic Harbor - Dependencies - SD/Workers/Workers Rest.dat
+            - Historic Harbor - Dependencies - SD/Workers/Workers Push.dat
+            - Historic Harbor - Dependencies - SD/Workers/Workers Lift.dat
+            - Historic Harbor - Dependencies - SD/Workers/Watchman.dat
+            - Historic Harbor - Dependencies - SD/Workers/Scaffold.dat
+            - Historic Harbor - Dependencies - SD/Wagons/Wagons.dat
+            - Historic Harbor - Dependencies - SD/Under Construction/UC Workers.dat
+            - Historic Harbor - Dependencies - SD/Under Construction/UC Wagons.dat
+            - Historic Harbor - Dependencies - SD/Under Construction/UC Materials.dat
+            - Historic Harbor - Dependencies - SD/Under Construction/UC Harbor.dat
+            - Historic Harbor - Dependencies - SD/Under Construction/UC Buildings.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Lightposts.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Fence - Rope.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Fence - Iron Small.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Fence - Iron Medium.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Fence - Iron Large.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Clocks.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Bulletin Board.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Benches.dat
+            - Historic Harbor - Dependencies - SD/Street Furniture/Bell.dat
+            - Historic Harbor - Dependencies - SD/Misc/Tools.dat
+            - Historic Harbor - Dependencies - SD/Misc/Junk.dat
+            - Historic Harbor - Dependencies - SD/Misc/Birds.dat
+            - Historic Harbor - Dependencies - SD/Harbor/Quays.dat
+            - Historic Harbor - Dependencies - SD/Harbor/Piles.dat
+            - Historic Harbor - Dependencies - SD/Harbor/Piers.dat
+            - Historic Harbor - Dependencies - SD/Harbor/Base.dat
+            - Historic Harbor - Dependencies - SD/Buildings/Watertank.dat
+            - Historic Harbor - Dependencies - SD/Buildings/Warehouses.dat
+            - Historic Harbor - Dependencies - SD/Buildings/Sheds.dat
+            - Historic Harbor - Dependencies - SD/Buildings/Offices.dat
+            - Historic Harbor - Dependencies - SD/Buildings/Cranes.dat
+            - Historic Harbor - Dependencies - SD/Cargo/Sacks.dat
+            - Historic Harbor - Dependencies - SD/Cargo/Crates.dat
+            - Historic Harbor - Dependencies - SD/Cargo/Carts.dat
+            - Historic Harbor - Dependencies - SD/Cargo/Boiler and Pallets.dat
+            - Historic Harbor - Dependencies - SD/Cargo/Barrels.dat
+            - Historic Harbor - Dependencies - SD/Boats/Pile Driver.dat
+            - Historic Harbor - Dependencies - SD/Boats/Boat 3.dat
+            - Historic Harbor - Dependencies - SD/Boats/Boat 2.dat
+            - Historic Harbor - Dependencies - SD/Boats/Boat 1.dat
+            - Historic Harbor - Dependencies - SD/Boats/Barges.dat
+      lastModified: 2014-09-03T21:07:45Z
+      name: Default
       version: 1.0.0
     hd:
       assets:
-        - id: simtropolis/29880-historic-harbor#141582
+        - docs: []
+          id: simtropolis/29880-historic-harbor#141582
           include:
-            - Historic Harbor - Dependencies - HD
+            - Historic Harbor - Dependencies - HD/Vortexture - Historic Harbor.dat
+            - Historic Harbor - Dependencies - HD/HH_PropFamilyCohortFiles.dat
+            - Historic Harbor - Dependencies - HD/Workers/Workers Walk.dat
+            - Historic Harbor - Dependencies - HD/Workers/Workers Stand.dat
+            - Historic Harbor - Dependencies - HD/Workers/Workers Rest.dat
+            - Historic Harbor - Dependencies - HD/Workers/Workers Push.dat
+            - Historic Harbor - Dependencies - HD/Workers/Workers Lift.dat
+            - Historic Harbor - Dependencies - HD/Workers/Watchman.dat
+            - Historic Harbor - Dependencies - HD/Workers/Scaffold.dat
+            - Historic Harbor - Dependencies - HD/Wagons/Wagons.dat
+            - Historic Harbor - Dependencies - HD/Under Construction/UC Workers.dat
+            - Historic Harbor - Dependencies - HD/Under Construction/UC Wagons.dat
+            - Historic Harbor - Dependencies - HD/Under Construction/UC Materials.dat
+            - Historic Harbor - Dependencies - HD/Under Construction/UC Harbor.dat
+            - Historic Harbor - Dependencies - HD/Under Construction/UC Buildings.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Lightposts.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Fence - Rope.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Fence - Iron Small.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Fence - Iron Medium.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Fence - Iron Large.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Clocks.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Bulletin Board.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Benches.dat
+            - Historic Harbor - Dependencies - HD/Street Furniture/Bell.dat
+            - Historic Harbor - Dependencies - HD/Misc/Tools.dat
+            - Historic Harbor - Dependencies - HD/Misc/Junk.dat
+            - Historic Harbor - Dependencies - HD/Misc/Birds.dat
+            - Historic Harbor - Dependencies - HD/Harbor/Quays.dat
+            - Historic Harbor - Dependencies - HD/Harbor/Piles.dat
+            - Historic Harbor - Dependencies - HD/Harbor/Piers.dat
+            - Historic Harbor - Dependencies - HD/Harbor/Base.dat
+            - Historic Harbor - Dependencies - HD/Cargo/Sacks.dat
+            - Historic Harbor - Dependencies - HD/Cargo/Crates.dat
+            - Historic Harbor - Dependencies - HD/Cargo/Carts.dat
+            - Historic Harbor - Dependencies - HD/Cargo/Boiler and Pallets.dat
+            - Historic Harbor - Dependencies - HD/Cargo/Barrels.dat
+            - Historic Harbor - Dependencies - HD/Buildings/WaterTank.dat
+            - Historic Harbor - Dependencies - HD/Buildings/Warehouses.dat
+            - Historic Harbor - Dependencies - HD/Buildings/Sheds.dat
+            - Historic Harbor - Dependencies - HD/Buildings/Offices.dat
+            - Historic Harbor - Dependencies - HD/Buildings/Cranes.dat
+            - Historic Harbor - Dependencies - HD/Boats/Pile Driver.dat
+            - Historic Harbor - Dependencies - HD/Boats/Boat 3.dat
+            - Historic Harbor - Dependencies - HD/Boats/Boat 2.dat
+            - Historic Harbor - Dependencies - HD/Boats/Boat 1.dat
+            - Historic Harbor - Dependencies - HD/Boats/Barges.dat
+      lastModified: 2014-09-03T21:07:45Z
       name: HD
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       version: 1.0.0

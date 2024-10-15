@@ -1,41 +1,77 @@
 suico/copacabana-beach:
   authors:
     - SUICO
-  category: landmarks # TODO: Beach?
-  description: |-
+  category: landmarks
+  dependencies:
+    - memo/submenus-dll
+    - suico/copacabana-beach-addon-1-sports
+  description: >-
     A set of 11 lots to create your copacabana Beach.
+
 
     **Take a look at it on 1st january you'll have a surprise!** ![*:party:](https://community.simtropolis.com/assets/emoticons/default_39.gif "*:party:")
 
+
     They all act as parks.
 
-    1. A 7x1 Simple Beach (it changes towels and umbrellas colors all the times you use it)
 
-    2. A 7x1 LifeGuard Beach just like the real "postos" in Rio
+    1\. A 7x1 Simple Beach (it changes towels and umbrellas colors all the times you use it)
 
-    3. A 7x1 refreshment stand
 
-    4. Another 7x1 refreshment stand
+    2\. A 7x1 LifeGuard Beach just like the real "postos" in Rio
 
-    5. The world famous walkways of copacabana with their ciclovias - straight
 
-    6. Inner Corner of the walkways
+    3\. A 7x1 refreshment stand
 
-    7. Outer Corner of the walkways
 
-    8. Sand 1x1
+    4\. Another 7x1 refreshment stand
 
-    9. Sand underwater 1x1
 
-    10. Sand 3x1 for intermediate region
+    5\. The world famous walkways of copacabana with their ciclovias - straight
 
-    11. A crowded tile with lots of umbrellas and towels
+
+    6\. Inner Corner of the walkways
+
+
+    7\. Outer Corner of the walkways
+
+
+    8\. Sand 1x1
+
+
+    9 Sand underwater 1x1
+
+
+    10\. Sand 3x1 for intermediate region
+
+
+    11\. A crowded tile with lots of umbrellas and towels
+
 
     This file only was possible to make thanks to kleston my co-admin on www.SimcityBrasil.com.br . He made all the tests and even found a compatibility problem with the files:
 
+
     RoadOverRailOverpass0_8_0.dat
 
+
     RoadOverRailOverpass0_5_0.dat
+
+
+    \================================
+
+
+    [@carlosmarcelo](https://community.simtropolis.com/profile/55338-carlosmarcelo/) update:
+
+
+    To homenage suico, I created a submenu to all lots this mod and "[Copacabana Beach Addon 1 Sports](https://community.simtropolis.com/files/file/3559-copacabana-beach-addon-1-sports/)", too.
+    ![*:yes:](https://community.simtropolis.com/assets/emoticons/default_19.gif "*:yes:")
+
+
+    If you want use it with submenu, you must download "[Submenus DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/)" by memo. In this link there are detailed informations and
+    instructions about this amazing functionality. ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:&#41;")
+
+
+    If you wantn't use it with submenu, "Submenu DLL" is not necessary.
   images:
     - https://www.simtropolis.com/objects/screens/0026/ebaabfe574d22d2ab8cbd9e4b38b0eea-copapropagandaprincipal.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e2d7cc817_praiacopacheia.jpg.c1311edd60163e7e9d517943721e4f99.jpg
@@ -55,12 +91,13 @@ suico/copacabana-beach:
   variants:
     default:
       assets:
-        - id: simtropolis/3519-copacabana-beach#202791
+        - docs: []
+          id: simtropolis/3519-copacabana-beach#202791
           include:
-            - condition:
-                submenus: true
-              path: copacabana-beach-suico-submenu.dat
+            - copacabana-beach-suico-submenu.dat
             - copacabana.dat
+      lastModified: 2024-08-23T01:18:37Z
+      name: Default
       version: 1.1.0
   warnings:
     - id: bulldoze
@@ -69,17 +106,27 @@ suico/copacabana-beach:
 suico/copacabana-beach-addon-1-sports:
   authors:
     - SUICO
-  category: landmarks # TODO: Beach? Sport?
+  category: landmarks
+  dependencies:
+    - suico/copacabana-beach
   description: |-
     The first addon to the copacabana beach is dedicated to sports:
 
-    1. Soccer on the Beach
+    1\. Soccer on the Beach
 
-    2. Beach Volley
+    2\. Beach Volley
 
-    3. Gymnastics
+    3\. Gymnastics
 
-    4. I did add a 3x2 underwater sand file as J.O. asked.
+    4\. I did add a 3x2 underwater sand file as J.O. asked.
+
+    Here is the link to the copacabana beach file (and your submenu):
+
+    Or just click on my name to see all my bats creations you maybe find that some of them are nice.
+
+    Put everything in your my documents/SimCity 4/plugins directory
+
+    **carlosmarcelo edit**: Updated link to Copacabana Beach and changing category; added new images to reference submenu to this lot.
   images:
     - https://www.simtropolis.com/objects/screens/0015/81038d99fa41da94ee9c8cd1be01cc82-copaaddoningles.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c7e42f205c1_praiacopaesportes.jpg.99bcf6d497b315788f3d841acfe96148.jpg
@@ -94,5 +141,10 @@ suico/copacabana-beach-addon-1-sports:
   variants:
     default:
       assets:
-        - id: simtropolis/3559-copacabana-beach-addon-1-sports
+        - docs: []
+          id: simtropolis/3559-copacabana-beach-addon-1-sports
+          include:
+            - copacabanaaddon1.dat
+      lastModified: 2024-08-23T01:23:50Z
+      name: Default
       version: 1.0.0

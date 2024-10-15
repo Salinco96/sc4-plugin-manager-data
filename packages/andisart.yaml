@@ -2,6 +2,8 @@ andisart/sc2013-inspired-homes-pack:
   authors:
     - AndisArt
   category: r$$
+  dependencies:
+    - simfox/simfox-day-and-nite-modd
   description: |-
     This is a set of growable homes inspired by SC2013.
 
@@ -13,94 +15,100 @@ andisart/sc2013-inspired-homes-pack:
 
     There are lots for the colorfuls and lots for the neutrals, so you can choose to use either or both at the same time.
 
-    Available in Maxis night and DarkNite. You can only use one version at a time!
+    Available in Maxis night and DarkNite. Warning: you can only use one version at a time!
 
     The lots come in different sizes in growth stages 1 - 4.
+
+    They have no dependencies, except of [SimFox' DarkNite Mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) for the DarkNite version.
 
     Tileset: New York & Chicago
 
     Credits: T Wrecks & SimCoug for testing
 
     Special thanks to SimCoug, Aaron Graham and over at SC4D to callagrafx and c.p. for their help during the foundation creation process
+
+    \-------------------------------------------------------------------------------------------------------------------------------
+
+    EDIT: Oct 26 2016 - no edit on the file itself, title of entry amended to avoid search engine unfriendly term (style)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2014/5222b22e32df8ab2dbd4de5024b7c912-header.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2014/5570eb36c894b6101b05e2ebfffd1c4b-preview_lots.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2014/9f21628348ef75f3c5280b4a3eefa006-ingame_nite2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2018_01/the_finalists.jpg.1d06812ce814197959ce26803359baa9.jpg
   lots:
-    - label: SC13 Home, Neutral, 2x2 (R$$, Stage 1)
-      filename: AndisArt_R$$1_SC13-Home_2x2_c020b200.SC4Lot
+    - filename: AndisArt_R$$1_SC13-Home_2x2_c020b200.SC4Lot
       id: c020b200
+      label: SC13 Home, Neutral, 2x2 (R$$, Stage 1)
       size: 2x2
       stage: 1
-    - label: SC13 Home, Neutral, 2x3 (R$$, Stage 1)
-      filename: AndisArt_R$$1_SC13-Home_2x3_202096f8.SC4Lot
+    - filename: AndisArt_R$$1_SC13-Home_2x3_202096f8.SC4Lot
       id: 202096f8
+      label: SC13 Home, Neutral, 2x3 (R$$, Stage 1)
       size: 2x3
       stage: 1
-    - label: SC13 Home, Neutral, 2x4 (R$$, Stage 1)
-      filename: AndisArt_R$$1_SC13-Home_2x4_8020b034.SC4Lot
+    - filename: AndisArt_R$$1_SC13-Home_2x4_8020b034.SC4Lot
       id: 8020b034
+      label: SC13 Home, Neutral, 2x4 (R$$, Stage 1)
       size: 2x4
       stage: 1
-    - label: SC13 Home, Neutral, 2x2 (R$$, Stage 2)
-      filename: AndisArt_R$$2_SC13-Home_2x2_801fd906.SC4Lot
+    - filename: AndisArt_R$$2_SC13-Home_2x2_801fd906.SC4Lot
       id: 801fd906
+      label: SC13 Home, Neutral, 2x2 (R$$, Stage 2)
       size: 2x2
       stage: 2
-    - label: SC13 Home, Neutral, 3x2 (R$$, Stage 2)
-      filename: AndisArt_R$$2_SC13-Home_3x2_c01fdc0f.SC4Lot
+    - filename: AndisArt_R$$2_SC13-Home_3x2_c01fdc0f.SC4Lot
       id: c01fdc0f
+      label: SC13 Home, Neutral, 3x2 (R$$, Stage 2)
       size: 3x2
       stage: 2
-    - label: SC13 Home, Neutral, 2x2 (R$$, Stage 3)
-      filename: AndisArt_R$$3_SC13-Home_2x2_801fdf88.SC4Lot
+    - filename: AndisArt_R$$3_SC13-Home_2x2_801fdf88.SC4Lot
       id: 801fdf88
+      label: SC13 Home, Neutral, 2x2 (R$$, Stage 3)
       size: 2x2
       stage: 3
-    - label: SC13 Home, Neutral, 1x2 (R$$, Stage 4)
-      filename: AndisArt_R$$4_SC13-Home_1x2_001fcb0c.SC4Lot
+    - filename: AndisArt_R$$4_SC13-Home_1x2_001fcb0c.SC4Lot
       id: 001fcb0c
+      label: SC13 Home, Neutral, 1x2 (R$$, Stage 4)
       size: 1x2
       stage: 4
-    - label: SC13 Home, Neutral, 1x3 (R$$, Stage 4)
-      filename: AndisArt_R$$4_SC13-Home_1x3_001fd74c.SC4Lot
+    - filename: AndisArt_R$$4_SC13-Home_1x3_001fd74c.SC4Lot
       id: 001fd74c
+      label: SC13 Home, Neutral, 1x3 (R$$, Stage 4)
       size: 1x3
       stage: 4
-    - label: SC13 Home, Colorful, 2x3 (R$$, Stage 1)
-      filename: AndisArt_R$$1_SC13-Home_color_2x3_e023fa63.SC4Lot
+    - filename: AndisArt_R$$1_SC13-Home_color_2x3_e023fa63.SC4Lot
       id: e023fa63
+      label: SC13 Home, Colorful, 2x3 (R$$, Stage 1)
       size: 2x3
       stage: 1
-    - label: SC13 Home, Colorful, 3x2 (R$$, Stage 2)
-      filename: AndisArt_R$$2_SC13-Home_color_3x2_e023ffc7.SC4Lot
+    - filename: AndisArt_R$$2_SC13-Home_color_3x2_e023ffc7.SC4Lot
       id: e023ffc7
+      label: SC13 Home, Colorful, 3x2 (R$$, Stage 2)
       size: 3x2
       stage: 2
-    - label: SC13 Home, Colorful, 2x2 A (R$$, Stage 3)
-      filename: AndisArt_R$$3_SC13-Home_color_2x2_20240026.SC4Lot
+    - filename: AndisArt_R$$3_SC13-Home_color_2x2_20240026.SC4Lot
       id: v20240026"
+      label: SC13 Home, Colorful, 2x2 A (R$$, Stage 3)
       size: 2x2
       stage: 3
-    - label: SC13 Home, Colorful, 2x2 B (R$$, Stage 3)
-      filename: AndisArt_R$$3_SC13-Home_color_2x2_e023fc7e.SC4Lot
+    - filename: AndisArt_R$$3_SC13-Home_color_2x2_e023fc7e.SC4Lot
       id: e023fc7e
+      label: SC13 Home, Colorful, 2x2 B (R$$, Stage 3)
       size: 2x2
       stage: 3
-    - label: SC13 Home, Colorful, 1x2 (R$$, Stage 4)
-      filename: AndisArt_R$$4_SC13-Home_color_1x2_802400b5.SC4Lot
+    - filename: AndisArt_R$$4_SC13-Home_color_1x2_802400b5.SC4Lot
       id: 802400b5
+      label: SC13 Home, Colorful, 1x2 (R$$, Stage 4)
       size: 1x2
       stage: 4
-    - label: SC13 Home, Colorful, 1x3 (R$$, Stage 4)
-      filename: AndisArt_R$$4_SC13-Home_color_1x3_a0250bda.SC4Lot
+    - filename: AndisArt_R$$4_SC13-Home_color_1x3_a0250bda.SC4Lot
       id: a0250bda
+      label: SC13 Home, Colorful, 1x3 (R$$, Stage 4)
       size: 1x3
       stage: 4
-    - label: SC13 Home, Colorful, 2x3 (R$$, Stage 4)
-      filename: AndisArt_R$$4_SC13-Home_color_2x3_0023face.SC4Lot
+    - filename: AndisArt_R$$4_SC13-Home_color_2x3_0023face.SC4Lot
       id: 0023face
+      label: SC13 Home, Colorful, 2x3 (R$$, Stage 4)
       size: 2x3
       stage: 4
   name: SC2013-inspired Homes Pack
@@ -111,22 +119,181 @@ andisart/sc2013-inspired-homes-pack:
     darknite:
       assets:
         - docs:
-            - AndisArt - SC13-style_homes DARKNITE
+            - AndisArt - SC13-style_homes DARKNITE/Preview.jpg
+            - AndisArt - SC13-style_homes DARKNITE/Preview_lots.jpg
+            - AndisArt - SC13-style_homes DARKNITE/Warning & Instructions.txt
           id: simtropolis/29329-sc2013-inspired-homes-pack#169867
           include:
             - AndisArt - SC13-style_homes DARKNITE
+      lastModified: 2018-01-30T06:13:29Z
+      lots:
+        - filename: AndisArt_R$$1_SC13-Home_color_2x3_e023fa63.SC4Lot
+          id: e023fa63
+          label: AndisArt_R$$1_SC13-Home_color_2x3_e023fa63.SC4Lot
+          size: 2x3
+          stage: 1
+        - filename: AndisArt_R$$2_SC13-Home_color_3x2_e023ffc7.SC4Lot
+          id: e023ffc7
+          label: AndisArt_R$$2_SC13-Home_color_3x2_e023ffc7.SC4Lot
+          size: 3x2
+          stage: 2
+        - filename: AndisArt_R$$3_SC13-Home_color_2x2_20240026.SC4Lot
+          id: "20240026"
+          label: AndisArt_R$$3_SC13-Home_color_2x2_20240026.SC4Lot
+          size: 2x2
+          stage: 3
+        - filename: AndisArt_R$$3_SC13-Home_color_2x2_e023fc7e.SC4Lot
+          id: e023fc7e
+          label: AndisArt_R$$3_SC13-Home_color_2x2_e023fc7e.SC4Lot
+          size: 2x2
+          stage: 3
+        - filename: AndisArt_R$$4_SC13-Home_color_1x2_802400b5.SC4Lot
+          id: 802400b5
+          label: AndisArt_R$$4_SC13-Home_color_1x2_802400b5.SC4Lot
+          size: 1x2
+          stage: 4
+        - filename: AndisArt_R$$4_SC13-Home_color_1x3_a0250bda.SC4Lot
+          id: a0250bda
+          label: AndisArt_R$$4_SC13-Home_color_1x3_a0250bda.SC4Lot
+          size: 1x3
+          stage: 4
+        - filename: AndisArt_R$$4_SC13-Home_color_2x3_0023face.SC4Lot
+          id: 0023face
+          label: AndisArt_R$$4_SC13-Home_color_2x3_0023face.SC4Lot
+          size: 2x3
+          stage: 4
+        - filename: AndisArt_R$$1_SC13-Home_2x2_c020b200.SC4Lot
+          id: c020b200
+          label: AndisArt_R$$1_SC13-Home_2x2_c020b200.SC4Lot
+          size: 2x2
+          stage: 1
+        - filename: AndisArt_R$$1_SC13-Home_2x3_202096f8.SC4Lot
+          id: 202096f8
+          label: AndisArt_R$$1_SC13-Home_2x3_202096f8.SC4Lot
+          size: 2x3
+          stage: 1
+        - filename: AndisArt_R$$1_SC13-Home_2x4_8020b034.SC4Lot
+          id: 8020b034
+          label: AndisArt_R$$1_SC13-Home_2x4_8020b034.SC4Lot
+          size: 2x4
+          stage: 1
+        - filename: AndisArt_R$$2_SC13-Home_2x2_801fd906.SC4Lot
+          id: 801fd906
+          label: AndisArt_R$$2_SC13-Home_2x2_801fd906.SC4Lot
+          size: 2x2
+          stage: 2
+        - filename: AndisArt_R$$2_SC13-Home_3x2_c01fdc0f.SC4Lot
+          id: c01fdc0f
+          label: AndisArt_R$$2_SC13-Home_3x2_c01fdc0f.SC4Lot
+          size: 3x2
+          stage: 2
+        - filename: AndisArt_R$$3_SC13-Home_2x2_801fdf88.SC4Lot
+          id: 801fdf88
+          label: AndisArt_R$$3_SC13-Home_2x2_801fdf88.SC4Lot
+          size: 2x2
+          stage: 3
+        - filename: AndisArt_R$$4_SC13-Home_1x2_001fcb0c.SC4Lot
+          id: 001fcb0c
+          label: AndisArt_R$$4_SC13-Home_1x2_001fcb0c.SC4Lot
+          size: 1x2
+          stage: 4
+        - filename: AndisArt_R$$4_SC13-Home_1x3_001fd74c.SC4Lot
+          id: 001fd74c
+          label: AndisArt_R$$4_SC13-Home_1x3_001fd74c.SC4Lot
+          size: 1x3
+          stage: 4
       name: Dark Nite
+      release: 2024-09-04T10:03:15.374Z
       requirements:
         darknite: true
       version: 1.0.0
     default:
       assets:
         - docs:
-            - AndisArt - SC13-style_homes MAXISNITE
+            - AndisArt - SC13-style_homes MAXISNITE/Preview.jpg
+            - AndisArt - SC13-style_homes MAXISNITE/Preview_lots.jpg
+            - AndisArt - SC13-style_homes MAXISNITE/Warning & Instructions.txt
           id: simtropolis/29329-sc2013-inspired-homes-pack#169868
           include:
             - AndisArt - SC13-style_homes MAXISNITE
-      name: Maxis Nite
+      lastModified: 2018-01-30T06:13:29Z
+      lots:
+        - filename: AndisArt_R$$1_SC13-Home_2x2_c020b200.SC4Lot
+          id: c020b200
+          label: AndisArt_R$$1_SC13-Home_2x2_c020b200.SC4Lot
+          size: 2x2
+          stage: 1
+        - filename: AndisArt_R$$1_SC13-Home_2x3_202096f8.SC4Lot
+          id: 202096f8
+          label: AndisArt_R$$1_SC13-Home_2x3_202096f8.SC4Lot
+          size: 2x3
+          stage: 1
+        - filename: AndisArt_R$$1_SC13-Home_2x4_8020b034.SC4Lot
+          id: 8020b034
+          label: AndisArt_R$$1_SC13-Home_2x4_8020b034.SC4Lot
+          size: 2x4
+          stage: 1
+        - filename: AndisArt_R$$2_SC13-Home_2x2_801fd906.SC4Lot
+          id: 801fd906
+          label: AndisArt_R$$2_SC13-Home_2x2_801fd906.SC4Lot
+          size: 2x2
+          stage: 2
+        - filename: AndisArt_R$$2_SC13-Home_3x2_c01fdc0f.SC4Lot
+          id: c01fdc0f
+          label: AndisArt_R$$2_SC13-Home_3x2_c01fdc0f.SC4Lot
+          size: 3x2
+          stage: 2
+        - filename: AndisArt_R$$3_SC13-Home_2x2_801fdf88.SC4Lot
+          id: 801fdf88
+          label: AndisArt_R$$3_SC13-Home_2x2_801fdf88.SC4Lot
+          size: 2x2
+          stage: 3
+        - filename: AndisArt_R$$4_SC13-Home_1x2_001fcb0c.SC4Lot
+          id: 001fcb0c
+          label: AndisArt_R$$4_SC13-Home_1x2_001fcb0c.SC4Lot
+          size: 1x2
+          stage: 4
+        - filename: AndisArt_R$$4_SC13-Home_1x3_001fd74c.SC4Lot
+          id: 001fd74c
+          label: AndisArt_R$$4_SC13-Home_1x3_001fd74c.SC4Lot
+          size: 1x3
+          stage: 4
+        - filename: AndisArt_R$$1_SC13-Home_color_2x3_e023fa63.SC4Lot
+          id: e023fa63
+          label: AndisArt_R$$1_SC13-Home_color_2x3_e023fa63.SC4Lot
+          size: 2x3
+          stage: 1
+        - filename: AndisArt_R$$2_SC13-Home_color_3x2_e023ffc7.SC4Lot
+          id: e023ffc7
+          label: AndisArt_R$$2_SC13-Home_color_3x2_e023ffc7.SC4Lot
+          size: 3x2
+          stage: 2
+        - filename: AndisArt_R$$3_SC13-Home_color_2x2_20240026.SC4Lot
+          id: "20240026"
+          label: AndisArt_R$$3_SC13-Home_color_2x2_20240026.SC4Lot
+          size: 2x2
+          stage: 3
+        - filename: AndisArt_R$$3_SC13-Home_color_2x2_e023fc7e.SC4Lot
+          id: e023fc7e
+          label: AndisArt_R$$3_SC13-Home_color_2x2_e023fc7e.SC4Lot
+          size: 2x2
+          stage: 3
+        - filename: AndisArt_R$$4_SC13-Home_color_1x2_802400b5.SC4Lot
+          id: 802400b5
+          label: AndisArt_R$$4_SC13-Home_color_1x2_802400b5.SC4Lot
+          size: 1x2
+          stage: 4
+        - filename: AndisArt_R$$4_SC13-Home_color_1x3_a0250bda.SC4Lot
+          id: a0250bda
+          label: AndisArt_R$$4_SC13-Home_color_1x3_a0250bda.SC4Lot
+          size: 1x3
+          stage: 4
+        - filename: AndisArt_R$$4_SC13-Home_color_2x3_0023face.SC4Lot
+          id: 0023face
+          label: AndisArt_R$$4_SC13-Home_color_2x3_0023face.SC4Lot
+          size: 2x3
+          stage: 4
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0

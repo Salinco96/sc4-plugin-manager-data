@@ -159,3 +159,73 @@ dmscopio/hkabt-nhp-mega-props-vol09:
             - HKABT-NHP Dmscopio MEGA Prop Pack Vol 9*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack
       version: 1.0.0
+
+dmscopio/nhp-dmscopio-university-campus-pack-vol1-v2:
+  authors:
+    - dmscopio
+  category: civics
+  description: >-
+    This **NHP DMScopio - University Campus Pack vol. 1** was made by DMScopio and originally was uploaded onto his web site (davidluart.com), which is no longer existing and this upload hasn't been
+    available according to my best knowladge since then. I made this readme to collect all the dependencies into one place for easier access with updated links.
+
+
+    Please note with the permission of the **Simtropolis *Staff Members (Cyclone Boom and CorinaMarie)***, this file has been uploaded on behalf of DMScopio. It was not available anymore due to the
+    unfortunate demise of his web site. All the works contained within this download (lots, descriptors and models) were created by **DMScopio**.
+
+
+    **Installation:** Unzip the whole bundle, or COPY the "NHP" folder from the \*.zip into your plugin folder. You don't need to keep the "Documents" folder. To uninstall, bulldoze any instance of
+    this lot in your city, then remove the file(s) from your Plugins.
+
+
+    **LIST OF ITEMS:**
+
+
+    \* 5x4 Anderson Building
+
+
+    \* 5x6 F. Sullivant Building
+
+
+    Dependencies:
+
+
+    [BSC Textures Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+
+    Special thanks to [@Odainsaker](https://community.simtropolis.com/profile/17175-odainsaker/) and [@praiodan](https://community.simtropolis.com/profile/91310-praiodan/), who sent these files over
+    to me.
+
+
+    Have fun and enjoy!
+
+
+    **\- Tyberius06**
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e6e8fda69bd_DMScopioUniversityCampusPackvol.1-d.jpg.828523d92d85f4d7c7b97554639cd63e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62e6e900b4ac0_DMScopioUniversityCampusPackvol.1-n.jpg.0e31d12df38f236405113c9d83a968b4.jpg
+  name: NHP DMScopio University Campus Pack Vol1 v2
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_07/62e712d520a4e_DMScopioUniversityCampusPackvol.1-d.thumb.jpg.c0fd553c465a561d07061b1cac1bd941.jpg
+  url: https://community.simtropolis.com/files/file/32653-nhp-dmscopio-university-campus-pack-vol1-v2/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/NHP_Readmes/DMScopio/images/DMScopio University Campus Pack vol. 1-d.jpg
+            - _Documents/NHP_Readmes/DMScopio/images/DMScopio University Campus Pack vol. 1-n.jpg
+            - _Documents/NHP_Readmes/DMScopio/NHP DMScopio University Campus Pack vol. 1.readme.html
+            - _Documents/Cleanitol_NHP DMScopio University Campus Pack Vol1 v2.txt
+          id: simtropolis/32653-nhp-dmscopio-university-campus-pack-vol1-v2
+      lastModified: 2022-07-31T23:40:05Z
+      lots:
+        - filename: CV5x4_AndersonBld_72613275.SC4Lot
+          id: "72613275"
+          label: CV5x4_AndersonBld_72613275.SC4Lot
+        - filename: CV6x5_FSullivantBLD_031C_525d1610.SC4Lot
+          id: 525d1610
+          label: CV6x5_FSullivantBLD_031C_525d1610.SC4Lot
+      name: Default
+      version: 2.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

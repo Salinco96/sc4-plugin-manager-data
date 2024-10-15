@@ -1,0 +1,116 @@
+aquazona883/aqua_textures_01:
+  authors:
+    - aquazona883
+  category: dependencies
+  description: |-
+    \- Parking textures : designed for cars from the SHK Parking Pack or Vip Cars or other larger cars.
+
+    \- grass and grey overlay textures: they are really simple but you can make a lot with them.
+
+    \- some maxis-style textures I often missed as a basetexture, especially the dark and grey parking texture.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/310223dcf662807fbb4d2f2c64256094-parking.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/364fcb2f0d9d62f5dccbfe64b8d2886c-grass_ov.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/d1a9b128d3f48667b9f3f635fd9fcc4b-grey_ov.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/1e5e39afbd9adbd9606fff8d045722aa-base.png
+  name: Aqua_textures_01
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-310223dcf662807fbb4d2f2c64256094-parking.png
+  url: https://community.simtropolis.com/files/file/28675-aqua_textures_01/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Aqua_textures_01/base.png
+            - Aqua_textures_01/grass_ov.png
+            - Aqua_textures_01/grey_ov.png
+            - Aqua_textures_01/parking.png
+          id: simtropolis/28675-aqua_textures_01
+          include:
+            - Aqua_textures_01/Aqua01_Basetext.dat
+            - Aqua_textures_01/Aqua01_grass.dat
+            - Aqua_textures_01/Aqua01_grey.dat
+            - Aqua_textures_01/Aqua01_Parking.dat
+      lastModified: 2013-05-06T01:41:22Z
+      name: Default
+      version: 01.0.0
+
+aquazona883/pvs_high-school:
+  authors:
+    - aquazona883
+  category: civics
+  dependencies:
+    - aquazona883/aqua_textures_01
+    - shokthrpy/shk-parking-pack
+  description: |-
+    So, here is my first Bat ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif)
+
+    Hope you like it. I think I will have to make some more german style houses with a red roof so the school fits well in the city.
+
+    pvs_high school
+
+    Lot size: 9x10
+
+    monthly cost: 2000/350
+
+    Capacity: 3000
+
+    Radius: 820m
+
+    Dependencies:
+
+    \-SFBT_Essentials
+
+    http://kurier.simcityplaza.de/details.php?file=5
+
+    \-BSC MEGA Props_CP Vol 01
+
+    https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180
+
+    \-BSC MEGA Props_DAE 01
+
+    http://kurier.simcityplaza.de/details.php?file=55
+
+    \-SHK_Parking Pack
+
+    https://community.simtropolis.com/files/file/27563-shk-parking-pack/
+
+    \-Aqua_textures_01
+
+    https://community.simtropolis.com/files/file/28675-aqua-textures-01/
+
+    Update:03.05.2013
+
+    \- fixed some sport-props because no shadow could fall on them.
+
+    \- packed the props
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/233b5be28b1e474981ef412126d4015d-pvs_day1.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/109563724e01ed5d95cadf6bee63d470-pvs_day2.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/a76f763f265727a7101130e063bee385-pvs_night1.png
+    - https://www.simtropolis.com/objects/screens/monthly_05_2013/1b3cd9f8928fd3fbfb4ea09704ee76a4-pvs_night2.png
+  name: pvs_high school
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2013/thumb-233b5be28b1e474981ef412126d4015d-pvs_day1.png
+  url: https://community.simtropolis.com/files/file/28676-pvs_high-school/
+  variants:
+    default:
+      assets:
+        - docs:
+            - pvs_high school/Aqua_Sport_Props/aqua_sport_props.png
+            - pvs_high school/Aqua_Sport_Props/Thumbs.db
+            - pvs_high school/pvs_day1.png
+            - pvs_high school/pvs_night1.png
+            - pvs_high school/pvs_readme.txt
+            - pvs_high school/Thumbs.db
+          id: simtropolis/28676-pvs_high-school
+      lastModified: 2013-05-03T21:04:11Z
+      lots:
+        - filename: CV9x10_pvs high school_be889194.SC4Lot
+          id: be889194
+          label: CV9x10_pvs high school_be889194.SC4Lot
+      name: Default
+      version: 01.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

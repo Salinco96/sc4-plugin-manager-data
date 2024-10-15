@@ -3,7 +3,6 @@ cycledogg/early-19th-century-high-wealth-houses:
     - cycledogg
   category: r$$$
   dependencies:
-    # - CP_PropPack_2009a.dat
     - bsc/textures-vol01
     - bsc/textures-vol02
     - couchpotato/mega-props-vol01
@@ -11,8 +10,8 @@ cycledogg/early-19th-century-high-wealth-houses:
     - cycledogg/textures-vol01
     - jeronij/mega-props-vol04
     - jeronij/mega-props-vol05
-    - simgoober/mega-props-vol01
     - pegasus/mtp-super-pack
+    - simgoober/mega-props-vol01
   description: A complete pack of Early 19th Century Residentials from c.p.
   name: CP Early 19th-Century High Wealth Houses
   release: 2024-08-19T09:13:11.692Z
@@ -37,97 +36,7 @@ cycledogg/early-19th-century-high-wealth-houses:
             - BSC/CP/R$$MediumHouses/CP_Early19thCent_MedHse_Lots.dat
             - BSC/CP/R$$$Houses/CP_Early19thCentury_R$$$Houses_Models.dat
             - BSC/CP/R$$$Houses/CP_Early19thCentury_R$$$Houses_Lots.dat
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-      version: 1.0.0
-  warnings:
-    - id: bulldoze
-      on: disable
-
-cycledogg/early-19th-century-medium-houses:
-  authors:
-    - cycledogg
-  category: r$$
-  dependencies:
-    # - CP_PropPack_2009a.dat
-    - bsc/textures-vol01
-    - bsc/textures-vol02
-    - couchpotato/mega-props-vol01
-    - cycledogg/mega-props-vol01
-    - cycledogg/textures-vol01
-    - jeronij/mega-props-vol04
-    - jeronij/mega-props-vol05
-    - simgoober/mega-props-vol01
-    - pegasus/mtp-super-pack
-  description: A complete pack of Early 19th Century Residentials from c.p.
-  name: CP Early 19th-Century Medium Houses
-  variants:
-    default:
-      assets:
-        - docs: []
-          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          include:
-            - BSC/CP/R$$MediumHouses
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-      version: 1.0.0
-  warnings:
-    - id: bulldoze
-      on: disable
-
-cycledogg/early-19th-century-small-houses:
-  authors:
-    - cycledogg
-  category: r$
-  dependencies:
-    # - CP_PropPack_2009a.dat
-    - bsc/textures-vol01
-    - bsc/textures-vol02
-    - couchpotato/mega-props-vol01
-    - cycledogg/mega-props-vol01
-    - cycledogg/textures-vol01
-    - jeronij/mega-props-vol04
-    - jeronij/mega-props-vol05
-    - simgoober/mega-props-vol01
-    - pegasus/mtp-super-pack
-  description: A complete pack of Early 19th Century Residentials from c.p.
-  name: CP Early 19th-Century Small Houses
-  variants:
-    default:
-      assets:
-        - docs: []
-          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          include:
-            - BSC/CP/R$SmallHouses
-      url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-      version: 1.0.0
-  warnings:
-    - id: bulldoze
-      on: disable
-
-cycledogg/early-19th-century-tenements-pack:
-  authors:
-    - cycledogg
-  category: r$$
-  dependencies:
-    # - CP_PropPack_2009a.dat
-    - bsc/textures-vol01
-    - bsc/textures-vol02
-    - couchpotato/mega-props-vol01
-    - cycledogg/mega-props-vol01
-    - cycledogg/textures-vol01
-    - jeronij/mega-props-vol04
-    - jeronij/mega-props-vol05
-    - simgoober/mega-props-vol01
-    - pegasus/mtp-super-pack
-  description: A complete pack of Early 19th Century Residentials from c.p.
-  name: CP Early 19th-Century Tenements
-  variants:
-    default:
-      assets:
-        - docs:
-            - ~Documents/*Tenements*
-          id: sc4evermore/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
-          include:
-            - BSC/CP/R$Tenements
+      lastModified: 2023-07-20T14:14:56-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/5-sc4d-lex-legacy-cp-early19thcenturyresidentials-pack
       version: 1.0.0
   warnings:
@@ -191,7 +100,7 @@ cycledogg/mega-props-industrials:
 cycledogg/mega-props-mmps:
   authors:
     - cycledogg
-  category: mmps
+  category: mmps,flora,parks
   dependencies:
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
@@ -200,94 +109,6 @@ cycledogg/mega-props-mmps:
     This download contains 4 files that will add several flora items to you mayor-mode flora menu, including several types of seasonal flora. By default all 4 files are installed, but you can remove
     any of them if you don't want to use them. If you use the seasonal flora, you will have to run the game to anytime between August 5 and September 1, and then PAUSE, before plopping them. (These
     instructions will appear on the menu, in-game).
-
-
-    ### Contents:
-
-
-    - **MMP_for_BSC MEGA PropPack - CP Vol1.dat**
-
-        Contains flora that will grow over time, along with ploppable logs, such as found along rivers and beaches of Northwestern North America, (and probably many other places too). This file adds 10 items to your mayor mode flora menu. (The menu icons have an orange background). The 10 items are:
-    - Cypress Trees
-
-    - Spruce Trees
-
-    - Red Cedar Trees
-
-    - Lodgepole Pine Trees
-
-    - Redwood Trees
-
-    - Juniper Trees
-
-    - Subalpine Fir Trees
-
-    - Ponderosa Pine Trees
-
-    - Cottonwood Trees
-
-    - Logs
-
-
-    **CP_MMP_Grow_CP_MegaPropPack2.dat**
-
-
-    Contains flora that will grow over time. This file adds 6 items to your mayor mode flora menu. (The menu icons have an orange background). The 6 items are:
-
-
-    - Tropical Trees
-
-    - Semi-Tropical Trees
-
-    - Medium-size Pine Trees
-
-    - Tall Conifer Trees
-
-    - Mediterranean Trees
-
-    - Desert Flora
-
-
-    **CP_MMP_Seasonal_CP_MegaPropPack2.dat**
-
-
-    Contains seasonal flora that changes three times per year. (This requires a dependency, noted below.) This file adds 6 items to your mayor mode flora menu. (The menu items have a greenish
-    background.) The 6 items are:
-
-
-    - Small Seasonal Shrubs
-
-    - Large Seasonal Shrubs
-
-    - Wide Seasonal Trees
-
-    - Small Seasonal Trees
-
-    - Street Trees (tree models with a narrow LOD at the trunk)
-
-    - Seasonal Riparian Trees
-
-
-    **CP_MMP_SemiSeasonal_CP_MegaPropPack2_Desert.dat**
-
-
-    Contains semi-seasonal flora that changes two times per year. (This requires a dependency, noted below.) This file adds 1 item to your mayor mode flora menu, which contains semi-seasonal desert
-    flora.
-
-
-    It also contains two simple park lots with CycleDogg's timber flora. Look for the Timber Park - Spurce lots.
-
-
-    This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
-
-
-    **DISCLAIMER**
-
-
-    The usage of this download is at your own risk.
-
-
-    **CREDITS**
 
 
     Thanks to members of the BSC for testing this mod, especially JMeyers2043, Lowkee33, and Mattb325.
@@ -308,8 +129,68 @@ cycledogg/mega-props-mmps:
             - ~Documents/BSC_Readmes/CP
           id: sc4evermore/132-bsc-cp-mmp-for-cp-mega-prop-packs
           include:
-            - BSC/CP/MMP
             - BSC/CP
+      lastModified: 2024-01-23T07:55:04-08:00
+      lots:
+        - filename: CP_TimberPark_Spruce_f1051482.SC4Lot
+          id: f1051482
+          label: Timber Park - Spruce
+        - filename: CP_TimberPark_SpruceSingle_3105149f.SC4Lot
+          id: 3105149f
+          label: Timber Park - Spruce, Single
+      mmps:
+        - description: >-
+            Contains flora that will grow over time, along with ploppable logs, such as found along rivers and beaches of Northwestern North America, (and probably many other places too). This file
+            adds 10 items to your mayor mode flora menu. (The menu icons have an orange background). The 10 items are:
+
+            - Cypress Trees
+
+            - Spruce Trees
+
+            - Red Cedar Trees
+
+            - Lodgepole Pine Trees
+
+            - Redwood Trees
+
+            - Juniper Trees
+
+            - Subalpine Fir Trees
+
+            - Ponderosa Pine Trees
+
+            - Cottonwood Trees
+
+            - Logs
+          filename: CP_MMP_for_BSC MEGA PropPack - CP Vol1.dat
+          id: standard
+          label: MMPs for BSC MEGA PropPack - CP Vol01
+        - description: |-
+            Contains flora that will grow over time. This file adds 6 items to your mayor mode flora menu. (The menu icons have an orange background). The 6 items are:
+            - Tropical Trees
+            - Semi-Tropical Trees
+            - Medium-size Pine Trees
+            - Tall Conifer Trees
+            - Mediterranean Trees
+            - Desert Flora
+          filename: CP_MMP_Grow_CP_MegaPropPack2.dat
+          id: grow
+          label: CP_MMP_Grow_CP_MegaPropPack2
+        - description: |-
+            Contains seasonal flora that changes three times per year. This file adds 6 items to your mayor mode flora menu. (The menu items have a greenish background.) The 6 items are:
+            - Small Seasonal Shrubs
+            - Large Seasonal Shrubs
+            - Wide Seasonal Trees
+            - Small Seasonal Trees
+            - Street Trees (tree models with a narrow LOD at the trunk)
+            - Seasonal Riparian Trees
+          filename: CP_MMP_Seasonal_CP_MegaPropPack2.dat
+          id: seasonal
+          label: CP_MMP_Seasonal_CP_MegaPropPack2
+        - description: Contains semi-seasonal flora that changes two times per year. This file adds 1 item to your mayor mode flora menu, which contains semi-seasonal desert flora.
+          filename: CP_MMP_SemiSeasonal_CP_MegaPropPack2_Desert.dat
+          id: seasonal-desert
+          label: CP_MMP_SemiSeasonal_CP_MegaPropPack2_Desert
       version: 2.0.0
   warnings:
     - id: bulldoze
@@ -373,19 +254,26 @@ cycledogg/tree-controllers:
     - cycledogg
   category: graphics,overrides
   dependencies:
+    - bsc/common-dependencies
     - couchpotato/mega-props-vol01
     - cycledogg/mega-props-vol01
     - cycledogg/tree-models
     - dolphin66/mega-props-vol01
     - jeronij/mega-props-vol04
     - jeronij/mega-props-vol05
+    - johnb/desert-flora-mod
+    - nos-17/sc4-cleanitol
     - ripptide/mega-props-vol01
+    - sc4evermore/18-bsc-cleanitol
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
     - swi21/mega-props-vol02
-    - johnb/desert-flora-mod
   description: >-
-    The Cycledogg Tree Controllers package includes all of the Tree Controllers by Cycledogg.
+    The Cycledogg Tree Controllers package includes all of the Tree Controllers by c.p. (AKA Cycledogg). In many ways, it's two mods in one.
+
+
+    First, it adds 34 types of forest to your Mayor Mode tree menu (yes, that's 34 menu items!). Second, it changes your god-mode flora brush to plop a variety of custom trees from shoreline to
+    timberline.
 
 
     The controllers are interchangeable with each other, which means you can play a city with one tree controller in your plugins folder (CPT_No7a_ItaliaRiver_TreeController.dat for example), and
@@ -401,7 +289,7 @@ cycledogg/tree-controllers:
     **Default Maxis Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/DefaultMaxisTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/DefaultMaxisTreeController.jpg)**
 
 
     This tree controller adds 34 types of forest to your mayor-mode tree menu, but does not change your god-mode tree brush. If you want your god-mode tree brush to plant the default Maxis trees, or
@@ -412,7 +300,7 @@ cycledogg/tree-controllers:
     **Generic Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plop a variety of custom trees from shore line to timberline. The trees planted with this god-mode brush are the same as those planted by
@@ -424,7 +312,7 @@ cycledogg/tree-controllers:
     **Painted Desert Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/PaintedDesertTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/thumbnails/PaintedDesertTreeController.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plant forests that have a Southwestern U.S. desert look at low elevations, and the look of denser mountain forests at higher elevations.
@@ -434,7 +322,7 @@ cycledogg/tree-controllers:
     **Italia River Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/ItaliaRiverTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/ItaliaRiverTreeController.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plant forests with a Mediterranean look. This god-mode flora brush is designed to work best in combination with the Italia Terrain Mod,
@@ -444,7 +332,7 @@ cycledogg/tree-controllers:
     **Meadowshire Coast Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireCoastTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/thumbnails/MeadowshireCoastTreeController.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plant forests suitable for a Western European/Eastern North American region. The god-mode flora brush plants conifers and deciduous trees,
@@ -455,7 +343,7 @@ cycledogg/tree-controllers:
     **Meadowshire River Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireRiverTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/thumbnails/MeadowshireRiverTreeController.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plant forests suitable for a Western European/Eastern North American region. The god-mode brush plants conifers and deciduous trees, but
@@ -466,7 +354,7 @@ cycledogg/tree-controllers:
     **Missouri Breaks Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MissouriBreaksTreeContoller.jpg)**
+    **![](/images/jdownloads/screenshots/thumbnails/MissouriBreaksTreeContoller.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plant forests in a pattern similar to what you might find in Southern Alberta, Eastern Montana, Eastern Wyoming or Colorado. (some of the
@@ -478,18 +366,148 @@ cycledogg/tree-controllers:
     **Olympic Coast Tree Controller**
 
 
-    **![](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/OlympicCoastTreeController.jpg)**
+    **![](/images/jdownloads/screenshots/thumbnails/OlympicCoastTreeController.jpg)**
 
 
     This tree controller changes your god-mode flora brush to plant forests that have a Pacific Northwest look (many of the trees are the actual species you will find along the Washington, Oregon or
     British Columbian coast). This god-mode flora brush is designed to work best in combination with the Olympic Terrain Mod, but no terrain mods are required.
 
 
+    **Dependecies**
+
+
+    Dependencies = variety. You will need ALL of the following files in your plugins folder, or the sims will chop down the trees in your forest and make ugly brown boxes out of them! The following
+    files is an essential included dependency:
+
+
+    - CPT Terrain Essentials No8 and No9 Tree Models.dat
+
+
+    Bear in mind, this file replaces both of the formerly available CPT_No8_TreeModelsPartOne.dat and CPT_No9_TreeModelsPartTwo.dat files.
+
+
+    The files listed below are dependencies that you need to have in your plugins in order to make this mod work properly:
+
+
+    - [SC4D LEX Legacy - BSC Common Dependencies Pack v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+    - BSC MEGA Props - CP Vol01.dat
+
+
+    - BSC MEGA Props - JRJ Vol04 v2.dat
+
+
+    - BSC MEGA Props - JRJ Vol05 v2.dat
+
+
+    - BSC MEGA Props - MJB Vol01 v3.dat
+
+
+    - BSC MEGA Props - SG Vol01 v3.dat
+
+
+    - BSC MEGA Props - D66 Vol01 v3.dat
+
+
+    - BSC MEGA Props - SWI21 Vol01 v4.dat
+
+
+    - BSC MEGA Props - SWI21 Vol02 v2.dat
+
+
+    - BSC MEGA Props - RT Vol01 v4.dat
+
+
+    The following file is available at the STEX:
+
+
+    - [JohnB Deser Flora Mod](https://community.simtropolis.com/files/file/4344-desert-flora-mod/ "JohnB-Cactus.dat") - you only need the JohnB-Cactus.dat (on STEX, if using Painted Desert Tree
+    Controller option)
+
+
+    If the above list of dependencies is just too much for you, use one of the old CPT_No7_AssortedTreeControllers\*, instead of this file. You will get a lot less variety, but there will be no
+    dependencies.
+
+
+    \*This cross-platform installer contains the very ancient Cycledogg/Columbus/Generic Tree Controller too (CPT_No7_AssortedTreeControllers) as a legacy feature. They are the last two options below
+    the SEPARATOR in the installer. Bear in mind that the Generic Tree Controller has 16 further options. You can only choose ONE of those.
+
+
+    For full description and details please visit the ~Documents/BSC_Readmes/CP folder for the **readme_cycledog_tree_mod (old one).htm**.
+
+
     **Compatibility**
 
 
     This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe. It is compatible with all other mayor-mode tree mods, but incompatible with all other god-mode tree mods. Only one
-    file beginning with "CPT_No7a_" should be in your plugins folders at a time.
+    file beginning with "CPT_No7a_" should be in your plugins folders at a time. If you are upgrading from a previous tree controller, you will need to remove any files from your plugins folders that
+    match the following search patterns:
+
+
+    - CPL_\*flora\*
+
+    - CPT_No7_\*
+
+    - CPT_Temporary\*
+
+
+    You may need to check your "Program Files" plugins folder as well as your "My Documents" plugins folder, since the earliest version of the tree controllers was installed to the "Program Files"
+    folder.
+
+
+    This cross-platform installer contains the very ancient Cycledogg/Columbus/Generic Tree Controller too as a legacy feature. It is very important to **note that you can upgrade from CPT_No7_ tree
+    controllers to CPT_No7a_ tree controllers and still play existing cities with no problems, but you can NOT downgrade from CPT_No7a_ tree controllers to CPT_No7_ tree controllers without bulldozing
+    the CPT_No7a_ trees first.**
+
+
+    **You should have ONLY ONE CPT_No7a or CPT_No7 file in your plugins at a time.**
+
+
+    **Installation**
+
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)\--or a zip tool capable
+    of opening the installer to allow manual installation. For Windows/Linux, use [7-zip](https://www.7-zip.org/), and for macOS, use [Keka](https://www.keka.io/en/).
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which files you wish to install (making no changes here will install everything). To expand
+    options, click the small "+" next to the name of the section.
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything).
+    Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). On the Cleanup tab, click "Start scan" to find any
+    outdated files that currently reside in your Plugins folder that may conflict with this package. Clicking "Backup" will remove these old files to a safe location. (The option to "Delete" them also
+    exists, but is not recommended.)\*\* After this, click over to the Install tab, and click "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a
+    message indicating it, after which you are safe to close the installer.
+
+
+    Bear in mind that the previously offered default folder-structure has been changed, so installing this mod is requiring to find and remove the old files and folders. The new default folder
+    structure for CP's mods (only major mods, not for BATs and LOTs) is **z_\__CP Mods**. This folder will contain the Terrain Mods, God Mode Tree Controller Mods, the Sidewalk Mods and the SCILT.
+
+
+    \*\* Though there is an inbuilt cleanitol function in the installer, at this point it is not working entirely properly so it is highly recommended to run the individual cleanitol files or the
+    master cleanitol for the compilation with one of the following 3rd party cleanitol tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    BSC Cleanitol (old tool)
+
+
+    Please note the information under "Compatibility" as well!
+
+
+    **Uninstalling**
+
+
+    To uninstall this mod, remove the mod's files from your Plugins folder. You will still be able to open any cities that previously used this mod, but any custom trees planted with the mod will show
+    up as brown boxes (which you will probably want to bulldoze).
 
 
     **Troubleshooting**
@@ -520,30 +538,114 @@ cycledogg/tree-controllers:
     Special thanks to the following BATters for their wonderful tree/flower/shrub models: Jeronij, Couchpotato, Simgoober, JohnB, Dolphin66, Swi21, and Ripptide, and to Andreas Roth for his help with
     the readme and the installer. Also, thanks to the BSC team for their testing and feedback. Thanks also to Jeronij, and Colyn for hosting my files at SC4Devotion and to BarbyW for compiling the BSC
     LEX DVD.
+
+     ![GenericTreeController](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg)![ItaliaRiverTreeController2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ItaliaRiverTreeController.jpg)![MeadowshireCoastTreeController3](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireCoastTreeController.jpg)
   features:
     - godmode-trees
   images:
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/DefaultMaxisTreeController.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/GenericTreeController.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/PaintedDesertTreeController.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/ItaliaRiverTreeController.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/MeadowshireCoastTreeController.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/MeadowshireRiverTreeController.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/MissouriBreaksTreeContoller.jpg
-    - https://www.sc4evermore.com/images/jdownloads/screenshots/OlympicCoastTreeController.jpg
+    - /images/jdownloads/screenshots/DefaultMaxisTreeController.jpg
+    - /images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg
+    - /images/jdownloads/screenshots/thumbnails/PaintedDesertTreeController.jpg
+    - /images/jdownloads/screenshots/ItaliaRiverTreeController.jpg
+    - /images/jdownloads/screenshots/thumbnails/MeadowshireCoastTreeController.jpg
+    - /images/jdownloads/screenshots/thumbnails/MeadowshireRiverTreeController.jpg
+    - /images/jdownloads/screenshots/thumbnails/MissouriBreaksTreeContoller.jpg
+    - /images/jdownloads/screenshots/thumbnails/OlympicCoastTreeController.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ItaliaRiverTreeController.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireCoastTreeController.jpg
   name: Cycledogg Tree Controllers
   release: 2024-08-19T09:13:11.692Z
-  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/DefaultMaxisTreeController.jpg
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/32-cycledogg-tree-controllers
   variants:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/CP
+            - readme_SC4D Legacy - BSC Cycledogg Tree Controllers V2.html
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SC4D LEX Legacy - Cycledogg Tree Controllers.txt
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/note_Assorted Tree Controllers.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/note_CPT_Tree Controllers.txt
+            - z___CP Mods/@0^CPT_TerrainEssentials/note_CPT_TerrainEssentials.txt
+            - ~Documents/BSC_Readmes/CP/readme_SC4D Legacy - BSC Cycledogg Tree Controllers V2.html
+            - ~Documents/BSC_Readmes/CP/readme_cycledog_tree_mod (old one).htm
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/description_Generic Tree Controller (old version).txt
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@A-CPT_No7_Default Maxis Tree Controller (old version)/description_CPT_No7_Default Maxis Tree Controller (old version).txt
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@9_SEPARATOR - These are Tree Controllers for LEGACY support/note_SEPARATOR.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@8-CPT_No7a_Olympic Coast TreeController/description_Olympic Coast Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@7-CPT_No7a_Missouri Breaks TreeController/note_Missouri Breaks Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@6-CPT_No7a_Meadowshire River Tree Controller/description_Meadowshire River Tree Controlle.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@5-CPT_No7a_Meadowshire Coast Tree Controller/description_Meadowshire Coast Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@4-CPT_No7a_Italia Coast Tree Controller/description_Italia Coast Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@3-CPT_No7a_Italia River Tree Controller/description_Italia River Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@2-CPT_No7a_Painted Desert Tree Controller/description_Painted Desert Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@1-CPT_No7a_Generic Tree Controller (updated)/description_Generic Tree Controller.txt
+            - z___CP Mods/@1=CPT_No7a TreeController#/@0-CPT_No7a_Default Maxis Tree Controller (updated)/description_Default Maxis Tree Controller.txt
+            - ~Documents/BSC_Readmes/CP/images/Thumbs.db
+            - ~Documents/BSC_Readmes/CP/images/PaintedDesertTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/OlympicCoastTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/MissouriBreaksTreeContoller.jpg
+            - ~Documents/BSC_Readmes/CP/images/MeadowshireRiverTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/MeadowshireCoastTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/logo_header.jpg
+            - ~Documents/BSC_Readmes/CP/images/ItaliaRiverTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/header.gif
+            - ~Documents/BSC_Readmes/CP/images/GenericTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/footer.gif
+            - ~Documents/BSC_Readmes/CP/images/DefaultMaxisTreeController.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_westernredcedar.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_westernlarch.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_subalpinefir.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_shorepine.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_redwood.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_ponderosapines.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_pinyonjuniper.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_lodgepole.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_juniperhorses.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_elmoakmaple.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_douglasfir.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_cottonwoodbeach.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_burntlodgepole.jpg
+            - ~Documents/BSC_Readmes/CP/images/CPT_aspen.jpg
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
-            - CPT_No7a_DefaultMaxis_TreeController_RequiresDependencies.dat
-      name: Maxis
+            - z___CP Mods/@0^CPT_TerrainEssentials/CPT Terrain Essentials No8 and No9 Tree Models.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@A-CPT_No7_Default Maxis Tree Controller (old version)/CPT_No7_TreeController_DefaultMaxis_RequiresNo8andNo9.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@8-CPT_No7a_Olympic Coast TreeController/CPT_No7a_OlympicCoast_TreeController.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@7-CPT_No7a_Missouri Breaks TreeController/CPT_No7a_MissouriBreaks_TreeController.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@6-CPT_No7a_Meadowshire River Tree Controller/CPT_No7a_MeadowshireRiver_TreeController.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@5-CPT_No7a_Meadowshire Coast Tree Controller/CPT_No7a_MeadowshireCoast_TreeController_RequiresDependencies.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@4-CPT_No7a_Italia Coast Tree Controller/CPT_No7a_ItaliaCoast_TreeController.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@3-CPT_No7a_Italia River Tree Controller/CPT_No7a_ItaliaRiver_TreeController.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@2-CPT_No7a_Painted Desert Tree Controller/CPT_No7a_PaintedDesert_TreeController.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@1-CPT_No7a_Generic Tree Controller (updated)/CPT_No7a_Generic_TreeController_RequiresDependencies.dat
+            - z___CP Mods/@1=CPT_No7a TreeController#/@0-CPT_No7a_Default Maxis Tree Controller (updated)/CPT_No7a_DefaultMaxis_TreeController_RequiresDependencies.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@F-CPT_No7 Tree Controller Western Red
+              cedar/CPT_No7_TreeController_WesternRedcedar_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@E-CPT_No7 Tree Controller Subalpine
+              Fir/CPT_No7_TreeController_SubalpineFir_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@D-CPT_No7 Tree Controller Shore
+              Pine/CPT_No7_TreeController_ShorePine_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@C-CPT_No7 Tree Controller Redwood/CPT_No7_TreeController_Redwood_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@B-CPT_No7 Tree Controller
+              Ponderosa/CPT_No7_TreeController_Ponderosa_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@A-CPT_No7 Tree Controller Pinyon
+              Juniper/CPT_No7_TreeController_PinyonJuniper_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@9-CPT_No7 Tree Controller Lodgepole
+              Pine/CPT_No7_TreeController_LodgepolePine_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@8-CPT_No7 Tree Controller Larch/CPT_No7_TreeController_Larch_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@7-CPT_No7 Tree Controller Juniper/CPT_No7_TreeController_Juniper_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@6-CPT_No7 Tree Controller Elm/CPT_No7_TreeController_Elm_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@5-CPT_No7 Tree Controller
+              DouglasFir/CPT_No7_TreeController_DouglasFir_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@4-CPT_No7 Tree Controller
+              Cottonwood/CPT_No7_TreeController_Cottonwood_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@3-CPT_No7 Tree Controller Burnt/CPT_No7_TreeController_Burnt_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@2-CPT_No7 Tree Controller Aspen/CPT_No7_TreeController_Aspen_RequiresNo8andNo9.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@1-CPT_No7 Tree Controller Generic Andreas/CPT_No7_TreeController_Generic_Andreas.dat
+            - z___CP Mods/@2-CPT_No7 AssortedTreeControllers#/@B-CPT_No7_Generic Tree Controller (old version)/@0=CPT_No7 Tree Controller Generic/CPT_No7_TreeController_Generic_RequiresNo8andNo9.dat
+      lastModified: 2024-01-20T04:13:39-08:00
+      name: Default
       version: 2.0.0
     generic:
       assets:
@@ -552,6 +654,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_Generic_TreeController_RequiresDependencies.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Generic
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/GenericTreeController.jpg
       version: 2.0.0
@@ -562,6 +665,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_ItaliaCoast_TreeController.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Italia Coast
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ItaliaRiverTreeController.jpg
       version: 2.0.0
@@ -572,6 +676,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_ItaliaRiver_TreeController.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Italia River
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/ItaliaRiverTreeController.jpg
       version: 2.0.0
@@ -582,6 +687,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_MeadowshireCoast_TreeController_RequiresDependencies.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Meadowshire Coast
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireCoastTreeController.jpg
       version: 2.0.0
@@ -592,6 +698,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_MeadowshireRiver_TreeController.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Meadowshire River
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MeadowshireRiverTreeController.jpg
       version: 2.0.0
@@ -602,6 +709,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_MissouriBreaks_TreeController.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Missouri Breaks
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MissouriBreaksTreeController.jpg
       version: 2.0.0
@@ -612,6 +720,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_OlympicCoast_TreeController.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Olympic Coast
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/OlympicCoastTreeController.jpg
       version: 2.0.0
@@ -622,6 +731,7 @@ cycledogg/tree-controllers:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - CPT_No7a_PaintedDesert_TreeController.dat
+      lastModified: 2024-01-20T04:13:39-08:00
       name: Painted Desert
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/PaintedDesertTreeController.jpg
       version: 2.0.0
@@ -644,4 +754,5 @@ cycledogg/tree-models:
           id: sc4evermore/32-cycledogg-tree-controllers
           include:
             - z___CP Mods/@0^CPT_TerrainEssentials
+      lastModified: 2024-01-20T04:13:39-08:00
       version: 2.0.0

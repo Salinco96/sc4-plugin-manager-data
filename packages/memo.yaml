@@ -10,6 +10,24 @@ memo/region-thumbnail-fix-dll:
     region view.
 
 
+    **System requirements**
+
+
+    - SimCity 4, version 1.1.641 (the digital edition) ([more
+    info](https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/))
+
+    - Windows 10+ or Linux
+
+
+    **Installation**
+
+
+    Copy the DLL into the top-level directory of either Plugins folder (place it directly in &lt;Documents&gt;\\SimCity 4\\Plugins or &lt;SC4 install folder&gt;\\Plugins, not in a subfolder).
+
+
+    Alternatively, the mod can be installed with *sc4pac*: [memo:region-thumbnail-fix-dll](https://memo33.github.io/sc4pac/channel/?pkg=memo:region-thumbnail-fix-dll)
+
+
     **Troubleshooting**
 
 
@@ -38,6 +56,15 @@ memo/region-thumbnail-fix-dll:
     default:
       assets:
         - id: github/memo33/sc4-thumbnail-fix-dll
+        - docs:
+            - LICENSE.txt
+            - README.md
+            - Third Party Notices.txt
+          id: simtropolis/36396-region-thumbnail-fix-dll
+          include:
+            - memo.thumbnail-fix.dll
+      lastModified: 2024-08-17T10:12:54Z
+      name: Default
       version: 1.0.0
 
 memo/submenus-dll:
@@ -59,6 +86,33 @@ memo/submenus-dll:
     - fixes the game's menu rendering issues caused by duplicate or missing menu icons.
 
     - implements Exemplar Patching functionality.
+
+
+    **System requirements**
+
+
+    - SimCity 4, version 1.1.641 (the digital release) ([more
+    info](https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/))
+
+    - Windows 7+ or Linux
+
+
+    **Dependencies**
+
+
+    - [SC4ResourceLoadingHooks DLL](https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/) by Null 45
+
+
+    **Installation**
+
+
+    - Copy the DLLs into the top-level directory of either Plugins folder (place it directly in &lt;Documents&gt;\\SimCity 4\\Plugins or &lt;SC4 install folder&gt;\\Plugins, not in a subfolder).
+
+    - Copy the file submenu-essentials.dat and optionally the individual submenu files anywhere into your Plugins folder. You may skip installing an optional submenu if it contains neither Flora nor
+    any sub-submenus. In that case, the buildings of that submenu will appear in the default top-level menu instead.
+
+
+    Alternatively, the mod can be installed with Sc4pac: [memo:submenus-dll](https://memo33.github.io/sc4pac/channel/?pkg=memo:submenus-dll)
 
 
     **Credits**
@@ -97,6 +151,67 @@ memo/submenus-dll:
             - memo.submenus.dll
             - submenu-essentials.dat
             - submenus/{{submenus}}
+        - docs:
+            - Third Party Notices.txt
+            - README.md
+            - LICENSE.txt
+          id: simtropolis/36142-submenus-dll
+          include:
+            - memo.submenus.dll
+            - submenus/submenu-essentials.dat
+            - submenus/water-transit/waterfront-submenu.dat
+            - submenus/water-transit/seawall-submenu.dat
+            - submenus/water-transit/ports-ferries-submenu.dat
+            - submenus/water-transit/canal-submenu.dat
+            - submenus/residential/ploppable-R$-submenu.dat
+            - submenus/residential/ploppable-R$$-submenu.dat
+            - submenus/residential/ploppable-R$$$-submenu.dat
+            - submenus/rail/yards-submenu.dat
+            - submenus/rail/passenger-rail-submenu.dat
+            - submenus/rail/monorail-submenu.dat
+            - submenus/rail/hybrid-railway-submenu.dat
+            - submenus/rail/freight-rail-submenu.dat
+            - submenus/power/misc-power-submenu.dat
+            - submenus/power/dirty-energy-submenu.dat
+            - submenus/power/clean-energy-submenu.dat
+            - submenus/police/police-small-submenu.dat
+            - submenus/police/police-large-submenu.dat
+            - submenus/police/police-deluxe-submenu.dat
+            - submenus/police/military-submenu.dat
+            - submenus/park/sports-submenu.dat
+            - submenus/park/plaza-submenu.dat
+            - submenus/park/modular-parks-submenu.dat
+            - submenus/park/green-spaces-submenu.dat
+            - submenus/park/fillers-submenu.dat
+            - submenus/park/embankment-submenu.dat
+            - submenus/misc-transit/subway-submenu.dat
+            - submenus/misc-transit/parking-submenu.dat
+            - submenus/misc-transit/multimodal-stations-submenu.dat
+            - submenus/misc-transit/GLR-submenu.dat
+            - submenus/misc-transit/ElRail-submenu.dat
+            - submenus/misc-transit/bus-submenu.dat
+            - submenus/landmark/religion-submenu.dat
+            - submenus/landmark/government-submenu.dat
+            - submenus/landmark/entertainment-submenu.dat
+            - submenus/industrial/ploppable-Im-submenu.dat
+            - submenus/industrial/ploppable-Iht-submenu.dat
+            - submenus/industrial/ploppable-Id-submenu.dat
+            - submenus/industrial/ploppable-Ia-submenu.dat
+            - submenus/highway/signage-submenu.dat
+            - submenus/health/health-small-submenu.dat
+            - submenus/health/health-medium-submenu.dat
+            - submenus/health/health-large-submenu.dat
+            - submenus/education/library-museum-submenu.dat
+            - submenus/education/high-school-submenu.dat
+            - submenus/education/elementary-school-submenu.dat
+            - submenus/education/college-submenu.dat
+            - submenus/commercial/ploppable-CS$-submenu.dat
+            - submenus/commercial/ploppable-CS$$-submenu.dat
+            - submenus/commercial/ploppable-CS$$$-submenu.dat
+            - submenus/commercial/ploppable-CO$$-submenu.dat
+            - submenus/commercial/ploppable-CO$$$-submenu.dat
+      lastModified: 2024-08-09T07:49:06Z
+      name: Default
       options:
         - choices:
             - label: Submenus for residential ploppables
@@ -151,6 +266,15 @@ memo/transparent-texture-fix-dll:
     - Windows 10+ or Linux
 
 
+    **Installation**
+
+
+    Copy the DLL into the top-level directory of either Plugins folder (place it directly in &lt;Documents&gt;\\SimCity 4\\Plugins or &lt;SC4 install folder&gt;\\Plugins, not in a subfolder).
+
+
+    Alternatively, the mod can be installed with *sc4pac*: [memo:transparent-texture-fix-dll](https://memo33.github.io/sc4pac/channel/?pkg=memo:transparent-texture-fix-dll)
+
+
     **Troubleshooting**
 
 
@@ -177,4 +301,13 @@ memo/transparent-texture-fix-dll:
         - id: github/memo33/transparent-texture-fix-dll
           include:
             - memo.transparent-texture-fix.dll
+        - docs:
+            - Third Party Notices.txt
+            - README.md
+            - LICENSE.txt
+          id: simtropolis/36379-transparent-texture-fix-dll
+          include:
+            - memo.transparent-texture-fix.dll
+      lastModified: 2024-08-08T20:09:26Z
+      name: Default
       version: 1.0.0

@@ -127,7 +127,32 @@ diego-del-llano/cordoba-libertad:
   authors:
     - Diego Del Llano
   category: landmarks,commercial
-  images:
+  description: >-
+    Here are packages with the collection of BATS created by Diego Del Llano in 2022, 2023, and the early months of 2024.
+
+
+    Thank you very much to those who support my work on Patreon, and who understand and appreciate the hard work that goes into each BAT. Thank you for allowing me to continue this project after 10
+    years.
+
+
+    ***Notice:***
+
+
+    1.- This models presented here is an interpretation of the author. The measurements and size may vary from the original.
+
+
+    2.- The models are not exact replicas of the original building.
+
+
+    3.- This is a work of exploration and experimentation that Diego Del Llano wanted to share with the community of Simtropolis. If some of this work does not satisfy you, you have the option of not
+    download this file.
+
+
+    4.-Diego Del Llano appreciates your understanding and wishes you to enjoy this project to the fullest.
+
+
+    5.- Acknowledgments and all the credits to the original authors of this building.
+  images: &a1
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
   name: Edificio Cordoba y Libertad (Buenos Aires)
   release: 2024-08-19T09:13:11.692Z
@@ -136,7 +161,10 @@ diego-del-llano/cordoba-libertad:
   variants:
     default:
       assets:
-        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202189
+        - docs:
+            - DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ChicagoBoard-MN.rar
+            - DiegoDLL-MODELS 22 23 24 PART 2/DiegoDLL_ChicagoBoard-DN.rar
+          id: simtropolis/36362-diego-del-llano-models-2022-23-24#202189
           include:
             - condition:
                 darknite: false
@@ -144,6 +172,31 @@ diego-del-llano/cordoba-libertad:
             - condition:
                 darknite: true
               path: DiegoDLL_CordobaLibertad_HD_DN
+      lastModified: 2024-08-01T15:40:52Z
+      lots:
+        - filename: DiegoDLL_CordobaLibertad_HD_MN.SC4Lot
+          id: DiegoDLL_CordobaLibertad_HD_MN.SC4Lot
+          label: DiegoDLL_CordobaLibertad_HD_MN.SC4Lot
+        - filename: DiegoDLL_CordobaLibertad_HD_DN.SC4Lot
+          id: DiegoDLL_CordobaLibertad_HD_DN.SC4Lot
+          label: DiegoDLL_CordobaLibertad_HD_DN.SC4Lot
+        - category: landmarks
+          filename: DiegoDLL_ButtonsButton-MN-PLOP-CS$$$.SC4Lot
+          id: DiegoDLL_ButtonsButton-MN-PLOP-CS$$$.SC4Lot
+          label: DiegoDLL_ButtonsButton-MN-PLOP-CS$$$.SC4Lot
+        - category: cs$$$
+          filename: DiegoDLL_ButtonsButton-MN-GROW-CS$$$.SC4Lot
+          id: DiegoDLL_ButtonsButton-MN-GROW-CS$$$.SC4Lot
+          label: DiegoDLL_ButtonsButton-MN-GROW-CS$$$.SC4Lot
+        - category: landmarks
+          filename: DiegoDLL_ButtonsButton-DN-PLOP-CS$$$.SC4Lot
+          id: DiegoDLL_ButtonsButton-DN-PLOP-CS$$$.SC4Lot
+          label: DiegoDLL_ButtonsButton-DN-PLOP-CS$$$.SC4Lot
+        - category: cs$$$
+          filename: DiegoDLL_ButtonsButton-DN-GROW-CS$$$.SC4Lot
+          id: DiegoDLL_ButtonsButton-DN-GROW-CS$$$.SC4Lot
+          label: DiegoDLL_ButtonsButton-DN-GROW-CS$$$.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -210,8 +263,32 @@ diego-del-llano/fuller-building:
   authors:
     - Diego Del Llano
   category: landmarks,commercial
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  description: >-
+    Here are packages with the collection of BATS created by Diego Del Llano in 2022, 2023, and the early months of 2024.
+
+
+    Thank you very much to those who support my work on Patreon, and who understand and appreciate the hard work that goes into each BAT. Thank you for allowing me to continue this project after 10
+    years.
+
+
+    ***Notice:***
+
+
+    1.- This models presented here is an interpretation of the author. The measurements and size may vary from the original.
+
+
+    2.- The models are not exact replicas of the original building.
+
+
+    3.- This is a work of exploration and experimentation that Diego Del Llano wanted to share with the community of Simtropolis. If some of this work does not satisfy you, you have the option of not
+    download this file.
+
+
+    4.-Diego Del Llano appreciates your understanding and wishes you to enjoy this project to the fullest.
+
+
+    5.- Acknowledgments and all the credits to the original authors of this building.
+  images: *a1
   name: Flatiron Building (New York City)
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
@@ -219,7 +296,8 @@ diego-del-llano/fuller-building:
   variants:
     default:
       assets:
-        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202190
+        - docs: []
+          id: simtropolis/36362-diego-del-llano-models-2022-23-24#202190
           include:
             - condition:
                 darknite: true
@@ -227,6 +305,30 @@ diego-del-llano/fuller-building:
             - condition:
                 darknite: true
               path: DiegoDLL_FullerBuilding-HD-DN
+      lastModified: 2024-08-01T15:40:52Z
+      lots:
+        - filename: DiegoDLL_FullerBuilding-HD-MN.SC4Lot
+          id: DiegoDLL_FullerBuilding-HD-MN.SC4Lot
+          label: DiegoDLL_FullerBuilding-HD-MN.SC4Lot
+        - filename: DiegoDLL_FullerBuilding-HD-DN.SC4Lot
+          id: DiegoDLL_FullerBuilding-HD-DN.SC4Lot
+          label: DiegoDLL_FullerBuilding-HD-DN.SC4Lot
+        - filename: DiegoDLL_EasternColumbiaBuilding_MN.SC4Lot
+          id: DiegoDLL_EasternColumbiaBuilding_MN.SC4Lot
+          label: DiegoDLL_EasternColumbiaBuilding_MN.SC4Lot
+        - filename: DiegoDLL_EasternColumbiaBuilding_DN.SC4Lot
+          id: DiegoDLL_EasternColumbiaBuilding_DN.SC4Lot
+          label: DiegoDLL_EasternColumbiaBuilding_DN.SC4Lot
+        - filename: DiegoDLL-EmpireStateBuilding-SD-DN.SC4Lot
+          id: DiegoDLL-EmpireStateBuilding-SD-DN.SC4Lot
+          label: DiegoDLL-EmpireStateBuilding-SD-DN.SC4Lot
+        - filename: DiegoDLL-CenterpointEnergyPlaza-MN.SC4Lot
+          id: DiegoDLL-CenterpointEnergyPlaza-MN.SC4Lot
+          label: DiegoDLL-CenterpointEnergyPlaza-MN.SC4Lot
+        - filename: DiegoDLL-CenterpointEnergyPlaza-DN.SC4Lot
+          id: DiegoDLL-CenterpointEnergyPlaza-DN.SC4Lot
+          label: DiegoDLL-CenterpointEnergyPlaza-DN.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -311,8 +413,32 @@ diego-del-llano/la-nacional-monterrey:
   authors:
     - Diego Del Llano
   category: landmarks,commercial
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  description: >-
+    Here are packages with the collection of BATS created by Diego Del Llano in 2022, 2023, and the early months of 2024.
+
+
+    Thank you very much to those who support my work on Patreon, and who understand and appreciate the hard work that goes into each BAT. Thank you for allowing me to continue this project after 10
+    years.
+
+
+    ***Notice:***
+
+
+    1.- This models presented here is an interpretation of the author. The measurements and size may vary from the original.
+
+
+    2.- The models are not exact replicas of the original building.
+
+
+    3.- This is a work of exploration and experimentation that Diego Del Llano wanted to share with the community of Simtropolis. If some of this work does not satisfy you, you have the option of not
+    download this file.
+
+
+    4.-Diego Del Llano appreciates your understanding and wishes you to enjoy this project to the fullest.
+
+
+    5.- Acknowledgments and all the credits to the original authors of this building.
+  images: *a1
   name: Edificio La Nacional (Monterrey)
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
@@ -320,7 +446,8 @@ diego-del-llano/la-nacional-monterrey:
   variants:
     default:
       assets:
-        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202191
+        - docs: []
+          id: simtropolis/36362-diego-del-llano-models-2022-23-24#202191
           include:
             - condition:
                 darknite: false
@@ -328,6 +455,27 @@ diego-del-llano/la-nacional-monterrey:
             - condition:
                 darknite: true
               path: DiegoDLL_LaNacionalMonterrey_DN
+      lastModified: 2024-08-01T15:40:52Z
+      lots:
+        - filename: DiegoDLL_LaNacionalMonterrey_MN.SC4Lot
+          id: DiegoDLL_LaNacionalMonterrey_MN.SC4Lot
+          label: DiegoDLL_LaNacionalMonterrey_MN.SC4Lot
+        - filename: DiegoDLL_LaNacionalMonterrey_DN.SC4Lot
+          id: DiegoDLL_LaNacionalMonterrey_DN.SC4Lot
+          label: DiegoDLL_LaNacionalMonterrey_DN.SC4Lot
+        - filename: DiegoDLL_LaNacionalCDMX_MN.SC4Lot
+          id: DiegoDLL_LaNacionalCDMX_MN.SC4Lot
+          label: DiegoDLL_LaNacionalCDMX_MN.SC4Lot
+        - filename: DiegoDLL_LaNacionalCDMX_DN.SC4Lot
+          id: DiegoDLL_LaNacionalCDMX_DN.SC4Lot
+          label: DiegoDLL_LaNacionalCDMX_DN.SC4Lot
+        - filename: DiegoDLL_LAJewelryCenter_MN.SC4Lot
+          id: DiegoDLL_LAJewelryCenter_MN.SC4Lot
+          label: DiegoDLL_LAJewelryCenter_MN.SC4Lot
+        - filename: DiegoDLL_LAJewelryCenter_DN.SC4Lot
+          id: DiegoDLL_LAJewelryCenter_DN.SC4Lot
+          label: DiegoDLL_LAJewelryCenter_DN.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -337,8 +485,32 @@ diego-del-llano/ohio-bell-building:
   authors:
     - Diego Del Llano
   category: landmarks,commercial
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  description: >-
+    Here are packages with the collection of BATS created by Diego Del Llano in 2022, 2023, and the early months of 2024.
+
+
+    Thank you very much to those who support my work on Patreon, and who understand and appreciate the hard work that goes into each BAT. Thank you for allowing me to continue this project after 10
+    years.
+
+
+    ***Notice:***
+
+
+    1.- This models presented here is an interpretation of the author. The measurements and size may vary from the original.
+
+
+    2.- The models are not exact replicas of the original building.
+
+
+    3.- This is a work of exploration and experimentation that Diego Del Llano wanted to share with the community of Simtropolis. If some of this work does not satisfy you, you have the option of not
+    download this file.
+
+
+    4.-Diego Del Llano appreciates your understanding and wishes you to enjoy this project to the fullest.
+
+
+    5.- Acknowledgments and all the credits to the original authors of this building.
+  images: *a1
   name: Ohio Bell Building (Cleveland)
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
@@ -346,7 +518,8 @@ diego-del-llano/ohio-bell-building:
   variants:
     default:
       assets:
-        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
+        - docs: []
+          id: simtropolis/36362-diego-del-llano-models-2022-23-24#202192
           include:
             - condition:
                 darknite: false
@@ -354,6 +527,39 @@ diego-del-llano/ohio-bell-building:
             - condition:
                 darknite: true
               path: DiegoDLL_OhioBellBuilding_HD_DN
+      lastModified: 2024-08-01T15:40:52Z
+      lots:
+        - category: landmarks
+          filename: DiegoDLL_PriceTower- Plop (CS$$_3x3) DN.SC4Lot
+          id: DiegoDLL_PriceTower- Plop (CS$$_3x3) DN.SC4Lot
+          label: DiegoDLL_PriceTower- Plop (CS$$_3x3) DN.SC4Lot
+        - category: r$$
+          filename: DiegoDLL_PriceTower- Grow (R$$3_3x3) DN.SC4Lot
+          id: DiegoDLL_PriceTower- Grow (R$$3_3x3) DN.SC4Lot
+          label: DiegoDLL_PriceTower- Grow (R$$3_3x3) DN.SC4Lot
+          stage: 3
+        - filename: OHIOBELLBUILDING_HD_MN.SC4Lot
+          id: OHIOBELLBUILDING_HD_MN.SC4Lot
+          label: OHIOBELLBUILDING_HD_MN.SC4Lot
+        - filename: OHIOBELLBUILDING_HD_DN.SC4Lot
+          id: OHIOBELLBUILDING_HD_DN.SC4Lot
+          label: OHIOBELLBUILDING_HD_DN.SC4Lot
+        - filename: DiegoDLL-OneSouthBroad-HD-MN.SC4Lot
+          id: DiegoDLL-OneSouthBroad-HD-MN.SC4Lot
+          label: DiegoDLL-OneSouthBroad-HD-MN.SC4Lot
+        - filename: DiegoDLL-OneSouthBroad-HD-DN.SC4Lot
+          id: DiegoDLL-OneSouthBroad-HD-DN.SC4Lot
+          label: DiegoDLL-OneSouthBroad-HD-DN.SC4Lot
+        - filename: DiegoDLL-KansasCityPowerAndLightBuilding-HD-MN.SC4Lot
+          id: DiegoDLL-KansasCityPowerAndLightBuilding-HD-MN.SC4Lot
+          label: DiegoDLL-KansasCityPowerAndLightBuilding-HD-MN.SC4Lot
+        - filename: DiegoDLL-KansasCityPowerAndLightBuilding-HD-DN.SC4Lot
+          id: DiegoDLL-KansasCityPowerAndLightBuilding-HD-DN.SC4Lot
+          label: DiegoDLL-KansasCityPowerAndLightBuilding-HD-DN.SC4Lot
+        - filename: DiegoDLL-EmpireStateBuilding-SD-MN.SC4Lot
+          id: DiegoDLL-EmpireStateBuilding-SD-MN.SC4Lot
+          label: DiegoDLL-EmpireStateBuilding-SD-MN.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -495,8 +701,32 @@ diego-del-llano/wiltern-theatre:
   authors:
     - Diego Del Llano
   category: landmarks,commercial
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.jpg.b5d28e70b2d689a29b63b3a6e5670731.jpg
+  description: >-
+    Here are packages with the collection of BATS created by Diego Del Llano in 2022, 2023, and the early months of 2024.
+
+
+    Thank you very much to those who support my work on Patreon, and who understand and appreciate the hard work that goes into each BAT. Thank you for allowing me to continue this project after 10
+    years.
+
+
+    ***Notice:***
+
+
+    1.- This models presented here is an interpretation of the author. The measurements and size may vary from the original.
+
+
+    2.- The models are not exact replicas of the original building.
+
+
+    3.- This is a work of exploration and experimentation that Diego Del Llano wanted to share with the community of Simtropolis. If some of this work does not satisfy you, you have the option of not
+    download this file.
+
+
+    4.-Diego Del Llano appreciates your understanding and wishes you to enjoy this project to the fullest.
+
+
+    5.- Acknowledgments and all the credits to the original authors of this building.
+  images: *a1
   name: Wiltern Theatre (Los Angeles)
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/212223.thumb.jpg.267af03c1492d8e2e6c18d1c3280c533.jpg
@@ -504,7 +734,8 @@ diego-del-llano/wiltern-theatre:
   variants:
     default:
       assets:
-        - id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
+        - docs: []
+          id: simtropolis/36362-diego-del-llano-models-2022-23-24#202188
           include:
             - condition:
                 darknite: true
@@ -512,6 +743,42 @@ diego-del-llano/wiltern-theatre:
             - condition:
                 darknite: false
               path: DiegoDLL_WilternTheatre_HD_MN
+      lastModified: 2024-08-01T15:40:52Z
+      lots:
+        - filename: DiegoDLL_WilternTheatre_HD_MN.SC4Lot
+          id: DiegoDLL_WilternTheatre_HD_MN.SC4Lot
+          label: DiegoDLL_WilternTheatre_HD_MN.SC4Lot
+        - filename: DiegoDLL_WilternTheatre_HD_DN.SC4Lot
+          id: DiegoDLL_WilternTheatre_HD_DN.SC4Lot
+          label: DiegoDLL_WilternTheatre_HD_DN.SC4Lot
+        - filename: DiegoDLL_WellsFargoMinneapolis_MN.SC4Lot
+          id: DiegoDLL_WellsFargoMinneapolis_MN.SC4Lot
+          label: DiegoDLL_WellsFargoMinneapolis_MN.SC4Lot
+        - filename: DiegoDLL_WellsFargoMinneapolis_DN.SC4Lot
+          id: DiegoDLL_WellsFargoMinneapolis_DN.SC4Lot
+          label: DiegoDLL_WellsFargoMinneapolis_DN.SC4Lot
+        - filename: DiegoDLL_TitleGuarantee _MN.SC4Lot
+          id: DiegoDLL_TitleGuarantee _MN.SC4Lot
+          label: DiegoDLL_TitleGuarantee _MN.SC4Lot
+        - filename: DiegoDLL_TitleGuarantee _DN.SC4Lot
+          id: DiegoDLL_TitleGuarantee _DN.SC4Lot
+          label: DiegoDLL_TitleGuarantee _DN.SC4Lot
+        - category: landmarks
+          filename: DiegoDLL_PriceTower- Plop (CS$$_3x3) MN.SC4Lot
+          id: DiegoDLL_PriceTower- Plop (CS$$_3x3) MN.SC4Lot
+          label: DiegoDLL_PriceTower- Plop (CS$$_3x3) MN.SC4Lot
+        - category: r$$$
+          filename: DiegoDLL_PriceTower- Grow (R$$$3_3x3) MN.SC4Lot
+          id: DiegoDLL_PriceTower- Grow (R$$$3_3x3) MN.SC4Lot
+          label: DiegoDLL_PriceTower- Grow (R$$$3_3x3) MN.SC4Lot
+          stage: 3
+        - filename: DiegoDLL-BryantBuilding-HD-MN.SC4Lot
+          id: DiegoDLL-BryantBuilding-HD-MN.SC4Lot
+          label: DiegoDLL-BryantBuilding-HD-MN.SC4Lot
+        - filename: DiegoDLL-BryantBuilding-HD-DN.SC4Lot
+          id: DiegoDLL-BryantBuilding-HD-DN.SC4Lot
+          label: DiegoDLL-BryantBuilding-HD-DN.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0

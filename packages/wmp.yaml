@@ -73,6 +73,7 @@ wmp/essentials:
                 rhd: false
               path: z___zWMP_LHD_Paths.dat
             - WMP/Essentials
+      lastModified: 2020-06-15T15:28:18Z
       version: 1.0.1
 
 wmp/mega-dependencies:
@@ -157,6 +158,7 @@ wmp/mega-props-vol01:
           id: simtropolis/33621-wmp-mega-props-vol-01-misc-general-props
           include:
             - WMP/Props
+      lastModified: 2020-05-25T15:25:45Z
       name: Default
       version: 1.0.0
 
@@ -219,6 +221,7 @@ wmp/mega-props-vol02:
           id: simtropolis/33622-wmp-mega-props-vol-02-misc-industrial-props
           include:
             - WMP/Props
+      lastModified: 2020-05-25T15:27:43Z
       version: 1.0.0
 
 wmp/mega-props-vol03:
@@ -278,6 +281,7 @@ wmp/mega-props-vol03:
           id: simtropolis/33623-wmp-mega-props-vol-03-port-autority-ferry
           include:
             - WMP/Props
+      lastModified: 2020-05-25T15:29:22Z
       version: 1.0.0
 
 wmp/mega-props-vol04:
@@ -335,6 +339,7 @@ wmp/mega-props-vol04:
           id: simtropolis/33624-wmp-mega-props-vol-04-port-autority-seawalls
           include:
             - WMP/Props
+      lastModified: 2020-05-25T15:31:04Z
       version: 1.0.0
 
 wmp/mega-props-vol05:
@@ -395,6 +400,7 @@ wmp/mega-props-vol05:
           id: simtropolis/33625-wmp-mega-props-vol-05-railway-props
           include:
             - WMP/Props
+      lastModified: 2020-05-25T15:33:00Z
       version: 1.0.0
 
 wmp/mega-textures:
@@ -428,9 +434,6 @@ wmp/mega-textures:
     **Also from now, these mega prop packs are required to be referenced as dependencies instead of the single prop packs.**
 
 
-    *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
-
-
     **Credits**:
 
 
@@ -453,13 +456,14 @@ wmp/mega-textures:
           id: simtropolis/33626-wmp-mega-textures-v102
           include:
             - WMP/Textures
+      lastModified: 2020-05-25T15:35:14Z
       version: 1.0.2
 
 wmp/the-bridges-of-shoreline-county:
   authors:
     - DocRorlach
     - d_j_p1
-  category: parks
+  category: parks,bridges
   dependencies:
     - wmp/essentials
     - wmp/mega-props-vol01
@@ -491,15 +495,16 @@ wmp/the-bridges-of-shoreline-county:
     default:
       assets:
         - docs:
-            - _Documents/wmp_bridges_readme.html
-            - _Documents/images/workingman_lottery.png
-            - _Documents/images/sc4t_footer2.png
-            - _Documents/images/bridges08.jpg
-            - _Documents/images/bridge7.jpg
+            - _Documents
           id: simtropolis/26171-wmp-the-bridges-of-shoreline-county
           include:
-            - WMP/Props/wmp_bridge_props_v2.dat
-            - WMP/DocRorlach/The Bridges of Shoreline County/WMP_Bridges_Lots_v2.dat
+            - WMP/DocRorlach/The Bridges of Shoreline County
+            - WMP/Props
+      lastModified: 2020-06-17T00:13:09Z
+      lots:
+        - filename: WMP_Bridges_Lots_v2.dat
+          id: bridges
+          label: The Bridges of Shoreline County
       version: 2.0.0
 
 wmp/the-cougar-fruit-packing-ltd:
@@ -509,7 +514,7 @@ wmp/the-cougar-fruit-packing-ltd:
   category: rail,freight
   dependencies:
     - mattb325/bat-props-vol02
-    - wmp/mega-props-vol05 # TODO: Verify that this is indeed wmp_spam_freight_props.dat
+    - wmp/mega-props-vol05
     - wmp/mega-textures
   description: >-
     The Cougar Fruit Packing Ltd. is the latest in the WMP SPAM Workplaces series. Formerly an independent family concern, it was acquired by a global food brand in the late eighties and, during
@@ -520,36 +525,6 @@ wmp/the-cougar-fruit-packing-ltd:
 
 
     While all props have been rendered in HD, the main building - due to its complexity - remains an SD export.
-
-
-    **Lot Details and Information:**
-
-
-    Lot size: 7 x 6 tiles
-
-
-    Menu position: Transportation - FreightRail
-
-
-    Jobs: $ : 45, $$ : 5
-
-
-    Plop cost: $ 2,200
-
-
-    Bulldoze cost: $ 1,000
-
-
-    Monthly cost: $ 110
-
-
-    Power consumption: 60 MWh/month
-
-
-    Water consumption: 45 Gallons/month
-
-
-    Pollution: Water: 5 over 10 tiles; Garbage: 15 over 10 tiles
 
 
     **Credits**:
@@ -568,4 +543,23 @@ wmp/the-cougar-fruit-packing-ltd:
     default:
       assets:
         - id: simtropolis/28015-the-cougar-fruit-packing-ltd
+      lastModified: 2012-09-12T11:58:02Z
+      lots:
+        - bulldoze: 1000
+          cost: 2200
+          demand:
+            cs$: 45
+            cs$$: 5
+          filename: WMP_Packing_Shed_1d56bd80.SC4Lot
+          garbage: 15 over 10 tiles
+          id: 1d56bd80
+          label: The Cougar Fruit Packing Ltd.
+          maintenance: 110
+          power: 60
+          size: 7x6
+          water: 45
+          waterPollution: 5 over 10 tiles
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

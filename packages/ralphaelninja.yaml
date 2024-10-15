@@ -12,7 +12,14 @@ ralphaelninja/plugin-landmark-props:
   variants:
     default:
       assets:
-        - id: simtropolis/21286-plugin-landmark-props
+        - docs:
+            - Removing Plugin Dependencies.txt
+            - Readme.txt
+          id: simtropolis/21286-plugin-landmark-props
+          include:
+            - Plugin_landmarks_and_other_missing_Props.dat
+      lastModified: 2023-07-20T18:54:39Z
+      name: Default
       version: 1.0.0
 
 ralphaelninja/very-old-building-props:
@@ -49,5 +56,12 @@ ralphaelninja/very-old-building-props:
   variants:
     default:
       assets:
-        - id: simtropolis/33600-very-old-building-props
+        - docs: []
+          id: simtropolis/33600-very-old-building-props
+          include:
+            - Plugin_B90_ResidentialBuildings_Prop_Modd.dat
+            - Plugin_B91_CommercialBuildings_Prop_Modd.dat
+            - Plugin_RCI_Buildings_Prop_Modd.dat
+      lastModified: 2020-05-15T12:37:25Z
+      name: Default
       version: 1.0.0

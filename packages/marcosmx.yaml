@@ -3,6 +3,7 @@ marcosmx/blam-burger-king:
     - MarcosMX
   category: cs$$
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol01
     - marcosmx/mx-essentials
   description: >-
@@ -11,6 +12,9 @@ marcosmx/blam-burger-king:
     The files are provided in the same condition that they had been in when they were previously available with one exception. The readme has been replaced with updated information regarding
     dependencies. Otherwise, the files are presented as is with no other changes made. If anyone has information that would help clarify this upload, or if any issues arise, please contact any staff
     member.
+
+
+    Burger King, by MarcosMX
 
 
     Burger King (often abbreviated to BK) is a large international chain of fast food restaurants, predominantly selling burgers, french fries, soft drinks, desserts, and various sandwiches. It is
@@ -92,7 +96,16 @@ marcosmx/blam-burger-king:
   variants:
     default:
       assets:
-        - id: simtropolis/36345-blam-burger-king
+        - docs:
+            - Burger King Readme.txt
+            - BKN.JPG
+            - BKD.JPG
+          id: simtropolis/36345-blam-burger-king
+          include:
+            - BurgerKingQuery.dat
+            - BurgerKingDAT.dat
+      lastModified: 2024-07-14T04:54:12Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -106,6 +119,9 @@ marcosmx/blam-mx-passenger-rail-station:
     As sometines happens, files from the various SimCity 4 sites go missing. When possible and practical, we make attempts to restore those files when found. In all such cases, this is done in good
     faith for the benefit the author and the community. This particular item has been uploaded here under **MarcosMX**'s account as part of the BLaM team as it had been uploaded on the original
     location. The station's function and stats *have* been updated to NAM/MTA standards.
+
+
+    Passenger Rail Station, by MarcosMX
 
 
     **Stats (same as Maxis Passenger Rail Station)**
@@ -151,6 +167,19 @@ marcosmx/blam-mx-passenger-rail-station:
 
 
     This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
+
+
+    **Dependencies:**
+
+
+    NO DEPENDENCIES
+
+
+    In order to see the nightlighting, you must install the EP1-Update 1 for Rush Hour/SimCity 4 Deluxe, and then afterwards, install the SC4-Update for nightlighting (note: you have to be logged in
+    in order to see the download link). If this update isn't installed, you won't see any lighting effects on custom BAT buildings.
+
+
+    Original modified and uploaded by CaptCity, clean-up and more technical update by Tyberius06
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/PRD.JPG.35c6d042081d13b869ebb67750401db1.JPG
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/PRNi.JPG.5e57a8d33cdefaccd066226602254e9d.JPG
@@ -162,10 +191,15 @@ marcosmx/blam-mx-passenger-rail-station:
     default:
       assets:
         - docs:
-            - _Documents/BLaM_Readers/MarcosMX
+            - _Documents/BLaM_Readers/MarcosMX/Passenger Rail Station_Readme.txt
+            - _Documents/BLaM_Readers/MarcosMX/images/BLaM_MX_Passenger Rail Station-N.jpg
+            - _Documents/BLaM_Readers/MarcosMX/images/BLaM_MX_Passenger Rail Station-D.jpg
           id: simtropolis/36344-blam-mx-passenger-rail-station
           include:
-            - BLaM/MarcosMX/Passenger Rail Station
+            - BLaM/MarcosMX/Passenger Rail Station/BlaM Passenger Rail Station_SC4Model.dat
+            - BLaM/MarcosMX/Passenger Rail Station/BlaM MX Passenger Rail Station_LOT.dat
+      lastModified: 2024-07-15T01:12:25Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -175,9 +209,57 @@ marcosmx/blam-zaxbys:
   authors:
     - MarcosMX
   category: co$$
-  description:
-    Zaxby's is a franchised chain of fast casual restaurants that operates in the southeastern United States. In this chain there are about 350 locations. Its menu is built around high
-    quality buffalo wings and chicken fingers, including them on platters, in sandwiches, and on salads. The first Zaxby's was opened in Statesboro, Georgia.
+  description: >-
+    Zaxby's is a franchised chain of fast casual restaurants that operates in the southeastern United States. In this chain there are about 350 locations. Its menu is built around high quality buffalo
+    wings and chicken fingers, including them on platters, in sandwiches, and on salads. The first Zaxby's was opened in Statesboro, Georgia.
+
+
+    \-Growable and Ploppable Stats-
+
+
+    Lot Size 3x4 Tiles
+
+
+    Lot Wealth Medium Wealth
+
+
+    Growth Stage 1
+
+
+    Occupants Cs$ Cs$$
+
+
+    OccupantGroups Building:Commercial Commercial Building:CS$$ Style:Chigago Style:New York Style:Houston Style: Euro
+
+
+    Capacity Satisfied Cs-$ 197 Cs-$$ 7
+
+
+    Plop Cost §1120
+
+
+    Bulldoze cost §135
+
+
+    Flammability 40
+
+
+    Max Fire Stage 3
+
+
+    Power Consumed 31
+
+
+    Water Consumed 38
+
+
+    No Dependencies: yay
+
+
+    \-----Please rate and comment-----
+
+
+    We recommend you to create a BlaM folder in your SC4 plug-in folder and place this BAT.
   images:
     - https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicday2.jpg
     - https://www.simtropolis.com/objects/screens/0004/19efb8e559a646b3468dd4a9633d31c1-Stexpicnight2.jpg
@@ -189,36 +271,23 @@ marcosmx/blam-zaxbys:
     default:
       assets:
         - docs:
-            - BlaM_MX_Zaxby's
+            - BlaM_MX_Zaxby's/Readme.txt
           id: simtropolis/16614-blam-zaxbys
           include:
             - BlaM_MX_Zaxby's
+      lastModified: 2006-08-11T20:57:58Z
       lots:
-        - bulldoze: 135
-          category: cs$$
-          demand:
-            cs$: 197
-            cs$$: 7
-          filename: CS$$1_BLaM_MX_4x3_Zaxby's_51e68294.SC4Lot
-          flamability: 40
-          id: "51e68294"
-          label: Zaxby's (CS$$, Stage 1, 3x4)
-          power: 31
-          size: 3x4
-          stage: 1
-          water: 38
-        - bulldoze: 135
-          cost: 1120
-          demand:
-            cs$: 197
-            cs$$: 7
-          filename: BlaM_MX_3x4_Zaxby's_71e8ff64.SC4Lot
-          flamability: 40
+        - filename: BlaM_MX_3x4_Zaxby's_71e8ff64.SC4Lot
           id: 71e8ff64
-          label: Zaxby's (CS$$, Landmark, 3x4)
-          power: 31
+          label: BlaM_MX_3x4_Zaxby's_71e8ff64.SC4Lot
           size: 3x4
-          water: 38
+        - category: cs$$
+          filename: CS$$1_BLaM_MX_4x3_Zaxby's_51e68294.SC4Lot
+          id: "51e68294"
+          label: CS$$1_BLaM_MX_4x3_Zaxby's_51e68294.SC4Lot
+          size: 4x3
+          stage: 1
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -244,19 +313,22 @@ marcosmx/mx-essentials:
     Included:
 
 
-    - MPropsFloralDAT
+    \*MPropsFloralDAT
 
 
-    - MpropsFloralDAT2
+    \*MpropsFloralDAT2
 
 
-    - CustomQuerriesMarcosMX
+    \*CustomQuerriesMarcosMX
 
 
-    - MX Props FloraV1
+    \*MX Props FloraV1
 
 
     If you have downloaded MProps Floral Col1, make sure you delete that so you won't any problems with using this pack.
+
+
+    Reviewed and posted by staff.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/MX.JPG.2f717efad1cbaec48c83f298e4bb81bd.JPG
   name: MX Essentials
@@ -267,8 +339,14 @@ marcosmx/mx-essentials:
     default:
       assets:
         - docs:
-            - MarcosMX Essentials
+            - MarcosMX Essentials/Readme.txt
+            - MarcosMX Essentials/BlaM MX Props V1/Custom Queries MarcosMX/Readme.txt
           id: simtropolis/36346-mx-essentials
           include:
-            - MarcosMX Essentials
+            - MarcosMX Essentials/MProps Floral Col1/MPropsFloralDAT2.dat
+            - MarcosMX Essentials/MProps Floral Col1/MPropsFloralDAT.dat
+            - MarcosMX Essentials/BlaM MX Props V1/MX Props Flora/MX Props FloraV1.dat
+            - MarcosMX Essentials/BlaM MX Props V1/Custom Queries MarcosMX/CustomQuerriesMarcosMX.dat
+      lastModified: 2024-07-14T08:35:17Z
+      name: Default
       version: 1.0.0

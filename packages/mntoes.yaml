@@ -2,24 +2,45 @@ mntoes/bosham-church:
   authors:
     - mntoes
   category: religion
-  description: |-
+  description: >-
     Bosham Church, Established AD 850 and featured in the Bayeux tapestry depicting the visit of Harold II to the church.
+
 
     Situated within the Diocese of Chichester (Uk) this is one of the earliest churches in Sussex.
 
+
     Plop cost $5000.
+
 
     Monthly cost $98
 
+
+    **Installation**: COPY/Extract the **Mntoes** parent folder from the \*.zip into your Plugins folder. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to
+    keep it, but move it out of the Plugins folder.
+
+
+    **Please make sure that you first removed the original/former Mntoes Bosham Church.dat**
+
+
+    **To uninstall**: bulldoze any instance of this lot in your city, then remove the file(s) from your Plugins.
+
+
     For more information on the Bayeux Tapestry follow this link:-
 
-    [https://www.readingmuseum.org.uk/BayeuxContents.htm](https://www.readingmuseum.org.uk/BayeuxContents.htm)
+
+    http://www.bayeuxtapestry.org.uk/BayeuxContents.htm
+
 
     Thanks go to Simfox for advice concerning texturing of the roof (much appreicated).
 
+
     Enjoy
 
+
     Mntoes.
+
+
+    updated 13.06.2024 - by Tyberius06 and memo
   images:
     - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20Day.jpg
     - https://www.simtropolis.com/objects/screens/0014/7787272f99ada78ee84c28914f533b44-Bosham%20Church%20night.jpg
@@ -31,10 +52,28 @@ mntoes/bosham-church:
     default:
       assets:
         - docs:
-            - ~Documents/Mntoes
+            - ~Documents/Mntoes/Bosham Church read me.html
+            - ~Documents/Mntoes/images/topbarright.gif
+            - ~Documents/Mntoes/images/topbarleft.gif
+            - ~Documents/Mntoes/images/topbar.gif
+            - ~Documents/Mntoes/images/Thumbs.db
+            - ~Documents/Mntoes/images/sectrc.gif
+            - ~Documents/Mntoes/images/sectop.gif
+            - ~Documents/Mntoes/images/sectlc.gif
+            - ~Documents/Mntoes/images/secrside.gif
+            - ~Documents/Mntoes/images/seclside.gif
+            - ~Documents/Mntoes/images/secbtm.gif
+            - ~Documents/Mntoes/images/secbrc.gif
+            - ~Documents/Mntoes/images/secblc.gif
+            - ~Documents/Mntoes/images/icon.gif
+            - ~Documents/Mntoes/images/Bosham Church.JPG
+            - ~Documents/Mntoes/images/Bosham Church night.JPG
           id: simtropolis/17530-bosham-church
           include:
-            - Mntoes/Bosham Church
+            - Mntoes/Bosham Church/Mntoes Bosham Church_resources.dat
+            - Mntoes/Bosham Church/Mntoes Bosham Church_LOT.dat
+      lastModified: 2024-06-13T11:55:03Z
+      name: Default
       requirements:
         darknite: false
       version: 2.0.0
@@ -46,9 +85,75 @@ mntoes/holt-farm-close:
   authors:
     - mntoes
   category: r$
-  description:
-    I first started these Bats way back in 2006 and I never quite got the time to finish them due to RL. I have a bit more free time now so here they are complete at last. I hope the wait was
-    worth it. The pack consists of 3 lots.
+  description: >-
+    Mntoes Holt Farm Close
+
+
+    I first started these Bats way back in 2006 and I never quite got the time to finish them due to RL. I have a bit more free time now so here they are complete at last. I hope the wait was worth
+    it.
+
+
+    The pack consists of 3 lots (two dat files standard and high def versions)
+
+
+    R$4_3x2 Holt Farm Lot one (40 res)
+
+
+    R$4_3x2 Holt Farm Lot two (40 res)
+
+
+    R$4_3x2 Holt Farm Lot Three (40 res)
+
+
+    It is important that you place only one of these dat files in your plugins folder.
+
+
+    either:-
+
+
+    Mntoes Holt Farm Close Std.dat
+
+
+    or
+
+
+    Mntoes Holt Farm Close HD.dat
+
+
+    Pollution-low
+
+
+    Garbage -low
+
+
+    Hospital Grade-
+
+
+    Crime-low
+
+
+    As you may know I am not a lover of dependencies so all the custom props and textures needed are included with the download.
+
+
+    Included also in this pack are 2 3ds model files:-
+
+
+    Mikeseith Corrola
+
+
+    &
+
+
+    Sheep Skoda Fabia
+
+
+    Thanks guys for the models & textures.
+
+
+    Hope you enjoy
+
+
+    Mntoes
   images:
     - https://www.simtropolis.com/objects/screens/monthly_10_2014/2824160a6e63a21a3fc725fdacc1d656-holt-farm-close-day-3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_10_2014/d9859af0e5f36333fcfc073f1e769b14-holt-farm-close-night2.jpg
@@ -65,15 +170,26 @@ mntoes/holt-farm-close:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2014/thumb-2824160a6e63a21a3fc725fdacc1d656-holt-farm-close-day-3.jpg
   url: https://community.simtropolis.com/files/file/29972-mntoes-holt-farm-close/
   variants:
-    # TODO: SD/HD as option instead
     default:
       assets:
         - docs:
-            - Mntoes Holt Farm Close
+            - Mntoes Holt Farm Close/Holt Farm Close - Read Me.txt
+            - Mntoes Holt Farm Close/Holt Farm Close day 2.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close day 3.JPG
+            - Mntoes Holt Farm Close/Holt Farm Close day.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close night 2.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close night 3.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close night 4.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close night 5.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close night.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close Original 2.bmp
+            - Mntoes Holt Farm Close/Holt Farm Close original.bmp
           id: simtropolis/29972-mntoes-holt-farm-close
           include:
-            - Mntoes Holt Farm Close Std.dat
-      name: SD
+            - Mntoes Holt Farm Close/Mntoes Holt Farm Close Std.dat
+            - Mntoes Holt Farm Close/Mntoes Holt Farrn Close HD.dat
+      lastModified: 2014-10-31T20:34:13Z
+      name: Default
       version: 1.0.0
     hd:
       assets:

@@ -2,9 +2,15 @@ lowkee33/seasonal-flora-patch:
   authors:
     - Lowkey33
   category: dependencies
+  dependencies:
+    - nos-17/sc4-cleanitol
   description: >-
     The Flora Tuning Exemplar defines the maximum height a tree will be placed in god-mode. It also makes it possible for seasonal flora to exist. Many terrain mods use this exemplar with different
     tree heights, however since they were made before seasonal flora was understood, a patch should be made. This is such a patch.
+
+
+    This cross-platform package was assembled by Tyberius06. This installer aims to replace the former \*.exe installer while keeping the functionality of that one. The files were created by BSC
+    member Lowkee33.
 
 
     **Compatibility**
@@ -33,6 +39,56 @@ lowkee33/seasonal-flora-patch:
 
     At this point I hope that any new terrain mod will correct the Flora Tuning Parameters for Seasonal flora. Which is done by setting "mnMonthsBetweenCellCoverage" to "1". At that point it is also
     reccomended to set "mnRandomSeedingCellsPerMonth" to "0"
+
+
+    **Installation**
+
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)\--or a zip tool capable
+    of opening the installer to allow manual installation. For Windows/Linux, use [7-zip](https://www.7-zip.org/), and for macOS, use [Keka](https://www.keka.io/en/).
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which files you wish to install (making no changes here will install everything). To expand
+    options, click the small "+" next to the name of the section.
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything).
+    Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). On the Cleanup tab, click "Start scan" to find any
+    outdated files that currently reside in your Plugins folder that may conflict with this package. Clicking "Backup" will remove these old files to a safe location. (The option to "Delete" them also
+    exists, but is not recommended.)\*\* After this, click over to the Install tab, and click "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a
+    message indicating it, after which you are safe to close the installer.
+
+
+    \*\* Though there is an inbuilt cleanitol function in the installer, at this point it is not working entirely properly so it is highly recommended to run the individual cleanitol files or the
+    master cleanitol for the compilation with one of the following 3rd party cleanitol tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    BSC Cleanitol (old tool)
+
+
+    The following paths are used by the installer system.
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Lot and Dat Files | My DocsSimcity 4Pluginsz_\__terrainmod |
+
+    | Readme and JPGs | ~DocumentsBSC_ReadmesLowkee33 |
+
+
+    From this update both this and the *BSC LK33 Appalachian Terrain Mod* are using the **z_\__terrainmod** as default folder to ensure they load after most of the other terrain mods. However you
+    should only use ONE terrain mod at a time.
+
+
+    ![LEXimageLK33seasonalpatch](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/LEXimageLK33seasonalpatch.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/LEXimageLK33seasonalpatch.jpg
   name: BSC LK33 Terrain Seasonal Flora Patch
@@ -43,8 +99,11 @@ lowkee33/seasonal-flora-patch:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/Lowkee33
-          exclude: # TODO: Options
+            - z___terrainmod#/CHOOSE_ONE!! READ README!!.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_BSC LK33 Terrain Seasonal Flora Patch.txt
+            - ~Documents/BSC_Readmes/Lowkee33/FloraTuningParameters_Seasonal_Readme.html
+            - ~Documents/BSC_Readmes/Lowkee33/images/LEXimageLK33seasonalpatch.jpg
+          exclude:
             - -CP Canyonlands and LowerSnowPatch
             - -CP Columbus
             - -CP Columbus Snowcapped
@@ -65,6 +124,27 @@ lowkee33/seasonal-flora-patch:
             - -Heblem All
           id: sc4evermore/36-lk33-seasonalflorapatch
           include:
-            - =Maxis*
+            - z___terrainmod#/=Maxis or Other/z_LK_FloraTuningParameters_Seasonal_Maxis_or_Other.dat
+            - z___terrainmod#/-Heblem All/z_LK_FloraTuningParameters_Seasonal_Heblem_All.dat
+            - z___terrainmod#/-CP PaintedDesert/z_LK_FloraTuningParameters_Seasonal_CP_PaintedDesert.dat
+            - z___terrainmod#/-CP Olympic/z_LK_FloraTuningParameters_Seasonal_CP_Olympic.dat
+            - z___terrainmod#/-CP MonumentValley/z_LK_FloraTuningParameters_Seasonal_CP_MonumentValley.dat
+            - z___terrainmod#/-CP MissouriBreaks/z_LK_FloraTuningParameters_Seasonal_CP_MissouriBreaks.dat
+            - z___terrainmod#/-CP MeadowShire LowerSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_MeadowShire_LowerSnowPatch.dat
+            - z___terrainmod#/-CP MeadowShire HigherSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_MeadowShire_HigherSnowPatch.dat
+            - z___terrainmod#/-CP MeadowShire/z_LK_FloraTuningParameters_Seasonal_CP_MeadowShire.dat
+            - z___terrainmod#/-CP Italia LowerSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_Italia_LowerSnowPatch.dat
+            - z___terrainmod#/-CP Italia/z_LK_FloraTuningParameters_Seasonal_CP_Italia.dat
+            - z___terrainmod#/-CP Italia HigherSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_Italia_HigherSnowPatch.dat
+            - z___terrainmod#/-CP GrandCanyon LowerSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon_LowerSnowPatch.dat
+            - z___terrainmod#/-CP GrandCanyon LowerLowerSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon_LowerLowerSnowPatch.dat
+            - z___terrainmod#/-CP GrandCanyon/z_LK_FloraTuningParameters_Seasonal_CP_GrandCanyon.dat
+            - z___terrainmod#/-CP Columbus Snowcapped Lower/z_LK_FloraTuningParameters_Seasonal_CP_Columbus_Snowcapped_Lower.dat
+            - z___terrainmod#/-CP Columbus Snowcapped Low/z_LK_FloraTuningParameters_Seasonal_CP_Columbus_Snowcapped_Low.dat
+            - z___terrainmod#/-CP Columbus Snowcapped/z_LK_FloraTuningParameters_Seasonal_CP_Columbus_Snowcapped.dat
+            - z___terrainmod#/-CP Columbus/z_LK_FloraTuningParameters_Seasonal_CP_Columbus.dat
+            - z___terrainmod#/-CP Canyonlands and LowerSnowPatch/z_LK_FloraTuningParameters_Seasonal_CP_Canyonlands_and_LowerSnowPatch.dat
+      lastModified: 2024-01-28T13:59:53-08:00
+      name: Default
       url: https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch
       version: 2.0.0

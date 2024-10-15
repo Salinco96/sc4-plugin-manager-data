@@ -1,3 +1,55 @@
+glenni/lambda-arts-college:
+  authors:
+    - glenni
+  category: civics
+  dependencies:
+    - glenni/mega-props-vol01
+  description: |-
+    Here's an old model i made in 2006, which i decided to finish now.
+
+    I lost most of the textures that was already on it, so i decided to texture it with slightly better textures than the what ir originally had.
+
+    Anyway...
+
+    It's name is LAMBDA, and it's now an arts college (not possible in SC4, so it functions as a normal college)
+
+    it was originally supposed to be a residential/office, but well.. i though it would be a bit too unique looking for being RCI.
+
+    Capacity is 2000, otherwise all stats are default SC4 Plugin manager.
+
+    **Dependencies:**
+
+    [BSC Mega Props - DAE Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=475)
+
+    [NDEX Glenni Mega Props Vol01](https://community.simtropolis.com/files/file/19096-ndex-glenni-mega-props-vol01/)
+
+    Enjoy!
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/3a1ddf48406f9f3dd4a593d970f03dd0-LAMBDA1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/3a1ddf48406f9f3dd4a593d970f03dd0-LAMBDA2.jpg
+  name: LAMBDA Arts college
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2009/thumb-3a1ddf48406f9f3dd4a593d970f03dd0-LAMBDA1.jpg
+  url: https://community.simtropolis.com/files/file/22937-lambda-arts-college/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/22937-lambda-arts-college
+      lastModified: 2017-01-27T12:40:45Z
+      lots:
+        - filename: CV5x4_LambdaArts_College_Glenni_f826f116.SC4Lot
+          id: f826f116
+          label: CV5x4_LambdaArts_College_Glenni_f826f116.SC4Lot
+        - filename: CV5x4_LambdaArts_College_Glenni_URBAN_f827aff1.SC4Lot
+          id: f827aff1
+          label: CV5x4_LambdaArts_College_Glenni_URBAN_f827aff1.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 glenni/mega-props-vol01:
   authors:
     - Glenni
@@ -29,6 +81,7 @@ glenni/mega-props-vol01:
           id: simtropolis/19096-ndex-glenni-mega-props-vol01
           include:
             - NDEX Glenni MEGA Props Vol01.dat
+      lastModified: 2007-12-12T12:29:22Z
       version: 1.0.0
 
 glenni/mega-props-vol02:
@@ -133,4 +186,5 @@ glenni/mega-props-vol02:
     default:
       assets:
         - id: simtropolis/20564-ndex-glenni-mega-props-vol02
+      lastModified: 2008-10-24T23:00:00Z
       version: 1.0.0

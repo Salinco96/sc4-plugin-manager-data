@@ -3,10 +3,21 @@ kingofsimcity/irm-diagonal-filler-set:
     - kingofsimcity
   category: irm,diagonal,fillers
   dependencies:
+    - andreas-roth/sfbt-essentials
     - cycledogg/mega-props-vol01
     - ncd/railyard-textures-vol01
     - sfbt/essentials
+    - t-wrecks/industrial-revolution-mod
+    - t-wrecks/industrial-revolution-mod-i-d-filler-set-1
+    - t-wrecks/industrial-revolution-mod-i-ht-filler-set-1
+    - t-wrecks/industrial-revolution-mod-i-m-filler-set-1
   description: >-
+    *KOSC Presents: Industrial Revolution Mod - Base FA Filler Set*
+
+
+    **Introduction**
+
+
     This is a set of filler lots for dirty, manufacturing, and hi-tech industry geared towards adding FA (Fractional Angle) support to the originals. The set was designed with IRM in mind and as such,
     utilizes matching bases and walls from that of **T Wrecks**' original release.
 
@@ -23,6 +34,41 @@ kingofsimcity/irm-diagonal-filler-set:
 
 
     The lots are located in the landmarks menu and are positioned in-line with the originals.
+
+
+    **Install Instructions**
+
+
+    Drop the files in your **My Documents/SimCity 4/Plugins** folder.
+
+
+    **Dependencies**
+
+
+    Use with the [Industrial Revolution Mod](https://community.simtropolis.com/files/file/28268-industrial-revolution-mod-base-pack-maxis-lots/) and the
+    [associated](https://community.simtropolis.com/files/file/28295-industrial-revolution-mod-i-d-filler-set-1/)
+    [filler](https://community.simtropolis.com/files/file/28298-industrial-revolution-mod-i-m-filler-set-1/)
+    [sets](https://community.simtropolis.com/files/file/28302-industrial-revolution-mod-i-ht-filler-set-1/) is highly recommended! These lots would look out of place otherwise. **If you have the
+    dependencies for the base mod and the original fillers, you will NOT need any additional dependencies.**
+
+
+    **Standalone** users will need the following:
+
+
+    **Props**
+
+
+    - [BSC MEGA Props CP Vol. 1](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1180)
+
+    - [SFBT Essentials](https://community.simtropolis.com/files/file/14212-sfbt-essentials/)
+
+
+    **Textures**
+
+
+    - [Railyard and Spur Textures, Mega Pack 1.02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2177)
+
+    - *KOSC_FA$Grass.DAT* (Included) \[**TGN Texture Replacements Coming Soon!**\]
 
 
     **Acknowledgements**
@@ -45,71 +91,76 @@ kingofsimcity/irm-diagonal-filler-set:
   variants:
     default:
       assets:
-        - id: simtropolis/32426-industrial-revolution-mod-base-fa-filler-set
+        - docs:
+            - readme.html
+            - sample.jpg
+          id: simtropolis/32426-industrial-revolution-mod-base-fa-filler-set
           include:
             - Industrial Revolution Mod/IRM FA Filler Set
+      lastModified: 2022-03-01T00:17:04Z
       lots:
-        - category: i-d,diagonal,fillers
+        - category: landmarks
           filename: PLOP_2x1_IRM_I-D_Filler_WallFA2_L_88ecc3fd.SC4Lot
           id: 88ecc3fd
-          label: FA2 Wall, Left (I-D, 2x1)
+          label: PLOP_2x1_IRM_I-D_Filler_WallFA2_L_88ecc3fd.SC4Lot
           size: 2x1
-        - category: i-d,diagonal,fillers
+        - category: landmarks
           filename: PLOP_2x1_IRM_I-D_Filler_WallFA2_R_28ecc22e.SC4Lot
           id: 28ecc22e
-          label: FA2 Wall, Right (I-D, 2x1)
+          label: PLOP_2x1_IRM_I-D_Filler_WallFA2_R_28ecc22e.SC4Lot
           size: 2x1
-        - category: i-d,diagonal,fillers
+        - category: landmarks
           filename: PLOP_3x1_IRM_I-D_Filler_WallFA3_L_68eee57c.SC4Lot
           id: 68eee57c
-          label: FA3 Wall, Left (I-D, 3x1)
+          label: PLOP_3x1_IRM_I-D_Filler_WallFA3_L_68eee57c.SC4Lot
           size: 3x1
-        - category: i-d,diagonal,fillers
+        - category: landmarks
           filename: PLOP_3x1_IRM_I-D_Filler_WallFA3_R_98eef47c.SC4Lot
           id: 98eef47c
-          label: FA3 Wall, Right (I-D, 3x1)
+          label: PLOP_3x1_IRM_I-D_Filler_WallFA3_R_98eef47c.SC4Lot
           size: 3x1
-        - category: i-m,diagonal,fillers
-          filename: PLOP_2x1_IRM_I-M_Filler_WallFA2_L_38ee1005.SC4Lot
-          id: 38ee1005
-          label: FA2 Wall, Left (I-M, 2x1)
-          size: 2x1
-        - category: i-m,diagonal,fillers
-          filename: PLOP_2x1_IRM_I-M_Filler_WallFA2_R_88ee31a1.SC4Lot
-          id: 88ee31a1
-          label: FA2 Wall, Right (I-M, 2x1)
-          size: 2x1
-        - category: i-m,diagonal,fillers
-          filename: PLOP_3x1_IRM_I-M_Filler_WallFA3_L_18f8602f.SC4Lot
-          id: 18f8602f
-          label: FA3 Wall, Left (I-M, 3x1)
-          size: 3x1
-        - category: i-m,diagonal,fillers
-          filename: PLOP_3x1_IRM_I-M_Filler_WallFA3_R_38ef1e40.SC4Lot
-          id: 38ef1e40
-          label: FA3 Wall, Right (I-M, 3x1)
-          size: 3x1
-        - category: i-ht,diagonal,fillers
+        - category: landmarks
           filename: PLOP_2x1_IRM_I-HT_Filler_FA2_L_58ee1058.SC4Lot
           id: 58ee1058
-          label: FA2 Wall, Left (I-HT, 2x1)
+          label: PLOP_2x1_IRM_I-HT_Filler_FA2_L_58ee1058.SC4Lot
           size: 2x1
-        - category: i-ht,diagonal,fillers
+        - category: landmarks
           filename: PLOP_2x1_IRM_I-HT_Filler_FA2_R_38ff2a75.SC4Lot
           id: 38ff2a75
-          label: FA2 Wall, Right (I-HT, 2x1)
+          label: PLOP_2x1_IRM_I-HT_Filler_FA2_R_38ff2a75.SC4Lot
           size: 2x1
-        - category: i-ht,diagonal,fillers
+        - category: landmarks
           filename: PLOP_3x1_IRM_I-HT_Filler_FA3_L_b8ff2b27.SC4Lot
           id: b8ff2b27
-          label: FA3 Wall, Left (I-HT, 3x1)
+          label: PLOP_3x1_IRM_I-HT_Filler_FA3_L_b8ff2b27.SC4Lot
           size: 3x1
-        - category: i-ht,diagonal,fillers
+        - category: landmarks
           filename: PLOP_3x1_IRM_I-HT_Filler_FA3_R_58ff2955.SC4Lot
           id: 58ff2955
-          label: FA3 Wall, Right (I-HT, 3x1)
+          label: PLOP_3x1_IRM_I-HT_Filler_FA3_R_58ff2955.SC4Lot
           size: 3x1
-      version: 1.0.0
+        - category: landmarks
+          filename: PLOP_2x1_IRM_I-M_Filler_WallFA2_L_38ee1005.SC4Lot
+          id: 38ee1005
+          label: PLOP_2x1_IRM_I-M_Filler_WallFA2_L_38ee1005.SC4Lot
+          size: 2x1
+        - category: landmarks
+          filename: PLOP_2x1_IRM_I-M_Filler_WallFA2_R_88ee31a1.SC4Lot
+          id: 88ee31a1
+          label: PLOP_2x1_IRM_I-M_Filler_WallFA2_R_88ee31a1.SC4Lot
+          size: 2x1
+        - category: landmarks
+          filename: PLOP_3x1_IRM_I-M_Filler_WallFA3_L_18f8602f.SC4Lot
+          id: 18f8602f
+          label: PLOP_3x1_IRM_I-M_Filler_WallFA3_L_18f8602f.SC4Lot
+          size: 3x1
+        - category: landmarks
+          filename: PLOP_3x1_IRM_I-M_Filler_WallFA3_R_38ef1e40.SC4Lot
+          id: 38ef1e40
+          label: PLOP_3x1_IRM_I-M_Filler_WallFA3_R_38ef1e40.SC4Lot
+          size: 3x1
+      name: Default
+      version: 1.00.0
   warnings:
     - id: bulldoze
       on: disable
@@ -123,7 +174,14 @@ kingofsimcity/logistics-essentials:
     - mushymushy/hd-north-american-40ft-semi-trailers-vol01
     - mushymushy/hd-north-american-53ft-semi-trailers-vol01
     - mushymushy/hd-north-american-semi-truck-cabs-vol01
+    - simgoober/costco-distribution-center
   description: >-
+    *KOSC Presents: Logistics Essentials (Formerly IdM - Trucking Essentials)*
+
+
+    **Introduction**
+
+
     Do you want to recreate a large distribution center with ample truck parking space of all angles and populate them with tons of random trailers from different freight and logistic companies? If
     so, then you've come to the right place!
 
@@ -137,6 +195,44 @@ kingofsimcity/logistics-essentials:
 
     Update 2.0 introduces **16 new prop families** that cover some of the more irregular angles of [@Angry Mozart](https://community.simtropolis.com/profile/430892-angry-mozart/)'s cabs. Additional
     details are in the enclosed README.
+
+
+    **Install Instructions**
+
+
+    Drop the file in your **My Documents/SimCity 4/Plugins** folder. It is highly recommended to load this file last, as the original prop descriptor files are overridden here. Failure to do so might
+    result in the families not loading properly in-game.
+
+
+    **Obsolete Files**
+
+
+    The following files are made obsolete as of version 2.0. Please remove these files from your Plugins folder, or use the included Cleanitol file with BSC Cleanitol.
+
+
+    - *IdM_TruckingEssentials_MM_PropFamilies.dat*
+
+    - *KOSC_IdM_TruckEssentials_Textures.dat*
+
+    - *KOSC_TruckParking_SHKBases.dat* (found in [Costco Super Distribution Center](https://community.simtropolis.com/files/file/31668-idm-simgoobers-costco-distribution-center/))
+
+
+    **Dependencies**
+
+
+    The textures are standalone and will not require any dependencies. However, the prop families will not function properly without the trucks from the following:
+
+
+    #### Props
+
+
+    - [HD North American 40ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/)
+
+    - [HD North American 53ft Semi Trailers Vol. 1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/)
+
+    - [HD North American Semi Truck Cabs Vol. 1](https://community.simtropolis.com/files/file/30732-hd-north-american-semi-truck-cabs-vol1/)
+
+    - [Trucks & Trailers Prop Pack](https://community.simtropolis.com/files/file/32285-trucks-trailers-prop-pack/)
 
 
     Credit goes to **MushyMushy** and **Angry Mozart** for the wonderful set of trailers and semis!
@@ -155,20 +251,44 @@ kingofsimcity/logistics-essentials:
   variants:
     default:
       assets:
-        - id: simtropolis/31578-kosc-logistics-essentials-dec-2018-update
-      version: 2.0.0
+        - docs:
+            - textures.jpg
+            - families2.jpg
+            - families.jpg
+            - Cleanitol.txt
+          id: simtropolis/31578-kosc-logistics-essentials-dec-2018-update
+          include:
+            - z_KOSC_LogisticsEssentials.dat
+      lastModified: 2018-12-15T08:20:35Z
+      name: Default
+      version: 2.00.0
 
 kingofsimcity/modular-parking-addon-pack-1:
   authors:
     - kingofsimcity
   category: parkings
   dependencies:
+    - kingofsimcity/kosc-sp-damn-menus
+    - kingofsimcity/modular-parking-base-set
+    - kingofsimcity/modular-parking-diagonal-set
     - kingofsimcity/supershk-mega-parking-textures
     - rebalynnts/spot-simpeg-plop-orientation-tool
     - shokthrpy/shk-parking-pack
   description: >-
-    This is the **1st addon pack** of my **SuperParking** modular parking series. Unlike a full-blown expansion, this small pack covers some odds and ends that I missed on the original sets. These
-    include full no road marking support for all junction variations, and a couple of transitions for a few awkward spots.
+    *KOSC presents: **SuperParking Modular Parking - Add-on Pack 1***
+
+
+    **Introduction**
+
+
+    This is the **1<sup>st</sup> addon pack** of my **SuperParking** modular parking series. Unlike a full-blown expansion, this small pack covers some odds and ends that I missed on the original
+    sets. These include full no road marking support for all junction variations, and a couple of transitions for a few awkward spots.
+
+
+    **Package Overview**
+
+
+    There is only one version for this pack.
 
 
     The set contains a set of **14** lots**,** all of which are cosmetic pieces located near the top of the **Parks** menu. Like before all of the menus are grouped and color coded according to the
@@ -191,6 +311,36 @@ kingofsimcity/modular-parking-addon-pack-1:
     were kept minimal, as to ensure that MMPs can be used on them liberally.
 
 
+    **Install Instructions**
+
+
+    Drop the files into your My Documents/SimCity 4/Plugins folder. Note that if you already have the base sets, you can safely merge the parent folder.
+
+
+    **Dependencies**
+
+
+    [SP Modular Parking Base Set](https://community.simtropolis.com/files/file/30941-kosc-sp-modular-parking-base-set/)
+
+
+    [SP Modular Parking Expansion 1: Diagonal Set](https://community.simtropolis.com/files/file/30953-kosc-sp-modular-parking-diagonal-set/)
+
+
+    Not *truly* necessary, but these lots will feel a little pointless without the base sets. ![*:D](https://community.simtropolis.com/assets/emoticons/default_9.gif ":D")
+
+
+    Additionally, you will need the following:
+
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+
+    [SPOT](https://community.simtropolis.com/files/file/24509-spot/) (for the positioning helpers)
+
+
     Last but not least, credit to **RebaLynnTS** for the helper pieces, and **shokthrpy** for his awesome parking set.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411160907_1.jpg.a323db7ce82118f6a1493bea06aa2d48.jpg
@@ -206,10 +356,83 @@ kingofsimcity/modular-parking-addon-pack-1:
     default:
       assets:
         - docs:
-            - KOSC Superparking
+            - KOSC Superparking/SuperParking Addons 1.pdf
           id: simtropolis/30958-kosc-sp-modular-parking-add-on-pack-1
           include:
             - KOSC Superparking/Addon Set 1
+      lastModified: 2016-04-11T23:16:34Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Curve_NoMarkings_4448b2b1.SC4Lot
+          id: 4448b2b1
+          label: PLOP_1x1_KOSC_Superparking_Path_Curve_NoMarkings_4448b2b1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_B_NoMarkings_94490880.SC4Lot
+          id: "94490880"
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_B_NoMarkings_94490880.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_A_NoMarkings_a44908e5.SC4Lot
+          id: a44908e5
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_A_NoMarkings_a44908e5.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Right_NoMarkings_5449082b.SC4Lot
+          id: 5449082b
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Right_NoMarkings_5449082b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Left_NoMarkings_a448c25b.SC4Lot
+          id: a448c25b
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Left_NoMarkings_a448c25b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_End_NoMarkings_a4491f37.SC4Lot
+          id: a4491f37
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_End_NoMarkings_a4491f37.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Right_NoMarkings_74491e76.SC4Lot
+          id: "74491e76"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Right_NoMarkings_74491e76.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Left_NoMarkings_64491dfa.SC4Lot
+          id: 64491dfa
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Left_NoMarkings_64491dfa.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_End_NoMarkings_54491532.SC4Lot
+          id: "54491532"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_End_NoMarkings_54491532.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_to_Curb_Right_d448ac7b.SC4Lot
+          id: d448ac7b
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_to_Curb_Right_d448ac7b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_to_Curb_Left_2448b7a9.SC4Lot
+          id: 2448b7a9
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_to_Curb_Left_2448b7a9.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Right_NoMarkings_04490b2e.SC4Lot
+          id: 04490b2e
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Right_NoMarkings_04490b2e.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Left_NoMarkings_c4490ac6.SC4Lot
+          id: c4490ac6
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Left_NoMarkings_c4490ac6.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Curb_e449096d.SC4Lot
+          id: e449096d
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Curb_e449096d.SC4Lot
+          size: 1x1
+      name: Default
       version: 1.1.0
   warnings:
     - id: bulldoze
@@ -220,12 +443,25 @@ kingofsimcity/modular-parking-base-set:
     - kingofsimcity
   category: parkings
   dependencies:
+    - kingofsimcity/kosc-sp-damn-menus
     - kingofsimcity/supershk-mega-parking-textures
     - rebalynnts/spot-simpeg-plop-orientation-tool
     - shokthrpy/shk-parking-pack
   description: >-
+    *KOSC presents: **SuperParking Modular Parking - Base Set***
+
+
+    **Introduction**
+
+
     It's been a long time coming, but it's finally here! This is the **1<sup>st</sup>** part of my **SuperParking** modular parking series, which is aimed towards creating even more realistic and
     crazy parking derivatives from the original **SHK Parking Pack**. This is the base set, which contains all the essentials for making orthogonal oriented parking lots, junctions, and more.
+
+
+    **Package Overview**
+
+
+    There are two different packages available for download: one for **Right-hand Drive** and **Left-hand Drive.** Choose one.
 
 
     The set contains a set of **49** lots. There are **7** functional “parking garage” pieces, with Transit Enabled connections which are located in the **Misc Transportation** menu, and **42**
@@ -267,12 +503,36 @@ kingofsimcity/modular-parking-base-set:
     were kept minimal, as to ensure that MMPs can be used on them liberally.
 
 
+    **Install Instructions**
+
+
+    Pick one version (either **RHD or LHD)** and drop the files into your My Documents/SimCity 4/Plugins folder.
+
+
+    **Dependencies**
+
+
+    You will need the following:
+
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
+
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+
+    [SPOT](https://community.simtropolis.com/files/file/24509-spot/) (for the positioning helpers)
+
+
     Credit goes to **[@nos.17](https://community.simtropolis.com/profile/455740-nos17/)** for the rounded endcaps suggestion, and
     **[@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)** for his invaluable assistance in providing me with tools and sample textures to use. Additional shoutouts to all the
     regulars in my lot thread that like/leave comments and feedback, you know who you are. ![*:P](https://community.simtropolis.com/assets/emoticons/default_3.gif ":P")
 
 
     Last but not least, credit to the **SFBT** team for the awesome helper pieces (v1.1 and older), credit to **RebaLynnTS** for the helper pieces (1.2), and **shokthrpy** for his awesome parking set.
+
+
+    *V1.2 Update: SFBT Essentials is no longer a dependency for this set.*
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_04/2016-02-07_00010.jpg.893d66e13ca9359296ae751cbb02a703.jpg.515308407fbd5fb5da4095702f74415e.jpg.388e1914456f333f944da6813f703044.jpg.4fdfc243858d607b00d7c0dbe1b90129.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_04/20160411111152_1.jpg.257510dbefa22d41c554430d4401d400.jpg
@@ -293,21 +553,517 @@ kingofsimcity/modular-parking-base-set:
     default:
       assets:
         - docs:
-            - KOSC Superparking
+            - KOSC Superparking/SuperParking Modular Set.pdf
           id: simtropolis/30941-kosc-sp-modular-parking-base-set#161329
           include:
             - KOSC Superparking/Starter Set (LHD)
+      lastModified: 2016-04-12T00:10:08Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Ortho_Stop_543bd008.SC4Lot
+          id: 543bd008
+          label: PLOP_1x1_KOSC_Superparking_Path_Ortho_Stop_543bd008.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Ortho_NoMarkings_443cdc10.SC4Lot
+          id: 443cdc10
+          label: PLOP_1x1_KOSC_Superparking_Path_Ortho_NoMarkings_443cdc10.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Ortho_84390e74.SC4Lot
+          id: "84390e74"
+          label: PLOP_1x1_KOSC_Superparking_Path_Ortho_84390e74.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Curve_e43bcf6a.SC4Lot
+          id: e43bcf6a
+          label: PLOP_1x1_KOSC_Superparking_Path_Curve_e43bcf6a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Junction_4_64390db0.SC4Lot
+          id: 64390db0
+          label: PLOP_1x1_KOSC_Superparking_Junction_4_64390db0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Junction_3_c4390cea.SC4Lot
+          id: c4390cea
+          label: PLOP_1x1_KOSC_Superparking_Junction_3_c4390cea.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Pavement_Filler_443f31cf.SC4Lot
+          id: 443f31cf
+          label: PLOP_1x1_KOSC_Superparking_Pavement_Filler_443f31cf.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Grass_Filler_74462cff.SC4Lot
+          id: 74462cff
+          label: PLOP_1x1_KOSC_Superparking_Grass_Filler_74462cff.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Right_c43b9e1a.SC4Lot
+          id: c43b9e1a
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Right_c43b9e1a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Left_843b9d8c.SC4Lot
+          id: 843b9d8c
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Left_843b9d8c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_343b9071.SC4Lot
+          id: 343b9071
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_343b9071.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Right_343b8fa9.SC4Lot
+          id: 343b8fa9
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Right_343b8fa9.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Left_643b8f09.SC4Lot
+          id: 643b8f09
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Left_643b8f09.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_243b8dcf.SC4Lot
+          id: 243b8dcf
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_243b8dcf.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Road_Gate_243b8cb0.SC4Lot
+          id: 243b8cb0
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Road_Gate_243b8cb0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Middle_1438e6fd.SC4Lot
+          id: 1438e6fd
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Middle_1438e6fd.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_NoMarkings_d43cd3ed.SC4Lot
+          id: d43cd3ed
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_NoMarkings_d43cd3ed.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_9438e5c1.SC4Lot
+          id: 9438e5c1
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_9438e5c1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_End_943be68c.SC4Lot
+          id: 943be68c
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_End_943be68c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Exit_1438e7a1.SC4Lot
+          id: 1438e7a1
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Exit_1438e7a1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Entry_7438e638.SC4Lot
+          id: "7438e638"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Entry_7438e638.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Outer_Corner_2438c07f.SC4Lot
+          id: 2438c07f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Outer_Corner_2438c07f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Right_143aacb0.SC4Lot
+          id: 143aacb0
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Right_143aacb0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_NoMarkings_d43cb62d.SC4Lot
+          id: d43cb62d
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_NoMarkings_d43cb62d.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_c43aab7c.SC4Lot
+          id: c43aab7c
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_c43aab7c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Left_543aac3a.SC4Lot
+          id: 543aac3a
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Left_543aac3a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Inner_Corner_e438d37f.SC4Lot
+          id: e438d37f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Inner_Corner_e438d37f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Right_7438c242.SC4Lot
+          id: 7438c242
+          label: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Right_7438c242.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Left_6438c1d1.SC4Lot
+          id: 6438c1d1
+          label: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Left_6438c1d1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C2_e43aa13f.SC4Lot
+          id: e43aa13f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C2_e43aa13f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C1_7438bf18.SC4Lot
+          id: 7438bf18
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C1_7438bf18.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_NoMarkings_843cd388.SC4Lot
+          id: 843cd388
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_NoMarkings_843cd388.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_143bce7c.SC4Lot
+          id: 143bce7c
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_143bce7c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_End_743aa76b.SC4Lot
+          id: 743aa76b
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_End_743aa76b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Inner_Turn_d438d474.SC4Lot
+          id: d438d474
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Inner_Turn_d438d474.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B2_2438beb2.SC4Lot
+          id: 2438beb2
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B2_2438beb2.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B1_a438be22.SC4Lot
+          id: a438be22
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B1_a438be22.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Outer_Corner_a438d55e.SC4Lot
+          id: a438d55e
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Outer_Corner_a438d55e.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Right_9440e04a.SC4Lot
+          id: 9440e04a
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Right_9440e04a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Left_0440dfb5.SC4Lot
+          id: 0440dfb5
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Left_0440dfb5.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Right_343aa92f.SC4Lot
+          id: 343aa92f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Right_343aa92f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_NoMarkings_c43cb58d.SC4Lot
+          id: c43cb58d
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_NoMarkings_c43cb58d.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_443aaaa7.SC4Lot
+          id: 443aaaa7
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_443aaaa7.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Left_c43aa9d5.SC4Lot
+          id: c43aa9d5
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Left_c43aa9d5.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Inner_Corner_5438e931.SC4Lot
+          id: "5438e931"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Inner_Corner_5438e931.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Right_243bd127.SC4Lot
+          id: 243bd127
+          label: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Right_243bd127.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Left_c43bd1ba.SC4Lot
+          id: c43bd1ba
+          label: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Left_c43bd1ba.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A2_e439485b.SC4Lot
+          id: e439485b
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A2_e439485b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A1_1438bbf0.SC4Lot
+          id: 1438bbf0
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A1_1438bbf0.SC4Lot
+          size: 1x1
+      name: Default
       requirements:
         rhd: false
       version: 1.3.0
     rhd:
       assets:
         - docs:
-            - KOSC Superparking
+            - KOSC Superparking/SuperParking Modular Set.pdf
           id: simtropolis/30941-kosc-sp-modular-parking-base-set#161328
           include:
             - KOSC Superparking/Starter Set (RHD)
-      release: 2024-08-20T10:45:45.232Z
+      lastModified: 2016-04-12T00:10:08Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Ortho_Stop_543bd008.SC4Lot
+          id: 543bd008
+          label: PLOP_1x1_KOSC_Superparking_Path_Ortho_Stop_543bd008.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Ortho_NoMarkings_443cdc10.SC4Lot
+          id: 443cdc10
+          label: PLOP_1x1_KOSC_Superparking_Path_Ortho_NoMarkings_443cdc10.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Ortho_84390e74.SC4Lot
+          id: "84390e74"
+          label: PLOP_1x1_KOSC_Superparking_Path_Ortho_84390e74.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Curve_e43bcf6a.SC4Lot
+          id: e43bcf6a
+          label: PLOP_1x1_KOSC_Superparking_Path_Curve_e43bcf6a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Junction_4_64390db0.SC4Lot
+          id: 64390db0
+          label: PLOP_1x1_KOSC_Superparking_Junction_4_64390db0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Junction_3_c4390cea.SC4Lot
+          id: c4390cea
+          label: PLOP_1x1_KOSC_Superparking_Junction_3_c4390cea.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Pavement_Filler_443f31cf.SC4Lot
+          id: 443f31cf
+          label: PLOP_1x1_KOSC_Superparking_Pavement_Filler_443f31cf.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Grass_Filler_74462cff.SC4Lot
+          id: 74462cff
+          label: PLOP_1x1_KOSC_Superparking_Grass_Filler_74462cff.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Right_c43b9e1a.SC4Lot
+          id: c43b9e1a
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Right_c43b9e1a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Left_843b9d8c.SC4Lot
+          id: 843b9d8c
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_Left_843b9d8c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_343b9071.SC4Lot
+          id: 343b9071
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_C_343b9071.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Right_343b8fa9.SC4Lot
+          id: 343b8fa9
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Right_343b8fa9.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Left_643b8f09.SC4Lot
+          id: 643b8f09
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_Left_643b8f09.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_243b8dcf.SC4Lot
+          id: 243b8dcf
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Street_A_243b8dcf.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Entrance_Road_Gate_243b8cb0.SC4Lot
+          id: 243b8cb0
+          label: PLOP_1x1_KOSC_Superparking_Entrance_Road_Gate_243b8cb0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Middle_1438e6fd.SC4Lot
+          id: 1438e6fd
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Middle_1438e6fd.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_NoMarkings_d43cd3ed.SC4Lot
+          id: d43cd3ed
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_NoMarkings_d43cd3ed.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_9438e5c1.SC4Lot
+          id: 9438e5c1
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_Middle_9438e5c1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_End_943be68c.SC4Lot
+          id: 943be68c
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Junction_End_943be68c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Exit_1438e7a1.SC4Lot
+          id: 1438e7a1
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Exit_1438e7a1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_D_Entry_7438e638.SC4Lot
+          id: "7438e638"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_D_Entry_7438e638.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Outer_Corner_2438c07f.SC4Lot
+          id: 2438c07f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Outer_Corner_2438c07f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Right_143aacb0.SC4Lot
+          id: 143aacb0
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Right_143aacb0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_NoMarkings_d43cb62d.SC4Lot
+          id: d43cb62d
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_NoMarkings_d43cb62d.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_c43aab7c.SC4Lot
+          id: c43aab7c
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Middle_c43aab7c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Left_543aac3a.SC4Lot
+          id: 543aac3a
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Junction_Left_543aac3a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C_Inner_Corner_e438d37f.SC4Lot
+          id: e438d37f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C_Inner_Corner_e438d37f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Right_7438c242.SC4Lot
+          id: 7438c242
+          label: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Right_7438c242.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Left_6438c1d1.SC4Lot
+          id: 6438c1d1
+          label: PLOP_1x1_KOSC_Superparking_Ortho_CtoA_Outer_Corner_Left_6438c1d1.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C2_e43aa13f.SC4Lot
+          id: e43aa13f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C2_e43aa13f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_C1_7438bf18.SC4Lot
+          id: 7438bf18
+          label: PLOP_1x1_KOSC_Superparking_Ortho_C1_7438bf18.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_NoMarkings_843cd388.SC4Lot
+          id: 843cd388
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_NoMarkings_843cd388.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_143bce7c.SC4Lot
+          id: 143bce7c
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_Middle_143bce7c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_End_743aa76b.SC4Lot
+          id: 743aa76b
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Junction_End_743aa76b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Inner_Turn_d438d474.SC4Lot
+          id: d438d474
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Inner_Turn_d438d474.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B2_2438beb2.SC4Lot
+          id: 2438beb2
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B2_2438beb2.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B1_a438be22.SC4Lot
+          id: a438be22
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B1_a438be22.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Outer_Corner_a438d55e.SC4Lot
+          id: a438d55e
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Outer_Corner_a438d55e.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Right_9440e04a.SC4Lot
+          id: 9440e04a
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Right_9440e04a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Left_0440dfb5.SC4Lot
+          id: 0440dfb5
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Stop_Left_0440dfb5.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Right_343aa92f.SC4Lot
+          id: 343aa92f
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Right_343aa92f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_NoMarkings_c43cb58d.SC4Lot
+          id: c43cb58d
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_NoMarkings_c43cb58d.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_443aaaa7.SC4Lot
+          id: 443aaaa7
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Middle_443aaaa7.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Left_c43aa9d5.SC4Lot
+          id: c43aa9d5
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Junction_Left_c43aa9d5.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Inner_Corner_5438e931.SC4Lot
+          id: "5438e931"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Inner_Corner_5438e931.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Right_243bd127.SC4Lot
+          id: 243bd127
+          label: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Right_243bd127.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Left_c43bd1ba.SC4Lot
+          id: c43bd1ba
+          label: PLOP_1x1_KOSC_Superparking_Ortho_AtoC_Inner_Corner_Left_c43bd1ba.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A2_e439485b.SC4Lot
+          id: e439485b
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A2_e439485b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A1_1438bbf0.SC4Lot
+          id: 1438bbf0
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A1_1438bbf0.SC4Lot
+          size: 1x1
+      name: Right-Hand Drive
+      release: 2024-09-04T10:03:15.374Z
       requirements:
         rhd: true
       version: 1.3.0
@@ -320,13 +1076,26 @@ kingofsimcity/modular-parking-diagonal-set:
     - kingofsimcity
   category: parkings
   dependencies:
+    - kingofsimcity/kosc-sp-damn-menus
     - kingofsimcity/supershk-mega-parking-textures
     - rebalynnts/spot-simpeg-plop-orientation-tool
     - shokthrpy/shk-parking-pack
   description: >-
-    This is the **1st expansion pack** of my **SuperParking** modular parking series, which is aimed towards creating even more realistic and crazy parking derivatives from the original **SHK Parking
-    Pack**. This set covers **diagonals** - largely uncharted territory - by adding a plethora of new parking options for your cities including the ability to create fully-diagonal oriented parking
-    lots. As if that wasn't enough, there's a wealth of different orthogonal transitions and connector pieces to combine with the base set for even more ridiculous combinations.
+    *KOSC presents: **SuperParking Modular Parking - Expansion 1: Diagonal Set***
+
+
+    **Introduction**
+
+
+    This is the **1<sup>st</sup> expansion pack** of my **SuperParking** modular parking series, which is aimed towards creating even more realistic and crazy parking derivatives from the original
+    **SHK Parking Pack**. This set covers **diagonals** - largely uncharted territory - by adding a plethora of new parking options for your cities including the ability to create fully-diagonal
+    oriented parking lots. As if that wasn't enough, there's a wealth of different orthogonal transitions and connector pieces to combine with the base set for even more ridiculous combinations.
+
+
+    **Package Overview**
+
+
+    There are two different packages available for download: one for **Right-hand Drive** and **Left-hand Drive.** Choose one.
 
 
     The set contains a set of **50** lots. There are **3** functional “parking garage” pieces, with Transit Enabled connections which are located in the **Misc Transportation** menu, and **47**
@@ -359,6 +1128,27 @@ kingofsimcity/modular-parking-diagonal-set:
     were kept minimal, as to ensure that MMPs can be used on them liberally.
 
 
+    **Install Instructions**
+
+
+    Pick one version (either **RHD or LHD)** and drop the files into your My Documents/SimCity 4/Plugins folder. Note that if you already have the base set, you can safely merge the parent folder.
+
+
+    **Dependencies**
+
+
+    You will need the following:
+
+
+    [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/30934-supershk-parking-textures-vol-1/)
+
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+
+    [SPOT](https://community.simtropolis.com/files/file/24509-spot/) (for the positioning helpers)
+
+
     Once again, some credit needs to go to **[@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)** for providing me with his blended width transition stubs.
 
 
@@ -381,21 +1171,527 @@ kingofsimcity/modular-parking-diagonal-set:
     default:
       assets:
         - docs:
-            - KOSC Superparking
+            - KOSC Superparking/SuperParking Diagonal Modular Set.pdf
           id: simtropolis/30953-kosc-sp-modular-parking-diagonal-set#161307
           include:
             - KOSC Superparking/Diagonal Set (LHD)
+      lastModified: 2016-04-11T07:11:26Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Diag_NoMarkings_544539b2.SC4Lot
+          id: 544539b2
+          label: PLOP_1x1_KOSC_Superparking_Path_Diag_NoMarkings_544539b2.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Dual_9438f4d6.SC4Lot
+          id: 9438f4d6
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Dual_9438f4d6.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_043e6158.SC4Lot
+          id: "043e6158"
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_043e6158.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Junction_Right_Entrance_9442527c.SC4Lot
+          id: 9442527c
+          label: PLOP_1x1_KOSC_Superparking_Diag_Junction_Right_Entrance_9442527c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Junction_Middle_Entrance_14424f65.SC4Lot
+          id: 14424f65
+          label: PLOP_1x1_KOSC_Superparking_Diag_Junction_Middle_Entrance_14424f65.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Junction_Left_Entrance_24425237.SC4Lot
+          id: "24425237"
+          label: PLOP_1x1_KOSC_Superparking_Diag_Junction_Left_Entrance_24425237.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Right_64438c10.SC4Lot
+          id: 64438c10
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Right_64438c10.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Left_54438875.SC4Lot
+          id: "54438875"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Left_54438875.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Right_d443d837.SC4Lot
+          id: d443d837
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Right_d443d837.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Left_94438c87.SC4Lot
+          id: 94438c87
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Left_94438c87.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Right_d443d5f8.SC4Lot
+          id: d443d5f8
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Right_d443d5f8.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Left_34438d15.SC4Lot
+          id: 34438d15
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Left_34438d15.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_2x1_KOSC_Superparking_Diag_B_Inner_Turn_a438f64d.SC4Lot
+          id: a438f64d
+          label: PLOP_2x1_KOSC_Superparking_Diag_B_Inner_Turn_a438f64d.SC4Lot
+          size: 2x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B2_543e59de.SC4Lot
+          id: 543e59de
+          label: PLOP_1x1_KOSC_Superparking_Diag_B2_543e59de.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B1_7438f3ad.SC4Lot
+          id: 7438f3ad
+          label: PLOP_1x1_KOSC_Superparking_Diag_B1_7438f3ad.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Outer_Corner_d438f5c4.SC4Lot
+          id: d438f5c4
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Outer_Corner_d438f5c4.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Inner_Corner_8439557f.SC4Lot
+          id: 8439557f
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Inner_Corner_8439557f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A2_e43e5ac9.SC4Lot
+          id: e43e5ac9
+          label: PLOP_1x1_KOSC_Superparking_Diag_A2_e43e5ac9.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A1_9438f460.SC4Lot
+          id: 9438f460
+          label: PLOP_1x1_KOSC_Superparking_Diag_A1_9438f460.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Right_a43fc160.SC4Lot
+          id: a43fc160
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Right_a43fc160.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Left_043fc2ec.SC4Lot
+          id: 043fc2ec
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Left_043fc2ec.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_B_84453b90.SC4Lot
+          id: 84453b90
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_B_84453b90.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_A_c4450eca.SC4Lot
+          id: c4450eca
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_A_c4450eca.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Right_343f85cc.SC4Lot
+          id: 343f85cc
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Right_343f85cc.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_NoMarkings_943f8446.SC4Lot
+          id: 943f8446
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_NoMarkings_943f8446.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_b43f83ba.SC4Lot
+          id: b43f83ba
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_b43f83ba.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Left_443f8532.SC4Lot
+          id: 443f8532
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Left_443f8532.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Right_443f9683.SC4Lot
+          id: 443f9683
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Right_443f9683.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Left_843fc788.SC4Lot
+          id: 843fc788
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Left_843fc788.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_A_d43f8ef8.SC4Lot
+          id: d43f8ef8
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_A_d43f8ef8.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Right_e438fd29.SC4Lot
+          id: e438fd29
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Right_e438fd29.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Left_9438fbb4.SC4Lot
+          id: 9438fbb4
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Left_9438fbb4.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_B2_843e68f3.SC4Lot
+          id: 843e68f3
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_B2_843e68f3.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_B1_e4428c45.SC4Lot
+          id: e4428c45
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_B1_e4428c45.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_A2_a4429131.SC4Lot
+          id: a4429131
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_A2_a4429131.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_A1_94421917.SC4Lot
+          id: "94421917"
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_A1_94421917.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Right_9439229c.SC4Lot
+          id: 9439229c
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Right_9439229c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Left_a439238b.SC4Lot
+          id: a439238b
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Left_a439238b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Right_04391a71.SC4Lot
+          id: 04391a71
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Right_04391a71.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Left_34392689.SC4Lot
+          id: "34392689"
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Left_34392689.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Right_e43e5dd6.SC4Lot
+          id: e43e5dd6
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Right_e43e5dd6.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Left_c4395477.SC4Lot
+          id: c4395477
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Left_c4395477.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Right_b43fc835.SC4Lot
+          id: b43fc835
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Right_b43fc835.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Left_243fc8f2.SC4Lot
+          id: 243fc8f2
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Left_243fc8f2.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Right_943e8b56.SC4Lot
+          id: 943e8b56
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Right_943e8b56.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Left_743e8c86.SC4Lot
+          id: 743e8c86
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Left_743e8c86.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Right_c442965e.SC4Lot
+          id: c442965e
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Right_c442965e.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Left_a44295d0.SC4Lot
+          id: a44295d0
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Left_a44295d0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Right_1438f8bf.SC4Lot
+          id: 1438f8bf
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Right_1438f8bf.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Left_e438fac8.SC4Lot
+          id: e438fac8
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Left_e438fac8.SC4Lot
+          size: 1x1
+      name: Default
       requirements:
         rhd: false
       version: 1.2.0
     rhd:
       assets:
         - docs:
-            - KOSC Superparking
+            - KOSC Superparking/SuperParking Diagonal Modular Set.pdf
           id: simtropolis/30953-kosc-sp-modular-parking-diagonal-set#161306
           include:
             - KOSC Superparking/Diagonal Set (RHD)
-      release: 2024-08-20T10:45:45.232Z
+      lastModified: 2016-04-11T07:11:26Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Path_Diag_NoMarkings_544539b2.SC4Lot
+          id: 544539b2
+          label: PLOP_1x1_KOSC_Superparking_Path_Diag_NoMarkings_544539b2.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Dual_9438f4d6.SC4Lot
+          id: 9438f4d6
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Dual_9438f4d6.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_043e6158.SC4Lot
+          id: "043e6158"
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_043e6158.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Junction_Right_Entrance_9442527c.SC4Lot
+          id: 9442527c
+          label: PLOP_1x1_KOSC_Superparking_Diag_Junction_Right_Entrance_9442527c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Junction_Middle_Entrance_14424f65.SC4Lot
+          id: 14424f65
+          label: PLOP_1x1_KOSC_Superparking_Diag_Junction_Middle_Entrance_14424f65.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Junction_Left_Entrance_24425237.SC4Lot
+          id: "24425237"
+          label: PLOP_1x1_KOSC_Superparking_Diag_Junction_Left_Entrance_24425237.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_2x1_KOSC_Superparking_Diag_B_Inner_Turn_a438f64d.SC4Lot
+          id: a438f64d
+          label: PLOP_2x1_KOSC_Superparking_Diag_B_Inner_Turn_a438f64d.SC4Lot
+          size: 2x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B2_543e59de.SC4Lot
+          id: 543e59de
+          label: PLOP_1x1_KOSC_Superparking_Diag_B2_543e59de.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B1_7438f3ad.SC4Lot
+          id: 7438f3ad
+          label: PLOP_1x1_KOSC_Superparking_Diag_B1_7438f3ad.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Right_64438c10.SC4Lot
+          id: 64438c10
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Right_64438c10.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Left_54438875.SC4Lot
+          id: "54438875"
+          label: PLOP_1x1_KOSC_Superparking_Ortho_B_Diag_End_Left_54438875.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Right_d443d837.SC4Lot
+          id: d443d837
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Right_d443d837.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Left_94438c87.SC4Lot
+          id: 94438c87
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Top_Left_94438c87.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Right_d443d5f8.SC4Lot
+          id: d443d5f8
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Right_d443d5f8.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Left_34438d15.SC4Lot
+          id: 34438d15
+          label: PLOP_1x1_KOSC_Superparking_Ortho_A_Diag_End_Bottom_Left_34438d15.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Right_a43fc160.SC4Lot
+          id: a43fc160
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Right_a43fc160.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Left_043fc2ec.SC4Lot
+          id: 043fc2ec
+          label: PLOP_1x1_KOSC_Superparking_Diag_Joiner_Ortho_End_Left_043fc2ec.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_B_84453b90.SC4Lot
+          id: 84453b90
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_B_84453b90.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_A_c4450eca.SC4Lot
+          id: c4450eca
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Staggered_A_c4450eca.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Right_343f85cc.SC4Lot
+          id: 343f85cc
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Right_343f85cc.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_NoMarkings_943f8446.SC4Lot
+          id: 943f8446
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_NoMarkings_943f8446.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_b43f83ba.SC4Lot
+          id: b43f83ba
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Middle_b43f83ba.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Left_443f8532.SC4Lot
+          id: 443f8532
+          label: PLOP_1x1_KOSC_Superparking_Diag_Ortho_Junction_Left_443f8532.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Outer_Corner_d438f5c4.SC4Lot
+          id: d438f5c4
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Outer_Corner_d438f5c4.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Inner_Corner_8439557f.SC4Lot
+          id: 8439557f
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Inner_Corner_8439557f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A2_e43e5ac9.SC4Lot
+          id: e43e5ac9
+          label: PLOP_1x1_KOSC_Superparking_Diag_A2_e43e5ac9.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A1_9438f460.SC4Lot
+          id: 9438f460
+          label: PLOP_1x1_KOSC_Superparking_Diag_A1_9438f460.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Right_443f9683.SC4Lot
+          id: 443f9683
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Right_443f9683.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Left_843fc788.SC4Lot
+          id: 843fc788
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_B_Left_843fc788.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_A_d43f8ef8.SC4Lot
+          id: d43f8ef8
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_Ortho_End_A_d43f8ef8.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Right_e438fd29.SC4Lot
+          id: e438fd29
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Right_e438fd29.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Left_9438fbb4.SC4Lot
+          id: 9438fbb4
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_to_Ortho_B_Inner_Turn_Left_9438fbb4.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_B2_843e68f3.SC4Lot
+          id: 843e68f3
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_B2_843e68f3.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_B1_e4428c45.SC4Lot
+          id: e4428c45
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_B1_e4428c45.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_A2_a4429131.SC4Lot
+          id: a4429131
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_A2_a4429131.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_B_End_A1_94421917.SC4Lot
+          id: "94421917"
+          label: PLOP_1x1_KOSC_Superparking_Diag_B_End_A1_94421917.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Right_9439229c.SC4Lot
+          id: 9439229c
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Right_9439229c.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Left_a439238b.SC4Lot
+          id: a439238b
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_OC_Left_a439238b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Right_04391a71.SC4Lot
+          id: 04391a71
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Right_04391a71.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Left_34392689.SC4Lot
+          id: "34392689"
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_IC_Left_34392689.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Right_e43e5dd6.SC4Lot
+          id: e43e5dd6
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Right_e43e5dd6.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Left_c4395477.SC4Lot
+          id: c4395477
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_C_315_IC_Left_c4395477.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Right_b43fc835.SC4Lot
+          id: b43fc835
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Right_b43fc835.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Left_243fc8f2.SC4Lot
+          id: 243fc8f2
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_OC_Left_243fc8f2.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Right_943e8b56.SC4Lot
+          id: 943e8b56
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Right_943e8b56.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Left_743e8c86.SC4Lot
+          id: 743e8c86
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IT_Left_743e8c86.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Right_c442965e.SC4Lot
+          id: c442965e
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Right_c442965e.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Left_a44295d0.SC4Lot
+          id: a44295d0
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_to_Ortho_A_IC_Left_a44295d0.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Right_1438f8bf.SC4Lot
+          id: 1438f8bf
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Right_1438f8bf.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Left_e438fac8.SC4Lot
+          id: e438fac8
+          label: PLOP_1x1_KOSC_Superparking_Diag_A_Ortho_End_Left_e438fac8.SC4Lot
+          size: 1x1
+      name: Right-Hand Drive
+      release: 2024-09-04T10:03:15.374Z
       requirements:
         rhd: true
       version: 1.2.0
@@ -503,8 +1799,15 @@ kingofsimcity/supershk-mega-parking-textures:
     - shokthrpy
   category: textures
   dependencies:
+    - kingofsimcity/supershk-mega-parking-textures
     - shokthrpy/shk-parking-pack
   description: >-
+    *KOSC presents: SuperSHK+ FA3 Parking Textures*
+
+
+    **Introduction**
+
+
     Happy New Year! Need some irregularity in your lotting? **SuperSHK** is back with a plus and a whole assortment of FA3-aligned textures for you to play with.
 
 
@@ -536,6 +1839,19 @@ kingofsimcity/supershk-mega-parking-textures:
     **DAT 4 - Extras:** Adds medians and additional support for S-Curves from the original set.
 
 
+    **Install Instructions**
+
+
+    Drop the files in your **My Documents/SimCity 4/Plugins** folder. These should show up under the overlay texture section in the lot editor and **PIM\-X**.
+
+
+    **Dependencies**
+
+
+    **NONE.** This set is a dependency. Lotters that want to take full advantage of this set will need the [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/) and
+    base set:
+
+
     Credit to **shokthrpy** for the original SHK set. Additional thanks goes out to **rsc204 & rivit** for their invaluable work with GoFSH (and Bender) and texture replacement - this set would not be
     possible without their tools.
   images:
@@ -550,14 +1866,31 @@ kingofsimcity/supershk-mega-parking-textures:
   variants:
     default:
       assets:
-        - id: simtropolis/31006-supershk-mega-parking-textures
+        - docs:
+            - ResourceGuide.pdf
+            - RemoveList.txt
+            - README.txt
+            - PIMXGroups.txt
+          id: simtropolis/31006-supershk-mega-parking-textures
           include:
             - SP SuperSHK MEGA Textures
-        - id: simtropolis/31423-supershk-fa3-parking-textures
+        - docs:
+            - KOSC SP SuperSHK+.pdf
+          id: simtropolis/31423-supershk-fa3-parking-textures
           include:
-            - SP SuperSHK+ FA3 Textures
-      name: Original
-      version: 1.0.1
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_Transitions.dat
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_PFA3.dat
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_FA_Curbs.dat
+            - SP SuperSHK+ FA3 Textures/SuperSHK+_Extras.dat
+      lastModified: 2017-01-02T07:46:35Z
+      lots:
+        - category: landmarks
+          filename: PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot
+          id: e47ffd51
+          label: PLOP_12x12_KOSC_SPSample_e47ffd51.SC4Lot
+          size: 12x12
+      name: Default
+      version: 1.0.0
     veredas-santiaguinas:
       assets:
         - docs:
@@ -571,8 +1904,22 @@ kingofsimcity/supershk-mega-parking-textures:
       authors:
         - matias93
       dependencies:
+        - kingofsimcity/modular-parking-base-set
         - matias93/veredas-santiaguinas
+        - rsc204/mgb-terrain-grass-nam-tgn-for-gobias-sudden-valley
       description: >-
+        **AKNOWLEGDEMENTS:**
+
+
+        This mod would have fundamentally impossible to do without the work of Rivit, MGB, Gobias and KOSC.
+
+
+        I'm basically blending their creations or mimicking them, and using their software to create usable plugins.
+
+
+        **DESCRIPTION:**
+
+
         King of SimCity [recently published a repository of its SuperSHK and SuperSHK+
         textures](https://community.simtropolis.com/forums/topic/66287-koscs-relot-parking-mania/?do=findComment&comment=1649616) and taking the opportunity to expand the coverage of my sidewalk mod,
         I've downloaded it and created this custom textures, that REPLACE KOSC's ones. **Why replace?** Because it allows you to use them directly on any lot that already uses SuperSHK parkings, and
@@ -594,13 +1941,20 @@ kingofsimcity/supershk-mega-parking-textures:
         that's not necessary. As they are a replacement pack, the textures will be automatically changed on all lots that use the original textures.
 
 
-        **AKNOWLEGDEMENTS:**
+        **FILE FORMAT:**
 
 
-        This mod would have fundamentally impossible to do without the work of Rivit, MGB, Gobias and KOSC.
+        The files are updated on **7z format**, because it does wonders with repetitive bitmap files. You'll be downloading the full pack on just 3.4 Mb, while the full repository is 180 Mb. To open
+        these files, you'll need 7Zip, which is a free, open source, cross-platform, lightweight and programmable file compressor (unexplainably not the standard for everything); **[download it
+        here](http://www.7-zip.org/download.html)**. If, for any reasons, you cannot open the file or can't download 7zip, send me a PM or left a comment here and I'll upload a more compatible zip
+        version in no time ![*:D](https://community.simtropolis.com/assets/emoticons/default_9.gif ":D")
 
 
-        I'm basically blending their creations or mimicking them, and using their software to create usable plugins.
+        **DEPENDENCIES:** <-- copied from the original SuperSHK readme
+
+
+        *"None. This set will serve as a future dependency for my \[KOSC\] lots. While it is technically a standalone texture pack, [SHK Parking
+        Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/) is very, very highly recommended to take full advantage."*
 
 
         As is obvious, this mod will work but look awkward without using both [**Gobias' Sudden Valley** terrain mod](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2867) and my [**Veredas
@@ -629,8 +1983,11 @@ kingofsimcity/supershk-mega-parking-textures:
         - https://www.simtropolis.com/objects/screens/monthly_2017_01/586d70f02264c_Angostura-28Nov.1041483567048.png.42964aeb75865fc167627c4fd72e9747.png
         - https://www.simtropolis.com/objects/screens/monthly_2017_01/586d70fdd116d_Angostura-1Mayo.1041483566999.png.af1366e71b25d0fec8c31a6a52f20c06.png
         - https://www.simtropolis.com/objects/screens/monthly_2017_01/586d71042d81a_Angostura-18En.1051483567119.png.d3061929d03bbea98bcf87a50e8322c6.png
-      name: Veredas Santiaguinas
-      release: 2024-08-20T10:45:45.232Z
+      lastModified: 2024-05-27T01:37:51Z
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_01/586d755a1d3cb_Angostura-1Mayo.1041483566999.thumb.png.645236aee9e54f5902e87c29d93a09d5.png
       url: https://community.simtropolis.com/files/file/31425-m93-kosc-supershk-retextures-for-veredas-sudden-valley/
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

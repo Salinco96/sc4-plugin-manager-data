@@ -1,0 +1,141 @@
+ids2/doubletree-hotel:
+  authors:
+    - IDS2
+  category: commercial
+  dependencies:
+    - bsc/common-dependencies
+    - simfox/simfox-day-and-nite-modd
+  description: >-
+    Based on one that I stayed at a couple years back in Milwaukee, Wisconsin, this is a fairly nondescript mid-70s hotel and conference center, akin to what you would see in any sizeable American
+    city.
+
+
+    This building sits on a 7x3 lot and comes in growable and ploppable CS$$ varieties, both of which provide 728 jobs. Both Darknite and Maxisnite versions are provided, of which only one should be
+    used at a time. The Darknite version requires [Simfox's Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+
+    Dependencies:
+
+
+    [BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (for those of you unfamiliar with project
+    ZIP, I specifically only used the BSC MEGA Props - CP Vol01 component)
+
+
+    Special thanks to [@Bobelboy](https://community.simtropolis.com/profile/138427-bobelboy/) for reminding me that I still had this sitting around and had forgotten to upload it.
+    ![*;)](https://community.simtropolis.com/assets/emoticons/default_2.gif "*;&#41;")
+
+
+    Happy Labor Day, everybody. More to come soon!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/icon.png.8866aebed56954640e3827fc90ebc380.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/icon_large.jpg.d147a08a695a651a563c0848820e3112.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/day.jpg.f6459acf4d36c78b5016eeb4d42e58d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/night.jpg.e7f09205078556a7e4c585917f0eccf5.jpg
+  name: DoubleTree Hotel
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/icon_large.thumb.jpg.db0c8ce45fbcf8dcd9a97435119a62a6.jpg
+  url: https://community.simtropolis.com/files/file/36424-doubletree-hotel/
+  variants:
+    darknite:
+      assets:
+        - docs: []
+          id: simtropolis/36424-doubletree-hotel#203083
+      authors:
+        - IDS2
+      lastModified: 2024-09-03T00:53:45Z
+      lots:
+        - category: cs$$
+          filename: CS$$6_7x3_Doubletree Hotel_120b5d63.SC4Lot
+          id: 120b5d63
+          label: CS$$6_7x3_Doubletree Hotel_120b5d63.SC4Lot
+          size: 7x3
+          stage: 6
+        - category: landmarks
+          filename: PLOP_7x3_Doubletree Hotel_420a68d5.SC4Lot
+          id: 420a68d5
+          label: PLOP_7x3_Doubletree Hotel_420a68d5.SC4Lot
+          size: 7x3
+      name: Dark Nite
+      version: 1.0.0
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/36424-doubletree-hotel#203084
+      lastModified: 2024-09-03T00:53:45Z
+      lots:
+        - category: cs$$
+          filename: CS$$6_7x3_Doubletree Hotel_120b5d63.SC4Lot
+          id: 120b5d63
+          label: CS$$6_7x3_Doubletree Hotel_120b5d63.SC4Lot
+          size: 7x3
+          stage: 6
+        - category: landmarks
+          filename: PLOP_7x3_Doubletree Hotel_420a68d5.SC4Lot
+          id: 420a68d5
+          label: PLOP_7x3_Doubletree Hotel_420a68d5.SC4Lot
+          size: 7x3
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+ids2/rapson-library:
+  authors:
+    - ids2
+  category: civics
+  dependencies:
+    - bsc/common-dependencies
+    - simfox/simfox-day-and-nite-modd
+  description: >-
+    Rapson Library is an early 60s academic building based heavily on the University of Minnesota's Rapson Hall, located on the east bank of the Twin Cities campus. It is named for modernist architect
+    Ralph Rapson, who was the head of the university's architecture department from 1954 to 1984. Though Rapson was responsible for a sizeable number of modernist works, perhaps he is best known for
+    his [Riverside Plaza](https://en.wikipedia.org/wiki/Riverside_Plaza) apartment complex, which received mainstream attention when it was featured in the Mary Tyler Moore Show. To be clear, the
+    real-world Rapson Hall was not designed by Ralph Rapson, but rather by Thorshov and Cerny, another Minneapolis-based firm.
+
+
+    As the title suggests, I have modded this building as a library. One dependency is required - [Volume 1 of the Cycledogg BSC texture
+    pack](https://community.simtropolis.com/files/file/15322-bsc-texture-pack-cycledogg-v01/). As always, I have included two options for the night scene: one that fits with the game's default night
+    mode, and one that makes use of [Simfox's delightful darknite mod](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/).
+
+
+    Please don't hesitate to contact me with any questions you have or bugs you find. You can also check out my current projects
+    [here](https://community.simtropolis.com/forums/topic/44664-idss-mostly-minnesota-bats/?page=1).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_05/thumb.png.f90bdfd08e724718feeb591ec4c5bced.png
+  name: Rapson Library
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_05/thumb.thumb.png.6ceeb9e3967c8c9d021e53ff8b987af2.png
+  url: https://community.simtropolis.com/files/file/31603-rapson-library/
+  variants:
+    darknite:
+      assets:
+        - docs: []
+          id: simtropolis/31603-rapson-library#165656
+      authors:
+        - ids2
+      lastModified: 2017-05-08T07:15:12Z
+      lots:
+        - category: landmarks
+          filename: PLOP_5x4_Rapson Library_e68fdfb4.SC4Lot
+          id: e68fdfb4
+          label: PLOP_5x4_Rapson Library_e68fdfb4.SC4Lot
+          size: 5x4
+      name: Dark Nite
+      version: 1.0.0
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/31603-rapson-library#165657
+      lastModified: 2017-05-08T07:15:12Z
+      lots:
+        - category: landmarks
+          filename: PLOP_5x4_Rapson Library_96952e34.SC4Lot
+          id: "96952e34"
+          label: PLOP_5x4_Rapson Library_96952e34.SC4Lot
+          size: 5x4
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

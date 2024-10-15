@@ -2,6 +2,7 @@ leonv93/bradburry-building:
   authors:
     - leonv93
   category: co$$
+  description: CO$$; Landmark
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c09e770e350_NewCity-Feb.17001723898850.png.50058f483b29e1c3ee225300369b30f8.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c09e787f6ee_NewCity-Feb.17001723898858.png.39ae3a872a6a85c8fee5c8b07a17d35a.png
@@ -13,16 +14,19 @@ leonv93/bradburry-building:
   variants:
     default:
       assets:
-        - id: simtropolis/36397-bradburry-building
+        - docs: []
+          id: simtropolis/36397-bradburry-building
           include:
             - Bradburry Building
+      lastModified: 2024-08-17T12:59:42Z
       lots:
         - filename: Bradburry Building_53cbd685.SC4Lot
           id: 53cbd685
-          label: Bradburry Building
+          label: Bradburry Building_53cbd685.SC4Lot
         - filename: Bradburry Building_53cbf17e.SC4Lot
           id: 53cbf17e
-          label: Bradburry Building
+          label: Bradburry Building_53cbf17e.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -32,6 +36,10 @@ leonv93/burns-mansion:
   authors:
     - leonv93
   category: r$$$
+  description: |-
+    Burn's Mansion; R$$$ & Landmark; No Dependencies
+
+    [C.M. Burns Mansion.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102644)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666651125e3ca_NortheastReopolis-May.18111717981193.png.0f7bc0382e12427f4914afc3cc38230a.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6666511578e2a_NortheastReopolis-May.18111717981202.png.b5c71a9cb72a7f1995d23fcd22b9e254.png
@@ -44,9 +52,19 @@ leonv93/burns-mansion:
   variants:
     default:
       assets:
-        - id: simtropolis/36298-burns-mansion
+        - docs: []
+          id: simtropolis/36298-burns-mansion
           include:
             - C.M. Burns Mansion*
+      lastModified: 2024-06-10T01:05:50Z
+      lots:
+        - filename: C.M. Burn's House_5372332c.SC4Lot
+          id: 5372332c
+          label: C.M. Burn's House_5372332c.SC4Lot
+        - filename: C.M . Burn's Mansion_53723135.SC4Lot
+          id: "53723135"
+          label: C.M . Burn's Mansion_53723135.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -58,6 +76,7 @@ leonv93/cathedral:
   authors:
     - leonv93
   category: religion
+  description: Large Gothic Cathedral; no dependencies
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c09e0449a8e_NewCity-Feb.17001723898885.png.1d89c3487f92451fa04c03083dd0f623.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c09e09b3598_NewCity-Jan.7001723777616.png.238b0c82cd6f1742ce2564c4d8bf156f.png
@@ -69,13 +88,16 @@ leonv93/cathedral:
   variants:
     default:
       assets:
-        - id: simtropolis/36268-cathedral
+        - docs: []
+          id: simtropolis/36268-cathedral
           include:
             - Gothic Cathedral
+      lastModified: 2024-08-17T12:57:12Z
       lots:
         - filename: Cathedral_d3cbd864.SC4Lot
           id: d3cbd864
-          label: Gothic Cathedral
+          label: Cathedral_d3cbd864.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.2.0
@@ -87,6 +109,10 @@ leonv93/cletus-house:
   authors:
     - leonv93
   category: r$
+  description: |-
+    Cletus' House; R$; Landmark; No Dependencies
+
+    [Cletus' House.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102645)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666651a7d6371_Sprungver-Aug.3081717975916.png.3a58830ef6817e568506beab4d5e1e4a.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666651aae6e54_Sprungver-Jan.5131717976087.png.24e0dfa0994e6a5cdab56a3715de2361.png
@@ -99,9 +125,19 @@ leonv93/cletus-house:
   variants:
     default:
       assets:
-        - id: simtropolis/36299-cletus-house
+        - docs: []
+          id: simtropolis/36299-cletus-house
           include:
             - Cletus' House*
+      lastModified: 2024-06-10T01:08:26Z
+      lots:
+        - filename: Cletus' House_53721c9f.SC4Lot
+          id: 53721c9f
+          label: Cletus' House_53721c9f.SC4Lot
+        - filename: Cletus' House_137233f2.SC4Lot
+          id: 137233f2
+          label: Cletus' House_137233f2.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -113,6 +149,7 @@ leonv93/gold-tower:
   authors:
     - leonv93
   category: landmarks,commercial
+  description: Gold Tower; Landmark; CO$$$
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93928e690d_NewCity-Jan.2001723386619.png.553078f75b8c63361074f7dc1a08217e.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b9396f0131b_NewCity-Jan.2001723386648.png.971e75deab39bbc7f62ace10f4bf9f88.png
@@ -123,9 +160,23 @@ leonv93/gold-tower:
   variants:
     default:
       assets:
-        - id: simtropolis/36387-gold-tower
+        - docs: []
+          id: simtropolis/36387-gold-tower
           include:
             - Gold Tower
+      lastModified: 2024-08-11T22:22:38Z
+      lots:
+        - filename: Gold Tower_d3ba347f.SC4Lot
+          id: d3ba347f
+          label: Gold Tower_d3ba347f.SC4Lot
+        - filename: Gold Tower_13ba32f7.SC4Lot
+          id: 13ba32f7
+          label: Gold Tower_13ba32f7.SC4Lot
+        - category: co$$$
+          filename: Gold Tower CO$$$_53ba354d.SC4Lot
+          id: 53ba354d
+          label: Gold Tower CO$$$_53ba354d.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -135,7 +186,11 @@ leonv93/high-school:
   authors:
     - leonv93
   category: education
-  images:
+  description: |-
+    Elementary and High school; No dependencies
+
+    [High School.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102814)
+  images: &a1
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e0ef327c_Regopolis-Nov.11831718490343.png.cff125152feb00175b6d919fe27bc003.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e12abe10_Regopolis-Sep.281831718490304.png.7f8583e10bd571addf3c9e9427e2fe29.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e16163bc_Regopolis-Sep.281831718490291.png.189e6e54cb8e08bc2ddbebc7135632e9.png
@@ -146,20 +201,33 @@ leonv93/high-school:
   name: High School
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e7e651f3_Regopolis-Sep.281831718490186.thumb.png.1b78259567f144c2ff028e903cdc120e.png
-  url: https://community.simtropolis.com/files/file/36305-elementary-high-school
+  url: https://community.simtropolis.com/files/file/36305-elementary-high-school/
   variants:
     default:
       assets:
-        - id: simtropolis/36305-elementary-high-school#201740
+        - docs: []
+          id: simtropolis/36305-elementary-high-school#201740
           include:
             - High School*
+      lastModified: 2024-06-16T12:32:18Z
+      lots:
+        - filename: LargeHighSchool_537a01fd.SC4Lot
+          id: 537a01fd
+          label: LargeHighSchool_537a01fd.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/kevin-way-row-houses:
   authors:
     - leonv93
   category: residential
-  description: Kevin Way Row Houses Left and Right Lots
+  description: |-
+    Kevin Way Row Houses Left and Right Lots
+
+    No Dependency(s)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/66565b8f51683_NewCity-Jan.30001716866233.png.5a1c8ab6c4563e5b8b0fae7ec84d3b08.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/66565b918ec1e_NewCity-Jan.30001716866224.png.f2d9d0b514996f6eb3f75f478df87c17.png
@@ -171,9 +239,28 @@ leonv93/kevin-way-row-houses:
   variants:
     default:
       assets:
-        - id: simtropolis/36246-kevin-way-row-houses
+        - docs: []
+          id: simtropolis/36246-kevin-way-row-houses
           include:
             - Kevin Way Row Homes*
+      lastModified: 2024-05-28T22:33:40Z
+      lots:
+        - filename: Right Corner_d360f8d8.SC4Lot
+          id: d360f8d8
+          label: Right Corner_d360f8d8.SC4Lot
+        - filename: KRJRCA_f36136c0.SC4Lot
+          id: f36136c0
+          label: KRJRCA_f36136c0.SC4Lot
+        - filename: Ken's Row Homes (M)_d360aa84.SC4Lot
+          id: d360aa84
+          label: Ken's Row Homes (M)_d360aa84.SC4Lot
+        - filename: Ken's Row Home RC_d360fcdf.SC4Lot
+          id: d360fcdf
+          label: Ken's Row Home RC_d360fcdf.SC4Lot
+        - filename: Ken's Row Home Middle Piece_d360a8ac.SC4Lot
+          id: d360a8ac
+          label: Ken's Row Home Middle Piece_d360a8ac.SC4Lot
+      name: Default
       version: 1.2.0
   warnings:
     - id: bulldoze
@@ -183,6 +270,10 @@ leonv93/kwik-e-mart:
   authors:
     - leonv93
   category: co$$
+  description: |-
+    Kwik-E-Mart; Commercial $$; No Dependencies
+
+    [Kwik-E-Mart.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102474)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665bb8efbd027_Regopolis-Dec.171281717286166.png.da479df3598049c06a66a2095ef77a9c.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665bb906bcd5f_Regopolis-May.191291717286192.png.1d2ad75a02915786a9bde271f6035e2f.png
@@ -194,9 +285,19 @@ leonv93/kwik-e-mart:
   variants:
     default:
       assets:
-        - id: simtropolis/36274-kwik-e-mart
+        - docs: []
+          id: simtropolis/36274-kwik-e-mart
           include:
             - Kwik-E-Mart*
+      lastModified: 2024-06-02T00:14:29Z
+      lots:
+        - filename: Kwik-E-Mart_93679ebc.SC4Lot
+          id: 93679ebc
+          label: Kwik-E-Mart_93679ebc.SC4Lot
+        - filename: Kwik-E-Mart_93679711.SC4Lot
+          id: "93679711"
+          label: Kwik-E-Mart_93679711.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -208,6 +309,10 @@ leonv93/lard-lads-donuts:
   authors:
     - leonv93
   category: cs$$
+  description: |-
+    Lard Lad's Donuts; CS$$/Landmark/ No Dependencies
+
+    [Lard Lad's Donuts.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102518)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665cf29f2c038_NewCity-Jan.2001717302790.png.f826263e3cc44a19d8143c71f529051f.png
   name: Lard Lad's Donuts
@@ -217,9 +322,19 @@ leonv93/lard-lads-donuts:
   variants:
     default:
       assets:
-        - id: simtropolis/36277-lard-lads-donuts
+        - docs: []
+          id: simtropolis/36277-lard-lads-donuts
           include:
             - Lard Lad's Donuts*
+      lastModified: 2024-06-02T22:31:51Z
+      lots:
+        - filename: Lard Lad's Donuts_f368e040.SC4Lot
+          id: f368e040
+          label: Lard Lad's Donuts_f368e040.SC4Lot
+        - filename: Lard Lad's Donuts_b367e086.SC4Lot
+          id: b367e086
+          label: Lard Lad's Donuts_b367e086.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -231,6 +346,7 @@ leonv93/large-church:
   authors:
     - leonv93
   category: religion
+  description: Landmark Lot; large gothic church
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6654a032c56ca_Regopolis-Aug.111111716743481.png.32aa217938e512de6a354971244cbbe5.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6654a0358889f_Regopolis-Aug.111111716743473.png.fb4783f2680667fdff298720ebaa2e7b.png
@@ -243,9 +359,16 @@ leonv93/large-church:
   variants:
     default:
       assets:
-        - id: simtropolis/36267-large-church
+        - docs: []
+          id: simtropolis/36267-large-church
           include:
             - Church1
+      lastModified: 2024-05-27T15:04:01Z
+      lots:
+        - filename: Vetnor Ave. Parish_735f58f4.SC4Lot
+          id: 735f58f4
+          label: Vetnor Ave. Parish_735f58f4.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -255,6 +378,7 @@ leonv93/maxis-theater:
   authors:
     - leonv93
   category: cs$$$
+  description: CS$$$; Landmark
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c09f0a91d0d_NewCity-Feb.17001723898858.png.472c2550da3fced15ea89c912411fac5.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c09f0c0be89_NewCity-Feb.17001723898867.png.6b78948efb065cc11a1a1a2fe74e6689.png
@@ -265,16 +389,19 @@ leonv93/maxis-theater:
   variants:
     default:
       assets:
-        - id: simtropolis/36398-maxis-theater
+        - docs: []
+          id: simtropolis/36398-maxis-theater
           include:
             - Maxis Theater
+      lastModified: 2024-08-17T13:02:30Z
       lots:
         - filename: Maxis Theater_73cc88bd.SC4Lot
           id: 73cc88bd
-          label: Maxis Theater
+          label: Maxis Theater_73cc88bd.SC4Lot
         - filename: MaxisTheater_73cc8706.SC4Lot
           id: 73cc8706
-          label: Maxis Theater
+          label: MaxisTheater_73cc8706.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -303,9 +430,19 @@ leonv93/palazzos-apartments:
   variants:
     default:
       assets:
-        - id: simtropolis/36222-palazzos-apartments
+        - docs: []
+          id: simtropolis/36222-palazzos-apartments
           include:
             - Palazzo Apartments
+      lastModified: 2024-08-03T22:46:14Z
+      lots:
+        - filename: Palazzo Apartments_93a9a9c6.SC4Lot
+          id: 93a9a9c6
+          label: Palazzo Apartments_93a9a9c6.SC4Lot
+        - filename: Palazzo Apartments 07.19_d3a6d32c.SC4Lot
+          id: d3a6d32c
+          label: Palazzo Apartments 07.19_d3a6d32c.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.2.0
@@ -330,9 +467,22 @@ leonv93/pinkys-plaza:
   variants:
     default:
       assets:
-        - id: simtropolis/36232-pinkys-plaza
+        - docs: []
+          id: simtropolis/36232-pinkys-plaza
           include:
             - 15 Pinky's Plaza
+      lastModified: 2024-05-04T21:18:54Z
+      lots:
+        - filename: Pinky's Plaza_f3425ae1.SC4Lot
+          id: f3425ae1
+          label: Pinky's Plaza_f3425ae1.SC4Lot
+        - filename: Pinky's Plaza V15_33425cbc.SC4Lot
+          id: 33425cbc
+          label: Pinky's Plaza V15_33425cbc.SC4Lot
+        - filename: 15 Pinky's Plaza_13429152.SC4Lot
+          id: "13429152"
+          label: 15 Pinky's Plaza_13429152.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -342,6 +492,10 @@ leonv93/quigley-acres:
   authors:
     - leonv93
   category: r$$$
+  description: |-
+    Quigley Acres; Residential R$$$; No dependencies
+
+    [Quigley Acres.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102473)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f0ebafb3f_Regopolis-Jun.141311717877357.png.e0f5e8d3a20f5309358e8ed845071f84.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/6664f0ee8ca21_Regopolis-Jun.141311717877352.png.5cf2ebbf45998013a8ae9ed7c1e3dfc0.png
@@ -353,10 +507,23 @@ leonv93/quigley-acres:
   variants:
     default:
       assets:
-        - id: simtropolis/36273-quigley-acres#201644
+        - docs: []
+          id: simtropolis/36273-quigley-acres#201644
           include:
             - Quigley Acres*
+      lastModified: 2024-06-09T00:03:01Z
+      lots:
+        - filename: Quigley Acres_9370a709.SC4Lot
+          id: 9370a709
+          label: Quigley Acres_9370a709.SC4Lot
+        - filename: Quigley Acres_5370db3c.SC4Lot
+          id: 5370db3c
+          label: Quigley Acres_5370db3c.SC4Lot
+      name: Default
       version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/sim-medical-center:
   authors:
@@ -377,19 +544,22 @@ leonv93/sim-medical-center:
   variants:
     default:
       assets:
-        - id: simtropolis/36262-sim-medical-center
+        - docs: []
+          id: simtropolis/36262-sim-medical-center
           include:
             - Sim Medical Center
+      lastModified: 2024-05-24T05:06:44Z
       lots:
-        - filename: Main Building_935c03e8.SC4Lot
-          id: 935c03e8
-          label: Main Building
-        - filename: AdminBuilding_935c054c.SC4Lot
-          id: 935c054c
-          label: Admin Building
         - filename: OldBuilding_535bf9bc.SC4Lot
           id: 535bf9bc
-          label: Old Building
+          label: OldBuilding_535bf9bc.SC4Lot
+        - filename: Main Building_935c03e8.SC4Lot
+          id: 935c03e8
+          label: Main Building_935c03e8.SC4Lot
+        - filename: AdminBuilding_935c054c.SC4Lot
+          id: 935c054c
+          label: AdminBuilding_935c054c.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -417,9 +587,31 @@ leonv93/sim-university:
   variants:
     default:
       assets:
-        - id: simtropolis/36322-sim-university
+        - docs: []
+          id: simtropolis/36322-sim-university
           include:
             - University
+      lastModified: 2024-06-30T00:33:58Z
+      lots:
+        - filename: Quarter F_338a087e.SC4Lot
+          id: 338a087e
+          label: Quarter F_338a087e.SC4Lot
+        - filename: Quarter E New_d38b67d3.SC4Lot
+          id: d38b67d3
+          label: Quarter E New_d38b67d3.SC4Lot
+        - filename: Quarter D_7389fc01.SC4Lot
+          id: 7389fc01
+          label: Quarter D_7389fc01.SC4Lot
+        - filename: Quarter C_7389f834.SC4Lot
+          id: 7389f834
+          label: Quarter C_7389f834.SC4Lot
+        - filename: Quarter B_f389f36a.SC4Lot
+          id: f389f36a
+          label: Quarter B_f389f36a.SC4Lot
+        - filename: Quarter A_7389eec4.SC4Lot
+          id: 7389eec4
+          label: Quarter A_7389eec4.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -431,30 +623,38 @@ leonv93/small-school:
   authors:
     - leonv93
   category: education
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e0ef327c_Regopolis-Nov.11831718490343.png.cff125152feb00175b6d919fe27bc003.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e12abe10_Regopolis-Sep.281831718490304.png.7f8583e10bd571addf3c9e9427e2fe29.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e16163bc_Regopolis-Sep.281831718490291.png.189e6e54cb8e08bc2ddbebc7135632e9.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e19a2384_Regopolis-Sep.281831718490223.png.11420c0da2a9434e1bdbab0cfbad0636.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e1cc1a3a_Regopolis-Sep.281831718490208.png.249bb3f040ca9ef2058b47ad55345469.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e1fd16b8_Regopolis-Sep.281831718490186.png.014ae01ccafde610a1d2240970e315b1.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e231729c_Regopolis-Sep.281831718490176.png.cc3d96598590cecd0fcfe198cca91f51.png
+  description: |-
+    Elementary and High school; No dependencies
+
+    [High School.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102814)
+  images: *a1
   name: Elementary School
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1e7e651f3_Regopolis-Sep.281831718490186.thumb.png.1b78259567f144c2ff028e903cdc120e.png
-  url: https://community.simtropolis.com/files/file/36305-elementary-high-school
+  url: https://community.simtropolis.com/files/file/36305-elementary-high-school/
   variants:
     default:
       assets:
-        - id: simtropolis/36305-elementary-high-school#201739
+        - docs: []
+          id: simtropolis/36305-elementary-high-school#201739
           include:
             - Small School*
+      lastModified: 2024-06-16T12:32:18Z
+      lots:
+        - filename: Small School_f37863b5.SC4Lot
+          id: f37863b5
+          label: Small School_f37863b5.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 leonv93/smiley-sons-and-daughters-foundation:
   authors:
     - leonv93
   category: landmarks,commercial
+  description: CO$$$; Landmark
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93a0c02f29_NewCity-Jan.2001723386555.png.ecc1000a669b3907832b4d2a764f5f16.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b93a0f3ed6e_NewCity-Jan.2001723386573.png.9767ace9eefe5e8e985b6ce56d5cc686.png
@@ -466,18 +666,20 @@ leonv93/smiley-sons-and-daughters-foundation:
   variants:
     default:
       assets:
-        - id: simtropolis/36388-smiley-sons-and-daughters-foundation
+        - docs: []
+          id: simtropolis/36388-smiley-sons-and-daughters-foundation
           include:
             - Smiley Sons and Daughters(3)
+      lastModified: 2024-08-14T23:39:13Z
       lots:
+        - filename: SSDFLandmark_b3c92bbe.SC4Lot
+          id: b3c92bbe
+          label: SSDFLandmark_b3c92bbe.SC4Lot
         - category: co$$$
           filename: SSDFCO$$$_b3c92dbe.SC4Lot
           id: b3c92dbe
-          label: Growable CO$$$
-        - category: landmarks
-          filename: SSDFLandmark_b3c92bbe.SC4Lot
-          id: b3c92bbe
-          label: Landmark
+          label: SSDFCO$$$_b3c92dbe.SC4Lot
+      name: Default
       version: 1.0.2
   warnings:
     - id: bulldoze
@@ -487,6 +689,10 @@ leonv93/the-fritz:
   authors:
     - leonv93
   category: landmarks,residential
+  description: |-
+    R$$$/ Landmark
+
+    No Dependencies
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeaf67cb344_Coppert-Jan.2001722703487.png.877a3f202ed7053505841f38cbb7b75b.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66aeafb90c07a_Regopolis-Jan.22211722650136.png.b694c1fb1cd654fd314ba8036c60915d.png
@@ -499,9 +705,19 @@ leonv93/the-fritz:
   variants:
     default:
       assets:
-        - id: simtropolis/36368-the-fritz
+        - docs: []
+          id: simtropolis/36368-the-fritz
           include:
             - The Fritz
+      lastModified: 2024-08-03T22:34:57Z
+      lots:
+        - filename: The Fritz_93b9729e.SC4Lot
+          id: 93b9729e
+          label: The Fritz_93b9729e.SC4Lot
+        - filename: The Fritz_93a5afb0.SC4Lot
+          id: 93a5afb0
+          label: The Fritz_93a5afb0.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -513,6 +729,10 @@ leonv93/victorian-mansion:
   authors:
     - leonv93
   category: r$$$
+  description: |-
+    Victorian Mansion; no dependencies
+
+    [100 Vetnor Ave.zip](//community.simtropolis.com/applications/core/interface/file/attachment.php?id=102472)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1fe415e33_Ascott-Feb.1061718491515.png.b79c1d24955f3b429e5a723b42fc3ddb.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/666e1fe5f35f3_Ascott-Feb.1061718491544.png.900befed5299cd00338809d64dd24500.png
@@ -525,9 +745,19 @@ leonv93/victorian-mansion:
   variants:
     default:
       assets:
-        - id: simtropolis/36272-victorian-mansion
+        - docs: []
+          id: simtropolis/36272-victorian-mansion
           include:
             - Victorian House*
+      lastModified: 2024-06-15T23:12:55Z
+      lots:
+        - filename: Victorian Mansion_53762bd2.SC4Lot
+          id: 53762bd2
+          label: Victorian Mansion_53762bd2.SC4Lot
+        - filename: Victorian House_537a0c3f.SC4Lot
+          id: 537a0c3f
+          label: Victorian House_537a0c3f.SC4Lot
+      name: Default
       requirements:
         darknite: false
       version: 1.1.1

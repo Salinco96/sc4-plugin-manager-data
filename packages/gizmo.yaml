@@ -3,6 +3,21 @@ gizmo/day-night-mod:
     - Gizmo
   category: graphics,overrides
   description: >-
+    **NOTE:** This file, by **gizmo28**, was originally hosted on **Gizmo's SimCity 4 Mods**, which has been non-functional since January 2019. It has been uploaded to the LEX in good faith to restore
+    access and availability, following reasonable attempts to contact the original author. Further details can be found on the appropriate thread in the [SC4 Community Preservation and Access
+    Board](http://sc4devotion.com/forums/index.php?topic=17746.msg517075;topicseen#msg517075) on the SC4 Devotion Forums. In the absence of the original author, technical support will be provided by
+    Preservation and Access (P&A) Project on the previously linked board.
+
+
+    This file is packaged as a .zip archive, and may be easily opened on any platform.
+
+
+    * * *
+
+
+    **Details/Development**
+
+
     This mod involved editing the effects directory and numerous FSH files, 3d models and a few exemplars. This was a best effort mod, as some things can't be fixed as the main exe might be
     controlling them, this can be seen with the lights, the brightness can only be raised to a certain point at night. It also involved hex editing a few animated 3d models which took a long time to
     do, and also was a best effort attempt. If you like the mod then use it, if you don't then no one forcing you to use it, **I WILL NOT be changing anything on this mod, it's final in regards to the
@@ -13,6 +28,15 @@ gizmo/day-night-mod:
 
 
     (Possible sources of conflicts might include water texture mods, mods that edited the lighting and terrain exemplar properties, and mods and BATS that use custom lights)
+
+
+    **Installation**
+
+
+    To install this mod, put the extracted file or folder into your C:My DocumentsSimCity 4Plugins folder and follow any directions above, if any were listed.
+
+
+    To uninstall the mod, simply move or delete the file or folder you extracted from your C:My DocumentsSimCity 4Plugins folder.
   features:
     - darknite
   name: Day-Night Mod
@@ -22,10 +46,14 @@ gizmo/day-night-mod:
     default:
       assets:
         - docs:
-            - Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes/Read Me_Day-Night Mod.htm
+            - ~Documents/Gizmo_Readmes/Modded Night.png
+            - ~Documents/Gizmo_Readmes/Default Night.png
           id: sc4evermore/62-day-night-mod-by-gizmo28
           include:
-            - Gizmo/Day-Night Mod*
+            - Gizmo/Day-Night Mod v2.0/Day-Night Mod v2.0.dat
+      lastModified: 2023-07-29T03:58:13-07:00
+      name: Default
       url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/62-day-night-mod-by-gizmo28
       version: 2.0.0
 
@@ -41,10 +69,13 @@ gizmo/ground-fog-effect:
     default:
       assets:
         - docs:
-            - ~Documents/Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes/Read Me_Ground Fog.htm
+            - ~Documents/Gizmo_Readmes/fog.jpg
           id: sc4evermore/63-ground-fog-effect-by-gizmo28
           include:
-            - Gizmo/Ground Fog*
+            - Gizmo/Ground Fog v1.0/GroundFog-V1.dat
+      lastModified: 2023-07-27T11:59:42-07:00
+      name: Default
       version: 1.0.0
 
 gizmo/street-rr-gate-replacement-mod:
@@ -57,6 +88,8 @@ gizmo/street-rr-gate-replacement-mod:
     All_Street_RR_Gates_to_Sign Folder: Changes all Crossing gates to RR Xing Signs.
 
     Unzoned-Agricultural_Streets_to_Sign Folder: Changes gates in Agricultural zones and on unzoned land to RR Xing Signs.
+
+    ![rrgate](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/rrgate.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/rrgate.jpg
   name: Street-Railway Gate Replacement Mod
@@ -67,11 +100,14 @@ gizmo/street-rr-gate-replacement-mod:
     default:
       assets:
         - docs:
-            - Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes/rrgate.jpg
+            - ~Documents/Gizmo_Readmes/Read Me_Street-RR Gate Replacement Mod.htm
           id: sc4evermore/128-gizmo-street-rr-gate-replacement-mod
           include:
-            - All_Street_RR_Gates_to_Sign
-      name: All Streets
+            - Gizmo/Street-RR Gate Replacement Mod/Unzoned-Agricultural_Streets_to_Sign/Street_RR_Arms_Replacement_Mod.dat
+            - Gizmo/Street-RR Gate Replacement Mod/All_Street_RR_Gates_to_Sign/All_Street_RR_Arms_Replacement_Mod.dat
+      lastModified: 2023-08-17T12:21:29-07:00
+      name: Default
       version: 1.0.0
     rural-only:
       assets:
@@ -132,17 +168,56 @@ gizmo/train-props:
     default:
       assets:
         - docs:
-            - Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes/Read Me_Gizmos Train Props Collection.htm
+            - ~Documents/Gizmo_Readmes/Gizmo - Train Props Collection v1_cleanitol.txt
+            - ~Documents/Gizmo_Readmes/images/union pacific train props v2.jpg
+            - ~Documents/Gizmo_Readmes/images/st member train props v10.jpg
+            - ~Documents/Gizmo_Readmes/images/south pacific train props v2.jpg
+            - ~Documents/Gizmo_Readmes/images/scc train props v2.jpg
+            - ~Documents/Gizmo_Readmes/images/rocky road train props v2.jpg
+            - ~Documents/Gizmo_Readmes/images/river haven train props v10.jpg
+            - ~Documents/Gizmo_Readmes/images/rio grande train props v4.jpg
+            - ~Documents/Gizmo_Readmes/images/name brand train props v6.jpg
+            - ~Documents/Gizmo_Readmes/images/misc train props v9.jpg
+            - ~Documents/Gizmo_Readmes/images/Maxis Train Props v5.jpg
+            - ~Documents/Gizmo_Readmes/images/csx train props v3.jpg
+            - ~Documents/Gizmo_Readmes/images/conrail train props v2.jpg
+            - ~Documents/Gizmo_Readmes/images/canadian pacific rail train props v2.jpg
+            - ~Documents/Gizmo_Readmes/images/bn train props v4.jpg
+            - ~Documents/Gizmo_Readmes/images/bay line train props v3.jpg
+            - ~Documents/Gizmo_Readmes/images/amtrak train props v2.jpg
           id: sc4evermore/66-gizmo-train-props-collection
           include:
-            - Gizmo
+            - Gizmo/Union Pacific Train Props v2.0/UnionPacific-Train Props v2.0.dat
+            - Gizmo/ST Member Train Props v10.0/ST-Member-Train Props v10.0.dat
+            - Gizmo/South Pacific Train Props v2.0/SouthPacific-Train Props v2.0.dat
+            - Gizmo/SCC Train Props v2.0/SCC-Train Props v2.0.dat
+            - Gizmo/Rocky Road Train Props v2.0/RockyRoad-Train Props v2.0.dat
+            - Gizmo/River Haven Train Props v10.0/RiverHaven-Train Props v10.0.dat
+            - Gizmo/Rio Grande Train Props v4.0/RioGrande-Train Props v4.0.dat
+            - Gizmo/Name Brand Train Props v6.0/NameBrand-Train Props v6.0.dat
+            - Gizmo/Misc Train Props v9.0/Misc-Train Props v9.0.dat
+            - Gizmo/Maxis Train Props v5.0/Maxis Train Props v5.dat
+            - Gizmo/CSX Train Props v3.0/CSX-Train Props v3.0.dat
+            - Gizmo/ConRail Train Props v2.0/ConRail-Train Props v2.0.dat
+            - Gizmo/Canadian Pacific Rail Train Props v2.0/CanadianPacificRail-Train Props v2.0.dat
+            - Gizmo/BN Train Props v4.0/BN-Train Props v4.0.dat
+            - Gizmo/BayLine Train Props v3.0/BayLine-TraincarProps-V3.dat
+            - Gizmo/Amtrak Train Props v2.0/Amtrak-Train Props v2.0.dat
+      lastModified: 2023-07-27T11:52:36-07:00
+      name: Default
       version: 1.0.0
 
 gizmo/vehicle-props:
   authors:
     - Gizmo
   category: props
-  description: This mod adds all the default UDI vehicles, as props to the lot editor.
+  description: >-
+    This mod adds all the default UDI vehicles, as props to the lot editor.
+
+
+    The older, but still used **Vehicle_Props-V3.dat** file, as a dependency for many contents all over the exchanges has been merged with the later recommended **Vehicle Props v4.0.dat** and now they
+    form the <ins>**Vehicle Props v5.0.dat**</ins>. Bear in mind that these props are the very same apart from the Instance IDs.
   name: Gizmo Vehicle Props
   release: 2024-08-19T09:13:11.692Z
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/59-gizmo-vehicle-props
@@ -150,10 +225,13 @@ gizmo/vehicle-props:
     default:
       assets:
         - docs:
-            - Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes/vehicles.jpg
+            - ~Documents/Gizmo_Readmes/Read Me_Vehicle Props.htm
           id: sc4evermore/59-gizmo-vehicle-props
           include:
-            - Gizmo/Vehicle Props*
+            - Gizmo/Vehicle Props v5.0/Vehicle Props v5.0.dat
+      lastModified: 2023-07-25T08:33:08-07:00
+      name: Default
       version: 5.0.0
 
 gizmo/weather-effects:
@@ -161,6 +239,21 @@ gizmo/weather-effects:
     - Gizmo
   category: graphics
   description: >-
+    **NOTE:** This file, by **gizmo28**, was originally hosted on **Gizmo's SimCity 4 Mods**, which has been non-functional since January 2019. It has been uploaded to the LEX in good faith to restore
+    access and availability, following reasonable attempts to contact the original author. Further details can be found on the appropriate thread in the [SC4 Community Preservation and Access
+    Board](http://sc4devotion.com/forums/index.php?topic=17746.msg517075;topicseen#msg517075) on the SC4 Devotion Forums. In the absence of the original author, technical support will be provided by
+    Preservation and Access (P&A) Project on the previously linked board.
+
+
+    This file is packaged as a .zip archive, and may be easily opened on any platform.
+
+
+    * * *
+
+
+    **Details**
+
+
     This mod is a effect placed on a lot that has to be plopped in your city, the effect starts randomly after the first of year. If you don't see the clouds/rain at all after that, you may have to
     bulldoze the lot and place it somewhere else as the effect may be out of bounds, this isn't something that I have control over since the effect is on a lot and has no way of running on its own.
 
@@ -212,6 +305,15 @@ gizmo/weather-effects:
     | --- | --- |
 
     | Requirements: | Power, water and road connections. |
+
+
+    **Installation**
+
+
+    To install this mod, put the extracted file or folder into your C:My DocumentsSimCity 4Plugins folder and follow any directions above, if any were listed.
+
+
+    To uninstall the mod, simply move or delete the file or folder you extracted from your C:My DocumentsSimCity 4Plugins folder.
   name: Weather Effect Mod
   release: 2024-08-19T09:13:11.692Z
   url: https://www.sc4evermore.com/index.php/downloads/download/38-other-mods/65-weather-effects-mod-by-gizmo28
@@ -219,8 +321,11 @@ gizmo/weather-effects:
     default:
       assets:
         - docs:
-            - ~Documents/Gizmo_Readmes
+            - ~Documents/Gizmo_Readmes/weather.png
+            - ~Documents/Gizmo_Readmes/Read Me_Weather Effect Mod.htm
           id: sc4evermore/65-weather-effects-mod-by-gizmo28
           include:
-            - Gizmo/Weather Effect Mod*
+            - Gizmo/Weather Effect Mod v1.0/Weather Effect MOD v1.0.dat
+      lastModified: 2023-07-29T03:58:03-07:00
+      name: Default
       version: 1.0.0

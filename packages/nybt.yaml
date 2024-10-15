@@ -95,11 +95,10 @@ nybt/essentials:
   variants:
     default:
       assets:
-        - docs:
-            - readme*
-          id: simtropolis/22916-nybt-essentials
+        - id: simtropolis/22916-nybt-essentials
           include:
             - NYBT_essentials.dat
+      lastModified: 2011-06-24T08:00:57Z
       url: https://community.simtropolis.com/files/file/22916-nybt-essentials/
       version: 2.0.0
 
@@ -130,6 +129,7 @@ nybt/query-replace:
                 new-skyline: true
               path: zz_NYBT_essentials_new_skyline.dat
             - NYBT_maxis_query_replace.dat
+      lastModified: 2011-06-24T08:00:57Z
       options:
         - default: true
           description: The standard NYC skyline can be changed into the new one, including new WTC complex
@@ -146,8 +146,7 @@ nybt/residentials-pack:
   dependencies:
     - nybt/essentials
   description: >-
-    The SC4D LEX Legacy - NYBT Residentials Pack contains the Residential BATs released by the New York BAT Team (NYBT) on the former SC4 Devotion LEX. This is the Maxis Nite edition, for those not
-    using a Day-Night Mod.
+    The SC4D LEX Legacy - NYBT Residentials Pack contains the Residential BATs released by the New York BAT Team (NYBT) on the former SC4 Devotion LEX.
 
 
     **CONTENTS**
@@ -162,18 +161,6 @@ nybt/residentials-pack:
     - Kingsbridge Apartments by Aaron Graham
 
     - Tapscott Houses by Aaron Graham
-
-
-    **DEPENDENCIES**
-
-
-    - [NYBT Essentials](https://community.simtropolis.com/files/file/22916-nybt-essentials/)
-
-
-    **COMPATIBILITY**
-
-
-    This download is only compatible with SimCity 4 "Rush Hour" or SimCity 4 Deluxe.
 
 
     **CREDITS**
@@ -202,8 +189,12 @@ nybt/residentials-pack:
           id: sc4evermore/161-sc4d-lex-legacy-nybt-residentials-pack-darknite-version
           include:
             - NYBT/Aaron Graham
+      images:
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day.jpg
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Dark Night.jpg
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day0.jpg
+      lastModified: 2023-09-24T23:05:49-07:00
       name: Dark Nite
-      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Day.jpg
@@ -216,7 +207,7 @@ nybt/residentials-pack:
           id: sc4evermore/162-sc4d-lex-legacy-nybt-residentials-pack-maxisnite-edition
           include:
             - NYBT/Aaron Graham
-      name: Maxis Nite
+      lastModified: 2023-09-24T23:07:57-07:00
       requirements:
         darknite: false
       version: 1.0.0

@@ -7,42 +7,104 @@ girafe/4-rue-des-lilas:
     - cycledogg/mega-props-vol01
     - cycledogg/textures-vol01
     - girafe/carpack
-    - girafe/flora-pack # Narcissus, Lindens, Subalpine firs
-  description: |-
+    - girafe/flora-pack
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This package includes day, maxisnite and darknite version of 4 rue des Lilas.
+
 
     For LOTters, the LOT is available in Lot Editor, under the name: R$$2_2x2_Grfe_4_rue_des_Lilas.
 
+
     This package includes few props:
 
-    - Grfe_barbecue
 
-    - Grfe_mailbox
+    \- Grfe_barbecue
 
-    - Grfe_stone_small_wall_8x2
+
+    \- Grfe_mailbox
+
+
+    \- Grfe_stone_small_wall_8x2
+
+
+    \*\*As of v2 (version 2) because of the creation of the collective SC4D LEX Legacy - BSC Common Dependencies compilation, the formerly included props have been taken out and restored in the
+    mentioned dependency pack. The file names stayed the same (see below the dependency section).
+
 
     Special thanks to **VIP / SC4 devotion members for their support**.
 
+
     ### LOT Details and information
 
+
     |     |     |
+
     | --- | --- |
+
     | LOT size | (R$$) 2x2 |
+
     | Building style | Building: residential, R$$, Style: Euro |
+
     | Growth stages | 2,  |
+
     | Capacity stages | R$: 24; R$$: 15 |
+
     | Buldoze cost | 147$ |
+
     | Worth | 147 |
+
     | Max. Fire stage | 2   |
+
     | Flammability | 40  |
+
     | Power consumption | 1   |
+
     | Water consumption | 2   |
+
     | Air pollution | 1   |
+
     | Water pollution | 1   |
+
     | Garbage pollution | 4   |
+
     | Construction time | 14  |
 
+
+    ### INSTALLATION
+
+
+    **Installation:** copy/extract the **BSC** parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.**Choose ONE from the two subfolders in the 4 rue des Lilas folder: either DN Model (dark/true-night) or MN Model (maxis night) and remove the one which you do NOT wish to
+    use.**
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards
+
+
+    ### Dependencies:
+
+
+    - [SC4D LEX Legacy - BSC Common Dependencies v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (or above)
+        - BSC Essentials
+        - BSC MEGA Props CP Vol01
+        - BSC-VIP Girafe Urbanpack (CarPack vol04) vol01 - this contains now the Grfe_Props_Pack_4_rue_des_Lilas.dat file
+        - BSC-VIP Girafe Carpack vol03 v2
+
+    - - BSC TexturePack Cycledogg V01b
+
+
+    - [SC4D LEX Legacy - BSC VIP Girafe Flora Pack V3](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+        - BSC-VIP Girafe Narcissus
+        - BSC-VIP Girafe Lindens
+        - BSC-VIP Girafe Subalpine firs
+
+    - [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - if you are using the DN (Dark Night/True Night) models
+
+
     Note: run 1 year before timed props work correctly.
+
+     ![Icon_4_rue_des_Lilas_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_4_rue_des_Lilas_1.jpg)![Icon_4_rue_des_Lilas_22](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_4_rue_des_Lilas_2.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_4_rue_des_Lilas_1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_4_rue_des_Lilas_2.jpg
@@ -67,19 +129,259 @@ girafe/4-rue-des-lilas:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/BSC_Readmes/girafe/readme_4_rue_des_Lilas.html
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_4_rue_des_Lilas_2.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_4_rue_des_Lilas_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
           exclude:
             - DN Model
           id: sc4evermore/220-bsc-vip-girafe-4-rue-des-lilas-v2
           include:
             - BSC/girafe/4 rue des Lilas
-      name: Maxis Nite
+      lastModified: 2024-01-22T07:22:02-08:00
+      lots:
+        - filename: R$$2_2x2_Grfe_4_rue_des_Lilas_fedb4ec4.SC4Lot
+          id: fedb4ec4
+          label: R$$2_2x2_Grfe_4_rue_des_Lilas_fedb4ec4.SC4Lot
+          size: 2x2
+          stage: 2
+        - filename: R$$2_2x2_Grfe_4_rue_des_Lilas_3f521521.SC4Lot
+          id: 3f521521
+          label: R$$2_2x2_Grfe_4_rue_des_Lilas_3f521521.SC4Lot
+          size: 2x2
+          stage: 2
+      name: Default
       requirements:
         darknite: false
       version: 2.0.0
   warnings:
     - id: bulldoze
       on: disable
+
+girafe/bsc-vip-girafe-carpack-vol-3-remastered:
+  authors:
+    - girafe
+  category: dependencies
+  description: >-
+    Carpack vol. 3 remastered by Girafe
+
+
+    This is a props pack that regroups car models in 45° & 90° degree version (Carpack vol. 3). Car models are similar to the Carpack vol.3 but their size have been adjusted to 120% to real size.
+    Colors are now matching real model too. This remastered pack matches Carpack vol. 1&2 remastered.
+
+
+    For LOTters, these props are available in Lot Editor Props Section's, under the name:
+
+
+    - **Grfe_(name of constructor)\_(name of model)**
+
+
+    Special thanks to **BSC** **/ VIP Members**.
+
+
+    LOT Details and information
+
+
+    Carpack vol.3 remastered:
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Constructor: | Model: |
+
+    | Audi | Q7  |
+
+    | Citroen | DS3 |
+
+    | Mercedes | ClassA |
+
+    | Mercedes | SLK |
+
+    | Ford | Focus |
+
+    | Renault | Twingo RS2 |
+
+    | Opel | Corsa |
+
+    | Seat | Ibiza |
+
+    | Renault | Laguna |
+
+    | Lamborghini | Reventon |
+
+
+    Compatibility
+
+
+    This download is only compatible with SimCity 4 Rush Hour or SimCity 4 Deluxe.
+
+
+    Dependencies
+
+
+    No dependency.
+
+
+    Notes about Nightlighting Effects
+
+
+    Night light fix: you will not see any lighting effects on any custom buildings unless these two updates are installed. First, install the [EP1-Update 1
+    1.1.638](http://sc4devotion.com/forums/index.php?page=7) for Rush Hour/SimCity 4 Deluxe to see nightlights. Then install the [SC4-Update 1.1.640.](http://sc4devotion.com/forums/index.php?page=14)
+    You may have to accept the End User Licence Agreement.
+
+
+    Disclaimer
+
+
+    The usage of this download is on your own risk. I try to test my mod extensively, so they should work properly, but errors may still exist. Feel free to modify the mod for yourself and show them
+    in your city journals, but please don't distribute them without asking first.
+
+
+    Credits & Feedback
+
+
+    Thank you all for having downloaded this mod, I hope it will give you satisfaction. For comments, questions and/or support, please see [my thread in
+    Simtropolis.](https://community.simtropolis.com/forums/topic/37955-bsc-vip-girafes-skills-on-the-bat/)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e1c09aa2d70_Image_carpackvol.3remastered.jpg.26f0d1952945ca3ea9b8eb0824c57bc6.jpg
+  name: BSC-VIP Girafe Carpack vol. 3 remastered
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/66e1c161aaa42_Image_carpackvol.3remastered.thumb.jpg.5da05aa2c2ad846027e3ad277a889157.jpg
+  url: https://community.simtropolis.com/files/file/36441-bsc-vip-girafe-carpack-vol-3-remastered/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/Images/Banniere_VIP.jpg
+            - _Documents/Images/Icon_carpack vol. 3 remastered.jpg
+            - _Documents/readme_carpack vol. 3 remastered.html
+          id: simtropolis/36441-bsc-vip-girafe-carpack-vol-3-remastered
+          include:
+            - BSC/girafe/Carprops Vol. 3 remastered.dat
+      lastModified: 2024-09-11T16:12:17Z
+      name: Default
+      version: 1.0.0
+
+girafe/bsc-vip-girafe-plane-trees:
+  authors:
+    - Girafe
+  category: graphics
+  description: >-
+    Plane trees by Girafe
+
+
+    This is a set of plane trees flora for the mayor menu. You can find these creations at the beginning of the list of this menu. This plane trees series includes evergreen & seasonal versions.
+
+
+    These trees are available in Lot Editor props section under the name:
+
+
+    - Grfe_plane_tree...
+
+
+    The LE and MM props have been datpacked into two files: Grfe_props_pack_LE_plane_trees.dat (for the Lot Editor files) and Grfe_props_pack_MM_plane_trees.dat (for the MMPs).
+
+
+    Special thanks to Orange, Simfox, Badsim, Carl and all BSC members.
+
+
+    MOD Details and information
+
+
+    Mayor mode version / props
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Menu position | UP mayor menu |
+
+    | Plop cost | $ 0 |
+
+    | Buldoze cost | $ 0 |
+
+
+    Note: for fitting with other seasonal items, props need to be planted the 1st September.
+
+
+    We do not recommand you to use seasonal trees on growable LOTs.
+
+
+    We do not recommand you to use the props located in Flora's section under the LE.
+
+
+    Compatibility
+
+
+    This download is only compatible with SimCity 4 Rush Hour or SimCity 4 Deluxe.
+
+
+    Installation
+
+
+    **Installation:** copy/extract the BSC parent folder into your plugins. If you extracted the \_Documents folder into your plugins, too, it's highly recommended to keep it, but move it out of the
+    Plugins folder.
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    Dependencies
+
+
+    There is one dependency concerning the flora tuning parameters:
+
+
+    [BSC Seasonal Flora Patch for All Terrain Mods](http://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2612)
+
+
+    Notes about Nightlighting Effects
+
+
+    Night light fix: you will not see any lighting effects on any custom buildings unless these two updates are installed. First, install the [EP1-Update 1
+    1.1.638](http://sc4devotion.com/forums/index.php?page=7) for Rush Hour/SimCity 4 Deluxe to see nightlights. Then install the [SC4-Update 1.1.640.](http://sc4devotion.com/forums/index.php?page=14)
+    You may have to accept the End User Licence Agreement.
+
+
+    Disclaimer
+
+
+    The usage of this download is on your own risk. I try to test my mod extensively, so they should work properly, but errors may still exist. Feel free to modify the mod for yourself and show them
+    in your city journals, but please don't distribute them without asking first.
+
+
+    Credits & Feedback
+
+
+    Thank you all for having downloaded this mod, I hope it will give you satisfaction. For comments, questions and/or supports, please see [my thread in
+    SC4Devotion.](http://sc4devotion.com/forums/index.php?topic=8378.0)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_evergreen.jpg.89dda09e4ec28ab2f153cbca05fe5b9d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_seasonal.jpg.d7e6634fd83e59feb37021016d3e80be.jpg
+  name: BSC-VIP Girafe Plane trees
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_evergreen.thumb.jpg.26c0b378e0b1111d411ba01923c2bcc2.jpg
+  url: https://community.simtropolis.com/files/file/36421-bsc-vip-girafe-plane-trees/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/Images/Banniere_VIP.jpg
+            - _Documents/Images/Icon_evergreen.jpg
+            - _Documents/Images/Icon_seasonal.jpg
+            - _Documents/readme_plane_trees.html
+          id: simtropolis/36421-bsc-vip-girafe-plane-trees
+          include:
+            - BSC/girafe/Plane trees/Grfe_Plane_trees_evergreen.dat
+            - BSC/girafe/Plane trees/Grfe_Plane_trees_seasonal.dat
+            - BSC/girafe/Plane trees/Grfe_props_pack_LE_plane_trees.dat
+            - BSC/girafe/Plane trees/Grfe_props_pack_MM_plane_trees.dat
+      lastModified: 2024-08-31T18:44:59Z
+      name: Default
+      version: 1.0.0
 
 girafe/carpack:
   authors:
@@ -106,29 +408,73 @@ girafe/cb21-tower:
     - Girafe
     - Orange
   category: landmarks,commercial
-  description: |-
+  dependencies:
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This package includes darknite and maxis night version of the CB21 Tower located in La Defense in Paris, France.
+
 
     For LOTters, these LOTs are available in Lot Editor, under the name: **PLOP_5x4_CB21_Tower.**
 
+
     Special thanks to Orange for modding, **BSC** **/ Simtropolis Members**...
+
 
     ### LOT Details and information:
 
+
     |     |     |
+
     | --- | --- |
+
     | Lot size: | 5x4 |
+
     | Menu position: | Building: Landmark CO$$$ |
+
     | Jobs: | CO$$ 7204 CO$$$ 5039 |
+
     | Plop cost: | § 32.578 |
+
     | Bulldoze cost: | § 2083 |
+
     | Monthly cost: | \-  |
+
     | Max fire stages: | 5   |
+
     | Power consumption: | 169 |
+
     | Water consumption: | 1815 |
+
     | Air pollution: | 25/6 |
+
     | Water pollution: | 25/7 |
+
     | Garbage pollution: | 10  |
+
+
+    ### Installation:
+
+
+    **Installation:** Copy/Extract the **BSC** folder into your plugins (let it merge with other other folder if you already have BSC or BSC/girafe folders in your plugins. If you extracted the
+    *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+
+    **Choose ONE from the two subfolders in the CB21 Tower folder: either DN Model (dark/true-night) or MN Model (maxis night) and remove the one which you do NOT wish to use.**
+
+
+    Bear in mind, you can find two \*.sc4desc files. Those are building props, but since the IIDs of the two different night version models are the same these props are duplicates (**in their case the
+    maxisnite/darknite designation doesn't have any relevance**).
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    ### Dependencies:
+
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - if you are using the DN (Dark Night/True Night) models
+
+     ![Icon_CB21_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_1.jpg)![Icon_CB21_22](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_2.jpg)![Icon_CB21_33](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_3.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_CB21_2.jpg
@@ -154,13 +500,24 @@ girafe/cb21-tower:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/BSC_Readmes/girafe/readme_CB21_Tower.html
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_CB21_3.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_CB21_2.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_CB21_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
           exclude:
             - DN Model
           id: sc4evermore/223-bsc-vip-girafe-cb21-tower
           include:
             - BSC/girafe/CB21 Tower
-      name: Maxis Nite
+      lastModified: 2024-01-22T07:51:47-08:00
+      lots:
+        - category: landmarks
+          filename: PLOP_5x4_CB21_Tower_dc4ef67b.SC4Lot
+          id: dc4ef67b
+          label: PLOP_5x4_CB21_Tower_dc4ef67b.SC4Lot
+          size: 5x4
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -178,48 +535,93 @@ girafe/chalet-edelweiss:
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
     - cycledogg/textures-vol01
-    - girafe/flora-pack # Subalpine firs
-  description: |-
+    - girafe/flora-pack
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This package includes darknite / maxisnite growable version of the Chalet Edelweiss.
+
 
     For LOTters, the LOT is available in Lot Editor, under the name: **CS$$2_4x4_Grfe_Edelweis.**
 
+
     Special thanks to **Mattb325** for the modding and lotting, TSC **/ Simtropolis / SC4 devotion members** for their support.
+
 
     ### LOT Details and information
 
+
     |     |     |
+
     | --- | --- |
+
     | Lot size: | 4x4 |
+
     | Building style: | Building: commercial, building CS$$, Style: Euro |
+
     | Growth stages: | 2   |
+
     | Capacity satisfied: | CS$: 342, C$$: 88 |
+
     | Bulldoze cost: | 229$ |
+
     | Worth: | 229 |
+
     | Max. Fire stage: | 3   |
+
     | Flammability: | 40  |
+
     | Power consumption: | 7   |
+
     | Water consumption: | 86  |
+
     | Air pollution: | 3   |
+
     | Water pollution: | 2   |
+
     | Garbage pollution: | 4   |
+
     | Construction time: | 22  |
+
+
+    ### Installation:
+
+
+    **Installation:** Copy/Extract the **BSC** folder into your plugins (let it merge with other other folder if you already have BSC or BSC/girafe folders in your plugins.
+
+
+    **Choose ONE from the two subfolders in the Chalet Edelweiss folder: either DN Model (dark/true-night) or MN Model (maxis night) and remove the one which you do NOT wish to use.**
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
 
     ### Dependencies:
 
+
     [SC4D LEX Legacy - BSC Common Dependencies v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
 
     BSC Essentials
 
+
     BSC MEGA Props CP Vol01
+
 
     BSC MEGA Props CP Vol02
 
+
     BSC TexturePack Cycledogg V01b
+
 
     [SC4D LEX Legacy - BSC VIP Girafe Flora Pack V3](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
 
+
     BSC-VIP Girafe Subalpine firs
+
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - if you are using the DN (Dark Night/True Night) models
+
+     ![Image_Chalet_Edelweiss_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_Chalet_Edelweiss_1.jpg)![Image_Chalet_Edelweiss_22](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_Chalet_Edelweiss_2.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_Chalet_Edelweiss_1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_Chalet_Edelweiss_2.jpg
@@ -244,13 +646,23 @@ girafe/chalet-edelweiss:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/BSC_Readmes/girafe/readme_Chalet_Edelweiss.html
+            - ~Documents/BSC_Readmes/girafe/Images/Image_Chalet_Edelweiss_2.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Image_Chalet_Edelweiss_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
           exclude:
             - DN Model
           id: sc4evermore/222-bsc-vip-girafe-chalet-edelweiss
           include:
             - BSC/girafe/Chalet Edelweiss
-      name: Maxis Nite
+      lastModified: 2024-01-22T07:36:51-08:00
+      lots:
+        - filename: CS$$2_4x4_Grfe_Edelweiss_7d959db7.SC4Lot
+          id: 7d959db7
+          label: CS$$2_4x4_Grfe_Edelweiss_7d959db7.SC4Lot
+          size: 4x4
+          stage: 2
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -264,28 +676,66 @@ girafe/edf-tower:
     - Jmyers2043
     - Mattb325
   category: landmarks,commercial
-  description: |-
+  dependencies:
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This package includes maxisnite and darknite versions of the EDF Tower located in La Défense in Paris, France.
+
 
     For LOTters, these LOTs are available in Lot Editor, under the name: **PLOP_6x3_EDF_Tower.**
 
+
     Special thanks to Jmyers2043 & Mattb325 for modding, **BSC** **/ Simtropolis Members**...
+
 
     ### LOT Details and information:
 
+
     |     |     |
+
     | --- | --- |
+
     | Lot size: | 6x3 |
+
     | Menu position: | Building: Landmark CO$$$ |
+
     | Jobs: | CO$$ 5285 CO$$$ 3697 |
+
     | Plop cost: | § 26322 |
+
     | Bulldoze cost: | § 1683 |
+
     | Max fire stages: | 5   |
+
     | Power consumption: | 144 |
+
     | Water consumption: | 1557 |
+
     | Air pollution: | 21  |
+
     | Water pollution: | 21  |
+
     | Garbage pollution: | 8   |
+
+
+    ### Installation:
+
+
+    **Installation:** Copy/Extract the **BSC** folder into your plugins (let it merge with other other folder if you already have BSC or BSC/girafe folders in your plugins.
+
+
+    **Choose ONE from the two subfolders in the EDF Tower folder: either DN Model (dark/true-night) or MN Model (maxis night) and remove the one which you do NOT wish to use.**
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    ### Dependencies:
+
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - if you are using the DN (Dark Night/True Night) models
+
+     ![Icon_EDF_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_1.jpg)![Icon_EDF_22](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_2.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_EDF_2.jpg
@@ -310,13 +760,24 @@ girafe/edf-tower:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/BSC_Readmes/girafe/readme_EDF_Tower.html
+            - ~Documents/BSC_Readmes/girafe/Images/Install_VIP_Girafe_EDF Tower.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_EDF_2.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_EDF_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
           exclude:
             - DN Model
           id: sc4evermore/224-bsc-vip-girafe-edf-tower
           include:
             - BSC/girafe/EDF Tower
-      name: Maxis Nite
+      lastModified: 2024-01-22T08:02:21-08:00
+      lots:
+        - category: landmarks
+          filename: PLOP_6x3_Grfe_EDF_Tower_1dbc0287.SC4Lot
+          id: 1dbc0287
+          label: PLOP_6x3_Grfe_EDF_Tower_1dbc0287.SC4Lot
+          size: 6x3
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -349,12 +810,12 @@ girafe/flora-pack:
   category: dependencies
   dependencies:
     - lowkee33/seasonal-flora-patch
+    - nos-17/sc4-cleanitol
   description: >-
     Complete pack of Girafe Flora, including props and mayor-mode ploppables (MMPs).
 
 
-    - Requires [Seasonal Flora Patch](https://www.sc4evermore.com/index.php/downloads/download/24-terrain-mods-and-tree-controllers/36-lk33-seasonalflorapatch) in order for Seasonal Mayor-Mode
-    Ploppables (MMPs) to work.
+    - Requires Seasonal Flora Patch in order for Seasonal Mayor-Mode Ploppables (MMPs) to work.
 
     - Updated to Version 2 on 4 September 2023 (fixed file encoding issue preventing Canary Date Palms from being DatPacked, moved \_Documents folder out of installer)
 
@@ -369,6 +830,33 @@ girafe/flora-pack:
 
 
     - the Girafe Wheat and the BSC-TSC Girafe Serbian Spruces v1 have been added to the compilation that concludes all of Girafe's flora that have been released so far.
+
+
+    #### Installation
+
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)\--or a zip tool capable
+    of opening the installer to allow manual installation. For Windows/Linux, use [7-zip](https://www.7-zip.org/), and for macOS, use [Keka](https://www.keka.io/en/).
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything).
+    Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). On the Cleanup tab, click "Start scan" to find any
+    outdated files that currently reside in your Plugins folder that may conflict with this package. Clicking "Backup" will remove these old files to a safe location. (The option to "Delete" them also
+    exists, but is not recommended.)\*\* After this, click over to the Install tab, and click "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a
+    message indicating it, after which you are safe to close the installer.
+
+
+    \*\* Though there is an inbuilt cleanitol function in the installer, at this point it is not working entirely properly so it is highly recommended to run the individual cleanitol files or the
+    master cleanitol for the compilation with one of the following 3rd party cleanitol tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool released a month ago)
+
+
+    BSC Cleanitol (old, but stable tool)
 
 
     #### Credits
@@ -409,6 +897,7 @@ girafe/flora-pack:
 
     - Serbian Spruces v1
 
+        this is the older BSC-TSC version - **new addition to Version 3**
     - Abies Grandis v1
 
     - Abies Grandis v2
@@ -479,9 +968,13 @@ girafe/flora-pack:
 
     - Walnut Trees
 
-    - Wheat (Bear in mind that the Girafe Wheat can also be found in the **BSC-VIP Girafe AgriPack vol01 v2**)
+    - Wheat - **new addition to Version 3
+
+        **Bear in mind that the Girafe Wheat can also be found in the **BSC-VIP Girafe AgriPack vol01 v2**
 
     Various pieces of original documentation can be found in the "~Documents" folder, which, while installed in the Plugins directory, should be removed.
+
+     ![Icon_alders_2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_alders_2.jpg)![Icon_Conifers_12](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_Conifers_1.jpg)![Icon_oak_13](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_oak_1.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_alders_2.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_Conifers_1.jpg
@@ -494,10 +987,276 @@ girafe/flora-pack:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/Cleanitol_SC4D LEX Legacy - BSC-VIP Girafe Flora Pack V3__master.txt
+            - ~Documents/BSC_Readmes/girafe/readme_wheat.html
+            - ~Documents/BSC_Readmes/girafe/readme_walnut_trees.html
+            - ~Documents/BSC_Readmes/girafe/readme_vines.html
+            - ~Documents/BSC_Readmes/girafe/readme_subalpine firs.html
+            - ~Documents/BSC_Readmes/girafe/readme_sparaxis.html
+            - ~Documents/BSC_Readmes/girafe/readme_Serbian_spruces_v2.html
+            - ~Documents/BSC_Readmes/girafe/readme_Serbian_spruces.html
+            - ~Documents/BSC_Readmes/girafe/readme_rowan trees.html
+            - ~Documents/BSC_Readmes/girafe/readme_poppies.html
+            - ~Documents/BSC_Readmes/girafe/readme_poplars.html
+            - ~Documents/BSC_Readmes/girafe/readme_parasol_pines.html
+            - ~Documents/BSC_Readmes/girafe/readme_oaks.html
+            - ~Documents/BSC_Readmes/girafe/readme_norway_maples.html
+            - ~Documents/BSC_Readmes/girafe/readme_narcissus.html
+            - ~Documents/BSC_Readmes/girafe/readme_maples_v2.html
+            - ~Documents/BSC_Readmes/girafe/readme_maples.html
+            - ~Documents/BSC_Readmes/girafe/readme_lupins.html
+            - ~Documents/BSC_Readmes/girafe/readme_lindens.html
+            - ~Documents/BSC_Readmes/girafe/readme_larches.html
+            - ~Documents/BSC_Readmes/girafe/readme_honey_locust.html
+            - ~Documents/BSC_Readmes/girafe/readme_grand_firs_(Abies Grandis v2).html
+            - ~Documents/BSC_Readmes/girafe/readme_feather_grass.html
+            - ~Documents/BSC_Readmes/girafe/readme_elms.html
+            - ~Documents/BSC_Readmes/girafe/readme_daisy.html
+            - ~Documents/BSC_Readmes/girafe/readme_cypresses.html
+            - ~Documents/BSC_Readmes/girafe/readme_conifers.html
+            - ~Documents/BSC_Readmes/girafe/readme_common_spruces.html
+            - ~Documents/BSC_Readmes/girafe/readme_chestnuts.html
+            - ~Documents/BSC_Readmes/girafe/readme_cattails.html
+            - ~Documents/BSC_Readmes/girafe/readme_Canary_date_palms.html
+            - ~Documents/BSC_Readmes/girafe/readme_bushes.html
+            - ~Documents/BSC_Readmes/girafe/readme_birches.html
+            - ~Documents/BSC_Readmes/girafe/readme_berries.html
+            - ~Documents/BSC_Readmes/girafe/readme_beeches.html
+            - ~Documents/BSC_Readmes/girafe/readme_ashes.html
+            - ~Documents/BSC_Readmes/girafe/readme_alders.html
+            - ~Documents/BSC_Readmes/girafe/readme_abies grandis.html
+            - ~Documents/BSC_Readmes/girafe/Icon_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Girafe_MM_Flora_separator.readme.txt
+            - ~Documents/BSC_Readmes/girafe/images/Vines_explanation.jpg
+            - ~Documents/BSC_Readmes/girafe/images/icon_wheat_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/icon_wheat_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_walnut_tree_2.png
+            - ~Documents/BSC_Readmes/girafe/images/Icon_walnut_tree_1.png
+            - ~Documents/BSC_Readmes/girafe/images/Icon_vines_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/icon_subalpine_firs_4.jpg
+            - ~Documents/BSC_Readmes/girafe/images/icon_subalpine_firs_3.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_sparaxis_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_Serbian_spruce_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_Serbian_spruce_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_rowan_tree_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_rowan_tree_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_poppies_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_poplars_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_poplars_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_parasol_pines_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_parasol_pines_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_oak_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_oak_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_norway_maples_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_norway_maples_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_narcissus_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_maples_3.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_maples_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_maples_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_lupins_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_linden_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_linden_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_larches_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_larches_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_honey_locust_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_honey_locust_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_grand_firs_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_grand_firs_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_feather_grass_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_feather_grass_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_elms_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_elms_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_daisy_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_cypresses_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_Conifers_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_Conifers_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_common_spruces_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_common_spruces_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_chestnut_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_chestnut_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_Canary_date_palms.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_bushes_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_bushes_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_birch_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_birch_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_beeches_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_beeches_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_ashes_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_ashes_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_alders_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_alders_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_abies_grandis_2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon_abies_grandis_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icone_berries_1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon spruce 2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon spruce 1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 2b.xcf
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 2b.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 2.xcf
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 2.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 1b.xcf
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 1b.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 1.xcf
+            - ~Documents/BSC_Readmes/girafe/images/Icon cattails 1.jpg
+            - ~Documents/BSC_Readmes/girafe/images/Banniere_VIP.jpg
+            - ~Documents/BSC_Readmes/girafe/images/banniere_new.png
           id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
           include:
-            - BSC/girafe
+            - BSC/girafe/Wheat v2/Grfe_wheat_summer.dat
+            - BSC/girafe/Wheat v2/Grfe_wheat_seasonal.dat
+            - BSC/girafe/Wheat v2/Grfe_Props_Pack_MM_Wheat.dat
+            - BSC/girafe/Wheat v2/Grfe_Props_Pack_LE_Wheat.dat
+            - BSC/girafe/Walnut trees/Grfe_walnut_trees_evergreen.dat
+            - BSC/girafe/Walnut trees/Grfe_wallnut_trees_seasonal.dat
+            - BSC/girafe/Walnut trees/Grfe_props_pack_MM_walnut_trees.dat
+            - BSC/girafe/Walnut trees/Grfe_props_pack_LE_walnut_trees.dat
+            - BSC/girafe/Subalpine firs/Grfe_subalpine_firs_winter.dat
+            - BSC/girafe/Subalpine firs/Grfe_subalpine_firs_summer.dat
+            - BSC/girafe/Subalpine firs/Grfe_subalpine_firs_seasonal.dat
+            - BSC/girafe/Subalpine firs/Grfe_props_pack_MM_subalpinefirs.dat
+            - BSC/girafe/Subalpine firs/Grfe_props_pack_LE_subalpinefirs.dat
+            - BSC/girafe/Vines v2/Grfe_vines_summer.dat
+            - BSC/girafe/Vines v2/Grfe_vines_seasonal.dat
+            - BSC/girafe/Vines v2/Grfe_props_pack_MM_vines.dat
+            - BSC/girafe/Vines v2/Grfe_props_pack_LE_vines.dat
+            - BSC/girafe/Sparaxis/Grfe_sparaxis_summer.dat
+            - BSC/girafe/Sparaxis/Grfe_sparaxis_seasonal.dat
+            - BSC/girafe/Sparaxis/Grfe_props_pack_MM_sparaxis.dat
+            - BSC/girafe/Sparaxis/Grfe_props_pack_LE_sparaxis.dat
+            - BSC/girafe/Serbian spruces v2/Grfe_serbian_spruces_winter v1.dat
+            - BSC/girafe/Serbian spruces v2/Grfe_Serbian_spruces_seasonal v2.dat
+            - BSC/girafe/Serbian spruces v2/Grfe_Serbian_spruces_evergreen v2.dat
+            - BSC/girafe/Serbian spruces v2/Grfe_Props_Pack_MM_Serbian_spruces.dat
+            - BSC/girafe/Serbian spruces v2/Grfe_Props_Pack_LE_Serbian_spruces.dat
+            - BSC/girafe/Serbian Spruces v1/Grfe_serbian_spruces_winter.dat
+            - BSC/girafe/Serbian Spruces v1/Grfe_serbian_spruces_summer.dat
+            - BSC/girafe/Serbian Spruces v1/Grfe_serbian_spruces_seasonal.dat
+            - BSC/girafe/Serbian Spruces v1/Grfe_Props_Pack_MM_serbian_spruces v1.dat
+            - BSC/girafe/Rowan trees v3/Grfe_Rowan_trees_seasonal.dat
+            - BSC/girafe/Rowan trees v3/Grfe_Rowan_trees_evergreen.dat
+            - BSC/girafe/Rowan trees v3/Grfe_props_pack_MM_rowan_trees.dat
+            - BSC/girafe/Rowan trees v3/Grfe_props_pack_LE_rowan_trees.dat
+            - BSC/girafe/Poppies/Grfe_props_pack_MM_poppies.dat
+            - BSC/girafe/Poppies/Grfe_props_pack_LE_poppies.dat
+            - BSC/girafe/Poppies/Grfe_Poppies_summer.dat
+            - BSC/girafe/Poppies/Grfe_Poppies_seasonal.dat
+            - BSC/girafe/Poplars/Grfe_props_pack_MM_poplars.dat
+            - BSC/girafe/Poplars/Grfe_props_pack_LE_poplars.dat
+            - BSC/girafe/Poplars/Grfe_poplars_seasonal.dat
+            - BSC/girafe/Poplars/Grfe_poplars_evergreen.dat
+            - BSC/girafe/Parasol pines/Grfe_props_pack_parasol_pines_MM.dat
+            - BSC/girafe/Parasol pines/Grfe_props_pack_parasol_pines_LE.dat
+            - BSC/girafe/Parasol pines/Grfe_parasol_pines_summer.dat
+            - BSC/girafe/Oaks v2/Grfe_props_pack_MM_oaks.dat
+            - BSC/girafe/Oaks v2/Grfe_Props_Pack_LE_Oaks.dat
+            - BSC/girafe/Oaks v2/Grfe_oaks_summer.dat
+            - BSC/girafe/Oaks v2/Grfe_oaks_seasonal.dat
+            - BSC/girafe/Norway maples v2/Grfe_props_pack_MM_norway_maples.dat
+            - BSC/girafe/Norway maples v2/Grfe_props_pack_LE_norway_maples.dat
+            - BSC/girafe/Norway maples v2/Grfe_norway_maple_seasonal.dat
+            - BSC/girafe/Norway maples v2/Grfe_norway_maples_summer.dat
+            - BSC/girafe/Narcissus/Grfe_props_pack_MM_narcissus.dat
+            - BSC/girafe/Narcissus/Grfe_props_pack_LE_narcissus.dat
+            - BSC/girafe/Narcissus/Grfe_Narcissus_summer.dat
+            - BSC/girafe/Narcissus/Grfe_Narcissus_seasonal.dat
+            - BSC/girafe/Maples v2/Grfe_props_pack_MM_maples_v2.dat
+            - BSC/girafe/Maples v2/Grfe_props_pack_LE_maples.dat
+            - BSC/girafe/Maples v2/Grfe_maples_seasonal.dat
+            - BSC/girafe/Maples/Grfe_props_pack_MM_maples.dat
+            - BSC/girafe/Maples/Grfe_maples_summer.dat
+            - BSC/girafe/Maples/Grfe_maples_seasonal.dat
+            - BSC/girafe/Lupins/Grfe_props_pack_MM_lupins.dat
+            - BSC/girafe/Lupins/Grfe_props_pack_LE_lupins.dat
+            - BSC/girafe/Lupins/Grfe_lupins_summer.dat
+            - BSC/girafe/Lupins/Grfe_lupins_seasonal.dat
+            - BSC/girafe/Lindens/Grfe_props_pack_MM_lindens.dat
+            - BSC/girafe/Lindens/Grfe_props_pack_LE_lindens.dat
+            - BSC/girafe/Lindens/Grfe_lindens_seasonal.dat
+            - BSC/girafe/Lindens/Grfe_Lindens_evergreen.dat
+            - BSC/girafe/Larches/Grfe_props_pack_MM_larches.dat
+            - BSC/girafe/Larches/Grfe_larches_summer.dat
+            - BSC/girafe/Larches/Grfe_larches_seasonal_S.dat
+            - BSC/girafe/Larches/Grfe_larches_seasonal.dat
+            - BSC/girafe/Honey locust/Grfe_props_pack_MM_honey_locust.dat
+            - BSC/girafe/Honey locust/Grfe_props_pack_LE_honey_locust.dat
+            - BSC/girafe/Honey locust/Grfe_honey_locust_seasonal.dat
+            - BSC/girafe/Honey locust/Grfe_honey_locust_evergreen.dat
+            - BSC/girafe/Grand Firs (Abies Grandis v2)/Grfe_Props_Pack_MM_grand_firs.dat
+            - BSC/girafe/Grand Firs (Abies Grandis v2)/Grfe_Props_Pack_LE_grand_firs.dat
+            - BSC/girafe/Grand Firs (Abies Grandis v2)/Grfe_grand_firs_winter (Abies Grandis v1).dat
+            - BSC/girafe/Grand Firs (Abies Grandis v2)/Grfe_grand_firs_seasonal.dat
+            - BSC/girafe/Grand Firs (Abies Grandis v2)/Grfe_grand_firs_evergreen.dat
+            - BSC/girafe/Feather grass/Grfe_props_pack_MM_feather_grass.dat
+            - BSC/girafe/Feather grass/Grfe_props_pack_LE_feather_grass.dat
+            - BSC/girafe/Feather grass/Grfe_feather_grass_summer.dat
+            - BSC/girafe/Feather grass/Grfe_feather_grass_seasonal.dat
+            - BSC/girafe/Elms/Grfe_props_pack_MM_elms.dat
+            - BSC/girafe/Elms/Grfe_props_pack_LE_elms.dat
+            - BSC/girafe/Elms/Grfe_elm_seasonal.dat
+            - BSC/girafe/Elms/Grfe_elm_evergreen.dat
+            - BSC/girafe/Daisy v2/Grfe_props_pack_MM_daisy.dat
+            - BSC/girafe/Daisy v2/Grfe_props_pack_LE_daisy.dat
+            - BSC/girafe/Daisy v2/Grfe_daisy_summer.dat
+            - BSC/girafe/Daisy v2/Grfe_daisy_seasonal.dat
+            - BSC/girafe/Cypresses/Grfe_props_pack_MM_cypresses.dat
+            - BSC/girafe/Cypresses/Grfe_props_pack_LE_cypresses.dat
+            - BSC/girafe/Cypresses/Grfe_cypresses_evergreen.dat
+            - BSC/girafe/Conifers/Grfe_props_pack_MM_conifers.dat
+            - BSC/girafe/Conifers/Grfe_props_pack_LE_conifers.dat
+            - BSC/girafe/Conifers/Grfe_conifers_winter.dat
+            - BSC/girafe/Conifers/Grfe_conifers_summer.dat
+            - BSC/girafe/Conifers/Grfe_conifers_seasonal.dat
+            - BSC/girafe/Common spruces/Grfe_props_pack_MM_common_spruces.dat
+            - BSC/girafe/Common spruces/Grfe_props_pack_LE_common_spruces.dat
+            - BSC/girafe/Common spruces/Grfe_common_spruces_winter.dat
+            - BSC/girafe/Common spruces/Grfe_common_spruces_summer.dat
+            - BSC/girafe/Common spruces/Grfe_common_spruces_seasonal.dat
+            - BSC/girafe/Chestnuts/Grfe_props_pack_MM_chestnuts.dat
+            - BSC/girafe/Chestnuts/Grfe_props_pack_LE_chestnuts.dat
+            - BSC/girafe/Chestnuts/Grfe_chestnuts_seasonal.dat
+            - BSC/girafe/Chestnuts/Grfe_chestnuts_evergreen.dat
+            - BSC/girafe/Cattails v2.1/Grfe_props_pack_MM_cattails.dat
+            - BSC/girafe/Cattails v2.1/Grfe_props_pack_LE_cattails.dat
+            - BSC/girafe/Cattails v2.1/Grfe_cattails_seasonal.dat
+            - BSC/girafe/Cattails v2.1/Grfe_cattails_evergreen.dat
+            - BSC/girafe/Bushes v2/Grfe_Props_Pack_MM_bushes.dat
+            - BSC/girafe/Bushes v2/Grfe_props_pack_LE_bushes.dat
+            - BSC/girafe/Bushes v2/Grfe_bushes_summer.dat
+            - BSC/girafe/Bushes v2/Grfe_bushes_seasonal.dat
+            - BSC/girafe/Canary date palms/Grfe_props_pack_LE_Canary_date_palms.dat
+            - BSC/girafe/Canary date palms/Grfe_props_pack_Canary_date_palms.dat
+            - BSC/girafe/Canary date palms/Grfe_Canary_date_palms_evergreen.dat
+            - BSC/girafe/Birches v2/Grfe_props_pack_MM_birches.dat
+            - BSC/girafe/Birches v2/Grfe_props_pack_LE_birches.dat
+            - BSC/girafe/Birches v2/Grfe_birches_summer.dat
+            - BSC/girafe/Birches v2/Grfe_birches_seasonal.dat
+            - BSC/girafe/Berries/Grfe_props_pack_MM_berries.dat
+            - BSC/girafe/Berries/Grfe_props_pack_LE_berries.dat
+            - BSC/girafe/Berries/Grfe_Berries_summer.dat
+            - BSC/girafe/Berries/Grfe_Berries_seasonal.dat
+            - BSC/girafe/Beeches v3/Grfe_props_pack_MM_beeches.dat
+            - BSC/girafe/Beeches v3/Grfe_props_pack_LE_beeches.dat
+            - BSC/girafe/Beeches v3/Grfe_beeches_seasonal.dat
+            - BSC/girafe/Beeches v3/Grfe_beeches_evergreen.dat
+            - BSC/girafe/Ashes v2/Grfe_props_pack_MM_ashes.dat
+            - BSC/girafe/Ashes v2/Grfe_props_pack_LE_ashes.dat
+            - BSC/girafe/Ashes v2/Grfe_ashes_summer.dat
+            - BSC/girafe/Ashes v2/Grfe_ashes_seasonal.dat
+            - BSC/girafe/Alders/Grfe_props_pack_MM_alders.dat
+            - BSC/girafe/Alders/Grfe_props_pack_LE_alders.dat
+            - BSC/girafe/Alders/Grfe_alders_seasonal.dat
+            - BSC/girafe/Alders/Grfe_alders_evergreen.dat
+            - BSC/girafe/Abies grandis v1/Grfe_props_pack_MM_abies_grandis.dat
+            - BSC/girafe/Abies grandis v1/Grfe_abies_grandis_winter.dat
+            - BSC/girafe/Abies grandis v1/Grfe_abies_grandis_seasonal.dat
+            - BSC/girafe/Abies grandis v1/Grfe_abies_grandis_evergreen.dat
+            - BSC/girafe/@1MM Flora Separator/Grfe_palm_trees.dat
+            - BSC/girafe/@1MM Flora Separator/Grfe_flowers.dat
+            - BSC/girafe/@1MM Flora Separator/Grfe_conifers.dat
+            - BSC/girafe/@1MM Flora Separator/Grfe_bushes.dat
+            - BSC/girafe/@1MM Flora Separator/Grfe_broadleaf_trees.dat
+      lastModified: 2024-01-20T04:12:48-08:00
+      name: Default
       url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora
       version: 3.0.0
 
@@ -507,12 +1266,32 @@ girafe/french-road-signs:
   category: props
   dependencies:
     - simfox/simfox-day-and-nite-modd
-  description: |-
+  description: >-
     This is a props pack that regroup 130 french road signs in 90° degree version.
+
 
     For LOTters, these props are available in Lot Editor Ptops Section's, under the name: **SignFR...**
 
+
     Special thanks to **BSC** **/ TSC Members**.
+
+
+    **Installation:** copy/extract the BSC parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the
+    Plugins folder.
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    **Dependencies**:
+
+
+    Note: few props use darknite version from Simfox
+
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
+
+     ![icon panneau](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon%20panneau.jpg)![Sans titre2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Sans%20titre.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/icon panneau.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Sans titre.jpg
@@ -524,10 +1303,16 @@ girafe/french-road-signs:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/BSC-TSC Girafe French Road Signs_index.jpg
+            - ~Documents/BSC_Readmes/girafe/readme_french_road_signs.html
+            - ~Documents/BSC_Readmes/girafe/images/Sans titre.jpg
+            - ~Documents/BSC_Readmes/girafe/images/icon panneau.jpg
+            - ~Documents/BSC_Readmes/girafe/images/banniere_new.png
           id: sc4evermore/214-bsc-tsc-girafe-french-road-signs
           include:
-            - BSC/BSCProps/Grfe_Props
+            - BSC/BSCProps/Grfe_Props/Grfe_Props_Pack_French Road Signs.dat
+      lastModified: 2024-01-21T02:24:54-08:00
+      name: Default
       version: 1.0.0
 
 girafe/hedges:
@@ -552,38 +1337,83 @@ girafe/train-corail-automata:
   authors:
     - Girafe
   category: rail,automata
-  description: |-
+  dependencies:
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This is a set of HD automatas for the passenger train.
+
 
     It includes:
 
+
     - 5 passenger train engines, 1 replacement of the regular passenger engine (BB26000 orange) and 4 additional skins (BB 26000 en voyage, BB26000 grandest, BB26000 carmillon, BB26000 grey).
+
     - 3 passenger wagons, replacement and additional skins (1st class, 2nd class and 2nd class tagged)
+
 
     All the engines and wagons are available as props only in Darknite version.
 
+
     Special thanks to **Anachron for the 3d models of the engine BB26000, VIP and BSC members**.
+
 
     **Thanks to Tibi for maintaining these files over the years.**
 
+
     ### MOD Details and information
+
 
     **Automata replacement and additional skins for passenger train engine and wagons.**
 
+
     The skins appear randomly for the automatas.
+
 
     Nightlights are included.
 
+
     Automata can be driven in free mod in automata panel.
+
 
     These engines and wagons are available in Lot Editor props section under the name:
 
+
     - Grfe_BB26000_...
+
     - Grfe_Corail_...
+
 
     The LE props of this pack have been datpacked into two files: **Grfe_Props_Pack_LE_Train BB26000.dat** and **Grfe_Props_Pack_LE_Train Corail.dat**.
 
+
+    Please use the provided *Cleanitol_BSC-VIP Girafe Train Corail HD+BB26000.txt* to remove the single sc4model+sc4desc file combos by one of the 3rd party cleanitol tools:
+
+
+    [Nos.17 SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    [BSC Cleanitol](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) (old tool)
+
+
     Note: The automata models are high poly which could affect negatively the performance of your game.
+
+
+    ### Installation
+
+
+    **Installation:** copy/extract the **BSC** parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    ### Dependencies
+
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c50a3c333e2_Icon_Train_CorailHDBB26000_1.jpg.a3cc5f400ab406d4ca190f66b398bad2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c50a431514a_Icon_Train_CorailHDBB26000_2.jpg.2fa0d570798fd3d7615d0e477a3e7114.jpg
@@ -597,52 +1427,112 @@ girafe/train-corail-automata:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_Train_Corail HD + BB26000_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_Train_Corail HD + BB26000_2.jpg
+            - ~Documents/BSC_Readmes/girafe/readme_train_Corail_HD + BB26000.html
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/BSC-VIP Girafe Train Corail HD+BB2600_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_BSC-VIP Girafe Train Corail HD+BB26000.txt
           id: simtropolis/36402-bsc-vip-girafe-train-corail-hd-and-bb26000
           include:
-            - BSC/BSCProps/Grfe_Props
-            - BSC/girafe/Grfe_Automatas
+            - BSC/girafe/Grfe_Automatas/Train BB26000/Grfe_BB26000_carmillon add.dat
+            - BSC/girafe/Grfe_Automatas/Train BB26000/Grfe_BB26000_en voyage add.dat
+            - BSC/girafe/Grfe_Automatas/Train BB26000/Grfe_BB26000_grandest add.dat
+            - BSC/girafe/Grfe_Automatas/Train BB26000/Grfe_BB26000_grey add.dat
+            - BSC/girafe/Grfe_Automatas/Train BB26000/Grfe_BB26000_orange rep.dat
+            - BSC/girafe/Grfe_Automatas/Train Corail HD/Grfe_Corail_1st_class.dat
+            - BSC/girafe/Grfe_Automatas/Train Corail HD/Grfe_Corail_2nd_class.dat
+            - BSC/girafe/Grfe_Automatas/Train Corail HD/Grfe_Corail_2nd_class_tagged.dat
+            - BSC/BSCProps/Grfe_Props/Grfe_Props_Pack_LE_Train BB26000.dat
+            - BSC/BSCProps/Grfe_Props/Grfe_Props_Pack_LE_Train Corail.dat
+      lastModified: 2024-08-20T21:32:16Z
+      name: Default
       version: 1.0.0
 
 girafe/train-tgv-automata:
   authors:
     - Girafe
   category: rail,automata
-  description: |-
+  dependencies:
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This is a set of HD automatas replacing the freight train.
+
 
     Note: reverse engine modding is only possible with freigth train replacement.
 
+
     It includes:
 
+
     - 22 TGV train wagons with 3 different skins (1st class, 2nd class and restaurant) replacing all freight train wagons.
+
     - 2 TGV engines replacing the freight train engine and the freight steam engine.
+
     - 1 TGV reverse engine replacing the caboose.
+
 
     Special thanks to **VIP and BSC members**.
 
+
     Thanks to **Tibi** for maintaining this file over the years.
+
 
     ### MOD Details and information
 
+
     **Automata replacing skins for the freight train.**
+
 
     **Remove any previous skins affecting the freight train engine, steam engine and wagons for this mod to appear properly.**
 
+
     The skins appear randomly for the automatas.
+
 
     Nightlights are included.
 
+
     Automata can be driven in free mod in automata panel.
+
 
     All the wagons and engines are available as props (Darknite versions only) under the name:
 
+
     Grfe_TGV_...
+
 
     The props of this pack have been datpacked into one file: **Grfe_Props_Pack_LE_Train TGV Duplex.dat**.
 
+
+    Please use the provided *Cleanitol_BSC-VIP Girafe Train TGV Duplex.txt* to remove the single sc4model+sc4desc file combos by one of the 3rd party cleanitol tools:
+
+
+    [Nos.17 SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    [BSC Cleanitol](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) (old tool)
+
+
     Note: The automata models are high poly which could affect negatively the performance of your game.
+
+
+    ### INSTALLATION
+
+
+    **Installation:** copy/extract the **BSC** parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    ### Dependencies
+
+
+    [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_TGV_Duplex_1.jpg.0713e4fbd3002a9f29927db12f3d26e1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/Icon_TGV_Duplex_2.jpg.17f7b5c9fa8a903f7abaedec7fb664e9.jpg
@@ -655,12 +1545,42 @@ girafe/train-tgv-automata:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_TGV_Duplex_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_TGV_Duplex_2.jpg
+            - ~Documents/BSC_Readmes/girafe/readme_TGV Duplex.html
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/BSC-VIP Girafe Train TGV Duplex_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_BSC-VIP Girafe Train TGV Duplex.txt
           id: simtropolis/36411-bsc-vip-girafe-train-tgv-duplex
           include:
-            - BSC/girafe/Grfe_Automatas/Train TGV Duplex
-            - BSC/BSCProps/Grfe_Props
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_TGV_Duplex_engine.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_TGV_Duplex_reverse_engine.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_TGV_Duplex_steam_engine.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_1 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_10 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_11 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_12 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_13 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_14 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_15 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_16 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_17 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_18 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_19 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_2 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_20 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_21 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_22 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_3 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_4 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_5 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_6 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_7 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_8 B.dat
+            - BSC/girafe/Grfe_Automatas/Train TGV Duplex/Grfe_wagon_9 B.dat
+            - BSC/BSCProps/Grfe_Props/Grfe_Props_Pack_LE_Train TGV Duplex.dat
+      lastModified: 2024-08-25T14:04:05Z
+      name: Default
       requirements:
         darknite: true
       version: 1.0.0
@@ -673,35 +1593,111 @@ girafe/villa-libeskind:
     - bsc/essentials
     - cycledogg/textures-vol01
     - girafe/carpack
-    - girafe/flora-pack # Common Spruce, Honey Locust
+    - girafe/flora-pack
     - girafe/hedges
-  description: |-
+    - simfox/simfox-day-and-nite-modd
+  description: >-
     This package includes day, maxisnite and darknite version of villa Libeskind.
+
 
     For LOTters, the LOT is available in Lot Editor, under the name: R$$$4_3x2_Grfe_villa_Libeskind.
 
+
+    ~~This package includes few props:
+
+
+    ~~
+
+
+    - ~~\- Grfe_wood_fence_A~~
+
+
+    - ~~\- Grfe_hedge...~~
+
+
+    The LE props of this pack have been datpacked into two files: **Grfe_Props_Pack_LE_Hedges.dat** and **Grfe_Props_Pack_Villa Libeskind.dat**\*\*.
+
+
+    Please use the provided Cleanitol_BSC-VIP Girafe Villa Libeskind v2.txt to remove the single sc4model+sc4desc file combos.
+
+
+    \*\*As of v2 (version 2) because of the creation of the collective SC4D LEX Legacy - BSC Common Dependencies compilation, the formerly included props have been taken out and restored in the
+    mentioned dependency pack. The file names stayed the same (see below the dependency section).
+
+
     Special thanks to **Orange, Simfox, Badsim, Carl and all BSC members**.
+
 
     ### LOT Details and information:
 
+
     |     |     |
+
     | --- | --- |
+
     | LOT size | (R$$$) 3x2 |
+
     | Building style | Building: residential, R$$$, Style: Euro |
+
     | Growth stages | 4   |
+
     | Capacity stages | R$: 81; R$$: 46 ; R$$$: 22 |
+
     | Buldoze cost | 143$ |
+
     | Worth | 143 |
+
     | Max. Fire stage | 3   |
+
     | Flammability | 35  |
+
     | Power consumption | 3   |
+
     | Water consumption | 7   |
+
     | Air pollution | 1   |
+
     | Water pollution | 1   |
+
     | Garbage pollution | 4   |
+
     | Construction time | 14  |
 
+
+    ### Installation:
+
+
+    **Installation:** copy/extract the **BSC** parent folder into your plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.**Choose ONE from the two subfolders in the Villa Libeskind folder: either DN Model (dark/true-night) or MN Model (maxis night) and remove the one which you do NOT wish to
+    use.**
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    ### Dependencies:
+
+
+    - [SC4D LEX Legacy - BSC Common Dependencies v8](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack) (or above)
+        - BSC Essentials
+        - BSC-VIP Girafe Hedges
+        - BSC-VIP Girafe Urbanpack (CarPack vol04) vol01 - this contains now the Grfe_Props_Pack_Villa Libeskind.dat file
+        - BSC-VIP Girafe Carpack vol03 v2
+
+    - - BSC TexturePack Cycledogg V01b
+
+
+    - [SC4D LEX Legacy - BSC VIP Girafe Flora Pack V3](https://sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+        - BSC-VIP Girafe Honey Locust
+        - BSC-VIP Girafe Common Spruce
+
+    - [SimFox Day and Nite Modd](https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/) - if you are using the DN (Dark Night/True Night) models
+
+
     Note: run 1 year before timed props work correctly.
+
+
+    ![Icon_villa_Libeskind_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_villa_Libeskind_1.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_villa_Libeskind_1.jpg
   name: BSC VIP Girafe Villa Libeskind
@@ -725,13 +1721,22 @@ girafe/villa-libeskind:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/girafe
+            - ~Documents/BSC_Readmes/girafe/readme_villa_Libeskind.html
+            - ~Documents/BSC_Readmes/girafe/Images/Icon_villa_Libeskind_1.jpg
+            - ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
           exclude:
             - DN Model
           id: sc4evermore/221-bsc-vip-girafe-villa-libeskind-v2
           include:
             - BSC/girafe/Villa Libeskind
-      name: Maxis Nite
+      lastModified: 2024-01-22T07:25:55-08:00
+      lots:
+        - filename: R$$$4_3x2_Grfe_villa_Libeskind_3ff515bd.SC4Lot
+          id: 3ff515bd
+          label: R$$$4_3x2_Grfe_villa_Libeskind_3ff515bd.SC4Lot
+          size: 3x2
+          stage: 4
+      name: Default
       requirements:
         darknite: false
       version: 2.0.0

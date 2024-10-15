@@ -141,3 +141,30 @@ paulvmontfort/mega-props-vol08:
             - Paulvmontfort Mega Prop Pack 8*
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/1-sc4d-lex-legacy-hkabt-dependencies-pack
       version: 1.0.0
+
+paulvmontfort/wicked-timber:
+  authors:
+    - paulvmontfort
+  category: parks
+  description: This is the second coaster and it's a wooden. Also found in the park menu
+  images:
+    - https://www.simtropolis.com/objects/screens/0008/42f02668e840f4d2b05708e0e69ab9cd-wicked%20timber.JPG
+  name: Wicked Timber
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2005/thumb-42f02668e840f4d2b05708e0e69ab9cd-wicked%20timber.JPG
+  url: https://community.simtropolis.com/files/file/13592-wicked-timber/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/13592-wicked-timber
+      lastModified: 2005-09-06T19:44:02Z
+      lots:
+        - filename: PvM_Wicked Timber_b02a791f.SC4Lot
+          id: b02a791f
+          label: PvM_Wicked Timber_b02a791f.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

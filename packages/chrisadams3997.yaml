@@ -59,6 +59,10 @@ chrisadams3997/rrp-pasture-flora:
     This pack contains a wide variety of mayor mode flora to enhance your terrains in rural and urban settings.
 
     They can be found in the middle of the mayor mode menu.
+
+    Before installing the mod you must read the readme and run the cleanitol file found inside the ***\_Documents*** folder.
+
+    Copy the BSC folder inside the Plugins folder (*Documents/SimCity 4/Plugins*).
   name: BSC ALN RRP Pasture Flora
   release: 2024-08-28T10:44:29.886Z
   url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
@@ -66,29 +70,35 @@ chrisadams3997/rrp-pasture-flora:
     default:
       assets:
         - docs:
-            - _Documents/BSC_Readmes/ChrisAdams3997
+            - _Documents/BSC_Readmes/ChrisAdams3997/images/flora1.jpg
+            - _Documents/BSC_Readmes/ChrisAdams3997/images/flora2.jpg
+            - _Documents/BSC_Readmes/ChrisAdams3997/images/flora3.jpg
+            - _Documents/BSC_Readmes/ChrisAdams3997/images/RRP Background2.jpg
+            - _Documents/BSC_Readmes/ChrisAdams3997/images/RRP Header.jpg
+            - _Documents/BSC_Readmes/ChrisAdams3997/images/RRP Readme Footer.jpg
+            - _Documents/BSC_Readmes/ChrisAdams3997/ALN Pasture Flora Readme.htm
           id: sc4evermore/167-bsc-aln-rrp-pasture-flora
           include:
-            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora
-            # TODO: MMPs
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets-B_1020.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Cat Tails.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grasses_1060.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grass_green.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_HayBales_1080.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Johnson Grass_1030.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Lillypads.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Marsh.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Medium Scrub Brush.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Pink Wild Flowers-B_1010.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Reed Grass_1038.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Straws_1070.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Stumps.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsA_1050.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsB_1058.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_White Wild Flowers.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers-B_1018.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers.dat
-            - BSC/BSCProps
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets-B_1020.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Cat Tails.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grasses_1060.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grass_green.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_HayBales_1080.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Johnson Grass_1030.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Lillypads.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Marsh.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Medium Scrub Brush.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Pink Wild Flowers-B_1010.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Reed Grass_1038.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Straws_1070.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Stumps.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsA_1050.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsB_1058.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_White Wild Flowers.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers-B_1018.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers.dat
+            - BSC/BSCProps/ALN_Pasture Flora.dat
+      lastModified: 2023-11-11T07:36:40-08:00
+      name: Default
       version: 1.0.0

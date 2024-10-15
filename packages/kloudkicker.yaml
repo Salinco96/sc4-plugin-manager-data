@@ -8,11 +8,15 @@ kloudkicker/small-transformers:
     - bsc/textures-vol01
     - bsc/textures-vol03
     - maxis/maxis-buildings-as-props
+    - nam-team/network-addon-mod-nam-cross-platform
     - ralphaelninja/very-old-building-props
     - simmer2/mega-props-vol01
     - simmer2/mega-props-vol02
     - simmer2/mega-props-vol05
   description: >-
+    **KK Transformer Lots-Small**
+
+
     Brought to you by Kloudkicker Industries. This is a AMPS Certified Mod.
 
 
@@ -28,6 +32,43 @@ kloudkicker/small-transformers:
     These lots can be used as mini independent power stations. Or used as they were deigned to be, intended as core files for a mod underdevelopment and is in testing stages called AMPS. The AMPS
     (Allied Municipal Power of Simtropolis) mod is underdevelopment and is in testing stages. More information can be found in the AMPS Development Thread.
     https://community.simtropolis.com/forums/topic/760305-mod-amps-development-thread/
+
+
+    Dependences:
+
+
+    \*a.) BSC Textures Vol 01 https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90
+
+
+    \*b.) BSC Textures Vol 03 https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1806
+
+
+    \*c.) Plugin_RCI_Buildings_Prop_Modd \-found in- https://community.simtropolis.com/files/file/33600-very-old-building-props/
+
+
+    \*All Maxis building props with proper names
+
+
+    \*d SM2 Mega Prop Pack Vol5 https://community.simtropolis.com/files/file/34316-sm2-mega-prop-pack-vol5/
+
+
+    e.) SM2 Mega Prop Pack Vol1 https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/
+
+
+    f.) SM2 Mega Prop Pack Vol2 https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/
+
+
+    h.) BSC MEGA Props - Misc Vol02 https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1771
+
+
+    i.) NetworkAddonMod_Props.dat -found in-
+    [https://community.simtropolis.com/files/file/26793-network-addon-mod-NAM\-cross-platform/](https://community.simtropolis.com/files/file/26793-network-addon-mod-NAM-cross-platform/)
+
+
+    \* These four mods that were never mentioned at initial release and the strikethrough depend was not needed.
+
+
+    NOTE: All of the dependences are required for a complete looking lot; without any brown boxes, missing textures or objects. Some thing I should try and remember!
 
 
     Stats:
@@ -114,6 +155,20 @@ kloudkicker/small-transformers:
     KK TransformerLotsSmall README.txt
 
 
+    Installation: For SimCity 4 Deluxe and SimCity 4 Rush Hour Only
+
+
+    After downloading, extract the folder and open it. Than open folder inside named "Kloudkicker" and open folder in there labeled "KK Transformer Lots Small README". After reading the README text
+    file inside, remove folder "KK Transformer Lots Small README" and store it in a separate place other than the two plugin folders or discard it. Take folder "Kloudkicker" and place it in the
+    Documents SimCity 4 Plugins folder. Enjoy while playing
+
+
+    Uninstalling:
+
+
+    Bulldoze all of the lots in every city they were placed and then remove the file from your Plugin folder. Please reconsider, I'll behave.
+
+
     Credits:
 
 
@@ -127,6 +182,16 @@ kloudkicker/small-transformers:
 
 
     Feel free to use this mod for any reason. Please, just give credit when it's due. However, Do Not upload this mod to any site without my permission.
+
+
+    KK March 12, 2021
+
+
+    Updated April 9, 2021: Only changed the folder structure, dependence link and added credit to TWrecks. No change to lot file.
+
+
+    Updated May 9,2021- No change to lot file. Updating the dependence list to include four missed dependences and removed one that was not needed. Added a dependence legend to "Names of included
+    files" section for each separate set. Edited credits. Enclosed README updated the same.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/604c1914960e7_KKTransformerSmallLots3.jpg.8dcbee6f0d0757478728d3f5da30de41.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/604c191b08b28_KKTransformerSmallLots2.jpg.cca6fc594c4b428bd554e8714cc7d25b.jpg
@@ -140,10 +205,20 @@ kloudkicker/small-transformers:
     default:
       assets:
         - docs:
-            - Kloudkicker/KK Transformer Lots Small README
+            - Kloudkicker/KK Transformer Lots Small README/KK TransformerLotsSmall README.txt
+            - Kloudkicker/KK Transformer Lots Small README/KK Transformer Small Lots 4.jpg
+            - Kloudkicker/KK Transformer Lots Small README/KK Transformer Small Lots 2.jpg
           id: simtropolis/34273-kk-transformer-lots-small
           include:
-            - Kloudkicker/Electrical/KK_Transformer Lots Small
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x2_ID_6MVA_3_ad302940.dat
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x1_TE_50kVA_Street_Box.dat
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x1_TE_25kVA_Street_Pole.dat
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x1_PZ_1500kVA_2_2d2f5802.dat
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x1_PK_250kVA_1_2d2f6722.dat
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x1_PKZ_500kVA_1_ad300aef.dat
+            - Kloudkicker/Electrical/KK_Transformer Lots Small/KK_1x1_ID_3MVA_2_cd30721b.dat
+      lastModified: 2021-05-10T02:53:02Z
+      name: Default
       version: 1.0.2
   warnings:
     - id: bulldoze
@@ -160,10 +235,15 @@ kloudkicker/wind-farm-maintenance-facility:
     - heinbloed4711/ih-missing-jobs-fix
     - maxis/day-of-peace
     - maxis/maxis-buildings-as-props
+    - nam-team/network-addon-mod-nam-cross-platform
+    - pegasus/one-flag-many-nations
     - simmer2/mega-props-vol01
     - simmer2/mega-props-vol02
     - simmer2/mega-props-vol03
   description: >-
+    **KK Wind Farm Maintenance Facility**
+
+
     A Division of Kloudkicker Industries. This is a AMPS Certified Mod.
 
 
@@ -202,6 +282,12 @@ kloudkicker/wind-farm-maintenance-facility:
     Jobs: R$ 22, R$$ 173, R$$$ 27 Total=222
 
 
+    \*To take full advantage of all available R$$$ jobs, you will need the IH missing $$$ jobs fix (update!).
+
+
+    More information and DL found here >>> [LINK IH missing $$$ jobs fix (update!)](https://community.simtropolis.com/files/file/22771-ih-missing-jobs-fix-update/)
+
+
     If you let this lot go abandoned, you will notice with the changing of lot texture.
 
 
@@ -210,6 +296,68 @@ kloudkicker/wind-farm-maintenance-facility:
 
     I designed this lot by request for RobertaME's "AMPS" project but will work independently. More information on "AMPS Development Thread" can be found here, [\*LINK
     HERE\*](https://community.simtropolis.com/forums/topic/760305-mod-simtropolis-power-authority-development-thread/).
+
+
+    Dependencies:
+
+
+    All Maxis building props with proper names.dat https://community.simtropolis.com/files/file/22400-maxis-prop-names-and-query-fix/
+
+
+    Grfe_hedge_3m.dat found in- BSC - VIP girafe villa Libeskind https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3071
+
+
+    Grfe_props_pack_LE_common_spruces.dat https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2945
+
+
+    NetworkAddonMod_Props.dat - from version 39- https://community.simtropolis.com/files/file/26793-network-addon-mod-NAM-cross-platform/
+
+
+    SM2 Mega Prop Pack Vol1.dat https://community.simtropolis.com/files/file/32980-sm2-mega-prop-pack-vol1/
+
+
+    SM2 Mega Prop Pack Vol2.dat https://community.simtropolis.com/files/file/32981-sm2-mega-prop-pack-vol2/
+
+
+    SM2 Mega Prop Pack Vol3.dat https://community.simtropolis.com/files/file/32982-sm2-mega-prop-pack-vol3/
+
+
+    BSC Textures Vol 01.dat https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90
+
+
+    dayopeace.dat https://community.simtropolis.com/sc4-maxis-files/
+
+
+    \*All of the dependences are required for a complete looking lot; without any brown boxes, missing textures or objects.
+
+
+    *Note:* You can fly your countries flag with one supported from PEG One Flag Many Nations Mod. https://community.simtropolis.com/files/file/27711-peg-one-flag-many-nations-mod/
+
+
+    Names of included files:
+
+
+    KK_WindFarmMaintenanceFacility_4x4_v2.1_2d31fae9.SC4Lot
+
+
+    KK_WFMF_README.txt
+
+
+    KK_WFMF 1.jpg
+
+
+    Installing: For SimCity 4 Deluxe and SimCity 4 Rush Hour Only
+
+
+    After downloading, extract the folder and open it. Than open folder inside named "Kloudkicker" and open folder in there labeled "KK WFMF README". After reading the README text file inside, remove
+    folder "KK WFMF README" and store it in a separate place other than the two plugins folders or discard it. Take folder "Kloudkicker" and place it in the Documents SimCity 4 Plugins folder. Enjoy
+    while playing.
+
+
+    Uninstalling:
+
+
+    Bulldoze all of the lots in every city they were placed and then remove the file from your Plugin folder. Change your mind yet?
 
 
     Credits:
@@ -225,6 +373,12 @@ kloudkicker/wind-farm-maintenance-facility:
 
 
     Feel free to use this mod for any reason. Please, just give credit when it's due. However, Do Not upload this mod to any site without my permission.
+
+
+    KK February 27, 2021
+
+
+    Updated April 18, 2021- No change to lot file, only the folder structure and corrected dependence links, added "Note" and other minor changes.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/603aba3b92ae8_KK_WFMF7.jpg.78ba98170faf47d4aa20c643128982ff.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/603aba7733931_KK_WFMF4.jpg.b1c0a99582018a6a6aa7ec45614ac208.jpg
@@ -242,10 +396,18 @@ kloudkicker/wind-farm-maintenance-facility:
     default:
       assets:
         - docs:
-            - Kloudkicker/KK WFMF README
+            - Kloudkicker/KK WFMF README/KK_WFMF_README.txt
+            - Kloudkicker/KK WFMF README/KK_WFMF 1.jpg
           id: simtropolis/34196-kk-wind-farm-maintenance-facility
           include:
             - Kloudkicker/KK Industries
+      lastModified: 2021-04-18T06:39:16Z
+      lots:
+        - filename: KK_WindFarmMaintenanceFacility_4x4_v2.1_2d31fae9.SC4Lot
+          id: 2d31fae9
+          label: KK_WindFarmMaintenanceFacility_4x4_v2.1_2d31fae9.SC4Lot
+          size: 4x4
+      name: Default
       version: 1.1.0
   warnings:
     - id: bulldoze

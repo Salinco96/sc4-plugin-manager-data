@@ -172,7 +172,32 @@ bombardiere/british-boxes:
           id: simtropolis/29965-british-boxes
           include:
             - British Boxes
+      lastModified: 2016-03-11T10:57:21Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_VillageBump_81486136.SC4Lot
+          id: "81486136"
+          label: PLOP_1x1_VillageBump_81486136.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_Police Box_c148613f.SC4Lot
+          id: c148613f
+          label: PLOP_1x1_Police Box_c148613f.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_Phone Box Square_a14c622a.SC4Lot
+          id: a14c622a
+          label: PLOP_1x1_Phone Box Square_a14c622a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_Drinking Fountain Square_814c6218.SC4Lot
+          id: 814c6218
+          label: PLOP_1x1_Drinking Fountain Square_814c6218.SC4Lot
+          size: 1x1
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 bombardiere/british-english-stone-houses:
   authors:
@@ -266,8 +291,62 @@ bombardiere/british-english-stone-houses:
           id: simtropolis/30051-british-english-stone-houses
           include:
             - Bombardiere/British Stone Houses
-      requirements:
-        darknite: false
+      lastModified: 2024-07-22T23:31:30Z
+      lots:
+        - category: r$$
+          filename: R$$4_2x1_Thursby Manor_c1dffaee.SC4Lot
+          id: c1dffaee
+          label: R$$4_2x1_Thursby Manor_c1dffaee.SC4Lot
+          size: 2x1
+          stage: 4
+        - category: r$$
+          filename: R$$4_1x2_Thursby Manor_21dfe113.SC4Lot
+          id: 21dfe113
+          label: R$$4_1x2_Thursby Manor_21dfe113.SC4Lot
+          size: 1x2
+          stage: 4
+        - category: r$$
+          filename: R$$3_2x2_Thursby Manor_018ce644.SC4Lot
+          id: 018ce644
+          label: R$$3_2x2_Thursby Manor_018ce644.SC4Lot
+          size: 2x2
+          stage: 3
+        - category: r$
+          filename: R$3_2x1_Keswick House_81dffdaf.SC4Lot
+          id: 81dffdaf
+          label: R$3_2x1_Keswick House_81dffdaf.SC4Lot
+          size: 2x1
+          stage: 3
+        - category: r$
+          filename: R$3_1x2_Keswick House_91dfe011.SC4Lot
+          id: 91dfe011
+          label: R$3_1x2_Keswick House_91dfe011.SC4Lot
+          size: 1x2
+          stage: 3
+        - category: r$
+          filename: R$1_2x2_Keswick House_a18ce668.SC4Lot
+          id: a18ce668
+          label: R$1_2x2_Keswick House_a18ce668.SC4Lot
+          size: 2x2
+          stage: 1
+        - category: cs$
+          filename: CS$2_2x1_Fleece Inn_91dff7de.SC4Lot
+          id: 91dff7de
+          label: CS$2_2x1_Fleece Inn_91dff7de.SC4Lot
+          size: 2x1
+          stage: 2
+        - category: cs$
+          filename: CS$2_1x2_Fleece Inn_a1dfe0cc.SC4Lot
+          id: a1dfe0cc
+          label: CS$2_1x2_Fleece Inn_a1dfe0cc.SC4Lot
+          size: 1x2
+          stage: 2
+        - category: cs$
+          filename: CS$1_2x2_Fleece Inn_418ce516.SC4Lot
+          id: 418ce516
+          label: CS$1_2x2_Fleece Inn_418ce516.SC4Lot
+          size: 2x2
+          stage: 1
       version: 2.0.0
   warnings:
     - id: bulldoze
@@ -401,6 +480,7 @@ bombardiere/clerkenwell-close:
     - https://www.simtropolis.com/objects/screens/monthly_2016_04/ClerkenwellGen1.jpg.57fe6ca2b38b2eba00e0bf607a40ac0d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_04/ClerkenwellGen2.jpg.464c878654054d8a8d10f4a6705a1947.jpg
   name: Clerkenwell Close
+  release: 2024-09-04T10:03:15.374Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_04/ClerkenwellHD1.thumb.jpg.be334daeb3d6a6464e772b29aac5a220.jpg
   url: https://community.simtropolis.com/files/file/31011-clerkenwell-close-hd-version/
   variants:
@@ -411,7 +491,76 @@ bombardiere/clerkenwell-close:
           id: simtropolis/31011-clerkenwell-close-hd-version
           include:
             - Clerkenwell Close HD DarkNite/*/{{lots}}_HD_DN_*.SC4Lot
-      name: HD (Dark Nite)
+      lastModified: 2016-04-01T10:14:34Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x2_ClerkenwellLane_HD_DN_d46c9add.SC4Lot
+          id: d46c9add
+          label: PLOP_1x2_ClerkenwellLane_HD_DN_d46c9add.SC4Lot
+          size: 1x2
+        - category: landmarks
+          filename: PLOP_1x2_ClerkenwellGreen_HD_DN_846c99d6.SC4Lot
+          id: 846c99d6
+          label: PLOP_1x2_ClerkenwellGreen_HD_DN_846c99d6.SC4Lot
+          size: 1x2
+        - category: landmarks
+          filename: PLOP_1x1_ClerkenwellPub_HD_DN_846dbe2b.SC4Lot
+          id: 846dbe2b
+          label: PLOP_1x1_ClerkenwellPub_HD_DN_846dbe2b.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_ClerkenwellCorner_HD_DN_446dbc1f.SC4Lot
+          id: 446dbc1f
+          label: PLOP_1x1_ClerkenwellCorner_HD_DN_446dbc1f.SC4Lot
+          size: 1x1
+        - category: r$
+          filename: R$5_2x1_ClerkenwellClose_HD_DN_2460e0f3.SC4Lot
+          id: 2460e0f3
+          label: R$5_2x1_ClerkenwellClose_HD_DN_2460e0f3.SC4Lot
+          size: 2x1
+          stage: 5
+        - category: r$
+          filename: R$4_2x2_ClerkenwellClose_HD_DN_2460e19d.SC4Lot
+          id: 2460e19d
+          label: R$4_2x2_ClerkenwellClose_HD_DN_2460e19d.SC4Lot
+          size: 2x2
+          stage: 4
+        - category: cs$
+          filename: CS$5_1x2_ClerkenwellLane_HD_DN_4460dc6d.SC4Lot
+          id: 4460dc6d
+          label: CS$5_1x2_ClerkenwellLane_HD_DN_4460dc6d.SC4Lot
+          size: 1x2
+          stage: 5
+        - category: cs$
+          filename: CS$5_1x2_ClerkenwellGreen_HD_DN_0460ddd3.SC4Lot
+          id: 0460ddd3
+          label: CS$5_1x2_ClerkenwellGreen_HD_DN_0460ddd3.SC4Lot
+          size: 1x2
+          stage: 5
+        - category: cs$
+          filename: CS$5_1x1_ClerkenwellPub_HD_DN_3460da9a.SC4Lot
+          id: 3460da9a
+          label: CS$5_1x1_ClerkenwellPub_HD_DN_3460da9a.SC4Lot
+          size: 1x1
+          stage: 5
+        - category: cs$
+          filename: CS$5_1x1_ClerkenwellCorner_HD_DN_3460dfcf.SC4Lot
+          id: 3460dfcf
+          label: CS$5_1x1_ClerkenwellCorner_HD_DN_3460dfcf.SC4Lot
+          size: 1x1
+          stage: 5
+        - category: cs$
+          filename: CS$5_1x1_ClerkenwellAlley_HD_DN_8460e3cd.SC4Lot
+          id: 8460e3cd
+          label: CS$5_1x1_ClerkenwellAlley_HD_DN_8460e3cd.SC4Lot
+          size: 1x1
+          stage: 5
+        - category: cs$
+          filename: CS$4_1x2_ClerkenwellAlley_HD_DN_8460e051.SC4Lot
+          id: "8460e051"
+          label: CS$4_1x2_ClerkenwellAlley_HD_DN_8460e051.SC4Lot
+          size: 1x2
+          stage: 4
       options:
         - choices:
             - label: Clerkenwell Close (Growable R$, 2x2, Stage 4)
@@ -471,6 +620,7 @@ bombardiere/clerkenwell-close-dependencies:
     - https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis3.jpg.385fc4e51803b4eebb9ceeca0ab5b6a5.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis4.jpg.48fe9309e1a85878d9a99aecf12e8b80.jpg
   name: Clerkenwell Close - Dependencies
+  release: 2024-09-04T10:03:15.374Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_06/ClerkenHD_Maxis.thumb.jpg.9a0c57cc8e700fe8640c3dc1b93e7611.jpg
   url: https://community.simtropolis.com/files/file/31112-clerkenwell-close-hd-maxis-night/
   variants:
@@ -492,8 +642,45 @@ bombardiere/clerkenwell-close-dependencies:
             - ClerkenwellClose_HD_MN
           id: simtropolis/31112-clerkenwell-close-hd-maxis-night
           include:
-            - ClerkenwellClose_HD_MN
-      name: HD (Maxis Nite)
+            - ClerkenwellClose_HD_MN/ClerkenwellPub_HD_MN-0x6534284a-0x543d328f-0x241c2609.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellPub_HD_MN-0x5ad0e817_0x445b5365_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellPubFoundation_HD_MN-0x6534284a-0x543d328f-0x241c2564.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellPubFoundation_HD_MN-0x5ad0e817_0xa45b649f_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellLane_HD_MN-0x6534284a-0x543d328f-0xe41c25e8.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellLane_HD_MN-0x5ad0e817_0x645b50de_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellLaneFoundation_HD_MN-0x6534284a-0x543d328f-0xc41c25a4.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellLaneFoundation_HD_MN-0x5ad0e817_0x245b6271_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellGreen_HD_MN-0x6534284a-0x543d328f-0x641c2630.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellGreen_HD_MN-0x5ad0e817_0x445b4dce_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellGreenFoundation_HD_MN-0x6534284a-0x543d328f-0x041c2581.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellGreenFoundation_HD_MN-0x5ad0e817_0x845b6059_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellCorner_HD_MN-0x6534284a-0x543d328f-0x041c25ba.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellCorner_HD_MN-0x5ad0e817_0x645b55c7_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellCornerFoundation_HD_MN-0x6534284a-0x543d328f-0x241c2558.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellCornerFoundation_HD_MN-0x5ad0e817_0xc45b5f0d_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellClose_HD_MN-0x6534284a-0x543d328f-0x841c2659.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellClose_HD_MN-0x5ad0e817_0x245b49c1_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellCloseFoundation_HD_MN-0x6534284a-0x543d328f-0x441c256d.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellCloseFoundation_HD_MN-0x5ad0e817_0xa45b597a_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellAlley_HD_MN-0x6534284a-0x543d328f-0xc41c2644.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellAlley_HD_MN-0x5ad0e817_0x245b476a_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/ClerkenwellAlleyFoundation_HD_MN-0x6534284a-0x543d328f-0xc41c2591.SC4Desc
+            - ClerkenwellClose_HD_MN/ClerkenwellAlleyFoundation_HD_MN-0x5ad0e817_0x645b5749_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_YardBld6m_HD_MN-0x6534284a-0x543d328f-0xd4956f1e.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_YardBld6m_HD_MN-0x5ad0e817_0x45b6892_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_YardBld4m_HD_MN-0x6534284a-0x543d328f-0x14956f05.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_YardBld4m_HD_MN-0x5ad0e817_0x445b679c_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_YardBld4mSlope_HD_MN-0x6534284a-0x543d328f-0x94956f16.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_YardBld4mSlope_HD_MN-0x5ad0e817_0x645b6811_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_YardBld3m_HD_MN-0x6534284a-0x543d328f-0x94956ef8.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_YardBld3m_HD_MN-0x5ad0e817_0x845b6727_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_WallGate_HD_MN-0x6534284a-0x543d328f-0x54956ee8.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_WallGate_HD_MN-0x5ad0e817_0xe45b690d_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_WallGate32m_HD_MN-0x6534284a-0x543d328f-0x14956edc.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_WallGate32m_HD_MN-0x5ad0e817_0x45b6675_0x30000.SC4Model
+            - ClerkenwellClose_HD_MN/BomCL_Wall12m_HD_MN-0x6534284a-0x543d328f-0x54956ecd.SC4Desc
+            - ClerkenwellClose_HD_MN/BomCL_Wall12m_HD_MN-0x5ad0e817_0xa45b6606_0x30000.SC4Model
+      lastModified: 2016-06-01T15:02:07Z
       release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: false
@@ -504,7 +691,7 @@ bombardiere/clerkenwell-library:
   authors:
     - Bombardiere
     - Simmer2
-  category: civics
+  category: education,co$$$
   dependencies:
     - bombardiere/british-boxes
     - cycledogg/mega-props-vol01
@@ -607,6 +794,28 @@ bombardiere/clerkenwell-library:
     - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary4.jpg.dcaad6c3a7a9fd29245ef54ce04fe545.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary5.jpg.332cf3a175081ac999ecac0901f65170.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary6.jpg.c2799c737f577ca261a2dae9652bf436.jpg
+  lots:
+    - category: education
+      filename: PLOP_3x2_ClerkenwellLibrary_35006239.SC4Lot
+      id: "35006239"
+      label: Clerkenwell Library (3x2)
+      size: 3x2
+    - category: education
+      filename: PLOP_1x2_ClerkenwellLibrary_0486e1ce.SC4Lot
+      id: 0486e1ce
+      label: Clerkenwell Library (1x2)
+      size: 1x2
+    - category: education,diagonal
+      filename: PLOP_1x1_Clerkenwell Library FAR_55b0bab4.SC4Lot
+      id: 55b0bab4
+      label: Clerkenwell Library, Diagonal (1x1)
+      size: 1x1
+    - category: co$$$
+      filename: CO$$$3_1x2_Clerkenwell Office_b486e1a8.SC4Lot
+      id: b486e1a8
+      label: Clerkenwell Office (CO$$$, Stage 3, 1x2)
+      size: 1x2
+      stage: 3
   name: Clerkenwell Library
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_12/ClerkenwellLibrary1.thumb.jpg.4376b104b86e9d1793e56794392cc981.jpg
@@ -619,8 +828,8 @@ bombardiere/clerkenwell-library:
           id: simtropolis/31404-clerkenwell-library#164079
           include:
             - Clerkenwell Library DN
+      lastModified: 2016-12-14T17:19:45Z
       name: Dark Nite
-      release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
       version: 1.0.0
@@ -631,6 +840,7 @@ bombardiere/clerkenwell-library:
           id: simtropolis/31404-clerkenwell-library#164080
           include:
             - Clerkenwell Library MN
+      lastModified: 2016-12-14T17:19:45Z
       name: Maxis Nite
       requirements:
         darknite: false

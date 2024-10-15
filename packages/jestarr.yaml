@@ -3,6 +3,7 @@ jestarr/1x1-dirty-industrials:
     - jestarr
   category: i-d
   dependencies:
+    - bsc/common-dependencies
     - bsc/mega-props-misc-vol02
     - cycledogg/mega-props-vol01
     - jestarr/mega-props-vol01
@@ -12,36 +13,96 @@ jestarr/1x1-dirty-industrials:
     - jestarr/mega-props-vol09
     - jestarr/resourcepack-vol27
     - simgoober/mega-props-vol01
-  description: |-
+  description: >-
     A set of four 1x1 I-D growable and ploppable lots.
+
 
     Lot Details and Information:
 
+
     Lot size: 1x1 tiles
+
 
     Building style(s): Building: Industrial, Building: ID, Industry: Anchor, BTE: Ind - Dirty
 
+
     Growth stage: 1
+
 
     Occupants: I-D - 2 to 4
 
+
     Bulldoze cost: $100 to $141
+
 
     Max. Fire Stage: 1 to 2
 
+
     Power consumption: 1 to 2 MWh/month
+
 
     Water consumption: 1 to 3 Gallons/month
 
+
     Air pollution: 1 over 16 tiles
+
 
     Water pollution: 1 over 20 tiles
 
+
     Garbage pollution: 4 over 0 tiles
+
 
     Compatibility:
 
+
     This download is only compatible with SimCity 4 “Rush Hour” or SimCity 4 Deluxe.
+
+
+    Installation:
+
+
+    Unzip the downloaded file and place it in your plugins folder. The readme file and images should be moved to a seperate folder or deleted.
+
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    Dependencies:
+
+
+    To ensure the proper functionality, make sure the below files are installed in your plugins folder.
+
+
+    BSC Essentials
+
+
+    BSC MEGA Props - CP Vol01
+
+
+    BSC MEGA Props - Misc Vol02
+
+
+    BSC Mega Props - JES Vol01
+
+
+    BSC Mega Props - JES Vol02
+
+
+    BSC Mega Props - JES Vol04
+
+
+    BSC Mega Props - JES Vol05
+
+
+    BSC Mega Props - JES Vol09
+
+
+    BSC MEGA Props - SG Vol01
+
+
+    The above files can be found at
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack"/.](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/1x1_IndustrialLots_Day.jpg.126dda05a6993d1d799aeccbde88b062.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/1x1_IndustrialLots_Nite.jpg.2be08851942bb0f5342962d114fca017.jpg
@@ -53,14 +114,58 @@ jestarr/1x1-dirty-industrials:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_1x1_I-D_Lots.html
+            - Documentation/Styles/stylesheet.css
+            - Documentation/Images/logo.png
+            - Documentation/Images/footer1.jpg
+            - Documentation/Images/1x1_IndustrialLots_Nite.png
+            - Documentation/Images/1x1_IndustrialLots_Day.png
           id: simtropolis/35633-1x1-dirty-industrials
           include:
             - BSC/jestarr
-            # - BSC/jestarr/PumpingStation
-            # - BSC/jestarr/MechanicalBuilding
-            # - BSC/jestarr/ContainerOnBlocks
-            # - BSC/jestarr/ContainerOffice
+      lastModified: 2024-07-22T18:31:28Z
+      lots:
+        - category: landmarks
+          filename: jes_1x1_plop_PumpingStation_d2199fe9.SC4Lot
+          id: d2199fe9
+          label: jes_1x1_plop_PumpingStation_d2199fe9.SC4Lot
+          size: 1x1
+        - filename: ID$$1_1x1_jes_PumpingStation01_e291f9db.SC4Lot
+          id: e291f9db
+          label: ID$$1_1x1_jes_PumpingStation01_e291f9db.SC4Lot
+          size: 1x1
+          stage: 1
+        - category: landmarks
+          filename: jes_1x1_plop_MechanicalBuilding_d2199bcd.SC4Lot
+          id: d2199bcd
+          label: jes_1x1_plop_MechanicalBuilding_d2199bcd.SC4Lot
+          size: 1x1
+        - filename: ID$$1_1x1_jes_MechanicalBuilding_9291f9c8.SC4Lot
+          id: 9291f9c8
+          label: ID$$1_1x1_jes_MechanicalBuilding_9291f9c8.SC4Lot
+          size: 1x1
+          stage: 1
+        - category: landmarks
+          filename: jes_1x1_plop_ContainerOnBlocks_d2199900.SC4Lot
+          id: d2199900
+          label: jes_1x1_plop_ContainerOnBlocks_d2199900.SC4Lot
+          size: 1x1
+        - filename: ID$$1_1x1_jes_ContainerOnBlocks_b291fa51.SC4Lot
+          id: b291fa51
+          label: ID$$1_1x1_jes_ContainerOnBlocks_b291fa51.SC4Lot
+          size: 1x1
+          stage: 1
+        - category: landmarks
+          filename: jes_1x1_plop_ContainerOffice_d219946b.SC4Lot
+          id: d219946b
+          label: jes_1x1_plop_ContainerOffice_d219946b.SC4Lot
+          size: 1x1
+        - filename: ID$$1_1x1_jes_ContainerOffice_9291f99d.SC4Lot
+          id: 9291f99d
+          label: ID$$1_1x1_jes_ContainerOffice_9291f99d.SC4Lot
+          size: 1x1
+          stage: 1
+      name: Default
       version: 1.0.3
   warnings:
     - id: bulldoze
@@ -70,7 +175,18 @@ jestarr/bsc-batprops_hd-jes-vol10:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 124 props rendered in HD. There's a cleanitol file included.
+  description: |-
+    BSC BATProps_HD - JES Vol10
+
+    This is a pack of 124 props rendered in HD. There's a cleanitol file included.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation file should be moved or deleted.
+
+    Files to be removed:
+
+    • jes_WaterpumpBldgPipeFence_HD.dat
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ec558b0825_jes_BATProps_HD_Vol10.jpg.15a907ebf4f16e77655ea55209e236e4.jpg
   name: BSC BATProps_HD - JES Vol10
@@ -81,17 +197,29 @@ jestarr/bsc-batprops_hd-jes-vol10:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_jes_BATProps_HD_ Vol10.txt
+            - Documentation/cleanitol.txt
+            - Documentation/BSC BATProps_HD - JES Vol10.jpg
           id: simtropolis/35961-bsc-batprops_hd-jes-vol10
           include:
-            - BSC/BSCProps
-      version: 1.0.1
+            - BSCProps/BSC BATProps_HD - JES Vol10.dat
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol10.dat
+      lastModified: 2024-07-01T01:52:43Z
+      name: Default
+      version: 1.0.2
 
 jestarr/bsc-batprops_hd-jes-vol11:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 100 props rendered in HD. Most are rendered in 90, 45 and 22.5 degrees.
+  description: |-
+    BSC BATProps_HD - JES Vol11
+
+    This is a pack of 100 props rendered in HD. Most are rendered in 90, 45 and 22.5 degrees.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation file should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/65a1be5b31e4c_BSCBATProps_HD-JESVol11.jpg.a228fdc2559381ca6347a90246c4a9b8.jpg
   name: BSC BATProps_HD - JES Vol11
@@ -102,17 +230,27 @@ jestarr/bsc-batprops_hd-jes-vol11:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_jes_BATProps_HD_ Vol11.txt
+            - Documentation/BSC BATProps_HD - JES Vol11.jpg
           id: simtropolis/36006-bsc-batprops_hd-jes-vol11
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol11.dat
+      lastModified: 2024-01-19T23:03:56Z
+      name: Default
       version: 1.0.1
 
 jestarr/bsc-batprops_hd-jes-vol12:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 122 props rendered in HD. Most are rendered in 90, 45 and 22.5 degrees.
+  description: |-
+    BSC BATProps_HD - JES Vol12
+
+    This is a pack of 122 props rendered in HD. Most are rendered in 90, 45 and 22.5 degrees.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation file should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/65a8321b09f91_BSCBATProps_HD-JESVol12a.jpg.9504ff0863b5e7bf3abc6bfd2d36f1eb.jpg
   name: BSC BATProps_HD - JES Vol12
@@ -123,19 +261,31 @@ jestarr/bsc-batprops_hd-jes-vol12:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_jes_BATProps_HD_ Vol12.txt
+            - Documentation/BSC BATProps_HD - JES Vol12.jpg
           id: simtropolis/36046-bsc-batprops_hd-jes-vol12
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol12.dat
+      lastModified: 2024-01-17T20:02:57Z
+      name: Default
       version: 1.0.0
 
 jestarr/bsc-batprops_hd-jes-vol13:
   authors:
     - jestarr
   category: props
-  description:
-    This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the
-    substation which is only in 90 degrees.
+  description: >-
+    BSC BATProps_HD - JES Vol13
+
+
+    This is a pack of 71 props rendered in HD. The building models are rendered straight and 45 diagonal. The rest are rendered in 90, 45 and 22.5 left/right with the exception of the substation which
+    is only in 90 degrees.
+
+
+    Installation:
+
+
+    Unzip the file into your plugins folder. The documentation file should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bf1449165f1_BSCBATProps_HD-JESVol13a.jpg.ca78f91604544feeaf945f999d20b319.jpg
   name: BSC BATProps_HD - JES Vol13
@@ -146,17 +296,25 @@ jestarr/bsc-batprops_hd-jes-vol13:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_jes_BATProps_HD_ Vol13.txt
+            - Documentation/BSC BATProps_HD - JES Vol13.jpg
           id: simtropolis/36094-bsc-batprops_hd-jes-vol13
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol13.dat
+      lastModified: 2024-02-04T04:38:35Z
+      name: Default
       version: 1.0.0
 
 jestarr/bsc-batprops_hd-jes-vol14:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 76 props rendered in HD for use in the LE.
+  description: |-
+    This is a pack of 76 props rendered in HD for use in the LE.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation file should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65c5999e1f08c_BSCBATProps_HD-JESVol14.jpg.b80e8f1c0c56b9721a6b666e7de17a55.jpg
   name: BSC BATProps_HD - JES Vol14
@@ -167,17 +325,27 @@ jestarr/bsc-batprops_hd-jes-vol14:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_BSC BATProps_HD - JES Vol14.txt
+            - Documentation/BSC BATProps_HD - JES Vol14.jpg
           id: simtropolis/36110-bsc-batprops_hd-jes-vol14
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol14.dat
+      lastModified: 2024-02-09T03:20:11Z
+      name: Default
       version: 1.0.0
 
 jestarr/bsc-batprops_hd-jes-vol15:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 45 props rendered in HD for use in the LE.    Unzip the file into your plugins folder. The documentation older should be moved or deleted.
+  description: |-
+    BSC BATProps_HD - JES Vol15
+
+    This is a pack of 45 props rendered in HD for use in the LE.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation older should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/660df93960ec3_BSCBATProps_HD-JESVol15.jpg.ccec75993d4a4e0a5ebcbcff45779ccc.jpg
   name: BSC BATProps_HD - JES Vol15
@@ -188,17 +356,25 @@ jestarr/bsc-batprops_hd-jes-vol15:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_BSC BATProps_HD - JES Vol15.txt
+            - Documentation/BSC BATProps_HD - JES Vol15.png
           id: simtropolis/36194-bsc-batprops_hd-jes-vol15
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol15.dat
+      lastModified: 2024-04-04T00:51:24Z
+      name: Default
       version: 1.0.0
 
 jestarr/bsc-batprops_hd-jes-vol16:
   authors:
     - jestarr
   category: props
-  description: This is a pack of 25 props rendered in HD for use in the LE. Most of the props are buildings rendered in both 90 and 45 degrees.
+  description: |-
+    This is a pack of 25 props rendered in HD for use in the LE. Most of the props are buildings rendered in both 90 and 45 degrees.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation older should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/664d15c18fbe5_BSCBATProps_HD-JESVol16.jpg.a27e25bd607271f7d3481c527605904e.jpg
   name: BSC BATProps_HD - JES Vol16
@@ -209,17 +385,25 @@ jestarr/bsc-batprops_hd-jes-vol16:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_BSC BATProps_HD - JES Vol16.txt
+            - Documentation/BSC BATProps_HD - JES Vol16.jpg
           id: simtropolis/36258-bsc-batprops_hd-jes-vol16
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol16.dat
+      lastModified: 2024-05-21T21:46:05Z
+      name: Default
       version: 1.0.0
 
 jestarr/bsc-batprops_hd-jes-vol17:
   authors:
     - jestarr
   category: props
-  description: A set of 36 HD models rendered in 11.25 degrees L/R, 22.5 degrees L/R, 45 degrees and 90 degrees for a total of 216 shipping container props.
+  description: |-
+    A set of 36 HD models rendered in 11.25 degrees L/R, 22.5 degrees L/R, 45 degrees and 90 degrees for a total of 216 shipping container props.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation folder should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de0f2600ce_BSCBATProps_HD-JESVol17a.jpg.2317213e7942df53e6a912b9df0cbb65.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/667de0f8447d4_BSCBATProps_HD-JESVol17b.jpg.a58043cdde5d239e12111c644b884548.jpg
@@ -231,10 +415,14 @@ jestarr/bsc-batprops_hd-jes-vol17:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/BSC BATProps_HD - JES Vol17b.jpg
+            - Documentation/BSC BATProps_HD - JES Vol17a.jpg
+            - Documentation/BSC BATProps_HD - JES Vol17.txt
           id: simtropolis/36318-bsc-batprops_hd-jes-vol17
           include:
-            - BSC/BSCProps
+            - BSC/BSCProps/BSC BATProps_HD - JES Vol17.dat
+      lastModified: 2024-06-27T22:01:55Z
+      name: Default
       version: 1.0.0
 
 jestarr/central-coop-creamery:
@@ -243,48 +431,116 @@ jestarr/central-coop-creamery:
   category: industry
   dependencies:
     - barroco-hispano/agc-automobile-dlc
+    - bsc/common-dependencies
     - bsc/textures-vol02
     - bsc/textures-vol03
+    - cam/colossus-addon-mod
     - jestarr/bsc-batprops_hd-jes-vol10
     - jestarr/bsc-batprops_hd-jes-vol12
     - jestarr/bsc-batprops_hd-jes-vol13
     - jestarr/bsc-batprops_hd-jes-vol15
     - jestarr/mega-props-vol02
     - jestarr/mega-props-vol04
-  description: |-
+  description: >-
     Makers of various products using cream. This comes as an IM$$3 lot, an IM$$4 CAM lot and a plop with jobs. It has both an SD and HD version. All are BTE enabled for industrial reward chains.
+
 
     Lot Details and Information:
 
+
     Lot Size: 4x5 Tiles
+
 
     Building style(s): Building: Industrial, Building: IM, Industry: Anchor, BTE: Ind - Manufacturing, BTE: Ind - CAM Stage 4
 
+
     Growth stage: 3 & 4
+
 
     Menu position: Landmarks \[Ploppable version\]
 
+
     Occupants: 465 - IM
+
 
     Bulldoze cost: $391
 
+
     Building Value: $3,547
+
 
     Construction Time: 39 days
 
+
     Max. Fire Stage: 4
+
 
     Power consumption: 28 MWh/month
 
+
     Water consumption: 418 Gallons/month
+
 
     Air pollution: 27 over 9 tiles
 
+
     Water pollution: 18 over 13 tiles
+
 
     Garbage pollution: 4 over 0 tiles
 
+
+    Compatibility:
+
+
+    This download is only compatible with SimCity 4 “Rush Hour” or SimCity 4 Deluxe.
+
+
+    Installation:
+
+
+    Unzip the downloaded file and place it in your plugins folder. The readme file and images should be moved to a seperate folder or deleted.
+
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    Dependencies:
+
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in your plugins folder.
+
+
+    BSC MEGA Props - CP Vol01
+
+
+    BSC MEGA Props - JES Vol02 v2
+
+
+    BSC MEGA Props - JES Vol04 v2
+
+
+    BSC Textures Vol02
+
+
+    BSC Textures Vol03 v4
+
+
+    The above files are available at
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack/](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack/)
+
+
+    Colossus Addon Mod 2.1.0a Windows Installer v2 \[only for the IM$$4 version\]
+
+
+    The above file is available at https://www.sc4evermore.com/index.php/downloads/download/26-gameplay-mods/51-colossus-addon-mod-version-2-1-0-windows-by-invisichem/
+
+
+    jes_CentralCo-opCreameryTextures.dat \[included\]
+
+
     Feedback and Support:
+
 
     Please see my Building Thread on Simtropolis here, for any feedback or support issues. I'll attempt to answer questions to the best of my knowledge, and as quickly as possible.
   images:
@@ -298,59 +554,77 @@ jestarr/central-coop-creamery:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_CentralCo-opCreamery.html
+            - Documentation/Styles/stylesheet.css
+            - Documentation/images/logo.png
+            - Documentation/images/footer1.jpg
+            - Documentation/images/CentralCo-opCreamery_Nite.jpg
+            - Documentation/images/CentralCo-opCreamery_Day.jpg
           id: simtropolis/36248-central-co-op-creamery#201340
           include:
             - BSC/BSCTextures
             - BSC/BSCProps
             - jes_CentralCo-opCreamery
+      lastModified: 2024-05-15T14:36:43Z
       lots:
-        - filename: IM$$3_4x5_jes_CentralCo-opCreamery_SD_23c9de03.SC4Lot
-          id: 23c9de03
-          label: Growable, Stage 3, 4x5
-          size: 4x5
-          stage: 3
-        - filename: IM$$4_4x5_jes_CentralCo-opCreamery_SD_53c8ded4.SC4Lot
+        - category: i-m
+          filename: IM$$4_4x5_jes_CentralCo-opCreamery_SD_53c8ded4.SC4Lot
           id: 53c8ded4
-          label: Growable, Stage 4, 4x5 (CAM only)
+          label: IM$$4_4x5_jes_CentralCo-opCreamery_SD_53c8ded4.SC4Lot
           requirements:
             cam: true
           size: 4x5
           stage: 4
-        - filename: jes_4x5_plop_CentralCo-opCreamery_SD_73c8da0d.SC4Lot
+        - category: landmarks
+          filename: jes_4x5_plop_CentralCo-opCreamery_SD_73c8da0d.SC4Lot
           id: 73c8da0d
-          label: Landmark, 4x5
+          label: jes_4x5_plop_CentralCo-opCreamery_SD_73c8da0d.SC4Lot
           size: 4x5
+        - category: i-m
+          filename: IM$$3_4x5_jes_CentralCo-opCreamery_SD_23c9de03.SC4Lot
+          id: 23c9de03
+          label: IM$$3_4x5_jes_CentralCo-opCreamery_SD_23c9de03.SC4Lot
+          size: 4x5
+          stage: 3
       name: Default
       version: 1.0.0
     hd:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_CentralCo-opCreamery.html
+            - Documentation/Styles/stylesheet.css
+            - Documentation/images/logo.png
+            - Documentation/images/footer1.jpg
+            - Documentation/images/CentralCo-opCreamery_Nite.jpg
+            - Documentation/images/CentralCo-opCreamery_Day.jpg
           id: simtropolis/36248-central-co-op-creamery#201341
           include:
             - BSC/BSCTextures
             - BSC/BSCProps
             - jes_CentralCo-opCreamery
+      lastModified: 2024-05-15T14:36:43Z
       lots:
-        - filename: IM$$3_4x5_jes_CentralCo-opCreamery_HD_93c8dfd0.SC4Lot
-          id: 93c8dfd0
-          label: Growable, Stage 3, 4x5
-          size: 4x5
-          stage: 3
-        - filename: IM$$4_4x5_jes_CentralCo-opCreamery_HD_23c8dd8e.SC4Lot
+        - category: i-m
+          filename: IM$$4_4x5_jes_CentralCo-opCreamery_HD_23c8dd8e.SC4Lot
           id: 23c8dd8e
-          label: Growable, Stage 4, 4x5 (CAM only)
+          label: IM$$4_4x5_jes_CentralCo-opCreamery_HD_23c8dd8e.SC4Lot
           requirements:
             cam: true
           size: 4x5
           stage: 4
-        - filename: jes_4x5_plop_CentralCo-opCreamery_HD_13c8d9ed.SC4Lot
+        - category: landmarks
+          filename: jes_4x5_plop_CentralCo-opCreamery_HD_13c8d9ed.SC4Lot
           id: 13c8d9ed
-          label: Landmark, 4x5
+          label: jes_4x5_plop_CentralCo-opCreamery_HD_13c8d9ed.SC4Lot
           size: 4x5
+        - category: i-m
+          filename: IM$$3_4x5_jes_CentralCo-opCreamery_HD_93c8dfd0.SC4Lot
+          id: 93c8dfd0
+          label: IM$$3_4x5_jes_CentralCo-opCreamery_HD_93c8dfd0.SC4Lot
+          size: 4x5
+          stage: 3
       name: HD
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -361,6 +635,8 @@ jestarr/fall-river-mill:
     - jestarr
   category: i-m
   dependencies:
+    - barroco-hispano/agc-automobile-dlc
+    - bsc/common-dependencies
     - bsc/textures-vol02
     - bsc/textures-vol03
     - cycledogg/mega-props-vol01
@@ -370,41 +646,105 @@ jestarr/fall-river-mill:
     - jestarr/bsc-batprops_hd-jes-vol12
     - jestarr/bsc-batprops_hd-jes-vol16
     - jestarr/bsc-batprops_hd-jes-vol17
+    - mushymushy/hd-north-american-53ft-semi-trailers-vol01
+    - mushymushy/hd-north-american-semi-truck-cabs-vol01
     - simgoober/mega-props-vol01
-  description: |-
+  description: >-
     Grinding grain into flour. This comes as a ploppable only. It's transit enabled for rail and truck.
+
 
     Lot Details and Information:
 
+
     Lot Size: 14x5 tiles
+
 
     Building Style(s): Building: Industrial, Building: IM, Industry: Anchor, BTE: Ind - Manufacturing
 
+
     Menu Position: Landmarks \[Ploppable\]
+
 
     Occupants: 1574 - IM
 
+
     Bulldoze Cost: $606
+
 
     Building Value: $6,767
 
+
     Max. Fire Stage: 4
+
 
     Plop Cost: $9,246
 
+
     Power Consumption: 54 MWh/month
+
 
     Water Consumption: 798 Gallons/month
 
+
     Air Pollution: 53 over 9 tiles
+
 
     Water Pollution: 35 over 13 tiles
 
+
     Garbage Pollution: 8 over 0 tiles
+
 
     Compatibility:
 
+
     This download is only compatible with SimCity 4 “Rush Hour” or SimCity 4 Deluxe.
+
+
+    Installation:
+
+
+    Unzip the downloaded file and place it in your plugins folder. The readme file and images should be moved to a seperate folder or deleted.
+
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    Dependencies:
+
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in your plugins folder.
+
+
+    •jes_FallRiverMill_Props_HD \[included\]
+
+
+    •jes_FallRiverMillTextures \[included\]
+
+
+    • BSC MEGA Props - CP Vol01
+
+
+    • BSC MEGA Props - SG Vol01 v4
+
+
+    • BSC MEGA Props - JES Vol01 v2
+
+
+    • Grfe_props_pack_Carpack vol01-vol02-Remastered
+
+
+    • Grfe_props_pack_Carpack vol04
+
+
+    • BSC Textures Vol02
+
+
+    • BSC Textures Vol03 v5
+
+
+    The above files are available at
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack/](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack/)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_FallRiver_Day.jpg.aaee37e193b3f330b52a66bf1d6a406d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_FallRiver_Nite.jpg.2f66a55d03eec05aa3aeff2ca8542dc6.jpg
@@ -422,8 +762,23 @@ jestarr/fall-river-mill:
             - BSC/jestarr/jes_FallRiverMill_SD
             - BSC/BSCProps
             - BSC/BSCTextures
-      name: SD
-      version: 1.0.0
+        - docs:
+            - Documentation/images/FallRiver_Day.jpg
+            - Documentation/images/FallRiver_Nite.jpg
+            - Documentation/images/footer1.jpg
+            - Documentation/images/logo.png
+            - Documentation/Styles/stylesheet.css
+            - Documentation/Readme_FallRiverMill_SD.html
+          id: simtropolis/36381-fall-river-mill#202684
+      lastModified: 2024-08-23T00:26:38Z
+      lots:
+        - category: landmarks
+          filename: jes_14x5_plop_FallRiverMill_SD_d3b2a4ac.SC4Lot
+          id: d3b2a4ac
+          label: jes_14x5_plop_FallRiverMill_SD_d3b2a4ac.SC4Lot
+          size: 14x5
+      name: Default
+      version: 2.0.0
     hd:
       assets:
         - docs:
@@ -433,9 +788,24 @@ jestarr/fall-river-mill:
             - BSC/jestarr/jes_FallRiverMill_HD
             - BSC/BSCProps
             - BSC/BSCTextures
+        - docs:
+            - Documentation/images/FallRiver_Day.jpg
+            - Documentation/images/FallRiver_Nite.jpg
+            - Documentation/images/footer1.jpg
+            - Documentation/images/logo.png
+            - Documentation/Styles/stylesheet.css
+            - Documentation/Readme_FallRiverMill_HD.html
+          id: simtropolis/36381-fall-river-mill#202683
+      lastModified: 2024-08-23T00:26:38Z
+      lots:
+        - category: landmarks
+          filename: jes_14x5_plop_FallRiverMill_HD_b42cc621.SC4Lot
+          id: b42cc621
+          label: jes_14x5_plop_FallRiverMill_HD_b42cc621.SC4Lot
+          size: 14x5
       name: HD
-      release: 2024-08-20T10:45:45.232Z
-      version: 1.0.0
+      release: 2024-09-04T10:03:15.374Z
+      version: 2.0.0
   warnings:
     - id: bulldoze
       on: disable
@@ -608,8 +978,12 @@ jestarr/mmp-livestock:
     - Jestarr
   category: mmps
   dependencies:
+    - bsc/common-dependencies
     - jestarr/mega-props-vol07
   description: >-
+    **Mayor Mode Ploppable Livestock**
+
+
     So, do you want to make a sheep station? Perhaps you'd like to make a cattle ranch. Do you need a few pigs to fill your sties? They're all in this set of Mayor Mode ploppable livestock. There are
     eleven different models, rendered in 6 orientations. The cow models are, also, in families for those wishing to use them as variable props on lots.
 
@@ -619,6 +993,33 @@ jestarr/mmp-livestock:
 
     Modding by Chrisadams3997.
 
+
+    ### INSTALLATION:
+
+
+    Copy/extract the **BSC** parent folder into your plugins. If you extracted the ~Documents folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+
+    ### DEPENDENCIES:
+
+
+    The following files are required in order for the contents of this package to appear correctly and they work correctly (i.e., no "brown boxes" or missing textures):
+
+
+    - **jes_Cowprops_Family.dat - INCLUDED**
+
+    - **jes_PigProps.dat - INCLUDED**
+
+    - **jes_SheepProps.dat - INCLUDED**
+
+
+    Alternatively you can use the following prop pack, but in that case remove the above listed included files.
+
+
+    - **[SC4D LEX Legacy - BSC Common Dependencies Pack v9](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)** (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+        - BSC MEGA Props JES Vol07 v2
 
     ### **CREDITS:**
 
@@ -651,6 +1052,9 @@ jestarr/mmp-livestock:
 
 
     And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+
+    ![MayorModePloppableLivestock_s](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MayorModePloppableLivestock_s.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MayorModePloppableLivestock_s.jpg
   name: Mayor Mode Ploppable Livestock
@@ -661,10 +1065,24 @@ jestarr/mmp-livestock:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/Jestarr
+            - ~Documents/BSC_Readmes/Jestarr/images/footer.gif
+            - ~Documents/BSC_Readmes/Jestarr/images/header.gif
+            - ~Documents/BSC_Readmes/Jestarr/images/MayorModePloppableLivestock_s.jpg
+            - ~Documents/BSC_Readmes/Jestarr/readme_jestarr_MayorModePloppableLivestock.html
           id: sc4evermore/281-bsc-jestarr-mayor-mode-ploppable-livestock
           include:
-            - BSC/jestarr/MMP
+            - BSC/jestarr/MMP/jes_MayorMode_PloppableCows_Angus.dat
+            - BSC/jestarr/MMP/jes_MayorMode_PloppableCows_Brown and White.dat
+            - BSC/jestarr/MMP/jes_MayorMode_PloppableCows_Brown.dat
+            - BSC/jestarr/MMP/jes_MayorMode_PloppableCows_Hereford.dat
+            - BSC/jestarr/MMP/jes_MayorMode_PloppablePigs_Black.dat
+            - BSC/jestarr/MMP/jes_MayorMode_PloppablePigs_Red.dat
+            - BSC/jestarr/MMP/jes_MayorMode_PloppableSheep.dat
+            - BSC/BSCProps/jes_CowProps_Family.dat
+            - BSC/BSCProps/jes_PigProps_Family.dat
+            - BSC/BSCProps/jes_SheepProps.dat
+      lastModified: 2024-08-20T02:49:50-07:00
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -676,11 +1094,38 @@ jestarr/mmp-rocks:
     - Jestarr
   category: mmps
   dependencies:
+    - bsc/common-dependencies
     - jestarr/mega-props-vol07
   description: >-
+    **Mayor Mode Ploppable Rocks**
+
+
     Please find some Mayor Mode ploppable Rocks. There are six sizes. Large, medium, small, mini, micro, and nano. Each size is in four different styles. Click once for the first rock, a second
     without moving the pointer reveals another, a third fourth click does the same.
 
+
+    ### INSTALLATION:
+
+
+    Copy/extract the **BSC** parent folder into your plugins. If you extracted the ~Documents folder into your plugins, too, it's highly recommended to keep it, but move it out of the Plugins folder.
+
+
+    ### DEPENDENCIES:
+
+
+    The following files are required in order for the contents of this package to appear correctly and they work correctly (i.e., no "brown boxes" or missing textures):
+
+
+    - **jes_RockProps_family.dat - INCLUDED**
+
+
+    Alternatively you can use the following prop pack, but in that case remove the above listed included files.
+
+
+    - **[SC4D LEX Legacy - BSC Common Dependencies Pack v9](https://sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)** (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+        - BSC MEGA Props JES Vol07 v2
 
     ### **CREDITS:**
 
@@ -713,6 +1158,9 @@ jestarr/mmp-rocks:
 
 
     And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+
+    ![rocks misc](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/rocks%20misc.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/rocks misc.jpg
   name: Mayor Mode Ploppable Rocks
@@ -723,10 +1171,23 @@ jestarr/mmp-rocks:
     default:
       assets:
         - docs:
-            - ~Documents/BSC_Readmes/Jestarr
+            - ~Documents/BSC_Readmes/Jestarr/images/footer.gif
+            - ~Documents/BSC_Readmes/Jestarr/images/header.gif
+            - ~Documents/BSC_Readmes/Jestarr/images/header.jpg
+            - ~Documents/BSC_Readmes/Jestarr/images/logo_header.jpg
+            - ~Documents/BSC_Readmes/Jestarr/images/rocks misc.jpg
+            - ~Documents/BSC_Readmes/Jestarr/Mayor Mode Ploppable Rocks by Jestarr.html
           id: sc4evermore/282-bsc-jestarr-mayor-mode-ploppable-rocks
           include:
-            - BSC/jestarr/MMP
+            - BSC/jestarr/MMP/jes_MayorModePloppableRocks_Large.dat
+            - BSC/jestarr/MMP/jes_MayorModePloppableRocks_Medium.dat
+            - BSC/jestarr/MMP/jes_MayorModePloppableRocks_Micro.dat
+            - BSC/jestarr/MMP/jes_MayorModePloppableRocks_Mini.dat
+            - BSC/jestarr/MMP/jes_MayorModePloppableRocks_Nano.dat
+            - BSC/jestarr/MMP/jes_MayorModePloppableRocks_Small.dat
+            - BSC/BSCProps/jes_RockProps_family.dat
+      lastModified: 2024-08-20T02:49:11-07:00
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -736,7 +1197,34 @@ jestarr/resourcepack-vol27:
   authors:
     - jestarr
   category: dependencies
-  description: This is a consolidation of my latest SD props & newer textures to keep your plugins file neat and tidy. I'll be adding to this over time. There's a cleanitol file included.
+  description: |-
+    This is a consolidation of my latest SD props & newer textures to keep your plugins file neat and tidy. I'll be adding to this over time. There's a cleanitol file included.
+
+    Installation:
+
+    Unzip the file into your plugins folder. The documentation file should be moved or deleted.
+
+    Files to be removed:
+
+    •BSC_PropPack_JES_Vol27.dat
+
+    •BSC_TexturePack_JES_Vol27.dat
+
+    •jes_1x1_IndustrialResource.dat
+
+    •jes_ACMEPool&GardenSupplyResource.dat
+
+    •jes_ACMETireRecappersResource.dat
+
+    • jes_CentralCo-opCreameryTextures.dat
+
+    •jes_GibsonTextures.dat
+
+    •jes_RussianFactoryResource.dat
+
+    • jes_WeldingShopTextures.dat
+
+    •jes_WhizzResource.dat
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c002243f_BSC_PropPack_JES_Vol27v2a.jpg.ba891ab81276dd0fb69d5908da6c1697.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c0752dea_BSC_TexturePack_JES_Vol27v2a.jpg.2dc10f59baba60444205666c6b30e0c3.jpg
@@ -744,18 +1232,23 @@ jestarr/resourcepack-vol27:
   name: jes_ResourcePack_Vol27
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/665b5c38055cc_BSC_PropPack_JES_Vol27v2a.thumb.jpg.11d10fe0a4c77c00e440e8b64db95c06.jpg
-  url: https://community.simtropolis.com/files/file/35753-jes_resourcepack_vol27-v3/
+  url: https://community.simtropolis.com/files/file/35753-jes_resourcepack_vol27-v4/
   variants:
     default:
       assets:
         - cleanitol:
             - Documentation/cleanitol.txt
           docs:
-            - Documentation
+            - Documentation/jes_ResourcePack_Vol27 v4.txt
+            - Documentation/cleanitol.txt
+            - Documentation/BSC_TexturePack_JES_Vol27 v3.jpg
+            - Documentation/BSC_PropPack_JES_Vol27 v3.jpg
           id: simtropolis/35753-jes_resourcepack_vol27-v4
           include:
-            - BSC/BSCProps
-            - BSC/BSCTextures
+            - BSC/BSCTextures/BSC_TexturePack_JES_Vol27 v4.dat
+            - BSC/BSCProps/BSC_PropPack_JES_Vol27 v3.dat
+      lastModified: 2024-08-04T22:52:58Z
+      name: Default
       version: 1.0.4
 
 jestarr/small-brick-factory:
@@ -763,6 +1256,7 @@ jestarr/small-brick-factory:
     - jestarr
   category: i-m
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol02
     - girafe/carpack
     - girafe/flora-pack
@@ -772,53 +1266,100 @@ jestarr/small-brick-factory:
     - jestarr/bsc-batprops_hd-jes-vol13
     - jestarr/bsc-batprops_hd-jes-vol14
     - jestarr/resourcepack-vol27
-  description: |-
+  description: >-
     Makers of products used in architectural concept modeling. This comes as an IM$$3 growable and a ploppable with jobs in HD and SD. All are BTE enabled for industrial reward chains.
+
 
     Lot Details and Information:
 
+
     Lot Size: 2x2 tiles
+
 
     Building Style(s): Building: Industrial, Building: IM, Industry: Anchor, BTE: Ind - Manufacturing
 
+
     Growth Stage: 3
+
 
     Menu Position: Landmarks \[Ploppable\]
 
+
     Occupants: 52 - IM
+
 
     Bulldoze Cost: $323
 
+
     Building Value: $396
+
 
     Construction Time: 32 days
 
+
     Max. Fire Stage: 3
+
 
     Power Consumption: 4 MWh/month
 
+
     Water Consumption: 46 Gallons/month
+
 
     Air Pollution: 3 over 9 tiles
 
+
     Water Pollution: 2 over 13 tiles
+
 
     Garbage Pollution: 4 over 0 tiles
 
+
     Compatibility:
 
+
     This download is only compatible with SimCity 4 “Rush Hour” or SimCity 4 Deluxe.
+
+
+    Installation:
+
+
+    Unzip the downloaded file and place it in your plugins folder. The readme file and images should be moved to a seperate folder or deleted.
+
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
+    Dependencies:
+
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in your plugins folder.
+
+
+    Grfe_props_pack_LE_chestnuts
+
+
+    Grfe_props_pack_MM_chestnuts
+
+
+    Grfe_props_pack_LE_Oaks
+
+
+    The above files are available at
+    [https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-LEX\-legacy-bsc-vip-girafe-flora](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+
+    Grfe_props_pack_Carpack vol04
+
+
+    BSC Textures Vol02
+
+
+    The above files are available at
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack/](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack/)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.jpg.1d7b399b0b242767e3a33c870b561b46.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Nite.jpg.d5b9ecb3842c89d9c4158a943f0e98b1.jpg
-  # TODO Lots
-  # lots:
-  #   - category: i-m
-  #     label: Growable I-M, 2x2
-  #     size: 2x2
-  #   - category: landmarks,industry
-  #     label: Landmark I-M, 2x2
-  #     size: 2x2
   name: Small Brick Factory
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/jes_SmallBrickFactory_Day.thumb.jpg.cffd9131448602466cc79b87dab843a3.jpg
@@ -827,35 +1368,57 @@ jestarr/small-brick-factory:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_SmallBrickFactory_SD.html
+            - Documentation/Styles/stylesheet.css
+            - Documentation/images/logo.png
+            - Documentation/images/jes_SmallBrickFactory_Nite.jpg
+            - Documentation/images/jes_SmallBrickFactory_Day.jpg
+            - Documentation/images/footer1.jpg
           id: simtropolis/36370-small-brick-factory#202228
           include:
             - BSC/BSCProps
             - jes_SmallBrickFactory_SD
-            # - condition:
-            #     lots: growable
-            #   path: BSC/jestarr/jes_SmallBrickFactory_SD/Growable
-            # - condition:
-            #     lots: landmark
-            #   path: BSC/jestarr/jes_SmallBrickFactory_SD/Ploppable
-      name: SD
+      lastModified: 2024-08-07T14:40:31Z
+      lots:
+        - category: landmarks
+          filename: jes_2x2_plop_SmallBrickFactory_SD_90_643099c4.SC4Lot
+          id: 643099c4
+          label: jes_2x2_plop_SmallBrickFactory_SD_90_643099c4.SC4Lot
+          size: 2x2
+        - filename: IM$$3_2x2_jes_SmallBrickFactory_SD_90_e433d422.SC4Lot
+          id: e433d422
+          label: IM$$3_2x2_jes_SmallBrickFactory_SD_90_e433d422.SC4Lot
+          size: 2x2
+          stage: 3
+      name: Default
       version: 1.0.0
     hd:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_SmallBrickFactory_HD.html
+            - Documentation/Styles/stylesheet.css
+            - Documentation/images/logo.png
+            - Documentation/images/jes_SmallBrickFactory_Nite.jpg
+            - Documentation/images/jes_SmallBrickFactory_Day.jpg
+            - Documentation/images/footer1.jpg
           id: simtropolis/36370-small-brick-factory#202227
           include:
             - BSC/BSCProps
             - jes_SmallBrickFactory_HD
-            # - condition:
-            #     lots: growable
-            #   path: BSC/jestarr/jes_SmallBrickFactory_HD/Growable
-            # - condition:
-            #     lots: landmark
-            #   path: BSC/jestarr/jes_SmallBrickFactory_HD/Ploppable
+      lastModified: 2024-08-07T14:40:31Z
+      lots:
+        - category: landmarks
+          filename: jes_2x2_plop_SmallBrickFactory_HD_90_443099b1.SC4Lot
+          id: 443099b1
+          label: jes_2x2_plop_SmallBrickFactory_HD_90_443099b1.SC4Lot
+          size: 2x2
+        - filename: IM$$3_2x2_jes_SmallBrickFactory_HD_90_2433d410.SC4Lot
+          id: 2433d410
+          label: IM$$3_2x2_jes_SmallBrickFactory_HD_90_2433d410.SC4Lot
+          size: 2x2
+          stage: 3
       name: HD
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -866,8 +1429,10 @@ jestarr/the-moxie-bottling-company:
     - jestarr
   category: industry
   dependencies:
+    - bsc/common-dependencies
     - bsc/textures-vol02
     - bsc/textures-vol03
+    - cam/colossus-addon-mod
     - cycledogg/mega-props-vol01
     - girafe/carpack
     - jestarr/bsc-batprops_hd-jes-vol10
@@ -934,44 +1499,53 @@ jestarr/the-moxie-bottling-company:
     This download is only compatible with SimCity 4 “Rush Hour” or SimCity 4 Deluxe.
 
 
+    Installation:
+
+
+    Unzip the downloaded file and place it in your plugins folder. The readme file and images should be moved to a seperate folder or deleted.
+
+
+    To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
     Dependencies:
 
 
     To ensure the proper functionality, make sure the files mentioned below are installed in your plugins folder.
 
 
-    - BSC MEGA Props - CP Vol01
+    BSC MEGA Props - CP Vol01
 
 
-    - BSC MEGA Props - JES Vol01 v2
+    BSC MEGA Props - JES Vol01 v2
 
 
-    - BSC MEGA Props - JES Vol02 v2
+    BSC MEGA Props - JES Vol02 v2
 
 
-    - BSC MEGA Props - JES Vol04 v2
+    BSC MEGA Props - JES Vol04 v2
 
 
-    - Grfe_Props_Pack_Carpack vol01-vol02-Remastered
+    Grfe_Props_Pack_Carpack vol01-vol02-Remastered
 
 
-    - Grfe_Props_Pack_Carpack vol03 v2
+    Grfe_Props_Pack_Carpack vol03 v2
 
 
-    - Grfe_Props_Pack_Carpack vol04
+    Grfe_Props_Pack_Carpack vol04
 
 
-    - BSC Textures vol02
+    BSC Textures vol02
 
 
-    - BSC Textures vol03 v4
+    BSC Textures vol03 v4
 
 
     The above files are available at
     [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack/.](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack/)
 
 
-    - Colossus Addon Mod 2.1.0a Windows Installer v2 \[only for the IM$$4 version\]
+    Colossus Addon Mod 2.1.0a Windows Installer v2 \[only for the IM$$4 version\]
 
 
     The above file is available at
@@ -987,7 +1561,12 @@ jestarr/the-moxie-bottling-company:
     default:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_MoxieBottlingCompany.html
+            - Documentation/Images/MoxieBottlingCompany_Nite.jpg
+            - Documentation/Images/MoxieBottlingCompany_Day.jpg
+            - Documentation/Images/logo.png
+            - Documentation/Images/footer1.jpg
+            - Documentation/Styles/stylesheet.css
           id: simtropolis/36271-the-moxie-bottling-company#201515
           include:
             - BSC/BSCProps
@@ -995,12 +1574,38 @@ jestarr/the-moxie-bottling-company:
             - condition:
                 cam: true
               path: CAM/jestarr/jes_MoxieBottlingCompany
-      name: SD
+      lastModified: 2024-06-02T21:31:33Z
+      lots:
+        - category: i-m
+          filename: IM$$4_3x5_jes_MoxieBottlingCompany_90_SD_93675da0.SC4Lot
+          id: 93675da0
+          label: IM$$4_3x5_jes_MoxieBottlingCompany_90_SD_93675da0.SC4Lot
+          requirements:
+            cam: true
+          size: 3x5
+          stage: 4
+        - category: landmarks
+          filename: jes_3x5_plop_MoxieBottlingCompany_90_SD_e3df563b.SC4Lot
+          id: e3df563b
+          label: jes_3x5_plop_MoxieBottlingCompany_90_SD_e3df563b.SC4Lot
+          size: 3x5
+        - category: i-m
+          filename: IM$$3_3x5_jes_MoxieBottlingCompany_90_SD_33e0a348.SC4Lot
+          id: 33e0a348
+          label: IM$$3_3x5_jes_MoxieBottlingCompany_90_SD_33e0a348.SC4Lot
+          size: 3x5
+          stage: 3
+      name: Default
       version: 1.0.0
     hd:
       assets:
         - docs:
-            - Documentation
+            - Documentation/Readme_MoxieBottlingCompany.html
+            - Documentation/Styles/stylesheet.css
+            - Documentation/Images/MoxieBottlingCompany_Nite.jpg
+            - Documentation/Images/MoxieBottlingCompany_Day.jpg
+            - Documentation/Images/logo.png
+            - Documentation/Images/footer1.jpg
           id: simtropolis/36271-the-moxie-bottling-company#201514
           include:
             - BSC/BSCProps
@@ -1008,8 +1613,29 @@ jestarr/the-moxie-bottling-company:
             - condition:
                 cam: true
               path: CAM/jestarr/jes_MoxieBottlingCompany
+      lastModified: 2024-06-02T21:31:33Z
+      lots:
+        - category: i-m
+          filename: IM$$4_3x5_jes_MoxieBottlingCompany_90_HD_13e08af6.SC4Lot
+          id: 13e08af6
+          label: IM$$4_3x5_jes_MoxieBottlingCompany_90_HD_13e08af6.SC4Lot
+          requirements:
+            cam: true
+          size: 3x5
+          stage: 4
+        - category: landmarks
+          filename: jes_3x5_plop_MoxieBottlingCompany_90_HD_3365f619.SC4Lot
+          id: 3365f619
+          label: jes_3x5_plop_MoxieBottlingCompany_90_HD_3365f619.SC4Lot
+          size: 3x5
+        - category: i-m
+          filename: IM$$3_3x5_jes_MoxieBottlingCompany_90_HD_e3e08c71.SC4Lot
+          id: e3e08c71
+          label: IM$$3_3x5_jes_MoxieBottlingCompany_90_HD_e3e08c71.SC4Lot
+          size: 3x5
+          stage: 3
       name: HD
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -1023,6 +1649,8 @@ jestarr/warehouses-props:
     Eight buildings as props rendered in 45 & 90 degrees. Three buildings as a prop rendered at 45 degrees only. There are both SD & HD versions.
 
     Note: These are props only for use in PIM\-X/LE. There are no lots included.
+
+    To install unzip the file in your plugins folder. The Documentation folder should be moved or deleted.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/jes_BuildingProps.jpg.8f36f6109cda7a627f7c43318cc39b37.jpg
   name: Warehouses
@@ -1037,7 +1665,14 @@ jestarr/warehouses-props:
           id: simtropolis/36320-jes_buildingprops#201806
           include:
             - BSC/BSCProps
-      name: SD
+        - docs:
+            - Documentation/Noname.png
+            - Documentation/jes_BuildingProps_SD.txt
+          id: simtropolis/36320-jes_buildingprops#202236
+          include:
+            - BSC/BSCProps/jes_BuildingProps_SD_v2.dat
+      lastModified: 2024-08-04T23:12:20Z
+      name: Default
       version: 1.0.2
     hd:
       assets:
@@ -1046,6 +1681,13 @@ jestarr/warehouses-props:
           id: simtropolis/36320-jes_buildingprops#201805
           include:
             - BSC/BSCProps
+        - docs:
+            - Documentation/jes_BuildingProps_HD_v2.txt
+            - Documentation/jes_BuildingProps_HD_v2.jpg
+          id: simtropolis/36320-jes_buildingprops#202235
+          include:
+            - BSC/BSCProps/jes_BuildingProps_HD_v2.dat
+      lastModified: 2024-08-04T23:12:20Z
       name: HD
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       version: 1.0.2

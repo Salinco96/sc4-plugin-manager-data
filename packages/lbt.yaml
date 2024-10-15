@@ -6,34 +6,66 @@ lbt/mega-props-vol01:
     - VictorGonzales
     - Heblem
   category: props
-  description: |-
+  description: >-
+    As part of the Project ZIP efforts from this prop pack the \*.exe installer has been removed. **\*\*\***
+
+
     This is a complete set of all **LBT\-MBT\*\*** props into one mega file, this set includes and replaces the following single prop packs:
 
-    - LBT Prop Pack
 
-    - LBT Prop Pack 2
+    *LBT Prop Pack*
 
-    - LBT Prop Pack 3
+
+    *LBT Prop Pack 2*
+
+
+    *LBT Prop Pack 3*
+
 
     Plus:
 
-    - LBT Prop Pack 4 (unique for this release)
 
-    Over 1,000 props different style props avalaible to use...
+    LBT Prop Pack 4 (unique for this release)
+
+
+    **\*\***The **v03** release of this prop pack contains those Mexican Bat Team (MBT) models and props which were restored in the past years. Some of the older
+
+
+    LBT lots are still using these old props as dependencies.
+
+
+    \-Over 1,000 props different style props avalaible to use...
+
 
     This file will be essential for all and future LBT uploads!
 
+
     Props made by:
 
-    - Berethor07
 
-    - Tcxalapa
+    \-Berethor07
 
-    - VictorGonzales
 
-    - Heblem
+    \-Tcxalapa
+
+
+    \-VictorGonzales
+
+
+    \-Heblem
+
+
+    Please use the cleanitool text file for remove old LBT prop packs.
+
 
     Hope you like!
+
+
+    **\*\*\***Bear in mind, that this updated version is identical with the uploaded version of the **[LBT Mega Prop Pack vol01 v3 on SC4D
+    LEX](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=4152)** (as of 21.06.2022).
+
+
+    \- Tyberius06
   images:
     - https://www.simtropolis.com/objects/screens/0016/91782ecd0cab62f30596829aa2e20770-show_propapck.jpg
   name: LBT Mega Prop Pack Vol01
@@ -44,10 +76,20 @@ lbt/mega-props-vol01:
     default:
       assets:
         - docs:
-            - _Documents
+            - _Documents/LBT_MegaPropPack_Readme.txt
+            - _Documents/LBT_MegaPropPack.jpg
+            - _Documents/LBT Mega Prop Pack v.03_index-pt6.jpg
+            - _Documents/LBT Mega Prop Pack v.03_index-pt5.jpg
+            - _Documents/LBT Mega Prop Pack v.03_index-pt4.jpg
+            - _Documents/LBT Mega Prop Pack v.03_index-pt3.jpg
+            - _Documents/LBT Mega Prop Pack v.03_index-pt2.jpg
+            - _Documents/LBT Mega Prop Pack v.03_index-pt1.jpg
+            - _Documents/Cleanitol_RemoveLBTPropPacks.txt
           id: simtropolis/21770-lbt-mega-prop-pack-vol01
           include:
-            - LBT/Prop Packs
+            - LBT/Prop Packs/LBT Mega Prop Pack v.03.dat
+      lastModified: 2022-06-21T16:09:46Z
+      name: Default
       version: 3.0.0
 
 lbt/mega-textures-vol01:
@@ -76,6 +118,10 @@ lbt/mega-textures-vol01:
     *LBTtexts.dat* (part of the LBT Prop Pack vol01)
 
 
+    Install: copy/extract the **LBT** parent folder into your plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of the
+    Plugins folder.
+
+
     Textures made and configured by:
 
 
@@ -100,8 +146,22 @@ lbt/mega-textures-vol01:
     default:
       assets:
         - docs:
-            - _Documents
+            - _Documents/show_texturepack.jpg
+            - _Documents/readme_LBT Mega Texture Pack v.03.txt
+            - _Documents/LBT Mega Textures v.03_index-pt9.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt8.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt7.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt6.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt5.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt4.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt3.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt2.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt10.jpg
+            - _Documents/LBT Mega Textures v.03_index-pt1.jpg
+            - _Documents/cleanitol_LBT Mega Texture Pack v.03.txt
           id: simtropolis/21771-lbt-mega-textures-vol01-v3
           include:
-            - LBT/Textures
+            - LBT/Textures/LBT Mega Texture Pack v.03.dat
+      lastModified: 2022-06-21T16:40:06Z
+      name: Default
       version: 3.0.0

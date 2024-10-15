@@ -278,6 +278,16 @@ null-45/growify-plops-dll:
     that.
 
 
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4Growify.dll* into the Plugins folder in the SimCity 4 installation directory.
+
+    3.  Start SimCity 4.
+
+
     **Using The Plugin**
 
 
@@ -338,13 +348,22 @@ null-45/growify-plops-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/After.jpg.6d7423b6d948306a7465a8ae298a3803.jpg
   name: Growify Plopped Buildings Cheat DLL
   release: 2024-08-19T09:13:11.692Z
-  repository: https://github.com/0xC0000054/sc4-growify
+  repository: https://github.com/sebamarynissen/sc4
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_03/STEXIcon.thumb.png.49fdef61e541247ae4aeaacdc0e6a4d5.png
   url: https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/
   variants:
     default:
       assets:
         - id: github/0xC0000054/sc4-growify
+        - docs:
+            - Third Party Notices.txt
+            - README.txt
+            - LICENSE.txt
+          id: simtropolis/36180-growify-plopped-buildings-cheat-dll-plugin
+          include:
+            - SC4Growify.dll
+      lastModified: 2024-05-23T05:03:09Z
+      name: Default
       version: 1.0.1
 
 null-45/humane-society-ordinance:
@@ -500,6 +519,16 @@ null-45/more-building-styles-dll:
     that.
 
 
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4MoreBuildingStyles.dll* into the Plugins folder in the SimCity 4 installation directory.
+
+    3.  Start SimCity 4.
+
+
     **Troubleshooting**
 
 
@@ -527,6 +556,15 @@ null-45/more-building-styles-dll:
     default:
       assets:
         - id: github/0xC0000054/sc4-more-building-styles
+        - docs:
+            - Third Party Notices.txt
+            - README.txt
+            - LICENSE.txt
+          id: simtropolis/36112-allow-more-building-styles-dll-plugin
+          include:
+            - SC4MoreBuildingStyles.dll
+      lastModified: 2024-07-27T14:01:37Z
+      name: Default
       version: 1.3.1
 
 null-45/more-demand-info-dll:
@@ -629,6 +667,18 @@ null-45/more-demand-info-dll:
     that.
 
 
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4MoreDemandInfo.dll* from the **Dll** folder into the Plugins folder in the SimCity 4 installation directory.
+
+    3.  Replace the original *RJ - Census_Repository_Model_and_Query_3.1.dat* with the one in the **Census Repository v3.5 Patch** folder.
+
+    4.  Start SimCity 4.
+
+
     **Troubleshooting**
 
 
@@ -659,7 +709,17 @@ null-45/more-demand-info-dll:
         - id: github/0xC0000054/sc4-more-demand-info
           include:
             - SC4MoreDemandInfo.dll
-            # TODO: - Census Repository v3.5 Patch/RJ - Census_Repository_Model_and_Query_3.1.dat
+        - docs:
+            - Readme.txt
+            - Dll/Third Party Notices.txt
+            - Dll/README.txt
+            - Dll/LICENSE.txt
+          id: simtropolis/35978-sc4-more-demand-info
+          include:
+            - Dll/SC4MoreDemandInfo.dll
+            - Census Repository v3.5 Patch/RJ - Census_Repository_Model_and_Query_3.1.dat
+      lastModified: 2024-05-08T04:14:13Z
+      name: Default
       version: 1.2.0
 
 null-45/no-kickout-dll:
@@ -779,6 +839,16 @@ null-45/query-tool-ui-extensions-dll:
     that.
 
 
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4QueryUIHooks.dll* into the top-level of the Plugins folder in the SimCity 4 installation directory or Documents/SimCity 4 directory.
+
+    3.  Start SimCity 4.
+
+
     **Troubleshooting**
 
 
@@ -813,6 +883,15 @@ null-45/query-tool-ui-extensions-dll:
     default:
       assets:
         - id: github/0xC0000054/sc4-query-ui-hooks
+        - docs:
+            - Third Party Notices.txt
+            - README.txt
+            - LICENSE.txt
+          id: simtropolis/36202-query-tool-ui-extensions-dll-for-simcity-4
+          include:
+            - SC4QueryUIHooks.dll
+      lastModified: 2024-08-13T02:25:48Z
+      name: Default
       version: 1.4.0
 
 null-45/region-view-census-dll:
@@ -852,6 +931,17 @@ null-45/resource-loading-hooks-dll:
     that.
 
 
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4ResourceLoadingHooks.dll* into the top level of either plugins folder (place it directly in &lt;Documents&gt;\\SimCity 4\\Plugins or &lt;SC4 install folder&gt;\\Plugins, not in a
+    subfolder).
+
+    3.  Start SimCity 4.
+
+
     **Troubleshooting**
 
 
@@ -885,7 +975,15 @@ null-45/resource-loading-hooks-dll:
   variants:
     default:
       assets:
-        - id: simtropolis/36242-resource-loading-hooks-dll-for-simcity-4
+        - docs:
+            - Third Party Notices.txt
+            - README.txt
+            - LICENSE.txt
+          id: simtropolis/36242-resource-loading-hooks-dll-for-simcity-4
+          include:
+            - SC4ResourceLoadingHooks.dll
+      lastModified: 2024-06-26T13:34:16Z
+      name: Default
       version: 1.0.1
 
 null-45/startup-performance-optimization-dll:
@@ -924,6 +1022,17 @@ null-45/startup-performance-optimization-dll:
 
     The plugin may work on Windows 7 or later with the [Microsoft Visual C++ 2022 x86 Redistribute](https://aka.ms/vs/17/release/vc_redist.x86.exe) installed, but I do not have the ability to test
     that.
+
+
+    **Installation**
+
+
+    1.  Close SimCity 4.
+
+    2.  Copy *SC4DBPFLoading.dll* into the top level of either plugins folder (place it directly in *&lt;Documents&gt;\\SimCity 4\\Plugins* or *&lt;SC4 install folder&gt;\\Plugins*, not in a
+    subfolder).
+
+    3.  Start SimCity 4.
 
 
     **Command Line Argument**
@@ -974,5 +1083,13 @@ null-45/startup-performance-optimization-dll:
   variants:
     default:
       assets:
-        - id: simtropolis/36244-startup-performance-optimization-dll-for-simcity-4
+        - docs:
+            - Third Party Notices.txt
+            - README.txt
+            - LICENSE.txt
+          id: simtropolis/36244-startup-performance-optimization-dll-for-simcity-4
+          include:
+            - SC4DBPFLoading.dll
+      lastModified: 2024-06-17T00:51:07Z
+      name: Default
       version: 1.0.3

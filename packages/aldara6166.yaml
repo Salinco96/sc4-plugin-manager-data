@@ -32,6 +32,21 @@ aldara6166/mapp-classic-rides:
 
 
     This pack includes many classic amusement park rides that you would normally associate with any amusement park. Without the Essentials pack, this pack will not function properly.
+
+
+    Please delete any and all prior versions of all MAPP lots (including the construction lot) prior to installation to avoid conflicts.
+
+
+    **dependencies:**
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | **Porkie Props Vol. 1** | [**https://www.simtropolis.com/STEX/index.cfm?id=11421**](https://www.simtropolis.com/stex/index.cfm?id=11421) |
+
+    | **BSC PEG Texture Pack Vol. 01****<br><br>**\- or -**<br><br>**BSC Textures Mega Pack**** |     |
   images:
     - https://www.simtropolis.com/objects/screens/0024/de33e244078e09448cf950a949cd2900-MAPP_ClassicRides1.jpg
     - https://www.simtropolis.com/objects/screens/0024/de33e244078e09448cf950a949cd2900-MAPP_ClassicRides2.jpg
@@ -44,10 +59,54 @@ aldara6166/mapp-classic-rides:
   variants:
     default:
       assets:
-        - id: simtropolis/17558-modular-amusement-park-pack-classic-rides
+        - docs:
+            - MAPP_readme.htm
+            - images/topbarright.gif
+            - images/topbarleft.gif
+            - images/topbar.gif
+            - images/MAPP_Rollercoasters.jpg
+            - images/MAPP_Modern_Rides.jpg
+            - images/MAPP_Classic_Rides.jpg
+            - images/MAPP_Ancillary_Buildings.jpg
+            - images/leftheader.jpg
+            - $PLUGINSDIR/modern-wizard.bmp
+          id: simtropolis/17558-modular-amusement-park-pack-classic-rides
           include:
             - Rides
+      lastModified: 2007-01-01T08:53:17Z
+      lots:
+        - filename: MAPP_WaterPark.SC4Lot
+          id: MAPP_WaterPark.SC4Lot
+          label: MAPP_WaterPark.SC4Lot
+        - filename: MAPP_TheHauntedHouse.SC4Lot
+          id: MAPP_TheHauntedHouse.SC4Lot
+          label: MAPP_TheHauntedHouse.SC4Lot
+        - filename: MAPP_TeaCupsRide.SC4Lot
+          id: MAPP_TeaCupsRide.SC4Lot
+          label: MAPP_TeaCupsRide.SC4Lot
+        - filename: MAPP_SuperSlide.SC4Lot
+          id: MAPP_SuperSlide.SC4Lot
+          label: MAPP_SuperSlide.SC4Lot
+        - filename: MAPP_OneEyedMonster.SC4Lot
+          id: MAPP_OneEyedMonster.SC4Lot
+          label: MAPP_OneEyedMonster.SC4Lot
+        - filename: MAPP_BumperCarsBig.SC4Lot
+          id: MAPP_BumperCarsBig.SC4Lot
+          label: MAPP_BumperCarsBig.SC4Lot
+        - filename: MAPP_KiddieBumperCars.SC4Lot
+          id: MAPP_KiddieBumperCars.SC4Lot
+          label: MAPP_KiddieBumperCars.SC4Lot
+        - filename: MAPP_FerrisWheel.SC4Lot
+          id: MAPP_FerrisWheel.SC4Lot
+          label: MAPP_FerrisWheel.SC4Lot
+        - filename: MAPP_Carousel.SC4Lot
+          id: MAPP_Carousel.SC4Lot
+          label: MAPP_Carousel.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 aldara6166/mapp-collection:
   authors:
@@ -59,23 +118,69 @@ aldara6166/mapp-collection:
     - aldara6166/mapp-modern-rides
     - aldara6166/mapp-roller-coasters
     - bsc/textures-vol01
+    - memo/submenus-dll
     - porkissimo/jenx-porkie-expanded-props
+  description: |-
+    This file will create submenus for the following MAPP files by aldara6166 in the Parks Menu
+
+    [**Modular Amusement Park Pack Essentials**](https://community.simtropolis.com/files/file/17557-modular-amusement-park-pack-essentials/)
+
+    [Modular Amusement Park Pack Roller Coasters](https://community.simtropolis.com/files/file/17560-modular-amusement-park-pack-roller-coasters/)
+
+    [Modular Amusement Park Pack Modern Rides](https://community.simtropolis.com/files/file/17559-modular-amusement-park-pack-modern-rides/)
+
+    [**Modular Amusement Park Pack Classic Rides**](https://community.simtropolis.com/files/file/17558-modular-amusement-park-pack-classic-rides/)
+
+    ~~YOU MUST HAVE ALL OF THE ABOVE INSTALLED FOR THIS TO WORK CORRECTLY~~
+
+    **INSTALLATION**
+
+    **Step 1:**
+
+    Install Memo's Submenus DLL download
+
+    **Step 2:**
+
+    Put the MAPP Amusement Park.dat file in the submenus folder.
+
+    **Step 3:**
+
+    The rest of the files in the submenus folder from Memo's Submenus DLL download are not needed and can be deleted.
+
+    **Dependencies:**
+
+    - [Submenus DLL](https://community.simtropolis.com/files/file/36142-submenus-dll/)
+
+    - [Modular Amusement Park Pack Essentials](https://community.simtropolis.com/files/file/17557-modular-amusement-park-pack-essentials/)
+
+    - [Modular Amusement Park Pack Roller Coasters](https://community.simtropolis.com/files/file/17560-modular-amusement-park-pack-roller-coasters/)
+
+    - [Modular Amusement Park Pack Modern Rides](https://community.simtropolis.com/files/file/17559-modular-amusement-park-pack-modern-rides/)
+
+    - [Modular Amusement Park Pack Classic Rides](https://community.simtropolis.com/files/file/17558-modular-amusement-park-pack-classic-rides/)
+
+
+    **This has not been tested on the Apple Platform**
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_05_2011/9ea96d20d60fae9dc52ac9366efcf37e-mapp_ancillary1.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_05_2011/a5481ffffca08a633308484e7a642b2b-mapp_ancillary2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_05/66396510090f9_MAPPSubmenus.jpg.aa422f2f4a04489e1076dac19b8b5366.jpg
   name: Modular Amusement Park Pack (MAPP) - Full Collection
   optional:
     - memo/submenus-dll
   release: 2024-08-19T09:13:11.692Z
   requirements:
     nam: true
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2011/thumb-9ea96d20d60fae9dc52ac9366efcf37e-mapp_ancillary1.jpg
-  url: https://community.simtropolis.com/files/file/17557-modular-amusement-park-pack-essentials/
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/663966a1cf8d2_MAPPSubmenus.thumb.jpg.83a84e6dd8f663d4aa81a1960c8a3382.jpg
+  url: https://community.simtropolis.com/files/file/36235-submenus-for-the-mapp-modular-amusement-park/
   variants:
     default:
-      assets: []
+      assets:
+        - docs: []
+          id: simtropolis/36235-submenus-for-the-mapp-modular-amusement-park#201201
+          include:
+            - MAPP Amusement Park.dat
       condition:
         submenus: false
+      lastModified: 2024-05-09T17:57:13Z
       name: Default
       version: 1.0.0
     submenus:
@@ -123,6 +228,18 @@ aldara6166/mapp-essentials:
 
     This is the Essentials pack. It includes several custom props, textures, etc. This pack also includes many buildings that you would normally associate as "core buildings" within any amusement
     park. Without this pack the other packs will not function properly.
+
+
+    Please delete any and all prior versions of all MAPP lots (including the construction lot) prior to installation to avoid conflicts.
+
+
+    **Dependancies:**
+
+
+    [Porkie Props Vol.1](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+
+    [BSC Textures Mega Pack](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_05_2011/9ea96d20d60fae9dc52ac9366efcf37e-mapp_ancillary1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_05_2011/a5481ffffca08a633308484e7a642b2b-mapp_ancillary2.jpg
@@ -135,10 +252,93 @@ aldara6166/mapp-essentials:
   variants:
     default:
       assets:
-        - id: simtropolis/17557-modular-amusement-park-pack-essentials
+        - docs:
+            - MAPP_readme.htm
+            - images/topbarright.gif
+            - images/topbarleft.gif
+            - images/topbar.gif
+            - images/MAPP_Rollercoasters.jpg
+            - images/MAPP_Modern_Rides.jpg
+            - images/MAPP_Classic_Rides.jpg
+            - images/MAPP_Ancillary_Buildings.jpg
+            - images/leftheader.jpg
+            - $PLUGINSDIR/modern-wizard.bmp
+          id: simtropolis/17557-modular-amusement-park-pack-essentials
           include:
             - Ancillary Buildings
+      lastModified: 2017-05-09T17:20:38Z
+      lots:
+        - filename: MAPP_EntranceSmall.SC4Lot
+          id: MAPP_EntranceSmall.SC4Lot
+          label: MAPP_EntranceSmall.SC4Lot
+        - filename: MAPP_SecurityKiosk.SC4Lot
+          id: MAPP_SecurityKiosk.SC4Lot
+          label: MAPP_SecurityKiosk.SC4Lot
+        - filename: MAPP_Parking_D.SC4Lot
+          id: MAPP_Parking_D.SC4Lot
+          label: MAPP_Parking_D.SC4Lot
+        - filename: MAPP_Parking_C.SC4Lot
+          id: MAPP_Parking_C.SC4Lot
+          label: MAPP_Parking_C.SC4Lot
+        - filename: MAPP_Parking_B.SC4Lot
+          id: MAPP_Parking_B.SC4Lot
+          label: MAPP_Parking_B.SC4Lot
+        - filename: MAPP_Parking_A.SC4Lot
+          id: MAPP_Parking_A.SC4Lot
+          label: MAPP_Parking_A.SC4Lot
+        - filename: MAPP_MaintenanceBuilding.SC4Lot
+          id: MAPP_MaintenanceBuilding.SC4Lot
+          label: MAPP_MaintenanceBuilding.SC4Lot
+        - filename: MAPP_EntranceBig.SC4Lot
+          id: MAPP_EntranceBig.SC4Lot
+          label: MAPP_EntranceBig.SC4Lot
+        - filename: MAPP_GameStands.SC4Lot
+          id: MAPP_GameStands.SC4Lot
+          label: MAPP_GameStands.SC4Lot
+        - filename: MAPP_Fountain.SC4Lot
+          id: MAPP_Fountain.SC4Lot
+          label: MAPP_Fountain.SC4Lot
+        - filename: MAPP_FoodStandsSmall.SC4Lot
+          id: MAPP_FoodStandsSmall.SC4Lot
+          label: MAPP_FoodStandsSmall.SC4Lot
+        - filename: MAPP_FoodStandsBig.SC4Lot
+          id: MAPP_FoodStandsBig.SC4Lot
+          label: MAPP_FoodStandsBig.SC4Lot
+        - filename: MAPP_FenceStraight.SC4Lot
+          id: MAPP_FenceStraight.SC4Lot
+          label: MAPP_FenceStraight.SC4Lot
+        - filename: MAPP_FenceDiagonal.SC4Lot
+          id: MAPP_FenceDiagonal.SC4Lot
+          label: MAPP_FenceDiagonal.SC4Lot
+        - filename: MAPP_FenceCorner.SC4Lot
+          id: MAPP_FenceCorner.SC4Lot
+          label: MAPP_FenceCorner.SC4Lot
+        - filename: MAPP_ExhibitionTent.SC4Lot
+          id: MAPP_ExhibitionTent.SC4Lot
+          label: MAPP_ExhibitionTent.SC4Lot
+        - filename: MAPP_BusEntrance.SC4Lot
+          id: MAPP_BusEntrance.SC4Lot
+          label: MAPP_BusEntrance.SC4Lot
+        - filename: MAPP_Bathrooms.SC4Lot
+          id: MAPP_Bathrooms.SC4Lot
+          label: MAPP_Bathrooms.SC4Lot
+        - filename: MAPP_Arcade.SC4Lot
+          id: MAPP_Arcade.SC4Lot
+          label: MAPP_Arcade.SC4Lot
+        - filename: MAPP_3DCinema.SC4Lot
+          id: MAPP_3DCinema.SC4Lot
+          label: MAPP_3DCinema.SC4Lot
+        - filename: MAPP_AdminCenter.SC4Lot
+          id: MAPP_AdminCenter.SC4Lot
+          label: MAPP_AdminCenter.SC4Lot
+        - filename: MAPP_ConstructionCoaster.SC4Lot
+          id: MAPP_ConstructionCoaster.SC4Lot
+          label: MAPP_ConstructionCoaster.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 aldara6166/mapp-modern-rides:
   authors:
@@ -174,6 +374,21 @@ aldara6166/mapp-modern-rides:
 
 
     This pack includes many modern amusement park rides that you would normally associate with most larger amusement parks. Without the Essentials pack, this pack will not function properly.
+
+
+    Please delete any and all prior versions of all MAPP lots (including the construction lot) prior to installation to avoid conflicts.
+
+
+    **dependencies:**
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | **Porkie Props Vol. 1** | [**https://www.simtropolis.com/STEX/index.cfm?id=11421**](https://www.simtropolis.com/stex/index.cfm?id=11421) |
+
+    | **BSC PEG Texture Pack Vol. 01****<br><br>**\- or -**<br><br>**BSC Textures Mega Pack**** |     |
   images:
     - https://www.simtropolis.com/objects/screens/0021/bec1fe8fc6b3193f16bedc6beb0e2910-MAPP_ModernRides1.jpg
     - https://www.simtropolis.com/objects/screens/0021/bec1fe8fc6b3193f16bedc6beb0e2910-MAPP_ModernRides2.jpg
@@ -186,10 +401,48 @@ aldara6166/mapp-modern-rides:
   variants:
     default:
       assets:
-        - id: simtropolis/17559-modular-amusement-park-pack-modern-rides
+        - docs:
+            - MAPP_readme.htm
+            - images/topbarright.gif
+            - images/topbarleft.gif
+            - images/topbar.gif
+            - images/MAPP_Rollercoasters.jpg
+            - images/MAPP_Modern_Rides.jpg
+            - images/MAPP_Classic_Rides.jpg
+            - images/MAPP_Ancillary_Buildings.jpg
+            - images/leftheader.jpg
+            - $PLUGINSDIR/modern-wizard.bmp
+          id: simtropolis/17559-modular-amusement-park-pack-modern-rides
           include:
             - Rides
+      lastModified: 2007-01-01T09:04:41Z
+      lots:
+        - filename: MAPP_TheRingOfFire.SC4Lot
+          id: MAPP_TheRingOfFire.SC4Lot
+          label: MAPP_TheRingOfFire.SC4Lot
+        - filename: MAPP_TheRanger.SC4Lot
+          id: MAPP_TheRanger.SC4Lot
+          label: MAPP_TheRanger.SC4Lot
+        - filename: MAPP_TheGravitron.SC4Lot
+          id: MAPP_TheGravitron.SC4Lot
+          label: MAPP_TheGravitron.SC4Lot
+        - filename: MAPP_TheEnterprise.SC4Lot
+          id: MAPP_TheEnterprise.SC4Lot
+          label: MAPP_TheEnterprise.SC4Lot
+        - filename: MAPP_GoKartTrack.SC4Lot
+          id: MAPP_GoKartTrack.SC4Lot
+          label: MAPP_GoKartTrack.SC4Lot
+        - filename: MAPP_DropZone.SC4Lot
+          id: MAPP_DropZone.SC4Lot
+          label: MAPP_DropZone.SC4Lot
+        - filename: MAPP_Disko.SC4Lot
+          id: MAPP_Disko.SC4Lot
+          label: MAPP_Disko.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 aldara6166/mapp-roller-coasters:
   authors:
@@ -222,6 +475,18 @@ aldara6166/mapp-roller-coasters:
 
     \*This pack includes all of the roller coasters that were previously on the STEX and a few new ones. The coasters have be reproduced with the original author's permission and have been completely
     reworked from the lots on up. Without the Essentials pack, this pack will not function properly.\*
+
+
+    Please delete any and all prior versions of all MAPP lots (including the construction lot) prior to installation to avoid conflicts.
+
+
+    **Dependancies:**
+
+
+    [Porkie Props Vol.1](https://community.simtropolis.com/files/file/11421-porkie-props-vol1-european-street-accessories/)
+
+
+    [BSC Texture Pack Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_08_2011/1c4683cfbac1506ebb45571c779bf6a4-mapp_rollercoasters1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_08_2011/3e7a8d9cc2af360480e7860ec6f2d1e7-mapp_rollercoasters2.jpg
@@ -234,7 +499,48 @@ aldara6166/mapp-roller-coasters:
   variants:
     default:
       assets:
-        - id: simtropolis/17560-modular-amusement-park-pack-roller-coasters
+        - docs:
+            - MAPP_readme.htm
+            - $PLUGINSDIR/modern-wizard.bmp
+            - images/topbarright.gif
+            - images/topbarleft.gif
+            - images/topbar.gif
+            - images/MAPP_Rollercoasters.jpg
+            - images/MAPP_Modern_Rides.jpg
+            - images/MAPP_Classic_Rides.jpg
+            - images/MAPP_Ancillary_Buildings.jpg
+            - images/leftheader.jpg
+          id: simtropolis/17560-modular-amusement-park-pack-roller-coasters
           include:
             - Coasters
+      lastModified: 2017-05-09T17:16:19Z
+      lots:
+        - filename: MAPP_WickedTimber.SC4Lot
+          id: MAPP_WickedTimber.SC4Lot
+          label: MAPP_WickedTimber.SC4Lot
+        - filename: MAPP_ThunderLooper.SC4Lot
+          id: MAPP_ThunderLooper.SC4Lot
+          label: MAPP_ThunderLooper.SC4Lot
+        - filename: MAPP_TheViper.SC4Lot
+          id: MAPP_TheViper.SC4Lot
+          label: MAPP_TheViper.SC4Lot
+        - filename: MAPP_TheCyclone.SC4Lot
+          id: MAPP_TheCyclone.SC4Lot
+          label: MAPP_TheCyclone.SC4Lot
+        - filename: MAPP_SteelVenom.SC4Lot
+          id: MAPP_SteelVenom.SC4Lot
+          label: MAPP_SteelVenom.SC4Lot
+        - filename: MAPP_Massasauga.SC4Lot
+          id: MAPP_Massasauga.SC4Lot
+          label: MAPP_Massasauga.SC4Lot
+        - filename: MAPP_KiddieCoaster.SC4Lot
+          id: MAPP_KiddieCoaster.SC4Lot
+          label: MAPP_KiddieCoaster.SC4Lot
+        - filename: MAPP_KingCobra.SC4Lot
+          id: MAPP_KingCobra.SC4Lot
+          label: MAPP_KingCobra.SC4Lot
+      name: Default
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

@@ -21,47 +21,25 @@ sfbt/essentials:
             - desktop.ini
           id: sc4evermore/13-sfbt-essentials
           include:
-            - condition:
-                trees: cp-deciduous
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_CP_Street_Deciduous_Trees.dat
-            - condition:
-                trees: cp-ponderosa-pines
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_CP_Street_Ponderosa_Pines.dat
-            - condition:
-                trees: cp-shore-pinyon-pines
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_CP_Street_Shore_Pinyon_Pines.dat
-            - condition:
-                trees: peg-pines
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_PEG_Street_Pines.dat
-            - condition:
-                trees: maxis-deciduous
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_Maxis_Street_Deciduous_Trees.dat
-            - condition:
-                trees: maxis-palms
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_Maxis_Street_Palm_Trees.dat
-            - condition:
-                trees: maxis-pines
-              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_Maxis_Street_Pine_Trees.dat
-            - SFBT/SFBT_Props
-            - SFBT/SFBT_Textures
-            - SFBT/SFBT_Sounds.dat
-            - SFBT/SFBT_UIs.dat
+            - _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_{{trees}}.dat
+            - SFBT
+      lastModified: 2023-08-17T11:52:53-07:00
       options:
         - choices:
             - label: Deciduous Trees (Maxis)
-              value: maxis-deciduous
+              value: Maxis_Street_Deciduous_Trees
             - label: Deciduous Trees (Cycledogg)
-              value: cp-deciduous
+              value: CP_Street_Deciduous_Trees
             - label: Palm Trees (Maxis)
-              value: maxis-palms
+              value: Maxis_Street_Palm_Trees
             - label: Pine Trees (Maxis)
-              value: maxis-pines
+              value: Maxis_Street_Pine_Trees
             - label: Pine Trees (Pegasus)
-              value: peg-pines
+              value: PEG_Street_Pines
             - label: Ponderosa Pine Trees (Cycledogg)
-              value: cp-ponderosa-pines
+              value: CP_Street_Ponderosa_Pines
             - label: Shore Pinyon Pine Trees (Cycledogg)
-              value: cp-shore-pinyon-pines
+              value: CP_Street_Shore_Pinyon_Pines
           id: trees
           label: Trees
           type: string
@@ -115,19 +93,19 @@ sfbt/street-tree-mod:
   options:
     - choices:
         - label: Deciduous Trees (Maxis)
-          value: maxis-deciduous
+          value: Maxis_Street_Deciduous_Trees
         - label: Deciduous Trees (Cycledogg)
-          value: cp-deciduous
+          value: CP_Street_Deciduous_Trees
         - label: Palm Trees (Maxis)
-          value: maxis-palms
+          value: Maxis_Street_Palm_Trees
         - label: Pine Trees (Maxis)
-          value: maxis-pines
+          value: Maxis_Street_Pine_Trees
         - label: Pine Trees (Pegasus)
-          value: peg-pines
+          value: PEG_Street_Pines
         - label: Ponderosa Pine Trees (Cycledogg)
-          value: cp-ponderosa-pines
+          value: CP_Street_Ponderosa_Pines
         - label: Shore Pinyon Pine Trees (Cycledogg)
-          value: cp-shore-pinyon-pines
+          value: CP_Street_Shore_Pinyon_Pines
       id: trees # TODO: Link to sfbt/essentials option?
       label: Trees
       type: string
@@ -135,11 +113,11 @@ sfbt/street-tree-mod:
         - label: Neutral
           value: neutral
         - label: White
-          value: white
+          value: White
         - label: Yellow
-          value: yellow
+          value: Yellow
         - label: Blue
-          value: blue
+          value: Blue
       id: parking-bays.color
       label: Parking bays
       type: string
@@ -147,57 +125,21 @@ sfbt/street-tree-mod:
       label: Remove dirt circles
       type: boolean
   release: 2024-08-19T09:13:11.692Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/img_overhaul.thumb.png.ec1553f24392990dac90e55b916f83bb.png
   url: https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/86-sfbt-street-tree-mod
   variants:
     default:
       assets:
         - docs:
-            - _Documents
+            - _Documents/SFBT_ReadMe
           id: sc4evermore/86-sfbt-street-tree-mod
           include:
             - condition:
                 no-dirt-circles: true
-              path: SFBT/Street Tree Mod/SFBT_DirtCircle_Remover.dat
-            - as: Parking Lots/Neutral parking bays.dat
-              condition:
-                parking-bays.color: neutral
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod neutral parking bays.dat
-            - as: Parking Lots/White parking bays.dat
-              condition:
-                parking-bays.color: white
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod White parking bays.dat
-            - as: Parking Lots/Yellow parking bays.dat
-              condition:
-                parking-bays.color: yellow
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod Yellow parking bays.dat
-            - as: Parking Lots/Blue parking bays.dat
-              condition:
-                parking-bays.color: blue
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod Blue parking bays.dat
-            - condition:
-                trees: peg-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_PEG_Street_Pines.dat
-            - condition:
-                trees: maxis-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_Maxis_Street_Pine_Trees.dat
-            - condition:
-                trees: maxis-palms
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_Maxis_Street_Palm_Trees.dat
-            - condition:
-                trees: maxis-deciduous
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_Maxis_Street_Deciduous_Trees.dat
-            - condition:
-                trees: cp-shore-pinyon-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Shore_Pinyon_Pines.dat
-            - condition:
-                trees: cp-ponderosa-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Ponderosa_Pines.dat
-            - condition:
-                trees: cp-deciduous
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Deciduous_Trees.dat
-            - as: Street Mods
-              category: transport,overrides
-              path: SFBT/Street Tree Mod/Street Mods
+              path: SFBT_DirtCircle_Remover.dat
+            - SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod {{parking-bays.color}} parking bays.dat
+            - SFBT/Street Tree Mod/Tree Props/SFBT_{{trees}}.dat
+            - SFBT/Street Tree Mod
             # TODO: Options?
             # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$MD.dat
             # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_R$LD.dat
@@ -214,7 +156,7 @@ sfbt/street-tree-mod:
             # - SFBT/Street Tree Mod/Street Mods/SFBT_StreetsideMod_C$$MDHD.dat
             # - SFBT/Street Tree Mod/Street Mods/SFBT_RoadsideMod_R$$_C$$LDMDHD.dat
             # - SFBT/Street Tree Mod/Street Mods/SFBT_OnewayRoadsideMod_R$$LDMDHD.dat
-      name: Original
+      lastModified: 2023-08-02T05:24:35-07:00
       version: 1.0.0
     hugues-aroux:
       assets:
@@ -222,54 +164,43 @@ sfbt/street-tree-mod:
             - SFBT_Street_mod_revised-v2.pdf
           id: simtropolis/35660-sfbt-street-tree-mod-revised
           include:
-            - category: transport,overrides
-              path: Street Tree Mod
+            - Street Tree Mod
         - docs:
-            - _Documents
+            - _Documents/SFBT_ReadMe
           id: sc4evermore/86-sfbt-street-tree-mod
           include:
             - condition:
                 no-dirt-circles: true
-              path: SFBT/Street Tree Mod/SFBT_DirtCircle_Remover.dat
-            - as: Parking Lots/Neutral parking bays.dat
-              condition:
-                parking-bays.color: neutral
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod neutral parking bays.dat
-            - as: Parking Lots/White parking bays.dat
-              condition:
-                parking-bays.color: white
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod White parking bays.dat
-            - as: Parking Lots/Yellow parking bays.dat
-              condition:
-                parking-bays.color: yellow
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod Yellow parking bays.dat
-            - as: Parking Lots/Blue parking bays.dat
-              condition:
-                parking-bays.color: blue
-              path: SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod Blue parking bays.dat
-            - condition:
-                trees: peg-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_PEG_Street_Pines.dat
-            - condition:
-                trees: maxis-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_Maxis_Street_Pine_Trees.dat
-            - condition:
-                trees: maxis-palms
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_Maxis_Street_Palm_Trees.dat
-            - condition:
-                trees: maxis-deciduous
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_Maxis_Street_Deciduous_Trees.dat
-            - condition:
-                trees: cp-shore-pinyon-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Shore_Pinyon_Pines.dat
-            - condition:
-                trees: cp-ponderosa-pines
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Ponderosa_Pines.dat
-            - condition:
-                trees: cp-deciduous
-              path: SFBT/Street Tree Mod/Tree Props/SFBT_CP_Street_Deciduous_Trees.dat
+              path: SFBT_DirtCircle_Remover.dat
+            - SFBT/Street Tree Mod/Parking Lots__CHOOSE ONE/JRJ Street side mod {{parking-bays.color}} parking bays.dat
+            - SFBT/Street Tree Mod/Tree Props/SFBT_{{trees}}.dat
       authors:
         - hugues aroux
+      description: >-
+        The plugin: SFBT Street Tree Mod, by Andreas, available on [ST : bsc-sfbt\-street-tree-mod](https://community.simtropolis.com/files/file/16098-bsc-sfbt-street-tree-mod/) -- [SC4E :
+        86-sfbt\-street-tree-mod](https://www.sc4evermore.com/index.php/downloads/download/23-transportation-mods/86-sfbt-street-tree-mod) offers in the directory: Street Tree Mod\\Street Mods\\
+
+
+        a set of T21\-type files (15) which place a number of Props along the street: mainly trees, parking bays and cars, and more... ; depending on the nature of the street (wealth, density, Zone).
+
+
+        Some of these files, despite Andreas's hard work - great for 2006! - contained a few errors in the placement, overlapping and orientation of bays and other accessories...
+
+
+        So I revised all 170+ of T21 exemplars.
+
+
+        Mainly: I repositioned the parking bays and cars towards the edges of the street - out of the traffic lane, and I repositioned the benches, trees, hydrants, ... straddling the parking spaces.
+
+
+        ![sfbt_illustra1.jpg.506fe6f917ff555d8316047faa5c9e68.jpg](https://www.simtropolis.com/objects/attachments/monthly_2023_10/sfbt_illustra1.jpg.506fe6f917ff555d8316047faa5c9e68.jpg)
+
+
+        This may have been deliberate for some, but I find them rather strange and unsightly. I've also removed the «big potted flowers»!
+      images:
+        - https://www.simtropolis.com/objects/screens/monthly_2023_10/img_overhaul.png.cc8d08caf08d44fc61a7c4ee25491ba3.png
+      lastModified: 2023-10-07T21:00:17Z
       name: Revisited by Hugues Aroux
-      release: 2024-08-20T10:45:45.232Z
-      version: 1.0.0
+      release: 2024-09-04T10:03:15.374Z
+      url: https://community.simtropolis.com/files/file/35660-sfbt-street-tree-mod-revised/
+      version: 2.0.0

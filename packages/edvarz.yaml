@@ -4,10 +4,32 @@ edvarz/japanese-w2w-zakkyo-set-relots:
     - zakkyo
   category: residential
   dependencies:
+    - bsc/common-dependencies
     - girafe/carpack
   description: >-
+    Documentación en Español incluida en la descarga.
+
+
+    **Description**
+
+
     This is a pack of japanese “w2w” growable lots for your dense urban environments, their style makes them look great in any kind of city, not just asian ones. I've taken these building models,
     given them new stats, put them in lots and even combined some of them together to achieve that dense, built-up look of a modern downtown.
+
+
+    **Installation**
+
+
+    Just unzip the folder with the lot files anywhere in your Plugins directory. It's recommended to keep the folder structure intact to help maintain your content organized.
+
+
+    Don't extract the Documentation files to your Plugins folder!
+
+
+    **Uninstallation**
+
+
+    Make sure you bulldoze every instance of these buildings you may have in your cities. After that, remove the files from your Plugins folder.
 
 
     **Dependencies**
@@ -16,13 +38,16 @@ edvarz/japanese-w2w-zakkyo-set-relots:
     Make sure you have all the files in your Plugins, if you don't, you will get brown boxes instead of the actual buildings and some textures could also be missing.
 
 
-    - rush_zakkyo_1-10
+    \-[girafe carpack 1 & 2](https://community.simtropolis.com/files/file/26808-vip-girafe-vnaoned-carpack-vol01-vol02-v2/)
 
 
-    - rush_zakkyo_11-20
+    \-rush_zakkyo_1-10
 
 
-    - rush_zakkyo_20-26
+    \-rush_zakkyo_11-20
+
+
+    \-rush_zakkyo_20-26
 
 
     Download from [here](http://sim4rush.tuzikaze.com/sc4/bat.html), scroll down until you see the following, then click the links shown below:
@@ -53,7 +78,11 @@ edvarz/japanese-w2w-zakkyo-set-relots:
   variants:
     default:
       assets:
-        - id: simtropolis/36394-japanese-w2w-zakkyo-set-relots
+        - docs:
+            - Readme-Leeme.docx
+          id: simtropolis/36394-japanese-w2w-zakkyo-set-relots
           include:
-            - Japanese W2W zakkyo set
+            - Japanese W2W zakkyo set/Rush zakkyo set relot 1-26.dat
+      lastModified: 2024-08-16T03:08:41Z
+      name: Default
       version: 1.0.0

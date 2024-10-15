@@ -2,6 +2,10 @@ simmaster07/extra-cheats:
   authors:
     - simmaster07
   category: cheats,dll
+  dependencies:
+    - buggi/extra-cheats
+    - simmaster07/sc4fix
+    - simtropolis/32047-sc4macinjector-a-dynamic-code-plugin-loader-for-mac
   description: >-
     This is a DLL for SimCity 4 that adds a few more cheat codes beyond [Buggi's Extra Cheats DLL](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/).
 
@@ -17,6 +21,24 @@ simmaster07/extra-cheats:
 
     The development thread can be found at [this link](https://community.simtropolis.com/forums/topic/70495-game-framework-compatible-dll-loading-and-other-modding-discoveries/). Source code can be
     found [here](https://github.com/nsgomez/gzcom-dll/blob/master/gzcom-dll/src/cGZExtraExtraCheatsDllDirector.cpp). Make sure to follow this file in case more cheats are added!
+
+
+    **Installation**
+
+
+    Move to your Plugins directory.
+
+
+    - On Windows and the Mac versions on disc and Steam, this is in Documents\\SimCity 4\\Plugins.
+
+    - On the Mac App Store version, this is in ~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4/Plugins
+
+
+    Create these directories if they do not exist yet.
+
+
+    **Mac users**: you will need to install [SC4MacInjector](https://community.simtropolis.com/files/file/32047-sc4macinjector-a-dynamic-code-plugin-loader-for-mac/) before using this plugin. You only
+    need the .so file, not the .dll.
 
 
     **Compatibility**
@@ -35,7 +57,12 @@ simmaster07/extra-cheats:
   variants:
     default:
       assets:
-        - id: simtropolis/31350-simmasters-extra-cheats-dll
+        - docs: []
+          id: simtropolis/31350-simmasters-extra-cheats-dll
+          include:
+            - ExtraExtraCheats.dll
+      lastModified: 2020-06-05T05:32:22Z
+      name: Default
       version: 1.1.1
 
 simmaster07/sc4fix:
@@ -59,6 +86,12 @@ simmaster07/sc4fix:
 
     This fix is made for versions 640 and 641 of SimCity 4 on Windows. Version 640 is a fully-patched SC4 retail copy, and version 641 is a fully-patched digital distribution version (i.e. Steam,
     Origin, GOG). Although v641 is supported, it has only been officially tested on Steam.
+
+
+    **Installation**
+
+
+    Unzip to Documents\\SimCity 4\\Plugins.
 
 
     To see if SC4Fix is working properly, check the title of your game window. If you are playing in fullscreen mode, alt-tab out and hover over the SimCity taskbar icon. The titlebar will show
@@ -107,5 +140,10 @@ simmaster07/sc4fix:
   variants:
     default:
       assets:
-        - id: simtropolis/30883-sc4fix-third-party-patches-for-sc4
+        - docs: []
+          id: simtropolis/30883-sc4fix-third-party-patches-for-sc4
+          include:
+            - SC4Fix.dll
+      lastModified: 2018-01-21T05:11:27Z
+      name: Default
       version: 1.0.7

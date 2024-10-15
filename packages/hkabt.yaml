@@ -161,6 +161,11 @@ hkabt/common-dependencies:
   variants:
     default:
       assets:
-        - id: sc4evermore/1-sc4d-lex-legacy-hkabt-dependencies-pack
+        - cleanitol: []
+          docs:
+            - ~Documents
+            - readme*
+          id: sc4evermore/1-sc4d-lex-legacy-hkabt-dependencies-pack
           include: []
+      lastModified: 2023-07-19T08:26:22-07:00
       version: 1.0.0

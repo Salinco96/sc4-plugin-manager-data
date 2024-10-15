@@ -41,6 +41,13 @@ giraffemountain/charmeuse-apartments:
           id: simtropolis/36348-charmeuse-apartments
           include:
             - Charmeuse Apartments
+      lastModified: 2024-07-20T04:35:38Z
+      lots:
+        - filename: R$$6_3x2_CharmeuseApartments_b396a781.SC4Lot
+          id: b396a781
+          label: R$$6_3x2_CharmeuseApartments_b396a781.SC4Lot
+          size: 3x2
+          stage: 6
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -58,7 +65,7 @@ giraffemountain/fa2-mid-rises:
     Each building costs $100 to plop, and functions as a landmark.
 
     No dependencies!
-  images:
+  images: &a1
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/famidrises1.png.ff4589d00990d9d8d510c1c8db43c127.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/fa3midrises.jpg.e66e80fdd5358f520a4a2b54c394152e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/fa2midrises.jpg.ea4a7ca37063f1836ab9b89b34a5185c.jpg
@@ -72,7 +79,14 @@ giraffemountain/fa2-mid-rises:
         - id: simtropolis/36329-fa2-and-fa3-mid-rises#201910
           include:
             - FA2 NY mid-rises
-      name: Default
+      lastModified: 2024-07-04T04:33:16Z
+      lots:
+        - filename: LM2x2_FA2 NY_3390afde.SC4Lot
+          id: 3390afde
+          label: LM2x2_FA2 NY_3390afde.SC4Lot
+        - filename: LM2x2_FA2 NY mirror_3390b0f9.SC4Lot
+          id: 3390b0f9
+          label: LM2x2_FA2 NY mirror_3390b0f9.SC4Lot
       version: 1.0.0
     growify:
       assets:
@@ -80,16 +94,117 @@ giraffemountain/fa2-mid-rises:
           include:
             - FA2 NY mid-rises
         - docs:
-            - FA2 NY mid-rises
+            - FA2 and FA3 giraffemountain growify lots.txt
+            - FA2 NY mid-rises/FA2 Growify/FA2 NY Growify 4.jpg
+            - FA2 NY mid-rises/FA2 Growify/FA2 NY Growify 3.jpg
+            - FA2 NY mid-rises/FA2 Growify/FA2 Growify 2.jpg
+            - FA2 NY mid-rises/FA2 Growify/FA2 Growify 1.jpg
+            - FA3 NY mid-rises/FA3 Growify/FA3 Growify 4.jpg
+            - FA3 NY mid-rises/FA3 Growify/FA3 Growify 3.jpg
+            - FA3 NY mid-rises/FA3 Growify/FA3 Growify 2.jpg
+            - FA3 NY mid-rises/FA3 Growify/FA3 Growify 1.jpg
           id: simtropolis/36372-fa2-and-fa3-giraffemountain-growify-residential-ploppables
           include:
             - FA2 NY mid-rises
       authors:
         - Kel9509
       dependencies:
+        - giraffemountain/fa2-and-fa3-mid-rises
         - null-45/growify-plops-dll
-      name: Growify
-      release: 2024-08-20T10:45:45.232Z
+      description: >-
+        FA2 and FA3 Growify lots for giraffemountain models
+
+
+        By Kel9505
+
+
+        Based off of giraffemountain's FA2 and FA3 models
+
+
+        Included are two FA2 and two FA3 lots based off of giraffemountain's original lots and models. They have been transformed into ploppable R$ Residential lots that can be used in the game if
+        Growifed with the growify DLL mod by Null45.
+
+
+        These are LOTS ONLY, and do not include the models. These are new lots and do not overwrite giraffemountain's original landmark eyecandy lots.
+
+
+        Note: This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All dependencies listed below are REQUIRED
+        for these lots to work.
+
+
+        REQUIRED DEPENDENCIES:
+
+
+        1\. [FA2 and FA3 Mid-rises](https://community.simtropolis.com/files/file/36329-fa2-and-fa3-mid-rises/), by giraffemountain
+
+
+        2\. [Growify DLL Mod](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/), by Null45
+
+
+        TO INSTALL:
+
+
+        Make sure Simcity4 is not running prior to installation.
+
+
+        Extract all files into your Simcity4 Plugins folder. The archive can be extracted into a subfolder containing giraffemountain's models and original lots, and will create a subfolder with the
+        growify lots.
+
+
+        TO USE:
+
+
+        Pause the game, plop the lots along a FA2 or FA3 street, as needed, use the Growify cheat code "Growify R M" or "Growify R H" to growify the lots as medium density or high density lots. Make
+        sure they have water and power or, like any other lot, they may abandon. If you have the submenu DLL mod by memo, the lots will appear in the Residential Zone menu under R$ Ploppables.
+
+
+        STATS:
+
+
+        FA2: R$ 382 sims
+
+
+        FA2 mirror: R$ 396 sims
+
+
+        FA3: R$ 810 sims
+
+
+        FA3 mirror: R$ 804 sims
+      images:
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b03496b5ca5_FA2NYGrowify3.jpg.14a9cfe94226201344970f1645cf82cf.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034a068c99_FA2NYGrowify4.jpg.07a6ce2c10e9832cbe718b2757c7dafe.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034a362df6_FA2Growify2.jpg.8e35701e6345f5df559dac0738d95365.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034a581547_FA2Growify1.jpg.771ddc78c8bcb0e791a0e401c4170e70.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034b01579a_FA3Growify2.jpg.8ca6400061e0e23b78848a2d226cc914.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034b25cc88_FA3Growify1.jpg.76a4f504824e67d8fd8395ea1ef350f5.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034b488216_FA3Growify3.jpg.e69abed23f5e75192888ea3d3d0c7fb0.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b034b699e95_FA3Growify4.jpg.895f4566676254b8bd413e657e53fb2f.jpg
+      lastModified: 2024-08-05T02:28:06Z
+      lots:
+        - category: landmarks
+          filename: PLOP_2x2_FA2 NY building_Mirror_GROWIFY_9435269a.SC4Lot
+          id: 9435269a
+          label: PLOP_2x2_FA2 NY building_Mirror_GROWIFY_9435269a.SC4Lot
+          size: 2x2
+        - category: landmarks
+          filename: PLOP_2x2_FA2 NY building_GROWIFY_643523b1.SC4Lot
+          id: 643523b1
+          label: PLOP_2x2_FA2 NY building_GROWIFY_643523b1.SC4Lot
+          size: 2x2
+        - category: landmarks
+          filename: PLOP_3x2_FA3 NY Mirror Growify_54355c42.SC4Lot
+          id: 54355c42
+          label: PLOP_3x2_FA3 NY Mirror Growify_54355c42.SC4Lot
+          size: 3x2
+        - category: landmarks
+          filename: PLOP_3x2_FA3 NY Growify_143531de.SC4Lot
+          id: 143531de
+          label: PLOP_3x2_FA3 NY Growify_143531de.SC4Lot
+          size: 3x2
+      release: 2024-09-04T10:03:15.374Z
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b037f5acac6_FA2NYGrowify3.thumb.jpg.3b5f9777b63bbdd28dbadddfb3caf0c7.jpg
+      url: https://community.simtropolis.com/files/file/36372-fa2-and-fa3-giraffemountain-growify-residential-ploppables/
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -107,10 +222,7 @@ giraffemountain/fa3-mid-rises:
     Each building costs $100 to plop, and functions as a landmark.
 
     No dependencies!
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/famidrises1.png.ff4589d00990d9d8d510c1c8db43c127.png
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/fa3midrises.jpg.e66e80fdd5358f520a4a2b54c394152e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2024_07/fa2midrises.jpg.ea4a7ca37063f1836ab9b89b34a5185c.jpg
+  images: *a1
   name: New York FA3 Mid-Rises
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_07/famidrises1.thumb.png.9e71764e6fbbf31b63eb857116a28155.png
@@ -121,6 +233,14 @@ giraffemountain/fa3-mid-rises:
         - id: simtropolis/36329-fa2-and-fa3-mid-rises#201909
           include:
             - FA3 NY mid-rises
+      lastModified: 2024-07-04T04:33:16Z
+      lots:
+        - filename: LM3x2_FA3 NY_d38f50bd.SC4Lot
+          id: d38f50bd
+          label: LM3x2_FA3 NY_d38f50bd.SC4Lot
+        - filename: LM3x2_FA3 NY mirror_738f513d.SC4Lot
+          id: 738f513d
+          label: LM3x2_FA3 NY mirror_738f513d.SC4Lot
       name: Default
       requirements:
         darknite: false
@@ -189,6 +309,13 @@ giraffemountain/jacquard-apartments:
           id: simtropolis/36349-jacquard-apartments
           include:
             - Jacquard Apartments
+      lastModified: 2024-07-21T19:23:11Z
+      lots:
+        - filename: R$$6_3x2_Jacquard Apartments_b3a936c0.SC4Lot
+          id: b3a936c0
+          label: R$$6_3x2_Jacquard Apartments_b3a936c0.SC4Lot
+          size: 3x2
+          stage: 6
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -228,6 +355,37 @@ giraffemountain/new-york-cs-shops:
           id: simtropolis/36323-new-york-cs-shops
           include:
             - NY Shops
+      lastModified: 2024-08-02T21:59:49Z
+      lots:
+        - filename: LM_5x2_NY Shops_d38b59b6.SC4Lot
+          id: d38b59b6
+          label: LM_5x2_NY Shops_d38b59b6.SC4Lot
+          size: 5x2
+        - filename: CS$$3_1x2_NY Shops Right Corner_f38b4f0c.SC4Lot
+          id: f38b4f0c
+          label: CS$$3_1x2_NY Shops Right Corner_f38b4f0c.SC4Lot
+          size: 1x2
+          stage: 3
+        - filename: CS$$3_1x2_NY Shops Left Corner_d38b4e30.SC4Lot
+          id: d38b4e30
+          label: CS$$3_1x2_NY Shops Left Corner_d38b4e30.SC4Lot
+          size: 1x2
+          stage: 3
+        - filename: CS$$2_1x2_NY Shops 3_b38b5324.SC4Lot
+          id: b38b5324
+          label: CS$$2_1x2_NY Shops 3_b38b5324.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: CS$$2_1x2_NY Shops 2_538b52f2.SC4Lot
+          id: 538b52f2
+          label: CS$$2_1x2_NY Shops 2_538b52f2.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: CS$$2_1x2_NY Shops 1_d38b52ba.SC4Lot
+          id: d38b52ba
+          label: CS$$2_1x2_NY Shops 1_d38b52ba.SC4Lot
+          size: 1x2
+          stage: 2
       version: 1.0.1
   warnings:
     - id: bulldoze
@@ -267,6 +425,37 @@ giraffemountain/new-york-cs-shops-pack-2:
           id: simtropolis/36367-new-york-cs-shops-pack-2
           include:
             - NY Shops Pack 2
+      lastModified: 2024-08-02T22:39:03Z
+      lots:
+        - filename: LM_5x2_NY Shops 2_93b18c1b.SC4Lot
+          id: 93b18c1b
+          label: LM_5x2_NY Shops 2_93b18c1b.SC4Lot
+          size: 5x2
+        - filename: CS$$3_1x2_NY Shops Right Corner 2_f3b19102.SC4Lot
+          id: f3b19102
+          label: CS$$3_1x2_NY Shops Right Corner 2_f3b19102.SC4Lot
+          size: 1x2
+          stage: 3
+        - filename: CS$$3_1x2_NY Shops Left Corner 2_93b190ba.SC4Lot
+          id: 93b190ba
+          label: CS$$3_1x2_NY Shops Left Corner 2_93b190ba.SC4Lot
+          size: 1x2
+          stage: 3
+        - filename: CS$$2_1x2_NY Shops 6_93b18e26.SC4Lot
+          id: 93b18e26
+          label: CS$$2_1x2_NY Shops 6_93b18e26.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: CS$$2_1x2_NY Shops 5_d3b18d9d.SC4Lot
+          id: d3b18d9d
+          label: CS$$2_1x2_NY Shops 5_d3b18d9d.SC4Lot
+          size: 1x2
+          stage: 2
+        - filename: CS$$2_1x2_NY Shops 4_73b18d47.SC4Lot
+          id: 73b18d47
+          label: CS$$2_1x2_NY Shops 4_73b18d47.SC4Lot
+          size: 1x2
+          stage: 2
       version: 1.0.0
   warnings:
     - id: bulldoze

@@ -20,6 +20,7 @@ nbvc/bikes:
         - id: simtropolis/24859-bikes
           include:
             - NBVC_Bikes
+      lastModified: 2010-09-12T04:47:39Z
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -50,8 +51,59 @@ nbvc/marina:
         - id: simtropolis/28951-marina
           include:
             - NBVC_Marina
-      requirements:
-        darknite: false
+      lastModified: 2013-09-01T14:00:32Z
+      lots:
+        - filename: NBVC_MarinaWall2_3f265186.SC4Lot
+          id: 3f265186
+          label: NBVC_MarinaWall2_3f265186.SC4Lot
+        - filename: NBVC_MarinaWall1_beee8a15.SC4Lot
+          id: beee8a15
+          label: NBVC_MarinaWall1_beee8a15.SC4Lot
+        - filename: NBVC_MarinaPierY1_9f2e22b5.SC4Lot
+          id: 9f2e22b5
+          label: NBVC_MarinaPierY1_9f2e22b5.SC4Lot
+        - filename: NBVC_MarinaPierSmall3_df13f67e.SC4Lot
+          id: df13f67e
+          label: NBVC_MarinaPierSmall3_df13f67e.SC4Lot
+        - filename: NBVC_MarinaPierLarge2T3_9f2f448f.SC4Lot
+          id: 9f2f448f
+          label: NBVC_MarinaPierLarge2T3_9f2f448f.SC4Lot
+        - filename: NBVC_MarinaPierLarge2T2_9f2e0cee.SC4Lot
+          id: 9f2e0cee
+          label: NBVC_MarinaPierLarge2T2_9f2e0cee.SC4Lot
+        - filename: NBVC_MarinaPierLarge1T2_df2d3cc7.SC4Lot
+          id: df2d3cc7
+          label: NBVC_MarinaPierLarge1T2_df2d3cc7.SC4Lot
+        - filename: NBVC_MarinaPierL2TBend2_bf2c718b.SC4Lot
+          id: bf2c718b
+          label: NBVC_MarinaPierL2TBend2_bf2c718b.SC4Lot
+        - filename: NBVC_MarinaPierL2TBend1_3f261d46.SC4Lot
+          id: 3f261d46
+          label: NBVC_MarinaPierL2TBend1_3f261d46.SC4Lot
+        - filename: NBVC_MarinaPierL2T2_bf1d22aa.SC4Lot
+          id: bf1d22aa
+          label: NBVC_MarinaPierL2T2_bf1d22aa.SC4Lot
+        - filename: NBVC_MarinaPierL2T2_3f12d42e.SC4Lot
+          id: 3f12d42e
+          label: NBVC_MarinaPierL2T2_3f12d42e.SC4Lot
+        - filename: NBVC_MarinaPier3_ff12d0d5.SC4Lot
+          id: ff12d0d5
+          label: NBVC_MarinaPier3_ff12d0d5.SC4Lot
+        - filename: NBVC_MarinaPier2_5f08cc99.SC4Lot
+          id: 5f08cc99
+          label: NBVC_MarinaPier2_5f08cc99.SC4Lot
+        - filename: NBVC_MarinaPier1_feed4e3d.SC4Lot
+          id: feed4e3d
+          label: NBVC_MarinaPier1_feed4e3d.SC4Lot
+        - filename: NBVC_MarinaOuterCorner_1ef30fab.SC4Lot
+          id: 1ef30fab
+          label: NBVC_MarinaOuterCorner_1ef30fab.SC4Lot
+        - filename: NBVC_MarinaInnerCorner_1ef31203.SC4Lot
+          id: 1ef31203
+          label: NBVC_MarinaInnerCorner_1ef31203.SC4Lot
+        - filename: NBVC_MarinaBench_5f1629b2.SC4Lot
+          id: 5f1629b2
+          label: NBVC_MarinaBench_5f1629b2.SC4Lot
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -84,6 +136,7 @@ nbvc/stone-paths:
           include:
             # TODO: - NBVC_StonePaths/NBVC_StonePathsMMP_100.dat
             - NBVC_StonePaths
+      lastModified: 2012-09-04T18:10:24Z
       lots:
         - filename: NBVC_StonePath1_fd415330.SC4Lot
           id: fd415330
@@ -97,8 +150,7 @@ nbvc/stone-paths:
         - filename: NBVC_StonePathCorner_9d4154f2.SC4Lot
           id: 9d4154f2
           label: Stone Path, Corner
-        - category: agriculture
-          filename: NBVC_StonePathDiag_3d420d60.SC4Lot
+        - filename: NBVC_StonePathDiag_3d420d60.SC4Lot
           id: 3d420d60
           label: Stone Path, Diagonal
         - filename: NBVC_StonePathS_5d420d44.SC4Lot

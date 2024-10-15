@@ -5,6 +5,7 @@ paeng/bikepaths:
   dependencies:
     - murimk/bike-props
     - porkissimo/jenx-porkie-expanded-props
+    - rebalynnts/spot-simpeg-plop-orientation-tool
     - simgoober/mega-props-vol01
   description: >-
     A set of handsome bike paths combined with alley parks to get your bikers off the busy roads and avenues, at the same time providing nice stretches of small parkways for a leisurely stroll...
@@ -23,6 +24,24 @@ paeng/bikepaths:
 
     Since they do block development, you need to be creative in your zoning and in planning your bike paths. Make your zones either face a side road or detour your paths around some of the
     developments. Combined smartly, you will not 'lose' too much road access. See Readme for more information!
+
+
+    **Dependencies**
+
+
+    \* **[Murimk Bicycle Props](https://www.simtropolis.com/forum/files/file/25681-murimk-bicycle-props-with-mmp-bikers/)**
+
+
+    \* **[BSC MegaProps SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)**
+
+
+    \* **[Porkie Props Vol 01](https://www.simtropolis.com/forum/files/file/11421-porkie-props-vol1-european-street-accessories/)**
+
+
+    \* Bike Path Resource - **included**
+
+
+    \* **[SPOT](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/)** (Plop Orientation Helpers, optional)
 
 
     **Developer Notes**
@@ -57,6 +76,9 @@ paeng/bikepaths:
 
     I'd like to thank my fellow NightOwl **Murimk** who (again ![:)](https://www.simtropolis.com/forum/public/style_emoticons/) 'sponsored' a few custom BATs, adding the kind of detail that makes a
     set 'alive'.
+
+
+    update: 13.10.2018 - updated dependency link by Tyberius06
   features:
     - paeng/bikepaths
   images:
@@ -71,16 +93,20 @@ paeng/bikepaths:
     default:
       assets:
         - docs:
-            - Paeng_BikePaths_v100/Readme_BikePaths
+            - Paeng_BikePaths_v100/Readme_BikePaths/index.html
+            - Paeng_BikePaths_v100/Readme_BikePaths/bp_views.jpg
+            - Paeng_BikePaths_v100/Readme_BikePaths/bp_preview_full.jpg
+            - Paeng_BikePaths_v100/Readme_BikePaths/bp_plan2.gif
+            - Paeng_BikePaths_v100/Readme_BikePaths/bp_exchange.jpg
+            - Paeng_BikePaths_v100/Readme_BikePaths/bikepath.css
           id: simtropolis/26110-paengs-bicycle-paths-with-alley-parks
           include:
-            - Paeng_BikePaths_v100
-        # TODO: Extender does not work well
-        # - id: simtropolis/46045-paeng-nightowl-extenders
-        #   include:
-        #     - path: bikepath_extenders.dat
-        #       as: 0_Original/BikePath_Lots/BikePath_Extenders.dat
-      name: Original
+            - Paeng_BikePaths_v100/Bikepath_Resource/Paeng_Bikepath_Textures.dat
+            - Paeng_BikePaths_v100/Bikepath_Resource/Murimk_CustomProps_Bikepath.dat
+            - Paeng_BikePaths_v100/Bikepath_Resource/Common.dat
+            - Paeng_BikePaths_v100/Bikepaths_Lots/BikePath_Lots.dat
+      lastModified: 2018-10-13T17:08:16Z
+      name: Default
       version: 1.0.0
     extended-mgb204:
       assets:
@@ -90,11 +116,6 @@ paeng/bikepaths:
           include:
             - as: 0_Original
               path: Paeng_BikePaths_v100
-        # TODO: Extender does not work well
-        # - id: simtropolis/46045-paeng-nightowl-extenders
-        #   include:
-        #     - path: bikepath_extenders.dat
-        #       as: 0_Original/BikePath_Lots/BikePath_Extenders.dat
         - exclude:
             - MGB_LP-BikePath_Extenders.dat
           id: simtropolis/84749-mgb-lp-paengbikepaths
@@ -123,55 +144,43 @@ paeng/bikepaths:
     extended-phil-scoty:
       assets:
         - docs:
-            - as: PHIL Scoty Seasonal Paeng-MGB Bikepaths
-              path: PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents/Phil Scoty Bikepath Read Me.txt
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents/Phil Scoty Bike Path 4.jpg
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents/Phil Scoty Bike Path 3.jpeg
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents/Phil Scoty Bike Path 2.jpeg
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents/Phil Scoty 4 colors Bikepath.jpg
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/Documents/Dep Links.txt
           exclude:
             - MGB_LP_S-BikePath_Extenders_*.dat
           id: simtropolis/36374-phil-scoty-seasonal-paeng-mgb-bikepaths
           include:
-            - as: 2_Phil-Scoty-Cover/*
-              condition:
-                preserve-original: false
-              path: Paeng-Bikepaths_Scoty-Cover_{{color}}.dat
-            - as: 2_Phil-Scoty-Cover
-              condition:
-                preserve-original: false
-              path: Phil Seasonal Lots - Cover
-            - as: 3_Phil-Scoty-Dbl/Scoty_Paeng-Bikepaths_Dbl_Red.dat
-              condition:
-                color: Red
-                preserve-original: true
-              path: Scoty_Paeng-Bikepaths_Dbl_Red.dat
-            - as: 3_Phil-Scoty-Dbl/Scoty_Paeng-Bikepaths_Dbl_GreenOld.dat
-              condition:
-                color: GreenOld
-                preserve-original: true
-              path: Scoty_Paeng-Bikepaths_Dbl_GreenOld.dat
-            - as: 3_Phil-Scoty-Dbl/Scoty_Paeng-Bikepaths_Dbl_GreenNew.dat
-              condition:
-                color: GreenNew
-                preserve-original: true
-              path: Scoty_Paeng-Bikepaths_Dbl_GreenNew.dat
-            - as: 3_Phil-Scoty-Dbl/Scoty_Paeng-Bikepaths_Dbl_Blue.dat
-              condition:
-                color: Blue
-                preserve-original: true
-              path: Scoty_Paeng-Bikepaths_Dbl_Blue.dat
-            - as: 3_Phil-Scoty-Dbl
-              condition:
-                preserve-original: true
-              path: Phil Seasonal Lots - Dbl
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/TexPaths_scoty_Dbl_CHOOSE-ONE/Scoty_Paeng-Bikepaths_Dbl_Red.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/TexPaths_scoty_Dbl_CHOOSE-ONE/Scoty_Paeng-Bikepaths_Dbl_GreenOld.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/TexPaths_scoty_Dbl_CHOOSE-ONE/Scoty_Paeng-Bikepaths_Dbl_GreenNew.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/TexPaths_scoty_Dbl_CHOOSE-ONE/Scoty_Paeng-Bikepaths_Dbl_Blue.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/Phil Seasonal Lots - Dbl/MGB-LP-S_Paeng_Bikepaths_SSDP_Dbl.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/Phil Seasonal Lots - Dbl/MGB-LP-S_Paeng_Bikepaths_Extenders_Dbl.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/Phil Seasonal Lots - Dbl/MGB-LP-S_Paeng_Bikepaths_Diagonals_Dbl.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/Phil Seasonal Lots - Dbl/MGB-LP-S_Paeng_Bikepaths_Base_Lots_Dbl.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Dbl/Phil Seasonal Lots - Dbl/MGB-LP-S_Paeng_Bikepaths_Adds_Dbl.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/TexPaths_scoty_covers_CHOOSE-ONE/Paeng-Bikepaths_Scoty-Cover_Red.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath -
+              Cover/TexPaths_scoty_covers_CHOOSE-ONE/Paeng-Bikepaths_Scoty-Cover_GreenOld.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath -
+              Cover/TexPaths_scoty_covers_CHOOSE-ONE/Paeng-Bikepaths_Scoty-Cover_GreenNew.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/TexPaths_scoty_covers_CHOOSE-ONE/Paeng-Bikepaths_Scoty-Cover_Blue.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/Phil Seasonal Lots - Cover/MGB_LP_S-BikePath_SSDP_Cover.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/Phil Seasonal Lots - Cover/MGB_LP_S-BikePath_Extenders_Cover.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/Phil Seasonal Lots - Cover/MGB_LP_S-BikePath_Diagonals_Cover.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/Phil Seasonal Lots - Cover/MGB_LP_S-BikePath_BusStop_Cover.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/Phil Seasonal Lots - Cover/MGB_LP_S-BikePath_BasicLots_Cover.dat
+            - PHIL Scoty Seasonal Paeng-MGB Bikepaths/PHIL_Seasonal_Paeng-MGB_bikepaths/PHIL Seasonal MGB-Paeng-BikePath - Cover/Phil Seasonal Lots - Cover/MGB_LP_S-BikePath_Adds_Cover.dat
         - docs:
             - Paeng_BikePaths_v100
           id: simtropolis/26110-paengs-bicycle-paths-with-alley-parks
           include:
             - as: 0_Original
               path: Paeng_BikePaths_v100
-        # TODO: Extender does not work well
-        # - id: simtropolis/46045-paeng-nightowl-extenders
-        #   include:
-        #     - path: bikepath_extenders.dat
-        #       as: 0_Original/BikePath_Lots/BikePath_Extenders.dat
         - exclude:
             - MGB_LP-BikePath_Extenders.dat
           id: simtropolis/84749-mgb-lp-paengbikepaths
@@ -191,12 +200,18 @@ paeng/bikepaths:
         - hugues aroux
         - philforhockey51
       dependencies:
+        - bsc/common-dependencies
         - girafe/flora-pack
         - girafe/hedges
+        - hugues-aroux/scoty-textures-packs
         - mandelsoft/light-props
+        - murimk/props-vol03
+        - paeng/bikepaths
         - paeng/streetside-diagonal-parking
-        - simgoober/mega-props-vol01
       description: >-
+        **PHIL Scoty Seasonal Paeng MGB Bikepaths**
+
+
         A set of lots that add seasonal flora and path color options overlay texture covers for existing Paeng bikepath lots. This also includes a new additional standalone set that provides the
         option of having a second color bike path in your city.
 
@@ -239,28 +254,67 @@ paeng/bikepaths:
         Notes:
 
 
-        - The covers will work on Paeng's base set of lots, Paeng's SSDP bikepath lots, MGB's Light Project update and it's additional crossover lots, and adds the diagonal lots.
+        \-The covers will work on Paeng's base set of lots, Paeng's SSDP bikepath lots, MGB's Light Project update and it's additional crossover lots, and adds the diagonal lots.
 
 
-        - Each set has their own new icons for the game menu.
+        \-Each set has their own new icons for the game menu.
 
 
-        - The cover set is not a dependency of the dbl set however all original dependencies are still dependencies for the dbl set.
+        \-The cover set is not a dependency of the dbl set however all original dependencies are still dependencies for the dbl set.
 
 
-        - No Kevins were harmed in the making of these textures, that one Kevin that fell in the ink well was on a different project.
+        \-No Kevins were harmed in the making of these textures, that one Kevin that fell in the ink well was on a different project.
 
 
-        - The lots can be found in the Misc transportation menu like the originals.
+        \-The lots can be found in the Misc transportation menu like the originals.
 
 
-        - There are slight variations to prop layout on some lots between the cover and dbl set but most follow the same layout.
+        \-There are slight variations to prop layout on some lots between the cover and dbl set but most follow the same layout.
 
 
-        - All lots will adjust to your sidewalk mod.
+        \-All lots will adjust to your sidewalk mod.
 
 
-        - Other than the Functional Bustop and Parking Ends these lots do not have additional functions, they do not function like pedmalls.
+        \-Other than the Functional Bustop and Parking Ends these lots do not have additional functions, they do not function like pedmalls.
+
+
+        Dependencies:
+
+
+        - Req - Original Paeng Base Set - [Paeng's Bicycle Paths with Alley
+        Parks](https://community.simtropolis.com/files/file/26110-paengs-bicycle-paths-with-alley-parks/)[](https://community.simtropolis.com/files/file/27698-murimk-props-vol03-industrials/)
+
+        - Req - MGB Light Update Set - [MGB-LP Paeng Bike Paths](https://community.simtropolis.com/forums/topic/761517-mgbs-lil-bits/?do=findComment&comment=1768699)
+
+        - Req - Paengs SSDP - [Paeng's StreetSide Diagonal Parking (SSDP)](https://community.simtropolis.com/files/file/31162-paengs-streetside-diagonal-parking-ssdp/)
+
+        - Req - Murimk Bikes - [Murimk Bicycle props](https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/)
+
+        - Req - Porkie Props vol 1 - [JENX-Porkie Expanded Porkie Props](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/10-jenxporkie-expanded-porkie-props)
+
+        - Req - Girafe Seasonal Flora - [SC4D LEX LEGACY - BSC VIP Girafe Flora
+        Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
+
+        - Opt - SimPegOrientationTool - [SPOT](https://community.simtropolis.com/files/file/24509-spot-simpeg-plop-orientation-tool/)
+
+
+        Req Props from [SC4D LEX Legacy - BSC Common Dependencies Pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack):
+
+
+        - Props - BSC MEGA Props SG Vol01
+
+        - Props - BSC VIP Girafe Hedges
+
+
+        Textures:
+
+
+        - Included - Scoty Bikepath Textures
+
+        - Req - Additional Planter Textures - [Scoty Textures Packs](https://community.simtropolis.com/files/file/36297-scoty-textures-packs/)
+
+
+        Note the original dependencies required for the original sets by Paeng and MGB, along with the dependencies they add, are required.
 
 
         Give a Big Thank You to hugues aroux for all the great texture work, icons and help in creating this project. This project is as much his as it is mine.
@@ -278,7 +332,7 @@ paeng/bikepaths:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b13c5a5bfaa_PhilScotyBikePath2.jpeg.c060b793f9b6801774b33bedeb707892.jpeg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b13c5d2d2b6_PhilScotyBikePath3.jpeg.5df0ab99190d4b537c8063d26ccfa10f.jpeg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b13c602b716_PhilScotyBikePath4.jpg.58fad260049cd7dc6197a6e55a2d5e81.jpg
-      name: Extended (PHIL Scoty)
+      lastModified: 2024-08-05T22:12:46Z
       options:
         - choices:
             - label: Red
@@ -297,7 +351,7 @@ paeng/bikepaths:
           id: preserve-original
           label: Preserve original set
           type: boolean
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b14e5db3f2b_PhilScoty4colorsBikepath.thumb.jpg.c2e77dc699862d163f2a00340a731266.jpg
       url: https://community.simtropolis.com/files/file/36374-phil-scoty-seasonal-paeng-mgb-bikepaths/
       version: 1.0.0
@@ -307,12 +361,14 @@ paeng/parks-revisited:
     - paeng
   category: parks
   dependencies:
+    - bsc/common-dependencies
     - couchpotato/mega-props-vol02
     - dolphin66/mega-props-vol02
     - mattb325/bat-props-vol02
     - murimk/props-vol02
     - paeng/textures
     - porkissimo/jenx-porkie-expanded-props
+    - rebalynnts/spot-simpeg-plop-orientation-tool
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
   description: >-
@@ -359,6 +415,37 @@ paeng/parks-revisited:
 
     Please note that there is a more in-depth [Online Documentation](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9813.0) with lots of
     additional info and many images available as well.
+
+
+    **DEPENDENCIES**
+
+
+    \* [Paeng Texture Pack v103](https://community.simtropolis.com/files/file/22823-paeng-textures-vol104/) (updated version Sep 2011!)
+
+
+    \* [Murimk Props 02, v201](https://community.simtropolis.com/files/file/25888-murimk-props-vol02/) (updated version Sep 2011!)
+
+
+    \* [BSC MEGA Props - SG Vol01](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
+
+
+    \* [BSCBATPropsMattb325 Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2383)
+
+
+    \* [BSC MEGA Props - MJB Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2422)
+
+
+    \* [BSC MEGA Props - swi21 Vol01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=403)
+
+
+    \* [BSC MEGA Props - D66 Vol02](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=556)
+
+
+    \* Porkie Props [Vol 01](https://www.simtropolis.com/forum/files/file/11421-porkie-props-vol1-european-street-accessories/) and [Vol
+    02](https://www.simtropolis.com/forum/files/file/11420-porkie-props-vol2-seasonal-street-trees/)
+
+
+    \* [SPOT](https://community.simtropolis.com/files/file/24509-spot/) (Orientation Helpers)
 
 
     **DEVELOPER NOTES**
@@ -422,6 +509,12 @@ paeng/parks-revisited:
 
 
     Enjoy!
+
+
+    Mod edit 29th April 2017 - Fixed formatting + dependency links
+
+
+    \-Cori edit: Fixed one of the fixes that wasn't quite fixed.
   features:
     - paeng/parks-revisited
   images:
@@ -440,21 +533,47 @@ paeng/parks-revisited:
     default:
       assets:
         - docs:
-            - Parks_v205/_Documentation_205
-            - Parks_v205/Documentation_TC205
+            - Parks_v205/_Documentation_205/_ReadMe205_main.txt
+            - Parks_v205/_Documentation_205/parks_front.jpg
+            - Parks_v205/_Documentation_205/ParkSystemCatalog.pdf
+            - Parks_v205/_Documentation_205/ParkSystemCatalog.ods
+            - Parks_v205/_Documentation_205/More_Images_Here.txt
+            - Parks_v205/Documentation_TC205/_ReadMe_TextureChanger_v205.txt
+            - Parks_v205/Documentation_TC205/mod-combi_chart.jpg
+            - Parks_v205/_Documentation_205/Readme_Parks/ReadMe_WSP_v205.txt
+            - Parks_v205/_Documentation_205/Readme_Parks/ReadMe_UG_v205.txt
+            - Parks_v205/_Documentation_205/Readme_Parks/ReadMe_MP_v205.txt
+            - Parks_v205/Documentation_TC205/Reference_Pics/WhiteSandsPark.png
+            - Parks_v205/Documentation_TC205/Reference_Pics/UrbanGardens.png
+            - Parks_v205/Documentation_TC205/Reference_Pics/MonumentPark.png
           id: simtropolis/26923-paengs-parks-revisited
           include:
             - Parks_v205
-      version: 2.0.5
+      lastModified: 2018-07-18T04:34:32Z
+      lots:
+        - filename: Siding_busstop_7b80db2d.SC4Lot
+          id: 7b80db2d
+          label: Siding_busstop_7b80db2d.SC4Lot
+      name: Default
+      version: 2.05.0
+  warnings:
+    - id: bulldoze
+      on: disable
 
 paeng/streetside-diagonal-parking:
   authors:
     - paeng
   category: parkings
   dependencies:
+    - bsc/common-dependencies
+    - paeng/bikepaths
+    - paeng/parks-revisited
     - shokthrpy/shk-parking-pack
     - simgoober/mega-props-vol01
   description: >-
+    Originally hosted on SimPeg.
+
+
     A small set of four lots for diagonal parking that comes in three flavors:
 
 
@@ -466,6 +585,15 @@ paeng/streetside-diagonal-parking:
 
 
     Each version is supplied in a separate DAT, so you can install only those options you require.
+
+
+    **DEPENDENCIES**
+
+
+    [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
+
+
+    [BSC MEGA Props SG Vol 01](https://community.simtropolis.com/files/file/15287-bsc-mega-props-sg-vol-01/)
 
 
     **\* - Note**: The P205- and BikePath versions are add-ons for Paeng's Parks 205 Sidings and Paeng's Bicycle Paths. They should only be installed if you are using these other modular sets by
@@ -480,6 +608,9 @@ paeng/streetside-diagonal-parking:
 
     All items can be found in the 'Transport | Miscellaneous' menu with custom icons. The Left/Right Ends of each version are functional parking and generate a small income. All items are compatible
     with any installed sidewalk mods.
+
+
+    **\-Cori Edit:** Changed author to Paeng and un-expanded dep linkys for clarity.
   features:
     - paeng/streetside-diagonal-parking
   images:
@@ -492,16 +623,16 @@ paeng/streetside-diagonal-parking:
   variants:
     default:
       assets:
-        - id: simtropolis/31162-paengs-streetside-diagonal-parking-ssdp
+        - docs:
+            - ssdp_readme.txt
+          id: simtropolis/31162-paengs-streetside-diagonal-parking-ssdp
           include:
-            - condition:
-                paeng/bikepaths: true
-              path: SSDP_Bikepaths.dat
-            - condition:
-                paeng/parks-revisited: true
-              path: SSDP_Sidings205.dat
             - SSDP_Standalone.dat
+            - SSDP_Sidings205.dat
+            - SSDP_Bikepaths.dat
             - KEEP_SSDP_Resource.dat
+      lastModified: 2021-01-18T20:06:13Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -518,7 +649,27 @@ paeng/textures:
 
     This **updated** version maintains all textures from the previous version and now includes a number of additional matching overlays for more intricate path-variations. Plus some... ;-)
 
+    All you need to do is to **remove the previous file** -
+
+    Paeng_Textures_v103.dat (old)
+
+    **and replace it** with the one from this upload -
+
+    **Paeng_TexturePack_v104.dat** (current)
+
+    No further action required :-)
+
     Lot designers are free to utilize these textures, but the DAT file is not to be included with any download package. Please link to this upload instead.
+
+    **NOTICE: This pack does not contain any lots!**
+
+    To install:
+
+    Place the DAT file in your \\My Documents\\SimCity 4\\Plugins directory.
+
+    To uninstall:
+
+    Delete it from your \\My Documents\\SimCity 4\\Plugins directory.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_12_2013/8b6d75ee83126d9dbfcf29987d30e3f6-texture-splash.jpg
   name: Paeng Textures
@@ -528,7 +679,10 @@ paeng/textures:
   variants:
     default:
       assets:
-        - id: simtropolis/22823-paeng-textures-vol104
+        - docs: []
+          id: simtropolis/22823-paeng-textures-vol104
           include:
-            - paeng_TexturePack_v104
-      version: 1.0.4
+            - paeng_TexturePack_v104/paeng_TexturePack_v104.dat
+      lastModified: 2013-12-16T06:47:02Z
+      name: Default
+      version: 1.04.0

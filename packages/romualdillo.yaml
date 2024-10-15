@@ -7,31 +7,24 @@ romualdillo/props-vol01:
   description: |-
     This prop pack includes all the necessary items for my first residential set, including:
 
-    \* House props
+    - House props
 
-    \* Wall props
+    - Wall props
 
-    \* Backyard props (mostly semi-seasonal)
+    - Backyard props (mostly semi-seasonal)
 
-    \* Street Props
+    - Street Props
 
     I got MandelSoft's permission to use his great light cones in my streetlights, which are included.
 
     This set is inspired in the Spanish architecture from 1800's to 1920's.
 
-    \*\*\*\*\*Dependencies\*\*\*\*\*
-
-    [SC4D LEX Legacy - BSC VIP Girafe Flora V3](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
-
-    Girafe's Cypresses
-
-    \*\*\*\*\*Thanks\*\*\*\*\*
 
     Special thanks to Simcoug for his help improving the pack
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Props VOL01 Main.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Props VOL01 sample.jpg
-  name: Romualdillo Props Vol 01
+  name: Romualdillo Props Vol01
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Props VOL01 Main.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/269-romualdillo-props-vol01-v1-2
@@ -39,12 +32,14 @@ romualdillo/props-vol01:
     default:
       assets:
         - docs:
-            - Romualdillo_Readmes
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - ~Documents/Romualdillo_Readmes
           id: sc4evermore/269-romualdillo-props-vol01-v1-2
           include:
             - Romualdillo/Props
       dependencies:
         - girafe/flora-pack
+      lastModified: 2024-04-16T07:41:11-07:00
       version: 1.2.0
 
 romualdillo/spanish-low-wealth-residentals-vol01:
@@ -53,6 +48,7 @@ romualdillo/spanish-low-wealth-residentals-vol01:
   category: r$
   dependencies:
     - girafe/flora-pack # Cypresses
+    - romualdillo/props-vol01
   description: >-
     ### IMPORTANT INFORMATION
 
@@ -78,45 +74,19 @@ romualdillo/spanish-low-wealth-residentals-vol01:
     This is my first building set.
 
 
-    Lots' Information:
+
+    - Lot Sizes: 1x2,1x3,2x2,2x3 (corner lots: 1x2, 2x2)
 
 
-    \* Zone: Residential
-
-
-    \* Density: Low Density
-
-
-    \* Wealth: Low Wealth
-
-
-    \* Building Style: European
-
-
-    \* Lot Sizes: 1x2,1x3,2x2,2x3 (corner lots: 1x2, 2x2)
-
-
-    \* Inhabitants: 7 to 35 (7 per home)
+    - Inhabitants: 7 to 35 (7 per home)
 
 
     The lots represent different growth stages. You'll find lots with a lot of free space and others totally built. Normally all the free spaces disappear with the natural city growth.
-
-
-    \*\*\*\*\*Dependencies\*\*\*\*\*
-
-
-    [Romualdillo Props VOL01 v1.2](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/269-romualdillo-props-vol01-v1-2)
-
-
-    [SC4D LEX Legacy - BSC VIP Girafe Flora V3](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
-
-
-    Girafe's Cypresses
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Spanish R Residental Lots.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Spanish R Residental Lots-n.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Spanish R Residental Lots2.jpg
-  name: Spanish Low Wealth Residental Lots Vol 01
+  name: Spanish Low Wealth Residental Lots Vol01
   release: 2024-08-19T09:13:11.692Z
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Romualdillo - Spanish R Residental Lots.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/11-residential/270-romualdillo-spanish-low-wealth-residental-lots
@@ -124,15 +94,11 @@ romualdillo/spanish-low-wealth-residentals-vol01:
     default:
       assets:
         - docs:
-            - Romualdillo_Readmes
+            - ~Documents/Romualdillo_Readmes
           id: sc4evermore/270-romualdillo-spanish-low-wealth-residental-lots
           include:
             - Romualdillo/Spanish R$ Residental Lots Vol01
-      dependencies:
-        - girafe/flora-pack
-        - romualdillo/props-vol01
-      requirements:
-        darknite: false
+      lastModified: 2024-04-16T09:06:53-07:00
       version: 1.0.0
   warnings:
     - id: bulldoze

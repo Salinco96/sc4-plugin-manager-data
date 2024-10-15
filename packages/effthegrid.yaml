@@ -1,3 +1,79 @@
+effthegrid/fa2-high-rises-01:
+  authors:
+    - effthegrid
+  category: commercial
+  description: >-
+    Break the grid! There are no rules!
+
+
+    These are ***as-is*** models. They're good enough for me so they will have to be good enough for you ![;)](https://community.simtropolis.com/assets/emoticons/LlamaWink.gif ";&#41;")
+
+
+    I've been busy with IRL stuff lately so I haven't had time to complete these in any sort of "final" manner with proper detailing, nightlights etc, but anyway here are some high rise structures for
+    FA2 angled roadways.
+
+
+    Download includes both mirrored versions of the following lots w/overhanging prop:
+
+
+    **FA2 Citysphere** (*801 King St, Toronto, ON*) // LM 2x2
+
+
+    **FA2 Cocoa Exchange** (*1 Wall Street, New York, NY*) // LM 1x2
+
+
+    **FA2 Rhodes Haverty** (*127 Peachtree St, Atlanta, GA*) // LM 1x2
+
+
+    **FA2 TD Bank** (*Cadman Plaza, Brooklyn, NY*) // LM 3x3
+
+
+    No dependencies, no refunds or exchanges. No shoes, no shirt, NO service. No pets (service animals allowed)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/cocoa-citysphere1.jpg.113d5385c7931bbb79aa7819f4001fee.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/td1.jpg.b4da9850b4a25c78888b90655682e369.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_10/rhodeshaverty2.jpg.53744ff11e9dfafcfb3b16b888a1bc79.jpg
+  name: FA2 High Rises 01
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_10/cocoa-citysphere1.thumb.jpg.43fb14816876f73b56c7f230269f1cb1.jpg
+  url: https://community.simtropolis.com/files/file/34705-fa2-high-rises-01/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/34705-fa2-high-rises-01
+      lastModified: 2021-10-07T14:26:56Z
+      lots:
+        - filename: FA2 Citysphere L_dec8c8b5.SC4Lot
+          id: dec8c8b5
+          label: FA2 Citysphere L_dec8c8b5.SC4Lot
+        - filename: FA2 Citysphere R_9ec8c8d2.SC4Lot
+          id: 9ec8c8d2
+          label: FA2 Citysphere R_9ec8c8d2.SC4Lot
+        - filename: FA2 Cocoa Exchange L_cec8c8fa.SC4Lot
+          id: cec8c8fa
+          label: FA2 Cocoa Exchange L_cec8c8fa.SC4Lot
+        - filename: FA2 Cocoa Exchange R 1 Wall St_2ec8c91f.SC4Lot
+          id: 2ec8c91f
+          label: FA2 Cocoa Exchange R 1 Wall St_2ec8c91f.SC4Lot
+        - filename: FA2 Rhodes Haverty L_aeab9b0f.SC4Lot
+          id: aeab9b0f
+          label: FA2 Rhodes Haverty L_aeab9b0f.SC4Lot
+        - filename: FA2 Rhodes Haverty R_0eab9aff.SC4Lot
+          id: 0eab9aff
+          label: FA2 Rhodes Haverty R_0eab9aff.SC4Lot
+        - filename: FA2 TD Bank L_2eab9712.SC4Lot
+          id: 2eab9712
+          label: FA2 TD Bank L_2eab9712.SC4Lot
+        - filename: FA2 TD Bank R_beab9722.SC4Lot
+          id: beab9722
+          label: FA2 TD Bank R_beab9722.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 effthegrid/fa2-the-bradhurst:
   authors:
     - EffTheGrid
@@ -23,10 +99,19 @@ effthegrid/fa2-the-bradhurst:
   variants:
     default:
       assets:
-        - id: simtropolis/34599-fa2-the-bradhurst
+        - docs: []
+          id: simtropolis/34599-fa2-the-bradhurst
           include:
             - FA2 The Bradhurst
-      name: Original
+      lastModified: 2021-12-11T19:39:47Z
+      lots:
+        - filename: FA2 The Bradhurst R_0e7afaa8.SC4Lot
+          id: 0e7afaa8
+          label: FA2 The Bradhurst R_0e7afaa8.SC4Lot
+        - filename: FA2 The Bradhurst L_ce7afaa1.SC4Lot
+          id: ce7afaa1
+          label: FA2 The Bradhurst L_ce7afaa1.SC4Lot
+      name: Default
       version: 1.0.0
     kel9509:
       assets:
@@ -39,7 +124,11 @@ effthegrid/fa2-the-bradhurst:
             - as: 0_Original
               path: FA2 The Bradhurst
         - docs:
-            - FA2 The Bradhurst Growify
+            - FA2 The Bradhurst Growify/FA2 Bradhurst growify lots.txt
+            - FA2 The Bradhurst Growify/FA2 Bradhurst 4.jpg
+            - FA2 The Bradhurst Growify/FA2 Bradhurst 3.jpg
+            - FA2 The Bradhurst Growify/FA2 Bradhurst 2.jpg
+            - FA2 The Bradhurst Growify/FA2 Bradhurst 1.jpg
           id: simtropolis/36375-fa2-the-bradhurst-growify
           include:
             - as: 1_Growify
@@ -48,8 +137,18 @@ effthegrid/fa2-the-bradhurst:
         - Kel9509
       category: landmarks,r$$,diagonal
       dependencies:
+        - effthegrid/fa2-the-bradhurst
         - null-45/growify-plops-dll
       description: >-
+        FA2 The Bradhurst Growify lots
+
+
+        By Kel9505
+
+
+        Based off of EffTheGrid's model: FA2 The Bradhurst.
+
+
         Included are two FA2 lots based off of EffTheGrid's original lots and models. They have been transformed into ploppable R$$ Residential lots that can be used in the game if Growifed with the
         growify DLL mod by Null45.
 
@@ -63,6 +162,24 @@ effthegrid/fa2-the-bradhurst:
 
 
         https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/
+
+
+        REQUIRED DEPENDENCIES:
+
+
+        1\. [FA2 The Bradhurst](https://community.simtropolis.com/files/file/34599-fa2-the-bradhurst/), by EffTheGrid:
+
+
+        2\. [Growify DLL Mod](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/), by Null45:
+
+
+        TO INSTALL:
+
+
+        Make sure Simcity4 is not running prior to installation.
+
+
+        Extract all files into your Simcity4 Plugins folder. The archive can be extracted into a subfolder containing EffTheGrid's models and original lots.
 
 
         TO USE:
@@ -81,13 +198,24 @@ effthegrid/fa2-the-bradhurst:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b2a83306ce2_FA2Bradhurst2.jpg.00543eecaa7f12a9a795df56bae1c703.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b2a836666bf_FA2Bradhurst3.jpg.0be2439106987e2d640f09b70070602e.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b2a83863fef_FA2Bradhurst4.jpg.9365eb7d2c6511ad6a52a624d71f4d8a.jpg
-      name: Growify
+      lastModified: 2024-08-06T22:52:10Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_FA2 The Bradhurst (Right) Growify_9436c510.SC4Lot
+          id: 9436c510
+          label: PLOP_1x1_FA2 The Bradhurst (Right) Growify_9436c510.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_FA2 The Bradhurst (Left) Growify_c436bf8b.SC4Lot
+          id: c436bf8b
+          label: PLOP_1x1_FA2 The Bradhurst (Left) Growify_c436bf8b.SC4Lot
+          size: 1x1
       options:
         - default: false
           id: preserve-original
           label: Preserve original lots
           type: boolean
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b2a91a3f4f2_FA2Bradhurst1.thumb.jpg.736e72575161fa4b011325c24cce2d28.jpg
       url: https://community.simtropolis.com/files/file/36375-fa2-the-bradhurst-growify/
       version: 1.0.0
@@ -100,6 +228,11 @@ effthegrid/fa3-181-east-gun-hill-rd:
     - EffTheGrid
     - kaimai
   category: landmarks,diagonal
+  dependencies:
+    - memo/submenus-dll
+    - nam-team/network-addon-mod-nam-cross-platform
+    - null-45/growify-plops-dll
+    - simfox/simfox-day-and-nite-modd
   description: >-
     First of all I should mention these are not my models: they were made (with exhaustive attention to detail) by [@EffTheGrid](https://community.simtropolis.com/profile/402017-effthegrid/) some
     years ago. **I have not changed anything** on these, my only contributions here are adding nightlights (in MaxisNite or DarkNite—use only one), mirroring the recolor, and of course re-exporting in
@@ -144,6 +277,7 @@ effthegrid/fa3-181-east-gun-hill-rd:
   name: FA3 181 East Gun Hill Rd
   optional:
     - null-45/growify-plops-dll
+  release: 2024-09-04T10:03:15.374Z
   requirements:
     nam: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b5774e3d4d9_ScreenShot2024-08-08at8_59_08PM.thumb.jpg.ac22a741f8cfa51fdc2423923da84813.jpg
@@ -151,138 +285,108 @@ effthegrid/fa3-181-east-gun-hill-rd:
   variants:
     kaimai:
       assets:
-        - id: simtropolis/36383-effthegrids-fa3-181-east-gun-hill-rd#202351
+        - docs: []
+          id: simtropolis/36383-effthegrids-fa3-181-east-gun-hill-rd#202351
           include:
             - 181 MN
             - 181mirror MN
       category: landmarks,r$$,cs$$,diagonal
+      lastModified: 2024-08-09T01:56:30Z
       lots:
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
-          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
-          id: 743a8986
-          label: R$$, 2x2
-          size: 2x2
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
+        - category: landmarks
           filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_443a8d06.SC4Lot
           id: 443a8d06
-          label: R$$, 2x2 (Mirror)
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_443a8d06.SC4Lot
           size: 2x2
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
-          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
-          id: b43a8a1a
-          label: R$$, 2x1 Overhang
-          size: 2x1
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
-          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
-          id: 643a8e52
-          label: R$$, 2x1 Overhang (Mirror)
-          size: 2x1
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
-          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
-          id: a43a81a2
-          label: CS$$, 2x2
-          size: 2x2
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
+        - category: landmarks
           filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_a43a8aff.SC4Lot
           id: a43a8aff
-          label: CS$$, 2x2 (Mirror)
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_a43a8aff.SC4Lot
           size: 2x2
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
-          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
-          id: e43a82e1
-          label: CS$$, 2x1 Overhang
+        - category: landmarks
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
+          id: 643a8e52
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
           size: 2x1
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
+        - category: landmarks
           filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_843a8b91.SC4Lot
           id: 843a8b91
-          label: CS$$, 2x1 Overhang (Mirror)
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_843a8b91.SC4Lot
           size: 2x1
-      name: Maxis Nite
+        - category: landmarks
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
+          id: 743a8986
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
+          size: 2x2
+        - category: landmarks
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
+          id: a43a81a2
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
+          size: 2x2
+        - category: landmarks
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
+          id: b43a8a1a
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
+          size: 2x1
+        - category: landmarks
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
+          id: e43a82e1
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
+          size: 2x1
       release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: false
       version: 1.0.0
     kaimai-darknite:
       assets:
-        - id: simtropolis/36383-effthegrids-fa3-181-east-gun-hill-rd#202350
+        - docs: []
+          id: simtropolis/36383-effthegrids-fa3-181-east-gun-hill-rd#202350
           include:
             - 181 DN
             - 181mirror DN
       category: landmarks,r$$,cs$$,diagonal
+      lastModified: 2024-08-09T01:56:30Z
       lots:
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
-          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
-          id: 743a8986
-          label: R$$, 2x2
-          size: 2x2
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
+        - category: landmarks
           filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_443a8d06.SC4Lot
           id: 443a8d06
-          label: R$$, 2x2 (Mirror)
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_443a8d06.SC4Lot
           size: 2x2
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
-          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
-          id: b43a8a1a
-          label: R$$, 2x1 Overhang
-          size: 2x1
-        - category: landmarks,r$$
-          demand:
-            r$$: 295
-          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
-          id: 643a8e52
-          label: R$$, 2x1 Overhang (Mirror)
-          size: 2x1
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
-          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
-          id: a43a81a2
-          label: CS$$, 2x2
-          size: 2x2
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
+        - category: landmarks
           filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_a43a8aff.SC4Lot
           id: a43a8aff
-          label: CS$$, 2x2 (Mirror)
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_a43a8aff.SC4Lot
           size: 2x2
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
-          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
-          id: e43a82e1
-          label: CS$$, 2x1 Overhang
+        - category: landmarks
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
+          id: 643a8e52
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - R$$_643a8e52.SC4Lot
           size: 2x1
-        - category: landmarks,cs$$
-          demand:
-            cs$$: 169
+        - category: landmarks
           filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_843a8b91.SC4Lot
           id: 843a8b91
-          label: CS$$, 2x1 Overhang (Mirror)
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd (Mirror) - CS$$_843a8b91.SC4Lot
           size: 2x1
-      name: Dark Nite
+        - category: landmarks
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
+          id: 743a8986
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - R$$_743a8986.SC4Lot
+          size: 2x2
+        - category: landmarks
+          filename: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
+          id: a43a81a2
+          label: PLOP_2x2_FA3 FTG 181 E Gun Hill Rd - CS$$_a43a81a2.SC4Lot
+          size: 2x2
+        - category: landmarks
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
+          id: b43a8a1a
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - R$$_b43a8a1a.SC4Lot
+          size: 2x1
+        - category: landmarks
+          filename: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
+          id: e43a82e1
+          label: PLOP_2x1_FA3 FTG 181 E Gun Hill Rd - CS$$_e43a82e1.SC4Lot
+          size: 2x1
       release: 2024-08-20T10:45:45.232Z
       requirements:
         darknite: true
@@ -299,6 +403,16 @@ effthegrid/fa3-559-anderson-ave:
     Break the grid! Nyoooooooom....... **BOOM.** There goes the grid!
 
     Here's a fractionally angled version of Cliffside Park, NJ's most average brick apartment building. This one is located along Anderson Ave (Bergenline) and is 5 over 1, mid to late 20th century.
+
+    Download includes:
+
+    *2x* **1x1** **landmark** lots with custom overhanging props (both **left and right** orientations)
+
+    *1x* .sc4model file of the following:
+
+    Spoiler
+
+    For those that are inclined to lot/use it. I won't use it in my game. If you do, please consider posting it on the STEX for others to share!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_02/559-anderson-R.jpg.6b167bf2d9532be7047eab2b8b52cb40.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_02/559-anderson-L.jpg.48e46618c2ccfff70c636eb64100a2f0.jpg
@@ -309,17 +423,19 @@ effthegrid/fa3-559-anderson-ave:
   variants:
     default:
       assets:
-        - id: simtropolis/34864-fa3-559-anderson-ave-residential
+        - docs: []
+          id: simtropolis/34864-fa3-559-anderson-ave-residential
           include:
             - FTG 559 Anderson Ave
+      lastModified: 2022-02-18T23:55:54Z
       lots:
         - filename: FA3 559 Anderson L_8f95054d.SC4Lot
           id: 8f95054d
-          label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
+          label: FA3 559 Anderson L_8f95054d.SC4Lot
         - filename: FA3 559 Anderson R_4f950542.SC4Lot
           id: 4f950542
-          label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
-      name: Original
+          label: FA3 559 Anderson R_4f950542.SC4Lot
+      name: Default
       version: 1.0.0
     kel9509:
       assets:
@@ -327,7 +443,11 @@ effthegrid/fa3-559-anderson-ave:
           include:
             - FTG 559 Anderson Ave
         - docs:
-            - FA3 559 Anderson Ave Growify
+            - FA3 559 Anderson Ave Growify/FA3 559 Anderson Ave Growify 1.jpg
+            - FA3 559 Anderson Ave Growify/FA3 559 Anderson Ave Growify 2.jpg
+            - FA3 559 Anderson Ave Growify/FA3 559 Anderson Ave Growify 3.jpg
+            - FA3 559 Anderson Ave Growify/FA3 559 Anderson Ave Growify 4.jpg
+            - FA3 559 Anderson Ave Growify/FA3 559 Anderson Ave Growify.txt
           id: simtropolis/36399-fa3-559-anderson-ave-growify
           include:
             - FA3 559 Anderson Ave Growify
@@ -335,8 +455,15 @@ effthegrid/fa3-559-anderson-ave:
         - Kel9509
       category: landmarks,r$,diagonal
       dependencies:
+        - effthegrid/fa3-559-anderson-ave
         - null-45/growify-plops-dll
       description: >-
+        FA3 559 Anderson Ave Growify
+
+
+        By Kel9505
+
+
         Based off of EffTheGrid's model: FA3 559 Anderson Ave (Residential).
 
 
@@ -354,43 +481,57 @@ effthegrid/fa3-559-anderson-ave:
         https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/
 
 
+        REQUIRED DEPENDENCIES:
+
+
+        1\. [FA3 559 Anderson Ave (Residential)](https://community.simtropolis.com/files/file/34864-fa3-559-anderson-ave-residential/), by EffTheGrid:
+
+
+        2\. [Growify DLL Mod](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/), by Null45:
+
+
+        TO INSTALL:
+
+
+        Make sure Simcity4 is not running prior to installation.
+
+
+        Extract all files into your Simcity4 Plugins folder. The archive can be extracted into a subfolder containing EffTheGrid's models and original lots.
+
+
         TO USE:
 
 
         Pause the game, plop the lot along a FA3 street (the lot pointing to the FA3 street), use the Growify cheat code "Growify R M" or "Growify R H" to growify the lot as medium density or high
         density lots. Make sure it has water and power or, like any other lot, it may abandon. If you have the submenu DLL mod by memo, the lots will appear in the Residential Zone menu under R$
         Ploppables.
+
+
+        Stats:
+
+
+        Left: R$ 251 residents.
+
+
+        Right: R$ 278 residents.
       images:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236867ab6_FA3559AndersonAveGrowify1.jpg.32c6f8021331378d5faa17f602dd986d.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236b6fce4_FA3559AndersonAveGrowify2.jpg.053d1db1775d302cb1222e1283ae14eb.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c1236e71a12_FA3559AndersonAveGrowify3.jpg.00e718c3028dd5041d53601f14007397.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66c12370a8e7d_FA3559AndersonAveGrowify4.jpg.2759ef9f048aab3eaa4ba84e11186c6b.jpg
+      lastModified: 2024-08-17T22:28:57Z
       lots:
-        - category: landmarks,r$
-          demand:
-            r$: 251
+        - category: landmarks
           filename: PLOP_1x1_FA3 559 Anderson Ave (Left) Growify_3436999b.SC4Lot
           id: 3436999b
-          label: FA3 559 Anderson Ave, Left (Growify R$, 1x1)
+          label: PLOP_1x1_FA3 559 Anderson Ave (Left) Growify_3436999b.SC4Lot
           size: 1x1
-        - category: landmarks,r$
-          demand:
-            r$: 278
+        - category: landmarks
           filename: PLOP_1x1_FA3 559 Anderson Ave (Right) Growify_04369954.SC4Lot
           id: "04369954"
-          label: FA3 559 Anderson Ave, Right (Growify R$, 1x1)
+          label: PLOP_1x1_FA3 559 Anderson Ave (Right) Growify_04369954.SC4Lot
           size: 1x1
-        - category: landmarks
-          filename: FA3 559 Anderson L_8f95054d.SC4Lot
-          id: 8f95054d
-          label: FA3 559 Anderson Ave, Left (Landmark, 1x1)
-          size: 1x1
-        - category: landmarks
-          filename: FA3 559 Anderson R_4f950542.SC4Lot
-          id: 4f950542
-          label: FA3 559 Anderson Ave, Right (Landmark, 1x1)
-          size: 1x1
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66c123ec1b239_FA3559AndersonAveGrowify1.thumb.jpg.467fe045bbafdde36e87d4dbc9e3a918.jpg
       url: https://community.simtropolis.com/files/file/36399-fa3-559-anderson-ave-growify/
       version: 1.0.0
@@ -403,11 +544,19 @@ effthegrid/fa3-928-s-broadway:
     - EffTheGrid
   category: landmarks,diagonal
   description: |-
-    Another eyecandy lot for your FAR\-3 networks. This is an ortho corner 2x1 ploppaple landmark.
+    BREAK THE GRID! THINK OUTSIDE THE BOX!
 
-    I think this is the first building in Yonkers when you leave the Bronx on Broadway. IRL it's a residential building with a bodega and some businesses.
+    Another eyecandy lot for your FAR\-3 networks. This is an ortho corner
+
+    2x1 ploppaple landmark
+
+    I think this is the first building in Yonkers when you leave the Bronx on Broadway. IRL it's a residential building with a bodega and some businesses
 
     No nightlighting, and I'd love to improve the stats on these. (lesser plop cost)
+
+    ![02.jpg](https://www.simtropolis.com/objects/attachments/monthly_2021_01/02.jpg.3088b8f7f2a30b440098943da1a1119e.jpg)
+
+    ![01.jpg](https://www.simtropolis.com/objects/attachments/monthly_2021_01/01.jpg.9964dadde5fdd0b263ecc3af23141bd9.jpg)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/01.jpg.707c3b88a0d8ba99ca04d329430b8628.jpg
   name: FA3 928 S Broadway
@@ -417,7 +566,13 @@ effthegrid/fa3-928-s-broadway:
   variants:
     default:
       assets:
-        - id: simtropolis/34064-fa3-928-s-broadway
+        - docs: []
+          id: simtropolis/34064-fa3-928-s-broadway
+      lastModified: 2021-01-20T22:11:39Z
+      lots:
+        - filename: FA3 928 S Broadway_ad8d7d35.SC4Lot
+          id: ad8d7d35
+          label: FA3 928 S Broadway_ad8d7d35.SC4Lot
       name: Default
       version: 1.0.0
     kel9509:
@@ -431,7 +586,11 @@ effthegrid/fa3-928-s-broadway:
             - as: 0_Original
               path: FA3 *
         - docs:
-            - FA3 928 S Broadway Growify
+            - FA3 928 S Broadway Growify/FA3 928 S Broadway Growify.txt
+            - FA3 928 S Broadway Growify/FA3 928 S Broadway 4.jpg
+            - FA3 928 S Broadway Growify/FA3 928 S Broadway 3.jpg
+            - FA3 928 S Broadway Growify/FA3 928 S Broadway 2.jpg
+            - FA3 928 S Broadway Growify/FA3 928 S Broadway 1.jpg
           id: simtropolis/36389-fa3-928-s-broadway-growify
           include:
             - as: 1_Growify
@@ -440,8 +599,15 @@ effthegrid/fa3-928-s-broadway:
         - Kel9509
       category: landmarks,r$,diagonal
       dependencies:
+        - effthegrid/fa3-928-s-broadway
         - null-45/growify-plops-dll
       description: >-
+        FA3 928 S Broadway Growify
+
+
+        By Kel9505
+
+
         Based off of EffTheGrid's model: FA3 928 S Broadway.
 
 
@@ -455,6 +621,24 @@ effthegrid/fa3-928-s-broadway:
 
         Note: This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All dependencies listed below are REQUIRED
         for this RCI DLL Query Upgrade Mod to work.
+
+
+        REQUIRED DEPENDENCIES:
+
+
+        1\. [FA3 928 S Broadway](https://community.simtropolis.com/files/file/34064-fa3-928-s-broadway/), by EffTheGrid
+
+
+        2\. [Growify DLL Mod](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/), by Null45
+
+
+        TO INSTALL:
+
+
+        Make sure Simcity4 is not running prior to installation.
+
+
+        Extract all files into your Simcity4 Plugins folder. The archive can be extracted into a subfolder containing EffTheGrid's models and original lots.
 
 
         TO USE:
@@ -474,13 +658,19 @@ effthegrid/fa3-928-s-broadway:
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95bee0df78_FA3928SBroadway2.jpg.302b99beb784b657bce9c91e88d8a9a8.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95bf0a5653_FA3928SBroadway3.jpg.2237c472c68a742bba6a49116f4f54d8.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95bf300ee4_FA3928SBroadway4.jpg.5ac16f4ad52dfd76d43affd7684cf4d3.jpg
-      name: Growify
+      lastModified: 2024-08-12T00:51:46Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x2_FA3 928 S Broadway Growify_843e684d.SC4Lot
+          id: 843e684d
+          label: PLOP_1x2_FA3 928 S Broadway Growify_843e684d.SC4Lot
+          size: 1x2
       options:
         - default: false
           id: preserve-original
           label: Preserve original lots
           type: boolean
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/66b95ca286360_FA3928SBroadway1.thumb.jpg.0531c3cf4f98c1545f765c849d4e2178.jpg
       url: https://community.simtropolis.com/files/file/36389-fa3-928-s-broadway-growify/
       version: 1.0.0

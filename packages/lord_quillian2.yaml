@@ -6,6 +6,10 @@ lord_quillian2/foss-construction-tower-crane:
     Tower crane and its tower.
 
     The tower unit is 12m high, so should be raised by 12m every time to make a larger tower. Then the crane should go at a multiple of 12m hight.
+
+    UPDATE: Added new crane, and fised the problem with the placement outlines when in the LotEditor.
+
+    UPDATE: Added site hoarding, and Caterpiller Crane.
   images:
     - https://www.simtropolis.com/objects/screens/0021/bbbef2c8ad8811c8cc969eec1d2570a0-Crane-props-03.jpg
   name: Foss Construction Tower Crane
@@ -15,5 +19,11 @@ lord_quillian2/foss-construction-tower-crane:
   variants:
     default:
       assets:
-        - id: simtropolis/2879-foss-construction-tower-crane
+        - docs: []
+          id: simtropolis/2879-foss-construction-tower-crane
+          include:
+            - Tower_Cranes.dat
+            - More-construction.dat
+      lastModified: 2004-03-29T14:43:44Z
+      name: Default
       version: 2.0.0

@@ -1,0 +1,79 @@
+profxyz/the-cenotaph:
+  authors:
+    - profxyz
+  category: parks
+  description: >-
+    (After "leeching" from Simtropolis for so long I thought it might be time to actually try and make something myself...so I thought this rather simple structure might be a good way of getting to
+    grips with the BAT. Thanks for the people who wrote the BATing tutorials in the Omnibus!)
+
+
+    [http://en.wikipedia.org/wiki/Cenotaph](https://en.wikipedia.org/wiki/Cenotaph)
+
+
+    Cenotaphs are best known as memorials, built mainly by the British Empire and the Commonwealth dominions, to commemorate the war dead of World War One.
+
+
+    This particular cenotaph is based on the one in Hong Kong. However, the light texture of the memorial itself bears a greater resemblance to the one in London (which was the basis for the Hong Kong
+    Cenotaph anyway).
+
+
+    As this is my first ever attempt, please tell me if there is something I should have/could have done better. Sorry in advance for the mediocre wreaths...if anyone has any tips with that it would
+    be greatly appreciated. Sorry also for not being able to render the words "THE GLORIOUS DEAD"...
+
+
+    Stats:
+
+
+    Size - 3x3
+
+
+    Plop Cost - 5000
+
+
+    Monthly Cost - 10
+
+
+    Bulldoze Cost - 100
+
+
+    Flammability - 0
+
+
+    Landmark Effect - 20 over a radius of 10 cells
+
+
+    Max Fire Stage - 5 (aka can't really burn down)
+
+
+    Mayor Rating Effect - 10 over a radius of 256 cells
+
+
+    Pollution, Water Consumption, and Power Consumption - 0
+
+
+    Scale - Width is scaled up by a factor of around 2-4; height is scaled up by a factor of around 3.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/7fb0411d1aa2f9af081d24d2700b5fba-cenotaph_day.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_02_2012/e3e1e5cbb2fbb1776cda8f4c71cfe033-cenotaph_night.jpeg
+  name: The Cenotaph
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2012/thumb-7fb0411d1aa2f9af081d24d2700b5fba-cenotaph_day.jpeg
+  url: https://community.simtropolis.com/files/file/27275-the-cenotaph/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Cenotaph/Images/Cenotaph Day.jpeg
+            - Cenotaph/Images/Cenotaph Night.jpeg
+            - Cenotaph/Readme.txt
+          id: simtropolis/27275-the-cenotaph
+      lastModified: 2012-02-14T23:00:57Z
+      lots:
+        - filename: The Cenotaph_5c46ff6b.SC4Lot
+          id: 5c46ff6b
+          label: The Cenotaph_5c46ff6b.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable

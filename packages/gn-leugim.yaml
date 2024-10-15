@@ -14,10 +14,14 @@ gn-leugim/arched-house:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/968e7b7b2467906753413232903cd16d-cidade-de-testes-19-dez--011222711950.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/26fdf4e1967ada7472d37f1f01bf5530-cidade-de-testes-19-dez--011222711966.jpg
@@ -28,7 +32,15 @@ gn-leugim/arched-house:
   variants:
     default:
       assets:
-        - id: simtropolis/20470-gnl_eha-arched-house
+        - docs:
+            - Read Me.txt
+          id: simtropolis/20470-gnl_eha-arched-house
+          include:
+            - Arched House-0x5ad0e817_0x33f97f68_0x550000.SC4Model
+            - R$$12x14_123_Arched House-0x6534284a-0x33f97f68-0x75c29017.SC4Desc
+            - R$$12x14_123_Casa em Arco-0x6534284a-0x33f97f68-0x75c29017.SC4Desc
+      lastModified: 2012-09-19T13:26:59Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/azuleijitos-apartment:
@@ -36,6 +48,15 @@ gn-leugim/azuleijitos-apartment:
     - Gn_leugim
   category: r$
   description: >-
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **<ins>Azuleijitos Apartment</ins>**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -47,10 +68,21 @@ gn-leugim/azuleijitos-apartment:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
+
+
+    **Installation**: Copy/extract the **EBLT** parent folder into your plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out
+    of the Plugins folder.
+
+
+    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_01_2013/5e635c61c2fbc4927c74497054b8eabd-img.png
     - https://www.simtropolis.com/objects/screens/monthly_01_2013/555e1bbda7e1b8f5da77eb1b4941479a-img2.png
@@ -62,10 +94,21 @@ gn-leugim/azuleijitos-apartment:
     default:
       assets:
         - docs:
-            - _Documents/EBLT_Readmes/Gn_Leugim
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA Azuleijitos Apartment_img.png
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA Azuleijitos Apartment_img2.png
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA Azuleijitos Apartment_ReadMe.htm
           id: simtropolis/28343-gnl-eha-azuleijitos-apartment
           include:
-            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_2-0x5ad0e817_0x9d6f75ee_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_3-0x5ad0e817_0x7d7091ed_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_6EuroTenemtApt2-0x6534284a-0x9a26507c-0xbde6f20e.SC4Desc
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_6EuroTenemtApt4-0x6534284a-0x9a26507c-0xbdec84fb.SC4Desc
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_6EuroTenenmtApt3-0x6534284a-0x9a26507c-0x3deb9438.SC4Desc
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_back-0x5ad0e817_0xbd6a58c3_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_found-0x5ad0e817_0xfcde9d09_0x31000.SC4Model
+            - EBLT/Gn_Leugim/EHA/Azuleijitos Apartment/R$28x24_foundation-0x6534284a-0x9a26507c-0xfd7d9200.SC4Desc
+      lastModified: 2024-02-06T12:55:29Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/essentials:
@@ -94,6 +137,7 @@ gn-leugim/essentials:
           id: simtropolis/21060-gnleugim-essentials
           include:
             - GnL_Essencials/GnL_Essencials.dat
+      lastModified: 2009-01-29T12:40:15Z
       name: Default
       version: 1.0.0
 
@@ -107,6 +151,34 @@ gn-leugim/furniture-shop:
     This is a small Furniture shop to grow in your cities.
 
     It's multi language and supports: English (both UK and US) French Spanish and Portuguese. (sorry for the others, but this is the languages I can handle)
+
+    Stats:
+
+    Occupants: CS-$ : 80,CS-$$ : 25
+
+    Bulldoze cost: § 174
+
+    Worth: § 1114
+
+    Construction Time: 17 days
+
+    Max. Fire Stage: 40
+
+    Power consumption: 3 MWh/month
+
+    Water consumption: 84 Gallons/month
+
+    Air pollution: 4 over 5 tiles
+
+    Water pollution: 2 over 6 tiles
+
+    Garbage pollution: 7 over 0 tiles
+
+    Dependencies:
+
+    [GnLeugim Essentials](https://www.simtropolis.com/stex/index.cfm?id=21060)
+
+    Comment and Rate plz =)
   images:
     - https://www.simtropolis.com/objects/screens/0006/2e4aefacb362c6fba46ba7327acc7f77-mn.JPG
     - https://www.simtropolis.com/objects/screens/0006/2e4aefacb362c6fba46ba7327acc7f77-md.JPG
@@ -133,7 +205,13 @@ gn-leugim/furniture-shop:
   variants:
     default:
       assets:
-        - id: simtropolis/21062-furniture-shop
+        - docs: []
+          id: simtropolis/21062-furniture-shop
+          include:
+            - CS$$_Furniture_grow.dat
+            - Moveis-0x5ad0e817_0x764197d4_0x90000.SC4Model
+      lastModified: 2009-01-29T12:58:10Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/high-fall-apartments:
@@ -141,6 +219,15 @@ gn-leugim/high-fall-apartments:
     - Gn_leugim
   category: r$
   description: >-
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **High Fall Apartments**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -152,10 +239,21 @@ gn-leugim/high-fall-apartments:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
+
+
+    **Installation**: Copy/extract the **EBLT** parent folder into your plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out
+    of the Plugins folder.
+
+
+    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/a87f96256e1ee76e8de139eac750b2df-img.jpg
     - https://www.simtropolis.com/objects/screens/monthly_03_2013/62853eb1c0394a5827428edd3b77f9d2-img2.jpg
@@ -167,10 +265,27 @@ gn-leugim/high-fall-apartments:
     default:
       assets:
         - docs:
-            - _Documents/EBLT_Readmes/Gn_Leugim
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA High Fall Apartments_ReadMe.htm
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA High Fall Apartments_ReadMe_img.jpg
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA High Fall Apartments_ReadMe_img2.jpg
           id: simtropolis/28528-gnl-eha-high-fall-apartments
           include:
-            - EBLT/Gn_Leugim/EHA/High Fall Apartments
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44-0x5ad0e817_0xf4c61c_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_7EuroHiriseTenemts10-0x6534284a-0x9a26507c-0x7e9183fb.SC4Desc
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_7EuroHiriseTenemts6-0x6534284a-0x9a26507c-0x9e6c26bd.SC4Desc
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_7EuroHiriseTenemts7-0x6534284a-0x9a26507c-0x3e89728e.SC4Desc
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_7EuroHiriseTenemts8-0x6534284a-0x9a26507c-0x7e8972c7.SC4Desc
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_7EuroHiriseTenemts9-0x6534284a-0x9a26507c-0x9e8972d7.SC4Desc
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_a1-0x5ad0e817_0x4099cfbb_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_a2-0x5ad0e817_0xc0a2db44_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_b1-0x5ad0e817_0xc09e3ad7_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_b2-0x5ad0e817_0xc09b234d_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_fa-0x5ad0e817_0x416e6bc1_0x31000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_fa-0x6534284a-0x9a26507c-0x1e998317.SC4Desc
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_fb-0x5ad0e817_0x616e6d96_0x31000.SC4Model
+            - EBLT/Gn_Leugim/EHA/High Fall Apartments/R$40x44_fb-0x6534284a-0x9a26507c-0x7e998329.SC4Desc
+      lastModified: 2024-02-06T12:58:42Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/house-with-view:
@@ -178,6 +293,18 @@ gn-leugim/house-with-view:
     - Gn_leugim
   category: r$$
   description: >-
+    ![logoeblt57x57.png](http://img704.imageshack.us/img704/9721/logoeblt57x57.png)
+
+
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **<ins>House with View</ins>**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -189,10 +316,14 @@ gn-leugim/house-with-view:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/bf625324f3927a03c3cbf5aa69f36685-day.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/8f7414bc01f58c7ea8a868bca0c66e22-night.jpg
@@ -203,7 +334,17 @@ gn-leugim/house-with-view:
   variants:
     default:
       assets:
-        - id: simtropolis/20280-gnl_eha-house-with-view
+        - docs:
+            - Read Me.txt
+          id: simtropolis/20280-gnl_eha-house-with-view
+          include:
+            - House View-0x5ad0e817_0x33f97f68_0x530000.SC4Model
+            - R$$12x10_123_Casa com Vista-0x6534284a-0x33f97f68-0x55b8444d.SC4Desc
+            - R$$12x10_123_Casa com Vista_CAM-0x6534284a-0x33f97f68-0x55b8444d.SC4Desc
+            - R$$12x10_123_House with View-0x6534284a-0x33f97f68-0x55b8444d.SC4Desc
+            - R$$12x10_123_House with View_CAM-0x6534284a-0x33f97f68-0x55b8444d.SC4Desc
+      lastModified: 2012-09-19T13:21:34Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/nice-house:
@@ -211,6 +352,18 @@ gn-leugim/nice-house:
     - Gn_leugim
   category: r$$
   description: >-
+    ![logoeblt57x57.png](http://img704.imageshack.us/img704/9721/logoeblt57x57.png)
+
+
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **<ins>Nice House</ins>**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -222,10 +375,14 @@ gn-leugim/nice-house:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/f107cb5305ade5607e7f567c41f0c3b9-day.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/8f56158f12d25296f0faea87acc21edf-night.jpg
@@ -236,7 +393,17 @@ gn-leugim/nice-house:
   variants:
     default:
       assets:
-        - id: simtropolis/20278-gnl_eha-nice-house
+        - docs:
+            - Read Me.txt
+          id: simtropolis/20278-gnl_eha-nice-house
+          include:
+            - Nice House-0x5ad0e817_0x33f97f68_0x540000.SC4Model
+            - R$$12x10_123_Casa Gira-0x6534284a-0x33f97f68-0x95b844b5.SC4Desc
+            - R$$12x10_123_Casa Gira_CAM-0x6534284a-0x33f97f68-0x95b844b5.SC4Desc
+            - R$$12x10_123_Nice House-0x6534284a-0x33f97f68-0x95b844b5.SC4Desc
+            - R$$12x10_123_Nice House_CAM-0x6534284a-0x33f97f68-0x95b844b5.SC4Desc
+      lastModified: 2012-09-19T13:27:07Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/pharmacy:
@@ -249,6 +416,36 @@ gn-leugim/pharmacy:
     This is a small pharmacy which will grow on your cities.
 
     It's multi language and supports: English (both UK and US) French Spanish and Portuguese. (sorry for the others, but this is the languages I can handle)
+
+    Stats
+
+    Growth stage: 1
+
+    Occupants: CS-$ : 15,CS-$$ : 7
+
+    Bulldoze cost: § 112
+
+    Worth: § 274
+
+    Construction Time: 11 days
+
+    Max. Fire Stage: 40
+
+    Power consumption: 1 MWh/month
+
+    Water consumption: 2 Gallons/month
+
+    Air pollution: 1 over 5 tiles
+
+    Water pollution: 0 over 6 tiles
+
+    Garbage pollution: 2 over 0 tiles
+
+    Dependencies:
+
+    [Gn_Leugim Essentials](https://www.simtropolis.com/stex/index.cfm?id=21060)
+
+    Comment and rate plz =)
   images:
     - https://www.simtropolis.com/objects/screens/0023/d48a889bfaec4dc3640a118cd7a682d3-fd.JPG
     - https://www.simtropolis.com/objects/screens/0023/d48a889bfaec4dc3640a118cd7a682d3-fn.JPG
@@ -276,7 +473,13 @@ gn-leugim/pharmacy:
   variants:
     default:
       assets:
-        - id: simtropolis/21061-gnl-pharmacy
+        - docs: []
+          id: simtropolis/21061-gnl-pharmacy
+          include:
+            - CS$$_pharmacy_grow.dat
+            - pharmacia-0x5ad0e817_0x999647e3_0x30000.SC4Model
+      lastModified: 2009-01-29T12:51:35Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/pleasant-block:
@@ -284,6 +487,18 @@ gn-leugim/pleasant-block:
     - Gn_leugim
   category: r$
   description: >-
+    ![logoeblt57x57.png](http://img704.imageshack.us/img704/9721/logoeblt57x57.png)
+
+
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **<ins>Pleasant Block</ins>**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -295,10 +510,14 @@ gn-leugim/pleasant-block:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/70162d3ae3729015f92a3b4bc0e075d0-cidade-de-testes-30-nov--011222714762.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/8ba5666ecb776f13da5ae2daaaa4bdd4-cidade-de-testes-30-nov--011222714772.jpg
@@ -309,7 +528,18 @@ gn-leugim/pleasant-block:
   variants:
     default:
       assets:
-        - id: simtropolis/20472-gnl_eha-pleasant-block
+        - docs:
+            - Read Me.txt
+          id: simtropolis/20472-gnl_eha-pleasant-block
+          include:
+            - Plaseant Block(orange)-0x5ad0e817_0x33f97f68_0x5d0000.SC4Model
+            - Plaseant Block(Yellow)-0x5ad0e817_0x33f97f68_0x5e0000.SC4Model
+            - R$$24x30_5_Bloco Agradavel(amarelo)-0x6534284a-0x33f97f68-0xf5ed3eb4.SC4Desc
+            - R$$24x30_5_Bloco Agradavel(laranja)-0x6534284a-0x33f97f68-0xd5ed3f94.SC4Desc
+            - R$$24x30_5_Pleasent Block(orange)-0x6534284a-0x33f97f68-0xd5ed3f94.SC4Desc
+            - R$$24x30_5_Pleasent Block(yellow)-0x6534284a-0x33f97f68-0xf5ed3eb4.SC4Desc
+      lastModified: 2012-09-19T13:28:00Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/pretty-house:
@@ -317,6 +547,18 @@ gn-leugim/pretty-house:
     - Gn_leugim
   category: r$$
   description: >-
+    ![logoeblt57x57.png](http://img704.imageshack.us/img704/9721/logoeblt57x57.png)
+
+
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **<ins>Pretty House</ins>**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -328,10 +570,14 @@ gn-leugim/pretty-house:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/6a41b8b866882bb958da931e467cbc3c-cidade-de-testes-19-dez--011222711979.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/97719a94c795f1a91d266615963beeaa-cidade-de-testes-19-dez--011222711987.jpg
@@ -342,7 +588,17 @@ gn-leugim/pretty-house:
   variants:
     default:
       assets:
-        - id: simtropolis/20469-gnl_eha-pretty-house
+        - docs:
+            - Read Me.txt
+          id: simtropolis/20469-gnl_eha-pretty-house
+          include:
+            - ChangeModel(pretty).dat
+            - NoMoreConstruct(pretty).dat
+            - pretty house-0x5ad0e817_0x33f97f68_0x5c0000.SC4Model
+            - R$$12x14_123_Casa Linda-0x6534284a-0x33f97f68-0x95ed3a65.SC4Desc
+            - R$$12x14_123_Pretty House-0x6534284a-0x33f97f68-0x95ed3a65.SC4Desc
+      lastModified: 2012-09-19T13:23:22Z
+      name: Default
       version: 1.0.0
 
 gn-leugim/villa-de-vinho:
@@ -350,6 +606,15 @@ gn-leugim/villa-de-vinho:
     - Gn_leugim
   category: r$$$
   description: >-
+    EBLTeam proudly presents,
+
+
+    European house Add-on's latest addition:
+
+
+    **<ins>Villa de Vinho</ins>**
+
+
     European house Add-on is an effort to make your city's more variable in terms of housing, commercial and industry without either filling much your plugins folder nor unbalance the game. This is
     archived by a simply addition to the maxis original building families, which allows you to have more buildings and at the same time less space taken by dependencies and lot files.
 
@@ -361,10 +626,21 @@ gn-leugim/villa-de-vinho:
     This building is also multi-language, supporting at least Portuguese, Spanish, French, Italian, English (UK and USA) and German. But other languages may be included.
 
 
-    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/).
+    For further information see the enclosed Readme file or visit the EHA thread at [Simtropolis](https://community.simtropolis.com/topic/39797-european-house-add-on-eha-thread/) or at
+    [SC4Devotion](https://www.sc4devotion.com/forums/index.php?topic=14988.0)
+
+
+    **Installation**: Copy/extract the **EBLT** parent folder into your plugins. If you extracted the *\_Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out
+    of the Plugins folder.
+
+
+    **Un-Installing**: To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
 
 
     Rates and Comments are welcome.
+
+
+    Enjoy, Gn_Leugim
   images:
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/8db58ab62e58bd13e6c2da1b31758466-img.jpg
     - https://www.simtropolis.com/objects/screens/monthly_09_2012/725387b36e6d527e0a713db0353cfdac-img2.jpg
@@ -376,8 +652,13 @@ gn-leugim/villa-de-vinho:
     default:
       assets:
         - docs:
-            - _Documents/EBLT_Readmes/Gn_Leugim
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA villa de vinho_img.jpg
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA villa de vinho_img2.jpg
+            - _Documents/EBLT_Readmes/Gn_Leugim/GnL EHA villa de vinho_Readme.html
           id: simtropolis/28048-gnl-eha-villa-de-vinho
           include:
-            - EBLT/Gn_Leugim/EHA/Villa de Vinho
+            - EBLT/Gn_Leugim/EHA/Villa de Vinho/R$$$_24x14scl-0x5ad0e817_0xba7ff47f_0x30000.SC4Model
+            - EBLT/Gn_Leugim/EHA/Villa de Vinho/R$$$_24x14_Villa de vinho-0x6534284a-0x9a26507c-0x1b456c85.SC4Desc
+      lastModified: 2024-02-06T12:46:29Z
+      name: Default
       version: 1.0.0

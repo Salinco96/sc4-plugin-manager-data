@@ -65,7 +65,18 @@ vortext/textures-vol01:
   variants:
     default:
       assets:
-        - id: sc4evermore/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+        - docs:
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Vortexture vol. 1*
+            - ~Documents/Vortext_Readmes/Vortexture 1*
+          id: sc4evermore/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+          include:
+            - Vortexture 1*.dat
+      lastModified: 2023-11-11T08:07:11-08:00
+      lots:
+        - default: false
+          filename: Vortexture 1 - demo.SC4Lot
+          id: demo
+          label: Demo Lot
       version: 1.0.0
 
 vortext/textures-vol02:
@@ -91,5 +102,10 @@ vortext/textures-vol02:
   variants:
     default:
       assets:
-        - id: sc4evermore/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+        - docs:
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Vortexture vol. 2*
+            - ~Documents/Vortext_Readmes/Vortexture 2*
+          id: sc4evermore/168-vortext-vortexture-1-2-base-set-grass-and-dirt
+          include:
+            - Vortexture 2*.dat
       version: 1.0.0

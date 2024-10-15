@@ -43,7 +43,51 @@ prepo/nasinneula-observation-tower:
     default:
       assets:
         - id: simtropolis/4191-nasinneula-observation-tower
+      lastModified: 2024-07-14T18:30:36Z
+      lots:
+        - filename: Nasinneula_LM_2x2_4e3ab68d.SC4Lot
+          id: 4e3ab68d
+          label: Nasinneula
+          size: 2x2
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+prepo/openbooks-library:
+  authors:
+    - prepo
+  category: civics
+  description: |-
+    Yeah, it's a library. I made this originally for SYM prod. chained university project but it never progressed much further.
+
+    Lot is size 4x4, plop cost is $3500 and monthly cost is max. $1000. Gives jobs for 100 librarians I think. No dependencies.
+
+    UPDATE: Version 1.01, updated the EQ boost stat, it's now closer to other library BATs on STEX.
+
+    To install, unzip the file into your plugins directory.
+  images:
+    - https://www.simtropolis.com/objects/screens/0018/9e3ca1e768d31f664e5ecd631f989fc8-pr_OpenBooksLibrary1.jpg
+    - https://www.simtropolis.com/objects/screens/0018/9e3ca1e768d31f664e5ecd631f989fc8-pr_OpenBooksLibrary2.jpg
+  name: OpenBooks Library
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2006/thumb-9e3ca1e768d31f664e5ecd631f989fc8-pr_OpenBooksLibrary1.jpg
+  url: https://community.simtropolis.com/files/file/16272-openbooks-library/
+  variants:
+    default:
+      assets:
+        - docs:
+            - pr_OpenBooksLibrary.txt
+            - pr_OpenBooksLibrary1.jpg
+            - pr_OpenBooksLibrary2.jpg
+          id: simtropolis/16272-openbooks-library
+      lastModified: 2006-06-30T12:37:45Z
+      lots:
+        - filename: CV4x4_pr_OpenBooksLibrary_d1ac4e71.SC4Lot
+          id: d1ac4e71
+          label: CV4x4_pr_OpenBooksLibrary_d1ac4e71.SC4Lot
+      name: Default
+      version: 1.01.0
   warnings:
     - id: bulldoze
       on: disable

@@ -15,15 +15,17 @@ fantozzi/audio-essentials:
     ***This game content was created (partially) with third party content, amongst this also commercial samples which I legaly purchased and am allowed to use in my creative work. Therefore you aren't
     allowed to extract and resample/reuse parts of the audio material itself encoded in the dat-file. This may infringe the copyrights of third persons/companies (see credits section in the readme).
     This means: you are allowed to use the contained audio data only in conjunction with the game it was designed for. This disclaimer you find also in the documentation included in the zip-file.***
-
-
-    *Update to Version 1.3: Added 9 new sounds dedicated to chemical industry and boiling (gascooking) traffic and others. Again fixed few errors, adjusted some sample rates (playing speed).*
   name: Fantozzi's Audio Essentials
   release: 2024-08-19T09:13:11.692Z
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/89-fantozzis-audio-essentials
   variants:
     default:
       assets:
-        - id: sc4evermore/89-fantozzis-audio-essentials
+        - docs:
+            - Fantozzi
+          id: sc4evermore/89-fantozzis-audio-essentials
+          include:
+            - Fantozzi
+      lastModified: 2023-08-07T16:53:47-07:00
       url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/89-fantozzis-audio-essentials
       version: 1.3.0

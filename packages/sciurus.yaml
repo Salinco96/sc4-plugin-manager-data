@@ -12,7 +12,21 @@ sciurus/s54-props-vol01:
     european... this download includes a file .dat which groups prop families from Girafe vehicules. So the following sentence is very important !
 
 
+    **THIS DEPENDENCY HAS GOT ANOTHER DEPENDENCY !!!!**
+
+
+    Make sure that you have these following files BEFORE downloading this one :
+
+
+    - [BSC - VIP girafe carpack vol. 1 & 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2821)
+
+    - [BSC - VIP girafe carpack vol. 3](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2860)
+
+
     Thank you for reading and enjoy this prop pack. Next uploads will come in the next days. Stay tuned..
+
+
+    \___\___\___\___\___\___\___\___\___\___\___\___\___\___\____
 
 
     *Sciurus from KSTeam*
@@ -25,5 +39,11 @@ sciurus/s54-props-vol01:
   variants:
     default:
       assets:
-        - id: simtropolis/32149-s54-proppack-vol1
+        - docs: []
+          id: simtropolis/32149-s54-proppack-vol1
+          include:
+            - S54 - PropPack Vol01.dat
+            - S54 - Girafe Vehicules.dat
+      lastModified: 2018-02-26T19:14:54Z
+      name: Default
       version: 1.1.0

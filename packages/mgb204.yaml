@@ -17,6 +17,9 @@ mgb204/anyone-for-tennis:
 
 
     *\*Strawberries and Cream not included.*
+
+
+    ![AoT_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AoT_1.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/AoT_1.jpg
   name: MGB204 - AnyOne for Tennis (AoT)
@@ -26,7 +29,15 @@ mgb204/anyone-for-tennis:
   variants:
     default:
       assets:
-        - id: sc4evermore/88-mgb204-anyone-for-tennis-aot
+        - docs:
+            - MGB AoT Readme.htm
+            - _images/AoT_1.psd
+            - _images/AoT_1.jpg
+          id: sc4evermore/88-mgb204-anyone-for-tennis-aot
+          include:
+            - MGB_AoT.dat
+      lastModified: 2023-12-06T02:37:06-08:00
+      name: Default
       version: 1.0.0
 
 mgb204/convenience-stores:
@@ -34,11 +45,11 @@ mgb204/convenience-stores:
     - MGB204
   category: cs$$
   dependencies:
-    # - Grfe_hedge_3m.dat (in VIP Vnaoned Post Office?)
     - girafe/carpack
-    - girafe/flora-pack # Ashes, Elms
+    - girafe/flora-pack
     - kingofsimcity/supershk-mega-parking-textures
     - mgb204/retail-signage-pack
+    - rsc204/koscs-supershk-mega-parking-for-tgn-swn
     - shokthrpy/shk-parking-pack
   description: >-
     This package contains a small convenience store, with three model variations in a buildings family, along with lots to use them. Inside the "Models" folder, please ensure you remove 3 files you
@@ -47,11 +58,15 @@ mgb204/convenience-stores:
 
     - HD (High Definition/Better Quality textures)
 
+
     - SD (Default texture quality)
+
 
     - DN (DarkNite, for users of SimFox's DarkNite mod)
 
+
     - MN (MaxisNite, for default lighting)
+
 
 
     So for example, if you are using HD-MN, you should remove the files ending HD-DN, SD-DN and SD-MN, leaving only your preferred choice behind.
@@ -65,9 +80,12 @@ mgb204/convenience-stores:
 
     - Stage 2 CS$$ 3x2
 
+
     - Stage 2 CS$$ 3x3 (Right Corner)
 
+
     - Stage 1 CS$$ 4x4.
+
 
 
     **Dependencies (Required for all Lots)**
@@ -92,6 +110,9 @@ mgb204/convenience-stores:
 
 
     Each lot has 54 CS$$ Jobs and stats generated using PIM\-X. For full details see the included readme file.
+
+
+    Ensure you keep the file MGB_ConvenienceStore_Resource.dat or these lots will not function correctly. But you can discard any of the lots you may not wish to use.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_08/Lots.jpg.8e6653aadb857a8325bc5aa25b5dbda1.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_day.jpg.bbdf953a17ac51bdcbf8fc564edf224f.jpg
@@ -103,7 +124,10 @@ mgb204/convenience-stores:
   variants:
     default:
       assets:
-        - exclude:
+        - docs:
+            - MGB Convenience Store.jpg
+            - MGB Convenience Store Readme.htm
+          exclude:
             - condition:
                 darknite: false
               path: Models/*DN*
@@ -112,7 +136,24 @@ mgb204/convenience-stores:
               path: Models/*MN*
             - Models/*HD*
           id: simtropolis/31244-mgb-convenience-store
-      name: SD
+      lastModified: 2016-08-26T17:32:18Z
+      lots:
+        - filename: CS$$2_3x3_MGB Convenience Store_05387230.SC4Lot
+          id: "05387230"
+          label: CS$$2_3x3_MGB Convenience Store_05387230.SC4Lot
+          size: 3x3
+          stage: 2
+        - filename: CS$$2_3x2_MGB Convenience Store_3538721e.SC4Lot
+          id: 3538721e
+          label: CS$$2_3x2_MGB Convenience Store_3538721e.SC4Lot
+          size: 3x2
+          stage: 2
+        - filename: CS$$1_4x4_MGB Convenience Store_55377e3b.SC4Lot
+          id: 55377e3b
+          label: CS$$1_4x4_MGB Convenience Store_55377e3b.SC4Lot
+          size: 4x4
+          stage: 1
+      name: Default
       version: 1.0.1
     hd:
       assets:
@@ -138,6 +179,9 @@ mgb204/diagonal-filler-set:
   dependencies:
     - sfbt/essentials
   description: >-
+    ## Intro
+
+
     Far too long in the works, but finally here, is version 2 of my Filler Set.
 
 
@@ -160,6 +204,44 @@ mgb204/diagonal-filler-set:
     that wasn't something I felt I wanted to do for various reasons. The complete package runs to 60-ish lots already too, you have to stop somewhere.
 
 
+    Included are the following options, which can be selected from the installer of this download:
+
+
+    - **Diagonal Filler Lots**
+
+        Like the v1 release, but with many updates/tweaks and a few new lots. All lots are sidewalk adaptable and supported by TGN.
+    - **Overhanging Filler Lots**
+
+        Using S3D / RTK0 Props, here is a very flexible set of Lots and Props, which unlike traditional BAT models, are not fixed in terms of the textures upon them. AutoMagically™ certified, most of these props will simply adapt to your installed texture choices. Some will require overriding included textures to adapt, but this is still a new level of flexibility for such items. Lots for the following networks are included:
+        - Sidewalks (all wealths)
+        - Rural / Dirt (used for Rail/I-AG zoning)
+        - Grass (all wealths)
+        - Concrete (I-M & I-HT)
+        - Pedmalls (Cobble, Red Brick & Sandstone)
+    - **Overrides for Paeng's Mods**
+
+        Extenders for Paeng's Parks, Bikepaths and overhanging models made by Krashspeed, which were used in various releases by Paeng. See [this post](https://community.simtropolis.com/forums/topic/64116-mgb-lot-and-mod-shack/?do=findComment&comment=1708989) for a more complete explanation and links to those files. Installing these will convert existing and new lots from the fixed models to my adaptable set instead. Allowing sidewalks, grass and other elements to be customised like never before.
+
+        ![DFS_5.jpg.aa2519ca5d345509e8661e5f2f410012.jpg](https://www.simtropolis.com/objects/screens/monthly_2019_02/DFS_5.jpg.aa2519ca5d345509e8661e5f2f410012.jpg)
+
+    ## Install
+
+
+    Run the installer package after downloading it. From there you can select which parts of the mod you wish to install. Note that it is built with NSIS, so can be opened using 7zip if you prefer to
+    manually install everything.
+
+
+    ## Dependencies
+
+
+    There is only one main dependency, [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750). Only the file "SFBT_ArkenbergeJoe_Texturen.dat" from this package is actually
+    required. TGN users will not need this file either, provided the "Diagonal Filler Override" option was selected when installing it.
+
+
+    Additionally if you use [MAS71's Walls Pack 2](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=1504) and have the file"01_Mas71-Walls2_Essentials-090924.dat" from that pack installed.
+    You will then see an optional helper piece when placing some fillers, designed to make orienting/placement easier.
+
+
     ## Support
 
 
@@ -178,16 +260,34 @@ mgb204/diagonal-filler-set:
     default:
       assets:
         - docs:
-            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods
+            - $PLUGINSDIR/modern-wizard.bmp
+            - $PLUGINSDIR/modern-header.bmp
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods/MGB Filler Set Readme.htm
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods/_images/DFS_5.jpg
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods/_images/DFS_4.jpg
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods/_images/DFS_3.jpg
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods/_images/DFS_2.jpg
+            - $DOCUMENTS/SimCity 4/LEX_Downloads/MGB Mods/_images/DFS_1.jpg
           id: simtropolis/29797-mgb-diagonal-filler-set
           include:
             - MGB S3D Props.dat
-            - MGB Overhanging Filler Lots {{overhanging-lots}}.dat
-            - condition:
-                filler-lots: true
-              path: MGB Filler Set.dat
-            - category: transport,overrides
-              path: Paeng* Overrides.dat
+            - MGB Overhanging Filler Lots Sidewalk $.dat
+            - MGB Overhanging Filler Lots Sidewalk $$.dat
+            - MGB Overhanging Filler Lots Sidewalk $$$.dat
+            - MGB Overhanging Filler Lots Rural.dat
+            - MGB Overhanging Filler Lots Pedmalls.dat
+            - MGB Overhanging Filler Lots Grass $.dat
+            - MGB Overhanging Filler Lots Grass $$.dat
+            - MGB Overhanging Filler Lots Grass $$$.dat
+            - MGB Overhanging Filler Lots Concrete.dat
+            - MGB Filler Set.dat
+            - $PLUGINSDIR/System.dll
+            - $PLUGINSDIR/nsDialogs.dll
+            - $DOCUMENTS/SimCity 4/Plugins/z____MGB Mods/V - Overrides/Paeng-KS SandstoneProp Overrides.dat
+            - $DOCUMENTS/SimCity 4/Plugins/z____MGB Mods/V - Overrides/Paeng Park Extenders Overrides.dat
+            - $DOCUMENTS/SimCity 4/Plugins/z____MGB Mods/V - Overrides/Paeng Bikepath Extender Overrides.dat
+      lastModified: 2019-07-06T11:15:57Z
+      name: Default
       options:
         - default: true
           id: filler-lots
@@ -230,6 +330,12 @@ mgb204/rail-depot-pack:
     The textures included can be customised during installation to support many different configurations. The automata props are linked to the installed automata for Rail, HSR/Monorail and
     GLR/EL-Rail. This means lots using them will show a users installed automata on them (limitations apply). The Depot and Automata props are provided additionally in three timed groups, for more
     variation.
+
+
+    *See the included readme for further details, this is installed in My DocumentsSimCity 4LEX_DownloadsMGB Mods so it doesn't clutter up your plugins folder.*
+
+
+    ![RDP_1](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/RDP_1.jpg
   name: MGB204 - Rail Depot Pack (RDP)
@@ -244,15 +350,9 @@ mgb204/rail-depot-pack:
             - "*.bmp"
           id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
-            # TODO: Conditions
             - path: MGB_RDP_Resource.dat
             - path: MGB_RDP_Textures.dat
             - path: MGB_RDPDepot_Props_HD-DN.dat
-            # - path: zMGB_RDPTextureType_GLRNAM.dat
-            # - path: zMGB_RDPTextureType_HSRNAM.dat
-            # - path: zMGB_RDPTextureType_RailMaxis.dat
-            # - path: zMGB_RDPTextureType_RailPEG.dat
-            # - path: zMGB_RDPTextureType_RoadUS.dat
       name: Dark Nite
       requirements:
         darknite: true
@@ -260,21 +360,31 @@ mgb204/rail-depot-pack:
     default:
       assets:
         - docs:
-            - "*readme*"
-            - "*.bmp"
+            - Roadtype.bmp
+            - RDP_1.jpg
+            - RailTexture.bmp
+            - modern-wizard.bmp
+            - modern-header.bmp
+            - ModelType.bmp
+            - MGB RDP Readme.htm
+            - HSRTexture.bmp
+            - GLRTexture.bmp
           id: sc4evermore/92-mgb204-rail-depot-pack-rdp
           include:
-            # TODO: Conditions
-            - path: MGB_RDP_Resource.dat
-            - path: MGB_RDP_Textures.dat
-            - path: MGB_RDPDepot_Props_HD-MN.dat
-            # - path: MGB_RDPDepot_Props_SD-MN.dat
-            # - path: zMGB_RDPTextureType_GLRNAM.dat
-            # - path: zMGB_RDPTextureType_HSRNAM.dat
-            # - path: zMGB_RDPTextureType_RailMaxis.dat
-            # - path: zMGB_RDPTextureType_RailPEG.dat
-            # - path: zMGB_RDPTextureType_RoadUS.dat
-      name: Maxis Nite
+            - zMGB_RDPTextureType_RoadUS.dat
+            - zMGB_RDPTextureType_RailPEG.dat
+            - zMGB_RDPTextureType_RailMaxis.dat
+            - zMGB_RDPTextureType_HSRNAM.dat
+            - zMGB_RDPTextureType_GLRNAM.dat
+            - System.dll
+            - nsDialogs.dll
+            - MGB_RDP_Textures.dat
+            - MGB_RDP_Resource.dat
+            - MGB_RDPDepot_Props_SD-MN.dat
+            - MGB_RDPDepot_Props_HD-MN.dat
+            - MGB_RDPDepot_Props_HD-DN.dat
+      lastModified: 2023-12-06T02:37:59-08:00
+      name: Default
       requirements:
         darknite: false
       version: 1.01.0
@@ -315,6 +425,8 @@ mgb204/retail-signage-pack:
 
     One last bonus. I've included some basic resources, 3D Modelling application files, sample texture. Readme for anyone who wants to have a go making their own compatible props. There are two files,
     one .max for 3DS Max users (made with 2011). Along with .3DS which can be imported into SC4BAT, see the included documentation for more info.
+
+     ![large_RSP](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/large_RSP.jpg)![small_RSP2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/small_RSP.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/large_RSP.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/small_RSP.jpg
@@ -325,7 +437,22 @@ mgb204/retail-signage-pack:
   variants:
     default:
       assets:
-        - id: sc4evermore/91-mgb204-retail-signage-pack-rsp
+        - docs:
+            - SAMPLE.jpg
+            - Readme.txt
+            - MGB RSP Readme.txt
+            - Banner_Prop.max
+            - Banner_Prop.3DS
+          id: sc4evermore/91-mgb204-retail-signage-pack-rsp
+          include:
+            - MGB Retail Signage - US.dat
+            - MGB Retail Signage - UK.dat
+            - MGB Retail Signage - RUS.dat
+            - MGB Retail Signage - JPN.dat
+            - MGB Retail Signage - DE.dat
+            - MGB Retail Signage - AUS.dat
+      lastModified: 2023-12-06T02:42:16-08:00
+      name: Default
       version: 1.0.0
 
 mgb204/texture-pack:
@@ -338,6 +465,16 @@ mgb204/texture-pack:
 
 
     **INFO FOR USERS**
+
+
+    **INSTALL:**
+
+
+    Pick either the EU or US variant from the downloaded .zip file, two versions of the main file "MGB Texture Pack.dat" are included: *If you are using EU textures. Install the file from the root
+    folder.*
+
+
+    *If you are using US textures, Instead, install the file from the US subfolder of the .zip archive*
 
 
     **OPTIONAL OVERRIDES:**
@@ -371,6 +508,13 @@ mgb204/texture-pack:
     Ortho texture is overridden to an EU one.
 
 
+    **CLEANITOL:**
+
+
+    Some textures in this pack were previously released on my dev threads, but this package replaces them. A Cleanitol file is included in the zip archive, where you found this readme. Running that
+    will remove those old files for you automatically. If you are not sure if youneed this, there is no harm in running it to be sure.
+
+
     **ADDITIONAL INFO FOR CREATORS (LOTTERS)**
 
 
@@ -389,6 +533,16 @@ mgb204/texture-pack:
 
     I've included JPG reference sheets, showing all the textures in this pack, inside the .zip file. Which should make it very easy to see at a glance what textures are what. Ideally though, I
     recommend using PIM-X (X-Tool, SC4 PIM) for lotting.
+
+
+    ***IMPORTANT***
+
+
+    ***It should be noted the IDs for the Street Textures have been changed in this release from the development version. If you have used those previously, you will need to re-lot affected lots or
+    keep the original "NAM Streets for LE.dat" file installed. Bear in mind, since users can no longer get the original file, if releasing lots with these textures, you must switch to the new IDs from
+    this package. I'm sorry to do this, but I figure few people will be affected and it allows me to better organise my texture IDs into the future.***
+
+     ![Texture-Pack-Reference](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg)![Texture-Pack-Reference22](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference2.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference2.jpg
@@ -399,7 +553,12 @@ mgb204/texture-pack:
   variants:
     default:
       assets:
-        - exclude: # TODO: Conditions
+        - docs:
+            - _MGB_TexturePack_Cleanitol.txt
+            - Texture-Pack-Reference2.jpg
+            - Texture-Pack-Reference.jpg
+            - MGB Texture Pack Readme.txt
+          exclude:
             - US/MGB Texture Pack.dat
             - zMGB Texture Pack_RVT TSR Stret Override.dat
             - zMGB Texture Pack_SAM10 SD Override.dat
@@ -408,5 +567,13 @@ mgb204/texture-pack:
             - zMGB Texture Pack_SAM7 BP Override.dat
           id: sc4evermore/90-mgb204-texture-pack
           include:
+            - zMGB Texture Pack_SAM7 BP Override.dat
+            - zMGB Texture Pack_SAM6 DK Override.dat
+            - zMGB Texture Pack_SAM5 RVT Override.dat
+            - zMGB Texture Pack_SAM10 SD Override.dat
+            - zMGB Texture Pack_RVT TSR Stret Override.dat
             - MGB Texture Pack.dat
+            - US/MGB Texture Pack.dat
+      lastModified: 2023-12-06T02:44:02-08:00
+      name: Default
       version: 1.0.0

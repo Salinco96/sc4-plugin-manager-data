@@ -2,7 +2,7 @@ dk1/dk1-bowling:
   authors:
     - dk1
   category: cs$
-  description: Two different- Retro Bowl (day image), SimCity Lanes (night image)
+  description: "Two different- Retro Bowl (day image), SimCity Lanes (night image). CS$3x3, jobs: 37, growth stage: 2, zone density: low, medium, high. LM3x3, jobs: 37 CS$, build: 1000. No dependencies."
   images:
     - https://www.simtropolis.com/objects/screens/0018/9d5455ec39f4277c130da8fc2d7a48fc-BowlRB.JPG
     - https://www.simtropolis.com/objects/screens/0018/9d5455ec39f4277c130da8fc2d7a48fc-BowlSCL.JPG
@@ -13,34 +13,22 @@ dk1/dk1-bowling:
   variants:
     default:
       assets:
-        - id: simtropolis/21504-dk1-bowling
+        - docs: []
+          id: simtropolis/21504-dk1-bowling
           include:
             - Bowl
+      lastModified: 2009-04-04T07:08:15Z
       lots:
-        - category: cs$
-          demand:
-            cs$: 37
-          filename: CS$3x3_Bowling_96da1a66.SC4Lot
+        - filename: CS$3x3_Bowling_96da1a66.SC4Lot
           id: 96da1a66
-          label: Bowling (CS$, Stage 2, 3x3)
-          size: 3x3
-          stage: 2
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 37
-          filename: LM3x3_RetroBowl_96da1c4a.SC4Lot
+          label: CS$3x3_Bowling_96da1a66.SC4Lot
+        - filename: LM3x3_RetroBowl_96da1c4a.SC4Lot
           id: 96da1c4a
-          label: Retro Bowl (CS$, Landmark, 3x3)
-          size: 3x3
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 37
-          filename: LM3x3_SimCityLanes_96da1bac.SC4Lot
+          label: LM3x3_RetroBowl_96da1c4a.SC4Lot
+        - filename: LM3x3_SimCityLanes_96da1bac.SC4Lot
           id: 96da1bac
-          label: SimCity Lanes (CS$, Landmark, 3x3)
-          size: 3x3
+          label: LM3x3_SimCityLanes_96da1bac.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -50,9 +38,9 @@ dk1/dk1-burger-chef:
   authors:
     - dk1
   category: cs$
-  description:
-    Burger Chef was founded in 1954 by Frank and Donald Thomas. In 1982, Imasco bought Burger Chef and many locations were converted into Hardee's. In 1996, the last Burger Chef changed its
-    name to Pleaser's. This building is based on a 1960's design.
+  description: "Burger Chef was founded in 1954 by Frank and Donald Thomas. In 1982, Imasco bought Burger Chef and many locations were converted into Hardee's. In 1996, the last Burger Chef changed its
+    name to Pleaser's. This building is based on a 1960's design. CS$3x3, jobs: 40, growth stage: 1, zone density: low, medium, high. LM3x3, jobs: 40CS$, build: 1000. No dependencies. Installation-
+    Unzip the download into My Documents\\\\ SimCity 4\\\\ Plugins."
   images:
     - https://www.simtropolis.com/objects/screens/0027/f79a4119e8e69d394b53451eb05be3e1-BChef_day.JPG
     - https://www.simtropolis.com/objects/screens/0027/f79a4119e8e69d394b53451eb05be3e1-BChef_night.JPG
@@ -63,26 +51,19 @@ dk1/dk1-burger-chef:
   variants:
     default:
       assets:
-        - id: simtropolis/20299-dk1-burger-chef
+        - docs: []
+          id: simtropolis/20299-dk1-burger-chef
           include:
             - BurgerChef
+      lastModified: 2008-08-31T07:15:54Z
       lots:
-        - category: cs$
-          demand:
-            cs$: 40
-          filename: CS$3x3_BurgerChef_35b873b3.SC4Lot
+        - filename: CS$3x3_BurgerChef_35b873b3.SC4Lot
           id: 35b873b3
-          label: Burger Chef (CS$, Stage 1, 3x3)
-          size: 3x3
-          stage: 1
-        - category: cs$, landmarks
-          cost: 1000
-          demand:
-            cs$: 40
-          filename: LM3x3_BurgerChef_b5ba6d4f.SC4Lot
+          label: CS$3x3_BurgerChef_35b873b3.SC4Lot
+        - filename: LM3x3_BurgerChef_b5ba6d4f.SC4Lot
           id: b5ba6d4f
-          label: Burger Chef (CS$, Landmark, 3x3)
-          size: 3x3
+          label: LM3x3_BurgerChef_b5ba6d4f.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -92,58 +73,46 @@ dk1/dk1-convenience-stores:
   authors:
     - dk1
   category: cs$
-  description:
-    "11 different buildings belonging to a prop family, so what grows or is plopped will be random. The stores are: AM/PM, Circle K, 7 Eleven, SPAR, FamilyMart, Tesco Express, Couche-Tard,
-    Kum & Go, Lawson, QuickChek and Valero."
+  description: "5 different buildings belonging to a prop family, so the stores will be random. This set includes: Couche- Tard, Kum & Go, Lawson, QuickChek and Valero. Cs$1x2 and Cs$2x2 (pumps), jobs:
+    15, growth stage: 1, zone density: low, medium, high. LM1x2 and LM2x2 (pumps), jobs: 15 Cs$, build: 100. IMPORTANT: All files named convenience store or convenience pump were included with my
+    first set of stores. If you already have them you do not need these. Last year, to promote The Simpsons Movie, select 7-Eleven stores were converted to Kwik-E-Marts. I have included a LM1x2
+    version with 15 Cs$ jobs."
   images:
-    - https://www.simtropolis.com/objects/screens/0022/c92bf8b40d768f4f1d9d3855bc38d2ce-CS_day.JPG
-    - https://www.simtropolis.com/objects/screens/0022/c92bf8b40d768f4f1d9d3855bc38d2ce-CS_night.JPG
+    - https://www.simtropolis.com/objects/screens/0025/df5b45e522ee79ad6060e80af578d152-CS2_day.JPG
+    - https://www.simtropolis.com/objects/screens/0025/df5b45e522ee79ad6060e80af578d152-CS2_night.JPG
   name: DK1 Convenience Stores
   release: 2024-08-27T05:49:08.398Z
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2008/thumb-c92bf8b40d768f4f1d9d3855bc38d2ce-CS_day.JPG
-  url: https://community.simtropolis.com/files/file/19344-dk1-convenience-stores/
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_02_2008/thumb-df5b45e522ee79ad6060e80af578d152-CS2_day.JPG
+  url: https://community.simtropolis.com/files/file/19408-dk1-convenience-stores-2/
   variants:
     default:
       assets:
-        - id: simtropolis/19344-dk1-convenience-stores
+        - docs: []
+          id: simtropolis/19344-dk1-convenience-stores
           include:
             - Small Stores
-        - id: simtropolis/19408-dk1-convenience-stores-2
+        - docs: []
+          id: simtropolis/19408-dk1-convenience-stores-2
           include:
             - Small Stores 2
+      lastModified: 2008-02-21T07:34:45Z
       lots:
-        - category: cs$
-          demand:
-            cs$: 15
-          filename: CS$1x2_Convenience Store_b4b22b3c.SC4Lot
+        - filename: CS$1x2_Convenience Store_b4b22b3c.SC4Lot
           id: b4b22b3c
-          label: Convenience Store (CS$, Stage 1, 1x2)
-          size: 1x2
-          stage: 1
-        - category: cs$,landmarks
-          cost: 100
-          demand:
-            cs$: 15
-          filename: LM1x2_Convenience Store_f4b6b60f.SC4Lot
-          id: f4b6b60f
-          label: Convenience Store (CS$, Landmark, 1x2)
-          size: 1x2
-        - category: cs$
-          demand:
-            cs$: 15
-          filename: CS$2x2_Convenience Pump_34b400d3.SC4Lot
+          label: CS$1x2_Convenience Store_b4b22b3c.SC4Lot
+        - filename: CS$2x2_Convenience Pump_34b400d3.SC4Lot
           id: 34b400d3
-          label: Convenience Store with pumps (CS$, Stage 1, 2x2)
-          size: 2x2
-          stage: 1
-        - category: cs$,landmarks
-          cost: 100
-          demand:
-            cs$: 15
-          filename: LM2x2_Convenience Pump_b4b40124.SC4Lot
+          label: CS$2x2_Convenience Pump_34b400d3.SC4Lot
+        - filename: LM1x2_Convenience Store_f4b6b60f.SC4Lot
+          id: f4b6b60f
+          label: LM1x2_Convenience Store_f4b6b60f.SC4Lot
+        - filename: LM2x2_Convenience Pump_b4b40124.SC4Lot
           id: b4b40124
-          label: Convenience Store with pumps (CS$, Landmark, 2x2)
-          size: 2x2
+          label: LM2x2_Convenience Pump_b4b40124.SC4Lot
+        - filename: LM1x2_Kwik E Mart_f4c6979d.SC4Lot
+          id: f4c6979d
+          label: LM1x2_Kwik E Mart_f4c6979d.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -153,7 +122,8 @@ dk1/dk1-donut-shops:
   authors:
     - dk1
   category: cs$
-  description: Randy's Donuts and Donut King II. The store design is from the 1950's Big Donut Drive-In chain.
+  description: "Randy's Donuts and Donut King II. The store design is from the 1950's Big Donut Drive-In chain. CS$2x2 (corner lot), jobs: 17, growth stage: 2, zone density: low, medium, high. LM2x2,
+    jobs: 17 CS$, build: 1000. No dependencies."
   images:
     - https://www.simtropolis.com/objects/screens/0007/35d8a9524256fc7d0ad24301e0e6c421-Donut_day.JPG
     - https://www.simtropolis.com/objects/screens/0007/35d8a9524256fc7d0ad24301e0e6c421-Donut_night.JPG
@@ -164,34 +134,53 @@ dk1/dk1-donut-shops:
   variants:
     default:
       assets:
-        - id: simtropolis/21144-dk1-donut-shops
+        - docs: []
+          id: simtropolis/21144-dk1-donut-shops
           include:
             - DonutShops
+      lastModified: 2009-02-22T06:54:52Z
       lots:
-        - category: cs$
-          demand:
-            cs$: 17
-          filename: CS$2x2_Donut Shop_d6ac8bc1.SC4Lot
+        - filename: CS$2x2_Donut Shop_d6ac8bc1.SC4Lot
           id: d6ac8bc1
-          label: Donut Shop (CS$, Stage 2, 2x2)
-          size: 2x2
-          stage: 2
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 17
-          filename: LM2x2_DonutKingII_b6ac1b21.SC4Lot
+          label: CS$2x2_Donut Shop_d6ac8bc1.SC4Lot
+        - filename: LM2x2_DonutKingII_b6ac1b21.SC4Lot
           id: b6ac1b21
-          label: Donut King II (CS$, Landmark, 2x2)
-          size: 2x2
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 17
-          filename: LM2x2_RandysDonuts_b6ac1bc6.SC4Lot
+          label: LM2x2_DonutKingII_b6ac1b21.SC4Lot
+        - filename: LM2x2_RandysDonuts_b6ac1bc6.SC4Lot
           id: b6ac1bc6
-          label: Randy's Donuts (CS$, Landmark, 2x2)
-          size: 2x2
+          label: LM2x2_RandysDonuts_b6ac1bc6.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+dk1/dk1-fast-food:
+  authors:
+    - dk1
+  category: commercial
+  description: |-
+    Taco Bell, Popeye's, KFC. CS$2x2, jobs: 17. No dependencies.
+
+    Staff Edit: Added File Descriptor. -CF, 09/11/2024.
+  images:
+    - https://www.simtropolis.com/objects/screens/0016/8f2f55a8bb98004b8bf56639be5d72f2-FastFood01.JPG
+    - https://www.simtropolis.com/objects/screens/0016/8f2f55a8bb98004b8bf56639be5d72f2-FastFood02.JPG
+  name: DK1 Fast Food
+  release: 2024-09-13T12:10:28.279Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2010/thumb-8f2f55a8bb98004b8bf56639be5d72f2-FastFood01.JPG
+  url: https://community.simtropolis.com/files/file/25597-dk1-fast-food/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/25597-dk1-fast-food
+      lastModified: 2024-09-11T19:05:40Z
+      lots:
+        - filename: CS2x2_DK1FastFood_5a25bc1d.SC4Lot
+          id: 5a25bc1d
+          label: CS2x2_DK1FastFood_5a25bc1d.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -201,7 +190,10 @@ dk1/dk1-king-and-queen:
   authors:
     - dk1
   category: cs$
-  description: Retro Burger King and Dairy Queen.
+  description: |-
+    Retro Burger King and Dairy Queen. CS$2x2, jobs: 17, growth stage: 2, zone density: low, medium, high. LM2x2, jobs: 17 CS$, build: 1000. No dependencies.
+
+    Staff Edit: Added File Descriptor. -CF, 09/11/2024.
   images:
     - https://www.simtropolis.com/objects/screens/0019/afb352d507885f4edaf6b4b425add3c3-BKDQDay.JPG
     - https://www.simtropolis.com/objects/screens/0019/afb352d507885f4edaf6b4b425add3c3-BKDQnight.JPG
@@ -212,34 +204,54 @@ dk1/dk1-king-and-queen:
   variants:
     default:
       assets:
-        - id: simtropolis/21609-dk1-king-and-queen
+        - docs: []
+          id: simtropolis/21609-dk1-king-and-queen
           include:
             - KingQueen
+      lastModified: 2024-09-11T19:08:47Z
       lots:
-        - category: cs$
-          demand:
-            cs$: 17
-          filename: CS$2x2_Restaurant_16fb6ae7.SC4Lot
+        - filename: CS$2x2_Restaurant_16fb6ae7.SC4Lot
           id: 16fb6ae7
-          label: Restaurant (CS$, Stage 2, 2x2)
-          size: 2x2
-          stage: 2
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 17
-          filename: LM2x2_BurgerKing_d6fa5629.SC4Lot
+          label: CS$2x2_Restaurant_16fb6ae7.SC4Lot
+        - filename: LM2x2_BurgerKing_d6fa5629.SC4Lot
           id: d6fa5629
-          label: Burger King (CS$, Landmark, 2x2)
-          size: 2x2
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 17
-          filename: LM2x2_DairyQueen_16fb5c61.SC4Lot
+          label: LM2x2_BurgerKing_d6fa5629.SC4Lot
+        - filename: LM2x2_DairyQueen_16fb5c61.SC4Lot
           id: 16fb5c61
-          label: Dairy Queen (CS$, Landmark, 2x2)
-          size: 2x2
+          label: LM2x2_DairyQueen_16fb5c61.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+dk1/dk1-peterson-tool:
+  authors:
+    - dk1
+  category: industry
+  description: |-
+    I-m 4x3, 68 jobs, growth stage 3, high density zone. No dependencies.
+
+    Staff Edit: Added file descriptor. -CF, 09/11/2024.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/7cc8b530458f2376b2803ad38b45e0e7-ptsv2adayf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_12_2011/e5a7de778762f63fdcace41830a58aa8-ptsv2n.jpg
+  name: DK1 Peterson Tool
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_12_2011/thumb-7cc8b530458f2376b2803ad38b45e0e7-ptsv2adayf.jpg
+  url: https://community.simtropolis.com/files/file/27035-dk1-peterson-tool/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/27035-dk1-peterson-tool
+      lastModified: 2024-09-11T19:03:00Z
+      lots:
+        - category: i-m
+          filename: I-m4x3_PTSv2_98a56adc.SC4Lot
+          id: 98a56adc
+          label: I-m4x3_PTSv2_98a56adc.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -249,7 +261,7 @@ dk1/dk1-retro-kroger:
   authors:
     - dk1
   category: cs$
-  description: Kroger was founded in 1883.
+  description: "Kroger was founded in 1883. CS$3x3, jobs: 83, growth stage: 4, density: medium or high. LM2x3 and 3x3, jobs: 83 CS$, build: 1000. No dependencies."
   images:
     - https://www.simtropolis.com/objects/screens/0020/b741bdd1384e93ddc23008784512711e-Kroger_day.JPG
     - https://www.simtropolis.com/objects/screens/0020/b741bdd1384e93ddc23008784512711e-Kroger_night.JPG
@@ -260,34 +272,53 @@ dk1/dk1-retro-kroger:
   variants:
     default:
       assets:
-        - id: simtropolis/20678-dk1-retro-kroger
+        - docs: []
+          id: simtropolis/20678-dk1-retro-kroger
           include:
             - Kroger
+      lastModified: 2008-11-20T06:29:15Z
       lots:
-        - category: cs$
-          demand:
-            cs$: 83
-          filename: CS3x3_Kroger_f6305e62.SC4Lot
+        - filename: CS3x3_Kroger_f6305e62.SC4Lot
           id: f6305e62
-          label: Kroger (CS$, Stage 4, 3x3)
-          size: 3x3
-          stage: 4
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 83
-          filename: LM2x3_Kroger_d63011e1.SC4Lot
+          label: CS3x3_Kroger_f6305e62.SC4Lot
+        - filename: LM2x3_Kroger_d63011e1.SC4Lot
           id: d63011e1
-          label: Kroger (CS$, Landmark, 2x3)
-          size: 2x3
-        - category: cs$,landmarks
-          cost: 1000
-          demand:
-            cs$: 83
-          filename: LM3x3_Kroger_f63075aa.SC4Lot
+          label: LM2x3_Kroger_d63011e1.SC4Lot
+        - filename: LM3x3_Kroger_f63075aa.SC4Lot
           id: f63075aa
-          label: Kroger (CS$, Landmark, 3x3)
-          size: 3x3
+          label: LM3x3_Kroger_f63075aa.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+dk1/dk1-simcity-medical:
+  authors:
+    - dk1
+  category: civics
+  description: |-
+    Lot: 5x2, patient capacity: 3000, monthly cost: 300 / 100, coverage radius: 1000m, build: 1000, bulldoze: 100, jobs: 99.
+
+    Staff Edit: Added File Descriptor. -CF, 09/11/2024.
+  images:
+    - https://www.simtropolis.com/objects/screens/0026/ed6fdaa1c398a2520a0a341b77caaafe-SimMed_day.JPG
+    - https://www.simtropolis.com/objects/screens/0026/ed6fdaa1c398a2520a0a341b77caaafe-SimMed_night.JPG
+  name: DK1 SimCity Medical
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_07_2009/thumb-ed6fdaa1c398a2520a0a341b77caaafe-SimMed_day.JPG
+  url: https://community.simtropolis.com/files/file/18605-dk1-simcity-medical/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/18605-dk1-simcity-medical
+      lastModified: 2024-09-11T19:07:19Z
+      lots:
+        - filename: CV5x2_SimcityMedical_33e1c472.SC4Lot
+          id: 33e1c472
+          label: CV5x2_SimcityMedical_33e1c472.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -297,7 +328,7 @@ dk1/dk1-small-restaurant:
   authors:
     - dk1
   category: commercial
-  description: 3 different-Taco John's, Subway and Domino's.
+  description: "3 different-Taco John's, Subway and Domino's. CS$1x2, jobs: 17, growth stage: 2, zone density: low, medium or high. LM1x2, jobs: 17 CS$, build: 500. No dependencies."
   images:
     - https://www.simtropolis.com/objects/screens/0026/f041723fdef855602f1f52c4cec01f0a-SmRestday.JPG
     - https://www.simtropolis.com/objects/screens/0026/f041723fdef855602f1f52c4cec01f0a-SmRestnight.JPG
@@ -308,42 +339,26 @@ dk1/dk1-small-restaurant:
   variants:
     default:
       assets:
-        - id: simtropolis/20874-dk1-small-restaurant
+        - docs: []
+          id: simtropolis/20874-dk1-small-restaurant
           include:
             - SmallRestaurant
+      lastModified: 2008-12-25T05:58:24Z
       lots:
         - category: cs$
-          demand:
-            cs$: 17
           filename: CS$1x2_Restaurant_d65aa66d.SC4Lot
           id: d65aa66d
-          label: Small Restaurant (CS$, Stage 2, 1x2)
-          size: 1x2
-          stage: 2
-        - category: cs$,landmarks
-          cost: 500
-          demand:
-            cs$: 17
-          filename: LM1x2_Domino's_d65a9309.SC4Lot
+          label: CS$1x2_Restaurant_d65aa66d.SC4Lot
+        - filename: LM1x2_Domino's_d65a9309.SC4Lot
           id: d65a9309
-          label: Domino's (CS$, Landmark, 1x2)
-          size: 1x2
-        - category: cs$,landmarks
-          cost: 500
-          demand:
-            cs$: 17
-          filename: LM1x2_Subway_b65a1f4d.SC4Lot
+          label: LM1x2_Domino's_d65a9309.SC4Lot
+        - filename: LM1x2_Subway_b65a1f4d.SC4Lot
           id: b65a1f4d
-          label: Subway (CS$, Landmark, 1x2)
-          size: 1x2
-        - category: cs$,landmarks
-          cost: 500
-          demand:
-            cs$: 17
-          filename: LM1x2_TacoJohn's_b65a1dfe.SC4Lot
+          label: LM1x2_Subway_b65a1f4d.SC4Lot
+        - filename: LM1x2_TacoJohn's_b65a1dfe.SC4Lot
           id: b65a1dfe
-          label: Taco John's (CS$, Landmark, 1x2)
-          size: 1x2
+          label: LM1x2_TacoJohn's_b65a1dfe.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

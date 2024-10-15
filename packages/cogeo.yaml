@@ -16,10 +16,10 @@ cogeo/additional-subway-entrance-props:
     This pack contains twelve new props, derived from the above two models, and differ only in the railings' colours:
 
 
-    - RalphaelNinja's comes in eight colours, four classic (Black, Steel Blue, Dark Green and Gray) and four modern ones (Red, Yellow, Turquoise and Deep Blue), in addition to the original White.
+    \- RalphaelNinja's comes in eight colours, four classic (Black, Steel Blue, Dark Green and Gray) and four modern ones (Red, Yellow, Turquoise and Deep Blue), in addition to the original White.
 
 
-    - Mcdrye's comes in Black, Steel Blue, Dark Green and Metallic, and has the roundel removed. The Steel Blue colour matches the Maxis' one.
+    \- Mcdrye's comes in Black, Steel Blue, Dark Green and Metallic, and has the roundel removed. The Steel Blue colour matches the Maxis' one.
 
 
     **Credits:**
@@ -49,10 +49,43 @@ cogeo/additional-subway-entrance-props:
     default:
       assets:
         - docs:
-            - SubwayProps
+            - SubwayProps/SubstairsNinja.jpg
+            - SubwayProps/SubstairsMcdrye.jpg
+            - SubwayProps/ReadMe.htm
           id: simtropolis/13698-additional-subway-entrance-props
           include:
-            - SubwayProps
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_Yellow.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_White.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_Turquoise.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_SteelBlue.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_Red.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_Gray.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_DeepBlue.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_DarkGreen.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Ninja_Black.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Mcdrye_SteelBlue.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Mcdrye_Metallic.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Mcdrye_DarkGreen.dat
+            - SubwayProps/Props/RTMTV3_PropS_Subway_Mcdrye_Black.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_Yellow.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_White.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_Turquoise.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_SteelBlue.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_Red.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_Gray.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_DeepBlue.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_DarkGreen.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Ninja_Black.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Mcdrye_SteelBlue.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Mcdrye_Metallic.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Mcdrye_DarkGreen.dat
+            - SubwayProps/Props/RTMTV3_PropF_Subway_Mcdrye_Black.dat
+            - SubwayProps/Props/RTMTV3_APropBase_Subway_Ninja.dat
+            - SubwayProps/Props/RTMTV3_APropBase_Subway_Mcdrye.dat
+            - SubwayProps/Models/RoadSideSubstairs_Ninja_0x8e26cb8b.SC4Model
+            - SubwayProps/Models/RoadsideSubstairs_Mcdrye_0x33317b90.SC4Model
+      lastModified: 2006-05-01T12:32:24Z
+      name: Default
       version: 1.0.0
 
 cogeo/logistics-centres-megapack:
@@ -81,6 +114,22 @@ cogeo/logistics-centres-megapack:
 
 
     The Freight Rail Station is specially modded so as to become two-way (provide both rail-to-truck and truck-to-rail traffic conversions). It also lifts caps for the ID and IM sectors.
+
+
+    The lots are installed by an installer and there is nothing else you need to do except of installing the needed dependencies. However it is possible to customise the lots' appearance. Please check
+    the readme for detailed instructions, and also for tips on placing them. If you don't want some certain lots, eg the ploppables, you can delete their .SC4Lot files.
+
+
+    **Dependencies**
+
+
+    1.  [Warehouses BATProps Part A](https://community.simtropolis.com/files/file/15582-warehouses-batprops-part-a/) (These are the BATs)
+
+    2.  [Warehouses BATProps Part B](https://community.simtropolis.com/files/file/15583-warehouses-batprops-part-b/) (These are the BATs)
+
+    3.  [BSC Mega Props JES Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=342)
+
+    4.  [BSC MEGA Props - SG Vol 01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=746)
 
 
     | Lot Statistics | Growable CS$/CS$$ | Ploppable CS$/CS$$ | Freight Rail Station |
@@ -128,6 +177,9 @@ cogeo/logistics-centres-megapack:
 
 
     [View my other Lots on the STEX](https://community.simtropolis.com/profile/45188-cogeo/content/?type=downloads_file)
+
+
+    **\-CB Edit:** Updated links and added note to inform others of a possible solution for missing models on these lots.
   images:
     - https://www.simtropolis.com/objects/screens/0004/195c4fa65c373a74b16e342dca6b49bc-LPLeft2.jpg
     - https://www.simtropolis.com/objects/screens/0004/195c4fa65c373a74b16e342dca6b49bc-LPRight2.jpg
@@ -138,44 +190,65 @@ cogeo/logistics-centres-megapack:
   variants:
     default:
       assets:
-        - id: simtropolis/16119-logistics-centres-megapack
+        - docs:
+            - LogisticsCentresPack_Readme.html
+            - LogisticsCentresPack_Readme_files/Zoning.jpg
+            - LogisticsCentresPack_Readme_files/TransitEnabling.jpg
+            - LogisticsCentresPack_Readme_files/PropWHWhite.jpg
+            - LogisticsCentresPack_Readme_files/PropWHRed.jpg
+            - LogisticsCentresPack_Readme_files/PropWHJade.jpg
+            - LogisticsCentresPack_Readme_files/PropRLWhite.jpg
+            - LogisticsCentresPack_Readme_files/PropRLRed.jpg
+            - LogisticsCentresPack_Readme_files/PropRLJade.jpg
+            - LogisticsCentresPack_Readme_files/PropMainPonl.jpg
+            - LogisticsCentresPack_Readme_files/PropMainMaersk.jpg
+            - LogisticsCentresPack_Readme_files/PropMainHL.jpg
+            - LogisticsCentresPack_Readme_files/PropMainGartner.jpg
+            - LogisticsCentresPack_Readme_files/PropMainECS.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminNY2.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminNY1.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminHou3.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminHou2.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminHou1.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminEuro2.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminEuro1.jpg
+            - LogisticsCentresPack_Readme_files/PropAdminChi1.jpg
+            - LogisticsCentresPack_Readme_files/LotBuildings.jpg
+          id: simtropolis/16119-logistics-centres-megapack
           include:
             - condition:
                 rhd: true
               path: LCP_UK_PathingPatch.dat
-            # TODO: - FreightAutomataSpawningScripts_Swamper77.dat
             - "*"
+      lastModified: 2018-07-18T21:44:36Z
       lots:
+        - filename: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
+          id: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
+          label: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
+          size: 10x10
+        - category: landmarks
+          filename: CS$PLOP_10x10_LogisticsCentre.SC4Lot
+          id: CS$PLOP_10x10_LogisticsCentre.SC4Lot
+          label: CS$PLOP_10x10_LogisticsCentre.SC4Lot
+          size: 10x10
         - category: cs$
           filename: CS$5_10x10_LogisticsCentre.SC4Lot
-          id: growable-cs$
-          label: Growable CS$, Stage 5, 10x10
+          id: CS$5_10x10_LogisticsCentre.SC4Lot
+          label: CS$5_10x10_LogisticsCentre.SC4Lot
           size: 10x10
           stage: 5
+        - category: cs$
+          filename: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
+          id: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
+          label: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
+          size: 10x10
         - category: cs$$
           filename: CS$$5_10x10_LogisticsCentre.SC4Lot
-          id: growable-cs$$
-          label: Growable CS$$, Stage 5, 10x10
+          id: CS$$5_10x10_LogisticsCentre.SC4Lot
+          label: CS$$5_10x10_LogisticsCentre.SC4Lot
           size: 10x10
           stage: 5
-        - category: cs$,landmarks
-          filename: CS$PLOP_10x10_LogisticsCentre.SC4Lot
-          id: landmark-cs$
-          label: Landmark CS$, 10x10
-          size: 10x10
-          stage: 5
-        - category: c$$,landmarks
-          filename: CS$$PLOP_10x10_LogisticsCentre.SC4Lot
-          id: landmark-cs$$
-          label: Landmark CS$$, 10x10
-          size: 10x10
-          stage: 5
-        - category: rail,freight
-          filename: Utils_10x10_FreightRailStation_LogisticsCentre.SC4Lot
-          id: freight-station
-          label: Freight rail station, 10x10
-          size: 10x10
-          stage: 5
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -225,7 +298,12 @@ cogeo/warehouses-batprops-part-a:
   variants:
     default:
       assets:
-        - id: simtropolis/15582-warehouses-batprops-part-a
+        - docs: []
+          id: simtropolis/15582-warehouses-batprops-part-a
+          include:
+            - WarehousesBATPropsPartA.dat
+      lastModified: 2006-06-08T01:36:58Z
+      name: Default
       version: 1.0.0
 
 cogeo/warehouses-batprops-part-b:
@@ -272,5 +350,10 @@ cogeo/warehouses-batprops-part-b:
   variants:
     default:
       assets:
-        - id: simtropolis/15583-warehouses-batprops-part-b
+        - docs: []
+          id: simtropolis/15583-warehouses-batprops-part-b
+          include:
+            - WarehousesBATPropsPartB.dat
+      lastModified: 2006-06-08T01:35:51Z
+      name: Default
       version: 1.0.0

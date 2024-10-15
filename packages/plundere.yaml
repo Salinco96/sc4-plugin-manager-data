@@ -1,0 +1,62 @@
+plundere/rail_catenary_mod_v3-hd-version:
+  authors:
+    - plundere
+  category: transport
+  description: |-
+    Rail Catenaries mod V3 HD version for NAM june2009
+
+    This version using the ehbk2006's High Definition cantanery props
+
+    Fixed some bugs and missing
+
+    Install:
+
+    1\. Be sure delete the old version and "NL-Special-Cantanery-props.dat"
+
+    2\. Extract the "z_Catenary_Mod" directory from zip file into the NAM installed folder.
+
+    please don't rename the default directory name
+
+    Uninstall:
+
+    just delete all the Catenaries mod files.
+
+    Dependencies:
+
+    Network Addon Mod June 2009.
+
+    Catenary Essentials
+
+    (https://www.simtropolis.com/forum/files/file/21934-catenary-essentials/)
+
+    If you found any missing, let me know.
+
+    Any question or suggestion, please post on the topic in SC4D forum:
+
+    [http://sc4devotion.c...hp?topic=6316.0](https://www.sc4devotion.com/forums/index.php?topic=6316.0)
+
+    Credits & Special Thanks:
+
+    ehbk2006, for HD-NL-Special-Catenary-props
+
+    plunderer, 2009-06-24
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/04d09f88fa610d08980a27af8e380a26-wrc2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_11_2011/ecb5ca9d420f61f55fc5bc0b70c552fb-bridge_1.jpg
+  name: Rail_Catenary_Mod_V3 HD version
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2011/thumb-04d09f88fa610d08980a27af8e380a26-wrc2.jpg
+  url: https://community.simtropolis.com/files/file/21935-rail_catenary_mod_v3-hd-version/
+  variants:
+    default:
+      assets:
+        - docs:
+            - z_Catenary_Mod/Rail Catenary/readme.txt
+          id: simtropolis/21935-rail_catenary_mod_v3-hd-version
+          include:
+            - z_Catenary_Mod/Rail Catenary/Catenary_prop_exemplar_for_rail.dat
+            - z_Catenary_Mod/Rail Catenary/NAM_Rail_Catenaries.dat
+            - z_Catenary_Mod/Rail Catenary/SC4_Rail_Catenaries.dat
+      lastModified: 2011-11-15T22:30:06Z
+      name: Default
+      version: 3.0.0

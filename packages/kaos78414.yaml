@@ -2,10 +2,14 @@ kaos78414/rusty-generator:
   authors:
     - kaos78414
   category: utilities
-  description: This is sorta like the wonder tree, similar stats, §10 a month, §500 to plop, produces 50 power. It has a transparent base texture so you can place it on any kind of terrain and plop any
-    trees you may have on/around it so it can be more hidden if it needs to be. The purpose of this kinda lot is to allow you to have secluded areas, lots, buildings and what-have-you, without having
-    to build another power plant. This one is more realistic IMO because a lot of people buy generators for their homes or offices or whatever. It has a rusted look about it so it will fit well with
-    rural areas. Enjoy!
+  description: >-
+    This is sorta like the wonder tree, similar stats, §10 a month, §500 to plop, produces 50 power. It has a transparent base texture so you can place it on any kind of terrain and plop any trees you
+    may have on/around it so it can be more hidden if it needs to be. The purpose of this kinda lot is to allow you to have secluded areas, lots, buildings and what-have-you, without having to build
+    another power plant. This one is more realistic IMO because a lot of people buy generators for their homes or offices or whatever. It has a rusted look about it so it will fit well with rural
+    areas. Enjoy!
+
+
+    No dependencies by the way.
   images:
     - https://www.simtropolis.com/objects/screens/0010/57335d1302931aecdc87ee1b09781995-generator%20pic.JPG
   name: KAOS Rusty Generator
@@ -15,7 +19,14 @@ kaos78414/rusty-generator:
   variants:
     default:
       assets:
-        - id: simtropolis/19458-kaos-rusty-generator
+        - docs: []
+          id: simtropolis/19458-kaos-rusty-generator
+      lastModified: 2008-03-01T16:58:39Z
+      lots:
+        - filename: KAOS - Power - Generator_d4d58b65.SC4Lot
+          id: d4d58b65
+          label: KAOS - Power - Generator_d4d58b65.SC4Lot
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

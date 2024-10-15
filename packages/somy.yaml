@@ -3,6 +3,7 @@ somy/danchi-apartments:
     - SOMY
   category: r$
   dependencies:
+    - nos-17/sc4-cleanitol
     - somy/mega-props-vol05
   description: >-
     A set of apartments from SOMY. There are four different styles of low wealth residential buildings plus a water tower. These have been updated using SC4PIM and the models have been centred using
@@ -11,6 +12,17 @@ somy/danchi-apartments:
 
     There are three different style of 2x5 growable lot - the original style made by SOMY, a set of lots with a LH corner and a set with a RH corner. There is also a set of 5x2 low wealth residential
     lots.
+
+
+    **There is a Cleanitol text file included as you will need to remove the original lots and models after you have bulldozed any existing lots from your cities.** It is highly recommended to run the
+    provided *Cleanitol_SOMY Danchi Apartments.txt* cleanitol file for the compilation with one of the following 3rd party cleanitol tools, which can help you remove the old packs or you can remove
+    them manually:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    [BSC Cleanitol](https://sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) (old tool).
 
 
     ### Lot Details and Information
@@ -84,13 +96,23 @@ somy/danchi-apartments:
     | Garbage pollution: | 0 over 0 tiles |
 
 
+    ### Installation
+
+
+    **Installation:** Copy/Extract the **SOMY** parent folder into your Plugins. If you extracted the *~Documents* folder into your plugins, too, it's highly recommended to keep it, but move it out of
+    the Plugins folder.
+
+
+    **Un-Installing:** To un-install the files, simply bulldoze every lot from this download in your cities and delete the files from the plugins folder afterwards.
+
+
     **Dependencies**:
 
 
     To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
 
 
-    - [SC4D LEX Legacy - SOMY Dependencies Pack V2](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack)
+    - SC4D LEX Legacy - SOMY Dependencies Pack V2
 
 
     - SOMY Mega Props vol05 (it contains now the previously included SOMY_Danchi_Apartments.dat file)
@@ -100,6 +122,8 @@ somy/danchi-apartments:
 
 
     Original models and lots by SOMY. The models have been centred using cogoe's Model Tweaker and the descriptos have been remade using wounanagaine's SC4PIM. These lots are CAMpatible.
+
+     ![SOMYDanchi_s](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_s.jpg)![SOMYDanchi_sn2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_sn.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_s.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SOMYDanchi_sn.jpg
@@ -111,10 +135,21 @@ somy/danchi-apartments:
     default:
       assets:
         - docs:
-            - ~Documents/SOMY_Readmes
+            - ~Documents/SOMY_Readmes/Readme_SOMY_Danchi_Apartments.htm
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SOMY Danchi Apartments.txt
+            - ~Documents/SOMY_Readmes/images/SOMYDanchi_sn.jpg
+            - ~Documents/SOMY_Readmes/images/SOMYDanchi_s.jpg
           id: sc4evermore/244-somy-danchi-apartments
           include:
             - SOMY/Danchi Apartments
+      lastModified: 2024-01-27T17:34:38-08:00
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_SOMY Danchi Water Tower_391bacae.SC4Lot
+          id: 391bacae
+          label: PLOP_1x1_SOMY Danchi Water Tower_391bacae.SC4Lot
+          size: 1x1
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0
@@ -126,6 +161,18 @@ somy/mega-props-collection:
   authors:
     - SOMY
   category: props
+  dependencies:
+    - nos-17/sc4-cleanitol
+    - somy/mega-props-vol01
+    - somy/mega-props-vol02
+    - somy/mega-props-vol03
+    - somy/mega-props-vol04
+    - somy/mega-props-vol05
+    - somy/mega-props-vol06
+    - somy/mega-props-vol07
+    - somy/mega-props-vol08
+    - somy/mega-props-vol09
+    - somy/mega-props-vol10
   description: >-
     This SC4 Devotion LEX Legacy Pack features the BSC Team and SC4D LEX Restoration Team-assembled prop packs of popular Japanese BATer SOMY, which had been available on the Lot Exchange (LEX) at SC4
     Devotion. This compilation also contains most (if not all) of the models that SOMY ever released on their websites over the years. After battling a number of technical issues, software
@@ -173,7 +220,7 @@ somy/mega-props-collection:
     [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
 
 
-    [BSC Cleanitol](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) (old tool)
+    BSC Cleanitol (old tool)
 
 
     #### Credits
@@ -238,6 +285,8 @@ somy/mega-props-collection:
 
 
     Various pieces of original documentation and earlier Cleanitol definitions can be found in the "~Documents" folder.
+
+     ![Somy Mega Props vol01lex](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Somy%20Mega%20Props%20vol01lex.jpg)![Somy Mega Props vol07LEX2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Somy%20Mega%20Props%20vol07LEX.jpg)![Somy Mega Props vol09lex3](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Somy%20Mega%20Props%20vol09lex.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Somy Mega Props vol01lex.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Somy Mega Props vol07LEX.jpg
@@ -249,8 +298,43 @@ somy/mega-props-collection:
   variants:
     default:
       assets:
-        - id: sc4evermore/174-sc4d-lex-legacy-somy-dependencies-pack
-          include: []
+        - docs:
+            - readme_SOMY_dependencies.html
+            - readme.css
+            - ~Documents/readme_SOMY_dependencies.html
+            - ~Documents/readme.css
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol10_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol09_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol08_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol07_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol06_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol05_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol04_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol03_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol02_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Somy Mega Props vol01_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol10.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol09.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol08.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol07.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol06.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol05.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol04.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol03.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol02.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_Somy Mega Props vol01.txt
+          id: sc4evermore/174-sc4d-lex-legacy-somy-dependencies-pack
+          include:
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 10/Somy Mega Props vol10.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 09/Somy Mega Props vol09.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 08/Somy Mega Props vol08.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 07/Somy Mega Props vol07.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 06/Somy Mega Props vol06.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 05/Somy Mega Props vol05.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 04/Somy Mega Props vol04.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 03/Somy Mega Props vol03.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 02/Somy Mega Props vol02.dat
+            - SOMY/MEGA Props#/SOMY MEGA Props Vol 01/Somy Mega Props vol01.dat
       dependencies:
         - somy/mega-props-vol01
         - somy/mega-props-vol02
@@ -262,6 +346,8 @@ somy/mega-props-collection:
         - somy/mega-props-vol08
         - somy/mega-props-vol09
         - somy/mega-props-vol10
+      lastModified: 2024-01-20T05:56:03-08:00
+      name: Default
       version: 2.0.0
 
 somy/mega-props-vol01:
@@ -460,6 +546,7 @@ somy/modern-japanese-house-set:
     - BarbyW
   category: r$$
   dependencies:
+    - nos-17/sc4-cleanitol
     - somy/mega-props-vol07
   description: >-
     A set of 10 houses by **SOMY** that have been updated using the X_Tool and also have had the dummy building replaced by a building model. The capacity now varies according to the number and size
@@ -529,7 +616,7 @@ somy/modern-japanese-house-set:
     To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
 
 
-    - [SC4D LEX Legacy - SOMY Dependencies Pack V2](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/174-sc4d-lex-legacy-somy-dependencies-pack)
+    - SC4D LEX Legacy - SOMY Dependencies Pack V2
 
 
     - SOMY Mega Props vol07
@@ -539,6 +626,8 @@ somy/modern-japanese-house-set:
 
 
     Original BATs and lots by SOMY. Updating by BarbyW
+
+     ![somy-jpn-house1x4](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/somy-jpn-house1x4.jpg)![simtop32](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/simtop3.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/somy-jpn-house1x4.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/simtop3.jpg
@@ -550,10 +639,19 @@ somy/modern-japanese-house-set:
     default:
       assets:
         - docs:
-            - ~Documents/SOMY_Readmes
+            - ~Documents/SOMY_Readmes/somy-jpn-house1x4.jpg
+            - ~Documents/SOMY_Readmes/Readme_SOMY_jpn_houses_1x4.htm
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_SOMY_jpn_houses.txt
           id: sc4evermore/245-somy-modern-japanese-house-set
           include:
-            - SOMY/Modern Japanese Houses (1x4)
+            - SOMY/Modern Japanese Houses (1x4)/somy-jpn-house-g02.dat
+            - SOMY/Modern Japanese Houses (1x4)/somy-jpn-house-g01b.dat
+            - SOMY/Modern Japanese Houses (1x4)/somy-jpn-house-f01.dat
+            - SOMY/Modern Japanese Houses (1x4)/somy-jpn-house-d01.dat
+            - SOMY/Modern Japanese Houses (1x4)/somy-jpn-house-c01.dat
+            - SOMY/Modern Japanese Houses (1x4)/somy-jpn-house-a01.dat
+      lastModified: 2024-01-27T17:33:57-08:00
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0

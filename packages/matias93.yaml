@@ -3,6 +3,25 @@ matias93/veredas-santiaguinas:
     - matias93
   category: transport,overrides
   description: >-
+    **Veredas Santiaguinas**
+
+
+    *A sidewalk mod made by matias93*
+
+
+    Este mismo texto está en español adentro del archivo!
+
+
+    **AKNOWLEGDEMENTS:**
+
+
+    This mod couldn't be possible without the impressing work of Rivit and MGB204 (rsc204), creators of GoFSH and the (not yet published) Automated Sidewalk Mod. To make a mod as big as this by hand,
+    as many other creators had done before, is a titanical task that deserves sheer aknowlegdement; I just created a couple of textures and clicked buttons once and then.
+
+
+    **DESCRIPTION:**
+
+
     This textures are inspired in the 'veredas' or sidewalks that were built around 1980 in Santiago, Chile: they are little concrete tiles with geometrical designs, that form big square shapes using
     black or red tiles. In the game, I chose to keep an uniform colour, trying to avoid the sudden colour changes that make Maxis' textures so unappealing; instead, only coloured tiles change with
     wealth level, as the general condition of the sidewalk: ochre tiles with clean and orange-y concrete in high wealth sidewalks, red burgundy squares and grey concrete in mid-wealth textures, and
@@ -14,11 +33,39 @@ matias93/veredas-santiaguinas:
     (tramway) tracks, that get sorrounded by the new texture but not completely replaced. Depending on the existence of more advanced scripts, this could change in a newer version.
 
 
-    **AKNOWLEGDEMENTS:**
+    **INSTRUCTIONS:** <-- Jump here if you don't like the details
 
 
-    This mod couldn't be possible without the impressing work of Rivit and MGB204 (rsc204), creators of GoFSH and the (not yet published) Automated Sidewalk Mod. To make a mod as big as this by hand,
-    as many other creators had done before, is a titanical task that deserves sheer aknowlegdement; I just created a couple of textures and clicked buttons once and then.
+    This mod has to be installed MANUALLY. Is not enough to copy and paste everything: you'll end with a cluttered folder and surely your prefered networks will be oddly patched.
+
+
+    1.  Copy the folder called z_\__veredasstgo to your Plugins folder (the one that is on My Documents/Documents/). It is preferable that you delete all other sidewalk mods, but the folder is named
+    in a way that will load it the last, overwriting other conflictive textures.
+
+    2.  Open the folder you just copied and delete the files you won't use:
+
+        a. "Veredas Stgo BASE" chenges most street, road and avenue sidewalks, so you should keep it.
+
+        b. "Veredas Stgo sitios y plazas (LOTS)" change the lots' textures, allowing a more uniform result. You should keep it; delete it only if you prefer to use another texture on lots and plazas.
+
+        c. "Veredas Stgo NAM" folders will only work if you had installed the Network Addon Mod (very recommended); YOU MUST KEEP ONLY ONE FOLDER. Choose the one that corresponds to the driving side your game uses (LHD: on the left as in the United Kingdom, RHD: on the right as in Europe), and to the roads' lines colour (US: yellow lines as in the United States, EU: white lines as in Europe).
+    3.  Open the folder you had kept: there you'll find one or two more folders with options:
+
+        a. Open the folder called "Rail Options" and delete the files that doesn't match the kind of rail tracks you use: Maxis, PEG or RealRailway (RRW).
+
+        There shall to be just two files, with the same ending.
+
+        b. Only if you have installed EU white lines with the NAM, open "TuLEP Options" folder and delete all the files that doesn't match to the TuLEP textures you installed with the NAM. Most surely you are using Maxis default ones, but make sure it is that way.
+
+        There shall to be just two files, with the same name after the "TuLEP".
+    4.  Close the folder "z_\__veredasstgo". If you use DATpacker or other program that packs your plugins, get sure not to pack this folder, unless you are certain no other mod could overwrite this
+    textures.
+
+
+    **DEPENDENCIES:**
+
+
+    This mod replaces textures without using any dependency. You can extract the textures to use it as dependencies for other creations, but they aren't currently in the right format to do so.
 
 
     **COMPATIBILITY:**
@@ -69,7 +116,12 @@ matias93/veredas-santiaguinas:
     default:
       assets:
         - docs:
-            - INSTRUCTIONS (EN).txt
+            - Veredas Santiaguinas - Sidewalk mod/z__NO COPIES Y PEGUES TODO.txt
+            - Veredas Santiaguinas - Sidewalk mod/z__DON'T COPY AND PASTE ALL.txt
+            - Veredas Santiaguinas - Sidewalk mod/INSTRUCTIONS (EN).txt
+            - Veredas Santiaguinas - Sidewalk mod/INSTRUCCIONES (ES).txt
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/z__NO COPIES Y PEGUES TODO.txt
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/z__DON'T COPY AND PASTE ALL.txt
           exclude:
             - SWN Custom FLUPs Maxis Rail.dat
             - SWN Custom FLUPs PEG 205 Rail.dat
@@ -77,86 +129,140 @@ matias93/veredas-santiaguinas:
             - SWN Custom TuLEPs * Maxis Rail.dat
           id: simtropolis/31166-veredas-santiaguinas-sidewalk-mod#170719
           include:
-            - as: LHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-                tuleps: default
-              path: "**/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs RRW.dat"
-            - as: LHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-                tuleps: default
-              path: "**/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs.dat"
-            - as: LHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-              path: "**/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs {{tuleps}} RRW.dat"
-            - as: LHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-              path: "**/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs {{tuleps}}.dat"
-            - as: LHD-EU
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-              path: Veredas Stgo NAM - CMI blanco (LHD-EU)
-            - as: LHD-US
-              condition:
-                nam: true
-                rhd: false
-                road-textures: us
-              path: Veredas Stgo NAM - CMI amarillo (LHD-US)
-            - as: RHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-                tuleps: default
-              path: "**/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs RRW.dat"
-            - as: RHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-                tuleps: default
-              path: "**/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs.dat"
-            - as: RHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-              path: "**/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs {{tuleps}} RRW.dat"
-            - as: RHD-EU/*
-              condition:
-                nam: true
-                rhd: false
-                road-textures: eu
-              path: "**/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs {{tuleps}}.dat"
-            - as: RHD-EU
-              condition:
-                nam: true
-                rhd: true
-                road-textures: eu
-              path: Veredas Stgo NAM - CMD blanco (RHD-EU)
-            - as: RHD-US
-              condition:
-                nam: true
-                rhd: true
-                road-textures: us
-              path: Veredas Stgo NAM - CMD amarillo (RHD-US)
-            - condition:
-                plazas: true
-              path: Veredas Stgo sitios y plazas (LOTS).dat
-            - z___veredastgo
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo sitios y plazas (LOTS).dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo BASE.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom Viaduct Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom URail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom Turbo RA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom TuLEPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom RTMT.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom RHW Intersections.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom RHW FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom Pedmalls.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom New Ave Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom Misc.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom MHW Interchanges.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom EL-Rail Ave+RD4.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/SWN Custom Drag Road Viaducts.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom Viaduct Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom URail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom Turbo RA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom TuLEPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom RTMT.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom RHW Intersections.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom RHW FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom Pedmalls.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom New Ave Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom Misc.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom MHW Interchanges.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom EL-Rail Ave+RD4.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/SWN Custom Drag Road Viaducts.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom Viaduct Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom URail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom Turbo RA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom RTMT.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom RHW Intersections.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom Pedmalls.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom New Ave Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom Misc.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom MHW Interchanges.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom EL-Rail Ave+RD4.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/SWN Custom Drag Road Viaducts.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom Viaduct Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom URail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom Turbo RA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom TuLEPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom RTMT.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom RHW Intersections.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom RHW FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom Pedmalls.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom New Ave Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom Misc.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom MHW Interchanges.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom FLUPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom EL-Rail Ave+RD4.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/SWN Custom Drag Road Viaducts.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs RIGA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs RIGA RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs RIGA Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Old UK.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Old UK RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Old UK Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs MRTN.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs MRTN RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs MRTN Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Dexter UK.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Dexter UK RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/TuLEP Options/SWN Custom TuLEPs Dexter UK Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/Rail Options/SWN Custom TuLEPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/Rail Options/SWN Custom TuLEPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/Rail Options/SWN Custom FLUPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/Rail Options/SWN Custom FLUPs PEG 205 Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/Rail Options/SWN Custom FLUPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR TiS.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR TiR + ToR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR TiA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR Lot Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR Drag.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI blanco (LHD-EU)/GLR/SWN Custom GLR Drag Rural.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/Rail Options/SWN Custom TuLEPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/Rail Options/SWN Custom TuLEPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/Rail Options/SWN Custom FLUPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/Rail Options/SWN Custom FLUPs PEG 205 Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/Rail Options/SWN Custom FLUPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR TiS.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR TiR + ToR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR TiA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR Lot Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR Drag.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMI amarillo (LHD-US)/GLR/SWN Custom GLR Drag Rural.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs RIGA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs RIGA RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs RIGA Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Old UK.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Old UK RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Old UK Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs MRTN.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs MRTN RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs MRTN Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Dexter UK.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Dexter UK RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/TuLEP Options/SWN Custom TuLEPs Dexter UK Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/Rail Options/SWN Custom FLUPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/Rail Options/SWN Custom FLUPs PEG 205 Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/Rail Options/SWN Custom FLUPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR TiS.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR TiR + ToR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR TiA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR Lot Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR Drag.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD blanco (RHD-EU)/GLR/SWN Custom GLR Drag Rural.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/Rail Options/SWN Custom TuLEPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/Rail Options/SWN Custom TuLEPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/Rail Options/SWN Custom FLUPs RRW.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/Rail Options/SWN Custom FLUPs PEG 205 Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/Rail Options/SWN Custom FLUPs Maxis Rail.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR TiS.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR TiR + ToR.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR TiA.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR Lot Textures.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR Drag.dat
+            - Veredas Santiaguinas - Sidewalk mod/z___veredastgo/Veredas Stgo NAM - CMD amarillo (RHD-US)/GLR/SWN Custom GLR Drag Rural.dat
+      lastModified: 2018-05-02T18:11:27Z
+      name: Default
       options:
         - global: true
           id: rhd

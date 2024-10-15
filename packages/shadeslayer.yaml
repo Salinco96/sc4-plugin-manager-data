@@ -11,6 +11,7 @@ shadeslayer/scag-cargo-lots:
     - ac/mega-props-vol05
     - ac/textures-vol01
     - ac/vlt-cargo-planes-vol01
+    - bsc/common-dependencies
     - cogeo/logistics-centres-megapack
     - cogeo/warehouses-batprops-part-a
     - cogeo/warehouses-batprops-part-b
@@ -20,6 +21,9 @@ shadeslayer/scag-cargo-lots:
     - jestarr/mega-props-vol02
     - jestarr/mega-props-vol03
   description: >-
+    ## About
+
+
     It's finally here! SCAG Cargo Lots by ShadeSlayer (SCAG\-CLSS) is a series of lots aimed to enhance the cargo aspect of SimCity Airports.
 
 
@@ -41,6 +45,15 @@ shadeslayer/scag-cargo-lots:
     4.  A cleanitol dependency checker; and
 
     5.  Some pictures to make it look pretty.
+
+
+    All of this is contained in a .zip file. There is no EXE installer as to maintain cross-compatability between different Operating Systems.
+
+
+    ## Installation Instructions
+
+
+    Unzip (extract) the .ZIP file into your "My Documents/SimCity 4/Plugins" folder.
 
 
     ## Dependencies
@@ -111,6 +124,15 @@ shadeslayer/scag-cargo-lots:
 
 
     Do not redistribute the included lots without direct permission.
+
+
+    ## Contact
+
+
+    If you wish to contact me, my email is: ![528623761.gif](http://img44.imageshack.us/img44/6824/528623761.gif)
+
+
+    SCAG Team Room: [www.sc4devotion.com/forums/index.php](https://www.sc4devotion.com/forums/index.php?board=266.0)
   images:
     - https://www.simtropolis.com/objects/screens/0002/0b356be2061e8c1831a6dd3ba4c9f953-screenDay.jpg
     - https://www.simtropolis.com/objects/screens/0002/0b356be2061e8c1831a6dd3ba4c9f953-screenNight.jpg
@@ -122,10 +144,18 @@ shadeslayer/scag-cargo-lots:
     default:
       assets:
         - docs:
-            - SCAG-CLSS
+            - SCAG-CLSS/screenNight.gif
+            - SCAG-CLSS/screenDay.gif
+            - SCAG-CLSS/readme.txt
+            - SCAG-CLSS/dependencies.txt
           id: simtropolis/23004-scag-cargo-lots-v10
           include:
-            - SCAG-CLSS
+            - SCAG-CLSS/SCAG-CLSS_props.dat
+            - SCAG-CLSS/SCAG-CLSS_buildings.dat
+            - SCAG-CLSS/SCAG-CLSS_787.dat
+            - SCAG-CLSS/SCAG-CLSS_757.dat
+      lastModified: 2017-07-03T16:52:31Z
+      name: Default
       version: 1.0.0
   warnings:
     - id: bulldoze

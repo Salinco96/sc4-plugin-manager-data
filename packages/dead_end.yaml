@@ -5,7 +5,7 @@ dead_end/scandinavian-supermarkets:
     - rsc204
   category: commercial
   dependencies:
-    - flann/girafe-maxis-fence-hd-replacement-mod
+    - girafe/fences
     - kingofsimcity/supershk-mega-parking-textures
     - mgb204/convenience-stores
     - murimk/bike-props
@@ -33,38 +33,6 @@ dead_end/scandinavian-supermarkets:
     branding props!
 
 
-    **Dependencies**
-
-
-    - [MGB - Convenience Store](https://community.simtropolis.com/files/file/31244-mgb-convenience-store/)
-
-    - [PC MGB Convenience Stores Global Expansion](https://community.simtropolis.com/files/file/35031-pc-mgb-convenience-stores-global-expansion/)
-
-    - [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
-
-    - [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
-
-    - [Murimk - Props Vol01 - Bicycle Props with Bikers MMP](https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/)
-
-    - [Girafe Maxis Fence HD Replacement Mod](https://community.simtropolis.com/files/file/33965-girafe-maxis-fence-hd-replacement-mod/)
-
-    - [RDG Prop Pack 1](https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/)
-
-    - [JENX-Porkie Expanded Porkie Props](https://community.simtropolis.com/files/file/11421-jenx-porkie-expanded-porkie-props/)
-
-    - [SFBT Essentials](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/13-sfbt-essentials)
-
-    - [BSC Mega Props SG Vol 01](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
-
-    - [PEG MTP SUPER PACK](https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/)
-
-
-    **Optional**
-
-
-    - [KOSC's SuperSHK+ MEGA Parking for TGN / SWN](https://community.simtropolis.com/files/file/31248-koscs-supershk-mega-parking-for-tgn-swn/) (changes grass and pavement on the parking textures)
-
-
     Note: Only after uploading this set I realized the sign for the REMA 1000 was off-centered in comparison to the other two supermarkets. This has since been fixed, but the screenshot does show the
     older version. It should show up fine in the game.
   images:
@@ -81,8 +49,28 @@ dead_end/scandinavian-supermarkets:
         - id: simtropolis/36316-scandinavian-supermarkets
           include:
             - DE_MGB_pclark06_Supermarket
-      requirements:
-        darknite: false
+      lastModified: 2024-06-25T20:11:52Z
+      lots:
+        - filename: DE_MGB_Retail_Roofbrown_Rema1000_23f34b8e.SC4Lot
+          id: 23f34b8e
+          label: DE_MGB_Retail_Roofbrown_Rema1000_23f34b8e.SC4Lot
+        - category: landmarks
+          filename: PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot
+          id: c3f365cc
+          label: PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot
+          size: 3x2
+        - category: cs$$
+          filename: CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker_73f43ce4.SC4Lot
+          id: 73f43ce4
+          label: CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker_73f43ce4.SC4Lot
+          size: 4x2
+          stage: 1
+        - category: cs$$
+          filename: CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker_13f43e21.SC4Lot
+          id: 13f43e21
+          label: CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker_13f43e21.SC4Lot
+          size: 3x2
+          stage: 1
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -123,30 +111,6 @@ dead_end/spar-supermarket:
     - Medium wealth
 
     - CS$ 475/CS$$ 121
-
-
-    **Dependencies**
-
-
-    - [NDEX Glenni MEGA Props Vol02.dat](https://community.simtropolis.com/files/file/20564-ndex-glenni-mega-props-vol02/)
-
-    - [SuperSHK MEGA Parking Textures](https://community.simtropolis.com/files/file/31006-supershk-mega-parking-textures/)
-
-    - [SHK Parking Pack](https://community.simtropolis.com/files/file/27563-shk-parking-pack/)
-
-    - [Murimk - Props Vol01 - Bicycle Props with Bikers MMP](https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/)
-
-    - [Girafe Maxis Fence HD Replacement Mod](https://community.simtropolis.com/files/file/33965-girafe-maxis-fence-hd-replacement-mod/)
-
-    - [RDG Prop Pack 1](https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/)
-
-    - [SC4D LEX LEGACY - BSC VIP Girafe Flora Pack](https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora)
-
-
-    **Optional**
-
-
-    - [KOSC's SuperSHK+ MEGA Parking for TGN / SWN](https://community.simtropolis.com/files/file/31248-koscs-supershk-mega-parking-for-tgn-swn/) (changes grass and pavement on the parking textures)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_06/66707423c32b9_ScreenshotSpar.JPG.df384d111cb75422be0383fef34eecde.JPG
   name: Spar Supermarket
@@ -159,8 +123,12 @@ dead_end/spar-supermarket:
         - id: simtropolis/36314-spar-supermarket
           include:
             - DE_Spar-Glenni
-      requirements:
-        darknite: false
+      lastModified: 2024-06-17T18:09:29Z
+      lots:
+        - filename: DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot
+          id: 73f449c3
+          label: DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot
+          size: 6x4
       version: 1.0.0
   warnings:
     - id: bulldoze

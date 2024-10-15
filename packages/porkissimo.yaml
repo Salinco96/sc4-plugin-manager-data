@@ -75,6 +75,7 @@ porkissimo/jenx-porkie-expanded-props:
           id: simtropolis/11421-jenx-porkie-expanded-porkie-props
           include:
             - Porkissimo/Props
+      lastModified: 2024-01-23T16:41:39-08:00
       version: 1.0.0
 
 porkissimo/mega-props-vol01:
@@ -110,4 +111,60 @@ porkissimo/mega-props-vol01:
           id: sc4evermore/9-porkissimo-mega-props-vol01
           include:
             - Porkissimo/Props
+      lastModified: 2024-01-23T16:45:30-08:00
       version: 2.0.0
+
+porkissimo/paris-large-school-art-deco:
+  authors:
+    - porkissimo
+  category: residential
+  description: >-
+    **View 1280\*960 pics of the bat [HERE](http://paris3d.9online.fr/ecoleWP.html)**
+
+
+    This 3X4 Art Deco bat is based on an existing Parisian elementary school, built in 1929 and located at rue St-Martin. It can be used either in a W2W environment or not.
+
+
+    Dependencies: **[PORKIE PROPS VOL1](https://www.simtropolis.com/stex/index.cfm?page=1&keyword=PORKIE%20PROPS&type=all)** and **[PORKIE PROPS
+    VOL2](https://www.simtropolis.com/stex/index.cfm?page=1&keyword=PORKIE%20PROPS&type=all)**
+
+
+    - students capacity=1000
+
+    - plop cost=500
+
+    - bulldoze cost=100
+
+    - catalog capacity=600, cata month cost=550
+
+    - coverage radius=450
+
+    - demand created: $=40, $$=10
+
+    - budget cost=500
+
+    - EQ boost=24
+
+    - water=10, power=3
+
+    - effectiveness & popVSdistance are standart values.
+
+
+    Plop it, rate it and visit my **[PARIS 3D GALLERY](http://paris3d.9online.fr/)**. You're welcome!
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e06239ccc0441c924e414a7d0d80844f-bandeg.jpg
+    - https://www.simtropolis.com/objects/screens/0025/e06239ccc0441c924e414a7d0d80844f-banded.jpg
+  name: PARIS large school Art Deco
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2006/thumb-e06239ccc0441c924e414a7d0d80844f-bandeg.jpg
+  url: https://community.simtropolis.com/files/file/14230-paris-large-school-art-deco/
+  variants:
+    default:
+      assets:
+        - docs: []
+          id: simtropolis/14230-paris-large-school-art-deco
+          include:
+            - PK large school.dat
+      lastModified: 2006-03-27T13:23:33Z
+      name: Default
+      version: 1.0.0

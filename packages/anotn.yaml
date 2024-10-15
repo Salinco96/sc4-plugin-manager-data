@@ -4,7 +4,6 @@ anotn/augustenborg-houses:
   category: r$$
   dependencies:
     - girafe/flora-pack
-    # TODO: [SFBT Playground Props by Sam Johnson](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2540)TODO: [SFBT Playground Props by Sam Johnson](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2540)
   description: |-
     Here comes a building from the neighbourhood of Augustenborg in Malmö. It comes in three different colours, is medium wealth and grows on a 4x5 medium or high density lot.
 
@@ -13,6 +12,16 @@ anotn/augustenborg-houses:
     ![ABstats.png](http://i269.photobucket.com/albums/jj42/antnst/ABstats.png)
 
     For maxis night version get AB_MN.zip and for Darknite get AB_DN.zip.
+
+    **Dependencies:**
+
+    [BSC - VIP girafe birches](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2620)
+
+    [SFBT Playground Props by Sam Johnson](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2540)
+
+    For the Darknite version you'll need
+
+    [SimFox Day and Nite Modd 1](https://www.simtropolis.com/forum/files/file/23089-simfox-day-and-nite-modd/)
 
     If you want to see what I'm currently working on visit my [BAT thread](https://www.simtropolis.com/forum/topic/43135-anotn-bats).
   images:
@@ -29,23 +38,37 @@ anotn/augustenborg-houses:
     darknite:
       assets:
         - docs:
-            - AB_DN
+            - AB_DN/Augustenborg_Readme_DN.html
           id: simtropolis/27274-augustenborg-houses#100324
           include:
             - AB_DN
+      lastModified: 2012-05-05T18:43:34Z
+      lots:
+        - filename: R$$5_4x5_Augustenborg_4cb6db55.SC4Lot
+          id: 4cb6db55
+          label: R$$5_4x5_Augustenborg_4cb6db55.SC4Lot
+          size: 4x5
+          stage: 5
       name: Dark Nite
-      release: 2024-08-20T10:45:45.232Z
+      release: 2024-09-04T10:03:15.374Z
       requirements:
         darknite: true
       version: 1.0.0
     default:
       assets:
         - docs:
-            - AB_MN
+            - AB_MN/Augustenborg_Readme_MN.html
           id: simtropolis/27274-augustenborg-houses#100325
           include:
             - AB_MN
-      name: Maxis Nite
+      lastModified: 2012-05-05T18:43:34Z
+      lots:
+        - filename: R$$5_4x5_Augustenborg_4cb6db55.SC4Lot
+          id: 4cb6db55
+          label: R$$5_4x5_Augustenborg_4cb6db55.SC4Lot
+          size: 4x5
+          stage: 5
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0

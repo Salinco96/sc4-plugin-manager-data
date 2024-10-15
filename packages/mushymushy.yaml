@@ -2,7 +2,13 @@ mushymushy/hd-north-american-40ft-semi-trailers-vol01:
   authors:
     - MushyMushy
   category: props
+  dependencies:
+    - mushymushy/hd-north-american-53ft-semi-trailers-vol01
+    - mushymushy/hd-north-american-semi-truck-cabs-vol01
   description: >-
+    **HD North American 40ft Semi Trailers Vol.1** **by MushyMushy**
+
+
     This is a prop pack containing 68 unique HD 40ft semi trailer models, all of which are based on North American designs. All models are rendered at 90, 45, 22.5L, and 22.5R angles with reasonably
     tight LODs to provide maximum flexibility. This pack includes 40ft box trailers in several liveries with and without cabs, and later packs will include other various trailers and possibly other
     cabs. Please note that as this is a prop pack, there are no Lots included - you must put the props on a Lot using the Lot Editor for them to show up in-game. All props can be easily found in the
@@ -37,6 +43,12 @@ mushymushy/hd-north-american-40ft-semi-trailers-vol01:
     - [HD North American 53ft Semi Trailers Vol.1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/) by MushyMushy
 
 
+    **Install Instructions:**
+
+
+    - Unzip the downloaded file and place the included folder into your SC4 plugins folder. No readme is included due to the simplistic nature of this download.
+
+
     Enjoy!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_08/trux.jpg.e2f69f0a9275c758dff5388ab59b1b81.jpg
@@ -49,16 +61,160 @@ mushymushy/hd-north-american-40ft-semi-trailers-vol01:
   variants:
     default:
       assets:
-        - id: simtropolis/30733-hd-north-american-40ft-semi-trailers-vol1
+        - docs: []
+          id: simtropolis/30733-hd-north-american-40ft-semi-trailers-vol1
           include:
-            - MM_NA_40ftTrailers_Vol1
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90yellow-0x6534284a-0x016a6904-0x82be8aad.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90uspsMR-0x6534284a-0x016a6904-0xe2c29563.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90uspsCH613-0x6534284a-0x016a6904-0xa2c29553.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90Roadway-0x6534284a-0x016a6904-0x22c25976.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90FedExGround-0x6534284a-0x016a6904-0x62c2593d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90FedExExpress-0x6534284a-0x016a6904-0x62be7b7f.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90DHL-0x6534284a-0x016a6904-0xc2be210b.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90blankwhiteMR-0x6534284a-0x016a6904-0x82be7b08.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90blankwhitech613-0x6534284a-0x016a6904-0x62c2953a.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi90blankblackch613-0x6534284a-0x016a6904-0x62c25997.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45yellow-0x6534284a-0x016a6904-0x62be8abd.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45uspsMR-0x6534284a-0x016a6904-0x22c25902.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45uspsCH613-0x6534284a-0x016a6904-0xc2be7d0f.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45Roadway-0x6534284a-0x016a6904-0x82be7c6e.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45FedExGround-0x6534284a-0x016a6904-0xa2c258d7.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45FedExExpress-0x6534284a-0x016a6904-0xa2c258c9.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45DHL-0x6534284a-0x016a6904-0x82c258bc.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45blankwhiteMR-0x6534284a-0x016a6904-0xe2c258f5.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45blankwhitech613-0x6534284a-0x016a6904-0xe2be7ac8.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi45blankblackch613-0x6534284a-0x016a6904-0x22c258e7.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5Ryellow-0x6534284a-0x016a6904-0x62c25891.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RuspsMR-0x6534284a-0x016a6904-0x42c2d6b4.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RuspsCH613-0x6534284a-0x016a6904-0xa2c25880.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RRoadway-0x6534284a-0x016a6904-0xa2c25860.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RFedExGround-0x6534284a-0x016a6904-0x22be7c3d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RFedExExpress-0x6534284a-0x016a6904-0xa2c25844.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RDHL-0x6534284a-0x016a6904-0x62c2582d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5RblankwhiteMR-0x6534284a-0x016a6904-0x82c25870.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5Rblankwhitech613-0x6534284a-0x016a6904-0x22be7af5.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5Rblankblackch613-0x6534284a-0x016a6904-0x22be7aa2.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5Lyellow-0x6534284a-0x016a6904-0x82be8acd.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LuspsMR-0x6534284a-0x016a6904-0x42be7df8.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LuspsCH613-0x6534284a-0x016a6904-0x42be7d1f.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LRoadway-0x6534284a-0x016a6904-0x42be7c7d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LFedExGround-0x6534284a-0x016a6904-0xe2c2581d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LFedExExpress-0x6534284a-0x016a6904-0xe2c2580d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LDHL-0x6534284a-0x016a6904-0xa2be7b60.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5LblankwhiteMR-0x6534284a-0x016a6904-0x62c22d8a.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5Lblankwhitech613-0x6534284a-0x016a6904-0x82be7adb.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footsemi22.5Lblankblackch613-0x6534284a-0x016a6904-0xa2be7a34.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90yellow-0x6534284a-0x016a6904-0x02be7983.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90usps-0x6534284a-0x016a6904-0xa2be78ec.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90Roadway-0x6534284a-0x016a6904-0x22be762c.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90FedExGround-0x6534284a-0x016a6904-0x42be75d6.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90FedExExpress-0x6534284a-0x016a6904-0xc2be7573.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90DHL-0x6534284a-0x016a6904-0xe2b8d36d.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox90blank-0x6534284a-0x016a6904-0x429d8ed3.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45yellow-0x6534284a-0x016a6904-0x62c22cd8.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45usps-0x6534284a-0x016a6904-0x62be793e.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45Roadway-0x6534284a-0x016a6904-0xe2be7644.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45FedExGround-0x6534284a-0x016a6904-0xa2be75e9.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45FedExExpress-0x6534284a-0x016a6904-0xe2be7597.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45DHL-0x6534284a-0x016a6904-0x22b8d381.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox45blank-0x6534284a-0x016a6904-0x629d8ee5.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5Ryellow-0x6534284a-0x016a6904-0xc2c22921.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5Rusps-0x6534284a-0x016a6904-0xa2be7961.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5RRoadway-0x6534284a-0x016a6904-0x02be7668.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5RFedExGround-0x6534284a-0x016a6904-0x22be7613.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5RFedExExpress-0x6534284a-0x016a6904-0xc2be75c2.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5RDHL-0x6534284a-0x016a6904-0x42b8d3a9.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5Rblank-0x6534284a-0x016a6904-0x229d8f0b.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5Lyellow-0x6534284a-0x016a6904-0x02be79f8.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5Lusps-0x6534284a-0x016a6904-0xa2c227f9.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5LRoadway-0x6534284a-0x016a6904-0x02be7653.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5LFedExGround-0x6534284a-0x016a6904-0x02be7601.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5LFedExExpress-0x6534284a-0x016a6904-0x82be75b2.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5LDHL-0x6534284a-0x016a6904-0xa2b8d393.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/MM_40footbox22.5Lblank-0x6534284a-0x016a6904-0x229d8efd.SC4Desc
+            - MM_NA_40ftTrailers_Vol1/40footsemi90yellow-0x5ad0e817_0x16a6904_0xbb0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90uspsMR-0x5ad0e817_0x22bd0a69_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90uspsCH613-0x5ad0e817_0xc2bd0945_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90Roadway-0x5ad0e817_0xe2bd0658_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90FedExGround-0x5ad0e817_0xc2bd057c_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90FedExExpress-0x5ad0e817_0x16a6904_0x860000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90DHL-0x5ad0e817_0x16a6904_0x820000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90blankwhiteMR-0x5ad0e817_0x16a6904_0x7d0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90blankwhitech613-0x5ad0e817_0x42bd08a2_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi90blankblackch613-0x5ad0e817_0xa2bd0739_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45yellow-0x5ad0e817_0x16a6904_0xbc0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45uspsMR-0x5ad0e817_0x82bd04cf_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45uspsCH613-0x5ad0e817_0x16a6904_0xb40000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45Roadway-0x5ad0e817_0x16a6904_0xb00000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45FedExGround-0x5ad0e817_0x82bcf510_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45FedExExpress-0x5ad0e817_0xa2bcf0c1_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45DHL-0x5ad0e817_0xc2bcf018_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45blankwhiteMR-0x5ad0e817_0xe2bcfd18_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45blankwhitech613-0x5ad0e817_0x16a6904_0x7a0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi45blankblackch613-0x5ad0e817_0xa2bcf61f_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5Ryellow-0x5ad0e817_0xa2bcef56_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RuspsMR-0x5ad0e817_0x22bcee7c_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RuspsCH613-0x5ad0e817_0x62bced9a_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RRoadway-0x5ad0e817_0x82bcead8_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RFedExGround-0x5ad0e817_0x16a6904_0x8d0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RFedExExpress-0x5ad0e817_0x42bcea0b_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RDHL-0x5ad0e817_0xe2bce8a5_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5RblankwhiteMR-0x5ad0e817_0x82bcec33_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5Rblankwhitech613-0x5ad0e817_0x16a6904_0x7c0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5Rblankblackch613-0x5ad0e817_0x16a6904_0x780000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5Lyellow-0x5ad0e817_0x16a6904_0xbd0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LuspsMR-0x5ad0e817_0x16a6904_0xb90000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LuspsCH613-0x5ad0e817_0x16a6904_0xb50000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LRoadway-0x5ad0e817_0x16a6904_0xb10000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LFedExGround-0x5ad0e817_0xa2bce829_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LFedExExpress-0x5ad0e817_0x82bce7d8_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LDHL-0x5ad0e817_0x16a6904_0x840000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5LblankwhiteMR-0x5ad0e817_0x82bce72d_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5Lblankwhitech613-0x5ad0e817_0x16a6904_0x7b0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footsemi22.5Lblankblackch613-0x5ad0e817_0x16a6904_0x770000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90yellow-0x5ad0e817_0x16a6904_0x710000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90usps-0x5ad0e817_0x16a6904_0x6d0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90Roadway-0x5ad0e817_0x16a6904_0x690000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90FedExGround-0x5ad0e817_0x16a6904_0x650000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90FedExExpress-0x5ad0e817_0x16a6904_0x610000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90DHL-0x5ad0e817_0x16a6904_0x5d0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox90blank-0x5ad0e817_0x16a6904_0x450000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45yellow-0x5ad0e817_0xe2bce645_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45usps-0x5ad0e817_0x16a6904_0x6e0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45Roadway-0x5ad0e817_0x16a6904_0x6a0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45FedExGround-0x5ad0e817_0x16a6904_0x660000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45FedExExpress-0x5ad0e817_0x16a6904_0x620000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45DHL-0x5ad0e817_0x16a6904_0x5e0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox45blank-0x5ad0e817_0x16a6904_0x460000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5Ryellow-0x5ad0e817_0x62bce27b_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5Rusps-0x5ad0e817_0x16a6904_0x700000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5RRoadway-0x5ad0e817_0x16a6904_0x6c0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5RFedExGround-0x5ad0e817_0x16a6904_0x680000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5RFedExExpress-0x5ad0e817_0x16a6904_0x640000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5RDHL-0x5ad0e817_0x16a6904_0x600000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5Rblank-0x5ad0e817_0x16a6904_0x480000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5Lyellow-0x5ad0e817_0x16a6904_0x730000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5Lusps-0x5ad0e817_0xc2bce150_0x30000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5LRoadway-0x5ad0e817_0x16a6904_0x6b0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5LFedExGround-0x5ad0e817_0x16a6904_0x670000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5LFedExExpress-0x5ad0e817_0x16a6904_0x630000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5LDHL-0x5ad0e817_0x16a6904_0x5f0000.SC4Model
+            - MM_NA_40ftTrailers_Vol1/40footbox22.5Lblank-0x5ad0e817_0x16a6904_0x470000.SC4Model
+      lastModified: 2016-03-15T08:08:21Z
+      name: Default
       version: 1.1.0
 
 mushymushy/hd-north-american-53ft-semi-trailers-vol01:
   authors:
     - MushyMushy
   category: props
+  dependencies:
+    - mushymushy/hd-north-american-40ft-semi-trailers-vol01
+    - mushymushy/hd-north-american-semi-truck-cabs-vol01
   description: >-
+    **HD North American 53ft Semi Trailers Vol.1** **by MushyMushy**
+
+
     This is a prop pack containing 208 unique HD 53ft semi trailer models, all of which are based on North American designs. All models are rendered at 90, 45, 22.5L, and 22.5R angles with reasonably
     tight LODs to provide maximum flexibility. This pack includes 53ft box trailers in several liveries with and without cabs, and later packs will include other various trailers and possibly other
     cabs. Please note that as this is a prop pack, there are no Lots included - you must put the props on a Lot using the Lot Editor for them to show up in-game. All props can be easily found in the
@@ -94,6 +250,12 @@ mushymushy/hd-north-american-53ft-semi-trailers-vol01:
     - [HD North American 40ft Semi Trailers Vol.1](https://community.simtropolis.com/files/file/30733-hd-north-american-40ft-semi-trailers-vol1/) by MushyMushy
 
 
+    **Install Instructions:**
+
+
+    - Unzip the downloaded file and place the included folder into your SC4 plugins folder. No readme is included due to the simplistic nature of this download.
+
+
     Enjoy!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_09/53trailers.jpg.e9dde0a8d022f53d941d39de5c3f537f.jpg
@@ -111,16 +273,440 @@ mushymushy/hd-north-american-53ft-semi-trailers-vol01:
   variants:
     default:
       assets:
-        - id: simtropolis/30773-hd-north-american-53ft-semi-trailers-vol1
+        - docs: []
+          id: simtropolis/30773-hd-north-american-53ft-semi-trailers-vol1
           include:
-            - MM_NA_53ftTrailers_Vol1
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Yellowphantom-0x6534284a-0x016a6904-0xc2f8f7f9.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Yellowch613-0x6534284a-0x016a6904-0xa2f8f7bd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90walmartphantom-0x6534284a-0x016a6904-0xa2f8f752.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90uspsMR-0x6534284a-0x016a6904-0x82f8f6fa.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90uspsch613-0x6534284a-0x016a6904-0xc2f8f6b7.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90upsch613-0x6534284a-0x016a6904-0x62f8f660.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90tripleMRB-0x6534284a-0x016a6904-0xa2f8f60c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90tripleblack-0x6534284a-0x016a6904-0xa2f8f5d5.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90targetch613-0x6534284a-0x016a6904-0x22f8f58e.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Safewaych613-0x6534284a-0x016a6904-0xc2f8f53b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90rust1t800-0x6534284a-0x016a6904-0xa2f8f317.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Roadwayphantom-0x6534284a-0x016a6904-0xc2f8f2c3.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Roadwaych613-0x6534284a-0x016a6904-0x22f8f25c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Krogerch613-0x6534284a-0x016a6904-0x62f8f201.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90FedExGroundch613-0x6534284a-0x016a6904-0x02f8f1a8.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90FedExExpressch613-0x6534284a-0x016a6904-0xe2f8f173.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90DHLch613-0x6534284a-0x016a6904-0xc2f8f0f8.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90DHL352-0x6534284a-0x016a6904-0xa2f8efe5.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Costcophantom-0x6534284a-0x016a6904-0x82f8ef43.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Conwayphantom-0x6534284a-0x016a6904-0xa2f8eef1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90Conwaych613-0x6534284a-0x016a6904-0xa2f8eeb1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankT800white-0x6534284a-0x016a6904-0xc2f8ea89.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankT800black-0x6534284a-0x016a6904-0xa2f8ea06.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankphantomwhite-0x6534284a-0x016a6904-0x02f8e9c9.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankphantomred-0x6534284a-0x016a6904-0x42f8e957.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankphantomblue-0x6534284a-0x016a6904-0x02f8e3e0.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankMRwhite-0x6534284a-0x016a6904-0x02f8e3a6.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankch613white-0x6534284a-0x016a6904-0x02f8e367.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blankch613black-0x6534284a-0x016a6904-0xa2f8e324.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blank352white-0x6534284a-0x016a6904-0x02f8e2eb.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blank352red-0x6534284a-0x016a6904-0x22f8e23f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90blank352black-0x6534284a-0x016a6904-0xe2f8e1f8.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi90bestbuych613-0x6534284a-0x016a6904-0x42f8e1b9.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Yellowphantom-0x6534284a-0x016a6904-0x82f8f804.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Yellowch613-0x6534284a-0x016a6904-0xc2f8f7cf.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45walmartphantom-0x6534284a-0x016a6904-0x22f8f75d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45uspsMR-0x6534284a-0x016a6904-0x62f8f723.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45uspsch613-0x6534284a-0x016a6904-0x62f8f6ca.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45upsch613-0x6534284a-0x016a6904-0xc2f8f66c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45tripleMRB-0x6534284a-0x016a6904-0x22f8f619.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45tripleblack-0x6534284a-0x016a6904-0x22f8f5e1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45targetch613-0x6534284a-0x016a6904-0xa2f8f598.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Safewaych613-0x6534284a-0x016a6904-0x62f8f546.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45rust1t800-0x6534284a-0x016a6904-0x42f8f323.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Roadwayphantom-0x6534284a-0x016a6904-0xc2f8f2d1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Roadwaych613-0x6534284a-0x016a6904-0x62f8f26b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Krogerch613-0x6534284a-0x016a6904-0x02f8f20f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45FedExGroundch613-0x6534284a-0x016a6904-0x22f8f1b6.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45FedExExpressch613-0x6534284a-0x016a6904-0x22f8f180.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45DHLch613-0x6534284a-0x016a6904-0x02f8f106.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45DHL352-0x6534284a-0x016a6904-0xc2f8eff4.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Costcophantom-0x6534284a-0x016a6904-0x02f8ef50.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Conwayphantom-0x6534284a-0x016a6904-0x82f8eefe.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45Conwaych613-0x6534284a-0x016a6904-0x02f8eebd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankT800white-0x6534284a-0x016a6904-0x02f8ea97.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankT800black-0x6534284a-0x016a6904-0xa2f8ea13.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankphantomwhite-0x6534284a-0x016a6904-0x42f8e9d5.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankphantomred-0x6534284a-0x016a6904-0x82f8e965.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankphantomblue-0x6534284a-0x016a6904-0x02f8e3eb.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankMRwhite-0x6534284a-0x016a6904-0x02f8e3b1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankch613white-0x6534284a-0x016a6904-0xe2f8e372.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankch613black-0x6534284a-0x016a6904-0x22f8e330.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blankblackphantom-0x6534284a-0x016a6904-0x629d7c9c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blank352white-0x6534284a-0x016a6904-0x02f8e2f6.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blank352red-0x6534284a-0x016a6904-0x62f8e2dd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45blank352black-0x6534284a-0x016a6904-0xc2f8e205.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi45bestbuych613-0x6534284a-0x016a6904-0xe2f8e1d2.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RYellowphantom-0x6534284a-0x016a6904-0xa2f8f81c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RYellowch613-0x6534284a-0x016a6904-0x22f8f7e7.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rwalmartphantom-0x6534284a-0x016a6904-0x42f8f777.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RuspsMR-0x6534284a-0x016a6904-0x82f8f73a.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Ruspsch613-0x6534284a-0x016a6904-0x22f8f6e4.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rupsch613-0x6534284a-0x016a6904-0xc2f8f686.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RtripleMRB-0x6534284a-0x016a6904-0x62f8f632.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rtripleblack-0x6534284a-0x016a6904-0x42f8f5fe.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rtargetch613-0x6534284a-0x016a6904-0xa2f8f5b4.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RSafewaych613-0x6534284a-0x016a6904-0x82f8f55e.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rrust1t800-0x6534284a-0x016a6904-0x02f8f33d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RRoadwayphantom-0x6534284a-0x016a6904-0x22f8f2e9.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RRoadwaych613-0x6534284a-0x016a6904-0x62f8f28b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RKrogerch613-0x6534284a-0x016a6904-0xa2f8f228.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RFedExGroundch613-0x6534284a-0x016a6904-0x62f8f1d1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RFedExExpressch613-0x6534284a-0x016a6904-0x42f8f19c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RDHLch613-0x6534284a-0x016a6904-0x82f8f126.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RDHL352-0x6534284a-0x016a6904-0x22f8f00c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RCostcophantom-0x6534284a-0x016a6904-0x22f8ef5e.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RConwayphantom-0x6534284a-0x016a6904-0x02f8ef1d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RConwaych613-0x6534284a-0x016a6904-0x22f8eedc.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RblankT800white-0x6534284a-0x016a6904-0xc2f8eabb.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RblankT800black-0x6534284a-0x016a6904-0xa2f8ea2e.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblankphantomwhite-0x6534284a-0x016a6904-0x02f8e9f1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblankphantomred-0x6534284a-0x016a6904-0xc2f8e992.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblankphantomblue-0x6534284a-0x016a6904-0x42f8e401.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5RblankMRwhite-0x6534284a-0x016a6904-0x82f8e3ce.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblankch613white-0x6534284a-0x016a6904-0x62f8e393.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblankch613black-0x6534284a-0x016a6904-0x42f8e357.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblankblackphantom-0x6534284a-0x016a6904-0xc29d7cf1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblank352white-0x6534284a-0x016a6904-0xa2f8e30f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblank352red-0x6534284a-0x016a6904-0x02f8e27c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rblank352black-0x6534284a-0x016a6904-0x82f8e229.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Rbestbuych613-0x6534284a-0x016a6904-0xe2f8e1e8.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LYellowphantom-0x6534284a-0x016a6904-0x82f8f80f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LYellowch613-0x6534284a-0x016a6904-0xa2f8f7dd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lwalmartphantom-0x6534284a-0x016a6904-0x82f8f76b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LuspsMR-0x6534284a-0x016a6904-0x02f8f72d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Luspsch613-0x6534284a-0x016a6904-0x82f8f6d7.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lupsch613-0x6534284a-0x016a6904-0x02f8f67a.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LtripleMRB-0x6534284a-0x016a6904-0xe2f8f626.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Ltripleblack-0x6534284a-0x016a6904-0x22f8f5ef.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Ltargetch613-0x6534284a-0x016a6904-0x42f8f5a7.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LSafewaych613-0x6534284a-0x016a6904-0xe2f8f552.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lrust1t800-0x6534284a-0x016a6904-0x22f8f32f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LRoadwayphantom-0x6534284a-0x016a6904-0xa2f8f2de.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LRoadwaych613-0x6534284a-0x016a6904-0x02f8f27c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LKrogerch613-0x6534284a-0x016a6904-0x62f8f21b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LFedExGroundch613-0x6534284a-0x016a6904-0x22f8f1c4.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LFedExExpressch613-0x6534284a-0x016a6904-0x22f8f18c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LDHLch613-0x6534284a-0x016a6904-0x62f8f117.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LDHL352-0x6534284a-0x016a6904-0x62f8efff.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LCostcophantom-0x6534284a-0x016a6904-0xc2f8ef0c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LConwayphantom-0x6534284a-0x016a6904-0xe2f8ef36.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LConwaych613-0x6534284a-0x016a6904-0xc2f8eec8.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LblankT800white-0x6534284a-0x016a6904-0xe2f8eaac.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LblankT800black-0x6534284a-0x016a6904-0x82f8ea20.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblankphantomwhite-0x6534284a-0x016a6904-0xc2f8e9e4.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblankphantomred-0x6534284a-0x016a6904-0x22f8e973.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblankphantomblue-0x6534284a-0x016a6904-0xa2f8e3f7.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5LblankMRwhite-0x6534284a-0x016a6904-0x22f8e3c2.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblankch613white-0x6534284a-0x016a6904-0x82f8e388.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblankch613black-0x6534284a-0x016a6904-0xc2f8e349.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblankblackphantom-0x6534284a-0x016a6904-0xe29d7cdf.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblank352white-0x6534284a-0x016a6904-0x62f8e302.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblank352red-0x6534284a-0x016a6904-0xc2f8e26d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lblank352black-0x6534284a-0x016a6904-0xa2f8e212.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footsemi22.5Lbestbuych613-0x6534284a-0x016a6904-0xe2f8e1dd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footboxtest-0x6534284a-0x016a6904-0xa29d4c1f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90Yellow-0x6534284a-0x016a6904-0xe2c5a43c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90walmart-0x6534284a-0x016a6904-0x42c5a40b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90usps-0x6534284a-0x016a6904-0xc2c5a3d9.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90ups-0x6534284a-0x016a6904-0x22c5a009.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90tripleMRB-0x6534284a-0x016a6904-0xc2c59fcf.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90tripleblack-0x6534284a-0x016a6904-0x82c59f95.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90target-0x6534284a-0x016a6904-0x62c59d35.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90Safeway-0x6534284a-0x016a6904-0x82c59c16.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90rust1-0x6534284a-0x016a6904-0x02c59bcd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90Roadway-0x6534284a-0x016a6904-0x42c59b8a.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90Kroger-0x6534284a-0x016a6904-0x42c59b44.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90FedExGround-0x6534284a-0x016a6904-0x82c59b0a.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90FedExExpress-0x6534284a-0x016a6904-0xc2c59aca.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90DHL-0x6534284a-0x016a6904-0xc2c595af.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90Costco-0x6534284a-0x016a6904-0xc2c5956f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90Conway-0x6534284a-0x016a6904-0x42c594fc.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90blank-0x6534284a-0x016a6904-0xa29d675b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox90bestbuy-0x6534284a-0x016a6904-0x62c29572.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45Yellow-0x6534284a-0x016a6904-0x42c5a448.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45walmart-0x6534284a-0x016a6904-0xc2c5a416.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45usps-0x6534284a-0x016a6904-0x42c5a3e3.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45ups-0x6534284a-0x016a6904-0xa2c5a01c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45tripleMRB-0x6534284a-0x016a6904-0x02c59fde.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45tripleblack-0x6534284a-0x016a6904-0x22c59fa5.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45target-0x6534284a-0x016a6904-0xe2c59d44.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45Safeway-0x6534284a-0x016a6904-0x62c59c22.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45rust1-0x6534284a-0x016a6904-0xc2c59bdc.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45Roadway-0x6534284a-0x016a6904-0x82c59b94.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45Kroger-0x6534284a-0x016a6904-0x02c59b51.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45FedExGround-0x6534284a-0x016a6904-0x42c59b15.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45FedExExpress-0x6534284a-0x016a6904-0xe2c59ad6.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45DHL-0x6534284a-0x016a6904-0x42c595c0.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45Costco-0x6534284a-0x016a6904-0x42c59585.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45Conway-0x6534284a-0x016a6904-0xa2c5950e.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45blank-0x6534284a-0x016a6904-0xe29d676b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox45bestbuy-0x6534284a-0x016a6904-0x02c2957e.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RYellow-0x6534284a-0x016a6904-0x02c5a45f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rwalmart-0x6534284a-0x016a6904-0x82c5a42d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rusps-0x6534284a-0x016a6904-0xa2c5a3ff.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rups-0x6534284a-0x016a6904-0xa2c5a032.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RtripleMRB-0x6534284a-0x016a6904-0x62c59ffb.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rtripleblack-0x6534284a-0x016a6904-0x62c59fc3.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rtarget-0x6534284a-0x016a6904-0x62c59d66.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RSafeway-0x6534284a-0x016a6904-0x82c59c37.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rrust1-0x6534284a-0x016a6904-0xe2c59c01.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RRoadway-0x6534284a-0x016a6904-0x42c59bbc.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RKroger-0x6534284a-0x016a6904-0x82c59b6c.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RFedExGround-0x6534284a-0x016a6904-0xa2c59b38.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RFedExExpress-0x6534284a-0x016a6904-0xc2c59afd.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RDHL-0x6534284a-0x016a6904-0x82c595d6.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RCostco-0x6534284a-0x016a6904-0xe2c5959f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5RConway-0x6534284a-0x016a6904-0xe2c59547.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rblank-0x6534284a-0x016a6904-0x029d7255.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Rbestbuy-0x6534284a-0x016a6904-0x02c295e9.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LYellow-0x6534284a-0x016a6904-0x22c5a454.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Lwalmart-0x6534284a-0x016a6904-0x02c5a421.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Lusps-0x6534284a-0x016a6904-0xa2c5a3f3.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Lups-0x6534284a-0x016a6904-0x22c5a026.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LtripleMRB-0x6534284a-0x016a6904-0xa2c59ff1.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Ltripleblack-0x6534284a-0x016a6904-0x22c59fb3.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Ltarget-0x6534284a-0x016a6904-0xe2c59d52.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LSafeway-0x6534284a-0x016a6904-0x42c59c2d.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Lrust1-0x6534284a-0x016a6904-0x02c59bf7.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LRoadway-0x6534284a-0x016a6904-0xa2c59bac.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LKroger-0x6534284a-0x016a6904-0x02c59b5f.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LFedExGround-0x6534284a-0x016a6904-0x62c59b23.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LFedExExpress-0x6534284a-0x016a6904-0x02c59aec.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LDHL-0x6534284a-0x016a6904-0xa2c595cc.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LCostco-0x6534284a-0x016a6904-0x62c59593.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5LConway-0x6534284a-0x016a6904-0xa2c5953b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Lblank-0x6534284a-0x016a6904-0xa29d723a.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/MM_53footbox22.5Lbestbuy-0x6534284a-0x016a6904-0x82c2958b.SC4Desc
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Yellowphantom-0x5ad0e817_0x2f33d38_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Yellowch613-0x5ad0e817_0x22f32c5b_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90walmartphantom-0x5ad0e817_0x22f31f7a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90uspsMR-0x5ad0e817_0x62f31b4e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90uspsch613-0x5ad0e817_0x22f3118f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90upsch613-0x5ad0e817_0xe2f30e3b_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90tripleMRB-0x5ad0e817_0x42f30ac7_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90tripleblack-0x5ad0e817_0x2f3070a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90targetch613-0x5ad0e817_0x2f303b4_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Safewaych613-0x5ad0e817_0xc2f30027_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90rust1t800-0x5ad0e817_0x22f28d5e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Roadwayphantom-0x5ad0e817_0xa2f289f4_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Roadwaych613-0x5ad0e817_0x22f2862e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Krogerch613-0x5ad0e817_0xe2f2828c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90FedExGroundch613-0x5ad0e817_0xe2f27f28_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90FedExExpressch613-0x5ad0e817_0x22f27b83_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90DHLch613-0x5ad0e817_0x82f27846_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90DHL352-0x5ad0e817_0xa2f2750c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Costcophantom-0x5ad0e817_0xa2f271a7_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Conwayphantom-0x5ad0e817_0xc2e0f784_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90Conwaych613-0x5ad0e817_0xc2e0c3e4_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankT800white-0x5ad0e817_0x82e0be75_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankT800black-0x5ad0e817_0xe2e0ac99_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankphantomwhite-0x5ad0e817_0x22e0a825_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankphantomred-0x5ad0e817_0x62e0a24a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankphantomblue-0x5ad0e817_0x2e09d40_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankMRwhite-0x5ad0e817_0x42e0977c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankch613white-0x5ad0e817_0xe2d65462_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blankch613black-0x5ad0e817_0x42d646dd_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blank352white-0x5ad0e817_0xc2d63406_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blank352red-0x5ad0e817_0x82d62568_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90blank352black-0x5ad0e817_0x22d62199_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi90bestbuych613-0x5ad0e817_0x82d61ccc_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Yellowphantom-0x5ad0e817_0xa2f340d1_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Yellowch613-0x5ad0e817_0x42f33153_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45walmartphantom-0x5ad0e817_0x42f320c7_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45uspsMR-0x5ad0e817_0x62f31c31_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45uspsch613-0x5ad0e817_0x22f31270_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45upsch613-0x5ad0e817_0xe2f30f0d_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45tripleMRB-0x5ad0e817_0x62f30baf_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45tripleblack-0x5ad0e817_0x62f307ee_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45targetch613-0x5ad0e817_0xa2f30490_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Safewaych613-0x5ad0e817_0x2f30131_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45rust1t800-0x5ad0e817_0x22f28f20_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Roadwayphantom-0x5ad0e817_0xa2f28adb_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Roadwaych613-0x5ad0e817_0xc2f28742_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Krogerch613-0x5ad0e817_0xc2f28389_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45FedExGroundch613-0x5ad0e817_0xa2f28011_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45FedExExpressch613-0x5ad0e817_0xa2f27c7a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45DHLch613-0x5ad0e817_0xc2f27930_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45DHL352-0x5ad0e817_0x2f275f3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Costcophantom-0x5ad0e817_0x2f27292_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Conwayphantom-0x5ad0e817_0x22f26e75_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45Conwaych613-0x5ad0e817_0x2e0c4e6_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankT800white-0x5ad0e817_0x82e0c0c2_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankT800black-0x5ad0e817_0x62e0ad88_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankphantomwhite-0x5ad0e817_0x2e0a9e7_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankphantomred-0x5ad0e817_0x42e0a381_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankphantomblue-0x5ad0e817_0x22e09e4e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankMRwhite-0x5ad0e817_0x82e09864_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankch613white-0x5ad0e817_0x22e09491_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankch613black-0x5ad0e817_0x42d64fad_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blankblackphantom-0x5ad0e817_0x16a6904_0x420000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blank352white-0x5ad0e817_0xa2d64423_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blank352red-0x5ad0e817_0xa2d626a6_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45blank352black-0x5ad0e817_0x2d622a2_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi45bestbuych613-0x5ad0e817_0xc2d61e01_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RYellowphantom-0x5ad0e817_0xe2f3791e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RYellowch613-0x5ad0e817_0xc2f33b97_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rwalmartphantom-0x5ad0e817_0x22f32250_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RuspsMR-0x5ad0e817_0x42f31e65_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Ruspsch613-0x5ad0e817_0x82f31a21_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rupsch613-0x5ad0e817_0xe2f31069_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RtripleMRB-0x5ad0e817_0xa2f30d32_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rtripleblack-0x5ad0e817_0x22f30967_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rtargetch613-0x5ad0e817_0x2f305f3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RSafewaych613-0x5ad0e817_0xe2f302ad_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rrust1t800-0x5ad0e817_0xc2f2ff1e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RRoadwayphantom-0x5ad0e817_0x82f28c4f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RRoadwaych613-0x5ad0e817_0x22f288cb_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RKrogerch613-0x5ad0e817_0xa2f284de_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RFedExGroundch613-0x5ad0e817_0x22f28171_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RFedExExpressch613-0x5ad0e817_0x22f27e0f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RDHLch613-0x5ad0e817_0xc2f27a82_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RDHL352-0x5ad0e817_0xe2f2773c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RCostcophantom-0x5ad0e817_0xc2f273f5_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RConwayphantom-0x5ad0e817_0xa2f2708a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RConwaych613-0x5ad0e817_0xe2e0c9bb_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RblankT800white-0x5ad0e817_0xe2e0c27d_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RblankT800black-0x5ad0e817_0x42e0b15b_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblankphantomwhite-0x5ad0e817_0x82e0ab73_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblankphantomred-0x5ad0e817_0x62e0a6a3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblankphantomblue-0x5ad0e817_0x22e0a0fd_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5RblankMRwhite-0x5ad0e817_0x2e09bea_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblankch613white-0x5ad0e817_0xe2e09677_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblankch613black-0x5ad0e817_0x62d6532b_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblankblackphantom-0x5ad0e817_0x16a6904_0x440000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblank352white-0x5ad0e817_0x82d6459f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblank352red-0x5ad0e817_0x42d62f28_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rblank352black-0x5ad0e817_0xa2d62426_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Rbestbuych613-0x5ad0e817_0xa2d62011_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LYellowphantom-0x5ad0e817_0xe2f37807_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LYellowch613-0x5ad0e817_0x42f33b05_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lwalmartphantom-0x5ad0e817_0x82f321c4_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LuspsMR-0x5ad0e817_0x42f31d5b_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Luspsch613-0x5ad0e817_0x82f31980_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lupsch613-0x5ad0e817_0x42f30ff8_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LtripleMRB-0x5ad0e817_0xa2f30c94_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Ltripleblack-0x5ad0e817_0x42f308d6_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Ltargetch613-0x5ad0e817_0xc2f30572_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LSafewaych613-0x5ad0e817_0xa2f30217_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lrust1t800-0x5ad0e817_0xe2f2fe9c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LRoadwayphantom-0x5ad0e817_0x82f28bce_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LRoadwaych613-0x5ad0e817_0x62f2884a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LKrogerch613-0x5ad0e817_0x42f28469_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LFedExGroundch613-0x5ad0e817_0xa2f280fb_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LFedExExpressch613-0x5ad0e817_0x82f27d7d_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LDHLch613-0x5ad0e817_0x22f27a0c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LDHL352-0x5ad0e817_0x2f276cd_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LCostcophantom-0x5ad0e817_0x82f2737a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LConwayphantom-0x5ad0e817_0x82f26fd3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LConwaych613-0x5ad0e817_0x2e0c5e0_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LblankT800white-0x5ad0e817_0x62e0c1f6_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LblankT800black-0x5ad0e817_0x22e0afb7_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblankphantomwhite-0x5ad0e817_0x62e0aad6_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblankphantomred-0x5ad0e817_0xc2e0a560_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblankphantomblue-0x5ad0e817_0xc2e09fb3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5LblankMRwhite-0x5ad0e817_0xe2e09b53_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblankch613white-0x5ad0e817_0xc2e095a3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblankch613black-0x5ad0e817_0x2d65279_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblankblackphantom-0x5ad0e817_0x16a6904_0x430000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblank352white-0x5ad0e817_0xa2d6451a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblank352red-0x5ad0e817_0x22d6278f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lblank352black-0x5ad0e817_0x42d623a8_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footsemi22.5Lbestbuych613-0x5ad0e817_0xe2d61f7c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footboxtest-0x5ad0e817_0x16a6904_0x3d0000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90Yellow-0x5ad0e817_0x62bff781_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90walmart-0x5ad0e817_0x22bff210_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90usps-0x5ad0e817_0x82bfec66_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90ups-0x5ad0e817_0x62bfe164_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90tripleMRB-0x5ad0e817_0x2bfdab7_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90tripleblack-0x5ad0e817_0xe2bfd51f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90target-0x5ad0e817_0xa2bfd10f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90Safeway-0x5ad0e817_0x62bfcd8e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90rust1-0x5ad0e817_0x42bfc8da_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90Roadway-0x5ad0e817_0x42bf8671_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90Kroger-0x5ad0e817_0xe2bf0434_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90FedExGround-0x5ad0e817_0xe2bf0014_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90FedExExpress-0x5ad0e817_0xe2bef7bc_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90DHL-0x5ad0e817_0x82bef346_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90Costco-0x5ad0e817_0xa2beee1d_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90Conway-0x5ad0e817_0xa2bee984_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90blank-0x5ad0e817_0x16a6904_0x3e0000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox90bestbuy-0x5ad0e817_0xa2bd0c14_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45Yellow-0x5ad0e817_0x82bff90c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45walmart-0x5ad0e817_0xc2bff313_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45usps-0x5ad0e817_0x62bfee8f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45ups-0x5ad0e817_0xa2bfe22a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45tripleMRB-0x5ad0e817_0xa2bfdbf6_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45tripleblack-0x5ad0e817_0x2bfd5ff_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45target-0x5ad0e817_0x82bfd208_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45Safeway-0x5ad0e817_0x62bfce7e_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45rust1-0x5ad0e817_0xa2bfc9f0_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45Roadway-0x5ad0e817_0x22bf9ed0_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45Kroger-0x5ad0e817_0x42bf052a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45FedExGround-0x5ad0e817_0x2bf013c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45FedExExpress-0x5ad0e817_0x62bef8fe_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45DHL-0x5ad0e817_0x42bef4bb_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45Costco-0x5ad0e817_0x2beef98_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45Conway-0x5ad0e817_0x62beeac8_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45blank-0x5ad0e817_0x16a6904_0x3f0000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox45bestbuy-0x5ad0e817_0xe2bd0d23_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RYellow-0x5ad0e817_0x82bffa81_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rwalmart-0x5ad0e817_0x22bff657_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rusps-0x5ad0e817_0x62bff086_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rups-0x5ad0e817_0xe2bfe986_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RtripleMRB-0x5ad0e817_0x42bfde95_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rtripleblack-0x5ad0e817_0xa2bfd89c_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rtarget-0x5ad0e817_0xa2bfd3d2_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RSafeway-0x5ad0e817_0x62bfcfe9_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rrust1-0x5ad0e817_0xc2bfcc72_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RRoadway-0x5ad0e817_0x42bfc75d_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RKroger-0x5ad0e817_0xc2bf0661_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RFedExGround-0x5ad0e817_0x42bf02a3_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RFedExExpress-0x5ad0e817_0x2befebe_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RDHL-0x5ad0e817_0xe2bef687_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RCostco-0x5ad0e817_0x62bef180_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5RConway-0x5ad0e817_0xa2beec76_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rblank-0x5ad0e817_0x16a6904_0x410000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Rbestbuy-0x5ad0e817_0x42bd0fc2_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LYellow-0x5ad0e817_0xa2bff9fc_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Lwalmart-0x5ad0e817_0x62bff53f_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Lusps-0x5ad0e817_0xe2bfef9b_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Lups-0x5ad0e817_0x22bfe8ec_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LtripleMRB-0x5ad0e817_0xe2bfddeb_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Ltripleblack-0x5ad0e817_0x22bfd6e8_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Ltarget-0x5ad0e817_0x62bfd325_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LSafeway-0x5ad0e817_0xa2bfcf7a_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Lrust1-0x5ad0e817_0x62bfcabf_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LRoadway-0x5ad0e817_0x22bfc667_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LKroger-0x5ad0e817_0x62bf05ec_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LFedExGround-0x5ad0e817_0x42bf0232_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LFedExExpress-0x5ad0e817_0x42befad1_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LDHL-0x5ad0e817_0x2bef5a8_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LCostco-0x5ad0e817_0xa2bef0ec_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5LConway-0x5ad0e817_0x62beebee_0x30000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Lblank-0x5ad0e817_0x16a6904_0x400000.SC4Model
+            - MM_NA_53ftTrailers_Vol1/53footbox22.5Lbestbuy-0x5ad0e817_0xe2bd0de2_0x30000.SC4Model
+      lastModified: 2015-10-18T13:46:36Z
+      name: Default
       version: 1.0.0
 
 mushymushy/hd-north-american-semi-truck-cabs-vol01:
   authors:
     - MushyMushy
   category: props
+  dependencies:
+    - mushymushy/hd-north-american-40ft-semi-trailers-vol01
+    - mushymushy/hd-north-american-53ft-semi-trailers-vol01
   description: >-
+    **HD North American Semi Truck Cabs Vol.1** **by MushyMushy**
+
+
     This is a prop pack containing 64 unique HD semi truck cab props, all of which are based on North American models of various years. All models are rendered at 90, 45, 22.5L, and 22.5R angles with
     reasonably tight LODs to provide maximum flexibility. This pack only includes truck cabs, later packs will include various trailers and possibly other cabs. Please note that as this is a prop
     pack, there are no Lots included - you must put the props on a Lot using the Lot Editor for them to show up in-game. All props can be easily found in the LE by typing "MM_" into the search bar.
@@ -157,6 +743,12 @@ mushymushy/hd-north-american-semi-truck-cabs-vol01:
     - [HD North American 53ft Semi Trailers Vol.1](https://community.simtropolis.com/files/file/30773-hd-north-american-53ft-semi-trailers-vol1/) by MushyMushy
 
 
+    **Install Instructions:**
+
+
+    - Unzip the downloaded file and place the included folder into your SC4 plugins folder. No readme is included due to the simplistic nature of this download.
+
+
     Enjoy!
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_08/truckline.jpg.baef61194be535ec7a488d88bba77616.jpg
@@ -169,7 +761,137 @@ mushymushy/hd-north-american-semi-truck-cabs-vol01:
   variants:
     default:
       assets:
-        - id: simtropolis/30732-hd-north-american-semi-truck-cabs-vol1
+        - docs: []
+          id: simtropolis/30732-hd-north-american-semi-truck-cabs-vol1
           include:
-            - MM_NA_SemiTruckCabs_Vol1
+            - MM_NA_SemiTruckCabs_Vol1/T800white90-0x5ad0e817_0x16a6904_0x550000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800white45-0x5ad0e817_0x16a6904_0x560000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800white22.5R-0x5ad0e817_0x16a6904_0x580000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800white22.5L-0x5ad0e817_0x16a6904_0x570000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800black90-0x5ad0e817_0x16a6904_0x590000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800black45-0x5ad0e817_0x16a6904_0x5a0000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800black22.5R-0x5ad0e817_0x16a6904_0x5c0000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/T800black22.5L-0x5ad0e817_0x16a6904_0x5b0000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomwhite90-0x5ad0e817_0xe2d778df_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomwhite45-0x5ad0e817_0x82d77ac7_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomwhite22.5R-0x5ad0e817_0x82d77e73_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomwhite22.5L-0x5ad0e817_0x62d77b62_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomred90-0x5ad0e817_0x22d73640_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomred45-0x5ad0e817_0x2d736a5_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomred22.5R-0x5ad0e817_0x22d73785_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomred22.5L-0x5ad0e817_0xa2d7371f_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblue90-0x5ad0e817_0xa2d682ec_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblue45-0x5ad0e817_0x2d6836f_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblue22.5R-0x5ad0e817_0xc2d735cf_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblue22.5L-0x5ad0e817_0x22d7349f_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblacktriple90-0x5ad0e817_0x2d67a8a_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblacktriple45-0x5ad0e817_0x42d67c1c_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblacktriple22.5R-0x5ad0e817_0x82d67c96_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblacktriple22.5L-0x5ad0e817_0xc2d67bd0_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblack90-0x5ad0e817_0x22d73983_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblack45-0x5ad0e817_0xa2d775cc_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblack22.5R-0x5ad0e817_0x82d77855_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/phantomblack22.5L-0x5ad0e817_0xc2d776fc_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRwhite90-0x5ad0e817_0xc2d66b37_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRwhite45-0x5ad0e817_0xc2d66b91_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRwhite22.5R-0x5ad0e817_0xc2d66c74_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRwhite22.5L-0x5ad0e817_0x42d66c00_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRusps90-0x5ad0e817_0xc2d6696d_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRusps45-0x5ad0e817_0x82d669e9_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRusps22.5R-0x5ad0e817_0x82d66aae_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MRusps22.5L-0x5ad0e817_0xe2d66a5d_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800white90-0x6534284a-0x016a6904-0x22a9b0e6.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800white45-0x6534284a-0x016a6904-0x42a9b0f8.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800white22.5R-0x6534284a-0x016a6904-0xe2a9b117.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800white22.5L-0x6534284a-0x016a6904-0x22a9b106.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800black90-0x6534284a-0x016a6904-0x02b8d326.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800black45-0x6534284a-0x016a6904-0xa2b8d33c.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800black22.5R-0x6534284a-0x016a6904-0xc2b8d35d.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_T800black22.5L-0x6534284a-0x016a6904-0xa2b8d34d.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomwhite90-0x6534284a-0x016a6904-0xe2dd1017.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomwhite45-0x6534284a-0x016a6904-0xc2dd11a1.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomwhite22.5R-0x6534284a-0x016a6904-0x22dd1172.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomwhite22.5L-0x6534284a-0x016a6904-0xa2dd1282.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomred90-0x6534284a-0x016a6904-0x42dd1379.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomred45-0x6534284a-0x016a6904-0xc2dd141d.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomred22.5R-0x6534284a-0x016a6904-0xe2dd1343.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomred22.5L-0x6534284a-0x016a6904-0xa2dd1101.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblue90-0x6534284a-0x016a6904-0x42dd1116.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblue45-0x6534284a-0x016a6904-0x82dd1428.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblue22.5R-0x6534284a-0x016a6904-0xc2dd106e.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblue22.5L-0x6534284a-0x016a6904-0x02dd138a.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblacktriple90-0x6534284a-0x016a6904-0x22dd1438.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblacktriple45-0x6534284a-0x016a6904-0x62dd12b3.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblacktriple22.5R-0x6534284a-0x016a6904-0x62dd11f4.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblacktriple22.5L-0x6534284a-0x016a6904-0x22dd1079.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblack90-0x6534284a-0x016a6904-0x02dd132c.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblack45-0x6534284a-0x016a6904-0x42dd10f4.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblack22.5R-0x6534284a-0x016a6904-0xc2dd11ba.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_phantomblack22.5L-0x6534284a-0x016a6904-0x42dd1055.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRwhite90-0x6534284a-0x016a6904-0x62dd10d0.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRwhite45-0x6534284a-0x016a6904-0x82dd10a1.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRwhite22.5R-0x6534284a-0x016a6904-0x62dd1097.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRwhite22.5L-0x6534284a-0x016a6904-0xc2dd12c1.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRusps90-0x6534284a-0x016a6904-0x02dd10dc.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRusps45-0x6534284a-0x016a6904-0x82dd1224.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRusps22.5R-0x6534284a-0x016a6904-0x82dd1213.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_MRusps22.5L-0x6534284a-0x016a6904-0xa2dd1039.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613white90-0x6534284a-0x016a6904-0x02dd144d.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613white45-0x6534284a-0x016a6904-0xe2dd10e7.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613white22.5R-0x6534284a-0x016a6904-0x62dd122f.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613white22.5L-0x6534284a-0x016a6904-0x62dd13d9.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613usps90-0x6534284a-0x016a6904-0x42dd12f2.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613usps45-0x6534284a-0x016a6904-0xe2dd114c.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613usps22.5R-0x6534284a-0x016a6904-0xa2dd123a.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613usps22.5L-0x6534284a-0x016a6904-0xc2dd12e8.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613black90-0x6534284a-0x016a6904-0xa2dd1462.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613black45-0x6534284a-0x016a6904-0x62dd140e.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613black22.5R-0x6534284a-0x016a6904-0x82dd1048.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613black22.5L-0x6534284a-0x016a6904-0x22dd1252.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613aerowhite45-0x6534284a-0x016a6904-0x62dd1458.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613aerowhite22.5R-0x6534284a-0x016a6904-0x42dd12fd.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613aerowhite22.5L-0x6534284a-0x016a6904-0xe2dd129e.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_ch613aerowhite-0x6534284a-0x016a6904-0xe2dd0fea.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352white90-0x6534284a-0x016a6904-0xa2dd1203.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352white45-0x6534284a-0x016a6904-0x02dd139e.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352white22.5R-0x6534284a-0x016a6904-0x22dd1120.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352white22.5L-0x6534284a-0x016a6904-0xc2dd112c.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352red90-0x6534284a-0x016a6904-0x02dd1443.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352red45-0x6534284a-0x016a6904-0x02dd113f.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352red22.5R-0x6534284a-0x016a6904-0x82dd1022.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352red22.5L-0x6534284a-0x016a6904-0xa2dd1136.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352black90-0x6534284a-0x016a6904-0x02dd1293.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352black45-0x6534284a-0x016a6904-0x82dd108b.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352black22.5R-0x6534284a-0x016a6904-0x82dd1082.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/MM_352black22.5L-0x6534284a-0x016a6904-0x82dd102d.SC4Desc
+            - MM_NA_SemiTruckCabs_Vol1/ch613white90-0x5ad0e817_0x2d6657e_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613white45-0x5ad0e817_0xc2d66648_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613white22.5R-0x5ad0e817_0x82d666c1_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613white22.5L-0x5ad0e817_0x22d66849_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613usps90-0x5ad0e817_0x42d662a6_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613usps45-0x5ad0e817_0xa2d66317_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613usps22.5R-0x5ad0e817_0x82d664c4_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613usps22.5L-0x5ad0e817_0x42d663f4_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613black90-0x5ad0e817_0x16a6904_0x520000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613black45-0x5ad0e817_0x22d65b63_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613black22.5R-0x5ad0e817_0xe2d6615a_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613black22.5L-0x5ad0e817_0x82d66084_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613aerowhite45-0x5ad0e817_0x2d65846_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613aerowhite22.5R-0x5ad0e817_0x42d6591b_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613aerowhite22.5L-0x5ad0e817_0x62d658c5_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/ch613aerowhite-0x5ad0e817_0xe2d657d5_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352white90-0x5ad0e817_0x82d673e4_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352white45-0x5ad0e817_0x22d67455_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352white22.5R-0x5ad0e817_0xa2d67885_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352white22.5L-0x5ad0e817_0xa2d6773e_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352red90-0x5ad0e817_0x2d6706d_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352red45-0x5ad0e817_0xa2d6710c_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352red22.5R-0x5ad0e817_0xe2d6722e_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352red22.5L-0x5ad0e817_0xa2d671a3_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352black90-0x5ad0e817_0x62d66db0_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352black45-0x5ad0e817_0xc2d66ea1_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352black22.5R-0x5ad0e817_0xc2d66fb8_0x30000.SC4Model
+            - MM_NA_SemiTruckCabs_Vol1/352black22.5L-0x5ad0e817_0xe2d66f65_0x30000.SC4Model
+      lastModified: 2016-03-15T08:06:53Z
+      name: Default
       version: 1.0.0

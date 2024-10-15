@@ -110,6 +110,24 @@ deadwoods/bsc-dedwd-elrail-shops:
           id: simtropolis/12913-bsc-dedwd-elrail-shops
           include:
             - deadwoods/Under Rail Shops
+      lastModified: 2024-07-21T22:58:12Z
+      lots:
+        - filename: DEDWD_6x1_ElRailShops_6wide.SC4Lot
+          id: DEDWD_6x1_ElRailShops_6wide.SC4Lot
+          label: DEDWD_6x1_ElRailShops_6wide.SC4Lot
+          size: 6x1
+        - filename: DEDWD_5x1_ElRailShops_5wide.SC4Lot
+          id: DEDWD_5x1_ElRailShops_5wide.SC4Lot
+          label: DEDWD_5x1_ElRailShops_5wide.SC4Lot
+          size: 5x1
+        - filename: DEDWD_4x1_ElRailShops_4wide.SC4Lot
+          id: DEDWD_4x1_ElRailShops_4wide.SC4Lot
+          label: DEDWD_4x1_ElRailShops_4wide.SC4Lot
+          size: 4x1
+        - filename: DEDWD_3x1_ElRailShops_3wide.SC4Lot
+          id: DEDWD_3x1_ElRailShops_3wide.SC4Lot
+          label: DEDWD_3x1_ElRailShops_3wide.SC4Lot
+          size: 3x1
       version: 1.0.3
   warnings:
     - id: bulldoze
@@ -227,6 +245,24 @@ deadwoods/bsc-dedwd-monorail-shops:
           id: simtropolis/12914-bsc-dedwd-monorail-shops
           include:
             - deadwoods/Under Rail Shops
+      lastModified: 2024-07-21T23:05:04Z
+      lots:
+        - filename: DEDWD_6x1_MonoRailShops_6wide.SC4Lot
+          id: DEDWD_6x1_MonoRailShops_6wide.SC4Lot
+          label: DEDWD_6x1_MonoRailShops_6wide.SC4Lot
+          size: 6x1
+        - filename: DEDWD_5x1_MonoRailShops_5wide.SC4Lot
+          id: DEDWD_5x1_MonoRailShops_5wide.SC4Lot
+          label: DEDWD_5x1_MonoRailShops_5wide.SC4Lot
+          size: 5x1
+        - filename: DEDWD_4x1_MonoRailShops_4wide.SC4Lot
+          id: DEDWD_4x1_MonoRailShops_4wide.SC4Lot
+          label: DEDWD_4x1_MonoRailShops_4wide.SC4Lot
+          size: 4x1
+        - filename: DEDWD_3x1_MonoRailShops_3wide.SC4Lot
+          id: DEDWD_3x1_MonoRailShops_3wide.SC4Lot
+          label: DEDWD_3x1_MonoRailShops_3wide.SC4Lot
+          size: 3x1
       version: 1.0.3
   warnings:
     - id: bulldoze
@@ -237,9 +273,18 @@ deadwoods/bsc-dedwd-small-shops-1x1-set:
     - deadwoods
   category: commercial
   dependencies:
+    - bsc/common-dependencies
     - bsc/essentials
     - deadwoods/mega-props-vol02
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
   description: >-
+    # DEDWD Small Shops 1x1 Pack
+
+
+    by deadwoods
+
+
     This package contains a set of small shops on 1x1 lots. I noticed a distinct lack of unique buildings in this space provided by Maxis (Simgoober has created some great 1x1 lots). The buildings on
     these lots are based on brick shops found in many of the older (early 20th Century) suburbs in Australia. However the style is very common and can be found in many places worldwide. I've seen
     shops like these in small towns in the USA.
@@ -325,6 +370,32 @@ deadwoods/bsc-dedwd-small-shops-1x1-set:
           id: simtropolis/13168-bsc-dedwd-small-shops-1x1-set
           include:
             - deadwoods/Small Shops
+      lastModified: 2024-07-21T14:30:32Z
+      lots:
+        - category: cs$
+          filename: CS$3_1x1_DEDWD_SmallShop2_2fd72e8c.SC4Lot
+          id: 2fd72e8c
+          label: CS$3_1x1_DEDWD_SmallShop2_2fd72e8c.SC4Lot
+          size: 1x1
+          stage: 3
+        - category: cs$
+          filename: CS$2_1x1_DEDWD_SmallShop1_6fd4496f.SC4Lot
+          id: 6fd4496f
+          label: CS$2_1x1_DEDWD_SmallShop1_6fd4496f.SC4Lot
+          size: 1x1
+          stage: 2
+        - category: cs$$
+          filename: CS$$2_1x1_DEDWD_SmallShop2_2fe6fe3e.SC4Lot
+          id: 2fe6fe3e
+          label: CS$$2_1x1_DEDWD_SmallShop2_2fe6fe3e.SC4Lot
+          size: 1x1
+          stage: 2
+        - category: cs$$
+          filename: CS$$2_1x1_DEDWD_SmallShop1_efe6fc9e.SC4Lot
+          id: efe6fc9e
+          label: CS$$2_1x1_DEDWD_SmallShop1_efe6fc9e.SC4Lot
+          size: 1x1
+          stage: 2
       version: 1.0.3
   warnings:
     - id: bulldoze
@@ -423,6 +494,32 @@ deadwoods/bsc-dedwd-small-shops-1x2-set:
           id: simtropolis/13169-bsc-dedwd-small-shops-1x2-set
           include:
             - deadwoods/Small Shops
+      lastModified: 2024-07-21T14:29:43Z
+      lots:
+        - category: cs$
+          filename: CS$3_1x2_DEDWD_SmallShop4_efec29b0.SC4Lot
+          id: efec29b0
+          label: CS$3_1x2_DEDWD_SmallShop4_efec29b0.SC4Lot
+          size: 1x2
+          stage: 3
+        - category: cs$
+          filename: CS$2_1x2_DEDWD_SmallShop3_8fec271e.SC4Lot
+          id: 8fec271e
+          label: CS$2_1x2_DEDWD_SmallShop3_8fec271e.SC4Lot
+          size: 1x2
+          stage: 2
+        - category: cs$$
+          filename: CS$$2_1x2_DEDWD_SmallShop4_4fec2c6a.SC4Lot
+          id: 4fec2c6a
+          label: CS$$2_1x2_DEDWD_SmallShop4_4fec2c6a.SC4Lot
+          size: 1x2
+          stage: 2
+        - category: cs$$
+          filename: CS$$1_1x2_DEDWD_SmallShop3_0fec2b3a.SC4Lot
+          id: 0fec2b3a
+          label: CS$$1_1x2_DEDWD_SmallShop3_0fec2b3a.SC4Lot
+          size: 1x2
+          stage: 1
       version: 1.0.3
   warnings:
     - id: bulldoze
@@ -560,7 +657,372 @@ deadwoods/bsc-dedwd-small-shops-flat-roof-versions-set:
           id: simtropolis/13396-bsc-dedwd-small-shops-flat-roof-versions-set
           include:
             - deadwoods/Small Shops
+      lastModified: 2024-07-21T14:34:26Z
+      lots:
+        - category: cs$
+          filename: CS$3_1x2_DEDWD_SmallShop4_1f9196d2.SC4Lot
+          id: 1f9196d2
+          label: CS$3_1x2_DEDWD_SmallShop4_1f9196d2.SC4Lot
+          size: 1x2
+          stage: 3
+        - category: cs$
+          filename: CS$3_1x1_DEDWD_SmallShop2_f90d144c.SC4Lot
+          id: f90d144c
+          label: CS$3_1x1_DEDWD_SmallShop2_f90d144c.SC4Lot
+          size: 1x1
+          stage: 3
+        - category: cs$
+          filename: CS$2_1x2_DEDWD_SmallShop3_54083b2b.SC4Lot
+          id: 54083b2b
+          label: CS$2_1x2_DEDWD_SmallShop3_54083b2b.SC4Lot
+          size: 1x2
+          stage: 2
+        - category: cs$
+          filename: CS$2_1x1_DEDWD_SmallShop1_1b3d86c2.SC4Lot
+          id: 1b3d86c2
+          label: CS$2_1x1_DEDWD_SmallShop1_1b3d86c2.SC4Lot
+          size: 1x1
+          stage: 2
+        - category: cs$$
+          filename: CS$$2_1x2_DEDWD_SmallShop4_2141534f.SC4Lot
+          id: 2141534f
+          label: CS$$2_1x2_DEDWD_SmallShop4_2141534f.SC4Lot
+          size: 1x2
+          stage: 2
+        - category: cs$$
+          filename: CS$$2_1x1_DEDWD_SmallShop2_57e2b868.SC4Lot
+          id: 57e2b868
+          label: CS$$2_1x1_DEDWD_SmallShop2_57e2b868.SC4Lot
+          size: 1x1
+          stage: 2
+        - category: cs$$
+          filename: CS$$2_1x1_DEDWD_SmallShop1_400314da.SC4Lot
+          id: 400314da
+          label: CS$$2_1x1_DEDWD_SmallShop1_400314da.SC4Lot
+          size: 1x1
+          stage: 2
+        - category: cs$$
+          filename: CS$$1_1x2_DEDWD_SmallShop3_4254be34.SC4Lot
+          id: 4254be34
+          label: CS$$1_1x2_DEDWD_SmallShop3_4254be34.SC4Lot
+          size: 1x2
+          stage: 1
       version: 1.0.3
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/dedwd-highway-walls:
+  authors:
+    - deadwoods
+  category: transport
+  description: >-
+    This download contains a set of highway noise barrier walls. Whilst being of a simple and cheap concrete and steel design, they have a more pleasing curved pattern look as seems to be the trend in
+    a lot of road construction these days.
+
+
+    They are modded to provide a very healthy Park and Landmark effect, so the sims living and working near them will appreciate it. They also have a significant pollution reduction factor, so even
+    though they can't reduce the sim traffic noise, they can remove the pollution affects assoicated with them. Plop a few of these beside a highway, avenue or road and see the positive effect they
+    have on the surrounding buildings.
+
+
+    There are ten lots in the set; some straight, some with corners, some diagonal and some overhanging the lot to cover those blank tiles beside the on/off ramps that you can never use.
+
+
+    The lots all have the base texture removed, so the ground texture underneath will show through. This is good as the highways don't have a texture under them, so the lots match. But the lots
+    sometime suffer from the "missing base" bug where the base appears blue/black.
+
+
+    I'm working on a Menu Management Lot (MML) mod for these, so they don't clutter up the Misc Transport menu when you don't need them. These lots are BSC Tracking Enabled (BTE) which means they may
+    contribute to Reward Chains.
+
+
+    ### Lot Specs
+
+
+    |     |     |     |     |
+
+    | --- | --- | --- | --- |
+
+    | Lot size: | 1 x 1 tiles | 1 x 2 tiles | 1 x 4 tiles |
+
+    | Plop cost: | § 80 | § 120 | § 160 |
+
+    | Bulldoze cost: | § 5 | § 8 | § 10 |
+
+    | Occupant Groups: | Building: Transportation,Building: MiscTransit,BTE : DW Lot Counter |     |     |
+
+    | Power consumption: | 0 MWh/month |     |     |
+
+    | Water consumption: | 5 Gallons/month |     |     |
+
+    | Air pollution: | \-256 over 3 tiles | \-256 over 4 tiles | \-256 over 5 tiles |
+
+    | Water pollution: | 0 over 1 tiles |     |     |
+
+    | Garbage pollution: | 0 over 0 tiles |     |     |
+
+    | Demand created: | None |     |     |
+
+    | Demand satisfied: | R-$ : 250,R-$$ : 250,R-$$$ : 250 |     |     |
+
+    | Landmark effect: | 20 over 10 tiles |     |     |
+
+    | Park effect: | 30 over 15 tiles |     |     |
+
+    | Monthly costs: | § 1 (maint) | § 3 (maint) | § 5 (maint) |
+
+
+    ### Dependencies
+
+
+    To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.
+
+
+    You should have the following two files;
+
+
+    [BSC Mega Textures Vol.01](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=90)
+
+
+    [BSC Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=443)
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/37a5e0380a575593a982e4d659776098-DEDWD_HighwayWallsCurved-stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0007/37a5e0380a575593a982e4d659776098-DEDWD_HighwayWallsCurved-stexpic2.jpg
+  name: DEDWD Highway Walls
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_08_2006/thumb-37a5e0380a575593a982e4d659776098-DEDWD_HighwayWallsCurved-stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/16556-dedwd-highway-walls/
+  variants:
+    default:
+      assets:
+        - docs:
+            - DEDWD_HighwayWallsCurved-stexpic1.jpg
+            - DEDWD_HighwayWallsCurved-stexpic2.jpg
+            - DEDWD_HighwayWallsCurved_readme.html
+            - ll.gif
+            - lr.gif
+            - pieces.jpg
+            - readme_splash_blue.jpg
+            - ul.gif
+            - ur.gif
+          id: simtropolis/16556-dedwd-highway-walls
+      lastModified: 2017-07-30T17:48:20Z
+      lots:
+        - filename: DEDWD_HwyWallCurved_1TileOverhang_d1c45f70.SC4Lot
+          id: d1c45f70
+          label: DEDWD_HwyWallCurved_1TileOverhang_d1c45f70.SC4Lot
+        - filename: DEDWD_HwyWallCurved_1TileOvrhngDn_d1c460b1.SC4Lot
+          id: d1c460b1
+          label: DEDWD_HwyWallCurved_1TileOvrhngDn_d1c460b1.SC4Lot
+        - filename: DEDWD_HwyWallCurved_1TileOvrhngUp_71c46128.SC4Lot
+          id: 71c46128
+          label: DEDWD_HwyWallCurved_1TileOvrhngUp_71c46128.SC4Lot
+        - filename: DEDWD_HwyWallCurved_1Tile_309238c5.SC4Lot
+          id: 309238c5
+          label: DEDWD_HwyWallCurved_1Tile_309238c5.SC4Lot
+        - filename: DEDWD_HwyWallCurved_2Tile_709238cc.SC4Lot
+          id: 709238cc
+          label: DEDWD_HwyWallCurved_2Tile_709238cc.SC4Lot
+        - filename: DEDWD_HwyWallCurved_4Tile_50923945.SC4Lot
+          id: "50923945"
+          label: DEDWD_HwyWallCurved_4Tile_50923945.SC4Lot
+        - filename: DEDWD_HwyWallCurved_CnrDown1Tile_f1c45e16.SC4Lot
+          id: f1c45e16
+          label: DEDWD_HwyWallCurved_CnrDown1Tile_f1c45e16.SC4Lot
+        - filename: DEDWD_HwyWallCurved_CnrUp1Tile_d1c45e44.SC4Lot
+          id: d1c45e44
+          label: DEDWD_HwyWallCurved_CnrUp1Tile_d1c45e44.SC4Lot
+        - filename: DEDWD_HwyWallCurved_Diagonal1TileOverhang_71cab5d8.SC4Lot
+          id: 71cab5d8
+          label: DEDWD_HwyWallCurved_Diagonal1TileOverhang_71cab5d8.SC4Lot
+        - filename: DEDWD_HwyWallCurved_Diagonal1Tile_d1c45d9f.SC4Lot
+          id: d1c45d9f
+          label: DEDWD_HwyWallCurved_Diagonal1Tile_d1c45d9f.SC4Lot
+      name: Default
+      version: 1.01.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/dedwd-large-school-set:
+  authors:
+    - deadwoods
+  category: civics
+  description: >-
+    Welcome to deadwoods' Large School Set. A series of school lots to grow as your rural areas grow into cities. There are three lots in the setwith increasing student capacities that you "upgrade"
+    to as you need to.
+
+
+    I had originally intended to make the upgrades work like the Maxis airports, but the upgrade mechanism is built into the game. Instead, I have created three lots of the same size (7x6) all based
+    around some anchor buildings (a small schoolhouse, a gym and toilet block). Each of the three stages have different lot layouts and student capacities. All three lots have 4x the coverage of the
+    small elementary school. All three lots also provide education for both elementary (primary or K-6) and high (secondary or 7-12) students.
+
+
+    The stages are:
+
+
+    - **Stage 1** - Designed for a rural community with a small school and some paddocks where students can learn animal and farming skills. This has a capacity for 750 students.
+
+    - **Stage 2** - Designed for a small-medium town or a growing suburb. The main buildings are the same, but the increased capacity has been filled by portable classrooms (portables). A soccer field
+    has been added for sport and a better carpark introduced. This has a capacity for 1500 students.
+
+    - **Stage 3** - Designed for large town or medium/high density suburb. A large 28-classroom building has been added for increased capacity (now 3000 students). This school runs night Adult
+    Education classes and so also helps the education level of adults.
+
+
+    These lots do not automatically upgrade. When you find one starting to reach capacity, you should bulldoze it and plop the next stage lot. You may need to tweak the funding settings to get the new
+    school equivalent to the previous one. The bulldoze costs for the Stage1 and Stage2 schools is zero. The plop cost of the Stage2 and Stage3 schools is lower than you would expect as it's an
+    incremental cost.
+
+
+    These lots are BSC Tracking Enabled (BTE) which means they may contribute to Reward Chains.
+
+
+    Please see the readme for all technical details and dependencies.
+
+
+    Thanks to the BSC for assistance with development and testing of these lots.
+  images:
+    - https://www.simtropolis.com/objects/screens/0012/6945ede28fec81b6a88bdad45fb59487-DEDWD_LargeSchoolSet_stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0012/6945ede28fec81b6a88bdad45fb59487-DEDWD_LargeSchoolSet_stexpic2.jpg
+  name: DEDWD Large School Set
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_07_2006/thumb-6945ede28fec81b6a88bdad45fb59487-DEDWD_LargeSchoolSet_stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/14381-dedwd-large-school-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - DEDWD_LargeSchoolSet_readme.html
+            - DEDWD_LargeSchoolSet_stexpic1.jpg
+            - DEDWD_LargeSchoolSet_stexpic2.jpg
+            - ll.gif
+            - lr.gif
+            - readme_splash_blue.jpg
+            - ul.gif
+            - ur.gif
+          id: simtropolis/14381-dedwd-large-school-set
+      lastModified: 2006-07-05T04:49:00Z
+      lots:
+        - filename: DEDWD_LargeSchoolStage1_90a23590.SC4Lot
+          id: 90a23590
+          label: DEDWD_LargeSchoolStage1_90a23590.SC4Lot
+        - filename: DEDWD_LargeSchoolStage2_90a23152.SC4Lot
+          id: 90a23152
+          label: DEDWD_LargeSchoolStage2_90a23152.SC4Lot
+        - filename: DEDWD_LargeSchoolStage3_90a1f708.SC4Lot
+          id: 90a1f708
+          label: DEDWD_LargeSchoolStage3_90a1f708.SC4Lot
+      name: Default
+      version: 1.02.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+deadwoods/dedwd-sunken-plazas-mall-set:
+  authors:
+    - deadwoods
+  category: parks
+  description: >-
+    This pack contains a series of sunken plaza lots. These subterranean malls are found in many cities, often connecting subways.
+
+
+    There are five lots in the set; one with a set of stairs/escalators leading down to the mall, two open (one with jobs), and two with a pyramidal glass roof over the mall (again one with jobs). You
+    can string these together to create a mall.
+
+
+    Apart from the two lots with jobs, these are merely eye-candy, modded the same as the Maxis plazas. The two lots with jobs must be placed beside a network tile (e.g. street, road) otherwise you
+    will get no-job zots.
+
+
+    These lots are BSC Tracking Enabled (BTE) which means they may contribute to Reward Chains.
+
+
+    <table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="10"><img src="ul.gif" alt="ul.gif"></td><td bgcolor="#c0c8db"></td><td width="10"><img src="ur.gif"
+    alt="ur.gif"></td></tr><tr><td bgcolor="#c0c8db"></td><td><h2>Lot Details and Information</h2></td><td bgcolor="#c0c8db"></td></tr><tr><td width="10"><img src="ll.gif" alt="ll.gif"></td><td
+    bgcolor="#c0c8db"></td><td width="10"><img src="lr.gif" alt="lr.gif"></td></tr></tbody></table>
+
+
+    ### Lot Specs
+
+
+    |     |     |
+
+    | --- | --- |
+
+    | Lot size: | 1 x 1 tiles |
+
+    | Plop cost: | § 90 |
+
+    | Bulldoze cost: | § 10 |
+
+    | Occupant Groups: | Building: Civic,Building: Park,BTE : Parks,BTE : DW Lot Counter |
+
+    | Power consumption: | 0 MWh/month |
+
+    | Water consumption: | 0 Gallons/month |
+
+    | Air pollution: | 0 over 0 tiles |
+
+    | Water pollution: | 0 over 0 tiles |
+
+    | Garbage pollution: | 1 over 0 tiles |
+
+    | Demand created: |     |
+
+    | Demand satisfied: | R-$ : 1000,R-$$ : 1000,R-$$$ : 1000 |
+
+    | Landmark effect: | 50 over 15 tiles |
+
+    | Park effect: | 25 over 15 tiles |
+
+    | Monthly costs: | § 10 (maint) |
+
+
+    ### Dependencies
+
+
+    There are no additional dependencies for these lots.
+  images:
+    - https://www.simtropolis.com/objects/screens/0027/f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic1.jpg
+    - https://www.simtropolis.com/objects/screens/0027/f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic2.jpg
+  name: DEDWD Sunken Plazas Mall Set
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2006/thumb-f45c9e2ea0ae2b85aa9d11171e41b2e0-DEDWD_SunkenPlaza_MallSet-stexpic1.jpg
+  url: https://community.simtropolis.com/files/file/16977-dedwd-sunken-plazas-mall-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - DEDWD_SunkenPlaza_MallSet-stexpic1.jpg
+            - DEDWD_SunkenPlaza_MallSet-stexpic2.jpg
+            - DEDWD_SunkenPlaza_MallSet_readme.html
+            - ll.gif
+            - lr.gif
+            - readme_splash_blue.jpg
+            - ul.gif
+            - ur.gif
+          id: simtropolis/16977-dedwd-sunken-plazas-mall-set
+      lastModified: 2006-09-29T18:57:08Z
+      lots:
+        - filename: DEDWD_SunkenPlaza_1x1Pyramid_521bf94e.SC4Lot
+          id: 521bf94e
+          label: DEDWD_SunkenPlaza_1x1Pyramid_521bf94e.SC4Lot
+        - filename: DEDWD_SunkenPlaza_1x1Pyramid_wJobs_721bf98c.SC4Lot
+          id: 721bf98c
+          label: DEDWD_SunkenPlaza_1x1Pyramid_wJobs_721bf98c.SC4Lot
+        - filename: DEDWD_SunkenPlaza_1x1Section_521bdf8c.SC4Lot
+          id: 521bdf8c
+          label: DEDWD_SunkenPlaza_1x1Section_521bdf8c.SC4Lot
+        - filename: DEDWD_SunkenPlaza_1x1Section_wJobs_521be2ea.SC4Lot
+          id: 521be2ea
+          label: DEDWD_SunkenPlaza_1x1Section_wJobs_521be2ea.SC4Lot
+        - filename: DEDWD_SunkenPlaza_1x1Stairs_521be2f5.SC4Lot
+          id: 521be2f5
+          label: DEDWD_SunkenPlaza_1x1Stairs_521be2f5.SC4Lot
+      name: Default
+      version: 1.00.0
   warnings:
     - id: bulldoze
       on: disable

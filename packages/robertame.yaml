@@ -11,6 +11,9 @@ robertame/amps:
     - simmer2/mobile-power-generator
     - takemethere/transformer-substation
   description: >-
+    ![](https://www.simtropolis.com/objects/screens/monthly_2024_05/AMPS_Mini_Banner.thumb.png.a9c2fd424bd00ff234e7f89e7d9fde3a.png)
+
+
     **WARNING!** This mod makes drastic changes to the way a city's power plants work. As such, you MUST have bulldozed ALL power plants and any other supported buildings from your cities before
     installation. Failure to do so can result in a corrupted save game. BACK UP YOUR REGION BEFORE INSTALL. It is recommended that after installing this mod you begin a fresh region with no cities in
     it. SUPPORT WILL NOT BE PROVIDED IF YOU ARE TRYING TO GET AMPS TO WORK IN AN EXISTING CITY!
@@ -23,7 +26,55 @@ robertame/amps:
     for easier and quicker, despite having close to a hundred options.
 
 
-    TODO: Colyn's CSX Mini Generator - https://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=634 File no longer available on the new SC4E site
+    Dependencies:
+
+
+    There are NO dependencies in the traditional sense. If you Install AMPS with nothing else, it will work... and you won't be able to build any of the supported power plants, which include all Maxis
+    plants. I designed AMPS to be very dynamic and provide automatic integration of any supported lots you happen to have installed. Certain lots however are essentially mandatory in order to actually
+    do anything. I've called these "hard requirements" and not "dependencies" so as to not cause confusion with such a well-established term. The Hard Requirements are as follows: (please note that
+    most of these downloads do have Dependencies and they are required to use these lots with or without AMPS)
+
+
+    Transformer Lots by Kloudkicker - Provides the backbone of the grid. Without them, you can't build much of anything power related.
+
+
+    KK Transformer Lots-Small - https://community.simtropolis.com/files/file/34273-kk-transformer-lots-small/
+
+
+    Substation Lots by Simmer2 - There are many substations, but these three are non-optional as they form the core of early grid construction.
+
+
+    SM2 HV Transformer - https://community.simtropolis.com/files/file/32790-sm2-hv-transformer/
+
+
+    SM2 Main Transformer & Main Transformer with building - https://community.simtropolis.com/files/file/31369-sm2-main-transformers/
+
+
+    Transmission Station by Takingyouthere - The required station to unlock most of the Maxis power plants.
+
+
+    Transformer lot - https://community.simtropolis.com/files/file/31217-transformer-substation/
+
+
+    All other downloads are OPTIONAL. Certain ones expand your options and are referred to as "Soft Requirements." These are as follows:
+
+
+    Needed to build Wind Turbines (such as the Maxis Wind Power Plant)
+
+
+    KK Wind Farm Maintenance Facility - https://community.simtropolis.com/files/file/34196-kk-wind-farm-maintenance-facility/
+
+
+    Needed to have power while you build a grid (these are essentially the only power plants available on Day 1 of a new city)
+
+
+    kaos78414's Generator - https://community.simtropolis.com/files/file/19458-kaos-rusty-generator/
+
+
+    Colyn's CSX Mini Generator - https://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=634 File no longer available on the new SC4E site
+
+
+    Simmer2's SM2 Mobile Power Generator - https://community.simtropolis.com/files/file/31431-sm2-mobile-power-generator/
 
 
     All lots that are directly supported by AMPS may use the AMPS_Mini_Banner.png in the STEX listings to show compatibility with this mod if they wish.
@@ -49,8 +100,26 @@ robertame/amps:
   variants:
     default:
       assets:
-        - id: simtropolis/36238-amps-beta-v032
+        - docs:
+            - AMPS v.0.3.2.pdf
+          id: simtropolis/36238-amps-beta-v032
           include:
-            - category: overrides
-              path: zzzzz_AMPS
+            - zzzzz_AMPS/AMPS_UI_Files.dat
+            - zzzzz_AMPS/AMPS_Language_Files_English.dat
+            - zzzzz_AMPS/AMPS_Core_Files.dat
+            - zzzzz_AMPS/200-20F_Power_Company_Buildings.dat
+            - zzzzz_AMPS/0D0-1DF_Waste_Plants.dat
+            - zzzzz_AMPS/0C0-1CF_Coal_Plants.dat
+            - zzzzz_AMPS/0B0-1BF_Wood-Clean_Coal_Plants.dat
+            - zzzzz_AMPS/0A0-1AF_Peak_Natural_Gas_Plants.dat
+            - zzzzz_AMPS/090-19F_Peak_Oil_Plants.dat
+            - zzzzz_AMPS/080-18F_Peak_Fission-Fusion.dat
+            - zzzzz_AMPS/070-17F_Base_Geothermal-Fission.dat
+            - zzzzz_AMPS/060-16F_Intermediate_Wind_Plants.dat
+            - zzzzz_AMPS/050-15F_Intermediate_Solar_Plants.dat
+            - zzzzz_AMPS/020-14F_All_Electrical.dat
+            - zzzzz_AMPS/010-11F_Intermediate_Generators.dat
+            - zzzzz_AMPS/000-10F_Peak_Oil-Natural_Gas_Generators.dat
+      lastModified: 2024-05-19T01:04:06Z
+      name: Default
       version: 0.3.2

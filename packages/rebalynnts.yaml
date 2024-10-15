@@ -21,6 +21,50 @@ rebalynnts/fence-props:
           id: simtropolis/19536-rlm-fence-props-revision-2
           include:
             - Fence Props/RLM Props
+      lastModified: 2008-03-16T18:05:55Z
+      version: 1.0.0
+
+rebalynnts/la-river-project:
+  authors:
+    - RebaLynnTS
+  category: waterfront,dependencies
+  description: >-
+    This is the complete LA River Project set that includes the channels and ditches developed by me
+
+
+    ### **CREDITS:**
+
+
+    The following members contributed models, textures, and modding support to this collection:
+
+
+    - RebaLynnTS
+
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06 and Ulisse Wolf.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66d4690764286_c99b08301545565dfc74193204283ff7-LAR-R02.jpg.820580b19c35b98b760354f962f1c1df.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/5d9c9591b027b2e37adfc0cdb1ece930-ditch01.jpg.f7c8215879e2c94c4941edfbb5cdd606.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66d4690819498_5d9c9591b027b2e37adfc0cdb1ece930-LAR-DUpload02.jpg.9aabb7b2197bd1d3fb8bda1d32ca1403.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66d46908c22fc_c99b08301545565dfc74193204283ff7-LAR-R01.jpg.cef25fef8bd198e8f99e41494720483f.jpg
+  name: LA River Project
+  optional:
+    - memo/submenus-dll
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/66d469ec1e073_c99b08301545565dfc74193204283ff7-LAR-R02.thumb.jpg.b0e37e197220c5befabfc8ce62c14eb7.jpg
+  url: https://community.simtropolis.com/files/file/36423-rlm-productions-la-river-project/
+  variants:
+    default:
+      assets:
+        - docs:
+            - RLM Productions - LA River Project/~Documents
+          id: simtropolis/36423-rlm-productions-la-river-project
+          include:
+            - path: Submenu
+              condition:
+                submenus: true
+            - RLM Productions - LA River Project/RLM Productions/LA River Project
+      lastModified: 2024-09-02T12:52:13Z
       version: 1.0.0
 
 rebalynnts/spot-simpeg-plop-orientation-tool:
@@ -29,12 +73,6 @@ rebalynnts/spot-simpeg-plop-orientation-tool:
     - Paeng
   category: props
   description: |-
-    \========================================================
-
-    SPOT (Simpeg Plop Orientation Tool)
-
-    \========================================================
-
     This is a set of props you can add to your lots to aid the player in seeing how to orient the lot.
 
     Where needed, these will be used on Simpeg Team Projects, at the developers discretion.
@@ -63,22 +101,6 @@ rebalynnts/spot-simpeg-plop-orientation-tool:
 
     \--------------------------------------
 
-    DEPENDENCIES
-
-    \--------------------------------------
-
-    None
-
-    \--------------------------------------
-
-    DEVELOPER NOTES
-
-    \--------------------------------------
-
-    Please see the SPOT readme for general information.
-
-    \--------------------------------------
-
     CREDITS
 
     \--------------------------------------
@@ -98,4 +120,5 @@ rebalynnts/spot-simpeg-plop-orientation-tool:
         - id: simtropolis/24509-spot-simpeg-plop-orientation-tool
           include:
             - PEGPROD/SPOT
-      version: 1.01.0
+      lastModified: 2018-10-13T01:28:58Z
+      version: 1.0.1

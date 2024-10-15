@@ -4,13 +4,36 @@ sejr99999/kromme-straat-r-growable:
     - sejr99999
   category: r$$
   dependencies:
+    - bsc/common-dependencies
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
     - cycledogg/textures-vol01
     - sander97/arc-park
     - shokthrpy/shk-parking-pack
     - simgoober/mega-props-vol01
-  description: Growable R$$ 9x19 lot housing 2449 Sims (hold down control while zoning for medium residential)
+  description: >-
+    Growable R$$ 9x19 lot housing 2449 Sims (hold down control while zoning for medium residential)
+
+
+    contains only lot & desc files for growable version
+
+
+    Dependencies: kromme straat by Sander97 (updated version)
+
+
+    cp proppacks 1 &2
+
+
+    cp textures
+
+
+    SG mega Proppack
+
+
+    [https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-LEX\-legacy-bsc-common-dependencies-pack](https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack)
+
+
+    SHK parking pack
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a981e1c15fd_thearcday.jpg.9f16f92866cb35a993c2e20b83351323.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/66a981e34f84b_thearcnight.jpg.f0112c88b33908d524a906fdcf43ba29.jpg
@@ -21,9 +44,18 @@ sejr99999/kromme-straat-r-growable:
   variants:
     default:
       assets:
-        - id: simtropolis/36355-kromme-straat-r-growable
+        - docs: []
+          id: simtropolis/36355-kromme-straat-r-growable
           include:
             - kromme straat R$$
+      lastModified: 2024-07-31T00:19:11Z
+      lots:
+        - filename: R$$4_9x19  KrommeStraat Park_d3b25873.SC4Lot
+          id: d3b25873
+          label: R$$4_9x19  KrommeStraat Park_d3b25873.SC4Lot
+          size: 9x19
+          stage: 4
+      name: Default
       requirements:
         darknite: false
       version: 1.0.0

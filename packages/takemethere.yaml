@@ -20,6 +20,11 @@ takemethere/diagonal-road-tunnel:
         - id: simtropolis/36260-diagonal-road-tunnel
           include:
             - Diagonal road tunnel
+      lastModified: 2024-05-23T07:15:45Z
+      lots:
+        - filename: Tunnel - Diagonal road grass.SC4Lot
+          id: tunnel
+          label: Diagonal Road Tunnel
       version: 1.0.0
   warnings:
     - id: bulldoze
@@ -50,6 +55,7 @@ takemethere/mount-royal-candelabra-tower:
         - id: simtropolis/30562-mount-royal-candelabra-tower
           include:
             - Mount Royal Candelabra Tower
+      lastModified: 2015-06-21T20:05:47Z
       lots:
         - cost: 4330
           demand:
@@ -98,6 +104,7 @@ takemethere/mount-royal-transmission-tower:
         - id: simtropolis/31045-mount-royal-transmission-tower
           include:
             - Montreal - Mount Royal Tower
+      lastModified: 2016-04-28T01:05:23Z
       lots:
         - cost: 4330
           demand:
@@ -107,6 +114,134 @@ takemethere/mount-royal-transmission-tower:
           label: Mount Royal Transmission Tower
           # Landmark Effect: 20 radius: 10 # TODO: YIMBY?
       version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+takemethere/murmansk-tv-tower:
+  authors:
+    - TakemeThere
+  category: landmarks
+  dependencies:
+    - mattb325/radio-station
+    - sfbt/essentials
+  description: >-
+    This is the 1st release of the [Towers of Steel Project](https://community.simtropolis.com/journals/entry/26048-the-towers-of-steel-project/). *The *Murmansk TV Tower is** 630ft/192m tall radio
+    tower located in the city of Murmansk, Russia. The tower is of a fairly common Russian design. The lot can be found at the bottom of the Landmark menu. Provides some commercial cap relief. There
+    are two versions, one with dependencies(the beige building & the green fences) and another without.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/b65d0d563cef2756ce4e38136c63bc01-630ft-1.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/6e74a642517315c2dd89e68b30b69262-630ft-2.png
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/485808804c9e70391286213b197b8981-630ft-3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_06_2015/77ed60d5f59a17da6fe0ba354a2596ea-tower-640.png
+  name: Murmansk TV Tower
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2015/thumb-b65d0d563cef2756ce4e38136c63bc01-630ft-1.png
+  url: https://community.simtropolis.com/files/file/30272-murmansk-tv-tower/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/30272-murmansk-tv-tower
+      lastModified: 2024-08-31T02:04:07Z
+      lots:
+        - cost: 6300
+          demand:
+            cs$: 2500
+            cs$$: 2500
+            cs$$$: 2500
+          filename: Russian style lattice tower - no dependencies version.SC4Lot
+          id: Russian style lattice tower - no dependencies version.SC4Lot
+          label: Murmansk TV Tower
+        - cost: 6300
+          demand:
+            cs$: 2500
+            cs$$: 2500
+            cs$$$: 2500
+          filename: Russian style lattice tower with radio station at base.SC4Lot
+          id: Russian style lattice tower with radio station at base.SC4Lot
+          label: Murmansk TV Tower, with radio station
+          # TODO
+          # Landmark Effect: 20 over 10 tiles
+          # Mayor Rating Effect: 30 over 15 tiles
+      version: 3.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+takemethere/russian-style-tv-tower-hd-version:
+  category: civics
+  dependencies:
+    - mattb325/radio-station
+    - takemethere/murmansk-tv-tower
+  description: >-
+    This is the updated 3ds HD version of the [1st release](https://community.simtropolis.com/files/file/30272-murmansk-tv-tower/?tab=comments#comment-650642) of the [Towers of Steel
+    Project](https://community.simtropolis.com/journals/entry/26048-the-towers-of-steel-project/). The **Russian-sytle TV Tower is** 630ft/192m tall radio tower located in the city of Murmansk,
+    Russia. The tower is of a fairly common Russian design. The lot can be found at the **very bottom** of the **Landmark** menu. There are two versions, a 2x2 lot with dependencies(the beige radio
+    station building & the green fences) and a 1x1 lot without dependencies. Some commercial cap relief is also provided.
+
+
+    **Stats:**
+
+
+    Plop Cost: $6,300
+
+
+    Demand Satisfied: CS$2500, CS$$2500, CS$$$2500
+
+
+    Landmark Effect: 20 over 10 tiles
+
+
+    Mayor Rating Effect: 30 over 15 tiles
+
+
+    Monthly Cost: $0
+
+
+    **Dependencies** (for the 2x2 lot):
+
+
+    mattb325 Radio Station building (https://community.simtropolis.com/files/file/27999-radio-station/)
+
+
+    [SFBT Essentials](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=750)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/5718708cf1c14_Russiaz6.jpg.6ce431e0d3cf418d3185ceb0e2594a18.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/571870b348188_RussiaLCz6.jpg.512dcb6df339843885b6c4d5a93788e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/485808804c9e70391286213b197b8981-630ft-3.jpg.b47d7c7ba41e0bc1dc839f7e01415013.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/77ed60d5f59a17da6fe0ba354a2596ea-tower-640.png.0b0c18d685ef7b8b2fd31c56568272cc.png
+  name: Russian Style TV Tower, HD version
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_04/571871b6ce64b_Russiaz6.thumb.jpg.3f088252d49d2b891a03653c5cacf1d4.jpg
+  url: https://community.simtropolis.com/files/file/31029-russian-style-tv-tower-hd-version/
+  variants:
+    hd:
+      assets:
+        - docs: []
+          id: simtropolis/31029-russian-style-tv-tower-hd-version#203036
+      authors:
+        - TakemeThere
+      lastModified: 2024-08-31T02:05:47Z
+      lots:
+        - filename: Russian-style lattice tower 2x2 lot.SC4Lot
+          id: Russian-style lattice tower 2x2 lot.SC4Lot
+          label: Russian-style lattice tower 2x2 lot.SC4Lot
+          size: 2x2
+      name: HD
+      version: 1.2.0
+    russian-style-lattice-tower-no-dependencies-version:
+      assets:
+        - docs: []
+          id: simtropolis/31029-russian-style-tv-tower-hd-version#203035
+      authors:
+        - TakemeThere
+      lastModified: 2024-08-31T02:05:47Z
+      lots:
+        - filename: Russian-style lattice tower 1x1 lot - no dependencies version.SC4Lot
+          id: Russian-style lattice tower 1x1 lot - no dependencies version.SC4Lot
+          label: Russian-style lattice tower 1x1 lot - no dependencies version.SC4Lot
+          size: 1x1
+      version: 1.2.0
   warnings:
     - id: bulldoze
       on: disable
@@ -153,6 +288,12 @@ takemethere/transformer-substation:
         - id: simtropolis/31217-transformer-substation
           include:
             - Transformer station with maxis power line hookup
+      lastModified: 2016-08-18T21:59:18Z
+      lots:
+        - filename: Power - 2x2 Transformer Station - old style_64a800cd.SC4Lot
+          id: 64a800cd
+          label: Transformer Substation
+          size: 2x2
       version: 1.0.0
   warnings:
     - id: bulldoze

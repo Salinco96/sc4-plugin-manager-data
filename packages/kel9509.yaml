@@ -1,11 +1,157 @@
+kel9509/fa2-high-rise-set:
+  authors:
+    - kel9509
+  category: residential
+  dependencies:
+    - effthegrid/fa2-high-rises-01
+    - null-45/growify-plops-dll
+  description: >-
+    FA2 High Rise Set
+
+
+    By Kel9505
+
+
+    Based off of EffTheGrid's models: FA2 High Rises 01.
+
+
+    Included are eight FA2 lots based off of EffTheGrid's original eyecandy lots and models. There are 4 buildings and two lots per building (left and right side for FA2 roads). The building stats are
+    as follows:
+
+
+    1\. FA2 Cocoa Exchange: Ploppable R$$$ Residential growify lots with 291 residents.
+
+
+    2\. FA2 Citysphere Growify: Ploppable R$$ Residential growify lots with 1275 residents.
+
+
+    3\. FA2 Rhodes Haverty Residence Inn: Ploppable CS$$ lots with 440 workers.
+
+
+    4\. FA2 TD Bank at Cadman Plaza: Ploppable CO$$ lots with 2064 workers.
+
+
+    These are LOTS ONLY, and does not include the model. They are a new lots and do not overwrite EffTheGrid's original landmark eyecandy lots.
+
+
+    Note: This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All dependencies listed below are REQUIRED for
+    this RCI DLL Query Upgrade Mod to work. For more information about compatible versions of Simcity4 and DLL mods, see here:
+
+
+    https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/
+
+
+    REQUIRED DEPENDENCIES:
+
+
+    1\. [FA2 High Rises 01](https://community.simtropolis.com/files/file/34705-fa2-high-rises-01/), by EffTheGrid:
+
+
+    2\. [Growify DLL Mod](https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/) by Null45:
+
+
+    TO INSTALL:
+
+
+    Make sure Simcity4 is not running prior to installation.
+
+
+    Extract all files into your Simcity4 Plugins folder. The archive can be extracted into a subfolder containing EffTheGrid's models and original lots.
+
+
+    TO USE:
+
+
+    Pause the game, plop the respective lot along a FA2 street. For the residential lots, use the Growify cheat code "Growify R M" or "Growify R H" to growify the lot as medium density or high density
+    lots. The commercial lots do not need the growify cheat but can merely be plopped. Make sure all lots have water and power or, like any other lot, it may abandon. If you have the submenu DLL mod
+    by memo, the lots will appear in the Residential Zone menu and Commercial Zones menus under the respective R$$, R$$$, CS$$ and CO$$ Ploppables submenu item.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e3bf2ef1e20_FA2Citysphere(Residential).jpg.7113de1225dc96ce951e26ffdfbc486b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e3bf321fc75_FA2CocoaExchange(Residential).jpg.1fba42550f1293d6dfdbb05ad9395c5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e3bf3641b21_FA2RhodesHaverty.jpg.25bade6ad27750d3191179c754ad49ba.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/66e3bf39c166e_FA2TDBank.jpg.28927ac0b7bee672ac04e977a100de0a.jpg
+  name: FA2 High Rise Set
+  release: 2024-09-13T12:22:00.820Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/66e3c0bcce735_FA2Citysphere(Residential).thumb.jpg.b23f6f7d44e90916c4e05f4aa953a9da.jpg
+  url: https://community.simtropolis.com/files/file/36445-fa2-high-rise-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - FA2 High Rise Set/FA2 Citysphere (Residential).jpg
+            - FA2 High Rise Set/FA2 Cocoa Exchange (Residential).jpg
+            - FA2 High Rise Set/FA2 High Rise Set.txt
+            - FA2 High Rise Set/FA2 Rhodes Haverty.jpg
+            - FA2 High Rise Set/FA2 TD Bank.jpg
+          id: simtropolis/36445-fa2-high-rise-set
+      lastModified: 2024-09-13T04:34:05Z
+      lots:
+        - category: landmarks
+          filename: PLOP_1x1_FA2 Cocoa Exchange Growify (Left)_2464faae.SC4Lot
+          id: 2464faae
+          label: PLOP_1x1_FA2 Cocoa Exchange Growify (Left)_2464faae.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x1_FA2 Cocoa Exchange Growify (Right)_0464fc2a.SC4Lot
+          id: 0464fc2a
+          label: PLOP_1x1_FA2 Cocoa Exchange Growify (Right)_0464fc2a.SC4Lot
+          size: 1x1
+        - category: landmarks
+          filename: PLOP_1x2_FA2 Rhodes Haverty Residence Inn (Left)_e467a081.SC4Lot
+          id: e467a081
+          label: PLOP_1x2_FA2 Rhodes Haverty Residence Inn (Left)_e467a081.SC4Lot
+          size: 1x2
+        - category: landmarks
+          filename: PLOP_1x2_FA2 Rhodes Haverty Residence Inn (Right)_b4679fd3.SC4Lot
+          id: b4679fd3
+          label: PLOP_1x2_FA2 Rhodes Haverty Residence Inn (Right)_b4679fd3.SC4Lot
+          size: 1x2
+        - category: landmarks
+          filename: PLOP_3x2_FA2 Citysphere Growify (Left)_0463bde6.SC4Lot
+          id: 0463bde6
+          label: PLOP_3x2_FA2 Citysphere Growify (Left)_0463bde6.SC4Lot
+          size: 3x2
+        - category: landmarks
+          filename: PLOP_3x2_FA2 Citysphere Growify (Right)_1463b5b0.SC4Lot
+          id: 1463b5b0
+          label: PLOP_3x2_FA2 Citysphere Growify (Right)_1463b5b0.SC4Lot
+          size: 3x2
+        - category: landmarks
+          filename: PLOP_3x3_FA2 TD Bank at Cadman Plaza (Left)_2468e6be.SC4Lot
+          id: 2468e6be
+          label: PLOP_3x3_FA2 TD Bank at Cadman Plaza (Left)_2468e6be.SC4Lot
+          size: 3x3
+        - category: landmarks
+          filename: PLOP_3x3_FA2 TD Bank at Cadman Plaza (Right)_7468e78b.SC4Lot
+          id: 7468e78b
+          label: PLOP_3x3_FA2 TD Bank at Cadman Plaza (Right)_7468e78b.SC4Lot
+          size: 3x3
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
 kel9509/rci-dll-query-upgrade:
   authors:
     - Kel9509
   category: gameplay
   dependencies:
+    - cyclone-boom/mysimtropolis-members-immortalized-in-sc4
+    - null-45/more-building-styles-dll
     - null-45/more-demand-info-dll
     - null-45/query-tool-ui-extensions-dll
+    - null-45/startup-performance-optimization-dll
   description: >-
+    RCI DLL Query Upgrade Mod, by Kel9509
+
+
+    v1.0 - May 10, 2024
+
+
+    v1.1 - July 27, 2024
+
+
     Using new DLL functionality for Simcity4 created by Null45.
 
 
@@ -29,10 +175,53 @@ kel9509/rci-dll-query-upgrade:
     across all Queries so that the same information is displayed as consistently as possible.
 
 
+    VERSION 1.1 RELEASE NOTES:
+
+
+    \- Added a Building Lot Growth Stage indicator to show the Stage that the lot grows under.
+
+
+    \- Expanded the room of the Building Style display, so it can show many more building styles available for a building.
+
+
+    \- Fixed some typos in the Residential Query to ensure there's enough space and make it consistent with the Commercial and Industrial Queries. Now supports showing up to 999,999,999 Sims in the
+    city and in the region, for those with very large cities and regions.
+
+
+    \- Added the MySim name, as well as support for the MySimtropolis: Members Immortalized in SC4 mod, and moved the icon to be more compact with the overall Query.
+
+
+    REQUIRED DEPENDENCIES:
+
+
+    The RCI DLL Query Upgrade Mod will not work unless the following dependencies are installed:
+
+
+    1\. [Query Tool UI Extensions DLL for SimCity 4](https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/), by Null45
+
+
+    2\. [SC4MoreDemandInfo](https://community.simtropolis.com/files/file/35978-sc4moredemandinfo/), by Null45
+
+
     Note that to use DLL mods, if your OS is earlier than Windows 10 you will need to install the Microsoft Visual C++ 2022 x86 Redistribute.
 
 
     https://aka.ms/vs/17/release/vc_redist.x86.exe
+
+
+    OPTIONAL DEPENDENCIES:
+
+
+    These dependencies are optional, but the RCI DLL Query Upgrade Mod is designed to use them:
+
+
+    1\. [Allow More Building Styles - DLL Plugin](https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/), by Null45
+
+
+    2\. [Startup Performance Optimization DLL Plugin](https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/), by Null45
+
+
+    3\. [MySimtropolis: Members Immortalized in SC4](https://community.simtropolis.com/files/file/32690-mysimtropolis-members-immortalized-in-sc4/), by CoriBoom (CorinaMaria and Cyclone Boom):
 
 
     \*\*\*\*INSTALLATION\*\*\*\*
@@ -44,6 +233,15 @@ kel9509/rci-dll-query-upgrade:
 
     SECOND - This mod requires DLL dependencies by Null45. DLL Dependencies are ONLY available for version 1.1.641 of SimCity 4 (Windows Digital Copies). All REQUIRED dependencies listed are needed
     for this RCI DLL Query Upgrade Mod to work.
+
+
+    TO INSTALL:
+
+
+    Make sure Simcity4 is not running prior to installation.
+
+
+    Extract all files into your Simcity4 Plugins folder.
 
 
     \*\*\*\*STATS\*\*\*\*
@@ -371,8 +569,16 @@ kel9509/rci-dll-query-upgrade:
     default:
       assets:
         - docs:
-            - RCI DLL Query Upgrade*
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query Upgrade v1.1.txt
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Residential Building v1.1.jpg
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Residential Building - With MySimtropolis Icon - v1.1.jpg
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Industrial Building v1.1.jpg
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Commercial Building v1.1.jpg
           id: simtropolis/36239-rci-dll-query-upgrade
           include:
-            - RCI DLL Query Upgrade*
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Residential Building UI (4A5672BF) v1.1.dat
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Industrial Building UI (2A567DC1) v1.1.dat
+            - RCI DLL Query Upgrade v1.1/RCI DLL Query - Commercial Building UI (CA56783A) v1.1.dat
+      lastModified: 2024-07-27T22:49:25Z
+      name: Default
       version: 1.1.0

@@ -2,6 +2,9 @@ ks_jpn/dependencies:
   authors:
     - ks_jpn
   category: dependencies
+  dependencies:
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
   description: >-
     This SC4 Devotion LEX Legacy Pack features the BSC-assembled prop packs of popular Japanese BATer ks_jpn, which had been available on the Lot Exchange (LEX) at SC4 Devotion. After battling a
     number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect these
@@ -10,6 +13,53 @@ ks_jpn/dependencies:
 
     Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
     update, and provide technical support for the pack.
+
+
+    **CHANGE LOG**
+
+
+    - 20.01.2024 - Update to Version 2
+
+
+    - Official update in the installer itself
+
+
+    - Some small adjustments and clean-ups in the prop packs and within the upload
+
+    - ks_jpn MEGA Props Vol04 has been updated to v2 as the Jade Hotel model had to be pulled out. That model is not a ks_JPN creation (as it turned out recently), but it is Raika's (another Japanese
+    BATter) creation that was released almost 20 years ago with the Freyman Hotel upload. The said model is/will be available in the SC4D LEX Legacy - Raika Dependency Collection V1, shortly.
+
+    - ks_jpn MEGA Props Vol11 has been updated to v2 after it received a recently recovered model; the Christmas version of the Akasaka Prince Hotel
+
+    - ks_jpn MEGA Props Vol14 has been updated to v2 after the included LTUArena-001_text.dat had to be updated as the the texture inside the DAT used a dummy and conflicting ID based on the provided
+    test range by the SC4Tool. The corresponding lot will be updated with the new texture ID.
+
+
+    **Installation**
+
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)\--or a zip tool capable
+    of opening the installer to allow manual installation. For Windows/Linux, use [7-zip](https://www.7-zip.org), and for macOS, use [Keka](https://www.keka.io/en/).
+
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything).
+    Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). On the Cleanup tab, click "Start scan" to find any
+    outdated files that currently reside in your Plugins folder that may conflict with this package. Clicking "Backup" will remove these old files to a safe location. (The option to "Delete" them also
+    exists, but is not recommended.)\*\* After this, click over to the Install tab, and click "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a
+    message indicating it, after which you are safe to close the installer.
+
+
+    \*\* Though there is an inbuilt cleanitol function in the installer, at this point it is not working entirely properly so it is highly recommended to run the individual cleanitol files or the
+    master cleanitol for the compilation with one of the following 3rd party cleanitol tools:
+
+
+    [nos.17 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) (new tool)
+
+
+    BSC Cleanitol (old tool)
 
 
     **Credits**
@@ -220,6 +270,9 @@ ks_jpn/dependencies:
 
 
     Various pieces of original documentation and earlier Cleanitol definitions can be found in the "\_Documents" folder.
+
+
+    ![SC4D LEX Legacy - ks_JPN Dependencies Pack V2_SC4E](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SC4D%20LEX%20Legacy%20-%20ks_JPN%20Dependencies%20Pack%20V2_SC4E.jpg)
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/SC4D LEX Legacy - ks_JPN Dependencies Pack V2_SC4E.jpg
   name: ks_JPN Dependencies Pack
@@ -230,27 +283,350 @@ ks_jpn/dependencies:
     default:
       assets:
         - docs:
-            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol*
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol
-            - ~Documents/readme*
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol01/note_ks_jpn MEGA Props Vol01.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol02/note_ks_jpn MEGA Props Vol02.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol03/note_ks_jpn MEGA Props Vol03.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol04 v2/note_ks_jpn MEGA Props Vol04.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol05/note_ks_jpn MEGA Props Vol05.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol06/note_ks_jpn MEGA Props Vol06.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol07/note_ks_jpn MEGA Props Vol07.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol08/note_ks_jpn MEGA Props Vol08.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol09/note_ks_jpn MEGA Props Vol09.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol10/note_ks_jpn MEGA Props Vol10.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol11 v2/note_ks_jpn MEGA Props Vol11 v2.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol12 (Stadiums Part 1)/note_ks_jpn MEGA Props Vol12.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol13 (Stadiums Part 2)/note_ks_jpn MEGA Props Vol13.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol14 (Stadiums Part 3) v2/note_ks_jpn MEGA Props Vol14 v2.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol15/note_ks_jpn MEGA Props Vol15.txt
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol16/note_ks_jpn MEGA Props Vol16.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol01.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol02.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol03.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol04 v2.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol05.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol06.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol07.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol08.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol09.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol10.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol11 v2.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol12.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol13.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol14 v2.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol15.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_ks_jpn MEGA Props Vol16.txt
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol01_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol02_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol03_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol04 v2_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol05_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol06_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol07_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol08_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol09_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol10_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol11 v2_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol12_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol13_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol14 v2_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol15_index.jpg
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/ks_jpn MEGA Props Vol16_index.jpg
+            - ~Documents/readme.css
+            - ~Documents/readme_ks_jpn_dependencies.html
+            - readme.css
+            - readme_ks_jpn_dependencies.html
           id: sc4evermore/153-sc4d-lex-legacy-ks-jpn-dependencies
           include:
-            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol*
-            # TODO: Split into packages?
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol01/ks_jpn MEGA Props Vol01.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol02/ks_jpn MEGA Props Vol02.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol03/ks_jpn MEGA Props Vol03.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol04 v2/ks_jpn MEGA Props Vol04 v2.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol05/ks_jpn MEGA Props Vol05.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol06/ks_jpn MEGA Props Vol06.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol07/ks_jpn MEGA Props Vol07.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol08/ks_jpn MEGA Props Vol08.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol09/ks_jpn MEGA Props Vol09.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol10/ks_jpn MEGA Props Vol10.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol11 v2/ks_jpn MEGA Props Vol11 v2.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol12 (Stadiums Part 1)/ks_jpn MEGA Props Vol12.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol13 (Stadiums Part 2)/ks_jpn MEGA Props Vol13.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol14 (Stadiums Part 3) v2/ks_jpn MEGA Props Vol14 v2.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol15/ks_jpn MEGA Props Vol15.dat
-            # - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol16/ks_jpn MEGA Props Vol16.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol01/ks_jpn MEGA Props Vol01.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol02/ks_jpn MEGA Props Vol02.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol03/ks_jpn MEGA Props Vol03.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol04 v2/ks_jpn MEGA Props Vol04 v2.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol05/ks_jpn MEGA Props Vol05.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol06/ks_jpn MEGA Props Vol06.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol07/ks_jpn MEGA Props Vol07.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol08/ks_jpn MEGA Props Vol08.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol09/ks_jpn MEGA Props Vol09.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol10/ks_jpn MEGA Props Vol10.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol11 v2/ks_jpn MEGA Props Vol11 v2.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol12 (Stadiums Part 1)/ks_jpn MEGA Props Vol12.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol13 (Stadiums Part 2)/ks_jpn MEGA Props Vol13.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol14 (Stadiums Part 3) v2/ks_jpn MEGA Props Vol14 v2.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol15/ks_jpn MEGA Props Vol15.dat
+            - ks_JPN/MEGA Props#/ks_jpn MEGA Props Vol16/ks_jpn MEGA Props Vol16.dat
+      lastModified: 2024-01-20T05:46:39-08:00
+      name: Default
       version: 2.0.0
+
+ks_jpn/stex-sc4d-lex-legacy-ks-jpn-arabian-canal:
+  authors:
+    - ks_jpn
+  category: parks
+  dependencies:
+    - ks_jpn/dependencies
+    - memo/submenus-dll
+    - nos-17/sc4-cleanitol
+    - sc4evermore/18-bsc-cleanitol
+  description: >-
+    #### **STEX & SC4D LEX Legacy - KS_JPN Arabian Canal**
+
+
+    This SC4 Devotion LEX Legacy Pack features the complete set of the Arabain Canal by KS_JPN, including Props and Lots, which had been available on the Lot Exchange (LEX) at SC4 Devotion. After
+    battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect
+    these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
+    update, and provide technical support for the pack.
+
+
+    ### INSTALLATION:
+
+
+    This package is a simple .zip file. Just extract the ks_jpn folder to your My DocumentsSimCity 4Plugins directory (or equivalent, if you have a custom Plugins folder location).
+
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4
+    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older BSC Cleanitol tool you can search and remove old and outdated versions of these files.
+
+
+    ### DLL DEPENDENCIES:
+
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed
+    dependencies are covering a full install):
+
+
+    - [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.
+
+        Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+
+    ### DEPENDENCIES:
+
+
+    The following files are required in order for the contents of this package to appear correctly and they work correctly (i.e., no "brown boxes" or missing textures) (Bear in mind that the original
+    readmes are also available in the *~Documents/Boston BigDig_Readmes* folder, but they have **not** been updated):
+
+
+    - SC4D LEX Legacy - ks_JPN Dependencies Pack V2 (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+    - ks_jpn MEGA Props Vol16
+
+
+    ### **CREDITS:**
+
+
+    The following members contributed models, textures, and modding support to this collection:
+
+
+    - KS_JPN
+
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06 and Ulisse Wolf.
+
+
+    ##### Special Thanks
+
+
+    Webmaster & administration staff at SC4 Devotion & Simtropolis (STEX)
+
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that
+    may of helped somewhere along the lines.
+
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+
+    ![c2](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/c2.jpg)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/c2.jpg
+  name: STEX & SC4D LEX Legacy - KS_JPN Arabian Canal
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/c2.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/14-park/284-stex-sc4d-lex-legacy-ks-jpn-arabian-canal
+  variants:
+    default:
+      assets:
+        - docs:
+            - STEX & SC4D LEX Legacy - KS_JPN Arabian Canal/~Documents/Cleanitol_MASTER REMOVE LIST_ks_jpn Arabian Canal.txt
+            - STEX & SC4D LEX Legacy - KS_JPN Arabian Canal/~Documents/readme.css
+            - STEX & SC4D LEX Legacy - KS_JPN Arabian Canal/~Documents/readme_KS_jpn_arabian_canal.html
+          id: sc4evermore/284-stex-sc4d-lex-legacy-ks-jpn-arabian-canal
+      lastModified: 2024-09-02T05:52:59-07:00
+      lots:
+        - filename: Arabian Canal 1_70cab1f0.SC4Lot
+          id: 70cab1f0
+          label: Arabian Canal 1_70cab1f0.SC4Lot
+        - filename: Arabian Canal 2_10cab21e.SC4Lot
+          id: 10cab21e
+          label: Arabian Canal 2_10cab21e.SC4Lot
+        - filename: Arabian Canal 3_10cab233.SC4Lot
+          id: 10cab233
+          label: Arabian Canal 3_10cab233.SC4Lot
+        - filename: Arabian Canal 4_90cab240.SC4Lot
+          id: 90cab240
+          label: Arabian Canal 4_90cab240.SC4Lot
+        - filename: Arabian Canal 5_d0cab24c.SC4Lot
+          id: d0cab24c
+          label: Arabian Canal 5_d0cab24c.SC4Lot
+        - filename: Arabian Canal 6_f0cab26f.SC4Lot
+          id: f0cab26f
+          label: Arabian Canal 6_f0cab26f.SC4Lot
+        - filename: Arabian Canal 7_70cab2b8.SC4Lot
+          id: 70cab2b8
+          label: Arabian Canal 7_70cab2b8.SC4Lot
+        - filename: Arabian Canal 8_70cab37f.SC4Lot
+          id: 70cab37f
+          label: Arabian Canal 8_70cab37f.SC4Lot
+        - filename: Arabian Canal 9_b0cab65e.SC4Lot
+          id: b0cab65e
+          label: Arabian Canal 9_b0cab65e.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
+
+ks_jpn/stex-sc4d-lex-legacy-ks_jpn-arabian-canal:
+  authors:
+    - ks_JPN
+  category: waterfront
+  dependencies:
+    - memo/submenus-dll
+    - nos-17/sc4-cleanitol
+  description: >-
+    #### **STEX & SC4D LEX Legacy - KS_JPN Arabian Canal**
+
+
+    This SC4 Devotion LEX Legacy Pack features the complete set of the Arabain Canal by KS_JPN, including Props and Lots, which had been available on the Lot Exchange (LEX) at SC4 Devotion. After
+    battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect
+    these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain,
+    update, and provide technical support for the pack.
+
+
+    ### INSTALLATION:
+
+
+    This package is a simple .zip file. Just extract the ks_jpn folder to your My Documents/SimCity 4/Plugins directory (or equivalent, if you have a custom Plugins folder location).
+
+
+    It is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins.
+
+
+    Optionally in the ~Documents folder in the main ZIP you can find a collective/master and by using either the newer [nos.17's SC4
+    Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/) or the older [BSC Cleanitol](index.php/downloads/download/30-gameplay-utilities/18-bsc-cleanitol) tool you can search
+    and remove old and outdated versions of these files.
+
+
+    ### DLL DEPENDENCIES:
+
+
+    In order for the contents of this package to display correctly by taking advantage of the new DLL Mods requires the complete installation of the following dependencies (the below listed
+    dependencies are covering a full install):
+
+
+    - [**Submenus DLL**](https://community.simtropolis.com/files/file/36142-submenus-dll/ "memo.submenus.dll") - You need it to get the package submenu working.
+
+        Compatible only with the digital version (1.1.641) of SimCity 4 (Microsoft Windows and Linux only).
+
+
+    ### DEPENDENCIES:
+
+
+    The following files are required in order for the contents of this package to appear correctly and they work correctly (i.e., no "brown boxes" or missing textures) (Bear in mind that the original
+    readmes are also available in the *~Documents/Boston BigDig_Readmes* folder, but they have **not** been updated):
+
+
+    - [SC4D LEX Legacy - ks_JPN Dependencies Pack V2](index.php/downloads/download/22-dependencies/153-sc4d-lex-legacy-ks-jpn-dependencies) (and above)
+
+        The below listed dependencies are all can be found in the hereby linked dependency pack compilation.
+
+    - ks_jpn MEGA Props Vol16
+
+
+    ### **CREDITS:**
+
+
+    The following members contributed models, textures, and modding support to this collection:
+
+
+    - KS_JPN
+
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06 and Ulisse Wolf.
+
+
+    ##### Special Thanks
+
+
+    Webmaster & administration staff at SC4 Devotion & Simtropolis
+
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that
+    may of helped somewhere along the lines.
+
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/c2.jpg.20a078cba60fc9534c42e44607ae5f5a.jpg
+  name: STEX & SC4D LEX Legacy - KS_JPN Arabian Canal
+  release: 2024-09-04T10:03:15.374Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/c2.thumb.jpg.96a5485ce57bbf35e328c0ded8b76058.jpg
+  url: https://community.simtropolis.com/files/file/36420-stex-sc4d-lex-legacy-ks_jpn-arabian-canal/
+  variants:
+    default:
+      assets:
+        - docs:
+            - STEX & SC4D LEX Legacy - KS_JPN Arabian Canal/~Documents/Cleanitol_MASTER REMOVE LIST_ks_jpn Arabian Canal.txt
+            - STEX & SC4D LEX Legacy - KS_JPN Arabian Canal/~Documents/readme.css
+            - STEX & SC4D LEX Legacy - KS_JPN Arabian Canal/~Documents/readme_KS_jpn_arabian_canal.html
+          id: simtropolis/36420-stex-sc4d-lex-legacy-ks_jpn-arabian-canal
+      lastModified: 2024-09-02T12:50:35Z
+      lots:
+        - filename: Arabian Canal 1_70cab1f0.SC4Lot
+          id: 70cab1f0
+          label: Arabian Canal 1_70cab1f0.SC4Lot
+        - filename: Arabian Canal 2_10cab21e.SC4Lot
+          id: 10cab21e
+          label: Arabian Canal 2_10cab21e.SC4Lot
+        - filename: Arabian Canal 3_10cab233.SC4Lot
+          id: 10cab233
+          label: Arabian Canal 3_10cab233.SC4Lot
+        - filename: Arabian Canal 4_90cab240.SC4Lot
+          id: 90cab240
+          label: Arabian Canal 4_90cab240.SC4Lot
+        - filename: Arabian Canal 5_d0cab24c.SC4Lot
+          id: d0cab24c
+          label: Arabian Canal 5_d0cab24c.SC4Lot
+        - filename: Arabian Canal 6_f0cab26f.SC4Lot
+          id: f0cab26f
+          label: Arabian Canal 6_f0cab26f.SC4Lot
+        - filename: Arabian Canal 7_70cab2b8.SC4Lot
+          id: 70cab2b8
+          label: Arabian Canal 7_70cab2b8.SC4Lot
+        - filename: Arabian Canal 8_70cab37f.SC4Lot
+          id: 70cab37f
+          label: Arabian Canal 8_70cab37f.SC4Lot
+        - filename: Arabian Canal 9_b0cab65e.SC4Lot
+          id: b0cab65e
+          label: Arabian Canal 9_b0cab65e.SC4Lot
+      name: Default
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: disable
