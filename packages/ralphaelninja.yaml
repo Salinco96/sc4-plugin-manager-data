@@ -1,53 +1,22 @@
-ralphaelninja/plugin-landmark-props:
+ralphaelninja/crime-doesnt-pay:
   authors:
-    - RalphaelNinja
-  category: props
-  description: This modd contains the plugin landmark props that Maxis forgot. (eg. The Grand Central Station etc.)
-  images:
-    - https://www.simtropolis.com/objects/screens/0017/9931d5076473c8f6816a23e0427acc38-default.jpg
-  name: Plugin Landmark Props
-  release: 2024-08-19T09:13:11.692Z
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2004/thumb-9931d5076473c8f6816a23e0427acc38-default.jpg
-  url: https://community.simtropolis.com/files/file/21286-plugin-landmark-props/
+    - ralphaelninja
+  category: gameplay,cheats
+  description: >-
+    This modd reduces crime to a level that is controllable and if required can almost eliminate crime entirely by placing a squadron of police station.
+
+
+    This is one of those easy modd that should have been done back in the first days of modding but no one got around to it. In our rush to do the impossible we overlook some of the simpler modds.
+    Although fairly simple, a day was spent in testing the various effects of the changes so as not to remove crime entirely. This modd should satisfy the purist and if not, it should satisfy the not
+    so pure. Enjoy...
+  features:
+    - crime
+  name: Crime Doesn't Pay
+  release: 2024-10-17T08:57:16.473Z
+  url: https://community.simtropolis.com/files/file/21339-crime-doesnt-pay/
   variants:
     default:
       assets:
-        - id: simtropolis/21286-plugin-landmark-props
-      version: 1.0.0
-
-ralphaelninja/very-old-building-props:
-  authors:
-    - RalphaelNinja
-  category: props
-  deprecated: true
-  description: |-
-    Some very old content will need one or more of these legacy files and will likely not even mention them as a dependency. (Long, long ago it was assumed peeps had them.)
-
-    This is a set of 3 very old style Building Props. They pre-date the:
-
-    - [bldgprop_vol1.dat](https://community.simtropolis.com/library/maxis/sc4/buildings/bldgprop_vol1.dat)
-    - [bldgprop_vol2.dat](https://community.simtropolis.com/library/maxis/sc4/buildings/bldgprop_vol2.dat)
-
-    (As found on the [Maxis Files](https://community.simtropolis.com/sc4-maxis-files/) page.)
-
-    **Files included in the download are:**
-
-    - Plugin_B90_ResidentialBuildings_Prop_Modd.dat
-    - Plugin_B91_CommercialBuildings_Prop_Modd.dat
-    - Plugin_RCI_Buildings_Prop_Modd.dat
-
-    **Important:** Do not use these for current lotting projects. They are provided only so very old content can be used in one's game.
-
-    The original creator is believed to be [@RalphaelNinja](https://community.simtropolis.com/profile/3374-ralphaelninja/) and have been uploaded here in good faith.
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ebe975d2bb6d_VeryOldBuildingPropsLogo.jpg.5304c8b48552c73e8b34b3695be4bc6e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ebe8b5f69015_VeryOldBuildingPropsImage.jpg.30bb244ccd9afee8d9f4e29203bde2e7.jpg
-  name: Very Old Building Props
-  release: 2024-08-19T09:13:11.692Z
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_05/5ebe9765bc362_VeryOldBuildingPropsLogo.thumb.jpg.1c8838f76b23ead8ab1bed3904007cde.jpg
-  url: https://community.simtropolis.com/files/file/33600-very-old-building-props/
-  variants:
-    default:
-      assets:
-        - id: simtropolis/33600-very-old-building-props
+        - id: simtropolis/21339-crime-doesnt-pay
+      lastModified: 2003-11-04T00:00:00Z
       version: 1.0.0

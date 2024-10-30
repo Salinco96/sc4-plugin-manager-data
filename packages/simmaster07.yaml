@@ -17,18 +17,12 @@ simmaster07/extra-cheats:
 
     The development thread can be found at [this link](https://community.simtropolis.com/forums/topic/70495-game-framework-compatible-dll-loading-and-other-modding-discoveries/). Source code can be
     found [here](https://github.com/nsgomez/gzcom-dll/blob/master/gzcom-dll/src/cGZExtraExtraCheatsDllDirector.cpp). Make sure to follow this file in case more cheats are added!
-
-
-    **Compatibility**
-
-
-    Tested and working on 1.1.641.0 (Steam/GOG/Origin) on Windows and the Steam version for Mac. Also works in combination with
-    [SC4Fix](https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/) and the [Extra Cheats
-    DLL](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/). Untested on other versions but should work with any version of SimCity 4 Deluxe or SimCity 4 w/ Rush Hour.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/spills.PNG.5bfe8d3c3a62f7f64b57d447dc4eed7e.PNG
   name: Simmaster's Extra Cheats DLL
-  release: 2024-08-19T09:13:11.692Z
+  optional:
+    - buggi/extra-cheats
+  release: 2024-10-16T12:10:18.608Z
   repository: https://github.com/nsgomez/gzcom-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/spills.thumb.PNG.0943721225dea37e7bf774d50dd1e215.PNG
   url: https://community.simtropolis.com/files/file/31350-simmasters-extra-cheats-dll/
@@ -36,7 +30,44 @@ simmaster07/extra-cheats:
     default:
       assets:
         - id: simtropolis/31350-simmasters-extra-cheats-dll
+      lastModified: 2020-06-05T05:32:22Z
       version: 1.1.1
+
+simmaster07/upgradeable-city-halls:
+  authors:
+    - simmaster07
+  category: gameplay,dll
+  description: >-
+    This is a DLL for SimCity 4 that makes the City Hall reward upgradeable. Instead of implementing the three City Hall stages as separate reward lots, this mod implements Maxis' originally intended
+    behavior of actually replacing the City Hall lot as new stages are unlocked. It also prompts the user with advisor messages asking if they want to upgrade the reward, just like the airport upgrade
+    behavior.
+
+
+    This mod is part of my effort to deconstruct the internal game interfaces. The development thread can be found at [this
+    link](https://community.simtropolis.com/forums/topic/70495-game-framework-compatible-dll-loading-and-other-modding-discoveries/). Source code is [over
+    here](https://github.com/nsgomez/gzcom-dll/blob/f30177d86f56a901e9662c1e63942a9f3a4e2dee/gzcom-dll/src/cGZCityHallUpgradeDllDirector.cpp).
+
+
+    **Behavior**
+
+
+    The user is prompted monthly to upgrade to stage 2 when the city's population reaches 45,000, and to upgrade to stage 3 at 95,000. The mod also adds a cheat code, "UpgradeCityHall," that forces
+    the upgrade prompt to appear regardless of population.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall2.png.4e8c754a248bf1b52b5dc684a0c59b5a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall3.png.8b8fd43297237fa33ead9f816a88e66d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall1.png.e28e6d30e2b13e4b1fc3a59f640c3007.png
+  name: Upgradeable City Halls
+  release: 2024-10-16T12:10:18.608Z
+  repository: https://github.com/nsgomez/gzcom-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall2.thumb.png.7689a415d866be1a196e8157b941e9a5.png
+  url: https://community.simtropolis.com/files/file/31339-real-upgradeable-city-halls/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/31339-real-upgradeable-city-halls#169470
+      lastModified: 2017-12-27T03:47:03Z
+      version: 1.1.0
 
 simmaster07/sc4fix:
   authors:
@@ -52,13 +83,6 @@ simmaster07/sc4fix:
     - Resolves a crash-to-desktop when hovering NAM puzzle pieces over transit-enabled lots.
 
     - Allows other DLLs to load into SC4's memory without a GZCOM framework.
-
-
-    **Requirements**
-
-
-    This fix is made for versions 640 and 641 of SimCity 4 on Windows. Version 640 is a fully-patched SC4 retail copy, and version 641 is a fully-patched digital distribution version (i.e. Steam,
-    Origin, GOG). Although v641 is supported, it has only been officially tested on Steam.
 
 
     To see if SC4Fix is working properly, check the title of your game window. If you are playing in fullscreen mode, alt-tab out and hover over the SimCity taskbar icon. The titlebar will show
@@ -99,8 +123,8 @@ simmaster07/sc4fix:
     [Source Code](https://github.com/nsgomez/sc4fix)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_12/sc4fix.png.d2cd8a6bac0d8094806a384a70846a0e.png
-  name: "SC4Fix: Third-party patches for SC4"
-  release: 2024-08-19T09:13:11.692Z
+  name: Simmaster's SC4Fix DLL
+  release: 2024-10-16T12:10:18.608Z
   repository: https://github.com/nsgomez/sc4fix
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2015_12/sc4fix.thumb.png.ced8b7b12af0c352bbb50b295298a062.png
   url: https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/
@@ -108,4 +132,5 @@ simmaster07/sc4fix:
     default:
       assets:
         - id: simtropolis/30883-sc4fix-third-party-patches-for-sc4
+      lastModified: 2018-01-21T05:11:27Z
       version: 1.0.7

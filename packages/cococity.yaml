@@ -1,0 +1,62 @@
+cococity/coco-samsung-apartment:
+  authors:
+    - cococity
+  category: landmarks,r$
+  description: |-
+    This is an old apartment in Korea.
+
+    Capacity Satisfied 4112 / 3212
+
+    Since the width of the lot is large, use Ctrl to set the lot to 7x3.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Day.jpg.99dad8401096ff5877aeb036b9264280.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Day-B.jpg.2b11908821c209d198999955ec7d7b40.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/Nite.jpg.7beb66a082ea53117ce1e3b1d54000e2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670bcea2e8519_01.jpg.d01165e5f1b9664c7120884f4c784f2c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_10/670bcea712142_02.jpg.12fa24047c534aca074d34f7908dbb7e.jpg
+  lots:
+    # TODO: Which is 4112 / 3212?
+    - bulldoze: 100
+      category: r$
+      filename: Coco_SamsungAPT_R$7x3_*.SC4Lot # DN: DN_d41861c2 / MN: MN_d41866fd
+      id: growable
+      label: Coco Samsung Apartment (R$, Stage 4, 7x3)
+      size: 7x3
+      stage: 4
+    - bulldoze: 100
+      category: landmarks
+      cost: 110000
+      filename: Coco_SamsungApt_*LM 7x3_*.SC4Lot # DN: d4185370 / MN: d41847ed
+      id: landmark
+      label: Coco Samsung Apartment (Landmark, 7x3)
+      size: 7x3
+  name: Coco Samsung apartment
+  release: 2024-10-17T06:14:27.427Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/Day.thumb.jpg.b8e1c2ecf42c9d4bb60d7f1a66179195.jpg
+  url: https://community.simtropolis.com/files/file/36495-coco-samsung-apartment/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36495-coco-samsung-apartment#203882
+          include:
+            - Coco_SamsungApt_DN
+      lastModified: 2024-10-13T13:44:11Z
+      name: Dark Nite
+      requirements:
+        darknite: true
+      version: 1.1.0
+    default:
+      assets:
+        - id: simtropolis/36495-coco-samsung-apartment#203881
+          include:
+            - Coco_SamsungApt_MN
+      lastModified: 2024-10-13T13:44:11Z
+      name: Maxis Nite
+      requirements:
+        darknite: false
+      version: 1.1.0
+  warnings:
+    - id: bulldoze
+      on: disable
+    - id: bulldoze
+      on: variantChange

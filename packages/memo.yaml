@@ -1,4 +1,73 @@
-memo/region-thumbnail-fix-dll:
+memo/3d-camera:
+  authors:
+    - memo
+  category: graphics,dll
+  description: >-
+    This DLL plugin activates two cheat codes that allow you to freely change the camera angles of the game. This allows you to use SimCity 4's 3D engine to its full potential and experience your
+    cities from completely new angles. Just for fun.
+
+
+    It solves many of the issues of the original (now deprecated) 3D Camera Mod by @pcwhiz24.
+
+
+    **Usage**
+
+
+    Open the cheat console with CTRL + x and enter the CameraYaw or CameraPitch cheats:
+
+
+    - CameraYaw **&lt;angle&gt;** - set the azimuth angle (counter-clockwise)
+
+    - CameraYaw - reset the angle to the default of 22.5 degree
+
+    - CameraPitch **&lt;angle&gt;** - set the altitude angle for all zoom levels (range: 0.0 to 90.0 degree)
+
+    - CameraPitch **&lt;angle 1&gt;** .. **&lt;angle 5&gt;** - set the altitude angle for zoom levels 1 to 5 individually
+
+    - CameraPitch - reset the angles to the default for each zoom: 30°, 35°, 40°, 45°, 45°
+
+
+    **Examples**
+
+
+    - top down view: CameraPitch 85 and CameraYaw 0
+
+    - isometric SC3k-style view: CameraYaw 45
+
+
+    Sometimes the effect only fully applies after changing zoom level or rotating the map, particularly on zooms 5 and 6.
+
+
+    Graphical glitches may occur, especially with the more extreme angles.
+
+
+    To avoid rendering the region view of a city from a non-standard angle, use Fast-Save (hold ALT + press Save button) or reset the angles to the default values before saving.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/01-park-avenue.jpeg.8c1cd0d00364d4687de9ed26a7705c9a.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/10-intersection.jpeg.003c00845a0371c6c62d8ba151d04c51.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/20-bird-houses-jmyer1.jpeg.d37985824beeb39c608cb3b60671fcab.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/21-bird-houses-jmyer2.jpeg.bd1b6dd5cec8654847db06e6cd7c5e05.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/30-low-angle-apartments.jpeg.ec2361788b0c84d864cd58efc2b31f09.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/40-angle-45.jpeg.bea4a5805d740c3a92fc4d34cc39d95c.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/41-bird-houses.jpeg.2d6414bff675f79fb485905c6251e0fc.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/50-low-angle-palms.jpeg.892136eb8201b0ec2ebd6a1cd15af4e1.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/60-angle-45-dense.jpeg.2116ef64ca24649a3ad4752d0f21429b.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/70-top-down.jpeg.ef34e4c0ae4d0168fa705cd8a1ae4ab0.jpeg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_04/71-zones.jpeg.524d61e163c0fd0f73745e28317015f5.jpeg
+  logs: memo.3dcamera.log
+  name: 3D Camera DLL
+  release: 2024-10-16T08:41:46.968Z
+  repository: https://github.com/memo33/sc4-3d-camera-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/01-park-avenue.thumb.jpeg.ef82cb201732d8035c16c22e3e2915e6.jpeg
+  url: https://community.simtropolis.com/files/file/36188-3d-camera-dll-for-simcity-4/
+  variants:
+    default:
+      assets:
+        - id: github/memo33/sc4-3d-camera-dll
+      lastModified: 2024-04-01T08:26:25Z
+      version: 1.0.0
+
+memo/region-thumbnail-fix:
   authors:
     - memo
   category: graphics,bugfixes,dll
@@ -19,18 +88,13 @@ memo/region-thumbnail-fix-dll:
     If no .log file is written, the DLL failed to load. In this case, make sure the [Microsoft Visual C++ 2022+ x86 Redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe) is installed.
 
 
-    **Source Code**
-
-
-    Available on [GitHub](https://github.com/memo33/sc4-thumbnail-fix-dll).
-
-
     Thanks to [@Ulisse Wolf](https://community.simtropolis.com/profile/321174-ulisse-wolf/), [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/),
     [@redfox85](https://community.simtropolis.com/profile/101198-redfox85/) and [@Eggman121](https://community.simtropolis.com/profile/205071-eggman121/) for testing the DLL.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.147e3ee01bff54be8999236ff119a78b.jpeg
-  name: Region Thumbnail Fix DLL
-  release: 2024-08-19T09:13:11.692Z
+  logs: memo.thumbnail-fix.log
+  name: Region Thumbnail Fix
+  release: 2024-10-16T08:42:41.396Z
   repository: https://github.com/memo33/sc4-thumbnail-fix-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.thumb.jpeg.6908f13c639304448a7d9bc9a4295b25.jpeg
   url: https://community.simtropolis.com/files/file/36396-region-thumbnail-fix-dll/
@@ -38,16 +102,17 @@ memo/region-thumbnail-fix-dll:
     default:
       assets:
         - id: github/memo33/sc4-thumbnail-fix-dll
+      lastModified: 2024-08-17T10:12:54Z
       version: 1.0.0
 
 memo/submenus-dll:
   authors:
     - memo
-    - Panda
-    - Null 45
+    - null-45
+    - panda
   category: gameplay,dll
   dependencies:
-    - null-45/resource-loading-hooks-dll
+    - null-45/resource-loading-hooks
   description: >-
     A DLL plugin for SimCity 4 that
 
@@ -84,8 +149,9 @@ memo/submenus-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.jpeg.37cdc1aba8ba5f84d543d46c579de1d4.jpeg
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/parks-submenus-animation.gif.fc7b73b36d2cfd59d4aca263a753285c.gif
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/commercial-submenus.jpeg.7fd15082d193a82259d3a0fff766ebf7.jpeg
+  logs: memo.submenus.log
   name: Submenus DLL
-  release: 2024-08-19T09:13:11.692Z
+  release: 2024-10-16T08:41:46.968Z
   repository: https://github.com/memo33/submenus-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.thumb.jpeg.b849d44b5fa1dc01e969a9deeff7a2dd.jpeg
   url: https://community.simtropolis.com/files/file/36142-submenus-dll/
@@ -97,6 +163,7 @@ memo/submenus-dll:
             - memo.submenus.dll
             - submenu-essentials.dat
             - submenus/{{submenus}}
+      lastModified: 2024-08-09T07:49:06Z
       options:
         - choices:
             - label: Submenus for residential ploppables
@@ -133,22 +200,13 @@ memo/submenus-dll:
           type: string
       version: 1.1.4
 
-memo/transparent-texture-fix-dll:
+memo/transparent-texture-fix:
   authors:
     - memo
   category: graphics,bugfixes,dll
   description: >-
     This DLL plugin fixes the underground view bug ([water bug](https://community.simtropolis.com/forums/topic/760847-coris-partial-water-bug-fix-ready-for-testing/)) that occurs on lots using overlay
     textures without a base texture, after exiting the underground view.
-
-
-    **System requirements**
-
-
-    - SimCity 4, version 1.1.641 (the digital edition) ([more
-    info](https://community.simtropolis.com/forums/topic/762980-the-future-of-sc4-modding-the-matter-of-digital-vs-disc-and-windows-vs-macos-in-the-dll-era/))
-
-    - Windows 10+ or Linux
 
 
     **Troubleshooting**
@@ -158,16 +216,11 @@ memo/transparent-texture-fix-dll:
 
 
     If no .log file is written, the DLL failed to load. In this case, make sure the [Microsoft Visual C++ 2022+ x86 Redistributable](https://aka.ms/vs/17/release/vc_redist.x86.exe) is installed.
-
-
-    **Source Code**
-
-
-    Available on [GitHub](https://github.com/memo33/transparent-texture-fix-dll).
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.jpeg.0ff9c72de8289d13d1854c204a6efc49.jpeg
-  name: Transparent Texture Fix DLL
-  release: 2024-08-19T09:13:11.692Z
+  logs: memo.transparent-texture-fix.log
+  name: Transparent Texture (Water Bug) Fix
+  release: 2024-10-16T08:42:41.396Z
   repository: https://github.com/memo33/transparent-texture-fix-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_08/before-after.thumb.jpeg.dce7652797c99365f8945704768dd0b8.jpeg
   url: https://community.simtropolis.com/files/file/36379-transparent-texture-fix-dll/
@@ -175,6 +228,5 @@ memo/transparent-texture-fix-dll:
     default:
       assets:
         - id: github/memo33/transparent-texture-fix-dll
-          include:
-            - memo.transparent-texture-fix.dll
+      lastModified: 2024-08-08T20:09:26Z
       version: 1.0.0

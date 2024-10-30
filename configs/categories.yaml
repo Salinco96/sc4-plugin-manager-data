@@ -1,0 +1,228 @@
+agriculture:
+  label: Agriculture
+  priority: 410
+airplanes:
+  label: Airplanes
+  parent: airports
+airports:
+  label: Airports
+  parent: transport
+  priority: 740
+automata:
+  label: Automata
+  parent: transport
+  priority: 760
+bikes:
+  label: Bikes
+blockers:
+  label: Blockers
+  parent: mods
+  priority: 990
+bridges:
+  label: Bridges
+  parent: transport
+bugfixes:
+  label: Bugfixes
+  parent: mods
+bus:
+  label: Bus
+  parent: transport
+cam:
+  label: CAM
+canals:
+  label: Canals
+  parent: waterfront
+cars:
+  label: Cars
+cheats:
+  label: Cheats
+  priority: 10
+commercial:
+  label: Commercial
+  priority: 300
+civics:
+  label: Civics
+  priority: 600
+co$$:
+  label: CO$$
+  parent: commercial
+co$$$:
+  label: CO$$$
+  parent: commercial
+cs$:
+  label: CS$
+  parent: commercial
+cs$$:
+  label: CS$$
+  parent: commercial
+cs$$$:
+  label: CS$$$
+  parent: commercial
+diagonal:
+  label: Diagonal
+dll:
+  label: DLL
+dependencies:
+  label: Dependencies
+  priority: 100
+education:
+  label: Education
+  parent: civics
+ferry:
+  label: Ferry
+  parent: waterfront
+fillers:
+  label: Fillers
+  priority: 660
+flora:
+  label: Flora
+  priority: 660
+freight:
+  label: Freight stations
+  parent: rail
+gameplay:
+  label: Gameplay
+  parent: mods
+  priority: 30
+government:
+  label: Government
+  parent: civics
+graphics:
+  label: Graphics
+  parent: mods
+  priority: 20
+health:
+  label: Healthcare
+  parent: civics
+industry:
+  label: Industry
+  priority: 400
+irm:
+  label: IRM
+  parent: industry
+i-d:
+  label: I-D
+  parent: industry
+i-ht:
+  label: I-HT
+  parent: industry
+i-m:
+  label: I-M
+  parent: industry
+landmarks:
+  label: Landmarks
+  priority: 360
+marina:
+  label: Marina
+  parent: waterfront
+mmps:
+  label: MMPs
+  priority: 670
+mods:
+  label: Mods
+monorail:
+  label: Monorail
+  parent: rail
+nam:
+  label: NAM
+  parent: transport
+  priority: 720
+ordinances:
+  label: Ordinances
+  parent: mods
+overrides:
+  label: Overrides
+  priority: 900
+parkings:
+  label: Parkings
+  parent: transport
+parks:
+  label: Parks
+  priority: 660
+passengers:
+  label: Passenger stations
+  parent: rail
+pedestrians:
+  label: Pedestrians
+  parent: transport
+police:
+  label: Police
+  parent: civics
+power:
+  label: Energy
+  parent: utilities
+props:
+  label: Props
+  parent: dependencies
+rail:
+  label: Railway
+  parent: transport
+  priority: 730
+religion:
+  label: Religion
+  parent: civics
+residential:
+  label: Residential
+  priority: 200
+rewards:
+  label: Rewards
+  parent: landmarks
+roundabouts:
+  label: Roundabouts
+  parent: transport
+r$:
+  label: R$
+  parent: residential
+r$$:
+  label: R$$
+  parent: residential
+r$$$:
+  label: R$$$
+  parent: residential
+seaports:
+  label: Seaports
+  parent: waterfront
+ships:
+  label: Ships
+  parent: waterfront
+sims:
+  label: Sims
+sounds:
+  label: Audio
+  parent: dependencies
+spam:
+  label: SPAM
+  parent: agriculture
+streetlights:
+  label: Streetlights
+subway:
+  label: Subway
+  parent: transport
+terminals:
+  label: Terminals
+  parent: airports
+textures:
+  label: Textures
+  parent: dependencies
+tram:
+  label: Tramway
+  parent: transport
+transport:
+  label: Transport
+  priority: 700
+tunnels:
+  label: Tunnels
+  parent: transport
+utilities:
+  label: Utilities
+  priority: 500
+waste:
+  label: Waste
+  parent: utilities
+water:
+  label: Water
+  parent: utilities
+waterfront:
+  label: Waterfront
+  parent: transport
+  priority: 750

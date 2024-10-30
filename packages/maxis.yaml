@@ -1,18 +1,34 @@
-maxis/63-buildings:
+maxis/63-building:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
-  name: 63 Buildings
+  name: 63 Building
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
-        - id: simtropolis/maxis-plugin-00A-63-buildings
+        - id: simtropolis/maxis-plugin-00A-63-building
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-00A-63-building
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: 63Building.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/adler-planetarium:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Adler Planetarium (Chicago)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -20,12 +36,28 @@ maxis/adler-planetarium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-031-adler-planetarium
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-031-adler-planetarium
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: AdlerPlanetarium.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/air-force-base:
   authors:
-    - Maxis
-  category: landmarks
+    - maxis
+  category: landmarks,rewards
   name: Air Force Base
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -36,7 +68,7 @@ maxis/air-force-base:
 
 maxis/arc-de-triomphe:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Arc de Triomphe (Paris)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -44,11 +76,27 @@ maxis/arc-de-triomphe:
     default:
       assets:
         - id: simtropolis/maxis-plugin-003-arc-de-triomphe
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-003-arc-de-triomphe
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: ArcDeTriomphe.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/brandenburg-gate:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Brandenburg Gate (Berlin)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -56,11 +104,27 @@ maxis/brandenburg-gate:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00C-brandenburg-gate
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-00C-brandenburg-gate
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: BrandenburgGate.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/capitol-records:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Capitol Records
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -68,11 +132,27 @@ maxis/capitol-records:
     default:
       assets:
         - id: simtropolis/maxis-plugin-012-capitol-records
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-012-capitol-records
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: CapitolRecordsBuilding.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/day-of-peace:
   authors:
-    - Maxis
+    - maxis
   category: props
   name: International Day of Peace Prop
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -84,7 +164,7 @@ maxis/day-of-peace:
 
 maxis/globe-arena:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Globe Arena (Stockholm)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -92,11 +172,27 @@ maxis/globe-arena:
     default:
       assets:
         - id: simtropolis/maxis-plugin-006-globe-arena
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-006-globe-arena
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: GlobeArena.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/grand-central-station:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Grand Central Station (New York)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -104,11 +200,27 @@ maxis/grand-central-station:
     default:
       assets:
         - id: simtropolis/maxis-plugin-010-grand-central-station
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-010-grand-central-station
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: GrandCentralStation.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/grutze-industries:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Grutze Industries
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -120,7 +232,7 @@ maxis/grutze-industries:
 
 maxis/grutzehaus:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Grutzehaus
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -132,7 +244,7 @@ maxis/grutzehaus:
 
 maxis/kunjungjon:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Kunjungjon
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -140,11 +252,27 @@ maxis/kunjungjon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-008-kunjungjon
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-008-kunjungjon
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: Kunjungjon.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/longfellow-castle:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Longfellow Castle (Cambridge)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -156,7 +284,7 @@ maxis/longfellow-castle:
 
 maxis/luckys-hang-ten:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Lucky's Hang Ten
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -168,9 +296,9 @@ maxis/luckys-hang-ten:
 
 maxis/maxis-buildings-as-props:
   authors:
-    - Maxis
-    - RalphaelNinja
-    - T Wrecks
+    - maxis
+    - ralphaelninja
+    - t-wrecks
   category: props
   description: >-
     This upload contains the official "SimCity 4 Buildings as Props Vol 1" and "SimCity 4 Buildings as Props Vol 2" files provided by EA/Maxis.
@@ -185,24 +313,26 @@ maxis/maxis-buildings-as-props:
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_2_AFTER.jpg
   name: Maxis Buildings As Props and DLC Props
   release: 2024-08-19T09:13:11.692Z
-  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/sc4buildingsaspropsvol1.jpg
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2009/thumb-0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/40-maxis/14-maxis-buildings-as-props-and-dlc-props-v2-1
   variants:
     default:
       assets:
-        - id: simtropolis/22400-maxis-prop-names-and-query-fix
+        - docs: []
+          id: simtropolis/22400-maxis-prop-names-and-query-fix
           include:
-            - All Maxis building props with proper names.dat
+            - z_All Maxis building props with proper names.dat
         - docs:
             - _Documents
           id: sc4evermore/14-maxis-buildings-as-props-and-dlc-props-v2-1
           include:
             - Maxis DLC Props.dat
+      lastModified: 2024-10-14T12:05:00Z
       version: 2.1.0
 
 maxis/mayflower-port:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Mayflower Port
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -214,7 +344,7 @@ maxis/mayflower-port:
 
 maxis/namdaemun:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Namdaemun (Seoul)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -222,23 +352,55 @@ maxis/namdaemun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-009-namdaemun
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-009-namdaemun
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: Sungrye-mun.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/parthenon:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
-  name: Parthenon (Paris)
+  name: Parthenon (Athens)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00D-parthenon
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-00D-parthenon
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: Parthenon.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/rockefeller-center:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Rockefeller Center (New York)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -246,23 +408,55 @@ maxis/rockefeller-center:
     default:
       assets:
         - id: simtropolis/maxis-plugin-033-rockefeller-center
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-033-rockefeller-center
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: RockefellerCenter.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/sagrada-familia:
   authors:
-    - Maxis
-  category: landmarks,religion
+    - maxis
+  category: landmarks
   name: Sagrada Familia (Barcelona)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00F-temple-expiatiori
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-00F-temple-expiatiori
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: TempleExpiatioriDeLaSagradaFamilia.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/san-francisco-city-hall:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: San Francisco City Hall
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -270,11 +464,27 @@ maxis/san-francisco-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-017-san-francisco-city-hall
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-017-san-francisco-city-hall
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: SanFranciscoCityHall.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/schloss-schoenbrun:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Schönbrunn Palace (Vienna)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -282,11 +492,27 @@ maxis/schloss-schoenbrun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00E-schloss-schoenbrun
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-00E-schloss-schoenbrun
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: SchlossSchoenbrun.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/seoul-city-hall:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Seoul City Hall
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -294,23 +520,55 @@ maxis/seoul-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-004-seoul-city-hall
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-004-seoul-city-hall
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: SeoulCityHall.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/seoul-soccer-stadium:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
-  name: Seoul Soccer Stadium
+  name: Seoul World Cup Stadium
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-005-seoul-soccer-stadium
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-005-seoul-soccer-stadium
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: SeoulWorldCupStadium.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/shorty-burger:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Shorty Burger
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -322,7 +580,7 @@ maxis/shorty-burger:
 
 maxis/sobchak-lanes:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Sobchak Lanes
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -334,9 +592,9 @@ maxis/sobchak-lanes:
 
 maxis/stone-house:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
-  name: Stone House
+  name: Ian's House of Stone
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
@@ -346,7 +604,7 @@ maxis/stone-house:
 
 maxis/stonehenge:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Stonehenge
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -354,23 +612,55 @@ maxis/stonehenge:
     default:
       assets:
         - id: simtropolis/maxis-plugin-016-stonehenge
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-016-stonehenge
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: Stonehenge.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/taipei-art-museum:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
-  name: Taipei Art Museum
+  name: Taipei Fine Arts Museum
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-030-taipei-art-museum
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-030-taipei-art-museum
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: TaipeiFineArtMuseum.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange
 
 maxis/temple-of-grutz:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: Temple of Grutz
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -382,12 +672,28 @@ maxis/temple-of-grutz:
 
 maxis/the-living-mall:
   authors:
-    - Maxis
+    - maxis
   category: landmarks
   name: The Living Mall (Taipei)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
-        - id: simtropolis/maxis-plugin-00F-temple-expiatiori
+        - id: simtropolis/maxis-plugin-002-the-living-mall
+      name: Original
       version: 1.0.0
+    functional:
+      assets:
+        - id: simtropolis/maxis-plugin-002-the-living-mall
+        - docs: []
+          id: simtropolis/21340-functional-landmarks-complete-set-v10
+          include:
+            - priority: 900
+              path: TheLivingMall.dat
+      authors:
+        - toroca
+      name: With jobs
+      version: 1.0.0
+  warnings:
+    - id: bulldoze
+      on: variantChange

@@ -16,11 +16,17 @@ github/memo33/cam-exemplar-patch:
   url: https://github.com/memo33/submenus-dll/releases/download/{version}/CAM_2.1.0_Stand_Permanent.memo-exemplar-patch.zip
   version: 1.1.0
 
+github/memo33/sc4-3d-camera-dll:
+  sha256: f23e0531c4186c9374e8971f0373541a754d8130579886a35c3f46404438e333
+  size: 46989
+  url: https://github.com/memo33/sc4-3d-camera-dll/releases/download/{version}/3d-camera-dll-{version}.zip
+  version: 1.0.0
+
 github/memo33/sc4-thumbnail-fix-dll:
   sha256: 0c9958c005b90ad2f6660727f8b8e3751577cee1b1e4d22f48b303b7222be05c
   size: 43395
   uncompressed: 94044
-  url: https://github.com/{path}/releases/download/{version}/sc4-thumbnail-fix-dll-{version}.zip
+  url: https://github.com/{path}/releases/download/{version}/thumbnail-fix-dll-{version}.zip
   version: 1.0.0
 
 github/memo33/submenus-dll:
@@ -30,6 +36,8 @@ github/memo33/submenus-dll:
   version: 1.1.4
 
 github/memo33/transparent-texture-fix-dll:
+  sha256: f24275e69667e5afbfb3795d78d59ee4b45fce06ec72b2d09e6f3c4b2c852979
+  size: 43314
   url: https://github.com/{path}/releases/download/{version}/transparent-texture-fix-dll-{version}.zip
   version: 1.0.0
 
@@ -51,10 +59,26 @@ github/0xC0000054/sc4-city-date-sync:
   url: https://github.com/{path}/releases/download/v{version}/SC4CityDateSync.zip
   version: 1.0.3
 
+github/0xC0000054/sc4-city-lottery-ordinance:
+  lastModified: 2023-12-21T04:43:57Z
+  sha256: 34875d97108cf4ce5d2c43c7966e51b3d5620feea6f3bbbbbd55577d201ab370
+  size: 67406
+  uncompressed: 157514
+  url: https://github.com/{path}/releases/download/v{version}/SC4CityLotteryOrdinance.zip
+  version: "1.0"
+
 github/0xC0000054/sc4-cpu-options:
   sha256: 1e649bfac44ba0d1d9c4b2105ee992614646180f966e5ec5094197e74b3db2a1
   size: 52259
   url: https://github.com/{path}/releases/download/v{version}/SC4CPUOptions.zip
+  version: 1.0.1
+
+github/0xC0000054/sc4-custom-budget-departments:
+  lastModified: 2024-10-04T22:22:34Z
+  sha256: 6107dcb38b9def74dc293aa7fcdc86cf32f48873e84dec0931d9a03f98a93215
+  size: 51876
+  uncompressed: 121222
+  url: https://github.com/{path}/releases/download/v{version}/SC4CustomBudgetDepartments.zip
   version: 1.0.1
 
 github/0xC0000054/sc4-disable-cheats:
@@ -81,11 +105,11 @@ github/0xC0000054/sc4-disable-network-construction-sounds:
   url: https://github.com/{path}/releases/download/v{version}/SC4DisableNetworkConstructionSounds.zip
   version: "1.0"
 
-github/0xC0000054/sc4-full-screen-32-bit:
-  sha256: 9fce989bde8a2db65add593025410dbd5f1ac2b96562deda735f5bf9bafcc906
-  size: 36501
-  url: https://github.com/{path}/releases/download/v{version}/SC4FullScreen32Bit.zip
-  version: "1.0"
+github/0xC0000054/sc4-dbpf-loading:
+  sha256: cc608b1479dcc515e8055e23a6a64b9cb2a2e24db1759c2a60a2684993f473a8
+  size: 58038
+  url: https://github.com/{path}/releases/download/v{version}/SC4DBPFLoading.zip
+  version: 1.0.3
 
 github/0xC0000054/sc4-graphics-options:
   sha256: a75269f9975cc9674abf4c68cb52696eef40c1843b10bbe3a9ea3a48bc04cd8a
@@ -112,10 +136,12 @@ github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade:
   version: 1.0.0
 
 github/0xC0000054/sc4-more-building-styles:
-  sha256: 270c1d0ec6f8a4f7f4bc9dd63521af38d4cea75f58cc8feae05ee26cc6e1374b
-  size: 43357
+  lastModified: 2024-10-10T11:34:24Z
+  sha256: 38ba64d016337a66ae41af6bba38f57a6f87bd1bce32ab25ef48ba59f851283e
+  size: 87116
+  uncompressed: 204161
   url: https://github.com/{path}/releases/download/v{version}/SC4MoreBuildingStyles.zip
-  version: 1.1.0
+  version: 2.4.0
 
 github/0xC0000054/sc4-more-demand-info:
   sha256: 4876009b1620f9e6c73121e63277e054472e7cd363374f180188c846a8760d94
@@ -130,13 +156,29 @@ github/0xC0000054/sc4-no-kick-out:
   version: "1.0"
 
 github/0xC0000054/sc4-query-ui-hooks:
-  sha256: bfa0b89300a5d20a1de14c8abe2a10d0a7dfb1856b56a46e3499c7fef9fdbb7b
-  size: 138431
+  lastModified: 2024-10-12T02:00:45Z
+  sha256: 4d497e9546c4d855ff72e3907423f262dd900d82cbbbf33a4432b06eb93410bb
+  size: 177776
+  uncompressed: 380507
   url: https://github.com/{path}/releases/download/v{version}/SC4QueryUIHooks.zip
-  version: 1.4.0
+  version: 1.6.1
 
 github/0xC0000054/sc4-region-census:
   sha256: f3a6e06523241b9f6529c9dfb1c888cfdbbd13e582c5af67de76e8e436472e7a
   size: 58573
   url: https://github.com/{path}/releases/download/v{version}/SC4RegionCensus.zip
+  version: 1.0.1
+
+github/0xC0000054/sc4-remove-phantom-budget-items:
+  lastModified: 2024-09-07T05:11:45Z
+  sha256: 7e365830ee40403e71b9a07b1fc5fd310e9791546895ed499d994661ccc9616c
+  size: 43257
+  uncompressed: 96193
+  url: https://github.com/{path}/releases/download/v{version}/SC4RemovePhantomBudgetItems.zip
+  version: 1.0.0
+
+github/0xC0000054/sc4-resource-loading-hooks:
+  sha256: 6ec120c44afe263087dd7fd80591ea5e7368c6ab335b8f22d379974b21799203
+  size: 48838
+  url: https://github.com/{path}/releases/download/v{version}/SC4ResourceLoadingHooks.zip
   version: 1.0.1

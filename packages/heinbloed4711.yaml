@@ -1,10 +1,10 @@
 heinbloed4711/ih-missing-jobs-fix:
   authors:
-    - HeinBloed4711
-  category: bugfixes
+    - heinbloed4711
+  category: bugfixes,overrides
   description: >-
-    This is a preliminary workaround for a game bug that I recently found thanks to another discovery by sumwonyuno, all of which is documented over at
-    https://www.sc4devotion.com/forums/index.php?topic=8870.msg284035#msg284035. You should have at least some basic understanding of the inner workings of the simulator to make a sense of it.
+    This is a preliminary workaround for a game bug that I recently found thanks to another discovery by **sumwonyuno**. You should have at least some basic understanding of the inner workings of
+    the simulator to make a sense of it.
 
 
     **Short summary:** due to a presumable rounding/arithmetic error, almost every IH lot in the game didn't offer any high wealth ($$$) jobs so far, while still creating demand for R$$$ residents
@@ -35,18 +35,16 @@ heinbloed4711/ih-missing-jobs-fix:
 
     If you use one of the jobs_xx files from **niloluiz's RCImulti-MODpack** ([https://www.simtropolis.com/STEX/details.cfm?id=22255](https://www.simtropolis.com/stex/details.cfm?id=22255)), you don't
     need my mod because it's already fixed.
-
-
-    I'll add more compatibility information as I learn about it.
   images:
     - https://www.simtropolis.com/objects/screens/0008/3dfed99e5cbbdcdedaabc24d76571a26-before.jpg
     - https://www.simtropolis.com/objects/screens/0008/3dfed99e5cbbdcdedaabc24d76571a26-after.jpg
-  name: IH Missing $$$ Jobs Fix
-  release: 2024-08-19T09:13:11.692Z
+  name: I-HT Missing $$$ Jobs Fix
+  release: 2024-10-16T12:35:23.611Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2009/thumb-3dfed99e5cbbdcdedaabc24d76571a26-before.jpg
   url: https://community.simtropolis.com/files/file/22771-ih-missing-jobs-fix-update/
   variants:
     default:
       assets:
         - id: simtropolis/22771-ih-missing-jobs-fix-update
+      lastModified: 2009-11-03T13:21:04Z
       version: 1.11.0
