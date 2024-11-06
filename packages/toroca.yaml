@@ -84,9 +84,6 @@ toroca/5x5-and-6x6-malls:
           size: 5x5
           stage: 1
       version: 1.0.0
-  warnings:
-    - id: bulldoze
-      on: disable
 
 toroca/commercial-services-doubler:
   authors:
@@ -289,9 +286,9 @@ toroca/functional-landmarks:
           type: string
       version: 1.0.0
   warnings:
-    - id: bulldoze
+    - message: This package overrides several Maxis landmarks. Before enabling it, you must bulldoze all corresponding landmarks from your regions.
       on: enable
-    - id: bulldoze
+    - message: This package overrides several Maxis landmarks. Before disabling it, you must bulldoze all corresponding landmarks from your regions.
       on: disable
 
 toroca/industry-quadrupler:
@@ -385,9 +382,9 @@ toroca/opera-house-fix:
       lastModified: 2004-03-31T00:00:00Z
       version: 1.0.0
   warnings:
-    - id: bulldoze
+    - message: This package overrides the Maxis Opera House. Before enabling it, you must bulldoze all Opera Houses from your regions.
       on: enable
-    - id: bulldoze
+    - message: This package overrides the Maxis Opera House. Before disabling it, you must bulldoze all Opera Houses from your regions.
       on: disable
 
 toroca/toll-booth-booster:

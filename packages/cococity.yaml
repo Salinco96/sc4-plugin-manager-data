@@ -14,22 +14,6 @@ cococity/coco-samsung-apartment:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/Nite.jpg.7beb66a082ea53117ce1e3b1d54000e2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/670bcea2e8519_01.jpg.d01165e5f1b9664c7120884f4c784f2c.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/670bcea712142_02.jpg.12fa24047c534aca074d34f7908dbb7e.jpg
-  lots:
-    # TODO: Which is 4112 / 3212?
-    - bulldoze: 100
-      category: r$
-      filename: Coco_SamsungAPT_R$7x3_*.SC4Lot # DN: DN_d41861c2 / MN: MN_d41866fd
-      id: growable
-      label: Coco Samsung Apartment (R$, Stage 4, 7x3)
-      size: 7x3
-      stage: 4
-    - bulldoze: 100
-      category: landmarks
-      cost: 110000
-      filename: Coco_SamsungApt_*LM 7x3_*.SC4Lot # DN: d4185370 / MN: d41847ed
-      id: landmark
-      label: Coco Samsung Apartment (Landmark, 7x3)
-      size: 7x3
   name: Coco Samsung apartment
   release: 2024-10-17T06:14:27.427Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/Day.thumb.jpg.b8e1c2ecf42c9d4bb60d7f1a66179195.jpg
@@ -41,6 +25,24 @@ cococity/coco-samsung-apartment:
           include:
             - Coco_SamsungApt_DN
       lastModified: 2024-10-13T13:44:11Z
+      lots:
+        # TODO: Which is 4112 / 3212?
+        - bulldoze: 100
+          category: r$
+          filename: Coco_SamsungAPT_R$7x3_DN_d41861c2.SC4Lot
+          id: d41861c2
+          label: Coco Samsung Apartment (R$, Stage 4, 7x3)
+          replace: d41866fd
+          size: 7x3
+          stage: 4
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          filename: Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot
+          id: d4185370
+          label: Coco Samsung Apartment (Landmark, 7x3)
+          replace: d41847ed
+          size: 7x3
       name: Dark Nite
       requirements:
         darknite: true
@@ -51,12 +53,27 @@ cococity/coco-samsung-apartment:
           include:
             - Coco_SamsungApt_MN
       lastModified: 2024-10-13T13:44:11Z
+      lots:
+        # TODO: Which is 4112 / 3212?
+        - bulldoze: 100
+          category: r$
+          filename: Coco_SamsungAPT_R$7x3_MN_d41866fd.SC4Lot
+          id: d41866fd
+          label: Coco Samsung Apartment (R$, Stage 4, 7x3)
+          replace: d41861c2
+          size: 7x3
+          stage: 4
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          filename: Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot
+          id: d41847ed
+          label: Coco Samsung Apartment (Landmark, 7x3)
+          replace: d4185370
+          size: 7x3
       name: Maxis Nite
       requirements:
         darknite: false
       version: 1.1.0
   warnings:
-    - id: bulldoze
-      on: disable
-    - id: bulldoze
-      on: variantChange
+    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.

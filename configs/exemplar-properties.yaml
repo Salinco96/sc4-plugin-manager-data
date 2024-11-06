@@ -4813,34 +4813,80 @@
   type: UInt8
 
 "0x87cd6391":
-  desc: How much proximity to Co$$ is a factor in desirability
-  name: Proximity Effect:Co$$
+  desc: How much proximity to CO$$ is a factor in desirability
+  items:
+    - desc: 0 to 255
+      max: 255
+      min: 0
+      name: CO$$ Proximity
+    - max: 100
+      min: -100
+      name: Desirability
+  minLength: 4
+  name: CO$$ Proximity Effect
+  size: 2
+  repeat: true
   type: Float32
 
 "0x87cd6392":
-  desc: How much proximity to Co$$$ is a factor in desirability
-  name: Proximity Effect:Co$$$
+  desc: How much proximity to CO$$$ is a factor in desirability
+  items:
+    - desc: 0 to 255
+      max: 255
+      min: 0
+      name: CO$$$ Proximity
+    - max: 100
+      min: -100
+      name: Desirability
+  minLength: 4
+  name: CO$$$ Proximity Effect
+  size: 2
+  repeat: true
   type: Float32
 
 "0x87cd6397":
-  desc: How much transient aura effects (-128, 127) affect desirability
+  desc: How much transient aura effects affect desirability
+  items:
+    - desc: -127 to 127
+      max: 127
+      min: -127
+      name: Transient Aura
+    - max: 100
+      min: -100
+      name: Desirability
+  minLength: 4
   name: Transient Aura Effect
+  size: 2
+  repeat: true
   type: Float32
 
 "0x87cd6398":
-  desc: How much slope is a factor in desirability
+  desc: How much slope affects desirability
+  items:
+    - desc: 0 to 255
+      max: 255
+      min: 0
+      name: Slope
+    - max: 100
+      min: -100
+      name: Desirability
+  minLength: 4
   name: Slope Effect
+  size: 2
+  repeat: true
   type: Float32
 
 "0x87cd6399":
+  desc: How much landmark proximity affects desirability
   items:
-    - desc: -100 to +100 (positive is YIMBY, negative is NIMBY)
+    - desc: -100 to +100
       max: 100
       min: -100
-      name: Magnitude
-    - min: 0
-      name: Radius
-      unit: cells
+      name: Landmark Proximity
+    - max: 100
+      min: -100
+      name: Desirability
+  minLength: 4
   name: Landmark Effect
   size: 2
   repeat: true
@@ -7912,8 +7958,7 @@
 "0xea023270":
   desc: Maps grid data to aura effect
   items:
-    - max: 255
-      min: 0
+    - min: 0
       name: Parks
     - max: 100
       min: -100
@@ -7983,8 +8028,7 @@
 "0xea023275":
   desc: Maps grid data to aura effect
   items:
-    - max: 255
-      min: 0
+    - min: 0
       name: Schools
     - max: 100
       min: -100
@@ -7998,8 +8042,7 @@
 "0xea023276":
   desc: Maps grid data to aura effect
   items:
-    - max: 255
-      min: 0
+    - min: 0
       name: Hospitals
     - max: 100
       min: -100
@@ -8150,7 +8193,6 @@
       name: Radius
       step: 16
       unit: m
-  minLength: 4
   name: "Aura Simulator - Transient Effect - Fire"
   size: 2
   type: Float32
@@ -8165,7 +8207,6 @@
       name: Radius
       step: 16
       unit: m
-  minLength: 4
   name: "Aura Simulator - Transient Effect - Flora"
   size: 2
   type: Float32
@@ -8180,7 +8221,6 @@
       name: Radius
       step: 16
       unit: m
-  minLength: 4
   name: "Aura Simulator - Transient Effect - Civic Plop"
   size: 2
   type: Float32
@@ -8195,7 +8235,6 @@
       name: Radius
       step: 16
       unit: m
-  minLength: 4
   name: "Aura Simulator - Transient Effect - Network Plop"
   size: 2
   type: Float32
