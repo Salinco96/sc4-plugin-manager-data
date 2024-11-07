@@ -76,4 +76,4 @@ cococity/coco-samsung-apartment:
         darknite: false
       version: 1.1.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds

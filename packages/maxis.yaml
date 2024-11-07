@@ -23,7 +23,7 @@ maxis/63-building:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/adler-planetarium:
@@ -51,7 +51,7 @@ maxis/adler-planetarium:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/air-force-base:
@@ -91,8 +91,8 @@ maxis/arc-de-triomphe:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
-      on: variant
+    - id: inconsistentVariantLotIds
+      on: enable
 
 maxis/brandenburg-gate:
   authors:
@@ -119,7 +119,7 @@ maxis/brandenburg-gate:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/capitol-records:
@@ -147,7 +147,7 @@ maxis/capitol-records:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/day-of-peace:
@@ -187,7 +187,7 @@ maxis/globe-arena:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/grand-central-station:
@@ -215,7 +215,7 @@ maxis/grand-central-station:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/grutze-industries:
@@ -267,7 +267,7 @@ maxis/kunjungjon:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/longfellow-castle:
@@ -367,7 +367,7 @@ maxis/namdaemun:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/parthenon:
@@ -395,7 +395,7 @@ maxis/parthenon:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/rockefeller-center:
@@ -423,7 +423,7 @@ maxis/rockefeller-center:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/sagrada-familia:
@@ -451,7 +451,7 @@ maxis/sagrada-familia:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/san-francisco-city-hall:
@@ -479,7 +479,7 @@ maxis/san-francisco-city-hall:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/schloss-schoenbrun:
@@ -507,7 +507,7 @@ maxis/schloss-schoenbrun:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/seoul-city-hall:
@@ -535,7 +535,7 @@ maxis/seoul-city-hall:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/seoul-soccer-stadium:
@@ -563,7 +563,7 @@ maxis/seoul-soccer-stadium:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/shorty-burger:
@@ -627,7 +627,7 @@ maxis/stonehenge:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/taipei-art-museum:
@@ -655,7 +655,7 @@ maxis/taipei-art-museum:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
 
 maxis/temple-of-grutz:
@@ -695,5 +695,5 @@ maxis/the-living-mall:
       name: With jobs
       version: 1.0.0
   warnings:
-    - message: This package uses different lot IDs across variants. Before selecting a different variant, you must bulldoze all corresponding lots from your regions.
+    - id: inconsistentVariantLotIds
       on: variant
