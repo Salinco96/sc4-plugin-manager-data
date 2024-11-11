@@ -4650,8 +4650,26 @@
   type: UInt32
 
 "0x87cd6310":
-  desc: Power of 2; determines the size of the demand grid
+  choices:
+    - label: 1
+      value: 1
+    - label: 2
+      value: 2
+    - label: 4
+      value: 4
+    - label: 8
+      value: 8
+    - label: 16
+      value: 16
+    - label: 32
+      value: 32
+    - label: 64
+      value: 64
+    - label: 128
+      value: 128
+  desc: Size of the demand grid (must be a power of 2)
   name: Tract Size
+  size: 1
   type: UInt8
 
 "0x87cd6330":
@@ -4665,98 +4683,228 @@
   type: UInt8
 
 "0x87cd6332":
-  desc: Specifies type of building created by this developer. 0x01=R, 0x02=CS, 0x03=CO, 0x05=IAG, 0x06=ID,0x07=IM,0x08=IHT
+  choices:
+    - label: Residential
+      value: 0x01
+    - label: Commercial, Services
+      value: 0x02
+    - label: Commercial, Offices
+      value: 0x03
+    - label: Industrial, Agriculture
+      value: 0x05
+    - label: Industrial, Dirty
+      value: 0x06
+    - label: Industrial, Manufacture
+      value: 0x07
+    - label: Industrial, High-Tech
+      value: 0x08
+  desc: Type of building created by this developer
   name: Purpose Type
+  size: 1
+  strict: true
   type: UInt8
 
 "0x87cd6333":
-  desc: Specifies acceptable land values (0, 0 disables)
+  desc: Minimum and maximum land value - (0, 0) disables
+  items:
+    - name: Minimum land value
+    - name: Maximum land value
   name: Land Value Range
+  size: 2
   type: UInt8
 
 "0x87cd633f":
   desc: True means use total land value
-  name: Land Value Use Intrinsic
+  name: Use Intrinsic Land Value
+  size: 1
   type: Bool
 
 "0x87cd6340":
-  desc: How much land value is a factor in desirability
+  items:
+    - desc: 0 to 255
+      name: Land Value
+      max: 255
+      min: 0
+    - desc: How much land value affects desirability (-100 to +100)
+      name: Desirability (-100 to -100)
+      max: 100
+      min: -100
   name: Land Value Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6341":
-  desc: How much park proximity affects desirability
+  items:
+    - desc: -100 to +100, or 0 to 255 (???)
+      name: Park Proximity
+      max: 255
+      min: -100
+    - desc: How much proximity to parks affects desirability
+      name: Desirability
   name: Park Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6343":
-  desc: How much proximity to R$ is a factor in desirability
-  name: Proximity Effect:R$
+  items:
+    - desc: 0 to 255
+      name: R$ Proximity
+      max: 255
+      min: 0
+    - desc: How much proximity to R$ affects desirability
+      name: Desirability
+  name: R$ Proximity Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6344":
-  desc: How much proximity to R$$ is a factor in desirability
-  name: Proximity Effect:R$$
+  items:
+    - desc: 0 to 255
+      name: R$$ Proximity
+      max: 255
+      min: 0
+    - desc: How much proximity to R$$ affects desirability
+      name: Desirability
+  name: R$$ Proximity Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6345":
-  desc: How much proximity to R$$$ is a factor in desirability
-  name: Proximity Effect:R$$$
+  items:
+    - desc: 0 to 255
+      name: R$$$ Proximity
+      max: 255
+      min: 0
+    - desc: How much proximity to R$$$ affects desirability
+      name: Desirability
+  name: R$$$ Proximity Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6346":
-  desc: How much traffic volume is a factor in desirability
+  items:
+    - desc: 0 to 256
+      name: Traffic
+      max: 256
+      min: 0
+    - desc: How much traffic volume affects desirability
+      name: Desirability
   name: Traffic Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6347":
-  desc: How much travel time is a factor in desirability
+  items:
+    - desc: 0 to 255
+      name: Trip Length
+      max: 255
+      min: 0
+    - desc: How much travel time affects desirability
+      name: Desirability
   name: Trip Length Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6348":
-  desc: How much school grade is a factor in desirability
+  items:
+    - desc: 0 to 255
+      name: School Grade
+      max: 255
+      min: 0
+    - desc: How much school grade affects desirability
+      name: Desirability
   name: School Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6349":
-  desc: How much hospital grade is a factor in desirability
+  items:
+    - desc: 0 to 255
+      name: Hospital Grade
+      max: 255
+      min: 0
+    - desc: How much hospital grade affects desirability
+      name: Desirability
   name: Hospital Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd634a":
-  desc: How much crime is a factor in desirability
+  items:
+    - desc: 0 to 255
+      name: Crime
+      max: 255
+      min: 0
+    - desc: How much crime affects desirability
+      name: Desirability
   name: Crime Effect
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd634b":
-  desc: How much air pollution proximity affects desirability
-  name: Pollution Effect:Air
+  items:
+    - name: Air Pollution
+      min: 0
+    - desc: How much air pollution proximity affects desirability
+      name: Desirability
+  name: Pollution Effect - Air Pollution
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd634c":
-  desc: How much water pollution proximity affects desirability
-  name: Pollution Effect:Water
+  items:
+    - name: Water Pollution
+      min: 0
+    - desc: How much water pollution proximity affects desirability
+      name: Desirability
+  name: Pollution Effect - Water Pollution
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd634d":
-  desc: How much garbage pollution proximity affects desirability
-  name: Pollution Effect:Garbage
+  items:
+    - name: Garbage
+      min: 0
+    - desc: How much garbage pollution proximity affects desirability
+      name: Desirability
+  name: Pollution Effect - Garbage
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd634e":
-  desc: How much radiation pollution proximity affects desirability
-  name: Pollution Effect:Radiation
+  items:
+    - name: Radiation
+      min: 0
+    - desc: How much radiation pollution proximity affects desirability
+      name: Desirability
+  name: Pollution Effect - Radiation
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6354":
   desc: Tracts with desirability greater than this value never abandon.
   name: Desirability Threshold Decline
+  size: 1
   type: SInt32
 
 "0x87cd6355":
-  desc: Tracts with desirability less than this value never level. Tested before pruning.
+  desc: Tracts with desirability less than this value never level.
   name: Desirability Threshold Growth
+  size: 1
   type: SInt32
 
 "0x87cd6356":
@@ -4766,8 +4914,9 @@
   type: Bool
 
 "0x87cd6357":
-  desc: Value for desirability, if no other effects are applicable
+  desc: Base value for desirability, if no other effects are applicable
   name: Baseline Desirability
+  size: 1
   type: SInt32
 
 "0x87cd6360":
@@ -4778,78 +4927,161 @@
 
 "0x87cd6361":
   desc: Percentage of growth which should be of type 1, as a function of the population of the city
-  name: Stage 1 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 1 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 1 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6362":
   desc: Percentage of growth which should be of type 2, as a function of the population of the city
-  name: Stage 2 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 2 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 2 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6363":
   desc: Percentage of growth which should be of type 3, as a function of the population of the city
-  name: Stage 3 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 3 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 3 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6364":
   desc: Percentage of growth which should be of type 4, as a function of the population of the city
-  name: Stage 4 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 4 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 4 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6365":
   desc: Percentage of growth which should be of type 5, as a function of the population of the city
-  name: Stage 5 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 5 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 5 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6366":
   desc: Percentage of growth which should be of type 6, as a function of the population of the city
-  name: Stage 6 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 6 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 6 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6367":
   desc: Percentage of growth which should be of type 7, as a function of the population of the city
-  name: Stage 7 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 7 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 7 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6368":
   desc: Percentage of growth which should be of type 8, as a function of the population of the city
-  name: Stage 8 vs. Size
+  items:
+    - name: Population
+      min: 0
+      unit: Sims
+    - name: Stage 8 Growth
+      max: 100
+      min: 0
+      unit: "%"
+  name: Stage 8 vs City Population
+  repeat: true
+  size: 2
   type: Float32
 
 "0x87cd6370":
   desc: Maximum density allowed without water service
   name: Water Supply Cap
+  size: 1
   type: UInt8
 
 "0x87cd6371":
   desc: Maximum density allowed without fire protection
   name: Fire Coverage Cap
+  size: 1
   type: UInt8
 
 "0x87cd6372":
   desc: Maximum density allowed without a nearby park
   name: Park Cap
+  size: 1
   type: UInt8
 
 "0x87cd6373":
   desc: Maximum density allowed without power service
   name: Power Supply Cap
+  size: 1
   type: UInt8
 
 "0x87cd6381":
   desc: Specifies building selection mode
   name: Use Monopoly Pieces
+  size: 1
   type: UInt8
 
 "0x87cd6391":
-  desc: How much proximity to CO$$ is a factor in desirability
   items:
     - desc: 0 to 255
       max: 255
       min: 0
       name: CO$$ Proximity
-    - max: 100
-      min: -100
+    - desc: How much proximity to CO$$ affects desirability
       name: Desirability
   minLength: 4
   name: CO$$ Proximity Effect
@@ -4864,8 +5096,7 @@
       max: 255
       min: 0
       name: CO$$$ Proximity
-    - max: 100
-      min: -100
+    - desc: How much proximity to CO$$$ affects desirability
       name: Desirability
   minLength: 4
   name: CO$$$ Proximity Effect
@@ -4874,14 +5105,12 @@
   type: Float32
 
 "0x87cd6397":
-  desc: How much transient aura effects affect desirability
   items:
     - desc: -127 to 127
       max: 127
       min: -127
       name: Transient Aura
-    - max: 100
-      min: -100
+    - desc: How much transient aura effects affect desirability
       name: Desirability
   minLength: 4
   name: Transient Aura Effect
@@ -4890,14 +5119,12 @@
   type: Float32
 
 "0x87cd6398":
-  desc: How much slope affects desirability
   items:
     - desc: 0 to 255
       max: 255
       min: 0
       name: Slope
-    - max: 100
-      min: -100
+    - desc: How much slope affects desirability
       name: Desirability
   minLength: 4
   name: Slope Effect
@@ -4906,14 +5133,12 @@
   type: Float32
 
 "0x87cd6399":
-  desc: How much landmark proximity affects desirability
   items:
-    - desc: -100 to +100
-      max: 100
+    - desc: -100 to +100, or 0 to 255 (???)
+      max: 255
       min: -100
-      name: Landmark Proximity
-    - max: 100
-      min: -100
+      name: Proximity
+    - desc: How much proximity to landmarks affects desirability
       name: Desirability
   minLength: 4
   name: Landmark Effect
@@ -4923,7 +5148,288 @@
 
 "0x87cd63a0":
   desc: Pairs of occupant group IDs and percentages showing how often they should be used
+  items:
+    - choices: # TODO: DRY
+        - label: Residential
+          value: 0x1000
+        - label: Commercial
+          value: 0x1001
+        - label: Industrial
+          value: 0x1002
+        - label: Transportation
+          value: 0x1003
+        - label: Utility
+          value: 0x1004
+        - label: Civic
+          value: 0x1005
+        - label: Park
+          value: 0x1006
+        - label: Scripting Use
+          value: 0x1009
+        - label: Fauna
+          value: 0x100a
+        - label: Rail
+          value: 0x1300
+        - label: Bus
+          value: 0x1301
+        - label: Subway
+          value: 0x1302
+        - label: El Train
+          value: 0x1303
+        - label: Ferry
+          value: 0x1304
+        - label: Passenger Rail
+          value: 0x1305
+        - label: Freight Rail
+          value: 0x1306
+        - label: Monorail
+          value: 0x1307
+        - label: Car Ferry
+          value: 0x1308
+        - label: Passenger Ferry
+          value: 0x1309
+        - label: Misc Transit
+          value: 0x130a
+        - label: Toll Booth
+          value: 0x130b
+        - label: Power
+          value: 0x1400
+        - label: Water
+          value: 0x1401
+        - label: Nuclear
+          value: 0x1403
+        - label: Recycle
+          value: 0x1404
+        - label: Toxic Dump
+          value: 0x1405
+        - label: Landfill
+          value: 0x1406
+        - label: Police
+          value: 0x1500
+        - label: Jail
+          value: 0x1501
+        - label: Fire
+          value: 0x1502
+        - label: School
+          value: 0x1503
+        - label: College
+          value: 0x1504
+        - label: Library
+          value: 0x1505
+        - label: Museum
+          value: 0x1506
+        - label: Health
+          value: 0x1507
+        - label: Airport
+          value: 0x1508
+        - label: Seaport
+          value: 0x1509
+        - label: Landmark
+          value: 0x150a
+        - label: Reward
+          value: 0x150b
+        - label: Landmark Queue
+          value: 0x150c
+        - label: Police, Large
+          value: 0x150d
+        - label: Police, Small
+          value: 0x150e
+        - label: Schools, K6
+          value: 0x150f
+        - label: Schools, HS
+          value: 0x1510
+        - label: Courthouse
+          value: 0x1511
+        - label: Clinic
+          value: 0x1512
+        - label: Hospital
+          value: 0x1513
+        - label: Schools, Private
+          value: 0x1514
+        - label: Deluxe Police Station
+          value: 0x1515
+        - label: Police Kiosk
+          value: 0x1516
+        - label: Landing Strip
+          value: 0x1517
+        - label: Deluxe Fire Station
+          value: 0x1518
+        - label: Water Transit
+          value: 0x1519
+        - label: Health, Large
+          value: 0x151a
+        - label: School, Other
+          value: 0x151b
+        - label: Health, Other
+          value: 0x151c
+        - label: Cemetery
+          value: 0x1700
+        - label: Pet Cemetery
+          value: 0x1701
+        - label: Zoo
+          value: 0x1702
+        - label: VIP
+          value: 0x1900
+        - label: Tourist
+          value: 0x1901
+        - label: Country Club
+          value: 0x1902
+        - label: Taxi Maker
+          value: 0x1903
+        - label: Ambulance Maker
+          value: 0x1904
+        - label: DMV
+          value: 0x1905
+        - label: Stadium
+          value: 0x1906
+        - label: Worship
+          value: 0x1907
+        - label: Night Club
+          value: 0x1908
+        - label: Opera House
+          value: 0x1909
+        - label: TV Station
+          value: 0x1910
+        - label: TV Magnet
+          value: 0x1911
+        - label: Farmland
+          value: 0x1912
+        - label: Biz Lawyer Attack
+          value: 0x1913
+        - label: Army Base
+          value: 0x1914
+        - label: Missile Range
+          value: 0x1915
+        - label: Army Tank
+          value: 0x1916
+        - label: Ape Escape
+          value: 0x1917
+        - label: Dog Magnet
+          value: 0x1919
+        - label: YIMBY
+          value: 0x1920
+        - label: Convention Crowd
+          value: 0x1921
+        - label: Kid Crowd
+          value: 0x1922
+        - label: Sim Crowd Day, Small
+          value: 0x1923
+        - label: Sim Crowd Day, Large
+          value: 0x1924
+        - label: State Fair
+          value: 0x1925
+        - label: Bus Stop
+          value: 0x1926
+        - label: Sim Crowd Stand
+          value: 0x1927
+        - label: Strikers (NIMBY)
+          value: 0x1928
+        - label: Crowd Biz
+          value: 0x1929
+        - label: Crowd White Coat
+          value: 0x1930
+        - label: Army_Ped
+          value: 0x1931
+        - label: Army_JumpingJacks
+          value: 0x1932
+        - label: Zombie Building
+          value: 0x1933
+        - label: Mower Building
+          value: 0x1934
+        - label: Landmark Ogle
+          value: 0x1935
+        - label: Burning Dude Maker
+          value: 0x1936
+        - label: Crowd Stand Return
+          value: 0x1937
+        - label: Mayor House
+          value: 0x1938
+        - label: Area 5.1 Base (Ice Cream Spawner)
+          value: 0x1939
+        - label: Casino
+          value: 0x1940
+        - label: Marina
+          value: 0x1941
+        - label: Police Car Maker
+          value: 0x1942
+        - label: Strikable Fire
+          value: 0x1a00
+        - label: Strikable Police
+          value: 0x1a01
+        - label: Strikable Health
+          value: 0x1a02
+        - label: Strikable Education
+          value: 0x1a03
+        - label: Strikable Transit
+          value: 0x1a04
+        - label: Industrial, Anchor
+          value: 0x3000
+        - label: Industrial, Mechanical
+          value: 0x3001
+        - label: Industrial, Out
+          value: 0x3002
+        - label: Commercial, MiddleClassMall
+          value: 0x1101
+        - label: Commercial, DriveIn
+          value: 0x1103
+        - label: Commercial, FleaBagMotel
+          value: 0x1106
+        - label: Commercial, GreasePit
+          value: 0x1109
+        - label: Commercial, UsedCarCheap
+          value: 0x110c
+        - label: Commercial, TacoStand
+          value: 0x110f
+        - label: Commercial, MaxisSimTheatre
+          value: 0x1113
+        - label: Commercial, FamilyInn
+          value: 0x1114
+        - label: Commercial, Sims4thAve
+          value: 0x1117
+        - label: R$
+          value: 0x11010
+        - label: R$$
+          value: 0x11020
+        - label: R$$$
+          value: 0x11030
+        - label: CS$
+          value: 0x13110
+        - label: CS$$
+          value: 0x13120
+        - label: CS$$$
+          value: 0x13130
+        - label: CO$$
+          value: 0x13320
+        - label: CO$$$
+          value: 0x13330
+        - label: Agriculture
+          value: 0x14100
+        - label: Industrial, Dirty
+          value: 0x14200
+        - label: Industrial, Manufacture
+          value: 0x14300
+        - label: Industrial, High-Tech
+          value: 0x14400
+        - label: Commercial, Car
+          value: 0x21000
+        - label: Commercial, Food
+          value: 0x21001
+        - label: Commercial, Shop
+          value: 0x21002
+        - label: Commercial, Movie
+          value: 0x21003
+        - label: Commercial, Hotel
+          value: 0x21004
+        - label: Commercial, Large
+          value: 0x31000
+      name: Occupant Group
+    - name: Growth
+      max: 100
+      min: 0
+      unit: "%"
   name: Style Percentages
+  size: 2
+  repeat: true
   type: UInt32
 
 "0x88ed1059":
@@ -7550,13 +8056,31 @@
   type: Bool
 
 "0xcab1ce3a":
-  desc: Min value of desirability for subjective factors (Pollution:Garbage:School:Hospital:Crime:Traffic:Triplength).
+  desc: Min value of desirability for subjective factors
+  items:
+    - name: Pollution
+    - name: Garbage
+    - name: School
+    - name: Hospital
+    - name: Crime
+    - name: Traffic
+    - name: Trip Length
   name: Subjective Factor Threshold (Min value)
+  size: 7
   type: SInt32
 
 "0xcab1ce3c":
-  desc: Max value of desirability for subjective factors (Pollution:Garbage:School:Hospital:Crime:Traffic:Triplength).
+  desc: Max value of desirability for subjective factors
+  items:
+    - name: Pollution
+    - name: Garbage
+    - name: School
+    - name: Hospital
+    - name: Crime
+    - name: Traffic
+    - name: Trip Length
   name: Subjective Factor Threshold (Max value)
+  size: 7
   type: SInt32
 
 "0xcad64136":
