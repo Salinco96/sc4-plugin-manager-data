@@ -937,10 +937,39 @@
   type: UInt8
 
 "0x27812834":
-  desc:
-    "Paired values: First value is the Developer ID. 2nd value is how much capacity this building offers to that Developer.
-    R$:1010.R$$:1020.R$$$:1030.CS$:3110.CS$$:3120.CS$$$:3130.CO$$:3320.CO$$$:3330.IResource:4100.ID:4200.IM:4300.IHT:4400. May be others"
+  items:
+    - choices: # TODO
+        - label: R$
+          value: 0x1010
+        - label: R$$
+          value: 0x1020
+        - label: R$$$
+          value: 0x1030
+        - label: CS$
+          value: 0x3110
+        - label: CS$$
+          value: 0x3120
+        - label: CS$$$
+          value: 0x3130
+        - label: CO$$
+          value: 0x3320
+        - label: CO$$$
+          value: 0x3330
+        - label: I-R
+          value: 0x4100
+        - label: I-D
+          value: 0x4200
+        - label: I-M
+          value: 0x4300
+        - label: I-HT
+          value: 0x4400
+      name: Developer ID
+      strict: true
+      unique: true
+    - name: Capacity Satisfied
   name: Capacity Satisfied
+  size: 2
+  repeat: true
   type: UInt32
 
 "0x27812836":
@@ -6642,11 +6671,11 @@
       value: 0x1a03
     - label: Strikable Transit
       value: 0x1a04
-    - label: Industry, Anchor
+    - label: Industrial, Anchor
       value: 0x3000
-    - label: Industry, Mechanical
+    - label: Industrial, Mechanical
       value: 0x3001
-    - label: Industry, Out
+    - label: Industrial, Out
       value: 0x3002
     - label: Commercial, MiddleClassMall
       value: 0x1101
@@ -6682,13 +6711,13 @@
       value: 0x13320
     - label: CO$$$
       value: 0x13330
-    - label: I-R
+    - label: Agriculture
       value: 0x14100
-    - label: I-D
+    - label: Industrial, Dirty
       value: 0x14200
-    - label: I-M
+    - label: Industrial, Manufacture
       value: 0x14300
-    - label: I-HT
+    - label: Industrial, High-Tech
       value: 0x14400
     - label: Commercial, Car
       value: 0x21000
@@ -6704,7 +6733,7 @@
       value: 0x31000
   desc: List of groups this occupant belongs to. Function and values vary for different Exemplar types.
   minLength: 1
-  name: OccupantGroups
+  name: Occupant Groups
   type: UInt32
   unique: true
 
