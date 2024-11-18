@@ -3,8 +3,44 @@ ripplejet/census-repository-building:
     - ripplejet
   category: landmarks
   description: BSC Census Repository Building by RippleJet.
-  disabled: true
-  name: BSC Census Repository Building by RippleJet
+  lots:
+    - bulldoze: 9000
+      category: landmarks
+      cost: 15000
+      filename: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+      flamability: 38
+      garbage: 47
+      id: 6471f58b
+      landmark: 40
+      landmarkRadius: 20
+      maintenance: 400
+      name: RW_3x1_Census Repository Facility_ZP_ULTRA
+      pollution: 3
+      pollutionRadius: 3
+      power: 84
+      rating: 10
+      ratingRadius: 256
+      size: 3x1
+      water: 84
+      waterPollution: 3
+      waterPollutionRadius: 4
+    - bulldoze: 1500
+      category: landmarks
+      cost: 2000
+      filename: RW_2x2_Census Repository Vault.SC4Lot
+      flamability: 38
+      garbage: 5
+      id: 645e467b
+      maintenance: 50
+      name: RW_2x2_Census Repository Vault
+      pollution: 1
+      pollutionRadius: 3
+      power: 8
+      size: 2x2
+      water: 8
+      waterPollution: 1
+      waterPollutionRadius: 4
+  name: BSC Census Repository Building
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
   variants:
     default:
@@ -12,6 +48,44 @@ ripplejet/census-repository-building:
         - docs:
             - _Documents/BSC_Readmes/RippleJet
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
+          include:
+            # TODO: Based on NAM installation - is this even still relevant?
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot
+            - BSC/Ripplejet/Census Repository
       lastModified: 2023-07-20T10:48:28.000Z
-      release: 2024-11-17T16:00:57.230Z
+      name: Default
+      release: 2024-11-18T11:55:40.349Z
+      requirements:
+        more-demand-info: false
+      version: 3.5.0
+    more-demand-info:
+      assets:
+        - docs:
+            - _Documents/BSC_Readmes/RippleJet
+          exclude:
+            - RJ - Census_Repository_Model_and_Query_3.1.dat
+          id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
+          include:
+            # TODO: Based on NAM installation - is this even still relevant?
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+            # - _Documents/BSC_Readmes/RippleJet/_Census Repository___CHOOSE ONE --- SEE README!!!/RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot
+            - BSC/Ripplejet/Census Repository
+        - docs: []
+          id: simtropolis/35978-sc4-more-demand-info
+          include:
+            - RJ - Census_Repository_Model_and_Query_3.1.dat
+      authors:
+        - null-45
+      lastModified: 2024-05-08T04:10:48.000Z
+      name: More Demand Info by Null 45
+      release: 2024-11-18T11:47:39.115Z
+      requirements:
+        more-demand-info: true
       version: 3.5.0

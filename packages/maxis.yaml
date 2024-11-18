@@ -23,6 +23,7 @@ maxis/63-building:
           power: 600
           rating: 8
           ratingRadius: 256
+          replace: 6afc49f8
           size: 4x5
           water: 1300
           waterPollution: 5
@@ -40,11 +41,31 @@ maxis/63-building:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 9900
+          capacity:
+            co$$: 2825
+          cost: 110000
+          filename: Plugin_00A_63Building.dat
+          flamability: 10
+          garbage: 39
+          id: 6afc49f8
+          maintenance: 210
+          name: Lm4x5_KoreaLifeBldg
+          pollution: 5
+          pollutionRadius: 6
+          power: 600
+          rating: 8
+          ratingRadius: 256
+          replace: 6afc49f8
+          size: 4x5
+          water: 1300
+          waterPollution: 5
+          waterPollutionRadius: 7
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/adler-planetarium:
   authors:
@@ -59,6 +80,9 @@ maxis/adler-planetarium:
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         - bulldoze: 8100
+          capacity:
+            cs$: 15
+            cs$$: 15
           cost: 90000
           filename: Plugin_031_AdlerPlanetarium.dat
           flamability: 18
@@ -71,6 +95,7 @@ maxis/adler-planetarium:
           power: 25
           rating: 7
           ratingRadius: 256
+          replace: 8c9fb724
           size: 6x6
           water: 45
           waterPollution: 1
@@ -88,11 +113,29 @@ maxis/adler-planetarium:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 8100
+          cost: 90000
+          filename: Plugin_031_AdlerPlanetarium.dat
+          flamability: 18
+          garbage: 6
+          id: 8c9fb724
+          maintenance: 180
+          name: LM6x6_adlerp
+          pollution: 1
+          pollutionRadius: 1
+          power: 25
+          rating: 7
+          ratingRadius: 256
+          replace: 8c9fb724
+          size: 6x6
+          water: 45
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/air-force-base:
   authors:
@@ -138,6 +181,7 @@ maxis/arc-de-triomphe:
           power: 1
           rating: 15
           ratingRadius: 256
+          replace: aac407c0
           size: 3x3
           water: 1
           waterPollution: 1
@@ -155,7 +199,31 @@ maxis/arc-de-triomphe:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4950
+          capacity:
+            cs$: 8
+            cs$$: 8
+          category: landmarks
+          cost: 55000
+          filename: Plugin_003_ArcTriomphe.dat
+          garbage: 5
+          id: aac407c0
+          maintenance: 110
+          name: LM3x3_ArcTriomphe
+          pollution: 1
+          pollutionRadius: 1
+          power: 1
+          rating: 15
+          ratingRadius: 256
+          replace: aac407c0
+          size: 3x3
+          water: 1
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
@@ -187,6 +255,7 @@ maxis/brandenburg-gate:
           power: 2
           rating: 6
           ratingRadius: 256
+          replace: ab5e1192
           size: 5x7
           water: 3
           waterPollution: 1
@@ -204,11 +273,33 @@ maxis/brandenburg-gate:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 5850
+          capacity:
+            cs$: 7
+            cs$$: 7
+          category: landmarks
+          cost: 60000
+          filename: Plugin_00C_BrandenburgGate.dat
+          flamability: 34
+          garbage: 5
+          id: ab5e1192
+          maintenance: 120
+          name: LM5x7_BrandenburgGate
+          pollution: 1
+          pollutionRadius: 1
+          power: 2
+          rating: 6
+          ratingRadius: 256
+          replace: ab5e1192
+          size: 5x7
+          water: 3
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/capitol-records:
   authors:
@@ -236,6 +327,7 @@ maxis/capitol-records:
           power: 215
           rating: 3
           ratingRadius: 256
+          replace: cb549981
           size: 5x5
           water: 900
           waterPollution: 4
@@ -253,11 +345,32 @@ maxis/capitol-records:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4500
+          capacity:
+            co$$: 531
+          category: landmarks,co$$$
+          cost: 50000
+          filename: Plugin_012_CapitolRecords.dat
+          flamability: 34
+          garbage: 11
+          id: cb549981
+          maintenance: 100
+          name: Lm5x5_CapitolRecordsBuilding
+          pollution: 3
+          pollutionRadius: 4
+          power: 215
+          rating: 3
+          ratingRadius: 256
+          replace: cb549981
+          size: 5x5
+          water: 900
+          waterPollution: 4
+          waterPollutionRadius: 5
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/day-of-peace:
   authors:
@@ -299,6 +412,7 @@ maxis/globe-arena:
           power: 40
           rating: 5
           ratingRadius: 256
+          replace: aae108a3
           size: 11x8
           water: 100
           waterPollution: 3
@@ -316,11 +430,33 @@ maxis/globe-arena:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4950
+          capacity:
+            cs$: 272
+            cs$$: 272
+          category: landmarks
+          cost: 70000
+          filename: Plugin_006_GlobeArena.dat
+          flamability: 30
+          garbage: 15
+          id: aae108a3
+          maintenance: 140
+          name: LM11x8_GlobeArena
+          pollution: 2
+          pollutionRadius: 2
+          power: 40
+          rating: 5
+          ratingRadius: 256
+          replace: aae108a3
+          size: 11x8
+          water: 100
+          waterPollution: 3
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/grand-central-station:
   authors:
@@ -347,6 +483,7 @@ maxis/grand-central-station:
           power: 200
           rating: 8
           ratingRadius: 256
+          replace: 2b589d69
           size: 7x8
           water: 200
           waterPollution: 4
@@ -364,11 +501,32 @@ maxis/grand-central-station:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4500
+          capacity:
+            cs$: 303
+            cs$$: 303
+          cost: 110000
+          filename: Plugin_010_GrandCentralStation.dat
+          flamability: 30
+          garbage: 11
+          id: 2b589d69
+          maintenance: 220
+          name: LM7x8_GrandCentral
+          pollution: 3
+          pollutionRadius: 4
+          power: 200
+          rating: 8
+          ratingRadius: 256
+          replace: 2b589d69
+          size: 7x8
+          water: 200
+          waterPollution: 4
+          waterPollutionRadius: 5
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/grutze-industries:
   authors:
@@ -469,6 +627,7 @@ maxis/kunjungjon:
           power: 50
           rating: 5
           ratingRadius: 256
+          replace: 4afc8bd5
           size: 5x6
           water: 250
           waterPollution: 2
@@ -486,11 +645,32 @@ maxis/kunjungjon:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 5850
+          capacity:
+            cs$: 7
+            cs$$: 7
+          cost: 65000
+          filename: Plugin_008_Kunjungjon.dat
+          flamability: 33
+          garbage: 9
+          id: 4afc8bd5
+          maintenance: 130
+          name: Lm5x6_KonjongjonHall
+          pollution: 2
+          pollutionRadius: 2
+          power: 50
+          rating: 5
+          ratingRadius: 256
+          replace: 4afc8bd5
+          size: 5x6
+          water: 250
+          waterPollution: 2
+          waterPollutionRadius: 3
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/longfellow-castle:
   authors:
@@ -669,6 +849,7 @@ maxis/namdaemun:
           power: 10
           rating: 8
           ratingRadius: 256
+          replace: 8af9d28c
           size: 4x4
           water: 10
           waterPollution: 2
@@ -686,11 +867,30 @@ maxis/namdaemun:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 5850
+          capacity:
+            cs$: 15
+            cs$$: 15
+          cost: 65000
+          filename: Plugin_009_NamDaeMoon.dat
+          flamability: 10
+          garbage: 4
+          id: 8af9d28c
+          maintenance: 130
+          name: Lm4x4_NamDaeMoon
+          power: 10
+          rating: 8
+          ratingRadius: 256
+          replace: 8af9d28c
+          size: 4x4
+          water: 10
+          waterPollution: 2
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/parthenon:
   authors:
@@ -716,6 +916,7 @@ maxis/parthenon:
           power: 2
           rating: 7
           ratingRadius: 256
+          replace: cb68c0df
           size: 3x5
           water: 5
           waterPollution: 1
@@ -733,11 +934,31 @@ maxis/parthenon:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 6750
+          capacity:
+            cs$: 7
+            cs$$: 7
+          category: landmarks
+          cost: 60000
+          filename: Plugin_00D_Parthenon.dat
+          flamability: 35
+          garbage: 2
+          id: cb68c0df
+          maintenance: 120
+          name: Lm4x7_Parthenon
+          power: 2
+          rating: 7
+          ratingRadius: 256
+          replace: cb68c0df
+          size: 3x5
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/rockefeller-center:
   authors:
@@ -765,6 +986,7 @@ maxis/rockefeller-center:
           power: 10
           rating: 7
           ratingRadius: 256
+          replace: 8ccf053d
           size: 4x13
           water: 9
           waterPollution: 1
@@ -782,11 +1004,32 @@ maxis/rockefeller-center:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 8100
+          capacity:
+            co$$: 4077
+          category: landmarks
+          cost: 90000
+          filename: Plugin_033_RockefellerCenter.dat
+          flamability: 39
+          garbage: 3
+          id: 8ccf053d
+          maintenance: 180
+          name: LM4x4_RockefellerCtr
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          replace: 8ccf053d
+          size: 4x13
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/sagrada-familia:
   authors:
@@ -813,6 +1056,7 @@ maxis/sagrada-familia:
           pollutionRadius: 2
           rating: 5
           ratingRadius: 256
+          replace: 6bce41a2
           size: 5x5
           waterPollution: 1
           waterPollutionRadius: 3
@@ -829,11 +1073,31 @@ maxis/sagrada-familia:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 8550
+          capacity:
+            cs$: 38
+            cs$$: 38
+          category: landmarks
+          cost: 95000
+          filename: Plugin_00F_TempleExpiatiori.dat
+          flamability: 16
+          garbage: 5
+          id: 6bce41a2
+          maintenance: 180
+          name: LM12x12_sagradafamilia
+          pollution: 1
+          pollutionRadius: 2
+          rating: 5
+          ratingRadius: 256
+          replace: 6bce41a2
+          size: 5x5
+          waterPollution: 1
+          waterPollutionRadius: 3
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/san-francisco-city-hall:
   authors:
@@ -860,6 +1124,7 @@ maxis/san-francisco-city-hall:
           power: 200
           rating: 5
           ratingRadius: 256
+          replace: 0c83e29f
           size: 11x7
           water: 200
           waterPollution: 3
@@ -877,11 +1142,32 @@ maxis/san-francisco-city-hall:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4950
+          capacity:
+            co$$: 289
+            co$$$: 111
+          cost: 65000
+          filename: Plugin_017_SanFranCityHall.dat
+          flamability: 30
+          garbage: 9
+          id: 0c83e29f
+          maintenance: 130
+          name: LM11x7_SanFranciscoCityHall
+          pollution: 4
+          pollutionRadius: 2
+          power: 200
+          rating: 5
+          ratingRadius: 256
+          replace: 0c83e29f
+          size: 11x7
+          water: 200
+          waterPollution: 3
+          waterPollutionRadius: 3
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/schloss-schoenbrun:
   authors:
@@ -908,6 +1194,7 @@ maxis/schloss-schoenbrun:
           power: 25
           rating: 6
           ratingRadius: 256
+          replace: eb4e47b4
           size: 11x6
           water: 60
           waterPollution: 1
@@ -925,11 +1212,32 @@ maxis/schloss-schoenbrun:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 5850
+          capacity:
+            cs$: 23
+            cs$$: 23
+          cost: 95000
+          filename: Plugin_00E_SchlossSchoenbrun.dat
+          flamability: 34
+          garbage: 4
+          id: eb4e47b4
+          maintenance: 180
+          name: Lm11x6_SchlossSchoenbrun
+          pollution: 1
+          pollutionRadius: 2
+          power: 25
+          rating: 6
+          ratingRadius: 256
+          replace: eb4e47b4
+          size: 11x6
+          water: 60
+          waterPollution: 1
+          waterPollutionRadius: 3
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/seoul-city-hall:
   authors:
@@ -957,6 +1265,7 @@ maxis/seoul-city-hall:
           power: 200
           rating: 5
           ratingRadius: 256
+          replace: 2ac40624
           size: 6x5
           water: 200
           waterPollution: 3
@@ -974,11 +1283,33 @@ maxis/seoul-city-hall:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4950
+          capacity:
+            co$$: 77
+            co$$$: 32
+          category: landmarks
+          cost: 65000
+          filename: Plugin_004_SeoulCityHall.dat
+          flamability: 30
+          garbage: 9
+          id: 2ac40624
+          maintenance: 130
+          name: LM6x6_SeoulCityHallSquare
+          pollution: 4
+          pollutionRadius: 2
+          power: 200
+          rating: 5
+          ratingRadius: 256
+          replace: 2ac40624
+          size: 6x5
+          water: 200
+          waterPollution: 3
+          waterPollutionRadius: 3
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/seoul-soccer-stadium:
   authors:
@@ -1006,6 +1337,7 @@ maxis/seoul-soccer-stadium:
           power: 90
           rating: 5
           ratingRadius: 256
+          replace: 4ac40971
           size: 15x15
           water: 100
           waterPollution: 10
@@ -1023,11 +1355,33 @@ maxis/seoul-soccer-stadium:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4950
+          capacity:
+            cs$: 263
+            cs$$: 263
+          category: landmarks
+          cost: 160000
+          filename: Plugin_005_SeoulSoccerStad.dat
+          flamability: 34
+          garbage: 65
+          id: 4ac40971
+          maintenance: 310
+          name: LM0x0_WorldCupFootballStadium
+          pollution: 4294967285
+          pollutionRadius: 4
+          power: 90
+          rating: 5
+          ratingRadius: 256
+          replace: 4ac40971
+          size: 15x15
+          water: 100
+          waterPollution: 10
+          waterPollutionRadius: 6
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/shorty-burger:
   authors:
@@ -1155,6 +1509,7 @@ maxis/stonehenge:
           pollutionRadius: 1
           rating: 5
           ratingRadius: 256
+          replace: 4b61d755
           size: 6x6
           waterPollution: 1
           waterPollutionRadius: 1
@@ -1171,11 +1526,29 @@ maxis/stonehenge:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 5850
+          capacity:
+            cs$: 5
+            cs$$: 5
+          cost: 60000
+          filename: Plugin_016_Stonehenge.dat
+          garbage: 5
+          id: 4b61d755
+          maintenance: 10
+          name: LM6x6_Stonehenge
+          pollution: 1
+          pollutionRadius: 1
+          rating: 5
+          ratingRadius: 256
+          replace: 4b61d755
+          size: 6x6
+          waterPollution: 1
+          waterPollutionRadius: 1
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/taipei-art-museum:
   authors:
@@ -1203,6 +1576,7 @@ maxis/taipei-art-museum:
           power: 90
           rating: 9
           ratingRadius: 256
+          replace: 4c9fcb9f
           size: 5x7
           water: 450
           waterPollution: 6
@@ -1220,11 +1594,33 @@ maxis/taipei-art-museum:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 8550
+          capacity:
+            cs$: 97
+            cs$$: 97
+          category: landmarks
+          cost: 95000
+          filename: Plugin_030_TaipeiArtMuseum.dat
+          flamability: 27
+          garbage: 20
+          id: 4c9fcb9f
+          maintenance: 180
+          name: LM5x7_TaipeiArtMuseum
+          pollution: 5
+          pollutionRadius: 1
+          power: 90
+          rating: 9
+          ratingRadius: 256
+          replace: 4c9fcb9f
+          size: 5x7
+          water: 450
+          waterPollution: 6
+          waterPollutionRadius: 2
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
 
 maxis/temple-of-grutz:
   authors:
@@ -1288,6 +1684,7 @@ maxis/the-living-mall:
           power: 800
           rating: 5
           ratingRadius: 256
+          replace: 6ac4085b
           size: 6x6
           water: 850
           waterPollution: 12
@@ -1305,8 +1702,33 @@ maxis/the-living-mall:
               priority: 900
       authors:
         - toroca
+      lastModified: 2004-03-16T00:00:00.000Z
+      lots:
+        - bulldoze: 4950
+          capacity:
+            cs$: 640
+            cs$$: 640
+          category: landmarks
+          cost: 55000
+          filename: Plugin_002_TheLivingMall.dat
+          flamability: 35
+          garbage: 11
+          id: 6ac4085b
+          maintenance: 110
+          name: LM6x6_TheLivingMall
+          pollution: 10
+          pollutionRadius: 4
+          power: 800
+          rating: 5
+          ratingRadius: 256
+          replace: 6ac4085b
+          size: 6x6
+          water: 850
+          waterPollution: 12
+          waterPollutionRadius: 5
       name: With jobs
+      release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      "on": variant
+  # warnings:
+  #   - id: inconsistentVariantLotIds
+  #     "on": variant
