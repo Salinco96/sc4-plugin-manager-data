@@ -8,7 +8,27 @@ maxis/63-building:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00A-63-building
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 9900
+          cost: 110000
+          filename: Plugin_00A_63Building.dat
+          flamability: 10
+          garbage: 39
+          id: 6afc49f8
+          maintenance: 210
+          name: Lm4x5_KoreaLifeBldg
+          pollution: 5
+          pollutionRadius: 6
+          power: 600
+          rating: 8
+          ratingRadius: 256
+          size: 4x5
+          water: 1300
+          waterPollution: 5
+          waterPollutionRadius: 7
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -16,15 +36,15 @@ maxis/63-building:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: 63Building.dat
+            - path: 63Building.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/adler-planetarium:
   authors:
@@ -36,7 +56,27 @@ maxis/adler-planetarium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-031-adler-planetarium
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8100
+          cost: 90000
+          filename: Plugin_031_AdlerPlanetarium.dat
+          flamability: 18
+          garbage: 6
+          id: 8c9fb724
+          maintenance: 180
+          name: LM6x6_adlerp
+          pollution: 1
+          pollutionRadius: 1
+          power: 25
+          rating: 7
+          ratingRadius: 256
+          size: 6x6
+          water: 45
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -44,15 +84,15 @@ maxis/adler-planetarium:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: AdlerPlanetarium.dat
+            - path: AdlerPlanetarium.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/air-force-base:
   authors:
@@ -64,6 +104,13 @@ maxis/air-force-base:
     default:
       assets:
         - id: simtropolis/maxis-plugin-007-air-force-base
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - filename: Plugin_007_AirForceBase.dat
+          id: 0ade2f1b
+          name: RW10x10_AirForceBase
+          size: 10x29
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/arc-de-triomphe:
@@ -76,7 +123,27 @@ maxis/arc-de-triomphe:
     default:
       assets:
         - id: simtropolis/maxis-plugin-003-arc-de-triomphe
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4950
+          category: landmarks
+          cost: 55000
+          filename: Plugin_003_ArcTriomphe.dat
+          garbage: 5
+          id: aac407c0
+          maintenance: 110
+          name: LM3x3_ArcTriomphe
+          pollution: 1
+          pollutionRadius: 1
+          power: 1
+          rating: 15
+          ratingRadius: 256
+          size: 3x3
+          water: 1
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -84,15 +151,15 @@ maxis/arc-de-triomphe:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: ArcDeTriomphe.dat
+            - path: ArcDeTriomphe.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: enable
+      "on": enable
 
 maxis/brandenburg-gate:
   authors:
@@ -104,7 +171,28 @@ maxis/brandenburg-gate:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00C-brandenburg-gate
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 5850
+          category: landmarks
+          cost: 60000
+          filename: Plugin_00C_BrandenburgGate.dat
+          flamability: 34
+          garbage: 5
+          id: ab5e1192
+          maintenance: 120
+          name: LM5x7_BrandenburgGate
+          pollution: 1
+          pollutionRadius: 1
+          power: 2
+          rating: 6
+          ratingRadius: 256
+          size: 5x7
+          water: 3
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -112,15 +200,15 @@ maxis/brandenburg-gate:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: BrandenburgGate.dat
+            - path: BrandenburgGate.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/capitol-records:
   authors:
@@ -132,7 +220,28 @@ maxis/capitol-records:
     default:
       assets:
         - id: simtropolis/maxis-plugin-012-capitol-records
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4500
+          category: landmarks,co$$$
+          cost: 50000
+          filename: Plugin_012_CapitolRecords.dat
+          flamability: 34
+          garbage: 11
+          id: cb549981
+          maintenance: 100
+          name: Lm5x5_CapitolRecordsBuilding
+          pollution: 3
+          pollutionRadius: 4
+          power: 215
+          rating: 3
+          ratingRadius: 256
+          size: 5x5
+          water: 900
+          waterPollution: 4
+          waterPollutionRadius: 5
       name: Original
+      release: 2024-11-18T10:54:58.236Z
       version: 1.0.0
     functional:
       assets:
@@ -140,15 +249,15 @@ maxis/capitol-records:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: CapitolRecordsBuilding.dat
+            - path: CapitolRecordsBuilding.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/day-of-peace:
   authors:
@@ -160,6 +269,8 @@ maxis/day-of-peace:
     default:
       assets:
         - id: simtropolis/maxis-day-of-peace
+      lastModified: 2024-11-18T09:48:18.355Z
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/globe-arena:
@@ -172,7 +283,28 @@ maxis/globe-arena:
     default:
       assets:
         - id: simtropolis/maxis-plugin-006-globe-arena
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4950
+          category: landmarks
+          cost: 70000
+          filename: Plugin_006_GlobeArena.dat
+          flamability: 30
+          garbage: 15
+          id: aae108a3
+          maintenance: 140
+          name: LM11x8_GlobeArena
+          pollution: 2
+          pollutionRadius: 2
+          power: 40
+          rating: 5
+          ratingRadius: 256
+          size: 11x8
+          water: 100
+          waterPollution: 3
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -180,15 +312,15 @@ maxis/globe-arena:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: GlobeArena.dat
+            - path: GlobeArena.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/grand-central-station:
   authors:
@@ -200,7 +332,27 @@ maxis/grand-central-station:
     default:
       assets:
         - id: simtropolis/maxis-plugin-010-grand-central-station
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4500
+          cost: 110000
+          filename: Plugin_010_GrandCentralStation.dat
+          flamability: 30
+          garbage: 11
+          id: 2b589d69
+          maintenance: 220
+          name: LM7x8_GrandCentral
+          pollution: 3
+          pollutionRadius: 4
+          power: 200
+          rating: 8
+          ratingRadius: 256
+          size: 7x8
+          water: 200
+          waterPollution: 4
+          waterPollutionRadius: 5
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -208,15 +360,15 @@ maxis/grand-central-station:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: GrandCentralStation.dat
+            - path: GrandCentralStation.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/grutze-industries:
   authors:
@@ -228,6 +380,31 @@ maxis/grutze-industries:
     default:
       assets:
         - id: simtropolis/maxis-plugin-grutze-industries
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 500
+          category: landmarks
+          cost: 60000
+          description: A plant the manufactures many Grutze products
+          filename: Grutze Industries/LM4x5_GrutzeInd_2d217719.SC4Lot
+          flamability: 10
+          garbage: 25
+          id: 2d217719
+          label: Grutze Industries
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 200
+          name: LM4x5_GrutzeInd
+          pollution: 12
+          pollutionRadius: 3
+          power: 75
+          rating: 10
+          ratingRadius: 256
+          size: 4x5
+          water: 10
+          waterPollution: 3
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/grutzehaus:
@@ -240,6 +417,31 @@ maxis/grutzehaus:
     default:
       assets:
         - id: simtropolis/maxis-plugin-grutzehaus
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 125
+          category: landmarks
+          cost: 22000
+          description: The house of the Grutze family
+          filename: Grutzehaus/LM2x3_Grutzehaus_ed2174a0.SC4Lot
+          flamability: 10
+          garbage: 15
+          id: ed2174a0
+          label: Grutzehaus
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          name: LM2x3_Grutzehaus
+          pollution: 1
+          pollutionRadius: 1
+          power: 20
+          rating: 10
+          ratingRadius: 256
+          size: 2x3
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/kunjungjon:
@@ -252,7 +454,27 @@ maxis/kunjungjon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-008-kunjungjon
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 5850
+          cost: 65000
+          filename: Plugin_008_Kunjungjon.dat
+          flamability: 33
+          garbage: 9
+          id: 4afc8bd5
+          maintenance: 130
+          name: Lm5x6_KonjongjonHall
+          pollution: 2
+          pollutionRadius: 2
+          power: 50
+          rating: 5
+          ratingRadius: 256
+          size: 5x6
+          water: 250
+          waterPollution: 2
+          waterPollutionRadius: 3
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -260,15 +482,15 @@ maxis/kunjungjon:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: Kunjungjon.dat
+            - path: Kunjungjon.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/longfellow-castle:
   authors:
@@ -280,6 +502,51 @@ maxis/longfellow-castle:
     default:
       assets:
         - id: simtropolis/maxis-plugin-longfellow-castle
+          include:
+            - Longfellow Castle
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          description: "Location: Long ago and far away"
+          filename: Longfellow Castle/CastleSet.dat
+          flamability: 10
+          garbage: 15
+          id: 0d4fdea6
+          label: Keep w/walls
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          name: Longfellow Castle
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          size: 13x12
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          description: "Location: Long ago and far away"
+          filename: Longfellow Castle/Longfellow Castle_4d50ba18.SC4Lot
+          flamability: 10
+          garbage: 15
+          id: 4d50ba18
+          label: Longfellow Keep
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          name: Longfellow Castle
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          size: 13x12
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/luckys-hang-ten:
@@ -292,6 +559,26 @@ maxis/luckys-hang-ten:
     default:
       assets:
         - id: simtropolis/maxis-plugin-036-luckys-hang-ten
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8100
+          cost: 90000
+          filename: Plugin_036_LuckysHangTen.dat
+          flamability: 39
+          garbage: 3
+          id: cea1e6b4
+          maintenance: 180
+          name: LM3x2_LuckysHangTen
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          size: 3x2
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/maxis-buildings-as-props:
@@ -300,14 +587,10 @@ maxis/maxis-buildings-as-props:
     - ralphaelninja
     - t-wrecks
   category: props
-  description: >-
+  description: |-
     This upload contains the official "SimCity 4 Buildings as Props Vol 1" and "SimCity 4 Buildings as Props Vol 2" files provided by EA/Maxis.
 
-
-    These files provide all buildings available in the base SimCity 4 game and the ones which were added to SimCity 4 in the Rush Hour Expansion in prop form, for use in lot creation. A third file can
-    be found in the pack called **Maxis DLC Props.dat**, which contains the generic/common props from three of the official Maxis Landmark DLCs (Castleset.dat, Parthenon and Stonehange) and the props
-    from the very ancient Plugin Landmark Props (from version 2.1). The main castle model and prop, the castle wall props, the main Parthenon building and prop and the main Stonehange building and
-    prop are **NOT** part of this file. This file was compiled to address the commonly listed props as dependencies.
+    These files provide all buildings available in the base SimCity 4 game and the ones which were added to SimCity 4 in the Rush Hour Expansion in prop form, for use in lot creation. A third file can be found in the pack called **Maxis DLC Props.dat**, which contains the generic/common props from three of the official Maxis Landmark DLCs (Castleset.dat, Parthenon and Stonehange) and the props from the very ancient Plugin Landmark Props (from version 2.1). The main castle model and prop, the castle wall props, the main Parthenon building and prop and the main Stonehange building and prop are **NOT** part of this file. This file was compiled to address the commonly listed props as dependencies.
   images:
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_2_AFTER.jpg
@@ -327,7 +610,8 @@ maxis/maxis-buildings-as-props:
           id: sc4evermore/14-maxis-buildings-as-props-and-dlc-props-v2-1
           include:
             - Maxis DLC Props.dat
-      lastModified: 2024-10-14T12:05:00Z
+      lastModified: 2023-12-06T15:41:39.000Z
+      release: 2024-11-18T10:30:47.575Z
       version: 2.1.0
 
 maxis/mayflower-port:
@@ -340,6 +624,26 @@ maxis/mayflower-port:
     default:
       assets:
         - id: simtropolis/maxis-plugin-032-mayflower-port
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 5850
+          cost: 65000
+          filename: Plugin_032_MayflowerPort.dat
+          flamability: 21
+          garbage: 9
+          id: acae3f0c
+          maintenance: 130
+          name: Lm4x3_Mayflower
+          pollution: 2
+          pollutionRadius: 2
+          power: 50
+          rating: 5
+          ratingRadius: 256
+          size: 4x3
+          water: 250
+          waterPollution: 2
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/namdaemun:
@@ -352,7 +656,25 @@ maxis/namdaemun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-009-namdaemun
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 5850
+          cost: 65000
+          filename: Plugin_009_NamDaeMoon.dat
+          flamability: 10
+          garbage: 4
+          id: 8af9d28c
+          maintenance: 130
+          name: Lm4x4_NamDaeMoon
+          power: 10
+          rating: 8
+          ratingRadius: 256
+          size: 4x4
+          water: 10
+          waterPollution: 2
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -360,15 +682,15 @@ maxis/namdaemun:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: Sungrye-mun.dat
+            - path: Sungrye-mun.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/parthenon:
   authors:
@@ -380,7 +702,26 @@ maxis/parthenon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00D-parthenon
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 6750
+          category: landmarks
+          cost: 60000
+          filename: Plugin_00D_Parthenon.dat
+          flamability: 35
+          garbage: 2
+          id: cb68c0df
+          maintenance: 120
+          name: Lm4x7_Parthenon
+          power: 2
+          rating: 7
+          ratingRadius: 256
+          size: 3x5
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -388,15 +729,15 @@ maxis/parthenon:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: Parthenon.dat
+            - path: Parthenon.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/rockefeller-center:
   authors:
@@ -408,7 +749,28 @@ maxis/rockefeller-center:
     default:
       assets:
         - id: simtropolis/maxis-plugin-033-rockefeller-center
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8100
+          category: landmarks
+          cost: 90000
+          filename: Plugin_033_RockefellerCenter.dat
+          flamability: 39
+          garbage: 3
+          id: 8ccf053d
+          maintenance: 180
+          name: LM4x4_RockefellerCtr
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          size: 4x13
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -416,15 +778,15 @@ maxis/rockefeller-center:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: RockefellerCenter.dat
+            - path: RockefellerCenter.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/sagrada-familia:
   authors:
@@ -436,7 +798,26 @@ maxis/sagrada-familia:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00F-temple-expiatiori
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8550
+          category: landmarks
+          cost: 95000
+          filename: Plugin_00F_TempleExpiatiori.dat
+          flamability: 16
+          garbage: 5
+          id: 6bce41a2
+          maintenance: 180
+          name: LM12x12_sagradafamilia
+          pollution: 1
+          pollutionRadius: 2
+          rating: 5
+          ratingRadius: 256
+          size: 5x5
+          waterPollution: 1
+          waterPollutionRadius: 3
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -444,15 +825,15 @@ maxis/sagrada-familia:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: TempleExpiatioriDeLaSagradaFamilia.dat
+            - path: TempleExpiatioriDeLaSagradaFamilia.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/san-francisco-city-hall:
   authors:
@@ -464,7 +845,27 @@ maxis/san-francisco-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-017-san-francisco-city-hall
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4950
+          cost: 65000
+          filename: Plugin_017_SanFranCityHall.dat
+          flamability: 30
+          garbage: 9
+          id: 0c83e29f
+          maintenance: 130
+          name: LM11x7_SanFranciscoCityHall
+          pollution: 4
+          pollutionRadius: 2
+          power: 200
+          rating: 5
+          ratingRadius: 256
+          size: 11x7
+          water: 200
+          waterPollution: 3
+          waterPollutionRadius: 3
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -472,15 +873,15 @@ maxis/san-francisco-city-hall:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: SanFranciscoCityHall.dat
+            - path: SanFranciscoCityHall.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/schloss-schoenbrun:
   authors:
@@ -492,7 +893,27 @@ maxis/schloss-schoenbrun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00E-schloss-schoenbrun
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 5850
+          cost: 95000
+          filename: Plugin_00E_SchlossSchoenbrun.dat
+          flamability: 34
+          garbage: 4
+          id: eb4e47b4
+          maintenance: 180
+          name: Lm11x6_SchlossSchoenbrun
+          pollution: 1
+          pollutionRadius: 2
+          power: 25
+          rating: 6
+          ratingRadius: 256
+          size: 11x6
+          water: 60
+          waterPollution: 1
+          waterPollutionRadius: 3
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -500,15 +921,15 @@ maxis/schloss-schoenbrun:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: SchlossSchoenbrun.dat
+            - path: SchlossSchoenbrun.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/seoul-city-hall:
   authors:
@@ -520,7 +941,28 @@ maxis/seoul-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-004-seoul-city-hall
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4950
+          category: landmarks
+          cost: 65000
+          filename: Plugin_004_SeoulCityHall.dat
+          flamability: 30
+          garbage: 9
+          id: 2ac40624
+          maintenance: 130
+          name: LM6x6_SeoulCityHallSquare
+          pollution: 4
+          pollutionRadius: 2
+          power: 200
+          rating: 5
+          ratingRadius: 256
+          size: 6x5
+          water: 200
+          waterPollution: 3
+          waterPollutionRadius: 3
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -528,15 +970,15 @@ maxis/seoul-city-hall:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: SeoulCityHall.dat
+            - path: SeoulCityHall.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/seoul-soccer-stadium:
   authors:
@@ -548,7 +990,28 @@ maxis/seoul-soccer-stadium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-005-seoul-soccer-stadium
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4950
+          category: landmarks
+          cost: 160000
+          filename: Plugin_005_SeoulSoccerStad.dat
+          flamability: 34
+          garbage: 65
+          id: 4ac40971
+          maintenance: 310
+          name: LM0x0_WorldCupFootballStadium
+          pollution: 4294967285
+          pollutionRadius: 4
+          power: 90
+          rating: 5
+          ratingRadius: 256
+          size: 15x15
+          water: 100
+          waterPollution: 10
+          waterPollutionRadius: 6
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -556,15 +1019,15 @@ maxis/seoul-soccer-stadium:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: SeoulWorldCupStadium.dat
+            - path: SeoulWorldCupStadium.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/shorty-burger:
   authors:
@@ -576,6 +1039,26 @@ maxis/shorty-burger:
     default:
       assets:
         - id: simtropolis/maxis-plugin-035-shorty-burger
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8100
+          cost: 90000
+          filename: Plugin_035_ShortyBurger.dat
+          flamability: 39
+          garbage: 3
+          id: 2e891faa
+          maintenance: 180
+          name: LM3x3_ShortyBurger_2e891faa
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          size: 2x3
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/sobchak-lanes:
@@ -588,6 +1071,27 @@ maxis/sobchak-lanes:
     default:
       assets:
         - id: simtropolis/maxis-plugin-034-sobchak-lanes
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8100
+          category: landmarks
+          cost: 90000
+          filename: Plugin_034_SobchakLanes.dat
+          flamability: 39
+          garbage: 3
+          id: ae52bebe
+          maintenance: 180
+          name: Lm3x3_SobchakLanes
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          size: 3x3
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/stone-house:
@@ -600,6 +1104,32 @@ maxis/stone-house:
     default:
       assets:
         - id: simtropolis/maxis-plugin-stone-house
+          include:
+            - Stone House
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 500
+          category: landmarks
+          cost: 75000
+          description: A house made of stone and wood
+          filename: Stone House/LM3x3_StoneHouse_0d1d6acb.SC4Lot
+          flamability: 10
+          garbage: 2
+          id: 0d1d6acb
+          label: Ian's House of Stone
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          name: LM3x3_StoneHouse
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          size: 3x3
+          water: 8
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/stonehenge:
@@ -612,7 +1142,24 @@ maxis/stonehenge:
     default:
       assets:
         - id: simtropolis/maxis-plugin-016-stonehenge
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 5850
+          cost: 60000
+          filename: Plugin_016_Stonehenge.dat
+          garbage: 5
+          id: 4b61d755
+          maintenance: 10
+          name: LM6x6_Stonehenge
+          pollution: 1
+          pollutionRadius: 1
+          rating: 5
+          ratingRadius: 256
+          size: 6x6
+          waterPollution: 1
+          waterPollutionRadius: 1
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -620,15 +1167,15 @@ maxis/stonehenge:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: Stonehenge.dat
+            - path: Stonehenge.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/taipei-art-museum:
   authors:
@@ -640,7 +1187,28 @@ maxis/taipei-art-museum:
     default:
       assets:
         - id: simtropolis/maxis-plugin-030-taipei-art-museum
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 8550
+          category: landmarks
+          cost: 95000
+          filename: Plugin_030_TaipeiArtMuseum.dat
+          flamability: 27
+          garbage: 20
+          id: 4c9fcb9f
+          maintenance: 180
+          name: LM5x7_TaipeiArtMuseum
+          pollution: 5
+          pollutionRadius: 1
+          power: 90
+          rating: 9
+          ratingRadius: 256
+          size: 5x7
+          water: 450
+          waterPollution: 6
+          waterPollutionRadius: 2
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -648,15 +1216,15 @@ maxis/taipei-art-museum:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: TaipeiFineArtMuseum.dat
+            - path: TaipeiFineArtMuseum.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
 
 maxis/temple-of-grutz:
   authors:
@@ -668,6 +1236,30 @@ maxis/temple-of-grutz:
     default:
       assets:
         - id: simtropolis/maxis-plugin-temple-of-grutz
+          include:
+            - Temple of Grutz
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 500
+          category: landmarks
+          cost: 100000
+          description: An ancient structure made in the honor of the great Grutz
+          filename: Temple of Grutz/LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
+          flamability: 10
+          id: 2d1e7a9e
+          label: The Temple Of G
+          landmark: 75
+          landmarkRadius: 33
+          maintenance: 100
+          name: LM6x6_TempleOfGrutz
+          pollution: 1
+          pollutionRadius: 1
+          rating: 50
+          ratingRadius: 256
+          size: 6x6
+          waterPollution: 1
+          waterPollutionRadius: 2
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
 
 maxis/the-living-mall:
@@ -680,7 +1272,28 @@ maxis/the-living-mall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-002-the-living-mall
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - bulldoze: 4950
+          category: landmarks
+          cost: 55000
+          filename: Plugin_002_TheLivingMall.dat
+          flamability: 35
+          garbage: 11
+          id: 6ac4085b
+          maintenance: 110
+          name: LM6x6_TheLivingMall
+          pollution: 10
+          pollutionRadius: 4
+          power: 800
+          rating: 5
+          ratingRadius: 256
+          size: 6x6
+          water: 850
+          waterPollution: 12
+          waterPollutionRadius: 5
       name: Original
+      release: 2024-11-18T10:30:47.575Z
       version: 1.0.0
     functional:
       assets:
@@ -688,12 +1301,12 @@ maxis/the-living-mall:
         - docs: []
           id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - priority: 900
-              path: TheLivingMall.dat
+            - path: TheLivingMall.dat
+              priority: 900
       authors:
         - toroca
       name: With jobs
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      on: variant
+      "on": variant
