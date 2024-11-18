@@ -2,38 +2,27 @@ hippotank/ht-demand-fix:
   authors:
     - hippotank
   category: bugfixes
-  description: >-
+  description: |-
     This is just the fix for the demand values for the Medical Clinic, Solar Power Plant, Nuclear Power Plant.
-
 
     What is actually happening
 
-
     \----------------------------------------------
-
 
     \> the game creates demand for a particular bracket of job but does not actually employ them.
 
+    \> The reason for this is because of a bug. In SimCity 4 the buildings that create demand (available jobs) does so by separating them by wealth bracket. There will be a certain about of jobs available for $ sims, $$ sims, and $$$ sims. This is displayed in a ratio. E.g. crude example- 20:50:30 means there are 20 jobs avialable for $ sims, 50 jobs for $$ sims and 30 jobs for $$$ sims.
 
-    \> The reason for this is because of a bug. In SimCity 4 the buildings that create demand (available jobs) does so by separating them by wealth bracket. There will be a certain about of jobs
-    available for $ sims, $$ sims, and $$$ sims. This is displayed in a ratio. E.g. crude example- 20:50:30 means there are 20 jobs avialable for $ sims, 50 jobs for $$ sims and 30 jobs for $$$ sims.
-
-
-    \> The bug occurs when the data in game has two ratios with the same value. It causes the game to ignore one of the values. High Tech Industry has the ratio 10:80:10, and as a result of this bug
-    it causes the $$$ part of the ratio to be ignored resulting in no $$$ sims being employed.
-
+    \> The bug occurs when the data in game has two ratios with the same value. It causes the game to ignore one of the values. High Tech Industry has the ratio 10:80:10, and as a result of this bug it causes the $$$ part of the ratio to be ignored resulting in no $$$ sims being employed.
 
     \> The other ratios with duplicate values are the Solar Power Plant, Nuclear Power Plant and the Medical Clinic.
 
-
     \> THIS ONLY FIXES THOSE THREE AND NOT HIGH TECH DEMAND. I have a download bundle for those fixes included.
-
 
     Medical Clinic, Solar Power Plant, Nuclear Power Plant all missing jobs
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2015_11/screenshot.png.2af44fb2639cc175dbf54b582ea81dbe.png
   name: HippoTank Demand Fix
-  release: 2024-10-17T08:57:16.473Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2015_11/screenshot.thumb.png.4c63d5b9cb065aae208b306490b28ae0.png
   url: https://community.simtropolis.com/files/file/30836-hippotank-demand-fix/
   variants:
@@ -44,5 +33,6 @@ hippotank/ht-demand-fix:
           id: simtropolis/30836-hippotank-demand-fix
           include:
             - HippoTank Demand Fix/Plugins
-      lastModified: 2021-02-05T09:38:22Z
+      lastModified: 2015-11-06T21:21:13.000Z
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0

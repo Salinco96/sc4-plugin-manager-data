@@ -3,25 +3,16 @@ cougar2004/space-port-fix:
     - cougar2004
   category: bugfixes
   # TODO: The AC Functional Airports Mod found at SC4Devotion.com modds this building in a large pack
-  description: >-
-    This mod fixes a problem with the default Maxis Space Port, which claims it "Provides a boost to high-tech industry" however, it does not. Maxis forgot to include this boost, therefore it boosts
-    nothing but costs and some slight commercial desirability.
+  description: |-
+    This mod fixes a problem with the default Maxis Space Port, which claims it "Provides a boost to high-tech industry" however, it does not. Maxis forgot to include this boost, therefore it boosts nothing but costs and some slight commercial desirability.
 
-
-    This mod fixes that. A significant yet realistic (non-radical) boost to High Tech Industry is now provided. Placing the Space Port now provides 150,000 High-Tech Industry Cap Relief. This is well
-    within the range of other similar buildings such as the Advanced Research Center, University, and Marina.
-
+    This mod fixes that. A significant yet realistic (non-radical) boost to High Tech Industry is now provided. Placing the Space Port now provides 150,000 High-Tech Industry Cap Relief. This is well within the range of other similar buildings such as the Advanced Research Center, University, and Marina.
 
     **Alternate Version**
 
+    For those who feel the default Maxis Space Port uses far too much power for its size and function, a second Mod file is provided in this download. In addition to fixing the High-Tech Boost, this ALT Mod version lowers power requirements from the default 700 to 219. This should allow most cities to stay safely under the power abilities of a single power plant with the Space Port placed.
 
-    For those who feel the default Maxis Space Port uses far too much power for its size and function, a second Mod file is provided in this download. In addition to fixing the High-Tech Boost, this
-    ALT Mod version lowers power requirements from the default 700 to 219. This should allow most cities to stay safely under the power abilities of a single power plant with the Space Port placed.
-
-
-    Additionally, the included ALT Mod version also increases the Space Port from 100 R$ Jobs to a more realistic spread of 8 R$, 104 R$$, and 16 R$$$, to cover the range of employees from Astronauts
-    down to Janitorial staff. Water consumed is decreased slightly from 360 to 248. Monthly Cost is lowered from $400/mo to $300/mo. And Bulldoze Cost of $4200 is now $3900. No other changes have been
-    made to how the Space Port looks or functions.
+    Additionally, the included ALT Mod version also increases the Space Port from 100 R$ Jobs to a more realistic spread of 8 R$, 104 R$$, and 16 R$$$, to cover the range of employees from Astronauts down to Janitorial staff. Water consumed is decreased slightly from 360 to 248. Monthly Cost is lowered from $400/mo to $300/mo. And Bulldoze Cost of $4200 is now $3900. No other changes have been made to how the Space Port looks or functions.
 
 
     Impact of this Mod will only be seen when you have met all SC4 requirements for High-Tech Industry and have placed the Space Port *(from Rewards Menu)* in your city, with this Mod installed.
@@ -30,25 +21,26 @@ cougar2004/space-port-fix:
     - https://www.simtropolis.com/objects/screens/monthly_03_2012/ad9286472eebc4b3dca26e63b9078dec-spaceport-fix-mod-2.png
     - https://www.simtropolis.com/objects/screens/monthly_03_2012/07d264be08a30305f6943efd92a984e1-spaceport-fix-mod-a.png
   name: Space Port Fix
-  release: 2024-10-17T08:57:16.473Z
   requirements:
     minVersion: 638
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2012/thumb-a1b429c947a080f7bafab598698c4908-spaceport-fix-mod-1.png
   url: https://community.simtropolis.com/files/file/27340-space-port-fix-mod/
   variants:
-    default:
-      assets:
-        - id: simtropolis/27340-space-port-fix-mod
-          include:
-            - Spaceport Fix Mod.dat
-      lastModified: 2012-03-05T22:34:01Z
-      name: Fix only
-      version: 1.0.0
     alternate:
       assets:
         - id: simtropolis/27340-space-port-fix-mod
           include:
             - Spaceport Fix Alt Mod.dat
-      lastModified: 2012-03-05T22:34:01Z
+      lastModified: 2012-03-05T22:34:01.000Z
       name: Alternate
+      release: 2024-11-14T11:12:26.794Z
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/27340-space-port-fix-mod
+          include:
+            - Spaceport Fix Mod.dat
+      lastModified: 2012-03-05T02:14:26.000Z
+      name: Fix only
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0

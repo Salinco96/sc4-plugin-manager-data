@@ -2,35 +2,25 @@ simfox/day-and-nite:
   authors:
     - simfox
   category: graphics,overrides
-  description: >-
+  description: |-
     This modd alters the look of both Day (slightly) and Night (in far more drastic fashion) view of the game.
-
 
     Days gain richer more natural looking shadows, greater overall contrast and better interaction of terrain and various models (in terms of shading).
 
-
-    Nights are now much darker and less blue/purple. Yet unlike in some other similar modds they aren't completely black-hole, pitch black. The city, vegetation and terrain are all still visible in
-    the night, albeit just so.
-
-
-    **Special Note on TruNite buildings**
-
-
-    This mod is tailor-made to work with DarkNite/TruNite buildings. Normal TruNite ones will look overly bright and blue. So look for special DarkNite releases!
-
-
-    Have FUN! Questions and suggestions for a time being may be addressed to [BAT4Max thread](https://community.simtropolis.com/forums/topic/40623-bat4max-v5)
+    Nights are now much darker and less blue/purple. Yet unlike in some other similar modds they aren't completely black-hole, pitch black. The city, vegetation and terrain are all still visible in the night, albeit just so.
   features:
     - darknite
   images:
     - https://www.simtropolis.com/objects/screens/monthly_08_2011/0d98a026f5b952e8a0fe90c15ae81ef6-daynnitestex.jpg
   name: SimFox's Day and Nite Mod
-  release: 2024-10-16T12:28:13.213Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_08_2011/thumb-0d98a026f5b952e8a0fe90c15ae81ef6-daynnitestex.jpg
   url: https://community.simtropolis.com/files/file/23089-simfox-day-and-nite-modd/
   variants:
     default:
       assets:
         - id: simtropolis/23089-simfox-day-and-nite-modd
-      lastModified: 2021-09-19T12:25:00Z
+          include:
+            - zzzz_Simfox_Day_n_Nite_Modd
+      lastModified: 2021-09-19T12:24:58.000Z
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0

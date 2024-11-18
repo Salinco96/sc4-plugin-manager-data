@@ -2,102 +2,104 @@ toroca/5x5-and-6x6-malls:
   authors:
     - toroca
   category: cs$$,cs$$$
-  description: >-
-    This collection of ten lots allows every shopping mall in the game to appear on 5x5 and 6x6 lots. Previously, no mall in the game could appear on a 5x5 lot, and only Andrews Fashion Center and Lee
-    Shopping Mall would appear on 6x6 lots.
-
+  description: |-
+    This collection of ten lots allows every shopping mall in the game to appear on 5x5 and 6x6 lots. Previously, no mall in the game could appear on a 5x5 lot, and only Andrews Fashion Center and Lee Shopping Mall would appear on 6x6 lots.
 
     All of the lots included are mainly altered versions of the lots some of the malls could already appear on, but they should be different enough not to be repetitive.
-
 
     Using these lots, you should be able to control where any of the malls can appear with more precision than before. Simply zone a 5x5 lot or 6x6 lot and you're guaranteed to get a mall on it.
   images:
     - https://www.simtropolis.com/objects/screens/0022/c6e4288fd2d4464b9b7030881594fd8c-hsumall.jpg
   name: Additional 5x5 and 6x6 Mall Lots v10
-  release: 2024-10-16T14:10:56.881Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2004/thumb-c6e4288fd2d4464b9b7030881594fd8c-hsumall.jpg
   url: https://community.simtropolis.com/files/file/2781-additional-5x5-and-6x6-mall-lots-v10/
   variants:
     default:
       assets:
         - id: simtropolis/2781-additional-5x5-and-6x6-mall-lots-v10
-      lastModified: 2004-03-19T14:40:39Z
+      lastModified: 2004-03-19T14:40:39.000Z
       lots:
         - category: cs$$$
+          density: low,medium,high
           filename: CS$$$1_5x5 Andrews Fashion Center_ed670794.SC4Lot
           id: ed670794
-          label: Andrew's Fashion Center (5x5)
+          name: CS$$$1_5x5 Andrews Fashion Center
           size: 5x5
           stage: 1
         - category: cs$$$
+          density: low,medium,high
           filename: CS$$$1_5x5 Bilyk Galleria_6d670a55.SC4Lot
           id: 6d670a55
-          label: Bilyk Galleria (5x5)
+          name: CS$$$1_5x5 Bilyk Galleria
           size: 5x5
           stage: 1
         - category: cs$$$
+          density: low,medium,high
           filename: CS$$$1_6x6 Bilyk Galleria_ed670b23.SC4Lot
           id: ed670b23
-          label: Bilyk Galleria (6x6)
+          name: CS$$$1_6x6 Bilyk Galleria
           size: 6x6
           stage: 1
         - category: cs$$$
-          filename: CS$$$2_5x5 Nanale Shopping Center_ad67091b.SC4Lot
-          id: ad67091b
-          label: Nanale Shopping Center (5x5)
-          size: 5x5
-          stage: 2
-        - category: cs$$$
+          density: low,medium,high
           filename: CS$$$1_6x6 Nanale Shopping Center_cd670826.SC4Lot
           id: cd670826
-          label: Nanale Shopping Center (6x6)
+          name: CS$$$1_6x6 Nanale Shopping Center
           size: 6x6
           stage: 1
-        - category: cs$$
-          filename: CS$$1_5x5 Harris Galleria_4d670471.SC4Lot
-          id: 4d670471
-          label: Harris Galleria (5x5)
-          size: 5x5
-          stage: 1
-        - category: cs$$
-          filename: CS$$1_6x6 Harris Galleria_2d6705a9.SC4Lot
-          id: 2d6705a9
-          label: Harris Galleria (6x6)
-          size: 6x6
-          stage: 1
-        - category: cs$$
-          filename: CS$$2_5x5 Hsu Mall_ad670004.SC4Lot
-          id: ad670004
-          label: Hsu Mall (5x5)
+        - category: cs$$$
+          density: low,medium,high
+          filename: CS$$$2_5x5 Nanale Shopping Center_ad67091b.SC4Lot
+          id: ad67091b
+          name: CS$$$2_5x5 Nanale Shopping Center
           size: 5x5
           stage: 2
         - category: cs$$
-          filename: CS$$1_6x6 Hsu Mall_8d66fc4f.SC4Lot
-          id: 8d66fc4f
-          label: Hsu Mall (6x6)
+          density: low,medium,high
+          filename: CS$$1_5x5 Harris Galleria_4d670471.SC4Lot
+          id: 4d670471
+          name: CS$$1_5x5 Harris Galleria
+          size: 5x5
+          stage: 1
+        - category: cs$$
+          density: low,medium,high
+          filename: CS$$1_5x5 Lee Shopping Mall_ed67020f.SC4Lot
+          id: ed67020f
+          name: CS$$1_5x5 Lee Shopping Mall
+          size: 5x5
+          stage: 1
+        - category: cs$$
+          density: low,medium,high
+          filename: CS$$1_6x6 Harris Galleria_2d6705a9.SC4Lot
+          id: 2d6705a9
+          name: CS$$1_6x6 Harris Galleria
           size: 6x6
           stage: 1
         - category: cs$$
-          filename: CS$$1_5x5 Lee Shopping Mall_ed67020f.SC4Lot
-          id: ed67020f
-          label: Lee Shopping Mall (5x5)
-          size: 5x5
+          density: low,medium,high
+          filename: CS$$1_6x6 Hsu Mall_8d66fc4f.SC4Lot
+          id: 8d66fc4f
+          name: CS$$1_6x6 Hsu Mall
+          size: 6x6
           stage: 1
+        - category: cs$$
+          density: low,medium,high
+          filename: CS$$2_5x5 Hsu Mall_ad670004.SC4Lot
+          id: ad670004
+          name: CS$$2_5x5 Hsu Mall
+          size: 5x5
+          stage: 2
+      release: 2024-11-17T16:21:09.629Z
       version: 1.0.0
 
 toroca/commercial-services-doubler:
   authors:
     - toroca
   category: gameplay,cheats
-  description: >-
-    Many users of my [Industry Quadrupler](https://community.simtropolis.com/files/file/21293-industry-quadrupler/) have requested a similar mod for Commercial Services. I originally created this mod
-    almost seven years ago, but apparently never uploaded it here at Simtropolis, so I'm correcting that oversight now.
+  description: |-
+    Many users of my [Industry Quadrupler](https://community.simtropolis.com/files/file/21293-industry-quadrupler/) have requested a similar mod for Commercial Services. I originally created this mod almost seven years ago , but apparently never uploaded it here at Simtropolis, so I'm correcting that oversight now.
 
-
-    This mod allows you to double the number of jobs in all commercial service buildings, and I've provided alternates that allow you to triple the jobs from the largest ones and quadruple the jobs in
-    the malls. The service buildings in the game are a little closer to reality in jobs provided than the industrial buildings were, so I didn't see a need to quadruple them all. As always with my
-    mods, see the included readme file for full details.
-
+    This mod allows you to double the number of jobs in all commercial service buildings, and I've provided alternates that allow you to triple the jobs from the largest ones and quadruple the jobs in the malls. The service buildings in the game are a little closer to reality in jobs provided than the industrial buildings were, so I didn't see a need to quadruple them all. As always with my mods, see the included readme file for full details.
 
     I have no plans to do a similar mod for commercial office; there is no need since the capacities of the office buildings are much more in line with reality.
   features:
@@ -105,7 +107,6 @@ toroca/commercial-services-doubler:
   images:
     - https://www.simtropolis.com/objects/screens/0017/9b9dbdb73f0a70e23fa9688ae7f7e8d6-screenshot.jpg
   name: Commercial Services Doubler
-  release: 2024-10-16T13:57:49.796Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2011/thumb-9b9dbdb73f0a70e23fa9688ae7f7e8d6-screenshot.jpg
   url: https://community.simtropolis.com/files/file/25651-commercial-services-doubler/
   variants:
@@ -130,7 +131,7 @@ toroca/commercial-services-doubler:
             - condition:
                 small: x2
               path: ServicesDoubler.dat
-      lastModified: 2011-01-07T19:58:30Z
+      lastModified: 2011-01-07T19:58:30.000Z
       options:
         - choices:
             - label: x1
@@ -163,15 +164,15 @@ toroca/commercial-services-doubler:
           id: malls
           label: Malls
           type: string
+      release: 2024-11-17T16:00:57.230Z
       version: 2.0.0
 
 toroca/functional-landmarks:
   authors:
     - toroca
   category: gameplay,overrides
-  description: >-
-    This mod allows you to add jobs to any or all of the Maxis-Made Landmarks, at your own discretion. Your sims can now work in buildings like the Empire State Building, Living Mall, or US Capitol.
-    The buildings still function just like they used to, the only change is the addition of jobs.
+  description: |-
+    This mod allows you to add jobs to any or all of the Maxis-Made Landmarks, at your own discretion. Your sims can now work in buildings like the Empire State Building, Living Mall, or US Capitol. The buildings still function just like they used to, the only change is the addition of jobs.
 
     This mod adds jobs to any or all of the landmarks in the game, depending on which files you choose to utilize. The jobs created by landmarks will reduce that type of commercial demand accordingly, and they will appear in the Jobs and Population graph as well. Sims can now commute to these buildings for work. Other than the addition of jobs, these landmarks will work EXACTLY like the original versions. They still come with a significant plop cost, they still have the same positive effects on the surrounding area, and they still require a monthly maintenance fee. The ONLY change I've made to them is the addition of jobs to make them functional, because I hated paying good money for a building that did little more than sit there.
 
@@ -188,8 +189,10 @@ toroca/functional-landmarks:
     Fourth, since they now provide jobs, they require workers! You can safely expect some of the skyscraper landmarks to deteriorate if you plop them in a region that only has a few thousand people, because the bigger landmarks now provide thousands of jobs! Use some common sense when placing them!
   features:
     - landmark-jobs
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e675466ad854f442bf5fefda2d41975a-default.jpg
   name: Functional Maxis Landmarks
-  release: 2024-10-16T14:10:56.881Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2004/thumb-e675466ad854f442bf5fefda2d41975a-default.jpg
   url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
   variants:
     default:
@@ -197,7 +200,7 @@ toroca/functional-landmarks:
         - id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
             - "{{landmarks}}.dat"
-      lastModified: 2023-12-19T19:57:09Z
+      lastModified: 2004-03-16T00:00:00.000Z
       options:
         - choices:
             - label: Alamo
@@ -284,64 +287,63 @@ toroca/functional-landmarks:
           label: Landmarks
           multi: true
           type: string
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
   warnings:
     - message: This package overrides several Maxis landmarks. Before enabling it, you must bulldoze all corresponding landmarks from your regions.
-      on: enable
+      "on": enable
     - message: This package overrides several Maxis landmarks. Before disabling it, you must bulldoze all corresponding landmarks from your regions.
-      on: disable
+      "on": disable
 
 toroca/industry-quadrupler:
   authors:
     - toroca
   category: gameplay,cheats
-  description: >-
-    This mod was created to make the industrial buildings more realistic in the game. As everyone knows, factories in fact employ hundreds or thousands of people, but in SimCity 4 there is hardly a
-    single operation that offers more than 100 jobs. The number of jobs is quadrupled with the installation of this mod.
+  description: |-
+    This mod was created to make the industrial buildings more realistic in the game. As everyone knows, factories in fact employ hundreds or thousands of people, but in SimCity 4 there is hardly a single operation that offers more than 100 jobs. The number of jobs is quadrupled with the installation of this mod.
 
+    All heavy, manufacturing and high-tech industries now offer four times the number of jobs. This means that the largest industrial building in the game now provides over 600 instead of just over 150 jobs. Filler buildings (burners, small warehouses, etc.) still have the old values, and I have only modified the larger industrial (anchor) buildings. In addition, I have doubled the amount of revenue of the modified buildings. Otherwise, with the increased number of jobs, industrial demand can be met more quickly, making it difficult to keep industrial cities afloat.
 
-    All heavy, manufacturing and high-tech industries now offer four times the number of jobs. This means that the largest industrial building in the game now provides over 600 instead of just over
-    150 jobs. Filler buildings (burners, small warehouses, etc.) still have the old values, and I have only modified the larger industrial (anchor) buildings. In addition, I have doubled the amount of
-    revenue of the modified buildings. Otherwise, with the increased number of jobs, industrial demand can be met more quickly, making it difficult to keep industrial cities afloat.
+    In order to make this mod effective, you have to load all the cities of your region(s) after the installation and save them once, otherwise the changes in the job number will not take effect. After opening a city, the demand for industry will most likely fall sharply and many industrial buildings will be abandoned. On the other hand, the demand for residential areas will sooner or later increase sharply due to the increased number of jobs. It is therefore advisable to remove a large part of the industrial zones after loading the cities, so as not to overbalance the game.
 
+    This download is compatible with all versions of SimCity 4.
 
-    In order to make this mod effective, you have to load all the cities of your region(s) after the installation and save them once, otherwise the changes in the job number will not take effect.
-    After opening a city, the demand for industry will most likely fall sharply and many industrial buildings will be abandoned. On the other hand, the demand for residential areas will sooner or
-    later increase sharply due to the increased number of jobs. It is therefore advisable to remove a large part of the industrial zones after loading the cities, so as not to overbalance the game.
+    **Staff Note:** For technical reasons beyond the author's control, the original file entry was no longer available hosted on the STEX. This re-upload restores it on the grounds of good faith for the benefit of the community.
   features:
     - industry-jobs
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2017_11/01-industry-quadrupler-main.jpg.c091cbdcd6b393f52323f9d07a0f1619.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_11/02-industry-quadrupler-query.jpg.95e76586770c9fe98b3285d551a734e4.jpg
   name: Industry Quadrupler
-  release: 2024-10-16T13:57:49.796Z
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_11/01-industry-quadrupler-main.thumb.jpg.3a858f3c0a4f900cf2f806fcee87441f.jpg
   url: https://community.simtropolis.com/files/file/21293-industry-quadrupler/
   variants:
     default:
       assets:
         - id: simtropolis/21293-industry-quadrupler
-      lastModified: 2017-11-27T03:07:27Z
+      lastModified: 2017-11-27T03:07:27.000Z
+      release: 2024-11-17T16:00:57.230Z
       version: 2.1.0
 
 toroca/no-radiation-rewards:
   authors:
     - toroca
   category: gameplay,overrides
-  description: |-
-    This mod allows the user to remove radiation pollution from any of the five rewards that produce it. See the included Readme for further details.
+  description: This mod allows the user to remove radiation pollution from any of the five rewards that produce it. See the included Readme for further details.
+  images:
+    - https://www.simtropolis.com/objects/screens/0010/5543b82ffe2764420e400f3e33ddcbbb-default.jpg
   name: No Radiation Rewards
-  release: 2024-10-16T14:10:56.881Z
   requirements:
     minVersion: 638
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2003/thumb-5543b82ffe2764420e400f3e33ddcbbb-default.jpg
   url: https://community.simtropolis.com/files/file/21338-no-radiation-reward-v11/
   variants:
     default:
       assets:
         - id: simtropolis/21338-no-radiation-reward-v11
           include:
-            - "noradiation-{{rewards}}.dat"
-      lastModified: 2003-10-20T23:00:00Z
+            - noradiation-{{rewards}}.dat
+      lastModified: 2003-10-20T23:00:00.000Z
       options:
         - choices:
             - label: Advanced Research Center
@@ -360,43 +362,43 @@ toroca/no-radiation-rewards:
           label: Rewards
           multi: true
           type: string
-      version: 1.1.0
+      release: 2024-11-17T16:00:57.230Z
+      version: 1.0.0
 
 toroca/opera-house-fix:
   authors:
     - toroca
   category: gameplay,overrides
-  description: >-
-    This mod fixes the Opera House, which has a capacity MUCH too low for large cities in SimCity 4. Currently, the Opera House can go overcapacity and inhibit city growth, and you'd never even know it
-    because the Opera House doesn't report its usage statistics. This mod changes that. Please see the readme for full details, including installation instructions.
-
-
-    Most of the discussion about this mod has taken place in the following thread, so it may be best to post questions or comments there: https://www.simtropolis.com/idealbb/view.asp?mode=viewtopic&topicID=48119
+  description: This mod fixes the Opera House, which has a capacity MUCH too lowfor large cities in SimCity 4. Currently, the Opera House can go overcapacity and inhibit city growth, and you'd never even know it because the Opera House doesn't report its usage statistics. This mod changes that. Please see the readme for full details, including installation instructions.
+  images:
+    - https://www.simtropolis.com/objects/screens/0021/c007950f6430d08d70636a9dbad3a37c-default.jpg
   name: Opera House Fix
-  release: 2024-10-16T14:10:56.881Z
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2004/thumb-c007950f6430d08d70636a9dbad3a37c-default.jpg
   url: https://community.simtropolis.com/files/file/21342-opera-house-fix/
   variants:
     default:
       assets:
         - id: simtropolis/21342-opera-house-fix
-      lastModified: 2004-03-31T00:00:00Z
+      lastModified: 2004-03-31T00:00:00.000Z
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
   warnings:
     - message: This package overrides the Maxis Opera House. Before enabling it, you must bulldoze all Opera Houses from your regions.
-      on: enable
+      "on": enable
     - message: This package overrides the Maxis Opera House. Before disabling it, you must bulldoze all Opera Houses from your regions.
-      on: disable
+      "on": disable
 
 toroca/toll-booth-booster:
   authors:
     - toroca
   category: gameplay,transport,overrides
-  description: >-
-    This mod increases the capacity of toll booths, and there are several versions to choose from to allow users to have higher toll charges if they wish.
+  description: This mod increases the capacity of toll booths, and there are several versions to choose from to allow users to have higher toll charges if they wish. See the included Readme for further details on version selection.
+  images:
+    - https://www.simtropolis.com/objects/screens/0011/6115f56dc2b5545471315af5a10c193c-default.jpg
   name: Toll Booth Booster
-  release: 2024-10-16T14:10:56.881Z
   requirements:
     minVersion: 638
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2003/thumb-6115f56dc2b5545471315af5a10c193c-default.jpg
   url: https://community.simtropolis.com/files/file/21335-toll-booth-booster-v20/
   variants:
     default:
@@ -404,6 +406,7 @@ toroca/toll-booth-booster:
         - id: simtropolis/21335-toll-booth-booster-v20
           include:
             - tollboothboost-{{capacity}}-fares{{fares}}-v2.dat
+      lastModified: 2003-10-20T23:00:00.000Z
       options:
         - choices:
             - label: Standard
@@ -425,5 +428,5 @@ toroca/toll-booth-booster:
           id: fares
           label: Fares
           type: string
-      lastModified: 2003-10-20T23:00:00Z
-      version: 2.0.0
+      release: 2024-11-17T16:00:57.230Z
+      version: 1.0.0

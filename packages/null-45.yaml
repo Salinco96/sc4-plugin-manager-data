@@ -2,64 +2,49 @@ null-45/auto-save:
   authors:
     - null-45
   category: mods,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that automatically saves a city at user-specified intervals.
-
 
     This auto-save plugin does not require any launcher and will work with any digital Windows version of the game, Steam, GOG, etc. The disc-based versions should also work if fully patched.
 
-
     If you use a 3rd-party launcher that has its own auto-save setting you will need to disable that option when installing this plugin.
-
 
     **Settings overview:**
 
+    **IntervalInMinutes** is the number of minutes that elapse between auto-save attempts, defaults to 15 minutes. Note that the save timing may not be exactly this value depending on what the game is doing. For example, auto-save is disabled when the game is paused.
 
-    **IntervalInMinutes** is the number of minutes that elapse between auto-save attempts, defaults to 15 minutes. Note that the save timing may not be exactly this value depending on what the game is
-    doing. For example, auto-save is disabled when the game is paused.
-
-
-    **FastSave** controls whether the game skips updating the region thumbnail when saving, defaults to *true*. With this option enabled the save operation is equivalent to the *Ctrl + Alt + S*
-    keyboard shortcut, when disabled it is equivalent to the *Ctrl + S* keyboard shortcut.
-
+    **FastSave** controls whether the game skips updating the region thumbnail when saving, defaults to *true*. With this option enabled the save operation is equivalent to the *Ctrl + Alt + S* keyboard shortcut, when disabled it is equivalent to the *Ctrl + S* keyboard shortcut.
 
     **IgnoreTimePaused** controls whether the time the game spends paused is ignored when counting towards the next auto-save point, defaults to *true*.
 
-
     **LogSaveEvents** controls whether the save events for the current session will be written to the log file, defaults to *true*.
-
 
     **Troubleshooting**
 
-
     The plugin should write a SC4AutoSave.log file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Support and Source Code**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762722-sc4autosave/
-
 
     The source code and bug tracker is located on [GitHub](https://github.com/0xC0000054/sc4-auto-save).
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_11/SC4AutoSaveSTEXIcon.png.95779b2d8446d28e80fde99d53386a6a.png
   logs: SC4AutoSave.log
   name: SC4 Auto Save DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-auto-save
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_11/SC4AutoSaveSTEXIcon.thumb.png.76798bc0a3f4162a440ff15d3830026d.png
   url: https://community.simtropolis.com/files/file/35761-sc4-auto-save/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-auto-save
-          exclude:
+        - exclude:
             - SC4AutoSave.ini
-      lastModified: 2024-01-21T04:05:44Z
+          id: github/0xC0000054/sc4-auto-save
+      lastModified: 2024-01-21T04:05:42.000Z
+      logs: SC4AutoSave.log
       options:
         - condition:
             never: true
@@ -90,57 +75,44 @@ null-45/auto-save:
           id: AutoSave.LogSaveEvents
           label: Enable save event logs
           type: boolean
+      release: 2024-11-17T16:00:57.230Z
       version: 1.2.0
 
 null-45/city-date-sync:
   authors:
     - null-45
   category: gameplay,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that synchronizes the city dates in a region.
 
-
-    The plugin saves the current in-game date when exiting an established city, and then applies it to the next established city if that city's in-game date is less then the stored value. The city
-    date is applied by automatically executing the *SimDate* cheat when loading the city. The city date synchronization only occurs between cities located in the same region.
-
-
-    **Disclaimer**
-
-
-    I have not experienced any issues with using the SimDate command in this way, but it may have side effects that I missed.
-
+    The plugin saves the current in-game date when exiting an established city, and then applies it to the next established city if that city's in-game date is less then the stored value. The city date is applied by automatically executing the *SimDate* cheat when loading the city. The city date synchronization only occurs between cities located in the same region.
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4CityDateSync.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762766-sc4citydatesync-synchronize-the-city-dates-in-a-region/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-date-sync
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_11/STEXIcon.png.21975bb87a08e5db2a8857e4ec04ec80.png
   logs: SC4CityDateSync.log
   name: SC4 City Date Sync DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-city-date-sync
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_11/STEXIcon.thumb.png.965f05907fc98b577f19c398501165ed.png
   url: https://community.simtropolis.com/files/file/35782-sc4-city-date-sync/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-city-date-sync
-          exclude:
+        - exclude:
             - SC4CityDateSync.ini
-      lastModified: 2024-01-08T11:05:33Z
+          id: github/0xC0000054/sc4-city-date-sync
+      lastModified: 2024-01-08T11:05:31.000Z
+      logs: SC4CityDateSync.log
       options:
         - condition:
             never: true
@@ -148,110 +120,80 @@ null-45/city-date-sync:
           filename: SC4CityDateSync.ini
           id: Admin.Enabled
           type: boolean
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.3
 
 null-45/city-lottery-ordinance:
   authors:
     - null-45
   category: gameplay,ordinances,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that adds a city lottery to the game.
-
 
     **Availability Requirements:** None.
 
-
     **Income:** Base income of §500/month, plus additional income based on the residential wealth group populations.
-
 
     **Effects:**
 
-
     **Positive:**
-
 
     Cs§ Demand Effect: +1%.
 
-
     School EQ Boost Effect: +2%. This mimics the fact that some jurisdictions use money gained from lotteries for education funding.
-
 
     **Negative:**
 
-
     Crime Effect: +10%.
-
 
     ### Settings overview:
 
-
     **MonthlyConstantIncome** is the base monthly income provided by the ordinance, defaults to §500.
-
 
     **Wealth Group Income Factors**
 
-
-    The following values represent the factors (multipliers) that control how much each wealth group contributes to the city lottery's monthly income based on the group's population. A value of 0.0
-    excludes the specified wealth group from the city lottery. For example, if the city's R§ population is 1000 and the R$ income factor is 0.05 the R$ group would contribute an additional §50 to the
-    monthly income total.
-
+    The following values represent the factors (multipliers) that control how much each wealth group contributes to the city lottery's monthly income based on the group's population. A value of 0.0 excludes the specified wealth group from the city lottery. For example, if the city's R§ population is 1000 and the R$ income factor is 0.05 the R$ group would contribute an additional §50 to the monthly income total.
 
     - **R$IncomeFactor** income factor for the R§ population, defaults to 0.05.
-
     - **R$$IncomeFactor** income factor for the R§§ population, defaults to 0.03.
-
     - **R$$$IncomeFactor** income factor for the R§§§ population, defaults to 0.01.
-
 
     **Ordinance Effects**
 
-
     The following options control the effects that the ordinance has on crime, Cs§ demand and school EQ.
 
+    **CrimeEffectMultiplier** the effect that the ordinance has on global city crime. Defaults to 1.10, a +10% increase. The value uses a range of \[0.01, 2.0\] inclusive, a value of 1.0 has no effect. Values below 1.0 reduce crime, and values above 1.0 increase crime.
 
-    **CrimeEffectMultiplier** the effect that the ordinance has on global city crime. Defaults to 1.10, a +10% increase. The value uses a range of \[0.01, 2.0\] inclusive, a value of 1.0 has no
-    effect. Values below 1.0 reduce crime, and values above 1.0 increase crime.
+    **Cs$DemandEffect** the effect that the ordinance has on Cs§ demand. Defaults to 1.01, a +1% increase. The value uses a range of \[0.01, 2.0\] inclusive, a value of 1.0 has no effect. Values below 1.0 reduce Cs§ demand, and values above 1.0 increase Cs§ demand.
 
-
-    **Cs$DemandEffect** the effect that the ordinance has on Cs§ demand. Defaults to 1.01, a +1% increase. The value uses a range of \[0.01, 2.0\] inclusive, a value of 1.0 has no effect. Values below
-    1.0 reduce Cs§ demand, and values above 1.0 increase Cs§ demand.
-
-
-    **SchoolEQBoostEffect** the effect that the ordinance has on the global EQ level. Defaults to 102, a +2% boost in EQ. The value uses a range of \[0, 200\] inclusive, a value of 100 has no effect.
-    Values below 100 reduce school EQ, and values above 100 increase school EQ.
-
+    **SchoolEQBoostEffect** the effect that the ordinance has on the global EQ level. Defaults to 102, a +2% boost in EQ. The value uses a range of \[0, 200\] inclusive, a value of 100 has no effect. Values below 100 reduce school EQ, and values above 100 increase school EQ.
 
     ## Troubleshooting
 
-
     The plugin should write a *SC4CityLotteryOrdinance.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762835-city-lottery-ordinance-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-lottery-ordinance
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.png.cebe7794b646d80d3edd46b8fdbf9e29.png
   logs: SC4CityLotteryOrdinance.log
   name: City Lottery Ordinance
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-city-lottery-ordinance
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.thumb.png.b0a453a8049745f600cfaf9f6e12fb20.png
   url: https://community.simtropolis.com/files/file/35871-city-lottery-ordinance/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-city-lottery-ordinance
-          exclude:
+        - exclude:
             - SC4CityLotteryOrdinance.ini
-      lastModified: 2023-12-21T04:43:57Z
+          id: github/0xC0000054/sc4-city-lottery-ordinance
+      lastModified: 2023-12-21T03:31:06.000Z
+      logs: SC4CityLotteryOrdinance.log
       options:
         - condition:
             never: true
@@ -306,81 +248,61 @@ null-45/city-lottery-ordinance:
           min: 1
           step: 1
           type: number
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/cpu-options:
   authors:
     - null-45
   category: mods,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that configures the CPU core count and priority.
 
+    This plugin combines the functionality of the [SingleCPU](https://community.simtropolis.com/files/file/36053-sc4singlecpu/) and [CPUPriority](https://community.simtropolis.com/files/file/36048-sc4cpupriority/) plugins in a single DLL, and adds the ability to set the CPU priority without using a command line argument.
 
-    This plugin combines the functionality of the [SingleCPU](https://community.simtropolis.com/files/file/36053-sc4singlecpu/) and
-    [CPUPriority](https://community.simtropolis.com/files/file/36048-sc4cpupriority/) plugins in a single DLL, and adds the ability to set the CPU priority without using a command line argument.
-
-
-    If the **\-CPUCount** and/or **\-CPUPriority** command line arguments are present, those values will be used in place of the plugin's default options. When those command line arguments are not
-    present, the plugin will configure SC4 to use 1 CPU core and the CPU priority specified in the configuration file.
-
+    If the **\-CPUCount** and/or **\-CPUPriority** command line arguments are present, those values will be used in place of the plugin's default options. When those command line arguments are not present, the plugin will configure SC4 to use 1 CPU core and the CPU priority specified in the configuration file.
 
     This plugin is incompatible with 3rd-party launchers that set a CPU priority, it will override the CPU priority setting they set when starting the game.
 
-
     **Settings Overview**
-
 
     **Priority** is the CPU priority that the game will use, the default is *AboveNormal*. The supported values are listed in the following table:
 
-
     | Priority Value | Notes |
-
     | --- | --- |
-
     | High |     |
-
     | AboveNormal |     |
-
     | Normal | The default value for a process, unless the parent process has a different value. |
-
     | BelowNormal |     |
-
     | Idle |     |
-
     | Low | An alias for Idle. |
-
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4CPUOptions.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762979-sc4cpuoptions
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-cpu-options
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.dcca5907ea5a1f0de8cf725491639281.png
   logs: SC4CPUOptions.log
   name: SC4 CPU Options DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-cpu-options
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.55cf8d37094679309e4c933ec6df6848.png
   url: https://community.simtropolis.com/files/file/36120-sc4-cpu-options/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-cpu-options
-          exclude:
+        - exclude:
             - SC4CPUOptions.ini
-      lastModified: 2024-02-14T14:43:30Z
+          id: github/0xC0000054/sc4-cpu-options
+      lastModified: 2024-02-14T14:43:27.000Z
+      logs: SC4CPUOptions.log
       options:
         - condition:
             never: true
@@ -399,57 +321,43 @@ null-45/cpu-options:
           id: CPUOptions.Priority
           label: Priority
           type: string
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.1
 
 null-45/custom-budget-departments:
   authors:
     - null-45
   category: dependencies,dll
-  description: >-
+  description: |-
     A DLL plugin for SimCity 4 that allows new budget departments to be added to the game using a building's exemplar.
-
 
     An example image of this feature is below:
 
-
     ![Custom-Budget-Department-DLLCasino.png](https://i.postimg.cc/xdmBgNvK/Custom-Budget-Department-DLLCasino.png)
-
 
     **Exemplar Property Documentation**
 
-
-    The DLL works by using the built-in *Budget Item:* properties while adding new properties to set the department name and budget window. The Exemplar property documentation is hosted on
-    [GitHub](https://github.com/0xC0000054/sc4-custom-budget-departments?tab=readme-ov-file#exemplar-properties), and included in the README in the download.
-
+    The DLL works by using the built-in *Budget Item:* properties while adding new properties to set the department name and budget window. The Exemplar property documentation is hosted on [GitHub](https://github.com/0xC0000054/sc4-custom-budget-departments?tab=readme-ov-file#exemplar-properties), and included in the README in the download.
 
     **Troubleshooting**
 
-
     The plugin should write a *CustomBudgetDepartments.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
-    Plugin thread:
-    [https://community.simtropolis.com/forums/topic/763257-SimCity-4-custom-budget-departments-dll/](https://community.simtropolis.com/forums/topic/763257-simcity-4-custom-budget-departments-dll/)
-
+    Plugin thread: [https://community.simtropolis.com/forums/topic/763257-SimCity-4-custom-budget-departments-dll/](https://community.simtropolis.com/forums/topic/763257-simcity-4-custom-budget-departments-dll/)
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-custom-budget-departments
 
-
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-
 
     Thanks to the few people who have donated to me.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/STEXIcon.png.db29d909dc0172907ea8f5453d72b0eb.png
   logs: CustomBudgetDepartments.log
   name: Custom Budget Departments DLL Plugin
-  release: 2024-10-17T06:31:16.997Z
   repository: https://github.com/0xC0000054/sc4-custom-budget-departments
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/STEXIcon.thumb.png.fd89f39326fe8d7a013dba1eaa396322.png
   url: https://community.simtropolis.com/files/file/36481-custom-budget-departments-dll-plugin/
@@ -457,7 +365,9 @@ null-45/custom-budget-departments:
     default:
       assets:
         - id: github/0xC0000054/sc4-custom-budget-departments
-      lastModified: 2024-10-04T22:22:34Z
+      lastModified: 2024-10-04T22:22:34.000Z
+      logs: CustomBudgetDepartments.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.1
 
 null-45/disable-cheats:
@@ -483,7 +393,6 @@ null-45/disable-cheats:
     - https://www.simtropolis.com/objects/screens/monthly_2023_11/SC4DisableCheatsSTEXIcon.png.d11fd73a43fe32db4415725633980f7d.png
   logs: SC4DisableCheats.log
   name: SC4 Disable Cheats DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-disable-cheats
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_11/SC4DisableCheatsSTEXIcon.thumb.png.fc57d008dc7e97605c2b5632322dc3b1.png
   url: https://community.simtropolis.com/files/file/35759-sc4-disable-cheats/
@@ -491,43 +400,35 @@ null-45/disable-cheats:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-cheats
-      lastModified: 2023-11-12T02:45:14Z
+      lastModified: 2023-11-12T02:45:13.000Z
+      logs: SC4DisableCheats.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/disable-demolition-animation:
   authors:
     - null-45
   category: graphics,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that disables the demolition animation.
 
-
-    Before SC4 picks the demolition animation to use for an occupant, it calls a function to determine if the occupant is too small for a demolition animation. This DLL Plugin patches the game's
-    memory to redirect that function call to its own version of the function, which always reports that the occupant is too small for a demolition animation. This has the effect of disabling the
-    demolition animations for all occupants.
-
+    Before SC4 picks the demolition animation to use for an occupant, it calls a function to determine if the occupant is too small for a demolition animation. This DLL Plugin patches the game's memory to redirect that function call to its own version of the function, which always reports that the occupant is too small for a demolition animation. This has the effect of disabling the demolition animations for all occupants.
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4DisableDemolitionAnimation.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762938-sc4disabledemolitionanimation
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-disable-demolition-animation
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.png.cdb90d3802bafd7e526db47a222aaaf3.png
   logs: SC4DisableDemolitionAnimation.log
   name: Disable Demolition Animation
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-disable-demolition-animation
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.thumb.png.5af5020e767b1b1ebcc4d7da840c77cc.png
   url: https://community.simtropolis.com/files/file/36055-sc4-disable-demolition-animation/
@@ -535,7 +436,9 @@ null-45/disable-demolition-animation:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-demolition-animation
-      lastModified: 2024-01-24T23:08:09Z
+      lastModified: 2024-01-24T23:02:44.000Z
+      logs: SC4DisableDemolitionAnimation.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/disable-lot-plop-smoke:
@@ -564,7 +467,6 @@ null-45/disable-lot-plop-smoke:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.3600baf4e3611f3981184f305cd4eaf9.png
   logs: SC4DisableLotPlopSmoke.log
   name: Disable Lot Plop Smoke
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-disable-lot-plop-smoke
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.935bafd81124b7994b64e58da304dacc.png
   url: https://community.simtropolis.com/files/file/36126-sc4-disable-lot-plop-smoke/
@@ -572,7 +474,9 @@ null-45/disable-lot-plop-smoke:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-lot-plop-smoke
-      lastModified: 2024-02-17T01:38:15Z
+      lastModified: 2024-02-17T01:32:55.000Z
+      logs: SC4DisableLotPlopSmoke.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/disable-network-construction-sounds:
@@ -603,7 +507,6 @@ null-45/disable-network-construction-sounds:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.adffb7373eb267290f607ef1d2fe3677.png
   logs: SC4DisableNetworkConstructionSounds.log
   name: Disable Network Construction Sounds
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-disable-network-construction-sounds
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.0d06d1f4074ac06897c5139c6b70fcdc.png
   url: https://community.simtropolis.com/files/file/36132-sc4-disable-network-construction-sounds/
@@ -611,123 +514,75 @@ null-45/disable-network-construction-sounds:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-network-construction-sounds
-      lastModified: 2024-02-18T12:45:33Z
+      lastModified: 2024-02-18T12:35:46.000Z
+      logs: SC4DisableNetworkConstructionSounds.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/graphics-options:
   authors:
     - null-45
   category: graphics,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that sets the game's rendering mode and resolution options.
-
 
     **Features**
 
-
     - Custom resolutions can be configured without command line arguments.
-
     - Supports borderless full screen mode without requiring a launcher.
-
     - Supports changing the game's rendering driver without a command line argument.
-
     - Allow the DirectX full screen mode to use 32-bit color.
-
     - Allows the game's intro to be disabled without a command line argument.
-
     - Allows pausing on focus loss to be enabled without a command line argument.
 
-
-    This DLL cannot change the game's full screen resolution, it will always match your monitor. If you want to run a full screen window at something other than your monitor's resolution you need to
-    use an external window scaling program such as [Magpie](https://github.com/Blinue/Magpie).
-
+    This DLL cannot change the game's full screen resolution, it will always match your monitor. If you want to run a full screen window at something other than your monitor's resolution you need to use an external window scaling program such as [Magpie](https://github.com/Blinue/Magpie).
 
     **Settings overview:**
 
-
     **EnableIntroVideo** controls whether the game's intro video will be played on startup, defaults to true. Setting this to false is equivalent to the -Intro:off command line argument.
-
 
     **PauseGameOnFocusLoss** controls whether the game will be paused when it looses focus, defaults to false. Setting this to true is equivalent to the -gp command line argument.
 
-
     **Driver** the driver that SC4 uses for rendering, the supported values are listed in the following table:
 
-
     | Driver | Notes |
-
     | --- | --- |
-
-    | DirectX | SC4's default hardware renderer. Because this renderer targets DirectX 7, a DirectX wrapper (e.g. [dgVoodo 2](https://github.com/dege-diosg/dgVoodoo2) or
-    [DxWrapper](https://github.com/elishacloud/dxwrapper)) is required for resolutions above 2048x2048. |
-
+    | DirectX | SC4's default hardware renderer. Because this renderer targets DirectX 7, a DirectX wrapper (e.g. [dgVoodo 2](https://github.com/dege-diosg/dgVoodoo2) or [DxWrapper](https://github.com/elishacloud/dxwrapper)) is required for resolutions above 2048x2048. |
     | OpenGL | An unfinished hardware renderer. simmaster07's [SCGL](https://github.com/nsgomez/scgl) project aims to replace this renderer with a new one targeting OpenGL 3.0. |
-
     | SCGL | simmaster07's replacement for SC4's OpenGL renderer. This is an alias for the OpenGL entry above. |
-
     | Software | The renderer SC4 uses when no supported hardware renderer is available. |
 
+    **WindowWidth** the width of SC4's window when running in windowed mode. This is ignored for the full screen and borderless full screen modes. The minimum value is 800, values above 2048 with the DirectX driver require the use of a DirectX wrapper.
 
-    **WindowWidth** the width of SC4's window when running in windowed mode. This is ignored for the full screen and borderless full screen modes. The minimum value is 800, values above 2048 with the
-    DirectX driver require the use of a DirectX wrapper.
-
-
-    **WindowHeight** the height of SC4's window when running in windowed mode. This is ignored for the full screen and borderless full screen modes. The minimum value is 600, values above 2048 with
-    the DirectX driver require the use of a DirectX wrapper.
-
+    **WindowHeight** the height of SC4's window when running in windowed mode. This is ignored for the full screen and borderless full screen modes. The minimum value is 600, values above 2048 with the DirectX driver require the use of a DirectX wrapper.
 
     **ColorDepth** the color depth that SC4 uses, in bits per pixel. The supported values are 16 and 32.
 
-
     **WindowMode** the window mode that SC4 uses, the possible values listed in the following table:
 
-
     | Window Mode | Notes |
-
     | --- | --- |
-
     | Windowed | Runs the game in windowed mode, the window size is set by the *WindowWidth* and *WindowHeight* values above. Equivalent to the -w command line parameter. |
-
     | FullScreen | Runs the game in full screen mode. Equivalent to the -f command line parameter. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper. |
-
     | BorderlessFullScreen | Runs the game a window that covers the entire screen. Screen resolutions larger that 2048x2048 in DirectX mode require the use of a DirectX wrapper. |
-
     | Borderless | An alias for the *BorderlessFullScreen* option above. |
-
-
-    **Troubleshooting**
-
-
-    The plugin should write a *SC4GraphicsOptions.log* file in the same folder as the plugin.
-
-
-    The log contains status information for the most recent run of the plugin.
-
-
-    **Source Code and Support**
-
-
-    Plugin thread: https://community.simtropolis.com/forums/topic/762952-sc4graphicsoptions
-
-
-    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-graphics-options
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.87e0cc6f1f99a0ed7a91b4e31ea75f7b.png
   logs: SC4GraphicsOptions.log
   name: Graphics Options
   optional:
-    - memo/region-thumbnail-fix-dll
-  release: 2024-10-16T10:40:02.216Z
+    - memo/region-thumbnail-fix
   repository: https://github.com/0xC0000054/sc4-graphics-options
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.da4c65cf8db81ee630bb6cba8651e9d5.png
   url: https://community.simtropolis.com/files/file/36091-sc4-graphics-options/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-graphics-options
-          exclude:
+        - exclude:
             - SC4GraphicsOptions.ini
-      lastModified: 2024-02-11T00:42:54Z
+          id: github/0xC0000054/sc4-graphics-options
+      lastModified: 2024-02-11T00:42:53.000Z
+      logs: SC4GraphicsOptions.log
       options:
         - condition:
             never: true
@@ -793,81 +648,57 @@ null-45/graphics-options:
           id: GraphicsOptions.ColorDepth
           label: Color depth
           type: number
+      release: 2024-11-17T16:00:57.230Z
       version: 1.2.0
 
-null-45/growify-plops:
+null-45/growify:
   authors:
     - null-45
   category: cheats,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that adds a cheat code to convert plopped buildings to a growable RCI zone type.
 
-
-    This mod is an in-game equivalent to the [SC4](https://github.com/sebamarynissen/sc4) command line tool's *growify* command for editing save games (and the [website
-    version](https://community.simtropolis.com/forums/topic/760843-growifiercom-ploppable-residentials/)).
-
+    This mod is an in-game equivalent to the [SC4](https://github.com/sebamarynissen/sc4) command line tool's *growify* command for editing save games (and the [website version](https://community.simtropolis.com/forums/topic/760843-growifiercom-ploppable-residentials/)).
 
     One of the differences between the two tools is the building exemplar property that is used to detect the RCI building type.
 
-
     The SC4 command line tool uses the *Capacity Satisfied* property from the savegame's lot subfile.
-
 
     This plugin uses the *Purpose* property from the building's exemplar.
 
-
     **Using The Plugin**
-
 
     The plugin adds a *Growify* cheat code with the following syntax:
 
-
     *Growify &lt;zone type&gt; &lt;zone density&gt; \[make historical\]*
-
 
     The **&lt;zone type&gt;** parameter is one of: Residential, Commercial, Agriculture or Industrial.
 
-
     The **&lt;zone density&gt;** parameter is one of: Low, Medium or High.
 
-
-    The **\[make historical\]** parameter is optional, when not present it will default to *true*. This behavior is intended to prevent the game from replacing the plopped building as part of its
-    normal zone redevelopment process. Setting the value to *false* will preserve the game's existing historical option for that lot.
-
+    The **\[make historical\]** parameter is optional, when not present it will default to *true*. This behavior is intended to prevent the game from replacing the plopped building as part of its normal zone redevelopment process. Setting the value to *false* will preserve the game's existing historical option for that lot.
 
     All commands are case-insensitive.
 
-
     **Example Commands**
 
-
-    The following command converts all commercial plopped buildings to the Commercial Medium-density zone: *Growify Commercial Medium* To save typing, you could also use: *Growify Com Med* or *Growify
-    C M*. This works with any zone or density value.
-
+    The following command converts all commercial plopped buildings to the Commercial Medium-density zone: *Growify Commercial Medium* To save typing, you could also use: *Growify Com Med* or *Growify C M*. This works with any zone or density value.
 
     Because the Agriculture zone only has 1 density, it can be used with just the zone name: *Growify Agriculture*.
 
-
     **Troubleshooting**
-
 
     The plugin should write a *SC4Growify.log* file in the same folder as the plugin.
 
-
     The log contains status information for the most recent run of the plugin.
-
 
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/763046-growify-plopped-buildings-cheat-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-growify
 
-
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-
 
     Thanks to the few people who have donated to me.
   images:
@@ -876,7 +707,6 @@ null-45/growify-plops:
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/After.jpg.6d7423b6d948306a7465a8ae298a3803.jpg
   logs: SC4Growify.log
   name: Growify Plopped Buildings Cheat DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-growify
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_03/STEXIcon.thumb.png.49fdef61e541247ae4aeaacdc0e6a4d5.png
   url: https://community.simtropolis.com/files/file/36180-growify-plopped-buildings-cheat-dll-plugin/
@@ -884,66 +714,55 @@ null-45/growify-plops:
     default:
       assets:
         - id: github/0xC0000054/sc4-growify
-      lastModified: 2024-05-23T05:03:09Z
+      lastModified: 2024-05-23T05:03:06.000Z
+      logs: SC4Growify.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.1
 
 null-45/humane-society-ordinance:
   authors:
     - null-45
   category: ordinances,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that adds a Humane Society ordinance to the game.
 
-
-    This ordinance is based on the Humane Society ordinance suggestion in [this](https://community.simtropolis.com/forums/topic/26215-ordinances-complete-list/?do=findComment&comment=703433) post, and
-    has the following properties:
-
+    This ordinance is based on the Humane Society ordinance suggestion in [this](https://community.simtropolis.com/forums/topic/26215-ordinances-complete-list/?do=findComment&comment=703433) post, and has the following properties:
 
     **Availability Requirements:** At least 1 hospital or clinic. The original suggestion did not include this, but I think it makes sense given the per hospital/clinic cost.
 
-
     **Expense:** Base cost of $-50/month plus $-5 per hospital/clinic.
-
 
     **Effects:**
 
-
     - Increases mayor rating by 5 points.
-
     - Reduces crime by 5%.
-
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4HumaneSocietyOrdinance.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762796-humane-society-ordinance-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-humane-society-ordinance
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.png.a427b72155ea30f6af7887ab0b9b8292.png
   logs: SC4HumaneSocietyOrdinance.log
   name: Humane Society Ordinance
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-humane-society-ordinance
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.thumb.png.c8adf8463164699bd97ba8cda829adae.png
   url: https://community.simtropolis.com/files/file/35793-humane-society-ordinance/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-humane-society-ordinance
-          exclude:
+        - exclude:
             - SC4HumaneSocietyOrdinance.ini
-      lastModified: 2024-03-24T20:40:27Z
+          id: github/0xC0000054/sc4-humane-society-ordinance
+      lastModified: 2024-03-24T20:40:25.000Z
+      logs: SC4HumaneSocietyOrdinance.log
       options:
         - condition:
             never: true
@@ -961,93 +780,70 @@ null-45/humane-society-ordinance:
           id: Ordinance.Description
           label: Description
           type: string
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.1
 
 null-45/legalize-gambling-ordinance:
   authors:
     - null-45
   category: ordinances,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that updates the built-in Legalize Gambling ordinance to have its income based on the city's residential population.
-
 
     **Availability Requirements:** None.
 
-
     **Income:** Base income of §250/month, plus additional income based on the residential wealth group populations.
-
 
     **Effects:**
 
-
     Crime Effect: +20%.
 
-
-    This ordinance replaces the game's built-in Legalize Gambling ordinance, it is incompatible with any mod that alters the built-in ordinance. This mod ignores the ordinance Exemplar and only uses
-    the LTEXT files from the built-in ordinance.
-
+    This ordinance replaces the game's built-in Legalize Gambling ordinance, it is incompatible with any mod that alters the built-in ordinance. This mod ignores the ordinance Exemplar and only uses the LTEXT files from the built-in ordinance.
 
     **Settings overview:**
 
-
     **BaseMonthlyIncome** is the base monthly income provided by the ordinance, defaults to §250.
-
 
     **Wealth Group Income Factors**
 
-
-    The following values represent the factors (multipliers) that control how much each wealth group contributes to the monthly income based on the group's population. A value of 0.0 excludes the
-    specified wealth group from contributing to the monthly income. For example, if the city's R§ population is 1000 and the R§ income factor is 0.05 the R§ group would contribute an additional §50 to
-    the monthly income total.
-
+    The following values represent the factors (multipliers) that control how much each wealth group contributes to the monthly income based on the group's population. A value of 0.0 excludes the specified wealth group from contributing to the monthly income. For example, if the city's R§ population is 1000 and the R§ income factor is 0.05 the R§ group would contribute an additional §50 to the monthly income total.
 
     **R$IncomeFactor** income factor for the R§ population, defaults to 0.02.
 
-
     **R$$IncomeFactor** income factor for the R§§ population, defaults to 0.03.
-
 
     **R$$$IncomeFactor** income factor for the R§§§ population, defaults to 0.05.
 
-
     **Ordinance Effects**
 
-
-    **CrimeEffectMultiplier** the effect that the ordinance has on global city crime. Defaults to 1.20, a +20% increase. The value uses a range of \[0.01, 2.0\] inclusive, a value of 1.0 has no
-    effect. Values below 1.0 reduce crime, and values above 1.0 increase crime.
-
+    **CrimeEffectMultiplier** the effect that the ordinance has on global city crime. Defaults to 1.20, a +20% increase. The value uses a range of \[0.01, 2.0\] inclusive, a value of 1.0 has no effect. Values below 1.0 reduce crime, and values above 1.0 increase crime.
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4LegalizeGamblingUpgrade.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762856-legalize-gambling-ordinance-upgrade-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.png.b5ae659ed8fdf7fe87e55242dc781d48.png
   logs: SC4LegalizeGamblingUpgrade.log
   name: Legalize Gambling Ordinance
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.thumb.png.41bb8647cbbc4cc2203ab7342943060d.png
   url: https://community.simtropolis.com/files/file/35889-legalize-gambling-ordinance-upgrade/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
-          exclude:
+        - exclude:
             - SC4LegalizeGamblingUpgrade.ini
-      lastModified: 2023-12-25T03:14:55Z
+          id: github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
+      lastModified: 2023-12-25T03:10:47.000Z
+      logs: SC4LegalizeGamblingUpgrade.log
       options:
         - condition:
             never: true
@@ -1086,218 +882,163 @@ null-45/legalize-gambling-ordinance:
           min: 0.01
           step: 0.01
           type: number
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/more-building-styles:
   authors:
     - null-45
   category: dependencies,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that allows the game to use more than 4 building styles.
-
 
     This DLL mod is intended as a dependency for other mods that add new building styles beyond the 4 that Maxis included, it does not add any building styles to the game by itself.
 
-
-    Maxis programmed the Building Style Control UI to only recognize the check boxes of the 4 built-in styles, no matter how may check boxes are actually present. This mod patches the game's memory to
-    remove that restriction.
-
+    Maxis programmed the Building Style Control UI to only recognize the check boxes of the 4 built-in styles, no matter how may check boxes are actually present. This mod patches the game's memory to remove that restriction.
 
     **Build all styles at once**
 
-
     The DLL fixes a game bug to make this feature work as Maxis intended.
-
 
     **Adding More Building Styles into SC4**
 
-
     This is a brief overview of the process required to add new building styles into the game.
 
-
     1.  Create a patch that overrides the default Building Style Control UI, TGI 0x00000000,0x96a006b0,0x6bc61f19 in *SimCity_1.dat*.
-
     2.  Edit the building style UI in the patch to add a check box for your new style(s).
         - The check box ID (e.g. 0x2003) identifies the building style to the game, these IDs should be in the range of 0x2000 to 0x2fff.
     3.  Update the building OG values to use the new style.
 
+    [@CorinaMarie](https://community.simtropolis.com/profile/737259-corinamarie/) has a [post](https://community.simtropolis.com/forums/topic/758810-partial-mythbusting-building-style-tilesets-not-locked-down-in-the-exe/?do=findComment&comment=1765958) with more details on how to update a building to a new style. Note that you only need to follow the steps in that post up to step 8. The additional steps in that post are not required with this mod. It is not necessary to edit the Building Development Simulator when using the edited Building Style Control UI.
 
-    [@CorinaMarie](https://community.simtropolis.com/profile/737259-corinamarie/) has a
-    [post](https://community.simtropolis.com/forums/topic/758810-partial-mythbusting-building-style-tilesets-not-locked-down-in-the-exe/?do=findComment&comment=1765958) with more details on how to
-    update a building to a new style. Note that you only need to follow the steps in that post up to step 8. The additional steps in that post are not required with this mod. It is not necessary to
-    edit the Building Development Simulator when using the edited Building Style Control UI.
+    **Building Styles Exemplar Property (0xAA1DD400)**
 
+    This property allows the building styles that are active when the DLL is installed to be specified separately from the Maxis building styles in the Occupant Groups property (0xAA1DD396).
+
+    **Residential and Commercial Buildings**
+
+    The *Building Styles* property is optional for custom building style support in residential and commercial buildings.
+
+    When the property is present, the building will use custom and Maxis styles specified in the property and ignore the styles in the Occupant Groups property (0xAA1DD396).
+
+    When the property is not present, the building will use the custom and Maxis styles specified in the Occupant Groups property (0xAA1DD396).
+
+    **Industrial Buildings**
+
+    The *Building Styles* property is mandatory for custom building style support in industrial buildings.
+
+    When the property is present, the building will use custom styles specified in the property.
+
+    When the property is not present, the building will be treated as compatible with all styles.
 
     **Auto-Historical Check Box**
 
-
-    The DLL supports an optional check box that will automatically mark growable lots that use the active building styles as historical when SC4 creates them. Industrial buildings are only marked as
-    historical if industrial building styles are enabled for that building type.
-
+    The DLL supports an optional check box that will automatically mark growable lots that use the active building styles as historical when SC4 creates them. Industrial buildings are only marked as historical if industrial building styles are enabled for that building type.
 
     This check box uses the reserved id value: *0x9476D8DA*
 
-
     **Auto-Growify Check Box**
 
-
-    The DLL supports an optional check box that will automatically convert plopped growables to use a growable zone type. The growified lots will be marked as historical based on the value of the
-    Auto-Historical check box described above. This check box uses the reserved id value 0xB510A368.
-
+    The DLL supports an optional check box that will automatically convert plopped growables to use a growable zone type. The growified lots will be marked as historical based on the value of the Auto-Historical check box described above. This check box uses the reserved id value 0xB510A368.
 
     **Wall-to-Wall (W2W) Radio Buttons**
 
-
     The DLL supports optional radio buttons that control how the game handles W2W buildings. The 3 radio buttons are as follows:
 
-
-    Mixed, both W2W and non-W2W buildings will be built. This is SC4's default behavior, and will also be used if the radio buttons are not present. This radio button uses the reserved id value
-    0x31150389.
-
+    Mixed, both W2W and non-W2W buildings will be built. This is SC4's default behavior, and will also be used if the radio buttons are not present. This radio button uses the reserved id value 0x31150389.
 
     W2W Only, only W2W buildings will be built. This radio button uses the reserved id value 0x3115038A.
 
-
     Block W2W, no W2W buildings will be built. This radio button uses the reserved id value 0x3115038B.
 
+    **Identifying W2W buildings**
 
-    W2W buildings are identified by the presence of a W2W occupant group in the building exemplar. The following W2W occupant group values are supported:
+    W2W buildings are identified using either of the following methods.
 
+    **Building Is Wall-to-Wall Exemplar Property (0xAA1DD401)**
 
-    More Building Style DLL W2W: 0xD02C802E
+    This is a Boolean property, a value of true indicates that the building is W2W. If the value is false or the property is not present, the building will not be considered W2W.
 
+    **Wall-to-Wall Occupant Groups**
+
+    If the building has any of the following values in its Occupant Groups property (0xAA1DD396), it indicates that the building is W2W.
+
+    BTE: Ind. W2W: 0xD02C802E
 
     BTE: Comm. W2W: 0xB5C00A05
 
-
     BTE: Res. W2W: 0xB5C00B05
-
 
     BTE: W2W General: 0xB5C00DDE
 
-
     SFBT: Hamburg W2W: 0xB5C00F0A
-
 
     SFBT: Paris W2W: 0xB5C00F0B
 
-
     **Keep Lot Zone Sizes Check Box**
-
 
     The DLL supports an optional check box that stops the game from changing the user's zoned lot size in residential and commercial zones to fit the lot it picks.
 
-
-    When this option is enabled, it forces SC4 to only pick residential and/or commercial lots which have sizes matching the zoned area. When this option is disabled (the default), SC4 will use its
-    standard behavior of aggregating or subdividing the residential and commercial zones to fit its chosen lot.
-
+    When this option is enabled, it forces SC4 to only pick residential and/or commercial lots which have sizes matching the zoned area. When this option is disabled (the default), SC4 will use its standard behavior of aggregating or subdividing the residential and commercial zones to fit its chosen lot.
 
     This check box uses the reserved id value 0x3621731B.
 
+    **Kick Out Lower Wealth Check Box**
+
+    The DLL supports an optional check box that allows the user to change whether the game will kick out lower wealth occupants when redeveloping. This check box uses the reserved id value 0x100.
 
     **Cheat Codes**
 
-
     The DLL provides the following cheat codes:
 
-
-    *ActiveStyle* shows an in-game message box with the ID of the currently active style when *Change building style every N years* is selected. When *Build all styles at once* is selected, using this
-    cheat will display a message saying that mode is active.
-
+    *ActiveStyle* shows an in-game message box with the ID of the currently active style when *Change building style every N years* is selected. When *Build all styles at once* is selected, using this cheat will display a message saying that mode is active.
 
     *DebugActiveStyles* writes the IDs of all the active/checked styles to the plugin's log file.
 
-
-    **Industrial Building Styles**
-
-
-    Building style support for the 4 industrial building types are controlled by 4 INI file entries that should be placed in the style mod DAT files. See the [industrial-building-styles
-    folder](https://github.com/0xC0000054/sc4-more-building-styles/tree/main/industrial-building-styles) on GitHub for a template file and the format details.
-
-
-    **Warning**
-
-
-    If you activate the industrial building styles without suitable buildings and lots for the active building styles, it will stop all new growth for that building type.
-
-
     **BuildingStyles INI File**
 
-
-    This file allows styles to be defined without editing the Building Style Control UI file. When the check box button ids for the Building Style Control are in the range of 0-127, these ids can be
-    mapped to a specific style and style name in *BuildingStyles.ini*.
-
+    This file allows styles to be defined without editing the Building Style Control UI file. When the check box button ids for the Building Style Control are in the range of 0-127, these ids can be mapped to a specific style and style name in *BuildingStyles.ini*.
 
     The style entries are placed under a *BuildingStyles* section and use the following format:
 
-
     &lt;UI button id&gt; = &lt;style id&gt;,&lt;style text format&gt;\[,&lt;style name&gt;\]
 
-
     &lt;UI button id&gt; is a style check box id in the range of 0-127.
-
     &lt;style id&gt; is the building style id assigned in the Building Style Index, or
-
     the text Show (case-insensitive) to display a disabled placeholder check box.
-
     &lt;style text format&gt; is one of the following values: N (normal text) or B (bold text).
-
     &lt;style name&gt; is optional, when present it uses one of the following formats:
-
     &lt;name&gt; or CaptionRes:&lt;LTEXT group id&gt;,&lt;LTEXT instance id&gt;.
-
     If &lt;style name&gt; is not present, a default name will be used.
-
 
     Examples:
 
-
     0 = 0x2005,B,Mediterranean & Tropical
-
     1 = 0x2006,N,CaptionRes:0x6a231eaa,0x6bbbd875
-
     2 = Show,N,Placeholder Check Box
-
     3 = Show,B
-
 
     **SC4MoreBuildingStyles INI File**
 
-
-    This file contains settings that control whether the growable debug logging code will write to the plugin's log file. It is recommended that you only enable these options for experimentation. They
-    will slow down your game and quickly produce a large log file.
-
+    This file contains settings that control whether the growable debug logging code will write to the plugin's log file. It is recommended that you only enable these options for experimentation. They will slow down your game and quickly produce a large log file.
 
     As an example from one of my tests, a 22 second run with the *BuildingStyleSelection* and *LotStyleSelection* options enabled produced a ~2 MB log file with ~15,500 lines.
 
-
     **Troubleshooting**
-
 
     The plugin should write a *SC4MoreBuildingStyles.log* file in the same folder as the plugin.
 
-
     The log contains status information for the most recent run of the plugin.
-
 
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762969-allow-more-building-styles-dll-plugin/
 
-
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-more-building-styles
-
-
-    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-
-
-    Thanks to the few people who have donated to me.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.png.349200b77528f735e0b85e347f5a6cb5.png
   logs: SC4MoreBuildingStyles.log
   name: More Building Styles DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-more-building-styles
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.d0a231227c791acd31e13fe612986fb2.png
   url: https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/
@@ -1306,10 +1047,10 @@ null-45/more-building-styles:
       assets:
         - id: github/0xC0000054/sc4-more-building-styles
           include:
-            - industrial-building-styles
             - BuildingStyles.ini # TODO: Configuration
             - SC4MoreBuildingStyles.dll
-      lastModified: 2024-10-10T11:34:24Z
+      lastModified: 2024-10-25T04:08:56.000Z
+      logs: SC4MoreBuildingStyles.log
       options:
         - condition:
             never: true
@@ -1335,113 +1076,79 @@ null-45/more-building-styles:
           label: Log return codes for various algorithm functions
           section: Debugging
           type: boolean
-      version: 2.4.0
+      release: 2024-11-17T16:00:57.230Z
+      version: 3.1.0
 
 null-45/more-demand-info:
   authors:
     - null-45
   category: dependencies,dll
-  description: >-
+  description: |-
     A DLL plugin for SimCity 4 that provides modders with more RCI demand info.
-
 
     With this plugin installed there will be the following new variables that can be used from LUA scripts and UI files:
 
-
     **Variable name Description**
-
 
     g_cs1_active_demand Cs§ active demand
 
-
     g_cs1_demand Cs§ demand
-
 
     g_cs2_active_demand Cs§§ active demand
 
-
     g_cs2_demand Cs§§ demand
-
 
     g_cs3_active_demand Cs§§§ active demand
 
-
     g_cs3_demand Cs§§§ demand
-
 
     g_ir_active_demand IR (I-Ag) active demand
 
-
     g_ir_demand IR (I-Ag) demand
-
 
     g_current_ir_cap Current IR (I-Ag) cap
 
-
     g_id_demand ID demand
-
 
     g_im_demand IM demand
 
-
     g_iht_demand IHT demand
-
 
     g_region_r1_population Region R§ population
 
-
     g_region_r2_population Region R§§ population
-
 
     g_region_r3_population Region R§§§ population
 
-
     g_region_cs1_population Region Cs§ population
-
 
     g_region_cs2_population Region Cs§§ population
 
-
     g_region_cs3_population Region Cs§§§ population
-
 
     g_region_co2_population Region Co§§ population
 
-
     g_region_co3_population Region Co§§§ population
-
 
     g_region_ir_population Region IR (I-Ag) population
 
-
     g_region_id_population Region ID population
-
 
     g_region_im_population Region IM population
 
-
     g_region_iht_population Region IHT population
 
-
-    The download includes a patch for RippleJet's Census Repository v3.5 that shows the new data, you will need to have the [original
-    mod](https://sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet) installed.
-
-
+    The download includes a patch for RippleJet's Census Repository v3.5 that shows the new data, you will need to have the [original mod](https://sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet) installed.
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4MoreDemandInfo.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/762906-sc4moredemandinfo
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-more-demand-info
   images:
@@ -1449,43 +1156,40 @@ null-45/more-demand-info:
     - https://www.simtropolis.com/objects/screens/monthly_2024_01/MoreDemandInfo.png.c3511a969cc46a867c82ffdad708ec45.png
   logs: SC4MoreDemandInfo.log
   name: More Demand Info DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-more-demand-info
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_01/STEXIcon.thumb.png.4baf70a67eff4ba39d69bcbd17bfe144.png
   url: https://community.simtropolis.com/files/file/35978-sc4-more-demand-info/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-more-demand-info
-      lastModified: 2024-05-08T04:14:13Z
+        - docs:
+            - Dll
+          id: github/0xC0000054/sc4-more-demand-info
+          include:
+            - Dll
+      lastModified: 2024-05-08T04:10:48.000Z
+      logs: SC4MoreDemandInfo.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.2.0
 
 null-45/no-kickout-lower-wealth:
   authors:
     - null-45
   category: gameplay,dll
-  description: >-
+  description: |-
     A DLL version of [Cori's No Kickout Lower Wealth Mod (NKO)](https://community.simtropolis.com/files/file/34027-coris-no-kickout-lower-wealth-mod/) mod.
 
-
-    Unlike Cori's mod the DLL does not override the Building Development Simulator exemplar, so it should be compatible with CAM or any other mod that alters that file. The DLL sets the Building
-    Development Simulator *Tract Developer Kick Out Lower Wealth* property to false when a city is loaded.
-
+    Unlike Cori's mod the DLL does not override the Building Development Simulator exemplar, so it should be compatible with CAM or any other mod that alters that file. The DLL sets the Building Development Simulator *Tract Developer Kick Out Lower Wealth* property to false when a city is loaded.
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4NoKickOut.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/763015-no-kickout-lower-wealth-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-no-kick-out
   features:
@@ -1496,7 +1200,6 @@ null-45/no-kickout-lower-wealth:
   name: No Kickout Lower Wealth DLL
   optional:
     - bones1/less-abandonment
-  release: 2024-10-16T08:40:44.039Z
   repository: https://github.com/0xC0000054/sc4-no-kick-out
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.53028b1cc19d0094465392380ce70a7f.png
   url: https://community.simtropolis.com/files/file/36146-no-kickout-lower-wealth-dll-plugin/
@@ -1504,137 +1207,96 @@ null-45/no-kickout-lower-wealth:
     default:
       assets:
         - id: github/0xC0000054/sc4-no-kick-out
-      lastModified: 2024-02-27T13:51:05Z
+      lastModified: 2024-02-27T10:27:18.000Z
+      logs: SC4NoKickOut.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/query-tool-ui-extensions:
   authors:
     - null-45
   category: gameplay,dll
-  description: >-
+  description: |-
     A DLL plugin that adds various enhancements to the building query tool and query dialog.
-
 
     For DLL developers, it also provides services that can be used to add more building query values and/or customize the building and network tool tips.
 
-
     **Shift + Click Building Copying**
 
-
-    Holding down the Shift key when clicking a building will activate the Place Lot tool with the building's lot selected. Note that the exact building may be different if the lot uses Building
-    Families.
-
+    Holding down the Shift key when clicking a building will activate the Place Lot tool with the building's lot selected. Note that the exact building may be different if the lot uses Building Families.
 
     **New Building Query Variables**
 
-
     The DLL provides a number of new variables that can be used in the LTEXT files of a building query dialog in the form of #variable_name#.
 
-
     | Name | Description |
-
     | --- | --- |
-
     | building_full_funding_capacity | The cost for Education, Fire, Health, Police and Power buildings at the full (100%) capacity. For Fire and Police stations this is the coverage radius. |
-
     | building_full_funding_coverage | The cost for Education, and Health buildings at the full (100%) coverage radius (School Bus/Ambulance). |
-
     | building_is_w2w | Shows a 'Yes' or 'No' value based on whether the building has a W2W occupant group. |
-
-    | building_styles | Shows a list of the building's styles. |
-
+    | building_styles | Shows a building's styles in a pipe-separated list. |
+    | building_style_lines | Shows a list of the building's styles, with each style after the first one on its own line.<br><br>E.g:`Chicago 1890`<br><br>`New York 1940` |
+    | building_summary | The building summary the game shows in its hover tool tips. E.g: `Low-Wealth Residential` |
     | growth_stage | The growth stage of the building's lot. |
-
     | mysim_name | The name of the MySim that lives in the selected residence. |
-
     | r1_occupancy | The current number of R§ occupants. |
-
     | r1_capacity | The R§ occupant capacity. |
-
     | r2_occupancy | The current number of R§§ occupants. |
-
     | r2_capacity | The R§§ occupant capacity. |
-
     | r3_occupancy | The current number of R§§§ occupants. |
-
     | r3_capacity | The R§§§ occupant capacity. |
-
     | cs1_occupancy | The current number of Cs§ occupants. |
-
     | cs1_capacity | The Cs§ occupant capacity. |
-
     | cs2_occupancy | The current number of Cs§§ occupants. |
-
     | cs2_capacity | The Cs§§ occupant capacity. |
-
     | cs3_occupancy | The current number of Cs§§§ occupants. |
-
     | cs3_capacity | The Cs§§§ occupant capacity. |
-
     | co2_occupancy | The current number of Co§§ occupants. |
-
     | co2_capacity | The Co§§ occupant capacity. |
-
     | co3_occupancy | The current number of Co§§§ occupants. |
-
     | co3_capacity | The Co§§§ occupant capacity. |
-
     | ir_occupancy | The current number of I-R occupants. |
-
     | ir_capacity | The I-R occupant capacity. |
-
     | id_occupancy | The current number of I-D occupants. |
-
     | id_capacity | The I-D occupant capacity. |
-
     | im_occupancy | The current number of I-M occupants. |
-
     | im_capacity | The I-M occupant capacity. |
-
     | iht_occupancy | The current number of I-HT occupants. |
-
     | iht_capacity | The I-HT occupant capacity. |
-
 
     Multiple \*\_occupancy and \*\_capacity variables can be combined in a LTEXT query to show the filled/available occupancy. e.g. #cs1_occupancy#/#cs1_capacity#.
 
-
     **Advanced Network Query Tool Tip**
-
 
     A custom advanced/debug query tool tip is provided for the transportation networks, excluding power lines and pipes.
 
-
     This tool tip is accessed by holding *Control + Alt + Shift* when hovering over a network piece.
-
 
     **SC4QueryUIHooks INI File**
 
+    This file contains the following options.
 
-    This file contains one setting that controls whether the query sounds are played when clicking on an item to open the query dialog or copy the lot. The occupant query sound properties affected by
-    this option are SFX:Query Sound, SFX:Query Sound Abandoned and SFX:Query Sound Decayed.
+    **EnableOccupantQuerySounds**
 
+    This option controls whether the query sounds are played when clicking on an item to open the query dialog or copy the lot, the default is *true*. The occupant query sound properties affected by this option are SFX:Query Sound, SFX:Query Sound Abandoned and SFX:Query Sound Decayed.
+
+    **LogBuildingPluginPath**
+
+    This option controls whether the building name and plugin file path will be written to the log file when the query dialog is opened, the default is *false*.
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4QueryUIHooks.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
-
 
     Plugin thread: https://community.simtropolis.com/forums/topic/763107-query-tool-ui-extensions-dll/
 
-
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-query-ui-hooks
 
-
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-
 
     Thanks to the few people who have donated to me.
   images:
@@ -1642,17 +1304,17 @@ null-45/query-tool-ui-extensions:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/CustomNetworkTooltip.jpg.2cbf9c5d0ac1069689147b7427fbeebc.jpg
   logs: SC4QueryUIHooks.log
   name: Query Tool UI Extensions DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-query-ui-hooks
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.thumb.png.ff8b2dce5ef2d377f18e5401653e1c02.png
   url: https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/
   variants:
     default:
       assets:
-        - id: github/0xC0000054/sc4-query-ui-hooks
-          exclude:
+        - exclude:
             - SC4QueryUIHooks.ini
-      lastModified: 2024-10-12T02:00:45Z
+          id: github/0xC0000054/sc4-query-ui-hooks
+      lastModified: 2024-10-28T10:35:33.000Z
+      logs: SC4QueryUIHooks.log
       options:
         - condition:
             never: true
@@ -1665,40 +1327,30 @@ null-45/query-tool-ui-extensions:
           id: QueryUIHooks.EnableOccupantQuerySounds
           label: Enable query sounds
           type: boolean
-      version: 1.6.1
+      release: 2024-11-17T16:00:57.230Z
+      version: 1.9.0
 
 null-45/region-view-census:
   authors:
     - null-45
   category: mods,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that adds a census UI that can be shown in the region view.
 
-
-    The region census panel shows the totals for each RCI group in the region. It also allows the player to export a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with statistics
-    for the individual cities. The CSV file is written to *Documents/SimCity 4/Region_View/&lt;Region Name&gt;* using UTF-8 encoding. The region census UI can be activated from the region view using
-    one of the following methods:
-
+    The region census panel shows the totals for each RCI group in the region. It also allows the player to export a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file with statistics for the individual cities. The CSV file is written to *Documents/SimCity 4/Region_View/&lt;Region Name&gt;* using UTF-8 encoding. The region census UI can be activated from the region view using one of the following methods:
 
     - Clicking the middle mouse button.
-
     - Using the *RegionCensus* cheat.
-
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4RegionCensus.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/763013-region-view-census-ui-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-region-census
   images:
@@ -1707,7 +1359,6 @@ null-45/region-view-census:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/RegionCensusMaxislandCSVCrop.jpg.b0fba40167ab5f759b221fea6277c090.jpg
   logs: SC4RegionCensus.log
   name: Region View Census
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-region-census
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.5e3008427bf9a97266514d7df919179f.png
   url: https://community.simtropolis.com/files/file/36145-region-view-census-ui-dll-plugin/
@@ -1715,59 +1366,45 @@ null-45/region-view-census:
     default:
       assets:
         - id: github/0xC0000054/sc4-region-census
-      lastModified: 2024-02-27T06:32:27Z
+      lastModified: 2024-02-27T06:32:25.000Z
+      logs: SC4RegionCensus.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.1
 
 null-45/remove-phantom-budget-items:
   authors:
     - null-45
   category: cheats,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that removes phantom items from the budget department lists.
-
 
     This DLL only removes the phantom budget entries, it does not remove the buildings, lots, or other in-game effects such as the Landmark or Park effects.
 
-
     **Using the Plugin**
-
 
     The plugin adds a *RemovePhantomBudgetItems* cheat code with the following syntax:
 
-
     *RemovePhantomBudgetItems &lt;category&gt; \[all\]*
-
 
     The *&lt;category&gt;* parameter is one of: Fire, Police, Jail, Power, Education or Health.
 
-
-    The *\[all\]* parameter is optional, it makes the plugin to clear the specified budget category instead of only entries associated with plugin(s) that no longer exist. The *\[all\]* parameter is
-    intended to be used if phantom budget items remain in the budget menu after demolishing all existing buildings in the specified category.
-
+    The *\[all\]* parameter is optional, it makes the plugin to clear the specified budget category instead of only entries associated with plugin(s) that no longer exist. The *\[all\]* parameter is intended to be used if phantom budget items remain in the budget menu after demolishing all existing buildings in the specified category.
 
     All commands are case-insensitive.
 
-
     **Troubleshooting**
-
 
     The plugin should write a *SC4RemovePhantomBudgetItems.log* file in the same folder as the plugin.
 
-
     The log contains status information for the most recent run of the plugin.
-
 
     **Source Code and Support**
 
-
     Plugin thread: https://community.simtropolis.com/forums/topic/763391-remove-phantom-budget-items-dll-plugin/
-
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-remove-phantom-budget-items
 
-
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-
 
     Thanks to the few people who have donated to me.
   images:
@@ -1776,7 +1413,6 @@ null-45/remove-phantom-budget-items:
     - https://www.simtropolis.com/objects/screens/monthly_2024_09/After.png.cffb513db4bb06db0f770e89cfed4d42.png
   logs: SC4RemovePhantomBudgetItems.log
   name: Remove Phantom Budget Items
-  release: 2024-10-17T06:31:16.997Z
   repository: https://github.com/0xC0000054/sc4-remove-phantom-budget-items
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/STEXIcon.thumb.png.24e975cc9a342b940ceada0948c0dba2.png
   url: https://community.simtropolis.com/files/file/36437-remove-phantom-budget-items-dll-plugin/
@@ -1784,49 +1420,39 @@ null-45/remove-phantom-budget-items:
     default:
       assets:
         - id: github/0xC0000054/sc4-remove-phantom-budget-items
-      lastModified: 2024-09-07T05:11:45Z
+      lastModified: 2024-09-07T05:11:45.000Z
+      logs: SC4RemovePhantomBudgetItems.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.0
 
 null-45/resource-loading-hooks:
   authors:
     - null-45
   category: dependencies,dll
-  description: >-
+  description: |-
     A DLL Plugin for SimCity 4 that allows other DLLs to modify resources as the game loads them.
 
-
-    This file is a dependency that is used by other DLL plugins. The instructions for using the DLL as a dependency are in the [GitHub
-    Readme](https://github.com/0xC0000054/sc4-resource-loading-hooks#using-the-code).
-
+    This file is a dependency that is used by other DLL plugins. The instructions for using the DLL as a dependency are in the [GitHub Readme](https://github.com/0xC0000054/sc4-resource-loading-hooks#using-the-code).
 
     **Troubleshooting**
 
-
     The plugin should write a *SC4ResourceLoadingHooks.log* file in the same folder as the plugin.
-
 
     The log contains status information for the most recent run of the plugin.
 
-
     **Source Code and Support**
 
-
-    Plugin thread:
-    [https://community.simtropolis.com/forums/topic/763167-resource-loading-hooks-dll-for-SimCity-4/](https://community.simtropolis.com/forums/topic/763167-resource-loading-hooks-dll-for-simcity-4/)
-
+    Plugin thread: [https://community.simtropolis.com/forums/topic/763167-resource-loading-hooks-dll-for-SimCity-4/](https://community.simtropolis.com/forums/topic/763167-resource-loading-hooks-dll-for-simcity-4/)
 
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-resource-loading-hooks
 
-
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
-
 
     Thanks to the few people who have donated to me.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.png.d211e9d6dd6920f2b1ae48a86e26964c.png
   logs: SC4ResourceLoadingHooks.log
   name: Resource Loading Hooks DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-resource-loading-hooks
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.thumb.png.d6b99a97951fcfd4e8128d917e2ea7be.png
   url: https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/
@@ -1834,7 +1460,9 @@ null-45/resource-loading-hooks:
     default:
       assets:
         - id: github/0xC0000054/sc4-resource-loading-hooks
-      lastModified: 2024-06-26T13:34:16Z
+      lastModified: 2024-06-26T13:34:16.000Z
+      logs: SC4ResourceLoadingHooks.log
+      release: 2024-11-17T16:00:57.230Z
       version: 1.0.1
 
 null-45/startup-performance-optimization:
@@ -1885,7 +1513,6 @@ null-45/startup-performance-optimization:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.png.9174478a28a769493ac7948ea0b7f5b1.png
   logs: SC4DBPFLoading.log
   name: Startup Performance Optimization DLL
-  release: 2024-10-16T10:40:02.216Z
   repository: https://github.com/0xC0000054/sc4-dbpf-loading
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/STEXIcon.thumb.png.46691a9dc1db4b041b41d00b1180e880.png
   url: https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/
@@ -1893,5 +1520,7 @@ null-45/startup-performance-optimization:
     default:
       assets:
         - id: github/0xC0000054/sc4-dbpf-loading
-      lastModified: 2024-06-17T00:51:07Z
-      version: 1.0.3
+      lastModified: 2024-10-19T00:03:24.000Z
+      logs: SC4DBPFLoading.log
+      release: 2024-11-17T16:00:57.230Z
+      version: 1.0.4
