@@ -1,6 +1,4 @@
 girafe/carpack:
-  authors:
-    - girafe
   category: props
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
@@ -14,14 +12,14 @@ girafe/carpack:
             - Cleanitol_BSC-VIP Girafe Carpack*.txt
             - Cleanitol_BSC-VIP Girafe Urbanpack*.txt
           docs:
-            - path: BSC-VIP Girafe *pack*.jpg
-              as: Indexes/*
-            - path: Grfe_Props_Pack_*pack*.jpg
-              as: Indexes/*
-            - path: ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
-              as: Images/Banniere_VIP.jpg
-            - path: ~Documents/BSC_Readmes/girafe/Images/*pack*.jpg
-              as: Images/*
+            - as: Indexes/*
+              path: BSC-VIP Girafe *pack*.jpg
+            - as: Indexes/*
+              path: Grfe_Props_Pack_*pack*.jpg
+            - as: Images/Banniere_VIP.jpg
+              path: ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
+            - as: Images/*
+              path: ~Documents/BSC_Readmes/girafe/Images/*pack*.jpg
             - ~Documents/BSC_Readmes/girafe/*pack*.html
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
@@ -32,8 +30,6 @@ girafe/carpack:
       version: 2.0.0
 
 girafe/hedges:
-  authors:
-    - girafe
   category: props
   images:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png

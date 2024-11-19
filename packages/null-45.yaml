@@ -1,6 +1,4 @@
 null-45/auto-save:
-  authors:
-    - null-45
   category: mods,dll
   description: |-
     A DLL Plugin for SimCity 4 that automatically saves a city at user-specified intervals.
@@ -80,8 +78,6 @@ null-45/auto-save:
       version: 1.2.0
 
 null-45/city-date-sync:
-  authors:
-    - null-45
   category: gameplay,dll
   description: |-
     A DLL Plugin for SimCity 4 that synchronizes the city dates in a region.
@@ -126,8 +122,6 @@ null-45/city-date-sync:
       version: 1.0.3
 
 null-45/city-lottery-ordinance:
-  authors:
-    - null-45
   category: gameplay,ordinances,dll
   description: |-
     A DLL Plugin for SimCity 4 that adds a city lottery to the game.
@@ -255,8 +249,6 @@ null-45/city-lottery-ordinance:
       version: 1.0.0
 
 null-45/cpu-options:
-  authors:
-    - null-45
   category: mods,dll
   description: |-
     A DLL Plugin for SimCity 4 that configures the CPU core count and priority.
@@ -329,8 +321,6 @@ null-45/cpu-options:
       version: 1.0.1
 
 null-45/custom-budget-departments:
-  authors:
-    - null-45
   category: dependencies,dll
   description: |-
     A DLL plugin for SimCity 4 that allows new budget departments to be added to the game using a building's exemplar.
@@ -376,8 +366,6 @@ null-45/custom-budget-departments:
       version: 1.0.1
 
 null-45/disable-cheats:
-  authors:
-    - null-45
   category: cheats,dll
   description: |-
     A DLL plugin that allows the player to choose which cheats are enabled in-game.
@@ -393,7 +381,7 @@ null-45/disable-cheats:
     The plugin thread is: https://community.simtropolis.com/forums/topic/762689-sc4disablecheats
 
     The source code and bug tracker is located on [GitHub](https://github.com/0xC0000054/sc4-disable-cheats).
-  disabled: true # TODO: Find a way to generate DisabledCheats.txt
+  disabled: true
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_11/SC4DisableCheatsSTEXIcon.png.d11fd73a43fe32db4415725633980f7d.png
   logs: SC4DisableCheats.log
@@ -412,8 +400,6 @@ null-45/disable-cheats:
       version: 1.0.0
 
 null-45/disable-demolition-animation:
-  authors:
-    - null-45
   category: graphics,dll
   description: |-
     A DLL Plugin for SimCity 4 that disables the demolition animation.
@@ -449,8 +435,6 @@ null-45/disable-demolition-animation:
       version: 1.0.0
 
 null-45/disable-lot-plop-smoke:
-  authors:
-    - null-45
   category: graphics,dll
   description: |-
     A DLL Plugin for SimCity 4 that disables the smoke that is shown after plopping a lot.
@@ -488,8 +472,6 @@ null-45/disable-lot-plop-smoke:
       version: 1.0.0
 
 null-45/disable-network-construction-sounds:
-  authors:
-    - null-45
   category: mods,dll
   description: |-
     A DLL Plugin for SimCity 4 that disables the sounds that are played during the network construction animation.
@@ -529,8 +511,6 @@ null-45/disable-network-construction-sounds:
       version: 1.0.0
 
 null-45/graphics-options:
-  authors:
-    - null-45
   category: graphics,dll
   description: |-
     A DLL Plugin for SimCity 4 that sets the game's rendering mode and resolution options.
@@ -662,8 +642,6 @@ null-45/graphics-options:
       version: 1.2.0
 
 null-45/growify:
-  authors:
-    - null-45
   category: cheats,dll
   description: |-
     A DLL Plugin for SimCity 4 that adds a cheat code to convert plopped buildings to a growable RCI zone type.
@@ -730,8 +708,6 @@ null-45/growify:
       version: 1.0.1
 
 null-45/humane-society-ordinance:
-  authors:
-    - null-45
   category: ordinances,dll
   description: |-
     A DLL Plugin for SimCity 4 that adds a Humane Society ordinance to the game.
@@ -794,8 +770,6 @@ null-45/humane-society-ordinance:
       version: 1.0.1
 
 null-45/legalize-gambling-ordinance:
-  authors:
-    - null-45
   category: ordinances,dll
   description: |-
     A DLL Plugin for SimCity 4 that updates the built-in Legalize Gambling ordinance to have its income based on the city's residential population.
@@ -897,8 +871,6 @@ null-45/legalize-gambling-ordinance:
       version: 1.0.0
 
 null-45/more-building-styles:
-  authors:
-    - null-45
   category: dependencies,dll
   description: |-
     A DLL Plugin for SimCity 4 that allows the game to use more than 4 building styles.
@@ -1058,7 +1030,7 @@ null-45/more-building-styles:
       assets:
         - id: github/0xC0000054/sc4-more-building-styles
           include:
-            - BuildingStyles.ini # TODO: Configuration
+            - BuildingStyles.ini
             - SC4MoreBuildingStyles.dll
       lastModified: 2024-11-15T01:04:35.000Z
       logs: SC4MoreBuildingStyles.log
@@ -1091,8 +1063,6 @@ null-45/more-building-styles:
       version: 3.2.0
 
 null-45/more-demand-info:
-  authors:
-    - null-45
   category: dependencies,dll
   description: |-
     A DLL plugin for SimCity 4 that provides modders with more RCI demand info.
@@ -1187,8 +1157,6 @@ null-45/more-demand-info:
       version: 1.2.0
 
 null-45/no-kickout-lower-wealth:
-  authors:
-    - null-45
   category: gameplay,dll
   description: |-
     A DLL version of [Cori's No Kickout Lower Wealth Mod (NKO)](https://community.simtropolis.com/files/file/34027-coris-no-kickout-lower-wealth-mod/) mod.
@@ -1228,8 +1196,6 @@ null-45/no-kickout-lower-wealth:
       version: 1.0.0
 
 null-45/query-tool-ui-extensions:
-  authors:
-    - null-45
   category: gameplay,dll
   description: |-
     A DLL plugin that adds various enhancements to the building query tool and query dialog.
@@ -1347,8 +1313,6 @@ null-45/query-tool-ui-extensions:
       version: 1.9.0
 
 null-45/region-view-census:
-  authors:
-    - null-45
   category: mods,dll
   description: |-
     A DLL Plugin for SimCity 4 that adds a census UI that can be shown in the region view.
@@ -1389,8 +1353,6 @@ null-45/region-view-census:
       version: 1.0.1
 
 null-45/remove-phantom-budget-items:
-  authors:
-    - null-45
   category: cheats,dll
   description: |-
     A DLL Plugin for SimCity 4 that removes phantom items from the budget department lists.
@@ -1444,8 +1406,6 @@ null-45/remove-phantom-budget-items:
       version: 1.0.0
 
 null-45/resource-loading-hooks:
-  authors:
-    - null-45
   category: dependencies,dll
   description: |-
     A DLL Plugin for SimCity 4 that allows other DLLs to modify resources as the game loads them.
@@ -1485,8 +1445,6 @@ null-45/resource-loading-hooks:
       version: 1.0.1
 
 null-45/startup-performance-optimization:
-  authors:
-    - null-45
   category: mods,dll
   description: |-
     Optimizes the DBPF plugin loading that the game performs on startup.

@@ -1,6 +1,4 @@
 maxis/63-building:
-  authors:
-    - maxis
   category: landmarks
   name: 63 Building
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -68,8 +66,6 @@ maxis/63-building:
       version: 1.0.0
 
 maxis/adler-planetarium:
-  authors:
-    - maxis
   category: landmarks
   name: Adler Planetarium (Chicago)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -138,8 +134,6 @@ maxis/adler-planetarium:
       version: 1.0.0
 
 maxis/air-force-base:
-  authors:
-    - maxis
   category: landmarks,rewards
   name: Air Force Base
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -157,8 +151,6 @@ maxis/air-force-base:
       version: 1.0.0
 
 maxis/arc-de-triomphe:
-  authors:
-    - maxis
   category: landmarks
   name: Arc de Triomphe (Paris)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -227,11 +219,9 @@ maxis/arc-de-triomphe:
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
-      "on": enable
+      'on': enable
 
 maxis/brandenburg-gate:
-  authors:
-    - maxis
   category: landmarks
   name: Brandenburg Gate (Berlin)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -302,8 +292,6 @@ maxis/brandenburg-gate:
       version: 1.0.0
 
 maxis/capitol-records:
-  authors:
-    - maxis
   category: landmarks
   name: Capitol Records
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -373,8 +361,6 @@ maxis/capitol-records:
       version: 1.0.0
 
 maxis/day-of-peace:
-  authors:
-    - maxis
   category: props
   name: International Day of Peace Prop
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -387,8 +373,6 @@ maxis/day-of-peace:
       version: 1.0.0
 
 maxis/globe-arena:
-  authors:
-    - maxis
   category: landmarks
   name: Globe Arena (Stockholm)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -459,8 +443,6 @@ maxis/globe-arena:
       version: 1.0.0
 
 maxis/grand-central-station:
-  authors:
-    - maxis
   category: landmarks
   name: Grand Central Station (New York)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -529,8 +511,6 @@ maxis/grand-central-station:
       version: 1.0.0
 
 maxis/grutze-industries:
-  authors:
-    - maxis
   category: landmarks
   name: Grutze Industries
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -566,8 +546,6 @@ maxis/grutze-industries:
       version: 1.0.0
 
 maxis/grutzehaus:
-  authors:
-    - maxis
   category: landmarks
   name: Grutzehaus
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -603,8 +581,6 @@ maxis/grutzehaus:
       version: 1.0.0
 
 maxis/kunjungjon:
-  authors:
-    - maxis
   category: landmarks
   name: Kunjungjon
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -673,8 +649,6 @@ maxis/kunjungjon:
       version: 1.0.0
 
 maxis/longfellow-castle:
-  authors:
-    - maxis
   category: landmarks
   name: Longfellow Castle (Cambridge)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -689,7 +663,7 @@ maxis/longfellow-castle:
         - bulldoze: 100
           category: landmarks
           cost: 110000
-          description: "Location: Long ago and far away"
+          description: 'Location: Long ago and far away'
           filename: Longfellow Castle/CastleSet.dat
           flamability: 10
           garbage: 15
@@ -709,7 +683,7 @@ maxis/longfellow-castle:
         - bulldoze: 100
           category: landmarks
           cost: 110000
-          description: "Location: Long ago and far away"
+          description: 'Location: Long ago and far away'
           filename: Longfellow Castle/Longfellow Castle_4d50ba18.SC4Lot
           flamability: 10
           garbage: 15
@@ -730,8 +704,6 @@ maxis/longfellow-castle:
       version: 1.0.0
 
 maxis/luckys-hang-ten:
-  authors:
-    - maxis
   category: landmarks
   name: Lucky's Hang Ten
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -763,7 +735,6 @@ maxis/luckys-hang-ten:
 
 maxis/maxis-buildings-as-props:
   authors:
-    - maxis
     - ralphaelninja
     - t-wrecks
   category: props
@@ -795,8 +766,6 @@ maxis/maxis-buildings-as-props:
       version: 2.1.0
 
 maxis/mayflower-port:
-  authors:
-    - maxis
   category: landmarks
   name: Mayflower Port
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -827,8 +796,6 @@ maxis/mayflower-port:
       version: 1.0.0
 
 maxis/namdaemun:
-  authors:
-    - maxis
   category: landmarks
   name: Namdaemun (Seoul)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -893,8 +860,6 @@ maxis/namdaemun:
       version: 1.0.0
 
 maxis/parthenon:
-  authors:
-    - maxis
   category: landmarks
   name: Parthenon (Athens)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -961,8 +926,6 @@ maxis/parthenon:
       version: 1.0.0
 
 maxis/rockefeller-center:
-  authors:
-    - maxis
   category: landmarks
   name: Rockefeller Center (New York)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1032,8 +995,6 @@ maxis/rockefeller-center:
       version: 1.0.0
 
 maxis/sagrada-familia:
-  authors:
-    - maxis
   category: landmarks
   name: Sagrada Familia (Barcelona)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1100,8 +1061,6 @@ maxis/sagrada-familia:
       version: 1.0.0
 
 maxis/san-francisco-city-hall:
-  authors:
-    - maxis
   category: landmarks
   name: San Francisco City Hall
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1170,8 +1129,6 @@ maxis/san-francisco-city-hall:
       version: 1.0.0
 
 maxis/schloss-schoenbrun:
-  authors:
-    - maxis
   category: landmarks
   name: Schönbrunn Palace (Vienna)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1240,8 +1197,6 @@ maxis/schloss-schoenbrun:
       version: 1.0.0
 
 maxis/seoul-city-hall:
-  authors:
-    - maxis
   category: landmarks
   name: Seoul City Hall
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1312,8 +1267,6 @@ maxis/seoul-city-hall:
       version: 1.0.0
 
 maxis/seoul-soccer-stadium:
-  authors:
-    - maxis
   category: landmarks
   name: Seoul World Cup Stadium
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1384,8 +1337,6 @@ maxis/seoul-soccer-stadium:
       version: 1.0.0
 
 maxis/shorty-burger:
-  authors:
-    - maxis
   category: landmarks
   name: Shorty Burger
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1416,8 +1367,6 @@ maxis/shorty-burger:
       version: 1.0.0
 
 maxis/sobchak-lanes:
-  authors:
-    - maxis
   category: landmarks
   name: Sobchak Lanes
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1449,8 +1398,6 @@ maxis/sobchak-lanes:
       version: 1.0.0
 
 maxis/stone-house:
-  authors:
-    - maxis
   category: landmarks
   name: Ian's House of Stone
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1487,8 +1434,6 @@ maxis/stone-house:
       version: 1.0.0
 
 maxis/stonehenge:
-  authors:
-    - maxis
   category: landmarks
   name: Stonehenge
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1551,8 +1496,6 @@ maxis/stonehenge:
       version: 1.0.0
 
 maxis/taipei-art-museum:
-  authors:
-    - maxis
   category: landmarks
   name: Taipei Fine Arts Museum
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1623,8 +1566,6 @@ maxis/taipei-art-museum:
       version: 1.0.0
 
 maxis/temple-of-grutz:
-  authors:
-    - maxis
   category: landmarks
   name: Temple of Grutz
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1659,8 +1600,6 @@ maxis/temple-of-grutz:
       version: 1.0.0
 
 maxis/the-living-mall:
-  authors:
-    - maxis
   category: landmarks
   name: The Living Mall (Taipei)
   url: https://community.simtropolis.com/sc4-maxis-files
@@ -1729,6 +1668,3 @@ maxis/the-living-mall:
       name: With jobs
       release: 2024-11-18T12:56:20.153Z
       version: 1.0.0
-  # warnings:
-  #   - id: inconsistentVariantLotIds
-  #     "on": variant

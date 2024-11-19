@@ -1,6 +1,4 @@
 toroca/5x5-and-6x6-malls:
-  authors:
-    - toroca
   category: cs$$,cs$$$
   description: |-
     This collection of ten lots allows every shopping mall in the game to appear on 5x5 and 6x6 lots. Previously, no mall in the game could appear on a 5x5 lot, and only Andrews Fashion Center and Lee Shopping Mall would appear on 6x6 lots.
@@ -93,8 +91,6 @@ toroca/5x5-and-6x6-malls:
       version: 1.0.0
 
 toroca/commercial-services-doubler:
-  authors:
-    - toroca
   category: gameplay,cheats
   description: |-
     Many users of my [Industry Quadrupler](https://community.simtropolis.com/files/file/21293-industry-quadrupler/) have requested a similar mod for Commercial Services. I originally created this mod almost seven years ago , but apparently never uploaded it here at Simtropolis, so I'm correcting that oversight now.
@@ -168,8 +164,6 @@ toroca/commercial-services-doubler:
       version: 2.0.0
 
 toroca/functional-landmarks:
-  authors:
-    - toroca
   category: gameplay,overrides
   description: |-
     This mod allows you to add jobs to any or all of the Maxis-Made Landmarks, at your own discretion. Your sims can now work in buildings like the Empire State Building, Living Mall, or US Capitol. The buildings still function just like they used to, the only change is the addition of jobs.
@@ -196,7 +190,7 @@ toroca/functional-landmarks:
       assets:
         - id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
-            - "{{landmarks}}.dat"
+            - '{{landmarks}}.dat'
       lastModified: 2004-03-16T00:00:00.000Z
       options:
         - choices:
@@ -288,13 +282,11 @@ toroca/functional-landmarks:
       version: 1.0.0
   warnings:
     - message: This package overrides several Maxis landmarks. Before enabling it, you must bulldoze all corresponding landmarks from your regions.
-      "on": enable
+      'on': enable
     - message: This package overrides several Maxis landmarks. Before disabling it, you must bulldoze all corresponding landmarks from your regions.
-      "on": disable
+      'on': disable
 
 toroca/industry-quadrupler:
-  authors:
-    - toroca
   category: gameplay,cheats
   description: |-
     This mod was created to make the industrial buildings more realistic in the game. As everyone knows, factories in fact employ hundreds or thousands of people, but in SimCity 4 there is hardly a single operation that offers more than 100 jobs. The number of jobs is quadrupled with the installation of this mod.
@@ -323,8 +315,6 @@ toroca/industry-quadrupler:
       version: 2.1.0
 
 toroca/no-radiation-rewards:
-  authors:
-    - toroca
   category: gameplay,overrides
   description: This mod allows the user to remove radiation pollution from any of the five rewards that produce it. See the included Readme for further details.
   name: No Radiation Rewards
@@ -360,8 +350,6 @@ toroca/no-radiation-rewards:
       version: 1.0.0
 
 toroca/opera-house-fix:
-  authors:
-    - toroca
   category: gameplay,overrides
   description: This mod fixes the Opera House, which has a capacity MUCH too lowfor large cities in SimCity 4. Currently, the Opera House can go overcapacity and inhibit city growth, and you'd never even know it because the Opera House doesn't report its usage statistics. This mod changes that. Please see the readme for full details, including installation instructions.
   name: Opera House Fix
@@ -375,13 +363,11 @@ toroca/opera-house-fix:
       version: 1.0.0
   warnings:
     - message: This package overrides the Maxis Opera House. Before enabling it, you must bulldoze all Opera Houses from your regions.
-      "on": enable
+      'on': enable
     - message: This package overrides the Maxis Opera House. Before disabling it, you must bulldoze all Opera Houses from your regions.
-      "on": disable
+      'on': disable
 
 toroca/toll-booth-booster:
-  authors:
-    - toroca
   category: gameplay,transport,overrides
   description: This mod increases the capacity of toll booths, and there are several versions to choose from to allow users to have higher toll charges if they wish. See the included Readme for further details on version selection.
   name: Toll Booth Booster

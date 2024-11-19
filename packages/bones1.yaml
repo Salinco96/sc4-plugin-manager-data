@@ -1,6 +1,4 @@
 bones1/industry-doubler:
-  authors:
-    - bones1
   category: gameplay,overrides
   description: |-
     This mod doubles the number of jobs provided by the in-game industry buildings. There are 4 files you can optionally install; they double the jobs for each industry category (farming, dirty, manufacturing, and high-tech). So, you don't have to double all the industry categories if you don't wish to do so; you can pick & choose.
@@ -30,10 +28,10 @@ bones1/industry-doubler:
           include:
             - condition:
                 includePollution: false
-              path: "{{categories}}-doubler.dat"
+              path: '{{categories}}-doubler.dat'
             - condition:
                 includePollution: true
-              path: "{{categories}}-doubler_includingPollution.dat"
+              path: '{{categories}}-doubler_includingPollution.dat'
       lastModified: 2006-04-25T09:22:06.000Z
       options:
         - choices:
@@ -60,8 +58,6 @@ bones1/industry-doubler:
       version: 2.0.0
 
 bones1/less-abandonment:
-  authors:
-    - bones1
   category: gameplay
   description: |-
     The intent of this mod is to reduce the amount of abandonment and dilapidation of high-wealth buildings. It does this in a non-cheating natural way, to prevent high-wealth buildings from growing in areas that will likely cause them to abandon in the near future. There are other mods to prevent dilapidation, but they do it by forcibly preventing dilapidation in buildings that really should dilapidate. This mod stops those buildings from growing in the first place.
@@ -121,8 +117,6 @@ bones1/less-abandonment:
       version: 1.0.0
 
 bones1/more-riots:
-  authors:
-    - bones1
   category: gameplay
   description: |-
     Some people have played SimCity 4 for quite awhile, and never seen a riot. That's not surprising, since you normally have to have a very unhappy city to create a riot.

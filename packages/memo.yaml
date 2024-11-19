@@ -1,6 +1,4 @@
 memo/3d-camera:
-  authors:
-    - memo
   category: graphics,dll
   description: |-
     This DLL plugin activates two cheat codes that allow you to freely change the camera angles of the game. This allows you to use SimCity 4's 3D engine to its full potential and experience your cities from completely new angles. Just for fun.
@@ -53,8 +51,6 @@ memo/3d-camera:
       version: 1.0.0
 
 memo/region-thumbnail-fix:
-  authors:
-    - memo
   category: graphics,bugfixes,dll
   description: |-
     This DLL plugin fixes the rendering bug of a city's region view thumbnail that affects large screen sizes.
@@ -85,7 +81,6 @@ memo/region-thumbnail-fix:
 
 memo/submenus-dll:
   authors:
-    - memo
     - null-45
     - panda
   category: gameplay,dll
@@ -168,8 +163,6 @@ memo/submenus-dll:
       version: 1.1.4
 
 memo/transparent-texture-fix:
-  authors:
-    - memo
   category: graphics,bugfixes,dll
   description: |-
     This DLL plugin fixes the underground view bug ([water bug](https://community.simtropolis.com/forums/topic/760847-coris-partial-water-bug-fix-ready-for-testing/)) that occurs on lots using overlay textures without a base texture, after exiting the underground view.
