@@ -147,6 +147,14 @@
   name: "SubmenuKey: Networks: Highway Ramps Menu"
   type: UInt32
 
+"0x0062e78a":
+  desc: List of exemplar files this patch applies to (for use with Submenu DLL)
+  display: tgi
+  name: Exemplar Patch Targets
+  repeat: true
+  size: 2
+  type: UInt32
+
 "0x07af514b":
   desc: Specifies a Group ID registered with the resource manager
   name: ResMan Registered Groups
@@ -6229,6 +6237,71 @@
   size: 1
   type: UInt32
 
+"0x8a2602ca":
+  choices:
+    - label: Flora
+      value: 0x4a22ea06
+    - label: Residential
+      value: 0x29920899
+    - label: Commercial
+      value: 0xa998af42
+    - label: Industrial
+      value: 0xc998af00
+    - label: Roads
+      value: 0x6999bf56
+    - label: Highway
+      value: 0x00000031
+    - label: Rail
+      value: 0x00000029
+    - label: Misc Transit
+      value: 0x299237bf
+    - label: Airports
+      value: 0xe99234b3
+    - label: Water Transit
+      value: 0xa99234a6
+    - label: Power
+      value: 0x00000035
+    - label: Water
+      value: 0x00000039
+    - label: Garbage
+      value: 0x00000040
+    - label: Police
+      value: 0x00000037
+    - label: Fire
+      value: 0x00000038
+    - label: Education
+      value: 0x00000042
+    - label: Health
+      value: 0x89dd5405
+    - label: Landmarks
+      value: 0x09930709
+    - label: Rewards
+      value: 0x00000034
+    - label: Parks
+      value: 0x00000003
+  desc: Button ID that opens the submenu this item belongs to (for use with Submenu DLL)
+  name: Item Submenu Parent ID
+  size: 1
+  type: UInt32
+
+"0x8a2602cc":
+  choices:
+    - label: Disabled
+      value: 0x00000000
+    - label: Submenu Button
+      value: 0x00000001
+    - label: Network Item in Submenu
+      value: 0x00000002
+    - label: Flora Item in Submenu
+      value: 0x00000004
+    - label: Reward unhidden in Submenu
+      value: 0x00000008
+  desc: Classifier that determines the function of this item (for use with Submenu DLL)
+  name: Item Button Class
+  size: 1
+  strict: true
+  type: UInt32
+
 "0x8a270fc3":
   desc: List of instance IDs for exemplars containing the properties for each distinct airport/seaport type
   name: Port Type Exemplar IDs
@@ -7249,6 +7322,155 @@
   name: SFX - Query Sound
   size: 1
   type: UInt32
+
+"0xaa1dd399":
+  choices:
+    - label: Flora
+      value: 0x4a22ea06
+    - label: Residential
+      value: 0x29920899
+    - label: Residential > R$
+      value: 0x93dadfe9
+    - label: Residential > R$$
+      value: 0x984e5034
+    - label: Residential > R$$$
+      value: 0x9f83f133
+    - label: Commercial
+      value: 0xa998af42
+    - label: Commercial > CS$
+      value: 0x11bf1ca9
+    - label: Commercial > CS$$
+      value: 0x24c43253
+    - label: Commercial > CS$$$
+      value: 0x9bdefe2b
+    - label: Commercial > CO$$
+      value: 0xa7ff7cf0
+    - label: Commercial > CO$$$
+      value: 0xe27b7ef6
+    - label: Industrial
+      value: 0xc998af00
+    - label: Industrial > Agriculture
+      value: 0x220b7d8
+    - label: Industrial > Dirty
+      value: 0x62d82695
+    - label: Industrial > Manufacture
+      value: 0x68b3e5fd
+    - label: Industrial > High-Tech
+      value: 0x954e20fe
+    - label: Roads
+      value: 0x6999bf56
+    - label: Highway
+      value: 0x00000031
+    - label: Highway > Signage
+      value: 0x83e040bb
+    - label: Rail
+      value: 0x00000029
+    - label: Rail > Passenger Stations
+      value: 0x35380c75
+    - label: Rail > Freight Stations
+      value: 0x3557f0a1
+    - label: Rail > Yards
+      value: 0x39ba25c7
+    - label: Rail > Hybrid Railway
+      value: 0x2b294cc2
+    - label: Rail > Monorail
+      value: 0x3a1d9854
+    - label: Misc Transit
+      value: 0x299237bf
+    - label: Misc Transit > Bus
+      value: 0x1fdde184
+    - label: Misc Transit > Tram
+      value: 0x26b51b28
+    - label: Misc Transit > Elevated Rail
+      value: 0x244f77e1
+    - label: Misc Transit > Subway
+      value: 0x231a97d3
+    - label: Misc Transit > Multi-modal Stations
+      value: 0x322c7959
+    - label: Misc Transit > Parking
+      value: 0x217b6c35
+    - label: Water Transit > Seaports & Ferry Terminals
+      value: 0x07047b22
+    - label: Airports
+      value: 0xe99234b3
+    - label: Water Transit
+      value: 0xa99234a6
+    - label: Water Transit > Canals
+      value: 0x03c6629c
+    - label: Water Transit > Seawalls
+      value: 0x1cd18678
+    - label: Water Transit > Waterfront
+      value: 0x84d42cd6
+    - label: Power
+      value: 0x00000035
+    - label: Power > Dirty Energy
+      value: 0x4b465151
+    - label: Power > Clean Energy
+      value: 0xcde0316b
+    - label: Power > Misc Utilities
+      value: 0xd013f32d
+    - label: Water
+      value: 0x00000039
+    - label: Garbage
+      value: 0x00000040
+    - label: Police
+      value: 0x00000037
+    - label: Police > Small
+      value: 0x65d88585
+    - label: Police > Large
+      value: 0x7d6dc8bc
+    - label: Police > Deluxe
+      value: 0x8157ca0e
+    - label: Police > Military
+      value: 0x8ba49621
+    - label: Fire
+      value: 0x00000038
+    - label: Education
+      value: 0x00000042
+    - label: Education > Elementary Schools
+      value: 0x9fe5c428
+    - label: Education > High Schools & Private Schools
+      value: 0xa08063d0
+    - label: Education > Colleges & Universities
+      value: 0xac706063
+    - label: Education > Libraries & Museums
+      value: 0xaedd9faa
+    - label: Health
+      value: 0x89dd5405
+    - label: Health > Small
+      value: 0xb1f7ac5b
+    - label: Health > Medium
+      value: 0xb7b594d6
+    - label: Health > Large
+      value: 0xbc251b69
+    - label: Landmarks
+      value: 0x09930709
+    - label: Landmarks > Government
+      value: 0x9faf7a3b
+    - label: Landmarks > Religion
+      value: 0x26eb3057
+    - label: Landmarks > Entertainment
+      value: 0xbe9fda0c
+    - label: Rewards
+      value: 0x00000034
+    - label: Parks
+      value: 0x00000003
+    - label: Parks > Green Spaces
+      value: 0xbf776d40
+    - label: Parks > Plazas
+      value: 0xeb75882c
+    - label: Parks > Sports Grounds
+      value: 0xce21dbeb
+    - label: Parks > Paths & Modular Parks
+      value: 0xdeffd960
+    - label: Parks > Embankments & Retaining Walls
+      value: 0xbb531946
+    - label: Parks > Fillers
+      value: 0xf034265c
+  desc: Button IDs of the submenus this building appears in (for use with Submenu DLL)
+  name: Building Submenus
+  type: UInt32
+  unique: true
 
 "0xaa1f8ab7":
   desc: Cost per unit of garbage sent to landfill, incinerator or w2e

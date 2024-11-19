@@ -1,0 +1,55 @@
+girafe/carpack:
+  authors:
+    - girafe
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC VIP Girafe Carpack / Urbanpack
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC-VIP Girafe Carpack*.txt
+            - Cleanitol_BSC-VIP Girafe Urbanpack*.txt
+          docs:
+            - path: BSC-VIP Girafe *pack*.jpg
+              as: Indexes/*
+            - path: Grfe_Props_Pack_*pack*.jpg
+              as: Indexes/*
+            - path: ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
+              as: Images/Banniere_VIP.jpg
+            - path: ~Documents/BSC_Readmes/girafe/Images/*pack*.jpg
+              as: Images/*
+            - ~Documents/BSC_Readmes/girafe/*pack*.html
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC VIP Girafe Carpack*
+            - BSC VIP Girafe Urbanpack*
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 2.0.0
+
+girafe/hedges:
+  authors:
+    - girafe
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC VIP Girafe LE Hedges
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_Grfe_Props_Pack_LE_Hedges.txt
+          docs:
+            - Grfe_Props_Pack_LE_Hedges_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - Grfe_Props_Pack_LE_Hedges.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 1.0.0

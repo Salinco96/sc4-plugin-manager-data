@@ -1,0 +1,758 @@
+bsc/common-dependencies:
+  authors:
+    - bsc
+  category: dependencies
+  dependencies:
+    - bsc/essentials
+    - bsc/misc-props-vol01
+    - bsc/misc-props-vol02
+    - bsc/misc-props-vol03
+    - bsc/snm-props-vol01
+    - bsc/snm-props-vol02
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - bsc/w2w-props-vol01
+    - caliban/mega-props-vol01
+    - callagrafx/mega-props-vol01
+    - callagrafx/ships-vol01
+    - callagrafx/small-boats-vol01
+    - cerulean/mega-props-vol01
+    - cerulean/mega-props-vol02
+    - cerulean/mega-props-vol03
+    - cerulean/mega-props-vol04
+    - cerulean/mega-props-vol05
+    - cerulean/mega-props-vol06
+    - cerulean/mega-props-vol07
+    - cerulean/mega-props-vol08
+    - chrisadams3997/mega-props-vol01
+    - chrisadams3997/mega-props-vol02
+    - chrisadams3997/mega-props-vol03
+    - citynut/batprops-wfk-vol01
+    - citynut/mega-props-vol01
+    - citynut/mega-props-vol02
+    - citynut/mega-props-vol03
+    - citynut/mega-props-vol04
+    - citynut/mega-props-vol05
+    - cobb32118/mega-props-vol01
+    - cobb32118/mega-props-vol02
+    - cobb32118/mega-props-vol03
+    - cobb32118/mega-props-vol04
+    - cobb32118/mega-props-vol05
+    - cobb32118/mega-props-vol06
+    - couchpotato/mega-props-vol01
+    - couchpotato/mega-props-vol02
+    - csx/mega-props-vol01
+    - csx/mega-props-vol02
+    - csx/mega-props-vol03
+    - csx/mega-props-vol04
+    - csx/mega-props-vol05
+    - csx/mega-props-vol06
+    - csx/mega-props-vol07
+    - csx/mega-props-vol08
+    - csx/mega-props-vol09
+    - cycledogg/mega-props-civics
+    - cycledogg/mega-props-houses
+    - cycledogg/mega-props-industrials
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - cycledogg/textures-vol01
+    - deadwoods/mega-props-vol01
+    - deadwoods/mega-props-vol02
+    - debussyman/mega-props-vol01
+    - debussyman/mega-props-vol02
+    - dolphin66/mega-props-vol01
+    - dolphin66/mega-props-vol02
+    - dolphin66/mega-props-vol03
+    - garyreggae/mega-props-vol01
+    - gascooker/mega-props-vol01
+    - gascooker/mega-props-vol02
+    - geoffhaw/flags
+    - girafe/carpack
+    - girafe/hedges
+    - jbsimio/mega-props-vol01
+    - jbsimio/mega-props-vol02
+    - jbsimio/mega-props-vol03
+    - jen-p/mega-props-vol01
+    - jeronij/cpt-tree-props
+    - jeronij/mega-props-vol02
+    - jeronij/mega-props-vol03
+    - jeronij/mega-props-vol04
+    - jeronij/mega-props-vol05
+    - jeronij/mega-props-vol06
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - jestarr/mega-props-vol03
+    - jestarr/mega-props-vol04
+    - jestarr/mega-props-vol05
+    - jestarr/mega-props-vol06
+    - jestarr/mega-props-vol07
+    - jestarr/mega-props-vol08
+    - jestarr/mega-props-vol09
+    - jmyers2043/common-props
+    - jmyers2043/mega-props-agriculture-vol01
+    - jmyers2043/mega-props-agriculture-vol02
+    - kevdan25/mega-props-vol01
+    - kwakelaar/mega-props-vol01
+    - kwakelaar/mega-props-vol02
+    - kwakelaar/mega-props-vol03
+    - lilith/mega-props-vol01
+    - mattb325/batprops-cottages-ornee-vol01
+    - mattb325/batprops-cottages-ornee-vol02
+    - mattb325/batprops-london-w2w-vol01
+    - mattb325/batprops-mc-mansion-vol01
+    - mattb325/batprops-shopping-malls-vol01
+    - mattb325/batprops-small-modern-houses
+    - mattb325/batprops-vol01
+    - mattb325/batprops-vol02
+    - mattb325/batprops-vol03
+    - mattb325/batprops-vol04
+    - mattb325/batprops-w2w-vol01
+    - mickebear/mega-props-vol01
+    - mickebear/mega-props-vol02
+    - mickebear/mega-props-vol03
+    - mickebear/mega-props-vol04
+    - mikeseith/mega-props-vol01
+    - mikeseith/mega-props-vol03
+    - prepo/mega-props-vol01
+    - ripptide/mega-props-vol01
+    - ripptide/mega-props-vol02
+    - ripptide/mega-props-vol03
+    - ripptide/mega-props-vol04
+    - ripptide/mega-props-wfk-vol01
+    - ripptide/mega-props-wfk-vol02
+    - simgoober/mega-props-vol01
+    - simgoober/models-adults
+    - simgoober/models-agriculture
+    - simgoober/models-department-stores
+    - simgoober/models-education
+    - simgoober/models-entertainment
+    - simgoober/models-grocery-stores
+    - simgoober/models-high-tech
+    - simgoober/models-hotels-vol01
+    - simgoober/models-hotels-vol02
+    - simgoober/models-large-stores
+    - simgoober/models-malls
+    - simgoober/models-manufacture-vol01
+    - simgoober/models-manufacture-vol02
+    - simgoober/models-medium-shops
+    - simgoober/models-motels
+    - simgoober/models-offices-high-vol01
+    - simgoober/models-offices-high-vol02
+    - simgoober/models-offices-medium
+    - simgoober/models-residentials-vol01
+    - simgoober/models-residentials-vol02
+    - simgoober/models-residentials-vol03
+    - simgoober/models-residentials-vol04
+    - simgoober/models-restaurants
+    - simgoober/models-rewards
+    - simgoober/models-sainsbury
+    - simgoober/models-services
+    - simgoober/models-small-shops
+    - simgoober/models-transport
+    - simgoober/models-utils
+    - simgoober/models-w2w-commercials
+    - swi21/mega-props-vol01
+    - swi21/mega-props-vol02
+    - tag-one/mega-props-vol01
+    - tag-one/mega-props-vol02
+    - tag-one/mega-props-vol03
+    - tag-one/mega-props-vol04
+    - vester/batprops-vol01
+    - vester/batprops-vol02
+    - xannepan/mega-props-vol01
+    - xannepan/mega-props-vol02
+    - xannepan/mega-props-vol03
+    - xannepan/mega-props-vol04
+    - xannepan/mega-props-vol05
+    - xannepan/tree-props-vol01
+    - xannepan/tree-props-vol02
+    - xannepan/tree-props-vol03
+    - yoder7652/mega-props-vol01
+  description: |-
+    The SC4D LEX Legacy - BSC Common Dependencies Pack is a unified package with a Java installer, containing over 150 frequently used dependency files produced by the BSC (BATT Squad Certification) Team, including texture and prop packs, as well as the BSC Essentials file. Chances are, if you're looking for a BSC dependency, it's probably in here.
+
+    <ins>**CHANGELOG**</ins>
+
+    <ins>**IMPORTANT NOTE:
+
+    **</ins>The **Version 9 update(s)** of the BSC Common Dependencies will be a series of smaller updates (before we move to version 10) mostly related to the BSC Essentials and the SimGoober related model packs. These small updates will be noted by the next alphabetical letter in line and a note about the release date. Please keep an eye on the changelog.\*\*
+
+    \*\*Version 9b update turned out to be a bit bigger update. Check the ChangeLog, please.
+
+    **Version 9b update (21 August 2024)**
+
+    - The **BSC MEGA Props - Rubik3 Vol01 - WTC Props** dependency pack has been **<ins>REMOVED</ins>** from this compilation as with a recent update it has been moved into its own legacy pack: **SC4D LEX Legacy - BSC Custodian Rubik WTC Complex V2**
+    - The **BSC BATProps Newman Inc RPK Vol01 v2** dependency pack has been <ins>**<ins>REMOVED</ins>**</ins> from this compilation as with recent updates it has been moved into the **SC4D LEX Legacy - BSC Canals Collection V2**
+    - The brand new **BSC MEGA Props Caliban Vol01** dependency pack has been added to the compilation, bringing back Caliban's ancient models and props to support up coming re-hosting efforts.
+    - The brand new **BSC MEGA Props YDR Vol01** dependency pack has been added to the compilation as a preparation for the re-hosting efforts of some of Yoder7652's uploads.
+    - BSC Essentials has received further custom UIs (including the DEDWD_Commercial_commonfiles.dat - released on STEX as a side file of the **[BSC MEGA Props DAE Vol02](https://community.simtropolis.com/files/file/13153-bsc-mega-props-dae-vol02/)** download -, which is a collection of custom UIs created by Deadwoods for his Aussie and other commercial shop sets) and now it's running as **BSC Essentials v2024b**.
+    - After it was discovered that the former MS Textures file (MikeSeiths custom textures for his dealerships) that was merged into the BSC Textures Vol03 has the wrong ID structure (it used the dummy test ID range from the SC4Tool), this has been fixed andincorporated into the new updated **BSC Textures Vol03 v5**.
+    - A few new models and props have been added to the second volume of Debussyman's dependency pack which runs now as **BSC MEGA Props DBSSYMN Vol02 v3**.
+    - A few new props have been added to the first volume of Deadwoods' dependency pack, which runs now as **BSC MEGA Props DEDWD Vol01 v4**.
+    - From the **Grfe_Props_Pack_Carpack vol04.dat** an MMP template exemplar has been removed as it does not have any purpose, but was able to cause confusion. There is no version change this time. Just re-install the file from this update.
+
+    * * *
+
+    As always it is highly recommended to run the cleanitol with the installer and remove any previous versions from your plugins, but also do NOT forget to make back-ups of your plugins folder, just in case.
+
+    Optionally in the *~Documents* folder in the main ZIP you can find the all the individual cleanitol files and by using either the newer **[nos.17's SC4 Cleanitol](https://community.simtropolis.com/files/file/35790-sc4-cleanitol/)** or the older **BSC Cleanitol** tool you can search and remove old and outdated versions of these files.
+
+    IMPORTANT NOTE:
+
+    From Version 9b temporarily the *Cleanitol_MASTER REMOVE LIST_BSC Common Dependencies Pack Version ##.txt* has been removed until the LEX Restoration efforts will reach a more advanced state. The individual cleanitol files will be kept available in the meantime, so players have more control what they want to remove, and a new cleanitol script will be added which is aiming to remove the older file versions from previous Common Dependency installs with each updates.
+
+    Always keep back-ups of your cities and plugins folders before you update from earlier versions or if you start using the BSC Common Dependencies for the first time and you already have old (pre-SC4Evermore) BSC Team related custom contents either from LEX or from other exchanges.
+
+    If you have issues with the **SimGoober Commercials and Industrials**, please read **[the following post on Simtropolis](https://community.simtropolis.com/forums/topic/763347-simgoober-content-and-bsc-common-dependencies-pack/?tab=comments#comment-1794707 "info about the SG Commercial and Industrial Lots")**. I shared a link there, where I **temporarily** made the last Project ZIPped LEX versions of the SG Commercials and Industrials available. The officially rehosted version however will get further updates, so those are packs are not the final versions.
+
+    What all is in the SC4D LEX Legacy - BSC Common Dependencies Pack?
+
+    This package contains the following Dependency Packs:
+
+    #### Essentials
+
+    1.  BSC Essentials v2023 - updated in BSC Common Dependencies Version 7.
+
+        **BSC Essentials v2024b - updated in BSC Common Dependencies Version 9b**
+
+        Please note, this pack will receive further updates and improvements in future releases.
+
+    #### BSC MEGA Prop Packs
+
+    2.  BSC MEGA Props ALN Vol01 v2
+    3.  BSC MEGA Props ALN Vol02
+    4.  BSC MEGA Props ALN Vol03 v2
+    5.  BSC MEGA Props CAL Vol01 v2
+    6.  BSC MEGA Props CARCH Vol01 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    7.  BSC MEGA Props CARCH Vol02
+    8.  BSC MEGA Props CARCH Vol03
+    9.  BSC MEGA Props CARCH Vol04
+    10. BSC MEGA Props CARCH Vol05
+    11. BSC MEGA Props CARCH Vol06
+    12. BSC MEGA Props CARCH Vol07
+    13. BSC MEGA Props CARCH Vol08
+    14. BSC MEGA Props COBB Vol01
+    15. BSC MEGA Props COBB Vol02
+    16. BSC MEGA Props COBB Vol03
+    17. BSC MEGA Props COBB Vol04
+    18. BSC MEGA Props COBB Vol05
+    19. BSC MEGA Props COBB Vol06 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    20. BSC MEGA Props CP Vol01
+    21. BSC MEGA Props CP Vol02
+    22. BSC MEGA Props CP Civics - **ADDED: new pack in BSC Common Dependencies Version 7**
+    23. BSC MEGA Props CP Houses - **ADDED: new pack in BSC Common Dependencies Version 7**
+    24. BSC MEGA Props CP Industrials - **ADDED: new pack in BSC Common Dependencies Version 7**
+    25. BSC MEGA Props D66 Vol01 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    26. BSC MEGA Props D66 Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    27. BSC MEGA Props D66 vol03 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    28. BSC MEGA Props DAE Vol01 v3 - updated to v3 in BSC Common Dependencies Version 7
+
+        **BSC MEGA Props DAE Vol01 v4 - updated to v4 in BSC Common Dependencies Version 9b**
+    29. BSC MEGA Props DAE Vol02 **- ADDED: new pack in BSC Common Dependencies Version 7**
+    30. BSC MEGA Props DBSSYMN Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    31. BSC MEGA Props DBSSYMN Vol02 v2 - updated to v2 in BSC Common Dependencies Version 7
+
+        **BSC MEGA Props DBSSYMN Vol02 v3 - updated to v3 in BSC Common Dependencies Version 9b**
+    32. BSC MEGA Props Gascooker Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    33. BSC MEGA Props Gascooker Vol02 v2
+    34. BSC MEGA Props GAZ Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    35. BSC MEGA Props JBSimio vol01 v2 - **u**p**dated to v2 in BSC Common Dependencies Version 7**
+    36. BSC MEGA Props JBSimio vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    37. BSC MEGA Props JBSimio vol03 v2 - **updated to v2 in BSC Common Dependencies Version 5**
+    38. BSC MEGA Props Jen_P Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    39. BSC MEGA Props JENX Vol01 v2 - updated to v2 in BSC Common Dependencies Version 7
+
+        BSC MEGA Props JENX Vol01 v3 - updated to v3 in BSC Common Dependencies Version 8**BSC MEGA Props JENX Vol01 v4 - updated to v4 in BSC Common Dependencies Version 9a**
+    40. BSC MEGA Props JENX Vol02 - PARIS v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    41. BSC MEGA Props JENX Vol03 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    42. BSC MEGA Props JENX Vol04 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    43. BSC MEGA Props JENX Vol05 - Medieval - **ADDED: new pack in BSC Common Dependencies Version 7**
+    44. BSC MEGA Props JES Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    45. BSC MEGA Props JES Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    46. BSC MEGA Props JES Vol03 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    47. BSC MEGA Props JES Vol04 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    48. BSC MEGA Props JES Vol05 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    49. BSC MEGA Props JES Vol06 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    50. BSC MEGA Props JES Vol07 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    51. BSC MEGA Props JES Vol08 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    52. BSC MEGA Props JES Vol09 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    53. BSC MEGA Props JMyers Agriculture 01 v2
+    54. BSC MEGA Props JMyers Agriculture 02 v2
+    55. BSC MEGA Props JMyers Common Props - **ADDED: new pack in BSC Common Dependencies Version 7**
+    56. **~~BSC MEGA Props JRJ Vol01~~ - REMOVED:** Models can be found in the **SC4D LEX Legacy - Jeronij Ship Pack**
+    57. BSC MEGA Props JRJ Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    58. BSC MEGA Props JRJ Vol03 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    59. BSC MEGA Props JRJ Vol04 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    60. BSC MEGA Props JRJ Vol05 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    61. BSC MEGA Props JRJ Vol06 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    62. BSC MEGA Props KevDan25 Vol01 v2
+    63. BSC MEGA Props KWK Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    64. BSC MEGA Props KWK Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    65. BSC MEGA Props KWK Vol03 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    66. BSC MEGA Props LiL Vol01 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    67. BSC MEGA Props MBEAR Vol01 v3
+    68. BSC MEGA Props MBEAR Vol02 v2
+    69. BSC MEGA Props MBEAR Vol03 v2
+    70. BSC MEGA Props MBEAR Vol04 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    71. BSC MEGA Props Mikeseith Vol01
+    72. **~~BSC MEGA Props Mikeseith Vol02~~ - REMOVED:** Models can be found in the **SC4D LEX Legacy - Mikeseith Multi-level Modular Garages**
+    73. BSC MEGA Props Mikeseith Vol03 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    74. BSC MEGA Props Misc Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    75. BSC MEGA Props Misc Vol02 v4 - **updated to v4 in BSC Common Dependencies Version 7**
+    76. BSC MEGA Props Misc Vol03 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    77. BSC MEGA Props MJB Vol01 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    78. BSC MEGA Props MJB Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    79. BSC MEGA Props NewmanInc Vol01 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    80. BSC MEGA Props NewmanInc Vol02 v2
+    81. BSC MEGA Props NewmanInc Vol03 v2
+    82. BSC MEGA Props NewmanInc Vol04 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    83. BSC MEGA Props NewmanInc Vol05
+    84. BSC MEGA Props prepo Vol01 v2 **- updated to v2 in BSC Common Dependencies Version 7**
+    85. BSC MEGA Props RT Vol01 v3 - updated to v3 in BSC Common Dependencies Version 7
+
+        **BSC MEGA Props RT Vol01 v4 - updated to v4 in BSC Common Dependencies Version 8**
+    86. BSC MEGA Props RT Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    87. BSC MEGA Props RT Vol03 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    88. BSC MEGA Props RT Vol04 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    89. **~~BSC MEGA Props RT WFK N Vol01~~ - REMOVED:** see detailed information in the CHANGELOG in the Readme
+    90. **~~BSC MEGA Props RT WFK Vol01~~ - REMOVED:** see detailed information in the CHANGELOG in the Readme
+    91. BSC MEGA Props RT WFK Vol01 - CdS v2 - **ADDED: new pack in BSC Common Dependencies Version 7 - see CHANGELOG in the Readme**
+    92. BSC MEGA Props RT WFK Vol02 - WIMPS - **ADDED: new pack in BSC Common Dependencies Version 7 - see CHANGELOG in the Readme**
+    93. **BSC MEGA Props Rubik3 Vol01 - WTC Props** - <ins>**<ins>REMOVED</ins>**</ins>: Models and props can be found in the **SC4D LEX Legacy - BSC Custodian Rubik WTC Complex V2**
+    94. BSC MEGA Props SG Vol01 v3 - updated to v3 in BSC Common Dependencies Version 7**
+
+        BSC MEGA Props SG Vol01 v4 - updated to v3 in BSC Common Dependencies Version 9a**
+    95. BSC MEGA Props SNM Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    96. BSC MEGA Props SNM Vol02 - Naval v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    97. BSC MEGA Props SWI21 Vol01 v4 - **updated to v4 in BSC Common Dependencies Version 7**
+    98. BSC MEGA Props SWI21 Vol02 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    99. BSC MEGA Props W2W Vol01 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    100.BSC MEGA Props T1 vol01 - ADDED: new pack in BSC Common Dependencies Version 7**
+
+        BSC MEGA Props T1 vol01 v2 - updated to v2 in BSC Common Dependencies Version 9a
+
+        **
+    101.BSC MEGA Props T1 vol02 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    102.BSC MEGA Props T1 vol03 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    103.BSC MEGA Props T1 vol04 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    104.BSC MEGA Props Caliban Vol01 **- ADDED: new pack in BSC Common Dependencies Version 9b**
+    105.BSC MEGA Props YDR Vol01 **- ADDED: new pack in BSC Common Dependencies Version 9b**
+
+    #### CSX MEGA Prop Packs
+
+    104.CSX MEGA Props Vol01 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    105.CSX MEGA Props Vol02 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    106.CSX MEGA Props Vol03 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    107.CSX MEGA Props Vol04 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    108.CSX MEGA Props Vol05 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    109.CSX MEGA Props Vol06 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    110.CSX MEGA Props Vol07 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    111.CSX MEGA Props Vol08 v2
+    112.CSX MEGA Props Vol09 v2
+
+    #### Regular Prop Packs
+
+    113.**BSC BAT Props T1 Vol 1 - REMOVED:** see detailed information in the CHANGELOG in the Readme
+    114.**~~BSC BAT Props T1 Vol 2~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    115.**~~BSC BAT Props T1 Vol 3~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    116.**~~BSC BAT Props T1 Vol 4~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    117.**~~BSC BAT Props T1 Vol 5~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    118.**~~BSC BAT Props T1 Vol 6~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    119.**~~BSC BAT Props T1 Vol 7~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    120.**~~BSC BAT Props T1 Vol 8 (The Old Ones)~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    121.**~~BSC BAT Props LiL Vol2~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    122.**~~BSC BATProps D66 Vol10~~ - REMOVED:** see detailed information in the CHANGELOG in the Readme
+    123.**~~BSC BATProps D66 Vol11~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    124.**~~BSC BATProps JENX Vol02~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    125.**~~BSC BATProps KWK Vol 03~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    126.**~~BSC BATProps KWK Vol 04~~ \- REMOVED:** see detailed information in the CHANGELOG in the Readme
+    127.BSC BATProps Mattb325 Vol01 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    128.BSC BATProps Mattb325 Vol02
+    129.BSC BATProps Mattb325 Vol03
+    130.BSC BATProps Mattb325 Vol04 - <ins>*it is the SAME as Mattb325_PropPack_Vol04.dat*</ins>
+    131.BSC BATProps Mattb325 London W2W Vol01
+    132.BSC BATProps Mattb325 Cottages Ornee Vol01
+    133.BSC BATProps Mattb325 Cottages Ornee Vol02
+    134.BSC BATProps Mattb325 McMansion Vol01
+    135.BSC BATProps Mattb325 W2W Prop Pack Vol01
+    136.BSC BATProps Mattb325 Small Modern House Pack - <ins>*it is the SAME as Mattb325SmallLowMidWealthHomes.dat*</ins>
+    137.BSC BATProps Mattb325 Shopping Mall Pack Vol01
+    138.BSC BATProps Newman Inc WFK Vol01
+    139.BSC BATProps Newman Inc RPK Vol01 v2 - <ins><ins>**REMOVED**</ins></ins>: Models and props can be found in the **SC4D LEX Legacy - BSC Canals Collection V2**
+    140.BSC BATProps VDK Vol01 v2 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    141.BSC BATProps VDK Vol02 v2 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    142.**~~BSC Flags (Vol. 1-2 + Pride and EU)~~ - REMOVED:** see detailed information in the CHANGELOG in the Readme
+    143.BSC Prop Pack - CAL Ships Vol01 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    144.BSC Prop Pack - CAL Small Boats Vol01 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    145.BSC Prop Pack - Geoffhaw Flag Pack - **ADDED: new pack in BSC Common Dependencies Version 7**
+    146.BSC Prop Pack - JENX Tree Props Vol01 - **ADDED: new pack in BSC Common Dependencies Version 7**
+    147.BSC Prop Pack - JENX Tree Props Vol02 (SD)
+    148.BSC Prop Pack - JENX Tree Props Vol03 (HD)
+    149.BSC Prop Pack - JRJ CPT Trees as props V2
+
+    #### SG Model Prop Packs
+
+    150.SG Models Residentials Vol01 v2
+
+        **SG Models Residentials Vol01 v3 \- updated to v3 in BSC Common Dependencies Version 9a**
+    151.SG Models Residentials Vol02 v2
+
+        **SG Models Residentials Vol02 v3 \- updated to v3 in BSC Common Dependencies Version 9a**
+    152.SG Models Residentials Vol03 v2
+
+        **SG Models Residentials Vol03 v3 \- updated to v3 in BSC Common Dependencies Version 9a**
+    153.SG Models Residentials Vol04 v2
+
+        **SG Models Residentials Vol04 v3 \- updated to v3 in BSC Common Dependencies Version 9a**
+    154.SG Models Adult v2
+    155.SG Models Agriculture v2
+    156.SG Models Civic Education v2
+    157.SG Models Civic Rewards
+    158.SG Models Civic Services
+    159.SG Models Department Stores v2
+    160.SG Models Entertainment v2
+    161.SG Models Grocery Stores v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    162.SG Models Hotels1 v2
+    163.SG Models Hotels2 v2
+    164.SG Models I-HT v2
+    165.SG Models IM1 v2
+    166.SG Models IM2 v2
+    167.SG Models Large Stores v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    168.SG Models Malls v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    169.SG Models Medium Shops v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    170.SG Models Motels v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    171.SG Models Offices HiRise1 v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    172.SG Models Offices HiRise2 v2
+    173.SG Models Offices Medium v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    174.SG Models Restaurants v2
+    175.SG Models Sainsbury v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    176.SG Models Small Shops v3 - **updated to v3 in BSC Common Dependencies Version 7**
+    177.SG Models Transportation v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    178.SG Models Utilities
+    179.SG Models W2W Commercials - **ADDED: new pack in BSC Common Dependencies Version 7**
+
+    #### BSC-VIP Girafe Prop Packs
+
+    179.BSC VIP Girafe Carpack Vol01-02 Original v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    180.BSC VIP Girafe Carpack Vol01-02 Remastered (Original and Remastered - both use separate IIDs)
+    181.BSC VIP Girafe Carpack Vol03 v2 - **updated to v2 in BSC Common Dependencies Version 7**
+    182.BSC VIP Girafe Carpack Vol04 **- updated in BSC Common Dependencies Version 9b**
+    183.BSC VIP Girafe Urbanpack Vol01 - **see detailed information in the CHANGELOG in the Readme**
+    184.BSC VIP Girafe Hedges - **ADDED: new pack in BSC Common Dependencies Version 7**
+
+    #### Texture Packs
+
+    182.BSC Textures Vol01
+    183.BSC Textures Vol02
+    184.BSC Textures Vol03 v4 - **updated to v4 in BSC Common Dependencies Version 7**
+    185.BSC TexturePack Cycledogg V01 - <ins>*It is the same as V01b (as it was named on the LEX download page)*</ins>
+
+    #### Other
+
+    186.BSC_PropFamilyNames v3 - updated to v3 in BSC Common Dependencies Version 7**
+
+        BSC_PropFamilyNames v4 - updated to v4 in BSC Common Dependencies Version 9a**
+    187.**~~CP_Essentials_FamilyNames~~ - REMOVED:** it has been merged into **BSC_PropFamilyNames v3**
+
+    Various pieces of original documentation and completely reworked and updated new individual Cleanitol definitions can be found in the "*~Documents*" folder in the main ZIP, which, while installed in the Plugins directory, should be removed. The installer by default no longer installs these additional documentation files.
+
+    **Credits**
+
+    The following BSC members contributed models, textures, and modding support to this collection. Parentheses indicate the initials they used on their files (some initials are for projects, like SNM for SimNation Military, and WFK for Waterfront Kit):
+
+    - BarbyW (BLS)
+    - Caliban
+    - callagrafx (CAL)
+    - Cerulean (CARCH)
+    - ChrisAdams3997 (ALN)
+    - Citynut (NewmanInc/CNut)
+    - Cobb32118 (COBB)
+    - Couchpotato (MJB)
+    - Colyn (CSX)
+    - cycledogg/c.p. (CP)
+    - deadwoods (DAE/DEDWD)
+    - DebussyMan (DBSSYMN)
+    - Dolphin66 (D66)
+    - Don Miguel
+    - GaryReggae (GAZ)
+    - Gascooker (GC)
+    - geoffhaw
+    - Girafe (Grfe)
+    - GrampaAl (GA)
+    - JBSimio (JBS)
+    - jen_p
+    - jeronij (JRJ)
+    - jestarr (JES)
+    - JMyers2043
+    - jplumbley
+    - kevdan25
+    - Kwakelaar (KWK)
+    - Lilith (LiL)
+    - M4346
+    - Mattb325
+    - Mickebear (MBEAR)
+    - Mikeseith
+    - prepo
+    - RippleJet (RJ)
+    - Ripptide (RT)
+    - Rubik3
+    - SimGoober (SG)
+    - swi21
+    - tag_one (T1)
+    - vester (VDK)
+    - xannepan (JENX)
+    - Yoder7652 (YDR)
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus. Cleanitol definition provided by Ulisse Wolf and Tyberius06.
+
+    Please note that this pack **is** expected to receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC Common Dependencies Pack
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC Common Dependencies Pack*.txt
+          docs:
+            - ~Documents/readme*
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include: []
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T09:21:49.306Z
+      version: 9.0.0
+
+bsc/essentials:
+  authors:
+    - bsc
+  category: dependencies
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC Essentials
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC_Essentials*.txt
+            - Cleanitol_BSC_PropFamilyNames*.txt
+          docs: []
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC Essentials*.dat
+            - BSC_PropFamilyNames*.dat
+            - BSC_Reward_essential*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 4.0.0
+
+bsc/misc-props-vol01:
+  authors:
+    - bsc
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC MEGA Props - Misc Vol01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC MEGA Props - Misc Vol01*.txt
+          docs:
+            - BSC MEGA Props - Misc Vol01*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC MEGA Props - Misc Vol01*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 2.0.0
+
+bsc/misc-props-vol02:
+  authors:
+    - bsc
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC MEGA Props - Misc Vol02
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC MEGA Props - Misc Vol02*.txt
+          docs:
+            - BSC MEGA Props - Misc Vol02*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC MEGA Props - Misc Vol02*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 4.0.0
+
+bsc/misc-props-vol03:
+  authors:
+    - bsc
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC MEGA Props - Misc Vol03
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC MEGA Props - Misc Vol03*.txt
+          docs:
+            - BSC MEGA Props - Misc Vol03*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC MEGA Props - Misc Vol03*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 1.0.0
+
+bsc/snm-props-vol01:
+  authors:
+    - bsc
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC MEGA Props - SNM Vol01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC MEGA Props - SNM Vol01*.txt
+          docs:
+            - BSC MEGA Props - SNM Vol01*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC MEGA Props - SNM Vol01*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 2.0.0
+
+bsc/snm-props-vol02:
+  authors:
+    - bsc
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC MEGA Props - SNM Vol02 - Naval
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC MEGA Props - SNM Vol02*.txt
+          docs:
+            - BSC MEGA Props - SNM Vol02*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC MEGA Props - SNM Vol02*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 2.0.0
+
+bsc/textures-vol01:
+  authors:
+    - bsc
+  category: textures
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC Textures Vol01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC Textures Vol01*.txt
+          docs:
+            - BSC Textures Vol01*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC Textures Vol01*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 1.0.0
+
+bsc/textures-vol02:
+  authors:
+    - bsc
+  category: textures
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC Textures Vol02
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC Textures Vol02*.txt
+          docs:
+            - BSC Textures Vol02*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC Textures Vol02*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 1.0.0
+
+bsc/textures-vol03:
+  authors:
+    - bsc
+  category: textures
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC Textures Vol03
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC Textures vol03*.txt
+          docs:
+            - BSC Textures vol03*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC Textures Vol03*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 5.0.0
+
+bsc/w2w-props-vol01:
+  authors:
+    - bsc
+  category: props
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  name: BSC MEGA Props - W2W Vol01
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+  variants:
+    default:
+      assets:
+        - cleanitol:
+            - Cleanitol_BSC MEGA Props - W2W Vol01*.txt
+          docs:
+            - BSC MEGA Props - W2W Vol01*_index.jpg
+          id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
+          include:
+            - BSC MEGA Props - W2W Vol01*.dat
+      lastModified: 2024-08-21T22:51:45.000Z
+      release: 2024-11-19T07:45:17.255Z
+      version: 2.0.0
