@@ -14,11 +14,28 @@ cococity/coco-hillstate-apartment:
     darknite:
       assets:
         - id: simtropolis/36526-coco-hillstate-apartment#204093
-      lastModified: 2024-10-25T05:08:04.000Z
-      lots:
+      buildings:
+        - bulldoze: 1740
+          capacity:
+            r$: 3076
+            r$$: 1699
+          category: r$$
+          filename: Coco_Hillstate_APT-0x6534284a-0xb21fc9d1-0x1426d33d.SC4Desc
+          flamability: 40
+          garbage: 239
+          id: 1426d33d
+          name: Coco_Hillstate_APT
+          pollution: 48
+          pollutionRadius: 5
+          power: 24
+          water: 267
+          waterPollution: 48
+          waterPollutionRadius: 6
+          worth: 44390
         - bulldoze: 100
           category: landmarks
           cost: 110000
+          description: Insert ploppable description here.
           filename: Coco_Hillstate_APT_LM_DN_4x2_9426d3df.SC4Lot
           flamability: 10
           garbage: 15
@@ -27,50 +44,58 @@ cococity/coco-hillstate-apartment:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: Coco_Hillstate_APT_LM_DN_4x2
+          name: Coco_Hillstate_APT
           pollution: 1
           pollutionRadius: 1
           power: 60
           rating: 10
           ratingRadius: 256
-          replace: 3426a2a4
-          size: 4x2
           waterPollution: 1
           waterPollutionRadius: 2
-        - bulldoze: 1740
-          capacity:
-            r$: 3076
-            r$$: 1699
-          category: r$$
+      lastModified: 2024-10-25T05:08:04.000Z
+      lots:
+        - building: 9426d3df
+          filename: Coco_Hillstate_APT_LM_DN_4x2_9426d3df.SC4Lot
+          id: 9426d3df
+          name: Coco_Hillstate_APT_LM_DN_4x2
+          size: 4x2
+        - building: 1426d33d
           density: high
           filename: Coco_Hillstate_APT_R$$_4x2_DN_d426d49e.SC4Lot
-          flamability: 40
-          garbage: 239
           id: d426d49e
           name: Coco_Hillstate_APT_R$$_4x2_DN
-          pollution: 48
-          pollutionRadius: 5
-          power: 24
-          replace: 7426bfa5
           size: 4x2
           stage: 8
-          water: 267
-          waterPollution: 48
-          waterPollutionRadius: 6
-          worth: 44390
       name: Dark Nite
-      release: 2024-11-17T16:21:09.629Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         darknite: true
       version: 1.1.0
     default:
       assets:
         - id: simtropolis/36526-coco-hillstate-apartment#204092
-      lastModified: 2024-10-25T05:08:04.000Z
-      lots:
+      buildings:
+        - bulldoze: 1740
+          capacity:
+            r$: 3076
+            r$$: 1699
+          category: r$$
+          filename: Coco_Hillstate_APT-0x6534284a-0xb21fc9d1-0x1426bca5.SC4Desc
+          flamability: 40
+          garbage: 239
+          id: 1426bca5
+          name: Coco_Hillstate_APT
+          pollution: 48
+          pollutionRadius: 5
+          power: 24
+          water: 267
+          waterPollution: 48
+          waterPollutionRadius: 6
+          worth: 44390
         - bulldoze: 100
           category: landmarks
           cost: 110000
+          description: Insert ploppable description here.
           filename: Coco_Hillstate_APT_LM_MN_4x2_3426a2a4.SC4Lot
           flamability: 10
           garbage: 15
@@ -79,39 +104,30 @@ cococity/coco-hillstate-apartment:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: Coco_Hillstate_APT_LM_MN_4x2
+          name: Coco_Hillstate_APT
           pollution: 1
           pollutionRadius: 1
           power: 60
           rating: 10
           ratingRadius: 256
-          replace: 9426d3df
-          size: 4x2
           waterPollution: 1
           waterPollutionRadius: 2
-        - bulldoze: 1740
-          capacity:
-            r$: 3076
-            r$$: 1699
-          category: r$$
+      lastModified: 2024-10-25T05:08:04.000Z
+      lots:
+        - building: 3426a2a4
+          filename: Coco_Hillstate_APT_LM_MN_4x2_3426a2a4.SC4Lot
+          id: 3426a2a4
+          name: Coco_Hillstate_APT_LM_MN_4x2
+          size: 4x2
+        - building: 1426bca5
           density: high
           filename: Coco_Hillstate_APT_R$$_4x2_7426bfa5.SC4Lot
-          flamability: 40
-          garbage: 239
           id: 7426bfa5
           name: Coco_Hillstate_APT_R$$_4x2
-          pollution: 48
-          pollutionRadius: 5
-          power: 24
-          replace: d426d49e
           size: 4x2
           stage: 8
-          water: 267
-          waterPollution: 48
-          waterPollutionRadius: 6
-          worth: 44390
       name: Maxis Nite
-      release: 2024-11-17T16:21:09.629Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         darknite: false
       version: 1.1.0
@@ -136,25 +152,20 @@ cococity/coco-pyeonhansesang-apartment:
     darknite:
       assets:
         - id: simtropolis/36544-coco_e-pyeonhansesang_apt#204396
-      lastModified: 2024-11-15T17:29:13.000Z
-      lots:
+      buildings:
         - bulldoze: 1849
           capacity:
             r$: 6186
             r$$: 3416
           category: r$$
-          density: high
-          filename: Coco_ePyeonhan_APT_R$$_4x3_DN_14441268.SC4Lot
+          filename: Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0xd4441231.SC4Desc
           flamability: 40
           garbage: 480
-          id: '14441268'
-          name: Coco_ePyeonhan_APT_R$$_4x3_DN
+          id: d4441231
+          name: Coco_ePyeonhanAPT
           pollution: 96
           pollutionRadius: 5
           power: 47
-          replace: d4440620
-          size: 4x3
-          stage: 8
           water: 537
           waterPollution: 96
           waterPollutionRadius: 6
@@ -162,6 +173,7 @@ cococity/coco-pyeonhansesang-apartment:
         - bulldoze: 100
           category: landmarks
           cost: 110000
+          description: Insert ploppable description here.
           filename: Coco_ePyeonhanAPT_LM4x3_DN_1443fd77.SC4Lot
           flamability: 10
           garbage: 15
@@ -170,29 +182,58 @@ cococity/coco-pyeonhansesang-apartment:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: Coco_ePyeonhanAPT_LM4x3_DN
+          name: Coco_ePyeonhanAPT
           pollution: 1
           pollutionRadius: 1
           power: 60
           rating: 10
           ratingRadius: 256
-          replace: 1443f7f3
-          size: 4x3
           waterPollution: 1
           waterPollutionRadius: 2
+      lastModified: 2024-11-15T17:29:13.000Z
+      lots:
+        - building: 1443fd77
+          filename: Coco_ePyeonhanAPT_LM4x3_DN_1443fd77.SC4Lot
+          id: 1443fd77
+          name: Coco_ePyeonhanAPT_LM4x3_DN
+          size: 4x3
+        - building: d4441231
+          density: high
+          filename: Coco_ePyeonhan_APT_R$$_4x3_DN_14441268.SC4Lot
+          id: '14441268'
+          name: Coco_ePyeonhan_APT_R$$_4x3_DN
+          size: 4x3
+          stage: 8
       name: Dark Nite
-      release: 2024-11-19T11:51:30.689Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         darknite: true
       version: 1.1.0
     default:
       assets:
         - id: simtropolis/36544-coco_e-pyeonhansesang_apt#204395
-      lastModified: 2024-11-15T17:29:13.000Z
-      lots:
+      buildings:
+        - bulldoze: 1849
+          capacity:
+            r$: 6186
+            r$$: 3416
+          category: r$$
+          filename: Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x944405cd.SC4Desc
+          flamability: 40
+          garbage: 480
+          id: 944405cd
+          name: Coco_ePyeonhanAPT
+          pollution: 96
+          pollutionRadius: 5
+          power: 47
+          water: 537
+          waterPollution: 96
+          waterPollutionRadius: 6
+          worth: 89267
         - bulldoze: 100
           category: landmarks
           cost: 110000
+          description: Insert ploppable description here.
           filename: Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot
           flamability: 10
           garbage: 15
@@ -201,39 +242,30 @@ cococity/coco-pyeonhansesang-apartment:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: Coco_ePyeonhanAPT_LM4x3
+          name: Coco_ePyeonhanAPT
           pollution: 1
           pollutionRadius: 1
           power: 60
           rating: 10
           ratingRadius: 256
-          replace: 1443fd77
-          size: 4x3
           waterPollution: 1
           waterPollutionRadius: 2
-        - bulldoze: 1849
-          capacity:
-            r$: 6186
-            r$$: 3416
-          category: r$$
+      lastModified: 2024-11-15T17:29:13.000Z
+      lots:
+        - building: 1443f7f3
+          filename: Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot
+          id: 1443f7f3
+          name: Coco_ePyeonhanAPT_LM4x3
+          size: 4x3
+        - building: 944405cd
           density: high
           filename: Coco_ePyeonhan_APT_R$$_4x3_d4440620.SC4Lot
-          flamability: 40
-          garbage: 480
           id: d4440620
           name: Coco_ePyeonhan_APT_R$$_4x3
-          pollution: 96
-          pollutionRadius: 5
-          power: 47
-          replace: '14441268'
           size: 4x3
           stage: 8
-          water: 537
-          waterPollution: 96
-          waterPollutionRadius: 6
-          worth: 89267
       name: Maxis Nite
-      release: 2024-11-19T11:51:30.689Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         darknite: false
       version: 1.1.0
@@ -261,11 +293,27 @@ cococity/coco-samsung-apartment:
           id: simtropolis/36495-coco-samsung-apartment#203882
           include:
             - Coco_SamsungApt_DN
-      lastModified: 2024-10-13T13:44:11.000Z
-      lots:
+      buildings:
+        - bulldoze: 703
+          capacity:
+            r$: 3161
+          category: r$
+          filename: Coco_SamsungApt_DN/Coco_SamsungAPT_DN-0x6534284a-0xb21fc9d1-0xd418529b.SC4Desc
+          flamability: 45
+          garbage: 190
+          id: d418529b
+          name: Coco_SamsungAPT_DN
+          pollution: 95
+          pollutionRadius: 5
+          power: 14
+          water: 148
+          waterPollution: 32
+          waterPollutionRadius: 5
+          worth: 42957
         - bulldoze: 100
           category: landmarks
           cost: 110000
+          description: Insert ploppable description here.
           filename: Coco_SamsungApt_DN/Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot
           flamability: 10
           garbage: 15
@@ -274,38 +322,30 @@ cococity/coco-samsung-apartment:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: Coco_SamsungApt_DN_LM 7x3
+          name: Coco_SamsungAPT_DN
           pollution: 1
           pollutionRadius: 1
           power: 60
           rating: 10
           ratingRadius: 256
-          replace: d41847ed
-          size: 7x3
           waterPollution: 1
           waterPollutionRadius: 2
-        - bulldoze: 703
-          capacity:
-            r$: 3161
-          category: r$
+      lastModified: 2024-10-13T13:44:11.000Z
+      lots:
+        - building: d4185370
+          filename: Coco_SamsungApt_DN/Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot
+          id: d4185370
+          name: Coco_SamsungApt_DN_LM 7x3
+          size: 7x3
+        - building: d418529b
           density: high
           filename: Coco_SamsungApt_DN/Coco_SamsungAPT_R$7x3_DN_d41861c2.SC4Lot
-          flamability: 45
-          garbage: 190
           id: d41861c2
           name: Coco_SamsungAPT_R$7x3_DN
-          pollution: 95
-          pollutionRadius: 5
-          power: 14
-          replace: d41866fd
           size: 7x3
           stage: 7
-          water: 148
-          waterPollution: 32
-          waterPollutionRadius: 5
-          worth: 42957
       name: Dark Nite
-      release: 2024-11-17T16:21:09.629Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         darknite: true
       version: 1.1.0
@@ -316,11 +356,27 @@ cococity/coco-samsung-apartment:
           id: simtropolis/36495-coco-samsung-apartment#203881
           include:
             - Coco_SamsungApt_MN
-      lastModified: 2024-10-13T13:44:11.000Z
-      lots:
+      buildings:
+        - bulldoze: 703
+          capacity:
+            r$: 3161
+          category: r$
+          filename: Coco_SamsungApt_MN/Coco_SamsungAPT-0x6534284a-0xb21fc9d1-0x54184b56.SC4Desc
+          flamability: 45
+          garbage: 190
+          id: 54184b56
+          name: Coco_SamsungAPT
+          pollution: 95
+          pollutionRadius: 5
+          power: 14
+          water: 148
+          waterPollution: 32
+          waterPollutionRadius: 5
+          worth: 42957
         - bulldoze: 100
           category: landmarks
           cost: 110000
+          description: Insert ploppable description here.
           filename: Coco_SamsungApt_MN/Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot
           flamability: 10
           garbage: 15
@@ -329,38 +385,30 @@ cococity/coco-samsung-apartment:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: Coco_SamsungApt_LM 7x3
+          name: Coco_SamsungAPT
           pollution: 1
           pollutionRadius: 1
           power: 60
           rating: 10
           ratingRadius: 256
-          replace: d4185370
-          size: 7x3
           waterPollution: 1
           waterPollutionRadius: 2
-        - bulldoze: 703
-          capacity:
-            r$: 3161
-          category: r$
+      lastModified: 2024-10-13T13:44:11.000Z
+      lots:
+        - building: d41847ed
+          filename: Coco_SamsungApt_MN/Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot
+          id: d41847ed
+          name: Coco_SamsungApt_LM 7x3
+          size: 7x3
+        - building: 54184b56
           density: high
           filename: Coco_SamsungApt_MN/Coco_SamsungAPT_R$7x3_MN_d41866fd.SC4Lot
-          flamability: 45
-          garbage: 190
           id: d41866fd
           name: Coco_SamsungAPT_R$7x3_MN
-          pollution: 95
-          pollutionRadius: 5
-          power: 14
-          replace: d41861c2
           size: 7x3
           stage: 7
-          water: 148
-          waterPollution: 32
-          waterPollutionRadius: 5
-          worth: 42957
       name: Maxis Nite
-      release: 2024-11-17T16:21:09.629Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         darknite: false
       version: 1.1.0

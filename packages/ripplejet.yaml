@@ -1,9 +1,7 @@
 ripplejet/census-repository-building:
-  category: landmarks
-  description: BSC Census Repository Building by RippleJet.
-  lots:
+  buildings:
     - bulldoze: 9000
-      category: landmarks
+      category: rewards
       cost: 15000
       filename: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
       flamability: 38
@@ -12,32 +10,43 @@ ripplejet/census-repository-building:
       landmark: 40
       landmarkRadius: 20
       maintenance: 400
-      name: RW_3x1_Census Repository Facility_ZP_ULTRA
+      name: Census Repository Facility V3
       pollution: 3
       pollutionRadius: 3
       power: 84
       rating: 10
       ratingRadius: 256
-      size: 3x1
       water: 84
       waterPollution: 3
       waterPollutionRadius: 4
     - bulldoze: 1500
-      category: landmarks
+      category: rewards
       cost: 2000
       filename: RW_2x2_Census Repository Vault.SC4Lot
       flamability: 38
       garbage: 5
       id: 645e467b
       maintenance: 50
-      name: RW_2x2_Census Repository Vault
+      name: Census Repository Vault
       pollution: 1
       pollutionRadius: 3
       power: 8
-      size: 2x2
       water: 8
       waterPollution: 1
       waterPollutionRadius: 4
+  category: rewards
+  description: BSC Census Repository Building by RippleJet.
+  lots:
+    - building: 6471f58b
+      filename: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+      id: 6471f58b
+      name: RW_3x1_Census Repository Facility_ZP_ULTRA
+      size: 3x1
+    - building: 645e467b
+      filename: RW_2x2_Census Repository Vault.SC4Lot
+      id: 645e467b
+      name: RW_2x2_Census Repository Vault
+      size: 2x2
   name: BSC Census Repository Building
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
   variants:
@@ -50,7 +59,7 @@ ripplejet/census-repository-building:
             - BSC/Ripplejet/Census Repository
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
-      release: 2024-11-18T11:55:40.349Z
+      release: 2024-11-26T19:15:00.248Z
       version: 3.5.0
     more-demand-info:
       assets:
@@ -70,7 +79,7 @@ ripplejet/census-repository-building:
       disabled: true
       lastModified: 2024-05-08T04:10:48.000Z
       name: More Demand Info by Null 45
-      release: 2024-11-18T11:47:39.115Z
+      release: 2024-11-26T19:15:00.248Z
       requirements:
         more-demand-info: true
       version: 3.5.0

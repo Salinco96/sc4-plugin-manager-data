@@ -17,77 +17,77 @@ toroca/5x5-and-6x6-malls:
         - id: simtropolis/2781-additional-5x5-and-6x6-mall-lots-v10
       lastModified: 2004-03-19T14:40:39.000Z
       lots:
-        - category: cs$$$
+        - building: 4000003f
           density: low,medium,high
           filename: CS$$$1_5x5 Andrews Fashion Center_ed670794.SC4Lot
           id: ed670794
           name: CS$$$1_5x5 Andrews Fashion Center
           size: 5x5
           stage: 1
-        - category: cs$$$
+        - building: 051d0000
           density: low,medium,high
           filename: CS$$$1_5x5 Bilyk Galleria_6d670a55.SC4Lot
           id: 6d670a55
           name: CS$$$1_5x5 Bilyk Galleria
           size: 5x5
           stage: 1
-        - category: cs$$$
+        - building: 051d0000
           density: low,medium,high
           filename: CS$$$1_6x6 Bilyk Galleria_ed670b23.SC4Lot
           id: ed670b23
           name: CS$$$1_6x6 Bilyk Galleria
           size: 6x6
           stage: 1
-        - category: cs$$$
+        - building: '05250000'
           density: low,medium,high
           filename: CS$$$1_6x6 Nanale Shopping Center_cd670826.SC4Lot
           id: cd670826
           name: CS$$$1_6x6 Nanale Shopping Center
           size: 6x6
           stage: 1
-        - category: cs$$$
+        - building: '05250000'
           density: low,medium,high
           filename: CS$$$2_5x5 Nanale Shopping Center_ad67091b.SC4Lot
           id: ad67091b
           name: CS$$$2_5x5 Nanale Shopping Center
           size: 5x5
           stage: 2
-        - category: cs$$
+        - building: 051c0000
           density: low,medium,high
           filename: CS$$1_5x5 Harris Galleria_4d670471.SC4Lot
           id: 4d670471
           name: CS$$1_5x5 Harris Galleria
           size: 5x5
           stage: 1
-        - category: cs$$
+        - building: 4000003e
           density: low,medium,high
           filename: CS$$1_5x5 Lee Shopping Mall_ed67020f.SC4Lot
           id: ed67020f
           name: CS$$1_5x5 Lee Shopping Mall
           size: 5x5
           stage: 1
-        - category: cs$$
+        - building: 051c0000
           density: low,medium,high
           filename: CS$$1_6x6 Harris Galleria_2d6705a9.SC4Lot
           id: 2d6705a9
           name: CS$$1_6x6 Harris Galleria
           size: 6x6
           stage: 1
-        - category: cs$$
+        - building: 05f10000
           density: low,medium,high
           filename: CS$$1_6x6 Hsu Mall_8d66fc4f.SC4Lot
           id: 8d66fc4f
           name: CS$$1_6x6 Hsu Mall
           size: 6x6
           stage: 1
-        - category: cs$$
+        - building: 05f10000
           density: low,medium,high
           filename: CS$$2_5x5 Hsu Mall_ad670004.SC4Lot
           id: ad670004
           name: CS$$2_5x5 Hsu Mall
           size: 5x5
           stage: 2
-      release: 2024-11-17T16:21:09.629Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 toroca/commercial-services-doubler:
@@ -160,7 +160,7 @@ toroca/commercial-services-doubler:
           id: malls
           label: Malls
           type: string
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:15:00.248Z
       version: 2.0.0
 
 toroca/functional-landmarks:
@@ -278,7 +278,7 @@ toroca/functional-landmarks:
           label: Landmarks
           multi: true
           type: string
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
   warnings:
     - message: This package overrides several Maxis landmarks. Before enabling it, you must bulldoze all corresponding landmarks from your regions.
@@ -311,7 +311,7 @@ toroca/industry-quadrupler:
       assets:
         - id: simtropolis/21293-industry-quadrupler
       lastModified: 2017-11-27T03:07:27.000Z
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:15:00.248Z
       version: 2.1.0
 
 toroca/no-radiation-rewards:
@@ -346,7 +346,7 @@ toroca/no-radiation-rewards:
           label: Rewards
           multi: true
           type: string
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 toroca/opera-house-fix:
@@ -359,7 +359,7 @@ toroca/opera-house-fix:
       assets:
         - id: simtropolis/21342-opera-house-fix
       lastModified: 2004-03-31T00:00:00.000Z
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
   warnings:
     - message: This package overrides the Maxis Opera House. Before enabling it, you must bulldoze all Opera Houses from your regions.
@@ -402,5 +402,5 @@ toroca/toll-booth-booster:
           id: fares
           label: Fares
           type: string
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0

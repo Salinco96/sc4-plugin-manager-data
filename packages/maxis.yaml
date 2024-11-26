@@ -6,28 +6,32 @@ maxis/63-building:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00A-63-building
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 9900
           cost: 110000
           filename: Plugin_00A_63Building.dat
           flamability: 10
           garbage: 39
-          id: 6afc49f8
+          id: 04b80000
           maintenance: 210
-          name: Lm4x5_KoreaLifeBldg
+          name: Lm64x72_KoreaLifeBldg_04B8
           pollution: 5
           pollutionRadius: 6
           power: 600
           rating: 8
           ratingRadius: 256
-          replace: 6afc49f8
-          size: 4x5
           water: 1300
           waterPollution: 5
           waterPollutionRadius: 7
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b80000
+          filename: Plugin_00A_63Building.dat
+          id: 6afc49f8
+          name: Lm4x5_KoreaLifeBldg
+          size: 4x5
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -62,7 +66,7 @@ maxis/63-building:
           waterPollution: 5
           waterPollutionRadius: 7
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/adler-planetarium:
@@ -73,31 +77,33 @@ maxis/adler-planetarium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-031-adler-planetarium
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8100
-          capacity:
-            cs$: 15
-            cs$$: 15
+          category: landmarks
           cost: 90000
           filename: Plugin_031_AdlerPlanetarium.dat
           flamability: 18
           garbage: 6
-          id: 8c9fb724
+          id: '04890000'
           maintenance: 180
-          name: LM6x6_adlerp
+          name: LM96x96_AdlerPlanetarium_0489
           pollution: 1
           pollutionRadius: 1
           power: 25
           rating: 7
           ratingRadius: 256
-          replace: 8c9fb724
-          size: 6x6
           water: 45
           waterPollution: 1
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04890000'
+          filename: Plugin_031_AdlerPlanetarium.dat
+          id: 8c9fb724
+          name: LM6x6_adlerp
+          size: 6x6
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -130,7 +136,7 @@ maxis/adler-planetarium:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/air-force-base:
@@ -143,11 +149,12 @@ maxis/air-force-base:
         - id: simtropolis/maxis-plugin-007-air-force-base
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
-        - filename: Plugin_007_AirForceBase.dat
+        - building: 036f0000
+          filename: Plugin_007_AirForceBase.dat
           id: 0ade2f1b
           name: RW10x10_AirForceBase
           size: 10x29
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/arc-de-triomphe:
@@ -158,28 +165,31 @@ maxis/arc-de-triomphe:
     default:
       assets:
         - id: simtropolis/maxis-plugin-003-arc-de-triomphe
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4950
-          category: landmarks
           cost: 55000
           filename: Plugin_003_ArcTriomphe.dat
           garbage: 5
-          id: aac407c0
+          id: 04c10000
           maintenance: 110
-          name: LM3x3_ArcTriomphe
+          name: Lm38x22_ArcTriomphe_04C1
           pollution: 1
           pollutionRadius: 1
           power: 1
           rating: 15
           ratingRadius: 256
-          replace: aac407c0
-          size: 3x3
           water: 1
           waterPollution: 1
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04c10000
+          filename: Plugin_003_ArcTriomphe.dat
+          id: aac407c0
+          name: LM3x3_ArcTriomphe
+          size: 3x3
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -215,7 +225,7 @@ maxis/arc-de-triomphe:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
@@ -229,29 +239,33 @@ maxis/brandenburg-gate:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00C-brandenburg-gate
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 5850
           category: landmarks
           cost: 60000
           filename: Plugin_00C_BrandenburgGate.dat
           flamability: 34
           garbage: 5
-          id: ab5e1192
+          id: 04b70000
           maintenance: 120
-          name: LM5x7_BrandenburgGate
+          name: Lm72x34_BrandenburgGate_04B7
           pollution: 1
           pollutionRadius: 1
           power: 2
           rating: 6
           ratingRadius: 256
-          replace: ab5e1192
-          size: 5x7
           water: 3
           waterPollution: 1
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b70000
+          filename: Plugin_00C_BrandenburgGate.dat
+          id: ab5e1192
+          name: LM5x7_BrandenburgGate
+          size: 5x7
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -288,7 +302,7 @@ maxis/brandenburg-gate:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/capitol-records:
@@ -299,29 +313,32 @@ maxis/capitol-records:
     default:
       assets:
         - id: simtropolis/maxis-plugin-012-capitol-records
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4500
-          category: landmarks,co$$$
           cost: 50000
           filename: Plugin_012_CapitolRecords.dat
           flamability: 34
           garbage: 11
-          id: cb549981
+          id: 04b10000
           maintenance: 100
-          name: Lm5x5_CapitolRecordsBuilding
+          name: Lm80x48_CapitolRecordsBuilding_04B1
           pollution: 3
           pollutionRadius: 4
           power: 215
           rating: 3
           ratingRadius: 256
-          replace: cb549981
-          size: 5x5
           water: 900
           waterPollution: 4
           waterPollutionRadius: 5
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b10000
+          filename: Plugin_012_CapitolRecords.dat
+          id: cb549981
+          name: Lm5x5_CapitolRecordsBuilding
+          size: 5x5
       name: Original
-      release: 2024-11-18T10:54:58.236Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -357,7 +374,7 @@ maxis/capitol-records:
           waterPollution: 4
           waterPollutionRadius: 5
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/day-of-peace:
@@ -369,7 +386,7 @@ maxis/day-of-peace:
       assets:
         - id: simtropolis/maxis-day-of-peace
       lastModified: 2024-11-18T09:48:18.355Z
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/globe-arena:
@@ -380,29 +397,32 @@ maxis/globe-arena:
     default:
       assets:
         - id: simtropolis/maxis-plugin-006-globe-arena
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4950
-          category: landmarks
           cost: 70000
           filename: Plugin_006_GlobeArena.dat
           flamability: 30
           garbage: 15
-          id: aae108a3
+          id: 04bc0000
           maintenance: 140
-          name: LM11x8_GlobeArena
+          name: Lm148x112_GlobeArena_04BC
           pollution: 2
           pollutionRadius: 2
           power: 40
           rating: 5
           ratingRadius: 256
-          replace: aae108a3
-          size: 11x8
           water: 100
           waterPollution: 3
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04bc0000
+          filename: Plugin_006_GlobeArena.dat
+          id: aae108a3
+          name: LM11x8_GlobeArena
+          size: 11x8
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -439,7 +459,7 @@ maxis/globe-arena:
           waterPollution: 3
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/grand-central-station:
@@ -450,28 +470,33 @@ maxis/grand-central-station:
     default:
       assets:
         - id: simtropolis/maxis-plugin-010-grand-central-station
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4500
+          category: landmarks
           cost: 110000
           filename: Plugin_010_GrandCentralStation.dat
           flamability: 30
           garbage: 11
-          id: 2b589d69
+          id: 04b30000
           maintenance: 220
-          name: LM7x8_GrandCentral
+          name: Lm100x125_grandcentral_04B3
           pollution: 3
           pollutionRadius: 4
           power: 200
           rating: 8
           ratingRadius: 256
-          replace: 2b589d69
-          size: 7x8
           water: 200
           waterPollution: 4
           waterPollutionRadius: 5
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b30000
+          filename: Plugin_010_GrandCentralStation.dat
+          id: 2b589d69
+          name: LM7x8_GrandCentral
+          size: 7x8
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -507,7 +532,7 @@ maxis/grand-central-station:
           waterPollution: 4
           waterPollutionRadius: 5
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/grutze-industries:
@@ -518,8 +543,7 @@ maxis/grutze-industries:
     default:
       assets:
         - id: simtropolis/maxis-plugin-grutze-industries
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 500
           category: landmarks
           cost: 60000
@@ -532,17 +556,23 @@ maxis/grutze-industries:
           landmark: 40
           landmarkRadius: 20
           maintenance: 200
-          name: LM4x5_GrutzeInd
+          name: IndstryPipes
           pollution: 12
           pollutionRadius: 3
           power: 75
           rating: 10
           ratingRadius: 256
-          size: 4x5
           water: 10
           waterPollution: 3
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 2d217719
+          filename: Grutze Industries/LM4x5_GrutzeInd_2d217719.SC4Lot
+          id: 2d217719
+          name: LM4x5_GrutzeInd
+          size: 4x5
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/grutzehaus:
@@ -553,8 +583,7 @@ maxis/grutzehaus:
     default:
       assets:
         - id: simtropolis/maxis-plugin-grutzehaus
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 125
           category: landmarks
           cost: 22000
@@ -567,17 +596,23 @@ maxis/grutzehaus:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: LM2x3_Grutzehaus
+          name: DstTxtr
           pollution: 1
           pollutionRadius: 1
           power: 20
           rating: 10
           ratingRadius: 256
-          size: 2x3
           water: 5
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: ed2174a0
+          filename: Grutzehaus/LM2x3_Grutzehaus_ed2174a0.SC4Lot
+          id: ed2174a0
+          name: LM2x3_Grutzehaus
+          size: 2x3
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/kunjungjon:
@@ -588,28 +623,33 @@ maxis/kunjungjon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-008-kunjungjon
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 5850
+          category: landmarks
           cost: 65000
           filename: Plugin_008_Kunjungjon.dat
           flamability: 33
           garbage: 9
-          id: 4afc8bd5
+          id: 04ba0000
           maintenance: 130
-          name: Lm5x6_KonjongjonHall
+          name: Lm55x43_KonjongjonHall_04BA
           pollution: 2
           pollutionRadius: 2
           power: 50
           rating: 5
           ratingRadius: 256
-          replace: 4afc8bd5
-          size: 5x6
           water: 250
           waterPollution: 2
           waterPollutionRadius: 3
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04ba0000
+          filename: Plugin_008_Kunjungjon.dat
+          id: 4afc8bd5
+          name: Lm5x6_KonjongjonHall
+          size: 5x6
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -645,7 +685,7 @@ maxis/kunjungjon:
           waterPollution: 2
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/longfellow-castle:
@@ -658,8 +698,7 @@ maxis/longfellow-castle:
         - id: simtropolis/maxis-plugin-longfellow-castle
           include:
             - Longfellow Castle
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 100
           category: landmarks
           cost: 110000
@@ -677,7 +716,6 @@ maxis/longfellow-castle:
           pollutionRadius: 1
           rating: 10
           ratingRadius: 256
-          size: 13x12
           waterPollution: 1
           waterPollutionRadius: 2
         - bulldoze: 100
@@ -697,10 +735,21 @@ maxis/longfellow-castle:
           pollutionRadius: 1
           rating: 10
           ratingRadius: 256
-          size: 13x12
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 0d4fdea6
+          filename: Longfellow Castle/CastleSet.dat
+          id: 0d4fdea6
+          name: Longfellow Castle
+          size: 13x12
+        - building: 4d50ba18
+          filename: Longfellow Castle/Longfellow Castle_4d50ba18.SC4Lot
+          id: 4d50ba18
+          name: Longfellow Castle
+          size: 13x12
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/luckys-hang-ten:
@@ -711,26 +760,32 @@ maxis/luckys-hang-ten:
     default:
       assets:
         - id: simtropolis/maxis-plugin-036-luckys-hang-ten
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8100
+          category: landmarks,religion
           cost: 90000
           filename: Plugin_036_LuckysHangTen.dat
           flamability: 39
           garbage: 3
-          id: cea1e6b4
+          id: '04840000'
           maintenance: 180
-          name: LM3x2_LuckysHangTen
+          name: Lm26x22_LuckysHangTen_0484
           pollution: 1
           pollutionRadius: 1
           power: 10
           rating: 7
           ratingRadius: 256
-          size: 3x2
           water: 9
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04840000'
+          filename: Plugin_036_LuckysHangTen.dat
+          id: cea1e6b4
+          name: LM3x2_LuckysHangTen
+          size: 3x2
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/maxis-buildings-as-props:
@@ -762,7 +817,7 @@ maxis/maxis-buildings-as-props:
           include:
             - Maxis DLC Props.dat
       lastModified: 2023-12-06T15:41:39.000Z
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 2.1.0
 
 maxis/mayflower-port:
@@ -773,26 +828,32 @@ maxis/mayflower-port:
     default:
       assets:
         - id: simtropolis/maxis-plugin-032-mayflower-port
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 5850
+          category: landmarks
           cost: 65000
           filename: Plugin_032_MayflowerPort.dat
           flamability: 21
           garbage: 9
-          id: acae3f0c
+          id: '04880000'
           maintenance: 130
-          name: Lm4x3_Mayflower
+          name: Lm50x46_Mayflower_0488
           pollution: 2
           pollutionRadius: 2
           power: 50
           rating: 5
           ratingRadius: 256
-          size: 4x3
           water: 250
           waterPollution: 2
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04880000'
+          filename: Plugin_032_MayflowerPort.dat
+          id: acae3f0c
+          name: Lm4x3_Mayflower
+          size: 4x3
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/namdaemun:
@@ -803,26 +864,30 @@ maxis/namdaemun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-009-namdaemun
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 5850
           cost: 65000
           filename: Plugin_009_NamDaeMoon.dat
           flamability: 10
           garbage: 4
-          id: 8af9d28c
+          id: 04b90000
           maintenance: 130
-          name: Lm4x4_NamDaeMoon
+          name: Lm64x64_NamDaeMoon_04B9
           power: 10
           rating: 8
           ratingRadius: 256
-          replace: 8af9d28c
-          size: 4x4
           water: 10
           waterPollution: 2
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b90000
+          filename: Plugin_009_NamDaeMoon.dat
+          id: 8af9d28c
+          name: Lm4x4_NamDaeMoon
+          size: 4x4
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -856,7 +921,7 @@ maxis/namdaemun:
           waterPollution: 2
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/parthenon:
@@ -867,27 +932,31 @@ maxis/parthenon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00D-parthenon
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 6750
           category: landmarks
           cost: 60000
           filename: Plugin_00D_Parthenon.dat
           flamability: 35
           garbage: 2
-          id: cb68c0df
+          id: 04b60000
           maintenance: 120
-          name: Lm4x7_Parthenon
+          name: Lm32x68_Parthenon_04B6
           power: 2
           rating: 7
           ratingRadius: 256
-          replace: cb68c0df
-          size: 3x5
           water: 5
           waterPollution: 1
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b60000
+          filename: Plugin_00D_Parthenon.dat
+          id: cb68c0df
+          name: Lm4x7_Parthenon
+          size: 3x5
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -922,7 +991,7 @@ maxis/parthenon:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/rockefeller-center:
@@ -933,29 +1002,33 @@ maxis/rockefeller-center:
     default:
       assets:
         - id: simtropolis/maxis-plugin-033-rockefeller-center
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8100
-          category: landmarks
+          category: landmarks,religion
           cost: 90000
           filename: Plugin_033_RockefellerCenter.dat
           flamability: 39
           garbage: 3
-          id: 8ccf053d
+          id: '04870000'
           maintenance: 180
-          name: LM4x4_RockefellerCtr
+          name: Lm58x75_RockefellerCtr_0487
           pollution: 1
           pollutionRadius: 1
           power: 10
           rating: 7
           ratingRadius: 256
-          replace: 8ccf053d
-          size: 4x13
           water: 9
           waterPollution: 1
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04870000'
+          filename: Plugin_033_RockefellerCenter.dat
+          id: 8ccf053d
+          name: LM4x4_RockefellerCtr
+          size: 4x13
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -991,7 +1064,7 @@ maxis/rockefeller-center:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/sagrada-familia:
@@ -1002,27 +1075,30 @@ maxis/sagrada-familia:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00F-temple-expiatiori
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8550
-          category: landmarks
           cost: 95000
           filename: Plugin_00F_TempleExpiatiori.dat
           flamability: 16
           garbage: 5
-          id: 6bce41a2
+          id: 04b40000
           maintenance: 180
-          name: LM12x12_sagradafamilia
+          name: LM80x80_sagradafamilia_04B4
           pollution: 1
           pollutionRadius: 2
           rating: 5
           ratingRadius: 256
-          replace: 6bce41a2
-          size: 5x5
           waterPollution: 1
           waterPollutionRadius: 3
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b40000
+          filename: Plugin_00F_TempleExpiatiori.dat
+          id: 6bce41a2
+          name: LM12x12_sagradafamilia
+          size: 5x5
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1057,7 +1133,7 @@ maxis/sagrada-familia:
           waterPollution: 1
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/san-francisco-city-hall:
@@ -1068,28 +1144,32 @@ maxis/san-francisco-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-017-san-francisco-city-hall
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4950
           cost: 65000
           filename: Plugin_017_SanFranCityHall.dat
           flamability: 30
           garbage: 9
-          id: 0c83e29f
+          id: 04ac0000
           maintenance: 130
-          name: LM11x7_SanFranciscoCityHall
+          name: LM166x112_SanFranCityHall_04AC
           pollution: 4
           pollutionRadius: 2
           power: 200
           rating: 5
           ratingRadius: 256
-          replace: 0c83e29f
-          size: 11x7
           water: 200
           waterPollution: 3
           waterPollutionRadius: 3
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04ac0000
+          filename: Plugin_017_SanFranCityHall.dat
+          id: 0c83e29f
+          name: LM11x7_SanFranciscoCityHall
+          size: 11x7
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1125,7 +1205,7 @@ maxis/san-francisco-city-hall:
           waterPollution: 3
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/schloss-schoenbrun:
@@ -1136,28 +1216,32 @@ maxis/schloss-schoenbrun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00E-schloss-schoenbrun
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 5850
           cost: 95000
           filename: Plugin_00E_SchlossSchoenbrun.dat
           flamability: 34
           garbage: 4
-          id: eb4e47b4
+          id: 04b50000
           maintenance: 180
-          name: Lm11x6_SchlossSchoenbrun
+          name: Lm61x48_SchlossSchoenbrun_04B5
           pollution: 1
           pollutionRadius: 2
           power: 25
           rating: 6
           ratingRadius: 256
-          replace: eb4e47b4
-          size: 11x6
           water: 60
           waterPollution: 1
           waterPollutionRadius: 3
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04b50000
+          filename: Plugin_00E_SchlossSchoenbrun.dat
+          id: eb4e47b4
+          name: Lm11x6_SchlossSchoenbrun
+          size: 11x6
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1193,7 +1277,7 @@ maxis/schloss-schoenbrun:
           waterPollution: 1
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/seoul-city-hall:
@@ -1204,29 +1288,32 @@ maxis/seoul-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-004-seoul-city-hall
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4950
-          category: landmarks
           cost: 65000
           filename: Plugin_004_SeoulCityHall.dat
           flamability: 30
           garbage: 9
-          id: 2ac40624
+          id: 04c30000
           maintenance: 130
-          name: LM6x6_SeoulCityHallSquare
+          name: LM80x64_SeoulCityHallSquare_04C3
           pollution: 4
           pollutionRadius: 2
           power: 200
           rating: 5
           ratingRadius: 256
-          replace: 2ac40624
-          size: 6x5
           water: 200
           waterPollution: 3
           waterPollutionRadius: 3
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04c30000
+          filename: Plugin_004_SeoulCityHall.dat
+          id: 2ac40624
+          name: LM6x6_SeoulCityHallSquare
+          size: 6x5
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1263,7 +1350,7 @@ maxis/seoul-city-hall:
           waterPollution: 3
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/seoul-soccer-stadium:
@@ -1274,29 +1361,32 @@ maxis/seoul-soccer-stadium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-005-seoul-soccer-stadium
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4950
-          category: landmarks
           cost: 160000
           filename: Plugin_005_SeoulSoccerStad.dat
           flamability: 34
           garbage: 65
-          id: 4ac40971
+          id: 04c20000
           maintenance: 310
-          name: LM0x0_WorldCupFootballStadium
+          name: Lm239x215_WorldCupFootballStadium_04C2
           pollution: 4294967285
           pollutionRadius: 4
           power: 90
           rating: 5
           ratingRadius: 256
-          replace: 4ac40971
-          size: 15x15
           water: 100
           waterPollution: 10
           waterPollutionRadius: 6
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04c20000
+          filename: Plugin_005_SeoulSoccerStad.dat
+          id: 4ac40971
+          name: LM0x0_WorldCupFootballStadium
+          size: 15x15
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1333,7 +1423,7 @@ maxis/seoul-soccer-stadium:
           waterPollution: 10
           waterPollutionRadius: 6
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/shorty-burger:
@@ -1344,26 +1434,32 @@ maxis/shorty-burger:
     default:
       assets:
         - id: simtropolis/maxis-plugin-035-shorty-burger
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8100
+          category: landmarks,religion
           cost: 90000
           filename: Plugin_035_ShortyBurger.dat
           flamability: 39
           garbage: 3
-          id: 2e891faa
+          id: '04850000'
           maintenance: 180
-          name: LM3x3_ShortyBurger_2e891faa
+          name: LM30x20_ShortyBurger_0485
           pollution: 1
           pollutionRadius: 1
           power: 10
           rating: 7
           ratingRadius: 256
-          size: 2x3
           water: 9
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04850000'
+          filename: Plugin_035_ShortyBurger.dat
+          id: 2e891faa
+          name: LM3x3_ShortyBurger_2e891faa
+          size: 2x3
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/sobchak-lanes:
@@ -1374,27 +1470,32 @@ maxis/sobchak-lanes:
     default:
       assets:
         - id: simtropolis/maxis-plugin-034-sobchak-lanes
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8100
-          category: landmarks
+          category: landmarks,religion
           cost: 90000
           filename: Plugin_034_SobchakLanes.dat
           flamability: 39
           garbage: 3
-          id: ae52bebe
+          id: '04860000'
           maintenance: 180
-          name: Lm3x3_SobchakLanes
+          name: Lm32x24_SobchakLanes_0486
           pollution: 1
           pollutionRadius: 1
           power: 10
           rating: 7
           ratingRadius: 256
-          size: 3x3
           water: 9
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04860000'
+          filename: Plugin_034_SobchakLanes.dat
+          id: ae52bebe
+          name: Lm3x3_SobchakLanes
+          size: 3x3
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/stone-house:
@@ -1407,8 +1508,7 @@ maxis/stone-house:
         - id: simtropolis/maxis-plugin-stone-house
           include:
             - Stone House
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 500
           category: landmarks
           cost: 75000
@@ -1421,16 +1521,22 @@ maxis/stone-house:
           landmark: 40
           landmarkRadius: 20
           maintenance: 150
-          name: LM3x3_StoneHouse
+          name: StoneHouse
           pollution: 1
           pollutionRadius: 1
           rating: 10
           ratingRadius: 256
-          size: 3x3
           water: 8
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 0d1d6acb
+          filename: Stone House/LM3x3_StoneHouse_0d1d6acb.SC4Lot
+          id: 0d1d6acb
+          name: LM3x3_StoneHouse
+          size: 3x3
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/stonehenge:
@@ -1441,25 +1547,30 @@ maxis/stonehenge:
     default:
       assets:
         - id: simtropolis/maxis-plugin-016-stonehenge
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 5850
+          category: landmarks
           cost: 60000
           filename: Plugin_016_Stonehenge.dat
           garbage: 5
-          id: 4b61d755
+          id: 04ad0000
           maintenance: 10
-          name: LM6x6_Stonehenge
+          name: Lm48x48_Stonehenge_04AD
           pollution: 1
           pollutionRadius: 1
           rating: 5
           ratingRadius: 256
-          replace: 4b61d755
-          size: 6x6
           waterPollution: 1
           waterPollutionRadius: 1
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04ad0000
+          filename: Plugin_016_Stonehenge.dat
+          id: 4b61d755
+          name: LM6x6_Stonehenge
+          size: 6x6
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1492,7 +1603,7 @@ maxis/stonehenge:
           waterPollution: 1
           waterPollutionRadius: 1
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/taipei-art-museum:
@@ -1503,29 +1614,32 @@ maxis/taipei-art-museum:
     default:
       assets:
         - id: simtropolis/maxis-plugin-030-taipei-art-museum
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 8550
-          category: landmarks
           cost: 95000
           filename: Plugin_030_TaipeiArtMuseum.dat
           flamability: 27
           garbage: 20
-          id: 4c9fcb9f
+          id: '04900000'
           maintenance: 180
-          name: LM5x7_TaipeiArtMuseum
+          name: Lm80x110_TaipeiArtMuseum_0490
           pollution: 5
           pollutionRadius: 1
           power: 90
           rating: 9
           ratingRadius: 256
-          replace: 4c9fcb9f
-          size: 5x7
           water: 450
           waterPollution: 6
           waterPollutionRadius: 2
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: '04900000'
+          filename: Plugin_030_TaipeiArtMuseum.dat
+          id: 4c9fcb9f
+          name: LM5x7_TaipeiArtMuseum
+          size: 5x7
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1562,7 +1676,7 @@ maxis/taipei-art-museum:
           waterPollution: 6
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/temple-of-grutz:
@@ -1575,8 +1689,7 @@ maxis/temple-of-grutz:
         - id: simtropolis/maxis-plugin-temple-of-grutz
           include:
             - Temple of Grutz
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 500
           category: landmarks
           cost: 100000
@@ -1588,15 +1701,21 @@ maxis/temple-of-grutz:
           landmark: 75
           landmarkRadius: 33
           maintenance: 100
-          name: LM6x6_TempleOfGrutz
+          name: TempleOfGrutz
           pollution: 1
           pollutionRadius: 1
           rating: 50
           ratingRadius: 256
-          size: 6x6
           waterPollution: 1
           waterPollutionRadius: 2
-      release: 2024-11-18T10:30:47.575Z
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 2d1e7a9e
+          filename: Temple of Grutz/LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
+          id: 2d1e7a9e
+          name: LM6x6_TempleOfGrutz
+          size: 6x6
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
 
 maxis/the-living-mall:
@@ -1607,29 +1726,32 @@ maxis/the-living-mall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-002-the-living-mall
-      lastModified: 2024-11-18T09:48:18.355Z
-      lots:
+      buildings:
         - bulldoze: 4950
-          category: landmarks
           cost: 55000
           filename: Plugin_002_TheLivingMall.dat
           flamability: 35
           garbage: 11
-          id: 6ac4085b
+          id: 04c00000
           maintenance: 110
-          name: LM6x6_TheLivingMall
+          name: Lm80x80_TheLivingMall_04C0
           pollution: 10
           pollutionRadius: 4
           power: 800
           rating: 5
           ratingRadius: 256
-          replace: 6ac4085b
-          size: 6x6
           water: 850
           waterPollution: 12
           waterPollutionRadius: 5
+      lastModified: 2024-11-18T09:48:18.355Z
+      lots:
+        - building: 04c00000
+          filename: Plugin_002_TheLivingMall.dat
+          id: 6ac4085b
+          name: LM6x6_TheLivingMall
+          size: 6x6
       name: Original
-      release: 2024-11-18T10:30:47.575Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0
     functional:
       assets:
@@ -1666,5 +1788,5 @@ maxis/the-living-mall:
           waterPollution: 12
           waterPollutionRadius: 5
       name: With jobs
-      release: 2024-11-18T12:56:20.153Z
+      release: 2024-11-26T19:15:00.248Z
       version: 1.0.0

@@ -28,16 +28,60 @@ cougar2004/space-port-fix:
         - id: simtropolis/27340-space-port-fix-mod
           include:
             - Spaceport Fix Alt Mod.dat
+      buildings:
+        - bulldoze: 3900
+          category: rewards
+          cost: 96000
+          filename: Spaceport Fix Alt Mod.dat
+          flamability: 38
+          garbage: 10
+          id: '03840000'
+          maintenance: 300
+          name: RW80x60_launchpad_0384
+          pollution: 10
+          pollutionRadius: 3
+          power: 219
+          water: 248
+          waterPollution: 5
+          waterPollutionRadius: 4
       lastModified: 2012-03-05T22:34:01.000Z
+      lots:
+        - building: '03840000'
+          filename: Spaceport Fix Alt Mod.dat
+          id: 4bb1058d
+          name: RW5x4_launchpad
+          size: 7x6
       name: Alternate
-      release: 2024-11-14T11:12:26.794Z
+      release: 2024-11-26T19:33:14.419Z
       version: 1.0.0
     default:
       assets:
         - id: simtropolis/27340-space-port-fix-mod
           include:
             - Spaceport Fix Mod.dat
+      buildings:
+        - bulldoze: 4200
+          category: rewards
+          cost: 96000
+          filename: Spaceport Fix Mod.dat
+          flamability: 38
+          garbage: 10
+          id: '03840000'
+          maintenance: 400
+          name: RW80x60_launchpad_0384
+          pollution: 10
+          pollutionRadius: 3
+          power: 700
+          water: 360
+          waterPollution: 5
+          waterPollutionRadius: 4
       lastModified: 2012-03-05T02:14:26.000Z
+      lots:
+        - building: '03840000'
+          filename: Spaceport Fix Mod.dat
+          id: 4bb1058d
+          name: RW5x4_launchpad
+          size: 7x6
       name: Fix only
-      release: 2024-11-17T16:00:57.230Z
+      release: 2024-11-26T19:33:14.419Z
       version: 1.0.0
