@@ -31,7 +31,7 @@ maxis/63-building:
           name: Lm4x5_KoreaLifeBldg
           size: 4x5
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -66,7 +66,7 @@ maxis/63-building:
           waterPollution: 5
           waterPollutionRadius: 7
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/adler-planetarium:
@@ -103,7 +103,7 @@ maxis/adler-planetarium:
           name: LM6x6_adlerp
           size: 6x6
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -136,7 +136,7 @@ maxis/adler-planetarium:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/air-force-base:
@@ -147,6 +147,26 @@ maxis/air-force-base:
     default:
       assets:
         - id: simtropolis/maxis-plugin-007-air-force-base
+      buildings:
+        - bulldoze: 1000
+          category: rewards
+          filename: Plugin_007_AirForceBase.dat
+          flamability: 40
+          garbage: 10
+          id: 036f0000
+          jobs:
+            $: 45
+          name: RW36x14_AFB_Control_Tower_036F0000
+          pollution: 2
+          pollutionRadius: 3
+          power: 100
+          rating: 4294967289
+          ratingRadius: 440
+          relief:
+            im: 100000
+          water: 150
+          waterPollution: 3
+          waterPollutionRadius: 4
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         - building: 036f0000
@@ -154,7 +174,7 @@ maxis/air-force-base:
           id: 0ade2f1b
           name: RW10x10_AirForceBase
           size: 10x29
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/arc-de-triomphe:
@@ -189,7 +209,7 @@ maxis/arc-de-triomphe:
           name: LM3x3_ArcTriomphe
           size: 3x3
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -225,7 +245,7 @@ maxis/arc-de-triomphe:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
   warnings:
     - id: inconsistentVariantLotIds
@@ -265,7 +285,7 @@ maxis/brandenburg-gate:
           name: LM5x7_BrandenburgGate
           size: 5x7
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -302,7 +322,7 @@ maxis/brandenburg-gate:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/capitol-records:
@@ -338,7 +358,7 @@ maxis/capitol-records:
           name: Lm5x5_CapitolRecordsBuilding
           size: 5x5
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -374,7 +394,7 @@ maxis/capitol-records:
           waterPollution: 4
           waterPollutionRadius: 5
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/day-of-peace:
@@ -386,7 +406,7 @@ maxis/day-of-peace:
       assets:
         - id: simtropolis/maxis-day-of-peace
       lastModified: 2024-11-18T09:48:18.355Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/globe-arena:
@@ -422,7 +442,7 @@ maxis/globe-arena:
           name: LM11x8_GlobeArena
           size: 11x8
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -459,7 +479,7 @@ maxis/globe-arena:
           waterPollution: 3
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/grand-central-station:
@@ -496,7 +516,7 @@ maxis/grand-central-station:
           name: LM7x8_GrandCentral
           size: 7x8
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -532,7 +552,7 @@ maxis/grand-central-station:
           waterPollution: 4
           waterPollutionRadius: 5
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/grutze-industries:
@@ -572,7 +592,7 @@ maxis/grutze-industries:
           id: 2d217719
           name: LM4x5_GrutzeInd
           size: 4x5
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/grutzehaus:
@@ -612,7 +632,7 @@ maxis/grutzehaus:
           id: ed2174a0
           name: LM2x3_Grutzehaus
           size: 2x3
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/kunjungjon:
@@ -649,7 +669,7 @@ maxis/kunjungjon:
           name: Lm5x6_KonjongjonHall
           size: 5x6
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -685,7 +705,7 @@ maxis/kunjungjon:
           waterPollution: 2
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/longfellow-castle:
@@ -749,7 +769,7 @@ maxis/longfellow-castle:
           id: 4d50ba18
           name: Longfellow Castle
           size: 13x12
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/luckys-hang-ten:
@@ -785,7 +805,7 @@ maxis/luckys-hang-ten:
           id: cea1e6b4
           name: LM3x2_LuckysHangTen
           size: 3x2
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/maxis-buildings-as-props:
@@ -817,7 +837,7 @@ maxis/maxis-buildings-as-props:
           include:
             - Maxis DLC Props.dat
       lastModified: 2023-12-06T15:41:39.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.1.0
 
 maxis/mayflower-port:
@@ -853,7 +873,7 @@ maxis/mayflower-port:
           id: acae3f0c
           name: Lm4x3_Mayflower
           size: 4x3
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/namdaemun:
@@ -887,7 +907,7 @@ maxis/namdaemun:
           name: Lm4x4_NamDaeMoon
           size: 4x4
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -921,7 +941,7 @@ maxis/namdaemun:
           waterPollution: 2
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/parthenon:
@@ -956,7 +976,7 @@ maxis/parthenon:
           name: Lm4x7_Parthenon
           size: 3x5
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -991,7 +1011,7 @@ maxis/parthenon:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/rockefeller-center:
@@ -1028,7 +1048,7 @@ maxis/rockefeller-center:
           name: LM4x4_RockefellerCtr
           size: 4x13
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1064,7 +1084,7 @@ maxis/rockefeller-center:
           waterPollution: 1
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/sagrada-familia:
@@ -1098,7 +1118,7 @@ maxis/sagrada-familia:
           name: LM12x12_sagradafamilia
           size: 5x5
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1133,7 +1153,7 @@ maxis/sagrada-familia:
           waterPollution: 1
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/san-francisco-city-hall:
@@ -1169,7 +1189,7 @@ maxis/san-francisco-city-hall:
           name: LM11x7_SanFranciscoCityHall
           size: 11x7
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1205,7 +1225,7 @@ maxis/san-francisco-city-hall:
           waterPollution: 3
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/schloss-schoenbrun:
@@ -1241,7 +1261,7 @@ maxis/schloss-schoenbrun:
           name: Lm11x6_SchlossSchoenbrun
           size: 11x6
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1277,7 +1297,7 @@ maxis/schloss-schoenbrun:
           waterPollution: 1
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/seoul-city-hall:
@@ -1313,7 +1333,7 @@ maxis/seoul-city-hall:
           name: LM6x6_SeoulCityHallSquare
           size: 6x5
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1350,7 +1370,7 @@ maxis/seoul-city-hall:
           waterPollution: 3
           waterPollutionRadius: 3
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/seoul-soccer-stadium:
@@ -1386,7 +1406,7 @@ maxis/seoul-soccer-stadium:
           name: LM0x0_WorldCupFootballStadium
           size: 15x15
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1423,7 +1443,7 @@ maxis/seoul-soccer-stadium:
           waterPollution: 10
           waterPollutionRadius: 6
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/shorty-burger:
@@ -1459,7 +1479,7 @@ maxis/shorty-burger:
           id: 2e891faa
           name: LM3x3_ShortyBurger_2e891faa
           size: 2x3
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/sobchak-lanes:
@@ -1495,7 +1515,7 @@ maxis/sobchak-lanes:
           id: ae52bebe
           name: Lm3x3_SobchakLanes
           size: 3x3
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/stone-house:
@@ -1536,7 +1556,7 @@ maxis/stone-house:
           id: 0d1d6acb
           name: LM3x3_StoneHouse
           size: 3x3
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/stonehenge:
@@ -1570,7 +1590,7 @@ maxis/stonehenge:
           name: LM6x6_Stonehenge
           size: 6x6
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1603,7 +1623,7 @@ maxis/stonehenge:
           waterPollution: 1
           waterPollutionRadius: 1
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/taipei-art-museum:
@@ -1639,7 +1659,7 @@ maxis/taipei-art-museum:
           name: LM5x7_TaipeiArtMuseum
           size: 5x7
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1676,7 +1696,7 @@ maxis/taipei-art-museum:
           waterPollution: 6
           waterPollutionRadius: 2
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/temple-of-grutz:
@@ -1715,7 +1735,7 @@ maxis/temple-of-grutz:
           id: 2d1e7a9e
           name: LM6x6_TempleOfGrutz
           size: 6x6
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 maxis/the-living-mall:
@@ -1751,7 +1771,7 @@ maxis/the-living-mall:
           name: LM6x6_TheLivingMall
           size: 6x6
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     functional:
       assets:
@@ -1788,5 +1808,5 @@ maxis/the-living-mall:
           waterPollution: 12
           waterPollutionRadius: 5
       name: With jobs
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0

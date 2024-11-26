@@ -36,11 +36,17 @@ cougar2004/space-port-fix:
           flamability: 38
           garbage: 10
           id: '03840000'
+          jobs:
+            $: 8
+            $$: 104
+            $$$: 16
           maintenance: 300
           name: RW80x60_launchpad_0384
           pollution: 10
           pollutionRadius: 3
           power: 219
+          relief:
+            iht: 150000
           water: 248
           waterPollution: 5
           waterPollutionRadius: 4
@@ -52,7 +58,7 @@ cougar2004/space-port-fix:
           name: RW5x4_launchpad
           size: 7x6
       name: Alternate
-      release: 2024-11-26T19:33:14.419Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
     default:
       assets:
@@ -67,11 +73,15 @@ cougar2004/space-port-fix:
           flamability: 38
           garbage: 10
           id: '03840000'
+          jobs:
+            $$: 100
           maintenance: 400
           name: RW80x60_launchpad_0384
           pollution: 10
           pollutionRadius: 3
           power: 700
+          relief:
+            iht: 150000
           water: 360
           waterPollution: 5
           waterPollutionRadius: 4
@@ -83,5 +93,5 @@ cougar2004/space-port-fix:
           name: RW5x4_launchpad
           size: 7x6
       name: Fix only
-      release: 2024-11-26T19:33:14.419Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0

@@ -15,7 +15,7 @@ jeronij/cpt-tree-props:
           include:
             - BSC Prop Pack - JRJ CPT Trees*.dat
       lastModified: 2024-08-21T22:51:45.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/mega-props-vol01:
@@ -33,7 +33,7 @@ jeronij/mega-props-vol01:
           include:
             - BSC MEGA Props - JRJ Vol01*.dat
       lastModified: 2023-11-11T16:29:27.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/mega-props-vol02:
@@ -52,7 +52,7 @@ jeronij/mega-props-vol02:
           include:
             - BSC MEGA Props - JRJ Vol02*.dat
       lastModified: 2024-08-21T22:51:45.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/mega-props-vol03:
@@ -71,7 +71,7 @@ jeronij/mega-props-vol03:
           include:
             - BSC MEGA Props - JRJ Vol03*.dat
       lastModified: 2024-08-21T22:51:45.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/mega-props-vol04:
@@ -90,7 +90,7 @@ jeronij/mega-props-vol04:
           include:
             - BSC MEGA Props - JRJ Vol04*.dat
       lastModified: 2024-08-21T22:51:45.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/mega-props-vol05:
@@ -109,7 +109,7 @@ jeronij/mega-props-vol05:
           include:
             - BSC MEGA Props - JRJ Vol05*.dat
       lastModified: 2024-08-21T22:51:45.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/mega-props-vol06:
@@ -128,7 +128,7 @@ jeronij/mega-props-vol06:
           include:
             - BSC MEGA Props - JRJ Vol06*.dat
       lastModified: 2024-08-21T22:51:45.000Z
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 jeronij/ship-pack:
@@ -196,6 +196,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -210,6 +214,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -224,6 +232,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -238,6 +250,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -252,6 +268,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -266,20 +286,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
-          water: 5
-          waterPollution: 1
-          waterPollutionRadius: 1
-        - bulldoze: 5
-          category: landmarks
-          cost: 7
-          filename: Jeronij/JRJ Ships Compilation/Juan J. Sister/JRJ Sister_90be0bd3.SC4Lot
-          id: 90be0bd3
-          maintenance: 1
-          name: JRJ Sister
-          pollution: -5
-          pollutionRadius: 3
-          rating: 10
-          ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -294,6 +304,10 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -308,34 +322,28 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
         - bulldoze: 5
           category: landmarks
           cost: 7
-          filename: Jeronij/JRJ Ships Compilation/Ned Lloyd/JRJ Nedlloyd01_90c1db9e.SC4Lot
-          id: 90c1db9e
+          filename: Jeronij/JRJ Ships Compilation/Juan J. Sister/JRJ Sister_90be0bd3.SC4Lot
+          id: 90be0bd3
           maintenance: 1
-          name: JRJ Ned Lloyd
+          name: JRJ Sister
           pollution: -5
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
-          water: 5
-          waterPollution: 1
-          waterPollutionRadius: 1
-        - bulldoze: 5
-          category: landmarks
-          cost: 7
-          filename: Jeronij/JRJ Ships Compilation/Ned Lloyd/JRJ Nedlloyd02_90c204fd.SC4Lot
-          id: 90c204fd
-          maintenance: 1
-          name: JRJ Ned Lloyd Full
-          pollution: -5
-          pollutionRadius: 3
-          rating: 10
-          ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -350,6 +358,46 @@ jeronij/ship-pack:
           pollutionRadius: 3
           rating: 10
           ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 1
+        - bulldoze: 5
+          category: landmarks
+          cost: 7
+          filename: Jeronij/JRJ Ships Compilation/Ned Lloyd/JRJ Nedlloyd01_90c1db9e.SC4Lot
+          id: 90c1db9e
+          maintenance: 1
+          name: JRJ Ned Lloyd
+          pollution: -5
+          pollutionRadius: 3
+          rating: 10
+          ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 1
+        - bulldoze: 5
+          category: landmarks
+          cost: 7
+          filename: Jeronij/JRJ Ships Compilation/Ned Lloyd/JRJ Nedlloyd02_90c204fd.SC4Lot
+          id: 90c204fd
+          maintenance: 1
+          name: JRJ Ned Lloyd Full
+          pollution: -5
+          pollutionRadius: 3
+          rating: 10
+          ratingRadius: 256
+          relief:
+            r$: 250
+            r$$: 250
+            r$$$: 250
           water: 5
           waterPollution: 1
           waterPollutionRadius: 1
@@ -385,11 +433,6 @@ jeronij/ship-pack:
           id: d0bf0a44
           name: JRJ Toyama3 red
           size: 10x1
-        - building: 90be0bd3
-          filename: Jeronij/JRJ Ships Compilation/Juan J. Sister/JRJ Sister_90be0bd3.SC4Lot
-          id: 90be0bd3
-          name: JRJ Sister
-          size: 3x1
         - building: f0c045df
           filename: Jeronij/JRJ Ships Compilation/JRJ Maritime Toyama Yellow/JRJ Toyama3 yellow Full_f0c045df.SC4Lot
           id: f0c045df
@@ -400,6 +443,16 @@ jeronij/ship-pack:
           id: d0bf0413
           name: JRJ Toyama3 yellow
           size: 10x1
+        - building: 90be0bd3
+          filename: Jeronij/JRJ Ships Compilation/Juan J. Sister/JRJ Sister_90be0bd3.SC4Lot
+          id: 90be0bd3
+          name: JRJ Sister
+          size: 3x1
+        - building: 70b5cb20
+          filename: Jeronij/JRJ Ships Compilation/RMS Titanic/JRJ Titanic_70b5cb20.SC4Lot
+          id: 70b5cb20
+          name: JRJ Titanic
+          size: 1x1
         - building: 90c1db9e
           filename: Jeronij/JRJ Ships Compilation/Ned Lloyd/JRJ Nedlloyd01_90c1db9e.SC4Lot
           id: 90c1db9e
@@ -410,10 +463,5 @@ jeronij/ship-pack:
           id: 90c204fd
           name: JRJ Nedlloyd02
           size: 5x1
-        - building: 70b5cb20
-          filename: Jeronij/JRJ Ships Compilation/RMS Titanic/JRJ Titanic_70b5cb20.SC4Lot
-          id: 70b5cb20
-          name: JRJ Titanic
-          size: 1x1
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0

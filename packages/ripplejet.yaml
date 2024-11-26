@@ -7,6 +7,10 @@ ripplejet/census-repository-building:
       flamability: 38
       garbage: 47
       id: 6471f58b
+      jobs:
+        $: 10
+        $$: 70
+        $$$: 5
       landmark: 40
       landmarkRadius: 20
       maintenance: 400
@@ -16,6 +20,15 @@ ripplejet/census-repository-building:
       power: 84
       rating: 10
       ratingRadius: 256
+      relief:
+        co$$: 10000
+        co$$$: 10000
+        id: 10000
+        iht: 10000
+        im: 10000
+        r$: 10000
+        r$$: 10000
+        r$$$: 10000
       water: 84
       waterPollution: 3
       waterPollutionRadius: 4
@@ -26,11 +39,15 @@ ripplejet/census-repository-building:
       flamability: 38
       garbage: 5
       id: 645e467b
+      jobs:
+        $$: 5
       maintenance: 50
       name: Census Repository Vault
       pollution: 1
       pollutionRadius: 3
       power: 8
+      relief:
+        ir: 30000
       water: 8
       waterPollution: 1
       waterPollutionRadius: 4
@@ -59,7 +76,7 @@ ripplejet/census-repository-building:
             - BSC/Ripplejet/Census Repository
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 3.5.0
     more-demand-info:
       assets:
@@ -79,7 +96,7 @@ ripplejet/census-repository-building:
       disabled: true
       lastModified: 2024-05-08T04:10:48.000Z
       name: More Demand Info by Null 45
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       requirements:
         more-demand-info: true
       version: 3.5.0

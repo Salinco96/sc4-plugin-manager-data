@@ -40,6 +40,7 @@ null-45/auto-save:
         - exclude:
             - SC4AutoSave.ini
           id: github/0xC0000054/sc4-auto-save
+        - id: simtropolis/35761-sc4-auto-save
       lastModified: 2024-01-21T04:05:42.000Z
       logs: SC4AutoSave.log
       options:
@@ -72,7 +73,7 @@ null-45/auto-save:
           id: AutoSave.LogSaveEvents
           label: Enable save event logs
           type: boolean
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
 
 null-45/bulldoze-extensions:
@@ -100,9 +101,10 @@ null-45/bulldoze-extensions:
     default:
       assets:
         - id: github/0xC0000054/sc4-bulldoze-extensions
+        - id: simtropolis/36571-bulldoze-extensions-dll-plugin
       lastModified: 2024-11-26T16:35:44.974Z
       logs: SC4BulldozeExtensions.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/city-date-sync:
@@ -135,6 +137,7 @@ null-45/city-date-sync:
         - exclude:
             - SC4CityDateSync.ini
           id: github/0xC0000054/sc4-city-date-sync
+        - id: simtropolis/35782-sc4-city-date-sync
       lastModified: 2024-01-08T11:05:31.000Z
       logs: SC4CityDateSync.log
       options:
@@ -144,7 +147,7 @@ null-45/city-date-sync:
           filename: SC4CityDateSync.ini
           id: Admin.Enabled
           type: boolean
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.3
 
 null-45/city-lottery-ordinance:
@@ -213,6 +216,7 @@ null-45/city-lottery-ordinance:
         - exclude:
             - SC4CityLotteryOrdinance.ini
           id: github/0xC0000054/sc4-city-lottery-ordinance
+        - id: simtropolis/35871-city-lottery-ordinance
       lastModified: 2023-12-21T03:31:06.000Z
       logs: SC4CityLotteryOrdinance.log
       options:
@@ -269,7 +273,7 @@ null-45/city-lottery-ordinance:
           min: 1
           step: 1
           type: number
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/cpu-options:
@@ -319,6 +323,7 @@ null-45/cpu-options:
         - exclude:
             - SC4CPUOptions.ini
           id: github/0xC0000054/sc4-cpu-options
+        - id: simtropolis/36120-sc4-cpu-options
       lastModified: 2024-02-14T14:43:27.000Z
       logs: SC4CPUOptions.log
       options:
@@ -339,7 +344,7 @@ null-45/cpu-options:
           id: CPUOptions.Priority
           label: Priority
           type: string
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
 null-45/custom-budget-departments:
@@ -380,9 +385,10 @@ null-45/custom-budget-departments:
     default:
       assets:
         - id: github/0xC0000054/sc4-custom-budget-departments
+        - id: simtropolis/36481-custom-budget-departments-dll-plugin
       lastModified: 2024-10-04T22:22:34.000Z
       logs: CustomBudgetDepartments.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
 null-45/disable-cheats:
@@ -412,9 +418,10 @@ null-45/disable-cheats:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-cheats
+        - id: simtropolis/35759-sc4-disable-cheats
       lastModified: 2023-11-12T02:45:13.000Z
       logs: SC4DisableCheats.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/disable-demolition-animation:
@@ -445,9 +452,10 @@ null-45/disable-demolition-animation:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-demolition-animation
+        - id: simtropolis/36055-sc4-disable-demolition-animation
       lastModified: 2024-01-24T23:02:44.000Z
       logs: SC4DisableDemolitionAnimation.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/disable-lot-plop-smoke:
@@ -480,9 +488,10 @@ null-45/disable-lot-plop-smoke:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-lot-plop-smoke
+        - id: simtropolis/36126-sc4-disable-lot-plop-smoke
       lastModified: 2024-02-17T01:32:55.000Z
       logs: SC4DisableLotPlopSmoke.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/disable-network-construction-sounds:
@@ -517,9 +526,10 @@ null-45/disable-network-construction-sounds:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-network-construction-sounds
+        - id: simtropolis/36132-sc4-disable-network-construction-sounds
       lastModified: 2024-02-18T12:35:46.000Z
       logs: SC4DisableNetworkConstructionSounds.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/graphics-options:
@@ -581,6 +591,7 @@ null-45/graphics-options:
         - exclude:
             - SC4GraphicsOptions.ini
           id: github/0xC0000054/sc4-graphics-options
+        - id: simtropolis/36091-sc4-graphics-options
       lastModified: 2024-02-11T00:42:53.000Z
       logs: SC4GraphicsOptions.log
       options:
@@ -648,7 +659,7 @@ null-45/graphics-options:
           id: GraphicsOptions.ColorDepth
           label: Color depth
           type: number
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
 
 null-45/growify:
@@ -710,9 +721,10 @@ null-45/growify:
     default:
       assets:
         - id: github/0xC0000054/sc4-growify
+        - id: simtropolis/36180-growify-plopped-buildings-cheat-dll-plugin
       lastModified: 2024-05-23T05:03:06.000Z
       logs: SC4Growify.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
 null-45/humane-society-ordinance:
@@ -753,6 +765,7 @@ null-45/humane-society-ordinance:
         - exclude:
             - SC4HumaneSocietyOrdinance.ini
           id: github/0xC0000054/sc4-humane-society-ordinance
+        - id: simtropolis/35793-humane-society-ordinance
       lastModified: 2024-03-24T20:40:25.000Z
       logs: SC4HumaneSocietyOrdinance.log
       options:
@@ -772,7 +785,7 @@ null-45/humane-society-ordinance:
           id: Ordinance.Description
           label: Description
           type: string
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
 null-45/legalize-gambling-ordinance:
@@ -831,6 +844,7 @@ null-45/legalize-gambling-ordinance:
         - exclude:
             - SC4LegalizeGamblingUpgrade.ini
           id: github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
+        - id: simtropolis/35889-legalize-gambling-ordinance-upgrade
       lastModified: 2023-12-25T03:10:47.000Z
       logs: SC4LegalizeGamblingUpgrade.log
       options:
@@ -871,7 +885,7 @@ null-45/legalize-gambling-ordinance:
           min: 0.01
           step: 0.01
           type: number
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/more-building-styles:
@@ -1034,6 +1048,7 @@ null-45/more-building-styles:
           include:
             - BuildingStyles.ini
             - SC4MoreBuildingStyles.dll
+        - id: simtropolis/36112-allow-more-building-styles-dll-plugin
       lastModified: 2024-11-15T01:04:35.000Z
       logs: SC4MoreBuildingStyles.log
       options:
@@ -1061,7 +1076,7 @@ null-45/more-building-styles:
           label: Log return codes for various algorithm functions
           section: Debugging
           type: boolean
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 3.2.0
 
 null-45/more-demand-info:
@@ -1151,9 +1166,10 @@ null-45/more-demand-info:
           id: github/0xC0000054/sc4-more-demand-info
           include:
             - Dll
+        - id: simtropolis/35978-sc4-more-demand-info
       lastModified: 2024-05-08T04:10:48.000Z
       logs: SC4MoreDemandInfo.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
 
 null-45/no-kickout-lower-wealth:
@@ -1188,9 +1204,10 @@ null-45/no-kickout-lower-wealth:
     default:
       assets:
         - id: github/0xC0000054/sc4-no-kick-out
+        - id: simtropolis/36146-no-kickout-lower-wealth-dll-plugin
       lastModified: 2024-02-27T10:27:18.000Z
       logs: SC4NoKickOut.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/query-tool-ui-extensions:
@@ -1282,6 +1299,7 @@ null-45/query-tool-ui-extensions:
         - exclude:
             - SC4QueryUIHooks.ini
           id: github/0xC0000054/sc4-query-ui-hooks
+        - id: simtropolis/36202-query-tool-ui-extensions-dll-for-simcity-4
       lastModified: 2024-11-23T12:40:27.000Z
       logs: SC4QueryUIHooks.log
       options:
@@ -1301,7 +1319,7 @@ null-45/query-tool-ui-extensions:
           id: QueryUIHooks.LogBuildingPluginPath
           label: Log building plugin path
           type: boolean
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
 
 null-45/region-view-census:
@@ -1337,9 +1355,10 @@ null-45/region-view-census:
     default:
       assets:
         - id: github/0xC0000054/sc4-region-census
+        - id: simtropolis/36145-region-view-census-ui-dll-plugin
       lastModified: 2024-02-27T06:32:25.000Z
       logs: SC4RegionCensus.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
 null-45/remove-phantom-budget-items:
@@ -1388,9 +1407,10 @@ null-45/remove-phantom-budget-items:
     default:
       assets:
         - id: github/0xC0000054/sc4-remove-phantom-budget-items
+        - id: simtropolis/36437-remove-phantom-budget-items-dll-plugin
       lastModified: 2024-09-07T05:11:45.000Z
       logs: SC4RemovePhantomBudgetItems.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
 null-45/resource-loading-hooks:
@@ -1425,9 +1445,10 @@ null-45/resource-loading-hooks:
     default:
       assets:
         - id: github/0xC0000054/sc4-resource-loading-hooks
+        - id: simtropolis/36242-resource-loading-hooks-dll-for-simcity-4
       lastModified: 2024-06-26T13:34:16.000Z
       logs: SC4ResourceLoadingHooks.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
 null-45/startup-performance-optimization:
@@ -1482,7 +1503,8 @@ null-45/startup-performance-optimization:
     default:
       assets:
         - id: github/0xC0000054/sc4-dbpf-loading
+        - id: simtropolis/36244-startup-performance-optimization-dll-for-simcity-4
       lastModified: 2024-10-19T00:03:24.000Z
       logs: SC4DBPFLoading.log
-      release: 2024-11-26T19:15:00.248Z
+      release: 2024-11-26T21:04:04.961Z
       version: 1.0.4
