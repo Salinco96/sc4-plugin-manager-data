@@ -75,6 +75,36 @@ null-45/auto-save:
       release: 2024-11-18T09:50:48.294Z
       version: 1.2.0
 
+null-45/bulldoze-extensions:
+  category: mods,gameplay,dll
+  description: |-
+    A DLL Plugin for SimCity 4 that extends the bulldoze tool.
+
+    This plugin adds two new modes to the bulldoze tool that control which item types it demolishes.
+
+    **Flora Bulldoze Mode**
+
+    This mode is activated in the city view using a *Control + B* shortcut, this can be done with or without the bulldoze tool active. When the flora bulldoze mode is active, the bulldoze tool will only affect objects the game considers flora.
+
+    **Network Bulldoze Mode**
+
+    This mode is activated in the city view using a *Shift + B* shortcut, this can be done with or without the bulldoze tool active. When the network bulldoze mode is active, the bulldoze tool will only affect transportation networks (excluding power lines and water pipes).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/DemolishFloraNewIcon.jpg.48574c9f40be374411a20f1d5d386d61.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/DemolishNetworkNewIcon.jpg.ec298214a6c6106e1edee280ef08b7bf.jpg
+  name: Bulldoze Extensions DLL
+  repository: https://github.com/0xC0000054/sc4-bulldoze-extensions
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/STEXIcon.thumb.png.f8c1f6edc887880bfa781d6903756114.png
+  url: https://community.simtropolis.com/files/file/36571-bulldoze-extensions-dll-plugin/
+  variants:
+    default:
+      assets:
+        - id: github/0xC0000054/sc4-bulldoze-extensions
+      lastModified: 2024-11-26T16:35:44.974Z
+      logs: SC4BulldozeExtensions.log
+      release: 2024-11-26T16:35:44.974Z
+      version: 1.0.0
+
 null-45/city-date-sync:
   category: gameplay,dll
   description: |-
@@ -1170,9 +1200,17 @@ null-45/query-tool-ui-extensions:
 
     For DLL developers, it also provides services that can be used to add more building query values and/or customize the building and network tool tips.
 
-    **Shift + Click Building Copying**
+    **Shift + Click Object Copying**
 
-    Holding down the Shift key when clicking a building will activate the Place Lot tool with the building's lot selected. Note that the exact building may be different if the lot uses Building Families.
+    Some objects can be copied by holding down the shift key and clicking on them with the query tool.
+
+    **Buildings**
+
+    Clicking a building will activate the Place Lot tool with the building's lot selected. Note that the exact building may be different if the lot uses Building Families.
+
+    **Flora**
+
+    Clicking certain flora types will activate the Place Flora tool with that flora type selected. Note that this only works with the flora objects that have a hover query tool tip.
 
     **New Building Query Variables**
 
@@ -1221,24 +1259,6 @@ null-45/query-tool-ui-extensions:
 
     This tool tip is accessed by holding *Control + Alt + Shift* when hovering over a network piece.
 
-    **SC4QueryUIHooks INI File**
-
-    This file contains the following options.
-
-    **EnableOccupantQuerySounds**
-
-    This option controls whether the query sounds are played when clicking on an item to open the query dialog or copy the lot, the default is *true*. The occupant query sound properties affected by this option are SFX:Query Sound, SFX:Query Sound Abandoned and SFX:Query Sound Decayed.
-
-    **LogBuildingPluginPath**
-
-    This option controls whether the building name and plugin file path will be written to the log file when the query dialog is opened, the default is *false*.
-
-    **Troubleshooting**
-
-    The plugin should write a *SC4QueryUIHooks.log* file in the same folder as the plugin.
-
-    The log contains status information for the most recent run of the plugin.
-
     **Source Code and Support**
 
     Plugin thread: https://community.simtropolis.com/forums/topic/763107-query-tool-ui-extensions-dll/
@@ -1248,6 +1268,7 @@ null-45/query-tool-ui-extensions:
     If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
 
     Thanks to the few people who have donated to me.
+  images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/CustomNetworkTooltip.jpg.2cbf9c5d0ac1069689147b7427fbeebc.jpg
   logs: SC4QueryUIHooks.log
   name: Query Tool UI Extensions DLL
@@ -1261,7 +1282,7 @@ null-45/query-tool-ui-extensions:
         - exclude:
             - SC4QueryUIHooks.ini
           id: github/0xC0000054/sc4-query-ui-hooks
-      lastModified: 2024-10-28T10:35:33.000Z
+      lastModified: 2024-11-23T12:40:27.000Z
       logs: SC4QueryUIHooks.log
       options:
         - condition:
@@ -1275,8 +1296,13 @@ null-45/query-tool-ui-extensions:
           id: QueryUIHooks.EnableOccupantQuerySounds
           label: Enable query sounds
           type: boolean
-      release: 2024-11-18T09:50:48.294Z
-      version: 1.9.0
+        - default: false
+          filename: SC4QueryUIHooks.ini
+          id: QueryUIHooks.LogBuildingPluginPath
+          label: Log building plugin path
+          type: boolean
+      release: 2024-11-26T16:10:02.088Z
+      version: 2.0.0
 
 null-45/region-view-census:
   category: mods,dll
