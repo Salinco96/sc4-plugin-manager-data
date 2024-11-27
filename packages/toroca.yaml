@@ -15,6 +15,7 @@ toroca/5x5-and-6x6-malls:
     default:
       assets:
         - id: simtropolis/2781-additional-5x5-and-6x6-mall-lots-v10
+      lastGenerated: 2024-11-26T21:04:04.961Z
       lastModified: 2004-03-19T14:40:39.000Z
       lots:
         - building: 4000003f
@@ -127,6 +128,7 @@ toroca/commercial-services-doubler:
             - condition:
                 small: x2
               path: ServicesDoubler.dat
+      lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2011-01-07T19:58:30.000Z
       options:
         - choices:
@@ -192,6 +194,7 @@ toroca/functional-landmarks:
         - id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
             - '{{landmarks}}.dat'
+      lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       options:
         - choices:
@@ -311,6 +314,7 @@ toroca/industry-quadrupler:
     default:
       assets:
         - id: simtropolis/21293-industry-quadrupler
+      lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2017-11-27T03:07:27.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 2.1.0
@@ -328,6 +332,7 @@ toroca/no-radiation-rewards:
         - id: simtropolis/21338-no-radiation-reward-v11
           include:
             - noradiation-{{rewards}}.dat
+      lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2003-10-20T23:00:00.000Z
       options:
         - choices:
@@ -359,6 +364,7 @@ toroca/opera-house-fix:
     default:
       assets:
         - id: simtropolis/21342-opera-house-fix
+      lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-31T00:00:00.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
@@ -381,6 +387,7 @@ toroca/toll-booth-booster:
         - id: simtropolis/21335-toll-booth-booster-v20
           include:
             - tollboothboost-{{capacity}}-fares{{fares}}-v2.dat
+      lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2003-10-20T23:00:00.000Z
       options:
         - choices:

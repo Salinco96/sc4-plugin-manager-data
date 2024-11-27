@@ -13,6 +13,7 @@ mikeseith/mega-props-vol01:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Mikeseith Vol01*.dat
+      lastGenerated: 2024-11-26T21:04:04.961Z
       lastModified: 2024-08-21T22:51:45.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -31,8 +32,9 @@ mikeseith/mega-props-vol02:
           id: sc4evermore/204-sc4d-lex-legacy-mikeseith-multi-level-modular-garages
           include:
             - BSC MEGA Props - Mikeseith Vol02*.dat
+      lastGenerated: 2024-11-27T11:30:00.349Z
       lastModified: 2023-12-06T10:26:15.000Z
-      release: 2024-11-26T21:04:04.961Z
+      release: 2024-11-27T11:30:00.349Z
       version: 2.0.0
 
 mikeseith/mega-props-vol03:
@@ -50,6 +52,7 @@ mikeseith/mega-props-vol03:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Mikeseith Vol03*.dat
+      lastGenerated: 2024-11-26T21:04:04.961Z
       lastModified: 2024-08-21T22:51:45.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -103,6 +106,7 @@ mikeseith/multi-level-modular-garages:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mikeseith 8 level garages1.JPG
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeith - airport shuttle.jpg
   name: SC4D LEX LEGACY - Mikeseith Multi-level Modular Garages
+  support: https://community.simtropolis.com/forums/topic/761517-mgbs-lil-bits
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeiths 2 garages front.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/204-sc4d-lex-legacy-mikeseith-multi-level-modular-garages
   variants:
@@ -125,20 +129,20 @@ mikeseith/multi-level-modular-garages:
             - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Dollar/Airport shuttle Dollar.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Enterprise/Airport shuttle Enterprise.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle laquinta/Airport shuttle laquinta.dat
-            - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Master park/Airport shuttle Master park.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Park N Go/Airport shuttle Park N Go.dat
+            - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Master park/Airport shuttle Master park.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Sheraton/Airport shuttle Sheraton.dat
-            - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Thrifty/Airport shuttle Thrifty.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport sprinter black/Airport sprinter black.dat
+            - mikeseith/Automatas/Airport Shuttles#/!Airport shuttle Thrifty/Airport shuttle Thrifty.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport sprinter budget/Airport sprinter budget.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport sprinter dollar/Airport sprinter dollar.dat
-            - mikeseith/Automatas/Airport Shuttles#/!Airport sprinter thrifty/Airport sprinter thrifty.dat
             - mikeseith/Automatas/Airport Shuttles#/!Airport sprinter white/Airport sprinter white.dat
+            - mikeseith/Automatas/Airport Shuttles#/!Airport sprinter thrifty/Airport sprinter thrifty.dat
             - mikeseith/Automatas/Airport Shuttles#/Airport Shuttles All-in-One/airport shuttles.dat
             - mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level Airport Shuttle_RTMT/zOpt_8 Level Airport Shuttle_RTMT.dat
             - mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level BusStop_RTMT/zOpt_8 Level BusStop_RTMT.dat
-            - mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
             - mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
+            - mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
       buildings:
         - bulldoze: 100
           category: bus
@@ -151,10 +155,12 @@ mikeseith/multi-level-modular-garages:
             $: 5
             $$: 2
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_AirportShuttleSpawn_RTMT
           pollution: 1
           pollutionRadius: 1
           power: 3
+          submenu: MiscTransit/Bus
           water: 2
           waterPollution: 3
           waterPollutionRadius: 1
@@ -169,10 +175,12 @@ mikeseith/multi-level-modular-garages:
             $: 5
             $$: 2
           maintenance: 5
+          menu: MiscTransit
           name: MS_8Lvl_BusStop_RTMT
           pollution: 1
           pollutionRadius: 1
           power: 3
+          submenu: MiscTransit/Bus
           water: 2
           waterPollution: 3
           waterPollutionRadius: 1
@@ -186,6 +194,7 @@ mikeseith/multi-level-modular-garages:
           landmark: 36
           landmarkRadius: 14
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_Entrance
           pollution: 1
           pollutionRadius: 1
@@ -200,6 +209,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 1
           id: dcf36951
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_Wall
           pollution: 1
           pollutionRadius: 1
@@ -212,6 +222,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 1
           id: fcf36d53
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_InnerCorner
           pollution: 1
           pollutionRadius: 1
@@ -223,6 +234,7 @@ mikeseith/multi-level-modular-garages:
           filename: mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
           id: 5cf37444
           maintenance: 10
+          menu: MiscTransit
           name: MS_8Lvl_OuterCorner
           pollution: 1
           pollutionRadius: 1
@@ -235,6 +247,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 1
           id: 5cf36e24
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_Ramp
           pollution: 1
           pollutionRadius: 1
@@ -246,6 +259,7 @@ mikeseith/multi-level-modular-garages:
           filename: mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
           id: bcf36894
           maintenance: 10
+          menu: MiscTransit
           name: MS_8Lvl_RampUp
           pollution: 1
           pollutionRadius: 1
@@ -257,6 +271,7 @@ mikeseith/multi-level-modular-garages:
           filename: mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
           id: bcf36100
           maintenance: 10
+          menu: MiscTransit
           name: MS_8Lvl_RampDown
           pollution: 1
           pollutionRadius: 1
@@ -270,6 +285,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 1
           id: 5cf36ce3
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_Elevator
           pollution: 1
           pollutionRadius: 1
@@ -281,6 +297,7 @@ mikeseith/multi-level-modular-garages:
           filename: mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
           id: dcf36a78
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_Centre (4 Car Row)
           pollution: 1
           pollutionRadius: 1
@@ -292,6 +309,7 @@ mikeseith/multi-level-modular-garages:
           filename: mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
           id: 3cf369e5
           maintenance: 20
+          menu: MiscTransit
           name: MS_8Lvl_Centre (5 Car Row)
           pollution: 1
           pollutionRadius: 1
@@ -304,6 +322,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 2
           id: bcf36f3c
           maintenance: 25
+          menu: MiscTransit
           name: MS_8Lvl_Bridge Edge A
           pollution: 2
           pollutionRadius: 1
@@ -318,6 +337,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 2
           id: dcf36fc8
           maintenance: 25
+          menu: MiscTransit
           name: MS_8Lvl_Bridge Edge B
           pollution: 2
           pollutionRadius: 1
@@ -332,6 +352,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 2
           id: 5cf37074
           maintenance: 25
+          menu: MiscTransit
           name: MS_8Lvl_Bridge Centre
           pollution: 2
           pollutionRadius: 1
@@ -346,6 +367,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 2
           id: 1cf37210
           maintenance: 25
+          menu: MiscTransit
           name: MS_8Lvl_Bridge Corner A
           pollution: 2
           pollutionRadius: 1
@@ -360,6 +382,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 2
           id: 3d205411
           maintenance: 25
+          menu: MiscTransit
           name: MS_8Lvl_Bridge Corner B
           pollution: 2
           pollutionRadius: 1
@@ -377,9 +400,11 @@ mikeseith/multi-level-modular-garages:
             $: 6
             $$: 2
           maintenance: 40
+          menu: Police
           name: MS_8Lvl_ParkingSecurity(Police)
           power: 1
           powerProduction: 1
+          submenu: Police/Small
           water: 1
         - bulldoze: 10
           category: transport
@@ -389,6 +414,7 @@ mikeseith/multi-level-modular-garages:
           garbage: 1
           id: 3962e3b9
           maintenance: 5
+          menu: MiscTransit
           name: MS_2Lvl_Entrance
           pollution: 1
           pollutionRadius: 1
@@ -401,18 +427,21 @@ mikeseith/multi-level-modular-garages:
           cost: 51
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: 9960bf4b
+          menu: MiscTransit
           name: MS_2Lvl_Wall (1 Row)
         - bulldoze: 10
           category: transport
           cost: 52
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: b960bedd
+          menu: MiscTransit
           name: MS_2Lvl_Wall (2 Rows)
         - bulldoze: 10
           category: transport
           cost: 53
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: 7960c078
+          menu: MiscTransit
           name: MS_2Lvl_Corner
           pollution: 1
           power: 1
@@ -422,6 +451,7 @@ mikeseith/multi-level-modular-garages:
           cost: 54
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: 5960c034
+          menu: MiscTransit
           name: MS_2Lvl_Corner w/Stairs
           pollution: 1
           power: 1
@@ -431,19 +461,23 @@ mikeseith/multi-level-modular-garages:
           cost: 55
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: 5960c0eb
+          menu: MiscTransit
           name: MS_2Lvl_Ramp
         - bulldoze: 10
           category: transport
           cost: 56
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: 1960bfda
+          menu: MiscTransit
           name: MS_2Lvl_Inside (1 Row)
         - bulldoze: 10
           category: transport
           cost: 57
           filename: mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
           id: 7960bf97
+          menu: MiscTransit
           name: MS_2Lvl_Inside (2 Rows)
+      lastGenerated: 2024-11-27T11:30:00.349Z
       lastModified: 2023-12-06T10:26:15.000Z
       lots:
         - building: dd0ef80b
