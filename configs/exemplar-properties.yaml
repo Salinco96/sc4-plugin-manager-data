@@ -1002,7 +1002,7 @@
 "0x27812840":
   desc: How much demand this building satisfies.
   items:
-    - choices: # TODO
+    - choices:
         - label: Amenities $
           value: 0x1810
         - label: Amenities $$
@@ -1015,10 +1015,20 @@
           value: 0x2020
         - label: Jobs $$$
           value: 0x2030
-        - label: Industrial High-Tech Cap
+        - label: CO$$ Cap
+          value: 0x3b20
+        - label: CO$$$ Cap
+          value: 0x3b30
+        - label: I-R Cap
+          value: 0x4900
+        - label: I-D Cap
+          value: 0x4a00
+        - label: I-M Cap
+          value: 0x4b00
+        - label: I-HT Cap
           value: 0x4c00
       name: Demand ID
-      # strict: true
+      strict: true
       unique: true
     - name: Demand Satisfied
   name: Demand Satisfied
@@ -1029,7 +1039,7 @@
 "0x27812841":
   desc: How much demand this building creates.
   items:
-    - choices: # TODO
+    - choices:
         - label: Amenities $
           value: 0x1810
         - label: Amenities $$
@@ -1043,7 +1053,7 @@
         - label: Jobs $$$
           value: 0x2030
       name: Demand ID
-      # strict: true
+      strict: true
       unique: true
     - name: Demand Created
   name: Demand Created

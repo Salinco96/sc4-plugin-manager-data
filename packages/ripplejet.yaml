@@ -14,6 +14,7 @@ ripplejet/census-repository-building:
       landmark: 40
       landmarkRadius: 20
       maintenance: 400
+      menu: Rewards
       name: Census Repository Facility V3
       pollution: 3
       pollutionRadius: 3
@@ -29,6 +30,7 @@ ripplejet/census-repository-building:
         r$: 10000
         r$$: 10000
         r$$$: 10000
+      submenu: Landmarks/Government,Rewards
       water: 84
       waterPollution: 3
       waterPollutionRadius: 4
@@ -42,12 +44,14 @@ ripplejet/census-repository-building:
       jobs:
         $$: 5
       maintenance: 50
+      menu: Rewards
       name: Census Repository Vault
       pollution: 1
       pollutionRadius: 3
       power: 8
       relief:
         ir: 30000
+      submenu: Landmarks/Government,Rewards
       water: 8
       waterPollution: 1
       waterPollutionRadius: 4
@@ -76,7 +80,7 @@ ripplejet/census-repository-building:
             - BSC/Ripplejet/Census Repository
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
-      release: 2024-11-26T21:04:04.961Z
+      release: 2024-11-27T09:00:58.547Z
       version: 3.5.0
     more-demand-info:
       assets:
@@ -96,7 +100,8 @@ ripplejet/census-repository-building:
       disabled: true
       lastModified: 2024-05-08T04:10:48.000Z
       name: More Demand Info by Null 45
-      release: 2024-11-26T21:04:04.961Z
+      release: 2024-11-27T09:00:58.547Z
       requirements:
         more-demand-info: true
+      support: https://community.simtropolis.com/forums/topic/762906-sc4moredemandinfo
       version: 3.5.0
