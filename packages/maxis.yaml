@@ -42,6 +42,29 @@ maxis/63-building:
           include:
             - path: 63Building.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 9900
+          capacity:
+            co$$: 2825
+          category: landmarks
+          cost: 110000
+          filename: 63Building.dat
+          flamability: 10
+          garbage: 39
+          id: 04b80000
+          maintenance: 210
+          menu: Landmarks
+          name: Lm64x72_KoreaLifeBldg_04B8
+          pollution: 5
+          pollutionRadius: 6
+          power: 600
+          rating: 8
+          ratingRadius: 256
+          water: 1300
+          waterPollution: 5
+          waterPollutionRadius: 7
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -119,6 +142,30 @@ maxis/adler-planetarium:
           include:
             - path: AdlerPlanetarium.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 8100
+          capacity:
+            cs$: 15
+            cs$$: 15
+          category: landmarks
+          cost: 90000
+          filename: AdlerPlanetarium.dat
+          flamability: 18
+          garbage: 6
+          id: '04890000'
+          maintenance: 180
+          menu: Landmarks
+          name: LM96x96_AdlerPlanetarium_0489
+          pollution: 1
+          pollutionRadius: 1
+          power: 25
+          rating: 7
+          ratingRadius: 256
+          water: 45
+          waterPollution: 1
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -231,6 +278,29 @@ maxis/arc-de-triomphe:
           include:
             - path: ArcDeTriomphe.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4950
+          capacity:
+            cs$: 8
+            cs$$: 8
+          category: landmarks
+          cost: 55000
+          filename: ArcDeTriomphe.dat
+          garbage: 5
+          id: 04c10000
+          maintenance: 110
+          menu: Landmarks
+          name: Lm38x22_ArcTriomphe_04C1
+          pollution: 1
+          pollutionRadius: 1
+          power: 1
+          rating: 15
+          ratingRadius: 256
+          water: 1
+          waterPollution: 1
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -312,6 +382,30 @@ maxis/brandenburg-gate:
           include:
             - path: BrandenburgGate.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 5850
+          capacity:
+            cs$: 7
+            cs$$: 7
+          category: landmarks
+          cost: 60000
+          filename: BrandenburgGate.dat
+          flamability: 34
+          garbage: 5
+          id: 04b70000
+          maintenance: 120
+          menu: Landmarks
+          name: Lm72x34_BrandenburgGate_04B7
+          pollution: 1
+          pollutionRadius: 1
+          power: 2
+          rating: 6
+          ratingRadius: 256
+          water: 3
+          waterPollution: 1
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -389,6 +483,29 @@ maxis/capitol-records:
           include:
             - path: CapitolRecordsBuilding.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4500
+          capacity:
+            co$$: 531
+          category: landmarks
+          cost: 50000
+          filename: CapitolRecordsBuilding.dat
+          flamability: 34
+          garbage: 10
+          id: 04b10000
+          maintenance: 100
+          menu: Landmarks
+          name: Lm80x48_CapitolRecordsBuilding_04B1
+          pollution: 2
+          pollutionRadius: 2
+          power: 125
+          rating: 3
+          ratingRadius: 256
+          water: 900
+          waterPollution: 2
+          waterPollutionRadius: 3
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -478,6 +595,30 @@ maxis/globe-arena:
           include:
             - path: GlobeArena.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4950
+          capacity:
+            cs$: 272
+            cs$$: 272
+          category: landmarks
+          cost: 70000
+          filename: GlobeArena.dat
+          flamability: 30
+          garbage: 15
+          id: 04bc0000
+          maintenance: 140
+          menu: Landmarks
+          name: Lm148x112_GlobeArena_04BC
+          pollution: 2
+          pollutionRadius: 2
+          power: 40
+          rating: 5
+          ratingRadius: 256
+          water: 100
+          waterPollution: 3
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -557,6 +698,30 @@ maxis/grand-central-station:
           include:
             - path: GrandCentralStation.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4500
+          capacity:
+            cs$: 303
+            cs$$: 303
+          category: landmarks
+          cost: 110000
+          filename: GrandCentralStation.dat
+          flamability: 30
+          garbage: 11
+          id: 04b30000
+          maintenance: 220
+          menu: Landmarks
+          name: Lm100x125_grandcentral_04B3
+          pollution: 3
+          pollutionRadius: 4
+          power: 200
+          rating: 8
+          ratingRadius: 256
+          water: 200
+          waterPollution: 4
+          waterPollutionRadius: 5
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -620,6 +785,28 @@ maxis/grutze-industries:
           water: 10
           waterPollution: 3
           waterPollutionRadius: 2
+        - bulldoze: 500
+          category: landmarks
+          cost: 60000
+          description: A plant the manufactures many Grutze products
+          filename: Grutze Industries/IndstryPipes-0x6534284a-0xad1d67dc-0x8d21717e.SC4Desc
+          flamability: 10
+          garbage: 25
+          id: 8d21717e
+          label: Grutze Industries
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 200
+          menu: Landmarks
+          name: IndstryPipes
+          pollution: 12
+          pollutionRadius: 3
+          power: 75
+          rating: 10
+          ratingRadius: 256
+          water: 10
+          waterPollution: 3
+          waterPollutionRadius: 2
       lastGenerated: 2024-11-27T09:17:21.435Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
@@ -648,6 +835,28 @@ maxis/grutzehaus:
           flamability: 10
           garbage: 15
           id: ed2174a0
+          label: Grutzehaus
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          menu: Landmarks
+          name: DstTxtr
+          pollution: 1
+          pollutionRadius: 1
+          power: 20
+          rating: 10
+          ratingRadius: 256
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 125
+          category: landmarks
+          cost: 22000
+          description: The house of the Grutze family
+          filename: Grutzehaus/DstTxtr-0x6534284a-0xad1d67dc-0x6d2170b6.SC4Desc
+          flamability: 10
+          garbage: 15
+          id: 6d2170b6
           label: Grutzehaus
           landmark: 40
           landmarkRadius: 20
@@ -719,6 +928,30 @@ maxis/kunjungjon:
           include:
             - path: Kunjungjon.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 5850
+          capacity:
+            cs$: 7
+            cs$$: 7
+          category: landmarks
+          cost: 65000
+          filename: Kunjungjon.dat
+          flamability: 33
+          garbage: 9
+          id: 04ba0000
+          maintenance: 130
+          menu: Landmarks
+          name: Lm55x43_KonjongjonHall_04BA
+          pollution: 2
+          pollutionRadius: 2
+          power: 50
+          rating: 5
+          ratingRadius: 256
+          water: 250
+          waterPollution: 2
+          waterPollutionRadius: 3
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -802,6 +1035,46 @@ maxis/longfellow-castle:
           ratingRadius: 256
           waterPollution: 1
           waterPollutionRadius: 2
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          description: 'Location: Long ago and far away'
+          filename: Longfellow Castle/CastleSet.dat
+          flamability: 10
+          garbage: 15
+          id: 2d3f0000
+          label: Longfellow Keep
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          menu: Landmarks
+          name: Longfellow Castle
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          description: 'Location: Long ago and far away'
+          filename: Longfellow Castle/CastleSet.dat
+          flamability: 10
+          garbage: 15
+          id: 2d4b0000
+          label: Longfellow Keep
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          menu: Landmarks
+          name: Longfellow Castle
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 2
       lastGenerated: 2024-11-27T09:17:21.435Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
@@ -858,10 +1131,13 @@ maxis/luckys-hang-ten:
       version: 1.0.0
 
 maxis/maxis-buildings-as-props:
+  authors:
+    - ralphaelninja
   category: props
   credits:
-    ralphaelninja: author
-    t-wrecks: author
+    maxis: Official files
+    ralphaelninja: Additional building props Maxis had forgotten
+    t-wrecks: Packaging
   description: |-
     This upload contains the official "SimCity 4 Buildings as Props Vol 1" and "SimCity 4 Buildings as Props Vol 2" files provided by EA/Maxis.
 
@@ -970,6 +1246,28 @@ maxis/namdaemun:
           include:
             - path: Sungrye-mun.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 5850
+          capacity:
+            cs$: 15
+            cs$$: 15
+          category: landmarks
+          cost: 65000
+          filename: Sungrye-mun.dat
+          flamability: 10
+          garbage: 4
+          id: 04b90000
+          maintenance: 130
+          menu: Landmarks
+          name: Lm64x64_NamDaeMoon_04B9
+          power: 10
+          rating: 8
+          ratingRadius: 256
+          water: 10
+          waterPollution: 2
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1044,6 +1342,28 @@ maxis/parthenon:
           include:
             - path: Parthenon.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 6750
+          capacity:
+            cs$: 7
+            cs$$: 7
+          category: landmarks
+          cost: 60000
+          filename: Parthenon.dat
+          flamability: 35
+          garbage: 2
+          id: 04b60000
+          maintenance: 120
+          menu: Landmarks
+          name: Lm32x68_Parthenon_04B6
+          power: 2
+          rating: 7
+          ratingRadius: 256
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1122,6 +1442,30 @@ maxis/rockefeller-center:
           include:
             - path: RockefellerCenter.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 8100
+          capacity:
+            co$$: 4077
+          category: landmarks,religion
+          cost: 90000
+          filename: RockefellerCenter.dat
+          flamability: 39
+          garbage: 3
+          id: '04870000'
+          maintenance: 180
+          menu: Landmarks
+          name: Lm58x75_RockefellerCtr_0487
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          submenu: Landmarks/Religion
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1196,6 +1540,28 @@ maxis/sagrada-familia:
           include:
             - path: TempleExpiatioriDeLaSagradaFamilia.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 8550
+          capacity:
+            cs$: 38
+            cs$$: 38
+          category: landmarks
+          cost: 95000
+          filename: TempleExpiatioriDeLaSagradaFamilia.dat
+          flamability: 16
+          garbage: 5
+          id: 04b40000
+          maintenance: 180
+          menu: Landmarks
+          name: LM80x80_sagradafamilia_04B4
+          pollution: 1
+          pollutionRadius: 2
+          rating: 5
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 3
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1271,6 +1637,30 @@ maxis/san-francisco-city-hall:
           include:
             - path: SanFranciscoCityHall.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4950
+          capacity:
+            co$$: 289
+            co$$$: 111
+          category: landmarks
+          cost: 65000
+          filename: SanFranciscoCityHall.dat
+          flamability: 30
+          garbage: 9
+          id: 04ac0000
+          maintenance: 130
+          menu: Landmarks
+          name: LM166x112_SanFranCityHall_04AC
+          pollution: 4
+          pollutionRadius: 2
+          power: 200
+          rating: 5
+          ratingRadius: 256
+          water: 200
+          waterPollution: 3
+          waterPollutionRadius: 3
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1347,6 +1737,30 @@ maxis/schloss-schoenbrun:
           include:
             - path: SchlossSchoenbrun.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 5850
+          capacity:
+            cs$: 23
+            cs$$: 23
+          category: landmarks
+          cost: 95000
+          filename: SchlossSchoenbrun.dat
+          flamability: 34
+          garbage: 4
+          id: 04b50000
+          maintenance: 180
+          menu: Landmarks
+          name: Lm61x48_SchlossSchoenbrun_04B5
+          pollution: 1
+          pollutionRadius: 2
+          power: 25
+          rating: 6
+          ratingRadius: 256
+          water: 60
+          waterPollution: 1
+          waterPollutionRadius: 3
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1423,6 +1837,30 @@ maxis/seoul-city-hall:
           include:
             - path: SeoulCityHall.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4950
+          capacity:
+            co$$: 77
+            co$$$: 32
+          category: landmarks
+          cost: 65000
+          filename: SeoulCityHall.dat
+          flamability: 30
+          garbage: 9
+          id: 04c30000
+          maintenance: 130
+          menu: Landmarks
+          name: LM80x64_SeoulCityHallSquare_04C3
+          pollution: 4
+          pollutionRadius: 2
+          power: 200
+          rating: 5
+          ratingRadius: 256
+          water: 200
+          waterPollution: 3
+          waterPollutionRadius: 3
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1500,6 +1938,29 @@ maxis/seoul-soccer-stadium:
           include:
             - path: SeoulWorldCupStadium.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4950
+          capacity:
+            cs$: 263
+            cs$$: 263
+          category: landmarks
+          cost: 160000
+          filename: SeoulWorldCupStadium.dat
+          garbage: 65
+          id: 04c20000
+          maintenance: 310
+          menu: Landmarks
+          name: Lm239x215_WorldCupFootballStadium_04C2
+          pollution: -11
+          pollutionRadius: 4
+          power: 90
+          rating: 5
+          ratingRadius: 256
+          water: 100
+          waterPollution: 10
+          waterPollutionRadius: 6
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1643,6 +2104,27 @@ maxis/stone-house:
           water: 8
           waterPollution: 1
           waterPollutionRadius: 2
+        - bulldoze: 500
+          category: landmarks
+          cost: 75000
+          description: A house made of stone and wood
+          filename: Stone House/StoneHouse-0x6534284a-0xad1d67dc-0x6d2172e0.SC4Desc
+          flamability: 10
+          garbage: 2
+          id: 6d2172e0
+          label: Ian's House of Stone
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          menu: Landmarks
+          name: StoneHouse
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          water: 8
+          waterPollution: 1
+          waterPollutionRadius: 2
       lastGenerated: 2024-11-27T09:17:21.435Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
@@ -1697,6 +2179,27 @@ maxis/stonehenge:
           include:
             - path: Stonehenge.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 5850
+          capacity:
+            cs$: 5
+            cs$$: 5
+          category: landmarks
+          cost: 60000
+          filename: Stonehenge.dat
+          garbage: 5
+          id: 04ad0000
+          maintenance: 10
+          menu: Landmarks
+          name: Lm48x48_Stonehenge_04AD
+          pollution: 1
+          pollutionRadius: 1
+          rating: 5
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 1
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1770,6 +2273,30 @@ maxis/taipei-art-museum:
           include:
             - path: TaipeiFineArtMuseum.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 8550
+          capacity:
+            cs$: 97
+            cs$$: 97
+          category: landmarks
+          cost: 95000
+          filename: TaipeiFineArtMuseum.dat
+          flamability: 27
+          garbage: 20
+          id: '04900000'
+          maintenance: 180
+          menu: Landmarks
+          name: Lm80x110_TaipeiArtMuseum_0490
+          pollution: 5
+          pollutionRadius: 1
+          power: 90
+          rating: 9
+          ratingRadius: 256
+          water: 450
+          waterPollution: 6
+          waterPollutionRadius: 2
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
@@ -1821,6 +2348,25 @@ maxis/temple-of-grutz:
           filename: Temple of Grutz/LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
           flamability: 10
           id: 2d1e7a9e
+          label: The Temple Of G
+          landmark: 75
+          landmarkRadius: 33
+          maintenance: 100
+          menu: Landmarks
+          name: TempleOfGrutz
+          pollution: 1
+          pollutionRadius: 1
+          rating: 50
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 500
+          category: landmarks
+          cost: 100000
+          description: An ancient structure made in the honor of the great Grutz
+          filename: Temple of Grutz/TempleOfGrutz-0x6534284a-0xad1d67dc-0xed1e75d3.SC4Desc
+          flamability: 10
+          id: ed1e75d3
           label: The Temple Of G
           landmark: 75
           landmarkRadius: 33
@@ -1888,6 +2434,30 @@ maxis/the-living-mall:
           include:
             - path: TheLivingMall.dat
               priority: 900
+      authors:
+        - toroca
+      buildings:
+        - bulldoze: 4950
+          capacity:
+            cs$: 640
+            cs$$: 640
+          category: landmarks
+          cost: 55000
+          filename: TheLivingMall.dat
+          flamability: 35
+          garbage: 11
+          id: 04c00000
+          maintenance: 110
+          menu: Landmarks
+          name: Lm80x80_TheLivingMall_04C0
+          pollution: 10
+          pollutionRadius: 4
+          power: 800
+          rating: 5
+          ratingRadius: 256
+          water: 850
+          waterPollution: 12
+          waterPollutionRadius: 5
       credits:
         toroca: Jobs
       lastGenerated: 2024-11-27T09:00:58.547Z
