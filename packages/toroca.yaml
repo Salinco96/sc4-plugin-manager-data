@@ -194,7 +194,773 @@ toroca/functional-landmarks:
         - id: simtropolis/21340-functional-landmarks-complete-set-v10
           include:
             - '{{landmarks}}.dat'
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        - bulldoze: 4500
+          capacity:
+            cs$: 15
+            cs$$: 15
+          category: landmarks
+          cost: 50000
+          filename: Alcatraz.dat
+          flamability: 36
+          garbage: 2
+          id: '03260000'
+          maintenance: 100
+          menu: Landmarks
+          name: Lm80x160_Alcatraz_0326
+          pollution: 1
+          pollutionRadius: 1
+          power: 1
+          rating: -2
+          ratingRadius: 256
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 1
+        - bulldoze: 4950
+          capacity:
+            co$$: 80
+            co$$$: 27
+          category: landmarks
+          cost: 70000
+          filename: Amalienborg.dat
+          flamability: 34
+          garbage: 5
+          id: 04bf0000
+          maintenance: 120
+          menu: Landmarks
+          name: Lm88x88_Amalienborg_04BF
+          pollution: 1
+          pollutionRadius: 2
+          power: 15
+          rating: 5
+          ratingRadius: 256
+          water: 65
+          waterPollution: 1
+          waterPollutionRadius: 3
+        - bulldoze: 7900
+          capacity:
+            cs$: 153
+            cs$$: 153
+          category: landmarks
+          cost: 110000
+          filename: AmericanMuseumOfNaturalHistory.dat
+          flamability: 31
+          garbage: 15
+          id: 04b20000
+          maintenance: 220
+          menu: Landmarks
+          name: LM138x130_AmericanMuseumNatHistory_04B2
+          pollution: 1
+          pollutionRadius: 1
+          power: 60
+          rating: 6
+          ratingRadius: 256
+          water: 300
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 9900
+          capacity:
+            co$$: 7102
+            co$$$: 3382
+          category: landmarks
+          cost: 110000
+          filename: BankOfAmerica.dat
+          flamability: 40
+          garbage: 39
+          id: '10030000'
+          maintenance: 210
+          menu: Landmarks
+          name: Lm80x48_BankofAmerica_1003
+          pollution: 5
+          pollutionRadius: 6
+          power: 600
+          rating: 6
+          ratingRadius: 256
+          water: 1300
+          waterPollution: 5
+          waterPollutionRadius: 7
+        - bulldoze: 4950
+          capacity:
+            co$$: 11945
+            co$$$: 6925
+          category: landmarks
+          cost: 180000
+          filename: BankOfChinaTower.dat
+          flamability: 36
+          garbage: 15
+          id: 04c40000
+          maintenance: 300
+          menu: Landmarks
+          name: Lm52x52_BankOfChinaTower_04C4
+          pollution: 4
+          pollutionRadius: 4
+          power: 250
+          rating: 5
+          ratingRadius: 256
+          water: 1350
+          waterPollution: 4
+          waterPollutionRadius: 5
+        - bulldoze: 6750
+          capacity:
+            cs$: 8
+            cs$$: 8
+          category: landmarks
+          cost: 75000
+          filename: BigBen.dat
+          flamability: 40
+          garbage: 2
+          id: 04cd0000
+          maintenance: 150
+          menu: Landmarks
+          name: Lm16x16_Big Ben_04CD
+          pollution: 1
+          pollutionRadius: 1
+          power: 20
+          rating: 7
+          ratingRadius: 256
+          water: 25
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 4500
+          capacity:
+            co$$: 743
+          category: landmarks
+          cost: 50000
+          filename: CaliforniaPlaza.dat
+          flamability: 37
+          garbage: 10
+          id: 04dc0000
+          maintenance: 100
+          menu: Landmarks
+          name: Lm88x124_CaliforniaPlaza_04DC
+          pollution: 2
+          pollutionRadius: 2
+          power: 125
+          water: 350
+          waterPollution: 2
+          waterPollutionRadius: 3
+        - bulldoze: 15300
+          capacity:
+            co$$: 7692
+          category: landmarks
+          cost: 170000
+          filename: ChryslerBuilding.dat
+          flamability: 35
+          garbage: 12
+          id: 04d30000
+          maintenance: 330
+          menu: Landmarks
+          name: Lm62x62_ChryslerBuilding_04D3
+          pollution: 3
+          pollutionRadius: 4
+          power: 250
+          rating: 9
+          ratingRadius: 256
+          water: 1300
+          waterPollution: 4
+          waterPollutionRadius: 5
+        - bulldoze: 20250
+          capacity:
+            cs$: 139
+            cs$$: 139
+            cs$$$: 139
+          category: landmarks
+          cost: 225000
+          filename: CNTower.dat
+          flamability: 15
+          garbage: 4
+          id: 04db0000
+          maintenance: 440
+          menu: Landmarks
+          name: Lm85x98_CNtower_04DB
+          power: 20
+          rating: 7
+          ratingRadius: 256
+          water: 25
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 4950
+          capacity:
+            cs$: 8
+            cs$$: 8
+            cs$$$: 8
+          category: landmarks
+          cost: 55000
+          filename: CoitTower.dat
+          flamability: 10
+          garbage: 3
+          id: '10010000'
+          maintenance: 110
+          menu: Landmarks
+          name: Lm60x60_CoitTower_1001
+          power: 1
+          rating: 5
+          ratingRadius: 256
+          water: 7
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 6300
+          capacity:
+            co$$: 3672
+            co$$$: 1749
+          category: landmarks
+          cost: 110000
+          filename: ColumbiaSeafirstCenter.dat
+          flamability: 31
+          garbage: 15
+          id: 04b00000
+          maintenance: 210
+          menu: Landmarks
+          name: Lm60x70_SeafirstTower_04B0
+          pollution: 1
+          pollutionRadius: 1
+          power: 60
+          rating: 6
+          ratingRadius: 256
+          water: 300
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 4500
+          capacity:
+            cs$: 82
+            cs$$: 37
+          category: landmarks
+          cost: 50000
+          filename: FaneuilHall.dat
+          flamability: 33
+          garbage: 9
+          id: 04cf0000
+          maintenance: 100
+          menu: Landmarks
+          name: Lm24x30_BostonFaneuilHall_04CF
+          pollution: 1
+          pollutionRadius: 2
+          power: 50
+          rating: 5
+          ratingRadius: 256
+          water: 200
+          waterPollution: 1
+          waterPollutionRadius: 3
+        - bulldoze: 7650
+          capacity:
+            cs$: 25
+            cs$$: 25
+          category: landmarks
+          cost: 85000
+          filename: Fernsehturm.dat
+          flamability: 20
+          garbage: 5
+          id: 04c60000
+          maintenance: 170
+          menu: Landmarks
+          name: Lm48x48_Fernsehturm_04C6
+          pollution: 1
+          pollutionRadius: 1
+          power: 15
+          rating: 5
+          ratingRadius: 256
+          water: 60
+          waterPollution: 1
+          waterPollutionRadius: 1
+        - bulldoze: 8100
+          capacity:
+            cs$: 8
+            cs$$: 8
+          category: landmarks
+          cost: 90000
+          filename: GatewayArch.dat
+          garbage: 2
+          id: 04d90000
+          maintenance: 180
+          menu: Landmarks
+          name: Lm160x16_GatewayArch_04D9
+          power: 1
+          rating: 8
+          ratingRadius: 256
+        - bulldoze: 7200
+          capacity:
+            cs$: 31
+            cs$$: 31
+            cs$$$: 31
+          category: landmarks
+          cost: 80000
+          filename: HagiaSophia.dat
+          flamability: 25
+          garbage: 3
+          id: 04c90000
+          maintenance: 160
+          menu: Landmarks
+          name: Lm76x60_HagiaSofia_04C9
+          pollution: 1
+          pollutionRadius: 1
+          power: 8
+          rating: 7
+          ratingRadius: 256
+          water: 20
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 2700
+          capacity:
+            cs$: 2
+            cs$$: 2
+          category: landmarks
+          cost: 30000
+          filename: HollywoodSign.dat
+          id: 04d20000
+          maintenance: 60
+          menu: Landmarks
+          name: Lm104x6_Hollywoodsign_04D2
+          power: 1
+          rating: 2
+          ratingRadius: 256
+        - bulldoze: 5400
+          capacity:
+            cs$: 15
+            cs$$: 15
+          category: landmarks
+          cost: 60000
+          filename: IndependenceHall.dat
+          flamability: 30
+          garbage: 3
+          id: 04d70000
+          maintenance: 120
+          menu: Landmarks
+          name: Lm30x24_IndependenceHall_04D7
+          pollution: 1
+          pollutionRadius: 1
+          power: 3
+          rating: 7
+          ratingRadius: 256
+          water: 7
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 7200
+          capacity:
+            cs$: 7
+            cs$$: 7
+          category: landmarks
+          cost: 80000
+          filename: JeffersonMemorial.dat
+          flamability: 5
+          garbage: 3
+          id: 04dd0000
+          maintenance: 160
+          menu: Landmarks
+          name: Lm76x84_JeffersonMemorial_04DD
+          power: 1
+          rating: 8
+          ratingRadius: 256
+        - bulldoze: 14850
+          capacity:
+            co$$: 6387
+          category: landmarks
+          cost: 165000
+          filename: JohnHancockCenter.dat
+          flamability: 40
+          garbage: 43
+          id: 04d00000
+          maintenance: 320
+          menu: Landmarks
+          name: Lm84x52_JohnHancockCenter_04D0
+          pollution: 6
+          pollutionRadius: 6
+          power: 650
+          rating: 8
+          ratingRadius: 256
+          water: 1500
+          waterPollution: 5
+          waterPollutionRadius: 7
+        - bulldoze: 15750
+          capacity:
+            cs$: 131
+            cs$$: 131
+            cs$$$: 131
+          category: landmarks
+          cost: 125000
+          filename: LincolnCenter.dat
+          flamability: 25
+          garbage: 8
+          id: 04ab0000
+          maintenance: 275
+          menu: Landmarks
+          name: Lm98x87_LincolnCenter_04AB
+          pollution: 1
+          pollutionRadius: 1
+          power: 45
+          rating: 8
+          ratingRadius: 256
+          water: 45
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 7650
+          capacity:
+            cs$: 9
+            cs$$: 9
+            cs$$$: 9
+          category: landmarks
+          cost: 85000
+          filename: LincolnMemorial.dat
+          garbage: 3
+          id: 04de0000
+          maintenance: 170
+          menu: Landmarks
+          name: Lm72x55_LincolnMemorial_04DE
+          power: 1
+          rating: 8
+          ratingRadius: 256
+        - bulldoze: 8100
+          capacity:
+            cs$: 22
+            cs$$: 22
+          category: landmarks
+          cost: 90000
+          filename: PalaceOfFineArts.dat
+          flamability: 30
+          garbage: 4
+          id: '10020000'
+          maintenance: 180
+          menu: Landmarks
+          name: Lm45x38_PalaceofFineArts_1002
+          pollution: 1
+          pollutionRadius: 1
+          power: 20
+          rating: 6
+          ratingRadius: 256
+          water: 150
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 5850
+          capacity:
+            co$$: 77
+            co$$$: 32
+          category: landmarks
+          cost: 65000
+          filename: PalacioReal.dat
+          flamability: 34
+          garbage: 4
+          id: 04c80000
+          maintenance: 130
+          menu: Landmarks
+          name: LM72x72_PalacioReal_04C8
+          pollution: 1
+          pollutionRadius: 2
+          power: 25
+          rating: 6
+          ratingRadius: 256
+          water: 60
+          waterPollution: 1
+          waterPollutionRadius: 3
+        - bulldoze: 5850
+          capacity:
+            co$$: 93
+            co$$$: 54
+          category: landmarks
+          cost: 65000
+          filename: RotesRathaus.dat
+          flamability: 33
+          garbage: 9
+          id: 04c70000
+          maintenance: 130
+          menu: Landmarks
+          name: Lm52x48_RotesRathaus_04C7
+          pollution: 2
+          pollutionRadius: 2
+          power: 50
+          rating: 5
+          ratingRadius: 256
+          water: 250
+          waterPollution: 2
+          waterPollutionRadius: 3
+        - bulldoze: 6300
+          capacity:
+            cs$: 32
+            cs$$: 32
+          category: landmarks
+          cost: 90000
+          filename: SchlossNeuschwanstein.dat
+          flamability: 31
+          garbage: 15
+          id: 04a20000
+          maintenance: 180
+          menu: Landmarks
+          name: LM140x175_schlossneu_04A2
+          pollution: 1
+          pollutionRadius: 1
+          power: 22
+          rating: 6
+          ratingRadius: 256
+          water: 90
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 4950
+          capacity:
+            co$$: 698
+          category: landmarks
+          cost: 55000
+          filename: SmithTower.dat
+          flamability: 34
+          garbage: 11
+          id: 04d80000
+          maintenance: 110
+          menu: Landmarks
+          name: Lm45x35_SmithTower_04D8
+          pollution: 3
+          pollutionRadius: 4
+          power: 215
+          rating: 5
+          ratingRadius: 256
+          water: 900
+          waterPollution: 4
+          waterPollutionRadius: 5
+        - bulldoze: 7650
+          capacity:
+            cs$: 16
+            cs$$: 16
+            cs$$$: 16
+          category: landmarks
+          cost: 85000
+          filename: StatueOfLiberty.dat
+          flamability: 14
+          garbage: 3
+          id: 04d60000
+          maintenance: 170
+          menu: Landmarks
+          name: Lm30x30_StatueofLiberty_04D6
+          power: 5
+          rating: 9
+          ratingRadius: 256
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 8100
+          capacity:
+            cs$: 20
+            cs$$: 20
+          category: landmarks,religion
+          cost: 90000
+          filename: StBasilsCathedral.dat
+          flamability: 39
+          garbage: 3
+          id: 04ce0000
+          maintenance: 180
+          menu: Landmarks
+          name: Lm54x64_StBasils_04CE
+          pollution: 1
+          pollutionRadius: 1
+          power: 10
+          rating: 7
+          ratingRadius: 256
+          submenu: Landmarks/Religion
+          water: 9
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 9450
+          capacity:
+            cs$: 61
+            cs$$: 61
+          category: landmarks
+          cost: 105000
+          filename: TajMahal.dat
+          flamability: 10
+          garbage: 4
+          id: 04cc0000
+          maintenance: 200
+          menu: Landmarks
+          name: Lm64x64_TajMahal_04CC
+          power: 10
+          rating: 8
+          ratingRadius: 256
+          water: 10
+          waterPollution: 2
+          waterPollutionRadius: 2
+        - bulldoze: 5850
+          capacity:
+            cs$: 5
+            cs$$: 5
+          category: landmarks
+          cost: 65000
+          filename: TheAlamo.dat
+          flamability: 35
+          garbage: 2
+          id: 04da0000
+          maintenance: 130
+          menu: Landmarks
+          name: Lm26x32_Alamo_04DA
+          power: 2
+          rating: 7
+          ratingRadius: 256
+          water: 5
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 21600
+          capacity:
+            co$$: 9174
+          category: landmarks
+          cost: 240000
+          filename: TheEmpireStateBuilding.dat
+          flamability: 27
+          garbage: 20
+          id: 04d40000
+          maintenance: 470
+          menu: Landmarks
+          name: Lm128x60_EmpireStateBuilding_04D4
+          pollution: 5
+          pollutionRadius: 5
+          power: 375
+          rating: 9
+          ratingRadius: 256
+          water: 1100
+          waterPollution: 6
+          waterPollutionRadius: 6
+        - bulldoze: 14400
+          capacity:
+            cs$: 48
+            cs$$: 48
+          category: landmarks
+          cost: 160000
+          filename: TheGreatPyramid.dat
+          garbage: 2
+          id: 04cb0000
+          maintenance: 310
+          menu: Landmarks
+          name: Lm126x126_GreatPyramid_04CB
+          power: 1
+          rating: 10
+          ratingRadius: 256
+        - bulldoze: 8550
+          capacity:
+            cs$: 32
+            cs$$: 32
+          category: landmarks
+          cost: 95000
+          filename: TheGuggenheimMuseum.dat
+          flamability: 31
+          garbage: 9
+          id: 04d50000
+          maintenance: 180
+          menu: Landmarks
+          name: Lm77x48_Guggenhiem_04D5
+          pollution: 1
+          pollutionRadius: 1
+          power: 90
+          rating: 8
+          ratingRadius: 256
+          water: 450
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 4500
+          capacity:
+            cs$: 5
+            cs$$: 5
+          category: landmarks
+          cost: 50000
+          filename: TheSphinx.dat
+          garbage: 2
+          id: 04d10000
+          maintenance: 100
+          menu: Landmarks
+          name: Lm64x24_Sphynx_04D1
+          rating: 7
+          ratingRadius: 256
+        - bulldoze: 6300
+          capacity:
+            cs$: 13
+            cs$$: 13
+          category: landmarks
+          cost: 70000
+          filename: TheWashingtonMonument.dat
+          garbage: 3
+          id: '04e00000'
+          maintenance: 140
+          menu: Landmarks
+          name: Lm46x46_WashingtonMonument_04E0
+          power: 1
+          rating: 7
+          ratingRadius: 256
+        - bulldoze: 6300
+          capacity:
+            co$$: 188
+            co$$$: 64
+          category: landmarks
+          cost: 70000
+          filename: TheWhiteHouse.dat
+          flamability: 31
+          garbage: 15
+          id: '04e10000'
+          maintenance: 140
+          menu: Landmarks
+          name: Lm70x70_WhiteHouse_04E1
+          pollution: 1
+          pollutionRadius: 1
+          power: 60
+          rating: 6
+          ratingRadius: 256
+          water: 300
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 15750
+          capacity:
+            cs$: 67
+            cs$$: 67
+          category: landmarks
+          cost: 175000
+          filename: TokyoTower.dat
+          flamability: 25
+          garbage: 8
+          id: 04ca0000
+          maintenance: 340
+          menu: Landmarks
+          name: Lm94x94_TokyoTower_04CA
+          pollution: 1
+          pollutionRadius: 1
+          power: 25
+          rating: 7
+          ratingRadius: 256
+          water: 45
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 4950
+          capacity:
+            cs$: 33
+            cs$$: 33
+          category: landmarks
+          cost: 55000
+          filename: TowerOfLondon.dat
+          flamability: 30
+          garbage: 5
+          id: 04c50000
+          maintenance: 90
+          menu: Landmarks
+          name: Lm33x36_TowerOfLondon _04C5
+          pollution: 1
+          pollutionRadius: 2
+          power: 15
+          rating: 6
+          ratingRadius: 256
+          water: 65
+          waterPollution: 2
+          waterPollutionRadius: 3
+        - bulldoze: 12150
+          capacity:
+            co$$: 839
+          category: landmarks
+          cost: 135000
+          filename: USCapitolBuilding.dat
+          flamability: 35
+          garbage: 13
+          id: 04df0000
+          maintenance: 260
+          menu: Landmarks
+          name: Lm98x75_USCapitol_04DF
+          pollution: 1
+          pollutionRadius: 2
+          power: 90
+          rating: 9
+          ratingRadius: 256
+          water: 450
+          waterPollution: 2
+          waterPollutionRadius: 3
+      lastGenerated: 2024-11-29T13:47:25.325Z
       lastModified: 2004-03-16T00:00:00.000Z
       options:
         - choices:
