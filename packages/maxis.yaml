@@ -30,6 +30,7 @@ maxis/63-building:
           filename: Plugin_00A_63Building.dat
           id: 6afc49f8
           name: Lm4x5_KoreaLifeBldg
+          replace: 6afc49f8
           size: 4x5
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -70,26 +71,12 @@ maxis/63-building:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 9900
-          capacity:
-            co$$: 2825
-          cost: 110000
+        - building: 04b80000
           filename: Plugin_00A_63Building.dat
-          flamability: 10
-          garbage: 39
           id: 6afc49f8
-          maintenance: 210
           name: Lm4x5_KoreaLifeBldg
-          pollution: 5
-          pollutionRadius: 6
-          power: 600
-          rating: 8
-          ratingRadius: 256
           replace: 6afc49f8
           size: 4x5
-          water: 1300
-          waterPollution: 5
-          waterPollutionRadius: 7
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -130,6 +117,7 @@ maxis/adler-planetarium:
           filename: Plugin_031_AdlerPlanetarium.dat
           id: 8c9fb724
           name: LM6x6_adlerp
+          replace: 8c9fb724
           size: 6x6
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -171,24 +159,12 @@ maxis/adler-planetarium:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 8100
-          cost: 90000
+        - building: '04890000'
           filename: Plugin_031_AdlerPlanetarium.dat
-          flamability: 18
-          garbage: 6
           id: 8c9fb724
-          maintenance: 180
           name: LM6x6_adlerp
-          pollution: 1
-          pollutionRadius: 1
-          power: 25
-          rating: 7
-          ratingRadius: 256
           replace: 8c9fb724
           size: 6x6
-          water: 45
-          waterPollution: 1
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -266,6 +242,7 @@ maxis/arc-de-triomphe:
           filename: Plugin_003_ArcTriomphe.dat
           id: aac407c0
           name: LM3x3_ArcTriomphe
+          replace: aac407c0
           size: 3x3
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -306,35 +283,17 @@ maxis/arc-de-triomphe:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4950
-          capacity:
-            cs$: 8
-            cs$$: 8
-          category: landmarks
-          cost: 55000
+        - building: 04c10000
           filename: Plugin_003_ArcTriomphe.dat
-          garbage: 5
           id: aac407c0
-          maintenance: 110
           name: LM3x3_ArcTriomphe
-          pollution: 1
-          pollutionRadius: 1
-          power: 1
-          rating: 15
-          ratingRadius: 256
           replace: aac407c0
           size: 3x3
-          water: 1
-          waterPollution: 1
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
       version: 1.0.0
-  warnings:
-    - id: inconsistentVariantLotIds
-      'on': enable
 
 maxis/brandenburg-gate:
   category: landmarks
@@ -370,6 +329,7 @@ maxis/brandenburg-gate:
           filename: Plugin_00C_BrandenburgGate.dat
           id: ab5e1192
           name: LM5x7_BrandenburgGate
+          replace: ab5e1192
           size: 5x7
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -411,28 +371,12 @@ maxis/brandenburg-gate:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 5850
-          capacity:
-            cs$: 7
-            cs$$: 7
-          category: landmarks
-          cost: 60000
+        - building: 04b70000
           filename: Plugin_00C_BrandenburgGate.dat
-          flamability: 34
-          garbage: 5
           id: ab5e1192
-          maintenance: 120
           name: LM5x7_BrandenburgGate
-          pollution: 1
-          pollutionRadius: 1
-          power: 2
-          rating: 6
-          ratingRadius: 256
           replace: ab5e1192
           size: 5x7
-          water: 3
-          waterPollution: 1
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -471,6 +415,7 @@ maxis/capitol-records:
           filename: Plugin_012_CapitolRecords.dat
           id: cb549981
           name: Lm5x5_CapitolRecordsBuilding
+          replace: cb549981
           size: 5x5
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -511,27 +456,12 @@ maxis/capitol-records:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4500
-          capacity:
-            co$$: 531
-          category: landmarks,co$$$
-          cost: 50000
+        - building: 04b10000
           filename: Plugin_012_CapitolRecords.dat
-          flamability: 34
-          garbage: 11
           id: cb549981
-          maintenance: 100
           name: Lm5x5_CapitolRecordsBuilding
-          pollution: 3
-          pollutionRadius: 4
-          power: 215
-          rating: 3
-          ratingRadius: 256
           replace: cb549981
           size: 5x5
-          water: 900
-          waterPollution: 4
-          waterPollutionRadius: 5
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -583,6 +513,7 @@ maxis/globe-arena:
           filename: Plugin_006_GlobeArena.dat
           id: aae108a3
           name: LM11x8_GlobeArena
+          replace: aae108a3
           size: 11x8
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -624,28 +555,12 @@ maxis/globe-arena:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4950
-          capacity:
-            cs$: 272
-            cs$$: 272
-          category: landmarks
-          cost: 70000
+        - building: 04bc0000
           filename: Plugin_006_GlobeArena.dat
-          flamability: 30
-          garbage: 15
           id: aae108a3
-          maintenance: 140
           name: LM11x8_GlobeArena
-          pollution: 2
-          pollutionRadius: 2
-          power: 40
-          rating: 5
-          ratingRadius: 256
           replace: aae108a3
           size: 11x8
-          water: 100
-          waterPollution: 3
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -686,6 +601,7 @@ maxis/grand-central-station:
           filename: Plugin_010_GrandCentralStation.dat
           id: 2b589d69
           name: LM7x8_GrandCentral
+          replace: 2b589d69
           size: 7x8
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -727,27 +643,12 @@ maxis/grand-central-station:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4500
-          capacity:
-            cs$: 303
-            cs$$: 303
-          cost: 110000
+        - building: 04b30000
           filename: Plugin_010_GrandCentralStation.dat
-          flamability: 30
-          garbage: 11
           id: 2b589d69
-          maintenance: 220
           name: LM7x8_GrandCentral
-          pollution: 3
-          pollutionRadius: 4
-          power: 200
-          rating: 8
-          ratingRadius: 256
           replace: 2b589d69
           size: 7x8
-          water: 200
-          waterPollution: 4
-          waterPollutionRadius: 5
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -762,15 +663,17 @@ maxis/grutze-industries:
     default:
       assets:
         - id: simtropolis/maxis-plugin-grutze-industries
+          include:
+            - Grutze Industries
       buildings:
         - bulldoze: 500
           category: landmarks
           cost: 60000
           description: A plant the manufactures many Grutze products
-          filename: Grutze Industries/LM4x5_GrutzeInd_2d217719.SC4Lot
+          filename: IndstryPipes-0x6534284a-0xad1d67dc-0x8d21717e.SC4Desc
           flamability: 10
           garbage: 25
-          id: 2d217719
+          id: 8d21717e
           label: Grutze Industries
           landmark: 40
           landmarkRadius: 20
@@ -789,10 +692,10 @@ maxis/grutze-industries:
           category: landmarks
           cost: 60000
           description: A plant the manufactures many Grutze products
-          filename: Grutze Industries/IndstryPipes-0x6534284a-0xad1d67dc-0x8d21717e.SC4Desc
+          filename: LM4x5_GrutzeInd_2d217719.SC4Lot
           flamability: 10
           garbage: 25
-          id: 8d21717e
+          id: 2d217719
           label: Grutze Industries
           landmark: 40
           landmarkRadius: 20
@@ -811,7 +714,7 @@ maxis/grutze-industries:
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         - building: 2d217719
-          filename: Grutze Industries/LM4x5_GrutzeInd_2d217719.SC4Lot
+          filename: LM4x5_GrutzeInd_2d217719.SC4Lot
           id: 2d217719
           name: LM4x5_GrutzeInd
           size: 4x5
@@ -826,15 +729,17 @@ maxis/grutzehaus:
     default:
       assets:
         - id: simtropolis/maxis-plugin-grutzehaus
+          include:
+            - Grutzehaus
       buildings:
         - bulldoze: 125
           category: landmarks
           cost: 22000
           description: The house of the Grutze family
-          filename: Grutzehaus/LM2x3_Grutzehaus_ed2174a0.SC4Lot
+          filename: DstTxtr-0x6534284a-0xad1d67dc-0x6d2170b6.SC4Desc
           flamability: 10
           garbage: 15
-          id: ed2174a0
+          id: 6d2170b6
           label: Grutzehaus
           landmark: 40
           landmarkRadius: 20
@@ -853,10 +758,10 @@ maxis/grutzehaus:
           category: landmarks
           cost: 22000
           description: The house of the Grutze family
-          filename: Grutzehaus/DstTxtr-0x6534284a-0xad1d67dc-0x6d2170b6.SC4Desc
+          filename: LM2x3_Grutzehaus_ed2174a0.SC4Lot
           flamability: 10
           garbage: 15
-          id: 6d2170b6
+          id: ed2174a0
           label: Grutzehaus
           landmark: 40
           landmarkRadius: 20
@@ -875,7 +780,7 @@ maxis/grutzehaus:
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         - building: ed2174a0
-          filename: Grutzehaus/LM2x3_Grutzehaus_ed2174a0.SC4Lot
+          filename: LM2x3_Grutzehaus_ed2174a0.SC4Lot
           id: ed2174a0
           name: LM2x3_Grutzehaus
           size: 2x3
@@ -916,6 +821,7 @@ maxis/kunjungjon:
           filename: Plugin_008_Kunjungjon.dat
           id: 4afc8bd5
           name: Lm5x6_KonjongjonHall
+          replace: 4afc8bd5
           size: 5x6
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -957,27 +863,12 @@ maxis/kunjungjon:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 5850
-          capacity:
-            cs$: 7
-            cs$$: 7
-          cost: 65000
+        - building: 04ba0000
           filename: Plugin_008_Kunjungjon.dat
-          flamability: 33
-          garbage: 9
           id: 4afc8bd5
-          maintenance: 130
           name: Lm5x6_KonjongjonHall
-          pollution: 2
-          pollutionRadius: 2
-          power: 50
-          rating: 5
-          ratingRadius: 256
           replace: 4afc8bd5
           size: 5x6
-          water: 250
-          waterPollution: 2
-          waterPollutionRadius: 3
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -999,47 +890,7 @@ maxis/longfellow-castle:
           category: landmarks
           cost: 110000
           description: 'Location: Long ago and far away'
-          filename: Longfellow Castle/CastleSet.dat
-          flamability: 10
-          garbage: 15
-          id: 0d4fdea6
-          label: Keep w/walls
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          menu: Landmarks
-          name: Longfellow Castle
-          pollution: 1
-          pollutionRadius: 1
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: 'Location: Long ago and far away'
-          filename: Longfellow Castle/Longfellow Castle_4d50ba18.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: 4d50ba18
-          label: Longfellow Keep
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          menu: Landmarks
-          name: Longfellow Castle
-          pollution: 1
-          pollutionRadius: 1
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: 'Location: Long ago and far away'
-          filename: Longfellow Castle/CastleSet.dat
+          filename: CastleSet.dat
           flamability: 10
           garbage: 15
           id: 2d3f0000
@@ -1059,10 +910,50 @@ maxis/longfellow-castle:
           category: landmarks
           cost: 110000
           description: 'Location: Long ago and far away'
-          filename: Longfellow Castle/CastleSet.dat
+          filename: CastleSet.dat
           flamability: 10
           garbage: 15
           id: 2d4b0000
+          label: Longfellow Keep
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          menu: Landmarks
+          name: Longfellow Castle
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          description: 'Location: Long ago and far away'
+          filename: CastleSet.dat
+          flamability: 10
+          garbage: 15
+          id: 0d4fdea6
+          label: Keep w/walls
+          landmark: 40
+          landmarkRadius: 20
+          maintenance: 150
+          menu: Landmarks
+          name: Longfellow Castle
+          pollution: 1
+          pollutionRadius: 1
+          rating: 10
+          ratingRadius: 256
+          waterPollution: 1
+          waterPollutionRadius: 2
+        - bulldoze: 100
+          category: landmarks
+          cost: 110000
+          description: 'Location: Long ago and far away'
+          filename: Longfellow Castle_4d50ba18.SC4Lot
+          flamability: 10
+          garbage: 15
+          id: 4d50ba18
           label: Longfellow Keep
           landmark: 40
           landmarkRadius: 20
@@ -1079,12 +970,12 @@ maxis/longfellow-castle:
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         - building: 0d4fdea6
-          filename: Longfellow Castle/CastleSet.dat
+          filename: CastleSet.dat
           id: 0d4fdea6
           name: Longfellow Castle
           size: 13x12
         - building: 4d50ba18
-          filename: Longfellow Castle/Longfellow Castle_4d50ba18.SC4Lot
+          filename: Longfellow Castle_4d50ba18.SC4Lot
           id: 4d50ba18
           name: Longfellow Castle
           size: 13x12
@@ -1234,6 +1125,7 @@ maxis/namdaemun:
           filename: Plugin_009_NamDaeMoon.dat
           id: 8af9d28c
           name: Lm4x4_NamDaeMoon
+          replace: 8af9d28c
           size: 4x4
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1273,25 +1165,12 @@ maxis/namdaemun:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 5850
-          capacity:
-            cs$: 15
-            cs$$: 15
-          cost: 65000
+        - building: 04b90000
           filename: Plugin_009_NamDaeMoon.dat
-          flamability: 10
-          garbage: 4
           id: 8af9d28c
-          maintenance: 130
           name: Lm4x4_NamDaeMoon
-          power: 10
-          rating: 8
-          ratingRadius: 256
           replace: 8af9d28c
           size: 4x4
-          water: 10
-          waterPollution: 2
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1330,6 +1209,7 @@ maxis/parthenon:
           filename: Plugin_00D_Parthenon.dat
           id: cb68c0df
           name: Lm4x7_Parthenon
+          replace: cb68c0df
           size: 3x5
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1369,26 +1249,12 @@ maxis/parthenon:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 6750
-          capacity:
-            cs$: 7
-            cs$$: 7
-          category: landmarks
-          cost: 60000
+        - building: 04b60000
           filename: Plugin_00D_Parthenon.dat
-          flamability: 35
-          garbage: 2
           id: cb68c0df
-          maintenance: 120
           name: Lm4x7_Parthenon
-          power: 2
-          rating: 7
-          ratingRadius: 256
           replace: cb68c0df
           size: 3x5
-          water: 5
-          waterPollution: 1
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1430,6 +1296,7 @@ maxis/rockefeller-center:
           filename: Plugin_033_RockefellerCenter.dat
           id: 8ccf053d
           name: LM4x4_RockefellerCtr
+          replace: 8ccf053d
           size: 4x13
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1471,27 +1338,12 @@ maxis/rockefeller-center:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 8100
-          capacity:
-            co$$: 4077
-          category: landmarks
-          cost: 90000
+        - building: '04870000'
           filename: Plugin_033_RockefellerCenter.dat
-          flamability: 39
-          garbage: 3
           id: 8ccf053d
-          maintenance: 180
           name: LM4x4_RockefellerCtr
-          pollution: 1
-          pollutionRadius: 1
-          power: 10
-          rating: 7
-          ratingRadius: 256
           replace: 8ccf053d
           size: 4x13
-          water: 9
-          waterPollution: 1
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1528,6 +1380,7 @@ maxis/sagrada-familia:
           filename: Plugin_00F_TempleExpiatiori.dat
           id: 6bce41a2
           name: LM12x12_sagradafamilia
+          replace: 6bce41a2
           size: 5x5
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1567,26 +1420,12 @@ maxis/sagrada-familia:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 8550
-          capacity:
-            cs$: 38
-            cs$$: 38
-          category: landmarks
-          cost: 95000
+        - building: 04b40000
           filename: Plugin_00F_TempleExpiatiori.dat
-          flamability: 16
-          garbage: 5
           id: 6bce41a2
-          maintenance: 180
           name: LM12x12_sagradafamilia
-          pollution: 1
-          pollutionRadius: 2
-          rating: 5
-          ratingRadius: 256
           replace: 6bce41a2
           size: 5x5
-          waterPollution: 1
-          waterPollutionRadius: 3
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1625,6 +1464,7 @@ maxis/san-francisco-city-hall:
           filename: Plugin_017_SanFranCityHall.dat
           id: 0c83e29f
           name: LM11x7_SanFranciscoCityHall
+          replace: 0c83e29f
           size: 11x7
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1666,27 +1506,12 @@ maxis/san-francisco-city-hall:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4950
-          capacity:
-            co$$: 289
-            co$$$: 111
-          cost: 65000
+        - building: 04ac0000
           filename: Plugin_017_SanFranCityHall.dat
-          flamability: 30
-          garbage: 9
           id: 0c83e29f
-          maintenance: 130
           name: LM11x7_SanFranciscoCityHall
-          pollution: 4
-          pollutionRadius: 2
-          power: 200
-          rating: 5
-          ratingRadius: 256
           replace: 0c83e29f
           size: 11x7
-          water: 200
-          waterPollution: 3
-          waterPollutionRadius: 3
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1725,6 +1550,7 @@ maxis/schloss-schoenbrun:
           filename: Plugin_00E_SchlossSchoenbrun.dat
           id: eb4e47b4
           name: Lm11x6_SchlossSchoenbrun
+          replace: eb4e47b4
           size: 11x6
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1766,27 +1592,12 @@ maxis/schloss-schoenbrun:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 5850
-          capacity:
-            cs$: 23
-            cs$$: 23
-          cost: 95000
+        - building: 04b50000
           filename: Plugin_00E_SchlossSchoenbrun.dat
-          flamability: 34
-          garbage: 4
           id: eb4e47b4
-          maintenance: 180
           name: Lm11x6_SchlossSchoenbrun
-          pollution: 1
-          pollutionRadius: 2
-          power: 25
-          rating: 6
-          ratingRadius: 256
           replace: eb4e47b4
           size: 11x6
-          water: 60
-          waterPollution: 1
-          waterPollutionRadius: 3
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1825,6 +1636,7 @@ maxis/seoul-city-hall:
           filename: Plugin_004_SeoulCityHall.dat
           id: 2ac40624
           name: LM6x6_SeoulCityHallSquare
+          replace: 2ac40624
           size: 6x5
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1866,28 +1678,12 @@ maxis/seoul-city-hall:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4950
-          capacity:
-            co$$: 77
-            co$$$: 32
-          category: landmarks
-          cost: 65000
+        - building: 04c30000
           filename: Plugin_004_SeoulCityHall.dat
-          flamability: 30
-          garbage: 9
           id: 2ac40624
-          maintenance: 130
           name: LM6x6_SeoulCityHallSquare
-          pollution: 4
-          pollutionRadius: 2
-          power: 200
-          rating: 5
-          ratingRadius: 256
           replace: 2ac40624
           size: 6x5
-          water: 200
-          waterPollution: 3
-          waterPollutionRadius: 3
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -1926,6 +1722,7 @@ maxis/seoul-soccer-stadium:
           filename: Plugin_005_SeoulSoccerStad.dat
           id: 4ac40971
           name: LM0x0_WorldCupFootballStadium
+          replace: 4ac40971
           size: 15x15
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1966,28 +1763,12 @@ maxis/seoul-soccer-stadium:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4950
-          capacity:
-            cs$: 263
-            cs$$: 263
-          category: landmarks
-          cost: 160000
+        - building: 04c20000
           filename: Plugin_005_SeoulSoccerStad.dat
-          flamability: 34
-          garbage: 65
           id: 4ac40971
-          maintenance: 310
           name: LM0x0_WorldCupFootballStadium
-          pollution: 4294967285
-          pollutionRadius: 4
-          power: 90
-          rating: 5
-          ratingRadius: 256
           replace: 4ac40971
           size: 15x15
-          water: 100
-          waterPollution: 10
-          waterPollutionRadius: 6
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -2087,7 +1868,7 @@ maxis/stone-house:
           category: landmarks
           cost: 75000
           description: A house made of stone and wood
-          filename: Stone House/LM3x3_StoneHouse_0d1d6acb.SC4Lot
+          filename: LM3x3_StoneHouse_0d1d6acb.SC4Lot
           flamability: 10
           garbage: 2
           id: 0d1d6acb
@@ -2108,7 +1889,7 @@ maxis/stone-house:
           category: landmarks
           cost: 75000
           description: A house made of stone and wood
-          filename: Stone House/StoneHouse-0x6534284a-0xad1d67dc-0x6d2172e0.SC4Desc
+          filename: StoneHouse-0x6534284a-0xad1d67dc-0x6d2172e0.SC4Desc
           flamability: 10
           garbage: 2
           id: 6d2172e0
@@ -2167,6 +1948,7 @@ maxis/stonehenge:
           filename: Plugin_016_Stonehenge.dat
           id: 4b61d755
           name: LM6x6_Stonehenge
+          replace: 4b61d755
           size: 6x6
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -2181,7 +1963,6 @@ maxis/stonehenge:
               priority: 900
       authors:
         - toroca
-      buildings:
         - bulldoze: 5850
           capacity:
             cs$: 5
@@ -2205,24 +1986,12 @@ maxis/stonehenge:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 5850
-          capacity:
-            cs$: 5
-            cs$$: 5
-          cost: 60000
+        - building: 04ad0000
           filename: Plugin_016_Stonehenge.dat
-          garbage: 5
           id: 4b61d755
-          maintenance: 10
           name: LM6x6_Stonehenge
-          pollution: 1
-          pollutionRadius: 1
-          rating: 5
-          ratingRadius: 256
           replace: 4b61d755
           size: 6x6
-          waterPollution: 1
-          waterPollutionRadius: 1
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -2261,6 +2030,7 @@ maxis/taipei-art-museum:
           filename: Plugin_030_TaipeiArtMuseum.dat
           id: 4c9fcb9f
           name: LM5x7_TaipeiArtMuseum
+          replace: 4c9fcb9f
           size: 5x7
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -2302,28 +2072,12 @@ maxis/taipei-art-museum:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 8550
-          capacity:
-            cs$: 97
-            cs$$: 97
-          category: landmarks
-          cost: 95000
+        - building: '04900000'
           filename: Plugin_030_TaipeiArtMuseum.dat
-          flamability: 27
-          garbage: 20
           id: 4c9fcb9f
-          maintenance: 180
           name: LM5x7_TaipeiArtMuseum
-          pollution: 5
-          pollutionRadius: 1
-          power: 90
-          rating: 9
-          ratingRadius: 256
           replace: 4c9fcb9f
           size: 5x7
-          water: 450
-          waterPollution: 6
-          waterPollutionRadius: 2
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -2345,7 +2099,7 @@ maxis/temple-of-grutz:
           category: landmarks
           cost: 100000
           description: An ancient structure made in the honor of the great Grutz
-          filename: Temple of Grutz/LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
+          filename: LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
           flamability: 10
           id: 2d1e7a9e
           label: The Temple Of G
@@ -2364,7 +2118,7 @@ maxis/temple-of-grutz:
           category: landmarks
           cost: 100000
           description: An ancient structure made in the honor of the great Grutz
-          filename: Temple of Grutz/TempleOfGrutz-0x6534284a-0xad1d67dc-0xed1e75d3.SC4Desc
+          filename: TempleOfGrutz-0x6534284a-0xad1d67dc-0xed1e75d3.SC4Desc
           flamability: 10
           id: ed1e75d3
           label: The Temple Of G
@@ -2383,7 +2137,7 @@ maxis/temple-of-grutz:
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         - building: 2d1e7a9e
-          filename: Temple of Grutz/LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
+          filename: LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot
           id: 2d1e7a9e
           name: LM6x6_TempleOfGrutz
           size: 6x6
@@ -2422,6 +2176,7 @@ maxis/the-living-mall:
           filename: Plugin_002_TheLivingMall.dat
           id: 6ac4085b
           name: LM6x6_TheLivingMall
+          replace: 6ac4085b
           size: 6x6
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -2463,28 +2218,12 @@ maxis/the-living-mall:
       lastGenerated: 2024-11-27T09:00:58.547Z
       lastModified: 2004-03-16T00:00:00.000Z
       lots:
-        - bulldoze: 4950
-          capacity:
-            cs$: 640
-            cs$$: 640
-          category: landmarks
-          cost: 55000
+        - building: 04c00000
           filename: Plugin_002_TheLivingMall.dat
-          flamability: 35
-          garbage: 11
           id: 6ac4085b
-          maintenance: 110
           name: LM6x6_TheLivingMall
-          pollution: 10
-          pollutionRadius: 4
-          power: 800
-          rating: 5
-          ratingRadius: 256
           replace: 6ac4085b
           size: 6x6
-          water: 850
-          waterPollution: 12
-          waterPollutionRadius: 5
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
