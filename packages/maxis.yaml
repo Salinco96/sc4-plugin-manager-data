@@ -208,6 +208,22 @@ maxis/air-force-base:
           id: 0ade2f1b
           name: RW10x10_AirForceBase
           size: 10x29
+      props:
+        - file: Plugin_007_AirForceBase.dat
+          id: 2aee0fb3
+          name: Effect_steamboat
+        - file: Plugin_007_AirForceBase.dat
+          id: 4ae643c1
+          name: Effect_fighter_jet_airshow
+        - file: Plugin_007_AirForceBase.dat
+          id: 4ae643c2
+          name: Effect_parked_fighterjets
+        - file: Plugin_007_AirForceBase.dat
+          id: 4ae643c3
+          name: Effect_parked_transport_planes
+        - file: Plugin_007_AirForceBase.dat
+          id: 2af8bbd2
+          name: Effect_Effect_biplane
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -478,6 +494,67 @@ maxis/day-of-peace:
         - id: simtropolis/maxis-day-of-peace
       lastGenerated: 2024-11-26T21:04:04.961Z
       lastModified: 2024-11-18T09:48:18.355Z
+      props:
+        - file: dayopeace.dat
+          id: 2cab0000
+          name: LM1x1x18_AmericanFlag_2CAB
+        - file: dayopeace.dat
+          id: 2cbb0000
+          name: LM1x1x18_SwedeFlag_2CBB
+        - file: dayopeace.dat
+          id: 2ccb0000
+          name: LM1x1x18_NetherlandFlag_2CCB
+        - file: dayopeace.dat
+          id: 2cdb0000
+          name: LM1x1x18_TaiwanFlag_2CDB
+        - file: dayopeace.dat
+          id: 2cad0000
+          name: LM1x1x18_BrazilFlag_2CAD
+        - file: dayopeace.dat
+          id: 2cbd0000
+          name: LM1x1x18_UKFlag_2CBD
+        - file: dayopeace.dat
+          id: 2ccd0000
+          name: LM1x1x18_PolishFlag_2CCD
+        - file: dayopeace.dat
+          id: 2d220000
+          name: LM1x1x18_ChinaFlag_2D22
+        - file: dayopeace.dat
+          id: 2cbf0000
+          name: LM1x1x18_ItalianFlag_2CBF
+        - file: dayopeace.dat
+          id: 2ccf0000
+          name: LM1x1x18_SKoreanFlag_2CCF
+        - file: dayopeace.dat
+          id: 2cba0000
+          name: LM1x1x18_FrenchFlag_2CBA
+        - file: dayopeace.dat
+          id: 2cca0000
+          name: LM1x1x18_JapaneseFlag_2CCA
+        - file: dayopeace.dat
+          id: 2cda0000
+          name: LM1x1x18_SpanishFlag_2CDA
+        - file: dayopeace.dat
+          id: 2cbc0000
+          name: LM1x1x18_FINLANDFlag_2CBC
+        - file: dayopeace.dat
+          id: 2ccc0000
+          name: LM1x1x18_NorwayFlag_2CCC
+        - file: dayopeace.dat
+          id: 2d210000
+          name: LM1x1x18_AussieFlag_2D21
+        - file: dayopeace.dat
+          id: 2cdc0000
+          name: LM1x1x18_ThaiFlag_2CDC
+        - file: dayopeace.dat
+          id: 2cbe0000
+          name: LM1x1x18_GermanFlag_2CBE
+        - file: dayopeace.dat
+          id: 2cce0000
+          name: LM1x1x18_PortugueseFlag_2CCE
+        - file: dayopeace.dat
+          id: 2d230000
+          name: LM1x1x18_DanishFlag_2D23
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -516,6 +593,10 @@ maxis/globe-arena:
           replace: aae108a3
           size: 11x8
       name: Original
+      props:
+        - file: Plugin_006_GlobeArena.dat
+          id: 2b960000
+          name: Lm4x16x45_GlobeArenaSign_2B96
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -562,6 +643,10 @@ maxis/globe-arena:
           replace: aae108a3
           size: 11x8
       name: With jobs
+      props:
+        - file: Plugin_006_GlobeArena.dat
+          id: 2b960000
+          name: Lm4x16x45_GlobeArenaSign_2B96
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
@@ -824,6 +909,19 @@ maxis/kunjungjon:
           replace: 4afc8bd5
           size: 5x6
       name: Original
+      props:
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b9a0000
+          name: LM7x16x6_Shrine-wall_2B9A
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b970000
+          name: LM1x1x2_Shrine-Deco_2B97
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b980000
+          name: LM11x32x9_Shrine-gate_2B98
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b990000
+          name: LM16x16x5_Shrine-corner_2B99
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -870,6 +968,19 @@ maxis/kunjungjon:
           replace: 4afc8bd5
           size: 5x6
       name: With jobs
+      props:
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b9a0000
+          name: LM7x16x6_Shrine-wall_2B9A
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b970000
+          name: LM1x1x2_Shrine-Deco_2B97
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b980000
+          name: LM11x32x9_Shrine-gate_2B98
+        - file: Plugin_008_Kunjungjon.dat
+          id: 2b990000
+          name: LM16x16x5_Shrine-corner_2B99
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
@@ -979,6 +1090,127 @@ maxis/longfellow-castle:
           id: 4d50ba18
           name: Longfellow Castle
           size: 13x12
+      props:
+        - file: CastleSet.dat
+          id: 2d570000
+          name: Castle Moat - Right
+        - file: CastleSet.dat
+          id: 2d500000
+          name: Castle Walls - Bartizan w/roof Reversed
+        - file: CastleSet.dat
+          id: 2d490000
+          name: Castle Prop - Well
+        - file: CastleSet.dat
+          id: 2d420000
+          name: Castle Prop - Barrel Rack (Shadowed)
+        - file: CastleSet.dat
+          id: 2d0a0000
+          name: Castle Out - Short Lean-to
+        - file: CastleSet.dat
+          id: 2d030000
+          name: Castle Walls - 90deg Outward
+        - file: CastleSet.dat
+          id: 2d540000
+          name: Castle Prop - Guillotine
+        - file: CastleSet.dat
+          id: 2d4d0000
+          name: Castle Walls - Gate
+        - file: CastleSet.dat
+          id: 2d460000
+          name: Castle Prop - Wood Bin (Shadowed)
+        - file: CastleSet.dat
+          id: 2d070000
+          name: Castle Out - Small Hut w Shingle Roof
+        - file: CastleSet.dat
+          id: 2d510000
+          name: Castle Out - Grain Silo
+        - file: CastleSet.dat
+          id: 2d4a0000
+          name: Castle Prop - Wagon w/Barrels
+        - file: CastleSet.dat
+          id: 2d430000
+          name: Castle Prop - Barrels
+        - file: CastleSet.dat
+          id: 2d0b0000
+          name: Castle Out - Smithy
+        - file: CastleSet.dat
+          id: 2d040000
+          name: Castle Walls - T Out
+        - file: CastleSet.dat
+          id: 2d550000
+          name: Castle Prop - Stocks
+        - file: CastleSet.dat
+          id: 2d4e0000
+          name: Castle Props - Wooden Fence (long)
+        - file: CastleSet.dat
+          id: 2d470000
+          name: Castle Prop - Hay Bin
+        - file: CastleSet.dat
+          id: 2d400000
+          name: Castle Walls - Bartizan w/roof
+        - file: CastleSet.dat
+          id: 2d0f0000
+          name: Castle Walls - Bartizan w Crenel
+        - file: CastleSet.dat
+          id: 2d080000
+          name: Castle Out - Large 2 Story House
+        - file: CastleSet.dat
+          id: 2d010000
+          name: Castle Walls - Repeat
+        - file: CastleSet.dat
+          id: 2d590000
+          name: Castle Moat - Bridge
+        - file: CastleSet.dat
+          id: 2d520000
+          name: Castle Prop - The Pit
+        - file: CastleSet.dat
+          id: 2d440000
+          name: Castle Prop - Barrels (shadowed)
+        - file: CastleSet.dat
+          id: 2d130000
+          name: Castle Walls - Bastion w/roof
+        - file: CastleSet.dat
+          id: 2d0c0000
+          name: Castle Out - Stable
+        - file: CastleSet.dat
+          id: 2d050000
+          name: Castle Out - Small Hut w Straw Roof
+        - file: CastleSet.dat
+          id: 2d560000
+          name: Castle Moat - Repeat
+        - file: CastleSet.dat
+          id: 2d4f0000
+          name: Castle Props - Wooden Fence (short)
+        - file: CastleSet.dat
+          id: 2d480000
+          name: Castle Prop - Hay Bin (Shadowed)
+        - file: CastleSet.dat
+          id: 2d410000
+          name: Castle Prop - Barrel Rack
+        - file: CastleSet.dat
+          id: 2d100000
+          name: Castle Walls - Bastion
+        - file: CastleSet.dat
+          id: 2d090000
+          name: Castle Out - Long Lean-to
+        - file: CastleSet.dat
+          id: 2d020000
+          name: Castle Walls - 90deg Inward
+        - file: CastleSet.dat
+          id: 2d530000
+          name: Castle Prop - Gallows
+        - file: CastleSet.dat
+          id: 2d4c0000
+          name: Castle Walls - Stone Stairs (reversed)
+        - file: CastleSet.dat
+          id: 2d450000
+          name: Castle Prop - Wood Bin
+        - file: CastleSet.dat
+          id: 2d0d0000
+          name: Castle Walls - Stone Staircase
+        - file: CastleSet.dat
+          id: 2d060000
+          name: Castle Out - Long Hut w Straw Roof
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -1054,6 +1286,2388 @@ maxis/maxis-buildings-as-props:
             - Maxis DLC Props.dat
       lastGenerated: 2024-11-26T21:04:04.961Z
       lastModified: 2023-12-06T15:41:39.000Z
+      props:
+        - file: Maxis DLC Props.dat
+          id: 2b9d0000
+          name: PZ1x1_LightRock_2B9D
+        - file: Maxis DLC Props.dat
+          id: 2ba00000
+          name: PZ1x1_MedRock_2BA0
+        - file: Maxis DLC Props.dat
+          id: 2ba20000
+          name: PZ1x1_DarkRock_2BA2
+        - file: Maxis DLC Props.dat
+          id: 2ba50000
+          name: PZ1x1_DarkBlockRock_2BA5
+        - file: Maxis DLC Props.dat
+          id: 2ba80000
+          name: PZ1x1_LightBlockRock_2BA8
+        - file: Maxis DLC Props.dat
+          id: 2bab0000
+          name: PZ1x2_DarkBlockRock_2BAB
+        - file: Maxis DLC Props.dat
+          id: 2bad0000
+          name: PZ1x2_LightBlockRock_2BAD
+        - file: Maxis DLC Props.dat
+          id: 2d3c0000
+          name: LM7x7_ChristmasTree_2D3C
+        - file: Maxis DLC Props.dat
+          id: 2d3e0000
+          name: Effect_Christmas_white_blinking
+        - file: Maxis DLC Props.dat
+          id: 2b9e0000
+          name: PZ2x2_LightRock_2B9E
+        - file: Maxis DLC Props.dat
+          id: 2b9f0000
+          name: PZ3x3_LightRock_2B9F
+        - file: Maxis DLC Props.dat
+          id: 2ba10000
+          name: PZ3x3_MedRock_2BA1
+        - file: Maxis DLC Props.dat
+          id: 2ba30000
+          name: PZ3x2_DarkRock_2BA3
+        - file: Maxis DLC Props.dat
+          id: 2ba40000
+          name: PZ4x3_DarkRock_2BA4
+        - file: Maxis DLC Props.dat
+          id: 2ba60000
+          name: PZ2x2_DarkBlockRock_2BA6
+        - file: Maxis DLC Props.dat
+          id: 2ba70000
+          name: PZ3x3_DarkBlockRock_2BA7
+        - file: Maxis DLC Props.dat
+          id: 2ba90000
+          name: PZ2x2_LightBlockRock_2BA9
+        - file: Maxis DLC Props.dat
+          id: 2baa0000
+          name: PZ3x3_LightBlockRock_2BAA
+        - file: Maxis DLC Props.dat
+          id: 2bac0000
+          name: PZ2x3_DarkBlockRock_2BAC
+        - file: Maxis DLC Props.dat
+          id: 2bae0000
+          name: PZ2x3_LightBlockRock_2BAE
+        - file: Maxis DLC Props.dat
+          id: d07feab1
+          name: IndstryPipes
+        - file: Maxis DLC Props.dat
+          id: 2d510000
+          name: Castle Out - Grain Silo
+        - file: Maxis DLC Props.dat
+          id: 2d520000
+          name: Castle Prop - The Pit
+        - file: Maxis DLC Props.dat
+          id: 2d530000
+          name: Castle Prop - Gallows
+        - file: Maxis DLC Props.dat
+          id: 2d540000
+          name: Castle Prop - Guillotine
+        - file: Maxis DLC Props.dat
+          id: 2d550000
+          name: Castle Prop - Stocks
+        - file: Maxis DLC Props.dat
+          id: 2d560000
+          name: Castle Moat - Repeat
+        - file: Maxis DLC Props.dat
+          id: 2d570000
+          name: Castle Moat - Right
+        - file: Maxis DLC Props.dat
+          id: 2d590000
+          name: Castle Moat - Bridge
+        - file: Maxis DLC Props.dat
+          id: 2d4e0000
+          name: Castle Props - Wooden Fence (long)
+        - file: Maxis DLC Props.dat
+          id: 2d4f0000
+          name: Castle Props - Wooden Fence (short)
+        - file: Maxis DLC Props.dat
+          id: 2d410000
+          name: Castle Prop - Barrel Rack
+        - file: Maxis DLC Props.dat
+          id: 2d420000
+          name: Castle Prop - Barrel Rack (Shadowed)
+        - file: Maxis DLC Props.dat
+          id: 2d430000
+          name: Castle Prop - Barrels
+        - file: Maxis DLC Props.dat
+          id: 2d440000
+          name: Castle Prop - Barrels (shadowed)
+        - file: Maxis DLC Props.dat
+          id: 2d450000
+          name: Castle Prop - Wood Bin
+        - file: Maxis DLC Props.dat
+          id: 2d460000
+          name: Castle Prop - Wood Bin (Shadowed)
+        - file: Maxis DLC Props.dat
+          id: 2d470000
+          name: Castle Prop - Hay Bin
+        - file: Maxis DLC Props.dat
+          id: 2d480000
+          name: Castle Prop - Hay Bin (Shadowed)
+        - file: Maxis DLC Props.dat
+          id: 2d490000
+          name: Castle Prop - Well
+        - file: Maxis DLC Props.dat
+          id: 2d4a0000
+          name: Castle Prop - Wagon w/Barrels
+        - file: Maxis DLC Props.dat
+          id: 2d050000
+          name: Castle Out - Small Hut w Straw Roof
+        - file: Maxis DLC Props.dat
+          id: 2d060000
+          name: Castle Out - Long Hut w Straw Roof
+        - file: Maxis DLC Props.dat
+          id: 2d070000
+          name: Castle Out - Small Hut w Shingle Roof
+        - file: Maxis DLC Props.dat
+          id: 2d080000
+          name: Castle Out - Large 2 Story House
+        - file: Maxis DLC Props.dat
+          id: 2d090000
+          name: Castle Out - Long Lean-to
+        - file: Maxis DLC Props.dat
+          id: 2d0a0000
+          name: Castle Out - Short Lean-to
+        - file: Maxis DLC Props.dat
+          id: 2d0b0000
+          name: Castle Out - Smithy
+        - file: Maxis DLC Props.dat
+          id: 2d0c0000
+          name: Castle Out - Stable
+        - file: Maxis DLC Props.dat
+          id: f33e00fc
+          name: RW80x64_MovieStudio_033E
+        - file: Maxis DLC Props.dat
+          id: f34300fc
+          name: RW64x80_ConventionCtr_0343
+        - file: Maxis DLC Props.dat
+          id: f34600fc
+          name: RW64x96_ArmyBase_0346
+        - file: Maxis DLC Props.dat
+          id: f37e00fc
+          name: RW8x8_FemaleMayorStatueMedium_037E
+        - file: Maxis DLC Props.dat
+          id: f32100fc
+          name: RW8x8_MayorStatue_0321
+        - file: Maxis DLC Props.dat
+          id: f33600fc
+          name: RW96x128_State Fair_0336
+        - file: Maxis DLC Props.dat
+          id: f33900fc
+          name: RW80x80_Zoo_0339
+        - file: Maxis DLC Props.dat
+          id: f4b800fc
+          name: .p_Lm64x72_KoreaLifeBldg_04B8
+        - file: Maxis DLC Props.dat
+          id: f4b700fc
+          name: .p_Lm72x34_BrandenburgGate_04B7
+        - file: Maxis DLC Props.dat
+          id: f4b600fc
+          name: .p_Lm32x68_Parthenon_04B6
+        - file: Maxis DLC Props.dat
+          id: f19100fc
+          name: .p_Lm38x22_ArcTriomphe_04C1
+        - file: Maxis DLC Props.dat
+          id: f4c200fc
+          name: .p_Lm239x215_WorldCupFootballStadium_04C2_[Seoul]
+        - file: Maxis DLC Props.dat
+          id: f4bc00fc
+          name: .p_Lm148x112_GlobeArena_04BC
+        - file: Maxis DLC Props.dat
+          id: f4b300fc
+          name: .p_Lm100x125_grandcentral_04B3
+        - file: Maxis DLC Props.dat
+          id: f4b100fc
+          name: .p_Lm80x48_CapitolRecordsBuilding_04B1
+        - file: Maxis DLC Props.dat
+          id: f4b400fc
+          name: .p_LM80x80_sagradafamilia_04B4
+        - file: Maxis DLC Props.dat
+          id: f4c300fc
+          name: .p_LM80x64_SeoulCityHallSquare_04C3
+        - file: Maxis DLC Props.dat
+          id: f4ba00fc
+          name: .p_Lm55x43_KonjongjonHall_04BA
+        - file: Maxis DLC Props.dat
+          id: f4b900fc
+          name: .p_Lm64x64_NamDaeMoon_04B9
+        - file: Maxis DLC Props.dat
+          id: f4c000fc
+          name: .p_Lm80x80_TheLivingMall_04C0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074618
+          name: R$10x24_4HouBoxyApt4_0C074618
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074619
+          name: R$10x24_4HouBoxyApt5_0C074619
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07461a
+          name: R$10x24_4NYBoxyApt4_0C07461A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07461b
+          name: R$16x30_4ChiBoxyApt6_0C07461B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07461d
+          name: R$16x30_4HouBoxyApt6_0C07461D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07461e
+          name: R$16x30_4NYBoxyApt6_0C07461E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07461f
+          name: R$16x8_123ChiTinyHouse10_0C07461F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074620
+          name: R$16x8_123ChiTinyHouse11_0C074620
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074621
+          name: R$16x8_123ChiTinyHouse9_0C074621
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074625
+          name: R$16x8_123HouTinyHouse10_0C074625
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074626
+          name: R$16x8_123HouTinyHouse8_0C074626
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074627
+          name: R$16x8_123HouTinyHouse9_0C074627
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074628
+          name: R$16x8_123NYTinyHouse10_0C074628
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074629
+          name: R$16x8_123NYTinyHouse8_0C074629
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07462a
+          name: R$16x8_123NYTinyHouse9_0C07462A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07462b
+          name: R$28x22_4ChiBoxyApt1_0C07462B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746dd
+          name: RW12x12_FemaleMayorStatueMediumHigh_CC0746DD
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746de
+          name: RW12x12_MayorStatueMediumHigh_CC0746DE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07462d
+          name: R$28x22_4HouBoxyApt1_0C07462D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07462e
+          name: R$28x22_4NYBoxyApt1_0C07462E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e0
+          name: RW16x14_MayorsHouse_CC0746E0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07462f
+          name: R$28x24_5ChiTenemtApt1_0C07462F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e1
+          name: RW16x16_FemaleMayorStatueHigh_CC0746E1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074630
+          name: R$28x24_5NYTenemtApt1_0C074630
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e2
+          name: RW16x16_MayorStatueHigh_CC0746E2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e3
+          name: RW21x21_AdvResearchCenter_CC0746E3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074632
+          name: R$28x24_6HouTenemtApt1_0C074632
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e4
+          name: RW24x30_PrivateSchool2_CC0746E4
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074633
+          name: R$30x16_5ChiTenemtApt7_0C074633
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e5
+          name: RW24x30_PrivateSchool3_CC0746E5
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074634
+          name: R$30x16_5ChiTenemtApt8_0C074634
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e6
+          name: RW24x30_PrivateSchool_CC0746E6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074635
+          name: R$30x16_5ChiTenemtApt9_0C074635
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e7
+          name: RW26x26_HouseWorship2_CC0746E7
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e8
+          name: RW26x26_HouseWorship3_CC0746E8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074637
+          name: R$30x16_6HouTenemtApt7_0C074637
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746e9
+          name: RW26x26_HouseWorship4_CC0746E9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074638
+          name: R$30x16_6NYTenemtApt7_0C074638
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746ea
+          name: RW26x26_HouseWorship_CC0746EA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074639
+          name: R$30x28_5ChiTenemtApt4_0C074639
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746eb
+          name: RW30x44_MainCityLibrary_CC0746EB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07463a
+          name: R$30x28_5ChiTenemtApt5_0C07463A
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746ec
+          name: RW32x20_RadioStation_CC0746EC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07463b
+          name: R$30x28_5ChiTenemtApt6_0C07463B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746ed
+          name: RW32x32_Cemetery_CC0746ED
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07463c
+          name: R$30x28_5NYTenemtApt4_0C07463C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746ee
+          name: RW32x32_Cemetery_CC0746EE
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746ef
+          name: RW32x32_Cemetery_CC0746EF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07463e
+          name: R$30x28_6HouTenemtApt4_0C07463E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f0
+          name: RW32x32_MissleRange_CC0746F0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07463f
+          name: R$40x44_7ChiHiriseTenemts5_0C07463F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f1
+          name: RW32x48_FarmersMarket_CC0746F1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074641
+          name: R$40x44_7HouHiriseTenemts5_0C074641
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f3
+          name: RW36x14_TouristTrap_CC0746F3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074642
+          name: R$40x44_7NYHiriseTenemts5_0C074642
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f4
+          name: RW36x50_DiseaseCtr_CC0746F4
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074643
+          name: R$44x24_7ChiHiriseTenemts7_0C074643
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f5
+          name: RW40x40_ToxicDump_CC0746F5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f6
+          name: RW42x38_MajorArtMuseum_CC0746F6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074645
+          name: R$44x24_7HouHiriseTenemts7_0C074645
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074646
+          name: R$44x24_7NYHiriseTenemts7_0C074646
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f8
+          name: RW44x28_CountryClub_CC0746F8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074647
+          name: R$4x10_123ChiTinyHouse5_0C074647
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746f9
+          name: RW44x28_CourtHouse_CC0746F9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074648
+          name: R$4x10_123ChiTinyHouse6_0C074648
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746fa
+          name: RW44x28_UnivAdminTower_CC0746FA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746fb
+          name: RW44x44_TVStation_CC0746FB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746fc
+          name: RW44x50_OperaHouse_CC0746FC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07464b
+          name: R$4x10_123HouTinyHouse4_0C07464B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746fd
+          name: RW46x22_CityHall_CC0746FD
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07464c
+          name: R$4x10_123HouTinyHouse5_0C07464C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746fe
+          name: RW46x34_CityHall_CC0746FE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07464d
+          name: R$4x10_123NYTinyHouse4_0C07464D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc0746ff
+          name: RW46x50_CityHall_CC0746FF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07464e
+          name: R$4x10_123NYTinyHouse5_0C07464E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074700
+          name: RW48x32_ResortHotel_CC074700
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074701
+          name: RW48x60_StockExchange_CC074701
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074650
+          name: R$56x28_7HouHiriseTenemts1_0C074650
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074702
+          name: RW4x4_FemaleMayorStatueMediumLow_CC074702
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074651
+          name: R$56x28_7NYHiriseTenemts1_0C074651
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074703
+          name: RW4x4_MayorStatueMediumLow_CC074703
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074652
+          name: R$56x28_8ChiHiriseTenemts1_0C074652
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074704
+          name: RW63x63_BureauBureaucracy_CC074704
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074653
+          name: R$56x28_8ChiHiriseTenemts2_0C074653
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074705
+          name: RW64x64_Casino_CC074705
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074654
+          name: R$60x60_7ChiHiriseTenemts3_0C074654
+        - file: z_All Maxis building props with proper names.dat
+          id: cc074706
+          name: RW64x64_Prison_CC074706
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074655
+          name: R$60x60_7NYHiriseTenemts3_0C074655
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074658
+          name: R$60x60_8HouHiriseTenemts3_0C074658
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074659
+          name: R$60x60_8HouHiriseTenemts4_0C074659
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07465a
+          name: R$6x8_123ChiTinyHouse1_0C07465A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07465b
+          name: R$6x8_123ChiTinyHouse2_0C07465B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07465c
+          name: R$6x8_123ChiTinyHouse3_0C07465C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07465d
+          name: R$6x8_123ChiTinyHouse4_0C07465D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074661
+          name: R$6x8_123HouTinyHouse1_0C074661
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074662
+          name: R$6x8_123HouTinyHouse2_0C074662
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074663
+          name: R$6x8_123HouTinyHouse3_0C074663
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074664
+          name: R$6x8_123NYTinyHouse2_0C074664
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074665
+          name: R$6x8_123NYTinyHouse3_0C074665
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074666
+          name: R$8x10_123ChiTinyHouse8_0C074666
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074669
+          name: R$8x10_123HouTinyHouse6_0C074669
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07466a
+          name: R$8x10_123HouTinyHouse7_0C07466A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07466b
+          name: R$8x10_123NYTinyHouse6_0C07466B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07466c
+          name: R$8x10_123NYTinyHouse7_0C07466C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743e9
+          name: Lm104x6_Hollywoodsign_0c0743e9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743ea
+          name: Lm126x126_GreatPyramid_0C0743EA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743eb
+          name: Lm128x60_EmpireStateBuilding_0C0743EB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743ec
+          name: Lm160x16_GatewayArch_0C0743EC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743ed
+          name: Lm160x72_USCapitol_0C0743ED
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743ee
+          name: Lm16x16_BigBen_0C0743EE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743ef
+          name: Lm24x30_BostonFaneuilHall_0C0743EF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f0
+          name: Lm26x32_Alamo_0C0743F0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f1
+          name: Lm30x24_IndependenceHall_0C0743F1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f2
+          name: Lm30x30_StatueofLiberty_0C0743F2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f3
+          name: Lm33x36_TowerOfLondon_0C0743F3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f4
+          name: Lm35x38_CoitTower_0C0743F4
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f5
+          name: Lm45x35_SmithTower_0C0743F5
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f6
+          name: Lm45x38_PalaceofFineArts_0C0743F6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f7
+          name: Lm46x46_WashingtonMonument_0C0743F7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f8
+          name: Lm48x48_Fernsehturm_0C0743F8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743f9
+          name: Lm54x54_RotesRathaus_0C0743F9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743fa
+          name: Lm54x64_StBasils_0C0743FA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743fb
+          name: Lm60x60_BankOfChinaTower_0C0743FB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743fc
+          name: Lm62x62_ChryslerBuilding_0C0743FC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743fd
+          name: Lm64x24_Sphynx_0C0743FD
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743fe
+          name: Lm64x64_TajMahal_0C0743FE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0743ff
+          name: Lm70x70_WhiteHouse_0C0743FF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074400
+          name: Lm72x55_LincolnMemorial_0C074400
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074401
+          name: LM72x72_PalacioReal_0C074401
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074402
+          name: Lm76x60_HagiaSofia_0C074402
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074403
+          name: Lm76x84_JeffersonMemorial_0C074403
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074404
+          name: Lm77x48_Guggenhiem_0C074404
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074405
+          name: Lm80x160_Alcatraz_0C074405
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074406
+          name: Lm80x48_BankofAmerica_0C074406
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074407
+          name: Lm84x52_JohnHancockCenter_0C074407
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074408
+          name: Lm85x98_CNtower_0C074408
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074409
+          name: Lm88x124_CaliforniaPlaza_0C074409
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07440a
+          name: Lm88x88_Amalienborg_0C07440A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07440b
+          name: Lm94x94_TokyoTower_0C07440B
+        - file: z_All Maxis building props with proper names.dat
+          id: ac07349e
+          name: CV10x24_SmallLibrary_ac07349e
+        - file: z_All Maxis building props with proper names.dat
+          id: ac07349f
+          name: CV12x14_2engineStationHouse_AC07349F
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734a0
+          name: CV12x14_urgentcareclinic_AC0734A0
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734a8
+          name: CV24x22_ScienceHistoryArtMuseum_AC0734A8
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734a9
+          name: CV24X24_4carLocalPrecinct_AC0734A9
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734aa
+          name: CV28x28_K-8SmallSchool_AC0734AA
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734ab
+          name: CV32x28_36carLocalPrecinct_AC0734AB
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734ac
+          name: CV32x32_4engineStationHouse_AC0734AC
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734ad
+          name: CV38x48_Jail_AC0734AD
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734af
+          name: CV44x44_CityCollege_AC0734AF
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734b0
+          name: CV44x44_LargeMedicalCenter_AC0734B0
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734b2
+          name: CV56x28_9-12LargeSchool_AC0734B2
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734b5
+          name: PZ11x9x11_Gazebo_AC0734B5
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734b6
+          name: PZ16x32x2_tennis-court_AC0734B6
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734b7
+          name: PZ17x9x15_RangerStation_AC0734B7
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734ca
+          name: PZBaseball16x16x11_Backstop_AC0734CA
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734cb
+          name: PZPark3x6x5_Lifeguardtower_AC0734CB
+        - file: z_All Maxis building props with proper names.dat
+          id: ac0734cd
+          name: Pzsoc3x8x3_goalpost_AC0734CD
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07414f
+          name: ID12x20_1DirtyOut2_0C07414F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074150
+          name: ID14x14_2DirtyMech5_0C074150
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074152
+          name: ID14x14_2DirtyOut4_0C074152
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074153
+          name: ID14x16_1DirtyAnchor1_0C074153
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074154
+          name: ID20x12_1DirtyMech3_0C074154
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074155
+          name: ID20x16_2DirtyMech7_0C074155
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074156
+          name: ID22x14_2DirtyAnchor6_0C074156
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074157
+          name: ID24x12_1DirtyOut3_0C074157
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074158
+          name: ID24x16_2DirtyOut5_0C074158
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074159
+          name: ID24x24_1DirtyMech2_0C074159
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07415a
+          name: ID27x27_2DirtyMech4_0C07415A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07415b
+          name: ID28x16_2DirtyMech8_0C07415B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07415c
+          name: ID28x16_2DirtyOut6_0C07415C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07415d
+          name: ID28x28_2DirtyMech4_0C07415D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07415e
+          name: ID28x28_2DirtyMech6_0C07415E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07415f
+          name: ID28x28_3DirtyMech13_0C07415F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074160
+          name: ID30x14_3DirtyOut8_0C074160
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074161
+          name: ID30x24_1DirtyAnchor4_0C074161
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074162
+          name: ID30x30_1DirtyAnchor55_0C074162
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074163
+          name: ID30x30_1DirtyAnchor5_0C074163
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074164
+          name: ID30x30_3DirtyOut9_0C074164
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074165
+          name: ID32x16_3DirtyMech10_0C074165
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074166
+          name: ID32x16_3DirtyOut7_0C074166
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074167
+          name: ID32x32_3DirtyMech9_0C074167
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074168
+          name: ID45x30_1DirtyAnchor3_0C074168
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074169
+          name: ID46x32_3DirtyOut10_0C074169
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07416a
+          name: ID48x30_2DirtyAnchor7_0C07416A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07416b
+          name: ID48x32_3DirtyAnchor9_0C07416B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f1c
+          name: CO$$$12x28_1ChiOfficeBldg1_cc073f1c
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07416c
+          name: ID48x32_3DirtyMech12_0C07416C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07416d
+          name: ID48x46_2DirtyAnchor10_0C07416D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f1e
+          name: CO$$$12x28_1HouOfficeBldg1_CC073F1E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07416e
+          name: ID48x46_2DirtyAnchor8_0C07416E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f1f
+          name: CO$$$12x28_1NYOfficeBldg1_CC073F1F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07416f
+          name: ID4x6_1DirtyMech1_0C07416F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f20
+          name: CO$$$14x14_4ChiOfficeBldg3_CC073F20
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074170
+          name: ID64x46_3DirtyAnchor11_0C074170
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074171
+          name: ID64x62_3DirtyAnchor12_0C074171
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f22
+          name: CO$$$14x14_4HouOfficeBldg3_CC073F22
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074172
+          name: ID8x8_1DirtyOut1_0C074172
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f23
+          name: CO$$$14x14_4NYOfficeBldg3_CC073F23
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074173
+          name: IH14x14_1HTMech1_0C074173
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f25
+          name: CO$$$14x14_5HouOfficeBldg5_CC073F25
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074175
+          name: IH14x24_1HTOut2_0C074175
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f26
+          name: CO$$$14x14_5NYOfficeBldg5_CC073F26
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074176
+          name: IH14x28_1HTAnchor1_0C074176
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f27
+          name: CO$$$14x22_5ChiOfficeBldg7_CC073F27
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074177
+          name: IH14x28_1HTAnchor2_0C074177
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074178
+          name: IH14x28_1HTOut1_0C074178
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f29
+          name: CO$$$14x22_5HouOfficeBldg7_CC073F29
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074179
+          name: IH14x28_2HTMech4_0C074179
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f2a
+          name: CO$$$14x22_5NYOfficeBldg7_CC073F2A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07417a
+          name: IH14x28_2HTMech5_0C07417A
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f2b
+          name: CO$$$24x24_1ChiOfficeBldg4_CC073F2B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07417b
+          name: IH24x28_2HTAnchor4_0C07417B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07417c
+          name: IH24x60_2HTOut9_0C07417C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f2d
+          name: CO$$$24x24_1HouOfficeBldg4_CC073F2D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07417d
+          name: IH26x26_1HTOut5_0C07417D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f2e
+          name: CO$$$24x24_1NYOfficeBldg4_CC073F2E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07417e
+          name: IH26x28_1HTOut4_0C07417E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f2f
+          name: CO$$$24x24_2ChiOfficeBldg7_CC073F2F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07417f
+          name: IH28x28_1HTAnchor3_0C07417F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f30
+          name: CO$$$24x24_2ChiOfficeBldg8_CC073F30
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074180
+          name: IH28x28_3HTMech7_0C074180
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f31
+          name: CO$$$24x24_2ChiOfficeBldg9_CC073F31
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074181
+          name: IH28x28_3HTMech8_0C074181
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074182
+          name: IH28x40_2HTAnchor6_0C074182
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f33
+          name: CO$$$24x24_2HouOfficeBldg7_CC073F33
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074183
+          name: IH28x40_2HTOut8_0C074183
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f34
+          name: CO$$$24x24_2NYOfficeBldg7_CC073F34
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074184
+          name: IH28x44_2HTOut6_0C074184
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f35
+          name: CO$$$30x22_4ChiOfficeBldg1_CC073F35
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074185
+          name: IH28x58_3HTOut10_0C074185
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074186
+          name: IH28x74_3HTOut14_0C074186
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f37
+          name: CO$$$30x22_4HouOfficeBldg1_CC073F37
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074187
+          name: IH38x88_3HTOut15_0C074187
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f38
+          name: CO$$$30x22_4NYOfficeBldg1_CC073F38
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074188
+          name: IH40x44_3HTAnchor9_0C074188
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f39
+          name: CO$$$40x24_3ChiOfficeBldg10_CC073F39
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074189
+          name: IH40x60_3HTOut11_0C074189
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f3a
+          name: CO$$$40x24_3ChiOfficeBldg11_CC073F3A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07418a
+          name: IH42x42_3HTAnchor8_0C07418A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07418b
+          name: IH42x58_3HTOut12_0C07418B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f3c
+          name: CO$$$40x24_3HouOfficeBldg10_CC073F3C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07418c
+          name: IH54x42_3HTAnchor11_0C07418C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f3d
+          name: CO$$$40x24_3NYOfficeBldg10_CC073F3D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07418d
+          name: IM14x24_1ManuOut2_0C07418D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f3e
+          name: CO$$$44x26_5ChiOfficeBldg4_CC073F3E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07418e
+          name: IM14x28_1ManuAnchor1_0C07418E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f3f
+          name: CO$$$44x26_5ChiOfficeBldg5_CC073F3F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07418f
+          name: IM14x28_1ManuAnchor2_0C07418F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f40
+          name: CO$$$44x26_6ChiOfficeBldg10_CC073F40
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074190
+          name: IM14x28_1ManuOut1_0C074190
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f41
+          name: CO$$$44x26_6ChiOfficeBldg9_CC073F41
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074191
+          name: IM14x28_2ManuMech4_0C074191
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074192
+          name: IM14x28_2ManuMech5_0C074192
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f43
+          name: CO$$$44x26_6HouOfficeBldg9_CC073F43
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074193
+          name: IM18x32_1ManuMech1_0C074193
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f44
+          name: CO$$$44x26_6NYOfficeBldg9_CC073F44
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074194
+          name: IM24x28_1ManuAnchor4_0C074194
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f45
+          name: CO$$$44x26_7ChiOfficeBldg1_CC073F45
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074195
+          name: IM24x60_3ManuOut9_0C074195
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f46
+          name: CO$$$44x26_7ChiOfficeBldg2_CC073F46
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074196
+          name: IM26x26_2ManuOut5_0C074196
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074197
+          name: IM26x28_2ManuOut4_0C074197
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074198
+          name: IM28x28_1ManuAnchor3_0C074198
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f49
+          name: CO$$$44x26_7HouOfficeBldg1_CC073F49
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074199
+          name: IM28x28_3ManuMech7_0C074199
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f4a
+          name: CO$$$44x26_7HouOfficeBldg2_CC073F4A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07419a
+          name: IM28x28_3ManuMech8_0C07419A
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f4b
+          name: CO$$$44x26_7NYOfficeBldg1_CC073F4B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07419b
+          name: IM28x40_2ManuAnchor6_0C07419B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f4c
+          name: CO$$$44x36_8ChiOfficeBldg3_CC073F4C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07419c
+          name: IM28x40_2ManuOut8_0C07419C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07419d
+          name: IM28x44_2ManuOut6_0C07419D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07419e
+          name: IM28x58_3ManuOut10_0C07419E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f4f
+          name: CO$$$44x36_8HouOfficeBldg3_CC073F4F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07419f
+          name: IM28x74_3ManuOut14_0C07419F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f50
+          name: CO$$$44x36_8HouOfficeBldg4_CC073F50
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a0
+          name: IM38x88_3ManuOut15_0C0741A0
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f51
+          name: CO$$$44x36_8NYOfficeBldg3_CC073F51
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a1
+          name: IM40x44_2ManuAnchor9_0C0741A1
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f52
+          name: CO$$$56x36_8ChiOfficeBldg5_CC073F52
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a2
+          name: IM40x60_3ManuOut11_0C0741A2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a3
+          name: IM42x42_2ManuAnchor8_0C0741A3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f54
+          name: CO$$$56x36_8HouOfficeBldg5_CC073F54
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a4
+          name: IM42x54_3ManuAnchor11_0C0741A4
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f55
+          name: CO$$$56x36_8NYOfficeBldg5_CC073F55
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a5
+          name: IM42x58_3ManuOut12_0C0741A5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f56
+          name: CO$$$56x56_8ChiOfficeBldg7_CC073F56
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a6
+          name: IR15x7_1Farm4_0C0741A6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a7
+          name: IR16x30_2Farm6_0C0741A7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a8
+          name: IR24x20_1Farm3_0C0741A8
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f59
+          name: CO$$$56x56_8HouOfficeBldg7_CC073F59
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741a9
+          name: IR24x24_1Farm7_0C0741A9
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f5a
+          name: CO$$$56x56_8HouOfficeBldg8_CC073F5A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741aa
+          name: IR30x24_1Farm1_0C0741AA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f5b
+          name: CO$$$56x56_8NYOfficeBldg7_CC073F5B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741ab
+          name: IR32x32_2Farm5_0C0741AB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f5c
+          name: CO$$12x28_1ChiOfficeBldg1_CC073F5C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0741ac
+          name: IR60x50_3Farm2_0C0741AC
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f5d
+          name: CO$$12x28_1ChiOfficeBldg2_CC073F5D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f5e
+          name: CO$$12x28_1ChiOfficeBldg3_CC073F5E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f60
+          name: CO$$12x28_1HouOfficeBldg1_CC073F60
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f61
+          name: CO$$12x28_1NYOfficeBldg1_CC073F61
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f62
+          name: CO$$14x14_4ChiOfficeBldg1_CC073F62
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f64
+          name: CO$$14x14_4HouOfficeBldg1_CC073F64
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f65
+          name: CO$$14x14_4NYOfficeBldg1_CC073F65
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f66
+          name: CO$$14x22_4ChiOfficeBldg3_CC073F66
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f67
+          name: CO$$14x22_4ChiOfficeBldg4_CC073F67
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f69
+          name: CO$$14x22_4HouOfficeBldg3_CC073F69
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f6a
+          name: CO$$14x22_4NYOfficeBldg3_CC073F6A
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f6b
+          name: CO$$24x24_1ChiOfficeBldg4_CC073F6B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f6c
+          name: CO$$24x24_1ChiOfficeBldg5_CC073F6C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f6d
+          name: CO$$24x24_1ChiOfficeBldg6_CC073F6D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f6f
+          name: CO$$24x24_1HouOfficeBldg4_CC073F6F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f70
+          name: CO$$24x24_1NYOfficeBldg4_CC073F70
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f71
+          name: CO$$24x24_1NYOfficeBldg5_CC073F71
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f72
+          name: CO$$24x24_3ChiOfficeBldg10_CC073F72
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f74
+          name: CO$$24x24_3HouOfficeBldg10_CC073F74
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f75
+          name: CO$$24x24_3NYOfficeBldg10_CC073F75
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f76
+          name: CO$$30x22_6ChiOfficeBldg7_CC073F76
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f78
+          name: CO$$30x22_6HouOfficeBldg7_CC073F78
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f79
+          name: CO$$30x22_6NYOfficeBldg7_CC073F79
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f7a
+          name: CO$$40x24_2ChiOfficeBldg7_CC073F7A
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f7b
+          name: CO$$40x24_2ChiOfficeBldg8_CC073F7B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f7c
+          name: CO$$40x24_2ChiOfficeBldg9_CC073F7C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f7e
+          name: CO$$40x24_2HouOfficeBldg7_CC073F7E
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f7f
+          name: CO$$40x24_2NYOfficeBldg7_CC073F7F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f80
+          name: CO$$44x26_5ChiOfficeBldg10_CC073F80
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f81
+          name: CO$$44x26_5ChiOfficeBldg11_CC073F81
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f82
+          name: CO$$44x26_5ChiOfficeBldg5_CC073F82
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f83
+          name: CO$$44x26_5ChiOfficeBldg9_CC073F83
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f85
+          name: CO$$44x26_5HouOfficeBldg9_CC073F85
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f86
+          name: CO$$44x26_5NYOfficeBldg5_CC073F86
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f87
+          name: CO$$44x26_5NYOfficeBldg9_CC073F87
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f88
+          name: CO$$44x26_7ChiOfficeBldg3_CC073F88
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f8a
+          name: CO$$44x26_7HouOfficeBldg3_CC073F8A
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f8b
+          name: CO$$44x26_7NYOfficeBldg1_CC073F8B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f8c
+          name: CO$$44x26_7NYOfficeBldg3_CC073F8C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f8d
+          name: CO$$44x36_7ChiOfficeBldg1_CC073F8D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f8f
+          name: CO$$44x36_7HouOfficeBldg1_CC073F8F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f90
+          name: CO$$56x36_8ChiOfficeBldg5_CC073F90
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f92
+          name: CO$$56x36_8HouOfficeBldg5_CC073F92
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f93
+          name: CO$$56x36_8NYOfficeBldg5_CC073F93
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f94
+          name: CO$$56x56_8ChiOfficeBldg7_CC073F94
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f96
+          name: CO$$56x56_8HouOfficeBldg7_CC073F96
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f97
+          name: CO$$56x56_8NYOfficeBldg7_CC073F97
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f98
+          name: CS$$$10x14_1ChiChezFancy_CC073F98
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f99
+          name: CS$$$12x28_1ChiLuxuryStore1_CC073F99
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f9b
+          name: CS$$$12x28_1HouLuxuryStore1_CC073F9B
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f9c
+          name: CS$$$12x28_1NYLuxuryStore1_CC073F9C
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f9d
+          name: CS$$$14x14_4ChiLuxuryStore4_CC073F9D
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073f9f
+          name: CS$$$14x14_4HouLuxuryStore4_CC073F9F
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa0
+          name: CS$$$14x14_4NYLuxuryStore4_CC073FA0
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa1
+          name: CS$$$14x8_1ChiCarCarCentre_CC073FA1
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa2
+          name: CS$$$16x12_1ChiLuxurySpa_CC073FA2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa3
+          name: CS$$$24x24_1ChiLuxuryStore2_CC073FA3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa5
+          name: CS$$$24x24_1HouLuxuryStore2_CC073FA5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa6
+          name: CS$$$24x24_1NYLuxuryStore2_CC073FA6
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa7
+          name: CS$$$24x26_1ChiLuxuryAutoCentr_CC073FA7
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa8
+          name: CS$$$24x30_1ChiDinnerTheater_CC073FA8
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fa9
+          name: CS$$$26x46_4ChiMaxisSimTheatre_CC073FA9
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073faa
+          name: CS$$$28x28_4ChiSims4thAve_CC073FAA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fab
+          name: CS$$$30x22_4ChiLuxuryStore6_CC073FAB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fad
+          name: CS$$$30x22_4HouLuxuryStore6_CC073FAD
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fae
+          name: CS$$$30x22_4NYLuxuryStore6_CC073FAE
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073faf
+          name: CS$$$30x26_4ChiRitzy_CC073FAF
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb0
+          name: CS$$$37x22_7ChiMaxisSimTheatre_CC073FB0
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb1
+          name: CS$$$40x24_3ChiLuxuryStore3_CC073FB1
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb3
+          name: CS$$$40x24_3HouLuxuryStore3_CC073FB3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb4
+          name: CS$$$40x24_3NYLuxuryStore3_CC073FB4
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb5
+          name: CS$$$40x28_7ChiSims4thAve_CC073FB5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb6
+          name: CS$$$44x26_5ChiLuxuryStore5_CC073FB6
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb8
+          name: CS$$$44x26_5HouLuxuryStore5_CC073FB8
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fb9
+          name: CS$$$44x26_5NYLuxuryStore5_CC073FB9
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fba
+          name: CS$$$52x52_4ChiFashionCentre_CC073FBA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fbb
+          name: CS$$$60x30_7ChiRitzy_CC073FBB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fbc
+          name: CS$$$60x44_7ChiFashionCentre_CC073FBC
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fbd
+          name: CS$$$60x52_1ChiFashionCentre_CC073FBD
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fbe
+          name: CS$$10x14_1ChiFamilyDiner_CC073FBE
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fbf
+          name: CS$$12x14_1ChiCarDealership_CC073FBF
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc0
+          name: CS$$12x28_1ChiMediumStore1_CC073FC0
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc2
+          name: CS$$12x28_1HouMediumStore1_CC073FC2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc3
+          name: CS$$12x28_1NYMediumStore1_CC073FC3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc4
+          name: CS$$12x8_1ChiServiceStation_CC073FC4
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc5
+          name: CS$$14x14_4ChiMediumStore4_CC073FC5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc7
+          name: CS$$14x14_4HouMediumStore4_CC073FC7
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc8
+          name: CS$$14x14_4NYMediumStore4_CC073FC8
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fc9
+          name: CS$$14x22_4ChiMediumStore5_CC073FC9
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fcb
+          name: CS$$14x22_4HouMediumStore5_CC073FCB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fcc
+          name: CS$$14x22_4NYMediumStore5_CC073FCC
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fcd
+          name: CS$$28x28_4ChiSimcys_CC073FCD
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fce
+          name: CS$$30x22_6ChiMediumStore6_CC073FCE
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd0
+          name: CS$$30x22_6HouMediumStore6_CC073FD0
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd1
+          name: CS$$30x22_6NYMediumStore6_CC073FD1
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd2
+          name: CS$$30x26_4ChiCinema_CC073FD2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd3
+          name: CS$$30x28_4ChiFamilyInn_CC073FD3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd4
+          name: CS$$40x24_2ChiMediumStore3_CC073FD4
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd6
+          name: CS$$40x24_2HouMediumStore3_CC073FD6
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd7
+          name: CS$$40x24_2NYMediumStore3_CC073FD7
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd8
+          name: CS$$40x28_7ChiSimcys_CC073FD8
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fd9
+          name: CS$$40x54_7ChiCinema_CC073FD9
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fda
+          name: CS$$44x16_1ChiFamilyCourt_CC073FDA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fdb
+          name: CS$$44x26_5ChiMediumStore7_CC073FDB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fdd
+          name: CS$$44x26_5HouMediumStore7_CC073FDD
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fde
+          name: CS$$44x26_5NYMediumStore7_CC073FDE
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fdf
+          name: CS$$44x26_7ChiMediumStore8_CC073FDF
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe1
+          name: CS$$44x26_7HouMediumStore8_CC073FE1
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe2
+          name: CS$$44x26_7NYMediumStore8_CC073FE2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe3
+          name: CS$$44x28_1ChiMultiplex_CC073FE3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe4
+          name: CS$$44x30_7ChiFamilyInn_CC073FE4
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe5
+          name: CS$$60x44_7ChiMiddleClassMall_CC073FE5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe6
+          name: CS$$60x56_1ChiMiddleClassMall_CC073FE6
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe7
+          name: CS$$60x56_4ChiMiddleClassMall_CC073FE7
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe8
+          name: CS$10x4_1ChiTacoStand_CC073FE8
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fe9
+          name: CS$12x6_1ChiGreasePit_CC073FE9
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fea
+          name: CS$12x6_2ChiGreaseStation_CC073FEA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073feb
+          name: CS$14x14_1ChiSmallShop1_CC073FEB
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fed
+          name: CS$14x14_1HouSmallShop1_CC073FED
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fee
+          name: CS$14x14_1NYSmallShop1_CC073FEE
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073fef
+          name: CS$14x14_4ChiSmallShop4_CC073FEF
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff1
+          name: CS$14x14_4HouSmallShop4_CC073FF1
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff2
+          name: CS$14x14_4NYSmallShop4_CC073FF2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff3
+          name: CS$14x22_1ChiSmallShop3_CC073FF3
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff5
+          name: CS$14x22_1HouSmallShop3_CC073FF5
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff6
+          name: CS$14x22_1NYSmallShop3_CC073FF6
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff7
+          name: CS$14x26_6ChiSmallShop5_CC073FF7
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ff9
+          name: CS$14x26_6HouSmallShop5_CC073FF9
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c2
+          name: Up26x8_WindPower_8c0749c2
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ffa
+          name: CS$14x26_6NYSmallShop5_CC073FFA
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ffb
+          name: CS$24x24_1ChiFleaMarket_CC073FFB
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c3
+          name: Up44x32_RecyclingCenter_8C0749C3
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c4
+          name: Up64x64_CoalPowerPlant_8C0749C4
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ffc
+          name: CS$28x14_1ChiFleaBagMotel_CC073FFC
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ffd
+          name: CS$34x9_1ChiDrivein_CC073FFD
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c5
+          name: Up64x64_NaturalGasPowerPlant_8C0749C5
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c6
+          name: Up64x64_NuclearPowerPlant_8C0749C6
+        - file: z_All Maxis building props with proper names.dat
+          id: cc073ffe
+          name: CS$8x4_1ChiUsedCarCheap_CC073FFE
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c7
+          name: Up64x64_OilPowerPlant_8C0749C7
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c8
+          name: Up64x64_WastetoEnergy_8C0749C8
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749c9
+          name: Up80x80_HydrogenPowerPlant_8C0749C9
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749ca
+          name: Up94x94_SolarPowerPlant_8C0749CA
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749cb
+          name: Ut10x28_SeaportWarehouse1_8C0749CB
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749cc
+          name: Ut12x12_SeaportWarehouse2_8C0749CC
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d0
+          name: Ut12x4_BusStation_8C0749D0
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d1
+          name: Ut14x14_MedControlTower_8C0749D1
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d2
+          name: Ut16x10_SubwayStation_8C0749D2
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d5
+          name: Ut20x10_SmTerminal_8C0749D5
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d6
+          name: Ut20x20_LgControlTower_8C0749D6
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d7
+          name: Ut24x20_SmHanger_8C0749D7
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749d8
+          name: Ut25x16_FreightRailStation_8C0749D8
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749da
+          name: Ut32x20_PassengerRailStation_8C0749DA
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749db
+          name: Ut32x30_MedTerminalHub_8C0749DB
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749dc
+          name: Ut44x28_LgHanger_8C0749DC
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749dd
+          name: Ut48x14_Concourse_8C0749DD
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749e1
+          name: Ut7x6_SeaportOffice_8C0749E1
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749e2
+          name: Ut80x48_LgTerminalHub_8C0749E2
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749e3
+          name: Ut8x8_SmControlTower_8C0749E3
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749e4
+          name: Uw14x14_WaterPumpingStation_8C0749E4
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749e5
+          name: Uw15x15_WaterTower_8C0749E5
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c0749e8
+          name: Uw32x18_WaterPurificationPlant1_8C0749E8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074579
+          name: R$$$16x20_123ChiMansion10_0c074579
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07457a
+          name: R$$$16x20_123ChiMansion11_0C07457A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07457b
+          name: R$$$16x20_123ChiMansion12_0C07457B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07457c
+          name: R$$$16x20_123ChiMansion9_0C07457C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074581
+          name: R$$$16x20_123HouMansion10_0C074581
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074582
+          name: R$$$16x20_123HouMansion11_0C074582
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074583
+          name: R$$$16x20_123HouMansion12_0C074583
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074584
+          name: R$$$16x20_123HouMansion9_0C074584
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074585
+          name: R$$$16x20_123NYMansion10_0C074585
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074586
+          name: R$$$16x20_123NYMansion11_0C074586
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074587
+          name: R$$$16x20_123NYMansion12_0C074587
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074588
+          name: R$$$16x20_123NYMansion9_0C074588
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074589
+          name: R$$$20x20_123ChiMansion1_0C074589
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07458a
+          name: R$$$20x20_123ChiMansion2_0C07458A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07458b
+          name: R$$$20x20_123ChiMansion3_0C07458B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07458c
+          name: R$$$20x20_123ChiMansion4_0C07458C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074591
+          name: R$$$20x20_123HouMansion1_0C074591
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074592
+          name: R$$$20x20_123HouMansion2_0C074592
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074593
+          name: R$$$20x20_123HouMansion3_0C074593
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074594
+          name: R$$$20x20_123HouMansion4_0C074594
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074595
+          name: R$$$20x20_123NYMansion1_0C074595
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074596
+          name: R$$$20x20_123NYMansion2_0C074596
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074597
+          name: R$$$20x20_123NYMansion3_0C074597
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074598
+          name: R$$$20x20_123NYMansion4_0C074598
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07459a
+          name: R$$$20x24_4HouUrbanPalazzo1_0C07459A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07459b
+          name: R$$$20x24_4NYUrbanPalazzo1_0C07459B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07459c
+          name: R$$$20x24_5ChiUrbanPalazzo3_0C07459C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07459d
+          name: R$$$20x24_5ChiUrbanPalazzo4_0C07459D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07459e
+          name: R$$$24x14_123ChiMansion5_0C07459E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07459f
+          name: R$$$24x14_123ChiMansion7_0C07459F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a1
+          name: R$$$24x14_123HouMansion5_0C0745A1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a2
+          name: R$$$24x14_123NYMansion5_0C0745A2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a3
+          name: R$$$24x28_4ChiUrbanPalazzo1_0C0745A3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a4
+          name: R$$$24x28_4ChiUrbanPalazzo2_0C0745A4
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a6
+          name: R$$$24x28_5HouUrbanPalazzo3_0C0745A6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a7
+          name: R$$$24x28_5NYUrbanPalazzo3_0C0745A7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745a8
+          name: R$$$28x26_5ChiLuxCondos1_0C0745A8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745aa
+          name: R$$$28x26_5HouLuxCondos1_0C0745AA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ab
+          name: R$$$28x26_5NYLuxCondos1_0C0745AB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ad
+          name: R$$$32x32_5HouLuxCondos10_0C0745AD
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ae
+          name: R$$$32x32_5NYLuxCondos10_0C0745AE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745af
+          name: R$$$32x32_6ChiLuxCondos10_0C0745AF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b1
+          name: R$$$36x26_5HouLuxCondos4_0C0745B1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b2
+          name: R$$$36x26_5NYLuxCondos4_0C0745B2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b3
+          name: R$$$36x26_6ChiLuxCondos4_0C0745B3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b5
+          name: R$$$36x36_5HouLuxCondos7_0C0745B5
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b6
+          name: R$$$36x36_5NYLuxCondos7_0C0745B6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b7
+          name: R$$$36x36_6ChiLuxCondos7_0C0745B7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745b8
+          name: R$$$54x24_5ChiLuxCondos13_0C0745B8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ba
+          name: R$$$54x24_5HouLuxCondos13_0C0745BA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745bb
+          name: R$$$54x24_6NYLuxCondos13_0C0745BB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745bc
+          name: R$$$58x48_7ChiHiriseLuxCondos10_0C0745BC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745bd
+          name: R$$$58x48_7ChiHiriseLuxCondos14_0C0745BD
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745be
+          name: R$$$58x48_7ChiHiriseLuxCondos16_0C0745BE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c0
+          name: R$$$58x48_7HouHiriseLuxCondos13_0C0745C0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c1
+          name: R$$$58x48_7NYHiriseLuxCondos13_0C0745C1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c2
+          name: R$$$60x28_7ChiHiriseLuxCondos9_0C0745C2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c4
+          name: R$$$60x28_7HouHiriseLuxCondos9_0C0745C4
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c5
+          name: R$$$60x28_7NYHiriseLuxCondos9_0C0745C5
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c7
+          name: R$$$60x28_8HouHiriseLuxCondos11_0C0745C7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745c8
+          name: R$$$60x44_7ChiHiriseLuxCondos5_0C0745C8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ca
+          name: R$$$60x44_7HouHiriseLuxCondos5_0C0745CA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745cb
+          name: R$$$60x44_7NYHiriseLuxCondos5_0C0745CB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745cc
+          name: R$$$60x60_7ChiHiriseLuxCondos1_0C0745CC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ce
+          name: R$$$60x60_7HouHiriseLuxCondos1_0C0745CE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745cf
+          name: R$$$60x60_7NYHiriseLuxCondos1_0C0745CF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d0
+          name: R$$10x14_123ChiStdHouse1_0C0745D0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d1
+          name: R$$10x14_123ChiStdHouse2_0C0745D1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d2
+          name: R$$10x14_123ChiStdHouse3_0C0745D2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d6
+          name: R$$10x14_123HouStdHouse1_0C0745D6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d7
+          name: R$$10x14_123HouStdHouse2_0C0745D7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d8
+          name: R$$10x14_123HouStdHouse3_0C0745D8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745d9
+          name: R$$10x14_123NYStdHouse1_0C0745D9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745da
+          name: R$$10x14_123NYStdHouse2_0C0745DA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745db
+          name: R$$10x14_123NYStdHouse3_0C0745DB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745dc
+          name: R$$12x10_123ChiStdHouse4_0C0745DC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745de
+          name: R$$12x10_123HouStdHouse4_0C0745DE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745df
+          name: R$$12x10_123NYStdHouse4_0C0745DF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e0
+          name: R$$12x14_123ChiStdHouse7_0C0745E0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e1
+          name: R$$12x14_123ChiStdHouse8_0C0745E1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e2
+          name: R$$12x14_123ChiStdHouse9_0C0745E2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e6
+          name: R$$12x14_123HouStdHouse7_0C0745E6
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e7
+          name: R$$12x14_123HouStdHouse8_0C0745E7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e8
+          name: R$$12x14_123HouStdHouse9_0C0745E8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745e9
+          name: R$$12x14_123NYStdHouse7_0C0745E9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ea
+          name: R$$12x14_123NYStdHouse8_0C0745EA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745eb
+          name: R$$12x14_123NYStdHouse9_0C0745EB
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ec
+          name: R$$16x16_4ChiRowHouse6_0C0745EC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ed
+          name: R$$16x16_4NYRowHouse1_0C0745ED
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ef
+          name: R$$16x16_5HouRowHouse1_0C0745EF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f0
+          name: R$$16x20_4ChiRowHouse10_0C0745F0
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f1
+          name: R$$16x20_4ChiRowHouse8_0C0745F1
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f2
+          name: R$$16x20_4ChiRowHouse9_0C0745F2
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f3
+          name: R$$16x20_4NYRowHouse5_0C0745F3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f5
+          name: R$$16x20_5HouRowHouse5_0C0745F5
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f7
+          name: R$$24x30_5HouSmCondos7_0C0745F7
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f8
+          name: R$$24x30_5NYSmCondos7_0C0745F8
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745f9
+          name: R$$24x30_6ChiSmCondos7_0C0745F9
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745fa
+          name: R$$28x20_5ChiSmCondos4_0C0745FA
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745fc
+          name: R$$28x20_5HouSmCondos4_0C0745FC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745fd
+          name: R$$28x20_5NYSmCondos4_0C0745FD
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745fe
+          name: R$$28x26_5NYSmCondos1_0C0745FE
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c0745ff
+          name: R$$28x26_6ChiSmCondos1_0C0745FF
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074601
+          name: R$$28x26_6HouSmCondos1_0C074601
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074602
+          name: R$$44x24_7ChiHiriseApts10_0C074602
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074603
+          name: R$$44x24_7ChiHiriseApts11_0C074603
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074604
+          name: R$$44x24_7ChiHiriseApts12_0C074604
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074606
+          name: R$$44x24_7HouHiriseApts10_0C074606
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074607
+          name: R$$44x24_7NYHiriseApts10_0C074607
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074608
+          name: R$$44x44_7NYHiriseApts1_0C074608
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074609
+          name: R$$44x44_8ChiHiriseApts1_0C074609
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07460b
+          name: R$$44x44_8HouHiriseApts1_0C07460B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07460c
+          name: R$$52x56_7ChiHiriseApts7_0C07460C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07460d
+          name: R$$54x24_7ChiHiriseApts4_0C07460D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c07460f
+          name: R$$54x24_7HouHiriseApts4_0C07460F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074610
+          name: R$$54x24_7NYHiriseApts4_0C074610
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074612
+          name: R$$58x54_7HouHiriseApts7_0C074612
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074613
+          name: R$$58x54_7NYHiriseApts7_0C074613
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074614
+          name: R$10x24_4ChiBoxyApt4_0C074614
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c074615
+          name: R$10x24_4ChiBoxyApt5_0C074615
+        - file: z_All Maxis building props with proper names.dat
+          id: ac8423f4
+          name: RW16x64_marina_ac8423f4
+        - file: z_All Maxis building props with proper names.dat
+          id: ac8423f5
+          name: RW36x14_AreaControlTower_AC8423F5
+        - file: z_All Maxis building props with proper names.dat
+          id: ac8423f6
+          name: RW43x30_Cruise_Ship_Building_AC8423F6
+        - file: z_All Maxis building props with proper names.dat
+          id: ac8423f7
+          name: RW80x60_launchpad_AC8423F7
+        - file: z_All Maxis building props with proper names.dat
+          id: ac8423f8
+          name: RW9x11_lighthouse_AC8423F8
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423ee
+          name: Ut108x27_GrandRailStation_ec8423ee
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423ef
+          name: Ut12X32_TollBoothAve_EC8423EF
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f0
+          name: Ut12X32_TollBoothGRHwy_EC8423F0
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f1
+          name: Ut12X32_TollBoothHwy_EC8423F1
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f2
+          name: Ut14x30_ParkingGarage_EC8423F2
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f3
+          name: Ut1x1_TollBooth_road_EC8423F3
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f4
+          name: Ut32x78_passengerferry_building_EC8423F4
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f5
+          name: Ut48x16_LightRailStation_EC8423F5
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f6
+          name: Ut48X16_MonorailStation_EC8423F6
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f7
+          name: Ut48x78_ferry_terminal_EC8423F7
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f8
+          name: Uw32x14_LargeWaterPumpingStation_EC8423F8
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423f9
+          name: LM138x128_AmericanMuseumNatHistory_ec8423f9
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423fa
+          name: LM140x175_schlossneu_EC8423FA
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423fb
+          name: Lm60x70_SeafirstTower_EC8423FB
+        - file: z_All Maxis building props with proper names.dat
+          id: ec8423fc
+          name: Lm98x87_LincolnCenter_EC8423FC
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842405
+          name: R$$$16x20_123EuroMansion10_0c842405
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842406
+          name: R$$$16x20_123EuroMansion11_0C842406
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842407
+          name: R$$$16x20_123EuroMansion12_0C842407
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842408
+          name: R$$$16x20_123EuroMansion9_0C842408
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842409
+          name: R$$$20x20_123EuroMansion1_0C842409
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84240a
+          name: R$$$20x20_123EuroMansion2_0C84240A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84240b
+          name: R$$$20x20_123EuroMansion3_0C84240B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84240c
+          name: R$$$20x20_123EuroMansion4_0C84240C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84240d
+          name: R$$$20x24_4EuroUrbanPalazzo1_0C84240D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84240e
+          name: R$$$24x14_123EuroMansion5_0C84240E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84240f
+          name: R$$$24x28_5EuroUrbanPalazzo3_0C84240F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842410
+          name: R$$$28x26_5EuroLuxCondos1_0C842410
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842411
+          name: R$$$32x32_5EuroLuxCondos10_0C842411
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842412
+          name: R$$$36x26_5EuroLuxCondos4_0C842412
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842413
+          name: R$$$36x36_5EuroLuxCondos7_0C842413
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842414
+          name: R$$$54x24_5EuroLuxCondos13_0C842414
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842415
+          name: R$$$58x48_7EuroHiriseLuxCondos13_0C842415
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842416
+          name: R$$$60x28_7EuroHiriseLuxCondos9_0C842416
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842417
+          name: R$$$60x28_8EuroHiriseLuxCondos11_0C842417
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842418
+          name: R$$$60x44_7EuroHiriseLuxCondos5_0C842418
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842419
+          name: R$$$60x60_7EuroHiriseLuxCondos1_0C842419
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c8423e3
+          name: CV19x15_DeluxeFireStation_8c8423e3
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84241a
+          name: R$$10x14_123EuroStdHouse1_0C84241A
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c8423ff
+          name: CO$$$12x28_1EuroOfficeBldg1_4c8423ff
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c8423e4
+          name: CV40x36_DeluxePrecinct_8C8423E4
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c8423e5
+          name: CV48x48_larger_elementary_school_8C8423E5
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842400
+          name: CO$$$14x14_4EuroOfficeBldg3_4C842400
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84241b
+          name: R$$10x14_123EuroStdHouse2_0C84241B
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84241c
+          name: R$$10x14_123EuroStdHouse3_0C84241C
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842401
+          name: CO$$$14x14_5EuroOfficeBldg5_4C842401
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c8423e6
+          name: CV67x95_large-high-school_8C8423E6
+        - file: z_All Maxis building props with proper names.dat
+          id: 8c8423e7
+          name: CV9X7_PoliceKiosk_8C8423E7
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842402
+          name: CO$$$14x22_5EuroOfficeBldg7_4C842402
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84241d
+          name: R$$12x10_123EuroStdHouse4_0C84241D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84241e
+          name: R$$12x14_123EuroStdHouse7_0C84241E
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842403
+          name: CO$$$24x24_1EuroOfficeBldg4_4C842403
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842404
+          name: CO$$$24x24_2EuroOfficeBldg7_4C842404
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84241f
+          name: R$$12x14_123EuroStdHouse8_0C84241F
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842405
+          name: CO$$$30x22_4EuroOfficeBldg1_4C842405
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842420
+          name: R$$12x14_123EuroStdHouse9_0C842420
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842421
+          name: R$$16x16_5EuroRowHouse1_0C842421
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842406
+          name: CO$$$40x24_3EuroOfficeBldg10_4C842406
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842407
+          name: CO$$$44x36_8EuroOfficeBldg3_4C842407
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842422
+          name: R$$16x20_5EuroRowHouse5_0C842422
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842423
+          name: R$$24x30_5EuroSmCondos7_0C842423
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842408
+          name: CO$$$44x36_8EuroOfficeBldg4_4C842408
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842409
+          name: CO$$$48x30_7EuroOfficeBldg1_4C842409
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842424
+          name: R$$28x20_5EuroSmCondos4_0C842424
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842425
+          name: R$$28x26_6EuroSmCondos1_0C842425
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84240a
+          name: CO$$$48x32_6EuroOfficeBldg9_4C84240A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842426
+          name: R$$44x24_7EuroHiriseApts10_0C842426
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84240b
+          name: CO$$$48x32_7EuroOfficeBldg2_4C84240B
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84240c
+          name: CO$$$56x36_8EuroOfficeBldg5_4C84240C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842427
+          name: R$$44x44_8EuroHiriseApts1_0C842427
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842428
+          name: R$$54x24_7EuroHiriseApts4_0C842428
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84240d
+          name: CO$$$56x56_8EuroOfficeBldg7_4C84240D
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84240e
+          name: CO$$$56x56_8EuroOfficeBldg8_4C84240E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842429
+          name: R$$58x54_7EuroHiriseApts7_0C842429
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84242a
+          name: R$10x24_4EuroBoxyApt4_0C84242A
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84240f
+          name: CO$$12x28_1EuroOfficeBldg1_4C84240F
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842410
+          name: CO$$14x14_4EuroOfficeBldg1_4C842410
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84242b
+          name: R$10x24_4EuroBoxyApt5_0C84242B
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842411
+          name: CO$$14x22_4EuroOfficeBldg3_4C842411
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84242c
+          name: R$16x30_4EuroBoxyApt6_0C84242C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84242d
+          name: R$16x8_123EuroTinyHouse10_0C84242D
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842412
+          name: CO$$24x24_1EuroOfficeBldg4_4C842412
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842413
+          name: CO$$24x24_3EuroOfficeBldg10_4C842413
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84242e
+          name: R$16x8_123EuroTinyHouse8_0C84242E
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84242f
+          name: R$16x8_123EuroTinyHouse9_0C84242F
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842414
+          name: CO$$30x22_6EuroOfficeBldg7_4C842414
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842415
+          name: CO$$40x24_2EuroOfficeBldg7_4C842415
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842430
+          name: R$28x22_4EuroBoxyApt1_0C842430
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842431
+          name: R$28x24_6EuroTenemtApt1_0C842431
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842416
+          name: CO$$44x26_5EuroOfficeBldg9_4C842416
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842432
+          name: R$30x16_6EuroTenemtApt7_0C842432
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842417
+          name: CO$$44x26_7EuroOfficeBldg3_4C842417
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842418
+          name: CO$$44x36_7EuroOfficeBldg1_4C842418
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842433
+          name: R$30x28_6EuroTenemtApt4_0C842433
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842434
+          name: R$40x44_7EuroHiriseTenemts5_0C842434
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842419
+          name: CO$$56x36_8EuroOfficeBldg5_4C842419
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84241a
+          name: CO$$56x56_8EuroOfficeBldg7_4C84241A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842435
+          name: R$44x24_7EuroHiriseTenemts7_0C842435
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842436
+          name: R$4x10_123EuroTinyHouse4_0C842436
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84241b
+          name: CS$$$12x28_1EuroLuxuryStore1_4C84241B
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84241c
+          name: CS$$$14x14_4EuroLuxuryStore4_4C84241C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842437
+          name: R$4x10_123EuroTinyHouse5_0C842437
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84241d
+          name: CS$$$24x24_1EuroLuxuryStore2_4C84241D
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842438
+          name: R$56x28_7EuroHiriseTenemts1_0C842438
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c842439
+          name: R$60x60_8EuroHiriseTenemts3_0C842439
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84241e
+          name: CS$$$40x24_3EuroLuxuryStore3_4C84241E
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c84241f
+          name: CS$$$48x32_5EuroLuxuryStore5_4C84241F
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84243a
+          name: R$60x60_8EuroHiriseTenemts4_0C84243A
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84243b
+          name: R$6x8_123EuroTinyHouse1_0C84243B
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842420
+          name: CS$$12x28_1EuroMediumStore1_4C842420
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842421
+          name: CS$$14x14_4EuroMediumStore4_4C842421
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84243c
+          name: R$6x8_123EuroTinyHouse2_0C84243C
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84243d
+          name: R$6x8_123EuroTinyHouse3_0C84243D
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842422
+          name: CS$$14x22_4EuroMediumStore5_4C842422
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84243e
+          name: R$8x10_123EuroTinyHouse6_0C84243E
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842423
+          name: CS$$30x22_6EuroMediumStore6_4C842423
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842424
+          name: CS$$40x24_2EuroMediumStore3_4C842424
+        - file: z_All Maxis building props with proper names.dat
+          id: 0c84243f
+          name: R$8x10_123EuroTinyHouse7_0C84243F
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842425
+          name: CS$$44x26_5EuroMediumStore7_4C842425
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842426
+          name: CS$14x14_1EuroSmallShop1_4C842426
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842427
+          name: CS$14x14_4EuroSmallShop4_4C842427
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842428
+          name: CS$14x22_1EuroSmallShop3_4C842428
+        - file: z_All Maxis building props with proper names.dat
+          id: 4c842429
+          name: CS$14x26_6EuroSmallShop5_4C842429
+        - family: a0000048
+          file: z_All Maxis building props with proper names.dat
+          id: 2b770000
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000071
+          file: z_All Maxis building props with proper names.dat
+          id: 8f813787
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000103
+          file: z_All Maxis building props with proper names.dat
+          id: 8f813788
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000104
+          file: z_All Maxis building props with proper names.dat
+          id: 8f813789
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000105
+          file: z_All Maxis building props with proper names.dat
+          id: 8f81378a
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000106
+          file: z_All Maxis building props with proper names.dat
+          id: 8f81378b
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000048
+          file: z_All Maxis building props with proper names.dat
+          id: 2b7a0000
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000071
+          file: z_All Maxis building props with proper names.dat
+          id: 8f81378c
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000103
+          file: z_All Maxis building props with proper names.dat
+          id: 8f81378d
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000104
+          file: z_All Maxis building props with proper names.dat
+          id: 8f81378e
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000048
+          file: z_All Maxis building props with proper names.dat
+          id: 2b7d0000
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000071
+          file: z_All Maxis building props with proper names.dat
+          id: 8f81378f
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000103
+          file: z_All Maxis building props with proper names.dat
+          id: 8f813790
+          name: R2x1x2_twoCans_1F2F
+        - family: a0000104
+          file: z_All Maxis building props with proper names.dat
+          id: 8f813791
+          name: R2x1x2_twoCans_1F2F
       release: 2024-11-26T21:04:04.961Z
       version: 2.1.0
 
@@ -1092,6 +3706,13 @@ maxis/mayflower-port:
           id: acae3f0c
           name: Lm4x3_Mayflower
           size: 4x3
+      props:
+        - file: Plugin_032_MayflowerPort.dat
+          id: 2d390000
+          name: Effect_MayflowerShip
+        - file: Plugin_032_MayflowerPort.dat
+          id: 2d370000
+          name: Lm43x10_MayflowerShip_2D37
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -1212,6 +3833,61 @@ maxis/parthenon:
           replace: cb68c0df
           size: 3x5
       name: Original
+      props:
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba30000
+          name: PZ3x2_DarkRock_2BA3
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba10000
+          name: PZ3x3_MedRock_2BA1
+        - file: Plugin_00D_Parthenon.dat
+          id: 2b9f0000
+          name: PZ3x3_LightRock_2B9F
+        - file: Plugin_00D_Parthenon.dat
+          id: 2b9d0000
+          name: PZ1x1_LightRock_2B9D
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bae0000
+          name: PZ2x3_LightBlockRock_2BAE
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bac0000
+          name: PZ2x3_DarkBlockRock_2BAC
+        - file: Plugin_00D_Parthenon.dat
+          id: 2baa0000
+          name: PZ3x3_LightBlockRock_2BAA
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba80000
+          name: PZ1x1_LightBlockRock_2BA8
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba60000
+          name: PZ2x2_DarkBlockRock_2BA6
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba40000
+          name: PZ4x3_DarkRock_2BA4
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba20000
+          name: PZ1x1_DarkRock_2BA2
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba00000
+          name: PZ1x1_MedRock_2BA0
+        - file: Plugin_00D_Parthenon.dat
+          id: 2b9e0000
+          name: PZ2x2_LightRock_2B9E
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bad0000
+          name: PZ1x2_LightBlockRock_2BAD
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bab0000
+          name: PZ1x2_DarkBlockRock_2BAB
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba90000
+          name: PZ2x2_LightBlockRock_2BA9
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba70000
+          name: PZ3x3_DarkBlockRock_2BA7
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba50000
+          name: PZ1x1_DarkBlockRock_2BA5
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -1256,6 +3932,61 @@ maxis/parthenon:
           replace: cb68c0df
           size: 3x5
       name: With jobs
+      props:
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba30000
+          name: PZ3x2_DarkRock_2BA3
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba10000
+          name: PZ3x3_MedRock_2BA1
+        - file: Plugin_00D_Parthenon.dat
+          id: 2b9f0000
+          name: PZ3x3_LightRock_2B9F
+        - file: Plugin_00D_Parthenon.dat
+          id: 2b9d0000
+          name: PZ1x1_LightRock_2B9D
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bae0000
+          name: PZ2x3_LightBlockRock_2BAE
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bac0000
+          name: PZ2x3_DarkBlockRock_2BAC
+        - file: Plugin_00D_Parthenon.dat
+          id: 2baa0000
+          name: PZ3x3_LightBlockRock_2BAA
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba80000
+          name: PZ1x1_LightBlockRock_2BA8
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba60000
+          name: PZ2x2_DarkBlockRock_2BA6
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba40000
+          name: PZ4x3_DarkRock_2BA4
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba20000
+          name: PZ1x1_DarkRock_2BA2
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba00000
+          name: PZ1x1_MedRock_2BA0
+        - file: Plugin_00D_Parthenon.dat
+          id: 2b9e0000
+          name: PZ2x2_LightRock_2B9E
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bad0000
+          name: PZ1x2_LightBlockRock_2BAD
+        - file: Plugin_00D_Parthenon.dat
+          id: 2bab0000
+          name: PZ1x2_DarkBlockRock_2BAB
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba90000
+          name: PZ2x2_LightBlockRock_2BA9
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba70000
+          name: PZ3x3_DarkBlockRock_2BA7
+        - file: Plugin_00D_Parthenon.dat
+          id: 2ba50000
+          name: PZ1x1_DarkBlockRock_2BA5
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
@@ -1299,6 +4030,19 @@ maxis/rockefeller-center:
           replace: 8ccf053d
           size: 4x13
       name: Original
+      props:
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3c0000
+          name: LM7x7_ChristmasTree_2D3C
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3d0000
+          name: Lm23x68_RockefellerCtr_2D3D
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3e0000
+          name: Effect_Christmas_white_blinking
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3a0000
+          name: Lm58x32_RockefellerRinkPlaza1_2D3A0000
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -1345,6 +4089,19 @@ maxis/rockefeller-center:
           replace: 8ccf053d
           size: 4x13
       name: With jobs
+      props:
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3c0000
+          name: LM7x7_ChristmasTree_2D3C
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3d0000
+          name: Lm23x68_RockefellerCtr_2D3D
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3e0000
+          name: Effect_Christmas_white_blinking
+        - file: Plugin_033_RockefellerCenter.dat
+          id: 2d3a0000
+          name: Lm58x32_RockefellerRinkPlaza1_2D3A0000
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
@@ -1553,6 +4310,13 @@ maxis/schloss-schoenbrun:
           replace: eb4e47b4
           size: 11x6
       name: Original
+      props:
+        - file: Plugin_00E_SchlossSchoenbrun.dat
+          id: 2b9b0000
+          name: Lm48x53_SchlossSchoenbrunWestwing_2B9B
+        - file: Plugin_00E_SchlossSchoenbrun.dat
+          id: 2b9c0000
+          name: Lm48x53_SchlossSchoenbrunEastwing_2B9C
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -1599,6 +4363,13 @@ maxis/schloss-schoenbrun:
           replace: eb4e47b4
           size: 11x6
       name: With jobs
+      props:
+        - file: Plugin_00E_SchlossSchoenbrun.dat
+          id: 2b9b0000
+          name: Lm48x53_SchlossSchoenbrunWestwing_2B9B
+        - file: Plugin_00E_SchlossSchoenbrun.dat
+          id: 2b9c0000
+          name: Lm48x53_SchlossSchoenbrunEastwing_2B9C
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
@@ -1639,6 +4410,10 @@ maxis/seoul-city-hall:
           replace: 2ac40624
           size: 6x5
       name: Original
+      props:
+        - file: Plugin_004_SeoulCityHall.dat
+          id: 04bd0000
+          name: LM22x22_SeoulCityHallSoccerBall_04BD
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -1685,6 +4460,10 @@ maxis/seoul-city-hall:
           replace: 2ac40624
           size: 6x5
       name: With jobs
+      props:
+        - file: Plugin_004_SeoulCityHall.dat
+          id: 04bd0000
+          name: LM22x22_SeoulCityHallSoccerBall_04BD
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
@@ -1951,6 +4730,28 @@ maxis/stonehenge:
           replace: 4b61d755
           size: 6x6
       name: Original
+      props:
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba80000
+          name: PZ1x1_LightBlockRock_2BA8
+        - file: Plugin_016_Stonehenge.dat
+          id: 2bad0000
+          name: PZ1x2_LightBlockRock_2BAD
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba00000
+          name: PZ1x1_MedRock_2BA0
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba50000
+          name: PZ1x1_DarkBlockRock_2BA5
+        - file: Plugin_016_Stonehenge.dat
+          id: 2b9d0000
+          name: PZ1x1_LightRock_2B9D
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba20000
+          name: PZ1x1_DarkRock_2BA2
+        - file: Plugin_016_Stonehenge.dat
+          id: 2bab0000
+          name: PZ1x2_DarkBlockRock_2BAB
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
     functional:
@@ -1993,6 +4794,28 @@ maxis/stonehenge:
           replace: 4b61d755
           size: 6x6
       name: With jobs
+      props:
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba80000
+          name: PZ1x1_LightBlockRock_2BA8
+        - file: Plugin_016_Stonehenge.dat
+          id: 2bad0000
+          name: PZ1x2_LightBlockRock_2BAD
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba00000
+          name: PZ1x1_MedRock_2BA0
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba50000
+          name: PZ1x1_DarkBlockRock_2BA5
+        - file: Plugin_016_Stonehenge.dat
+          id: 2b9d0000
+          name: PZ1x1_LightRock_2B9D
+        - file: Plugin_016_Stonehenge.dat
+          id: 2ba20000
+          name: PZ1x1_DarkRock_2BA2
+        - file: Plugin_016_Stonehenge.dat
+          id: 2bab0000
+          name: PZ1x2_DarkBlockRock_2BAB
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
       url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
