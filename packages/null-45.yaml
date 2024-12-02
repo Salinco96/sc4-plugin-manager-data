@@ -47,29 +47,29 @@ null-45/auto-save:
         - condition:
             never: true
           default: true
-          filename: SC4AutoSave.ini
+          file: SC4AutoSave.ini
           id: Admin.Enabled
           type: boolean
         - default: 15
-          filename: SC4AutoSave.ini
+          file: SC4AutoSave.ini
           id: AutoSave.IntervalInMinutes
           label: Auto-save interval in minutes
           max: 120
           min: 1
           type: number
         - default: true
-          filename: SC4AutoSave.ini
+          file: SC4AutoSave.ini
           id: AutoSave.FastSave
           label: Use Fast Save (no region thumbnail update)
           type: boolean
         - default: true
           description: Controls whether the time the game spends paused is ignored when counting towards the next auto-save point.
-          filename: SC4AutoSave.ini
+          file: SC4AutoSave.ini
           id: AutoSave.IgnoreTimePaused
           label: Ignore time paused
           type: boolean
         - default: true
-          filename: SC4AutoSave.ini
+          file: SC4AutoSave.ini
           id: AutoSave.LogSaveEvents
           label: Enable save event logs
           type: boolean
@@ -144,7 +144,7 @@ null-45/city-date-sync:
         - condition:
             never: true
           default: true
-          filename: SC4CityDateSync.ini
+          file: SC4CityDateSync.ini
           id: Admin.Enabled
           type: boolean
       release: 2024-11-26T21:04:04.961Z
@@ -223,34 +223,34 @@ null-45/city-lottery-ordinance:
         - condition:
             never: true
           default: true
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: Admin.Enabled
           type: boolean
         - default: 500
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.MonthlyConstantIncome
           label: Base monthly income
           type: number
         - default: 0.05
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.R$IncomeFactor
           label: Income factor for the R$ population
           step: 0.01
           type: number
         - default: 0.03
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.R$$IncomeFactor
           label: Income factor for the R$$ population
           step: 0.01
           type: number
         - default: 0.01
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.R$$$IncomeFactor
           label: Income factor for the R$$$ population
           step: 0.01
           type: number
         - default: 1.01
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.Cs$DemandEffect
           label: CS$ demand multiplier (1 = normal)
           max: 2
@@ -258,7 +258,7 @@ null-45/city-lottery-ordinance:
           step: 0.01
           type: number
         - default: 1.1
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.CrimeEffectMultiplier
           label: Crime multiplier (1 = normal)
           max: 2
@@ -266,7 +266,7 @@ null-45/city-lottery-ordinance:
           step: 0.01
           type: number
         - default: 102
-          filename: SC4CityLotteryOrdinance.ini
+          file: SC4CityLotteryOrdinance.ini
           id: CityLotteryOrdinance.SchoolEQBoostEffect
           label: School EQ multiplier (100 = normal)
           max: 200
@@ -330,7 +330,7 @@ null-45/cpu-options:
         - condition:
             never: true
           default: true
-          filename: SC4CPUOptions.ini
+          file: SC4CPUOptions.ini
           id: Admin.Enabled
           type: boolean
         - choices:
@@ -340,7 +340,7 @@ null-45/cpu-options:
             - BelowNormal
             - Low
           default: AboveNormal
-          filename: SC4CPUOptions.ini
+          file: SC4CPUOptions.ini
           id: CPUOptions.Priority
           label: Priority
           type: string
@@ -598,16 +598,16 @@ null-45/graphics-options:
         - condition:
             never: true
           default: true
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: Admin.Enabled
           type: boolean
         - default: true
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.EnableIntroVideo
           label: Play intro video on startup
           type: boolean
         - default: false
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.PauseGameOnFocusLoss
           label: Pause the game when it loses focus
           type: boolean
@@ -619,7 +619,7 @@ null-45/graphics-options:
             - label: Software
               value: Software
           default: DirectX
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.Driver
           label: Driver
           type: string
@@ -631,14 +631,14 @@ null-45/graphics-options:
             - label: Window
               value: Windowed
           default: FullScreen
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.WindowMode
           label: Window mode
           type: string
         - condition:
             GraphicsOptions.WindowMode: Windowed
           default: 1920
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.WindowWidth
           label: Window width
           min: 800
@@ -646,7 +646,7 @@ null-45/graphics-options:
         - condition:
             GraphicsOptions.WindowMode: Windowed
           default: 1080
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.WindowHeight
           label: Window height
           min: 600
@@ -655,7 +655,7 @@ null-45/graphics-options:
             - 16
             - 32
           default: 32
-          filename: SC4GraphicsOptions.ini
+          file: SC4GraphicsOptions.ini
           id: GraphicsOptions.ColorDepth
           label: Color depth
           type: number
@@ -772,16 +772,16 @@ null-45/humane-society-ordinance:
         - condition:
             never: true
           default: true
-          filename: SC4HumaneSocietyOrdinance.ini
+          file: SC4HumaneSocietyOrdinance.ini
           id: Admin.Enabled
           type: boolean
         - default: Humane Society
-          filename: SC4HumaneSocietyOrdinance.ini
+          file: SC4HumaneSocietyOrdinance.ini
           id: Ordinance.Name
           label: Name
           type: string
         - default: Program that provides a city animal shelter. Improves mayor rating and reduces crime.
-          filename: SC4HumaneSocietyOrdinance.ini
+          file: SC4HumaneSocietyOrdinance.ini
           id: Ordinance.Description
           label: Description
           type: string
@@ -851,34 +851,34 @@ null-45/legalize-gambling-ordinance:
         - condition:
             never: true
           default: true
-          filename: SC4LegalizeGamblingUpgrade.ini
+          file: SC4LegalizeGamblingUpgrade.ini
           id: Admin.Enabled
           type: boolean
         - default: 250
-          filename: SC4LegalizeGamblingUpgrade.ini
+          file: SC4LegalizeGamblingUpgrade.ini
           id: GamblingOrdinance.BaseMonthlyIncome
           label: Base monthly income
           type: number
         - default: 0.02
-          filename: SC4LegalizeGamblingUpgrade.ini
+          file: SC4LegalizeGamblingUpgrade.ini
           id: GamblingOrdinance.R$IncomeFactor
           label: Income factor for the R$ population
           step: 0.01
           type: number
         - default: 0.03
-          filename: SC4LegalizeGamblingUpgrade.ini
+          file: SC4LegalizeGamblingUpgrade.ini
           id: GamblingOrdinance.R$$IncomeFactor
           label: Income factor for the R$$ population
           step: 0.01
           type: number
         - default: 0.05
-          filename: SC4LegalizeGamblingUpgrade.ini
+          file: SC4LegalizeGamblingUpgrade.ini
           id: GamblingOrdinance.R$$$IncomeFactor
           label: Income factor for the R$$$ population
           step: 0.01
           type: number
         - default: 0.05
-          filename: SC4LegalizeGamblingUpgrade.ini
+          file: SC4LegalizeGamblingUpgrade.ini
           id: GamblingOrdinance.CrimeEffectMultiplier
           label: Crime effect multiplier
           max: 2
@@ -1055,23 +1055,23 @@ null-45/more-building-styles:
         - condition:
             never: true
           default: true
-          filename: SC4MoreBuildingStyles.ini
+          file: SC4MoreBuildingStyles.ini
           id: Admin.Enabled
           type: boolean
         - default: false
-          filename: SC4MoreBuildingStyles.ini
+          file: SC4MoreBuildingStyles.ini
           id: DebugLogging.BuildingStyleSelection
           label: Log success/failure for the building selection
           section: Debugging
           type: boolean
         - default: false
-          filename: SC4MoreBuildingStyles.ini
+          file: SC4MoreBuildingStyles.ini
           id: DebugLogging.LotStyleSelection
           label: Log success/failure for the lot style selection
           section: Debugging
           type: boolean
         - default: false
-          filename: SC4MoreBuildingStyles.ini
+          file: SC4MoreBuildingStyles.ini
           id: DebugLogging.GrowableFunctions
           label: Log return codes for various algorithm functions
           section: Debugging
@@ -1307,16 +1307,16 @@ null-45/query-tool-ui-extensions:
         - condition:
             never: true
           default: true
-          filename: SC4QueryUIHooks.ini
+          file: SC4QueryUIHooks.ini
           id: Admin.Enabled
           type: boolean
         - default: true
-          filename: SC4QueryUIHooks.ini
+          file: SC4QueryUIHooks.ini
           id: QueryUIHooks.EnableOccupantQuerySounds
           label: Enable query sounds
           type: boolean
         - default: false
-          filename: SC4QueryUIHooks.ini
+          file: SC4QueryUIHooks.ini
           id: QueryUIHooks.LogBuildingPluginPath
           label: Log building plugin path
           type: boolean
