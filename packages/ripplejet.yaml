@@ -1,74 +1,86 @@
 ripplejet/census-repository-building:
+  ategory: rewards
   buildings:
-    - bulldoze: 9000
-      category: rewards
-      cost: 15000
-      file: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
-      flamability: 38
-      garbage: 47
-      id: 6471f58b
-      jobs:
-        $: 10
-        $$: 70
-        $$$: 5
-      landmark: 40
-      landmarkRadius: 20
-      maintenance: 400
-      menu: Rewards
-      name: Census Repository Facility V3
-      pollution: 3
-      pollutionRadius: 3
-      power: 84
-      rating: 10
-      ratingRadius: 256
-      relief:
-        co$$: 10000
-        co$$$: 10000
-        id: 10000
-        iht: 10000
-        im: 10000
-        r$: 10000
-        r$$: 10000
-        r$$$: 10000
-      submenu: Landmarks/Government,Rewards
-      water: 84
-      waterPollution: 3
-      waterPollutionRadius: 4
-    - bulldoze: 1500
-      category: rewards
-      cost: 2000
-      file: RW_2x2_Census Repository Vault.SC4Lot
-      flamability: 38
-      garbage: 5
-      id: 645e467b
-      jobs:
-        $$: 5
-      maintenance: 50
-      menu: Rewards
-      name: Census Repository Vault
-      pollution: 1
-      pollutionRadius: 3
-      power: 8
-      relief:
-        ir: 30000
-      submenu: Landmarks/Government,Rewards
-      water: 8
-      waterPollution: 1
-      waterPollutionRadius: 4
-  category: rewards
+    RW_2x2_Census Repository Vault.SC4Lot:
+      645e467b:
+        bulldoze: 1500
+        category: rewards
+        cost: 2000
+        flamability: 38
+        garbage: 5
+        jobs:
+          $$: 5
+        maintenance: 50
+        menu: Rewards
+        name: Census Repository Vault
+        pollution: 1
+        pollutionRadius: 3
+        power: 8
+        relief:
+          ir: 30000
+        submenu: Landmarks/Government
+        water: 8
+        waterPollution: 1
+        waterPollutionRadius: 4
+    RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
+      6471f58b:
+        bulldoze: 9000
+        category: rewards
+        cost: 15000
+        flamability: 38
+        garbage: 47
+        jobs:
+          $: 10
+          $$: 70
+          $$$: 5
+        landmark: 40
+        landmarkRadius: 20
+        maintenance: 400
+        menu: Rewards
+        name: Census Repository Facility V3
+        pollution: 3
+        pollutionRadius: 3
+        power: 84
+        rating: 10
+        ratingRadius: 256
+        relief:
+          co$$: 10000
+          co$$$: 10000
+          id: 10000
+          iht: 10000
+          im: 10000
+          r$: 10000
+          r$$: 10000
+          r$$$: 10000
+        submenu: Landmarks/Government,Rewards
+        water: 84
+        waterPollution: 3
+        waterPollutionRadius: 4
   description: BSC Census Repository Building by RippleJet.
   lots:
-    - building: 6471f58b
-      file: RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
-      id: 6471f58b
-      name: RW_3x1_Census Repository Facility_ZP_ULTRA
-      size: 3x1
-    - building: 645e467b
-      file: RW_2x2_Census Repository Vault.SC4Lot
-      id: 645e467b
-      name: RW_2x2_Census Repository Vault
-      size: 2x2
+    RW_2x2_Census Repository Vault.SC4Lot:
+      645e467b:
+        building: 645e467b
+        name: RW_2x2_Census Repository Vault
+        size: 2x2
+    RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
+      6471f58b:
+        building: 6471f58b
+        name: RW_3x1_Census Repository Facility_ZP_ULTRA
+        size: 3x1
   name: BSC Census Repository Building
+  props:
+    RJ - Census_Repository_Model_and_Query_3.1.dat:
+      16888cf8:
+        name: Census Repository Facility
+      1689d23a:
+        name: RJ - Census Repository Phone Booth
+      1689d35d:
+        name: RJ - Census Repository Phone Booth Rear
+      8956a699:
+        name: Gnome_CensusRepository
+      b6888d35:
+        name: Census Repository Vault
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
   variants:
     default:
@@ -78,25 +90,9 @@ ripplejet/census-repository-building:
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
             - BSC/Ripplejet/Census Repository
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
-      props:
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 16888cf8
-          name: Census Repository Facility
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: b6888d35
-          name: Census Repository Vault
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 1689d23a
-          name: RJ - Census Repository Phone Booth
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 1689d35d
-          name: RJ - Census Repository Phone Booth Rear
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 8956a699
-          name: Gnome_CensusRepository
       release: 2024-11-27T09:00:58.547Z
       version: 3.5.0
     more-demand-info:
@@ -117,25 +113,9 @@ ripplejet/census-repository-building:
       credits:
         null-45: Query updates
       disabled: true
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-05-08T04:10:48.000Z
       name: More Demand Info by Null 45
-      props:
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 16888cf8
-          name: Census Repository Facility
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: b6888d35
-          name: Census Repository Vault
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 1689d23a
-          name: RJ - Census Repository Phone Booth
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 1689d35d
-          name: RJ - Census Repository Phone Booth Rear
-        - file: RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: 8956a699
-          name: Gnome_CensusRepository
       release: 2024-11-27T09:00:58.547Z
       requirements:
         more-demand-info: true

@@ -31,7 +31,73 @@ hippotank/ht-demand-fix:
           id: simtropolis/30836-hippotank-demand-fix
           include:
             - HippoTank Demand Fix/Plugins
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        HT_DemandFix.dat:
+          '03110000':
+            bulldoze: 40
+            category: health
+            cost: 400
+            flamability: 35
+            garbage: 9
+            jobs:
+              $: 2
+              $$: 5
+              $$$: 1
+            maintenance: 400
+            menu: Health
+            name: CV12x14_urgentcareclinic_0311
+            pollution: 1
+            pollutionRadius: 2
+            power: 4
+            relief:
+              r$: 20
+              r$$: 20
+              r$$$: 20
+            submenu: Health/Small
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 3
+          1f3f0000:
+            bulldoze: 1800
+            category: power
+            cost: 40000
+            flamability: 80
+            garbage: 15
+            jobs:
+              $: 22
+              $$: 18
+              $$$: 8
+            maintenance: 3000
+            menu: Power
+            name: Up64x80_NuclearPowerPlant_1F3F
+            pollution: 10
+            pollutionRadius: 4
+            powerProduction: 16000
+            submenu: Power/Clean
+            water: 900
+            waterPollution: 45
+            waterPollutionRadius: 5
+          1f440000:
+            bulldoze: 1350
+            category: power
+            cost: 30000
+            flamability: 50
+            garbage: 11
+            jobs:
+              $: 11
+              $$: 12
+              $$$: 9
+            maintenance: 1000
+            menu: Power
+            name: Up94x94_SolarPowerPlant_1F44
+            pollution: 5
+            pollutionRadius: 3
+            powerProduction: 5000
+            submenu: Power/Clean
+            water: 5
+            waterPollution: 5
+            waterPollutionRadius: 3
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2015-11-06T21:21:13.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0

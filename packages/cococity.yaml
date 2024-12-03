@@ -15,58 +15,80 @@ cococity/coco-hillstate-apartment:
       assets:
         - id: simtropolis/36526-coco-hillstate-apartment#204093
       buildings:
-        - bulldoze: 1740
-          capacity:
-            r$: 3076
-            r$$: 1699
-          category: r$$
-          file: Coco_Hillstate_APT-0x6534284a-0xb21fc9d1-0x1426d33d.SC4Desc
-          flamability: 40
-          garbage: 239
-          id: 1426d33d
-          name: Coco_Hillstate_APT
-          pollution: 48
-          pollutionRadius: 5
-          power: 24
-          water: 267
-          waterPollution: 48
-          waterPollutionRadius: 6
-          worth: 44390
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: Insert ploppable description here.
-          file: Coco_Hillstate_APT_LM_DN_4x2_9426d3df.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: 9426d3df
-          label: Custom Ploppable
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          name: Coco_Hillstate_APT
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-      lastGenerated: 2024-11-26T21:04:04.961Z
+        Coco_Hillstate_APT-0x6534284a-0x94136420-0x7426a43d.SC4Desc:
+          7426a43d:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_Hillstate_APT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        Coco_Hillstate_APT-0x6534284a-0xb21fc9d1-0x1426d33d.SC4Desc:
+          1426d33d:
+            bulldoze: 1740
+            capacity:
+              r$: 3076
+              r$$: 1699
+            category: r$$
+            flamability: 40
+            garbage: 239
+            name: Coco_Hillstate_APT
+            pollution: 48
+            pollutionRadius: 5
+            power: 24
+            water: 267
+            waterPollution: 48
+            waterPollutionRadius: 6
+            worth: 44390
+        Coco_Hillstate_APT_LM_DN_4x2_9426d3df.SC4Lot:
+          9426d3df:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_Hillstate_APT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2024-12-02T14:00:25.085Z
       lastModified: 2024-10-25T05:08:04.000Z
       lots:
-        - building: 9426d3df
-          file: Coco_Hillstate_APT_LM_DN_4x2_9426d3df.SC4Lot
-          id: 9426d3df
-          name: Coco_Hillstate_APT_LM_DN_4x2
-          size: 4x2
-        - building: 1426d33d
-          density: high
-          file: Coco_Hillstate_APT_R$$_4x2_DN_d426d49e.SC4Lot
-          id: d426d49e
-          name: Coco_Hillstate_APT_R$$_4x2_DN
-          size: 4x2
-          stage: 8
+        Coco_Hillstate_APT_LM_DN_4x2_9426d3df.SC4Lot:
+          9426d3df:
+            building: 9426d3df
+            name: Coco_Hillstate_APT_LM_DN_4x2
+            size: 4x2
+        Coco_Hillstate_APT_R$$_4x2_DN_d426d49e.SC4Lot:
+          d426d49e:
+            building: 1426d33d
+            density: high
+            name: Coco_Hillstate_APT_R$$_4x2_DN
+            size: 4x2
+            stage: 8
       name: Dark Nite
       release: 2024-11-26T21:04:04.961Z
       requirements:
@@ -76,58 +98,80 @@ cococity/coco-hillstate-apartment:
       assets:
         - id: simtropolis/36526-coco-hillstate-apartment#204092
       buildings:
-        - bulldoze: 1740
-          capacity:
-            r$: 3076
-            r$$: 1699
-          category: r$$
-          file: Coco_Hillstate_APT-0x6534284a-0xb21fc9d1-0x1426bca5.SC4Desc
-          flamability: 40
-          garbage: 239
-          id: 1426bca5
-          name: Coco_Hillstate_APT
-          pollution: 48
-          pollutionRadius: 5
-          power: 24
-          water: 267
-          waterPollution: 48
-          waterPollutionRadius: 6
-          worth: 44390
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: Insert ploppable description here.
-          file: Coco_Hillstate_APT_LM_MN_4x2_3426a2a4.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: 3426a2a4
-          label: Custom Ploppable
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          name: Coco_Hillstate_APT
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-      lastGenerated: 2024-11-26T21:04:04.961Z
+        Coco_Hillstate_APT-0x6534284a-0x94136420-0xb426a240.SC4Desc:
+          b426a240:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_Hillstate_APT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        Coco_Hillstate_APT-0x6534284a-0xb21fc9d1-0x1426bca5.SC4Desc:
+          1426bca5:
+            bulldoze: 1740
+            capacity:
+              r$: 3076
+              r$$: 1699
+            category: r$$
+            flamability: 40
+            garbage: 239
+            name: Coco_Hillstate_APT
+            pollution: 48
+            pollutionRadius: 5
+            power: 24
+            water: 267
+            waterPollution: 48
+            waterPollutionRadius: 6
+            worth: 44390
+        Coco_Hillstate_APT_LM_MN_4x2_3426a2a4.SC4Lot:
+          3426a2a4:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_Hillstate_APT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2024-12-02T14:00:25.085Z
       lastModified: 2024-10-25T05:08:04.000Z
       lots:
-        - building: 3426a2a4
-          file: Coco_Hillstate_APT_LM_MN_4x2_3426a2a4.SC4Lot
-          id: 3426a2a4
-          name: Coco_Hillstate_APT_LM_MN_4x2
-          size: 4x2
-        - building: 1426bca5
-          density: high
-          file: Coco_Hillstate_APT_R$$_4x2_7426bfa5.SC4Lot
-          id: 7426bfa5
-          name: Coco_Hillstate_APT_R$$_4x2
-          size: 4x2
-          stage: 8
+        Coco_Hillstate_APT_LM_MN_4x2_3426a2a4.SC4Lot:
+          3426a2a4:
+            building: 3426a2a4
+            name: Coco_Hillstate_APT_LM_MN_4x2
+            size: 4x2
+        Coco_Hillstate_APT_R$$_4x2_7426bfa5.SC4Lot:
+          7426bfa5:
+            building: 1426bca5
+            density: high
+            name: Coco_Hillstate_APT_R$$_4x2
+            size: 4x2
+            stage: 8
       name: Maxis Nite
       release: 2024-11-26T21:04:04.961Z
       requirements:
@@ -155,58 +199,80 @@ cococity/coco-pyeonhansesang-apartment:
       assets:
         - id: simtropolis/36544-coco_e-pyeonhansesang_apt#204396
       buildings:
-        - bulldoze: 1849
-          capacity:
-            r$: 6186
-            r$$: 3416
-          category: r$$
-          file: Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0xd4441231.SC4Desc
-          flamability: 40
-          garbage: 480
-          id: d4441231
-          name: Coco_ePyeonhanAPT
-          pollution: 96
-          pollutionRadius: 5
-          power: 47
-          water: 537
-          waterPollution: 96
-          waterPollutionRadius: 6
-          worth: 89267
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: Insert ploppable description here.
-          file: Coco_ePyeonhanAPT_LM4x3_DN_1443fd77.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: 1443fd77
-          label: Custom Ploppable
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          name: Coco_ePyeonhanAPT
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-      lastGenerated: 2024-11-26T21:04:04.961Z
+        Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x5443fd4d.SC4Desc:
+          5443fd4d:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_ePyeonhanAPT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0xd4441231.SC4Desc:
+          d4441231:
+            bulldoze: 1849
+            capacity:
+              r$: 6186
+              r$$: 3416
+            category: r$$
+            flamability: 40
+            garbage: 480
+            name: Coco_ePyeonhanAPT
+            pollution: 96
+            pollutionRadius: 5
+            power: 47
+            water: 537
+            waterPollution: 96
+            waterPollutionRadius: 6
+            worth: 89267
+        Coco_ePyeonhanAPT_LM4x3_DN_1443fd77.SC4Lot:
+          1443fd77:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_ePyeonhanAPT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2024-12-02T14:00:25.085Z
       lastModified: 2024-11-15T17:29:13.000Z
       lots:
-        - building: 1443fd77
-          file: Coco_ePyeonhanAPT_LM4x3_DN_1443fd77.SC4Lot
-          id: 1443fd77
-          name: Coco_ePyeonhanAPT_LM4x3_DN
-          size: 4x3
-        - building: d4441231
-          density: high
-          file: Coco_ePyeonhan_APT_R$$_4x3_DN_14441268.SC4Lot
-          id: '14441268'
-          name: Coco_ePyeonhan_APT_R$$_4x3_DN
-          size: 4x3
-          stage: 8
+        Coco_ePyeonhanAPT_LM4x3_DN_1443fd77.SC4Lot:
+          1443fd77:
+            building: 1443fd77
+            name: Coco_ePyeonhanAPT_LM4x3_DN
+            size: 4x3
+        Coco_ePyeonhan_APT_R$$_4x3_DN_14441268.SC4Lot:
+          '14441268':
+            building: d4441231
+            density: high
+            name: Coco_ePyeonhan_APT_R$$_4x3_DN
+            size: 4x3
+            stage: 8
       name: Dark Nite
       release: 2024-11-26T21:04:04.961Z
       requirements:
@@ -214,60 +280,91 @@ cococity/coco-pyeonhansesang-apartment:
       version: 1.1.0
     default:
       assets:
-        - id: simtropolis/36544-coco_e-pyeonhansesang_apt#204395
+        - docs:
+            - Day.png
+            - Night.png
+          id: simtropolis/36544-coco_e-pyeonhansesang_apt#204395
+          include:
+            - Coco_ePyeonhanAPT-0x5ad0e817_0x3442801b_0x120000.SC4Model
+            - Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x7443f7d1.SC4Desc
+            - Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x944405cd.SC4Desc
+            - Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot
+            - Coco_ePyeonhan_APT_R$$_4x3_d4440620.SC4Lot
       buildings:
-        - bulldoze: 1849
-          capacity:
-            r$: 6186
-            r$$: 3416
-          category: r$$
-          file: Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x944405cd.SC4Desc
-          flamability: 40
-          garbage: 480
-          id: 944405cd
-          name: Coco_ePyeonhanAPT
-          pollution: 96
-          pollutionRadius: 5
-          power: 47
-          water: 537
-          waterPollution: 96
-          waterPollutionRadius: 6
-          worth: 89267
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: Insert ploppable description here.
-          file: Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: 1443f7f3
-          label: Custom Ploppable
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          name: Coco_ePyeonhanAPT
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-      lastGenerated: 2024-11-26T21:04:04.961Z
+        Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x7443f7d1.SC4Desc:
+          7443f7d1:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_ePyeonhanAPT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        Coco_ePyeonhanAPT-0x6534284a-0x3442801b-0x944405cd.SC4Desc:
+          944405cd:
+            bulldoze: 1849
+            capacity:
+              r$: 6186
+              r$$: 3416
+            category: r$$
+            flamability: 40
+            garbage: 480
+            name: Coco_ePyeonhanAPT
+            pollution: 96
+            pollutionRadius: 5
+            power: 47
+            water: 537
+            waterPollution: 96
+            waterPollutionRadius: 6
+            worth: 89267
+        Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot:
+          1443f7f3:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_ePyeonhanAPT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2024-12-02T14:00:25.085Z
       lastModified: 2024-11-15T17:29:13.000Z
       lots:
-        - building: 1443f7f3
-          file: Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot
-          id: 1443f7f3
-          name: Coco_ePyeonhanAPT_LM4x3
-          size: 4x3
-        - building: 944405cd
-          density: high
-          file: Coco_ePyeonhan_APT_R$$_4x3_d4440620.SC4Lot
-          id: d4440620
-          name: Coco_ePyeonhan_APT_R$$_4x3
-          size: 4x3
-          stage: 8
+        Coco_ePyeonhanAPT_LM4x3_1443f7f3.SC4Lot:
+          1443f7f3:
+            building: 1443f7f3
+            name: Coco_ePyeonhanAPT_LM4x3
+            size: 4x3
+        Coco_ePyeonhan_APT_R$$_4x3_d4440620.SC4Lot:
+          d4440620:
+            building: 944405cd
+            density: high
+            name: Coco_ePyeonhan_APT_R$$_4x3
+            size: 4x3
+            stage: 8
       name: Maxis Nite
       release: 2024-11-26T21:04:04.961Z
       requirements:
@@ -298,57 +395,79 @@ cococity/coco-samsung-apartment:
           include:
             - Coco_SamsungApt_DN
       buildings:
-        - bulldoze: 703
-          capacity:
-            r$: 3161
-          category: r$
-          file: Coco_SamsungAPT_DN-0x6534284a-0xb21fc9d1-0xd418529b.SC4Desc
-          flamability: 45
-          garbage: 190
-          id: d418529b
-          name: Coco_SamsungAPT_DN
-          pollution: 95
-          pollutionRadius: 5
-          power: 14
-          water: 148
-          waterPollution: 32
-          waterPollutionRadius: 5
-          worth: 42957
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: Insert ploppable description here.
-          file: Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: d4185370
-          label: Custom Ploppable
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          name: Coco_SamsungAPT_DN
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-      lastGenerated: 2024-11-26T21:04:04.961Z
+        Coco_SamsungAPT_DN-0x6534284a-0xb21fc9d1-0xd418529b.SC4Desc:
+          d418529b:
+            bulldoze: 703
+            capacity:
+              r$: 3161
+            category: r$
+            flamability: 45
+            garbage: 190
+            name: Coco_SamsungAPT_DN
+            pollution: 95
+            pollutionRadius: 5
+            power: 14
+            water: 148
+            waterPollution: 32
+            waterPollutionRadius: 5
+            worth: 42957
+        Coco_SamsungAPT_DN-0x6534284a-0xb21fc9d1-0xf4185278.SC4Desc:
+          f4185278:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_SamsungAPT_DN
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot:
+          d4185370:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_SamsungAPT_DN
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2024-12-02T14:00:25.085Z
       lastModified: 2024-10-13T13:44:11.000Z
       lots:
-        - building: d4185370
-          file: Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot
-          id: d4185370
-          name: Coco_SamsungApt_DN_LM 7x3
-          size: 7x3
-        - building: d418529b
-          density: high
-          file: Coco_SamsungAPT_R$7x3_DN_d41861c2.SC4Lot
-          id: d41861c2
-          name: Coco_SamsungAPT_R$7x3_DN
-          size: 7x3
-          stage: 7
+        Coco_SamsungAPT_R$7x3_DN_d41861c2.SC4Lot:
+          d41861c2:
+            building: d418529b
+            density: high
+            name: Coco_SamsungAPT_R$7x3_DN
+            size: 7x3
+            stage: 7
+        Coco_SamsungApt_DN_LM 7x3_d4185370.SC4Lot:
+          d4185370:
+            building: d4185370
+            name: Coco_SamsungApt_DN_LM 7x3
+            size: 7x3
       name: Dark Nite
       release: 2024-11-26T21:04:04.961Z
       requirements:
@@ -362,57 +481,79 @@ cococity/coco-samsung-apartment:
           include:
             - Coco_SamsungApt_MN
       buildings:
-        - bulldoze: 703
-          capacity:
-            r$: 3161
-          category: r$
-          file: Coco_SamsungAPT-0x6534284a-0xb21fc9d1-0x54184b56.SC4Desc
-          flamability: 45
-          garbage: 190
-          id: 54184b56
-          name: Coco_SamsungAPT
-          pollution: 95
-          pollutionRadius: 5
-          power: 14
-          water: 148
-          waterPollution: 32
-          waterPollutionRadius: 5
-          worth: 42957
-        - bulldoze: 100
-          category: landmarks
-          cost: 110000
-          description: Insert ploppable description here.
-          file: Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot
-          flamability: 10
-          garbage: 15
-          id: d41847ed
-          label: Custom Ploppable
-          landmark: 40
-          landmarkRadius: 20
-          maintenance: 150
-          name: Coco_SamsungAPT
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 10
-          ratingRadius: 256
-          waterPollution: 1
-          waterPollutionRadius: 2
-      lastGenerated: 2024-11-26T21:04:04.961Z
+        Coco_SamsungAPT-0x6534284a-0xb21fc9d1-0x54184b56.SC4Desc:
+          54184b56:
+            bulldoze: 703
+            capacity:
+              r$: 3161
+            category: r$
+            flamability: 45
+            garbage: 190
+            name: Coco_SamsungAPT
+            pollution: 95
+            pollutionRadius: 5
+            power: 14
+            water: 148
+            waterPollution: 32
+            waterPollutionRadius: 5
+            worth: 42957
+        Coco_SamsungAPT-0x6534284a-0xb21fc9d1-0xd4184728.SC4Desc:
+          d4184728:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_SamsungAPT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot:
+          d41847ed:
+            bulldoze: 100
+            category: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Coco_SamsungAPT
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2024-12-02T14:00:25.085Z
       lastModified: 2024-10-13T13:44:11.000Z
       lots:
-        - building: d41847ed
-          file: Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot
-          id: d41847ed
-          name: Coco_SamsungApt_LM 7x3
-          size: 7x3
-        - building: 54184b56
-          density: high
-          file: Coco_SamsungAPT_R$7x3_MN_d41866fd.SC4Lot
-          id: d41866fd
-          name: Coco_SamsungAPT_R$7x3_MN
-          size: 7x3
-          stage: 7
+        Coco_SamsungAPT_R$7x3_MN_d41866fd.SC4Lot:
+          d41866fd:
+            building: 54184b56
+            density: high
+            name: Coco_SamsungAPT_R$7x3_MN
+            size: 7x3
+            stage: 7
+        Coco_SamsungApt_LM 7x3_d41847ed.SC4Lot:
+          d41847ed:
+            building: d41847ed
+            name: Coco_SamsungApt_LM 7x3
+            size: 7x3
       name: Maxis Nite
       release: 2024-11-26T21:04:04.961Z
       requirements:

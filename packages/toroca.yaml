@@ -15,79 +15,79 @@ toroca/5x5-and-6x6-malls:
     default:
       assets:
         - id: simtropolis/2781-additional-5x5-and-6x6-mall-lots-v10
-      lastGenerated: 2024-11-26T21:04:04.961Z
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2004-03-19T14:40:39.000Z
       lots:
-        - building: 4000003f
-          density: all
-          file: CS$$$1_5x5 Andrews Fashion Center_ed670794.SC4Lot
-          id: ed670794
-          name: CS$$$1_5x5 Andrews Fashion Center
-          size: 5x5
-          stage: 1
-        - building: 051d0000
-          density: all
-          file: CS$$$1_5x5 Bilyk Galleria_6d670a55.SC4Lot
-          id: 6d670a55
-          name: CS$$$1_5x5 Bilyk Galleria
-          size: 5x5
-          stage: 1
-        - building: 051d0000
-          density: all
-          file: CS$$$1_6x6 Bilyk Galleria_ed670b23.SC4Lot
-          id: ed670b23
-          name: CS$$$1_6x6 Bilyk Galleria
-          size: 6x6
-          stage: 1
-        - building: '05250000'
-          density: all
-          file: CS$$$1_6x6 Nanale Shopping Center_cd670826.SC4Lot
-          id: cd670826
-          name: CS$$$1_6x6 Nanale Shopping Center
-          size: 6x6
-          stage: 1
-        - building: '05250000'
-          density: all
-          file: CS$$$2_5x5 Nanale Shopping Center_ad67091b.SC4Lot
-          id: ad67091b
-          name: CS$$$2_5x5 Nanale Shopping Center
-          size: 5x5
-          stage: 2
-        - building: 051c0000
-          density: all
-          file: CS$$1_5x5 Harris Galleria_4d670471.SC4Lot
-          id: 4d670471
-          name: CS$$1_5x5 Harris Galleria
-          size: 5x5
-          stage: 1
-        - building: 4000003e
-          density: all
-          file: CS$$1_5x5 Lee Shopping Mall_ed67020f.SC4Lot
-          id: ed67020f
-          name: CS$$1_5x5 Lee Shopping Mall
-          size: 5x5
-          stage: 1
-        - building: 051c0000
-          density: all
-          file: CS$$1_6x6 Harris Galleria_2d6705a9.SC4Lot
-          id: 2d6705a9
-          name: CS$$1_6x6 Harris Galleria
-          size: 6x6
-          stage: 1
-        - building: 05f10000
-          density: all
-          file: CS$$1_6x6 Hsu Mall_8d66fc4f.SC4Lot
-          id: 8d66fc4f
-          name: CS$$1_6x6 Hsu Mall
-          size: 6x6
-          stage: 1
-        - building: 05f10000
-          density: all
-          file: CS$$2_5x5 Hsu Mall_ad670004.SC4Lot
-          id: ad670004
-          name: CS$$2_5x5 Hsu Mall
-          size: 5x5
-          stage: 2
+        CS$$$1_5x5 Andrews Fashion Center_ed670794.SC4Lot:
+          ed670794:
+            building: 4000003f
+            density: all
+            name: CS$$$1_5x5 Andrews Fashion Center
+            size: 5x5
+            stage: 1
+        CS$$$1_5x5 Bilyk Galleria_6d670a55.SC4Lot:
+          6d670a55:
+            building: 051d0000
+            density: all
+            name: CS$$$1_5x5 Bilyk Galleria
+            size: 5x5
+            stage: 1
+        CS$$$1_6x6 Bilyk Galleria_ed670b23.SC4Lot:
+          ed670b23:
+            building: 051d0000
+            density: all
+            name: CS$$$1_6x6 Bilyk Galleria
+            size: 6x6
+            stage: 1
+        CS$$$1_6x6 Nanale Shopping Center_cd670826.SC4Lot:
+          cd670826:
+            building: '05250000'
+            density: all
+            name: CS$$$1_6x6 Nanale Shopping Center
+            size: 6x6
+            stage: 1
+        CS$$$2_5x5 Nanale Shopping Center_ad67091b.SC4Lot:
+          ad67091b:
+            building: '05250000'
+            density: all
+            name: CS$$$2_5x5 Nanale Shopping Center
+            size: 5x5
+            stage: 2
+        CS$$1_5x5 Harris Galleria_4d670471.SC4Lot:
+          4d670471:
+            building: 051c0000
+            density: all
+            name: CS$$1_5x5 Harris Galleria
+            size: 5x5
+            stage: 1
+        CS$$1_5x5 Lee Shopping Mall_ed67020f.SC4Lot:
+          ed67020f:
+            building: 4000003e
+            density: all
+            name: CS$$1_5x5 Lee Shopping Mall
+            size: 5x5
+            stage: 1
+        CS$$1_6x6 Harris Galleria_2d6705a9.SC4Lot:
+          2d6705a9:
+            building: 051c0000
+            density: all
+            name: CS$$1_6x6 Harris Galleria
+            size: 6x6
+            stage: 1
+        CS$$1_6x6 Hsu Mall_8d66fc4f.SC4Lot:
+          8d66fc4f:
+            building: 05f10000
+            density: all
+            name: CS$$1_6x6 Hsu Mall
+            size: 6x6
+            stage: 1
+        CS$$2_5x5 Hsu Mall_ad670004.SC4Lot:
+          ad670004:
+            building: 05f10000
+            density: all
+            name: CS$$2_5x5 Hsu Mall
+            size: 5x5
+            stage: 2
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -128,7 +128,833 @@ toroca/commercial-services-doubler:
             - condition:
                 small: x2
               path: ServicesDoubler.dat
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        LargeServicesDoubler.dat:
+          '05260000':
+            bulldoze: 320
+            capacity:
+              cs$: 4398
+              cs$$: 1104
+            category: cs$$
+            name: CS$$40x54_7ChiCinema_0526
+          '05280000':
+            bulldoze: 710
+            capacity:
+              cs$: 2822
+              cs$$: 710
+            category: cs$$
+            name: CS$$44x30_7ChiFamilyInn_0528
+          '05290000':
+            bulldoze: 1100
+            capacity:
+              cs$: 5886
+              cs$$: 1476
+              cs$$$: 594
+            category: cs$$$
+            name: CS$$$60x30_7ChiRitzy_0529
+          052a0000:
+            bulldoze: 260
+            capacity:
+              cs$: 1612
+              cs$$: 408
+            category: cs$$
+            name: CS$$40x28_7ChiSimcys_052A
+          05bb0000:
+            bulldoze: 320
+            capacity:
+              cs$: 1378
+              cs$$: 350
+            category: cs$$
+            name: CS$$44x26_5ChiMediumStore7_05BB
+          05c30000:
+            bulldoze: 320
+            capacity:
+              cs$: 1378
+              cs$$: 350
+            category: cs$$
+            name: CS$$44x26_5NYMediumStore7_05C3
+          05cb0000:
+            bulldoze: 320
+            capacity:
+              cs$: 1570
+              cs$$: 396
+            category: cs$$
+            name: CS$$44x26_5HouMediumStore7_05CB
+          05d10000:
+            bulldoze: 260
+            capacity:
+              cs$: 310
+            category: cs$
+            name: CS$14x26_6ChiSmallShop5_05D1
+          05d70000:
+            bulldoze: 260
+            capacity:
+              cs$: 322
+            category: cs$
+            name: CS$14x26_6NYSmallShop5_05D7
+          05dd0000:
+            bulldoze: 260
+            capacity:
+              cs$: 346
+            category: cs$
+            name: CS$14x26_6HouSmallShop5_05DD
+          '05e90000':
+            bulldoze: 520
+            capacity:
+              cs$: 3324
+              cs$$: 836
+              cs$$$: 338
+            category: cs$$$
+            name: CS$$$44x26_5NYLuxuryStore5_05E9
+          05ef0000:
+            bulldoze: 520
+            capacity:
+              cs$: 3362
+              cs$$: 844
+              cs$$$: 342
+            category: cs$$$
+            name: CS$$$44x26_5HouLuxuryStore5_05EF
+          '06250000':
+            bulldoze: 320
+            capacity:
+              cs$: 1570
+              cs$$: 396
+            category: cs$$
+            name: CS$$44x26_5EuroMediumStore7_0625
+          062b0000:
+            bulldoze: 520
+            capacity:
+              cs$: 4562
+              cs$$: 1146
+              cs$$$: 462
+            category: cs$$$
+            name: CS$$$48x32_5EuroLuxuryStore5_062B
+        LargeServicesTripler.dat:
+          '05260000':
+            bulldoze: 320
+            capacity:
+              cs$: 6597
+              cs$$: 1656
+            category: cs$$
+            name: CS$$40x54_7ChiCinema_0526
+          '05280000':
+            bulldoze: 710
+            capacity:
+              cs$: 4233
+              cs$$: 1065
+            category: cs$$
+            name: CS$$44x30_7ChiFamilyInn_0528
+          '05290000':
+            bulldoze: 1100
+            capacity:
+              cs$: 8829
+              cs$$: 2214
+              cs$$$: 891
+            category: cs$$$
+            name: CS$$$60x30_7ChiRitzy_0529
+          052a0000:
+            bulldoze: 260
+            capacity:
+              cs$: 2418
+              cs$$: 612
+            category: cs$$
+            name: CS$$40x28_7ChiSimcys_052A
+          05bb0000:
+            bulldoze: 320
+            capacity:
+              cs$: 2067
+              cs$$: 525
+            category: cs$$
+            name: CS$$44x26_5ChiMediumStore7_05BB
+          05c30000:
+            bulldoze: 320
+            capacity:
+              cs$: 2067
+              cs$$: 525
+            category: cs$$
+            name: CS$$44x26_5NYMediumStore7_05C3
+          05cb0000:
+            bulldoze: 320
+            capacity:
+              cs$: 2355
+              cs$$: 594
+            category: cs$$
+            name: CS$$44x26_5HouMediumStore7_05CB
+          05d10000:
+            bulldoze: 260
+            capacity:
+              cs$: 456
+            category: cs$
+            name: CS$14x26_6ChiSmallShop5_05D1
+          05d70000:
+            bulldoze: 260
+            capacity:
+              cs$: 483
+            category: cs$
+            name: CS$14x26_6NYSmallShop5_05D7
+          05dd0000:
+            bulldoze: 260
+            capacity:
+              cs$: 519
+            category: cs$
+            name: CS$14x26_6HouSmallShop5_05DD
+          '05e90000':
+            bulldoze: 520
+            capacity:
+              cs$: 4986
+              cs$$: 1254
+              cs$$$: 507
+            category: cs$$$
+            name: CS$$$44x26_5NYLuxuryStore5_05E9
+          05ef0000:
+            bulldoze: 520
+            capacity:
+              cs$: 5043
+              cs$$: 1266
+              cs$$$: 513
+            category: cs$$$
+            name: CS$$$44x26_5HouLuxuryStore5_05EF
+          '06250000':
+            bulldoze: 320
+            capacity:
+              cs$: 2355
+              cs$$: 594
+            category: cs$$
+            name: CS$$44x26_5EuroMediumStore7_0625
+          062b0000:
+            bulldoze: 520
+            capacity:
+              cs$: 6843
+              cs$$: 1719
+              cs$$$: 693
+            category: cs$$$
+            name: CS$$$48x32_5EuroLuxuryStore5_062B
+        MallsDoubler.dat:
+          050b0000:
+            bulldoze: 150
+            capacity:
+              cs$: 1014
+              cs$$: 258
+            category: cs$$
+            name: CS$$60x56_1ChiMiddleClassMall_050B
+          050c0000:
+            bulldoze: 160
+            capacity:
+              cs$: 1462
+              cs$$: 370
+              cs$$$: 152
+            category: cs$$$
+            name: CS$$$60x52_1ChiFashionCentre_050C
+          051c0000:
+            bulldoze: 150
+            capacity:
+              cs$: 1238
+              cs$$: 314
+            category: cs$$
+            name: CS$$60x56_4ChiMiddleClassMall_051C
+          051d0000:
+            bulldoze: 220
+            capacity:
+              cs$: 1268
+              cs$$: 322
+              cs$$$: 132
+            category: cs$$$
+            name: CS$$$52x52_4ChiFashionCentre_051D
+          '05250000':
+            bulldoze: 330
+            capacity:
+              cs$: 2294
+              cs$$: 578
+              cs$$$: 234
+            category: cs$$$
+            name: CS$$$60x44_7ChiFashionCentre_0525
+          05f10000:
+            bulldoze: 260
+            capacity:
+              cs$: 2118
+              cs$$: 534
+            category: cs$$
+            name: CS$$60x44_7ChiMiddleClassMall_05F1
+        MallsQuadrupler.dat:
+          050b0000:
+            bulldoze: 150
+            capacity:
+              cs$: 2028
+              cs$$: 516
+            category: cs$$
+            name: CS$$60x56_1ChiMiddleClassMall_050B
+          050c0000:
+            bulldoze: 160
+            capacity:
+              cs$: 2924
+              cs$$: 740
+              cs$$$: 304
+            category: cs$$$
+            name: CS$$$60x52_1ChiFashionCentre_050C
+          051c0000:
+            bulldoze: 150
+            capacity:
+              cs$: 2476
+              cs$$: 628
+            category: cs$$
+            name: CS$$60x56_4ChiMiddleClassMall_051C
+          051d0000:
+            bulldoze: 220
+            capacity:
+              cs$: 2536
+              cs$$: 644
+              cs$$$: 264
+            category: cs$$$
+            name: CS$$$52x52_4ChiFashionCentre_051D
+          '05250000':
+            bulldoze: 330
+            capacity:
+              cs$: 4588
+              cs$$: 1156
+              cs$$$: 468
+            category: cs$$$
+            name: CS$$$60x44_7ChiFashionCentre_0525
+          05f10000:
+            bulldoze: 260
+            capacity:
+              cs$: 4236
+              cs$$: 1068
+            category: cs$$
+            name: CS$$60x44_7ChiMiddleClassMall_05F1
+        ServicesDoubler.dat:
+          050d0000:
+            bulldoze: 220
+            capacity:
+              cs$: 262
+            category: cs$
+            name: CS$34x9_1ChiDrivein_050D
+          '050e0000':
+            bulldoze: 220
+            capacity:
+              cs$: 828
+              cs$$: 212
+            category: cs$$
+            name: CS$$44x28_1ChiMultiplex_050E
+          050f0000:
+            bulldoze: 220
+            capacity:
+              cs$: 678
+              cs$$: 174
+              cs$$$: 74
+            category: cs$$$
+            name: CS$$$24x30_1ChiDinnerTheater_050F
+          '05100000':
+            bulldoze: 100
+            capacity:
+              cs$: 84
+            category: cs$
+            name: CS$28x14_1ChiFleaBagMotel_0510
+          '05110000':
+            bulldoze: 150
+            capacity:
+              cs$: 334
+              cs$$: 88
+            category: cs$$
+            name: CS$$44x16_1ChiFamilyCourt_0511
+          '05120000':
+            bulldoze: 160
+            capacity:
+              cs$: 90
+              cs$$: 26
+              cs$$$: 14
+            category: cs$$$
+            name: CS$$$16x12_1ChiLuxurySpa_0512
+          '05130000':
+            bulldoze: 100
+            capacity:
+              cs$: 28
+            category: cs$
+            name: CS$12x6_1ChiGreasePit_0513
+          '05140000':
+            bulldoze: 110
+            capacity:
+              cs$: 28
+              cs$$: 12
+            category: cs$$
+            name: CS$$12x8_1ChiServiceStation_0514
+          '05150000':
+            bulldoze: 160
+            capacity:
+              cs$: 44
+              cs$$: 16
+              cs$$$: 10
+            category: cs$$$
+            name: CS$$$14x8_1ChiCarCarCentre_0515
+          '05160000':
+            bulldoze: 100
+            capacity:
+              cs$: 14
+            category: cs$
+            name: CS$8x4_1ChiUsedCarCheap_0516
+          '05170000':
+            bulldoze: 150
+            capacity:
+              cs$: 56
+              cs$$: 18
+            category: cs$$
+            name: CS$$12x14_1ChiCarDealership_0517
+          '05180000':
+            bulldoze: 160
+            capacity:
+              cs$: 256
+              cs$$: 68
+              cs$$$: 30
+            category: cs$$$
+            name: CS$$$24x26_1ChiLuxuryAutoCentr_0518
+          '05190000':
+            bulldoze: 100
+            capacity:
+              cs$: 14
+            category: cs$
+            name: CS$10x4_1ChiTacoStand_0519
+          051a0000:
+            bulldoze: 110
+            capacity:
+              cs$: 52
+              cs$$: 18
+            category: cs$$
+            name: CS$$10x14_1ChiFamilyDiner_051A
+          051b0000:
+            bulldoze: 160
+            capacity:
+              cs$: 58
+              cs$$: 18
+              cs$$$: 12
+            category: cs$$$
+            name: CS$$$10x14_1ChiChezFancy_051B
+          '051e0000':
+            bulldoze: 220
+            capacity:
+              cs$: 916
+              cs$$: 234
+            category: cs$$
+            name: CS$$30x26_4ChiCinema_051E
+          051f0000:
+            bulldoze: 260
+            capacity:
+              cs$: 1094
+              cs$$: 278
+              cs$$$: 114
+            category: cs$$$
+            name: CS$$$26x46_4ChiMaxisSimTheatre_051F
+          '05200000':
+            bulldoze: 460
+            capacity:
+              cs$: 1070
+              cs$$: 272
+            category: cs$$
+            name: CS$$30x28_4ChiFamilyInn_0520
+          '05210000':
+            bulldoze: 480
+            capacity:
+              cs$: 1510
+              cs$$: 382
+              cs$$$: 156
+            category: cs$$$
+            name: CS$$$30x26_4ChiRitzy_0521
+          '05220000':
+            bulldoze: 220
+            capacity:
+              cs$: 580
+              cs$$: 150
+            category: cs$$
+            name: CS$$28x28_4ChiSimcys_0522
+          '05230000':
+            bulldoze: 260
+            capacity:
+              cs$: 554
+              cs$$: 144
+              cs$$$: 60
+            category: cs$$$
+            name: CS$$$28x28_4ChiSims4thAve_0523
+          '05270000':
+            bulldoze: 330
+            capacity:
+              cs$: 738
+              cs$$: 190
+              cs$$$: 80
+            category: cs$$$
+            name: CS$$$37x22_7ChiMaxisSimTheatre_0527
+          052b0000:
+            bulldoze: 330
+            capacity:
+              cs$: 1312
+              cs$$: 332
+              cs$$$: 136
+            category: cs$$$
+            name: CS$$$40x28_7ChiSims4thAve_052B
+          '05720000':
+            bulldoze: 140
+            capacity:
+              cs$: 178
+            category: cs$
+            name: CS$24x24_1ChiFleaMarket_0572
+          05b50000:
+            bulldoze: 110
+            capacity:
+              cs$: 118
+              cs$$: 34
+            category: cs$$
+            name: CS$$12x28_1ChiMediumStore1_05B5
+          05b70000:
+            bulldoze: 150
+            capacity:
+              cs$: 518
+              cs$$: 134
+            category: cs$$
+            name: CS$$40x24_2ChiMediumStore3_05B7
+          05b80000:
+            bulldoze: 150
+            capacity:
+              cs$: 118
+              cs$$: 34
+            category: cs$$
+            name: CS$$14x14_4ChiMediumStore4_05B8
+          05b90000:
+            bulldoze: 220
+            capacity:
+              cs$: 190
+              cs$$: 52
+            category: cs$$
+            name: CS$$14x22_4ChiMediumStore5_05B9
+          05ba0000:
+            bulldoze: 400
+            capacity:
+              cs$: 468
+              cs$$: 122
+            category: cs$$
+            name: CS$$30x22_6ChiMediumStore6_05BA
+          05bd0000:
+            bulldoze: 110
+            capacity:
+              cs$: 140
+              cs$$: 40
+            category: cs$$
+            name: CS$$12x28_1NYMediumStore1_05BD
+          05bf0000:
+            bulldoze: 150
+            capacity:
+              cs$: 1062
+              cs$$: 270
+            category: cs$$
+            name: CS$$40x24_2NYMediumStore3_05BF
+          05c00000:
+            bulldoze: 150
+            capacity:
+              cs$: 104
+              cs$$: 30
+            category: cs$$
+            name: CS$$14x14_4NYMediumStore4_05C0
+          05c10000:
+            bulldoze: 220
+            capacity:
+              cs$: 222
+              cs$$: 60
+            category: cs$$
+            name: CS$$14x22_4NYMediumStore5_05C1
+          05c20000:
+            bulldoze: 400
+            capacity:
+              cs$: 930
+              cs$$: 238
+            category: cs$$
+            name: CS$$30x22_6NYMediumStore6_05C2
+          05c50000:
+            bulldoze: 110
+            capacity:
+              cs$: 230
+              cs$$: 62
+            category: cs$$
+            name: CS$$12x28_1HouMediumStore1_05C5
+          05c70000:
+            bulldoze: 150
+            capacity:
+              cs$: 934
+              cs$$: 238
+            category: cs$$
+            name: CS$$40x24_2HouMediumStore3_05C7
+          05c80000:
+            bulldoze: 150
+            capacity:
+              cs$: 110
+              cs$$: 32
+            category: cs$$
+            name: CS$$14x14_4HouMediumStore4_05C8
+          05c90000:
+            bulldoze: 220
+            capacity:
+              cs$: 212
+              cs$$: 58
+            category: cs$$
+            name: CS$$14x22_4HouMediumStore5_05C9
+          05ca0000:
+            bulldoze: 400
+            capacity:
+              cs$: 820
+              cs$$: 210
+            category: cs$$
+            name: CS$$30x22_6HouMediumStore6_05CA
+          05cd0000:
+            bulldoze: 100
+            capacity:
+              cs$: 98
+            category: cs$
+            name: CS$14x14_1ChiSmallShop1_05CD
+          05cf0000:
+            bulldoze: 140
+            capacity:
+              cs$: 150
+            category: cs$
+            name: CS$14x22_1ChiSmallShop3_05CF
+          05d00000:
+            bulldoze: 180
+            capacity:
+              cs$: 118
+            category: cs$
+            name: CS$14x14_4ChiSmallShop4_05D0
+          05d30000:
+            bulldoze: 100
+            capacity:
+              cs$: 104
+            category: cs$
+            name: CS$14x14_1NYSmallShop1_05D3
+          05d50000:
+            bulldoze: 140
+            capacity:
+              cs$: 160
+            category: cs$
+            name: CS$14x22_1NYSmallShop3_05D5
+          05d60000:
+            bulldoze: 180
+            capacity:
+              cs$: 118
+            category: cs$
+            name: CS$14x14_4NYSmallShop4_05D6
+          05d90000:
+            bulldoze: 100
+            capacity:
+              cs$: 64
+            category: cs$
+            name: CS$14x14_1HouSmallShop1_05D9
+          05db0000:
+            bulldoze: 140
+            capacity:
+              cs$: 130
+            category: cs$
+            name: CS$14x22_1HouSmallShop3_05DB
+          05dc0000:
+            bulldoze: 180
+            capacity:
+              cs$: 124
+            category: cs$
+            name: CS$14x14_4HouSmallShop4_05DC
+          05df0000:
+            bulldoze: 120
+            capacity:
+              cs$: 130
+              cs$$: 36
+              cs$$$: 18
+            category: cs$$$
+            name: CS$$$12x28_1ChiLuxuryStore1_05DF
+          '05e00000':
+            bulldoze: 220
+            capacity:
+              cs$: 314
+              cs$$: 82
+              cs$$$: 36
+            category: cs$$$
+            name: CS$$$24x24_1ChiLuxuryStore2_05E0
+          '05e10000':
+            bulldoze: 260
+            capacity:
+              cs$: 742
+              cs$$: 190
+              cs$$$: 80
+            category: cs$$$
+            name: CS$$$40x24_3ChiLuxuryStore3_05E1
+          '05e20000':
+            bulldoze: 370
+            capacity:
+              cs$: 228
+              cs$$: 62
+              cs$$$: 28
+            category: cs$$$
+            name: CS$$$14x14_4ChiLuxuryStore4_05E2
+          '05e30000':
+            bulldoze: 520
+            capacity:
+              cs$: 1988
+              cs$$: 502
+              cs$$$: 204
+            category: cs$$$
+            name: CS$$$44x26_5ChiLuxuryStore5_05E3
+          '05e50000':
+            bulldoze: 120
+            capacity:
+              cs$: 130
+              cs$$: 36
+              cs$$$: 18
+            category: cs$$$
+            name: CS$$$12x28_1NYLuxuryStore1_05E5
+          '05e60000':
+            bulldoze: 220
+            capacity:
+              cs$: 582
+              cs$$: 150
+              cs$$$: 64
+            category: cs$$$
+            name: CS$$$24x24_1NYLuxuryStore2_05E6
+          '05e70000':
+            bulldoze: 260
+            capacity:
+              cs$: 1062
+              cs$$: 270
+              cs$$$: 112
+            category: cs$$$
+            name: CS$$$40x24_3NYLuxuryStore3_05E7
+          '05e80000':
+            bulldoze: 370
+            capacity:
+              cs$: 352
+              cs$$: 92
+              cs$$$: 40
+            category: cs$$$
+            name: CS$$$14x14_4NYLuxuryStore4_05E8
+          05eb0000:
+            bulldoze: 120
+            capacity:
+              cs$: 162
+              cs$$: 46
+              cs$$$: 22
+            category: cs$$$
+            name: CS$$$12x28_1HouLuxuryStore1_05EB
+          05ec0000:
+            bulldoze: 220
+            capacity:
+              cs$: 466
+              cs$$: 122
+              cs$$$: 52
+            category: cs$$$
+            name: CS$$$24x24_1HouLuxuryStore2_05EC
+          05ed0000:
+            bulldoze: 260
+            capacity:
+              cs$: 1094
+              cs$$: 278
+              cs$$$: 114
+            category: cs$$$
+            name: CS$$$40x24_3HouLuxuryStore3_05ED
+          05ee0000:
+            bulldoze: 370
+            capacity:
+              cs$: 268
+              cs$$: 72
+              cs$$$: 32
+            category: cs$$$
+            name: CS$$$14x14_4HouLuxuryStore4_05EE
+          05f70000:
+            bulldoze: 100
+            capacity:
+              cs$: 30
+            category: cs$
+            name: CS$12x6_2ChiGreaseStation_05F7
+          05fa0000:
+            bulldoze: 100
+            capacity:
+              cs$: 52
+            category: cs$
+            name: CS$14x14_1EuroSmallShop1_05FA
+          05fb0000:
+            bulldoze: 140
+            capacity:
+              cs$: 118
+            category: cs$
+            name: CS$14x22_1EuroSmallShop3_05FB
+          05fc0000:
+            bulldoze: 180
+            capacity:
+              cs$: 104
+            category: cs$
+            name: CS$14x14_4EuroSmallShop4_05FC
+          05fd0000:
+            bulldoze: 260
+            capacity:
+              cs$: 286
+            category: cs$
+            name: CS$14x26_6EuroSmallShop5_05FD
+          '06200000':
+            bulldoze: 110
+            capacity:
+              cs$: 376
+              cs$$: 98
+            category: cs$$
+            name: CS$$12x28_1EuroMediumStore1_0620
+          '06210000':
+            bulldoze: 150
+            capacity:
+              cs$: 742
+              cs$$: 190
+            category: cs$$
+            name: CS$$40x24_2EuroMediumStore3_0621
+          '06220000':
+            bulldoze: 150
+            capacity:
+              cs$: 84
+              cs$$: 26
+            category: cs$$
+            name: CS$$14x14_4EuroMediumStore4_0622
+          '06230000':
+            bulldoze: 220
+            capacity:
+              cs$: 190
+              cs$$: 52
+            category: cs$$
+            name: CS$$14x22_4EuroMediumStore5_0623
+          '06240000':
+            bulldoze: 400
+            capacity:
+              cs$: 798
+              cs$$: 204
+            category: cs$$
+            name: CS$$30x22_6EuroMediumStore6_0624
+          '06270000':
+            bulldoze: 120
+            capacity:
+              cs$: 96
+              cs$$: 28
+              cs$$$: 14
+            category: cs$$$
+            name: CS$$$12x28_1EuroLuxuryStore1_0627
+          '06280000':
+            bulldoze: 220
+            capacity:
+              cs$: 448
+              cs$$: 116
+              cs$$$: 50
+            category: cs$$$
+            name: CS$$$24x24_1EuroLuxuryStore2_0628
+          '06290000':
+            bulldoze: 260
+            capacity:
+              cs$: 1510
+              cs$$: 382
+              cs$$$: 156
+            category: cs$$$
+            name: CS$$$40x24_3EuroLuxuryStore3_0629
+          062a0000:
+            bulldoze: 370
+            capacity:
+              cs$: 196
+              cs$$: 54
+              cs$$$: 24
+            category: cs$$$
+            name: CS$$$14x14_4EuroLuxuryStore4_062A
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2011-01-07T19:58:30.000Z
       options:
         - choices:
@@ -195,772 +1021,772 @@ toroca/functional-landmarks:
           include:
             - '{{landmarks}}.dat'
       buildings:
-        - bulldoze: 4500
-          capacity:
-            cs$: 15
-            cs$$: 15
-          category: landmarks
-          cost: 50000
-          file: Alcatraz.dat
-          flamability: 36
-          garbage: 2
-          id: '03260000'
-          maintenance: 100
-          menu: Landmarks
-          name: Lm80x160_Alcatraz_0326
-          pollution: 1
-          pollutionRadius: 1
-          power: 1
-          rating: -2
-          ratingRadius: 256
-          water: 5
-          waterPollution: 1
-          waterPollutionRadius: 1
-        - bulldoze: 4950
-          capacity:
-            co$$: 80
-            co$$$: 27
-          category: landmarks
-          cost: 70000
-          file: Amalienborg.dat
-          flamability: 34
-          garbage: 5
-          id: 04bf0000
-          maintenance: 120
-          menu: Landmarks
-          name: Lm88x88_Amalienborg_04BF
-          pollution: 1
-          pollutionRadius: 2
-          power: 15
-          rating: 5
-          ratingRadius: 256
-          water: 65
-          waterPollution: 1
-          waterPollutionRadius: 3
-        - bulldoze: 7900
-          capacity:
-            cs$: 153
-            cs$$: 153
-          category: landmarks
-          cost: 110000
-          file: AmericanMuseumOfNaturalHistory.dat
-          flamability: 31
-          garbage: 15
-          id: 04b20000
-          maintenance: 220
-          menu: Landmarks
-          name: LM138x130_AmericanMuseumNatHistory_04B2
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 6
-          ratingRadius: 256
-          water: 300
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 9900
-          capacity:
-            co$$: 7102
-            co$$$: 3382
-          category: landmarks
-          cost: 110000
-          file: BankOfAmerica.dat
-          flamability: 40
-          garbage: 39
-          id: '10030000'
-          maintenance: 210
-          menu: Landmarks
-          name: Lm80x48_BankofAmerica_1003
-          pollution: 5
-          pollutionRadius: 6
-          power: 600
-          rating: 6
-          ratingRadius: 256
-          water: 1300
-          waterPollution: 5
-          waterPollutionRadius: 7
-        - bulldoze: 4950
-          capacity:
-            co$$: 11945
-            co$$$: 6925
-          category: landmarks
-          cost: 180000
-          file: BankOfChinaTower.dat
-          flamability: 36
-          garbage: 15
-          id: 04c40000
-          maintenance: 300
-          menu: Landmarks
-          name: Lm52x52_BankOfChinaTower_04C4
-          pollution: 4
-          pollutionRadius: 4
-          power: 250
-          rating: 5
-          ratingRadius: 256
-          water: 1350
-          waterPollution: 4
-          waterPollutionRadius: 5
-        - bulldoze: 6750
-          capacity:
-            cs$: 8
-            cs$$: 8
-          category: landmarks
-          cost: 75000
-          file: BigBen.dat
-          flamability: 40
-          garbage: 2
-          id: 04cd0000
-          maintenance: 150
-          menu: Landmarks
-          name: Lm16x16_Big Ben_04CD
-          pollution: 1
-          pollutionRadius: 1
-          power: 20
-          rating: 7
-          ratingRadius: 256
-          water: 25
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 4500
-          capacity:
-            co$$: 743
-          category: landmarks
-          cost: 50000
-          file: CaliforniaPlaza.dat
-          flamability: 37
-          garbage: 10
-          id: 04dc0000
-          maintenance: 100
-          menu: Landmarks
-          name: Lm88x124_CaliforniaPlaza_04DC
-          pollution: 2
-          pollutionRadius: 2
-          power: 125
-          water: 350
-          waterPollution: 2
-          waterPollutionRadius: 3
-        - bulldoze: 15300
-          capacity:
-            co$$: 7692
-          category: landmarks
-          cost: 170000
-          file: ChryslerBuilding.dat
-          flamability: 35
-          garbage: 12
-          id: 04d30000
-          maintenance: 330
-          menu: Landmarks
-          name: Lm62x62_ChryslerBuilding_04D3
-          pollution: 3
-          pollutionRadius: 4
-          power: 250
-          rating: 9
-          ratingRadius: 256
-          water: 1300
-          waterPollution: 4
-          waterPollutionRadius: 5
-        - bulldoze: 20250
-          capacity:
-            cs$: 139
-            cs$$: 139
-            cs$$$: 139
-          category: landmarks
-          cost: 225000
-          file: CNTower.dat
-          flamability: 15
-          garbage: 4
-          id: 04db0000
-          maintenance: 440
-          menu: Landmarks
-          name: Lm85x98_CNtower_04DB
-          power: 20
-          rating: 7
-          ratingRadius: 256
-          water: 25
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 4950
-          capacity:
-            cs$: 8
-            cs$$: 8
-            cs$$$: 8
-          category: landmarks
-          cost: 55000
-          file: CoitTower.dat
-          flamability: 10
-          garbage: 3
-          id: '10010000'
-          maintenance: 110
-          menu: Landmarks
-          name: Lm60x60_CoitTower_1001
-          power: 1
-          rating: 5
-          ratingRadius: 256
-          water: 7
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 6300
-          capacity:
-            co$$: 3672
-            co$$$: 1749
-          category: landmarks
-          cost: 110000
-          file: ColumbiaSeafirstCenter.dat
-          flamability: 31
-          garbage: 15
-          id: 04b00000
-          maintenance: 210
-          menu: Landmarks
-          name: Lm60x70_SeafirstTower_04B0
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 6
-          ratingRadius: 256
-          water: 300
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 4500
-          capacity:
-            cs$: 82
-            cs$$: 37
-          category: landmarks
-          cost: 50000
-          file: FaneuilHall.dat
-          flamability: 33
-          garbage: 9
-          id: 04cf0000
-          maintenance: 100
-          menu: Landmarks
-          name: Lm24x30_BostonFaneuilHall_04CF
-          pollution: 1
-          pollutionRadius: 2
-          power: 50
-          rating: 5
-          ratingRadius: 256
-          water: 200
-          waterPollution: 1
-          waterPollutionRadius: 3
-        - bulldoze: 7650
-          capacity:
-            cs$: 25
-            cs$$: 25
-          category: landmarks
-          cost: 85000
-          file: Fernsehturm.dat
-          flamability: 20
-          garbage: 5
-          id: 04c60000
-          maintenance: 170
-          menu: Landmarks
-          name: Lm48x48_Fernsehturm_04C6
-          pollution: 1
-          pollutionRadius: 1
-          power: 15
-          rating: 5
-          ratingRadius: 256
-          water: 60
-          waterPollution: 1
-          waterPollutionRadius: 1
-        - bulldoze: 8100
-          capacity:
-            cs$: 8
-            cs$$: 8
-          category: landmarks
-          cost: 90000
-          file: GatewayArch.dat
-          garbage: 2
-          id: 04d90000
-          maintenance: 180
-          menu: Landmarks
-          name: Lm160x16_GatewayArch_04D9
-          power: 1
-          rating: 8
-          ratingRadius: 256
-        - bulldoze: 7200
-          capacity:
-            cs$: 31
-            cs$$: 31
-            cs$$$: 31
-          category: landmarks
-          cost: 80000
-          file: HagiaSophia.dat
-          flamability: 25
-          garbage: 3
-          id: 04c90000
-          maintenance: 160
-          menu: Landmarks
-          name: Lm76x60_HagiaSofia_04C9
-          pollution: 1
-          pollutionRadius: 1
-          power: 8
-          rating: 7
-          ratingRadius: 256
-          water: 20
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 2700
-          capacity:
-            cs$: 2
-            cs$$: 2
-          category: landmarks
-          cost: 30000
-          file: HollywoodSign.dat
-          id: 04d20000
-          maintenance: 60
-          menu: Landmarks
-          name: Lm104x6_Hollywoodsign_04D2
-          power: 1
-          rating: 2
-          ratingRadius: 256
-        - bulldoze: 5400
-          capacity:
-            cs$: 15
-            cs$$: 15
-          category: landmarks
-          cost: 60000
-          file: IndependenceHall.dat
-          flamability: 30
-          garbage: 3
-          id: 04d70000
-          maintenance: 120
-          menu: Landmarks
-          name: Lm30x24_IndependenceHall_04D7
-          pollution: 1
-          pollutionRadius: 1
-          power: 3
-          rating: 7
-          ratingRadius: 256
-          water: 7
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 7200
-          capacity:
-            cs$: 7
-            cs$$: 7
-          category: landmarks
-          cost: 80000
-          file: JeffersonMemorial.dat
-          flamability: 5
-          garbage: 3
-          id: 04dd0000
-          maintenance: 160
-          menu: Landmarks
-          name: Lm76x84_JeffersonMemorial_04DD
-          power: 1
-          rating: 8
-          ratingRadius: 256
-        - bulldoze: 14850
-          capacity:
-            co$$: 6387
-          category: landmarks
-          cost: 165000
-          file: JohnHancockCenter.dat
-          flamability: 40
-          garbage: 43
-          id: 04d00000
-          maintenance: 320
-          menu: Landmarks
-          name: Lm84x52_JohnHancockCenter_04D0
-          pollution: 6
-          pollutionRadius: 6
-          power: 650
-          rating: 8
-          ratingRadius: 256
-          water: 1500
-          waterPollution: 5
-          waterPollutionRadius: 7
-        - bulldoze: 15750
-          capacity:
-            cs$: 131
-            cs$$: 131
-            cs$$$: 131
-          category: landmarks
-          cost: 125000
-          file: LincolnCenter.dat
-          flamability: 25
-          garbage: 8
-          id: 04ab0000
-          maintenance: 275
-          menu: Landmarks
-          name: Lm98x87_LincolnCenter_04AB
-          pollution: 1
-          pollutionRadius: 1
-          power: 45
-          rating: 8
-          ratingRadius: 256
-          water: 45
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 7650
-          capacity:
-            cs$: 9
-            cs$$: 9
-            cs$$$: 9
-          category: landmarks
-          cost: 85000
-          file: LincolnMemorial.dat
-          garbage: 3
-          id: 04de0000
-          maintenance: 170
-          menu: Landmarks
-          name: Lm72x55_LincolnMemorial_04DE
-          power: 1
-          rating: 8
-          ratingRadius: 256
-        - bulldoze: 8100
-          capacity:
-            cs$: 22
-            cs$$: 22
-          category: landmarks
-          cost: 90000
-          file: PalaceOfFineArts.dat
-          flamability: 30
-          garbage: 4
-          id: '10020000'
-          maintenance: 180
-          menu: Landmarks
-          name: Lm45x38_PalaceofFineArts_1002
-          pollution: 1
-          pollutionRadius: 1
-          power: 20
-          rating: 6
-          ratingRadius: 256
-          water: 150
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 5850
-          capacity:
-            co$$: 77
-            co$$$: 32
-          category: landmarks
-          cost: 65000
-          file: PalacioReal.dat
-          flamability: 34
-          garbage: 4
-          id: 04c80000
-          maintenance: 130
-          menu: Landmarks
-          name: LM72x72_PalacioReal_04C8
-          pollution: 1
-          pollutionRadius: 2
-          power: 25
-          rating: 6
-          ratingRadius: 256
-          water: 60
-          waterPollution: 1
-          waterPollutionRadius: 3
-        - bulldoze: 5850
-          capacity:
-            co$$: 93
-            co$$$: 54
-          category: landmarks
-          cost: 65000
-          file: RotesRathaus.dat
-          flamability: 33
-          garbage: 9
-          id: 04c70000
-          maintenance: 130
-          menu: Landmarks
-          name: Lm52x48_RotesRathaus_04C7
-          pollution: 2
-          pollutionRadius: 2
-          power: 50
-          rating: 5
-          ratingRadius: 256
-          water: 250
-          waterPollution: 2
-          waterPollutionRadius: 3
-        - bulldoze: 6300
-          capacity:
-            cs$: 32
-            cs$$: 32
-          category: landmarks
-          cost: 90000
-          file: SchlossNeuschwanstein.dat
-          flamability: 31
-          garbage: 15
-          id: 04a20000
-          maintenance: 180
-          menu: Landmarks
-          name: LM140x175_schlossneu_04A2
-          pollution: 1
-          pollutionRadius: 1
-          power: 22
-          rating: 6
-          ratingRadius: 256
-          water: 90
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 4950
-          capacity:
-            co$$: 698
-          category: landmarks
-          cost: 55000
-          file: SmithTower.dat
-          flamability: 34
-          garbage: 11
-          id: 04d80000
-          maintenance: 110
-          menu: Landmarks
-          name: Lm45x35_SmithTower_04D8
-          pollution: 3
-          pollutionRadius: 4
-          power: 215
-          rating: 5
-          ratingRadius: 256
-          water: 900
-          waterPollution: 4
-          waterPollutionRadius: 5
-        - bulldoze: 7650
-          capacity:
-            cs$: 16
-            cs$$: 16
-            cs$$$: 16
-          category: landmarks
-          cost: 85000
-          file: StatueOfLiberty.dat
-          flamability: 14
-          garbage: 3
-          id: 04d60000
-          maintenance: 170
-          menu: Landmarks
-          name: Lm30x30_StatueofLiberty_04D6
-          power: 5
-          rating: 9
-          ratingRadius: 256
-          water: 5
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 8100
-          capacity:
-            cs$: 20
-            cs$$: 20
-          category: landmarks,religion
-          cost: 90000
-          file: StBasilsCathedral.dat
-          flamability: 39
-          garbage: 3
-          id: 04ce0000
-          maintenance: 180
-          menu: Landmarks
-          name: Lm54x64_StBasils_04CE
-          pollution: 1
-          pollutionRadius: 1
-          power: 10
-          rating: 7
-          ratingRadius: 256
-          submenu: Landmarks/Religion
-          water: 9
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 9450
-          capacity:
-            cs$: 61
-            cs$$: 61
-          category: landmarks
-          cost: 105000
-          file: TajMahal.dat
-          flamability: 10
-          garbage: 4
-          id: 04cc0000
-          maintenance: 200
-          menu: Landmarks
-          name: Lm64x64_TajMahal_04CC
-          power: 10
-          rating: 8
-          ratingRadius: 256
-          water: 10
-          waterPollution: 2
-          waterPollutionRadius: 2
-        - bulldoze: 5850
-          capacity:
-            cs$: 5
-            cs$$: 5
-          category: landmarks
-          cost: 65000
-          file: TheAlamo.dat
-          flamability: 35
-          garbage: 2
-          id: 04da0000
-          maintenance: 130
-          menu: Landmarks
-          name: Lm26x32_Alamo_04DA
-          power: 2
-          rating: 7
-          ratingRadius: 256
-          water: 5
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 21600
-          capacity:
-            co$$: 9174
-          category: landmarks
-          cost: 240000
-          file: TheEmpireStateBuilding.dat
-          flamability: 27
-          garbage: 20
-          id: 04d40000
-          maintenance: 470
-          menu: Landmarks
-          name: Lm128x60_EmpireStateBuilding_04D4
-          pollution: 5
-          pollutionRadius: 5
-          power: 375
-          rating: 9
-          ratingRadius: 256
-          water: 1100
-          waterPollution: 6
-          waterPollutionRadius: 6
-        - bulldoze: 14400
-          capacity:
-            cs$: 48
-            cs$$: 48
-          category: landmarks
-          cost: 160000
-          file: TheGreatPyramid.dat
-          garbage: 2
-          id: 04cb0000
-          maintenance: 310
-          menu: Landmarks
-          name: Lm126x126_GreatPyramid_04CB
-          power: 1
-          rating: 10
-          ratingRadius: 256
-        - bulldoze: 8550
-          capacity:
-            cs$: 32
-            cs$$: 32
-          category: landmarks
-          cost: 95000
-          file: TheGuggenheimMuseum.dat
-          flamability: 31
-          garbage: 9
-          id: 04d50000
-          maintenance: 180
-          menu: Landmarks
-          name: Lm77x48_Guggenhiem_04D5
-          pollution: 1
-          pollutionRadius: 1
-          power: 90
-          rating: 8
-          ratingRadius: 256
-          water: 450
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 4500
-          capacity:
-            cs$: 5
-            cs$$: 5
-          category: landmarks
-          cost: 50000
-          file: TheSphinx.dat
-          garbage: 2
-          id: 04d10000
-          maintenance: 100
-          menu: Landmarks
-          name: Lm64x24_Sphynx_04D1
-          rating: 7
-          ratingRadius: 256
-        - bulldoze: 6300
-          capacity:
-            cs$: 13
-            cs$$: 13
-          category: landmarks
-          cost: 70000
-          file: TheWashingtonMonument.dat
-          garbage: 3
-          id: '04e00000'
-          maintenance: 140
-          menu: Landmarks
-          name: Lm46x46_WashingtonMonument_04E0
-          power: 1
-          rating: 7
-          ratingRadius: 256
-        - bulldoze: 6300
-          capacity:
-            co$$: 188
-            co$$$: 64
-          category: landmarks
-          cost: 70000
-          file: TheWhiteHouse.dat
-          flamability: 31
-          garbage: 15
-          id: '04e10000'
-          maintenance: 140
-          menu: Landmarks
-          name: Lm70x70_WhiteHouse_04E1
-          pollution: 1
-          pollutionRadius: 1
-          power: 60
-          rating: 6
-          ratingRadius: 256
-          water: 300
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 15750
-          capacity:
-            cs$: 67
-            cs$$: 67
-          category: landmarks
-          cost: 175000
-          file: TokyoTower.dat
-          flamability: 25
-          garbage: 8
-          id: 04ca0000
-          maintenance: 340
-          menu: Landmarks
-          name: Lm94x94_TokyoTower_04CA
-          pollution: 1
-          pollutionRadius: 1
-          power: 25
-          rating: 7
-          ratingRadius: 256
-          water: 45
-          waterPollution: 1
-          waterPollutionRadius: 2
-        - bulldoze: 4950
-          capacity:
-            cs$: 33
-            cs$$: 33
-          category: landmarks
-          cost: 55000
-          file: TowerOfLondon.dat
-          flamability: 30
-          garbage: 5
-          id: 04c50000
-          maintenance: 90
-          menu: Landmarks
-          name: Lm33x36_TowerOfLondon _04C5
-          pollution: 1
-          pollutionRadius: 2
-          power: 15
-          rating: 6
-          ratingRadius: 256
-          water: 65
-          waterPollution: 2
-          waterPollutionRadius: 3
-        - bulldoze: 12150
-          capacity:
-            co$$: 839
-          category: landmarks
-          cost: 135000
-          file: USCapitolBuilding.dat
-          flamability: 35
-          garbage: 13
-          id: 04df0000
-          maintenance: 260
-          menu: Landmarks
-          name: Lm98x75_USCapitol_04DF
-          pollution: 1
-          pollutionRadius: 2
-          power: 90
-          rating: 9
-          ratingRadius: 256
-          water: 450
-          waterPollution: 2
-          waterPollutionRadius: 3
-      lastGenerated: 2024-11-29T13:47:25.325Z
+        Alcatraz.dat:
+          '03260000':
+            bulldoze: 4500
+            capacity:
+              cs$: 15
+              cs$$: 15
+            category: landmarks
+            cost: 50000
+            flamability: 36
+            garbage: 2
+            maintenance: 100
+            menu: Landmarks
+            name: Lm80x160_Alcatraz_0326
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            rating: -2
+            ratingRadius: 256
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Amalienborg.dat:
+          04bf0000:
+            bulldoze: 4950
+            capacity:
+              co$$: 80
+              co$$$: 27
+            category: landmarks
+            cost: 70000
+            flamability: 34
+            garbage: 5
+            maintenance: 120
+            menu: Landmarks
+            name: Lm88x88_Amalienborg_04BF
+            pollution: 1
+            pollutionRadius: 2
+            power: 15
+            rating: 5
+            ratingRadius: 256
+            water: 65
+            waterPollution: 1
+            waterPollutionRadius: 3
+        AmericanMuseumOfNaturalHistory.dat:
+          04b20000:
+            bulldoze: 7900
+            capacity:
+              cs$: 153
+              cs$$: 153
+            category: landmarks
+            cost: 110000
+            flamability: 31
+            garbage: 15
+            maintenance: 220
+            menu: Landmarks
+            name: LM138x130_AmericanMuseumNatHistory_04B2
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 6
+            ratingRadius: 256
+            water: 300
+            waterPollution: 1
+            waterPollutionRadius: 2
+        BankOfAmerica.dat:
+          '10030000':
+            bulldoze: 9900
+            capacity:
+              co$$: 7102
+              co$$$: 3382
+            category: landmarks
+            cost: 110000
+            flamability: 40
+            garbage: 39
+            maintenance: 210
+            menu: Landmarks
+            name: Lm80x48_BankofAmerica_1003
+            pollution: 5
+            pollutionRadius: 6
+            power: 600
+            rating: 6
+            ratingRadius: 256
+            water: 1300
+            waterPollution: 5
+            waterPollutionRadius: 7
+        BankOfChinaTower.dat:
+          04c40000:
+            bulldoze: 4950
+            capacity:
+              co$$: 11945
+              co$$$: 6925
+            category: landmarks
+            cost: 180000
+            flamability: 36
+            garbage: 15
+            maintenance: 300
+            menu: Landmarks
+            name: Lm52x52_BankOfChinaTower_04C4
+            pollution: 4
+            pollutionRadius: 4
+            power: 250
+            rating: 5
+            ratingRadius: 256
+            water: 1350
+            waterPollution: 4
+            waterPollutionRadius: 5
+        BigBen.dat:
+          04cd0000:
+            bulldoze: 6750
+            capacity:
+              cs$: 8
+              cs$$: 8
+            category: landmarks
+            cost: 75000
+            flamability: 40
+            garbage: 2
+            maintenance: 150
+            menu: Landmarks
+            name: Lm16x16_Big Ben_04CD
+            pollution: 1
+            pollutionRadius: 1
+            power: 20
+            rating: 7
+            ratingRadius: 256
+            water: 25
+            waterPollution: 1
+            waterPollutionRadius: 2
+        CNTower.dat:
+          04db0000:
+            bulldoze: 20250
+            capacity:
+              cs$: 139
+              cs$$: 139
+              cs$$$: 139
+            category: landmarks
+            cost: 225000
+            flamability: 15
+            garbage: 4
+            maintenance: 440
+            menu: Landmarks
+            name: Lm85x98_CNtower_04DB
+            power: 20
+            rating: 7
+            ratingRadius: 256
+            water: 25
+            waterPollution: 1
+            waterPollutionRadius: 2
+        CaliforniaPlaza.dat:
+          04dc0000:
+            bulldoze: 4500
+            capacity:
+              co$$: 743
+            category: landmarks
+            cost: 50000
+            flamability: 37
+            garbage: 10
+            maintenance: 100
+            menu: Landmarks
+            name: Lm88x124_CaliforniaPlaza_04DC
+            pollution: 2
+            pollutionRadius: 2
+            power: 125
+            water: 350
+            waterPollution: 2
+            waterPollutionRadius: 3
+        ChryslerBuilding.dat:
+          04d30000:
+            bulldoze: 15300
+            capacity:
+              co$$: 7692
+            category: landmarks
+            cost: 170000
+            flamability: 35
+            garbage: 12
+            maintenance: 330
+            menu: Landmarks
+            name: Lm62x62_ChryslerBuilding_04D3
+            pollution: 3
+            pollutionRadius: 4
+            power: 250
+            rating: 9
+            ratingRadius: 256
+            water: 1300
+            waterPollution: 4
+            waterPollutionRadius: 5
+        CoitTower.dat:
+          '10010000':
+            bulldoze: 4950
+            capacity:
+              cs$: 8
+              cs$$: 8
+              cs$$$: 8
+            category: landmarks
+            cost: 55000
+            flamability: 10
+            garbage: 3
+            maintenance: 110
+            menu: Landmarks
+            name: Lm60x60_CoitTower_1001
+            power: 1
+            rating: 5
+            ratingRadius: 256
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 2
+        ColumbiaSeafirstCenter.dat:
+          04b00000:
+            bulldoze: 6300
+            capacity:
+              co$$: 3672
+              co$$$: 1749
+            category: landmarks
+            cost: 110000
+            flamability: 31
+            garbage: 15
+            maintenance: 210
+            menu: Landmarks
+            name: Lm60x70_SeafirstTower_04B0
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 6
+            ratingRadius: 256
+            water: 300
+            waterPollution: 1
+            waterPollutionRadius: 2
+        FaneuilHall.dat:
+          04cf0000:
+            bulldoze: 4500
+            capacity:
+              cs$: 82
+              cs$$: 37
+            category: landmarks
+            cost: 50000
+            flamability: 33
+            garbage: 9
+            maintenance: 100
+            menu: Landmarks
+            name: Lm24x30_BostonFaneuilHall_04CF
+            pollution: 1
+            pollutionRadius: 2
+            power: 50
+            rating: 5
+            ratingRadius: 256
+            water: 200
+            waterPollution: 1
+            waterPollutionRadius: 3
+        Fernsehturm.dat:
+          04c60000:
+            bulldoze: 7650
+            capacity:
+              cs$: 25
+              cs$$: 25
+            category: landmarks
+            cost: 85000
+            flamability: 20
+            garbage: 5
+            maintenance: 170
+            menu: Landmarks
+            name: Lm48x48_Fernsehturm_04C6
+            pollution: 1
+            pollutionRadius: 1
+            power: 15
+            rating: 5
+            ratingRadius: 256
+            water: 60
+            waterPollution: 1
+            waterPollutionRadius: 1
+        GatewayArch.dat:
+          04d90000:
+            bulldoze: 8100
+            capacity:
+              cs$: 8
+              cs$$: 8
+            category: landmarks
+            cost: 90000
+            garbage: 2
+            maintenance: 180
+            menu: Landmarks
+            name: Lm160x16_GatewayArch_04D9
+            power: 1
+            rating: 8
+            ratingRadius: 256
+        HagiaSophia.dat:
+          04c90000:
+            bulldoze: 7200
+            capacity:
+              cs$: 31
+              cs$$: 31
+              cs$$$: 31
+            category: landmarks
+            cost: 80000
+            flamability: 25
+            garbage: 3
+            maintenance: 160
+            menu: Landmarks
+            name: Lm76x60_HagiaSofia_04C9
+            pollution: 1
+            pollutionRadius: 1
+            power: 8
+            rating: 7
+            ratingRadius: 256
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 2
+        HollywoodSign.dat:
+          04d20000:
+            bulldoze: 2700
+            capacity:
+              cs$: 2
+              cs$$: 2
+            category: landmarks
+            cost: 30000
+            maintenance: 60
+            menu: Landmarks
+            name: Lm104x6_Hollywoodsign_04D2
+            power: 1
+            rating: 2
+            ratingRadius: 256
+        IndependenceHall.dat:
+          04d70000:
+            bulldoze: 5400
+            capacity:
+              cs$: 15
+              cs$$: 15
+            category: landmarks
+            cost: 60000
+            flamability: 30
+            garbage: 3
+            maintenance: 120
+            menu: Landmarks
+            name: Lm30x24_IndependenceHall_04D7
+            pollution: 1
+            pollutionRadius: 1
+            power: 3
+            rating: 7
+            ratingRadius: 256
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 2
+        JeffersonMemorial.dat:
+          04dd0000:
+            bulldoze: 7200
+            capacity:
+              cs$: 7
+              cs$$: 7
+            category: landmarks
+            cost: 80000
+            flamability: 5
+            garbage: 3
+            maintenance: 160
+            menu: Landmarks
+            name: Lm76x84_JeffersonMemorial_04DD
+            power: 1
+            rating: 8
+            ratingRadius: 256
+        JohnHancockCenter.dat:
+          04d00000:
+            bulldoze: 14850
+            capacity:
+              co$$: 6387
+            category: landmarks
+            cost: 165000
+            flamability: 40
+            garbage: 43
+            maintenance: 320
+            menu: Landmarks
+            name: Lm84x52_JohnHancockCenter_04D0
+            pollution: 6
+            pollutionRadius: 6
+            power: 650
+            rating: 8
+            ratingRadius: 256
+            water: 1500
+            waterPollution: 5
+            waterPollutionRadius: 7
+        LincolnCenter.dat:
+          04ab0000:
+            bulldoze: 15750
+            capacity:
+              cs$: 131
+              cs$$: 131
+              cs$$$: 131
+            category: landmarks
+            cost: 125000
+            flamability: 25
+            garbage: 8
+            maintenance: 275
+            menu: Landmarks
+            name: Lm98x87_LincolnCenter_04AB
+            pollution: 1
+            pollutionRadius: 1
+            power: 45
+            rating: 8
+            ratingRadius: 256
+            water: 45
+            waterPollution: 1
+            waterPollutionRadius: 2
+        LincolnMemorial.dat:
+          04de0000:
+            bulldoze: 7650
+            capacity:
+              cs$: 9
+              cs$$: 9
+              cs$$$: 9
+            category: landmarks
+            cost: 85000
+            garbage: 3
+            maintenance: 170
+            menu: Landmarks
+            name: Lm72x55_LincolnMemorial_04DE
+            power: 1
+            rating: 8
+            ratingRadius: 256
+        PalaceOfFineArts.dat:
+          '10020000':
+            bulldoze: 8100
+            capacity:
+              cs$: 22
+              cs$$: 22
+            category: landmarks
+            cost: 90000
+            flamability: 30
+            garbage: 4
+            maintenance: 180
+            menu: Landmarks
+            name: Lm45x38_PalaceofFineArts_1002
+            pollution: 1
+            pollutionRadius: 1
+            power: 20
+            rating: 6
+            ratingRadius: 256
+            water: 150
+            waterPollution: 1
+            waterPollutionRadius: 2
+        PalacioReal.dat:
+          04c80000:
+            bulldoze: 5850
+            capacity:
+              co$$: 77
+              co$$$: 32
+            category: landmarks
+            cost: 65000
+            flamability: 34
+            garbage: 4
+            maintenance: 130
+            menu: Landmarks
+            name: LM72x72_PalacioReal_04C8
+            pollution: 1
+            pollutionRadius: 2
+            power: 25
+            rating: 6
+            ratingRadius: 256
+            water: 60
+            waterPollution: 1
+            waterPollutionRadius: 3
+        RotesRathaus.dat:
+          04c70000:
+            bulldoze: 5850
+            capacity:
+              co$$: 93
+              co$$$: 54
+            category: landmarks
+            cost: 65000
+            flamability: 33
+            garbage: 9
+            maintenance: 130
+            menu: Landmarks
+            name: Lm52x48_RotesRathaus_04C7
+            pollution: 2
+            pollutionRadius: 2
+            power: 50
+            rating: 5
+            ratingRadius: 256
+            water: 250
+            waterPollution: 2
+            waterPollutionRadius: 3
+        SchlossNeuschwanstein.dat:
+          04a20000:
+            bulldoze: 6300
+            capacity:
+              cs$: 32
+              cs$$: 32
+            category: landmarks
+            cost: 90000
+            flamability: 31
+            garbage: 15
+            maintenance: 180
+            menu: Landmarks
+            name: LM140x175_schlossneu_04A2
+            pollution: 1
+            pollutionRadius: 1
+            power: 22
+            rating: 6
+            ratingRadius: 256
+            water: 90
+            waterPollution: 1
+            waterPollutionRadius: 2
+        SmithTower.dat:
+          04d80000:
+            bulldoze: 4950
+            capacity:
+              co$$: 698
+            category: landmarks
+            cost: 55000
+            flamability: 34
+            garbage: 11
+            maintenance: 110
+            menu: Landmarks
+            name: Lm45x35_SmithTower_04D8
+            pollution: 3
+            pollutionRadius: 4
+            power: 215
+            rating: 5
+            ratingRadius: 256
+            water: 900
+            waterPollution: 4
+            waterPollutionRadius: 5
+        StBasilsCathedral.dat:
+          04ce0000:
+            bulldoze: 8100
+            capacity:
+              cs$: 20
+              cs$$: 20
+            category: landmarks,religion
+            cost: 90000
+            flamability: 39
+            garbage: 3
+            maintenance: 180
+            menu: Landmarks
+            name: Lm54x64_StBasils_04CE
+            pollution: 1
+            pollutionRadius: 1
+            power: 10
+            rating: 7
+            ratingRadius: 256
+            submenu: Landmarks/Religion
+            water: 9
+            waterPollution: 1
+            waterPollutionRadius: 2
+        StatueOfLiberty.dat:
+          04d60000:
+            bulldoze: 7650
+            capacity:
+              cs$: 16
+              cs$$: 16
+              cs$$$: 16
+            category: landmarks
+            cost: 85000
+            flamability: 14
+            garbage: 3
+            maintenance: 170
+            menu: Landmarks
+            name: Lm30x30_StatueofLiberty_04D6
+            power: 5
+            rating: 9
+            ratingRadius: 256
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 2
+        TajMahal.dat:
+          04cc0000:
+            bulldoze: 9450
+            capacity:
+              cs$: 61
+              cs$$: 61
+            category: landmarks
+            cost: 105000
+            flamability: 10
+            garbage: 4
+            maintenance: 200
+            menu: Landmarks
+            name: Lm64x64_TajMahal_04CC
+            power: 10
+            rating: 8
+            ratingRadius: 256
+            water: 10
+            waterPollution: 2
+            waterPollutionRadius: 2
+        TheAlamo.dat:
+          04da0000:
+            bulldoze: 5850
+            capacity:
+              cs$: 5
+              cs$$: 5
+            category: landmarks
+            cost: 65000
+            flamability: 35
+            garbage: 2
+            maintenance: 130
+            menu: Landmarks
+            name: Lm26x32_Alamo_04DA
+            power: 2
+            rating: 7
+            ratingRadius: 256
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 2
+        TheEmpireStateBuilding.dat:
+          04d40000:
+            bulldoze: 21600
+            capacity:
+              co$$: 9174
+            category: landmarks
+            cost: 240000
+            flamability: 27
+            garbage: 20
+            maintenance: 470
+            menu: Landmarks
+            name: Lm128x60_EmpireStateBuilding_04D4
+            pollution: 5
+            pollutionRadius: 5
+            power: 375
+            rating: 9
+            ratingRadius: 256
+            water: 1100
+            waterPollution: 6
+            waterPollutionRadius: 6
+        TheGreatPyramid.dat:
+          04cb0000:
+            bulldoze: 14400
+            capacity:
+              cs$: 48
+              cs$$: 48
+            category: landmarks
+            cost: 160000
+            garbage: 2
+            maintenance: 310
+            menu: Landmarks
+            name: Lm126x126_GreatPyramid_04CB
+            power: 1
+            rating: 10
+            ratingRadius: 256
+        TheGuggenheimMuseum.dat:
+          04d50000:
+            bulldoze: 8550
+            capacity:
+              cs$: 32
+              cs$$: 32
+            category: landmarks
+            cost: 95000
+            flamability: 31
+            garbage: 9
+            maintenance: 180
+            menu: Landmarks
+            name: Lm77x48_Guggenhiem_04D5
+            pollution: 1
+            pollutionRadius: 1
+            power: 90
+            rating: 8
+            ratingRadius: 256
+            water: 450
+            waterPollution: 1
+            waterPollutionRadius: 2
+        TheSphinx.dat:
+          04d10000:
+            bulldoze: 4500
+            capacity:
+              cs$: 5
+              cs$$: 5
+            category: landmarks
+            cost: 50000
+            garbage: 2
+            maintenance: 100
+            menu: Landmarks
+            name: Lm64x24_Sphynx_04D1
+            rating: 7
+            ratingRadius: 256
+        TheWashingtonMonument.dat:
+          '04e00000':
+            bulldoze: 6300
+            capacity:
+              cs$: 13
+              cs$$: 13
+            category: landmarks
+            cost: 70000
+            garbage: 3
+            maintenance: 140
+            menu: Landmarks
+            name: Lm46x46_WashingtonMonument_04E0
+            power: 1
+            rating: 7
+            ratingRadius: 256
+        TheWhiteHouse.dat:
+          '04e10000':
+            bulldoze: 6300
+            capacity:
+              co$$: 188
+              co$$$: 64
+            category: landmarks
+            cost: 70000
+            flamability: 31
+            garbage: 15
+            maintenance: 140
+            menu: Landmarks
+            name: Lm70x70_WhiteHouse_04E1
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 6
+            ratingRadius: 256
+            water: 300
+            waterPollution: 1
+            waterPollutionRadius: 2
+        TokyoTower.dat:
+          04ca0000:
+            bulldoze: 15750
+            capacity:
+              cs$: 67
+              cs$$: 67
+            category: landmarks
+            cost: 175000
+            flamability: 25
+            garbage: 8
+            maintenance: 340
+            menu: Landmarks
+            name: Lm94x94_TokyoTower_04CA
+            pollution: 1
+            pollutionRadius: 1
+            power: 25
+            rating: 7
+            ratingRadius: 256
+            water: 45
+            waterPollution: 1
+            waterPollutionRadius: 2
+        TowerOfLondon.dat:
+          04c50000:
+            bulldoze: 4950
+            capacity:
+              cs$: 33
+              cs$$: 33
+            category: landmarks
+            cost: 55000
+            flamability: 30
+            garbage: 5
+            maintenance: 90
+            menu: Landmarks
+            name: Lm33x36_TowerOfLondon _04C5
+            pollution: 1
+            pollutionRadius: 2
+            power: 15
+            rating: 6
+            ratingRadius: 256
+            water: 65
+            waterPollution: 2
+            waterPollutionRadius: 3
+        USCapitolBuilding.dat:
+          04df0000:
+            bulldoze: 12150
+            capacity:
+              co$$: 839
+            category: landmarks
+            cost: 135000
+            flamability: 35
+            garbage: 13
+            maintenance: 260
+            menu: Landmarks
+            name: Lm98x75_USCapitol_04DF
+            pollution: 1
+            pollutionRadius: 2
+            power: 90
+            rating: 9
+            ratingRadius: 256
+            water: 450
+            waterPollution: 2
+            waterPollutionRadius: 3
+      lastGenerated: 2024-12-02T13:46:11.980Z
       lastModified: 2004-03-16T00:00:00.000Z
       options:
         - choices:
@@ -1080,7 +1906,404 @@ toroca/industry-quadrupler:
     default:
       assets:
         - id: simtropolis/21293-industry-quadrupler
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        industry-quadrupler-2.dat:
+          07da0000:
+            bulldoze: 90
+            capacity:
+              id: 27
+            name: ID14x16_1DirtyAnchor1_07DA
+          07dc0000:
+            bulldoze: 90
+            capacity:
+              id: 92
+            name: ID45x30_1DirtyAnchor3_07DC
+          07dd0000:
+            bulldoze: 90
+            capacity:
+              id: 72
+            name: ID30x24_1DirtyAnchor4_07DD
+          07de0000:
+            bulldoze: 90
+            capacity:
+              id: 72
+            name: ID30x30_1DirtyAnchor5_07DE
+          07df0000:
+            bulldoze: 200
+            capacity:
+              id: 112
+            name: ID22x14_2DirtyAnchor6_07DF
+          '07e00000':
+            bulldoze: 200
+            capacity:
+              id: 184
+            name: ID48x30_2DirtyAnchor7_07E0
+          '07e10000':
+            bulldoze: 200
+            capacity:
+              id: 264
+            name: ID48x46_2DirtyAnchor8_07E1
+          '07e20000':
+            bulldoze: 250
+            capacity:
+              id: 476
+            name: ID48x32_3DirtyAnchor9_07E2
+          '07e30000':
+            bulldoze: 250
+            capacity:
+              id: 268
+            name: ID48x46_2DirtyAnchor10_07E3
+          '07e40000':
+            bulldoze: 250
+            capacity:
+              id: 632
+            name: ID64x46_3DirtyAnchor11_07E4
+          '07e50000':
+            bulldoze: 250
+            capacity:
+              id: 600
+            name: ID64x62_3DirtyAnchor12_07E5
+          '07e70000':
+            bulldoze: 90
+            capacity:
+              id: 60
+            name: ID24x24_1DirtyMech2_07E7
+          '07e90000':
+            bulldoze: 90
+            capacity:
+              id: 140
+            name: ID28x28_2DirtyMech4_07E9
+          07ea0000:
+            bulldoze: 200
+            capacity:
+              id: 84
+            name: ID14x14_2DirtyMech5_07EA
+          07eb0000:
+            bulldoze: 200
+            capacity:
+              id: 164
+            name: ID28x28_2DirtyMech6_07EB
+          07ec0000:
+            bulldoze: 200
+            capacity:
+              id: 120
+            name: ID20x16_2DirtyMech7_07EC
+          07ed0000:
+            bulldoze: 200
+            capacity:
+              id: 112
+            name: ID28x16_2DirtyMech8_07ED
+          07ee0000:
+            bulldoze: 250
+            capacity:
+              id: 368
+            name: ID32x32_3DirtyMech9_07EE
+          07ef0000:
+            bulldoze: 250
+            capacity:
+              id: 296
+            name: ID32x16_3DirtyMech10_07EF
+          07f10000:
+            bulldoze: 250
+            capacity:
+              id: 400
+            name: ID48x32_3DirtyMech12_07F1
+          07f50000:
+            bulldoze: 200
+            capacity:
+              id: 72
+            name: ID14x14_2DirtyOut4_07F5
+          07f60000:
+            bulldoze: 200
+            capacity:
+              id: 100
+            name: ID24x16_2DirtyOut5_07F6
+          07f70000:
+            bulldoze: 200
+            capacity:
+              id: 116
+            name: ID28x16_2DirtyOut6_07F7
+          07f80000:
+            bulldoze: 250
+            capacity:
+              id: 228
+            name: ID32x16_3DirtyOut7_07F8
+          07f90000:
+            bulldoze: 250
+            capacity:
+              id: 232
+            name: ID30x14_3DirtyOut8_07F9
+          07fa0000:
+            bulldoze: 250
+            capacity:
+              id: 304
+            name: ID30x30_3DirtyOut9_07FA
+          07fb0000:
+            bulldoze: 250
+            capacity:
+              id: 376
+            name: ID46x32_3DirtyOut10_07FB
+          '08090000':
+            bulldoze: 90
+            capacity:
+              im: 76
+            name: IM14x28_1ManuAnchor1_0809
+          080a0000:
+            bulldoze: 150
+            capacity:
+              im: 92
+            name: IM14x28_1ManuAnchor2_080A
+          080b0000:
+            bulldoze: 90
+            capacity:
+              im: 92
+            name: IM28x28_1ManuAnchor3_080B
+          080c0000:
+            bulldoze: 150
+            capacity:
+              im: 100
+            name: IM24x28_1ManuAnchor4_080C
+          '080e0000':
+            bulldoze: 150
+            capacity:
+              im: 136
+            name: IM28x40_2ManuAnchor6_080E
+          '08110000':
+            bulldoze: 270
+            capacity:
+              im: 172
+            name: IM40x44_2ManuAnchor9_0811
+          '08130000':
+            bulldoze: 270
+            capacity:
+              im: 228
+            name: IM42x54_3ManuAnchor11_0813
+          '08140000':
+            bulldoze: 90
+            capacity:
+              im: 96
+            name: IM18x32_1ManuMech1_0814
+          '08170000':
+            bulldoze: 150
+            capacity:
+              im: 96
+            name: IM14x28_2ManuMech4_0817
+          '08180000':
+            bulldoze: 270
+            capacity:
+              im: 96
+            name: IM14x28_2ManuMech5_0818
+          081a0000:
+            bulldoze: 150
+            capacity:
+              im: 192
+            name: IM28x28_3ManuMech7_081A
+          081b0000:
+            bulldoze: 270
+            capacity:
+              im: 180
+            name: IM28x28_3ManuMech8_081B
+          081c0000:
+            bulldoze: 90
+            capacity:
+              im: 72
+            name: IM14x28_1ManuOut1_081C
+          081d0000:
+            bulldoze: 150
+            capacity:
+              im: 84
+            name: IM14x24_1ManuOut2_081D
+          081f0000:
+            bulldoze: 150
+            capacity:
+              im: 100
+            name: IM26x28_2ManuOut4_081F
+          '08210000':
+            bulldoze: 90
+            capacity:
+              im: 100
+            name: IM28x44_2ManuOut6_0821
+          '08230000':
+            bulldoze: 270
+            capacity:
+              im: 136
+            name: IM28x40_2ManuOut8_0823
+          '08240000':
+            bulldoze: 150
+            capacity:
+              im: 184
+            name: IM24x60_3ManuOut9_0824
+          '08250000':
+            bulldoze: 270
+            capacity:
+              im: 232
+            name: IM28x58_3ManuOut10_0825
+          '08260000':
+            bulldoze: 150
+            capacity:
+              im: 212
+            name: IM40x60_3ManuOut11_0826
+          '08270000':
+            bulldoze: 270
+            capacity:
+              im: 288
+            name: IM42x58_3ManuOut12_0827
+          '08290000':
+            bulldoze: 270
+            capacity:
+              im: 232
+            name: IM28x74_3ManuOut14_0829
+          082a0000:
+            bulldoze: 270
+            capacity:
+              im: 312
+            name: IM38x88_3ManuOut15_082A
+          082b0000:
+            bulldoze: 100
+            capacity:
+              iht: 80
+            name: IH14x28_1HTAnchor1_082B
+          082c0000:
+            bulldoze: 160
+            capacity:
+              iht: 80
+            name: IH14x28_1HTAnchor2_082C
+          082d0000:
+            bulldoze: 100
+            capacity:
+              iht: 128
+            name: IH28x28_1HTAnchor3_082D
+          '082e0000':
+            bulldoze: 160
+            capacity:
+              iht: 132
+            name: IH24x28_2HTAnchor4_082E
+          '08320000':
+            bulldoze: 160
+            capacity:
+              iht: 292
+            name: IH42x42_3HTAnchor8_0832
+          '08330000':
+            bulldoze: 290
+            capacity:
+              iht: 288
+            name: IH40x44_3HTAnchor9_0833
+          '08350000':
+            bulldoze: 290
+            capacity:
+              iht: 284
+            name: IH54x42_3HTAnchor11_0835
+          '08360000':
+            bulldoze: 100
+            capacity:
+              iht: 84
+            name: IH14x14_1HTMech1_0836
+          '08390000':
+            bulldoze: 160
+            capacity:
+              iht: 116
+            name: IH14x28_2HTMech4_0839
+          083a0000:
+            bulldoze: 290
+            capacity:
+              iht: 124
+            name: IH14x28_2HTMech5_083A
+          083c0000:
+            bulldoze: 160
+            capacity:
+              iht: 196
+            name: IH28x28_3HTMech7_083C
+          083d0000:
+            bulldoze: 290
+            capacity:
+              iht: 220
+            name: IH28x28_3HTMech8_083D
+          '083e0000':
+            bulldoze: 100
+            capacity:
+              iht: 88
+            name: IH14x28_1HTOut1_083E
+          083f0000:
+            bulldoze: 160
+            capacity:
+              iht: 72
+            name: IH14x24_1HTOut2_083F
+          '08410000':
+            bulldoze: 160
+            capacity:
+              iht: 120
+            name: IH26x28_1HTOut4_0841
+          '08420000':
+            bulldoze: 290
+            capacity:
+              iht: 108
+            name: IH26x26_1HTOut5_0842
+          '08430000':
+            bulldoze: 101
+            capacity:
+              iht: 160
+            name: IH28x44_2HTOut6_0843
+          '08450000':
+            bulldoze: 290
+            capacity:
+              iht: 176
+            name: IH28x40_2HTOut8_0845
+          '08460000':
+            bulldoze: 160
+            capacity:
+              iht: 204
+            name: IH24x60_2HTOut9_0846
+          '08470000':
+            bulldoze: 290
+            capacity:
+              iht: 268
+            name: IH28x58_3HTOut10_0847
+          '08480000':
+            bulldoze: 160
+            capacity:
+              iht: 272
+            name: IH40x60_3HTOut11_0848
+          '08490000':
+            bulldoze: 290
+            capacity:
+              iht: 364
+            name: IH42x58_3HTOut12_0849
+          084b0000:
+            bulldoze: 290
+            capacity:
+              iht: 376
+            name: IH28x74_3HTOut14_084B
+          084c0000:
+            bulldoze: 290
+            capacity:
+              iht: 388
+            name: IH38x88_3HTOut15_084C
+          '08620000':
+            bulldoze: 310
+            capacity:
+              id: 308
+            name: ID28x28_3DirtyMech13_0862
+          '08630000':
+            bulldoze: 250
+            capacity:
+              id: 68
+            name: ID30x30_1DirtyAnchor55_0863
+          '08650000':
+            bulldoze: 150
+            capacity:
+              im: 128
+            name: IM42x42_2ManuAnchor8_0865
+          '08660000':
+            bulldoze: 270
+            capacity:
+              im: 108
+            name: IM26x26_2ManuOut5_0866
+          '08670000':
+            bulldoze: 160
+            capacity:
+              iht: 156
+            name: IH28x40_2HTAnchor6_0867
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2017-11-27T03:07:27.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 2.1.0
@@ -1098,7 +2321,115 @@ toroca/no-radiation-rewards:
         - id: simtropolis/21338-no-radiation-reward-v11
           include:
             - noradiation-{{rewards}}.dat
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        noradiation-advancedresearchcenter.dat:
+          032f0000:
+            bulldoze: 6300
+            category: rewards
+            cost: 50000
+            flamability: 36
+            garbage: 15
+            jobs:
+              $$: 92
+              $$$: 31
+            maintenance: 280
+            menu: Rewards
+            name: RW21x21_AdvResearchCenter_032F
+            pollution: 3
+            pollutionRadius: 2
+            power: 65
+            rating: -3
+            ratingRadius: 220
+            relief:
+              iht: 150000
+            water: 350
+            waterPollution: 4
+            waterPollutionRadius: 3
+        noradiation-area51.dat:
+          '03960000':
+            bulldoze: 45000
+            category: rewards
+            flamability: 40
+            garbage: 10
+            jobs:
+              $: 45
+            maintenance: 380
+            menu: Rewards
+            name: RW18x14_AreaControlTower_03960000
+            pollution: 12
+            pollutionRadius: 3
+            power: 300
+            rating: -7
+            ratingRadius: 440
+            relief:
+              im: 100000
+            water: 150
+            waterPollution: 18
+            waterPollutionRadius: 4
+        noradiation-armybase.dat:
+          '03460000':
+            bulldoze: 17500
+            category: rewards
+            flamability: 45
+            garbage: 20
+            jobs:
+              $: 45
+            maintenance: 350
+            menu: Rewards
+            name: RW64x96_ArmyBase_0346
+            pollution: 4
+            pollutionRadius: 4
+            power: 335
+            rating: -7
+            ratingRadius: 440
+            relief:
+              im: 100000
+            water: 250
+            waterPollution: 5
+            waterPollutionRadius: 5
+        noradiation-diseaseresearchcenter.dat:
+          033f0000:
+            bulldoze: 3000
+            category: health,rewards
+            cost: 26000
+            flamability: 35
+            garbage: 10
+            jobs:
+              $$: 80
+              $$$: 32
+            maintenance: 180
+            menu: Health
+            name: RW36x50_DiseaseCtr_033F
+            pollution: 3
+            pollutionRadius: 3
+            power: 55
+            rating: 2
+            ratingRadius: 440
+            relief:
+              r$$: 10000
+              r$$$: 10000
+            submenu: Rewards
+            water: 210
+            waterPollution: 2
+            waterPollutionRadius: 4
+        noradiation-toxicwastedump.dat:
+          '03410000':
+            bulldoze: 20000
+            category: rewards
+            flamability: 77
+            garbage: 35
+            maintenance: 400
+            menu: Rewards
+            name: RW40x40_ToxicDump_0341
+            pollution: 44
+            pollutionRadius: 8
+            power: 20
+            rating: -10
+            ratingRadius: 440
+            water: 200
+            waterPollution: 75
+            waterPollutionRadius: 10
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2003-10-20T23:00:00.000Z
       options:
         - choices:
@@ -1130,7 +2461,27 @@ toroca/opera-house-fix:
     default:
       assets:
         - id: simtropolis/21342-opera-house-fix
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        OperaHouse.dat:
+          032b0000:
+            bulldoze: 1520
+            category: rewards
+            cost: 68000
+            flamability: 34
+            garbage: 10
+            maintenance: 6875
+            menu: Rewards
+            name: RW44x50_OperaHouse_032B
+            pollution: 1
+            pollutionRadius: 2
+            power: 50
+            relief:
+              r$$$: 5000
+            submenu: Landmarks/Entertainment,Rewards
+            water: 60
+            waterPollution: 1
+            waterPollutionRadius: 3
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2004-03-31T00:00:00.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
@@ -1153,7 +2504,314 @@ toroca/toll-booth-booster:
         - id: simtropolis/21335-toll-booth-booster-v20
           include:
             - tollboothboost-{{capacity}}-fares{{fares}}-v2.dat
-      lastGenerated: 2024-11-27T09:00:58.547Z
+      buildings:
+        tollboothboost-alternate-faresx1-v2.dat:
+          038f0000:
+            bulldoze: 10
+            category: transport
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            menu: MiscTransit
+            name: Ut12x32_TollBooth_road
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5d0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothHwy_1F5D
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5e0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothAve_1F5E
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          2c990000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothGRHwy_2C99
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+        tollboothboost-alternate-faresx2-v2.dat:
+          038f0000:
+            bulldoze: 10
+            category: transport
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            menu: MiscTransit
+            name: Ut12x32_TollBooth_road
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5d0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothHwy_1F5D
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5e0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothAve_1F5E
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          2c990000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothGRHwy_2C99
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+        tollboothboost-alternate-faresx5-v2.dat:
+          038f0000:
+            bulldoze: 10
+            category: transport
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            menu: MiscTransit
+            name: Ut12x32_TollBooth_road
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5d0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothHwy_1F5D
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5e0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothAve_1F5E
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          2c990000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 12
+            name: Ut12X32_TollBoothGRHwy_2C99
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+        tollboothboost-standard-faresx1-v2.dat:
+          038f0000:
+            bulldoze: 10
+            category: transport
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            menu: MiscTransit
+            name: Ut12x32_TollBooth_road
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5d0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothHwy_1F5D
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5e0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothAve_1F5E
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          2c990000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothGRHwy_2C99
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+        tollboothboost-standard-faresx2-v2.dat:
+          038f0000:
+            bulldoze: 10
+            category: transport
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            menu: MiscTransit
+            name: Ut12x32_TollBooth_road
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5d0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothHwy_1F5D
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5e0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothAve_1F5E
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          2c990000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothGRHwy_2C99
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+        tollboothboost-standard-faresx5-v2.dat:
+          038f0000:
+            bulldoze: 10
+            category: transport
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            menu: MiscTransit
+            name: Ut12x32_TollBooth_road
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5d0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothHwy_1F5D
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1f5e0000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothAve_1F5E
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+          2c990000:
+            bulldoze: 10
+            cost: 200
+            flamability: 38
+            garbage: 1
+            maintenance: 10
+            name: Ut12X32_TollBoothGRHwy_2C99
+            pollution: 1
+            pollutionRadius: 1
+            power: 1
+            waterPollution: 1
+            waterPollutionRadius: 1
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2003-10-20T23:00:00.000Z
       options:
         - choices:

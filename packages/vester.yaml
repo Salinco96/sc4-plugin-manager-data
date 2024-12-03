@@ -14,99 +14,71 @@ vester/batprops-vol01:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps VDK Vol01*.dat
-      lastGenerated: 2024-11-26T21:04:04.961Z
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: f20cecba
-          name: VDK Lindevang Elevated Rail Station
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 720cbc91
-          name: VDK EL Station Glass Roof
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 12491b10
-          name: VDK Busshelter
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 42c50af4
-          name: BSC_bus_attractor_VDK_Bus_Shelter
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811005
-          name: VDK_AmberLightGlow
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811006
-          name: VDK_AmberLightGlowB
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 723f0b00
-          name: VDK Tram Depot
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: d23c3082
-          name: VDK Tram Workshop
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811008
-          name: BSC_VDK_Default_ElevatedEngine_17-23
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811009
-          name: BSC_VDK_Default_ElevatedEngine
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811010
-          name: BSC_VDK_Default_ElevatedEngine_07-11
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811011
-          name: BSC_VDK_Default_ElevatedCar_07-11
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811012
-          name: BSC_VDK_Default_ElevatedCar_11-15
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811013
-          name: BSC_VDK_Default_ElevatedCar_14-18
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811014
-          name: BSC_VDK_Default_ElevatedCar_17-23
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811015
-          name: BSC_VDK_Default_ElevatedCar_23-09
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: a3811007
-          name: BSC_VDK_Default_ElevatedEngine_09-19
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: c637771c
-          name: VDK-jes_OA_WeldingSet02a_9-19
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 1275be9b
-          name: swi21_stationClock_parisCollection_45deg
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 5275c1b5
-          name: swi21_stationClock_parisCollection_90
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 527486c0
-          name: VDK-Odd Advert Pillar
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 322ec9d0
-          name: VDK SwanMill Tramstop
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 1241261d
-          name: VDK Tram Depot_Ligthpole
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: 523e8a01
-          name: VDK Tram Depot_Office
-        - family: b5c00061
-          file: BSC BATProps VDK Vol01 v2.dat
-          id: f94a137c
-          name: VDK-SG_Flora_summer_Flowers_Lavendar
-        - family: b5c00061
-          file: BSC BATProps VDK Vol01 v2.dat
-          id: 6b58c650
-          name: VDK-SG_Flora_summer_Flowers_Red
-        - family: b5c00061
-          file: BSC BATProps VDK Vol01 v2.dat
-          id: 7dc04417
-          name: VDK-SG_Flora_summer_Flowers_Yellow
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: f27751a5
-          name: VDK-BSC X-Mas Star_45_2
-        - file: BSC BATProps VDK Vol01 v2.dat
-          id: f2774345
-          name: VDK-BSC X-Mas Star_90-2
+        BSC BATProps VDK Vol01 v2.dat:
+          1241261d:
+            name: VDK Tram Depot_Ligthpole
+          12491b10:
+            name: VDK Busshelter
+          1275be9b:
+            name: swi21_stationClock_parisCollection_45deg
+          322ec9d0:
+            name: VDK SwanMill Tramstop
+          42c50af4:
+            name: BSC_bus_attractor_VDK_Bus_Shelter
+          523e8a01:
+            name: VDK Tram Depot_Office
+          527486c0:
+            name: VDK-Odd Advert Pillar
+          5275c1b5:
+            name: swi21_stationClock_parisCollection_90
+          6b58c650:
+            family: b5c00061
+            name: VDK-SG_Flora_summer_Flowers_Red
+          720cbc91:
+            name: VDK EL Station Glass Roof
+          723f0b00:
+            name: VDK Tram Depot
+          7dc04417:
+            family: b5c00061
+            name: VDK-SG_Flora_summer_Flowers_Yellow
+          a3811005:
+            name: VDK_AmberLightGlow
+          a3811006:
+            name: VDK_AmberLightGlowB
+          a3811007:
+            name: BSC_VDK_Default_ElevatedEngine_09-19
+          a3811008:
+            name: BSC_VDK_Default_ElevatedEngine_17-23
+          a3811009:
+            name: BSC_VDK_Default_ElevatedEngine
+          a3811010:
+            name: BSC_VDK_Default_ElevatedEngine_07-11
+          a3811011:
+            name: BSC_VDK_Default_ElevatedCar_07-11
+          a3811012:
+            name: BSC_VDK_Default_ElevatedCar_11-15
+          a3811013:
+            name: BSC_VDK_Default_ElevatedCar_14-18
+          a3811014:
+            name: BSC_VDK_Default_ElevatedCar_17-23
+          a3811015:
+            name: BSC_VDK_Default_ElevatedCar_23-09
+          c637771c:
+            name: VDK-jes_OA_WeldingSet02a_9-19
+          d23c3082:
+            name: VDK Tram Workshop
+          f20cecba:
+            name: VDK Lindevang Elevated Rail Station
+          f2774345:
+            name: VDK-BSC X-Mas Star_90-2
+          f27751a5:
+            name: VDK-BSC X-Mas Star_45_2
+          f94a137c:
+            family: b5c00061
+            name: VDK-SG_Flora_summer_Flowers_Lavendar
       release: 2024-12-02T07:50:02.297Z
       version: 2.0.0
 
@@ -126,68 +98,49 @@ vester/batprops-vol02:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps VDK Vol02*.dat
-      lastGenerated: 2024-11-26T21:04:04.961Z
+      lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: b43b46df
-          name: VDK Bristol Tramway Power Station var A
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: d43b46e3
-          name: VDK Bristol Tramway Power Station var B
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 143b46e6
-          name: VDK Bristol Tramway Power Station var C
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 543b46eb
-          name: VDK Bristol Tramway Power Station var D
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 543b46f0
-          name: VDK Chimney Large A
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 143b46f5
-          name: VDK Chimney Large B
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 743b46f8
-          name: VDK Chimney Large C
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 743b46fc
-          name: VDK Chimney Large D
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 343b46ff
-          name: VDK Chimney Large E
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 743b4704
-          name: VDK Chimney Large F
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 543b4708
-          name: VDK Chimney Small A
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 943b470b
-          name: VDK Chimney Small B
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 543b470f
-          name: VDK Chimney Small C
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: d43b4713
-          name: VDK Chimney Small D
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: b43b4716
-          name: VDK Chimney Small E
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: d43b4719
-          name: VDK Chimney Small F
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: d43b46cc
-          name: VDK Hudson & Manhattan Railroad Powerhouse
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 749145fb
-          name: VDK Swan Mill Power Station
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 143b4721
-          name: VDK Small Power Plant
-        - file: BSC BATProps VDK Vol02 v2.dat
-          id: 8cf18b86
-          name: VDK NUTs Buffer stop
+        BSC BATProps VDK Vol02 v2.dat:
+          143b46e6:
+            name: VDK Bristol Tramway Power Station var C
+          143b46f5:
+            name: VDK Chimney Large B
+          143b4721:
+            name: VDK Small Power Plant
+          343b46ff:
+            name: VDK Chimney Large E
+          543b46eb:
+            name: VDK Bristol Tramway Power Station var D
+          543b46f0:
+            name: VDK Chimney Large A
+          543b4708:
+            name: VDK Chimney Small A
+          543b470f:
+            name: VDK Chimney Small C
+          743b46f8:
+            name: VDK Chimney Large C
+          743b46fc:
+            name: VDK Chimney Large D
+          743b4704:
+            name: VDK Chimney Large F
+          749145fb:
+            name: VDK Swan Mill Power Station
+          8cf18b86:
+            name: VDK NUTs Buffer stop
+          943b470b:
+            name: VDK Chimney Small B
+          b43b46df:
+            name: VDK Bristol Tramway Power Station var A
+          b43b4716:
+            name: VDK Chimney Small E
+          d43b46cc:
+            name: VDK Hudson & Manhattan Railroad Powerhouse
+          d43b46e3:
+            name: VDK Bristol Tramway Power Station var B
+          d43b4713:
+            name: VDK Chimney Small D
+          d43b4719:
+            name: VDK Chimney Small F
       release: 2024-12-02T07:50:02.297Z
       version: 2.0.0
