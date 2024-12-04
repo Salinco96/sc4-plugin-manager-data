@@ -1,5 +1,4 @@
 ripplejet/census-repository-building:
-  ategory: rewards
   buildings:
     RW_2x2_Census Repository Vault.SC4Lot:
       645e467b:
@@ -56,6 +55,7 @@ ripplejet/census-repository-building:
         water: 84
         waterPollution: 3
         waterPollutionRadius: 4
+  category: rewards
   description: BSC Census Repository Building by RippleJet.
   lots:
     RW_2x2_Census Repository Vault.SC4Lot:
@@ -111,7 +111,8 @@ ripplejet/census-repository-building:
       authors:
         - null-45
       credits:
-        null-45: Query updates
+        - ripplejet: Original author
+        - null-45: Query updates
       disabled: true
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-05-08T04:10:48.000Z
