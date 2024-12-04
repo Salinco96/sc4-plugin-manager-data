@@ -1,0 +1,2102 @@
+11241036/seasonal-woods:
+  category: parks,flora
+  credits:
+    girafe: trees
+  dependencies:
+    - girafe/flora-pack
+    - lowkee33/seasonal-flora-patch
+    - maxis/stonehenge
+  deprecated: 11241036/seasonal-woods-2
+  description: |-
+    This plugin contains 24 lots with seasonally changing woods, based on the seasonally changing trees by girafe. Like other lots, they can be found in the park menu. Plop and demolition cost are kept low, and they don't charge monthly costs. They have a low park effect and slightly reduce air and water pollution. I've furthermore tried to create tree combinations corresponding to the most common forest combination in central Europe.
+
+    Since I'm using prop families, there shouldn't be any repetitive tree patterns in the trees. There are 3 lot sizes; 1x1 can be used in any small gap in your city, 4x1 can be used for long gaps (such as between farm fields) and with the 4x4 lot, you should be able to fill even a large space with trees pretty fast. All lots don't have any base texture and can therefore be combined with any terrain mod. They don't trigger the infamous transparent textures bug.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_03_2015/7a51a43f8726e015a992c6bdf6b09f4f-main-mit-text.png
+  name: Seasonal Woods (Girafe's Trees)
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_03_2015/thumb-7a51a43f8726e015a992c6bdf6b09f4f-main-mit-text.png
+  url: https://community.simtropolis.com/files/file/29749-seasonal-wood-lots-girafes-trees/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Readme English.pdf
+          id: simtropolis/29749-seasonal-wood-lots-girafes-trees
+          exclude:
+            - GSW_Description_Deutsch.dat
+          include:
+            - GSW Seasonal Woods Girafe Trees/GSW Girafe Trees Seasonal Woods
+      buildings:
+        Woods/GSW Ash & Maple 1x1_3fd1357d.SC4Lot:
+          3fd1357d:
+            bulldoze: 5
+            cost: 20
+            label: Ash & Maple Forest 1x1
+            menu: Parks
+            name: GSW Ash & Maple 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Ash & Maple 4x1_e2109473.SC4Lot:
+          e2109473:
+            bulldoze: 15
+            cost: 59
+            label: Ash & Maple Forest 4x1
+            menu: Parks
+            name: GSW Ash & Maple 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Ash & Maple 4x4_7fd255f1.SC4Lot:
+          7fd255f1:
+            bulldoze: 50
+            cost: 200
+            label: Ash & Maple Forest 4x4
+            menu: Parks
+            name: GSW Ash & Maple 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Beech 1x1_3fd135c2.SC4Lot:
+          3fd135c2:
+            bulldoze: 5
+            cost: 20
+            label: Beech Forest 1x1
+            menu: Parks
+            name: GSW Beech 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Beech 4x1_0210945f.SC4Lot:
+          0210945f:
+            bulldoze: 15
+            cost: 59
+            label: Beech Forest 4x1
+            menu: Parks
+            name: GSW Beech 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Beech 4x4_ffd256e4.SC4Lot:
+          ffd256e4:
+            bulldoze: 50
+            cost: 200
+            label: Beech Forest 4x4
+            menu: Parks
+            name: GSW Beech 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Birch 1x1_1fd0c207.SC4Lot:
+          1fd0c207:
+            bulldoze: 5
+            cost: 20
+            label: Birch Forest 1x1
+            menu: Parks
+            name: GSW Birch 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Birch 4x1_4210944d.SC4Lot:
+          4210944d:
+            bulldoze: 15
+            cost: 59
+            label: Birch Forest 4x1
+            menu: Parks
+            name: GSW Birch 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Birch 4x4_1fd257c7.SC4Lot:
+          1fd257c7:
+            bulldoze: 50
+            cost: 200
+            label: Birch Forest 4x4
+            menu: Parks
+            name: GSW Birch 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Chestnut 1x1_bfd5e470.SC4Lot:
+          bfd5e470:
+            bulldoze: 5
+            cost: 20
+            label: Chestnut Forest 1x1
+            menu: Parks
+            name: GSW Chestnut 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Chestnut 4x1_4210943d.SC4Lot:
+          4210943d:
+            bulldoze: 15
+            cost: 59
+            label: Chestnut Forest 4x1
+            menu: Parks
+            name: GSW Chestnut 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Chestnut 4x4_9fd5e513.SC4Lot:
+          9fd5e513:
+            bulldoze: 50
+            cost: 200
+            label: Chestnut Forest 4x4
+            menu: Parks
+            name: GSW Chestnut 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Conifer Evergreen 1x1_3fd136c4.SC4Lot:
+          3fd136c4:
+            bulldoze: 5
+            cost: 20
+            label: Evergreen Conifer Forest 1x1
+            menu: Parks
+            name: GSW Conifer Evergreen 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Conifer Evergreen 4x1_4210942a.SC4Lot:
+          4210942a:
+            bulldoze: 15
+            cost: 59
+            label: Evergreen Conifer Forest 4x1
+            menu: Parks
+            name: GSW Conifer Evergreen 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Conifer Evergreen 4x4_bfd25904.SC4Lot:
+          bfd25904:
+            bulldoze: 50
+            cost: 200
+            label: Evergreen Conifer Forest 4x4
+            menu: Parks
+            name: GSW Conifer Evergreen 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Conifer Seasonal 1x1_dfd13744.SC4Lot:
+          dfd13744:
+            bulldoze: 5
+            cost: 20
+            label: Seasonal Conifer Forest 1x1
+            menu: Parks
+            name: GSW Conifer Seasonal 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Conifer Seasonal 4x1_02109412.SC4Lot:
+          '02109412':
+            bulldoze: 15
+            cost: 59
+            label: Seasonal Conifer Forest 4x1
+            menu: Parks
+            name: GSW Conifer Seasonal 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Conifer Seasonal 4x4_7fd25a02.SC4Lot:
+          7fd25a02:
+            bulldoze: 50
+            cost: 200
+            label: Seasonal Conifer Forest 4x4
+            menu: Parks
+            name: GSW Conifer Seasonal 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Mixed 1x1_7fd137f9.SC4Lot:
+          7fd137f9:
+            bulldoze: 5
+            cost: 20
+            label: Mixed Forest 1x1
+            menu: Parks
+            name: GSW Mixed 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Mixed 4x1_c21093fe.SC4Lot:
+          c21093fe:
+            bulldoze: 15
+            cost: 59
+            label: Mixed Forest 4x1
+            menu: Parks
+            name: GSW Mixed 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Mixed 4x4_5fd25af5.SC4Lot:
+          5fd25af5:
+            bulldoze: 50
+            cost: 200
+            label: Mixed Forest 4x4
+            menu: Parks
+            name: GSW Mixed 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+        Woods/GSW Ravine 1x1_1fd13640.SC4Lot:
+          1fd13640:
+            bulldoze: 5
+            cost: 20
+            label: Ravine Forest 1x1
+            menu: Parks
+            name: GSW Ravine 1x1
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -2
+            waterPollutionRadius: 2
+        Woods/GSW Ravine 4x1_e21093dc.SC4Lot:
+          e21093dc:
+            bulldoze: 15
+            cost: 59
+            label: Ravine Forest 4x1
+            menu: Parks
+            name: GSW Ravine 4x1
+            pollution: -5
+            pollutionRadius: 3
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -5
+            waterPollutionRadius: 3
+        Woods/GSW Ravine 4x4_9fd25c1e.SC4Lot:
+          9fd25c1e:
+            bulldoze: 50
+            cost: 200
+            label: Ravine Forest 4x4
+            menu: Parks
+            name: GSW Ravine 4x4
+            pollution: -12
+            pollutionRadius: 4
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            waterPollution: -12
+            waterPollutionRadius: 4
+      lastGenerated: 2024-12-03T18:15:19.663Z
+      lastModified: 2014-08-31T03:52:05.000Z
+      lots:
+        Woods/GSW Ash & Maple 1x1_3fd1357d.SC4Lot:
+          3fd1357d:
+            building: 3fd1357d
+            name: GSW Ash & Maple 1x1
+            size: 1x1
+        Woods/GSW Ash & Maple 4x1_e2109473.SC4Lot:
+          e2109473:
+            building: e2109473
+            name: GSW Ash & Maple 4x1
+            size: 4x1
+        Woods/GSW Ash & Maple 4x4_7fd255f1.SC4Lot:
+          7fd255f1:
+            building: 7fd255f1
+            name: GSW Ash & Maple 4x4
+            size: 4x4
+        Woods/GSW Beech 1x1_3fd135c2.SC4Lot:
+          3fd135c2:
+            building: 3fd135c2
+            name: GSW Beech 1x1
+            size: 1x1
+        Woods/GSW Beech 4x1_0210945f.SC4Lot:
+          0210945f:
+            building: 0210945f
+            name: GSW Beech 4x1
+            size: 4x1
+        Woods/GSW Beech 4x4_ffd256e4.SC4Lot:
+          ffd256e4:
+            building: ffd256e4
+            name: GSW Beech 4x4
+            size: 4x4
+        Woods/GSW Birch 1x1_1fd0c207.SC4Lot:
+          1fd0c207:
+            building: 1fd0c207
+            name: GSW Birch 1x1
+            size: 1x1
+        Woods/GSW Birch 4x1_4210944d.SC4Lot:
+          4210944d:
+            building: 4210944d
+            name: GSW Birch 4x1
+            size: 4x1
+        Woods/GSW Birch 4x4_1fd257c7.SC4Lot:
+          1fd257c7:
+            building: 1fd257c7
+            name: GSW Birch 4x4
+            size: 4x4
+        Woods/GSW Chestnut 1x1_bfd5e470.SC4Lot:
+          bfd5e470:
+            building: bfd5e470
+            name: GSW Chestnut 1x1
+            size: 1x1
+        Woods/GSW Chestnut 4x1_4210943d.SC4Lot:
+          4210943d:
+            building: 4210943d
+            name: GSW Chestnut 4x1
+            size: 4x1
+        Woods/GSW Chestnut 4x4_9fd5e513.SC4Lot:
+          9fd5e513:
+            building: 9fd5e513
+            name: GSW Chestnut 4x4
+            size: 4x4
+        Woods/GSW Conifer Evergreen 1x1_3fd136c4.SC4Lot:
+          3fd136c4:
+            building: 3fd136c4
+            name: GSW Conifer Evergreen 1x1
+            size: 1x1
+        Woods/GSW Conifer Evergreen 4x1_4210942a.SC4Lot:
+          4210942a:
+            building: 4210942a
+            name: GSW Conifer Evergreen 4x1
+            size: 4x1
+        Woods/GSW Conifer Evergreen 4x4_bfd25904.SC4Lot:
+          bfd25904:
+            building: bfd25904
+            name: GSW Conifer Evergreen 4x4
+            size: 4x4
+        Woods/GSW Conifer Seasonal 1x1_dfd13744.SC4Lot:
+          dfd13744:
+            building: dfd13744
+            name: GSW Conifer Seasonal 1x1
+            size: 1x1
+        Woods/GSW Conifer Seasonal 4x1_02109412.SC4Lot:
+          '02109412':
+            building: '02109412'
+            name: GSW Conifer Seasonal 4x1
+            size: 4x1
+        Woods/GSW Conifer Seasonal 4x4_7fd25a02.SC4Lot:
+          7fd25a02:
+            building: 7fd25a02
+            name: GSW Conifer Seasonal 4x4
+            size: 4x4
+        Woods/GSW Mixed 1x1_7fd137f9.SC4Lot:
+          7fd137f9:
+            building: 7fd137f9
+            name: GSW Mixed 1x1
+            size: 1x1
+        Woods/GSW Mixed 4x1_c21093fe.SC4Lot:
+          c21093fe:
+            building: c21093fe
+            name: GSW Mixed 4x1
+            size: 4x1
+        Woods/GSW Mixed 4x4_5fd25af5.SC4Lot:
+          5fd25af5:
+            building: 5fd25af5
+            name: GSW Mixed 4x4
+            size: 4x4
+        Woods/GSW Ravine 1x1_1fd13640.SC4Lot:
+          1fd13640:
+            building: 1fd13640
+            name: GSW Ravine 1x1
+            size: 1x1
+        Woods/GSW Ravine 4x1_e21093dc.SC4Lot:
+          e21093dc:
+            building: e21093dc
+            name: GSW Ravine 4x1
+            size: 4x1
+        Woods/GSW Ravine 4x4_9fd25c1e.SC4Lot:
+          9fd25c1e:
+            building: 9fd25c1e
+            name: GSW Ravine 4x4
+            size: 4x4
+      props:
+        Prop Families/AshPropFamilies.dat:
+          014d2dd4:
+            family: fa000003
+            name: yy_Grfe_ash_B_autumn
+          10c635e7:
+            family: fa000021
+            name: yy_Grfe_ash_H_evergreen
+          13e62d10:
+            family: fa000001
+            name: yy_Grfe_ash_C_summer
+          1f0fdb81:
+            family: fa000005
+            name: yy_Grfe_ash_C_winter
+          2c054bee:
+            family: fa000004
+            name: yy_Grfe_ash_G_summer
+          2dd2dcee:
+            family: fa000002
+            name: yy_Grfe_ash_E_winter
+          47a1a105:
+            family: fa000021
+            name: yy_Grfe_ash_C_evergreen
+          6ac586fb:
+            family: fa000003
+            name: yy_Grfe_ash_C_autumn
+          6ec78042:
+            family: fa000020
+            name: yy_Grfe_ash_E_evergreen
+          71cc7298:
+            family: fa000000
+            name: yy_Grfe_ash_E_autumn
+          7338771e:
+            family: fa000003
+            name: yy_Grfe_ash_G_autumn
+          74f9435f:
+            family: fa000001
+            name: yy_Grfe_ash_F_summer
+          7525c91c:
+            family: fa000004
+            name: yy_Grfe_ash_D_summer
+          '78691350':
+            family: fa000000
+            name: yy_Grfe_ash_F_autumn
+          7f609309:
+            family: fa000004
+            name: yy_Grfe_ash_H_summer
+          '80943536':
+            family: fa000021
+            name: yy_Grfe_ash_A_evergreen
+          8cded625:
+            family: fa000002
+            name: yy_Grfe_ash_F_winter
+          90ba60fc:
+            family: fa000002
+            name: yy_Grfe_ash_D_winter
+          91f5ec26:
+            family: fa000004
+            name: yy_Grfe_ash_A_summer
+          938d9853:
+            family: fa000021
+            name: yy_Grfe_ash_B_evergreen
+          9cdcb760:
+            family: fa000000
+            name: yy_Grfe_ash_D_autumn
+          9e4d5457:
+            family: fa000021
+            name: yy_Grfe_ash_G_evergreen
+          a57875fd:
+            family: fa000020
+            name: yy_Grfe_ash_F_evergreen
+          b6f6a4b3:
+            family: fa000001
+            name: yy_Grfe_ash_E_summer
+          cbfa58bd:
+            family: fa000005
+            name: yy_Grfe_ash_H_winter
+          d08eb19f:
+            family: fa000020
+            name: yy_Grfe_ash_D_evergreen
+          d0e15a84:
+            family: fa000003
+            name: yy_Grfe_ash_H_autumn
+          db59a2ea:
+            family: fa000005
+            name: yy_Grfe_ash_A_winter
+          dc91f1b9:
+            family: fa000005
+            name: yy_Grfe_ash_G_winter
+          e4cd0f0c:
+            family: fa000003
+            name: yy_Grfe_ash_A_autumn
+          f85f64ee:
+            family: fa000004
+            name: yy_Grfe_ash_B_summer
+          f8e666d3:
+            family: fa000005
+            name: yy_Grfe_ash_B_winter
+        Prop Families/BeechPropFamilies.dat:
+          113becad:
+            family: fa000022
+            name: yy_Grfe_beech_B_evergreen
+          3c2151e7:
+            family: fa00000b
+            name: yy_Grfe_beech_B_winter
+          4d0d4cdd:
+            family: fa00000b
+            name: yy_Grfe_beech_D_winter
+          5184efa7:
+            family: fa00000b
+            name: yy_Grfe_beech_E_winter
+          5eacc787:
+            family: fa000022
+            name: yy_Grfe_beech_E_evergreen
+          '73338936':
+            family: fa000022
+            name: yy_Grfe_beech_C_evergreen
+          76836f00:
+            family: fa000009
+            name: yy_Grfe_beech_E_autumn
+          a4ff96e6:
+            family: fa000022
+            name: yy_Grfe_beech_D_evergreen
+          a7aff661:
+            family: fa00000a
+            name: yy_Grfe_beech_B_summer
+          a9134665:
+            family: fa00000b
+            name: yy_Grfe_beech_C_winter
+          ac5de8df:
+            family: fa00000a
+            name: yy_Grfe_beech_D_summer
+          bb103b97:
+            family: fa000009
+            name: yy_Grfe_beech_B_autumn
+          d16c582d:
+            family: fa000009
+            name: yy_Grfe_beech_D_autumn
+          e1ccd97d:
+            family: fa000009
+            name: yy_Grfe_beech_C_autumn
+          f12750ae:
+            family: fa00000a
+            name: yy_Grfe_beech_C_summer
+          f9a0593e:
+            family: fa00000a
+            name: yy_Grfe_beech_E_summer
+        Prop Families/BirchPropFamilies.dat:
+          05ad54a7:
+            family: fa00000e
+            name: yy_Grfe_birch_F_winter
+          122142b1:
+            family: fa00000e
+            name: yy_Grfe_birch_C_winter
+          135bf8e6:
+            family: fa00000e
+            name: yy_Grfe_birch_E_winter
+          25e887fc:
+            family: fa00000e
+            name: yy_Grfe_birch_D_winter
+          2dc24322:
+            family: fa00000d
+            name: yy_Grfe_birch_B_summer
+          36b529b3:
+            family: fa00000c
+            name: yy_Grfe_birch_E_autumn
+          3c640a91:
+            family: fa00000c
+            name: yy_Grfe_birch_C_autumn
+          655c5f47:
+            family: fa00000d
+            name: yy_Grfe_birch_D_summer
+          6c78a825:
+            family: fa000023
+            name: yy_Grfe_birch_E_evergreen
+          72b05860:
+            family: fa00000c
+            name: yy_Grfe_birch_B_autumn
+          75eb296e:
+            family: fa00000d
+            name: yy_Grfe_birch_C_summer
+          95657ef8:
+            family: fa00000d
+            name: yy_Grfe_birch_E_summer
+          '99315962':
+            family: fa00000c
+            name: yy_Grfe_birch_D_autumn
+          9ab2c3d7:
+            family: fa000023
+            name: yy_Grfe_birch_F_evergreen
+          9d8512c6:
+            family: fa000023
+            name: yy_Grfe_birch_D_evergreen
+          a94c5ac1:
+            family: fa00000d
+            name: yy_Grfe_birch_F_summer
+          c2bed353:
+            family: fa00000c
+            name: yy_Grfe_birch_F_autumn
+          e13dd7a8:
+            family: fa000023
+            name: yy_Grfe_birch_C_evergreen
+          e3dea3ff:
+            family: fa00000e
+            name: yy_Grfe_birch_B_winter
+          f79874a9:
+            family: fa000023
+            name: yy_Grfe_birch_B_evergreen
+        Prop Families/ChestnutPropFamilies.dat:
+          0527c719:
+            family: fa000010
+            name: yy_Grfe_chestnut_A_summer
+          2d2ddeae:
+            family: fa000024
+            name: yy_Grfe_chestnut_A_evergreen
+          4b96f867:
+            family: fa000011
+            name: yy_Grfe_chestnut_B_winter
+          5dcbd558:
+            family: fa00000f
+            name: yy_Grfe_chestnut_D_autumn
+          6ce229ff:
+            family: fa000011
+            name: yy_Grfe_chestnut_A_winter
+          9450ae38:
+            family: fa00000f
+            name: yy_Grfe_chestnut_A_autumn
+          946b9906:
+            family: fa00000f
+            name: yy_Grfe_chestnut_B_autumn
+          991b098c:
+            family: fa000024
+            name: yy_Grfe_chestnut_D_evergreen
+          9c565f68:
+            family: fa000010
+            name: yy_Grfe_chestnut_D_summer
+          a340f6a7:
+            family: fa000010
+            name: yy_Grfe_chestnut_C_summer
+          b1c83dc5:
+            family: fa000010
+            name: yy_Grfe_chestnut_B_summer
+          bd03d4d1:
+            family: fa000024
+            name: yy_Grfe_chestnut_C_evergreen
+          bde599ac:
+            family: fa00000f
+            name: yy_Grfe_chestnut_C_autumn
+          c7882f6e:
+            family: fa000011
+            name: yy_Grfe_chestnut_D_winter
+          dbead296:
+            family: fa000011
+            name: yy_Grfe_chestnut_C_winter
+          e8238f26:
+            family: fa000024
+            name: yy_Grfe_chestnut_B_evergreen
+        Prop Families/CommonSprucePropFamilies.dat:
+          003aead6:
+            family: fa00001b
+            name: yy_Grfe_common_spruce_F_summer
+          220b1d04:
+            family: fa00001c
+            name: yy_Grfe_common_spruce_D_winter
+          25e38e5e:
+            family: fa000013
+            name: yy_Grfe_common_spruce_E_evergreen
+          2a464a28:
+            family: fa00001b
+            name: yy_Grfe_common_spruce_C_summer
+          475f73f4:
+            family: fa000013
+            name: yy_Grfe_common_spruce_C_evergreen
+          63d7141b:
+            family: fa00001c
+            name: yy_Grfe_common_spruce_C_winter
+          6c992301:
+            family: fa00001b
+            name: yy_Grfe_common_spruce_D_summer
+          8f2fcd41:
+            family: fa00001b
+            name: yy_Grfe_common_spruce_E_summer
+          a27134c2:
+            family: fa00001c
+            name: yy_Grfe_common_spruce_E_winter
+          c3a82f24:
+            family: fa00001c
+            name: yy_Grfe_common_spruce_G_winter
+          ca7b70d9:
+            family: fa000013
+            name: yy_Grfe_common_spruce_F_evergreen
+          d72d8859:
+            family: fa00001b
+            name: yy_Grfe_common_spruce_G_summer
+          d85140cf:
+            family: fa000013
+            name: yy_Grfe_common_spruce_G_evergreen
+          ebe25ff5:
+            family: fa000013
+            name: yy_Grfe_common_spruce_D_evergreen
+          f4ff7432:
+            family: fa00001c
+            name: yy_Grfe_common_spruce_F_winter
+        Prop Families/ConiferPropFamilies.dat:
+          113fe8ce:
+            family: fa000013
+            name: yy_Grfe_conifer_D_evergreen
+          340e0b48:
+            family: fa00001b
+            name: yy_Grfe_conifer_D_summer
+          36fd629b:
+            family: fa00001c
+            name: yy_Grfe_conifer_H_winter
+          3ad23bd0:
+            family: fa00001c
+            name: yy_Grfe_conifer_D_winter
+          45c0531d:
+            family: fa00001b
+            name: yy_Grfe_conifer_B_summer
+          4cd7784a:
+            family: fa000013
+            name: yy_Grfe_conifer_H_evergreen
+          554074f4:
+            family: fa00001c
+            name: yy_Grfe_conifer_B_winter
+          6b5e48d7:
+            family: fa00001b
+            name: yy_Grfe_conifer_F_summer
+          6c4dd3d9:
+            family: fa00001b
+            name: yy_Grfe_conifer_G_summer
+          74dac0a1:
+            family: fa000013
+            name: yy_Grfe_conifer_F_evergreen
+          793b078e:
+            name: yy_Grfe_conifer_E_evergreen
+          a7ea5ba7:
+            family: fa000013
+            name: yy_Grfe_conifer_B_evergreen
+          ab81a37f:
+            family: fa00001b
+            name: yy_Grfe_conifer_H_summer
+          cd6f8fa6:
+            family: fa00001c
+            name: yy_Grfe_conifer_G_winter
+          ef9ce0aa:
+            family: fa00001c
+            name: yy_Grfe_conifer_F_winter
+          f1a3cd13:
+            name: yy_Grfe_conifer_C_evergreen
+          fc92f960:
+            family: fa000013
+            name: yy_Grfe_conifer_G_evergreen
+        Prop Families/LindenPropFamilies.dat:
+          0baf9484:
+            family: fa000000
+            name: yy_Grfe_linden_F_autumn
+          0cab19c4:
+            family: fa000020
+            name: yy_Grfe_linden_C_evergreen
+          1d68f568:
+            family: fa000020
+            name: yy_Grfe_linden_E_evergreen
+          3459d909:
+            family: fa000002
+            name: yy_Grfe_linden_C_winter
+          36e5d248:
+            family: fa000001
+            name: yy_Grfe_linden_E_summer
+          62194f56:
+            family: fa000000
+            name: yy_Grfe_linden_C_autumn
+          7837f488:
+            family: fa000001
+            name: yy_Grfe_linden_D_summer
+          8f5870d2:
+            family: fa000002
+            name: yy_Grfe_linden_E_winter
+          93f6acae:
+            family: fa000001
+            name: yy_Grfe_linden_C_summer
+          9571fd4f:
+            family: fa000000
+            name: yy_Grfe_linden_D_autumn
+          abdb142b:
+            family: fa000002
+            name: yy_Grfe_linden_D_winter
+          c8f5c43c:
+            family: fa000000
+            name: yy_Grfe_linden_E_autumn
+          d1578508:
+            family: fa000001
+            name: yy_Grfe_linden_F_summer
+          e1a8f2d0:
+            family: fa000002
+            name: yy_Grfe_linden_F_winter
+          f1bac44a:
+            family: fa000020
+            name: yy_Grfe_linden_D_evergreen
+          fe70a525:
+            family: fa000020
+            name: yy_Grfe_linden_F_evergreen
+        Prop Families/MaplePropFamilies.dat:
+          0416c090:
+            family: fa000003
+            name: yy_Grfe_maple_F_autumn
+          082f9a82:
+            family: fa000021
+            name: yy_Grfe_maple_D_evergreen
+          0c2bef5b:
+            family: fa000003
+            name: yy_Grfe_maple_D_autumn
+          13110faf:
+            family: fa000004
+            name: yy_Grfe_maple_B_summer
+          21dfbcd4:
+            family: fa000005
+            name: yy_Grfe_maple_E_winter
+          22ba962b:
+            family: fa000005
+            name: yy_Grfe_maple_H_winter
+          3f39b610:
+            family: fa000005
+            name: yy_Grfe_maple_C_winter
+          426dc544:
+            family: fa000003
+            name: yy_Grfe_maple_E_autumn
+          436967d6:
+            family: fa000005
+            name: yy_Grfe_maple_G_winter
+          4b78c5d7:
+            family: fa000003
+            name: yy_Grfe_maple_G_autumn
+          600529ac:
+            family: fa000005
+            name: yy_Grfe_maple_D_winter
+          62d6f1c3:
+            family: fa000021
+            name: yy_Grfe_maple_C_evergreen
+          814f59ad:
+            family: fa000003
+            name: yy_Grfe_maple_B_autumn
+          85198c5d:
+            family: fa000003
+            name: yy_Grfe_maple_A_autumn
+          8653f683:
+            family: fa000021
+            name: yy_Grfe_maple_F_evergreen
+          '94089080':
+            family: fa000021
+            name: yy_Grfe_maple_H_evergreen
+          9b847132:
+            family: fa000004
+            name: yy_Grfe_maple_A_summer
+          9d3e6450:
+            family: fa000005
+            name: yy_Grfe_maple_F_winter
+          ad07e69b:
+            family: fa000004
+            name: yy_Grfe_maple_F_summer
+          aeb0f3e8:
+            family: fa000003
+            name: yy_Grfe_maple_H_autumn
+          b3797479:
+            family: fa000004
+            name: yy_Grfe_maple_E_summer
+          b478fd50:
+            family: fa000004
+            name: yy_Grfe_maple_G_summer
+          b5b7014e:
+            family: fa000005
+            name: yy_Grfe_maple_B_winter
+          b82632c9:
+            family: fa000004
+            name: yy_Grfe_maple_H_summer
+          b85f990c:
+            family: fa000021
+            name: yy_Grfe_maple_A_evergreen
+          c314b4fa:
+            family: fa000021
+            name: yy_Grfe_maple_E_evergreen
+          c3b85769:
+            family: fa000003
+            name: yy_Grfe_maple_C_autumn
+          dd7ccf1b:
+            family: fa000004
+            name: yy_Grfe_maple_C_summer
+          e0f4c985:
+            family: fa000021
+            name: yy_Grfe_maple_G_evergreen
+          e27b8ad6:
+            family: fa000021
+            name: yy_Grfe_maple_B_evergreen
+          e5d6fb90:
+            family: fa000004
+            name: yy_Grfe_maple_D_summer
+          f4a0ad84:
+            family: fa000005
+            name: yy_Grfe_maple_A_winter
+        Prop Families/NorwayMaplePropFamilies.dat:
+          0680dfb9:
+            family: fa000002
+            name: yy_Grfe_norway_maple_B_winter
+          1760a371:
+            family: fa000020
+            name: yy_Grfe_norway_maple_C_evergreen
+          2c9d4d6e:
+            family: fa000001
+            name: yy_Grfe_norway_maple_A_summer
+          '30563e32':
+            family: fa000001
+            name: yy_Grfe_norway_maple_B_summer
+          5b2d4df5:
+            family: fa000002
+            name: yy_Grfe_norway_maple_A_winter
+          5ef41302:
+            family: fa000020
+            name: yy_Grfe_norway_maple_A_evergreen
+          6ec18a2a:
+            family: fa000002
+            name: yy_Grfe_norway_maple_C_winter
+          7b29258a:
+            family: fa000001
+            name: yy_Grfe_norway_maple_C_summer
+          9c250fa4:
+            family: fa000020
+            name: yy_Grfe_norway_maple_B_evergreen
+          9c739685:
+            family: fa000000
+            name: yy_Grfe_norway_maple_B_autumn
+          a5e5e5cb:
+            family: fa000000
+            name: yy_Grfe_norway_maple_A_autumn
+          d6648e67:
+            family: fa000000
+            name: yy_Grfe_norway_maple_C_autumn
+      release: 2024-12-03T18:15:19.663Z
+      version: 3.0.0
+
+11241036/seasonal-woods-2:
+  buildings:
+    GSW_Base Content.dat:
+      05351d9a:
+        bulldoze: 5
+        cost: 20
+        label: Hillside Forest
+        menu: Parks
+        name: GSW_Base Hillside 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      05351ee4:
+        bulldoze: 5
+        cost: 20
+        label: Mixed Forest
+        menu: Parks
+        name: GSW_Base Mixed 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      0570a396:
+        bulldoze: 20
+        cost: 80
+        label: Rural Forest
+        menu: Parks
+        name: GSW_Base Rural 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      068a5f9e:
+        bulldoze: 20
+        cost: 80
+        label: Badlands Forest
+        menu: Parks
+        name: GSW_Base Badlands 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '07832253':
+        bulldoze: 5
+        cost: 20
+        label: Urban Forest
+        menu: Parks
+        name: GSW_Blank Urban 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      0783229d:
+        bulldoze: 20
+        cost: 80
+        label: Rural Forest
+        menu: Parks
+        name: GSW_Blank Rural 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '07832609':
+        bulldoze: 20
+        cost: 80
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Blank Conifer 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '07832617':
+        bulldoze: 5
+        cost: 20
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Blank Conifer 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      '07832632':
+        bulldoze: 20
+        cost: 80
+        label: Cascadia Forest
+        menu: Parks
+        name: GSW_Base Cascadia 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      0783267c:
+        bulldoze: 5
+        cost: 20
+        label: Central European Forest
+        menu: Parks
+        name: GSW_Base CETC 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      0c965231:
+        bulldoze: 5
+        cost: 20
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Base Conifer Seasonal 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      0c965eed:
+        bulldoze: 20
+        cost: 80
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Base Conifer Seasonal 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      25351d94:
+        bulldoze: 5
+        cost: 20
+        label: Cascadia Forest
+        menu: Parks
+        name: GSW_Blank Cascadia 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      2570a3e1:
+        bulldoze: 20
+        cost: 80
+        label: Riverside Forest
+        menu: Parks
+        name: GSW_Base Riverside 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '27832671':
+        bulldoze: 20
+        cost: 80
+        label: Central European Forest
+        menu: Parks
+        name: GSW_Base CETC 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '45351e35':
+        bulldoze: 5
+        cost: 20
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Base Conifer 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      4570a415:
+        bulldoze: 20
+        cost: 80
+        label: Park Forest
+        menu: Parks
+        name: GSW_Base Park 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '47832244':
+        bulldoze: 20
+        cost: 80
+        label: Urban Forest
+        menu: Parks
+        name: GSW_Blank Urban 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      521d0b74:
+        label: Forest Floor
+        menu: Parks
+        name: GSW_Forest Floor
+      65351d9e:
+        bulldoze: 5
+        cost: 20
+        label: Park Forest
+        menu: Parks
+        name: GSW_Base Park 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      678322aa:
+        bulldoze: 5
+        cost: 20
+        label: Rural Forest
+        menu: Parks
+        name: GSW_Blank Rural 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      678324cf:
+        bulldoze: 5
+        cost: 20
+        label: Mixed Forest
+        menu: Parks
+        name: GSW_Blank Mixed 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      8570a365:
+        bulldoze: 20
+        cost: 80
+        label: Urban Forest
+        menu: Parks
+        name: GSW_Base Urban 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      8570a4bf:
+        bulldoze: 20
+        cost: 80
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Base Conifer 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      '85720451':
+        bulldoze: 5
+        cost: 20
+        label: Central European Forest
+        menu: Parks
+        name: GSW_Blank CETC 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      '87832501':
+        bulldoze: 20
+        cost: 80
+        label: Hillside Forest
+        menu: Parks
+        name: GSW_Blank Hillside 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      8c965f44:
+        bulldoze: 5
+        cost: 20
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Blank Conifer Seasonal 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      a5351d45:
+        bulldoze: 5
+        cost: 20
+        label: Rural Forest
+        menu: Parks
+        name: GSW_Base Rural 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      a7832651:
+        bulldoze: 5
+        cost: 20
+        label: Cascadia Forest
+        menu: Parks
+        name: GSW_Base Cascadia 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      ac965f24:
+        bulldoze: 20
+        cost: 80
+        label: Conifer Forest
+        menu: Parks
+        name: GSW_Blank Conifer Seasonal 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      c570a47c:
+        bulldoze: 20
+        cost: 80
+        label: Hillside Forest
+        menu: Parks
+        name: GSW_Base Hillside 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      c68a5f77:
+        bulldoze: 5
+        cost: 20
+        label: Badlands Forest
+        menu: Parks
+        name: GSW_Base Badlands 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      c78323c0:
+        bulldoze: 5
+        cost: 20
+        label: Riverside Forest
+        menu: Parks
+        name: GSW_Blank Riverside 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      c78326e4:
+        bulldoze: 20
+        cost: 80
+        label: Badlands Forest
+        menu: Parks
+        name: GSW_Blank Badlands 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      e5351d66:
+        bulldoze: 5
+        cost: 20
+        label: Urban Forest
+        menu: Parks
+        name: GSW_Base Urban 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      e570a2ac:
+        bulldoze: 20
+        cost: 80
+        label: Cascadia Forest
+        menu: Parks
+        name: GSW_Blank Cascadia 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      e570a449:
+        bulldoze: 20
+        cost: 80
+        label: Mixed Forest
+        menu: Parks
+        name: GSW_Base Mixed 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      e5749050:
+        bulldoze: 20
+        cost: 80
+        label: Central European Forest
+        menu: Parks
+        name: GSW_Blank CETC 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      e78323b2:
+        bulldoze: 20
+        cost: 80
+        label: Riverside Forest
+        menu: Parks
+        name: GSW_Blank Riverside 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      e7832489:
+        bulldoze: 20
+        cost: 80
+        label: Mixed Forest
+        menu: Parks
+        name: GSW_Blank Mixed 4x1
+        pollution: -8
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        waterPollution: -8
+        waterPollutionRadius: 2
+      e783250e:
+        bulldoze: 5
+        cost: 20
+        label: Hillside Forest
+        menu: Parks
+        name: GSW_Blank Hillside 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      e78326f0:
+        bulldoze: 5
+        cost: 20
+        label: Badlands Forest
+        menu: Parks
+        name: GSW_Blank Badlands 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+      feb036c0:
+        bulldoze: 5
+        cost: 20
+        label: Riverside Forest
+        menu: Parks
+        name: GSW_Base Riverside 1x1
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        waterPollution: -2
+        waterPollutionRadius: 2
+  category: parks,flora
+  dependencies:
+    - chrisadams3997/rrp-pasture-flora
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - maxis/stonehenge
+    - girafe/flora-pack
+    - pegasus/spam-super-resource-pack
+    - pegasus/terrain-kit
+    - sfbt/essentials
+    - vip/rural-pack
+  description: |-
+    This plugin contains a row of forest combinations on ploppable lots. These have been designed to fill a certain gap in the game: For filling large areas with trees, there are tree controllers, and for creating detailed scenes on a small scale, there are MMP's - however, when trying to place forests on small lots, mostly gaps between buildings, lots, farm fields, or in parks, you can use neither nor, because tree controllers are not exact enough, and with MMP's, it will take too long.
+
+    This plugin is supposed to provide a solution: It contains seasonally changing woods that can be placed in such gaps. All lots have a slight park effect, reduce pollution and increase demand for residential areas. Furthermore, I've also placed other stuff on these lots that can be found in forests - weeds, ferns, rocks, tree stumps, leaves, berries, and moss. As for the design, I tried to find a solution between realism (design it after common forest mixes in central Europe), aesthetics, the trees that are available in the first place (uploaded by Girafe and Orange), and adaption to the game (especially to two already available tree controllers).
+
+    All lots from the second iteration, version 1, have got new TGI's, therefore, they can be used along with the preceding iteration of the Seasonal Woods. I developed a completely new iteration, because I didn't like the old one anymore, and I also wanted to completely revamp the design of the forest floor. The preceding first iteration, version 3, will only be supported if you can find bugs, I won't change its design anymore.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c16c6b21fc_OverviewGSW2.jpg.3e36b47c7ea1fa61bb47f4f3b59f5f19.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Embankment.jpg.d1bc8bc4d47d1131e734f34ccccca73c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/Fields.jpg.b97aedb2b5444c15a7200d2c40c44507.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c16d18385f_ForestTransition.jpg.5a09d2a1c07c4342d42e0bd8e3a018a0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c16d34ae7c_UrbanForest.jpg.d96ccc9dd77233d2005e16627d446997.jpg
+  lots:
+    GSW_Base Content.dat:
+      068a5f9e:
+        building: 068a5f9e
+        name: GSW_Base Badlands 4x1
+        size: 4x1
+      '07832609':
+        building: '07832609'
+        name: GSW_Blank Conifer 4x1
+        size: 4x1
+      '07832617':
+        building: '07832617'
+        name: GSW_Blank Conifer 1x1
+        size: 1x1
+      0c965231:
+        building: 0c965231
+        name: GSW_Base Conifer Seasonal 1x1
+        size: 1x1
+      0c965eed:
+        building: 0c965eed
+        name: GSW_Base Conifer Seasonal 4x1
+        size: 4x1
+      '45351e35':
+        building: '45351e35'
+        name: GSW_Base Conifer 1x1
+        size: 1x1
+      8570a4bf:
+        building: 8570a4bf
+        name: GSW_Base Conifer 4x1
+        size: 4x1
+      8c965f44:
+        building: 8c965f44
+        name: GSW_Blank Conifer Seasonal 1x1
+        size: 1x1
+      ac965f24:
+        building: ac965f24
+        name: GSW_Blank Conifer Seasonal 4x1
+        size: 4x1
+      c68a5f77:
+        building: c68a5f77
+        name: GSW_Base Badlands 1x1
+        size: 1x1
+      c78326e4:
+        building: c78326e4
+        name: GSW_Blank Badlands 4x1
+        size: 4x1
+      e78326f0:
+        building: e78326f0
+        name: GSW_Blank Badlands 1x1
+        size: 1x1
+  name: Seasonal Woods (2nd Iteration)
+  props:
+    GSW_Dummy Props.dat:
+      f85fff20:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate01
+      f85fff21:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate02
+      f85fff22:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate03
+      f85fff23:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate04
+      f85fff24:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate05
+      f85fff25:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate06
+      f85fff26:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate07
+      f85fff27:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate08
+      f85fff28:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate09
+      f85fff29:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate10
+      f85fff2a:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate11
+      f85fff2b:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate12
+      f85fff2c:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate13
+      f85fff2d:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate14
+      f85fff2e:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate15
+      f85fff2f:
+        family: ffa00000
+        name: InvisibleProp_1x1_Duplicate16
+    GSW_Modified Props.dat:
+      05fe8b00:
+        name: GSW_SFBT_Herbstlaub_klein_kleinere Grundflaeche_orient2slope
+      7f07b988:
+        name: GSW_PEG-TP_Moss/Ivy_seasonal
+      88887ead:
+        name: GSW_SFBT_Herbstlaub_mittel_kleinere Grundflaeche_orient2slope
+      8e52cfa7:
+        name: GSW_SFBT_Herbstlaub_kleinere Grundflaeche_orient2slope
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c1706582f0_OverviewGSW2.thumb.jpg.b3f53d733230068e362bccce49e6ed05.jpg
+  url: https://community.simtropolis.com/files/file/33889-seasonal-woods-2nd-iteration/
+  variants:
+    default:
+      assets:
+        - exclude:
+            - zGSW_Evergreen Woods Override.dat
+          id: simtropolis/33889-seasonal-woods-2nd-iteration
+      lastGenerated: 2024-12-03T18:15:19.663Z
+      lastModified: 2020-10-18T10:20:58.000Z
+      lots:
+        GSW_Base Content.dat:
+          05351d9a:
+            building: 05351d9a
+            name: GSW_Base Hillside 1x1
+            size: 1x1
+          05351ee4:
+            building: 05351ee4
+            name: GSW_Base Mixed 1x1
+            size: 1x1
+          0570a396:
+            building: 0570a396
+            name: GSW_Base Rural 4x1
+            size: 4x1
+          068a5f9e:
+            building: 068a5f9e
+            name: GSW_Base Badlands 4x1
+            size: 4x1
+          '07832253':
+            building: '07832253'
+            name: GSW_Blank Urban 1x1
+            size: 1x1
+          0783229d:
+            building: 0783229d
+            name: GSW_Blank Rural 4x1
+            size: 4x1
+          '07832609':
+            building: '07832609'
+            name: GSW_Blank Conifer 4x1
+            size: 4x1
+          '07832617':
+            building: '07832617'
+            name: GSW_Blank Conifer 1x1
+            size: 1x1
+          '07832632':
+            building: '07832632'
+            name: GSW_Base Cascadia 4x1
+            size: 4x1
+          0783267c:
+            building: 0783267c
+            name: GSW_Base CETC 1x1
+            size: 1x1
+          0c965231:
+            building: 0c965231
+            name: GSW_Base Conifer Seasonal 1x1
+            size: 1x1
+          0c965eed:
+            building: 0c965eed
+            name: GSW_Base Conifer Seasonal 4x1
+            size: 4x1
+          25351d94:
+            building: 25351d94
+            name: GSW_Blank Cascadia 1x1
+            size: 1x1
+          2570a3e1:
+            building: 2570a3e1
+            name: GSW_Base Riverside 4x1
+            size: 4x1
+          '27832671':
+            building: '27832671'
+            name: GSW_Base CETC 4x1
+            size: 4x1
+          '45351e35':
+            building: '45351e35'
+            name: GSW_Base Conifer 1x1
+            size: 1x1
+          4570a415:
+            building: 4570a415
+            name: GSW_Base Park 4x1
+            size: 4x1
+          '47832244':
+            building: '47832244'
+            name: GSW_Blank Urban 4x1
+            size: 4x1
+          521d0b74:
+            building: 521d0b74
+            name: GSW_Forest Floor
+            size: 1x1
+          65351d9e:
+            building: 65351d9e
+            name: GSW_Base Park 1x1
+            size: 1x1
+          678322aa:
+            building: 678322aa
+            name: GSW_Blank Rural 1x1
+            size: 1x1
+          678324cf:
+            building: 678324cf
+            name: GSW_Blank Mixed 1x1
+            size: 1x1
+          8570a365:
+            building: 8570a365
+            name: GSW_Base Urban 4x1
+            size: 4x1
+          8570a4bf:
+            building: 8570a4bf
+            name: GSW_Base Conifer 4x1
+            size: 4x1
+          '85720451':
+            building: '85720451'
+            name: GSW_Blank CETC 1x1
+            size: 1x1
+          '87832501':
+            building: '87832501'
+            name: GSW_Blank Hillside 4x1
+            size: 4x1
+          8c965f44:
+            building: 8c965f44
+            name: GSW_Blank Conifer Seasonal 1x1
+            size: 1x1
+          a5351d45:
+            building: a5351d45
+            name: GSW_Base Rural 1x1
+            size: 1x1
+          a7832651:
+            building: a7832651
+            name: GSW_Base Cascadia 1x1
+            size: 1x1
+          ac965f24:
+            building: ac965f24
+            name: GSW_Blank Conifer Seasonal 4x1
+            size: 4x1
+          c570a47c:
+            building: c570a47c
+            name: GSW_Base Hillside 4x1
+            size: 4x1
+          c68a5f77:
+            building: c68a5f77
+            name: GSW_Base Badlands 1x1
+            size: 1x1
+          c78323c0:
+            building: c78323c0
+            name: GSW_Blank Riverside 1x1
+            size: 1x1
+          c78326e4:
+            building: c78326e4
+            name: GSW_Blank Badlands 4x1
+            size: 4x1
+          e5351d66:
+            building: e5351d66
+            name: GSW_Base Urban 1x1
+            size: 1x1
+          e570a2ac:
+            building: e570a2ac
+            name: GSW_Blank Cascadia 4x1
+            size: 4x1
+          e570a449:
+            building: e570a449
+            name: GSW_Base Mixed 4x1
+            size: 4x1
+          e5749050:
+            building: e5749050
+            name: GSW_Blank CETC 4x1
+            size: 4x1
+          e78323b2:
+            building: e78323b2
+            name: GSW_Blank Riverside 4x1
+            size: 4x1
+          e7832489:
+            building: e7832489
+            name: GSW_Blank Mixed 4x1
+            size: 4x1
+          e783250e:
+            building: e783250e
+            name: GSW_Blank Hillside 1x1
+            size: 1x1
+          e78326f0:
+            building: e78326f0
+            name: GSW_Blank Badlands 1x1
+            size: 1x1
+          feb036c0:
+            building: feb036c0
+            name: GSW_Base Riverside 1x1
+            size: 1x1
+      name: Seasonal
+      release: 2024-12-03T18:15:19.663Z
+      version: 1.0.0
+    evergreen:
+      assets:
+        - id: simtropolis/33889-seasonal-woods-2nd-iteration
+      lastGenerated: 2024-12-03T18:15:19.663Z
+      lastModified: 2020-10-18T10:20:58.000Z
+      lots:
+        zGSW_Evergreen Woods Override.dat:
+          05351d9a:
+            building: 05351d9a
+            name: GSW_Base Hillside 1x1
+            size: 1x1
+          05351ee4:
+            building: 05351ee4
+            name: GSW_Base Mixed 1x1
+            size: 1x1
+          0570a396:
+            building: 0570a396
+            name: GSW_Base Rural 4x1
+            size: 4x1
+          '07832253':
+            building: '07832253'
+            name: GSW_Blank Urban 1x1
+            size: 1x1
+          0783229d:
+            building: 0783229d
+            name: GSW_Blank Rural 4x1
+            size: 4x1
+          '07832632':
+            building: '07832632'
+            name: GSW_Base Cascadia 4x1
+            size: 4x1
+          0783267c:
+            building: 0783267c
+            name: GSW_Base CETC 1x1
+            size: 1x1
+          25351d94:
+            building: 25351d94
+            name: GSW_Blank Cascadia 1x1
+            size: 1x1
+          2570a3e1:
+            building: 2570a3e1
+            name: GSW_Base Riverside 4x1
+            size: 4x1
+          '27832671':
+            building: '27832671'
+            name: GSW_Base CETC 4x1
+            size: 4x1
+          4570a415:
+            building: 4570a415
+            name: GSW_Base Park 4x1
+            size: 4x1
+          '47832244':
+            building: '47832244'
+            name: GSW_Blank Urban 4x1
+            size: 4x1
+          521d0b74:
+            building: 521d0b74
+            name: GSW_Forest Floor
+            size: 1x1
+          65351d9e:
+            building: 65351d9e
+            name: GSW_Base Park 1x1
+            size: 1x1
+          678322aa:
+            building: 678322aa
+            name: GSW_Blank Rural 1x1
+            size: 1x1
+          678324cf:
+            building: 678324cf
+            name: GSW_Blank Mixed 1x1
+            size: 1x1
+          8570a365:
+            building: 8570a365
+            name: GSW_Base Urban 4x1
+            size: 4x1
+          '85720451':
+            building: '85720451'
+            name: GSW_Blank CETC 1x1
+            size: 1x1
+          '87832501':
+            building: '87832501'
+            name: GSW_Blank Hillside 4x1
+            size: 4x1
+          a5351d45:
+            building: a5351d45
+            name: GSW_Base Rural 1x1
+            size: 1x1
+          a7832651:
+            building: a7832651
+            name: GSW_Base Cascadia 1x1
+            size: 1x1
+          c570a47c:
+            building: c570a47c
+            name: GSW_Base Hillside 4x1
+            size: 4x1
+          c78323c0:
+            building: c78323c0
+            name: GSW_Blank Riverside 1x1
+            size: 1x1
+          e5351d66:
+            building: e5351d66
+            name: GSW_Base Urban 1x1
+            size: 1x1
+          e570a2ac:
+            building: e570a2ac
+            name: GSW_Blank Cascadia 4x1
+            size: 4x1
+          e570a449:
+            building: e570a449
+            name: GSW_Base Mixed 4x1
+            size: 4x1
+          e5749050:
+            building: e5749050
+            name: GSW_Blank CETC 4x1
+            size: 4x1
+          e78323b2:
+            building: e78323b2
+            name: GSW_Blank Riverside 4x1
+            size: 4x1
+          e7832489:
+            building: e7832489
+            name: GSW_Blank Mixed 4x1
+            size: 4x1
+          e783250e:
+            building: e783250e
+            name: GSW_Blank Hillside 1x1
+            size: 1x1
+          feb036c0:
+            building: feb036c0
+            name: GSW_Base Riverside 1x1
+            size: 1x1
+      name: Evergreen
+      release: 2024-12-03T18:15:19.663Z
+      version: 1.0.0

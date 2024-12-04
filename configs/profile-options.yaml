@@ -19,3 +19,24 @@ options:
     type: boolean
     condition:
       nam: true
+  - choices:
+      - value: Maxis_Street_Deciduous_Trees
+        label: Maxis, Deciduous
+      - value: Maxis_Street_Palm_Trees
+        label: Maxis, Palm Trees
+      - value: Maxis_Street_Pine_Trees
+        label: Maxis, Pines
+      - value: CP_Street_Deciduous_Trees
+        label: Cycledogg, Deciduous
+      - value: CP_Street_Ponderosa_Pines
+        label: Cycledogg, Ponderosa Pines
+      - value: CP_Street_Shore_Pinyon_Pines
+        label: Cycledogg, Shore Pinyon Pines
+      - value: PEG_Street_Pines
+        label: Pegasus, Pines
+    id: sfbt.trees
+    label: SFBT trees
+    section: SFBT
+    type: string
+    condition:
+      sfbt: true

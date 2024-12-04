@@ -278,3 +278,151 @@ chrisadams3997/mega-props-vol03:
             name: ALN_Albriet_FenceCurved
       release: 2024-11-26T21:04:04.961Z
       version: 2.0.0
+
+chrisadams3997/rrp-pasture-flora:
+  authors:
+    - bsc
+  category: mmps,flora,props
+  description: |-
+    This pack contains a wide variety of mayor mode flora to enhance your terrains in rural and urban settings.
+
+    They can be found in the middle of the mayor mode menu.
+
+    All the models have been placed into one file but the dats for the different types of ploppable flora have been kept separate so if there are any that you do not want to use you may remove the dats for them. You MUST, however, keep ALN_Pasture Flora.dat as without that you will have brown boxes.
+
+    I would strongly suggest to remove any of previous version of RRP or Pasture Flora before installing the last version, some files are incompatible. In addition, if you used an earlier version of the Pasture Flora and now you wants to use the new one, you must bulldoze all old plants, otherwise the city will not open after replacing an old version by the new one. It can be difficult in an existing city where old grasses were used extensively - but it is necessary.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora3.jpg
+  name: BSC ALN RRP Pasture Flora
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/flora1.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/167-bsc-aln-rrp-pasture-flora
+  variants:
+    default:
+      assets:
+        - docs:
+            - ~Documents/BSC_Readmes/ChrisAdams3997
+            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/BSC ALN RRP Pasture Flora_index.jpg
+          id: sc4evermore/167-bsc-aln-rrp-pasture-flora
+          include:
+            - BSC/BSCProps
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets-B_1020.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Cat Tails.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grass_green.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grasses_1060.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_HayBales_1080.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Johnson Grass_1030.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Lillypads.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Marsh.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Medium Scrub Brush.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Pink Wild Flowers-B_1010.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Reed Grass_1038.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Straws_1070.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Stumps.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsA_1050.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsB_1058.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_White Wild Flowers.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers-B_1018.dat
+            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers.dat
+      lastGenerated: 2024-12-03T16:03:49.352Z
+      lastModified: 2024-11-01T00:43:50.000Z
+      props:
+        ALN_Pasture Flora.dat:
+          16cd2ce1:
+            name: ALN_Blue Bonnets 2B
+          16cd2cea:
+            name: ALN_Cat Tails 01
+          16cd2cf4:
+            name: ALN_Cat Tails 03
+          16cd3776:
+            name: ALN_WeedB02
+          16cd378b:
+            name: ALN_WeedB04
+          36cd2d3d:
+            name: ALN_Ditch Prototype 01
+          36cd2d9c:
+            name: ALN_White Flowers 2
+          36cd3758:
+            name: ALN_WeedA04
+          56cd2d21:
+            name: ALN_Green Grass 02
+          56cd2d2c:
+            name: ALN_JohnsonGrass 01
+          56cd2d51:
+            name: ALN_Ditch Prototype 02
+          56cd2d76:
+            name: ALN_Pink Flowers B 2
+          56cd2d88:
+            name: ALN_Stump01
+          56cd2da9:
+            name: ALN_Yellow Flowers 2
+          56cd366f:
+            name: ALN_Haybale2
+          56cd36a9:
+            name: ALN_RyeGrassGreen
+          56cd3710:
+            name: ALN_Straw1
+          76cd2cd7:
+            name: ALN_Blue Bonnets 1B
+          76cd2d1d:
+            name: ALN_Green Grass 01
+          76cd2d66:
+            name: ALN_MedScrub 2
+          76cd2d6c:
+            name: ALN_MedScrub 3
+          76cd2d7b:
+            name: ALN_Reed Grass 01
+          76cd2da5:
+            name: ALN_Yellow Flowers 1
+          76cd3736:
+            name: ALN_WeedA01
+          76cd374f:
+            name: ALN_WeedA03
+          96cd2cb1:
+            name: ALN_Blue Bonnets 1
+          96cd2cee:
+            name: ALN_Cat Tails 02
+          96cd2d7f:
+            name: ALN_Reed Grass 02
+          96cd2dbb:
+            name: ALN_Yellow Flowers B 2
+          96cd36fb:
+            name: ALN_Straw_Light1
+          b6cd2cb7:
+            name: ALN_Blue Bonnets 2
+          b6cd2d26:
+            name: ALN_Green Grass 03
+          b6cd2d37:
+            name: ALN_Lillypads01
+          b6cd2d62:
+            name: ALN_MedScrub 1
+          b6cd2d8d:
+            name: ALN_Stump02
+          b6cd2d91:
+            name: ALN_Stump03
+          b6cd2d98:
+            name: ALN_White Flowers 1
+          b6cd2db4:
+            name: ALN_Yellow Flowers B 1
+          b6cd3663:
+            name: ALN_Haybale1
+          b6cd367e:
+            name: ALN_Haybale3
+          b6cd36e2:
+            name: ALN_RyeGrassGreen
+          b6cd371f:
+            name: ALN_Straw2
+          b6cd3743:
+            name: ALN_WeedA02
+          b6cd377f:
+            name: ALN_WeedB03
+          d6cd2d33:
+            name: ALN_JohnsonGrass 02
+          d6cd2d72:
+            name: ALN_Pink Flowers B 1
+          d6cd3769:
+            name: ALN_WeedB01
+      release: 2024-12-03T16:03:49.352Z
+      version: 2.0.0
