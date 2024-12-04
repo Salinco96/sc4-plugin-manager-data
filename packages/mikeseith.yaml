@@ -1,5 +1,5 @@
 mikeseith/mega-props-vol01:
-  category: props
+  categories: props
   name: BSC MEGA Props - Mikeseith Vol01
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -2254,7 +2254,7 @@ mikeseith/mega-props-vol01:
       version: 1.0.0
 
 mikeseith/mega-props-vol02:
-  category: props
+  categories: props
   name: BSC MEGA Props - Mikeseith Vol02
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/204-sc4d-lex-legacy-mikeseith-multi-level-modular-garages
@@ -2650,7 +2650,7 @@ mikeseith/mega-props-vol02:
       version: 2.0.0
 
 mikeseith/mega-props-vol03:
-  category: props
+  categories: props
   name: BSC MEGA Props - Mikeseith Vol03
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -5642,7 +5642,7 @@ mikeseith/mega-props-vol03:
       version: 1.0.0
 
 mikeseith/multi-level-modular-garages:
-  category: transport
+  categories: transport
   description: |-
     The **SC4D LEX Legacy - Mikeseith Multi-level Modular Garages** contains the popular 2-level and 8-level Modular Parking Garages by MikeSeith, including the Airport Shuttle automatas. The 2-level garages have 8 modular pieces, including entrances (in prop family), several wall pieces and ramp piece. The 8-level garages have 18 modular pieces, including an entrance, two different types of ramps, several wall pieces, overhanging bride pieces over other networks, a police kiosk/parking security, but stop and an airport shuttle spawner bus stop. The original lots were created by MikeSeith, however they underwent some necessary revision and updates mostly performed by rsc204/mgb204. **[Most of the changes that he made are detailed in this post](https://community.simtropolis.com/forums/topic/761517-mgbs-lil-bits/?tab=comments#comment-1767404)**. A final revision and update was made by Tyberius06 for this legacy compilation.
 
@@ -5731,13 +5731,13 @@ mikeseith/multi-level-modular-garages:
         mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat:
           1960bfda:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 56
             menu: MiscTransit
             name: MS_2Lvl_Inside (1 Row)
           3962e3b9:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 50
             flamability: 38
             garbage: 1
@@ -5752,7 +5752,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           5960c034:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 54
             menu: MiscTransit
             name: MS_2Lvl_Corner w/Stairs
@@ -5761,19 +5761,19 @@ mikeseith/multi-level-modular-garages:
             water: 1
           5960c0eb:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 55
             menu: MiscTransit
             name: MS_2Lvl_Ramp
           7960bf97:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 57
             menu: MiscTransit
             name: MS_2Lvl_Inside (2 Rows)
           7960c078:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 53
             menu: MiscTransit
             name: MS_2Lvl_Corner
@@ -5782,20 +5782,20 @@ mikeseith/multi-level-modular-garages:
             water: 1
           9960bf4b:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 51
             menu: MiscTransit
             name: MS_2Lvl_Wall (1 Row)
           b960bedd:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 52
             menu: MiscTransit
             name: MS_2Lvl_Wall (2 Rows)
         mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level Airport Shuttle_RTMT/zOpt_8 Level Airport Shuttle_RTMT.dat:
           dd0ef80b:
             bulldoze: 100
-            category: bus
+            categories: bus
             cost: 100
             flamability: 50
             garbage: 4
@@ -5815,7 +5815,7 @@ mikeseith/multi-level-modular-garages:
         mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level BusStop_RTMT/zOpt_8 Level BusStop_RTMT.dat:
           3d184784:
             bulldoze: 100
-            category: bus
+            categories: bus
             cost: 100
             flamability: 38
             garbage: 4
@@ -5835,7 +5835,7 @@ mikeseith/multi-level-modular-garages:
         mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat:
           1cf37210:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 69
             garbage: 2
             maintenance: 25
@@ -5849,7 +5849,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           1cf8e57f:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 50
             flamability: 50
             garbage: 4
@@ -5866,7 +5866,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           3cf369e5:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 65
             maintenance: 20
             menu: MiscTransit
@@ -5877,7 +5877,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           3d205411:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 70
             garbage: 2
             maintenance: 25
@@ -5891,7 +5891,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           5cf36ce3:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 57
             flamability: 50
             garbage: 1
@@ -5904,7 +5904,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           5cf36e24:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 54
             garbage: 1
             maintenance: 20
@@ -5916,7 +5916,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           5cf37074:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 68
             garbage: 2
             maintenance: 25
@@ -5930,7 +5930,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           5cf37444:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 53
             maintenance: 10
             menu: MiscTransit
@@ -5941,7 +5941,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           bcf36100:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 56
             maintenance: 10
             menu: MiscTransit
@@ -5952,7 +5952,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           bcf36894:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 55
             maintenance: 10
             menu: MiscTransit
@@ -5963,7 +5963,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           bcf36f3c:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 66
             garbage: 2
             maintenance: 25
@@ -5977,7 +5977,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           dcf36951:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 51
             garbage: 1
             maintenance: 20
@@ -5989,7 +5989,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           dcf36a78:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 64
             maintenance: 20
             menu: MiscTransit
@@ -6000,7 +6000,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           dcf36fc8:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 67
             garbage: 2
             maintenance: 25
@@ -6014,7 +6014,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           dd16f12b:
             bulldoze: 10
-            category: police
+            categories: police
             cost: 80
             flamability: 36
             jobs:
@@ -6029,7 +6029,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           fcf36d53:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 52
             garbage: 1
             maintenance: 20
@@ -6042,13 +6042,13 @@ mikeseith/multi-level-modular-garages:
         mikeseith\Garages\Modular Parking Garage 2 Lvl\Mikeseith 2 Level Garages_Lots.dat:
           1960bfda:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 56
             menu: MiscTransit
             name: MS_2Lvl_Inside (1 Row)
           3962e3b9:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 50
             flamability: 38
             garbage: 1
@@ -6063,7 +6063,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           5960c034:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 54
             menu: MiscTransit
             name: MS_2Lvl_Corner w/Stairs
@@ -6072,19 +6072,19 @@ mikeseith/multi-level-modular-garages:
             water: 1
           5960c0eb:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 55
             menu: MiscTransit
             name: MS_2Lvl_Ramp
           7960bf97:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 57
             menu: MiscTransit
             name: MS_2Lvl_Inside (2 Rows)
           7960c078:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 53
             menu: MiscTransit
             name: MS_2Lvl_Corner
@@ -6093,20 +6093,20 @@ mikeseith/multi-level-modular-garages:
             water: 1
           9960bf4b:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 51
             menu: MiscTransit
             name: MS_2Lvl_Wall (1 Row)
           b960bedd:
             bulldoze: 10
-            category: transport
+            categories: transport
             cost: 52
             menu: MiscTransit
             name: MS_2Lvl_Wall (2 Rows)
         mikeseith\Garages\Modular Parking Garage 8 Lvl#\!Opt_8 Level Airport Shuttle_RTMT\zOpt_8 Level Airport Shuttle_RTMT.dat:
           dd0ef80b:
             bulldoze: 100
-            category: bus
+            categories: bus
             cost: 100
             flamability: 50
             garbage: 4
@@ -6126,7 +6126,7 @@ mikeseith/multi-level-modular-garages:
         mikeseith\Garages\Modular Parking Garage 8 Lvl#\!Opt_8 Level BusStop_RTMT\zOpt_8 Level BusStop_RTMT.dat:
           3d184784:
             bulldoze: 100
-            category: bus
+            categories: bus
             cost: 100
             flamability: 38
             garbage: 4
@@ -6146,7 +6146,7 @@ mikeseith/multi-level-modular-garages:
         mikeseith\Garages\Modular Parking Garage 8 Lvl#\Mikeseith 8 Level Garages_Lots.dat:
           1cf37210:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 69
             garbage: 2
             maintenance: 25
@@ -6160,7 +6160,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           1cf8e57f:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 50
             flamability: 50
             garbage: 4
@@ -6177,7 +6177,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           3cf369e5:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 65
             maintenance: 20
             menu: MiscTransit
@@ -6188,7 +6188,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           3d184784:
             bulldoze: 100
-            category: bus
+            categories: bus
             cost: 100
             flamability: 38
             garbage: 4
@@ -6207,7 +6207,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           3d205411:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 70
             garbage: 2
             maintenance: 25
@@ -6221,7 +6221,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           5cf36ce3:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 57
             flamability: 50
             garbage: 1
@@ -6234,7 +6234,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           5cf36e24:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 54
             garbage: 1
             maintenance: 20
@@ -6246,7 +6246,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           5cf37074:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 68
             garbage: 2
             maintenance: 25
@@ -6260,7 +6260,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           5cf37444:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 53
             maintenance: 10
             menu: MiscTransit
@@ -6271,7 +6271,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           bcf36100:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 56
             maintenance: 10
             menu: MiscTransit
@@ -6282,7 +6282,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           bcf36894:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 55
             maintenance: 10
             menu: MiscTransit
@@ -6293,7 +6293,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           bcf36f3c:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 66
             garbage: 2
             maintenance: 25
@@ -6307,7 +6307,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           dcf36951:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 51
             garbage: 1
             maintenance: 20
@@ -6319,7 +6319,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           dcf36a78:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 64
             maintenance: 20
             menu: MiscTransit
@@ -6330,7 +6330,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           dcf36fc8:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 67
             garbage: 2
             maintenance: 25
@@ -6344,7 +6344,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           dd0ef80b:
             bulldoze: 100
-            category: bus
+            categories: bus
             cost: 100
             flamability: 50
             garbage: 4
@@ -6363,7 +6363,7 @@ mikeseith/multi-level-modular-garages:
             waterPollutionRadius: 1
           dd16f12b:
             bulldoze: 10
-            category: police
+            categories: police
             cost: 80
             flamability: 36
             jobs:
@@ -6378,7 +6378,7 @@ mikeseith/multi-level-modular-garages:
             water: 1
           fcf36d53:
             bulldoze: 100
-            category: transport
+            categories: transport
             cost: 52
             garbage: 1
             maintenance: 20

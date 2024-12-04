@@ -1,5 +1,5 @@
 maxis/63-building:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: 63 Building
@@ -53,7 +53,7 @@ maxis/63-building:
             bulldoze: 9900
             capacity:
               co$$: 2825
-            category: landmarks
+            categories: landmarks
             cost: 110000
             flamability: 10
             garbage: 39
@@ -86,7 +86,7 @@ maxis/63-building:
       version: 1.0.0
 
 maxis/adler-planetarium:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Adler Planetarium (Chicago)
@@ -99,7 +99,7 @@ maxis/adler-planetarium:
         Plugin_031_AdlerPlanetarium.dat:
           '04890000':
             bulldoze: 8100
-            category: landmarks
+            categories: landmarks
             cost: 90000
             flamability: 18
             garbage: 6
@@ -143,7 +143,7 @@ maxis/adler-planetarium:
             capacity:
               cs$: 15
               cs$$: 15
-            category: landmarks
+            categories: landmarks
             cost: 90000
             flamability: 18
             garbage: 6
@@ -176,7 +176,7 @@ maxis/adler-planetarium:
       version: 1.0.0
 
 maxis/air-force-base:
-  category: landmarks,rewards
+  categories: landmarks,rewards
   credits:
     - maxis: Original author
   name: Air Force Base
@@ -189,7 +189,7 @@ maxis/air-force-base:
         Plugin_007_AirForceBase.dat:
           036f0000:
             bulldoze: 1000
-            category: rewards
+            categories: rewards
             flamability: 40
             garbage: 10
             jobs:
@@ -230,7 +230,7 @@ maxis/air-force-base:
       version: 1.0.0
 
 maxis/arc-de-triomphe:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Arc de Triomphe (Paris)
@@ -284,7 +284,7 @@ maxis/arc-de-triomphe:
             capacity:
               cs$: 8
               cs$$: 8
-            category: landmarks
+            categories: landmarks
             cost: 55000
             garbage: 5
             maintenance: 110
@@ -316,7 +316,7 @@ maxis/arc-de-triomphe:
       version: 1.0.0
 
 maxis/brandenburg-gate:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Brandenburg Gate (Berlin)
@@ -329,7 +329,7 @@ maxis/brandenburg-gate:
         Plugin_00C_BrandenburgGate.dat:
           04b70000:
             bulldoze: 5850
-            category: landmarks
+            categories: landmarks
             cost: 60000
             flamability: 34
             garbage: 5
@@ -373,7 +373,7 @@ maxis/brandenburg-gate:
             capacity:
               cs$: 7
               cs$$: 7
-            category: landmarks
+            categories: landmarks
             cost: 60000
             flamability: 34
             garbage: 5
@@ -406,7 +406,7 @@ maxis/brandenburg-gate:
       version: 1.0.0
 
 maxis/capitol-records:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Capitol Records
@@ -460,7 +460,7 @@ maxis/capitol-records:
             bulldoze: 4500
             capacity:
               co$$: 531
-            category: landmarks
+            categories: landmarks
             cost: 50000
             flamability: 34
             garbage: 10
@@ -493,7 +493,7 @@ maxis/capitol-records:
       version: 1.0.0
 
 maxis/day-of-peace:
-  category: props
+  categories: props
   name: International Day of Peace Prop
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -548,7 +548,7 @@ maxis/day-of-peace:
       version: 1.0.0
 
 maxis/globe-arena:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Globe Arena (Stockholm)
@@ -607,7 +607,7 @@ maxis/globe-arena:
             capacity:
               cs$: 272
               cs$$: 272
-            category: landmarks
+            categories: landmarks
             cost: 70000
             flamability: 30
             garbage: 15
@@ -644,7 +644,7 @@ maxis/globe-arena:
       version: 1.0.0
 
 maxis/grand-central-station:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Grand Central Station (New York)
@@ -657,7 +657,7 @@ maxis/grand-central-station:
         Plugin_010_GrandCentralStation.dat:
           04b30000:
             bulldoze: 4500
-            category: landmarks
+            categories: landmarks
             cost: 110000
             flamability: 30
             garbage: 11
@@ -701,7 +701,7 @@ maxis/grand-central-station:
             capacity:
               cs$: 303
               cs$$: 303
-            category: landmarks
+            categories: landmarks
             cost: 110000
             flamability: 30
             garbage: 11
@@ -734,7 +734,7 @@ maxis/grand-central-station:
       version: 1.0.0
 
 maxis/grutze-industries:
-  category: landmarks
+  categories: landmarks
   name: Grutze Industries
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -747,7 +747,7 @@ maxis/grutze-industries:
         IndstryPipes-0x6534284a-0xad1d67dc-0x8d21717e.SC4Desc:
           8d21717e:
             bulldoze: 500
-            category: landmarks
+            categories: landmarks
             cost: 60000
             description: A plant the manufactures many Grutze products
             flamability: 10
@@ -769,7 +769,7 @@ maxis/grutze-industries:
         LM4x5_GrutzeInd_2d217719.SC4Lot:
           2d217719:
             bulldoze: 500
-            category: landmarks
+            categories: landmarks
             cost: 60000
             description: A plant the manufactures many Grutze products
             flamability: 10
@@ -800,7 +800,7 @@ maxis/grutze-industries:
       version: 1.0.0
 
 maxis/grutzehaus:
-  category: landmarks
+  categories: landmarks
   name: Grutzehaus
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -813,7 +813,7 @@ maxis/grutzehaus:
         DstTxtr-0x6534284a-0xad1d67dc-0x6d2170b6.SC4Desc:
           6d2170b6:
             bulldoze: 125
-            category: landmarks
+            categories: landmarks
             cost: 22000
             description: The house of the Grutze family
             flamability: 10
@@ -835,7 +835,7 @@ maxis/grutzehaus:
         LM2x3_Grutzehaus_ed2174a0.SC4Lot:
           ed2174a0:
             bulldoze: 125
-            category: landmarks
+            categories: landmarks
             cost: 22000
             description: The house of the Grutze family
             flamability: 10
@@ -866,7 +866,7 @@ maxis/grutzehaus:
       version: 1.0.0
 
 maxis/kunjungjon:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Kunjungjon
@@ -879,7 +879,7 @@ maxis/kunjungjon:
         Plugin_008_Kunjungjon.dat:
           04ba0000:
             bulldoze: 5850
-            category: landmarks
+            categories: landmarks
             cost: 65000
             flamability: 33
             garbage: 9
@@ -933,7 +933,7 @@ maxis/kunjungjon:
             capacity:
               cs$: 7
               cs$$: 7
-            category: landmarks
+            categories: landmarks
             cost: 65000
             flamability: 33
             garbage: 9
@@ -976,7 +976,7 @@ maxis/kunjungjon:
       version: 1.0.0
 
 maxis/longfellow-castle:
-  category: landmarks
+  categories: landmarks
   name: Longfellow Castle (Cambridge)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -989,7 +989,7 @@ maxis/longfellow-castle:
         CastleSet.dat:
           0d4fdea6:
             bulldoze: 100
-            category: landmarks
+            categories: landmarks
             cost: 110000
             description: 'Location: Long ago and far away'
             flamability: 10
@@ -1008,7 +1008,7 @@ maxis/longfellow-castle:
             waterPollutionRadius: 2
           2d3f0000:
             bulldoze: 100
-            category: landmarks
+            categories: landmarks
             cost: 110000
             description: 'Location: Long ago and far away'
             flamability: 10
@@ -1027,7 +1027,7 @@ maxis/longfellow-castle:
             waterPollutionRadius: 2
           2d4b0000:
             bulldoze: 100
-            category: landmarks
+            categories: landmarks
             cost: 110000
             description: 'Location: Long ago and far away'
             flamability: 10
@@ -1047,7 +1047,7 @@ maxis/longfellow-castle:
         Longfellow Castle_4d50ba18.SC4Lot:
           4d50ba18:
             bulldoze: 100
-            category: landmarks
+            categories: landmarks
             cost: 110000
             description: 'Location: Long ago and far away'
             flamability: 10
@@ -1163,7 +1163,7 @@ maxis/longfellow-castle:
       version: 1.0.0
 
 maxis/luckys-hang-ten:
-  category: landmarks
+  categories: landmarks
   name: Lucky's Hang Ten
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -1174,7 +1174,7 @@ maxis/luckys-hang-ten:
         Plugin_036_LuckysHangTen.dat:
           '04840000':
             bulldoze: 8100
-            category: landmarks,religion
+            categories: landmarks,religion
             cost: 90000
             flamability: 39
             garbage: 3
@@ -1204,7 +1204,7 @@ maxis/luckys-hang-ten:
 maxis/maxis-buildings-as-props:
   authors:
     - ralphaelninja
-  category: props
+  categories: props
   credits:
     - maxis: Original author
     - ralphaelninja: Additional building props Maxis had forgotten
@@ -2865,7 +2865,7 @@ maxis/maxis-buildings-as-props:
       version: 2.1.0
 
 maxis/mayflower-port:
-  category: landmarks
+  categories: landmarks
   name: Mayflower Port
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -2876,7 +2876,7 @@ maxis/mayflower-port:
         Plugin_032_MayflowerPort.dat:
           '04880000':
             bulldoze: 5850
-            category: landmarks
+            categories: landmarks
             cost: 65000
             flamability: 21
             garbage: 9
@@ -2909,7 +2909,7 @@ maxis/mayflower-port:
       version: 1.0.0
 
 maxis/namdaemun:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Namdaemun (Seoul)
@@ -2962,7 +2962,7 @@ maxis/namdaemun:
             capacity:
               cs$: 15
               cs$$: 15
-            category: landmarks
+            categories: landmarks
             cost: 65000
             flamability: 10
             garbage: 4
@@ -2993,7 +2993,7 @@ maxis/namdaemun:
       version: 1.0.0
 
 maxis/parthenon:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Parthenon (Athens)
@@ -3006,7 +3006,7 @@ maxis/parthenon:
         Plugin_00D_Parthenon.dat:
           04b60000:
             bulldoze: 6750
-            category: landmarks
+            categories: landmarks
             cost: 60000
             flamability: 35
             garbage: 2
@@ -3086,7 +3086,7 @@ maxis/parthenon:
             capacity:
               cs$: 7
               cs$$: 7
-            category: landmarks
+            categories: landmarks
             cost: 60000
             flamability: 35
             garbage: 2
@@ -3155,7 +3155,7 @@ maxis/parthenon:
       version: 1.0.0
 
 maxis/rockefeller-center:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Rockefeller Center (New York)
@@ -3168,7 +3168,7 @@ maxis/rockefeller-center:
         Plugin_033_RockefellerCenter.dat:
           '04870000':
             bulldoze: 8100
-            category: landmarks,religion
+            categories: landmarks,religion
             cost: 90000
             flamability: 39
             garbage: 3
@@ -3222,7 +3222,7 @@ maxis/rockefeller-center:
             bulldoze: 8100
             capacity:
               co$$: 4077
-            category: landmarks,religion
+            categories: landmarks,religion
             cost: 90000
             flamability: 39
             garbage: 3
@@ -3266,7 +3266,7 @@ maxis/rockefeller-center:
       version: 1.0.0
 
 maxis/sagrada-familia:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Sagrada Familia (Barcelona)
@@ -3319,7 +3319,7 @@ maxis/sagrada-familia:
             capacity:
               cs$: 38
               cs$$: 38
-            category: landmarks
+            categories: landmarks
             cost: 95000
             flamability: 16
             garbage: 5
@@ -3350,7 +3350,7 @@ maxis/sagrada-familia:
       version: 1.0.0
 
 maxis/san-francisco-city-hall:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: San Francisco City Hall
@@ -3405,7 +3405,7 @@ maxis/san-francisco-city-hall:
             capacity:
               co$$: 289
               co$$$: 111
-            category: landmarks
+            categories: landmarks
             cost: 65000
             flamability: 30
             garbage: 9
@@ -3438,7 +3438,7 @@ maxis/san-francisco-city-hall:
       version: 1.0.0
 
 maxis/schloss-schoenbrun:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Schönbrunn Palace (Vienna)
@@ -3499,7 +3499,7 @@ maxis/schloss-schoenbrun:
             capacity:
               cs$: 23
               cs$$: 23
-            category: landmarks
+            categories: landmarks
             cost: 95000
             flamability: 34
             garbage: 4
@@ -3538,7 +3538,7 @@ maxis/schloss-schoenbrun:
       version: 1.0.0
 
 maxis/seoul-city-hall:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Seoul City Hall
@@ -3597,7 +3597,7 @@ maxis/seoul-city-hall:
             capacity:
               co$$: 77
               co$$$: 32
-            category: landmarks
+            categories: landmarks
             cost: 65000
             flamability: 30
             garbage: 9
@@ -3634,7 +3634,7 @@ maxis/seoul-city-hall:
       version: 1.0.0
 
 maxis/seoul-soccer-stadium:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Seoul World Cup Stadium
@@ -3689,7 +3689,7 @@ maxis/seoul-soccer-stadium:
             capacity:
               cs$: 263
               cs$$: 263
-            category: landmarks
+            categories: landmarks
             cost: 160000
             garbage: 65
             maintenance: 310
@@ -3721,7 +3721,7 @@ maxis/seoul-soccer-stadium:
       version: 1.0.0
 
 maxis/shorty-burger:
-  category: landmarks
+  categories: landmarks
   name: Shorty Burger
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -3732,7 +3732,7 @@ maxis/shorty-burger:
         Plugin_035_ShortyBurger.dat:
           '04850000':
             bulldoze: 8100
-            category: landmarks,religion
+            categories: landmarks,religion
             cost: 90000
             flamability: 39
             garbage: 3
@@ -3760,7 +3760,7 @@ maxis/shorty-burger:
       version: 1.0.0
 
 maxis/sobchak-lanes:
-  category: landmarks
+  categories: landmarks
   name: Sobchak Lanes
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -3771,7 +3771,7 @@ maxis/sobchak-lanes:
         Plugin_034_SobchakLanes.dat:
           '04860000':
             bulldoze: 8100
-            category: landmarks,religion
+            categories: landmarks,religion
             cost: 90000
             flamability: 39
             garbage: 3
@@ -3799,7 +3799,7 @@ maxis/sobchak-lanes:
       version: 1.0.0
 
 maxis/stone-house:
-  category: landmarks
+  categories: landmarks
   name: Ian's House of Stone
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -3812,7 +3812,7 @@ maxis/stone-house:
         LM3x3_StoneHouse_0d1d6acb.SC4Lot:
           0d1d6acb:
             bulldoze: 500
-            category: landmarks
+            categories: landmarks
             cost: 75000
             description: A house made of stone and wood
             flamability: 10
@@ -3833,7 +3833,7 @@ maxis/stone-house:
         StoneHouse-0x6534284a-0xad1d67dc-0x6d2172e0.SC4Desc:
           6d2172e0:
             bulldoze: 500
-            category: landmarks
+            categories: landmarks
             cost: 75000
             description: A house made of stone and wood
             flamability: 10
@@ -3863,7 +3863,7 @@ maxis/stone-house:
       version: 1.0.0
 
 maxis/stonehenge:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Stonehenge
@@ -3876,7 +3876,7 @@ maxis/stonehenge:
         Plugin_016_Stonehenge.dat:
           04ad0000:
             bulldoze: 5850
-            category: landmarks
+            categories: landmarks
             cost: 60000
             garbage: 5
             maintenance: 10
@@ -3933,7 +3933,7 @@ maxis/stonehenge:
             capacity:
               cs$: 5
               cs$$: 5
-            category: landmarks
+            categories: landmarks
             cost: 60000
             garbage: 5
             maintenance: 10
@@ -3979,7 +3979,7 @@ maxis/stonehenge:
       version: 1.0.0
 
 maxis/taipei-art-museum:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: Taipei Fine Arts Museum
@@ -4034,7 +4034,7 @@ maxis/taipei-art-museum:
             capacity:
               cs$: 97
               cs$$: 97
-            category: landmarks
+            categories: landmarks
             cost: 95000
             flamability: 27
             garbage: 20
@@ -4067,7 +4067,7 @@ maxis/taipei-art-museum:
       version: 1.0.0
 
 maxis/temple-of-grutz:
-  category: landmarks
+  categories: landmarks
   name: Temple of Grutz
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
@@ -4080,7 +4080,7 @@ maxis/temple-of-grutz:
         LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot:
           2d1e7a9e:
             bulldoze: 500
-            category: landmarks
+            categories: landmarks
             cost: 100000
             description: An ancient structure made in the honor of the great Grutz
             flamability: 10
@@ -4099,7 +4099,7 @@ maxis/temple-of-grutz:
         TempleOfGrutz-0x6534284a-0xad1d67dc-0xed1e75d3.SC4Desc:
           ed1e75d3:
             bulldoze: 500
-            category: landmarks
+            categories: landmarks
             cost: 100000
             description: An ancient structure made in the honor of the great Grutz
             flamability: 10
@@ -4127,7 +4127,7 @@ maxis/temple-of-grutz:
       version: 1.0.0
 
 maxis/the-living-mall:
-  category: landmarks
+  categories: landmarks
   credits:
     - maxis: Original author
   name: The Living Mall (Taipei)
@@ -4182,7 +4182,7 @@ maxis/the-living-mall:
             capacity:
               cs$: 640
               cs$$: 640
-            category: landmarks
+            categories: landmarks
             cost: 55000
             flamability: 35
             garbage: 11

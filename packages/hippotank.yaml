@@ -1,5 +1,5 @@
 hippotank/ht-demand-fix:
-  category: bugfixes
+  categories: bugfixes
   description: |-
     This is just the fix for the demand values for the Medical Clinic, Solar Power Plant, Nuclear Power Plant.
 
@@ -35,7 +35,7 @@ hippotank/ht-demand-fix:
         HT_DemandFix.dat:
           '03110000':
             bulldoze: 40
-            category: health
+            categories: health
             cost: 400
             flamability: 35
             garbage: 9
@@ -59,7 +59,7 @@ hippotank/ht-demand-fix:
             waterPollutionRadius: 3
           1f3f0000:
             bulldoze: 1800
-            category: power
+            categories: power
             cost: 40000
             flamability: 80
             garbage: 15
@@ -79,7 +79,7 @@ hippotank/ht-demand-fix:
             waterPollutionRadius: 5
           1f440000:
             bulldoze: 1350
-            category: power
+            categories: power
             cost: 30000
             flamability: 50
             garbage: 11
