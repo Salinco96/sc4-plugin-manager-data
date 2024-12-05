@@ -1,7 +1,6 @@
 sfbt/essentials:
   categories: dependencies
-  description: |-
-    The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs. The file will be updated from time to time, so please check back to this download once in a while.
+  description: The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs. The file will be updated from time to time, so please check back to this download once in a while.
   features:
     - sfbt
   name: SFBT Essentials
@@ -16,10 +15,18 @@ sfbt/essentials:
           id: sc4evermore/13-sfbt-essentials
           include:
             - SFBT
-            - path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_{{sfbt.trees}}.dat
-              as: SFBT_Trees/*
+            - as: SFBT_Trees/*
+              path: _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_{{sfbt.trees}}.dat
       lastGenerated: 2024-12-03T16:03:49.352Z
       lastModified: 2023-08-17T18:52:53.000Z
+      mmps:
+        SFBT_Props/SFBT_ArkenbergeJoe_Baeume.dat:
+          16b00000:
+            name: SFBT_BSC-Tanne
+          16c00000:
+            name: SFBT_BSC-Pappel
+          '30000000':
+            name: SFBT_Birke
       options:
         - global: true
           id: sfbt.trees

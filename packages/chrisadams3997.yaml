@@ -307,27 +307,153 @@ chrisadams3997/rrp-pasture-flora:
           id: sc4evermore/167-bsc-aln-rrp-pasture-flora
           include:
             - BSC/BSCProps
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets-B_1020.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_BlueBonnets.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Cat Tails.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grass_green.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Grasses_1060.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_HayBales_1080.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Johnson Grass_1030.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Lillypads.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Marsh.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Medium Scrub Brush.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Pink Wild Flowers-B_1010.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Reed Grass_1038.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Straws_1070.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Stumps.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsA_1050.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_WeedsB_1058.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_White Wild Flowers.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers-B_1018.dat
-            # - BSC/ChrisAdams3997/Rural Renuval Project/Pasture Flora/ALN_Yellow Wild Flowers.dat
+            - BSC/ChrisAdams3997/Rural Renuval Project
       lastGenerated: 2024-12-03T16:03:49.352Z
       lastModified: 2024-11-01T00:43:50.000Z
+      mmps:
+        Pasture Flora/ALN_BlueBonnets-B_1020.dat:
+          0dde1020:
+            name: ALN_BlueBonnets01
+            stages:
+              - id: 0dde1021
+                name: ALN_BlueBonnets02
+        Pasture Flora/ALN_BlueBonnets.dat:
+          4b1ee706:
+            name: ALN_BlueBonnets01
+            stages:
+              - id: 4b1ee707
+                name: ALN_BlueBonnets02
+        Pasture Flora/ALN_Cat Tails.dat:
+          21bdbbb1:
+            name: ALN_Cattails01
+            stages:
+              - id: 21bdbbb2
+                name: ALN_Cattails02
+              - id: 21bdbbb3
+                name: ALN_Cattails03
+        Pasture Flora/ALN_Grass_green.dat:
+          4aa33906:
+            name: ALN_GrassGreen01
+            stages:
+              - id: 4aa33907
+                name: ALN_GrassGreen02
+              - id: 4aa33908
+                name: ALN_GrassGreen03
+        Pasture Flora/ALN_Grasses_1060.dat:
+          0dde1060:
+            name: ALN_RyeGrass 01
+          0dde1062:
+            name: ALN_RyeGrass 02
+        Pasture Flora/ALN_HayBales_1080.dat:
+          0dde1080:
+            name: ALN_Hay Bale 01
+            stages:
+              - id: 0dde1081
+                name: ALN_Hay Bale 02
+              - id: 0dde1082
+                name: ALN_Hay Bale 03
+              - id: 0dde1083
+                name: ALN_Hay Bale 04
+              - id: 0dde1084
+                name: ALN_Hay Bale 05
+              - id: 0dde1085
+                name: ALN_Hay Bale 06
+              - id: 0dde1086
+                name: ALN_Hay Bale 07
+              - id: 0dde1087
+                name: ALN_Hay Bale 08
+        Pasture Flora/ALN_Johnson Grass_1030.dat:
+          0dde1030:
+            name: ALN_JohnsonGrass01
+            stages:
+              - id: 0dde1031
+                name: ALN_Johnson Grass 02
+        Pasture Flora/ALN_Lillypads.dat:
+          93cd88fb:
+            name: ALN_LillyPads01
+        Pasture Flora/ALN_Marsh.dat:
+          0dde0202:
+            name: ALN_Marsh 01
+            stages:
+              - id: 0dde0203
+                name: ALN_Marsh
+        Pasture Flora/ALN_Medium Scrub Brush.dat:
+          0dde104a:
+            name: Medium Scrub Brush 1
+            stages:
+              - id: 0dde104b
+                name: Medium Scrub Brush 2
+              - id: 0dde104c
+                name: Medium Scrub Brush 3
+        Pasture Flora/ALN_Pink Wild Flowers-B_1010.dat:
+          0dde1010:
+            name: Aln_White Wild Flowers
+            stages:
+              - id: 0dde1011
+                name: ALN_White Wild Flowers 2
+        Pasture Flora/ALN_Reed Grass_1038.dat:
+          0dde1038:
+            name: ALN_Reed Grass 01
+            stages:
+              - id: 0dde1039
+                name: ALN_Reed Grass 02
+        Pasture Flora/ALN_Straws_1070.dat:
+          0dde1070:
+            name: ALN_Straw 01
+            stages:
+              - id: 0dde1071
+                name: ALN_Straw 01
+          0dde1072:
+            name: ALN_Straw Light 01
+            stages:
+              - id: 0dde1073
+                name: ALN_Straw Light 02
+        Pasture Flora/ALN_Stumps.dat:
+          0b7946aa:
+            name: ALN_Stumps01
+            stages:
+              - id: 0b7946ab
+                name: ALN_Stumps02
+              - id: 0b7946ac
+                name: ALN_Stumps03
+        Pasture Flora/ALN_WeedsA_1050.dat:
+          0dde1050:
+            name: ALN_WeedA01
+            stages:
+              - id: 0dde1051
+                name: ALN_Reed Grass 02
+              - id: 0dde1052
+                name: ALN_Reed Grass 02
+              - id: 0dde1053
+                name: ALN_Reed Grass 02
+        Pasture Flora/ALN_WeedsB_1058.dat:
+          0dde1058:
+            name: ALN_WeedB01
+            stages:
+              - id: 0dde1059
+                name: ALN_Reed Grass 02
+              - id: 0dde105a
+                name: ALN_Reed Grass 02
+              - id: 0dde105b
+                name: ALN_Reed Grass 02
+        Pasture Flora/ALN_White Wild Flowers.dat:
+          0dde113d:
+            name: Aln_White Wild Flowers
+            stages:
+              - id: 0dde113e
+                name: ALN_White Wild Flowers 2
+        Pasture Flora/ALN_Yellow Wild Flowers-B_1018.dat:
+          0dde1018:
+            name: Aln_White Wild Flowers
+            stages:
+              - id: 0dde1019
+                name: ALN_White Wild Flowers 2
+        Pasture Flora/ALN_Yellow Wild Flowers.dat:
+          0dde112d:
+            name: ALN_Yellow Wild Flowers 1
+            stages:
+              - id: 0dde112e
+                name: ALN_Yellow Wild Flowers 2
       props:
         ALN_Pasture Flora.dat:
           16cd2ce1:
