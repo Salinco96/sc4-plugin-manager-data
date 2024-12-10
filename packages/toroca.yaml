@@ -104,6 +104,30 @@ toroca/commercial-services-doubler:
   images:
     - https://www.simtropolis.com/objects/screens/0017/9b9dbdb73f0a70e23fa9688ae7f7e8d6-screenshot.jpg
   name: Commercial Services Doubler
+  options:
+    - choices:
+        - x1
+        - x2
+      default: x2
+      id: small
+      label: Small services (<150 jobs)
+      type: string
+    - choices:
+        - x1
+        - x2
+        - x3
+      default: x2
+      id: large
+      label: Large services (>150 jobs)
+      type: string
+    - choices:
+        - x1
+        - x2
+        - x4
+      default: x2
+      id: malls
+      label: Malls
+      type: string
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2011/thumb-9b9dbdb73f0a70e23fa9688ae7f7e8d6-screenshot.jpg
   url: https://community.simtropolis.com/files/file/25651-commercial-services-doubler/
   variants:
@@ -956,38 +980,6 @@ toroca/commercial-services-doubler:
             name: CS$$$14x14_4EuroLuxuryStore4_062A
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2011-01-07T19:58:30.000Z
-      options:
-        - choices:
-            - label: x1
-              value: x1
-            - label: x2
-              value: x2
-          default: x2
-          id: small
-          label: Small services (<150 jobs)
-          type: string
-        - choices:
-            - label: x1
-              value: x1
-            - label: x2
-              value: x2
-            - label: x3
-              value: x3
-          default: x2
-          id: large
-          label: Large services (>150 jobs)
-          type: string
-        - choices:
-            - label: x1
-              value: x1
-            - label: x2
-              value: x2
-            - label: x4
-              value: x4
-          default: x2
-          id: malls
-          label: Malls
-          type: string
       release: 2024-11-27T09:00:58.547Z
       version: 2.0.0
 
@@ -1012,6 +1004,89 @@ toroca/functional-landmarks:
   features:
     - landmark-jobs
   name: Functional Maxis Landmarks
+  options:
+    - choices:
+        - label: Alamo
+          value: TheAlamo
+        - Alcatraz
+        - Amalienborg
+        - label: American Museum of Natural History
+          value: AmericanMuseumOfNaturalHistory
+        - label: Bank of America
+          value: BankOfAmerica
+        - label: Bank of China
+          value: BankOfChinaTower
+        - label: Big Ben
+          value: BigBen
+        - label: California Plaza
+          value: CaliforniaPlaza
+        - label: Chrysler Building
+          value: ChryslerBuilding
+        - label: CN Tower
+          value: CNTower
+        - label: Coit Tower
+          value: CoitTower
+        - label: Columbia Seafirst Center
+          value: ColumbiaSeafirstCenter
+        - label: Empire State Building
+          value: TheEmpireStateBuilding
+        - label: Faneuil Hall
+          value: FaneuilHall
+        - Fernsehturm
+        - label: Gateway Arch
+          value: GatewayArch
+        - label: Great Pyramid
+          value: TheGreatPyramid
+        - label: Guggenheim Museum
+          value: TheGuggenheimMuseum
+        - label: Hagia Sophia
+          value: HagiaSophia
+        - label: Hollywood Sign
+          value: HollywoodSign
+        - label: Independence Hall
+          value: IndependenceHall
+        - label: Jefferson Memorial
+          value: JeffersonMemorial
+        - label: John Hancock Center
+          value: JohnHancockCenter
+        - label: Lincoln Center
+          value: LincolnCenter
+        - label: Lincoln Memorial
+          value: LincolnMemorial
+        - label: Palace of Fine Arts
+          value: PalaceOfFineArts
+        - label: Palacio Real
+          value: PalacioReal
+        - label: Rotes Rathaus
+          value: RotesRathaus
+        - label: Schloss Neuschwanstein
+          value: SchlossNeuschwanstein
+        - label: Smith Tower
+          value: SmithTower
+        - label: Sphinx
+          value: TheSphinx
+        - label: Statue of Liberty
+          value: StatueOfLiberty
+        - label: St Basil's Cathedral
+          value: StBasilsCathedral
+        - label: Taj Mahal
+          value: TajMahal
+        - label: Tokyo Tower
+          value: TokyoTower
+        - label: Tower of London
+          value: TowerOfLondon
+        - label: US Capitol
+          value: USCapitolBuilding
+        - label: Washington Monument
+          value: TheWashingtonMonument
+        - label: White House
+          value: TheWhiteHouse
+      default: all
+      display: checkbox
+      id: landmarks
+      label: Landmarks
+      multi: true
+      type: string
   support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
   url: https://community.simtropolis.com/files/file/21340-functional-landmarks-complete-set-v10/
   variants:
@@ -1788,92 +1863,6 @@ toroca/functional-landmarks:
             waterPollutionRadius: 3
       lastGenerated: 2024-12-02T13:46:11.980Z
       lastModified: 2004-03-16T00:00:00.000Z
-      options:
-        - choices:
-            - label: Alamo
-              value: TheAlamo
-            - label: Alcatraz
-              value: Alcatraz
-            - label: Amalienborg
-              value: Amalienborg
-            - label: American Museum of Natural History
-              value: AmericanMuseumOfNaturalHistory
-            - label: Bank of America
-              value: BankOfAmerica
-            - label: Bank of China
-              value: BankOfChinaTower
-            - label: Big Ben
-              value: BigBen
-            - label: California Plaza
-              value: CaliforniaPlaza
-            - label: Chrysler Building
-              value: ChryslerBuilding
-            - label: CN Tower
-              value: CNTower
-            - label: Coit Tower
-              value: CoitTower
-            - label: Columbia Seafirst Center
-              value: ColumbiaSeafirstCenter
-            - label: Empire State Building
-              value: TheEmpireStateBuilding
-            - label: Faneuil Hall
-              value: FaneuilHall
-            - label: Fernsehturm
-              value: Fernsehturm
-            - label: Gateway Arch
-              value: GatewayArch
-            - label: Great Pyramid
-              value: TheGreatPyramid
-            - label: Guggenheim Museum
-              value: TheGuggenheimMuseum
-            - label: Hagia Sophia
-              value: HagiaSophia
-            - label: Hollywood Sign
-              value: HollywoodSign
-            - label: Independence Hall
-              value: IndependenceHall
-            - label: Jefferson Memorial
-              value: JeffersonMemorial
-            - label: John Hancock Center
-              value: JohnHancockCenter
-            - label: Lincoln Center
-              value: LincolnCenter
-            - label: Lincoln Memorial
-              value: LincolnMemorial
-            - label: Palace of Fine Arts
-              value: PalaceOfFineArts
-            - label: Palacio Real
-              value: PalacioReal
-            - label: Rotes Rathaus
-              value: RotesRathaus
-            - label: Schloss Neuschwanstein
-              value: SchlossNeuschwanstein
-            - label: Smith Tower
-              value: SmithTower
-            - label: Sphinx
-              value: TheSphinx
-            - label: Statue of Liberty
-              value: StatueOfLiberty
-            - label: St Basil's Cathedral
-              value: StBasilsCathedral
-            - label: Taj Mahal
-              value: TajMahal
-            - label: Tokyo Tower
-              value: TokyoTower
-            - label: Tower of London
-              value: TowerOfLondon
-            - label: US Capitol
-              value: USCapitolBuilding
-            - label: Washington Monument
-              value: TheWashingtonMonument
-            - label: White House
-              value: TheWhiteHouse
-          default: all
-          display: checkbox
-          id: landmarks
-          label: Landmarks
-          multi: true
-          type: string
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
   warnings:
@@ -2312,6 +2301,24 @@ toroca/no-radiation-rewards:
   categories: gameplay,overrides
   description: This mod allows the user to remove radiation pollution from any of the five rewards that produce it. See the included Readme for further details.
   name: No Radiation Rewards
+  options:
+    - choices:
+        - label: Advanced Research Center
+          value: advancedresearchcenter
+        - label: Area 51
+          value: area51
+        - label: Army Base
+          value: armybase
+        - label: Disease Research Center
+          value: diseaseresearchcenter
+        - label: Toxic Waste Dump
+          value: toxicwastedump
+      default: all
+      display: checkbox
+      id: rewards
+      label: Rewards
+      multi: true
+      type: string
   requirements:
     minVersion: 638
   url: https://community.simtropolis.com/files/file/21338-no-radiation-reward-v11/
@@ -2431,24 +2438,6 @@ toroca/no-radiation-rewards:
             waterPollutionRadius: 10
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2003-10-20T23:00:00.000Z
-      options:
-        - choices:
-            - label: Advanced Research Center
-              value: advancedresearchcenter
-            - label: Area 51
-              value: area51
-            - label: Army Base
-              value: armybase
-            - label: Disease Research Center
-              value: diseaseresearchcenter
-            - label: Toxic Waste Dump
-              value: toxicwastedump
-          default: all
-          display: checkbox
-          id: rewards
-          label: Rewards
-          multi: true
-          type: string
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
 
@@ -2495,6 +2484,24 @@ toroca/toll-booth-booster:
   categories: gameplay,transport,overrides
   description: This mod increases the capacity of toll booths, and there are several versions to choose from to allow users to have higher toll charges if they wish. See the included Readme for further details on version selection.
   name: Toll Booth Booster
+  options:
+    - choices:
+        - label: Standard
+          value: standard
+        - label: Boosted
+          value: alternate
+      default: alternate
+      id: capacity
+      label: Capacity
+      type: string
+    - choices:
+        - x1
+        - x2
+        - x5
+      default: x1
+      id: fares
+      label: Fares
+      type: string
   requirements:
     minVersion: 638
   url: https://community.simtropolis.com/files/file/21335-toll-booth-booster-v20/
@@ -2813,26 +2820,5 @@ toroca/toll-booth-booster:
             waterPollutionRadius: 1
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2003-10-20T23:00:00.000Z
-      options:
-        - choices:
-            - label: Standard
-              value: standard
-            - label: Boosted
-              value: alternate
-          default: alternate
-          id: capacity
-          label: Capacity
-          type: string
-        - choices:
-            - label: x1
-              value: x1
-            - label: x2
-              value: x2
-            - label: x5
-              value: x5
-          default: x1
-          id: fares
-          label: Fares
-          type: string
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0

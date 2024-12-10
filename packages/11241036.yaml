@@ -1,7 +1,7 @@
 11241036/seasonal-woods:
   categories: parks,flora
   credits:
-    - 11241036: Modding
+    - '11241036': Modding
     - girafe: Trees
   dependencies:
     - girafe/flora-pack
@@ -23,9 +23,9 @@
       assets:
         - docs:
             - Readme English.pdf
-          id: simtropolis/29749-seasonal-wood-lots-girafes-trees
           exclude:
             - GSW_Description_Deutsch.dat
+          id: simtropolis/29749-seasonal-wood-lots-girafes-trees
           include:
             - GSW Seasonal Woods Girafe Trees/GSW Girafe Trees Seasonal Woods
       buildings:
@@ -1648,7 +1648,7 @@
         waterPollutionRadius: 2
   categories: parks,flora
   credits:
-    - 11241036: Modding
+    - '11241036': Modding
     - cycledogg: Trees
     - girafe: Trees
     - orange: Trees
@@ -1661,7 +1661,6 @@
     - girafe/flora-pack
     - pegasus/spam-super-resource-pack
     - pegasus/terrain-kit
-    - sfbt/essentials
     - vip/rural-pack
   description: |-
     This plugin contains a row of forest combinations on ploppable lots. These have been designed to fill a certain gap in the game: For filling large areas with trees, there are tree controllers, and for creating detailed scenes on a small scale, there are MMP's - however, when trying to place forests on small lots, mostly gaps between buildings, lots, farm fields, or in parks, you can use neither nor, because tree controllers are not exact enough, and with MMP's, it will take too long.
@@ -1785,6 +1784,8 @@
         name: GSW_SFBT_Herbstlaub_mittel_kleinere Grundflaeche_orient2slope
       8e52cfa7:
         name: GSW_SFBT_Herbstlaub_kleinere Grundflaeche_orient2slope
+  requirements:
+    sfbt: true
   support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c1706582f0_OverviewGSW2.thumb.jpg.b3f53d733230068e362bccce49e6ed05.jpg
   url: https://community.simtropolis.com/files/file/33889-seasonal-woods-2nd-iteration/
@@ -1810,10 +1811,6 @@
             building: 0570a396
             name: GSW_Base Rural 4x1
             size: 4x1
-          068a5f9e:
-            building: 068a5f9e
-            name: GSW_Base Badlands 4x1
-            size: 4x1
           '07832253':
             building: '07832253'
             name: GSW_Blank Urban 1x1
@@ -1822,14 +1819,6 @@
             building: 0783229d
             name: GSW_Blank Rural 4x1
             size: 4x1
-          '07832609':
-            building: '07832609'
-            name: GSW_Blank Conifer 4x1
-            size: 4x1
-          '07832617':
-            building: '07832617'
-            name: GSW_Blank Conifer 1x1
-            size: 1x1
           '07832632':
             building: '07832632'
             name: GSW_Base Cascadia 4x1
@@ -1838,14 +1827,6 @@
             building: 0783267c
             name: GSW_Base CETC 1x1
             size: 1x1
-          0c965231:
-            building: 0c965231
-            name: GSW_Base Conifer Seasonal 1x1
-            size: 1x1
-          0c965eed:
-            building: 0c965eed
-            name: GSW_Base Conifer Seasonal 4x1
-            size: 4x1
           25351d94:
             building: 25351d94
             name: GSW_Blank Cascadia 1x1
@@ -1858,10 +1839,6 @@
             building: '27832671'
             name: GSW_Base CETC 4x1
             size: 4x1
-          '45351e35':
-            building: '45351e35'
-            name: GSW_Base Conifer 1x1
-            size: 1x1
           4570a415:
             building: 4570a415
             name: GSW_Base Park 4x1
@@ -1890,10 +1867,6 @@
             building: 8570a365
             name: GSW_Base Urban 4x1
             size: 4x1
-          8570a4bf:
-            building: 8570a4bf
-            name: GSW_Base Conifer 4x1
-            size: 4x1
           '85720451':
             building: '85720451'
             name: GSW_Blank CETC 1x1
@@ -1902,10 +1875,6 @@
             building: '87832501'
             name: GSW_Blank Hillside 4x1
             size: 4x1
-          8c965f44:
-            building: 8c965f44
-            name: GSW_Blank Conifer Seasonal 1x1
-            size: 1x1
           a5351d45:
             building: a5351d45
             name: GSW_Base Rural 1x1
@@ -1914,26 +1883,14 @@
             building: a7832651
             name: GSW_Base Cascadia 1x1
             size: 1x1
-          ac965f24:
-            building: ac965f24
-            name: GSW_Blank Conifer Seasonal 4x1
-            size: 4x1
           c570a47c:
             building: c570a47c
             name: GSW_Base Hillside 4x1
             size: 4x1
-          c68a5f77:
-            building: c68a5f77
-            name: GSW_Base Badlands 1x1
-            size: 1x1
           c78323c0:
             building: c78323c0
             name: GSW_Blank Riverside 1x1
             size: 1x1
-          c78326e4:
-            building: c78326e4
-            name: GSW_Blank Badlands 4x1
-            size: 4x1
           e5351d66:
             building: e5351d66
             name: GSW_Base Urban 1x1
@@ -1961,10 +1918,6 @@
           e783250e:
             building: e783250e
             name: GSW_Blank Hillside 1x1
-            size: 1x1
-          e78326f0:
-            building: e78326f0
-            name: GSW_Blank Badlands 1x1
             size: 1x1
           feb036c0:
             building: feb036c0

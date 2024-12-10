@@ -30,6 +30,36 @@ null-45/auto-save:
     The source code and bug tracker is located on [GitHub](https://github.com/0xC0000054/sc4-auto-save).
   logs: SC4AutoSave.log
   name: SC4 Auto Save DLL
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4AutoSave.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: 15
+      file: SC4AutoSave.ini
+      id: AutoSave.IntervalInMinutes
+      label: Auto-save interval in minutes
+      max: 120
+      min: 1
+      type: number
+    - default: true
+      file: SC4AutoSave.ini
+      id: AutoSave.FastSave
+      label: Use Fast Save (no region thumbnail update)
+      type: boolean
+    - default: true
+      description: Controls whether the time the game spends paused is ignored when counting towards the next auto-save point.
+      file: SC4AutoSave.ini
+      id: AutoSave.IgnoreTimePaused
+      label: Ignore time paused
+      type: boolean
+    - default: true
+      file: SC4AutoSave.ini
+      id: AutoSave.LogSaveEvents
+      label: Enable save event logs
+      type: boolean
   repository: https://github.com/0xC0000054/sc4-auto-save
   support: https://community.simtropolis.com/forums/topic/762722-sc4autosave
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_11/SC4AutoSaveSTEXIcon.thumb.png.76798bc0a3f4162a440ff15d3830026d.png
@@ -42,42 +72,11 @@ null-45/auto-save:
           id: github/0xC0000054/sc4-auto-save
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-01-21T04:05:42.000Z
-      logs: SC4AutoSave.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4AutoSave.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: 15
-          file: SC4AutoSave.ini
-          id: AutoSave.IntervalInMinutes
-          label: Auto-save interval in minutes
-          max: 120
-          min: 1
-          type: number
-        - default: true
-          file: SC4AutoSave.ini
-          id: AutoSave.FastSave
-          label: Use Fast Save (no region thumbnail update)
-          type: boolean
-        - default: true
-          description: Controls whether the time the game spends paused is ignored when counting towards the next auto-save point.
-          file: SC4AutoSave.ini
-          id: AutoSave.IgnoreTimePaused
-          label: Ignore time paused
-          type: boolean
-        - default: true
-          file: SC4AutoSave.ini
-          id: AutoSave.LogSaveEvents
-          label: Enable save event logs
-          type: boolean
       release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
 
 null-45/bulldoze-extensions:
-  categories: mods,gameplay,dll
+  categories: gameplay,dll
   description: |-
     A DLL Plugin for SimCity 4 that extends the bulldoze tool.
 
@@ -93,6 +92,7 @@ null-45/bulldoze-extensions:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_11/DemolishFloraNewIcon.jpg.48574c9f40be374411a20f1d5d386d61.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_11/DemolishNetworkNewIcon.jpg.ec298214a6c6106e1edee280ef08b7bf.jpg
+  logs: SC4BulldozeExtensions.log
   name: Bulldoze Extensions DLL
   repository: https://github.com/0xC0000054/sc4-bulldoze-extensions
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/STEXIcon.thumb.png.f8c1f6edc887880bfa781d6903756114.png
@@ -103,7 +103,6 @@ null-45/bulldoze-extensions:
         - id: github/0xC0000054/sc4-bulldoze-extensions
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-11-26T00:39:37.000Z
-      logs: SC4BulldozeExtensions.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -127,6 +126,13 @@ null-45/city-date-sync:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-date-sync
   logs: SC4CityDateSync.log
   name: SC4 City Date Sync DLL
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4CityDateSync.ini
+      id: Admin.Enabled
+      type: boolean
   repository: https://github.com/0xC0000054/sc4-city-date-sync
   support: https://community.simtropolis.com/forums/topic/762766-sc4citydatesync-synchronize-the-city-dates-in-a-region
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_11/STEXIcon.thumb.png.965f05907fc98b577f19c398501165ed.png
@@ -139,14 +145,6 @@ null-45/city-date-sync:
           id: github/0xC0000054/sc4-city-date-sync
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-01-08T11:05:31.000Z
-      logs: SC4CityDateSync.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4CityDateSync.ini
-          id: Admin.Enabled
-          type: boolean
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.3
 
@@ -206,6 +204,60 @@ null-45/city-lottery-ordinance:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-city-lottery-ordinance
   logs: SC4CityLotteryOrdinance.log
   name: City Lottery Ordinance
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4CityLotteryOrdinance.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: 500
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.MonthlyConstantIncome
+      label: Base monthly income
+      type: number
+    - default: 0.05
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.R$IncomeFactor
+      label: Income factor for the R$ population
+      step: 0.01
+      type: number
+    - default: 0.03
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.R$$IncomeFactor
+      label: Income factor for the R$$ population
+      step: 0.01
+      type: number
+    - default: 0.01
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.R$$$IncomeFactor
+      label: Income factor for the R$$$ population
+      step: 0.01
+      type: number
+    - default: 1.01
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.Cs$DemandEffect
+      label: CS$ demand multiplier (1 = normal)
+      max: 2
+      min: 0.01
+      step: 0.01
+      type: number
+    - default: 1.1
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.CrimeEffectMultiplier
+      label: Crime multiplier (1 = normal)
+      max: 2
+      min: 0.01
+      step: 0.01
+      type: number
+    - default: 102
+      file: SC4CityLotteryOrdinance.ini
+      id: CityLotteryOrdinance.SchoolEQBoostEffect
+      label: School EQ multiplier (100 = normal)
+      max: 200
+      min: 1
+      step: 1
+      type: number
   repository: https://github.com/0xC0000054/sc4-city-lottery-ordinance
   support: https://community.simtropolis.com/forums/topic/762835-city-lottery-ordinance-dll-plugin
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.thumb.png.b0a453a8049745f600cfaf9f6e12fb20.png
@@ -218,61 +270,6 @@ null-45/city-lottery-ordinance:
           id: github/0xC0000054/sc4-city-lottery-ordinance
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2023-12-21T03:31:06.000Z
-      logs: SC4CityLotteryOrdinance.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4CityLotteryOrdinance.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: 500
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.MonthlyConstantIncome
-          label: Base monthly income
-          type: number
-        - default: 0.05
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.R$IncomeFactor
-          label: Income factor for the R$ population
-          step: 0.01
-          type: number
-        - default: 0.03
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.R$$IncomeFactor
-          label: Income factor for the R$$ population
-          step: 0.01
-          type: number
-        - default: 0.01
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.R$$$IncomeFactor
-          label: Income factor for the R$$$ population
-          step: 0.01
-          type: number
-        - default: 1.01
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.Cs$DemandEffect
-          label: CS$ demand multiplier (1 = normal)
-          max: 2
-          min: 0.01
-          step: 0.01
-          type: number
-        - default: 1.1
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.CrimeEffectMultiplier
-          label: Crime multiplier (1 = normal)
-          max: 2
-          min: 0.01
-          step: 0.01
-          type: number
-        - default: 102
-          file: SC4CityLotteryOrdinance.ini
-          id: CityLotteryOrdinance.SchoolEQBoostEffect
-          label: School EQ multiplier (100 = normal)
-          max: 200
-          min: 1
-          step: 1
-          type: number
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -313,6 +310,24 @@ null-45/cpu-options:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-cpu-options
   logs: SC4CPUOptions.log
   name: SC4 CPU Options DLL
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4CPUOptions.ini
+      id: Admin.Enabled
+      type: boolean
+    - choices:
+        - High
+        - AboveNormal
+        - Normal
+        - BelowNormal
+        - Low
+      default: AboveNormal
+      file: SC4CPUOptions.ini
+      id: CPUOptions.Priority
+      label: Priority
+      type: string
   repository: https://github.com/0xC0000054/sc4-cpu-options
   support: https://community.simtropolis.com/forums/topic/762979-sc4cpuoptions
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.55cf8d37094679309e4c933ec6df6848.png
@@ -325,25 +340,6 @@ null-45/cpu-options:
           id: github/0xC0000054/sc4-cpu-options
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-02-14T14:43:27.000Z
-      logs: SC4CPUOptions.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4CPUOptions.ini
-          id: Admin.Enabled
-          type: boolean
-        - choices:
-            - High
-            - AboveNormal
-            - Normal
-            - BelowNormal
-            - Low
-          default: AboveNormal
-          file: SC4CPUOptions.ini
-          id: CPUOptions.Priority
-          label: Priority
-          type: string
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
@@ -387,7 +383,6 @@ null-45/custom-budget-departments:
         - id: github/0xC0000054/sc4-custom-budget-departments
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-10-04T22:22:34.000Z
-      logs: CustomBudgetDepartments.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
@@ -420,7 +415,6 @@ null-45/disable-cheats:
         - id: github/0xC0000054/sc4-disable-cheats
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2023-11-12T02:45:13.000Z
-      logs: SC4DisableCheats.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -454,7 +448,6 @@ null-45/disable-demolition-animation:
         - id: github/0xC0000054/sc4-disable-demolition-animation
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-01-24T23:02:44.000Z
-      logs: SC4DisableDemolitionAnimation.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -490,7 +483,6 @@ null-45/disable-lot-plop-smoke:
         - id: github/0xC0000054/sc4-disable-lot-plop-smoke
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-02-17T01:32:55.000Z
-      logs: SC4DisableLotPlopSmoke.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -528,7 +520,6 @@ null-45/disable-network-construction-sounds:
         - id: github/0xC0000054/sc4-disable-network-construction-sounds
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-02-18T12:35:46.000Z
-      logs: SC4DisableNetworkConstructionSounds.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -581,6 +572,68 @@ null-45/graphics-options:
   name: Graphics Options
   optional:
     - memo/region-thumbnail-fix
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4GraphicsOptions.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: true
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.EnableIntroVideo
+      label: Play intro video on startup
+      type: boolean
+    - default: false
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.PauseGameOnFocusLoss
+      label: Pause the game when it loses focus
+      type: boolean
+    - choices:
+        - DirectX
+        - OpenGL
+        - Software
+      default: DirectX
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.Driver
+      label: Driver
+      type: string
+    - choices:
+        - label: Full screen
+          value: FullScreen
+        - label: Borderless window
+          value: Borderless
+        - label: Window
+          value: Windowed
+      default: FullScreen
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.WindowMode
+      label: Window mode
+      type: string
+    - condition:
+        GraphicsOptions.WindowMode: Windowed
+      default: 1920
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.WindowWidth
+      label: Window width
+      min: 800
+      type: number
+    - condition:
+        GraphicsOptions.WindowMode: Windowed
+      default: 1080
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.WindowHeight
+      label: Window height
+      min: 600
+      type: number
+    - choices:
+        - 16
+        - 32
+      default: 32
+      file: SC4GraphicsOptions.ini
+      id: GraphicsOptions.ColorDepth
+      label: Color depth
+      type: number
   repository: https://github.com/0xC0000054/sc4-graphics-options
   support: https://community.simtropolis.com/forums/topic/762952-sc4graphicsoptions
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.da4c65cf8db81ee630bb6cba8651e9d5.png
@@ -593,72 +646,6 @@ null-45/graphics-options:
           id: github/0xC0000054/sc4-graphics-options
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-02-11T00:42:53.000Z
-      logs: SC4GraphicsOptions.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4GraphicsOptions.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: true
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.EnableIntroVideo
-          label: Play intro video on startup
-          type: boolean
-        - default: false
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.PauseGameOnFocusLoss
-          label: Pause the game when it loses focus
-          type: boolean
-        - choices:
-            - label: DirectX
-              value: DirectX
-            - label: OpenGL
-              value: OpenGL
-            - label: Software
-              value: Software
-          default: DirectX
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.Driver
-          label: Driver
-          type: string
-        - choices:
-            - label: Full screen
-              value: FullScreen
-            - label: Borderless window
-              value: Borderless
-            - label: Window
-              value: Windowed
-          default: FullScreen
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.WindowMode
-          label: Window mode
-          type: string
-        - condition:
-            GraphicsOptions.WindowMode: Windowed
-          default: 1920
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.WindowWidth
-          label: Window width
-          min: 800
-          type: number
-        - condition:
-            GraphicsOptions.WindowMode: Windowed
-          default: 1080
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.WindowHeight
-          label: Window height
-          min: 600
-          type: number
-        - choices:
-            - 16
-            - 32
-          default: 32
-          file: SC4GraphicsOptions.ini
-          id: GraphicsOptions.ColorDepth
-          label: Color depth
-          type: number
       release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
 
@@ -723,7 +710,6 @@ null-45/growify:
         - id: github/0xC0000054/sc4-growify
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-05-23T05:03:06.000Z
-      logs: SC4Growify.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
@@ -756,6 +742,23 @@ null-45/humane-society-ordinance:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-humane-society-ordinance
   logs: SC4HumaneSocietyOrdinance.log
   name: Humane Society Ordinance
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4HumaneSocietyOrdinance.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: Humane Society
+      file: SC4HumaneSocietyOrdinance.ini
+      id: Ordinance.Name
+      label: Name
+      type: string
+    - default: Program that provides a city animal shelter. Improves mayor rating and reduces crime.
+      file: SC4HumaneSocietyOrdinance.ini
+      id: Ordinance.Description
+      label: Description
+      type: string
   repository: https://github.com/0xC0000054/sc4-humane-society-ordinance
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.thumb.png.c8adf8463164699bd97ba8cda829adae.png
   url: https://community.simtropolis.com/files/file/35793-humane-society-ordinance/
@@ -767,24 +770,6 @@ null-45/humane-society-ordinance:
           id: github/0xC0000054/sc4-humane-society-ordinance
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-03-24T20:40:25.000Z
-      logs: SC4HumaneSocietyOrdinance.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4HumaneSocietyOrdinance.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: Humane Society
-          file: SC4HumaneSocietyOrdinance.ini
-          id: Ordinance.Name
-          label: Name
-          type: string
-        - default: Program that provides a city animal shelter. Improves mayor rating and reduces crime.
-          file: SC4HumaneSocietyOrdinance.ini
-          id: Ordinance.Description
-          label: Description
-          type: string
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
@@ -834,6 +819,44 @@ null-45/legalize-gambling-ordinance:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
   logs: SC4LegalizeGamblingUpgrade.log
   name: Legalize Gambling Ordinance
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4LegalizeGamblingUpgrade.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: 250
+      file: SC4LegalizeGamblingUpgrade.ini
+      id: GamblingOrdinance.BaseMonthlyIncome
+      label: Base monthly income
+      type: number
+    - default: 0.02
+      file: SC4LegalizeGamblingUpgrade.ini
+      id: GamblingOrdinance.R$IncomeFactor
+      label: Income factor for the R$ population
+      step: 0.01
+      type: number
+    - default: 0.03
+      file: SC4LegalizeGamblingUpgrade.ini
+      id: GamblingOrdinance.R$$IncomeFactor
+      label: Income factor for the R$$ population
+      step: 0.01
+      type: number
+    - default: 0.05
+      file: SC4LegalizeGamblingUpgrade.ini
+      id: GamblingOrdinance.R$$$IncomeFactor
+      label: Income factor for the R$$$ population
+      step: 0.01
+      type: number
+    - default: 0.05
+      file: SC4LegalizeGamblingUpgrade.ini
+      id: GamblingOrdinance.CrimeEffectMultiplier
+      label: Crime effect multiplier
+      max: 2
+      min: 0.01
+      step: 0.01
+      type: number
   repository: https://github.com/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
   support: https://community.simtropolis.com/forums/topic/762856-legalize-gambling-ordinance-upgrade-dll-plugin
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/STEXIcon.thumb.png.41bb8647cbbc4cc2203ab7342943060d.png
@@ -846,45 +869,6 @@ null-45/legalize-gambling-ordinance:
           id: github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2023-12-25T03:10:47.000Z
-      logs: SC4LegalizeGamblingUpgrade.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4LegalizeGamblingUpgrade.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: 250
-          file: SC4LegalizeGamblingUpgrade.ini
-          id: GamblingOrdinance.BaseMonthlyIncome
-          label: Base monthly income
-          type: number
-        - default: 0.02
-          file: SC4LegalizeGamblingUpgrade.ini
-          id: GamblingOrdinance.R$IncomeFactor
-          label: Income factor for the R$ population
-          step: 0.01
-          type: number
-        - default: 0.03
-          file: SC4LegalizeGamblingUpgrade.ini
-          id: GamblingOrdinance.R$$IncomeFactor
-          label: Income factor for the R$$ population
-          step: 0.01
-          type: number
-        - default: 0.05
-          file: SC4LegalizeGamblingUpgrade.ini
-          id: GamblingOrdinance.R$$$IncomeFactor
-          label: Income factor for the R$$$ population
-          step: 0.01
-          type: number
-        - default: 0.05
-          file: SC4LegalizeGamblingUpgrade.ini
-          id: GamblingOrdinance.CrimeEffectMultiplier
-          label: Crime effect multiplier
-          max: 2
-          min: 0.01
-          step: 0.01
-          type: number
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -1038,6 +1022,31 @@ null-45/more-building-styles:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-more-building-styles
   logs: SC4MoreBuildingStyles.log
   name: More Building Styles DLL
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4MoreBuildingStyles.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: false
+      file: SC4MoreBuildingStyles.ini
+      id: DebugLogging.BuildingStyleSelection
+      label: Log success/failure for the building selection
+      section: Debugging
+      type: boolean
+    - default: false
+      file: SC4MoreBuildingStyles.ini
+      id: DebugLogging.LotStyleSelection
+      label: Log success/failure for the lot style selection
+      section: Debugging
+      type: boolean
+    - default: false
+      file: SC4MoreBuildingStyles.ini
+      id: DebugLogging.GrowableFunctions
+      label: Log return codes for various algorithm functions
+      section: Debugging
+      type: boolean
   repository: https://github.com/0xC0000054/sc4-more-building-styles
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_02/STEXIcon.thumb.png.d0a231227c791acd31e13fe612986fb2.png
   url: https://community.simtropolis.com/files/file/36112-allow-more-building-styles-dll-plugin/
@@ -1050,32 +1059,6 @@ null-45/more-building-styles:
             - SC4MoreBuildingStyles.dll
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-11-15T01:08:15.000Z
-      logs: SC4MoreBuildingStyles.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4MoreBuildingStyles.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: false
-          file: SC4MoreBuildingStyles.ini
-          id: DebugLogging.BuildingStyleSelection
-          label: Log success/failure for the building selection
-          section: Debugging
-          type: boolean
-        - default: false
-          file: SC4MoreBuildingStyles.ini
-          id: DebugLogging.LotStyleSelection
-          label: Log success/failure for the lot style selection
-          section: Debugging
-          type: boolean
-        - default: false
-          file: SC4MoreBuildingStyles.ini
-          id: DebugLogging.GrowableFunctions
-          label: Log return codes for various algorithm functions
-          section: Debugging
-          type: boolean
       release: 2024-11-26T21:04:04.961Z
       version: 3.2.0
 
@@ -1169,7 +1152,6 @@ null-45/more-demand-info:
             - Dll
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-05-08T04:10:48.000Z
-      logs: SC4MoreDemandInfo.log
       release: 2024-11-27T09:00:58.547Z
       version: 1.2.0
 
@@ -1207,7 +1189,6 @@ null-45/no-kickout-lower-wealth:
         - id: github/0xC0000054/sc4-no-kick-out
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-02-27T10:27:18.000Z
-      logs: SC4NoKickOut.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -1290,38 +1271,42 @@ null-45/query-tool-ui-extensions:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/CustomNetworkTooltip.jpg.2cbf9c5d0ac1069689147b7427fbeebc.jpg
   logs: SC4QueryUIHooks.log
   name: Query Tool UI Extensions DLL
+  options:
+    - condition:
+        never: true
+      default: true
+      file: SC4QueryUIHooks.ini
+      id: Admin.Enabled
+      type: boolean
+    - default: true
+      file: SC4QueryUIHooks.ini
+      id: QueryUIHooks.EnableOccupantQuerySounds
+      label: Enable query sounds
+      type: boolean
+    - default: false
+      file: SC4QueryUIHooks.ini
+      id: QueryUIHooks.LogBuildingPluginPath
+      label: Log building plugin path
+      type: boolean
   repository: https://github.com/0xC0000054/sc4-query-ui-hooks
   support: https://community.simtropolis.com/forums/topic/763107-query-tool-ui-extensions-dll
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.thumb.png.ff8b2dce5ef2d377f18e5401653e1c02.png
-  url: https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/
   variants:
     default:
       assets:
-        - exclude:
+        - docs:
+            - LICENSE.txt
+            - README.htm
+            - Third Party Notices.txt
+          exclude:
             - SC4QueryUIHooks.ini
           id: github/0xC0000054/sc4-query-ui-hooks
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2024-11-23T12:40:27.000Z
-      logs: SC4QueryUIHooks.log
-      options:
-        - condition:
-            never: true
-          default: true
-          file: SC4QueryUIHooks.ini
-          id: Admin.Enabled
-          type: boolean
-        - default: true
-          file: SC4QueryUIHooks.ini
-          id: QueryUIHooks.EnableOccupantQuerySounds
-          label: Enable query sounds
-          type: boolean
-        - default: false
-          file: SC4QueryUIHooks.ini
-          id: QueryUIHooks.LogBuildingPluginPath
-          label: Log building plugin path
-          type: boolean
-      release: 2024-11-26T21:04:04.961Z
-      version: 2.0.0
+          include:
+            - SC4QueryUIHooks.dll
+            - SC4QueryUIHooks.ini
+      lastGenerated: 2024-12-09T16:32:20.142Z
+      lastModified: 2024-12-02T10:40:57.000Z
+      release: 2024-12-09T16:32:20.142Z
+      version: 2.1.0
 
 null-45/region-view-census:
   categories: mods,dll
@@ -1358,7 +1343,6 @@ null-45/region-view-census:
         - id: github/0xC0000054/sc4-region-census
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-02-27T06:32:25.000Z
-      logs: SC4RegionCensus.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
@@ -1410,7 +1394,6 @@ null-45/remove-phantom-budget-items:
         - id: github/0xC0000054/sc4-remove-phantom-budget-items
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-09-07T05:11:45.000Z
-      logs: SC4RemovePhantomBudgetItems.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -1448,7 +1431,6 @@ null-45/resource-loading-hooks:
         - id: github/0xC0000054/sc4-resource-loading-hooks
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-06-26T13:34:16.000Z
-      logs: SC4ResourceLoadingHooks.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
 
@@ -1506,6 +1488,5 @@ null-45/startup-performance-optimization:
         - id: github/0xC0000054/sc4-dbpf-loading
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-10-19T00:03:24.000Z
-      logs: SC4DBPFLoading.log
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.4

@@ -114,7 +114,42 @@ memo/submenus-dll:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.jpeg.37cdc1aba8ba5f84d543d46c579de1d4.jpeg
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/parks-submenus-animation.gif.fc7b73b36d2cfd59d4aca263a753285c.gif
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/commercial-submenus.jpeg.7fd15082d193a82259d3a0fff766ebf7.jpeg
+  logs: memo.submenus.log
   name: Submenus DLL
+  options:
+    - choices:
+        - label: Submenus for residential ploppables
+          value: residential
+        - label: Submenus for commercial ploppables
+          value: commercial
+        - label: Submenus for industrial ploppables
+          value: industrial
+        - label: Submenus for police stations
+          value: police
+        - label: Submenus for schools and libraries
+          value: education
+        - label: Submenus for clinics and hospitals
+          value: health
+        - label: Submenus for landmarks
+          value: landmark
+        - label: Submenus for parks
+          value: park
+        - label: Submenus for highways
+          value: highway
+        - label: Submenus for railways
+          value: rail
+        - label: Submenus for roads and networks
+          value: misc-transit
+        - label: Submenus for waterfront
+          value: water-transit
+        - label: Submenus for utilities
+          value: power
+      default: all
+      display: checkbox
+      id: submenus
+      label: Standard submenus
+      multi: true
+      type: string
   repository: https://github.com/memo33/submenus-dll
   support: https://community.simtropolis.com/forums/topic/763010-submenus-dll
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/glr-submenu.thumb.jpeg.b849d44b5fa1dc01e969a9deeff7a2dd.jpeg
@@ -147,41 +182,6 @@ memo/submenus-dll:
             waterPollutionRadius: 2
       lastGenerated: 2024-12-02T13:33:03.845Z
       lastModified: 2024-08-09T07:49:03.000Z
-      logs: memo.submenus.log
-      options:
-        - choices:
-            - label: Submenus for residential ploppables
-              value: residential
-            - label: Submenus for commercial ploppables
-              value: commercial
-            - label: Submenus for industrial ploppables
-              value: industrial
-            - label: Submenus for police stations
-              value: police
-            - label: Submenus for schools and libraries
-              value: education
-            - label: Submenus for clinics and hospitals
-              value: health
-            - label: Submenus for landmarks
-              value: landmark
-            - label: Submenus for parks
-              value: park
-            - label: Submenus for highways
-              value: highway
-            - label: Submenus for railways
-              value: rail
-            - label: Submenus for roads and networks
-              value: misc-transit
-            - label: Submenus for waterfront
-              value: water-transit
-            - label: Submenus for utilities
-              value: power
-          default: all
-          display: checkbox
-          id: submenus
-          label: Standard submenus
-          multi: true
-          type: string
       release: 2024-11-27T09:00:58.547Z
       version: 1.1.4
 

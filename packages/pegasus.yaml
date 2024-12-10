@@ -242,7 +242,7 @@ pegasus/mtp-super-pack:
       version: 1.5.0
 
 pegasus/spam:
-  categories: gameplay,agriculture,spam
+  categories: gameplay,spam
   dependencies:
     - pegasus/mtp-super-pack
     - pegasus/spam-super-resource-pack
@@ -266,6 +266,8 @@ pegasus/spam:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2012/39a2a7e52169570a7f3ca1b46e9174d9-.jpg
   name: SimPeg Agricultural Mod (SPAM)
+  requirements:
+    cam: false
   support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2012/thumb-39a2a7e52169570a7f3ca1b46e9174d9-.jpg
   url: https://community.simtropolis.com/files/file/26080-simpeg-agricultural-mod-spam/
@@ -1427,8 +1429,6 @@ pegasus/spam:
             family: a0000071
             name: SPAM_field-picking-anim
       release: 2024-12-03T16:03:49.352Z
-      requirements:
-        cam: false
       version: 1.0.0
 
 pegasus/spam-super-resource-pack:
