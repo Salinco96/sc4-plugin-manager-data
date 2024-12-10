@@ -1252,11 +1252,29 @@ null-45/query-tool-ui-extensions:
 
     Multiple \*\_occupancy and \*\_capacity variables can be combined in a LTEXT query to show the filled/available occupancy. e.g. #cs1_occupancy#/#cs1_capacity#.
 
-    **Advanced Network Query Tool Tip**
+    **Extended Terrain Query**
 
-    A custom advanced/debug query tool tip is provided for the transportation networks, excluding power lines and pipes.
+    The TerrainQuery command now shows the x, y, and z variables without truncating to the first decimal place, and the cell moisture value is now provided as part of the standard query info.
 
-    This tool tip is accessed by holding *Control + Alt + Shift* when hovering over a network piece.
+    **Alternate Terrain Query**
+
+    This mode is accessed by holding the Alt key. It shows the humidity and ambient wind information, this data appears to be for the entire tile instead of varying per-cell.
+
+    **Advanced Query Tool Tips**
+
+    These tool tips are accessed by holding *Control + Alt + Shift* when hovering over an appropriate item.
+
+    **Flora**
+
+    This tool tip provides the flora object's exemplar name, birth date, and last seeding date.
+
+    **Network**
+
+    This tool tip provides technical info about the transportation networks, excluding power lines and pipes.
+
+    **Props**
+
+    This tool tip provides the prop object's exemplar name.
 
     **Source Code and Support**
 
@@ -1269,6 +1287,10 @@ null-45/query-tool-ui-extensions:
     Thanks to the few people who have donated to me.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/CustomNetworkTooltip.jpg.2cbf9c5d0ac1069689147b7427fbeebc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/CustomFloraTooltip.jpg.6c1d8d7428a77724c2ace1df841cf00b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/CustomPropTooltip.jpg.38d9f76835c52fa83b8a594bff17145c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/ExtendedTerrainQuery.jpg.c3f6b056a770005c1c397431e92e3472.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/AlternateTerrainQuery.jpg.e44d73bffc624b38f38a9073087de8ac.jpg
   logs: SC4QueryUIHooks.log
   name: Query Tool UI Extensions DLL
   options:
@@ -1290,23 +1312,18 @@ null-45/query-tool-ui-extensions:
       type: boolean
   repository: https://github.com/0xC0000054/sc4-query-ui-hooks
   support: https://community.simtropolis.com/forums/topic/763107-query-tool-ui-extensions-dll
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/STEXIcon.thumb.png.ff8b2dce5ef2d377f18e5401653e1c02.png
+  url: https://community.simtropolis.com/files/file/36202-query-tool-ui-extensions-dll-for-simcity-4/
   variants:
     default:
       assets:
-        - docs:
-            - LICENSE.txt
-            - README.htm
-            - Third Party Notices.txt
-          exclude:
+        - exclude:
             - SC4QueryUIHooks.ini
           id: github/0xC0000054/sc4-query-ui-hooks
-          include:
-            - SC4QueryUIHooks.dll
-            - SC4QueryUIHooks.ini
-      lastGenerated: 2024-12-09T16:32:20.142Z
-      lastModified: 2024-12-02T10:40:57.000Z
-      release: 2024-12-09T16:32:20.142Z
-      version: 2.1.0
+      lastGenerated: 2024-12-10T10:25:09.262Z
+      lastModified: 2024-12-09T23:12:07.000Z
+      release: 2024-12-10T10:25:09.262Z
+      version: 2.2.0
 
 null-45/region-view-census:
   categories: mods,dll
