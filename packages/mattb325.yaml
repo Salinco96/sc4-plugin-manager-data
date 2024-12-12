@@ -142,7 +142,7 @@ mattb325/batprops-cottages-ornee-vol01:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 634
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.656Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Cottages Ornee Vol01.dat:
@@ -179,7 +179,7 @@ mattb325/batprops-cottages-ornee-vol02:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 Cottages Ornee Vol02*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.662Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Cottages Ornee Vol02.dat:
@@ -270,7 +270,7 @@ mattb325/batprops-london-w2w-vol01:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 London W2W Vol01*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.670Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 London W2W Vol01.dat:
@@ -305,7 +305,7 @@ mattb325/batprops-mc-mansion-vol01:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 McMansion Vol01*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.675Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 McMansion Vol01.dat:
@@ -342,7 +342,7 @@ mattb325/batprops-shopping-malls-vol01:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 Shopping Mall Pack Vol01*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.681Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Shopping Mall Pack Vol01.dat:
@@ -838,7 +838,7 @@ mattb325/batprops-small-modern-houses:
             waterPollution: 1
             waterPollutionRadius: 5
             worth: 231
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.687Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Small Modern House Pack.dat:
@@ -904,6 +904,7 @@ mattb325/batprops-small-modern-houses:
 mattb325/batprops-vol01:
   categories: props
   name: BSC BATProps - Mattb325 Vol01
+  readme: Batprops readme.html
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
   variants:
@@ -913,8 +914,9 @@ mattb325/batprops-vol01:
             - Cleanitol_BSC BATProps MattB325 Vol01*.txt
           docs:
             - BSC BATProps MattB325 Vol01*_index.jpg
-            - ~Documents/BSC_Readmes/Mattb325/Batprops readme.html
-            - ~Documents/BSC_Readmes/Mattb325/batprops01*.jpg
+            - ~Documents/BSC_Readmes/Mattb325
+          exclude:
+            - ~Documents/BSC_Readmes/Mattb325/**/*Vol04*
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 Vol01*.dat
@@ -1386,7 +1388,7 @@ mattb325/batprops-vol01:
             waterPollution: 1
             waterPollutionRadius: 4
             worth: 842
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T15:51:19.080Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Vol01.dat:
@@ -1515,7 +1517,7 @@ mattb325/batprops-vol02:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 Vol02*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.701Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Vol02.dat:
@@ -1846,7 +1848,7 @@ mattb325/batprops-vol03:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 Vol03*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.707Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Vol03.dat:
@@ -1959,6 +1961,7 @@ mattb325/batprops-vol03:
 mattb325/batprops-vol04:
   categories: props
   name: BSC BATProps - Mattb325 Vol04
+  readme: Readme_BSC BATProps MattB325 Vol04.html
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
   variants:
@@ -1973,7 +1976,7 @@ mattb325/batprops-vol04:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC BATProps Mattb325 Vol04*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.712Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 Vol04.dat:
@@ -2349,7 +2352,7 @@ mattb325/batprops-w2w-vol01:
             waterPollution: 4
             waterPollutionRadius: 7
             worth: 8758
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.719Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC BATProps Mattb325 W2W Prop Pack Vol01.dat:

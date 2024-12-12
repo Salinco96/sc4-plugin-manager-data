@@ -5,7 +5,7 @@ vip/rural-pack:
     - girafe
     - orange
     - vnaoned
-  categories: graphics
+  categories: mmps
   credits:
     - ben: Models
     - girafe: Models
@@ -27,35 +27,29 @@ vip/rural-pack:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/VIP_RuralPack_Exp_R.jpg.622abddd465405a802e98c78582c9b7d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bf71f486a7a_VIPRuralExp-main.jpg.1ae24f09fe6bf1a7193f784710967875.jpg
   name: VIP Rural Pack
+  readme: ReadMe VIPRuralPack v2.html
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2011/thumb-83efce19914a0839f44897e772c39146-imagelexruralpack.jpg
   url: https://community.simtropolis.com/files/file/26806-vip-rural-pack-v2/
   variants:
     default:
       assets:
-        - cleanitol:
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/Cleanitol_VIP Rural Pack.txt
-          docs:
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/VIP_Rural_Pack_v2-pt1_index.jpg
-            - ~Documents/Prop-Texture Catalogue Index and Cleanitol/VIP_Rural_Pack_v2-pt2_index.jpg
-            - ~Documents/VIP_Readmes/ReadMe VIPRuralPack v2.html
-            - ~Documents/VIP_Readmes/images/VIP_Background_Chapter.jpg
-            - ~Documents/VIP_Readmes/images/VIP_Background_Table.jpg
-            - ~Documents/VIP_Readmes/images/VIP_Background_Title.jpg
-            - ~Documents/VIP_Readmes/images/VIP_Banner.jpg
-            - ~Documents/VIP_Readmes/images/VIP_RuralPack_Exp_L.jpg
-            - ~Documents/VIP_Readmes/images/VIP_RuralPack_Exp_R.jpg
-            - ~Documents/VIP_Readmes/images/VIP_RuralPack_L.jpg
-            - ~Documents/VIP_Readmes/images/VIP_RuralPack_R.jpg
-            - ~Documents/VIP_Readmes/images/VIP_Separator.jpg
+        - docs:
+            - as: Index
+              path: ~Documents/Prop-Texture Catalogue Index and Cleanitol
+            - ~Documents/VIP_Readmes
           id: simtropolis/26806-vip-rural-pack-v2
           include:
-            - VIP/VIPProps
-            - VIP
-      lastGenerated: 2024-12-03T16:03:49.352Z
+            - as: RuralPack
+              path: VIP/Rural Pack
+            - as: Props
+              path: VIP/VIPProps
+      lastGenerated: 2024-12-12T15:51:19.102Z
       lastModified: 2024-02-04T11:16:22.000Z
       mmps:
-        Rural Pack/Manchou/VIP_Man_Cows_Seasonal_MMP.dat:
+        RuralPack/Manchou/VIP_Man_Cows_Seasonal_MMP.dat:
           '19620420':
+            description: Click one or several times to make vary models. The models will automatically vary 3 times through the year.
+            label: Cows seasonal.
             name: VIP_Man_Cow_01
             stages:
               - id: '19620421'
@@ -98,11 +92,15 @@ vip/rural-pack:
                 name: VIP_Man_Cow_20
               - id: '19620434'
                 name: VIP_Man_Cow_21
-        Rural Pack/Orange/VIP_Or_Corylus_Seasonal_MMP.dat:
+        RuralPack/Orange/VIP_Or_Corylus_Seasonal_MMP.dat:
           '19620275':
+            description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante.To be planted the 1st September. The timing will be correct in the next game year.
+            label: Corylus saisonnier. Corylus seasonal.
             name: Or_VIP_Corylus01
-        Rural Pack/Orange/VIP_Or_Narcissus_Seasonal_MMP.dat:
+        RuralPack/Orange/VIP_Or_Narcissus_Seasonal_MMP.dat:
           '19620280':
+            description: 'A planter un 1er Septembre. Le timing sera initialisé l''année suivante. Cliquez une ou plusieurs fois pour faire varier les 5 modèles. Note : en hiver les fougères remplacent les jonquilles. To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 5 models. Note: in winter ferns replace Narcissus.'
+            label: Narcissus. Jonquilles. Yellow Daffodills.
             name: VIP_RP-FL_Or_Narcissus01
             stages:
               - id: '19620281'
@@ -113,8 +111,10 @@ vip/rural-pack:
                 name: VIP_RP-FL_Or_Narcissus04
               - id: '19620284'
                 name: VIP_RP-FL_Or_Narcissus05
-        Rural Pack/Orange/VIP_Or_Populus_Seasonal_MMP.dat:
+        RuralPack/Orange/VIP_Or_Populus_Seasonal_MMP.dat:
           '19620270':
+            description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante. Cliquez une ou plusieurs fois pour faire varier les 4 modèles.To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 4 models.
+            label: Populus. Peupliers. Poplars.
             name: 'Or_VIP_Populus04 '
             stages:
               - id: '19620271'
@@ -123,216 +123,320 @@ vip/rural-pack:
                 name: 'Or_VIP_Populus03  '
               - id: '19620273'
                 name: 'Or_VIP_Populus02  '
-        Rural Pack/R6/VIP_R6_Herbes_Pampa_Big_MMP.dat:
+        RuralPack/R6/VIP_R6_Herbes_Pampa_Big_MMP.dat:
           '19620074':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
+            label: Herbes de la Pampa grandes. Pampa grass (big).
             name: R6_VIP_ploppable_HPampaBig01
             stages:
               - id: '19620075'
+                model: fa766faf
                 name: R6_VIP_ploppable_HPampBig02
               - id: '19620076'
+                model: 9a766455
                 name: R6_VIP_ploppable_HPampaBig03
-        Rural Pack/R6/VIP_R6_Herbes_Pampa_Small_MMP.dat:
+        RuralPack/R6/VIP_R6_Herbes_Pampa_Small_MMP.dat:
           '19620080':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
+            label: Herbes de la Pampa petites. Pampa grass (small).
             name: R6_VIP_ploppable_HPampaSmall01
             stages:
               - id: '19620081'
+                model: fa4ecc85
                 name: R6_VIP_ploppable_HPampaSmall02
               - id: '19620082'
+                model: ba4ece32
                 name: R6_VIP_ploppable_HPampaSmall03
-        Rural Pack/R6/VIP_R6_Iris_Des_Marais_Seasonal_MMP.dat:
+        RuralPack/R6/VIP_R6_Iris_Des_Marais_Seasonal_MMP.dat:
           '19620130':
+            description: A planter un 1er Septembre. Les iris sont en fleur pendant 8 mois. To be planted the 1st September. The flowering lasts 8 months.
+            label: Iris des Marais saisoniers. Marsh Iris seasonal.
             name: R6_VIP_Iris des Marais01
             stages:
               - id: '19620131'
                 name: R6_VIP_Iris des Marais02
               - id: '19620132'
                 name: R6_VIP_Iris des Marais03
-        Rural Pack/R6/VIP_R6_Nenuphars_MMP.dat:
+        RuralPack/R6/VIP_R6_Nenuphars_MMP.dat:
           '19620020':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 4 modèles. Click one or several times to make vary the 4 models.
+            label: Nenuphars. Lilly pads.
             name: R6_VIP_plop_Nenuphars
             stages:
               - id: '19620021'
+                model: 9a4eceec
                 name: R6_VIP_plop_Nenuphar01
               - id: '19620022'
+                model: 7a4ecf69
                 name: R6_VIP_plop_Nenuphar02
               - id: '19620023'
+                model: 1a4ecfdf
                 name: R6_VIP_plop_Nenuphar03
               - id: '19620024'
+                model: 1a76a1d2
                 name: R6_VIP_plop_Nenuphar04
-        Rural Pack/R6/VIP_R6_Potamot_MMP.dat:
+        RuralPack/R6/VIP_R6_Potamot_MMP.dat:
           '19620100':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 4 modèles. Click one or several times to make vary the 4 models.
+            label: Potamot nageant. Potamogeton.
             name: R6_VIP_plop_Potamot
             stages:
               - id: '19620101'
+                model: fb17348d
                 name: R6_VIP_plop_Potamot01
               - id: '19620102'
+                model: fb1734e3
                 name: R6_VIP_plop_Potamot02
               - id: '19620103'
+                model: 5b173537
                 name: R6_VIP_plop_Potamot03
               - id: '19620104'
+                model: 7b173594
                 name: R6_VIP_plop_Potamot04
-        Rural Pack/R6/VIP_R6_Rochers_MMP.dat:
+        RuralPack/R6/VIP_R6_Rochers_MMP.dat:
           '19620160':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 8 modèles. Click one or several times to make vary the 8 models.
+            label: Rochers mousse petits et gros. Mossy rocks small and big.
             name: R6_VIP_RochersMousse
             stages:
               - id: '19620161'
+                model: 1a6414bc
                 name: R6_VIP_RochersMousseSmall01
               - id: '19620162'
+                model: 5a64160a
                 name: R6_VIP_RochersMousseSmall02
               - id: '19620163'
+                model: 5a6417ce
                 name: R6_VIP_RochersMousseSmall03
               - id: '19620164'
+                model: da64196b
                 name: R6_VIP_RochersMousseSmall04
               - id: '19620165'
+                model: ba631112
                 name: R6_VIP_RochersMousseBig01
               - id: '19620166'
+                model: 3a631538
                 name: R6_VIP_RochersMousseBig02
               - id: '19620167'
+                model: 9a63e662
                 name: R6_VIP_RochersMousseBig03
               - id: '19620168'
+                model: 3a63ea03
                 name: R6_VIP_RochersMousseBig04
-        Rural Pack/R6/VIP_R6_Roseaux_Big_MMP.dat:
+        RuralPack/R6/VIP_R6_Roseaux_Big_MMP.dat:
           '19620070':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
+            label: Roseaux grands. Cattails (big).
             name: R6_VIP_ploppable_RoseauxBig01
             stages:
               - id: '19620071'
+                model: 1a765a61
                 name: R6_VIP_ploppable_RoseauxBig02
               - id: '19620072'
+                model: 3a765f46
                 name: R6_VIP_ploppable_RoseauxBig03
-        Rural Pack/R6/VIP_R6_Roseaux_Small_MMP.dat:
+        RuralPack/R6/VIP_R6_Roseaux_Small_MMP.dat:
           '19620030':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
+            label: Roseaux petits. Cattails (small).
             name: R6_VIP_ploppable_RoseauxSmall01
             stages:
               - id: '19620031'
+                model: 9a4ed0fd
                 name: R6_VIP_ploppable_RoseauxSmall02
               - id: '19620032'
+                model: 3a4ed162
                 name: R6_VIP_ploppable_RoseauxSmall03
-        Rural Pack/VIP_Garbage_MMP.dat:
+        RuralPack/VIP_Garbage_MMP.dat:
           '19620400':
+            description: Click one or several times to make vary models.
+            label: Garbage.
             name: VIP_Garbage_01
             stages:
               - id: '19620401'
+                model: badb57f1-1d36
                 name: VIP_Garbage_02
               - id: '19620402'
+                model: badb57f1-1dd4
                 name: VIP_Garbage_03
               - id: '19620403'
+                model: badb57f1-1f30
                 name: VIP_Garbage_04
               - id: '19620404'
+                model: badb57f1-1d1d
                 name: VIP_Garbage_05
               - id: '19620405'
+                model: badb57f1-1d35
                 name: VIP_Garbage_06
               - id: '19620406'
+                model: badb57f1-1df7
                 name: VIP_Garbage_07
               - id: '19620407'
+                model: badb57f1-ae3a
                 name: VIP_Garbage_08
               - id: '19620408'
+                model: 986c5a2c
                 name: VIP_Garbage_09
               - id: '19620409'
+                model: badb57f1-1dfa
                 name: VIP_Garbage_10
               - id: '19620410'
+                model: badb57f1-1df6
                 name: VIP_Garbage_11
               - id: 1962041a
+                model: badb57f1-1df8
                 name: VIP_Garbage_12
-        Rural Pack/VIP_Kayaks_And_Zodiacs_MMP.dat:
+        RuralPack/VIP_Kayaks_And_Zodiacs_MMP.dat:
           '19620110':
+            description: Cliquez une ou plusieurs fois afin de faire varier les 13 modèles. Click one or several times to make vary the 13 models.
+            label: Kayaks et zodiacs. Kayaks and zodiacs.
             name: VIP_plop_Kayak&Zodiacs
             stages:
               - id: '19620111'
+                model: 1a4870e6
                 name: VIP_plop_KayakRemorquePleine
               - id: '19620112'
+                model: 3a7ed517
                 name: VIP_plop_KayakVide01
               - id: '19620113'
+                model: fa7ea67c
                 name: VIP_plop_KayakVide02
               - id: '19620114'
+                model: fa7d892a
                 name: VIP_plop_Kayakiste01
               - id: '19620115'
+                model: 5a7d80fd
                 name: VIP_plop_Kayakiste02
               - id: '19620116'
+                model: 5a4234f1
                 name: VIP_plop_Kayakiste03
               - id: '19620117'
+                model: 7ac701d0
                 name: VIP_plop_ZodiacVide01
               - id: '19620118'
+                model: 1b1715d4
                 name: VIP_plop_ZodiacVide02
               - id: '19620119'
+                model: 5b17169c
                 name: VIP_plop_ZodiacVide03
               - id: '19620120'
+                model: 7b171be7
                 name: VIP_plop_ZodiacOccup�01
               - id: '19620121'
+                model: bb171c71
                 name: VIP_plop_ZodiacOccup�02
               - id: '19620122'
+                model: fb171d12
                 name: VIP_plop_ZodiacOccup�03
-        Rural Pack/Vnaoned/VIP_VV_Barques_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Barques_MMP.dat:
           '19620096':
+            description: Cliquez une ou plusieurs fois afin de faire varier les différents modèles. Click one or several times to make vary the different models.
+            label: 'Barques. Rowboats. '
             name: VV_VIP_ploppabe_Barque01
             stages:
               - id: '19620097'
+                model: 7a4f1fe8
                 name: VV_VIP_ploppable_Barque02
               - id: '19620098'
+                model: 3a4f2272
                 name: VV_VIP_ploppable_Barque03
               - id: '19620099'
+                model: 1a4f235e
                 name: VV_VIP_ploppable_Barque04
-        Rural Pack/Vnaoned/VIP_VV_Bouses_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Bouses_MMP.dat:
           '19620150':
+            description: Cliquez une ou plusieurs fois afin de faire varier les différents modèles. Click one or several times to make vary the different models.
+            label: Bouses de vaches. Cowpats.
             name: VV_VIP_plop_Bouses01
             stages:
               - id: '19620151'
+                model: 1a51f18a
                 name: VV_VIP_plop_Bouses02
-        Rural Pack/Vnaoned/VIP_VV_Chickens_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Chickens_MMP.dat:
           '19620040':
+            description: Cliquez une ou plusieurs fois pour faire varier les 9 modèles. Click one or several times to make vary the 9 models.
+            label: Poules et poussins. Hens and chicks.
             name: VV_VIP_plop_Chicken
             stages:
               - id: '19620041'
+                model: 5893f9d0
                 name: VV_VIP_plop_Chicken01
               - id: '19620042'
+                model: 5893f5bb
                 name: VV_VIP_plop_Chicken02
               - id: '19620043'
+                model: b893f635
                 name: VV_VIP_plop_Chicken03
               - id: '19620044'
+                model: b893f676
                 name: VV_VIP_plop_Chicken04
               - id: '19620045'
+                model: d893f6a2
                 name: VV_VIP_plop_Chicken05
               - id: '19620046'
+                model: 1893f72a
                 name: VV_VIP_plop_Chicken06
               - id: '19620047'
+                model: f893f756
                 name: VV_VIP_plop_Chicken07
               - id: '19620048'
+                model: 5a76aade
                 name: VV_VIP_plop_Chicken08
               - id: '19620049'
+                model: ba76ac53
                 name: VV_VIP_plop_Chicken09
-        Rural Pack/Vnaoned/VIP_VV_Cows_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Cows_MMP.dat:
           '19620001':
+            description: Cliquez une ou plusieurs fois pour faire varier les 14 modèles. Click one or several times to make vary the 14 models.
+            label: Vaches. Cows.
             name: VV_plop_Cows
             stages:
               - id: '19620002'
+                model: 786de570
                 name: VV_plop_Cow01
               - id: '19620003'
+                model: 190e80b6
                 name: VV_plop_Ccw02
               - id: '19620004'
+                model: '790e8142'
                 name: VV_plop_Cow03
               - id: '19620005'
+                model: 586de67a
                 name: VV_plop_Cow04
               - id: '19620006'
+                model: d86de6e4
                 name: VV_plop_Cow05
               - id: '19620007'
+                model: 390e81dc
                 name: VV_plop_Cow06
               - id: '19620008'
+                model: 1a24f45f
                 name: VV_plop_Cow07
               - id: '19620009'
+                model: da24eeb0
                 name: VV_plop_Cow08
               - id: '19620010'
+                model: 7a24ede5
                 name: VV_plop_Cow09
               - id: '19620011'
+                model: 786de570
                 name: VV_plop_Cow10
               - id: '19620012'
+                model: baeec31d
                 name: VV_plop_Cow11
               - id: '19620013'
+                model: 9aeec598
                 name: VV_plop_Cow12
               - id: '19620014'
+                model: daeec64f
                 name: VV_plop_Cow13
               - id: '19620015'
+                model: 1aeec73e
                 name: VV_plop_Cow14
-        Rural Pack/Vnaoned/VIP_VV_Fougeres_Seasonal_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Fougeres_Seasonal_MMP.dat:
           '19620090':
+            description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante. Cliquez une ou plusieurs fois pour faire varier les 6 modèles.To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 6 models.
+            label: Fougères saisonnières. Ferns seasonal.
             name: VV_TSC_ploppable_Fougere01
             stages:
               - id: '19620091'
@@ -345,132 +449,195 @@ vip/rural-pack:
                 name: VV_TSC_ploppable_Fougere05
               - id: 1962009b
                 name: VV_TSC_ploppable_Fougere06
-        Rural Pack/Vnaoned/VIP_VV_Genets_Seasonal_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Genets_Seasonal_MMP.dat:
           '19620190':
+            description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante. Cliquez une ou plusieurs fois pour faire varier les 3 modèles.To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 3 models.
+            label: Genêts sasisonniers. Jennets seasonal.
             name: VV_VIP_ploppable_Genet01
             stages:
               - id: '19620191'
                 name: VV_VIP_ploppable_Genet02
               - id: '19620192'
                 name: VV_VIP_ploppable_Genet03
-        Rural Pack/Vnaoned/VIP_VV_Herons_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Herons_MMP.dat:
           '19620180':
+            description: Cliquez une ou plusieurs fois pour faire varier les 8 modèles. Click one or several times to make vary the 8 models.
+            label: Hérons. Herons.
             name: VV_VIP_plop_Heron01a
             stages:
               - id: '19620181'
+                model: 7a6abadc
                 name: VV_VIP_plop_Heron01b
               - id: '19620182'
+                model: 7a6abadc
                 name: VV_VIP_plop_Heron01c
               - id: '19620183'
+                model: 7a6abadc
                 name: VV_VIP_plop_Heron01d
               - id: '19620184'
+                model: fa6abc98
                 name: VV_VIP_plop_Heron02a
               - id: '19620185'
+                model: fa6abc98
                 name: VV_VIP_plop_Heron02b
               - id: '19620186'
+                model: fa6abc98
                 name: VV_VIP_plop_Heron02c
               - id: '19620187'
+                model: fa6abc98
                 name: VV_VIP_plop_Heron02d
-        Rural Pack/Vnaoned/VIP_VV_Perso_Baigneurs_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Perso_Baigneurs_MMP.dat:
           '19620194':
+            description: Cliquez une ou plusieurs fois afin de faire varier les différents modèles. Click one or several times to make vary the different models.
+            label: Baigneurs. Bathers
             name: VV_Baigneur01a
             stages:
               - id: '19620195'
+                model: ba7c13c5
                 name: VV_Baigneur01b
               - id: '19620196'
+                model: ba7c13c5
                 name: VV_Baigneur01c
               - id: '19620197'
+                model: ba7c13c5
                 name: VV_Baigneur01d
               - id: '19620198'
+                model: 9a7c121c
                 name: VV_Baigneur02a
               - id: '19620199'
+                model: 9a7c121c
                 name: VV_Baigneur02b
               - id: 1962019a
+                model: 9a7c121c
                 name: VV_Baigneur02c
               - id: 1962019b
+                model: 9a7c121c
                 name: VV_Baigneur02d
               - id: 1962019c
+                model: ba81543d
                 name: VV_Baigneur03a
               - id: 1962019d
+                model: ba81543d
                 name: VV_Baigneur03b
               - id: 1962019e
+                model: ba81543d
                 name: VV_Baigneur03c
               - id: 1962019f
+                model: ba81543d
                 name: VV_Baigneur03d
               - id: '19620200'
+                model: 19db5e62
                 name: VV_Baigneur04a
               - id: '19620201'
+                model: 19db5e62
                 name: VV_Baigneur04b
               - id: '19620202'
+                model: 19db5e62
                 name: VV_Baigneur04c
               - id: '19620203'
+                model: 19db5e62
                 name: VIP_RP_VV_Baigneur04d
               - id: '19620204'
+                model: 3a7c2175
                 name: VV_BaigneurDebout
-        Rural Pack/Vnaoned/VIP_VV_Perso_Pecheurs_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Perso_Pecheurs_MMP.dat:
           '19620170':
+            description: Cliquez une ou plusieurs fois pour faire varier les 12 modèles. Click one or several times to make vary the 12 models.
+            label: Pêcheurs. Fishermans.
             name: VV_Pecheur01
             stages:
               - id: '19620171'
+                model: ba7aea71
                 name: VV_Pecheu02
               - id: '19620172'
+                model: ba7aea71
                 name: VV_Pecheur03
               - id: '19620173'
+                model: ba7aea71
                 name: VV_Pecheur04
               - id: '19620174'
+                model: 3a7ae9f8
                 name: VV_Pecheur05
               - id: '19620175'
+                model: 3a7ae9f8
                 name: VV_Pecheur06
               - id: '19620176'
+                model: 3a7ae9f8
                 name: VV_Pecheur07
               - id: '19620177'
+                model: 3a7ae9f8
                 name: VV_Pecheur08
               - id: '19620178'
+                model: '593548e4'
                 name: VV_Pecheur09
               - id: '19620179'
+                model: '593548e4'
                 name: VV_Pecheur10
               - id: 1962017a
+                model: '593548e4'
                 name: VV_Pecheur11
               - id: 1962017b
+                model: '593548e4'
                 name: VV_Pecheur12
-        Rural Pack/Vnaoned/VIP_VV_Pigeons_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Pigeons_MMP.dat:
           '19620454':
+            description: Click one or several times to make vary models.
+            label: Pigeons.
             name: VIP_VV_Pigeon_01
             stages:
               - id: '19620455'
+                model: d89148e1
                 name: VIP_VV_Pigeon_02
               - id: '19620456'
+                model: d89149a4
                 name: VIP_VV_Pigeon_03
               - id: '19620457'
+                model: 389149d6
                 name: VIP_VV_Pigeon_04
               - id: '19620458'
+                model: 58914c89
                 name: VIP_VV_Pigeon_05
               - id: '19620459'
+                model: f8914ccc
                 name: VIP_VV_Pigeon_06
-        Rural Pack/Vnaoned/VIP_VV_Ravens_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Ravens_MMP.dat:
           '19620435':
+            description: Click one or several times to make vary models.
+            label: Ravens.
             name: VIP_VV_Raven_01
             stages:
               - id: '19620436'
+                model: d90e85cb
                 name: VIP_VV_Raven_02
               - id: '19620437'
+                model: 190e860a
                 name: VIP_VV_Raven_03
               - id: '19620438'
+                model: b90e86c3
                 name: VIP_VV_Raven_04
               - id: '19620439'
+                model: '190e8914'
                 name: VIP_VV_Raven_05
               - id: 1962043a
+                model: 390e881e
                 name: VIP_VV_Raven_06
               - id: 1962043b
+                model: 590e88d3
                 name: VIP_VV_Raven_07
               - id: 1962043c
+                model: 990e888c
                 name: VIP_VV_Raven_08
               - id: 1962043d
+                model: f90e885b
                 name: VIP_VV_Raven_09
-        Rural Pack/Vnaoned/VIP_VV_Varioius_Trees_Seasonal_MMP.dat:
+        RuralPack/Vnaoned/VIP_VV_Varioius_Trees_Seasonal_MMP.dat:
           '19620286':
+            description: 'To be planted on March 1st. No autumn version. '
+            label: Cherry tree seasonal.
             name: VIP_VV_Cherry_Tree
           '19620300':
+            description: To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary flora.
+            label: Seasonal trees.
             name: VIP_VV_Tree_01
             stages:
               - id: '19620301'
@@ -486,17 +653,17 @@ vip/rural-pack:
               - id: '19620306'
                 name: VIP_VV_Tree_07
       propFamilies:
-        VIP_Props_VV_Cows.dat:
+        Props/VIP_Props_VV_Cows.dat:
           5f85f1bd:
             name: VV Cows Family
-        VIP_Props_VV_Pigeons.dat:
+        Props/VIP_Props_VV_Pigeons.dat:
           5f85f1bb:
             name: VV Pigeon Family
-        VIP_Props_VV_Ravens.dat:
+        Props/VIP_Props_VV_Ravens.dat:
           5f85f1bc:
             name: VV Raven Family
       props:
-        VIP_Props_Grfe-R6-VV_Kayaks_And_Zodiacs.dat:
+        Props/VIP_Props_Grfe-R6-VV_Kayaks_And_Zodiacs.dat:
           37ef6e2b:
             name: VIP_RP_VV_Kayak 02 HD
           5a5c14d2:
@@ -523,7 +690,7 @@ vip/rural-pack:
             name: VIP_RP_VV_Kayakiste + kayak 01 HD
           f7ee50f0:
             name: VIP_RP_VV_Kayakiste + kayak 02 HD
-        VIP_Props_Man_Cows v2.dat:
+        Props/VIP_Props_Man_Cows v2.dat:
           1913d6c7:
             name: Manchou_Prop_Vache_01
           1913d8c4:
@@ -650,7 +817,7 @@ vip/rural-pack:
             name: Manchou_Prop_Vache_36
           d913df9d:
             name: Manchou_Prop_Vache_42
-        VIP_Props_Or_Corylus_Seasonal.dat:
+        Props/VIP_Props_Or_Corylus_Seasonal.dat:
           133e61bb:
             name: VIP_Or_Seasonal_Corylus01_Autumn
           3a80c298:
@@ -667,7 +834,7 @@ vip/rural-pack:
             name: VIP_Or_Seasonal_Corylus01_Spring
           fa80c2bf:
             name: VIP_RP-FL_Or_Corylus01_H
-        VIP_Props_Or_Narcissus_Seasonal.dat:
+        Props/VIP_Props_Or_Narcissus_Seasonal.dat:
           '133e6519':
             name: VIP_Or_Seasonal_Narcissus02_Summer
           533e667c:
@@ -708,7 +875,7 @@ vip/rural-pack:
             name: VIP_Or_Seasonal_Narcissus03_Summer
           d33e670a:
             name: VIP_Or_Seasonal_Narcissus05_Summer
-        VIP_Props_Or_Populus_Seasonal.dat:
+        Props/VIP_Props_Or_Populus_Seasonal.dat:
           133e69a9:
             name: VIP_Or_Seasonal_Populus01_Summer
           133e6ccf:
@@ -773,21 +940,21 @@ vip/rural-pack:
             name: VIP_RP-FL_Or_Populus02_E
           f83443c8:
             name: VIP_RP-FL_Or_Populus01_A
-        VIP_Props_R6_Herbes_Pampa_Big.dat:
+        Props/VIP_Props_R6_Herbes_Pampa_Big.dat:
           5a56cf9f:
             name: VIP_RP-FL_R6_Herbe_Pampa_02
           9a56cf89:
             name: VIP_RP-FL_R6_Herbe_Pampa_01
           ba56cfb3:
             name: VIP_RP-FL_R6_Herbe_Pampa_03
-        VIP_Props_R6_Herbes_Pampa_Small.dat:
+        Props/VIP_Props_R6_Herbes_Pampa_Small.dat:
           1a5346c8:
             name: VIP_RP-FL_R6_Herbe_Pampa_Small02
           3a5346f3:
             name: VIP_RP-FL_R6_Herbe_Pampa_Small03
           9a534707:
             name: VIP_RP-FL_R6_Herbe_Pampa_Small01
-        VIP_Props_R6_Iris_Des_Marais_Seasonal.dat:
+        Props/VIP_Props_R6_Iris_Des_Marais_Seasonal.dat:
           '533e7030':
             name: VIP_R6_Seasonal_Iris_Marais_01_bloom
           '533e7197':
@@ -812,7 +979,7 @@ vip/rural-pack:
             name: VIP_RP-FL_R6_Iris_Marais_Fleur_01
           d33e714f:
             name: VIP_R6_Seasonal_Iris_Marais_02_no_bloom
-        VIP_Props_R6_Nenuphars.dat:
+        Props/VIP_Props_R6_Nenuphars.dat:
           3a53474f:
             name: VIP_RP-FL_R6_Nenuphars_01
           9a534760:
@@ -821,7 +988,7 @@ vip/rural-pack:
             name: VIP_RP-FL_R6_Nenuphars_04
           da534776:
             name: VIP_RP-FL_R6_Nenuphars_03
-        VIP_Props_R6_Potamot.dat:
+        Props/VIP_Props_R6_Potamot.dat:
           3a5c082b:
             name: VIP_RP-FL_R6_Potamot_04
           5a5c07e9:
@@ -830,7 +997,7 @@ vip/rural-pack:
             name: VIP_RP-FL_R6_Potamot_02
           ba5c0819:
             name: VIP_RP-FL_R6_Potamot_03
-        VIP_Props_R6_Rochers.dat:
+        Props/VIP_Props_R6_Rochers.dat:
           1ae15878:
             name: VIP_RP_R6_Rochers_Bg_Mousse_02_Prop
           5ae158ee:
@@ -847,21 +1014,21 @@ vip/rural-pack:
             name: VIP_RP_R6_Rochers_Sm_Mousse_01_Prop
           dae15905:
             name: VIP_RP_R6_Rochers_Sm_Mousse_03_Prop
-        VIP_Props_R6_Roseaux_Big.dat:
+        Props/VIP_Props_R6_Roseaux_Big.dat:
           1a56d0e0:
             name: VIP_RP-FL_R6_RoseauxBig_03
           9a56d03e:
             name: VIP_RP-FL_R6_RoseauxBig_01
           ba56d0c4:
             name: VIP_RP-FL_R6_RoseauxBig_02
-        VIP_Props_R6_Roseaux_Small.dat:
+        Props/VIP_Props_R6_Roseaux_Small.dat:
           5a5346dd:
             name: VIP_RP-FL_R6_RoseauxSmall_01
           5a53473b:
             name: VIP_RP-FL_R6_RoseauxSmall_03
           da534728:
             name: VIP_RP-FL_R6_RoseauxSmall_02
-        VIP_Props_VV_Barques.dat:
+        Props/VIP_Props_VV_Barques.dat:
           1a53188e:
             name: VIP_RP_VV_Barque 04a HD
           7a53116a:
@@ -870,12 +1037,12 @@ vip/rural-pack:
             name: VIP_RP_VV_Barque 03b
           9a5318a6:
             name: VIP_RP_VV_Barque 04b HD
-        VIP_Props_VV_Bouses.dat:
+        Props/VIP_Props_VV_Bouses.dat:
           9a5702a1:
             name: VIP_RP_VV_Bouse vache x1 HD
           da5702c4:
             name: VIP_RP_VV_Bouse vache x3 HD
-        VIP_Props_VV_Chickens.dat:
+        Props/VIP_Props_VV_Chickens.dat:
           1a571934:
             name: VIP_RP_VV_Poule 01-Groupe x4
           584cd483:
@@ -894,7 +1061,7 @@ vip/rural-pack:
             name: VIP_RP_VV_Poule 01-5 HD
           f84cd40a:
             name: VIP_RP_VV_Poule 01-1 HD
-        VIP_Props_VV_Cows.dat:
+        Props/VIP_Props_VV_Cows.dat:
           187897a0:
             family: 5f85f1bd
             name: VIP_RP_VV_Vache NB 03
@@ -934,7 +1101,7 @@ vip/rural-pack:
           fa30e431:
             family: 5f85f1bd
             name: VIP_RP_VV_Vache NB 08
-        VIP_Props_VV_Fougeres_Seasonal.dat:
+        Props/VIP_Props_VV_Fougeres_Seasonal.dat:
           '133e7358':
             name: VIP_VV_Seasonal_Fern_002_Winter
           133e73f6:
@@ -983,7 +1150,7 @@ vip/rural-pack:
             name: VIP_RP-FL_VV_Fougere_001_Larg_Hivers
           fa691192:
             name: VIP_RP-FL_VV_Fougere_001_Hivers
-        VIP_Props_VV_Genets_Seasonal.dat:
+        Props/VIP_Props_VV_Genets_Seasonal.dat:
           1a3f5f3a:
             name: VIP_RP-FL_VV_Genets 02
           333e7bd9:
@@ -1008,12 +1175,12 @@ vip/rural-pack:
             name: VIP_RP-FL_VV_Genets 02 - Hivers
           fa728e8c:
             name: VIP_RP-FL_VV_Genets 03
-        VIP_Props_VV_Herons.dat:
+        Props/VIP_Props_VV_Herons.dat:
           1a6eb1d0:
             name: VIP_RP_VV_Heron 001 HD
           3a6eb1e2:
             name: VIP_RP_VV_Heron 002 HD
-        VIP_Props_VV_Perso_Baigneurs.dat:
+        Props/VIP_Props_VV_Perso_Baigneurs.dat:
           37ecdae8:
             name: VIP_RP_VV_Perso - Baigneur allonge 02 HD
           58d608dd:
@@ -1024,14 +1191,14 @@ vip/rural-pack:
             name: VIP_RP_VV_Perso - Baigneur allonge 01 HD
           97f4ea05:
             name: VIP_RP_VV_Perso - Baigneur Assis 01 HD
-        VIP_Props_VV_Perso_Pecheurs.dat:
+        Props/VIP_Props_VV_Perso_Pecheurs.dat:
           d7ecdad0:
             name: VIP_RP_VV_Perso - Pecheur debout 01 HD
           d8528780:
             name: VIP_RP_VV_Perso - Pecheur debout 03 HD
           f7ecdb02:
             name: VIP_RP_VV_Perso - Pecheur assis 01 HD
-        VIP_Props_VV_Pigeons.dat:
+        Props/VIP_Props_VV_Pigeons.dat:
           533f1244:
             family: 5f85f1bb
             name: VIP_VV_Pigeon_002
@@ -1050,7 +1217,7 @@ vip/rural-pack:
           d33f1239:
             family: 5f85f1bb
             name: VIP_VV_Pigeon_001
-        VIP_Props_VV_Ravens.dat:
+        Props/VIP_Props_VV_Ravens.dat:
           333f1315:
             family: 5f85f1bc
             name: VIP_VV_Raven_001
@@ -1078,7 +1245,7 @@ vip/rural-pack:
           933f1340:
             family: 5f85f1bc
             name: VIP_VV_Raven_002_45
-        VIP_Props_VV_Various_Trees_Seasonal.dat:
+        Props/VIP_Props_VV_Various_Trees_Seasonal.dat:
           133f8aca:
             name: VIP_RP-FL_VV_Tree_001_Summer
           133f8ad1:
@@ -1217,3 +1384,200 @@ vip/rural-pack:
             name: VIP_VV_Seasonal_Tree_007_Summer
       release: 2024-12-03T16:03:49.352Z
       version: 2.0.0
+
+vip/tree-props:
+  categories: props
+  name: VIP Trees as Props
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/Screenshot.thumb.png.69bf35c8a3f02f12421a105c433629ed.png
+  url: https://community.simtropolis.com/files/file/33702-vip-trees-as-props/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33702-vip-trees-as-props
+      buildings:
+        Testlot VIP Orange Trees_ec1d2367.SC4Lot:
+          ec1d2367:
+            bulldoze: 1
+            cost: 1
+            flamability: 10
+            label: Testlot VIP Orange Trees
+            menu: Parks
+            name: Testlot VIP Orange Trees
+      lastGenerated: 2024-12-12T13:10:36.882Z
+      lastModified: 2020-07-17T05:25:00.000Z
+      lots:
+        Testlot VIP Orange Trees_ec1d2367.SC4Lot:
+          ec1d2367:
+            building: ec1d2367
+            default: false
+            name: Testlot VIP Orange Trees
+            size: 8x7
+      props:
+        Orange_Aesculus.dat:
+          0b0b8e4a:
+            name: Orange_Aesculus_B_Winter
+          2a67deae:
+            name: Orange_Aesculus_E_Winter
+          31083bf0:
+            name: Orange_Aesculus_C_Fall
+          42fd5a58:
+            name: Orange_Aesculus_C_Evergreen
+          4ad90df2:
+            name: Orange_Aesculus_B_Evergreen
+          4d36549a:
+            name: Orange_Aesculus_D_Evergreen
+          56b3847b:
+            name: Orange_Aesculus_D_Winter
+          5bf673ac:
+            name: Orange_Aesculus_A_Fall
+          5eb92dee:
+            name: Orange_Aesculus_D_Fall
+          61c976dc:
+            name: Orange_Aesculus_F_Fall
+          688b78eb:
+            name: Orange_Aesculus_A_Summer
+          78464ee5:
+            name: Orange_Aesculus_B_Fall
+          7e89319a:
+            name: Orange_Aesculus_C_Winter
+          '87570384':
+            name: Orange_Aesculus_A_Evergreen
+          9020633f:
+            name: Orange_Aesculus_E_Fall
+          96a707d5:
+            name: Orange_Aesculus_F_Evergreen
+          989fbc98:
+            name: Orange_Aesculus_B_Summer
+          '9e580652':
+            name: Orange_Aesculus_C_Summer
+          ae582c0a:
+            name: Orange_Aesculus_E_Summer
+          c05bcebc:
+            name: Orange_Aesculus_E_Evergreen
+          c06b8c7b:
+            name: Orange_Aesculus_F_Winter
+          d32a5a31:
+            name: Orange_Aesculus_D_Summer
+          d9ed36b2:
+            name: Orange_Aesculus_A_Winter
+          dba7d312:
+            name: Orange_Aesculus_F_Summer
+        Orange_Fagus.dat:
+          '11478e51':
+            name: Orange_Fagus_A_Fall
+          134d17fa:
+            name: Orange_Fagus_D_Fall
+          1e150bbc:
+            name: Orange_Fagus_E_Summer
+          2676c11a:
+            name: Orange_Fagus_C_Winter
+          3010fee6:
+            name: Orange_Fagus_C_Evergreen
+          32be80f4:
+            name: Orange_Fagus_E_Winter
+          3419023c:
+            name: Orange_Fagus_A_Evergreen
+          4bd91623:
+            name: Orange_Fagus_A_Summer
+          839f3f5f:
+            name: Orange_Fagus_B_Evergreen
+          847f682f:
+            name: Orange_Fagus_D_Summer
+          86fcc11a:
+            name: Orange_Fagus_E_Evergreen
+          8b0104bf:
+            name: Orange_Fagus_B_Summer
+          8cebeae7:
+            name: Orange_Fagus_C_Fall
+          9dce103f:
+            name: Orange_Fagus_E_Fall
+          a490f7e2:
+            name: Orange_Fagus_D_Evergreen
+          ad915296:
+            name: Orange_Fagus_A_Winter
+          ca8bdb74:
+            name: Orange_Fagus_B_Fall
+          d27caea8:
+            name: Orange_Fagus_D_Winter
+          d7813195:
+            name: Orange_Fagus_B_Winter
+          e1b5e007:
+            name: Orange_Fagus_C_Summer
+        Orange_PinusNigra.dat:
+          1ac8e9ec:
+            name: Or_TSC_FL_PinusNigra01
+          7ac97662:
+            name: Or_TSC_FL_PinusNigra03
+          bac8ed81:
+            name: Or_TSC_FL_PinusNigra02
+          bac97696:
+            name: Or_TSC_FL_PinusNigra05
+          dac97670:
+            name: Or_TSC_FL_PinusNigra04
+        VIPTrees_Props.dat:
+          '02516558':
+            name: VIP_Tree6 Summer
+          09fb8dbf:
+            name: VIP_Tree5 Summer
+          0aa6e93b:
+            name: VIP_Tree3 Summer
+          0b4acee9:
+            name: VIP_Tree1 Summer
+          10cecf58:
+            name: VIP_Tree7 Summer
+          1e92ec84:
+            name: VIP_Tree5 Fall
+          1fcbbb64:
+            name: VIP_Tree3 Fall
+          228825b7:
+            name: VIP_Tree6 Winter
+          26c9f2bd:
+            name: VIP_Tree2 Summer
+          3541bffc:
+            name: VIP_Tree7 Winter
+          3b2ba4a3:
+            name: VIP_Tree3 Winter
+          3c3aef64:
+            name: VIP_Tree2 Fall
+          4627b061:
+            name: VIP_Tree1 Evergreen
+          55fc9759:
+            name: VIP_Tree5 Evergreen
+          5c99c2ad:
+            name: VIP_Tree6 Evergreen
+          '67176245':
+            name: VIP_Tree2 Evergreen
+          6e44eb24:
+            name: VIP_Tree4 Summer
+          757a84b7:
+            name: VIP_Tree4 Fall
+          7d9a283a:
+            name: VIP_Cherry Summer
+          82c06641:
+            name: VIP_Tree5 Winter
+          856e1d94:
+            name: VIP_Tree6 Fall
+          '87713216':
+            name: VIP_Tree2 Winter
+          87f25b8d:
+            name: VIP_Tree4 Winter
+          901b317a:
+            name: VIP_Tree3 Evergreen
+          9291bc7c:
+            name: VIP_Cherry Evergreen
+          946861d1:
+            name: VIP_Tree1 Fall
+          9f13e986:
+            name: VIP_Cherry Spring
+          c8cb5586:
+            name: VIP_Cherry Winter
+          d3edfff3:
+            name: VIP_Tree7 Evergreen
+          d59813c7:
+            name: VIP_Tree7 Fall
+          f8445f57:
+            name: VIP_Tree4 Evergreen
+          ff7cf43a:
+            name: VIP_Tree1 Winter
+      version: 1.0.0

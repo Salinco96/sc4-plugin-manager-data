@@ -1,6 +1,11 @@
 girafe/carpack:
-  categories: props
+  categories: props,mmps
   name: BSC VIP Girafe Carpack / Urbanpack
+  readme:
+    - readme_carpack_vol. 1 & 2 remastered.html
+    - readme_carpack_vol. 1 & 2.html
+    - readme_carpack_vol. 3.html
+    - readme_urbanpack_vol. 1.html
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/3-sc4d-lex-legacy-bsc-common-dependencies-pack
   variants:
@@ -14,16 +19,12 @@ girafe/carpack:
               path: BSC-VIP Girafe *pack*.jpg
             - as: Indexes/*
               path: Grfe_Props_Pack_*pack*.jpg
-            - as: Images/Banniere_VIP.jpg
-              path: ~Documents/BSC_Readmes/girafe/Images/Banniere_VIP.jpg
-            - as: Images/*
-              path: ~Documents/BSC_Readmes/girafe/Images/*pack*.jpg
-            - ~Documents/BSC_Readmes/girafe/*pack*.html
+            - ~Documents/BSC_Readmes/girafe
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC VIP Girafe Carpack*
             - BSC VIP Girafe Urbanpack*
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:34.694Z
       lastModified: 2024-08-21T22:51:45.000Z
       mmps:
         Grfe_CarPack_MMP vol01.dat:
@@ -1633,18 +1634,59 @@ girafe/flora-pack:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_Conifers_1.jpg
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_oak_1.jpg
   name: BSC VIP Girafe Flora Pack
+  readme:
+    - Girafe_MM_Flora_separator.readme.txt
+    - readme_Canary_date_palms.html
+    - readme_Serbian_spruces.html
+    - readme_Serbian_spruces_v2.html
+    - readme_abies grandis.html
+    - readme_alders.html
+    - readme_ashes.html
+    - readme_beeches.html
+    - readme_berries.html
+    - readme_birches.html
+    - readme_bushes.html
+    - readme_cattails.html
+    - readme_chestnuts.html
+    - readme_common_spruces.html
+    - readme_conifers.html
+    - readme_cypresses.html
+    - readme_daisy.html
+    - readme_elms.html
+    - readme_feather_grass.html
+    - readme_grand_firs_(Abies Grandis v2).html
+    - readme_honey_locust.html
+    - readme_larches.html
+    - readme_lindens.html
+    - readme_lupins.html
+    - readme_maples.html
+    - readme_maples_v2.html
+    - readme_narcissus.html
+    - readme_norway_maples.html
+    - readme_oaks.html
+    - readme_parasol_pines.html
+    - readme_poplars.html
+    - readme_poppies.html
+    - readme_rowan trees.html
+    - readme_sparaxis.html
+    - readme_subalpine firs.html
+    - readme_vines.html
+    - readme_walnut_trees.html
+    - readme_wheat.html
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Icon_alders_2.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/25-flora-fauna-and-mayor-mode-ploppables/27-sc4d-lex-legacy-bsc-vip-girafe-flora
   variants:
     default:
       assets:
-        - docs:
+        - cleanitol:
+            - Cleanitol_SC4D LEX Legacy - BSC-VIP Girafe Flora Pack V3__master.txt
+          docs:
             - ~Documents/BSC_Readmes/girafe
           id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
           include:
             - BSC/girafe/@1MM Flora Separator
             - BSC/girafe
-      lastGenerated: 2024-12-03T16:00:46.768Z
+      lastGenerated: 2024-12-12T13:10:34.916Z
       lastModified: 2024-01-20T12:12:48.000Z
       mmps:
         Abies grandis v1/Grfe_abies_grandis_evergreen.dat:
@@ -3694,7 +3736,7 @@ girafe/hedges:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - Grfe_Props_Pack_LE_Hedges.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:34.704Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         Grfe_Props_Pack_LE_Hedges.dat:

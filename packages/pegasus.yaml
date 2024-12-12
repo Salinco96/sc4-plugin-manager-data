@@ -21,6 +21,7 @@ pegasus/mtp-super-pack:
   images:
     - https://www.simtropolis.com/objects/screens/0003/0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   name: PEG MTP SUPER PACK
+  readme: MTP_ResourceSuperPak_324.htm
   support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2009/thumb-0ec036904f575a8efe4bcea5e7624da1-product_image.jpg
   url: https://community.simtropolis.com/files/file/20966-peg-mtp-super-pack/
@@ -29,12 +30,13 @@ pegasus/mtp-super-pack:
       assets:
         - docs:
             - _Documents/PEG Readmes
+          exclude:
+            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
+            - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
           id: simtropolis/20966-peg-mtp-super-pack
           include:
             - PEGPROD/Mountain Theme Pack/_MTP SUPER PACK
-            # - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_EUOverride.dat
-            # - _Documents/PEG Optional Texture Overrides/PEG-SUPER_TEXTURES_RRWOverride.dat
-      lastGenerated: 2024-12-03T16:03:49.352Z
+      lastGenerated: 2024-12-12T13:10:35.162Z
       lastModified: 2022-07-04T23:38:52.000Z
       props:
         PEG_MTP_SUPER_RESOURCE_PACK.dat:
@@ -266,6 +268,12 @@ pegasus/spam:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2012/39a2a7e52169570a7f3ca1b46e9174d9-.jpg
   name: SimPeg Agricultural Mod (SPAM)
+  readme:
+    - index.html
+    - addons.html
+    - description.html
+    - gameplay.html
+    - objectives.html
   requirements:
     cam: false
   support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
@@ -281,6 +289,22 @@ pegasus/spam:
           id: simtropolis/26080-simpeg-agricultural-mod-spam
           include:
             - PEGPROD/SPAM
+      buildingFamilies:
+        SPAM_Mod_Main/PEG-SPAM_MOD-MAIN_b200.dat:
+          7000004f:
+            name: IR30x24_1_8000004F
+          '70000050':
+            name: IR60x50_3_80000050
+          '70000051':
+            name: IR24x20_1_80000051
+          '70000052':
+            name: IR15x7_1_80000052
+          '70000053':
+            name: IR32x32_2_80000053
+          '70000054':
+            name: IR16x30_2_80000054
+          '70000055':
+            name: IR24x24_1_80000055
       buildings:
         SPAM_Mod_Main/PEG-SPAM_MOD-MAIN_b200.dat:
           '04433758':
@@ -1065,7 +1089,7 @@ pegasus/spam:
               ir: 14
             categories: agriculture
             name: SPAM_1x1_Peachtree
-      lastGenerated: 2024-12-03T16:03:49.352Z
+      lastGenerated: 2024-12-12T13:10:35.168Z
       lastModified: 2011-04-13T08:57:58.000Z
       lots:
         SPAM_Core_Lots/I-r1_1x2_D_FarmMarket_90001340.SC4Lot:
@@ -1432,7 +1456,7 @@ pegasus/spam:
       version: 1.0.0
 
 pegasus/spam-super-resource-pack:
-  categories: props,textures
+  categories: props,textures,spam
   description: |-
     This package is the main dependency for all things SPAM - from the main mod to most of the current or future additional sets. This standalone version is meant for all players who do not want to use the full mod but still wish to play with lots and items that utilize these props and textures.
 
@@ -1440,6 +1464,9 @@ pegasus/spam-super-resource-pack:
   images:
     - https://www.simtropolis.com/objects/screens/0029/23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   name: PEG SPAM Super Resource Pack
+  readme:
+    - readme.txt
+    - readme_SuperPack.txt
   support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
   thumbnail: https://www.simtropolis.com/objects/screens/0030/thumb-23bc5f3dd415ad28a0a2bffdf3ca46ca-spam-sp_plex_480.jpg
   url: https://community.simtropolis.com/files/file/26079-peg-spam-super-resource-pack/
@@ -1448,6 +1475,8 @@ pegasus/spam-super-resource-pack:
       assets:
         - docs:
             - PEGPROD/SPAM
+            - readme_SuperPack.txt
+            - spam-sp_plex_480.jpg
           id: simtropolis/26079-peg-spam-super-resource-pack
           include:
             - PEGPROD/SPAM/SPAM_Super_Resource_Pack
@@ -1536,7 +1565,7 @@ pegasus/spam-super-resource-pack:
           073dc010:
             bulldoze: 5
             name: SPAM_FarmField_LettuceMature
-      lastGenerated: 2024-12-03T16:03:49.352Z
+      lastGenerated: 2024-12-12T13:10:35.155Z
       lastModified: 2011-04-13T08:46:39.000Z
       lots:
         SPAM_Crops_Resource/PEG-SPAM_CROPS-01_RESOURCE_b200.dat:
@@ -2118,6 +2147,16 @@ pegasus/terrain-kit:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_06_2012/c40a9ed17c56e4053b91c28d5522fe2b-.jpg
   name: PEG Terrain Kit (7 in 1)
+  readme:
+    - ReadMe.txt
+    - Note_on_Original_ReadMe_Files.txt
+    - Original_ReadMe_Files/Flora.htm
+    - Original_ReadMe_Files/ForestScenes.htm
+    - Original_ReadMe_Files/LoggingScenes.htm
+    - Original_ReadMe_Files/LotEditorTerrainProps.htm
+    - Original_ReadMe_Files/PPondKit.htm
+    - Original_ReadMe_Files/ScrubBrush.htm
+    - Original_ReadMe_Files/TerrainProps1.htm
   support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_06_2012/thumb-c40a9ed17c56e4053b91c28d5522fe2b-.jpg
   url: https://community.simtropolis.com/files/file/27712-the-peg-terrain-kit-7-n-1/
@@ -2181,7 +2220,7 @@ pegasus/terrain-kit:
               r$: 250
               r$$: 250
               r$$$: 250
-      lastGenerated: 2024-12-04T08:55:17.281Z
+      lastGenerated: 2024-12-12T13:10:35.174Z
       lastModified: 2012-06-09T22:34:20.000Z
       lots:
         PPond_Kit/PEG-PPond_Kit_102.dat:

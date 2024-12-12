@@ -13,7 +13,7 @@ mikeseith/mega-props-vol01:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Mikeseith Vol01*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:34.204Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC MEGA Props - Mikeseith Vol01.dat:
@@ -2267,7 +2267,7 @@ mikeseith/mega-props-vol02:
           id: sc4evermore/204-sc4d-lex-legacy-mikeseith-multi-level-modular-garages
           include:
             - BSC MEGA Props - Mikeseith Vol02*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.586Z
       lastModified: 2023-12-06T10:26:15.000Z
       props:
         BSC MEGA Props - Mikeseith Vol02 v2.dat:
@@ -2664,7 +2664,7 @@ mikeseith/mega-props-vol03:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Mikeseith Vol03*.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:34.216Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         BSC MEGA Props - Mikeseith Vol03.dat:
@@ -5690,6 +5690,10 @@ mikeseith/multi-level-modular-garages:
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/mikeseith 8 level garages1.JPG
     - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeith - airport shuttle.jpg
   name: SC4D LEX LEGACY - Mikeseith Multi-level Modular Garages
+  readme:
+    - readme_SC4D LEX Legacy - Mikeseith Multi-level Modular Garages.html
+    - Automatas_desclaimer.txt
+    - RTMT Replacement_disclaimer.txt
   support: https://community.simtropolis.com/forums/topic/761517-mgbs-lil-bits
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/MikeSeiths 2 garages front.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/19-transportation/204-sc4d-lex-legacy-mikeseith-multi-level-modular-garages
@@ -5728,7 +5732,7 @@ mikeseith/multi-level-modular-garages:
             - mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat
             - mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat
       buildings:
-        mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat:
+        Mikeseith 2 Level Garages_Lots.dat:
           1960bfda:
             bulldoze: 10
             categories: transport
@@ -5792,358 +5796,7 @@ mikeseith/multi-level-modular-garages:
             cost: 52
             menu: MiscTransit
             name: MS_2Lvl_Wall (2 Rows)
-        mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level Airport Shuttle_RTMT/zOpt_8 Level Airport Shuttle_RTMT.dat:
-          dd0ef80b:
-            bulldoze: 100
-            categories: bus
-            cost: 100
-            flamability: 50
-            garbage: 4
-            jobs:
-              $: 5
-              $$: 2
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_AirportShuttleSpawn_RTMT
-            pollution: 1
-            pollutionRadius: 1
-            power: 3
-            submenu: MiscTransit/Bus
-            water: 2
-            waterPollution: 3
-            waterPollutionRadius: 1
-        mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level BusStop_RTMT/zOpt_8 Level BusStop_RTMT.dat:
-          3d184784:
-            bulldoze: 100
-            categories: bus
-            cost: 100
-            flamability: 38
-            garbage: 4
-            jobs:
-              $: 5
-              $$: 2
-            maintenance: 5
-            menu: MiscTransit
-            name: MS_8Lvl_BusStop_RTMT
-            pollution: 1
-            pollutionRadius: 1
-            power: 3
-            submenu: MiscTransit/Bus
-            water: 2
-            waterPollution: 3
-            waterPollutionRadius: 1
-        mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat:
-          1cf37210:
-            bulldoze: 100
-            categories: transport
-            cost: 69
-            garbage: 2
-            maintenance: 25
-            menu: MiscTransit
-            name: MS_8Lvl_Bridge Corner A
-            pollution: 2
-            pollutionRadius: 1
-            power: 2
-            water: 2
-            waterPollution: 1
-            waterPollutionRadius: 1
-          1cf8e57f:
-            bulldoze: 100
-            categories: transport
-            cost: 50
-            flamability: 50
-            garbage: 4
-            landmark: 36
-            landmarkRadius: 14
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_Entrance
-            pollution: 1
-            pollutionRadius: 1
-            power: 3
-            water: 2
-            waterPollution: 3
-            waterPollutionRadius: 1
-          3cf369e5:
-            bulldoze: 100
-            categories: transport
-            cost: 65
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_Centre (5 Car Row)
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          3d205411:
-            bulldoze: 100
-            categories: transport
-            cost: 70
-            garbage: 2
-            maintenance: 25
-            menu: MiscTransit
-            name: MS_8Lvl_Bridge Corner B
-            pollution: 2
-            pollutionRadius: 1
-            power: 2
-            water: 2
-            waterPollution: 1
-            waterPollutionRadius: 1
-          5cf36ce3:
-            bulldoze: 100
-            categories: transport
-            cost: 57
-            flamability: 50
-            garbage: 1
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_Elevator
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          5cf36e24:
-            bulldoze: 100
-            categories: transport
-            cost: 54
-            garbage: 1
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_Ramp
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          5cf37074:
-            bulldoze: 100
-            categories: transport
-            cost: 68
-            garbage: 2
-            maintenance: 25
-            menu: MiscTransit
-            name: MS_8Lvl_Bridge Centre
-            pollution: 2
-            pollutionRadius: 1
-            power: 2
-            water: 2
-            waterPollution: 1
-            waterPollutionRadius: 1
-          5cf37444:
-            bulldoze: 100
-            categories: transport
-            cost: 53
-            maintenance: 10
-            menu: MiscTransit
-            name: MS_8Lvl_OuterCorner
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          bcf36100:
-            bulldoze: 100
-            categories: transport
-            cost: 56
-            maintenance: 10
-            menu: MiscTransit
-            name: MS_8Lvl_RampDown
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          bcf36894:
-            bulldoze: 100
-            categories: transport
-            cost: 55
-            maintenance: 10
-            menu: MiscTransit
-            name: MS_8Lvl_RampUp
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          bcf36f3c:
-            bulldoze: 100
-            categories: transport
-            cost: 66
-            garbage: 2
-            maintenance: 25
-            menu: MiscTransit
-            name: MS_8Lvl_Bridge Edge A
-            pollution: 2
-            pollutionRadius: 1
-            power: 2
-            water: 2
-            waterPollution: 1
-            waterPollutionRadius: 1
-          dcf36951:
-            bulldoze: 100
-            categories: transport
-            cost: 51
-            garbage: 1
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_Wall
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          dcf36a78:
-            bulldoze: 100
-            categories: transport
-            cost: 64
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_Centre (4 Car Row)
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-          dcf36fc8:
-            bulldoze: 100
-            categories: transport
-            cost: 67
-            garbage: 2
-            maintenance: 25
-            menu: MiscTransit
-            name: MS_8Lvl_Bridge Edge B
-            pollution: 2
-            pollutionRadius: 1
-            power: 2
-            water: 2
-            waterPollution: 1
-            waterPollutionRadius: 1
-          dd16f12b:
-            bulldoze: 10
-            categories: police
-            cost: 80
-            flamability: 36
-            jobs:
-              $: 6
-              $$: 2
-            maintenance: 40
-            menu: Police
-            name: MS_8Lvl_ParkingSecurity(Police)
-            power: 1
-            powerProduction: 1
-            submenu: Police/Small
-            water: 1
-          fcf36d53:
-            bulldoze: 100
-            categories: transport
-            cost: 52
-            garbage: 1
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_InnerCorner
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-        mikeseith\Garages\Modular Parking Garage 2 Lvl\Mikeseith 2 Level Garages_Lots.dat:
-          1960bfda:
-            bulldoze: 10
-            categories: transport
-            cost: 56
-            menu: MiscTransit
-            name: MS_2Lvl_Inside (1 Row)
-          3962e3b9:
-            bulldoze: 10
-            categories: transport
-            cost: 50
-            flamability: 38
-            garbage: 1
-            maintenance: 5
-            menu: MiscTransit
-            name: MS_2Lvl_Entrance
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            water: 1
-            waterPollution: 1
-            waterPollutionRadius: 1
-          5960c034:
-            bulldoze: 10
-            categories: transport
-            cost: 54
-            menu: MiscTransit
-            name: MS_2Lvl_Corner w/Stairs
-            pollution: 1
-            power: 1
-            water: 1
-          5960c0eb:
-            bulldoze: 10
-            categories: transport
-            cost: 55
-            menu: MiscTransit
-            name: MS_2Lvl_Ramp
-          7960bf97:
-            bulldoze: 10
-            categories: transport
-            cost: 57
-            menu: MiscTransit
-            name: MS_2Lvl_Inside (2 Rows)
-          7960c078:
-            bulldoze: 10
-            categories: transport
-            cost: 53
-            menu: MiscTransit
-            name: MS_2Lvl_Corner
-            pollution: 1
-            power: 1
-            water: 1
-          9960bf4b:
-            bulldoze: 10
-            categories: transport
-            cost: 51
-            menu: MiscTransit
-            name: MS_2Lvl_Wall (1 Row)
-          b960bedd:
-            bulldoze: 10
-            categories: transport
-            cost: 52
-            menu: MiscTransit
-            name: MS_2Lvl_Wall (2 Rows)
-        mikeseith\Garages\Modular Parking Garage 8 Lvl#\!Opt_8 Level Airport Shuttle_RTMT\zOpt_8 Level Airport Shuttle_RTMT.dat:
-          dd0ef80b:
-            bulldoze: 100
-            categories: bus
-            cost: 100
-            flamability: 50
-            garbage: 4
-            jobs:
-              $: 5
-              $$: 2
-            maintenance: 20
-            menu: MiscTransit
-            name: MS_8Lvl_AirportShuttleSpawn_RTMT
-            pollution: 1
-            pollutionRadius: 1
-            power: 3
-            submenu: MiscTransit/Bus
-            water: 2
-            waterPollution: 3
-            waterPollutionRadius: 1
-        mikeseith\Garages\Modular Parking Garage 8 Lvl#\!Opt_8 Level BusStop_RTMT\zOpt_8 Level BusStop_RTMT.dat:
-          3d184784:
-            bulldoze: 100
-            categories: bus
-            cost: 100
-            flamability: 38
-            garbage: 4
-            jobs:
-              $: 5
-              $$: 2
-            maintenance: 5
-            menu: MiscTransit
-            name: MS_8Lvl_BusStop_RTMT
-            pollution: 1
-            pollutionRadius: 1
-            power: 3
-            submenu: MiscTransit/Bus
-            water: 2
-            waterPollution: 3
-            waterPollutionRadius: 1
-        mikeseith\Garages\Modular Parking Garage 8 Lvl#\Mikeseith 8 Level Garages_Lots.dat:
+        Mikeseith 8 Level Garages_Lots.dat:
           1cf37210:
             bulldoze: 100
             categories: transport
@@ -6388,10 +6041,50 @@ mikeseith/multi-level-modular-garages:
             pollutionRadius: 1
             power: 1
             water: 1
-      lastGenerated: 2024-12-02T13:33:03.845Z
+        zOpt_8 Level Airport Shuttle_RTMT.dat:
+          dd0ef80b:
+            bulldoze: 100
+            categories: bus
+            cost: 100
+            flamability: 50
+            garbage: 4
+            jobs:
+              $: 5
+              $$: 2
+            maintenance: 20
+            menu: MiscTransit
+            name: MS_8Lvl_AirportShuttleSpawn_RTMT
+            pollution: 1
+            pollutionRadius: 1
+            power: 3
+            submenu: MiscTransit/Bus
+            water: 2
+            waterPollution: 3
+            waterPollutionRadius: 1
+        zOpt_8 Level BusStop_RTMT.dat:
+          3d184784:
+            bulldoze: 100
+            categories: bus
+            cost: 100
+            flamability: 38
+            garbage: 4
+            jobs:
+              $: 5
+              $$: 2
+            maintenance: 5
+            menu: MiscTransit
+            name: MS_8Lvl_BusStop_RTMT
+            pollution: 1
+            pollutionRadius: 1
+            power: 3
+            submenu: MiscTransit/Bus
+            water: 2
+            waterPollution: 3
+            waterPollutionRadius: 1
+      lastGenerated: 2024-12-12T13:10:33.578Z
       lastModified: 2023-12-06T10:26:15.000Z
       lots:
-        mikeseith/Garages/Modular Parking Garage 2 Lvl/Mikeseith 2 Level Garages_Lots.dat:
+        Mikeseith 2 Level Garages_Lots.dat:
           1960bfda:
             building: 1960bfda
             name: 2 lvl garage - inside 1 row
@@ -6424,125 +6117,7 @@ mikeseith/multi-level-modular-garages:
             building: b960bedd
             name: 2 lvl garage - wall 2 rows
             size: 1x1
-        mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level Airport Shuttle_RTMT/zOpt_8 Level Airport Shuttle_RTMT.dat:
-          dd0ef80b:
-            building: dd0ef80b
-            name: 8 lvl airport shuttle spawner_RTMT
-            size: 1x1
-        mikeseith/Garages/Modular Parking Garage 8 Lvl#/!Opt_8 Level BusStop_RTMT/zOpt_8 Level BusStop_RTMT.dat:
-          3d184784:
-            building: 3d184784
-            name: 8 lvl garage bus stop_RTMT
-            size: 1x1
-        mikeseith/Garages/Modular Parking Garage 8 Lvl#/Mikeseith 8 Level Garages_Lots.dat:
-          1cf37210:
-            building: 1cf37210
-            name: 8 lvl new bridge corner A
-            size: 2x1
-          1cf8e57f:
-            building: 1cf8e57f
-            name: 8 lvl new entrance
-            size: 1x1
-          3cf369e5:
-            building: 3cf369e5
-            name: 8 lvl new center rows
-            size: 1x1
-          3d205411:
-            building: 3d205411
-            name: 8 lvl new bridge corner BB
-            size: 2x1
-          5cf36ce3:
-            building: 5cf36ce3
-            name: 8 lvl new elevator
-            size: 1x1
-          5cf36e24:
-            building: 5cf36e24
-            name: 8 lvl new straight ramp
-            size: 2x2
-          5cf37074:
-            building: 5cf37074
-            name: 8 lvl new bridge center
-            size: 1x1
-          5cf37444:
-            building: 5cf37444
-            name: 8 lvl new outside corner stairs
-            size: 2x1
-          bcf36100:
-            building: bcf36100
-            name: 8 lvl new round ramp down
-            size: 1x2
-          bcf36894:
-            building: bcf36894
-            name: 8 lvl new round ramp up
-            size: 1x2
-          bcf36f3c:
-            building: bcf36f3c
-            name: 8 lvl new bridge edge A
-            size: 2x1
-          dcf36951:
-            building: dcf36951
-            name: 8 lvl new wall
-            size: 1x1
-          dcf36a78:
-            building: dcf36a78
-            name: 8 lvl new center edge
-            size: 1x1
-          dcf36fc8:
-            building: dcf36fc8
-            name: 8 lvl new bridge edge B
-            size: 2x1
-          dd16f12b:
-            building: dd16f12b
-            name: 8 lvl garage police
-            size: 1x1
-          fcf36d53:
-            building: fcf36d53
-            name: 8 lvl new inside coner
-            size: 1x1
-        mikeseith\Garages\Modular Parking Garage 2 Lvl\Mikeseith 2 Level Garages_Lots.dat:
-          1960bfda:
-            building: 1960bfda
-            name: 2 lvl garage - inside 1 row
-            size: 1x1
-          3962e3b9:
-            building: 3962e3b9
-            name: 2 lvl garage - entrance
-            size: 1x1
-          5960c034:
-            building: 5960c034
-            name: 2 lvl garage - corner with stairs
-            size: 1x1
-          5960c0eb:
-            building: 5960c0eb
-            name: 2 lvl garage - ramp
-            size: 2x1
-          7960bf97:
-            building: 7960bf97
-            name: 2 lvl garage - inside 2 rows
-            size: 1x1
-          7960c078:
-            building: 7960c078
-            name: 2 lvl garage - corner
-            size: 1x1
-          9960bf4b:
-            building: 9960bf4b
-            name: 2 lvl garage - wall 1 row
-            size: 1x1
-          b960bedd:
-            building: b960bedd
-            name: 2 lvl garage - wall 2 rows
-            size: 1x1
-        mikeseith\Garages\Modular Parking Garage 8 Lvl#\!Opt_8 Level Airport Shuttle_RTMT\zOpt_8 Level Airport Shuttle_RTMT.dat:
-          dd0ef80b:
-            building: dd0ef80b
-            name: 8 lvl airport shuttle spawner_RTMT
-            size: 1x1
-        mikeseith\Garages\Modular Parking Garage 8 Lvl#\!Opt_8 Level BusStop_RTMT\zOpt_8 Level BusStop_RTMT.dat:
-          3d184784:
-            building: 3d184784
-            name: 8 lvl garage bus stop_RTMT
-            size: 1x1
-        mikeseith\Garages\Modular Parking Garage 8 Lvl#\Mikeseith 8 Level Garages_Lots.dat:
+        Mikeseith 8 Level Garages_Lots.dat:
           1cf37210:
             building: 1cf37210
             name: 8 lvl new bridge corner A
@@ -6614,6 +6189,16 @@ mikeseith/multi-level-modular-garages:
           fcf36d53:
             building: fcf36d53
             name: 8 lvl new inside coner
+            size: 1x1
+        zOpt_8 Level Airport Shuttle_RTMT.dat:
+          dd0ef80b:
+            building: dd0ef80b
+            name: 8 lvl airport shuttle spawner_RTMT
+            size: 1x1
+        zOpt_8 Level BusStop_RTMT.dat:
+          3d184784:
+            building: 3d184784
+            name: 8 lvl garage bus stop_RTMT
             size: 1x1
       release: 2024-11-26T21:04:04.961Z
       version: 3.0.0

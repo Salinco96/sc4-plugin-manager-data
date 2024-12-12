@@ -1,4 +1,21 @@
 maxis/63-building:
+  buildings:
+    Plugin_00A_63Building.dat:
+      04b80000:
+        bulldoze: 9900
+        cost: 110000
+        flamability: 10
+        garbage: 39
+        maintenance: 210
+        name: Lm64x72_KoreaLifeBldg_04B8
+        pollution: 5
+        pollutionRadius: 6
+        power: 600
+        rating: 8
+        ratingRadius: 256
+        water: 1300
+        waterPollution: 5
+        waterPollutionRadius: 7
   categories: landmarks
   credits:
     - maxis: Original author
@@ -15,24 +32,7 @@ maxis/63-building:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00A-63-building
-      buildings:
-        Plugin_00A_63Building.dat:
-          04b80000:
-            bulldoze: 9900
-            cost: 110000
-            flamability: 10
-            garbage: 39
-            maintenance: 210
-            name: Lm64x72_KoreaLifeBldg_04B8
-            pollution: 5
-            pollutionRadius: 6
-            power: 600
-            rating: 8
-            ratingRadius: 256
-            water: 1300
-            waterPollution: 5
-            waterPollutionRadius: 7
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.401Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -70,8 +70,8 @@ maxis/63-building:
             waterPollutionRadius: 7
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.423Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -79,6 +79,25 @@ maxis/63-building:
       version: 1.0.0
 
 maxis/adler-planetarium:
+  buildings:
+    Plugin_031_AdlerPlanetarium.dat:
+      '04890000':
+        bulldoze: 8100
+        categories: landmarks
+        cost: 90000
+        flamability: 18
+        garbage: 6
+        maintenance: 180
+        menu: Landmarks
+        name: LM96x96_AdlerPlanetarium_0489
+        pollution: 1
+        pollutionRadius: 1
+        power: 25
+        rating: 7
+        ratingRadius: 256
+        water: 45
+        waterPollution: 1
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -95,26 +114,7 @@ maxis/adler-planetarium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-031-adler-planetarium
-      buildings:
-        Plugin_031_AdlerPlanetarium.dat:
-          '04890000':
-            bulldoze: 8100
-            categories: landmarks
-            cost: 90000
-            flamability: 18
-            garbage: 6
-            maintenance: 180
-            menu: Landmarks
-            name: LM96x96_AdlerPlanetarium_0489
-            pollution: 1
-            pollutionRadius: 1
-            power: 25
-            rating: 7
-            ratingRadius: 256
-            water: 45
-            waterPollution: 1
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.460Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -153,8 +153,8 @@ maxis/adler-planetarium:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.485Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -192,7 +192,7 @@ maxis/air-force-base:
             water: 150
             waterPollution: 3
             waterPollutionRadius: 4
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.297Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_007_AirForceBase.dat:
@@ -216,6 +216,22 @@ maxis/air-force-base:
       version: 1.0.0
 
 maxis/arc-de-triomphe:
+  buildings:
+    Plugin_003_ArcTriomphe.dat:
+      04c10000:
+        bulldoze: 4950
+        cost: 55000
+        garbage: 5
+        maintenance: 110
+        name: Lm38x22_ArcTriomphe_04C1
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        rating: 15
+        ratingRadius: 256
+        water: 1
+        waterPollution: 1
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -232,23 +248,7 @@ maxis/arc-de-triomphe:
     default:
       assets:
         - id: simtropolis/maxis-plugin-003-arc-de-triomphe
-      buildings:
-        Plugin_003_ArcTriomphe.dat:
-          04c10000:
-            bulldoze: 4950
-            cost: 55000
-            garbage: 5
-            maintenance: 110
-            name: Lm38x22_ArcTriomphe_04C1
-            pollution: 1
-            pollutionRadius: 1
-            power: 1
-            rating: 15
-            ratingRadius: 256
-            water: 1
-            waterPollution: 1
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.569Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -286,8 +286,8 @@ maxis/arc-de-triomphe:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.596Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -295,6 +295,25 @@ maxis/arc-de-triomphe:
       version: 1.0.0
 
 maxis/brandenburg-gate:
+  buildings:
+    Plugin_00C_BrandenburgGate.dat:
+      04b70000:
+        bulldoze: 5850
+        categories: landmarks
+        cost: 60000
+        flamability: 34
+        garbage: 5
+        maintenance: 120
+        menu: Landmarks
+        name: Lm72x34_BrandenburgGate_04B7
+        pollution: 1
+        pollutionRadius: 1
+        power: 2
+        rating: 6
+        ratingRadius: 256
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -311,26 +330,7 @@ maxis/brandenburg-gate:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00C-brandenburg-gate
-      buildings:
-        Plugin_00C_BrandenburgGate.dat:
-          04b70000:
-            bulldoze: 5850
-            categories: landmarks
-            cost: 60000
-            flamability: 34
-            garbage: 5
-            maintenance: 120
-            menu: Landmarks
-            name: Lm72x34_BrandenburgGate_04B7
-            pollution: 1
-            pollutionRadius: 1
-            power: 2
-            rating: 6
-            ratingRadius: 256
-            water: 3
-            waterPollution: 1
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.633Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -369,8 +369,8 @@ maxis/brandenburg-gate:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.657Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -378,6 +378,23 @@ maxis/brandenburg-gate:
       version: 1.0.0
 
 maxis/capitol-records:
+  buildings:
+    Plugin_012_CapitolRecords.dat:
+      04b10000:
+        bulldoze: 4500
+        cost: 50000
+        flamability: 34
+        garbage: 11
+        maintenance: 100
+        name: Lm80x48_CapitolRecordsBuilding_04B1
+        pollution: 3
+        pollutionRadius: 4
+        power: 215
+        rating: 3
+        ratingRadius: 256
+        water: 900
+        waterPollution: 4
+        waterPollutionRadius: 5
   categories: landmarks
   credits:
     - maxis: Original author
@@ -394,24 +411,7 @@ maxis/capitol-records:
     default:
       assets:
         - id: simtropolis/maxis-plugin-012-capitol-records
-      buildings:
-        Plugin_012_CapitolRecords.dat:
-          04b10000:
-            bulldoze: 4500
-            cost: 50000
-            flamability: 34
-            garbage: 11
-            maintenance: 100
-            name: Lm80x48_CapitolRecordsBuilding_04B1
-            pollution: 3
-            pollutionRadius: 4
-            power: 215
-            rating: 3
-            ratingRadius: 256
-            water: 900
-            waterPollution: 4
-            waterPollutionRadius: 5
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.694Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -449,8 +449,8 @@ maxis/capitol-records:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.719Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -465,7 +465,7 @@ maxis/day-of-peace:
     default:
       assets:
         - id: simtropolis/maxis-day-of-peace
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.283Z
       lastModified: 2024-11-18T09:48:18.355Z
       props:
         dayopeace.dat:
@@ -513,6 +513,23 @@ maxis/day-of-peace:
       version: 1.0.0
 
 maxis/globe-arena:
+  buildings:
+    Plugin_006_GlobeArena.dat:
+      04bc0000:
+        bulldoze: 4950
+        cost: 70000
+        flamability: 30
+        garbage: 15
+        maintenance: 140
+        name: Lm148x112_GlobeArena_04BC
+        pollution: 2
+        pollutionRadius: 2
+        power: 40
+        rating: 5
+        ratingRadius: 256
+        water: 100
+        waterPollution: 3
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -533,24 +550,7 @@ maxis/globe-arena:
     default:
       assets:
         - id: simtropolis/maxis-plugin-006-globe-arena
-      buildings:
-        Plugin_006_GlobeArena.dat:
-          04bc0000:
-            bulldoze: 4950
-            cost: 70000
-            flamability: 30
-            garbage: 15
-            maintenance: 140
-            name: Lm148x112_GlobeArena_04BC
-            pollution: 2
-            pollutionRadius: 2
-            power: 40
-            rating: 5
-            ratingRadius: 256
-            water: 100
-            waterPollution: 3
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.760Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -589,8 +589,8 @@ maxis/globe-arena:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.785Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -598,6 +598,25 @@ maxis/globe-arena:
       version: 1.0.0
 
 maxis/grand-central-station:
+  buildings:
+    Plugin_010_GrandCentralStation.dat:
+      04b30000:
+        bulldoze: 4500
+        categories: landmarks
+        cost: 110000
+        flamability: 30
+        garbage: 11
+        maintenance: 220
+        menu: Landmarks
+        name: Lm100x125_grandcentral_04B3
+        pollution: 3
+        pollutionRadius: 4
+        power: 200
+        rating: 8
+        ratingRadius: 256
+        water: 200
+        waterPollution: 4
+        waterPollutionRadius: 5
   categories: landmarks
   credits:
     - maxis: Original author
@@ -614,26 +633,7 @@ maxis/grand-central-station:
     default:
       assets:
         - id: simtropolis/maxis-plugin-010-grand-central-station
-      buildings:
-        Plugin_010_GrandCentralStation.dat:
-          04b30000:
-            bulldoze: 4500
-            categories: landmarks
-            cost: 110000
-            flamability: 30
-            garbage: 11
-            maintenance: 220
-            menu: Landmarks
-            name: Lm100x125_grandcentral_04B3
-            pollution: 3
-            pollutionRadius: 4
-            power: 200
-            rating: 8
-            ratingRadius: 256
-            water: 200
-            waterPollution: 4
-            waterPollutionRadius: 5
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.821Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -672,8 +672,8 @@ maxis/grand-central-station:
             waterPollutionRadius: 5
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.845Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -735,7 +735,7 @@ maxis/grutze-industries:
             water: 10
             waterPollution: 3
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.365Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM4x5_GrutzeInd_2d217719.SC4Lot:
@@ -801,7 +801,7 @@ maxis/grutzehaus:
             water: 5
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.378Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM2x3_Grutzehaus_ed2174a0.SC4Lot:
@@ -813,6 +813,25 @@ maxis/grutzehaus:
       version: 1.0.0
 
 maxis/kunjungjon:
+  buildings:
+    Plugin_008_Kunjungjon.dat:
+      04ba0000:
+        bulldoze: 5850
+        categories: landmarks
+        cost: 65000
+        flamability: 33
+        garbage: 9
+        maintenance: 130
+        menu: Landmarks
+        name: Lm55x43_KonjongjonHall_04BA
+        pollution: 2
+        pollutionRadius: 2
+        power: 50
+        rating: 5
+        ratingRadius: 256
+        water: 250
+        waterPollution: 2
+        waterPollutionRadius: 3
   categories: landmarks
   credits:
     - maxis: Original author
@@ -839,26 +858,7 @@ maxis/kunjungjon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-008-kunjungjon
-      buildings:
-        Plugin_008_Kunjungjon.dat:
-          04ba0000:
-            bulldoze: 5850
-            categories: landmarks
-            cost: 65000
-            flamability: 33
-            garbage: 9
-            maintenance: 130
-            menu: Landmarks
-            name: Lm55x43_KonjongjonHall_04BA
-            pollution: 2
-            pollutionRadius: 2
-            power: 50
-            rating: 5
-            ratingRadius: 256
-            water: 250
-            waterPollution: 2
-            waterPollutionRadius: 3
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.883Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -897,8 +897,8 @@ maxis/kunjungjon:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.906Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -994,7 +994,7 @@ maxis/longfellow-castle:
             ratingRadius: 256
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.390Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         CastleSet.dat:
@@ -1120,7 +1120,7 @@ maxis/luckys-hang-ten:
             water: 9
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.352Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_036_LuckysHangTen.dat:
@@ -1147,22 +1147,26 @@ maxis/maxis-buildings-as-props:
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_2_AFTER.jpg
   name: Maxis Buildings As Props and DLC Props
+  readme:
+    - T Wrecks - Maxis Prop Names And Query Fix_readme.txt
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2009/thumb-0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/40-maxis/14-maxis-buildings-as-props-and-dlc-props-v2-1
   variants:
     default:
       assets:
-        - docs: []
+        - docs:
+            - ~Documents/T Wrecks_Readmes
           id: simtropolis/22400-maxis-prop-names-and-query-fix
           include:
             - z_All Maxis building props with proper names.dat
         - docs:
             - _Documents
+          exclude:
+            - bldgprop_vol1.dat
+            - bldgprop_vol2.dat
           id: sc4evermore/14-maxis-buildings-as-props-and-dlc-props-v2-1
-          include:
-            - Maxis DLC Props.dat
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2023-12-06T15:41:39.000Z
+      lastGenerated: 2024-12-12T13:10:34.968Z
+      lastModified: 2024-10-14T12:05:00.000Z
       propFamilies:
         z_All Maxis building props with proper names.dat:
           '00001234':
@@ -1195,6 +1199,780 @@ maxis/maxis-buildings-as-props:
             name: '0x51500006 : Jes Billboards'
           '51600003':
             name: '0x51600003 : RP Outbuilding'
+          a0000001:
+            name: '0xa0000001 :  Backyard stuff'
+          a0000002:
+            name: '0xa0000002 : Sculptures, high wealth'
+          a0000005:
+            name: '0xa0000005 : Backyard stuff'
+          a0000006:
+            name: '0xa0000006 : Store Fronts'
+          a0000008:
+            name: '0xa0000008 : Backyard Stuff, Kids toys'
+          a000000a:
+            name: '0xa000000a : Store fronts'
+          a000000b:
+            name: '0xa000000b : Store fronts'
+          a000000c:
+            name: '0xa000000c : Planters'
+          a000000d:
+            name: '0xa000000d : Backyard stuff'
+          a000000f:
+            name: '0xa000000F : Car clusters, nite'
+          a0000011:
+            name: '0xa0000011 : Trampolines'
+          a0000013:
+            name: '0xa0000013 : Parking garage'
+          a0000014:
+            name: '0xa0000014 : Backyard stuff'
+          a0000015:
+            name: '0xa0000015 : Residential pools'
+          a0000016:
+            name: '0xa0000016 : Grafiti'
+          a0000017:
+            name: '0xa0000017 : Parking garages'
+          a000001c:
+            name: '0xa000001c : Grafiti'
+          a000001d:
+            name: '0xa000001d : Grafiti'
+          a000001f:
+            name: '0xa000001f : Backyard props'
+          a0000021:
+            name: '0xa0000021 : Boxes'
+          a0000023:
+            name: '0xa0000023 : Grafiti'
+          a0000026:
+            name: '0xa0000026 : Store fronts'
+          a0000027:
+            name: '0xa0000027 : Store fronts'
+          a0000028:
+            name: '0xa0000028 : Street props'
+          a0000032:
+            name: '0xa0000032 : Parking gar, 5 story'
+          a0000038:
+            name: '0xa0000038 : Street, Cars'
+          a0000039:
+            name: '0xa0000039 :  Planters'
+          a000003a:
+            name: '0xa000003a : Planters'
+          a000003c:
+            name: '0xa000003c : Spotlights'
+          a000003d:
+            name: '0xa000003d : Cars, Day'
+          a000003f:
+            name: '0xa000003f : Planters'
+          a0000041:
+            name: '0xa0000041 : Signs'
+          a0000042:
+            name: '0xa0000042 : Signs'
+          a0000043:
+            name: '0xa0000043 : Signs'
+          a0000044:
+            name: '0xa0000044 : Signs'
+          a0000045:
+            name: '0xa0000045 : Billboards'
+          a0000046:
+            name: '0xa0000046 : Billboards'
+          a0000048:
+            name: '0xa0000048 : Two Cans'
+          a000004a:
+            name: '0xa000004a : Bushes and Shrubs, small'
+          a000004b:
+            name: '0xa000004b : Bushes and Shrubs'
+          a000004c:
+            name: '0xa000004c : Various Flora'
+          a000004d:
+            name: '0xa000004d : Fluffy bush, medium'
+          a000004e:
+            name: '0xa000004e : Flowers'
+          a000004f:
+            name: '0xa000004f : Potted plants, street'
+          a0000050:
+            name: 0xa0000050 :Trees, medium
+          a0000051:
+            name: '0xa0000051 : Trees, large'
+          a0000052:
+            name: '0xa0000052 : Trees, Apples and Oranges'
+          a0000054:
+            name: '0xa0000054 : Planters'
+          a0000055:
+            name: '0xa0000055 : Flowers, Square'
+          a0000056:
+            name: '0xa0000056 : Farm animals'
+          a0000057:
+            name: '0xa0000057 : Flowers, square small'
+          a0000058:
+            name: '0xa0000058 : Phone booths'
+          a0000059:
+            name: '0xa0000059 : Golf Drivers'
+          a000005a:
+            name: '0xa000005a : Vending machines'
+          a000005b:
+            name: '0xa000005b : Golf Putters'
+          a000005c:
+            name: '0xa000005c : Crowds -StateFair'
+          a000005d:
+            name: '0xa000005d : Boats'
+          a000005e:
+            name: '0xa000005e : Backyard stuff'
+          a000005f:
+            name: '0xa000005f : Trash cans'
+          a0000060:
+            name: '0xa0000060 : Lights and Banners'
+          a0000061:
+            name: '0xa0000061 : FireHydrant'
+          a0000063:
+            name: '0xa0000063 : Lights, Diagonal'
+          a0000064:
+            name: '0xa0000064 : SemiTrailer Graffiti'
+          a0000065:
+            name: '0xa0000065 : Children'
+          a0000066:
+            name: '0xa0000066 : Children'
+          a0000067:
+            name: '0xa0000067 : Children, positive'
+          a0000068:
+            name: '0xa0000068  : Children, negative'
+          a0000069:
+            name: '0xa0000069 : People'
+          a000006a:
+            name: '0xa000006a : Ballons, animated'
+          a000006b:
+            name: '0xa000006b : People, Sitting idle'
+          a000006c:
+            name: '0xa000006c : Banners, art'
+          a000006d:
+            name: '0xa000006b : Troughs, feed and water'
+          a000006e:
+            name: '0xa000006e : basketball'
+          a000006f:
+            name: '0xa000006f : basketball'
+          a0000070:
+            name: '0xa0000070 : basketball '
+          a0000071:
+            name: '0xa0000071 : Field picking'
+          a0000074:
+            name: '0xa0000074 : PatioTable and Chairs'
+          a0000076:
+            name: '0xa0000076 : Swimming pools'
+          a0000077:
+            name: '0xa0000077 : Trees, large'
+          a0000078:
+            name: '0xa0000078 : Trees, medium'
+          a0000079:
+            name: '0xa0000079 : Tiny houses'
+          a000007a:
+            name: '0xa000007a : Children, waiting'
+          a000007b:
+            name: '0xa000007b : People, waiting'
+          a000007c:
+            name: '0xa000007c : Various, waiting'
+          a000007d:
+            name: '0xa000007d : Military, waiting'
+          a000007e:
+            name: '0xa000007e : Police, waiting'
+          a000007f:
+            name: '0xa000007f : Business, waiting'
+          a0000090:
+            name: 0xa0000090 :Trees, no tp
+          a0000091:
+            name: '0xa0000091 : Trees, medium'
+          a0000092:
+            name: '0xa0000092 : Trees, large'
+          a0000093:
+            name: '0xa0000093 : Swimming pools'
+          a0000094:
+            name: '0xa0000094 : Cop cars'
+          a0000095:
+            name: '0xa0000095 : Bunkers, lawn and concrete'
+          a0000096:
+            name: '0xa0000096 : Soccer kids'
+          a0000097:
+            name: '0xa0000097 : Baseball kids'
+          a0000098:
+            name: '0xa0000098 : basketball '
+          a0000099:
+            name: '0xa0000099 : basketball'
+          a000009a:
+            name: '0xa000009a : basketball'
+          a000009b:
+            name: '0xa000009b : basketball'
+          a000009c:
+            name: '0xa000009c : basketball'
+          a000009d:
+            name: '0xa000009d : basketball '
+          a000009e:
+            name: '0xa000009e : basketball'
+          a000009f:
+            name: '0xa000009f : basketball'
+          a0000100:
+            name: '0xa0000100 : basketball'
+          a0000101:
+            name: '0xa0000101 : People, nightclub'
+          a0000102:
+            name: '0xa0000102 : Vehicles, $$$'
+          a0000103:
+            name: 0xa0000103 :RR Switchstand
+          a0000104:
+            name: '0xa0000104 : Tree picking, animation'
+          a0000105:
+            name: '0xa0000105 : HighwaySign'
+          a0000106:
+            name: '0xa0000106 : HighwaySign, Diagonal'
+          a000030a:
+            name: '0xa000030a : JRJ Food Stands'
+          a0000818:
+            name: '0xa0000818 : MJB Flowers'
+          a0000819:
+            name: '0xa0000819 : MJB Crates'
+          a000081a:
+            name: '0xa000081a : MJB Trees'
+          a000081c:
+            name: '0xa000081c : MJB Roses'
+          a000081d:
+            name: '0xa000081d : MJB Trees'
+          a000081e:
+            name: '0xa000081e : MJB potted roses '
+          a000081f:
+            name: '0xa000081f : MJB Flowers'
+          a0000820:
+            name: '0xa0000820 : MJB Flowers'
+          a0000821:
+            name: '0xa0000821 : MJB Flowers'
+          a0000822:
+            name: '0xa0000822 : CSX Vishoek'
+          a0000823:
+            name: '0xa0000823 : CSX Craddock'
+          a0000826:
+            name: '0xa0000826 : CSX Dalene'
+          a0000829:
+            name: '0xa0000829 : SWi21 W2W Sections'
+          a000082a:
+            name: '0xa000082a : Carch Barns'
+          a000082c:
+            name: '0xa000082c : Jen_P Art Decos'
+          a000082d:
+            name: '0xa000082d : Frogface Cottages'
+          a0000830:
+            name: '0xa0000830 : JWD Hampton Arms'
+          a0000833:
+            name: '0xa0000833 : MJB Planter'
+          a0000834:
+            name: '0xa0000834 : MJB Planters'
+          a0000835:
+            name: '0xa0000835: MJB Bushes'
+          a0000836:
+            name: '0xa0000836: MJB Planters'
+          a0000843:
+            name: '0xa0000843 : BLS Derby Offices'
+          a0000844:
+            name: '0xa0000844 : RT Carriages'
+          a0000845:
+            name: '0xa0000845 : RT Carriages (45)'
+          a0000846:
+            name: '0xa0000846 : RT Mariachi Bands'
+          a0000847:
+            name: '0xa0000847 : RT Quartets'
+          a0000848:
+            name: '0xa0000848 : RT Grand Pianos'
+          a0000849:
+            name: '0xa0000849 : RT Bulls'
+          a0000850:
+            name: '0xa0000850 : SG 7-11 Stores'
+          a0000854:
+            name: '0xa0000854 : Lighted Palms'
+          a0000855:
+            name: '0xa0000855 : JWD Aspen Condos'
+          a000085d:
+            name: '0xa000085d : SG Pansarkatt Shops'
+          a000086a:
+            name: '0xa000086a : SG Cantalope Crops'
+          a000086b:
+            name: '0xa000086b : SG Pepper Crops'
+          a000086c:
+            name: '0xa000086c : SG Aniseed Crops'
+          a000086d:
+            name: '0xa000086d : SG Hops Vines'
+          a000086e:
+            name: '0xa000086e : SG Potato Crops'
+          a000086f:
+            name: '0xa000086f : SG Soybean Crops'
+          a0000874:
+            name: '0xa0000874 : SG Bus Stops'
+          a0000875:
+            name: '0xa0000875 : SG Large Bus Stops'
+          a0000876:
+            name: '0xa0000876 : SG Department Stores'
+          a0000879:
+            name: '0xa0000879 : Roller Homes'
+          a000087a:
+            name: '0xa000087a : SG Sugar Cane Crops'
+          a000087b:
+            name: '0xa000087b : SG Pumpkin Crops'
+          a000087c:
+            name: '0xa000087c : SG Liquorice Crops'
+          a0000881:
+            name: '0xa0000881 : SG Brownstones'
+          a0000882:
+            name: '0xa0000882 : SG Baltimore TownHomes'
+          a0000883:
+            name: '0xa0000883 : SG Single Brownstones'
+          a0000884:
+            name: '0xa0000884 : SG Sheraton Hotels'
+          a0000889:
+            name: '0xa0000889 : SG Stone Cold Creamery'
+          a000088b:
+            name: '0xa000088b : SG Pet Supermarket Stores'
+          a000088d:
+            name: '0xa000088d : SG Parker Offices'
+          a0000891:
+            name: '0xa0000891 : SG Pet Co Stores'
+          a0000893:
+            name: '0xa0000893 : SG Fishermen'
+          a0000901:
+            name: '0xa0000901 : SG Sainsbury Urban'
+          a0000902:
+            name: '0xa0000902 : SG Sainsbury Urban'
+          a0000903:
+            name: '0xa0000903 : SG Sainsbury Suburban'
+          a0000904:
+            name: '0xa0000904 : SG Sainsbury Grocer - Urban'
+          a000090b:
+            name: '0xa000090b : SG TownHomesB'
+          a000090c:
+            name: '0xa000090c : SG TownHomesC'
+          a000090d:
+            name: '0xa000090d : SG TownHomesD'
+          a000090e:
+            name: '0xa000090e : SG TownHomesE'
+          a000090f:
+            name: '0xa000090f : SG TownHomesF'
+          a0000910:
+            name: '0xa0000910 : SG Warehouses Modern'
+          a0000911:
+            name: '0xa0000911 : SG Ashton'
+          a0000912:
+            name: '0xa0000912 : SG Legacy'
+          a0000913:
+            name: '0xa0000913 : SG Claridge'
+          a0000914:
+            name: '0xa0000914 : SG Claridge Plus'
+          a0000915:
+            name: '0xa0000915 : SG Swedish Villa'
+          a0000916:
+            name: '0xa0000916 : SG Colonial'
+          a0000917:
+            name: '0xa0000917 : SG Birka'
+          a0000918:
+            name: '0xa0000918 : SG Small Houses'
+          a0000919:
+            name: '0xa0000919 : SG Sweden Modern'
+          a000091c:
+            name: '0xa000091c : SG Plantation Villas'
+          a000091d:
+            name: '0xa000091d : SG Modern Warehouses'
+          a000091e:
+            name: '0xa000091e : SG Sardina Row'
+          a000091f:
+            name: '0xa000091f : SG Sardina Fences'
+          a0000920:
+            name: '0xa0000920 : SG Plop-a-Shop Set 1'
+          a0000921:
+            name: '0xa0000921 : SG Plop-a-Shop Set 3'
+          a0000922:
+            name: '0xa0000922 : SG Plop-a-Shop Set 2'
+          a0000923:
+            name: '0xa0000923 : SG Plop-a-Shop Set 4'
+          a0000924:
+            name: '0xa0000924 : SG Strip Mall Fronts'
+          a0000926:
+            name: '0xa0000926 : SG High Grove'
+          a0000928:
+            name: '0xa0000928 : SG Restaurant Row'
+          a0000929:
+            name: '0xa0000929 : SG Food Lion'
+          a000092a:
+            name: '0xa000092a : SG BB Rum Distillery'
+          a000092c:
+            name: '0xa000092c : SG Best Buy Stores'
+          a000092d:
+            name: '0xa000092d : SG Cheriton'
+          a000092e:
+            name: '0xa000092e : SG Warehouse Small'
+          a000092f:
+            name: '0xa000092f : SG NIMBY Collection Small Businesses'
+          a0000930:
+            name: '0xa0000930 : SG RLS Homes'
+          a0000934:
+            name: '0xa0000934 : SG Berwick'
+          a0000936:
+            name: '0xa0000936 : SG Walldoff Apts.'
+          a0000937:
+            name: '0xa0000937 : SG Astoria Pointe'
+          a0000938:
+            name: '0xa0000938 : SG Scuttlebutt Row'
+          a000093a:
+            name: '0xa000093a : SG Canal Extras'
+          a000093b:
+            name: '0xa000093b : SG Canal Terrace'
+          a000093c:
+            name: '0xa000093c : SG Canal Wharf'
+          a000093d:
+            name: '0xa000093d : SG Gondola Landing'
+          a000093e:
+            name: '0xa000093e : SG Canal Barge'
+          a000093f:
+            name: '0xa000093f : SG Canal Paddleboats'
+          a0000940:
+            name: '0xa0000940 : SG Canal Bridges'
+          a0000941:
+            name: '0xa0000941 : SG Mathew Keenan Buildings'
+          a0000943:
+            name: '0xa0000943 : SG Subway Stations'
+          a0000955:
+            name: '0xa0000955 : SG Farm Sheds'
+          a0000956:
+            name: '0xa0000956 : SG 12m Water Tanks'
+          a0000957:
+            name: '0xa0000957 : SG 18m Water Tanks'
+          a0000958:
+            name: '0xa0000958 : SG Bags'
+          a0000961:
+            name: '0xa0000961 : SG Small Farm Tractors'
+          a0000962:
+            name: '0xa0000962 : SG Farm Trailers'
+          a0000965:
+            name: '0xa0000965 : SG John Steer Harvesters'
+          a0000969:
+            name: '0xa0000969 : SG Small Watercraft'
+          a000096a:
+            name: '0xa000096a : SG Medium Water Craft'
+          a000096b:
+            name: '0xa000096b : SG Large Watercraft'
+          a000096c:
+            name: '0xa000096c : SG Wally K''s Stores'
+          a000096f:
+            name: '0xa000096f : SG Eckerd Drugs'
+          a0000987:
+            name: '0xa0000987 : SG GooberGen Vats'
+          a0000990:
+            name: '0xa0000990 : SG Large Water Towers'
+          a0000991:
+            name: '0xa0000991 : SG NIMBY Small Adult Shops'
+          a0000992:
+            name: '0xa0000992 : SG NIMBY Nightclubs'
+          a0001401:
+            name: '0xa0001401 : PEG Trail Park Gardens'
+          a0001402:
+            name: '0xa0001402 : PEG Snack Bar Signs'
+          a0001403:
+            name: '0xa0001403 : PEG CDK-IND Cargo Pallets'
+          a0001404:
+            name: '0xa0001404 : PEG CDK-IND Misc Objects'
+          a0001407:
+            name: '0xa0001407 : PEG CDK-IND Vehicles'
+          a0001409:
+            name: '0xa0001409 : PEG Offset People'
+          a000140a:
+            name: '0xa000140a : PEG Trees'
+          a000140b:
+            name: '0xa000140b : PEG Seasonal Trees (Summer 6/1)'
+          a000140c:
+            name: '0xa000140c : PEG Seasonal Trees (Fall 9/1)'
+          a000140d:
+            name: '0xa000140d : PEG Seasonal Trees (Winter 12/1)'
+          a000140e:
+            name: '0xa000140e : PEG Seasonal Trees (Spring 3/1)'
+          a000140f:
+            name: '0xa000140f : PEG Ore Rail Cars (Loaded/Empty)'
+          a0001410:
+            name: '0xa0001410 : Empty PEG Ore Rail Cars'
+          a0001412:
+            name: '0xa0001412 : PEG Offset Statues'
+          a0001413:
+            name: '0xa0001413 : PEG Seasonal Trees (Summer 5/15)'
+          a0001414:
+            name: '0xa0001414 : PEG Seasonal Trees (Fall 9/15)'
+          a0001415:
+            name: '0xa0001415 : PEG Seasonal Trees (Winter 12/15)'
+          a0001416:
+            name: '0xa0001416 : PEG Seasonal Trees (Spring 3/15)'
+          a0001419:
+            name: '0xa0001419 : PEG Refuse Vehicles'
+          a000141a:
+            name: '0xa000141a : PEG Log Cabins'
+          a000141b:
+            name: '0xa000141b : PEG Solar Power Plant Offices'
+          a000141c:
+            name: '0xa000141c : PEG Cargo Pallets (23-6)'
+          a000141d:
+            name: '0xa000141d : PEG Cargo Pallets (6-12)'
+          a000141e:
+            name: '0xa000141e : PEG Cargo Pallets (12-18)'
+          a000141f:
+            name: '0xa000141f : PEG Cargo Pallets (18-23)'
+          a0001421:
+            name: '0xa0001421 : PEG Seaport Village Shops'
+          a0001422:
+            name: '0xa0001422 : PEG People Sitting'
+          a0001423:
+            name: '0xa0001423 : PEG Night Car Clusters'
+          a0001424:
+            name: '0xa0001424 : PEG Day Car Clusters'
+          a0001425:
+            name: '0xa0001425 : PEG Offset People (Various Times)'
+          a0001426:
+            name: '0xa0001426 : PEG Offset People'
+          a0001433:
+            name: '0xa0001433 : PEG Barges'
+          a0001435:
+            name: '0xa0001435 : PEG Commercial Car Clusters'
+          a0001436:
+            name: '0xa0001436 : PEG Water Taxis (5-11)'
+          a0001437:
+            name: '0xa0001437 : PEG Water Taxis (10-13)'
+          a0001438:
+            name: '0xa0001438 : PEG Water Taxis (13-17)'
+          a0001439:
+            name: '0xa0001439 : PEG Water Taxis (17-21)'
+          a000143b:
+            name: '0xa000143b : PEG CSK2 Docks'
+          a000143e:
+            name: '0xa000143e : PEG Scows (7-12)'
+          a000143f:
+            name: '0xa000143f : PEG Scows (13-21)'
+          a0001440:
+            name: '0xa0001440 : PEG Scows'
+          a0001441:
+            name: '0xa0001441 : PEG Campground Tents'
+          a0001445:
+            name: '0xa0001445 : PEG A-Frame Cabins'
+          a0001447:
+            name: '0xa0001447 : PEG Lodges'
+          a0001454:
+            name: '0xa0001454 : PEG MTP Observation Decks'
+          a0001458:
+            name: '0xa0001458: PEG MTP R$$ Dorms'
+          a000145a:
+            name: '0xa000145a: PEG MTP R$$ Boarding Houses'
+          a000145c:
+            name: '0xa000145c: PEG MTP R$$$ Condos'
+          a000145e:
+            name: '0xa000145e : PEG MTP Store CS$ Backs'
+          a000145f:
+            name: '0xa000145f : PEG MTP Store CS$ Fronts'
+          a0001465:
+            name: '0xa0001465: PEG MTP Gas Station Signs'
+          a0001466:
+            name: '0xa0001466: PEG MTP Small Billboards'
+          a0001467:
+            name: '0xa0001467: PEG MTP Large Billboards'
+          a000146a:
+            name: '0xa000146a: PEG MTP CS$$ Stores'
+          a000146b:
+            name: '0xa000146b: PEG MTP CS$$ B&Bs'
+          a0001baa:
+            name: '0xa0001baa: Andreas Roth Containers'
+          a000de04:
+            name: '0xa000de04: DWD Store Fronts'
+          a000de07:
+            name: '0xa000de07: DWD Single Story Store Fronts'
+          a000de09:
+            name: '0xa000de09: DWD 2 Story Store Fronts'
+          a000de16:
+            name: '0xa000de16: DWD Factory Units (16m Wide)'
+          a000de18:
+            name: '0xa000de18: DWD Factory Units (8m Wide)'
+          a000de1a:
+            name: '0xa000de1a: DWD Factory Unit Shops'
+          a000de1b:
+            name: '0xa000de1b: DWD Factory Unit Signs'
+          a000de1c:
+            name: '0xa000de1c: DWD BSC Park People'
+          a024a907:
+            name: '0xa024a907 : DTP Thaneplace Lofts'
+          a5a00119:
+            name: '0xa5a00119 : CSX LL Trees (18m)'
+          a5a0011a:
+            name: '0xa5a0011a : CSX LL Trees (25m)'
+          a5a0012a:
+            name: '0xa5a0012a : SG Holiday Flower Beds'
+          b5c00002:
+            name: '0xb5c00002 : Carch Barns'
+          b5c00003:
+            name: '0xb5c00003 : Carch Barns'
+          b5c00004:
+            name: '0xb5c00004 : CARCH Barns'
+          b5c00006:
+            name: '0xb5c00006 : Small Houses'
+          b5c00008:
+            name: '0xb5c00008 : CARCH Parking Garages'
+          b5c0000a:
+            name: '0xb5c0000a : JENX Paris Corners'
+          b5c0000b:
+            name: '0xb5c0000b : Gascooker Signs'
+          b5c0000d:
+            name: '0xb5c0000d : Gascooker Pubs'
+          b5c0000e:
+            name: '0xb5c0000e : Gascooker Picnic Tables'
+          b5c0000f:
+            name: '0xb5c0000f : Gascooker Picnic Tables (Diagonal)'
+          b5c00010:
+            name: '0xb5c00010 : SWi21 Tables with Colored Umbrellas'
+          b5c00011:
+            name: '0xb5c00011 : SWi21 Tudor Family Homes'
+          b5c00012:
+            name: '0xb5c00012 : RP2005 Industrial Unit 1'
+          b5c00013:
+            name: '0xb5c00013 : RP2005 Industrial Unit 2'
+          b5c00014:
+            name: '0xb5c00014 : RP2005 Office Signs'
+          b5c0001a:
+            name: '0xb5c0001a : JMyers Sunny Slope Barns'
+          b5c0001b:
+            name: '0xb5c0001b : JMyers Stone Tree Barns'
+          b5c0001c:
+            name: '0xb5c0001c : JMyers Hill N Dale Barns'
+          b5c0001d:
+            name: '0xb5c0001d : Gascooker UK Houses'
+          b5c0001e:
+            name: '0xb5c0001e : JENX Paris Rows'
+          b5c0001f:
+            name: '0xb5c0001f : Gascooker UK Corner Shops'
+          b5c00022:
+            name: '0xb5c00022 : JenP Colonials'
+          b5c00029:
+            name: '0xb5c00029 : IT Pompey Suburbs'
+          b5c0002a:
+            name: '0xb5c0002a : IT Pompey Suburbs'
+          b5c0002d:
+            name: '0xb5c0002d : Don Miguel Lofts'
+          b5c0002e:
+            name: '0xb5c0002e : Don Miguel Family Homes'
+          b5c0002f:
+            name: '0xb5c0002f : JenP Umbrellas'
+          b5c00030:
+            name: '0xb5c00030 : JenP Umbrellas (45)'
+          b5c00031:
+            name: '0xb5c00031 : JenP Umbrellas'
+          b5c00032:
+            name: '0xb5c00032 : JenP Umbrellas (45)'
+          b5c00034:
+            name: '0xb5c00034 : Gascooker Containers'
+          b5c00035:
+            name: '0xb5c00035 : Gascooker Lorries'
+          bc000011:
+            name: '0xbc000011 : RT 4 Door SMART Cars'
+          bc000012:
+            name: '0xbc000012 : RT SMART Cars'
+          bc000013:
+            name: '0xbc000013 : RT SMART Cars (Diagonal)'
+          c5000000:
+            name: '0xc5000000 : CSX Sheds '
+          c5000001:
+            name: '0xc5000001 : CSX Sheds '
+          c5000002:
+            name: '0xc5000002 : BLS April Log Homes'
+          c5000005:
+            name: '0xc5000005 : CSX Fancy Tables'
+          c5000006:
+            name: '0xc5000006 : CSX Triangular Tripple Ads'
+          c5000007:
+            name: '0xc5000007 : CSX Hedges (16m)'
+          c5000008:
+            name: '0xc5000008 : CSX Derbys'
+          c5000009:
+            name: '0xc5000009 : CSX Cocoa Trees'
+          c5000010:
+            name: '0xc5000010 : CSX Truck Family'
+          c5000020:
+            name: '0xc5000020 : CSX Thatch Cottages'
+          c5000021:
+            name: '0xc5000021 : CSX Aldeburgh Residences'
+          c5000022:
+            name: '0xc5000022 : CSX Tudors'
+          c5000025:
+            name: '0xc5000025 : CSX Nando Thatch Houses'
+          c5000027:
+            name: '0xc5000027 : CSXm EucaliptusB Trees'
+          c5000028:
+            name: '0xc5000028 : CSX Billboards'
+          c5000031:
+            name: '0xc5000031 : CSX JRJ EucaliptusB Trees'
+          c5000035:
+            name: '0xc5000035 : CSX SF Bushes (2m)'
+          c5000036:
+            name: '0xc5000036 : CSX SF Bushes (4m)'
+          c5000037:
+            name: '0xc5000037 : CSX SF Hedges (6m)'
+          c5000039:
+            name: '0xc5000039 : CSX Vishoek'
+          c5000040:
+            name: '0xc5000040 : CSX Vishoek'
+          c5000041:
+            name: '0xc5000041 : CSX Themba Tudors'
+          cb65001d:
+            name: '0xcb65001d : Cogeo Subway Entrances'
+          cb65001e:
+            name: '0xcb65001e : Cogeo Bus Stop Signs'
+          cb65001f:
+            name: '0xcb65001f : Cogeo Parking Entrances'
+          cd000090:
+            name: '0xcd000090 : CD Oakus Vlakhus Trees'
+          cda000d0:
+            name: '0xcda000d0 : CD Diagonal Vehicle End'
+          cda000d1:
+            name: '0xcda000d1 : CD Diagonal Vehicle Side'
+          cda001a0:
+            name: '0xcda001a0 : CD Park Bench Ortho'
+          cda001d0:
+            name: '0xcda001d0 : CD Park Bench Diagonal'
+          cdd000a0:
+            name: '0xcdd000a0 : CD Shaded Ortho Vehicle End'
+          cdd000a1:
+            name: '0xcdd000a1 : CD Shaded Ortho Vehicle Side'
+          cdd000d0:
+            name: '0xcdd000d0 : CD Shaded Diagonal Vehicle End'
+          cdd000d1:
+            name: '0xcdd000d1 : CD Shaded Diagonal Vehicle Side'
+          cdd001a1:
+            name: '0xcdd001a1 : CD Shaded Park Bench Ortho'
+          cdd001d1:
+            name: '0xcdd001d1 : CD Shaded Park Bench Diagonal'
+          d6600000:
+            name: '0xd6600000 : D66 Bushes'
+          d6600001:
+            name: '0xd6600001 : D66 Flowers'
+          d6600002:
+            name: '0xd6600002 : D66 Medium Bushes'
+          d6600003:
+            name: '0xd6600003 : D66 Planters '
+          d6600004:
+            name: '0xd6600004 : D66 Vines'
+          d6600005:
+            name: '0xd6600005 : D66 Formal Gardens'
+          d6600006:
+            name: '0xd6600006 : D66 Day Lilly Fields'
+          d6600007:
+            name: '0xd6600007 : D66 Day Lillies'
+          d6600008:
+            name: '0xd6600008 : D66 Orange/Yellow Flower Fields'
+          d6600009:
+            name: '0xd6600009 : D66 Barby Flower Gardens'
+          d660000a:
+            name: '0xd660000a : D66 Flower Gardens'
+          d660000b:
+            name: '0xd660000b : D66 Canopies'
+          d660000c:
+            name: '0xd660000c : D66 Cabins'
+          d660000d:
+            name: '0xd660000d : D66 Varde Houses'
+          d660000e:
+            name: '0xd660000e : D66 L Garden Beds'
+          d660000f:
+            name: '0xd660000f : D66 L Garden Beds'
+          d6600010:
+            name: '0xd6600010 : D66 Flower Beds'
       props:
         Maxis DLC Props.dat:
           2b9d0000:
@@ -2820,7 +3598,7 @@ maxis/mayflower-port:
             water: 250
             waterPollution: 2
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.311Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_032_MayflowerPort.dat:
@@ -2838,6 +3616,21 @@ maxis/mayflower-port:
       version: 1.0.0
 
 maxis/namdaemun:
+  buildings:
+    Plugin_009_NamDaeMoon.dat:
+      04b90000:
+        bulldoze: 5850
+        cost: 65000
+        flamability: 10
+        garbage: 4
+        maintenance: 130
+        name: Lm64x64_NamDaeMoon_04B9
+        power: 10
+        rating: 8
+        ratingRadius: 256
+        water: 10
+        waterPollution: 2
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -2854,22 +3647,7 @@ maxis/namdaemun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-009-namdaemun
-      buildings:
-        Plugin_009_NamDaeMoon.dat:
-          04b90000:
-            bulldoze: 5850
-            cost: 65000
-            flamability: 10
-            garbage: 4
-            maintenance: 130
-            name: Lm64x64_NamDaeMoon_04B9
-            power: 10
-            rating: 8
-            ratingRadius: 256
-            water: 10
-            waterPollution: 2
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.437Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -2906,8 +3684,8 @@ maxis/namdaemun:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.463Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -2915,6 +3693,23 @@ maxis/namdaemun:
       version: 1.0.0
 
 maxis/parthenon:
+  buildings:
+    Plugin_00D_Parthenon.dat:
+      04b60000:
+        bulldoze: 6750
+        categories: landmarks
+        cost: 60000
+        flamability: 35
+        garbage: 2
+        maintenance: 120
+        menu: Landmarks
+        name: Lm32x68_Parthenon_04B6
+        power: 2
+        rating: 7
+        ratingRadius: 256
+        water: 5
+        waterPollution: 1
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -2969,24 +3764,7 @@ maxis/parthenon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00D-parthenon
-      buildings:
-        Plugin_00D_Parthenon.dat:
-          04b60000:
-            bulldoze: 6750
-            categories: landmarks
-            cost: 60000
-            flamability: 35
-            garbage: 2
-            maintenance: 120
-            menu: Landmarks
-            name: Lm32x68_Parthenon_04B6
-            power: 2
-            rating: 7
-            ratingRadius: 256
-            water: 5
-            waterPollution: 1
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:35.945Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3023,8 +3801,8 @@ maxis/parthenon:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:35.971Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3032,6 +3810,26 @@ maxis/parthenon:
       version: 1.0.0
 
 maxis/rockefeller-center:
+  buildings:
+    Plugin_033_RockefellerCenter.dat:
+      '04870000':
+        bulldoze: 8100
+        categories: landmarks,religion
+        cost: 90000
+        flamability: 39
+        garbage: 3
+        maintenance: 180
+        menu: Landmarks
+        name: Lm58x75_RockefellerCtr_0487
+        pollution: 1
+        pollutionRadius: 1
+        power: 10
+        rating: 7
+        ratingRadius: 256
+        submenu: Landmarks/Religion
+        water: 9
+        waterPollution: 1
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3058,27 +3856,7 @@ maxis/rockefeller-center:
     default:
       assets:
         - id: simtropolis/maxis-plugin-033-rockefeller-center
-      buildings:
-        Plugin_033_RockefellerCenter.dat:
-          '04870000':
-            bulldoze: 8100
-            categories: landmarks,religion
-            cost: 90000
-            flamability: 39
-            garbage: 3
-            maintenance: 180
-            menu: Landmarks
-            name: Lm58x75_RockefellerCtr_0487
-            pollution: 1
-            pollutionRadius: 1
-            power: 10
-            rating: 7
-            ratingRadius: 256
-            submenu: Landmarks/Religion
-            water: 9
-            waterPollution: 1
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.013Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3117,8 +3895,8 @@ maxis/rockefeller-center:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.038Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3126,6 +3904,21 @@ maxis/rockefeller-center:
       version: 1.0.0
 
 maxis/sagrada-familia:
+  buildings:
+    Plugin_00F_TempleExpiatiori.dat:
+      04b40000:
+        bulldoze: 8550
+        cost: 95000
+        flamability: 16
+        garbage: 5
+        maintenance: 180
+        name: LM80x80_sagradafamilia_04B4
+        pollution: 1
+        pollutionRadius: 2
+        rating: 5
+        ratingRadius: 256
+        waterPollution: 1
+        waterPollutionRadius: 3
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3142,22 +3935,7 @@ maxis/sagrada-familia:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00F-temple-expiatiori
-      buildings:
-        Plugin_00F_TempleExpiatiori.dat:
-          04b40000:
-            bulldoze: 8550
-            cost: 95000
-            flamability: 16
-            garbage: 5
-            maintenance: 180
-            name: LM80x80_sagradafamilia_04B4
-            pollution: 1
-            pollutionRadius: 2
-            rating: 5
-            ratingRadius: 256
-            waterPollution: 1
-            waterPollutionRadius: 3
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.569Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3194,8 +3972,8 @@ maxis/sagrada-familia:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.596Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3203,6 +3981,23 @@ maxis/sagrada-familia:
       version: 1.0.0
 
 maxis/san-francisco-city-hall:
+  buildings:
+    Plugin_017_SanFranCityHall.dat:
+      04ac0000:
+        bulldoze: 4950
+        cost: 65000
+        flamability: 30
+        garbage: 9
+        maintenance: 130
+        name: LM166x112_SanFranCityHall_04AC
+        pollution: 4
+        pollutionRadius: 2
+        power: 200
+        rating: 5
+        ratingRadius: 256
+        water: 200
+        waterPollution: 3
+        waterPollutionRadius: 3
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3219,24 +4014,7 @@ maxis/san-francisco-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-017-san-francisco-city-hall
-      buildings:
-        Plugin_017_SanFranCityHall.dat:
-          04ac0000:
-            bulldoze: 4950
-            cost: 65000
-            flamability: 30
-            garbage: 9
-            maintenance: 130
-            name: LM166x112_SanFranCityHall_04AC
-            pollution: 4
-            pollutionRadius: 2
-            power: 200
-            rating: 5
-            ratingRadius: 256
-            water: 200
-            waterPollution: 3
-            waterPollutionRadius: 3
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.076Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3275,8 +4053,8 @@ maxis/san-francisco-city-hall:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.101Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3284,6 +4062,23 @@ maxis/san-francisco-city-hall:
       version: 1.0.0
 
 maxis/schloss-schoenbrun:
+  buildings:
+    Plugin_00E_SchlossSchoenbrun.dat:
+      04b50000:
+        bulldoze: 5850
+        cost: 95000
+        flamability: 34
+        garbage: 4
+        maintenance: 180
+        name: Lm61x48_SchlossSchoenbrun_04B5
+        pollution: 1
+        pollutionRadius: 2
+        power: 25
+        rating: 6
+        ratingRadius: 256
+        water: 60
+        waterPollution: 1
+        waterPollutionRadius: 3
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3306,24 +4101,7 @@ maxis/schloss-schoenbrun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00E-schloss-schoenbrun
-      buildings:
-        Plugin_00E_SchlossSchoenbrun.dat:
-          04b50000:
-            bulldoze: 5850
-            cost: 95000
-            flamability: 34
-            garbage: 4
-            maintenance: 180
-            name: Lm61x48_SchlossSchoenbrun_04B5
-            pollution: 1
-            pollutionRadius: 2
-            power: 25
-            rating: 6
-            ratingRadius: 256
-            water: 60
-            waterPollution: 1
-            waterPollutionRadius: 3
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.174Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3362,8 +4140,8 @@ maxis/schloss-schoenbrun:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.205Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3371,6 +4149,23 @@ maxis/schloss-schoenbrun:
       version: 1.0.0
 
 maxis/seoul-city-hall:
+  buildings:
+    Plugin_004_SeoulCityHall.dat:
+      04c30000:
+        bulldoze: 4950
+        cost: 65000
+        flamability: 30
+        garbage: 9
+        maintenance: 130
+        name: LM80x64_SeoulCityHallSquare_04C3
+        pollution: 4
+        pollutionRadius: 2
+        power: 200
+        rating: 5
+        ratingRadius: 256
+        water: 200
+        waterPollution: 3
+        waterPollutionRadius: 3
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3391,24 +4186,7 @@ maxis/seoul-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-004-seoul-city-hall
-      buildings:
-        Plugin_004_SeoulCityHall.dat:
-          04c30000:
-            bulldoze: 4950
-            cost: 65000
-            flamability: 30
-            garbage: 9
-            maintenance: 130
-            name: LM80x64_SeoulCityHallSquare_04C3
-            pollution: 4
-            pollutionRadius: 2
-            power: 200
-            rating: 5
-            ratingRadius: 256
-            water: 200
-            waterPollution: 3
-            waterPollutionRadius: 3
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.243Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3447,8 +4225,8 @@ maxis/seoul-city-hall:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.269Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3456,6 +4234,23 @@ maxis/seoul-city-hall:
       version: 1.0.0
 
 maxis/seoul-soccer-stadium:
+  buildings:
+    Plugin_005_SeoulSoccerStad.dat:
+      04c20000:
+        bulldoze: 4950
+        cost: 160000
+        flamability: 34
+        garbage: 65
+        maintenance: 310
+        name: Lm239x215_WorldCupFootballStadium_04C2
+        pollution: 4294967285
+        pollutionRadius: 4
+        power: 90
+        rating: 5
+        ratingRadius: 256
+        water: 100
+        waterPollution: 10
+        waterPollutionRadius: 6
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3472,24 +4267,7 @@ maxis/seoul-soccer-stadium:
     default:
       assets:
         - id: simtropolis/maxis-plugin-005-seoul-soccer-stadium
-      buildings:
-        Plugin_005_SeoulSoccerStad.dat:
-          04c20000:
-            bulldoze: 4950
-            cost: 160000
-            flamability: 34
-            garbage: 65
-            maintenance: 310
-            name: Lm239x215_WorldCupFootballStadium_04C2
-            pollution: 4294967285
-            pollutionRadius: 4
-            power: 90
-            rating: 5
-            ratingRadius: 256
-            water: 100
-            waterPollution: 10
-            waterPollutionRadius: 6
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.307Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3527,8 +4305,8 @@ maxis/seoul-soccer-stadium:
             waterPollutionRadius: 6
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.333Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3563,7 +4341,7 @@ maxis/shorty-burger:
             water: 9
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.338Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_035_ShortyBurger.dat:
@@ -3602,7 +4380,7 @@ maxis/sobchak-lanes:
             water: 9
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.324Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_034_SobchakLanes.dat:
@@ -3666,7 +4444,7 @@ maxis/stone-house:
             water: 8
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.403Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM3x3_StoneHouse_0d1d6acb.SC4Lot:
@@ -3678,6 +4456,22 @@ maxis/stone-house:
       version: 1.0.0
 
 maxis/stonehenge:
+  buildings:
+    Plugin_016_Stonehenge.dat:
+      04ad0000:
+        bulldoze: 5850
+        categories: landmarks
+        cost: 60000
+        garbage: 5
+        maintenance: 10
+        menu: Landmarks
+        name: Lm48x48_Stonehenge_04AD
+        pollution: 1
+        pollutionRadius: 1
+        rating: 5
+        ratingRadius: 256
+        waterPollution: 1
+        waterPollutionRadius: 1
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3710,23 +4504,7 @@ maxis/stonehenge:
     default:
       assets:
         - id: simtropolis/maxis-plugin-016-stonehenge
-      buildings:
-        Plugin_016_Stonehenge.dat:
-          04ad0000:
-            bulldoze: 5850
-            categories: landmarks
-            cost: 60000
-            garbage: 5
-            maintenance: 10
-            menu: Landmarks
-            name: Lm48x48_Stonehenge_04AD
-            pollution: 1
-            pollutionRadius: 1
-            rating: 5
-            ratingRadius: 256
-            waterPollution: 1
-            waterPollutionRadius: 1
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.371Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3762,8 +4540,8 @@ maxis/stonehenge:
             waterPollutionRadius: 1
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.398Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3771,6 +4549,23 @@ maxis/stonehenge:
       version: 1.0.0
 
 maxis/taipei-art-museum:
+  buildings:
+    Plugin_030_TaipeiArtMuseum.dat:
+      '04900000':
+        bulldoze: 8550
+        cost: 95000
+        flamability: 27
+        garbage: 20
+        maintenance: 180
+        name: Lm80x110_TaipeiArtMuseum_0490
+        pollution: 5
+        pollutionRadius: 1
+        power: 90
+        rating: 9
+        ratingRadius: 256
+        water: 450
+        waterPollution: 6
+        waterPollutionRadius: 2
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3787,24 +4582,7 @@ maxis/taipei-art-museum:
     default:
       assets:
         - id: simtropolis/maxis-plugin-030-taipei-art-museum
-      buildings:
-        Plugin_030_TaipeiArtMuseum.dat:
-          '04900000':
-            bulldoze: 8550
-            cost: 95000
-            flamability: 27
-            garbage: 20
-            maintenance: 180
-            name: Lm80x110_TaipeiArtMuseum_0490
-            pollution: 5
-            pollutionRadius: 1
-            power: 90
-            rating: 9
-            ratingRadius: 256
-            water: 450
-            waterPollution: 6
-            waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.505Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3843,8 +4621,8 @@ maxis/taipei-art-museum:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.530Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict
@@ -3900,7 +4678,7 @@ maxis/temple-of-grutz:
             ratingRadius: 256
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:38.416Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot:
@@ -3912,6 +4690,23 @@ maxis/temple-of-grutz:
       version: 1.0.0
 
 maxis/the-living-mall:
+  buildings:
+    Plugin_002_TheLivingMall.dat:
+      04c00000:
+        bulldoze: 4950
+        cost: 55000
+        flamability: 35
+        garbage: 11
+        maintenance: 110
+        name: Lm80x80_TheLivingMall_04C0
+        pollution: 10
+        pollutionRadius: 4
+        power: 800
+        rating: 5
+        ratingRadius: 256
+        water: 850
+        waterPollution: 12
+        waterPollutionRadius: 5
   categories: landmarks
   credits:
     - maxis: Original author
@@ -3928,24 +4723,7 @@ maxis/the-living-mall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-002-the-living-mall
-      buildings:
-        Plugin_002_TheLivingMall.dat:
-          04c00000:
-            bulldoze: 4950
-            cost: 55000
-            flamability: 35
-            garbage: 11
-            maintenance: 110
-            name: Lm80x80_TheLivingMall_04C0
-            pollution: 10
-            pollutionRadius: 4
-            power: 800
-            rating: 5
-            ratingRadius: 256
-            water: 850
-            waterPollution: 12
-            waterPollutionRadius: 5
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:36.631Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -3984,8 +4762,8 @@ maxis/the-living-mall:
             waterPollutionRadius: 5
       credits:
         - toroca: Jobs
-      lastGenerated: 2024-12-02T13:33:03.845Z
-      lastModified: 2004-03-16T00:00:00.000Z
+      lastGenerated: 2024-12-12T13:10:36.656Z
+      lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
       support: https://community.simtropolis.com/forums/topic/760010-locale-dat-maxis-and-functional-landmarks-conflict

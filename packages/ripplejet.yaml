@@ -81,16 +81,19 @@ ripplejet/census-repository-building:
         name: Gnome_CensusRepository
       b6888d35:
         name: Census Repository Vault
+  readme: Readme_Census_Repository_Facility_v3.5.htm
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
   variants:
     default:
       assets:
         - docs:
             - _Documents/BSC_Readmes/RippleJet
+          exclude:
+            - _Census Repository___CHOOSE ONE --- SEE README!!!
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
             - BSC/Ripplejet/Census Repository
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.601Z
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
       release: 2024-11-27T09:00:58.547Z
@@ -100,6 +103,7 @@ ripplejet/census-repository-building:
         - docs:
             - _Documents/BSC_Readmes/RippleJet
           exclude:
+            - _Census Repository___CHOOSE ONE --- SEE README!!!
             - RJ - Census_Repository_Model_and_Query_3.1.dat
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
@@ -114,7 +118,7 @@ ripplejet/census-repository-building:
         - ripplejet: Original author
         - null-45: Query updates
       disabled: true
-      lastGenerated: 2024-12-02T13:33:03.845Z
+      lastGenerated: 2024-12-12T13:10:33.636Z
       lastModified: 2024-05-08T04:10:48.000Z
       name: More Demand Info by Null 45
       release: 2024-11-27T09:00:58.547Z

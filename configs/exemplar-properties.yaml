@@ -8223,24 +8223,24 @@
   type: Float32
 
 "0xca416ab5":
-  desc: Resource key of the item description (references a Text based file by TGI)
+  desc: Resource key of the item description (references a LTEXT file by TGI)
   display: tgi
   name: Item Description Key
-  size: 3 # TODO: Check
+  size: 3
   type: UInt32
 
 "0xca416b2a":
-  desc: Resource key of ordinance description (references a Text based file by TGI)
+  desc: Resource key of ordinance description (references a LTEXT file by TGI)
   display: tgi
   name: Ordinance Description Key
-  size: 3 # TODO: Check
+  size: 3
   type: UInt32
 
 "0xca416b3f":
-  desc: MySim default name resource key (references a Text based file by TGI)
+  desc: MySim default name resource key (references a LTEXT file by TGI)
   display: tgi
   name: MySim Name Resource key
-  size: 3 # TODO: Check
+  size: 3
   type: UInt32
 
 "0xca46931f":
