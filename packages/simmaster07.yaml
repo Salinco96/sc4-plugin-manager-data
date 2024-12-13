@@ -21,7 +21,7 @@ simmaster07/extra-cheats:
     default:
       assets:
         - id: simtropolis/31350-simmasters-extra-cheats-dll
-      lastGenerated: 2024-12-12T13:10:36.967Z
+      lastGenerated: 2024-12-13T11:23:38.950Z
       lastModified: 2020-06-05T05:32:21.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.1.1
@@ -67,7 +67,7 @@ simmaster07/sc4fix:
     default:
       assets:
         - id: simtropolis/30883-sc4fix-third-party-patches-for-sc4
-      lastGenerated: 2024-12-12T13:10:35.151Z
+      lastGenerated: 2024-12-13T11:23:38.019Z
       lastModified: 2018-01-21T05:06:10.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.7
@@ -84,36 +84,21 @@ simmaster07/upgradeable-city-halls:
     **Behavior**
 
     The user is prompted monthly to upgrade to stage 2 when the city's population reaches 45,000, and to upgrade to stage 3 at 95,000. The mod also adds a cheat code, "UpgradeCityHall," that forces the upgrade prompt to appear regardless of population.
-
-    **Installation**
-
-    Unzip to your plugins folder.
-
-    - On Windows and Mac versions *other than the App Store*, this is in Documents\\SimCity 4\\Plugins.
-    - On the Mac App Store version, this is in ~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4/Plugins.
-
-    Create these directories if they do not exist yet.
-
-    **Mac users**
-
-    You must install [SC4MacInjector](https://community.simtropolis.com/files/file/32047-sc4macinjector-a-dynamic-code-plugin-loader-for-mac/) before using this mod or else nothing will happen.
-
-    **Compatibility**
-
-    Tested and working on 1.1.641.0 (Steam/GOG/Origin) on Windows and the Steam version of SC4 for Mac. Also works in combination with [SC4Fix](https://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/) and the [Extra Cheats DLL](https://community.simtropolis.com/files/file/21118-simcity-4-extra-cheats-plugin/). Untested but should work with any version of SimCity 4 Deluxe or SimCity 4 w/ Rush Hour.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall2.png.4e8c754a248bf1b52b5dc684a0c59b5a.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall3.png.8b8fd43297237fa33ead9f816a88e66d.png
     - https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall1.png.e28e6d30e2b13e4b1fc3a59f640c3007.png
   name: Upgradeable City Halls
   repository: https://github.com/nsgomez/gzcom-dll
+  requirements:
+    install.minVersion: 641
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_10/cityhall2.thumb.png.7689a415d866be1a196e8157b941e9a5.png
   url: https://community.simtropolis.com/files/file/31339-real-upgradeable-city-halls/
   variants:
     default:
       assets:
         - id: simtropolis/31339-real-upgradeable-city-halls#169470
-      lastGenerated: 2024-11-26T21:04:04.961Z
+      lastGenerated: 2024-12-13T11:40:14.286Z
       lastModified: 2017-12-27T03:47:02.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.1.0
