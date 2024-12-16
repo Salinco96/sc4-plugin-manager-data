@@ -560,14 +560,14 @@ jasoncw/beacon-apartments:
       7097cb41:
         building: d097ca4e
         density: medium,high
-        name: 'R$$5_1x2_Beacon Apartments L '
+        name: R$$5_1x2_Beacon Apartments L
         size: 1x2
         stage: 5
     Jasoncw - Beacon Apartments R (R$$5_1x2).SC4Lot:
       8097c8e9:
         building: d097c841
         density: medium,high
-        name: 'R$$5_1x2_Beacon Apartments R '
+        name: R$$5_1x2_Beacon Apartments R
         size: 1x2
         stage: 5
   name: Beacon Apartments
@@ -600,7 +600,59 @@ jasoncw/beacon-apartments:
       version: 1.0.0
 
 jasoncw/cecil-hotel:
-  categories: cs$
+  buildings:
+    Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM).SC4Lot:
+      d0e32452:
+        bulldoze: 720
+        capacity:
+          cs$: 1595
+        categories: cs$
+        flamability: 45
+        garbage: 47
+        name: Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM)
+        pollution: 15
+        pollutionRadius: 5
+        power: 32
+        water: 321
+        waterPollution: 7
+        waterPollutionRadius: 5
+        worth: 12217
+    Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
+      d0e32452:
+        bulldoze: 720
+        capacity:
+          cs$: 1595
+        categories: cs$
+        flamability: 45
+        garbage: 47
+        name: Jasoncw - Cecil Hotel - Grow (CS$8_2x3)
+        pollution: 15
+        pollutionRadius: 5
+        power: 32
+        water: 321
+        waterPollution: 7
+        waterPollutionRadius: 5
+        worth: 12217
+    Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
+      '90e43813':
+        bulldoze: 720
+        capacity:
+          cs$: 1595
+        categories: landmarks,cs$
+        cost: 11030
+        flamability: 45
+        garbage: 47
+        menu: Landmarks
+        name: Jasoncw - Cecil Hotel
+        pollution: 15
+        pollutionRadius: 5
+        power: 32
+        submenu: Commercial/CS$
+        water: 321
+        waterPollution: 7
+        waterPollutionRadius: 5
+        worth: 12217
+  categories: cs$,landmarks,cam
   description: |-
     Cecil Hotel opened in 1924 in Los Angeles. The first death in the hotel occurred in January 1927, with at least 17 more since. It has also been the home of two serial killers.
 
@@ -612,104 +664,44 @@ jasoncw/cecil-hotel:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_10/65418cb47827a_CecilHotel00.jpg.42c2ded22426de01a28c7f2b4e6b1bbf.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_10/65418cb7588ac_CecilHotel01.jpg.0ba2242d961795c4f194b6b1c94a8a82.jpg
+  lots:
+    Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM).SC4Lot:
+      '90e32499':
+        building: d0e32452
+        density: medium,high
+        name: CS$11_2x3_Cecil Hotel
+        requirements:
+          cam: true
+        size: 2x3
+        stage: 11
+    Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
+      '90e32499':
+        building: d0e32452
+        density: medium,high
+        name: CS$8_2x3_Cecil Hotel
+        requirements:
+          cam: false
+        size: 2x3
+        stage: 8
+    Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
+      '90e43813':
+        building: '90e43813'
+        name: PLOP_2x3_Cecil Hotel
+        size: 2x3
   name: Cecil Hotel
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/65418ce0f1629_CecilHotel00.thumb.jpg.3b95e22ae1a6f4f64110471b8a3ff635.jpg
   url: https://community.simtropolis.com/files/file/35720-cecil-hotel/
   variants:
-    cam:
-      assets:
-        - id: simtropolis/35720-cecil-hotel#198242
-          include:
-            - Jasoncw - Cecil Hotel (CAMeLot)/Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM).SC4Lot
-      buildings:
-        Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM).SC4Lot:
-          d0e32452:
-            bulldoze: 720
-            capacity:
-              cs$: 1595
-            categories: cs$
-            flamability: 45
-            garbage: 47
-            name: Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM)
-            pollution: 15
-            pollutionRadius: 5
-            power: 32
-            water: 321
-            waterPollution: 7
-            waterPollutionRadius: 5
-            worth: 12217
-      categories: cam
-      lastGenerated: 2024-12-16T12:27:44.151Z
-      lastModified: 2023-11-02T01:38:39.000Z
-      lots:
-        Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM).SC4Lot:
-          '90e32499':
-            building: d0e32452
-            density: medium,high
-            name: CS$11_2x3_Cecil Hotel
-            requirements:
-              cam: true
-            size: 2x3
-            stage: 11
-      release: 2024-12-16T12:27:44.134Z
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/35720-cecil-hotel#198241
           include:
             - Jasoncw - Cecil Hotel (DN)
-      buildings:
-        Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
-          d0e32452:
-            bulldoze: 720
-            capacity:
-              cs$: 1595
-            categories: cs$
-            flamability: 45
-            garbage: 47
-            name: Jasoncw - Cecil Hotel - Grow (CS$8_2x3)
-            pollution: 15
-            pollutionRadius: 5
-            power: 32
-            water: 321
-            waterPollution: 7
-            waterPollutionRadius: 5
-            worth: 12217
-        Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
-          '90e43813':
-            bulldoze: 720
-            capacity:
-              cs$: 1595
-            categories: landmarks,cs$
-            cost: 11030
-            flamability: 45
-            garbage: 47
-            menu: Landmarks
-            name: Jasoncw - Cecil Hotel
-            pollution: 15
-            pollutionRadius: 5
-            power: 32
-            submenu: Commercial/CS$
-            water: 321
-            waterPollution: 7
-            waterPollutionRadius: 5
-            worth: 12217
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:44.123Z
+        - id: simtropolis/35720-cecil-hotel#198242
+          include:
+            - Jasoncw - Cecil Hotel (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.721Z
       lastModified: 2023-11-02T01:38:39.000Z
-      lots:
-        Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
-          '90e32499':
-            building: d0e32452
-            density: medium,high
-            name: CS$8_2x3_Cecil Hotel
-            size: 2x3
-            stage: 8
-        Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
-          '90e43813':
-            building: '90e43813'
-            name: PLOP_2x3_Cecil Hotel
-            size: 2x3
       name: Dark Nite
       release: 2024-12-16T12:27:44.108Z
       requirements:
@@ -720,58 +712,11 @@ jasoncw/cecil-hotel:
         - id: simtropolis/35720-cecil-hotel#198240
           include:
             - Jasoncw - Cecil Hotel (MN)
-      buildings:
-        Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
-          d0e32452:
-            bulldoze: 720
-            capacity:
-              cs$: 1595
-            categories: cs$
-            flamability: 45
-            garbage: 47
-            name: Jasoncw - Cecil Hotel - Grow (CS$8_2x3)
-            pollution: 15
-            pollutionRadius: 5
-            power: 32
-            water: 321
-            waterPollution: 7
-            waterPollutionRadius: 5
-            worth: 12217
-        Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
-          '90e43813':
-            bulldoze: 720
-            capacity:
-              cs$: 1595
-            categories: landmarks,cs$
-            cost: 11030
-            flamability: 45
-            garbage: 47
-            menu: Landmarks
-            name: Jasoncw - Cecil Hotel
-            pollution: 15
-            pollutionRadius: 5
-            power: 32
-            submenu: Commercial/CS$
-            water: 321
-            waterPollution: 7
-            waterPollutionRadius: 5
-            worth: 12217
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:44.101Z
+        - id: simtropolis/35720-cecil-hotel#198242
+          include:
+            - Jasoncw - Cecil Hotel (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.710Z
       lastModified: 2023-11-02T01:38:39.000Z
-      lots:
-        Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
-          '90e32499':
-            building: d0e32452
-            density: medium,high
-            name: CS$8_2x3_Cecil Hotel
-            size: 2x3
-            stage: 8
-        Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
-          '90e43813':
-            building: '90e43813'
-            name: PLOP_2x3_Cecil Hotel
-            size: 2x3
       name: Maxis Nite
       release: 2024-12-16T12:27:44.089Z
       requirements:
@@ -869,116 +814,108 @@ jasoncw/centron-center:
       version: 1.0.0
 
 jasoncw/continental-bank-and-trust:
-  categories: co$$
+  buildings:
+    Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3)(CAM).SC4Lot:
+      3e39a222:
+        bulldoze: 2510
+        capacity:
+          co$$: 2255
+        categories: co$$
+        flamability: 40
+        garbage: 4
+        name: Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3) (CAM)
+        pollution: 9
+        pollutionRadius: 5
+        power: 46
+        water: 461
+        waterPollution: 9
+        waterPollutionRadius: 6
+        worth: 15762
+    Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
+      3e39a222:
+        bulldoze: 2510
+        capacity:
+          co$$: 2255
+        categories: co$$
+        flamability: 40
+        garbage: 4
+        name: Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3)
+        pollution: 9
+        pollutionRadius: 5
+        power: 46
+        water: 461
+        waterPollution: 9
+        waterPollutionRadius: 6
+        worth: 15762
+    Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
+      9e39729e:
+        bulldoze: 2510
+        capacity:
+          co$$: 2255
+        categories: landmarks,co$$
+        cost: 35088
+        flamability: 40
+        garbage: 4
+        menu: Landmarks
+        name: Jasoncw - Continental Bank and Trust (CO$$_2x3)
+        pollution: 9
+        pollutionRadius: 5
+        power: 46
+        submenu: Commercial/CO$$
+        water: 461
+        waterPollution: 9
+        waterPollutionRadius: 6
+        worth: 15762
+  categories: co$$,landmarks,cam
   description: |-
     This is a recreation of 30 Broad Street, built as the headquarters for Continental Bank and Trust, in New York City. I've modified the building to adapt it to SimCity 4. This model is based on the building's original 1930s appearance.
 
     The lot is a 2x3 corner lot that grows in the New York 1940 tileset.
 
     - 2x3 growable and ploppable CO§§ lots.
-    - CAM version included.
     - MaxisNite and DarkNite versions included.
+    - CAM version included.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_06/62abae45a0e84_ContinentalBankandTrust00.jpg.7ad287a7bcdee65f28bf609ef67ada81.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_06/62abaeab21e49_ContinentalBankandTrust02.jpg.89162ea96c2057fbb4abfb2f91e5cd10.jpg
+  lots:
+    Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3)(CAM).SC4Lot:
+      6e39a262:
+        building: 3e39a222
+        density: high
+        name: CO$$10_2x3_Continental Bank and Trust
+        requirements:
+          cam: true
+        size: 2x3
+        stage: 10
+    Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
+      6e39a262:
+        building: 3e39a222
+        density: high
+        name: CO$$8_2x3_Continental Bank and Trust
+        requirements:
+          cam: false
+        size: 2x3
+        stage: 8
+    Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
+      9e39729e:
+        building: 9e39729e
+        name: PLOP_2x3_Continental Bank and Trust
+        size: 2x3
   name: Continental Bank and Trust
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_06/62abaef504e12_ContinentalBankandTrust00.thumb.jpg.4fe9648d316b5c88f8c9924bd1c207e6.jpg
   url: https://community.simtropolis.com/files/file/35207-continental-bank-and-trust/
   variants:
-    cam:
-      assets:
-        - id: simtropolis/35207-continental-bank-and-trust#194439
-          include:
-            - Jasoncw - Continental Bank and Trust (CAMeLot)
-      buildings:
-        Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3)(CAM).SC4Lot:
-          3e39a222:
-            bulldoze: 2510
-            capacity:
-              co$$: 2255
-            categories: co$$
-            flamability: 40
-            garbage: 4
-            name: Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3) (CAM)
-            pollution: 9
-            pollutionRadius: 5
-            power: 46
-            water: 461
-            waterPollution: 9
-            waterPollutionRadius: 6
-            worth: 15762
-      categories: cam
-      lastGenerated: 2024-12-16T12:27:43.561Z
-      lastModified: 2022-06-16T22:30:14.000Z
-      lots:
-        Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3)(CAM).SC4Lot:
-          6e39a262:
-            building: 3e39a222
-            density: high
-            name: CO$$10_2x3_Continental Bank and Trust
-            requirements:
-              cam: true
-            size: 2x3
-            stage: 10
-      release: 2024-12-16T12:27:43.551Z
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/35207-continental-bank-and-trust#194437
           include:
             - Jasoncw - Continental Bank and Trust (DN)
-      buildings:
-        Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
-          3e39a222:
-            bulldoze: 2510
-            capacity:
-              co$$: 2255
-            categories: co$$
-            flamability: 40
-            garbage: 4
-            name: Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3)
-            pollution: 9
-            pollutionRadius: 5
-            power: 46
-            water: 461
-            waterPollution: 9
-            waterPollutionRadius: 6
-            worth: 15762
-        Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
-          9e39729e:
-            bulldoze: 2510
-            capacity:
-              co$$: 2255
-            categories: landmarks,co$$
-            cost: 35088
-            flamability: 40
-            garbage: 4
-            menu: Landmarks
-            name: Jasoncw - Continental Bank and Trust (CO$$_2x3)
-            pollution: 9
-            pollutionRadius: 5
-            power: 46
-            submenu: Commercial/CO$$
-            water: 461
-            waterPollution: 9
-            waterPollutionRadius: 6
-            worth: 15762
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:43.521Z
+        - id: simtropolis/35207-continental-bank-and-trust#194439
+          include:
+            - Jasoncw - Continental Bank and Trust (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.642Z
       lastModified: 2022-06-16T22:30:14.000Z
-      lots:
-        Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
-          6e39a262:
-            building: 3e39a222
-            density: high
-            name: CO$$8_2x3_Continental Bank and Trust
-            size: 2x3
-            stage: 8
-        Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
-          9e39729e:
-            building: 9e39729e
-            name: PLOP_2x3_Continental Bank and Trust
-            size: 2x3
       name: Dark Nite
       release: 2024-12-16T12:27:43.511Z
       requirements:
@@ -989,58 +926,11 @@ jasoncw/continental-bank-and-trust:
         - id: simtropolis/35207-continental-bank-and-trust#194438
           include:
             - Jasoncw - Continental Bank and Trust (MN)
-      buildings:
-        Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
-          3e39a222:
-            bulldoze: 2510
-            capacity:
-              co$$: 2255
-            categories: co$$
-            flamability: 40
-            garbage: 4
-            name: Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3)
-            pollution: 9
-            pollutionRadius: 5
-            power: 46
-            water: 461
-            waterPollution: 9
-            waterPollutionRadius: 6
-            worth: 15762
-        Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
-          9e39729e:
-            bulldoze: 2510
-            capacity:
-              co$$: 2255
-            categories: landmarks,co$$
-            cost: 35088
-            flamability: 40
-            garbage: 4
-            menu: Landmarks
-            name: Jasoncw - Continental Bank and Trust (CO$$_2x3)
-            pollution: 9
-            pollutionRadius: 5
-            power: 46
-            submenu: Commercial/CO$$
-            water: 461
-            waterPollution: 9
-            waterPollutionRadius: 6
-            worth: 15762
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:43.542Z
+        - id: simtropolis/35207-continental-bank-and-trust#194439
+          include:
+            - Jasoncw - Continental Bank and Trust (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.630Z
       lastModified: 2022-06-16T22:30:14.000Z
-      lots:
-        Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
-          6e39a262:
-            building: 3e39a222
-            density: high
-            name: CO$$8_2x3_Continental Bank and Trust
-            size: 2x3
-            stage: 8
-        Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
-          9e39729e:
-            building: 9e39729e
-            name: PLOP_2x3_Continental Bank and Trust
-            size: 2x3
       name: Maxis Nite
       release: 2024-12-16T12:27:43.532Z
       requirements:
@@ -1254,8 +1144,6 @@ jasoncw/denton-corporation:
   description: |-
     Denton Corporation is a 3x3 corner office building for the Houston 1990 tileset.
 
-    Special thanks to [@IDS2](https://community.simtropolis.com/profile/70889-ids2/) for fixing an export glitch with the .SC4Model file! Also, the ploppable lot's menu icon now correctly says "CO§§§". If you have the old version, replace the files with the new version.
-
     - 3x3 growable and ploppable CO§§§ lots.
     - MaxisNite and DarkNite versions included.
   images:
@@ -1275,6 +1163,8 @@ jasoncw/denton-corporation:
         name: PLOP_3x3_Denton Corporation
         size: 3x3
   name: Denton Corporation
+  thanks:
+    - ids2: for fixing an export glitch with the SC4Model file
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7d934d37a0_00DentonCorporation.thumb.jpg.bf64de8d1bb8bb88632af8cc913c5d0d.jpg
   url: https://community.simtropolis.com/files/file/35364-denton-corporation/
   variants:
@@ -2427,7 +2317,65 @@ jasoncw/kallax-residential:
       version: 1.0.0
 
 jasoncw/korimako-hotel:
-  categories: cs$$$
+  buildings:
+    Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM).SC4Lot:
+      d1362cb7:
+        bulldoze: 3592
+        capacity:
+          cs$: 10875
+          cs$$: 2721
+          cs$$$: 1090
+        categories: cs$$$
+        flamability: 35
+        garbage: 66
+        name: Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM)
+        pollution: 49
+        pollutionRadius: 6
+        power: 207
+        water: 1849
+        waterPollution: 33
+        waterPollutionRadius: 7
+        worth: 71675
+    Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
+      d1362cb7:
+        bulldoze: 3592
+        capacity:
+          cs$: 10875
+          cs$$: 2721
+          cs$$$: 1090
+        categories: cs$$$
+        flamability: 35
+        garbage: 66
+        name: Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4)
+        pollution: 49
+        pollutionRadius: 6
+        power: 207
+        water: 1849
+        waterPollution: 33
+        waterPollutionRadius: 7
+        worth: 71675
+    Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
+      '1134e708':
+        bulldoze: 3592
+        capacity:
+          cs$: 10875
+          cs$$: 2721
+          cs$$$: 1090
+        categories: landmarks,cs$$$
+        cost: 69828
+        flamability: 35
+        garbage: 66
+        menu: Landmarks
+        name: Jasoncw - Korimako Hotel - Plop (CS$$$_4x4)
+        pollution: 66
+        pollutionRadius: 6
+        power: 207
+        submenu: Commercial/CS$$$
+        water: 1849
+        waterPollution: 33
+        waterPollutionRadius: 7
+        worth: 71675
+  categories: cs$$$,landmarks,cam
   description: |-
     Treat your city's guests to luxury with Korimako Hotel!
 
@@ -2439,110 +2387,44 @@ jasoncw/korimako-hotel:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_12/KorimakoHotel00.jpg.49d65df40f729e2fb1ac435330ad12e6.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_12/KorimakoHotel01.jpg.67e37f20717571a10e8127756d081238.jpg
+  lots:
+    Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM).SC4Lot:
+      d1362cb7:
+        building: d1362cb7
+        density: high
+        name: CS$$$12_4x4_Korimako Hotel
+        requirements:
+          cam: true
+        size: 4x4
+        stage: 12
+    Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
+      d1362cb7:
+        building: d1362cb7
+        density: high
+        name: CS$$$8_4x4_Korimako Hotel
+        requirements:
+          cam: false
+        size: 4x4
+        stage: 8
+    Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
+      '1134e708':
+        building: '1134e708'
+        name: PLOP_4x4_Korimako Hotel
+        size: 4x4
   name: Korimako Hotel
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/KorimakoHotel00.thumb.jpg.8f002526cc2773cb73c798d778d17458.jpg
   url: https://community.simtropolis.com/files/file/35897-korimako-hotel/
   variants:
-    cam:
-      assets:
-        - id: simtropolis/35897-korimako-hotel#198966
-          include:
-            - Jasoncw - Korimako Hotel (CAMeLot)
-      buildings:
-        Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM).SC4Lot:
-          d1362cb7:
-            bulldoze: 3592
-            capacity:
-              cs$: 10875
-              cs$$: 2721
-              cs$$$: 1090
-            categories: cs$$$
-            flamability: 35
-            garbage: 66
-            name: Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM)
-            pollution: 49
-            pollutionRadius: 6
-            power: 207
-            water: 1849
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 71675
-      categories: cam
-      lastGenerated: 2024-12-16T12:27:44.250Z
-      lastModified: 2023-12-25T22:46:08.000Z
-      lots:
-        Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM).SC4Lot:
-          d1362cb7:
-            building: d1362cb7
-            density: high
-            name: CS$$$12_4x4_Korimako Hotel
-            requirements:
-              cam: true
-            size: 4x4
-            stage: 12
-      release: 2024-12-16T12:27:44.240Z
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/35897-korimako-hotel#198965
           include:
             - Jasoncw - Korimako Hotel (DN)
-      buildings:
-        Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
-          d1362cb7:
-            bulldoze: 3592
-            capacity:
-              cs$: 10875
-              cs$$: 2721
-              cs$$$: 1090
-            categories: cs$$$
-            flamability: 35
-            garbage: 66
-            name: Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4)
-            pollution: 49
-            pollutionRadius: 6
-            power: 207
-            water: 1849
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 71675
-        Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
-          '1134e708':
-            bulldoze: 3592
-            capacity:
-              cs$: 10875
-              cs$$: 2721
-              cs$$$: 1090
-            categories: landmarks,cs$$$
-            cost: 69828
-            flamability: 35
-            garbage: 66
-            menu: Landmarks
-            name: Jasoncw - Korimako Hotel - Plop (CS$$$_4x4)
-            pollution: 66
-            pollutionRadius: 6
-            power: 207
-            submenu: Commercial/CS$$$
-            water: 1849
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 71675
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:44.233Z
+        - id: simtropolis/35897-korimako-hotel#198966
+          include:
+            - Jasoncw - Korimako Hotel (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.760Z
       lastModified: 2023-12-25T22:46:08.000Z
-      lots:
-        Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
-          d1362cb7:
-            building: d1362cb7
-            density: high
-            name: CS$$$8_4x4_Korimako Hotel
-            size: 4x4
-            stage: 8
-        Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
-          '1134e708':
-            building: '1134e708'
-            name: PLOP_4x4_Korimako Hotel
-            size: 4x4
       name: Dark Nite
       release: 2024-12-16T12:27:44.217Z
       requirements:
@@ -2553,62 +2435,11 @@ jasoncw/korimako-hotel:
         - id: simtropolis/35897-korimako-hotel#198964
           include:
             - Jasoncw - Korimako Hotel (MN)
-      buildings:
-        Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
-          d1362cb7:
-            bulldoze: 3592
-            capacity:
-              cs$: 10875
-              cs$$: 2721
-              cs$$$: 1090
-            categories: cs$$$
-            flamability: 35
-            garbage: 66
-            name: Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4)
-            pollution: 49
-            pollutionRadius: 6
-            power: 207
-            water: 1849
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 71675
-        Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
-          '1134e708':
-            bulldoze: 3592
-            capacity:
-              cs$: 10875
-              cs$$: 2721
-              cs$$$: 1090
-            categories: landmarks,cs$$$
-            cost: 69828
-            flamability: 35
-            garbage: 66
-            menu: Landmarks
-            name: Jasoncw - Korimako Hotel - Plop (CS$$$_4x4)
-            pollution: 66
-            pollutionRadius: 6
-            power: 207
-            submenu: Commercial/CS$$$
-            water: 1849
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 71675
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:44.208Z
+        - id: simtropolis/35897-korimako-hotel#198966
+          include:
+            - Jasoncw - Korimako Hotel (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.750Z
       lastModified: 2023-12-25T22:46:08.000Z
-      lots:
-        Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
-          d1362cb7:
-            building: d1362cb7
-            density: high
-            name: CS$$$8_4x4_Korimako Hotel
-            size: 4x4
-            stage: 8
-        Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
-          '1134e708':
-            building: '1134e708'
-            name: PLOP_4x4_Korimako Hotel
-            size: 4x4
       name: Maxis Nite
       release: 2024-12-16T12:27:44.199Z
       requirements:
@@ -2712,19 +2543,19 @@ jasoncw/magasin-valois:
       version: 1.0.0
 
 jasoncw/medium-sized-train-station:
+  authors:
+    - t-wrecks
   categories: passengers
+  credits:
+    - jasoncw: BAT
+    - t-wrecks: Modding
+  deprecated: jasoncw/train-station-set
   description: |-
     A medium sized train station for your cities. This is a larger version of a similar train station I made.
 
     This train station contains elements from the Beaux Arts and Art Deco architecture styles.
 
-    Plop Cost: $ 125
-
     Contains 1x4 train station lot.
-
-    **BAT by: Jasoncw**
-
-    **Modding by: Twrecks**
   images:
     - https://www.simtropolis.com/objects/screens/0013/717f8e48fb84b1960984cf24ef003bca-batframe5.jpg
   name: Medium Sized Train Station
@@ -2772,7 +2603,62 @@ jasoncw/medium-sized-train-station:
       version: 1.1.0
 
 jasoncw/metropolitan-exchange-plaza:
-  categories: co$$$
+  buildings:
+    Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)(CAM).SC4Lot:
+      7f807b23:
+        bulldoze: 3163
+        capacity:
+          co$$: 12289
+          co$$$: 8596
+        categories: co$$$
+        flamability: 35
+        garbage: 13
+        name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)
+        pollution: 33
+        pollutionRadius: 6
+        power: 220
+        water: 2366
+        waterPollution: 33
+        waterPollutionRadius: 7
+        worth: 61300
+    Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
+      7f807b23:
+        bulldoze: 3163
+        capacity:
+          co$$: 12289
+          co$$$: 8596
+        categories: co$$$
+        flamability: 35
+        garbage: 13
+        name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4)
+        pollution: 33
+        pollutionRadius: 6
+        power: 220
+        water: 2366
+        waterPollution: 33
+        waterPollutionRadius: 7
+        worth: 61300
+    Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
+      ef7f3d32:
+        bulldoze: 3163
+        capacity:
+          co$$: 12289
+          co$$$: 8596
+        categories: landmarks,co$$$
+        cost: 49468
+        flamability: 35
+        garbage: 13
+        menu: Landmarks
+        name: Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4)
+        pollution: 33
+        pollutionRadius: 6
+        power: 220
+        submenu: Commercial/CO$$$
+        water: 2366
+        waterPollution: 33
+        waterPollutionRadius: 7
+        worth: 61300
+  categories: co$$$,landmarks,cam
   description: |-
     Metropolitan Exchange Plaza is a postmodern skyscraper for the Houston 1990 tileset.
 
@@ -2784,107 +2670,44 @@ jasoncw/metropolitan-exchange-plaza:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7e60166e60_MetropolitanExchangePlaza00.jpg.2ceb1d39cfdd2955bb461dcca25da808.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_12/Metropolitan-Exchange-Plaza-01(compressed).jpg.7e6782ea15712887a472d8f988599ca1.jpg
+  lots:
+    Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)(CAM).SC4Lot:
+      7f807b23:
+        building: 7f807b23
+        density: high
+        name: CO$$$13_4x4_Metropolitan Exchange Plaza
+        requirements:
+          cam: true
+        size: 4x4
+        stage: 13
+    Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
+      7f807b23:
+        building: 7f807b23
+        density: high
+        name: CO$$$8_4x4_Metropolitan Exchange Plaza
+        requirements:
+          cam: false
+        size: 4x4
+        stage: 8
+    Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
+      ef7f3d32:
+        building: ef7f3d32
+        name: PLOP_4x4_Metropolitan Exchange Plaza
+        size: 4x4
   name: Metropolitan Exchange Plaza
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7e6a0254a8_MetropolitanExchangePlaza00.thumb.jpg.4eaed79b8b70fe76dce4ed6eab3d7592.jpg
   url: https://community.simtropolis.com/files/file/35369-metropolitan-exchange-plaza/
   variants:
-    cam:
-      assets:
-        - id: simtropolis/35369-metropolitan-exchange-plaza#195907
-          include:
-            - Jasoncw - Metropolitan Exchange Plaza (CAMeLot)
-      buildings:
-        Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)(CAM).SC4Lot:
-          7f807b23:
-            bulldoze: 3163
-            capacity:
-              co$$: 12289
-              co$$$: 8596
-            categories: co$$$
-            flamability: 35
-            garbage: 13
-            name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)
-            pollution: 33
-            pollutionRadius: 6
-            power: 220
-            water: 2366
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 61300
-      categories: cam
-      lastGenerated: 2024-12-16T12:27:43.899Z
-      lastModified: 2022-12-25T05:58:56.000Z
-      lots:
-        Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)(CAM).SC4Lot:
-          7f807b23:
-            building: 7f807b23
-            density: high
-            name: CO$$$13_4x4_Metropolitan Exchange Plaza
-            requirements:
-              cam: true
-            size: 4x4
-            stage: 13
-      release: 2024-12-16T12:27:43.888Z
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/35369-metropolitan-exchange-plaza#195906
           include:
             - Jasoncw - Metropolitan Exchange Plaza (DN)
-      buildings:
-        Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
-          7f807b23:
-            bulldoze: 3163
-            capacity:
-              co$$: 12289
-              co$$$: 8596
-            categories: co$$$
-            flamability: 35
-            garbage: 13
-            name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4)
-            pollution: 33
-            pollutionRadius: 6
-            power: 220
-            water: 2366
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 61300
-        Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
-          ef7f3d32:
-            bulldoze: 3163
-            capacity:
-              co$$: 12289
-              co$$$: 8596
-            categories: landmarks,co$$$
-            cost: 49468
-            flamability: 35
-            garbage: 13
-            menu: Landmarks
-            name: Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4)
-            pollution: 33
-            pollutionRadius: 6
-            power: 220
-            submenu: Commercial/CO$$$
-            water: 2366
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 61300
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:43.876Z
+        - id: simtropolis/35369-metropolitan-exchange-plaza#195907
+          include:
+            - Jasoncw - Metropolitan Exchange Plaza (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.681Z
       lastModified: 2022-12-25T05:58:56.000Z
-      lots:
-        Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
-          7f807b23:
-            building: 7f807b23
-            density: high
-            name: CO$$$8_4x4_Metropolitan Exchange Plaza
-            size: 4x4
-            stage: 8
-        Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
-          ef7f3d32:
-            building: ef7f3d32
-            name: PLOP_4x4_Metropolitan Exchange Plaza
-            size: 4x4
       name: Dark Nite
       release: 2024-12-16T12:27:43.861Z
       requirements:
@@ -2895,60 +2718,11 @@ jasoncw/metropolitan-exchange-plaza:
         - id: simtropolis/35369-metropolitan-exchange-plaza#195905
           include:
             - Jasoncw - Metropolitan Exchange Plaza (MN)
-      buildings:
-        Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
-          7f807b23:
-            bulldoze: 3163
-            capacity:
-              co$$: 12289
-              co$$$: 8596
-            categories: co$$$
-            flamability: 35
-            garbage: 13
-            name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4)
-            pollution: 33
-            pollutionRadius: 6
-            power: 220
-            water: 2366
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 61300
-        Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
-          ef7f3d32:
-            bulldoze: 3163
-            capacity:
-              co$$: 12289
-              co$$$: 8596
-            categories: landmarks,co$$$
-            cost: 49468
-            flamability: 35
-            garbage: 13
-            menu: Landmarks
-            name: Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4)
-            pollution: 33
-            pollutionRadius: 6
-            power: 220
-            submenu: Commercial/CO$$$
-            water: 2366
-            waterPollution: 33
-            waterPollutionRadius: 7
-            worth: 61300
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:43.852Z
+        - id: simtropolis/35369-metropolitan-exchange-plaza#195907
+          include:
+            - Jasoncw - Metropolitan Exchange Plaza (CAMeLot)
+      lastGenerated: 2024-12-16T14:36:27.672Z
       lastModified: 2022-12-25T05:58:56.000Z
-      lots:
-        Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
-          7f807b23:
-            building: 7f807b23
-            density: high
-            name: CO$$$8_4x4_Metropolitan Exchange Plaza
-            size: 4x4
-            stage: 8
-        Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
-          ef7f3d32:
-            building: ef7f3d32
-            name: PLOP_4x4_Metropolitan Exchange Plaza
-            size: 4x4
       name: Maxis Nite
       release: 2024-12-16T12:27:43.839Z
       requirements:
@@ -4035,47 +3809,21 @@ jasoncw/small-police-station-2:
       version: 1.0.0
 
 jasoncw/small-train-station:
-  buildings:
-    Jasoncw - Small Train Station_Utils1x2_PassengerRailStation_d04dae96.SC4Lot:
-      d04dae96:
-        bulldoze: 100
-        categories: passengers
-        cost: 75
-        description: A small train station with a capacity of 1,500 passengers.
-        flamability: 35
-        garbage: 5
-        jobs:
-          $: 4
-        label: Jasoncw - Small Train Station
-        maintenance: 10
-        menu: Rail
-        name: Jasoncw - Small Train Station (1x2)
-        pollution: 1
-        pollutionRadius: 1
-        power: 3
-        submenu: Rail/Passengers
-        water: 5
-        waterPollution: 1
-        waterPollutionRadius: 2
+  authors:
+    - t-wrecks
   categories: passengers
+  credits:
+    - jasoncw: BAT
+    - t-wrecks: Modding
+  deprecated: jasoncw/train-station-set
   description: |-
     A small train station made to fit in small areas, or areas where you do not want to demolish the area for a larger station. Placing rail stations can increase rail usage, increase pedestrian traffic, and lower road congestion. Pedestrian traffic increases customers for commercial lots, and lower road congestions reduces air pollution which decreases local desirablitity.
 
     Rail tracks and and train stations take up alot of space in your city; this lot will enable you to place stations in places previously not possible.
 
     This train station contains elements from the Beaux Arts and Art Deco architecture styles.
-
-    **BAT by: Jasoncw
-
-    Modding by: Twrecks**
   images:
     - https://www.simtropolis.com/objects/screens/0009/4f045418b37757adb641cd92ee4bc0ea-batframe4.jpg
-  lots:
-    Jasoncw - Small Train Station_Utils1x2_PassengerRailStation_d04dae96.SC4Lot:
-      d04dae96:
-        building: d04dae96
-        name: Jasoncw - Small Train Station_Utils1x2_PassengerRailStation
-        size: 2x1
   name: Small Train Station
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2005/thumb-4f045418b37757adb641cd92ee4bc0ea-batframe4.jpg
   url: https://community.simtropolis.com/files/file/13965-small-train-station/
@@ -4087,8 +3835,36 @@ jasoncw/small-train-station:
           id: simtropolis/13965-small-train-station#181217
           include:
             - Jasoncw - Small Train Station V1.1
+      buildings:
+        Jasoncw - Small Train Station_Utils1x2_PassengerRailStation_d04dae96.SC4Lot:
+          d04dae96:
+            bulldoze: 100
+            categories: passengers
+            cost: 75
+            description: A small train station with a capacity of 1,500 passengers.
+            flamability: 35
+            garbage: 5
+            jobs:
+              $: 4
+            label: Jasoncw - Small Train Station
+            maintenance: 10
+            menu: Rail
+            name: Jasoncw - Small Train Station (1x2)
+            pollution: 1
+            pollutionRadius: 1
+            power: 3
+            submenu: Rail/Passengers
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 2
       lastGenerated: 2024-12-16T12:27:45.018Z
       lastModified: 2020-05-25T21:46:54.000Z
+      lots:
+        Jasoncw - Small Train Station_Utils1x2_PassengerRailStation_d04dae96.SC4Lot:
+          d04dae96:
+            building: d04dae96
+            name: Jasoncw - Small Train Station_Utils1x2_PassengerRailStation
+            size: 2x1
       release: 2024-12-16T12:27:45.004Z
       version: 1.1.0
 
@@ -4410,13 +4186,16 @@ jasoncw/the-paragon:
       version: 1.0.0
 
 jasoncw/train-station-set:
+  authors:
+    - t-wrecks
   categories: passengers
+  credits:
+    - jasoncw: BAT
+    - t-wrecks: Modding
   description: |-
     This set contains 3 train stations: a small 1x2, a medium 1x4, and a large 2x4. The small and medium stations have already been released, however, these versions have improved textures, more efficient LODs, and improved lot designs. You can use all versions at the same time with no conflicts.
 
     The small size of these stations allows them to be placed in areas where most train stations don't fit, and they have the potential to increase ridership across your entire train network. Train stations can also increase pedestrain traffic, and decrease road congestionalong withit's associated air pollution.
-
-    Please read the readme for more information.
 
     * * *
 
@@ -4453,12 +4232,6 @@ jasoncw/train-station-set:
     Old Versions:
 
     As previously stated, you can use the new versions of the train stations (found in this set) along with the old versions with no conflicts. The original small train station can be found [here](https://www.simtropolis.com/stex/index.cfm?id=13965), and the original medium sized train station can be found [here](https://www.simtropolis.com/stex/index.cfm?id=14067). They are not required for the new versions to work.
-
-    * * *
-
-    **BAT by: Jasoncw**
-
-    **Modding by: T Wrecks**
   images:
     - https://www.simtropolis.com/objects/screens/0009/47c4ef14c422ae4e529546e731356177-BAT-Frame-Train-Set-1.jpg
     - https://www.simtropolis.com/objects/screens/0009/47c4ef14c422ae4e529546e731356177-BAT-Frame-Train-Set-2.jpg
@@ -4658,7 +4431,110 @@ jasoncw/turtle-publishing:
       version: 1.0.0
 
 jasoncw/union-bank-plaza:
-  categories: co$$
+  buildings:
+    Jasoncw - Union Bank Plaza - Grow (CO$$10_4x3)(CAM).SC4Lot:
+      dc444322:
+        bulldoze: 2141
+        capacity:
+          co$$: 4283
+        categories: co$$
+        flamability: 40
+        garbage: 8
+        name: Jasoncw - Union Bank Plaza (CO$$10_4x3)(CAM)
+        pollution: 17
+        pollutionRadius: 5
+        power: 86
+        water: 866
+        waterPollution: 17
+        waterPollutionRadius: 6
+        worth: 29938
+    Jasoncw - Union Bank Plaza - Grow (CO$$12_4x2)(CAM).SC4Lot:
+      dc4454a1:
+        bulldoze: 2141
+        capacity:
+          co$$: 4283
+        categories: co$$
+        flamability: 40
+        garbage: 8
+        name: Jasoncw - Union Bank Plaza (CO$$12_4x2)(CAM)
+        pollution: 17
+        pollutionRadius: 5
+        power: 86
+        water: 866
+        waterPollution: 17
+        waterPollutionRadius: 6
+        worth: 29938
+    Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
+      3c4455ca:
+        bulldoze: 2141
+        capacity:
+          co$$: 4283
+        categories: co$$
+        flamability: 40
+        garbage: 8
+        name: Jasoncw - Union Bank Plaza (CO$$8_4x2)
+        pollution: 17
+        pollutionRadius: 5
+        power: 86
+        water: 866
+        waterPollution: 17
+        waterPollutionRadius: 6
+        worth: 29938
+    Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
+      dc444ff8:
+        bulldoze: 2141
+        capacity:
+          co$$: 4283
+        categories: co$$
+        flamability: 40
+        garbage: 8
+        name: Jasoncw - Union Bank Plaza (CO$$8_4x3)
+        pollution: 17
+        pollutionRadius: 5
+        power: 86
+        water: 866
+        waterPollution: 17
+        waterPollutionRadius: 6
+        worth: 29938
+    Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
+      bc4453cf:
+        bulldoze: 2141
+        capacity:
+          co$$: 4283
+        categories: landmarks,co$$
+        cost: 29930
+        flamability: 40
+        garbage: 8
+        menu: Landmarks
+        name: Jasoncw - Union Bank Plaza (CO$$_4x2)
+        pollution: 17
+        pollutionRadius: 5
+        power: 86
+        submenu: Commercial/CO$$
+        water: 866
+        waterPollution: 17
+        waterPollutionRadius: 6
+        worth: 29938
+    Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
+      2c443943:
+        bulldoze: 2141
+        capacity:
+          co$$: 4283
+        categories: landmarks,co$$
+        cost: 29930
+        flamability: 40
+        garbage: 8
+        menu: Landmarks
+        name: Jasoncw - Union Bank Plaza (CO$$_4x3)
+        pollution: 17
+        pollutionRadius: 5
+        power: 86
+        submenu: Commercial/CO$$
+        water: 866
+        waterPollution: 17
+        waterPollutionRadius: 6
+        worth: 29938
+  categories: co$$,landmarks,cam
   description: |-
     Union Bank Plaza is an office skyscraper located in the Bunker Hill area of Los Angeles, USA.
 
@@ -4667,176 +4543,63 @@ jasoncw/union-bank-plaza:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-Plaza-P0.jpg.4375e2c2f3187b1f2e256571ac10c4d4.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-01(compressed).jpg.6d614c2617dc1f32f9e0f0261c37cf45.jpg
+  lots:
+    Jasoncw - Union Bank Plaza - Grow (CO$$10_4x3)(CAM).SC4Lot:
+      dc444322:
+        building: dc444322
+        density: high
+        name: CO$$10_4x3_Union Bank Plaza (CAM)
+        requirements:
+          cam: true
+        size: 4x3
+        stage: 10
+    Jasoncw - Union Bank Plaza - Grow (CO$$12_4x2)(CAM).SC4Lot:
+      dc4454a1:
+        building: dc4454a1
+        density: high
+        name: CO$$12_4x2_Union Bank Plaza (CAM)
+        requirements:
+          cam: true
+        size: 4x2
+        stage: 12
+    Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
+      3c4455ca:
+        building: 3c4455ca
+        density: high
+        name: CO$$8_4x2_Union Bank Plaza
+        size: 4x2
+        stage: 8
+    Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
+      dc444ff8:
+        building: dc444ff8
+        density: high
+        name: CO$$8_4x3_Union Bank Plaza
+        size: 4x3
+        stage: 8
+    Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
+      bc4453cf:
+        building: bc4453cf
+        name: PLOP_4x2_Union Bank Plaza
+        size: 4x2
+    Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
+      2c443943:
+        building: 2c443943
+        name: PLOP_4x3_Union Bank Plaza
+        size: 4x3
   name: Union Bank Plaza
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-Plaza-P0.thumb.jpg.5d10bef66cce05e1194b58e5189fbc2e.jpg
   url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/
   variants:
-    cam:
-      assets:
-        - id: simtropolis/34728-union-bank-plaza#190336
-          include:
-            - Jasoncw - Union Bank Plaza (CAMeLots)
-      buildings:
-        Jasoncw - Union Bank Plaza - Grow (CO$$10_4x3)(CAM).SC4Lot:
-          dc444322:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: co$$
-            flamability: 40
-            garbage: 8
-            name: Jasoncw - Union Bank Plaza (CO$$10_4x3)(CAM)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Grow (CO$$12_4x2)(CAM).SC4Lot:
-          dc4454a1:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: co$$
-            flamability: 40
-            garbage: 8
-            name: Jasoncw - Union Bank Plaza (CO$$12_4x2)(CAM)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-      categories: cam
-      lastGenerated: 2024-12-16T12:27:43.219Z
-      lastModified: 2021-11-01T18:43:06.000Z
-      lots:
-        Jasoncw - Union Bank Plaza - Grow (CO$$10_4x3)(CAM).SC4Lot:
-          dc444322:
-            building: dc444322
-            density: high
-            name: CO$$10_4x3_Union Bank Plaza (CAM)
-            requirements:
-              cam: true
-            size: 4x3
-            stage: 10
-        Jasoncw - Union Bank Plaza - Grow (CO$$12_4x2)(CAM).SC4Lot:
-          dc4454a1:
-            building: dc4454a1
-            density: high
-            name: CO$$12_4x2_Union Bank Plaza (CAM)
-            requirements:
-              cam: true
-            size: 4x2
-            stage: 12
-      release: 2024-12-16T12:27:43.203Z
-      version: 1.0.0
     darknite:
       assets:
         - id: simtropolis/34728-union-bank-plaza#190335
           include:
             - Jasoncw - Union Bank Plaza (DN)
-      buildings:
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
-          3c4455ca:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: co$$
-            flamability: 40
-            garbage: 8
-            name: Jasoncw - Union Bank Plaza (CO$$8_4x2)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
-          dc444ff8:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: co$$
-            flamability: 40
-            garbage: 8
-            name: Jasoncw - Union Bank Plaza (CO$$8_4x3)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
-          bc4453cf:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: landmarks,co$$
-            cost: 29930
-            flamability: 40
-            garbage: 8
-            menu: Landmarks
-            name: Jasoncw - Union Bank Plaza (CO$$_4x2)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            submenu: Commercial/CO$$
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
-          2c443943:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: landmarks,co$$
-            cost: 29930
-            flamability: 40
-            garbage: 8
-            menu: Landmarks
-            name: Jasoncw - Union Bank Plaza (CO$$_4x3)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            submenu: Commercial/CO$$
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:43.179Z
+        - id: simtropolis/34728-union-bank-plaza#190336
+          include:
+            - Jasoncw - Union Bank Plaza (CAMeLots)
+      lastGenerated: 2024-12-16T14:36:27.598Z
       lastModified: 2021-11-01T18:43:06.000Z
-      lots:
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
-          3c4455ca:
-            building: 3c4455ca
-            density: high
-            name: CO$$8_4x2_Union Bank Plaza
-            size: 4x2
-            stage: 8
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
-          dc444ff8:
-            building: dc444ff8
-            density: high
-            name: CO$$8_4x3_Union Bank Plaza
-            size: 4x3
-            stage: 8
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
-          bc4453cf:
-            building: bc4453cf
-            name: PLOP_4x2_Union Bank Plaza
-            size: 4x2
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
-          2c443943:
-            building: 2c443943
-            name: PLOP_4x3_Union Bank Plaza
-            size: 4x3
       name: Dark Nite
       release: 2024-12-16T12:27:43.164Z
       requirements:
@@ -4847,105 +4610,11 @@ jasoncw/union-bank-plaza:
         - id: simtropolis/34728-union-bank-plaza#190334
           include:
             - Jasoncw - Union Bank Plaza (MN)
-      buildings:
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
-          3c4455ca:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: co$$
-            flamability: 40
-            garbage: 8
-            name: Jasoncw - Union Bank Plaza (CO$$8_4x2)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
-          dc444ff8:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: co$$
-            flamability: 40
-            garbage: 8
-            name: Jasoncw - Union Bank Plaza (CO$$8_4x3)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
-          bc4453cf:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: landmarks,co$$
-            cost: 29930
-            flamability: 40
-            garbage: 8
-            menu: Landmarks
-            name: Jasoncw - Union Bank Plaza (CO$$_4x2)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            submenu: Commercial/CO$$
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
-          2c443943:
-            bulldoze: 2141
-            capacity:
-              co$$: 4283
-            categories: landmarks,co$$
-            cost: 29930
-            flamability: 40
-            garbage: 8
-            menu: Landmarks
-            name: Jasoncw - Union Bank Plaza (CO$$_4x3)
-            pollution: 17
-            pollutionRadius: 5
-            power: 86
-            submenu: Commercial/CO$$
-            water: 866
-            waterPollution: 17
-            waterPollutionRadius: 6
-            worth: 29938
-      categories: landmarks
-      lastGenerated: 2024-12-16T12:27:43.119Z
+        - id: simtropolis/34728-union-bank-plaza#190336
+          include:
+            - Jasoncw - Union Bank Plaza (CAMeLots)
+      lastGenerated: 2024-12-16T14:36:27.590Z
       lastModified: 2021-11-01T18:43:06.000Z
-      lots:
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
-          3c4455ca:
-            building: 3c4455ca
-            density: high
-            name: CO$$8_4x2_Union Bank Plaza
-            size: 4x2
-            stage: 8
-        Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
-          dc444ff8:
-            building: dc444ff8
-            density: high
-            name: CO$$8_4x3_Union Bank Plaza
-            size: 4x3
-            stage: 8
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
-          bc4453cf:
-            building: bc4453cf
-            name: PLOP_4x2_Union Bank Plaza
-            size: 4x2
-        Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
-          2c443943:
-            building: 2c443943
-            name: PLOP_4x3_Union Bank Plaza
-            size: 4x3
       name: Maxis Nite
       release: 2024-12-16T12:27:43.079Z
       requirements:
@@ -4953,6 +4622,8 @@ jasoncw/union-bank-plaza:
       version: 1.0.0
 
 jasoncw/us-bank-center:
+  authors:
+    - nofunk
   buildings:
     Jasoncw - US Bank Center - CO$$ - 5x10 Plop.SC4Lot:
       fbb09f4c:
@@ -5066,6 +4737,9 @@ jasoncw/us-bank-center:
         waterPollutionRadius: 6
         worth: 46651
   categories: landmarks,co$$$,co$$
+  credits:
+    - jasoncw: BAT
+    - nofunk: Modding
   description: |-
     [US Bank Center](https://en.wikipedia.org/wiki/U.S._Bank_Center_%28Milwaukee%29), located in the city of [Milwaukee](https://en.wikipedia.org/wiki/Milwaukee), was completed in 1973 and was designed by [Bruce Graham](https://en.wikipedia.org/wiki/Bruce_Graham) of [SOM](https://en.wikipedia.org/wiki/Skidmore,_Owings_and_Merrill). The building was originally built for [First Wisconsin National Bank](https://en.wikipedia.org/wiki/Firstar_Corporation). Today it is named after US Bank, which First Wisconsin National Bank acquired in 2001.
 
@@ -5081,12 +4755,6 @@ jasoncw/us-bank-center:
     - The ploppable lot is transit enabled. The growable lots have a plaza in that space.
 
     - MaxisNite and DarkNite night versions.
-
-    **BAT and lotting by Jasoncw
-
-    Modding by nofunk**
-
-    **Special thanks to [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/) for fixing the immortal lot bug, and improving the lots' stats! If you're using the original version, it is recommended to demolish all instances of the lots in your cities, and replace them with the updated version. -Jasoncw, October 2024**
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/template---new-main-image.thumb.jpg.25e96da6d8460a351acb59d55e6a903e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2017_02/template---new-secondary-image.jpg.20c67e9cf08312adbfedad721f8d5901.jpg
@@ -5131,6 +4799,8 @@ jasoncw/us-bank-center:
         stage: 8
   name: US Bank Center
   support: https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials
+  thanks:
+    - tyberius06: for fixing the immortal lot bug and improving the lots' stats
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_02/template---new-main-image.thumb.jpg.25e96da6d8460a351acb59d55e6a903e.jpg
   url: https://community.simtropolis.com/files/file/26920-us-bank-center/
   variants:
@@ -5172,7 +4842,12 @@ jasoncw/us-bank-center:
       version: 1.1.0
 
 jasoncw/vanwingerden-plaza-c:
+  authors:
+    - nofunk
   categories: commercial,bus,subway
+  credits:
+    - jasoncw: BAT
+    - nofunk: Modding
   description: |-
     This sleek Modern plaza also serves as a bus station, and subway station.
 
@@ -5189,12 +4864,6 @@ jasoncw/vanwingerden-plaza-c:
     Capacity: 7,250
 
     Contains: 2x2 lot.
-
-    * * *
-
-    **BAT: Jasoncw**
-
-    **Modding: Nofunk**
   images:
     - https://www.simtropolis.com/objects/screens/0022/c4b267be896cf4011b0905bd7b47d035-VWP-C-1-BAT-Frame.jpg
     - https://www.simtropolis.com/objects/screens/0022/c4b267be896cf4011b0905bd7b47d035-VWP-C-2-BAT-Frame.jpg
