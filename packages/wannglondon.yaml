@@ -711,6 +711,65 @@ wannglondon/apartments-2:
       url: https://community.simtropolis.com/files/file/36570-apartments-2/
       version: 1.0.0
 
+wannglondon/apartments-3:
+  categories: r$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/674cc4170fe61_day1.jpg.c6f19fd9bb8e5afc966411f3a93a78a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/674cc4178a0fd_day2.jpg.2785deee257a096901d57539e6d40cf9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/night.jpg.939a8457a5e3c5393737b199c05cb43e.jpg
+  name: Apartments 3
+  requirements:
+    darknite: true
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36575-apartments-3
+          include:
+            - Apartments 3
+      buildings:
+        Apartments 3-0x6534284a-0x1c2d4663-0x14d0958f.SC4Desc:
+          14d0958f:
+            bulldoze: 401
+            capacity:
+              r$: 979
+              r$$: 542
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            name: Apartments 3
+            pollution: 4
+            pollutionRadius: 5
+            power: 8
+            water: 21
+            waterPollution: 2
+            waterPollutionRadius: 6
+            worth: 14126
+      description: |-
+        Another grand apartment building inspired by one found in my favorite neighborhood in Los Angeles, Hancock Park.
+
+        \- R$$ 3x3 left corner lot
+
+        \- New York tileset
+
+        \- Medium & High density zones
+
+        \- DarkNite version only
+      lastGenerated: 2024-12-17T14:29:39.447Z
+      lastModified: 2024-12-01T20:18:56.000Z
+      lots:
+        R$$6_3x3_Apartments 3_e4d095a1.SC4Lot:
+          e4d095a1:
+            building: 14d0958f
+            density: medium,high
+            name: R$$6_3x3_Apartments 3
+            size: 3x3
+            stage: 6
+      name: Dark Nite
+      release: 2024-12-17T13:50:34.757Z
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/674cc4afcf190_day1.thumb.jpg.a0c58b6548dba9686d8736395ea9c8ce.jpg
+      url: https://community.simtropolis.com/files/file/36575-apartments-3/
+      version: 1.0.0
+
 wannglondon/los-angeles-home-pack-1:
   categories: r$$
   images:
@@ -1498,4 +1557,146 @@ wannglondon/tower-4:
       release: 2024-12-17T13:25:04.875Z
       thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_05/6647e2e0cd0b8_TowerDay.thumb.jpg.29ce752c9d9bccbb6c3a102e849ee421.jpg
       url: https://community.simtropolis.com/files/file/36253-tower-4/
+      version: 1.0.0
+
+wannglondon/tulum-homes:
+  categories: r$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/674f3fbbac343_TulumDay.jpg.a2d49cdb4614feb90d1a6f0fa31e4770.jpg
+  name: Tulum Homes
+  requirements:
+    darknite: true
+  variants:
+    darknite:
+      assets:
+        - exclude:
+            - desktop.ini
+          id: simtropolis/36576-tulum-homes
+          include:
+            - Tulum Homes
+      buildings:
+        Tulum Bldg 1_DN/Tulum Bldg 1_DN-0x6534284a-0x1c2d4663-0x7180df77.SC4Desc:
+          7180df77:
+            bulldoze: 195
+            capacity:
+              r$: 59
+              r$$: 34
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            name: Tulum Bldg 1_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 851
+        Tulum Bldg 2_DN/Tulum Bldg 2-0x6534284a-0x1c2d4663-0x5493edf5.SC4Desc:
+          5493edf5:
+            bulldoze: 174
+            capacity:
+              r$: 51
+              r$$: 30
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            name: Tulum Bldg 2
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 735
+      description: |-
+        After a number of visits to Tulum, Mexico I became inspired by the modern and unique architecture found there.
+
+        \- R$$ 1x2 lots
+
+        \- Houston tileset
+
+        \- All density zones
+
+        \- DarkNite versions only
+      lastGenerated: 2024-12-17T14:29:39.462Z
+      lastModified: 2024-12-03T17:30:30.000Z
+      lots:
+        Tulum Bldg 1_DN/R$$4_1x2_Tulum Bldg 1_DN_d180df89.SC4Lot:
+          d180df89:
+            building: 7180df77
+            density: low
+            name: R$$4_1x2_Tulum Bldg 1_DN
+            size: 1x2
+            stage: 4
+        Tulum Bldg 2_DN/R$$4_1x2_Tulum Bldg 2_3493ee05.SC4Lot:
+          3493ee05:
+            building: 5493edf5
+            density: low
+            name: R$$4_1x2_Tulum Bldg 2
+            size: 1x2
+            stage: 4
+      name: Dark Nite
+      release: 2024-12-17T13:50:34.855Z
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/674f4036b208e_TulumDay.thumb.jpg.69bd6278b0a0caedba9e30b409ebad3f.jpg
+      url: https://community.simtropolis.com/files/file/36576-tulum-homes/
+      version: 1.0.0
+
+wannglondon/vintage-sign-prop-pack:
+  categories: props
+  description: |-
+    Received a couple of requests for signs after some members saw my Apartments 2 upload - I did not know these would go over so well. 5 props are included.
+
+    These were certainly fun to make so more may be coming!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Day.png.f1c98a65c0b903ad764eb69256c65654.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Night.png.28da4286077278ab9bc6d15291af4239.png
+  name: Vintage Sign Prop Pack
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/Night.thumb.png.733e22560d67ae35f91b05967651c932.png
+  url: https://community.simtropolis.com/files/file/36578-vintage-sign-prop-pack/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36578-vintage-sign-prop-pack
+          include:
+            - Sign Prop Pack
+      buildings:
+        PLOP_3x3_Sign Tester Lot_94d5a141.SC4Lot:
+          94d5a141:
+            bulldoze: 5
+            categories: power
+            cost: 10
+            description: This building was made by a Typing Monkey
+            label: Sign Tester Lot
+            maintenance: 1
+            menu: Power
+            name: Sign Tester Lot
+            power: 1
+            submenu: Power/Misc
+      lastGenerated: 2024-12-17T14:35:08.804Z
+      lastModified: 2024-12-04T18:48:52.000Z
+      lots:
+        PLOP_3x3_Sign Tester Lot_94d5a141.SC4Lot:
+          94d5a141:
+            building: 94d5a141
+            default: false
+            name: PLOP_3x3_Sign Tester Lot
+            size: 3x3
+      props:
+        Candlejoy Sign-0x6534284a-0x1c2d4663-0x14d5a040.SC4Desc:
+          14d5a040:
+            name: Candlejoy Sign
+        Eagle Motors Sign-0x6534284a-0x1c2d4663-0x94d5a069.SC4Desc:
+          94d5a069:
+            name: Eagle Motors Sign
+        Palms Club Sign-0x6534284a-0x1c2d4663-0xb4d5a075.SC4Desc:
+          b4d5a075:
+            name: Palms Club Sign
+        Starlight Sign-0x6534284a-0x1c2d4663-0x94d5a080.SC4Desc:
+          94d5a080:
+            name: Starlight Sign
+        Summerland Sign-0x6534284a-0x1c2d4663-0x74d5a088.SC4Desc:
+          74d5a088:
+            name: Summerland Sign
+      release: 2024-12-17T14:35:08.718Z
       version: 1.0.0

@@ -3087,6 +3087,72 @@ jasoncw/napier-tower:
         darknite: false
       version: 1.0.0
 
+jasoncw/newport-house:
+  buildings:
+    Jasoncw - Newport House (R$$$5_1x2).SC4Lot:
+      d2a5de32:
+        bulldoze: 307
+        capacity:
+          r$: 48
+          r$$: 28
+          r$$$: 14
+        categories: r$$$
+        flamability: 35
+        garbage: 4
+        name: Jasoncw - Newport House (R$$$5_1x2)
+        pollution: 1
+        pollutionRadius: 6
+        power: 2
+        water: 5
+        waterPollution: 1
+        waterPollutionRadius: 7
+        worth: 732
+  categories: r$$$
+  description: |-
+    Newport House is a luxury rowhouse for the Euro tileset.
+
+    - 1x2 growable R§§§ lot.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/NewportHouse00.jpg.30b56ac4131cf79c03240c8ae2adc444.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/NewportHouse01.jpg.5c623fc4436b446b8430b0c1862e998c.jpg
+  lots:
+    Jasoncw - Newport House (R$$$5_1x2).SC4Lot:
+      02a5de88:
+        building: d2a5de32
+        density: medium,high
+        name: R$$$5_1x2_Newport House
+        size: 1x2
+        stage: 5
+  name: Newport House
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/NewportHouse00.thumb.jpg.5ba159c59cb236600eca69863df8c581.jpg
+  url: https://community.simtropolis.com/files/file/36581-newport-house/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36581-newport-house#204587
+          include:
+            - Jasoncw - Newport House (DN)
+      lastGenerated: 2024-12-17T13:54:10.611Z
+      lastModified: 2024-12-05T04:10:52.000Z
+      name: Dark Nite
+      release: 2024-12-17T13:54:10.592Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36581-newport-house#204586
+          include:
+            - Jasoncw - Newport House (MN)
+      lastGenerated: 2024-12-17T14:29:39.726Z
+      lastModified: 2024-12-05T04:10:52.000Z
+      name: Maxis Nite
+      release: 2024-12-17T13:54:10.486Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
 jasoncw/norfair-corporation:
   buildings:
     Jasoncw - Norfair Corporation - Grow (CO$$8_3x4).SC4Lot:
@@ -3196,6 +3262,71 @@ jasoncw/norfair-corporation:
       lastModified: 2022-05-02T20:54:35.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.466Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/otautahi-mews:
+  buildings:
+    Jasoncw - Otautahi Mews (R$$4_1x3).SC4Lot:
+      528101d0:
+        bulldoze: 166
+        capacity:
+          r$: 42
+          r$$: 25
+        categories: r$$
+        flamability: 40
+        garbage: 4
+        name: Jasoncw - Otautahi Mews (R$$4_1x3)
+        pollution: 1
+        pollutionRadius: 5
+        power: 1
+        water: 2
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 606
+  categories: r$$
+  description: |-
+    Otautahi Mews is a small housing complex for the Houston 1990 and Euro tilesets. It grows in low, medium, and high density residential zones. It is based on 7 Boon Street in Christchurch, New Zealand.
+
+    - 1x3 growable R§§ lot.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6751220c0de7d_OtautahiMews00.jpg.a73037e822435d2042b9c942f3a390ad.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6751221be6cb9_OtautahiMews01.jpg.b8e4d81cf3b9cffe71453399fa0c855c.jpg
+  lots:
+    Jasoncw - Otautahi Mews (R$$4_1x3).SC4Lot:
+      '02810276':
+        building: 528101d0
+        density: all
+        name: R$$4_1x3_Otautahi Mews
+        size: 1x3
+        stage: 4
+  name: Otautahi Mews
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/675126d35bb79_OtautahiMews00.thumb.jpg.13b58f5832299fd7aef8b984c82a7ade.jpg
+  url: https://community.simtropolis.com/files/file/36580-otautahi-mews/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36580-otautahi-mews#204583
+          include:
+            - Jasoncw - Otautahi Mews (DN)
+      lastGenerated: 2024-12-17T14:29:39.661Z
+      lastModified: 2024-12-05T04:06:43.000Z
+      name: Dark Nite
+      release: 2024-12-17T14:29:39.626Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36580-otautahi-mews#204582
+          include:
+            - Jasoncw - Otautahi Mews (MN)
+      lastGenerated: 2024-12-17T14:29:39.620Z
+      lastModified: 2024-12-05T04:06:43.000Z
+      name: Maxis Nite
+      release: 2024-12-17T14:29:39.510Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -3674,6 +3805,110 @@ jasoncw/shields-youth-center:
       lastModified: 2022-12-25T06:02:34.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.856Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/skycliffe-tower:
+  buildings:
+    Jasoncw - Skycliffe Tower (R$$$8_3x2).SC4Lot:
+      '32769e11':
+        bulldoze: 2947
+        capacity:
+          r$: 4431
+          r$$: 2447
+          r$$$: 1071
+        categories: r$$$
+        flamability: 35
+        garbage: 5
+        name: Jasoncw - Skycliffe Tower (R$$$8_3x2)
+        pollution: 15
+        pollutionRadius: 6
+        power: 135
+        water: 181
+        waterPollution: 5
+        waterPollutionRadius: 7
+        worth: 67661
+    Jasoncw - Skycliffe Tower - CAM (R$$$10_3x2).SC4Lot:
+      '32769e11':
+        bulldoze: 2947
+        capacity:
+          r$: 4431
+          r$$: 2447
+          r$$$: 1071
+        categories: r$$$
+        flamability: 35
+        garbage: 5
+        name: Jasoncw - Skycliffe Tower (R$$$10_3x2)
+        pollution: 15
+        pollutionRadius: 6
+        power: 135
+        water: 181
+        waterPollution: 5
+        waterPollutionRadius: 7
+        worth: 67661
+  categories: r$$$,cam
+  dependencies:
+    - mipro/mipro-essentials
+  description: |-
+    Skycliffe Tower is a luxury condo tower. It's a 3x2 corner lot for the Euro tileset.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 12 version for people who do.
+
+    - 3x2 growable R§§§ lot.
+    - MaxisNite and DarkNite versions included.
+    - CAM version included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/675120eae9328_SkycliffeTower00.jpg.d3634f009caa6a830cbec99efaeff16f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/6751210f5763a_SkycliffeTower01.jpg.42d8e812e2906982dc4badb47119aedf.jpg
+  lots:
+    Jasoncw - Skycliffe Tower (R$$$8_3x2).SC4Lot:
+      '32769e62':
+        building: '32769e11'
+        density: high
+        name: R$$$8_3x2_Skycliffe Tower
+        size: 3x2
+        stage: 8
+    Jasoncw - Skycliffe Tower - CAM (R$$$10_3x2).SC4Lot:
+      '32769e62':
+        building: '32769e11'
+        density: high
+        name: R$$$10_3x2_Skycliffe Tower
+        requirements:
+          cam: true
+        size: 3x2
+        stage: 10
+  name: Skycliffe Tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/6751219f350ab_SkycliffeTower00.thumb.jpg.d68fb61857b5ea6290396a16ed04b3e7.jpg
+  url: https://community.simtropolis.com/files/file/36579-skycliffe-tower/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36579-skycliffe-tower#204578
+          include:
+            - Jasoncw - Skycliffe Tower (DN)
+        - id: simtropolis/36579-skycliffe-tower#204579
+          include:
+            - Jasoncw - Skycliffe Tower (CAM)
+      lastGenerated: 2024-12-17T14:35:08.709Z
+      lastModified: 2024-12-05T03:44:31.000Z
+      name: Dark Nite
+      release: 2024-12-17T13:50:34.922Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36579-skycliffe-tower#204577
+          include:
+            - Jasoncw - Skycliffe Tower (MN)
+        - id: simtropolis/36579-skycliffe-tower#204579
+          include:
+            - Jasoncw - Skycliffe Tower (CAM)
+      lastGenerated: 2024-12-17T14:35:08.699Z
+      lastModified: 2024-12-05T03:44:31.000Z
+      name: Maxis Nite
+      release: 2024-12-17T13:50:34.886Z
       requirements:
         darknite: false
       version: 1.0.0
