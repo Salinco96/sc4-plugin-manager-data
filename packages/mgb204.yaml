@@ -1,0 +1,465 @@
+mgb204/convenience-stores:
+  buildings:
+    MGB_ConvenienceStore_Resource.dat:
+      353910ba:
+        bulldoze: 152
+        capacity:
+          cs$: 207
+          cs$$: 54
+        categories: cs$$
+        family: 5f85e461
+        flamability: 40
+        garbage: 4
+        name: MGB Retail - Convenience Store Typ3
+        pollution: 1
+        pollutionRadius: 5
+        power: 3
+        water: 32
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 1012
+      5539109d:
+        bulldoze: 152
+        capacity:
+          cs$: 207
+          cs$$: 54
+        categories: cs$$
+        family: 5f85e461
+        flamability: 40
+        garbage: 4
+        name: MGB Retail - Convenience Store Typ2
+        pollution: 1
+        pollutionRadius: 5
+        power: 3
+        water: 32
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 1012
+      d5391049:
+        bulldoze: 152
+        capacity:
+          cs$: 207
+          cs$$: 54
+        categories: cs$$
+        family: 5f85e461
+        flamability: 40
+        garbage: 4
+        name: MGB Retail - Convenience Store Typ1
+        pollution: 1
+        pollutionRadius: 5
+        power: 3
+        water: 32
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 1012
+  categories: commercial
+  dependencies:
+    - girafe/carpack
+    - girafe/flora-pack
+    - girafe/hedges
+    - kingofsimcity/supershk-mega-parking-textures
+    - shokthrpy/parking-pack
+  description: |-
+    This package contains a small convenience store, with three model variations in a buildings family, along with lots to use them.
+
+    Using my Retail Signage Pack dependency, these stores will show randomly one of the installed Banner/Logo options.
+
+    3 Lots are included:
+
+    - Stage 2 CS$$ 3x2
+
+    - Stage 2 CS$$ 3x3 (Right Corner)
+
+    - Stage 1 CS$$ 4x4.
+
+    **Dependencies (Required for all Lots)**
+
+    - [MGB Retail Signage Pack (RSP)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3392)
+
+    Each lot has 54 CS$$ Jobs and stats generated using PIM\-X. For full details see the included readme file.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/Lots.jpg.8e6653aadb857a8325bc5aa25b5dbda1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_day.jpg.bbdf953a17ac51bdcbf8fc564edf224f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_Nite.jpg.7b1c44e36ca275854b56e136d3d5c01f.jpg
+  lots:
+    CS$$1_4x4_MGB Convenience Store_55377e3b.SC4Lot:
+      55377e3b:
+        building: 5f85e461
+        density: all
+        name: CS$$1_4x4_MGB Convenience Store
+        size: 4x4
+        stage: 1
+    CS$$2_3x2_MGB Convenience Store_3538721e.SC4Lot:
+      3538721e:
+        building: 5f85e461
+        density: all
+        name: CS$$2_3x2_MGB Convenience Store
+        size: 3x2
+        stage: 2
+    CS$$2_3x3_MGB Convenience Store_05387230.SC4Lot:
+      '05387230':
+        building: 5f85e461
+        density: all
+        name: CS$$2_3x3_MGB Convenience Store
+        size: 3x3
+        stage: 2
+  name: Convenience Store
+  options:
+    - choices:
+        - SD
+        - HD
+      default: HD
+      id: quality
+      label: Texture quality
+      type: string
+  propFamilies:
+    MGB_ConvenienceStore_Resource.dat:
+      5f85e460:
+        name: '0x5f85e460 : RetailBanners_MGB'
+  readme: MGB Convenience Store Readme.htm
+  textures:
+    MGB_ConvenienceStore_Resource.dat:
+      - f834403a
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_08/Store_day.thumb.jpg.f73e48729370e6afc6f78083b66d14c2.jpg
+  url: https://community.simtropolis.com/files/file/31244-mgb-convenience-store/
+  variants:
+    darknite:
+      assets:
+        - exclude:
+            - MGB_ConvenienceStore_*-MN.dat
+          id: simtropolis/31244-mgb-convenience-store
+          include:
+            - MGB_ConvenienceStore_{{quality}}-DN.dat
+            - MGB_ConvenienceStore_Resource.dat
+            - Lots
+      lastGenerated: 2024-12-18T09:40:53.642Z
+      lastModified: 2016-08-18T13:22:29.000Z
+      name: Dark Nite
+      release: 2024-12-18T09:40:53.649Z
+      requirements:
+        darknite: true
+      version: 1.0.1
+    default:
+      assets:
+        - exclude:
+            - MGB_ConvenienceStore_*-DN.dat
+          id: simtropolis/31244-mgb-convenience-store
+          include:
+            - MGB_ConvenienceStore_{{quality}}-MN.dat
+            - MGB_ConvenienceStore_Resource.dat
+            - Lots
+      lastGenerated: 2024-12-18T09:40:53.642Z
+      lastModified: 2016-08-18T13:22:29.000Z
+      name: Maxis Nite
+      release: 2024-12-17T16:13:39.988Z
+      requirements:
+        darknite: false
+      version: 1.0.1
+
+mgb204/texture-pack:
+  categories: dependencies
+  description: |-
+    The MGB Texture Pack is intended for lotters and includes a number of useful textures. Of course this file will be a necessary dependency for any lots made using the included resources. Please note, there is no content that you will find in-game from installing this download stand-alone.
+
+    **MAXIS LE TEXTURE OVERRIDES**
+
+    One or Two Maxis LE texture will be overridden when installing this set. All users will have an updated OWR Ortho texture, which fits better with the current NAM. For EU users only, the basic Road Ortho texture is overridden to an EU one.
+
+    **ADDITIONAL INFO FOR CREATORS (LOTTERS)**
+
+    V1 includes the following texture sets: Fractionally Angled Roads - FA2 and FA3 Road textures, including Ortho/Diag and FA2-3 transitions - Basic Road, Avenue, OWR & SAM Overlays - Intended to compliment the existing Ortho textures by adding Diagonal and Ortho-Diag transitions for these networks. Ortho SAM textures included too - Network "Transition" Textures
+
+    Transition from game networks to lot textures cleanly with these blended transitions - Street Textures
+
+    Need street textures on your lots? This package contains a complete set.
+
+    Water Textures - Some water textures for ponds etc, in two colour variants. By design the first 7 textures should be used in one row, then the second 7 below them.
+
+    I've included JPG reference sheets, showing all the textures in this pack, inside the .zip file. Which should make it very easy to see at a glance what textures are what. Ideally though, I recommend using PIM-X (X-Tool, SC4 PIM) for lotting.
+
+    ***IMPORTANT***
+
+    ***It should be noted the IDs for the Street Textures have been changed in this release from the development version. If you have used those previously, you will need to re-lot affected lots or keep the original "NAM Streets for LE.dat" file installed. Bear in mind, since users can no longer get the original file, if releasing lots with these textures, you must switch to the new IDs from this package. I'm sorry to do this, but I figure few people will be affected and it allows me to better organise my texture IDs into the future.***
+
+     ![Texture-Pack-Reference](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg)![Texture-Pack-Reference22](https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference2.jpg)
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference2.jpg
+  name: MGB204 - Texture Pack
+  options:
+    - choices:
+        - label: EU
+          value: eu
+        - label: US
+          value: us
+      default: eu
+      id: textures
+      label: Textures
+      section: Textures
+      type: string
+    - default: false
+      id: tsr
+      label: Rivit's TSR Street Mod
+      section: Overrides
+      type: boolean
+    - default: false
+      id: sam-5
+      label: Rivit's SAM5 Rural TSR Mod
+      section: Overrides
+      type: boolean
+    - default: false
+      id: sam-6
+      label: SAM6 Darkened Mod
+      section: Overrides
+      type: boolean
+    - default: false
+      id: sam-7
+      label: SAM7 Bikepaths Mod
+      section: Overrides
+      type: boolean
+    - default: false
+      description: Default SAM10 Textures use HD (256x256px) resolution. The LE (Maxis) can not show these textures. But there should be no problems in-game with them. However, those who prefer SD textures can use this file. Likewise, having it temporarily installed when lotting means it will work with the Maxis LE.
+      id: sam-10.sd
+      label: SAM10 SD
+      section: Overrides
+      type: boolean
+  readme: MGB Texture Pack Readme.txt
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Texture-Pack-Reference.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/22-dependencies/90-mgb204-texture-pack
+  variants:
+    default:
+      assets:
+        - id: sc4evermore/90-mgb204-texture-pack
+          include:
+            - US/MGB Texture Pack.dat:
+                condition:
+                  textures: us
+            - MGB Texture Pack.dat:
+                condition:
+                  textures: eu
+            - zMGB Texture Pack_SAM7 BP Override.dat:
+                condition:
+                  sam-7: true
+            - zMGB Texture Pack_SAM6 DK Override.dat:
+                condition:
+                  sam-6: true
+            - zMGB Texture Pack_SAM5 RVT Override.dat:
+                condition:
+                  sam-5: true
+            - zMGB Texture Pack_SAM10 SD Override.dat:
+                condition:
+                  sam-10.sd: true
+            - zMGB Texture Pack_RVT TSR Stret Override.dat:
+                condition:
+                  tsr: true
+      lastGenerated: 2024-12-18T09:40:52.151Z
+      lastModified: 2023-12-06T10:44:02.000Z
+      release: 2024-12-17T16:13:39.478Z
+      textures:
+        MGB Texture Pack.dat:
+          - f8344100
+          - f8344105
+          - f834410a
+          - f8344110
+          - f8344115
+          - f834411a
+          - f8344120
+          - f8344125
+          - f834412a
+          - f8344130
+          - f8344135
+          - f834413a
+          - f8344140
+          - f8344145
+          - f8344150
+          - f8344155
+          - f834415a
+          - f8344160
+          - f8344165
+          - f834416a
+          - f8344170
+          - f8344175
+          - f834417a
+          - f8344180
+          - f8344185
+          - f834418a
+          - f8344190
+          - f8344195
+          - f8344200
+          - f8344205
+          - f834420a
+          - f8344210
+          - f8344215
+          - f834421a
+          - f8344220
+          - f8344225
+          - f834422a
+          - f8344230
+          - f8344235
+          - f834423a
+          - f8344240
+          - f8344245
+          - f834424a
+          - f8344250
+          - f8344255
+          - f834425a
+          - f8344260
+          - f8344265
+          - f834426a
+          - f8344270
+          - f8344275
+          - f834427a
+          - f8344280
+          - f8344285
+          - f834428a
+          - f8344290
+          - f8344295
+          - f834429a
+          - f83442a0
+          - f83442a5
+          - f83442aa
+          - f83442b0
+          - f83442b5
+          - f8344300
+          - f8344305
+          - f834430a
+          - f8344400
+          - f8344405
+          - f834440a
+          - f8344410
+          - f8344415
+          - f834441a
+          - f8344500
+          - f8344505
+          - f834450a
+          - f8344600
+          - f8344605
+          - f834460a
+          - f8344610
+          - f8344615
+          - f834461a
+          - f8344620
+          - f8344625
+          - f834462a
+          - f8344630
+          - f8344635
+          - f834463a
+          - f8344640
+          - f8344645
+          - f834464a
+          - f8344650
+          - f8344655
+          - f834465a
+          - f8344660
+          - f8344665
+          - f834466a
+          - f8344670
+          - f8344675
+          - f834467a
+          - f8344680
+          - f8344685
+          - f834468a
+          - f8344690
+          - f8344695
+          - f834469a
+          - f83446a0
+          - f83446a5
+          - f83446aa
+          - f83446b5
+          - f83446ba
+          - f83446c0
+          - f83446c5
+          - f83446ca
+          - f83446d0
+          - f83446d5
+          - f83446da
+          - f83446e0
+          - f83446e5
+          - f83446ea
+          - f83446f0
+          - f83446f5
+          - f83446fa
+          - f8344700
+          - f8344705
+          - f834470a
+          - f8344710
+          - f8344715
+          - f8345505
+          - f834550a
+          - f8345510
+          - f8345515
+          - f834551a
+          - f8345520
+          - f8345525
+          - f834552a
+          - f8345530
+          - f8345535
+          - f8345560
+          - f8345565
+          - f8345570
+          - f8349805
+          - f834980a
+          - f8349810
+          - f8349815
+          - f834981a
+          - f8349820
+          - f8349825
+          - f834982a
+          - f8349830
+          - f8349835
+          - f834985a
+          - f8349860
+          - f8349865
+          - f834986a
+          - f8349870
+          - f8349875
+          - f834987a
+          - f8349880
+          - f8349885
+          - f834988a
+          - f83498b0
+          - f83498b5
+          - f83498ba
+          - f83498c0
+          - f83498c5
+          - f83498ca
+          - f83498d0
+          - f83498d5
+          - f83498da
+          - f83498e0
+          - f834995a
+          - f8349960
+          - f8349965
+          - f834996a
+          - f8349970
+          - f8349975
+          - f834997a
+          - f8349980
+          - f8349985
+          - f8354210
+        zMGB Texture Pack_RVT TSR Stret Override.dat:
+          - f8345560
+        zMGB Texture Pack_SAM10 SD Override.dat:
+          - f8349830
+          - f8349885
+          - f83498da
+          - f8349985
+        zMGB Texture Pack_SAM5 RVT Override.dat:
+          - f8345515
+          - f8349815
+          - f834986a
+          - f83498c0
+          - f834996a
+        zMGB Texture Pack_SAM6 DK Override.dat:
+          - f834551a
+          - f834981a
+          - f8349870
+          - f83498c5
+          - f8349970
+        zMGB Texture Pack_SAM7 BP Override.dat:
+          - f8345520
+          - f8349820
+          - f8349875
+          - f83498ca
+          - f8349975
+      version: 1.0.0

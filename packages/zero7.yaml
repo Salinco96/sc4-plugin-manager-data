@@ -1,0 +1,214 @@
+zero7/industrial-pack:
+  categories: i-m,i-ht,cam
+  dependencies:
+    - bsc/misc-props-vol02
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - gascooker/mega-props-vol01
+    - mikeseith/mega-props-vol01
+    - jestarr/mega-props-vol01
+    - jestarr/mega-props-vol02
+    - jestarr/mega-props-vol03
+    - jestarr/mega-props-vol04
+    - jestarr/mega-props-vol05
+    - simgoober/mega-props-vol01
+  description: |-
+    This SC4 Devotion LEX Legacy Pack features the Industrial BATs by zero7, which had been available on the Lot Exchange (LEX) at SC4 Devotion, encompassing a total of 4 downloads. After battling a number of technical issues, software incompatibility ultimately shuttered the LEX (at least in its familiar form from 2007 onward) in June 2023, and this package is designed to collect these dependencies in an easy-to-use form, allowing users to install them all in one go, or carefully select exactly which packs they wish to install.
+
+    Please note that this pack **may** receive updates in the near future. Do not redistribute without asking first, mostly as doing so would complicate efforts to properly maintain, update, and provide technical support for the pack.
+
+    #### Installation
+
+    This package utilizes a Java-based installer (similar to the one used with the Network Addon Mod), and can also be opened and installed manually using 7-Zip or Keka.
+
+    To install it, you'll either need the Java Runtime Environment to run the installer--[Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases)\--or a zip tool capable of opening the installer to allow manual installation. For Windows/Linux, use [7-zip](https://www.7-zip.org), and for macOS, use [Keka](https://www.keka.io/en/).
+
+    Once into the installer, after agreeing to the terms for the package, click to the Files tab to select which dependencies you wish to install (making no changes here will install everything). Then, click to the Location tab to set up an installation location (this should be the root of your My DocumentsSimCity 4Plugins folder). On the Cleanup tab, click "Start scan" to find any outdated files that currently reside in your Plugins folder that may conflict with this package. Clicking "Backup" will remove these old files to a safe location. (The option to "Delete" them also exists, but is not recommended.) After this, click over to the Install tab, and click "Start installation" to begin the installation procedure. When installation is complete, the tab pop up a message indicating it, after which you are safe to close the installer.
+
+    This pack does include one CAMeLot: the Stage 4 High Tech version of the Mirror Box Blue. If you are not using the CAM, simply uncheck the "CAM" box in the installer.
+
+    The original documentation can be found in the "\_Documents" folder inside the download.
+
+    #### Dependencies
+
+    In order to avoid "brown boxes" from missing models, or blank spots from missing textures, ensure the following are installed.
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus.
+
+    ##### Special Thanks
+
+    Webmaster & administration staff at SC4Evermore and SC4 Devotion.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+    #### Credits
+
+    - zero7
+
+    This package has been made possible by the Project ZIP efforts of Tyberius06, and was assembled by Tarkus.
+
+    ##### Special Thanks
+
+    Webmaster & administration staff at SC4Evermore and SC4 Devotion.
+
+    And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+    And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+    And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+
+    #### Contents
+
+    This package contains the following Commercial BATs by zero7. All are Growable unless marked:
+
+    1.  K2 Distribution Center
+    2.  Mirror Box Blue (I-HT Version - requires CAM)
+    3.  Pearson's Period Furnishings
+    4.  Steeton Mill
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Z7_K2Distribution_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Z7_MirrorBoxBlue_Day.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Z7_K2Distribution_Night.jpg
+  name: Industrial Pack
+  readme:
+    - readme_zero7_industrial.html
+    - Z7_K2Distribution/Readme_Z7_K2Distribution.htm
+    - Z7_MirrorBox_Blue/Readme_Z7_MirrorBox_Blue.htm
+    - Z7_SteetonMill/Readme_Z7_SteetonMill.htm
+    - z7_PearsonsFurnishings/z7_PearsonsFurnishings_readme.txt
+  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Z7_K2Distribution_Day.jpg
+  url: https://www.sc4evermore.com/index.php/downloads/download/13-industrial/140-sc4d-lex-legacy-zero7-industrial-pack
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+            - readme*
+          id: sc4evermore/140-sc4d-lex-legacy-zero7-industrial-pack
+          include:
+            - CAM
+            - zero7/Industrial
+            - zero7/^Shared Resources
+      buildings:
+        K2 Distribution Centre/K2 Distribution Centre - zero7-0x6534284a-0x73cb3347-0xd4842405.SC4Desc:
+          d4842405:
+            bulldoze: 293
+            capacity:
+              im: 313
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            name: K2 Distribution Centre - zero7
+            pollution: 18
+            pollutionRadius: 9
+            power: 19
+            water: 282
+            waterPollution: 12
+            waterPollutionRadius: 13
+            worth: 2388
+        Mirror Box Blue HighTech/MirrorBox HiTech Blue - zero7-0x6534284a-0x73cb3347-0x74b1bef9.SC4Desc:
+          74b1bef9:
+            bulldoze: 433
+            capacity:
+              iht: 207
+            categories: i-m
+            flamability: 45
+            garbage: 4
+            name: MirrorBox HiTech Blue - zero7
+            pollution: 5
+            pollutionRadius: 6
+            power: 38
+            water: 36
+            waterPollution: 2
+            waterPollutionRadius: 7
+            worth: 1627
+        Pearsons Period Furnishings/Pearsons Period Furnishings - zero7-0x6534284a-0xb8144390-0xd9fffe42.SC4Desc:
+          d9fffe42:
+            bulldoze: 182
+            capacity:
+              im: 227
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            name: Pearsons Period Furnishings - zero7
+            pollution: 13
+            pollutionRadius: 9
+            power: 14
+            water: 204
+            waterPollution: 9
+            waterPollutionRadius: 13
+            worth: 1732
+        Steeton Mill/Steeton Mill - zero7-0x6534284a-0x73cb3347-0x95582ec4.SC4Desc:
+          95582ec4:
+            bulldoze: 293
+            capacity:
+              im: 268
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            name: Steeton Mill - zero7
+            pollution: 16
+            pollutionRadius: 9
+            power: 17
+            water: 242
+            waterPollution: 10
+            waterPollutionRadius: 13
+            worth: 2044
+      lastGenerated: 2024-12-17T17:01:32.726Z
+      lastModified: 2023-08-27T06:54:05.000Z
+      lots:
+        K2 Distribution Centre/IM$$3_4x5_K2 Distribution Centre - zero7_74842461.SC4Lot:
+          '74842461':
+            building: d4842405
+            density: medium,high
+            name: IM$$3_4x5_K2 Distribution Centre - zero7
+            size: 4x5
+            stage: 3
+        Mirror Box Blue HighTech/IHT$$$4_3x3_MirrorBox HiTech Blue - zero7_c4b1bf0b.SC4Lot:
+          c4b1bf0b:
+            building: 74b1bef9
+            density: medium,high
+            name: IHT$$$4_3x3_MirrorBox HiTech Blue - zero7
+            requirements:
+              cam: true
+            size: 3x3
+            stage: 4
+        Pearsons Period Furnishings/IM$$2_7x4_Pearsons Period Furnishings - zero7_09fffe7a.SC4Lot:
+          09fffe7a:
+            building: d9fffe42
+            density: high
+            name: IM$$2_7x4_Pearsons Period Furnishings - zero7
+            size: 7x4
+            stage: 2
+        Steeton Mill/IM$$3_4x4_Steeton Mill - zero7_c5582efd.SC4Lot:
+          c5582efd:
+            building: 95582ec4
+            density: medium,high
+            name: IM$$3_4x4_Steeton Mill - zero7
+            size: 4x4
+            stage: 3
+      props:
+        Pearsons Period Furnishings/Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc:
+          da02d424:
+            name: Isuzu Cargo
+        Pearsons Period Furnishings/z7prop_LowBrickWall16m-0x6534284a-0xb8144390-0xda07a163.SC4Desc:
+          da07a163:
+            name: z7prop_LowBrickWall16m
+        Pearsons Period Furnishings/z7prop_LowBrickWall4m-0x6534284a-0xb8144390-0x9a07a1db.SC4Desc:
+          9a07a1db:
+            name: z7prop_LowBrickWall4m
+        Pearsons Period Furnishings/z7prop_LowBrickWall8m-0x6534284a-0xb8144390-0xba07a187.SC4Desc:
+          ba07a187:
+            name: z7prop_LowBrickWall8m
+        Pearsons Period Furnishings/z7prop_LowBrickWallPillar-0x6534284a-0xb8144390-0xda07a1f7.SC4Desc:
+          da07a1f7:
+            name: z7prop_LowBrickWallPillar
+      release: 2024-12-17T16:13:42.046Z
+      version: 1.0.0

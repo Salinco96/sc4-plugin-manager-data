@@ -1,0 +1,618 @@
+dead-end/dutch-bicyclepaths:
+  categories: parks
+  dependencies:
+    - paeng/bikepaths
+  description: |-
+    This .dat file replaces the textures found in Paeng's "Bicycle Paths with Alley Parks" and gives them a Dutch style colourscheme. Although you could theoretically use these textures without the files by Paeng, I highly recommend downloading them too as they give you several great ploppable lots utilizing the textures.
+
+    Paeng's Bicycle Paths with Alleyparks can be found here:
+
+    **Instructions:**
+
+    Place the .dat file in your plugins folder. When using them with Paeng's files either remove his original texture file (Paeng_Bikepath_Textures.dat) or make sure that this new file loads after it.
+
+    **Note:**
+
+    Because of Paeng's re-use of the exit texture for the tunnel lots there is unfortunately a slight graphical issue where the white marking extends from underneath the tunnel prop. This is only visible on 1/4 rotations on the two highest zoom levels. As many players might not even use these specific lots, I have to decided to release these textures anyway.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f3563fc439ad_DutchBicyclepaths.jpg.77062e0ea3e9b2fe5dbc8d6c5b1e3c78.jpg
+  name: Dutch Bicyclepaths
+  readme: Readme.txt
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_08/5f35652a60c89_DutchBicyclepaths.thumb.jpg.fdd4e01e3d02ed12e6e50ce4a7830418.jpg
+  url: https://community.simtropolis.com/files/file/33761-dutch-bicyclepaths/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33761-dutch-bicyclepaths
+      lastGenerated: 2024-12-17T16:13:42.352Z
+      lastModified: 2020-08-13T16:07:06.000Z
+      release: 2024-12-17T16:13:42.332Z
+      textures:
+        Dutch bicyclepaths.dat:
+          - f5f84220
+          - f5f84225
+          - f5f8422a
+          - f5f84230
+          - f5f84235
+          - f5f8423a
+          - f5f84240
+          - f5f84245
+          - f5f8424a
+          - f5f84250
+          - f5f84255
+          - f5f8425a
+          - f5f84260
+          - f5f84265
+          - f5f8426a
+          - f5f84270
+          - f5f84275
+      version: 1.0.0
+
+dead-end/grimstad-pharmacy:
+  categories: health
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - flann/girafe-maxis-fence-hd-replacement-mod
+    - girafe/flora-pack
+    - oidaas/malmberget-props-vol02
+  description: |-
+    This small 1x1 pharmacy lot is designed to fit in W2W environments, particularly those with Scandinavian themes. You'll find it in the menu with your other health and medical related buildings. It's named after the Norwegian town of Grimstad, but as far as I know it's not located there. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":&#41;")
+
+    Special thanks to [@Oidaas](https://community.simtropolis.com/profile/64713-oidaas/) for creating such a wonderful building!
+
+    The attached screenshot shows my custom pavement (created through [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s [MTRDK](https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/)) and grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/Screenshot_Pharmacy.JPG.a828e0a7b5162977fd7b594ee4356056.JPG
+  name: Grimstad Pharmacy
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/Screenshot_Pharmacy.thumb.JPG.fb10bd87a940fb27fc2617c19f4228a1.JPG
+  url: https://community.simtropolis.com/files/file/36457-grimstad-pharmacy/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36457-grimstad-pharmacy
+      buildings:
+        Grimstad Pharmacy.SC4Lot:
+          347423c9:
+            bulldoze: 30
+            categories: health
+            cost: 250
+            flamability: 36
+            jobs:
+              $: 6
+              $$: 7
+              $$$: 1
+            maintenance: 300
+            menu: Health
+            name: Grimstad Pharmacy
+            power: 1
+            submenu: Health/Small
+      lastGenerated: 2024-12-18T11:53:04.386Z
+      lastModified: 2024-09-22T07:43:56.000Z
+      lots:
+        Grimstad Pharmacy.SC4Lot:
+          347423c9:
+            building: 347423c9
+            name: Grimstad Pharmacy
+            size: 1x1
+      release: 2024-12-17T16:13:42.153Z
+      version: 1.0.1
+
+dead-end/hisingen-apartments:
+  categories: r$$
+  dependencies:
+    - 11241036/textures
+    - cycledogg/mega-props-vol01
+    - girafe/flora-pack
+    - murimk/props-vol01
+    - oidaas/malmberget-props-vol01
+    - robdragon/props-vol01
+    - shokthrpy/parking-pack
+  description: This 3x2 lot features two lovely apartments set around a small courtyard. It's named after the island of Hisingen near Gothenburg, Sweden.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/Hisingen_1.JPG.69597099c943f30a2928ef315ffd5c58.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/Hisingen_2.JPG.066fdba7edf2fea0fff2b974e6ff236b.JPG
+  name: Hisingen Apartments
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/Hisingen_1.thumb.JPG.fc6e7021a4e623bd7f1246dc8ea0cb6b.JPG
+  url: https://community.simtropolis.com/files/file/36568-hisingen-apartments/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36568-hisingen-apartments
+      buildings:
+        Hisingen Apartments-0x6534284a-0x50508c53-0x54c1312c.SC4Desc:
+          54c1312c:
+            bulldoze: 184
+            capacity:
+              r$: 41
+              r$$: 24
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            name: Hisingen Apartments
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 591
+      lastGenerated: 2024-12-18T11:53:04.326Z
+      lastModified: 2024-11-24T08:46:44.000Z
+      lots:
+        R$$2_3x2_Hisingen Apartments_04c27834.SC4Lot:
+          04c27834:
+            building: 54c1312c
+            density: all
+            name: R$$2_3x2_Hisingen Apartments
+            size: 3x2
+            stage: 2
+      release: 2024-12-17T16:13:39.852Z
+      version: 1.0.0
+
+dead-end/hjorthagen-school-relot:
+  authors:
+    - koumus
+  categories: education
+  dependencies:
+    - flann/girafe-maxis-fence-hd-replacement-mod
+    - girafe/flora-pack
+    - kingofsimcity/supershk-mega-parking-textures
+    - koumus/hjorthagen-school
+    - murimk/props-vol01
+    - porkissimo/jenx-porkie-expanded-props
+    - robdragon/props-vol01
+    - shokthrpy/parking-pack
+  description: |-
+    This primary school features two buildings: a large structure from the early 20th century and a newer one, probably built around the 1980's for extra capacity. The 5x4 lot also comes with a small square for kids to play around during recess. Bike storage is available in the front and back. Cars can park in the back. The driveway is transit enabled for streets, making it easy to connect this to existing road networks. It has the same stats as the original building by [@koumus](https://community.simtropolis.com/profile/794764-koumus/): 18$ 20$$ and 2$$$ jobs, and a capacity of 500 students.
+
+    The attached screenshots show my custom pavement (created through [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s [MTRDK](https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/)) and grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/672ba270d3d24_Skola1.JPG.b40dd8887129f1a2f2973ed6fa6cfb98.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/672ba27162878_Skola2.JPG.fb4ec4ea68c5944e7da97ca03d3799e2.JPG
+  name: Hjorthagen School (Relot)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/672ba8ef9daa5_Skola1.thumb.JPG.bc3aa66a3c527b8cd064000b36dc4c9d.JPG
+  url: https://community.simtropolis.com/files/file/36540-hjorthagen-school-relot/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36540-hjorthagen-school-relot
+      buildings:
+        DE_PLOP_5x4_hjorthagens skola_e4acd9d0.SC4Lot:
+          e4acd9d0:
+            bulldoze: 30
+            categories: education
+            cost: 300
+            flamability: 32
+            jobs:
+              $: 17
+              $$: 6
+            maintenance: 400
+            menu: Education
+            name: Hjorthagens skola
+            power: 2
+            submenu: Education/Elementary
+            water: 5
+      lastGenerated: 2024-12-18T11:53:04.396Z
+      lastModified: 2024-11-06T17:35:43.000Z
+      lots:
+        DE_PLOP_5x4_hjorthagens skola_e4acd9d0.SC4Lot:
+          e4acd9d0:
+            building: e4acd9d0
+            name: DE_PLOP_5x4_hjorthagens skola
+            size: 5x4
+      release: 2024-12-17T16:13:42.195Z
+      version: 1.0.0
+
+dead-end/konsum:
+  categories: landmarks,cs$
+  dependencies:
+    - 11241036/textures
+    - cycledogg/mega-props-vol01
+    - girafe/flora-pack
+    - kingofsimcity/supershk-mega-parking-textures
+    - murimk/props-vol01
+    - oidaas/esa-stores
+    - robdragon/props-vol01
+    - sfbt/essentials
+    - shokthrpy/parking-pack
+    - zero7/industrial-pack # (Specifically the SC4DESC and SC4MODEL files for the Isuzu cargo truck)
+  description: |-
+    Konsum is a Swedish cooperative grocery store. This ploppable 2x2 lot fits on a street corner. The store has a loading dock in the back, which is accessed through the parking area. Sims are also able to park their bikes in the front. It offers 37 C$ jobs.
+
+    The attached screenshots show my custom pavement (created through [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s [MTRDK](https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/)) and grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/Konsum_Screenshot.JPG.40ae847a128b7c7471e4e20737d05db8.JPG
+  name: Konsum
+  optional:
+    - flann/girafe-maxis-fence-hd-replacement-mod
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/Konsum_Screenshot.thumb.JPG.222a4942a9a2aacbcb98d77106049ce7.JPG
+  url: https://community.simtropolis.com/files/file/36561-konsum/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36561-konsum
+      buildings:
+        PLOP_2x2_DE_konsumstorre_44b3469c.SC4Lot:
+          44b3469c:
+            bulldoze: 157
+            capacity:
+              cs$: 37
+            categories: landmarks,cs$
+            cost: 2404
+            flamability: 45
+            garbage: 4
+            menu: Landmarks
+            name: DE_konsumstorre
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            submenu: Commercial/CS$
+            water: 9
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 283
+      lastGenerated: 2024-12-18T11:53:04.365Z
+      lastModified: 2024-11-16T14:10:26.000Z
+      lots:
+        PLOP_2x2_DE_konsumstorre_44b3469c.SC4Lot:
+          44b3469c:
+            building: 44b3469c
+            name: PLOP_2x2_DE_konsumstorre
+            size: 2x2
+      release: 2024-12-17T16:13:42.085Z
+      version: 1.0.0
+
+dead-end/norrkoping-clinic:
+  categories: health
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - flann/girafe-maxis-fence-hd-replacement-mod # Grfe-Maxis-Fence_New-LE-Props.dat
+    - girafe/flora-pack
+    - oidaas/malmberget-props-vol01
+    - pegasus/mtp-super-pack
+    - robdragon/props-vol01
+    - shokthrpy/parking-pack
+  description: |-
+    A small hospital that will probably fit in well with Scandinavian style towns and cities. It's named after the Swedish city of Nörrköping, but that was just because I needed a name. As far as I know it's not located there. ![:)](https://community.simtropolis.com/assets/emoticons/LlamaSmile.gif ":&#41;")
+
+    Special thanks to [@Oidaas](https://community.simtropolis.com/profile/64713-oidaas/) for creating such a wonderful building!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Screenshot_Upload.JPG.3da2d853ffa8de9303ac7993afb7cd24.JPG
+  name: Nörrköping Clinic
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_03/Screenshot_Upload.thumb.JPG.847441cb6605d7ad03497ef33be358f0.JPG
+  url: https://community.simtropolis.com/files/file/36187-n%C3%B6rrk%C3%B6ping-clinic/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36187-n%C3%B6rrk%C3%B6ping-clinic
+      buildings:
+        Norrkoping Clinic.SC4Lot:
+          c38ed872:
+            bulldoze: 60
+            categories: health
+            cost: 1050
+            flamability: 36
+            jobs:
+              $: 15
+              $$: 33
+              $$$: 10
+            maintenance: 700
+            menu: Health
+            name: Norrkoping_Clinic
+            pollution: 1
+            pollutionRadius: 3
+            power: 3
+            submenu: Health/Small
+            water: 9
+      lastGenerated: 2024-12-18T11:53:04.377Z
+      lastModified: 2024-03-31T18:37:13.000Z
+      lots:
+        Norrkoping Clinic.SC4Lot:
+          c38ed872:
+            building: c38ed872
+            name: Norrkoping Clinic
+            size: 5x2
+      release: 2024-12-17T16:13:42.113Z
+      version: 1.0.1
+
+dead-end/scandinavian-supermarkets:
+  categories: cs$$,landmarks
+  dependencies:
+    - flann/girafe-maxis-fence-hd-replacement-mod
+    - kingofsimcity/supershk-mega-parking-textures
+    - mgb204/convenience-stores
+    - murimk/props-vol01
+    - pclark06/mgb-convenience-stores
+    - pegasus/mtp-super-pack
+    - porkissimo/jenx-porkie-expanded-props
+    - robdragon/props-vol01
+    - sfbt/essentials
+    - shokthrpy/parking-pack
+    - simgoober/mega-props-vol01
+  description: |-
+    This download contains lots for three different supermarket franchises from Scandinavian countries: [Joker](https://en.wikipedia.org/wiki/Joker_%28store%29) (growable 3x2 and 4x2) [Kiwi](https://en.wikipedia.org/wiki/Kiwi_%28store%29) (ploppable monument 3x2) and [REMA 1000](https://en.wikipedia.org/wiki/REMA_1000) (growable 3x2). The latter two lots are meant for more urban environments and as such do only come with a parking lot for bikes ![^_^](https://community.simtropolis.com/assets/emoticons/default_5.gif "^_^"). All lots feature 32 CS$$ jobs. I created these for my own towns and cities, but hopefully someone else will find them useful as well.
+
+    The attached screenshot shows my custom pavement (created through [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s [MTRDK](https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/)) and grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble!
+
+    Special thanks to [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/) for the building models and [@pclark06](https://community.simtropolis.com/profile/364367-pclark06/) for the branding props!
+
+    **Optional**
+
+    - [KOSC's SuperSHK+ MEGA Parking for TGN / SWN](https://community.simtropolis.com/files/file/31248-koscs-supershk-mega-parking-for-tgn-swn/) (changes grass and pavement on the parking textures)
+
+    Note: Only after uploading this set I realized the sign for the REMA 1000 was off-centered in comparison to the other two supermarkets. This has since been fixed, but the screenshot does show the older version. It should show up fine in the game.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/Screenshot_Joker.JPG.1035528ac204279456ccd203691ac552.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/Screenshot_Kiwi.JPG.746cf3ea65da5e13ddec6433cd3376d8.JPG
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/Screenshot_Rema1000.JPG.43cc8d773550803d8d911578d3b9a318.JPG
+  name: Scandinavian Supermarkets
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/Screenshot_Joker.thumb.JPG.5fd989b62a14f80fe9433f0ecf6c3622.JPG
+  url: https://community.simtropolis.com/files/file/36316-scandinavian-supermarkets/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36316-scandinavian-supermarkets
+          include:
+            - DE_MGB_pclark06_Supermarket
+      buildings:
+        Joker/DE_MGB_Retail_Roofbrown_Joker-0x6534284a-0x50508c53-0xd3f43cd2.SC4Desc:
+          d3f43cd2:
+            bulldoze: 152
+            capacity:
+              cs$: 118
+              cs$$: 32
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            name: DE_MGB_Retail_Roofbrown_Joker
+            pollution: 1
+            pollutionRadius: 5
+            power: 3
+            water: 32
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1012
+        Kiwi/PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot:
+          c3f365cc:
+            bulldoze: 152
+            capacity:
+              cs$: 118
+              cs$$: 32
+            categories: landmarks,cs$$
+            cost: 2608
+            flamability: 40
+            garbage: 4
+            menu: Landmarks
+            name: DE_MGB_Retail_Roofgrey_Kiwi
+            pollution: 1
+            pollutionRadius: 5
+            power: 3
+            submenu: Commercial/CS$$
+            water: 32
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1012
+        Rema1000/DE_MGB_Retail_Roofbrown-0x6534284a-0x50508c53-0xd3f34613.SC4Desc:
+          d3f34613:
+            bulldoze: 152
+            capacity:
+              cs$: 118
+              cs$$: 32
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            name: DE_MGB_Retail_Roofbrown_Rema1000
+            pollution: 1
+            pollutionRadius: 5
+            power: 3
+            water: 32
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1012
+      lastGenerated: 2024-12-18T11:53:04.355Z
+      lastModified: 2024-06-25T20:09:19.000Z
+      lots:
+        Joker/CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker_13f43e21.SC4Lot:
+          13f43e21:
+            building: d3f43cd2
+            density: all
+            name: CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker
+            size: 3x2
+            stage: 1
+        Joker/CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker_73f43ce4.SC4Lot:
+          73f43ce4:
+            building: d3f43cd2
+            density: all
+            name: CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker
+            size: 4x2
+            stage: 1
+        Kiwi/PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot:
+          c3f365cc:
+            building: c3f365cc
+            name: PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi
+            size: 3x2
+        Rema1000/DE_MGB_Retail_Roofbrown_Rema1000_23f34b8e.SC4Lot:
+          23f34b8e:
+            building: d3f34613
+            density: all
+            name: DE_MGB_Retail_Roofbrown_Rema1000
+            size: 3x2
+            stage: 1
+      release: 2024-12-17T16:13:41.995Z
+      version: 1.0.0
+
+dead-end/spar-supermarket:
+  categories: cs$$
+  dependencies:
+    - flann/girafe-maxis-fence-hd-replacement-mod
+    - girafe/flora-pack
+    - glenni/mega-props-vol02
+    - kingofsimcity/supershk-mega-parking-textures
+    - murimk/props-vol01
+    - robdragon/props-vol01
+    - shokthrpy/parking-pack
+  description: |-
+    [Spar](https://en.wikipedia.org/wiki/Spar_%28retailer%29) is a Dutch multinational franchise of supermarkets. I created this 6x4 growable lot specifically for my Scandinavian towns and cities, but it should fit in well with other regional styles as well. In theory this should grow on any of the tile sets, but I recommend plopping it through the 'buildingplop' cheat if you're having issues.
+
+    The attached screenshot shows my custom pavement (created through [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s [MTRDK](https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/)) and grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble!
+
+    Special thanks to [@Glenni](https://community.simtropolis.com/profile/53300-glenni/) for creating this building model!
+
+    **Optional**
+
+    - [KOSC's SuperSHK+ MEGA Parking for TGN / SWN](https://community.simtropolis.com/files/file/31248-koscs-supershk-mega-parking-for-tgn-swn/) (changes grass and pavement on the parking textures)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/66707423c32b9_ScreenshotSpar.JPG.df384d111cb75422be0383fef34eecde.JPG
+  name: Spar Supermarket
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_06/66707bd95e57a_ScreenshotSpar.thumb.JPG.f50981464fc8cc1992447d09b9019d12.JPG
+  url: https://community.simtropolis.com/files/file/36314-spar-supermarket/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36314-spar-supermarket
+          include:
+            - DE_Spar-Glenni
+      buildings:
+        DE_Glenni-Spar_grocerystore-0x6534284a-0x50508c53-0x33f448cc.SC4Desc:
+          33f448cc:
+            bulldoze: 129
+            capacity:
+              cs$: 475
+              cs$$: 121
+            categories: cs$$
+            flamability: 40
+            garbage: 5
+            name: DE_Glenni-Spar_grocerystore
+            pollution: 4
+            pollutionRadius: 5
+            power: 10
+            water: 118
+            waterPollution: 2
+            waterPollutionRadius: 6
+            worth: 4075
+      lastGenerated: 2024-12-18T11:53:04.346Z
+      lastModified: 2024-06-17T18:09:29.000Z
+      lots:
+        DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot:
+          73f449c3:
+            building: 33f448cc
+            density: all
+            name: DE_Glenni-Spar_grocerystore_6x4
+            size: 6x4
+            stage: 1
+      release: 2024-12-17T16:13:39.964Z
+      version: 1.0.0
+
+dead-end/stave-church:
+  categories: education
+  dependencies:
+    - agc/viking-dlc
+    - bsc/misc-props-vol02
+    - bsc/textures-vol03
+    - girafe/flora-pack
+    - sfbt/essentials
+    - simmer2/dry-stone-walls
+  description: |-
+    [Stave churches](https://en.wikipedia.org/wiki/Stave_church) like this date back to the Middle Ages and could at one point be found all across Scandinavia. Today they mostly survive in Norway ([when they're not being set on fire that is](https://en.wikipedia.org/wiki/Early_Norwegian_black_metal_scene#Church_Arsons_and_Attempts)).
+
+    This 5x5 lot functions as a museum in the game. A special thanks to [@Barroco Hispano](https://community.simtropolis.com/profile/415633-barroco-hispano/) for creating such a wonderful model!
+
+    The attached screenshots show my custom grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble! Also let know if you end up using this in your cities. I'd love to see some screenshots!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Screenshot_Stave_church.JPG.eeef955842650f7d699b2bb8ba87e23a.JPG
+  name: Stave church
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/Screenshot_Stave_church.thumb.JPG.7b9e7ea13dcab70234cf93b6b6b091e6.JPG
+  url: https://community.simtropolis.com/files/file/36577-stave-church/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36577-stave-church
+      buildings:
+        PLOP_5x5_DE_Stavechurch_e4cd1390.SC4Lot:
+          e4cd1390:
+            bulldoze: 4070
+            categories: education
+            cost: 4550
+            flamability: 35
+            garbage: 1
+            jobs:
+              $: 20
+              $$: 77
+              $$$: 30
+            maintenance: 5350
+            menu: Education
+            name: DE_Stavechurch
+            pollution: 3
+            pollutionRadius: 3
+            power: 7
+            submenu: Education/Libraries
+            water: 26
+            waterPollution: 2
+            waterPollutionRadius: 4
+      lastGenerated: 2024-12-18T11:53:04.408Z
+      lastModified: 2024-12-04T11:34:57.000Z
+      lots:
+        PLOP_5x5_DE_Stavechurch_e4cd1390.SC4Lot:
+          e4cd1390:
+            building: e4cd1390
+            name: PLOP_5x5_DE_Stavechurch
+            size: 5x5
+      release: 2024-12-17T16:13:42.286Z
+      version: 1.0.0
+
+dead-end/white-villa:
+  categories: r$$$
+  dependencies:
+    - 11241036/textures
+    - flann/girafe-maxis-fence-hd-replacement-mod
+    - girafe/flora-pack
+    - haarlemmergold/dutch-mega-props-vol01
+    - robdragon/props-vol01
+    - sfbt/essentials
+    - shokthrpy/parking-pack
+  description: |-
+    Classic villas like this can be found in rather posh areas of the Netherlands. Or in other countries for that matter... I imagine this wouldn't look out of place in any European style town. It's a relot of an older building by the great [@Haarlemmergold](https://community.simtropolis.com/profile/38724-haarlemmergold/)
+
+    Capacity satisfied: R$44, R$$26, R$$$13. It should grow on any tileset.
+
+    The attached screenshots show my custom pavement (created through [@rsc204](https://community.simtropolis.com/profile/651629-rsc204/)'s [MTRDK](https://community.simtropolis.com/files/file/30033-mgb-maxis-texture-replacement-dev-kit/)) and grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_11/Relot_Haarlemmergold_Villa.JPG.1cb519d0941f520a7e58c9c73eff7400.JPG
+  name: White Villa
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/Relot_Haarlemmergold_Villa.thumb.JPG.bae2ffca078eebd8dba9067b8766f963.JPG
+  url: https://community.simtropolis.com/files/file/36541-white-villa/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36541-white-villa
+      buildings:
+        DE_Witte Villa-0x6534284a-0x50508c53-0x1483f821.SC4Desc:
+          1483f821:
+            bulldoze: 256
+            capacity:
+              r$: 44
+              r$$: 26
+              r$$$: 13
+            categories: r$$$
+            flamability: 35
+            garbage: 4
+            name: DE_Witte Villa
+            pollution: 1
+            pollutionRadius: 6
+            power: 2
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 671
+      lastGenerated: 2024-12-18T11:53:04.311Z
+      lastModified: 2024-11-07T22:45:10.000Z
+      lots:
+        R$$$4_2x2_DE_Witte Villa_3483f82f.SC4Lot:
+          3483f82f:
+            building: 1483f821
+            density: all
+            name: R$$$4_2x2_DE_Witte Villa
+            size: 2x2
+            stage: 4
+      release: 2024-12-17T16:13:39.807Z
+      version: 1.0.0

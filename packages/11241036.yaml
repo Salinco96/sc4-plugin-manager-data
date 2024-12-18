@@ -1,3 +1,4629 @@
+11241036/lot-foundations-and-retaining-walls:
+  categories: dependencies
+  description: |-
+    Some lots, when being placed on slopes, will either raise the floor beneath them, or cut into the hill. In the former case, a lot foundation is being created, in the latter, a retaining wall. Perhaps it's just me, but I'm quite surprised that I've only found very few plugins with custom foundations and none at all with retaining walls; therefore, I've turned some textures by Maxis or other authors (see below for credits) into lot foundations and retaining walls. This plugin therefore acts as a dependency for plugin developers, providing them with the necessary textures and exemplar files.
+
+    **Credits:**
+
+    **My special thanks go to all authors that kindly gave me permission to modify and share their work.** At the moment, this ist just one person:
+
+    - **Mas71:** His set of Japanese hill retaining walls surely is part of the plugins that I'm using most frequently. Now, their functionability is even being expanded.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.jpg.d34b5066fa746c20427bb6e6fea90199.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.png.de43eb44243c947ce7eff75c17b88c17.png
+  name: Various Lot Foundations and Retaining Walls
+  optional:
+    - rebalynnts/spot
+    - memo/submenus-dll
+  options:
+    - default: true
+      description: 4 lots that can be used on slopes to connect ground traffic routes to the overpass puzzle pieces from the NAM and thereby blending them in with the seawall system you get with this download
+      id: seawall-connection-lots
+      label: Seawall connection lots
+      type: boolean
+    - choices:
+        - label: Parks
+          value: parks
+        - label: Plazas
+          value: plazas
+      condition:
+        submenus: true
+      id: submenu
+      label: Submenu
+      type: string
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
+  url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/31346-various-lot-foundations-and-retaining-walls
+      buildings:
+        TestLots.dat:
+          05221b92:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          05221bcc:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          25221ba4:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          25221bf5:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          25221bfd:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          65221b9c:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          85221bae:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          85221be3:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          a5221bd8:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          c5221b88:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          c5221bbf:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          c5221bef:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+          e5221bb5:
+            label: Test Lot Retaining Walls
+            menu: Parks
+            name: Test Lot Retaining Walls
+      lastGenerated: 2024-12-17T16:13:39.176Z
+      lastModified: 2016-11-01T04:56:53.000Z
+      lots:
+        TestLots.dat:
+          05221b92:
+            building: 05221b92
+            default: false
+            name: WhiteBrick1 Mas71
+            size: 1x1
+          05221bcc:
+            building: 05221bcc
+            default: false
+            name: ConcreteBlocks8 Mas71
+            size: 1x1
+          25221ba4:
+            building: 25221ba4
+            default: false
+            name: LightBrick1 Mas71
+            size: 1x1
+          25221bf5:
+            building: 25221bf5
+            default: false
+            name: Concrete2 Maxis
+            size: 1x1
+          25221bfd:
+            building: 25221bfd
+            default: false
+            name: Concrete3 Maxis
+            size: 1x1
+          65221b9c:
+            building: 65221b9c
+            default: false
+            name: MossyConcrete1 Mas71
+            size: 1x1
+          85221bae:
+            building: 85221bae
+            default: false
+            name: GreyStone3 Mas71
+            size: 1x1
+          85221be3:
+            building: 85221be3
+            default: false
+            name: BrownStone2 Mas71
+            size: 1x1
+          a5221bd8:
+            building: a5221bd8
+            default: false
+            name: CheckeredConcrete Mas71
+            size: 1x1
+          c5221b88:
+            building: c5221b88
+            default: false
+            name: WhiteBrick2 Mas71
+            size: 1x1
+          c5221bbf:
+            building: c5221bbf
+            default: false
+            name: GreyBrick5 Mas71
+            size: 1x1
+          c5221bef:
+            building: c5221bef
+            default: false
+            name: Concrete1 Maxis
+            size: 1x1
+          e5221bb5:
+            building: e5221bb5
+            default: false
+            name: GreyStone2 Mas71
+            size: 1x1
+      release: 2024-12-17T16:13:39.131Z
+      version: 1.0.0
+
+11241036/modular-plaza-system:
+  buildings:
+    MPS Core Files.dat:
+      0183527c:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall Bridge
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall Bridge
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      02f2eb7a:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall Stairs
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall Stairs
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      052253c2:
+        bulldoze: 200
+        cost: 500
+        flamability: 45
+        garbage: 12
+        label: MPS Market Stalls 2x2 Market Hall
+        maintenance: 15
+        menu: Parks
+        name: MPS Market Stalls 2x2 Market Hall
+        pollution: 2
+        pollutionRadius: 5
+        power: 4
+        submenu: b2437009
+        water: 12
+        waterPollution: 2
+        waterPollutionRadius: 5
+      1f6de657:
+        bulldoze: 10
+        cost: 40
+        label: MPS Tree Ash
+        maintenance: 2
+        menu: Parks
+        name: MPS Tree Ash
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437006
+        water: 1
+      1f6de6a0:
+        bulldoze: 10
+        cost: 40
+        label: MPS Tree Common Spruce
+        maintenance: 2
+        menu: Parks
+        name: MPS Tree Common Spruce
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437006
+        water: 1
+      1fb001b0:
+        bulldoze: 10
+        cost: 40
+        garbage: 3
+        label: MPS Square Tables
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Tables
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      20067f8b:
+        bulldoze: 45
+        cost: 180
+        garbage: 3
+        label: MPS Flowerbed 2x2
+        maintenance: 6
+        menu: Parks
+        name: MPS Flowerbed 2x2
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        submenu: b2437007
+        water: 4
+      252034b6:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall Underpass Left
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall Underpass Left
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      3f689579:
+        bulldoze: 20
+        cost: 80
+        garbage: 1
+        label: MPS Flowerbed Straight Tree
+        maintenance: 3
+        menu: Parks
+        name: MPS Flowerbed Straight Tree
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437007
+        water: 2
+        waterPollution: -2
+        waterPollutionRadius: 2
+      3f689b8e:
+        bulldoze: 30
+        cost: 120
+        garbage: 1
+        label: MPS Statue 1x1 Male
+        maintenance: 10
+        menu: Parks
+        name: MPS Statue 1x1 Male
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437005
+      3f6cbc0c:
+        bulldoze: 150
+        cost: 600
+        garbage: 6
+        label: MPS Plaza 3x3
+        maintenance: 40
+        menu: Parks
+        name: MPS Plaza 3x3
+        pollution: -6
+        pollutionRadius: 3
+        power: 4
+        relief:
+          r$: 9000
+          r$$: 9000
+          r$$$: 9000
+        submenu: b2437004
+        water: 4
+      3fb002ee:
+        bulldoze: 25
+        cost: 100
+        garbage: 1
+        label: MPS Square Pond 1x1
+        maintenance: 5
+        menu: Parks
+        name: MPS Square Pond 1x1
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437003
+        water: 2
+      40082c31:
+        bulldoze: 60
+        cost: 240
+        garbage: 4
+        label: MPS Square Fountain 2x2
+        maintenance: 10
+        menu: Parks
+        name: MPS Square Fountain 2x2
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        submenu: b2437003
+        water: 6
+      42f19f4f:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Seawall Ash Benches
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Ash Benches
+        pollution: -2
+        pollutionRadius: 2
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+        water: 1
+      5368c021:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Phone Booths
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Phone Booths
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      5f5d185d:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Bare
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Bare
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      5f689864:
+        bulldoze: 20
+        cost: 80
+        garbage: 1
+        label: MPS Square Fountain 1x1
+        maintenance: 3
+        menu: Parks
+        name: MPS Square Fountain 1x1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+        water: 2
+      5f6b50fb:
+        bulldoze: 75
+        cost: 360
+        garbage: 4
+        label: MPS Statue 2x2 Male
+        maintenance: 25
+        menu: Parks
+        name: MPS Statue 2x2 Male
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        submenu: b2437005
+      5f6cbbff:
+        bulldoze: 25
+        cost: 100
+        garbage: 1
+        label: MPS Plaza 1x1
+        maintenance: 10
+        menu: Parks
+        name: MPS Plaza 1x1
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        submenu: b2437004
+      5f6cbc1b:
+        bulldoze: 75
+        cost: 300
+        garbage: 3
+        label: MPS Plaza 2x2
+        maintenance: 25
+        menu: Parks
+        name: MPS Plaza 2x2
+        pollution: -3
+        pollutionRadius: 3
+        power: 2
+        relief:
+          r$: 4000
+          r$$: 4000
+          r$$$: 4000
+        submenu: b2437004
+        water: 2
+      5fb00304:
+        bulldoze: 75
+        cost: 300
+        garbage: 6
+        label: MPS Square Pond 2x2
+        maintenance: 15
+        menu: Parks
+        name: MPS Square Pond 2x2
+        pollution: -4
+        pollutionRadius: 3
+        power: 1
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        submenu: b2437003
+        water: 6
+      600d210f:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall OC
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall OC
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      62f19f55:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Seawall Linden Benches
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Linden Benches
+        pollution: -2
+        pollutionRadius: 2
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+        water: 1
+      650df300:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Bike Stand
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Bike Stand
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      650f1948:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Seawall Beech
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Beech
+        pollution: -2
+        pollutionRadius: 2
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+        water: 1
+      65225aac:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 8
+        label: MPS Market Stalls 2x1
+        maintenance: 6
+        menu: Parks
+        name: MPS Market Stalls 2x1
+        pollution: 1
+        pollutionRadius: 1
+        power: 2
+        submenu: b2437009
+        water: 6
+        waterPollution: 1
+        waterPollutionRadius: 1
+      7368c00d:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Column
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Column
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      7f64d503:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Lantern
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Lantern
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      7f6890fa:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Flowerbed Straight
+        maintenance: 2
+        menu: Parks
+        name: MPS Flowerbed Straight
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437007
+        water: 1
+      800d1d3a:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall Bare
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall Bare
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      800d20d7:
+        bulldoze: 20
+        cost: 80
+        garbage: 1
+        label: MPS Seawall Gazebo
+        maintenance: 3
+        menu: Parks
+        name: MPS Seawall Gazebo
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      852258d4:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Concrete Market Stalls 1x1 3x T
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 3x T
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      9368c013:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Vending Machines
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Vending Machines
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      9f68965c:
+        bulldoze: 20
+        cost: 80
+        garbage: 1
+        label: MPS Flowerbed Straight Benches
+        maintenance: 3
+        menu: Parks
+        name: MPS Flowerbed Straight Benches
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437007
+        water: 2
+        waterPollution: -2
+        waterPollutionRadius: 2
+      9f6de67e:
+        bulldoze: 10
+        cost: 40
+        label: MPS Tree Birch
+        maintenance: 2
+        menu: Parks
+        name: MPS Tree Birch
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437006
+        water: 1
+        waterPollution: -2
+        waterPollutionRadius: 2
+      9f6de6bc:
+        bulldoze: 10
+        cost: 40
+        label: MPS Tree Elm
+        maintenance: 2
+        menu: Parks
+        name: MPS Tree Elm
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437006
+        water: 1
+      9fb00128:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Benches
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Benches
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      9fb001d6:
+        bulldoze: 20
+        cost: 80
+        garbage: 2
+        label: MPS Square Gazebo
+        maintenance: 3
+        menu: Parks
+        name: MPS Square Gazebo
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      a00d1e8a:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Seawall Linden
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Linden
+        pollution: -2
+        pollutionRadius: 2
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+        water: 1
+      a52255f8:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Market Stalls 1x1 Large Canopy
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 Large Canopy
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      a5225647:
+        bulldoze: 50
+        cost: 100
+        garbage: 4
+        label: MPS Market Stalls 1x1 Medium Canopies
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 Medium Canopies
+        pollution: 1
+        pollutionRadius: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      bf664af5:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Diagonal Grass
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Diagonal Grass
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+      bf688f3a:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Flowerbed 1x1
+        maintenance: 2
+        menu: Parks
+        name: MPS Flowerbed 1x1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437007
+        water: 1
+      bf6de630:
+        bulldoze: 10
+        cost: 40
+        label: MPS Tree Beech
+        maintenance: 2
+        menu: Parks
+        name: MPS Tree Beech
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437006
+        water: 1
+      c00d20f6:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall IC
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall IC
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      c52254f1:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Market Stalls 1x1 2 Rows
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 2 Rows
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      c5225732:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Market Stalls 1x1 4x Corner
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 4x Corner
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      c5225d6a:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Market Stalls 1x1 Refreshment Stand
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 Refreshment Stand
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      df68907c:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Flowerbed End
+        maintenance: 2
+        menu: Parks
+        name: MPS Flowerbed End
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437007
+        water: 1
+      df689aa4:
+        bulldoze: 30
+        cost: 120
+        garbage: 1
+        label: MPS Statue 1x1 Female
+        maintenance: 10
+        menu: Parks
+        name: MPS Statue 1x1 Female
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437005
+      df6de6dc:
+        bulldoze: 10
+        cost: 40
+        label: MPS Tree Linden
+        maintenance: 2
+        menu: Parks
+        name: MPS Tree Linden
+        pollution: -2
+        pollutionRadius: 2
+        relief:
+          r$: 500
+          r$$: 500
+          r$$$: 500
+        submenu: b2437006
+        water: 1
+      e00d1e33:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Seawall Ash
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Ash
+        pollution: -2
+        pollutionRadius: 2
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+        water: 1
+      e183538b:
+        bulldoze: 25
+        cost: 100
+        garbage: 1
+        label: MPS Seawall Bridge Other Side
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Bridge Other Side
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      e50f19a8:
+        bulldoze: 15
+        cost: 60
+        garbage: 1
+        label: MPS Seawall Beech Benches
+        maintenance: 2
+        menu: Parks
+        name: MPS Seawall Beech Benches
+        pollution: -2
+        pollutionRadius: 2
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+        water: 1
+      e52034a2:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        label: MPS Seawall Underpass Right
+        maintenance: 1
+        menu: Parks
+        name: MPS Seawall Underpass Right
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437008
+      e52257cc:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Market Stalls 1x1 5x Curve
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 5x Curve
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      e5225819:
+        bulldoze: 50
+        cost: 100
+        flamability: 15
+        garbage: 4
+        label: MPS Market Stalls 1x1 5x T
+        maintenance: 3
+        menu: Parks
+        name: MPS Market Stalls 1x1 5x T
+        pollution: 1
+        pollutionRadius: 1
+        power: 1
+        submenu: b2437009
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 1
+      eee859e4:
+        bulldoze: 5
+        cost: 20
+        garbage: 1
+        label: MPS Square Toilets
+        maintenance: 1
+        menu: Parks
+        name: MPS Square Toilets
+        power: 1
+        relief:
+          r$: 250
+          r$$: 250
+          r$$$: 250
+        submenu: b2437003
+        water: 2
+      ff6b48a5:
+        bulldoze: 75
+        cost: 360
+        garbage: 3
+        label: MPS Statue 2x2 Female
+        maintenance: 25
+        menu: Parks
+        name: MPS Statue 2x2 Female
+        relief:
+          r$: 1000
+          r$$: 1000
+          r$$$: 1000
+        submenu: b2437005
+      ffb00478:
+        bulldoze: 150
+        cost: 600
+        garbage: 9
+        label: MPS Square Pond 3x3
+        maintenance: 30
+        menu: Parks
+        name: MPS Square Pond 3x3
+        pollution: -6
+        power: 3
+        relief:
+          r$: 2000
+          r$$: 2000
+          r$$$: 2000
+        submenu: b2437003
+        water: 12
+    Seawall Connection Lots.dat:
+      0014acfb:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        menu: Parks
+        name: Seawall Connection OWR
+        submenu: b2437008
+      0014ad6c:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        menu: Parks
+        name: Seawall Connection Railway
+        submenu: b2437008
+      8014ad35:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        menu: Parks
+        name: Seawall Connection Avenue
+        submenu: b2437008
+      a014ad06:
+        bulldoze: 10
+        cost: 40
+        garbage: 1
+        menu: Parks
+        name: Seawall Connection Road
+        submenu: b2437008
+  categories: parks
+  dependencies:
+    - 11241036/lot-foundations-and-retaining-walls
+    - 11241036/textures
+    - bsc/common-dependencies
+    - buddybud/jeronij-concrete-wall-addon-stairs
+    - girafe/flora-pack
+    - maxis/maxis-buildings-as-props
+    - murimk/props-vol01
+    - murimk/props-vol02
+    - peterycristi/sfbt-props
+    - porkissimo/jenx-porkie-expanded-props
+    - robdragon/props-vol01
+    - sfbt/essentials
+    - wmp/the-bridges-of-shoreline-county
+  description: |-
+    There are some plaza plugins out there on the STEX, even a few modular ones, but with this set, I'm aiming at creating a fully comprehensive modular system of plazas which
+
+    - have a variety of different functions,
+    - are easy to combine,
+    - and allow adjustment of textures.
+
+    This plugin contains a good number of modular lots that will allow you to create your custom plaza, sidewalk, or seawall. Fountains, ponds, benches, seawalls, market stalls, trees - nearly everything is available, I'll leave it to your experimenting pleasure to find out. Most of them are purely decorational (while having park and landmark effect), only the market stalls will yield a bit money. All lots have been designed in a way that they are rather simple, thereby being able to be combined with each other easily. All lots can be found in the park menu, just below the default Maxis parks.
+
+    By default, all lots will use the standard Maxis white pavement texture, however, I've included some texture override files that will allow you to customize this plugin in a way that all lots will change their textures. Mainly included are textures fitting with the PedMall puzzle pieces from the NAM, but since I've seen many users using plugins that override the PedMall textures, I've also included a few extra overrides.
+
+    Note: There has been a last-minute change to this plugin that isn't reflected in the screenshots above: I had to remove all the people lurking around on the lots because their immense amount looked horrible, and I couldn't find a way to randomize their appearance.
+
+    Please make sure to read the included readme carefully, since you can't just install this plugin and play - due to the texture overrides, you need to customize it first.
+
+    **Available languages:** English, German
+
+    **Submenu Compatibility:**
+
+    **This plugin has been optimized for usage with memo's Submenus DLL plugin.** This means that users that are using it will find the MPS lots in their own submenu, which is further divided into 7 submenus (see below). Users not using the Submenus DLL mod will simply find the MPS lots in the park menu, somewhere in the center. Please read the installation instructions below to avoid problems like missing lot icons. The submenu button looks like this (only one out of the four circles is visible at a time):
+
+    ![666224d80ace3_2MPS.thumb.png.1106483e888](https://www.simtropolis.com/objects/screens/monthly_2024_06/666224d80ace3_2MPS.thumb.png.1106483e88801e2a09412d3345ecee42.png)
+
+    **Included Files:**
+
+    **MPS Core Files.dat** (mandatory): Contains all lots for the Modular Plaza System, along with their descriptions and icons.
+
+    **Seawall Connection Lots.dat** (optional): 4 lots that can be used on slopes to connect ground traffic routes to the overpass puzzle pieces from the NAM and thereby blending them in with the seawall system you get with this download. You can, of course, as well do this with the NAM's default hillside transition pieces, but they won't fit into the seawalls, visually.
+
+    **z_(Name).dat** (all optional): A total of 12 additional files that you can choose form that will override your existing MPS lots to give them different base textures. Keep only one of them, or just remove them all if you want to play with the base Maxis white pavement texture (see installation instructions below).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f877e6bff2_MPSFlowerbeds.jpg.5889083c3a2281192f06e8fe9c33264b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878469e0f_MPSMarketStalls.jpg.92bf5fafa666103aea84553130a8a82b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f87856a0c5_MPSPlazas.jpg.10aa5cd7a833d3381d452d8361df1178.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8789df844_MPSSeawalls.jpg.976ebdcb8c4ed5cd2989a70d6b591d00.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878c7eb98_MPSSquares.jpg.ae8a5bd6bcdbb9a29c431d524c5d47f0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878d61b0b_MPSStatues.jpg.aad4b752d61f7076b9414063f86b41fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f878e5682f_MPSTrees.jpg.f0065d2827f9ca245b936235ce0d178c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8790c8b18_SeawallConnectionLots.jpg.98b8e5096e6d35b0430ee739654cfc1b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666221d7475d9_MPSSquares2.jpg.461eb175d27c232dbeb39ff56351adeb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_06/666224ce84643_2MPS.png.997e8a240e19873333f98d98b00afdf1.png
+  lots:
+    MPS Core Files.dat:
+      0183527c:
+        building: 0183527c
+        name: MPS Seawall Bridge
+        size: 1x1
+      02f2eb7a:
+        building: 02f2eb7a
+        name: MPS Seawall Stairs
+        size: 1x1
+      052253c2:
+        building: 052253c2
+        name: MPS Market Stalls 2x2 Market Hall
+        size: 2x2
+      1f6de657:
+        building: 1f6de657
+        name: MPS Tree Ash
+        size: 1x1
+      1f6de6a0:
+        building: 1f6de6a0
+        name: MPS Tree Common Spruce
+        size: 1x1
+      1fb001b0:
+        building: 1fb001b0
+        name: MPS Square Tables
+        size: 1x1
+      20067f8b:
+        building: 20067f8b
+        name: MPS Flowerbed 2x2
+        size: 2x2
+      252034b6:
+        building: 252034b6
+        name: MPS Seawall Underpass Left
+        size: 1x1
+      3f689579:
+        building: 3f689579
+        name: MPS Flowerbed Straight Tree
+        size: 1x1
+      3f689b8e:
+        building: 3f689b8e
+        name: MPS Statue 1x1 Male
+        size: 1x1
+      3f6cbc0c:
+        building: 3f6cbc0c
+        name: MPS Plaza 3x3
+        size: 3x3
+      3fb002ee:
+        building: 3fb002ee
+        name: MPS Square Pond 1x1
+        size: 1x1
+      40082c31:
+        building: 40082c31
+        name: MPS Square Fountain 2x2
+        size: 2x2
+      42f19f4f:
+        building: 42f19f4f
+        name: MPS Seawall Ash Benches
+        size: 1x1
+      5368c021:
+        building: 5368c021
+        name: MPS Square Phone Booths
+        size: 1x1
+      5f5d185d:
+        building: 5f5d185d
+        name: MPS Square Bare
+        size: 1x1
+      5f689864:
+        building: 5f689864
+        name: MPS Square Fountain 1x1
+        size: 1x1
+      5f6b50fb:
+        building: 5f6b50fb
+        name: MPS Statue 2x2 Male
+        size: 2x2
+      5f6cbbff:
+        building: 5f6cbbff
+        name: MPS Plaza 1x1
+        size: 1x1
+      5f6cbc1b:
+        building: 5f6cbc1b
+        name: MPS Plaza 2x2
+        size: 2x2
+      5fb00304:
+        building: 5fb00304
+        name: MPS Square Pond 2x2
+        size: 2x2
+      600d210f:
+        building: 600d210f
+        name: MPS Seawall OC
+        size: 1x1
+      62f19f55:
+        building: 62f19f55
+        name: MPS Seawall Linden Benches
+        size: 1x1
+      650df300:
+        building: 650df300
+        name: MPS Square Bike Stand
+        size: 1x1
+      650f1948:
+        building: 650f1948
+        name: MPS Seawall Beech
+        size: 1x1
+      65225aac:
+        building: 65225aac
+        name: MPS Market Stalls 2x1
+        size: 2x1
+      7368c00d:
+        building: 7368c00d
+        name: MPS Square Column
+        size: 1x1
+      7f64d503:
+        building: 7f64d503
+        name: MPS Square Lantern
+        size: 1x1
+      7f6890fa:
+        building: 7f6890fa
+        name: MPS Flowerbed Straight
+        size: 1x1
+      800d1d3a:
+        building: 800d1d3a
+        name: MPS Seawall Bare
+        size: 1x1
+      800d20d7:
+        building: 800d20d7
+        name: MPS Seawall Gazebo
+        size: 1x1
+      852258d4:
+        building: 852258d4
+        name: MPS Market Stalls 1x1 3x T
+        size: 1x1
+      9368c013:
+        building: 9368c013
+        name: MPS Square Vending Machines
+        size: 1x1
+      9f68965c:
+        building: 9f68965c
+        name: MPS Flowerbed Straight Benches
+        size: 1x1
+      9f6de67e:
+        building: 9f6de67e
+        name: MPS Tree Birch
+        size: 1x1
+      9f6de6bc:
+        building: 9f6de6bc
+        name: MPS Tree Elm
+        size: 1x1
+      9fb00128:
+        building: 9fb00128
+        name: MPS Square Benches
+        size: 1x1
+      9fb001d6:
+        building: 9fb001d6
+        name: MPS Square Gazebo
+        size: 1x1
+      a00d1e8a:
+        building: a00d1e8a
+        name: MPS Seawall Linden
+        size: 1x1
+      a52255f8:
+        building: a52255f8
+        name: MPS Market Stalls 1x1 Large Canopy
+        size: 1x1
+      a5225647:
+        building: a5225647
+        name: MPS Market Stalls 1x1 Medium Canopies
+        size: 1x1
+      bf664af5:
+        building: bf664af5
+        name: MPS Square Diagonal Grass
+        size: 1x1
+      bf688f3a:
+        building: bf688f3a
+        name: MPS Flowerbed 1x1
+        size: 1x1
+      bf6de630:
+        building: bf6de630
+        name: MPS Tree Beech
+        size: 1x1
+      c00d20f6:
+        building: c00d20f6
+        name: MPS Seawall IC
+        size: 1x1
+      c52254f1:
+        building: c52254f1
+        name: MPS Market Stalls 1x1 2 Rows
+        size: 1x1
+      c5225732:
+        building: c5225732
+        name: MPS Market Stalls 1x1 4x Corner
+        size: 1x1
+      c5225d6a:
+        building: c5225d6a
+        name: MPS Market Stalls 1x1 Refreshment Stand
+        size: 1x1
+      df68907c:
+        building: df68907c
+        name: MPS Flowerbed End
+        size: 1x1
+      df689aa4:
+        building: df689aa4
+        name: MPS Statue 1x1 Female
+        size: 1x1
+      df6de6dc:
+        building: df6de6dc
+        name: MPS Tree Linden
+        size: 1x1
+      e00d1e33:
+        building: e00d1e33
+        name: MPS Seawall Ash
+        size: 1x1
+      e183538b:
+        building: e183538b
+        name: MPS Seawall Bridge Other Side
+        size: 1x1
+      e50f19a8:
+        building: e50f19a8
+        name: MPS Seawall Beech Benches
+        size: 1x1
+      e52034a2:
+        building: e52034a2
+        name: MPS Seawall Underpass Right
+        size: 1x1
+      e52257cc:
+        building: e52257cc
+        name: MPS Market Stalls 1x1 5x Curve
+        size: 1x1
+      e5225819:
+        building: e5225819
+        name: MPS Market Stalls 1x1 5x T
+        size: 1x1
+      eee859e4:
+        building: eee859e4
+        name: MPS Square Toilets
+        size: 1x1
+      ff6b48a5:
+        building: ff6b48a5
+        name: MPS Statue 2x2 Female
+        size: 2x2
+      ffb00478:
+        building: ffb00478
+        name: MPS Square Pond 3x3
+        size: 3x3
+    Seawall Connection Lots.dat:
+      0014acfb:
+        building: 0014acfb
+        name: Seawall Connection OWR
+        size: 1x1
+      0014ad6c:
+        building: 0014ad6c
+        name: Seawall Connection Railway
+        size: 1x1
+      8014ad35:
+        building: 8014ad35
+        name: Seawall Connection Avenue
+        size: 2x1
+      a014ad06:
+        building: a014ad06
+        name: Seawall Connection Road
+        size: 1x1
+  name: Modular Plaza System (MPS)
+  optional:
+    - memo/submenus-dll
+    - rebalynnts/spot
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/581f8de46d837_MPSSquares.thumb.jpg.2db4e542d7f6ea55d7423ccac7b1a1fb.jpg
+  url: https://community.simtropolis.com/files/file/31351-modular-plaza-system-mps/
+  variants:
+    bsc-cobblestone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_BSC Mediterranean Red Cobblestone.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:03.981Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_BSC Mediterranean Red Cobblestone.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.470Z
+      version: 2.0.0
+    bsc-diagonal-brick:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_BSC Diagonal Brick.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:03.960Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_BSC Diagonal Brick.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.530Z
+      version: 2.0.0
+    bsc-pink-pavement:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_BSC Pink Pavement.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.009Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_BSC Pink Pavement.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.423Z
+      version: 2.0.0
+    default:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:03.914Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      release: 2024-12-17T16:13:39.404Z
+      requirements:
+        nam: true
+      version: 2.0.0
+    maxis-concrete:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_Maxis Concrete.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.064Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_Maxis Concrete.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.364Z
+      version: 2.0.0
+    mtp-sandstone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_MTP Red Sandstone.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      dependencies:
+        - pegasus/mtp-super-pack
+      lastGenerated: 2024-12-18T11:53:04.031Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_MTP Red Sandstone.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.316Z
+      version: 2.0.0
+    nam-cobblestone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_NAM Cobblestone.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.095Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_NAM Cobblestone.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.257Z
+      version: 2.0.0
+    nam-industrial:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_NAM Industrial.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.120Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_NAM Industrial.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:53.013Z
+      version: 2.0.0
+    nam-pink-pavement:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_NAM Pink Pavement.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.146Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_NAM Pink Pavement.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:52.868Z
+      version: 2.0.0
+    nam-red-brick:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_NAM Red Brick.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.176Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_NAM Red Brick.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:52.796Z
+      version: 2.0.0
+    nam-sandstone:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_NAM Sandstone.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      lastGenerated: 2024-12-18T11:53:04.201Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_NAM Sandstone.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:52.707Z
+      version: 2.0.0
+    vortext-cobblestone-1:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_Vortexture Cobblestone 1.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      dependencies:
+        - vortext/textures-vol01
+        - vortext/textures-vol02
+      lastGenerated: 2024-12-18T11:53:04.227Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_Vortexture Cobblestone 1.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:52.608Z
+      version: 2.0.0
+    vortext-cobblestone-2:
+      assets:
+        - docs:
+            - Readme Files
+          id: simtropolis/31351-modular-plaza-system-mps
+          include:
+            - z_Vortexture Cobblestone 2.dat
+            - MPS Core Files.dat
+            - Seawall Connection Lots.dat:
+                condition:
+                  seawall-connection-lots: true
+            - MPS_Submenu Park.dat:
+                condition:
+                  submenu: parks
+                  submenus: true
+            - MPS_Submenu Plazas.dat:
+                condition:
+                  submenu: plazas
+                  submenus: true
+      dependencies:
+        - vortext/textures-vol01
+        - vortext/textures-vol02
+      lastGenerated: 2024-12-18T11:53:04.245Z
+      lastModified: 2024-06-06T21:06:29.000Z
+      lots:
+        z_Vortexture Cobblestone 2.dat:
+          0183527c:
+            building: 0183527c
+            name: MPS Seawall Bridge
+            size: 1x1
+          02f2eb7a:
+            building: 02f2eb7a
+            name: MPS Seawall Stairs
+            size: 1x1
+          052253c2:
+            building: 052253c2
+            name: MPS Market Stalls 2x2 Market Hall
+            size: 2x2
+          1f6de657:
+            building: 1f6de657
+            name: MPS Tree Ash
+            size: 1x1
+          1f6de6a0:
+            building: 1f6de6a0
+            name: MPS Tree Common Spruce
+            size: 1x1
+          1fb001b0:
+            building: 1fb001b0
+            name: MPS Square Tables
+            size: 1x1
+          20067f8b:
+            building: 20067f8b
+            name: MPS Flowerbed 2x2
+            size: 2x2
+          252034b6:
+            building: 252034b6
+            name: MPS Seawall Underpass Left
+            size: 1x1
+          3f689579:
+            building: 3f689579
+            name: MPS Flowerbed Straight Tree
+            size: 1x1
+          3f689b8e:
+            building: 3f689b8e
+            name: MPS Statue 1x1 Male
+            size: 1x1
+          3f6cbc0c:
+            building: 3f6cbc0c
+            name: MPS Plaza 3x3
+            size: 3x3
+          3fb002ee:
+            building: 3fb002ee
+            name: MPS Square Pond 1x1
+            size: 1x1
+          40082c31:
+            building: 40082c31
+            name: MPS Square Fountain 2x2
+            size: 2x2
+          42f19f4f:
+            building: 42f19f4f
+            name: MPS Seawall Ash Benches
+            size: 1x1
+          5368c021:
+            building: 5368c021
+            name: MPS Square Phone Booths
+            size: 1x1
+          5f5d185d:
+            building: 5f5d185d
+            name: MPS Square Bare
+            size: 1x1
+          5f689864:
+            building: 5f689864
+            name: MPS Square Fountain 1x1
+            size: 1x1
+          5f6b50fb:
+            building: 5f6b50fb
+            name: MPS Statue 2x2 Male
+            size: 2x2
+          5f6cbbff:
+            building: 5f6cbbff
+            name: MPS Plaza 1x1
+            size: 1x1
+          5f6cbc1b:
+            building: 5f6cbc1b
+            name: MPS Plaza 2x2
+            size: 2x2
+          5fb00304:
+            building: 5fb00304
+            name: MPS Square Pond 2x2
+            size: 2x2
+          600d210f:
+            building: 600d210f
+            name: MPS Seawall OC
+            size: 1x1
+          62f19f55:
+            building: 62f19f55
+            name: MPS Seawall Linden Benches
+            size: 1x1
+          650df300:
+            building: 650df300
+            name: MPS Square Bike Stand
+            size: 1x1
+          650f1948:
+            building: 650f1948
+            name: MPS Seawall Beech
+            size: 1x1
+          65225aac:
+            building: 65225aac
+            name: MPS Market Stalls 2x1
+            size: 2x1
+          7368c00d:
+            building: 7368c00d
+            name: MPS Square Column
+            size: 1x1
+          7f64d503:
+            building: 7f64d503
+            name: MPS Square Lantern
+            size: 1x1
+          7f6890fa:
+            building: 7f6890fa
+            name: MPS Flowerbed Straight
+            size: 1x1
+          800d1d3a:
+            building: 800d1d3a
+            name: MPS Seawall Bare
+            size: 1x1
+          800d20d7:
+            building: 800d20d7
+            name: MPS Seawall Gazebo
+            size: 1x1
+          852258d4:
+            building: 852258d4
+            name: MPS Market Stalls 1x1 3x T
+            size: 1x1
+          9368c013:
+            building: 9368c013
+            name: MPS Square Vending Machines
+            size: 1x1
+          9f68965c:
+            building: 9f68965c
+            name: MPS Flowerbed Straight Benches
+            size: 1x1
+          9f6de67e:
+            building: 9f6de67e
+            name: MPS Tree Birch
+            size: 1x1
+          9f6de6bc:
+            building: 9f6de6bc
+            name: MPS Tree Elm
+            size: 1x1
+          9fb00128:
+            building: 9fb00128
+            name: MPS Square Benches
+            size: 1x1
+          9fb001d6:
+            building: 9fb001d6
+            name: MPS Square Gazebo
+            size: 1x1
+          a00d1e8a:
+            building: a00d1e8a
+            name: MPS Seawall Linden
+            size: 1x1
+          a52255f8:
+            building: a52255f8
+            name: MPS Market Stalls 1x1 Large Canopy
+            size: 1x1
+          a5225647:
+            building: a5225647
+            name: MPS Market Stalls 1x1 Medium Canopies
+            size: 1x1
+          bf664af5:
+            building: bf664af5
+            name: MPS Square Diagonal Grass
+            size: 1x1
+          bf688f3a:
+            building: bf688f3a
+            name: MPS Flowerbed 1x1
+            size: 1x1
+          bf6de630:
+            building: bf6de630
+            name: MPS Tree Beech
+            size: 1x1
+          c00d20f6:
+            building: c00d20f6
+            name: MPS Seawall IC
+            size: 1x1
+          c52254f1:
+            building: c52254f1
+            name: MPS Market Stalls 1x1 2 Rows
+            size: 1x1
+          c5225732:
+            building: c5225732
+            name: MPS Market Stalls 1x1 4x Corner
+            size: 1x1
+          c5225d6a:
+            building: c5225d6a
+            name: MPS Market Stalls 1x1 Refreshment Stand
+            size: 1x1
+          df68907c:
+            building: df68907c
+            name: MPS Flowerbed End
+            size: 1x1
+          df689aa4:
+            building: df689aa4
+            name: MPS Statue 1x1 Female
+            size: 1x1
+          df6de6dc:
+            building: df6de6dc
+            name: MPS Tree Linden
+            size: 1x1
+          e00d1e33:
+            building: e00d1e33
+            name: MPS Seawall Ash
+            size: 1x1
+          e183538b:
+            building: e183538b
+            name: MPS Seawall Bridge Other Side
+            size: 1x1
+          e50f19a8:
+            building: e50f19a8
+            name: MPS Seawall Beech Benches
+            size: 1x1
+          e52034a2:
+            building: e52034a2
+            name: MPS Seawall Underpass Right
+            size: 1x1
+          e52257cc:
+            building: e52257cc
+            name: MPS Market Stalls 1x1 5x Curve
+            size: 1x1
+          e5225819:
+            building: e5225819
+            name: MPS Market Stalls 1x1 5x T
+            size: 1x1
+          eee859e4:
+            building: eee859e4
+            name: MPS Square Toilets
+            size: 1x1
+          ff6b48a5:
+            building: ff6b48a5
+            name: MPS Statue 2x2 Female
+            size: 2x2
+          ffb00478:
+            building: ffb00478
+            name: MPS Square Pond 3x3
+            size: 3x3
+      release: 2024-12-18T09:40:52.356Z
+      version: 2.0.0
+
 11241036/seasonal-woods:
   categories: parks,flora
   credits:
@@ -1657,8 +6283,8 @@
     - chrisadams3997/rrp-pasture-flora
     - cycledogg/mega-props-vol01
     - cycledogg/mega-props-vol02
-    - maxis/stonehenge
     - girafe/flora-pack
+    - maxis/stonehenge
     - pegasus/spam-super-resource-pack
     - pegasus/terrain-kit
     - sfbt/essentials
@@ -2059,3 +6685,1208 @@
       name: Evergreen
       release: 2024-12-03T18:15:19.663Z
       version: 1.0.0
+
+11241036/textures:
+  categories: textures
+  description: |-
+    This dependency package contains a set of textures derived from Maxis, BSC Textures Vol 1 and 2, and Pegasus' MTP for your lotting pleasure. The tables in this archive list all of them along with their respective Instance ID's. The graphics should speak for themselves. Some of them are cropped overlay textures, intended to give you more possibilities while creating new lots. The farm field textures are derived from Maxis, with two additional textures that have been slightly recolored. There are also new asphalt path (derived from Maxis textures) and gravel path (derived from Pegasus) textures (the texture table will be uploaded soon).
+
+    This package also contains a few extra textures which are required for a few of my past uploads. All of them are derived from either NAM or Maxis.
+
+    **Credits:**
+
+    I'm hereby giving special credit to those people creating the base textures serving as templates for these overlay textures in the first place:
+
+    - **Maxis:** all textures from F85D4005-F85D43AA; all textures from F85C40B0-F85C40CA
+    - **The NAM team:** F85C405A
+    - **All BSC people** (unfortunately, I don't know who exactly created these textures): all textures from F85D4405-F85D45AA. SC4D Encyclopedia link: https://wiki.sc4devotion.com/index.php?title=BSC
+    - **Pegasus:** all textures from F85D4605-F85D47AA
+
+    The uploading has been kindly permitted by [@xxdita](https://community.simtropolis.com/profile/13826-xxdita/) (in case of the BSC Textures) and [@CorinaMarie](https://community.simtropolis.com/profile/737259-corinamarie/) (on behalf of Pegasus).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.png.294c9a02a2559972a86b080dafc0bfe9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/Table2.png.a4248fa0552c5df23d90e55c0e6ba5e4.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_08/Table3.png.62618248dd7b0489b3d8133acd11ea6a.png
+  name: 11241036 Textures
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/Table1.thumb.png.7ea0b4211bfe832221bcc4f84252afbf.png
+  url: https://community.simtropolis.com/files/file/33651-11241036-textures/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33651-11241036-textures
+      lastGenerated: 2024-12-17T16:13:39.595Z
+      lastModified: 2024-08-20T21:56:22.000Z
+      release: 2024-12-17T16:13:39.574Z
+      textures:
+        11241036 Textures.dat:
+          - f85c405a
+          - f85c40b0
+          - f85c40c0
+          - f85c40c5
+          - f85c40ca
+          - f85d4005
+          - f85d400a
+          - f85d4010
+          - f85d4015
+          - f85d401a
+          - f85d4020
+          - f85d4025
+          - f85d402a
+          - f85d4030
+          - f85d4035
+          - f85d403a
+          - f85d4040
+          - f85d4045
+          - f85d404a
+          - f85d4050
+          - f85d4055
+          - f85d405a
+          - f85d4060
+          - f85d4085
+          - f85d408a
+          - f85d4090
+          - f85d4095
+          - f85d409a
+          - f85d40a5
+          - f85d40aa
+          - f85d40b0
+          - f85d40b5
+          - f85d40ba
+          - f85d40c0
+          - f85d40c5
+          - f85d40ca
+          - f85d40d0
+          - f85d40d5
+          - f85d40da
+          - f85d40e0
+          - f85d4105
+          - f85d410a
+          - f85d4110
+          - f85d4115
+          - f85d411a
+          - f85d4125
+          - f85d412a
+          - f85d4130
+          - f85d4135
+          - f85d413a
+          - f85d4140
+          - f85d4145
+          - f85d414a
+          - f85d4150
+          - f85d4155
+          - f85d415a
+          - f85d4160
+          - f85d4185
+          - f85d418a
+          - f85d4190
+          - f85d4195
+          - f85d419a
+          - f85d41a5
+          - f85d41aa
+          - f85d41b0
+          - f85d41b5
+          - f85d41ba
+          - f85d41c0
+          - f85d41c5
+          - f85d41ca
+          - f85d41d0
+          - f85d41d5
+          - f85d41da
+          - f85d41e0
+          - f85d4205
+          - f85d420a
+          - f85d4210
+          - f85d4215
+          - f85d421a
+          - f85d4225
+          - f85d422a
+          - f85d4230
+          - f85d4235
+          - f85d423a
+          - f85d4240
+          - f85d4245
+          - f85d424a
+          - f85d4250
+          - f85d4255
+          - f85d425a
+          - f85d4260
+          - f85d4285
+          - f85d428a
+          - f85d4290
+          - f85d4295
+          - f85d429a
+          - f85d42a0
+          - f85d42a5
+          - f85d42aa
+          - f85d42b0
+          - f85d42b5
+          - f85d42ba
+          - f85d42c0
+          - f85d42c5
+          - f85d42ca
+          - f85d42d0
+          - f85d42d5
+          - f85d42da
+          - f85d42e0
+          - f85d4305
+          - f85d430a
+          - f85d4310
+          - f85d4315
+          - f85d431a
+          - f85d4320
+          - f85d4325
+          - f85d432a
+          - f85d4330
+          - f85d4335
+          - f85d433a
+          - f85d4340
+          - f85d4345
+          - f85d434a
+          - f85d4350
+          - f85d4355
+          - f85d435a
+          - f85d4360
+          - f85d4385
+          - f85d438a
+          - f85d4390
+          - f85d43a5
+          - f85d43aa
+          - f85d43b5
+          - f85d43ba
+          - f85d43c0
+          - f85d43d0
+          - f85d43d5
+          - f85d43da
+          - f85d4405
+          - f85d4410
+          - f85d4420
+          - f85d4425
+          - f85d442a
+          - f85d4430
+          - f85d4435
+          - f85d443a
+          - f85d4440
+          - f85d4445
+          - f85d444a
+          - f85d4450
+          - f85d4455
+          - f85d445a
+          - f85d4460
+          - f85d4495
+          - f85d449a
+          - f85d44a0
+          - f85d44b0
+          - f85d44b5
+          - f85d44ba
+          - f85d44c0
+          - f85d44c5
+          - f85d44ca
+          - f85d44d0
+          - f85d44d5
+          - f85d44da
+          - f85d44e0
+          - f85d4500
+          - f85d4505
+          - f85d450a
+          - f85d4510
+          - f85d4515
+          - f85d451a
+          - f85d4520
+          - f85d4525
+          - f85d452a
+          - f85d4530
+          - f85d4535
+          - f85d453a
+          - f85d4540
+          - f85d4545
+          - f85d454a
+          - f85d4550
+          - f85d4555
+          - f85d455a
+          - f85d4560
+          - f85d4585
+          - f85d458a
+          - f85d4590
+          - f85d45a5
+          - f85d45aa
+          - f85d45b5
+          - f85d45ba
+          - f85d45c0
+          - f85d45d0
+          - f85d45d5
+          - f85d45da
+          - f85d4605
+          - f85d460a
+          - f85d4610
+          - f85d4615
+          - f85d461a
+          - f85d4620
+          - f85d4625
+          - f85d462a
+          - f85d4630
+          - f85d4635
+          - f85d463a
+          - f85d4640
+          - f85d4645
+          - f85d464a
+          - f85d4650
+          - f85d4655
+          - f85d465a
+          - f85d4660
+          - f85d4685
+          - f85d468a
+          - f85d4690
+          - f85d46a5
+          - f85d46aa
+          - f85d46b5
+          - f85d46ba
+          - f85d46c0
+          - f85d46d0
+          - f85d46d5
+          - f85d46da
+          - f85d4705
+          - f85d470a
+          - f85d4710
+          - f85d4715
+          - f85d471a
+          - f85d4720
+          - f85d4725
+          - f85d472a
+          - f85d4730
+          - f85d4735
+          - f85d473a
+          - f85d4740
+          - f85d4745
+          - f85d474a
+          - f85d4750
+          - f85d4755
+          - f85d475a
+          - f85d4760
+          - f85d4780
+          - f85d4785
+          - f85d478a
+          - f85d4790
+          - f85d4795
+          - f85d479a
+          - f85d47a0
+          - f85d47a5
+          - f85d47aa
+          - f85d47b0
+          - f85d47b5
+          - f85d47ba
+          - f85d47c0
+          - f85d47c5
+          - f85d47ca
+          - f85d47d0
+          - f85d47d5
+          - f85d47da
+          - f85d47e0
+          - f85d4805
+          - f85d480a
+          - f85d4810
+          - f85d4815
+          - f85d481a
+          - f85d4820
+          - f85d4825
+          - f85d482a
+          - f85d4830
+          - f85d4835
+          - f85d483a
+          - f85d4840
+          - f85d4845
+          - f85d484a
+          - f85d4850
+          - f85d4855
+          - f85d485a
+          - f85d4860
+          - f85d4885
+          - f85d488a
+          - f85d4890
+          - f85d4895
+          - f85d489a
+          - f85d48a0
+          - f85d48a5
+          - f85d48aa
+          - f85d48b0
+          - f85d48b5
+          - f85d48ba
+          - f85d48c0
+          - f85d48c5
+          - f85d48ca
+          - f85d48d0
+          - f85d48d5
+          - f85d48da
+          - f85d48e0
+          - f85d5005
+          - f85d500a
+          - f85d5010
+          - f85d5015
+          - f85d501a
+          - f85d5020
+          - f85d502a
+          - f85d5030
+          - f85d5035
+          - f85d503a
+          - f85d5040
+          - f85d5045
+          - f85d5085
+          - f85d508a
+          - f85d5090
+          - f85d5095
+          - f85d509a
+          - f85d50a0
+          - f85d50a5
+          - f85d50aa
+          - f85d50b0
+          - f85d50b5
+          - f85d50ba
+          - f85d5100
+          - f85d5105
+          - f85d510a
+          - f85d5110
+          - f85d5115
+          - f85d511a
+          - f85d5120
+          - f85d512a
+          - f85d5130
+          - f85d5135
+          - f85d513a
+          - f85d5140
+          - f85d5145
+          - f85d5180
+          - f85d5185
+          - f85d518a
+          - f85d5190
+          - f85d5195
+          - f85d519a
+          - f85d51a0
+          - f85d51a5
+          - f85d51aa
+          - f85d51b0
+          - f85d51b5
+          - f85d51ba
+          - f85d5220
+          - f85d522a
+          - f85d5230
+          - f85d5235
+          - f85d523a
+          - f85d5240
+          - f85d5245
+          - f85d6000
+          - f85d6005
+          - f85d600a
+          - f85d6010
+          - f85d6015
+          - f85d601a
+          - f85d6020
+          - f85d6025
+          - f85d602a
+          - f85d6030
+          - f85d6035
+          - f85d603a
+          - f85d6040
+          - f85d6045
+          - f85d604a
+          - f85d6050
+          - f85d6055
+          - f85d605a
+          - f85d6060
+          - f85d6065
+          - f85d6080
+          - f85d6085
+          - f85d608a
+          - f85d6090
+          - f85d6095
+          - f85d609a
+          - f85d60a0
+          - f85d60a5
+          - f85d60aa
+          - f85d60b0
+          - f85d60b5
+          - f85d60ba
+          - f85d60c0
+          - f85d60c5
+          - f85d60ca
+          - f85d60d0
+          - f85d60d5
+          - f85d60da
+          - f85d60e0
+          - f85d60e5
+          - f85d60ea
+          - f85d60f0
+          - f85d60f5
+      version: 4.0.0
+
+11241036/traffic-blocker-set:
+  categories: tram
+  dependencies:
+    - 11241036/textures
+    - mgb204/texture-pack
+    - sfbt/essentials
+    - simmaster07/sc4fix
+  description: |-
+    This is a set of car, freight car, and bus traffic blockers for default maxis, SAM, GLR, and RHW routes. They will block one kind of traffic while allowing the other kinds of traffic and pedestrians to pass. This may be useful for creating bus lines, simply reducing traffic, preventing cars from taking a shortcut through settlements, keeping freight cars away from residential zones and so on. Traffic blockers for roads, one-way roads, avenues, side roads, and railway are already existing on the STEX, but not for SAM and RHW routes, so I thought they might be useful.
+
+    I've tried to keep them as inconspicuous as possible (so not to disrupt the look of your city); therefore the screenshots won't be spectacular. The screenshot below shows a small city where buses and pedestrians are taking the SAM 2 Herringbone Street to get to work, while cars are forced to take a detour.
+
+    There are traffic blockers for the subsequently mentioned traffic routes:
+
+    - Maxis routes: road, street, avenue, one-way road
+    - SAM streets: 2-11
+    - RHW routes: RHW\-2, RHW\-4, RHW\-6, RHW\-8, RHW\-10, MIS
+    - GLR: Tram-on-Road (only with concrete pavement in the center), Tram-on-Avenue, Tram-on-Street
+
+    For further information, please refer to the readme in the download.
+
+    **Currently available languages:** English, German
+
+    **Note, if you have versions prior to version 3 installed:** Please remove it before installing the new plugin. You don't need to bulldoze your already existing traffic stops, and nothing will change in-game. However, to tidy up this plugin, I've reorganized the files and packed them into one big file. You'll have them twice if you simply copy this plugin into your plugin folder.
+
+    **Extra note:** For people using my Cobblestone Street Override mod, I've added the extra file *z_TBS SAM 8 Override.dat*, which will alter the base texture to a cobblestone texture. Remove this file if you don't want this (see screenshots).
+
+    **Credits:**
+
+    - The Network Addon Mod Team for the textures of the routes
+    - odrzutowiec for the idea of introducing the GLR traffic blockers
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_01_2014/b3e889c444c37b6950f9e07339bc5a74-test.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.jpg.a8c450b3ad3b1e88d97fc958a1b09d5c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e973f57ccea8_SAM8Override.jpg.17789009f252e4cb6c02b97e783e5c2a.jpg
+  name: Traffic Blocker Set
+  options:
+    - default: false
+      id: sam-8
+      label: SAM8
+      section: Overrides
+      type: boolean
+  requirements:
+    nam: true
+  support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_04/Screenshot.thumb.jpg.9f733a5faa40abbd3b6c478754e3a153.jpg
+  url: https://community.simtropolis.com/files/file/28975-traffic-blocker-set/
+  variants:
+    default:
+      assets:
+        - docs:
+            - STEX
+          id: simtropolis/28975-traffic-blocker-set
+          include:
+            - STEX
+            - z_TBS SAM 8 Override.dat:
+                condition:
+                  sam-8: true
+      buildings:
+        Traffic Blocker Set.dat:
+          1f4259aa:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 3 Pegasus Dirt Road C
+            submenu: MiscTransit/Tram
+          1f425adc:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 8 Cobblestone Street C
+            submenu: MiscTransit/Tram
+          1f426486:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker MIS B
+            submenu: MiscTransit/Tram
+          1f4264c4:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-4 B
+            submenu: MiscTransit/Tram
+          1f426533:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 4 Gravel Road B
+            submenu: MiscTransit/Tram
+          1f426564:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 9 Red Brick Street B
+            submenu: MiscTransit/Tram
+          1f426572:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Street F
+            submenu: MiscTransit/Tram
+          1f5deabc:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 10 Japanese Street C
+            submenu: MiscTransit/Tram
+          33e447a3:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 11 Industrial Street C
+            submenu: MiscTransit/Tram
+          3f42584f:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker MIS F
+            submenu: MiscTransit/Tram
+          3f425898:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker OneWay C
+            submenu: MiscTransit/Tram
+          3f425a81:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 7 Asphalt Street C
+            submenu: MiscTransit/Tram
+          3f425bf4:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-8 F
+            submenu: MiscTransit/Tram
+          3f4264bb:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-2 B
+            submenu: MiscTransit/Tram
+          3f4264e5:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 2 Herringbone Street B
+            submenu: MiscTransit/Tram
+          3f4264f4:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 3 Pegasus Dirt Road B
+            submenu: MiscTransit/Tram
+          3f5deaa4:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 6 Klinker Street C
+            submenu: MiscTransit/Tram
+          5f425912:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-4 F
+            submenu: MiscTransit/Tram
+          5f4259dd:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 4 Gravel Road C
+            submenu: MiscTransit/Tram
+          5f425a18:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 5 Trolca Dirt Road C
+            submenu: MiscTransit/Tram
+          5f425c06:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-10 F
+            submenu: MiscTransit/Tram
+          5f4264de:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Road F
+            submenu: MiscTransit/Tram
+          5f426549:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 7 Asphalt Street B
+            submenu: MiscTransit/Tram
+          5f426558:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 8 Cobblestone Street B
+            submenu: MiscTransit/Tram
+          5f42656f:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Street B
+            submenu: MiscTransit/Tram
+          5f578575:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonAvenue F
+            submenu: MiscTransit/Tram
+          5f5785b8:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonStreet B
+            submenu: MiscTransit/Tram
+          '62663833':
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 11 Industrial Street F
+            submenu: MiscTransit/Tram
+          7f4257f0:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Avenue C
+            submenu: MiscTransit/Tram
+          7f426473:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Avenue B
+            submenu: MiscTransit/Tram
+          7f4264a7:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker OneWay F
+            submenu: MiscTransit/Tram
+          7f4264b1:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-10 B
+            submenu: MiscTransit/Tram
+          7f4264f8:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 3 Pegasus Dirt Road F
+            submenu: MiscTransit/Tram
+          7f42654c:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 7 Asphalt Street F
+            submenu: MiscTransit/Tram
+          7f42770a:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-6 B
+            submenu: MiscTransit/Tram
+          9f425b51:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Street C
+            submenu: MiscTransit/Tram
+          9f426477:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Avenue F
+            submenu: MiscTransit/Tram
+          9f5785c0:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonStreet F
+            submenu: MiscTransit/Tram
+          9f5dea93:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 10 Japanese Street B
+            submenu: MiscTransit/Tram
+          9f5deae1:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 10 Japanese Street F
+            submenu: MiscTransit/Tram
+          bf425983:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 2 Herringbone Street C
+            submenu: MiscTransit/Tram
+          bf42653d:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 5 Trolca Dirt Road B
+            submenu: MiscTransit/Tram
+          bf578569:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonAvenue B
+            submenu: MiscTransit/Tram
+          bf5dead6:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 6 Klinker Street F
+            submenu: MiscTransit/Tram
+          df4258d8:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-2 F
+            submenu: MiscTransit/Tram
+          df425947:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Road C
+            submenu: MiscTransit/Tram
+          df4264a4:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker OneWay B
+            submenu: MiscTransit/Tram
+          df4264d3:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-8 B
+            submenu: MiscTransit/Tram
+          df4264e9:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 2 Herringbone Street F
+            submenu: MiscTransit/Tram
+          df426537:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 4 Gravel Road F
+            submenu: MiscTransit/Tram
+          df426568:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 9 Red Brick Street F
+            submenu: MiscTransit/Tram
+          df578534:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonRoad B
+            submenu: MiscTransit/Tram
+          df578541:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonRoad F
+            submenu: MiscTransit/Tram
+          df5785bc:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonStreet C
+            submenu: MiscTransit/Tram
+          df5dea7e:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 6 Klinker Street B
+            submenu: MiscTransit/Tram
+          e0ed19ba:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 11 Industrial Street B
+            submenu: MiscTransit/Tram
+          ff425af2:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 9 Red Brick Street C
+            submenu: MiscTransit/Tram
+          ff4264da:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker Road B
+            submenu: MiscTransit/Tram
+          ff426541:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 5 Trolca Dirt Road F
+            submenu: MiscTransit/Tram
+          ff42655b:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker SAM 8 Cobblestone Street F
+            submenu: MiscTransit/Tram
+          ff42770f:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker RHW-6 F
+            submenu: MiscTransit/Tram
+          ff57853d:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonRoad C
+            submenu: MiscTransit/Tram
+          ff578571:
+            bulldoze: 5
+            categories: tram
+            cost: 10
+            menu: MiscTransit
+            name: Traffic Blocker TramonAvenue C
+            submenu: MiscTransit/Tram
+      lastGenerated: 2024-12-18T09:40:53.580Z
+      lastModified: 2020-06-16T21:29:20.000Z
+      lots:
+        Traffic Blocker Set.dat:
+          1f4259aa:
+            building: 1f4259aa
+            name: Traffic Blocker SAM 3 Pegasus Dirt Road C
+            size: 1x1
+          1f425adc:
+            building: 1f425adc
+            name: Traffic Blocker SAM 8 Cobblestone Street C
+            size: 1x1
+          1f426486:
+            building: 1f426486
+            name: Traffic Blocker MIS B
+            size: 1x1
+          1f4264c4:
+            building: 1f4264c4
+            name: Traffic Blocker RHW-4 B
+            size: 1x1
+          1f426533:
+            building: 1f426533
+            name: Traffic Blocker SAM 4 Gravel Road B
+            size: 1x1
+          1f426564:
+            building: 1f426564
+            name: Traffic Blocker SAM 9 Red Brick Street B
+            size: 1x1
+          1f426572:
+            building: 1f426572
+            name: Traffic Blocker Street F
+            size: 1x1
+          1f5deabc:
+            building: 1f5deabc
+            name: Traffic Blocker SAM 10 Japanese Street C
+            size: 1x1
+          33e447a3:
+            building: 33e447a3
+            name: Traffic Blocker SAM 11 Industrial Street C
+            size: 1x1
+          3f42584f:
+            building: 3f42584f
+            name: Traffic Blocker MIS F
+            size: 1x1
+          3f425898:
+            building: 3f425898
+            name: Traffic Blocker OneWay C
+            size: 1x1
+          3f425a81:
+            building: 3f425a81
+            name: Traffic Blocker SAM 7 Asphalt Street C
+            size: 1x1
+          3f425bf4:
+            building: 3f425bf4
+            name: Traffic Blocker RHW-8 F
+            size: 2x1
+          3f4264bb:
+            building: 3f4264bb
+            name: Traffic Blocker RHW-2 B
+            size: 1x1
+          3f4264e5:
+            building: 3f4264e5
+            name: Traffic Blocker SAM 2 Herringbone Street B
+            size: 1x1
+          3f4264f4:
+            building: 3f4264f4
+            name: Traffic Blocker SAM 3 Pegasus Dirt Road B
+            size: 1x1
+          3f5deaa4:
+            building: 3f5deaa4
+            name: Traffic Blocker SAM 6 Klinker Street C
+            size: 1x1
+          5f425912:
+            building: 5f425912
+            name: Traffic Blocker RHW-4 F
+            size: 1x1
+          5f4259dd:
+            building: 5f4259dd
+            name: Traffic Blocker SAM 4 Gravel Road C
+            size: 1x1
+          5f425a18:
+            building: 5f425a18
+            name: Traffic Blocker SAM 5 Trolca Dirt Road C
+            size: 1x1
+          5f425c06:
+            building: 5f425c06
+            name: Traffic Blocker RHW-10 F
+            size: 2x1
+          5f4264de:
+            building: 5f4264de
+            name: Traffic Blocker Road F
+            size: 1x1
+          5f426549:
+            building: 5f426549
+            name: Traffic Blocker SAM 7 Asphalt Street B
+            size: 1x1
+          5f426558:
+            building: 5f426558
+            name: Traffic Blocker SAM 8 Cobblestone Street B
+            size: 1x1
+          5f42656f:
+            building: 5f42656f
+            name: Traffic Blocker Street B
+            size: 1x1
+          5f578575:
+            building: 5f578575
+            name: Traffic Blocker TramonAvenue F
+            size: 2x1
+          5f5785b8:
+            building: 5f5785b8
+            name: Traffic Blocker TramonStreet B
+            size: 1x1
+          '62663833':
+            building: '62663833'
+            name: Traffic Blocker SAM 11 Industrial Street F
+            size: 1x1
+          7f4257f0:
+            building: 7f4257f0
+            name: Traffic Blocker Avenue C
+            size: 2x1
+          7f426473:
+            building: 7f426473
+            name: Traffic Blocker Avenue B
+            size: 2x1
+          7f4264a7:
+            building: 7f4264a7
+            name: Traffic Blocker OneWay F
+            size: 1x1
+          7f4264b1:
+            building: 7f4264b1
+            name: Traffic Blocker RHW-10 B
+            size: 2x1
+          7f4264f8:
+            building: 7f4264f8
+            name: Traffic Blocker SAM 3 Pegasus Dirt Road F
+            size: 1x1
+          7f42654c:
+            building: 7f42654c
+            name: Traffic Blocker SAM 7 Asphalt Street F
+            size: 1x1
+          7f42770a:
+            building: 7f42770a
+            name: Traffic Blocker RHW-6 B
+            size: 2x1
+          9f425b51:
+            building: 9f425b51
+            name: Traffic Blocker Street C
+            size: 1x1
+          9f426477:
+            building: 9f426477
+            name: Traffic Blocker Avenue F
+            size: 2x1
+          9f5785c0:
+            building: 9f5785c0
+            name: Traffic Blocker TramonStreet F
+            size: 1x1
+          9f5dea93:
+            building: 9f5dea93
+            name: Traffic Blocker SAM 10 Japanese Street B
+            size: 1x1
+          9f5deae1:
+            building: 9f5deae1
+            name: Traffic Blocker SAM 10 Japanese Street F
+            size: 1x1
+          bf425983:
+            building: bf425983
+            name: Traffic Blocker SAM 2 Herringbone Street C
+            size: 1x1
+          bf42653d:
+            building: bf42653d
+            name: Traffic Blocker SAM 5 Trolca Dirt Road B
+            size: 1x1
+          bf578569:
+            building: bf578569
+            name: Traffic Blocker TramonAvenue B
+            size: 2x1
+          bf5dead6:
+            building: bf5dead6
+            name: Traffic Blocker SAM 6 Klinker Street F
+            size: 1x1
+          df4258d8:
+            building: df4258d8
+            name: Traffic Blocker RHW-2 F
+            size: 1x1
+          df425947:
+            building: df425947
+            name: Traffic Blocker Road C
+            size: 1x1
+          df4264a4:
+            building: df4264a4
+            name: Traffic Blocker OneWay B
+            size: 1x1
+          df4264d3:
+            building: df4264d3
+            name: Traffic Blocker RHW-8 B
+            size: 2x1
+          df4264e9:
+            building: df4264e9
+            name: Traffic Blocker SAM 2 Herringbone Street F
+            size: 1x1
+          df426537:
+            building: df426537
+            name: Traffic Blocker SAM 4 Gravel Road F
+            size: 1x1
+          df426568:
+            building: df426568
+            name: Traffic Blocker SAM 9 Red Brick Street F
+            size: 1x1
+          df578534:
+            building: df578534
+            name: Traffic Blocker TramonRoad B
+            size: 1x1
+          df578541:
+            building: df578541
+            name: Traffic Blocker TramonRoad F
+            size: 1x1
+          df5785bc:
+            building: df5785bc
+            name: Traffic Blocker TramonStreet C
+            size: 1x1
+          df5dea7e:
+            building: df5dea7e
+            name: Traffic Blocker SAM 6 Klinker Street B
+            size: 1x1
+          e0ed19ba:
+            building: e0ed19ba
+            name: Traffic Blocker SAM 11 Industrial Street B
+            size: 1x1
+          ff425af2:
+            building: ff425af2
+            name: Traffic Blocker SAM 9 Red Brick Street C
+            size: 1x1
+          ff4264da:
+            building: ff4264da
+            name: Traffic Blocker Road B
+            size: 1x1
+          ff426541:
+            building: ff426541
+            name: Traffic Blocker SAM 5 Trolca Dirt Road F
+            size: 1x1
+          ff42655b:
+            building: ff42655b
+            name: Traffic Blocker SAM 8 Cobblestone Street F
+            size: 1x1
+          ff42770f:
+            building: ff42770f
+            name: Traffic Blocker RHW-6 F
+            size: 2x1
+          ff57853d:
+            building: ff57853d
+            name: Traffic Blocker TramonRoad C
+            size: 1x1
+          ff578571:
+            building: ff578571
+            name: Traffic Blocker TramonAvenue C
+            size: 2x1
+        z_TBS SAM 8 Override.dat:
+          1f425adc:
+            building: 1f425adc
+            name: Traffic Blocker SAM 8 Cobblestone Street C
+            size: 1x1
+          5f426558:
+            building: 5f426558
+            name: Traffic Blocker SAM 8 Cobblestone Street B
+            size: 1x1
+          ff42655b:
+            building: ff42655b
+            name: Traffic Blocker SAM 8 Cobblestone Street F
+            size: 1x1
+      release: 2024-12-17T16:13:39.506Z
+      version: 3.0.0

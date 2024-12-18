@@ -1,0 +1,355 @@
+porkissimo/jenx-porkie-expanded-props:
+  categories: props
+  description: |-
+    This **JENX-Porkie Expanded Porkie Props** is completely replacing the following contents:
+
+    - PorkieProps-Vol1.dat
+
+    - PorkieProps-Vol2.dat
+
+    - JENXPARIS_Tweaked_PorkieProps-Vol1.dat
+
+    It contains props/models (mostly offset props) from several Porkissimo uploads like Paramounth Opera, Rue Meyerbeer, Large Police Department, also it contains the props based on the Porkie Props vol01 models from the JENXPARIS_Prop_Pack_Vol02.dat.
+
+    Xannepan's note on the revisited JENXPARIS_Tweaked_PorkieProps-Vol1.dat which was released with the Quais de Seine sets:
+
+    > Quote
+    >
+    > *\- The JENXPROP_Tweaked_PorkieProps-Vol1.dat replaces PorkieProps-Vol1.dat. I activated anti-aliasing on some of these props, which gives a better results. Additionally I created prop families to allow for some variation.*
+
+    Credit goes to [@Porkissimo](https://community.simtropolis.com/profile/35238-porkissimo/) for all the models and most of the props, also for Xannepan for the additional editing and props and prop families.
+
+    This compilation (and some editing) was made by Tyberius06
+
+    Since now the LEX also have this prop pack, it made only sense to update the original one here to the same version. **This version is completely backwards compatible,** it doesn't have any negative effect on existing uploads.
+
+    \*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+
+    A few props you may need to make your streets a bit more "alive". Most of them are night-enlighted, so don't forget that they must not be put across the lot limit in the LE (they would lose their nitelite in the game).
+
+    \[PK-tunnel top\] and \[PK_tunnel whole\] must be stacked exactly at the same place on your lot.
+
+    The buses only show up a few hours in the day.
+
+    The newspapers shop's appearance changes in the middle of the night.
+
+    The Christmas stuff only appears between december 15th and january 14th.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2015_07/82748b83950c2c467bb560d26d5f6707-street_props1.jpg.3661db4ff6413ac40527433e738fb38c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/PK-street_trees.jpg.39e918341e1751673eeb81dd563f58ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d425012b4c4_JENX-PorkieExpandedPorkieProps_index.png.e4a64977a684150b9b1e686cbabdb108.png
+  name: JENX-Porkie Expanded Porkie Props
+  readme: JENX-Porkie Expanded Porkie Props vol01_readme.txt
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2015_07/82748b83950c2c467bb560d26d5f6707-street_props1.thumb.jpg.8cdcdbb60097a901fb4b43ab5231906c.jpg
+  url: https://community.simtropolis.com/files/file/11421-jenx-porkie-expanded-porkie-props/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: simtropolis/11421-jenx-porkie-expanded-porkie-props
+          include:
+            - Porkissimo/Props
+      lastGenerated: 2024-12-17T17:01:33.142Z
+      lastModified: 2022-01-24T11:51:05.000Z
+      propFamilies:
+        JENX-Porkie Expanded Porkie Props.dat:
+          b5c00087:
+            name: Porkie Colonne Moriss
+          b5c00088:
+            name: Porkie buses
+          b5c00089:
+            name: Porkie Cabanons
+          b5c00090:
+            name: Porkie Lamps
+          b5c00091:
+            name: Porkie Publicity Assortment
+          b5c00092:
+            name: Porkie Drapopub
+          b5c00093:
+            name: Porkie Poubelles
+          b5c00094:
+            name: Porkie Parking Assortment
+      props:
+        JENX-Porkie Expanded Porkie Props.dat:
+          0597ce9a:
+            family: b5c00089
+            name: PK-cabanon03
+          07ecb5f9:
+            family: b5c00090
+            name: PK-lampadaire triple
+          0ed61b5e:
+            name: PK-lampadaire simple
+          0ee5b477:
+            name: PK-bench01
+          0ee61019:
+            name: PK-leaves-street
+          0ee63b05:
+            name: PK-tree01-summer
+          0ee68c23:
+            name: PK-cabanon02
+          0ee68c3b:
+            name: PK-cabanon04
+          0ef491b8:
+            name: PK-guirlande noel 03
+          0ef4af09:
+            name: PK- GUTES NEUES JAHR
+          0ef4b287:
+            name: PK- FELIZ ANO NUEVO
+          0ef4b38e:
+            name: PK- GELUKKIG NIEUWJAAR
+          0ef4b488:
+            name: PK- FELIZ ANO NOVO
+          0ef4d497:
+            name: PK- panneau P
+          10cd8c84:
+            name: PKluzglobe
+          1494fa37:
+            name: remb sud mbeerRev
+          1498d824:
+            name: cine7remb02
+          14a373d4:
+            name: mdiagfpath
+          14a39755:
+            name: meyerbeerfp
+          '18010318':
+            family: b5c00088
+            name: PK-bus02
+          1b1c83da:
+            family: b5c00092
+            name: PK-drapopub02
+          28ee26e3:
+            family: b5c00094
+            name: PK-panneau stationnement
+          2c86f3e9:
+            family: b5c00089
+            name: PK-cabanon04
+          2c94c902:
+            family: b5c00087
+            name: PK-colonne Moriss 3
+          2e7cf319:
+            family: b5c00091
+            name: PK-pub03
+          2ed614c5:
+            name: PK-tunnel TOP
+          2ee5cfda:
+            name: PK-tree01-fall
+          2ee63b93:
+            name: PK-lampadaire cloche simple
+          2ee68c0f:
+            name: PK-cabanon01
+          2ee7728c:
+            name: PK-drapopub01
+          2eed8765:
+            name: PK-chaine
+          2ef18820:
+            name: PK-portail
+          34a7c7e2:
+            name: meyerdiagremb
+          34a7dba6:
+            name: mdiaglamp
+          38f8b83c:
+            family: b5c00093
+            name: PK-poubelle verte
+          3f950bf1:
+            family: b5c00091
+            name: PK-pub01
+          4bcbc904:
+            family: b5c00091
+            name: PK-affichette01
+          4ee68c5a:
+            name: PK-cabanon03
+          4ee759db:
+            name: PK-tree04-winter
+          4ee7725a:
+            family: 5f85bb12
+            name: PK-colonne Moriss 2
+          4ee77269:
+            family: 5f85bb12
+            name: PK-colonne Moriss 3
+          4eef798e:
+            family: 5f85bb13
+            name: PK-pub01
+          4ef1fd7a:
+            name: PK-bus02
+          4ef2154f:
+            name: PK-panneau stationnement
+          54941ea5:
+            name: trottoir01reverse
+          54a7c7fc:
+            name: meyerdiagreverseremb
+          6ee63bc3:
+            name: PK-tree02-fall
+          6ee77247:
+            family: 5f85bb12
+            name: PK-colonne Moriss1
+          6eef8c8b:
+            name: PK-cabine telephonique
+          6ef30071:
+            name: PK-affichette01
+          708a9acf:
+            name: barriere
+          74a6b28f:
+            name: cine7reversemoriss
+          74a6b51c:
+            name: cine7reverseremb01
+          74a6b69f:
+            name: cine7reverseremb02
+          74a6b7c7:
+            name: cine7reversecloche
+          74a6b999:
+            name: cine7reverseclochewest
+          74a6babe:
+            name: cine7reverseclochenord
+          74a6bc8f:
+            name: cine7reverselampetriple
+          74a7dbbf:
+            name: mdiagreverselamp
+          786fe86f:
+            family: b5c00087
+            name: PK-colonne Moriss 4
+          7bbea8cf:
+            family: b5c00091
+            name: PK-pub02
+          7e27771c:
+            family: b5c00094
+            name: PK- panneau P
+          8ee63b43:
+            name: PK-tree03-summer
+          8ee63b54:
+            name: PK-tree03-fall
+          8ee759bc:
+            name: PK-tree04-summer
+          8ee77279:
+            family: 5f85bb12
+            name: PK-colonne Moriss 4
+          8ee7729b:
+            name: PK-drapopub02
+          8ee82b92:
+            name: PK-toilettes
+          8ef02ab1:
+            name: PK-poubelle verte
+          8ef3613e:
+            name: PK-panneau limitation50
+          94a2a099:
+            family: b5c00091
+            name: PK-affichette02
+          94a53883:
+            name: cine7drapopub
+          94a53bea:
+            name: cine7lampadaire triple
+          94a53e44:
+            name: cine7lampcloche
+          94a54010:
+            name: cine7lampclochenord
+          94a5415f:
+            name: cine7lampclochewest
+          983c14bb:
+            family: b5c00093
+            name: PK-poubelle grise
+          9985993f:
+            family: b5c00088
+            name: PK-bus01
+          9dcb5ed1:
+            family: b5c00094
+            name: PK-parcmetre
+          a888febd:
+            family: b5c00092
+            name: PK-drapopub01
+          aee63b1c:
+            name: PK-tree01-winter
+          aef35605:
+            name: PK-poubelle publique01
+          aef363c7:
+            name: PK-affichette02
+          aef370b0:
+            name: PK-bus03
+          aef37947:
+            name: PK-bus04
+          b48d7d57:
+            name: remb sud mbeer
+          bd76142b:
+            family: b5c00087
+            name: PK-colonne Moriss1
+          bf8626ad:
+            family: b5c00089
+            name: PK-cabanon02
+          c68106b6:
+            family: b5c00090
+            name: PK-lampadaire simple
+          cb9d1201:
+            family: b5c00089
+            name: PK-cabanon01
+          ced4d617:
+            name: PK-relais presse ouvert
+          cee63bae:
+            name: PK-tree02-winter
+          cee8d7e1:
+            name: PK-bus01
+          ceef799c:
+            family: 5f85bb13
+            name: PK-pub02
+          ceef79ac:
+            family: 5f85bb13
+            name: PK-pub03
+          cef02acc:
+            name: PK-conteneurs
+          cef41766:
+            name: PK-parcmetre
+          cef42932:
+            name: PK-boite aux lettres
+          cef434ad:
+            name: PK-guirlande noel 01
+          cff59582:
+            family: b5c00087
+            name: PK-colonne Moriss 2
+          d0ce8ddf:
+            name: frontmediatheque
+          d0ceb234:
+            name: noemie
+          d498d83c:
+            name: cine7remb01
+          d498d850:
+            name: cine7colonnemoriss
+          e66db35b:
+            family: b5c00088
+            name: PK-bus03
+          eda6b6cd:
+            family: b5c00094
+            name: PK-panneau limitation50
+          eebe9b3a:
+            name: PK-rembarde-rue
+          eed4d217:
+            name: PK-lampadaire triple
+          eed614d8:
+            name: PK-tunnel whole
+          eee63b65:
+            name: PK-tree03-winter
+          eee63bd3:
+            name: PK-tree02-summer
+          eee759ca:
+            name: PK-tree04-fall
+          eef02abf:
+            name: PK-poubelle grise
+          eef46414:
+            name: PK-guirlande noel 02
+          eef4a158:
+            name: PK-guirlande noel 04
+          eef4ac52:
+            name: PK- happy new year
+          eef4b599:
+            name: PK- FELICE ANNO NUOVO
+          ef5adbf4:
+            family: b5c00088
+            name: PK-bus04
+          ef8e4d83:
+            name: PK-lampadaire Halles
+          f414ea74:
+            family: b5c00090
+            name: PK-lampadaire cloche simple
+          f4a34248:
+            name: cine7fpath
+          f4a34d28:
+            name: cine7reversefpath
+      release: 2024-12-17T16:13:39.287Z
+      version: 1.0.0

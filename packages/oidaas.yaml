@@ -1,0 +1,492 @@
+oidaas/esa-stores:
+  categories: cs$
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - pegasus/mtp-super-pack
+  description: |-
+    This is two stores with the brand Konsum and ICA.
+
+    Stats
+
+    **Konsum Stats**
+
+    User Visible Name Key ESA konsumstorre
+
+    Bulldoze Cost 157
+
+    Wealth Low Wealth
+
+    Pollution at center Air Water Garbage Radiation
+
+    1 1 4 0
+
+    Pollution radii Air Water Garbage Radiation
+
+    5 5 0 0
+
+    Flammability 45
+
+    MaxFireStage 2
+
+    Power Consumed 1
+
+    Water Consumed 9
+
+    SFX:Query Sound 0x2a8916ab
+
+    Query exemplar GUID 0xca56783a
+
+    OccupantGroups Building: Commercial Building: CS$ Style: Houston
+
+    Occupant Size Width Height Depth 16.9117 12.7382 18.1
+
+    Occupant Types CS$
+
+    Building value 283
+
+    Capacity Satisfied CS-$ 37
+
+    **ICA Stats**
+
+    Bulldoze Cost 161
+
+    Wealth Low Wealth
+
+    Pollution at center Air Water Garbage Radiation
+
+    4 2 59 0
+
+    Pollution radii Air Water Garbage Radiation
+
+    5 5 0 0
+
+    Flammability 45
+
+    MaxFireStage 3
+
+    Power Consumed 2
+
+    Water Consumed 15
+
+    SFX:Query Sound 0x2a8916ab
+
+    Query exemplar GUID 0xca56783a
+
+    OccupantGroups Building: Commercial Building: CS$ Style: Houston
+
+    Occupant Size Width Height Depth
+
+    20.69300079 13.13000011 17.06699944
+
+    Occupant Types CS$
+
+    Building value 614
+
+    Capacity Satisfied CS-$
+
+    20
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d1087d20a6e_NewCity-Feb.20001674493442.jpg.d2eb2317644c1b3c1efefe87873438c2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d1088161583_NewCity-Feb.20001674493450.jpg.68f840e48ed07e851f42fb15e1b7e07d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2023_01/63d10883b6fc3_NewCity-Feb.20001674493459.jpg.398366ee6e32d80fc13395bc6f72bc8a.jpg
+  name: ESA Stores
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_01/63d10a906024c_NewCity-Feb.20001674493442.thumb.jpg.b05cab1b9e543a1dd58681122a5eccda.jpg
+  url: https://community.simtropolis.com/files/file/35438-esa-stores/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35438-esa-stores
+          include:
+            - ESA
+      buildings:
+        ICA/ICA lantlig/ica lantlig 1-0x6534284a-0x65b2703b-0xe5d75037.SC4Desc:
+          e5d75037:
+            bulldoze: 161
+            capacity:
+              cs$: 20
+            categories: cs$
+            flamability: 45
+            garbage: 59
+            name: ica lantlig 1
+            pollution: 4
+            pollutionRadius: 5
+            power: 2
+            water: 15
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 614
+        Konsum/ESA konsumstorre-0x6534284a-0x8d9dcdfd-0x713e00c2.SC4Desc:
+          713e00c2:
+            bulldoze: 157
+            capacity:
+              cs$: 37
+            categories: cs$
+            flamability: 45
+            garbage: 4
+            name: ESA konsum larger
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 9
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 283
+      lastGenerated: 2024-12-17T17:01:33.312Z
+      lastModified: 2023-01-25T14:26:26.000Z
+      lots:
+        ICA/ICA lantlig/CS$1_2x2icastorre_45d754bd.SC4Lot:
+          45d754bd:
+            building: e5d75037
+            density: all
+            name: CS$1_2x2icastorre
+            size: 3x2
+            stage: 1
+        ICA/ICA lantlig/CS$1_2x2icastorre_v2_85d81cde.SC4Lot:
+          85d81cde:
+            building: e5d75037
+            density: all
+            name: CS$1_2x2icastorre_v2
+            size: 2x2
+            stage: 2
+        Konsum/CS$1_2x2_ESA konsumstorre_013e0668.SC4Lot:
+          '013e0668':
+            building: 713e00c2
+            density: all
+            name: CS$1_2x2_ESA konsumstorre
+            size: 2x2
+            stage: 1
+      release: 2024-12-17T16:13:42.021Z
+      version: 2.0.0
+
+oidaas/malmberget-props-vol01:
+  categories: props
+  description: This is a prop pack containing several buildings from the Swedish town of Malmberget for your use.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_04/5e99baff699e5_lotpict.png.24428719e76b84b53c848b1e9e127eb3.png
+  name: Malmberget Props Vol01
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_04/5e99bc1542547_lotpict.thumb.png.14b1d36ab344358bcb59e19471937ed5.png
+  url: https://community.simtropolis.com/files/file/33552-malmberget-proppack-vol1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33552-malmberget-proppack-vol1
+      buildings:
+        Malmberget Props.dat:
+          6ba2666d:
+            bulldoze: 100
+            categories: landmarks
+            cost: 110000
+            description: Malmbergets disponentvilla
+            flamability: 10
+            garbage: 15
+            label: Disponentvillan
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: Disponentvillan
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+          8ba315ff:
+            bulldoze: 100
+            categories: education
+            cost: 100
+            description: ITouddargruppens konsthall
+            flamability: 10
+            jobs:
+              $: 90
+              $$: 10
+            label: Touddarvillan
+            maintenance: 3000
+            menu: Education
+            name: Malmberget Touddarvillan
+            submenu: Education/Libraries
+          cba266be:
+            bulldoze: 100
+            categories: police
+            cost: 2500
+            description: Insert ploppable description here.
+            flamability: 10
+            jobs:
+              $: 80
+              $$: 10
+            label: Vita Duvan
+            maintenance: 450
+            menu: Police
+            name: vita duvan
+            power: 1
+            powerProduction: 1
+      lastGenerated: 2024-12-17T16:13:39.847Z
+      lastModified: 2020-04-17T14:24:21.000Z
+      props:
+        Malmberget Props.dat:
+          0b90e590:
+            name: ostgotavagen 1
+          0b90e636:
+            name: Malmberget Pumpbacken 1
+          0b90e69e:
+            name: Malmberget Bolagsvagen Johannes Tp 1
+          0b90e6fb:
+            name: Malmberget Upplandsvagen 1
+          0b90e79c:
+            name: Malmberget Upplandsvagen 22
+          0b90e7a7:
+            name: Malmberget Upplandsvagen 2 FND
+          0b90e834:
+            name: Malmberget Hermelinsbacken 7
+          0b90e87a:
+            name: Malmberget Ostgotavagen 2
+          0b9131f6:
+            name: Malmberget Poutikavagen 14
+          0b9210ac:
+            name: Malmberget Jamtlandsvagen
+          0b9210f3:
+            name: Malmberget Upplandsvagen 2
+          0b9222cb:
+            name: Malmberget Jamtlandsvagen
+          0b986cf1:
+            name: Malmberget Ostgotavagen 3
+          2b90e7b1:
+            name: Malmberget Stallvagen 1
+          2b90e84c:
+            name: Malmberget Ingenjorsvillan
+          2b912e8d:
+            name: Malmberget Langaraden 3
+          2b913814:
+            name: Malmberget Poutikavagen 14
+          2b989ed8:
+            name: Stallvagen 6 FND
+          4b90e59f:
+            name: Malmberget Ringvagen 31
+          4b90e5f3:
+            name: Malmberget Upplandsvagen 3
+          4b90e612:
+            name: Malmberget Krokvagen
+          4b90e73c:
+            name: Malmberget Stallvagen
+          4b90e751:
+            name: Malmberget Furuvagen
+          4b90e793:
+            name: Malmberget Bolagsvagen Johannes
+          4b90e7c8:
+            name: Malmberget Pouitakvagen
+          4b90e7d3:
+            name: Malmberget Bolagsvagen 11
+          4b90e7ff:
+            name: Malmberget Krokvagen 8
+          4b90e80e:
+            name: Malmberget Hoijerska huset
+          4b922130:
+            name: jamtlandsvagen FND
+          4b927d46:
+            name: Malmberget Engelskavagen 27
+          4b986d93:
+            name: Malmberget Vastgotavagen
+          6b90e652:
+            name: Malmberget Selsbacken 3
+          6b90e6ab:
+            name: Malmberget Skanebacken
+          6b90e746:
+            name: Malmberget Upplandsvagen 4  FND
+          6b90e76d:
+            name: Malmberget Hermelinesbacken
+          6b90e7ba:
+            name: Malmberget Ringvagen 29
+          6b90e86e:
+            name: Malmberget Upplandsvagen 19
+          6b90f9bd:
+            name: Malmberget Bolagagen 10
+          6b927d6b:
+            name: Malmberget Engelskavagen 27 FND
+          6b986d35:
+            name: Malmberget Ostgotavagen 1
+          6ba26632:
+            name: Malmberget Disponentvillan
+          6ba315d1:
+            name: Malmberget Touddarvillan
+          6ba3452e:
+            name: Malmberget Upplandsvagen 14
+          6ba34559:
+            name: Malmberget Upplandsvagen Grund
+          6ba34577:
+            name: Malmberget Upplandsvagen 16
+          8b90e62c:
+            name: Malmberget Formansklubben
+          8b90e678:
+            name: Malmberget Stallvagen
+          8b90e68e:
+            name: Malmberget Stallvagen 10
+          8b90e718:
+            name: Malmberget Krokvagen 3
+          8b90e77c:
+            name: Malmberget Bolagsvagen
+          8b90e789:
+            name: 'Malmberget '
+          8b90e7e8:
+            name: Malmberget Stallvagen11
+          8b90e7f3:
+            name: Malmberget Bolagshotellet
+          8b90e858:
+            name: Malmberget Pouitakvagen 19
+          8b90ff44:
+            name: Malmberget Upplandsvagen 14
+          8b9222f8:
+            name: Malmberget Jamtlandsvagen 3
+          8b989ea6:
+            name: ingenjorsvillan FND
+          8ba34594:
+            name: Malmberget Upplandsvagen 20
+          ab90e5c3:
+            name: Malmberget Hojertzbacke 3
+          ab90e63f:
+            name: Malmberget Skanebacken 3
+          ab90e70a:
+            name: Malmberget Granvagen 7
+          ab90e75c:
+            name: Malmberget Bolagsvagen 18
+          ab90e7de:
+            name: Malmberget Langaraden 5
+          ab90e827:
+            name: Malmberget Langaraden 7
+          ab91384e:
+            name: Malmberget Krokvagen 9
+          ab922318:
+            name: Malmberget Jamtlandsvagen 3 fnd
+          ab927d1a:
+            name: Malmberget Granvagen 7 FND
+          ab989ebe:
+            name: Hermelinsbacken FND
+          cb90e5e8:
+            name: Malmberget Upplandsvagen 4
+          cb90e607:
+            name: Malmberget Pouitakvagen 22
+          cb90e6bc:
+            name: Malmberget Ostgotavagen 3
+          cb90e6e1:
+            name: Malmberget Upplandsvagen 1
+          cb90e81b:
+            name: Malmberget Bolagsvagen Johannes Tp 2
+          cb90e862:
+            name: Malmberget Bolagskontoret
+          cb912e7b:
+            name: Malmberget Poitakvagen 20
+          cb92110f:
+            name: Malmberget Upplandsvagen 19 FND
+          cb989eb3:
+            name: Bolagsvagen 11 FND
+          eb90e5d7:
+            name: Malmberget Stallvagen 11
+          eb90e66e:
+            name: Malmberget Hermelinsskolan
+          eb90e725:
+            name: Malmberget Skanebacken 5
+          eb9210d3:
+            name: Malmberget Jamtlandsvagen FND
+          eb92512f:
+            name: hoijerska huset fnd
+          eb986d03:
+            name: Malmberget Ostgotavagen 2
+          eb989eca:
+            name: stallvagen11 FND
+          eb989ee7:
+            name: upplandsvagen  2 alt
+      release: 2024-12-17T16:13:39.839Z
+      version: 1.0.0
+
+oidaas/malmberget-props-vol02:
+  categories: props
+  description: This is a proppack that is needed for future releases.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_01/659ad92ac6ef3_Namnls.png.54c27ec4f2db5159294ebe50c385a1ff.png
+  name: Malmberget Props Vol02
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_01/659ad984d1e63_Namnls.thumb.png.9ee047524a275f9c41b8546168476470.png
+  url: https://community.simtropolis.com/files/file/35927-malmberget-proppack-vol-2/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35927-malmberget-proppack-vol-2
+      buildings:
+        Malmberget 2.dat:
+          2b63bd11:
+            bulldoze: 106
+            capacity:
+              r$: 30
+            categories: r$
+            flamability: 45
+            garbage: 2
+            name: Granv
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 401
+      lastGenerated: 2024-12-17T16:13:42.141Z
+      lastModified: 2024-01-07T17:04:05.000Z
+      props:
+        Malmberget 2.dat:
+          0b9131f6:
+            name: Malmberget Poutikavagen 14
+          0bbf12e3:
+            name: Malmberget poutakvagen uthus
+          0bde502b:
+            name: Malmberget Haggvagen
+          2b913814:
+            name: Malmberget Poutikavagen 14
+          2ba87bf0:
+            name: uthus skanebacken 3
+          2ba87c1e:
+            name: uthus bolagsvagen 11
+          4b13ad34:
+            name: uthus johannes
+          4b13b480:
+            name: uthus johannes 2
+          4b13b48e:
+            name: uthus johannes 3
+          4bbe0f20:
+            family: 5f860026
+            name: Malmberget Bolagsvagen Johannes Tp 4
+          4bbe0f3b:
+            family: 5f860026
+            name: Malmberget Bolagsvagen Johannes Tp 3
+          6ba87c10:
+            name: Jamtlands uthus
+          6ba89657:
+            name: uthus ostgotavagen
+          6bde6e66:
+            name: Malmberget Granvagen 4
+          6bde6e83:
+            name: Malmberget Granvagen 6
+          70442b82:
+            family: 5f860026
+            name: Bolagsvagen Johannes Tp 3
+          8ba87c03:
+            name: uthus vastgota
+          8bab9210:
+            name: Malmberget Langaraden uthus
+          aba9b705:
+            name: Malmberget uthus krokvagen
+          aba9b71d:
+            name: Malmberget uthus poutak
+          abaaeb96:
+            name: Malmberget Bolagsvagen 3
+          b0442bba:
+            family: 5f860026
+            name: Bolagsvagen Johannes Tp 4
+          cba8d4dd:
+            name: Malmberget Bolagsvagen 4
+          cba9b732:
+            name: Malmberget uthus puitak 1
+          cbaae7d9:
+            name: bolagsvagen 3
+          eba9d06e:
+            name: Malmberget Bolagsvagen 6
+          ebab01b6:
+            name: Malmberget uthus Johannes
+      release: 2024-12-17T16:13:42.135Z
+      version: 1.0.0

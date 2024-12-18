@@ -1,0 +1,1489 @@
+wmp/essentials:
+  categories: dependencies
+  description: |-
+    The **WMP Essentials v1.0** is a **must have dependency pack** for all the previously released WMP custom contents by **DocRorlach**. It completely replaces the previously released wmp_dummies.dat file.
+
+    **This is a dependency package, and it doesn't contain any ploppable or growable elements.**
+
+    **DO NOT USE THIS PACK FOR YOUR OWN LOTTING PROJECTS!!!**
+
+    Since the original workingman-productions.co.uk/ website is no longer up and running, the decision has been made, that these contents of **DocRorlach**'s will be re-hosted on the main exchanges ([LEX](https://www.sc4devotion.com/csxlex/lex_main.php) and [STEX](https://community.simtropolis.com/files/category/73-workingman-productions-wmp/ "Simtropolis Exchange - Workingman Productions (WMP)")) as legacy contents on behalf of **DocRorlach**. For easier access and due to a more userfriendly approach, we put together these mega packs, which are completely replacing the previous smaller prop packs.
+
+    It is highly recommended to use the attached cleanitol file (**WMP Essentials.cleanitol.txt**) and remove all the listed contents. The best way to do it, if you use the **[BSC Cleanitol TM (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=97)** tool. Install the application (if you don't already have), run it, browse the attached \*.cleanitol.txt file and let the program remove the listed elements.
+
+    This Essential file contains following elements from the previously released WMP creations:
+
+    - \- all the previously released wmp dummies/blank model files
+    - \- all the different WMP custom queries and UIs from the prop packs, resource files and lot sets.
+    - \- all the custom made TE network paths for the WMP lots (the default paths in the WMP Essentials.dat support RHD setup)
+    - \- **Since the original Causeway set and Boardwalk set had the same custom queries, a new UI property (with new IID) has been added which gives a slightly modified text to the WMP Murimk Boardwalks. (NEW!!! WMP Essentials v1.0.1)**
+    - \- as an addition IF you use **Left-Hand Drive (LHD) setup**, you can find a LHD support file in the Documents folder. You need to place/copy that z_\__zWMP_LHD_Paths folder into the Plugins\\WMP\\Essentials\\ folder if you used the default/provided folder structue, otherwise it **MUST load after** the WMP Essentials.dat file.
+
+    *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
+
+    **Credits**:
+
+    - **DocRorlach**, the **WMP Team** for creating these original contents: custom paths, UIs, dummie model files.
+    - David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+    - xxdita and Tyberius06 (and the STEX Custodian) for putting together the mega packs and making the files available again.
+
+    **Support**:
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested [here](https://www.sc4devotion.com/forums/index.php?topic=18355.40) or in the [STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic). Best include a screen-shot illustrating the problem.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbdd9244bb2_WMPEssentials.jpg.dd3230029af5130cfe134bb921ad791f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbdd94de456_WMPEssentials01.jpg.df0e06940c1a04c18670ef3b7278b547.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbdd9685da1_WMPEssentials02.jpg.6b0cd032a598b827cbc172090d896016.jpg
+  name: WMP Essentials
+  readme: WMP Essentials v1.0.html
+  support: https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe29f27350_WMPEssentials.thumb.jpg.20e4d4ca59001a550b403f38d35ee594.jpg
+  url: https://community.simtropolis.com/files/file/33620-wmp-essentials-v101/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: simtropolis/33620-wmp-essentials-v101
+          include:
+            - WMP/Essentials
+            - condition:
+                rhd: false
+              path: _Documents/z___zWMP_LHD_Paths
+              priority: 900
+      buildings:
+        WMP Essentials.dat:
+          7b113aa4:
+            bulldoze: 100
+            cost: 100
+            description: Insert ploppable description here.
+            flamability: 10
+            label: WMP Park Dummy
+            landmark: 20
+            landmarkRadius: 5
+            maintenance: 15
+            menu: Parks
+            name: wmp_park_dummy
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+          7b17be32:
+            bulldoze: 225
+            capacity:
+              cs$: 15
+              cs$$: 25
+            categories: cs$$
+            flamability: 10
+            garbage: 15
+            garbageRadius: 10
+            name: wmp_com_servces
+            power: 25
+            water: 8
+            worth: 500
+          7b5e90fc:
+            bulldoze: 100
+            categories: subway
+            cost: 100
+            description: WMP Ferries
+            flamability: 10
+            jobs:
+              $: 95
+              $$: 5
+            label: Custom Ploppable
+            maintenance: 20
+            menu: MiscTransit
+            name: wmp_subway_dummy
+            power: 61
+            submenu: MiscTransit/Subway
+          bb191ad1:
+            bulldoze: 345
+            categories: landmarks
+            cost: 750
+            description: Insert ploppable description here.
+            flamability: 5
+            garbage: 5
+            garbageRadius: 5
+            label: Custom Ploppable
+            landmark: 10
+            landmarkRadius: 20
+            menu: Landmarks
+            name: wmp_residential_landmark
+            power: 20
+            rating: 10
+            ratingRadius: 256
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 2
+          db3c3b65:
+            bulldoze: 450
+            categories: ferry
+            cost: 985
+            description: WMP Ferry Building
+            flamability: 3
+            garbage: 4
+            garbageRadius: 6
+            jobs:
+              $: 95
+              $$: 5
+            label: WMP Ferry Building
+            maintenance: 70
+            menu: WaterTransit
+            name: wmp_ferry_bldg
+            power: 92
+            submenu: WaterTransit/Seaports
+            water: 24
+            waterPollution: 5
+            waterPollutionRadius: 6
+          fb113a6e:
+            bulldoze: 100
+            categories: landmarks
+            cost: 110000
+            description: Insert ploppable description here.
+            flamability: 10
+            garbage: 15
+            label: WMP Industrial Dummy
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            name: wmp_ind_dummy
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+          fb1a3d17:
+            bulldoze: 10
+            cost: 10
+            description: Insert ploppable description here.
+            label: Custom Ploppable
+            landmark: 5
+            landmarkRadius: 5
+            maintenance: 1
+            menu: Parks
+            name: wmp_parkpath
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+          fb4c50cf:
+            bulldoze: 190
+            capacity:
+              iht: 1
+            categories: i-m
+            flamability: 15
+            garbage: 10
+            garbageRadius: 10
+            name: wmp_ind_dummy2
+            power: 50
+            water: 10
+            waterPollution: 10
+            waterPollutionRadius: 10
+            worth: 300
+      lastGenerated: 2024-12-17T17:01:32.884Z
+      lastModified: 2020-06-15T15:26:35.000Z
+      release: 2024-12-17T16:13:39.206Z
+      version: 1.0.1
+
+wmp/mega-props-vol01:
+  categories: mods
+  description: |-
+    The **WMP Mega Props vol. 01** is the first dependency pack, which superseds many of the previously released single, individual WMP prop packs by **DocRorlach**.
+
+    **This is a dependency package, and it doesn't contain any ploppable or growable elements. Although it can be used for creating new lots with Maxis Lot Editor or PIM\-X.**
+
+    Since the original workingman-productions.co.uk/ website is no longer up and running, the decision has been made, that these contents of **DocRorlach**'s will be re-hosted on the main exchanges ([LEX](https://www.sc4devotion.com/csxlex/lex_main.php) and [STEX](https://community.simtropolis.com/files/category/73-workingman-productions-wmp/ "Simtropolis Exchange - Workingman Productions (WMP)")) as legacy contents on behalf of DocRorlach. For easier access and due to a more userfriendly approach, we put together these mega prop packs which are completely replacing the previous smaller prop packs.
+
+    It is highly recommended to use the attached cleanitol file (WMP Mega Props Vol. 01-05 cleanitol.txt) and remove all the listed contents. The best way to do it, if you use the **[BSC Cleanitol TM (v1.0)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=97)** tool. Install the application (if you don't already have), run it, browse the attached \*.cleanitol.txt file and let the program remove the listed elements.
+
+    **Also from now, these mega prop packs are required to be referenced as dependencies instead of the single prop packs.**
+
+    *For further details, please read the provided readme AND IF you still have questions, ask [@Tyberius06](https://community.simtropolis.com/profile/660284-tyberius06/)*.
+
+    **Credits**:
+
+    - DocRorlach and the WMP team for creating the models, props and the original prop packs.
+    - David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+    - xxdita and Tyberius06 (and the STEX Custodian) for putting together the mega packs and making the files available again.
+
+    **Support**:
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested [here](https://www.sc4devotion.com/forums/index.php?topic=18355.40) or in the [STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic). Best include a screen-shot illustrating the problem.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe359a69cd_WMPmegapackvol1.jpg.adcbee2b223e49ff84467e99c5366565.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe35ca8893_WMPmegapackvol1-01.jpg.e8f70cb8aaf78c2883dc6f44bfedf15f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe35f75765_WMPmegapackvol1-02.jpg.7910ff62d3d59889de451851170bd94b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe36122c50_WMPmegapackvol1-03.jpg.c19e6745b2704b16b42c17143538eee1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe36298f66_WMPmegapackvol1-04.jpg.5966e047c70509113c814dd8d07eb932.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe363f14ca_WMPmegapackvol1-05.jpg.8a4ccddb48c036b076e76e578443e5d9.jpg
+  name: WMP Mega Props Vol01 - Misc General Props
+  readme: WMP Mega Props vol. 01 - Misc General Props.html
+  support: https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_05/5ecbe377eae65_WMPmegapackvol1.thumb.jpg.f3a035f9552d649eb7ae7760ab76df81.jpg
+  url: https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: simtropolis/33621-wmp-mega-props-vol-01-misc-general-props
+          include:
+            - WMP/Props
+      lastGenerated: 2024-12-17T17:01:32.878Z
+      lastModified: 2020-05-25T15:25:45.000Z
+      props:
+        WMP Mega Props vol. 01 - Misc General Props.dat:
+          03807da9:
+            name: wmp_LightGlobe_spam
+          06ab4063:
+            name: wmp_Cone_Orange
+          144d2812:
+            name: wmp_cars_queue02-tz2 16-22
+          1abc3299:
+            name: wmp_bwalk_stairs
+          1abc32b4:
+            name: wmp_bwalk_stairs_wide
+          1acc99cf:
+            name: wmp_people_16_zanda
+          1aeb17a7:
+            name: wmp_planter_01_large
+          1aecfd6e:
+            name: wmp_people_suitcase_03_os
+          1aecfd79:
+            name: wmp_people_suitcase_03
+          1aefe928:
+            name: wmp_bollards6
+          1af0469f:
+            name: wmp_taxi02
+          1af55756:
+            name: wmp_ga_fence16_np
+          1afd2ddd:
+            name: wmp_ga_fence8_1pl
+          1afd2e24:
+            name: wmp_gardenshed_02
+          1afd2e5f:
+            name: wmp_villa_wall16s
+          1afd2ecd:
+            name: wmp_villa_wall_arch
+          1afd7f2d:
+            name: wmp_ga_gate1_small_diag
+          1afe89cd:
+            name: wmp_villa_hedge8_diag2
+          1b02434f:
+            name: wmp_cube_villa06_diag
+          1b024366:
+            name: wmp_cube_villa07_diag
+          1b0243a2:
+            name: wmp_cube_villa06
+          1b024455:
+            name: wmp_ga_gate2_big_diag_a
+          1b0405ba:
+            name: wmp_oven
+          1b06c294:
+            name: wmp_swing01
+          1b074185:
+            name: wmp_pickup06a
+          1b07418e:
+            name: wmp_pickup05a
+          1b078563:
+            name: wmp_old_lamppost2
+          1b0816b6:
+            name: wmp_cars05b_delivery_white
+          1b09001a:
+            name: wmp_slatfence4m_2p
+          1b0bef3c:
+            name: wmp_powerpole_double3
+          1b0e91f6:
+            name: wmp_bucket_rack
+          1b14aa01:
+            name: wmp_tree_04_hd
+          1b14d2d1:
+            name: wmp_simpleFance2m_Gate
+          1b1c7b94:
+            name: wmp_sp_oc
+          1b1dc158:
+            name: wmp_pool07
+          1b1dc191:
+            name: wmp_villa_hedge8_A
+          1b1dc1a0:
+            name: wmp_lattice_w_16mG
+          1b1e2807:
+            name: wmp_deckchair2
+          1b1e28a1:
+            name: wmp_cooler2
+          1b1f5630:
+            name: wmp_picket_16m_entry
+          1b1f9ac5:
+            name: wmp_market03
+          1b20f62a:
+            name: wmp_planter_10
+          1b20f64c:
+            name: wmp_arbor03
+          1b23b972:
+            name: wmp_ga_lamppostB
+          1b2518f5:
+            name: wmp_pickup08_hd
+          1b2602b0:
+            name: wmp_pickup04_hd
+          1b260300:
+            name: wmp_van01_hd
+          1b26630d:
+            name: wmp_log03
+          1b2f6290:
+            name: wmp_oldwall_gate8
+          1b3cb381:
+            name: wmp_recycling_corner
+          1b4c28e6:
+            name: wmp_cars_queue09
+          1bec6579:
+            name: wmp_cars_parked05
+          1bee6454:
+            name: wmp_villa_gate2
+          1beffd81:
+            name: wmp_cars_queue01
+          1beffd8f:
+            name: wmp_cars_queue02
+          1bf000ec:
+            name: wmp_cars_parked08_rdock_parking02
+          1bf6c60f:
+            name: wmp_cars_parked07_rdock_parking01-tz 9-15
+          1d14a2e7:
+            name: wmp_woodfence_16m2p
+          1d14a352:
+            name: wmp_woodfence_16m1p
+          1d185f10:
+            name: wmp_spam_vet_kennel02
+          1d185f20:
+            name: wmp_spam_vet_horse
+          1d187c7a:
+            name: wmp_spam_vet_saddles
+          1d188133:
+            name: wmp_woodfence_16m_gate2
+          1d1dbfe4:
+            name: wmp_spam_fencewall_16m
+          1d1eecad:
+            name: wmp_spam_lampost_diag
+          1d4e7cae:
+            name: wmp_hydrant_ruralDock
+          1d786ba4:
+            name: wmp_cone_ethanol_orange_cone2
+          34148b91:
+            name: wmp_Globe_Light
+          350dda10:
+            name: WMP_Streetlight1xdiagonal_WMP
+          3abdb4cd:
+            name: wmp_bwalk_fence8_90_blend
+          3ac5b50a:
+            name: wmp_modern_wall16
+          3addf9a9:
+            name: wmp_prop_clock01
+          3ae04c32:
+            name: wmp_pickup01
+          3ae0849b:
+            name: wmp_cars03_suv_orange_angled
+          3ae084a6:
+            name: wmp_cars01_suv_blue
+          3ae2e6f6:
+            name: wmp_lampost06_diag
+          3ae958d7:
+            name: wmp_pbench_diag
+          3aec73e0:
+            name: wmp_bau_container
+          3aefe90c:
+            name: wmp_bollards2
+          3af019d9:
+            name: wmp_people_sit
+          3af0468e:
+            name: wmp_taxi03
+          3af12053:
+            name: wmp_sw_fence_oc
+          3af1208f:
+            name: wmp_sw_fence16
+          3af120a0:
+            name: wmp_sw_fence16_ban
+          3af55700:
+            name: wmp_cellmast
+          3af82626:
+            name: wmp_arbor01
+          3afa943e:
+            name: wmp_playpen
+          3afd2cbb:
+            name: wmp_arbor02
+          3afd2d2b:
+            name: wmp_powerpole_end
+          3afd2d3f:
+            name: wmp_compost
+          3afd2d7c:
+            name: wmp_ga_gate2_big_open
+          3afd2e37:
+            name: wmp_cellmast_tall
+          3afd2ec0:
+            name: wmp_villa_wall8
+          3afe8999:
+            name: wmp_villa_hedge_sc1
+          3aff6208:
+            name: wmp_villa_hedge16g
+          3b02438e:
+            name: wmp_cube_villa07
+          3b0244bf:
+            name: wmp_ga_fence_post
+          3b038234:
+            name: wmp_clubhouse
+          3b0382ef:
+            name: wmp_pool05
+          3b0531f5:
+            name: wmp_dumpster02
+          3b06c2a6:
+            name: wmp_pbench21_oc
+          3b06c2b9:
+            name: wmp_bench_wood02
+          3b078572:
+            name: wmp_old_lamppost
+          3b08cacb:
+            name: wmp_slatfence8m
+          3b08fffe:
+            name: wmp_slatfence2m
+          3b138de6:
+            name: wmp_barrow03
+          3b13d6d7:
+            name: wmp_singlepole_house
+          3b191b6b:
+            name: wmp_market01
+          3b191bab:
+            name: wmp_market02
+          3b1a21f6:
+            name: wmp_ivyfence_16m_gate
+          3b1a229a:
+            name: wmp_simpleFence2m
+          3b1bb7a2:
+            name: wmp_gardenshed_07
+          3b1c7b2b:
+            name: wmp_flowerbin
+          3b1dc165:
+            name: wmp_lattice_w_4m
+          3b1e2922:
+            name: wmp_picket_8m1pr
+          3b1f55ff:
+            name: wmp_gardenshed_12
+          3b1f9ab5:
+            name: wmp_market04
+          3b23a45e:
+            name: wmp_swing03
+          3b261318:
+            name: wmp_caravan2
+          3b263c50:
+            name: wmp_gardenshed_08
+          3b2662e0:
+            name: wmp_ivyfence_8m_gate
+          3b27858a:
+            name: wmp_pickup09_hd
+          3b347804:
+            name: wmp_bollards16_chain
+          3b3cb313:
+            name: wmp_newskiosk
+          3b3e1d77:
+            name: wmp_tollbooth
+          3b4c47fb:
+            name: wmp_sbarrier3
+          3b4c7acb:
+            name: wmp_cars_parked03-tz 10-17
+          3b74d06c:
+            name: wmp_lampost10_hd
+          3b74d07d:
+            name: wmp_lampost11_hd
+          3b85eb45:
+            name: wmp_billboard01_rdock
+          3b865799:
+            name: wmp_cars_parked08_rdock_parking02-tz 13-22
+          3b8729f4:
+            name: wmp_cars_parked09_rdock_parking03-tz 11-18
+          3bb56a60:
+            name: wmp_ad_lamppost01
+          3bb9464f:
+            name: wmp_ad_rembard
+          3bcec43c:
+            name: wmp_powerpole_railyard
+          3bec656f:
+            name: wmp_cars_parked03
+          3d14a2ca:
+            name: wmp_woodfence_16m_gate
+          3d185f46:
+            name: wmp_cars_parked06_vet_parking
+          3d189dfe:
+            name: wmp_spam_vet_streetlight
+          3d1eec91:
+            name: wmp_spam_vehicle02_truck
+          3d576cfb:
+            name: wmp_spam_vehicle03_vw_bus_02
+          4e0daf5c:
+            name: wmp_cone_ethanol_orange_cone3
+          4fbdc124:
+            name: wmp_LightGlobe_ruralDock
+          561a4066:
+            name: wmp_causeway_hedge
+          5abb9069:
+            name: wmp_bwalk_fence8m
+          5abba2d8:
+            name: wmp_bwalk_fence6m
+          5abdad82:
+            name: wmp_bwalk_fence16m_90_blend
+          5abe097e:
+            name: wmp_bwalk_boatpass2
+          5ac5b520:
+            name: wmp_modern_wall8
+          5aceebbc:
+            name: wmp_pine_01
+          5ae04c10:
+            name: wmp_trailer01
+          5ae04c1c:
+            name: wmp_people_09
+          5aeb1742:
+            name: wmp_planter_02_square
+          5af5571d:
+            name: wmp_ga_fence8_oc
+          5af55767:
+            name: wmp_ga_fence16_1pl
+          5af82612:
+            name: wmp_pool01
+          5afa9412:
+            name: wmp_gardenshed_01
+          5afb9060:
+            name: wmp_villa_gate
+          5afd2d4f:
+            name: wmp_barrow02
+          5afd2e10:
+            name: wmp_pool02
+          5afdb076:
+            name: wmp_lattice_b_16mG
+          5afdb098:
+            name: wmp_lattice_b_8m
+          5afe8a08:
+            name: wmp_villa_hedge8
+          5aff6238:
+            name: wmp_villa_hedge16b
+          5aff624c:
+            name: wmp_villa_hedge16s
+          5aff6257:
+            name: wmp_villa_hedge8_oc4
+          5b024483:
+            name: wmp_bins01
+          5b0244a8:
+            name: wmp_villa_wall_chute
+          5b03826b:
+            name: wmp_ga_gate1_small_closed
+          5b0405de:
+            name: wmp_ga_gate2_big_closed
+          5b078555:
+            name: wmp_old_lamppost3
+          5b07cb6b:
+            name: wmp_powerpole_street
+          5b08ca88:
+            name: wmp_slatfence_gate
+          5b08cabe:
+            name: wmp_slatfence16m
+          5b0bef23:
+            name: wmp_powerpole_ic
+          5b113b22:
+            name: wmp_bucket_rack2
+          5b13f05b:
+            name: wmp_ivyfence_8m_a
+          5b14a9e8:
+            name: wmp_planter_04_hd
+          5b191c26:
+            name: wmp_people_mowerman
+          5b1a223e:
+            name: wmp_ivyfence_8m
+          5b1a227d:
+            name: wmp_simpleFence6m_Gate
+          5b1a2335:
+            name: wmp_simpleFence16m
+          5b1bb745:
+            name: wmp_gardenshed_01b
+          5b1c7b15:
+            name: wmp_planter_04
+          5b1c7b51:
+            name: wmp_sp_tee
+          5b1c7bbe:
+            name: wmp_sp_exit_l
+          5b1dc1bd:
+            name: wmp_sp_cross
+          5b1e27d3:
+            name: wmp_vw_bus
+          5b1e2932:
+            name: wmp_picket_8m1pl
+          5b1e4831:
+            name: wmp_garden_water2
+          5b20f632:
+            name: wmp_planter_09
+          5b20f66b:
+            name: wmp_cars07_motorcycle_orange_hd
+          5b2518d8:
+            name: wmp_log01
+          5b2617a2:
+            name: wmp_log02
+          5b26d9c1:
+            name: wmp_cars11_old_red_hd
+          5b2f620d:
+            name: wmp_oldwall_oc8m
+          5b3477df:
+            name: wmp_bollards4_chain
+          5b497c32:
+            name: wmp_cars_queue04
+          5b4c47b0:
+            name: wmp_sbarrier2
+          5b4c7aea:
+            name: wmp_cars_parked01
+          5b5e6764:
+            name: wmp_parking_lamp02
+          5bb56a9b:
+            name: wmp_ad_fence8m
+          5bee5898:
+            name: wmp_transformer3
+          5bee5ba6:
+            name: wmp_gardenshed_03
+          5bee5f0b:
+            name: wmp_sw_post
+          5c3e242f:
+            name: wmp_transformer
+          5d14a305:
+            name: wmp_woodfence_8m1p
+          5d14a310:
+            name: wmp_woodfence_8m2p_ivy
+          5d185f2a:
+            name: wmp_spam_vet_horse_pen
+          5d185f37:
+            name: wmp_trailer02_spam_vet_horse_trailer
+          5d187c8d:
+            name: wmp_spam_vet_haybale
+          5d1dbff3:
+            name: wmp_spam_fencewall_8m2
+          5d33a433:
+            name: wmp_spam_busstop02
+          5d576ce4:
+            name: wmp_spam_dumpster01
+          5d576d0c:
+            name: wmp_spam_vehicle05_pickup02
+          5ede26cc:
+            name: wmp_LightGlobe_Cv2
+          6108d75c:
+            name: wmp_causeway_fence_post
+          74cc01dc:
+            name: WMP_Streetlight1xStreetlight_WMP
+          79f1736a:
+            name: WMP_Streetlight1Offset
+          7abb9034:
+            name: wmp_bwalk_fence4m_rail
+          7abba300:
+            name: wmp_bwalk_fence16m_v1
+          7abc52f1:
+            name: wmp_lampost04
+          7abc5b39:
+            name: wmp_bwalk_sign3
+          7ac5b53f:
+            name: wmp_modern_wallGate
+          7addfac6:
+            name: wmp_people_15
+          7aeb1969:
+            name: wmp_dumpster01
+          7aecfd9f:
+            name: wmp_people_suitcase_01
+          7af046aa:
+            name: wmp_cctv01
+          7af1206e:
+            name: wmp_sw_fence4
+          7af55742:
+            name: wmp_ga_fence8_1p
+          7af8265e:
+            name: wmp_cellmast_prop
+          7afd2dce:
+            name: wmp_ga_fence8_1pl_diag
+          7afdb068:
+            name: wmp_lattice_b_8mG
+          7b0405c6:
+            name: wmp_cube_villa09
+          7b0531e7:
+            name: wmp_bbq01
+          7b0663f6:
+            name: wmp_pool06
+          7b06c2c7:
+            name: wmp_bench_wood01
+          7b074196:
+            name: wmp_stray_sign2
+          7b0816a2:
+            name: wmp_pickup03a
+          7b0816aa:
+            name: wmp_pickup01a
+          7b08ca95:
+            name: wmp_slatfence_OC
+          7b08caa5:
+            name: wmp_slatfence4m
+          7b0bef30:
+            name: wmp_powerpole_triple
+          7b0c9c60:
+            name: wmp_wirefence_oc
+          7b138d8e:
+            name: wmp_lampost08_hd_diag
+          7b14a9f4:
+            name: wmp_tree_06
+          7b14aa14:
+            name: wmp_tree_05_hd
+          7b14d2df:
+            name: wmp_simpleFence12m
+          7b189fda:
+            name: wmp_bwalk_straight8m__murimk
+          7b191c03:
+            name: wmp_cooler
+          7b1a22a8:
+            name: wmp_simpleFence6mP1
+          7b1bb75e:
+            name: wmp_gardenshed_05
+          7b1e2883:
+            name: wmp_planter_04a_hd
+          7b1e2891:
+            name: wmp_umbrella
+          7b1e293f:
+            name: wmp_picket_8m2p
+          7b1e294c:
+            name: wmp_villa_hedge2_A
+          7b20f61e:
+            name: wmp_deckchair4
+          7b2fa1d1:
+            name: wmp_lampost09_hd
+          7b3e1d6a:
+            name: wmp_schranke
+          7b44ba23:
+            name: wmp_pmeter
+          7b497bf8:
+            name: wmp_cars_queue02-tz1 8-13
+          7b4c7ac0:
+            name: wmp_cars_parked04
+          7b4d9757:
+            name: wmp_cars_queue12
+          7b76b508:
+            name: wmp_old_lamppost5
+          7bb56ab4:
+            name: wmp_ad_busstop
+          7bee589d:
+            name: wmp_water_supply
+          7bee6179:
+            name: wmp_transformer2
+          7beffd9d:
+            name: wmp_cars_queue03
+          7d14a2f7:
+            name: wmp_woodfence_4m2p
+          7d1dbfff:
+            name: wmp_spam_fencewall_16m2
+          7d228980:
+            name: wmp_spam_watermill01
+          7d609fa6:
+            name: wmp_spam_horse_man
+          7d609fe2:
+            name: wmp_spam_horse_wagon
+          887ed085:
+            name: wmp_Cone_White
+          8c95120e:
+            name: wmp_bwalk_ic__murimk
+          8d7a894b:
+            name: wmp_cone_ethanol_orange_cone
+          8d8d8736:
+            name: wmp_cars_queue01-tz2 16-19
+          9209b009:
+            name: wmp_cars_queue03-tz2 16-24
+          93e80ca5:
+            name: wmp_LightGlobe_B
+          94ed0174:
+            name: wmp_cone_ethanol_white_cone2
+          9790d3c6:
+            name: wmp_LightGlobe_Cv1
+          993d9239:
+            name: wmp_LightGlobe_A
+          9ae08558:
+            name: wmp_cars02_white
+          9aeb19d5:
+            name: wmp_newsstand
+          9aecfd82:
+            name: wmp_people_suitcase_02
+          9af10300:
+            name: wmp_planter_03x
+          9af1030a:
+            name: wmp_planter_05x
+          9af82642:
+            name: wmp_ga_fence4_1pl
+          9afd2d0c:
+            name: wmp_powerpole_double
+          9afd2d5c:
+            name: wmp_barrow01
+          9afd2dbe:
+            name: wmp_ga_fence8_1pl_diag2
+          9afd2e75:
+            name: wmp_villa_wall16
+          9afd7f3c:
+            name: wmp_cars05_delivery_white
+          9b03829d:
+            name: wmp_garages01
+          9b066407:
+            name: wmp_powerpole_corner
+          9b078581:
+            name: wmp_atm01
+          9b08f366:
+            name: wmp_old_lamppost4_a
+          9b08fff1:
+            name: wmp_slatfence8m_broke
+          9b091690:
+            name: wmp_ped_sign3
+          9b0927b3:
+            name: wmp_powerpole_double2
+          9b13d683:
+            name: wmp_dumpster03
+          9b13f081:
+            name: wmp_dumpster04
+          9b1a21e6:
+            name: wmp_well
+          9b1a222e:
+            name: wmp_ivyfence_16m
+          9b1a2324:
+            name: wmp_simpleFence16m_step
+          9b1d135d:
+            name: wmp_gardenshed_09
+          9b1dc181:
+            name: wmp_lattice_w_8m
+          9b1e27f4:
+            name: wmp_deckchair3
+          9b1f5614:
+            name: wmp_gardenshed_11
+          9b20f65d:
+            name: wmp_arbor04
+          9b26d9a6:
+            name: wmp_cars10_green_hd
+          9b26d9cb:
+            name: wmp_cars09_old_luxory01_hd
+          9b2f6202:
+            name: wmp_oldwall_gate16
+          9b2f621f:
+            name: wmp_oldwall_end8m
+          9b2f622d:
+            name: wmp_oldwall16m
+          9b49feee:
+            name: wmp_cars_queue06
+          9b4b0d71:
+            name: wmp_pissoir
+          9b4b0da1:
+            name: wmp_cars_queue08
+          9b4d9749:
+            name: wmp_cars_queue13
+          9b601296:
+            name: wmp_old_lamppost4
+          9bb56a90:
+            name: wmp_ad_fence16m
+          9bb81796:
+            name: wmp_ad_tree
+          9c352f11:
+            name: wmp_causeway_fence
+          9c39defa:
+            name: wmp_bwalk_fence16m_v2
+          9c52392b:
+            name: wmp_floodlight_railyard
+          9d14a2db:
+            name: wmp_woodfence_8m2p
+          9d1dc00c:
+            name: wmp_spam_fencewall_8m
+          9d1eec9e:
+            name: wmp_spam_lampost
+          9d21b073:
+            name: wmp_spam_watermill02
+          9d22bc55:
+            name: wmp_spam_pub_lamp
+          9d352d0a:
+            name: wmp_tall_lantern
+          9d352d17:
+            name: wmp_spam_busstop03
+          9d576d21:
+            name: wmp_spam_dumpster02
+          9d609fb2:
+            name: wmp_spam_logfence_gate
+          9e697e25:
+            name: wmp_Globe_Light_ruralDock
+          a26e0f98:
+            name: WMP_Streetlight1xDiagonalAVE
+          b8adc8d4:
+            name: wmp_Cone_Orange2
+          bab9fd0b:
+            name: wmp_bwalk_straight16m__murimk
+          babc4756:
+            name: wmp_lampost03
+          baddf705:
+            name: wmp_pine_01
+          bae958ef:
+            name: wmp_pbench_ortho
+          baecfda9:
+            name: wmp_stray_sign
+          baee511a:
+            name: wmp_people_suitcase_01_os16
+          baefe919:
+            name: wmp_bollards4
+          baf04698:
+            name: wmp_taxi01b_yellow
+          baf046c3:
+            name: wmp_cctv02
+          baf3ba4d:
+            name: wmp_cars04_suv_orange_hd
+          baf82631:
+            name: wmp_ga_fence4_npl
+          bafd2ccf:
+            name: wmp_villa_gate_os4
+          bafd2e01:
+            name: wmp_pool03
+          bafd2e9f:
+            name: wmp_villa_wall_OC
+          bafd7f13:
+            name: wmp_pickup04
+          bafe8988:
+            name: wmp_villa_hedge8_diag3
+          bafe89fb:
+            name: wmp_villa_hedge8_diag1
+          bb02442a:
+            name: wmp_cube_villa05
+          bb0531ca:
+            name: wmp_villa_hedge16diag
+          bb0531d8:
+            name: wmp_villa_hedge16r
+          bb0816d9:
+            name: wmp_cars01a_suv_lblue_angled
+          bb0c9ca0:
+            name: wmp_wirefence_gate
+          bb0cf73e:
+            name: wmp_wirefence_ic
+          bb138da5:
+            name: wmp_lampost07_hd
+          bb13d6ca:
+            name: wmp_ivyfence_8m_os
+          bb13d6ff:
+            name: wmp_singlepole_end
+          bb13f077:
+            name: wmp_singlepole_long
+          bb14a9d5:
+            name: wmp_planter_06
+          bb14d2c6:
+            name: wmp_arbor05_simpleArbor
+          bb1a225c:
+            name: wmp_compost2
+          bb1a22b8:
+            name: wmp_simpleFence6mP2
+          bb1dc143:
+            name: wmp_caravan
+          bb1dc172:
+            name: wmp_lattice_w_8m_a
+          bb1dc1ab:
+            name: wmp_lattice_w_16m
+          bb1f5640:
+            name: wmp_gardenshed_10
+          bb1f5663:
+            name: wmp_picket_6m1pr
+          bb239019:
+            name: wmp_tree_09_hd
+          bb239024:
+            name: wmp_tree_10_hd
+          bb23903a:
+            name: wmp_cars06_old_car_blue_hd
+          bb239048:
+            name: wmp_villa_hedge_oc1_a
+          bb239053:
+            name: wmp_villa_hedge16g_a
+          bb2602bc:
+            name: wmp_cars01b_suv_red_hd
+          bb26d99c:
+            name: wmp_cars12_old_luxory02_hd
+          bb2f6280:
+            name: wmp_oldwall8m
+          bb30ab89:
+            name: wmp_oldwall4m
+          bb3f5642:
+            name: wmp_cars_parked10_trucks_parking
+          bb44ba13:
+            name: wmp_pbrarrier_8m
+          bb44ba2f:
+            name: wmp_floodlight
+          bb497bea:
+            name: wmp_cars_queue03-tz1 8-13
+          bb4c28a4:
+            name: wmp_cars_queue10
+          bb4c7ad8:
+            name: wmp_cars_parked02
+          bb5e677e:
+            name: wmp_parking_lamp01
+          bb63a9e7:
+            name: wmp_cctv05
+          bbb56a48:
+            name: wmp_taxi_sign
+          bbb9494e:
+            name: wmp_taxi01_orange
+          bbf000dd:
+            name: wmp_cars_parked07_rdock_parking01
+          bcf300f8:
+            name: wmp_floodlight_ethanol
+          bcf36bb7:
+            name: wmp_floodlight_ethanol_diag
+          bd1fdac7:
+            name: wmp_spam_vet_horse3
+          bd22a192:
+            name: wmp_spam_ivyfence_16m
+          bd352cf2:
+            name: wmp_short_lantern
+          c9083f73:
+            name: wmp_cone_ethanol_white_cone
+          dabb6826:
+            name: wmp_bwalk_sign
+          dabb904e:
+            name: wmp_bwalk_fence4m
+          dabba2c0:
+            name: wmp_bwalk_fence5m
+          dabc89f4:
+            name: wmp_bwalk_ramp
+          dac5b52f:
+            name: wmp_modern_wallOC
+          daddfae8:
+            name: wmp_people_14
+          dae17f83:
+            name: wmp_pickup03
+          dae2e708:
+            name: wmp_lampost07
+          daee50d9:
+            name: wmp_taxi_shelter
+          daee50ea:
+            name: wmp_ped_sign
+          daee50fc:
+            name: wmp_taxi_sign
+          dafd2d8f:
+            name: wmp_ga_gate2_big_diag
+          dafd2e52:
+            name: wmp_tree_01
+          dafdb086:
+            name: wmp_lattice_b_16m
+          db024475:
+            name: wmp_bins04
+          db02448f:
+            name: wmp_bins02
+          db038256:
+            name: wmp_transformer_prop
+          db038286:
+            name: wmp_garages02
+          db0785a5:
+            name: wmp_tickets_short
+          db0816c8:
+            name: wmp_cars03_suv_orange_angled_hd
+          db0816d0:
+            name: wmp_cars02_red_hd
+          db090009:
+            name: wmp_slatfence8m_2p
+          db0abf0a:
+            name: wmp_pine_02_hd
+          db0c9c6e:
+            name: wmp_wirefence8
+          db13d6ee:
+            name: wmp_singlepole_middle
+          db17befd:
+            name: wmp_allot_centre
+          db1a2311:
+            name: wmp_simpleFence8m
+          db1c7ba1:
+            name: wmp_sp_exit_r
+          db1e27c2:
+            name: wmp_grill
+          db1e2827:
+            name: wmp_garden_water
+          db1e4823:
+            name: wmp_picket_4m1pr
+          db1f5658:
+            name: wmp_picket_6m1pl
+          db239062:
+            name: wmp_villa_hedge16s_a
+          db23a46a:
+            name: wmp_pool03_a
+          db2518e3:
+            name: wmp_lanterns
+          db2662f2:
+            name: wmp_ivyfence_4m
+          db266302:
+            name: wmp_log04
+          db46dab8:
+            name: wmp_floodlight_a_tall
+          db497c04:
+            name: wmp_cars_queue01-tz1 8-13
+          db49fee1:
+            name: wmp_cars_queue07
+          db4b0d66:
+            name: wmp_sbarrier
+          db4b0d96:
+            name: wmp_cars_queue05
+          db4c2875:
+            name: wmp_cars_queue11
+          db76b4bd:
+            name: wmp_recycling2
+          dbb56aa6:
+            name: wmp_ad_fence4m
+          dbb817a0:
+            name: wmp_ad_bench_half
+          dbf000f8:
+            name: wmp_cars_parked09_rdock_parking03
+          dc3e2244:
+            name: wmp_cellmast_bldg
+          dd1eec82:
+            name: wmp_spam_vehicle01_van_brown
+          dd1fdab9:
+            name: wmp_spam_vet_horse2
+          dd22a185:
+            name: wmp_spam_ivyfence_4m
+          dd22a1b0:
+            name: wmp_spam_ivyfence_gate2
+          dd576cef:
+            name: wmp_spam_vehicle04_pickup01
+          dd5e358e:
+            name: wmp_spam_horses3
+          dd609fc6:
+            name: wmp_spam_horse_rider
+          ec60a57e:
+            name: wmp_bwalk_oc__murimk
+          fabb901d:
+            name: wmp_bwalk_sign2
+          fabba27e:
+            name: wmp_bwalk_fence8m_banner
+          fabc7377:
+            name: wmp_lampost05_diag
+          fabca19a:
+            name: wmp_bwalk_fence2m
+          facc99b3:
+            name: wmp_people_13_marius
+          fae196ad:
+            name: wmp_pickup02
+          faee5108:
+            name: wmp_people_pram_os
+          faf12061:
+            name: wmp_sw_fence8
+          faf12081:
+            name: wmp_sw_fence16_np
+          faf55731:
+            name: wmp_ga_fence8_np
+          faf588c5:
+            name: wmp_ga_fullfence
+          fafd2deb:
+            name: wmp_pool04
+          fafd2e82:
+            name: wmp_villa_wall32
+          fafd2e90:
+            name: wmp_villa_wall4_end
+          fafd7f1c:
+            name: wmp_ga_gate1_small_open
+          fafe8fe4:
+            name: wmp_villa_hedge_oc1
+          fb02449b:
+            name: wmp_bins03
+          fb078598:
+            name: wmp_pbench22_oc
+          fb0816c1:
+            name: wmp_cars04b_suv_orange_hd
+          fb08cab1:
+            name: wmp_slatfence32m
+          fb09169a:
+            name: wmp_ped_sign2
+          fb0927be:
+            name: wmp_powerpole_single
+          fb0c9c7f:
+            name: wmp_wirefence_post
+          fb0c9c8b:
+            name: wmp_wirefence16
+          fb0c9cae:
+            name: wmp_wirefence32
+          fb138db7:
+            name: wmp_lampost06_hd
+          fb13d66b:
+            name: wmp_tree_03
+          fb13f068:
+            name: wmp_singlepole_short
+          fb191b93:
+            name: wmp_gardenshed_04
+          fb1a224b:
+            name: wmp_trailer01_hd
+          fb1bb784:
+            name: wmp_gardenshed_06
+          fb1c7b83:
+            name: wmp_sp_single
+          fb1dc1e4:
+            name: wmp_patio_table2
+          fb1e2855:
+            name: wmp_planter_08
+          fb1e2912:
+            name: wmp_picket_16m1pr
+          fb20f63b:
+            name: wmp_garden_lamp
+          fb226fbb:
+            name: wmp_crossover
+          fb23902e:
+            name: wmp_tree_12
+          fb23b97f:
+            name: wmp_grill2
+          fb23b990:
+            name: wmp_ga_lamppostA
+          fb2662c0:
+            name: wmp_lanterns2
+          fb2663b2:
+            name: wmp_grill3
+          fb3477f1:
+            name: wmp_bollards6_chain
+          fb4c2865:
+            name: wmp_cctv03
+          fb4c7ab2:
+            name: wmp_cars_parked05-tz 10-14
+          fb85eb2f:
+            name: wmp_billboard02_rdock
+          fbb56a6a:
+            name: wmp_ad_lamppost02
+          fbb817ab:
+            name: wmp_ad_bench_full
+          fbb817b6:
+            name: wmp_ad_fountain
+          fd142c9f:
+            name: wmp_spam_vet_kennel01
+          fd177ccc:
+            name: wmp_spam_vet_house
+          fd22a1a1:
+            name: wmp_spam_ivyfence_gate
+          fd5e359d:
+            name: wmp_spam_logfence_8m
+          fe110190:
+            name: wmp_Cone_White_2
+      release: 2024-12-17T16:13:39.182Z
+      version: 1.0.0
+
+wmp/the-bridges-of-shoreline-county:
+  categories: transport
+  dependencies:
+    - wmp/mega-props-vol01
+    - wmp/essentials
+  description: |-
+    The Bridges of Shoreline County, batte(re)d & lotted by DocRorlach WorkingMan BATtery
+
+    A series of eye-candy only bridges for both rural and urban areas. All bridges, with the exception of the transit-enabled version of the Wooden Bridge (5x1), are 1x1 lots with the respective bridge off-set. The covered bridges and the standard wooden bridge are for heights up to 8m; the Hang Ten bridge can cover variable heights and even small rivers or bays. The Pont Tarielle and the transit-enabled Wooden Bridge have a clearing height of 5m which is sufficient for cars but not for trucks or buses. Covered bridges have a clearing height of 7.5m. All lots come with a transparent base, and should work well with ploppable water.
+
+    **Lot Details and Information can be found in the readme. Read it.**
+
+    <table bgcolor="#FFFFFF" border="0" cellpadding="4" cellspacing="0"><tbody><tr><td colspan="2"><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td><strong>Dependencies</strong></td></tr></tbody></table></td></tr><tr><td colspan="2"><div><p>To ensure the proper functionality, make sure the files mentioned below are installed in the plugins folder.</p><p>Required WMP Dependencies:</p><ul><li><strong>wmp_bridge_props_v2.dat</strong> (INCLUDED) (Models/props and custom paths for the TE bridge. It also contains the models for the <strong>Abteibruecke</strong>)</li><li><strong><a href="https://community.simtropolis.com/files/file/33621-wmp-mega-props-vol-01-misc-general-props/" rel="">WMP Mega Props vol. 01 - Misc General Props</a></strong> and for the <strong><a href="https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3970" rel="external nofollow" title="WMP Mega Props vol. 01">SC4D <abbr title="Lot EXchange (SC4Devotion)">LEX</abbr> Link</a></strong></li><li><strong><a href="https://community.simtropolis.com/files/file/33620-wmp-essentials-v10/" rel="" title="Custom UI, Building examplars">WMP Essentials v1.0 </a></strong>and for the <strong><a href="https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3975" rel="external nofollow" title="WMP Essentials v1.0">SC4D <abbr title="Lot EXchange (SC4Devotion)">LEX</abbr> Link</a></strong></li></ul></div></td></tr></tbody></table>
+
+    **Credits**:
+
+    - *Original Creditings*: Thanks to everyone around the Pegasus site for their help with our first attempts at the BAT. Credit for the custom pathing of the wooden bridge goes to rivit, ever the expert.
+
+    - *Additional Credits:*
+
+        - **DocRorlach** and the **WMP team** and his associates for creating the models, props and the original lots.
+        - David (djp) for keeping the original site alive so many years, and letting us rehosting the files on the exchanges
+        - Tyberius06 (STEX Custodian) and xxdita for the restoration/rehosting of these contents.
+
+    **Support**:
+
+    These WMP/DocRorlach creations are now legacy contents and therefore their support is very limited, however support from the wider community can be requested [here](https://www.sc4devotion.com/forums/index.php?topic=18355.40) or in the [STEX Custodian General Support Topic](https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic). Best include a screen-shot illustrating the problem.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/95de0088b226f006c8422a54e40b96cb-bridge7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/e4fc78e773fff9e305842acb23c25327-susp_bridge02.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_05_2011/226de68c91ed93e4567ad805b337ddc1-bridge09.jpg
+  name: The Bridges of Shoreline County
+  readme: wmp_bridges_readme.html
+  support: https://community.simtropolis.com/forums/topic/758502-stex-custodian-general-support-topic
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_05_2011/thumb-95de0088b226f006c8422a54e40b96cb-bridge7.jpg
+  url: https://community.simtropolis.com/files/file/26171-wmp-the-bridges-of-shoreline-county/
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents
+          id: simtropolis/26171-wmp-the-bridges-of-shoreline-county
+          include:
+            - WMP/DocRorlach/The Bridges of Shoreline County
+            - WMP/Props
+      buildings:
+        WMP_Bridges_Lots_v2.dat:
+          1accaa87:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Pont Tarielle
+            maintenance: 5
+            menu: MiscTransit
+            name: Pont Tarielle
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          1accb36d:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Wooden Bridge
+            maintenance: 5
+            menu: MiscTransit
+            name: Wooden Bridge
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          1accbc51:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Wooden Bridge v2
+            maintenance: 5
+            menu: MiscTransit
+            name: Wooden Bridge, off-set
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          1accc739:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Old Covered Bridge
+            maintenance: 5
+            menu: MiscTransit
+            name: Old Covered Bridge
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          3acb3405:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Justin's Metal Bridge
+            maintenance: 5
+            menu: MiscTransit
+            name: Justin's Metal Bridge
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          9accac41:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Paeng's Bridge Shed
+            maintenance: 5
+            menu: MiscTransit
+            name: Paeng's Bridge Shed
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          bacb3321:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Paeng's Covered Bridge
+            maintenance: 5
+            menu: MiscTransit
+            name: Paeng's Covered Bridge
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          bacb33c7:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Shoreline Metal Bridge
+            maintenance: 5
+            menu: MiscTransit
+            name: Shoreline Metal Bridge
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+          facc175c:
+            bulldoze: 16
+            categories: transport
+            cost: 80
+            garbage: 1
+            label: Pedestrian Suspension Bridge
+            maintenance: 5
+            menu: MiscTransit
+            name: Pedestrian Suspension Bridge
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+      lastGenerated: 2024-12-17T17:01:32.891Z
+      lastModified: 2020-06-03T15:49:12.000Z
+      lots:
+        WMP_Bridges_Lots_v2.dat:
+          1accaa87:
+            building: 1accaa87
+            name: wmp_tariel_bridge
+            size: 1x1
+          1accb36d:
+            building: 1accb36d
+            name: wmp_5x1_woodbridge_te
+            size: 5x1
+          1accbc51:
+            building: 1accbc51
+            name: wmp_woodbridge_os
+            size: 1x1
+          1accc739:
+            building: 1accc739
+            name: wmp_covered_bridge
+            size: 1x1
+          3acb3405:
+            building: 3acb3405
+            name: wmp_justin_bridge
+            size: 1x1
+          9accac41:
+            building: 9accac41
+            name: wmp_paeng_shed
+            size: 1x1
+          bacb3321:
+            building: bacb3321
+            name: wmp_paeng_bridge
+            size: 1x1
+          bacb33c7:
+            building: bacb33c7
+            name: wmp_ped_bridge
+            size: 1x1
+          facc175c:
+            building: facc175c
+            name: wmp_suspension_bridge
+            size: 1x1
+      props:
+        wmp_bridge_props_v2.dat:
+          1acc9abc:
+            name: wmp_pont_tarielle
+          1b2f61ce:
+            name: wmp_abteibruecke_wood
+          1b347816:
+            name: wmp_abteibruecke_stone
+          9acdb49b:
+            name: wmp_covered_bridge
+          9acdb4bb:
+            name: wmp_paengs_bridge__covered02
+          dacc9c2e:
+            name: wmp_justins_bridge__metal01
+          daccb08d:
+            name: wmp_wooden_bridge
+          daccb5bd:
+            name: wmp_wooden_bridge_os
+          dacdb47a:
+            name: wmp_paengs_shed
+          dacf63c1:
+            name: wmp_hang_ten_suspension_bridge
+          facc9a4b:
+            name: wmp_daves_bridge__metal02
+      release: 2024-12-17T16:13:39.240Z
+      version: 2.0.0

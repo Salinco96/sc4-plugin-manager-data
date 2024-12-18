@@ -1,0 +1,100 @@
+nbvc/bikes:
+  categories: mmps,bikes
+  description: |-
+    Bikes for the mayor menu.
+
+    You can change the color and direction of a bike with additional clicks on the same bike.
+
+    The bikes can also be used as props in the Lot-Editor for your custom lots.
+  images:
+    - https://www.simtropolis.com/objects/screens/0024/d9e9da16b3f6f3b7d51b14e65e76b4fd-Nbvc_bikes1.jpg
+  name: NBVC Bikes
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2010/thumb-d9e9da16b3f6f3b7d51b14e65e76b4fd-Nbvc_bikes1.jpg
+  url: https://community.simtropolis.com/files/file/24859-bikes/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/24859-bikes
+          include:
+            - NBVC_Bikes
+      lastGenerated: 2024-12-17T17:01:33.078Z
+      lastModified: 2010-09-12T04:47:39.000Z
+      mmps:
+        NBVC_Bikes_100.dat:
+          4b7c0221:
+            description: Bikes. Additional clicks on a bike change the color and direction.
+            label: Bikes
+            name: NBVC_Bike1
+            stages:
+              - id: 4b7c0222
+                model: d8c67f30
+                name: NBVC_Bike
+              - id: 4b7c0223
+                model: 98ed3aaf
+                name: NBVC_Bike3
+              - id: 4b7c0224
+                model: 58ecdcea
+                name: NBVC_Bike4
+              - id: 4b7c0225
+                model: b8ed3cd6
+                name: NBVC_Bike5d
+              - id: 4b7c0226
+                model: b8ed3868
+                name: NBVC_Bike6
+              - id: 4b7c0227
+                model: 18ed3a46
+                name: NBVC_Bike7
+              - id: 4b7c0228
+                model: 58ed3a72
+                name: NBVC_Bike8
+              - id: 4b7c0229
+                model: b8ed3b84
+                name: NBVC_Bike8
+              - id: 4b7c022a
+                model: 38ed3c76
+                name: NBVC_Bike10
+              - id: 4b7c022b
+                model: 98ed3cab
+                name: NBVC_Bike11
+              - id: 4b7c022c
+                model: b8ed3868
+                name: NBVC_Bike6
+              - id: 4b7c022d
+                model: d8c67f30
+                name: NBVC_Bike12
+      props:
+        NBVC_bike1-0x6534284a-0x947da1d3-0x59668597.SC4Desc:
+          '59668597':
+            name: NBVC_bike1
+        NBVC_bike2-0x6534284a-0x947da1d3-0x996604ca.SC4Desc:
+          996604ca:
+            name: NBVC_bike2
+        NBVC_bike2_diag-0x6534284a-0x947da1d3-0x396684ca.SC4Desc:
+          396684ca:
+            name: NBVC_bike2_diag
+        NBVC_bike3-0x6534284a-0x947da1d3-0x996682b5.SC4Desc:
+          996682b5:
+            name: NBVC_bike3
+        NBVC_bike3_diag-0x6534284a-0x947da1d3-0x596686e5.SC4Desc:
+          '596686e5':
+            name: NBVC_bike3_diag
+        NBVC_bike4-0x6534284a-0x947da1d3-0x596682a6.SC4Desc:
+          596682a6:
+            name: NBVC_bike4
+        NBVC_bike5-0x6534284a-0x947da1d3-0x396684d4.SC4Desc:
+          396684d4:
+            name: NBVC_bike5
+        NBVC_bike5_diag-0x6534284a-0x947da1d3-0x596684c0.SC4Desc:
+          596684c0:
+            name: NBVC_bike5_diag
+        NBVC_bike6-0x6534284a-0x947da1d3-0x596685a0.SC4Desc:
+          596685a0:
+            name: NBVC_bike6
+        NBVC_bike7-0x6534284a-0x947da1d3-0x796686ed.SC4Desc:
+          796686ed:
+            name: NBVC_bike7
+        NBVC_bike7_diag-0x6534284a-0x947da1d3-0xd9668703.SC4Desc:
+          d9668703:
+            name: NBVC_bike7_diag
+      release: 2024-12-17T16:13:38.944Z
+      version: 1.0.0

@@ -1,0 +1,64 @@
+flann/girafe-maxis-fence-hd-replacement-mod:
+  categories: graphics,mods
+  description: |-
+    This mod replaces 7 of the original Maxis fences with brand new HD props by [@Girafe](https://community.simtropolis.com/profile/319793-girafe/). See screenshots for which fences are replaced. Great care was taken to create props which behave in the same way as the Maxis props in order to ensure a seamless override.
+
+    There are three .dats in this download:
+
+    **Grfe-Maxis-Fence_Models.dat** \- *Required*
+
+    **Grfe-Maxis-Fence_Override-Exemplars.dat** \- *Semi-required,* overrides the Maxis props everywhere they are used.
+
+    **Grfe-Maxis-Fence_New-LE\-Props.dat** \- *Optional;* contains non-override prop exemplars for use in the lot editor.
+
+    Many thanks to Girafe for spending time creating these wonderful models, and to Tyberius for assistance in testing.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/Maxis_Fence_override.jpg.ac963a79dc09518147b79f438bf72999.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb45a2766146_2020-11-1716_35_06-SC4Fixr7.jpg.3d0877880afe1224148f98934602ce11.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb45a2a0ea7d_2020-11-1716_38_57-SC4Fixr7.jpg.9f172169bf475dfa8af5db9ffba93b73.jpg
+  name: Girafe Maxis Fence HD Replacement Mod
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/Maxis_Fence_override.thumb.jpg.d1f0435b6c73185b8363fd53345edc59.jpg
+  url: https://community.simtropolis.com/files/file/33965-girafe-maxis-fence-hd-replacement-mod/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/33965-girafe-maxis-fence-hd-replacement-mod
+          include:
+            - Grfe-Maxis-Fence_Override-Exemplars.dat
+            - Grfe-Maxis-Fence_New-LE-Props.dat
+            - Grfe-Maxis-Fence_Models.dat
+      lastGenerated: 2024-12-17T16:13:39.626Z
+      lastModified: 2020-11-17T23:27:55.000Z
+      props:
+        Grfe-Maxis-Fence_New-LE-Props.dat:
+          1d37fbd0:
+            name: Grfe_wood_fence_A_16m_offcentered_2
+          3d37fc3e:
+            name: Grfe_wood_fence_G_16m_offcentered_5
+          3d37fc67:
+            name: Grfe_wood_fence_H_16m_offcentered_2
+          7d37fc20:
+            name: Grfe_wood_fence_C_16m_offcentered_3
+          9d37fba0:
+            name: Grfe_metal_fence_A_16m_offcentered_2
+          dd37fbc0:
+            name: Grfe_hedge_16x3m_evergreen_7
+          dd37fbe8:
+            name: Grfe_wood_fence_B_16m_offcentered_3
+        Grfe-Maxis-Fence_Override-Exemplars.dat:
+          1d8f0000:
+            name: R16x1x2_$$Fence_1D8F_Grfe
+          1f0b0000:
+            name: R16x1x2_$$$Hedge1_1F0B_Grfe
+          '29830000':
+            name: R16x1x2_$$PicketFenceWhite_2983_Grfe
+          '29840000':
+            name: R16x1x2_$PicketFence_2984_Grfe
+          '29850000':
+            name: R16x1x4_$FenceWood_2985_Grfe
+          '29860000':
+            name: R16x1x4_$FenceCorrugatedTin_2986_Grfe
+          '29870000':
+            name: R16x1x4_$$FenceStaggeredSlats_2987_Grfe
+      release: 2024-12-17T16:13:39.607Z
+      version: 1.0.0

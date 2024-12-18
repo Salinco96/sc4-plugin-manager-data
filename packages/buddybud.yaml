@@ -1,0 +1,180 @@
+buddybud/jeronij-concrete-wall-addon-stairs:
+  authors:
+    - jeronij
+  categories: parks,power
+  description: |-
+    First a thanx to Jeronij for letting me upload this.
+
+    This is a collection of six lots based directly on Jeronij's Modern Concrete Diagonal Walls and are designed to blend in with both it and my Jeronij Concrete Wall Add-On Bat. These are eyecandy stairs to beautify your modern concrete walls. Also all of the fences and stairs are Slope Conforming.
+
+    Recomended: AAO1 JERONI TEXTURAS MURO AUTOPISTA MODERNOV2.dat found in the [***Modern Concrete Diagonal Walls***](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=116 "Modern Concrete Diagonal Walls")bat by Jeronij
+
+    and the [***Jeronij Modern Concrete Walls AddOn***](https://www.simtropolis.com/stex/details.cfm?id=13865 "Jeronij Modern Concrete Walls AddOn") bat by me Buddybud.
+
+    Once installed, the lots will be available in the Power Menu.
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/ffe807fb16a457274b2cf25a66ea3e55-BudUD-Jeronij_CW_Addon_Stairs.jpg
+    - https://www.simtropolis.com/objects/screens/0028/ffe807fb16a457274b2cf25a66ea3e55-BudUD-Jeronij_CW_Addon_Stairs2.jpg
+  name: Jeronij Concrete Wall AddOn STAIRS
+  readme: BudUD-Jeronij_CW_Addon_Stairs.htm
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_11_2007/thumb-ffe807fb16a457274b2cf25a66ea3e55-BudUD-Jeronij_CW_Addon_Stairs.jpg
+  url: https://community.simtropolis.com/files/file/13866-jeronij-concrete-wall-addon-stairs/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Buddybud Info
+          id: simtropolis/13866-jeronij-concrete-wall-addon-stairs
+          include:
+            - SimCity 4/Plugins/Buddybud/BudUD-Jeronij_CW_Addon_Stairs
+            - SimCity 4/Plugins/Buddybud
+      buildings:
+        BudUD-Jeronij_CW_Addon_Stairs_Lots.dat:
+          5047df1e:
+            bulldoze: 5
+            categories: power
+            cost: 10
+            maintenance: 2
+            menu: Power
+            name: PZ1x1_ParkGreens1_4a635a8a
+            pollution: -1
+            pollutionRadius: 1
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            submenu: Power/Misc
+            water: 5
+          5047efac:
+            bulldoze: 5
+            categories: power
+            cost: 10
+            maintenance: 2
+            menu: Power
+            name: PZ1x1_ParkGreens1_4a635a8a
+            pollution: -1
+            pollutionRadius: 1
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            submenu: Power/Misc
+            water: 5
+          5047f322:
+            bulldoze: 5
+            categories: power
+            cost: 10
+            maintenance: 2
+            menu: Power
+            name: PZ1x1_ParkGreens1_4a635a8a
+            pollution: -1
+            pollutionRadius: 1
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            submenu: Power/Misc
+            water: 5
+          '50481653':
+            bulldoze: 5
+            categories: power
+            cost: 10
+            maintenance: 2
+            menu: Power
+            name: PZ1x1_ParkGreens1_4a635a8a
+            pollution: -1
+            pollutionRadius: 1
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            submenu: Power/Misc
+            water: 5
+          b047f102:
+            bulldoze: 5
+            categories: power
+            cost: 10
+            maintenance: 2
+            menu: Power
+            name: PZ1x1_ParkGreens1_4a635a8a
+            pollution: -1
+            pollutionRadius: 1
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            submenu: Power/Misc
+            water: 5
+          d058a6f4:
+            bulldoze: 5
+            categories: power
+            cost: 10
+            maintenance: 2
+            menu: Power
+            name: PZ1x1_ParkGreens1_4a635a8a
+            pollution: -1
+            pollutionRadius: 1
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            submenu: Power/Misc
+            water: 5
+      lastGenerated: 2024-12-18T09:40:52.341Z
+      lastModified: 2005-10-12T01:46:25.000Z
+      lots:
+        BudUD-Jeronij_CW_Addon_Stairs_Lots.dat:
+          5047df1e:
+            building: 5047df1e
+            name: BudUD-Jeronij_CW_Addon_HStairs-01
+            size: 1x1
+          5047efac:
+            building: 5047efac
+            name: BudUD-Jeronij_CW_Addon_HStairs-02
+            size: 1x1
+          5047f322:
+            building: 5047f322
+            name: BudUD-Jeronij_CW_Addon_CS-Stairs
+            size: 1x1
+          '50481653':
+            building: '50481653'
+            name: BudUD-Jeronij_CW_Addon_Diag-Stairs
+            size: 1x1
+          b047f102:
+            building: b047f102
+            name: BudUD-Jeronij_CW_Addon_CR-Stairs
+            size: 1x1
+          d058a6f4:
+            building: d058a6f4
+            name: BudUD-Jeronij_CW_Addon_HLookOut
+            size: 1x1
+      props:
+        Prop Packs/BudCW_Lookout_Prop_Back.dat:
+          5047dce9:
+            name: BudCW_Lookout_Back
+        Prop Packs/BudCW_Stairs_Look_Prop.dat:
+          1047dd02:
+            name: BudCW_Lookout_Front
+          7047ec65:
+            name: BudCW_Stairs_Diag2
+          9047dc87:
+            name: BudCW_Stairs_Horizontal
+          9047ec4f:
+            name: BudCW_Stairs_Diag1
+        Prop Packs/BudCW_Stairs_Tops_Prop.dat:
+          3047dcbe:
+            name: BudCW_Stairs_H_Top
+          5047ec8c:
+            name: BudCW_Stairs_DiagR_Top
+          9047ec7b:
+            name: BudCW_Stairs_DiagS_Top
+      release: 2024-12-17T16:13:38.876Z
+      textures:
+        Texture Packs/BuddyBud-Jeronij ConcWall-Addon-Stairs.dat:
+          - a990c41a
+          - a990c420
+          - a990c425
+          - a990c42a
+          - a990c445
+          - a990c44a
+      version: 1.0.0

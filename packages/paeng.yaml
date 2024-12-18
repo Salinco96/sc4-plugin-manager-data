@@ -1,0 +1,375 @@
+paeng/bikepaths:
+  categories: parks,bus
+  dependencies:
+    - murimk/props-vol01
+    - porkissimo/jenx-porkie-expanded-props
+    - simgoober/mega-props-vol01
+  description: |-
+    A set of handsome bike paths combined with alley parks to get your bikers off the busy roads and avenues, at the same time providing nice stretches of small parkways for a leisurely stroll...
+
+    See a full catalog of all included pieces in the included **ReadMe**!
+
+    **How to Plan a Bike Path**
+
+    These bike paths are wide enough to have 2-way bicycle 'traffic' - so they are only built on one side of a road. Note that they don't form regular 'networks' with criss-crossing intersections (cross or tee), but instead they usually follow a stretch of road or avenue, detour around COM properties and sometimes just end at some road intersection or a particular building, e.g. a school, a park or similar.
+
+    Since they do block development, you need to be creative in your zoning and in planning your bike paths. Make your zones either face a side road or detour your paths around some of the developments. Combined smartly, you will not 'lose' too much road access. See Readme for more information!
+
+    **Developer Notes**
+
+    Unless noted otherwise, all pieces are sized 1x1. They are cheap to plop and to maintain.
+
+    Mostly they are completely neutral (effects etc.) except for some key pieces - they provide slight desirability perks.
+
+    Note that there are two versions of the bus stop - one is fully functional (Cap: 2000) while the other one is eyecandy, to be used with road top stops or similar.
+
+    All segments are located in the 'Transportation | Miscellaneous' menu with custom icons.
+
+    **Support**
+
+    Should you need support for these items please visit the
+
+    **[PLEX on the STEX - Community Support](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/)**
+
+    **[Paeng Productions Forum (no longer available)](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php/board,109.0.html)**
+
+    **Thanks**
+
+    I'd like to thank my fellow NightOwl **Murimk** who (again ![:)](https://www.simtropolis.com/forum/public/style_emoticons/) 'sponsored' a few custom BATs, adding the kind of detail that makes a set 'alive'.
+  images:
+    - https://www.simtropolis.com/objects/screens/0029/dac77660889f03360d3164f4129cfce4-bp_views.jpg
+  name: Paeng's Bicycle Paths with Alley Parks
+  optional:
+    - rebalynnts/spot
+  readme: index.html
+  support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
+  textures:
+    Bikepath_Resource/Paeng_Bikepath_Textures.dat:
+      - f5f84220
+      - f5f84225
+      - f5f8422a
+      - f5f84230
+      - f5f84235
+      - f5f8423a
+      - f5f84240
+      - f5f84245
+      - f5f8424a
+      - f5f84250
+      - f5f84255
+      - f5f8425a
+      - f5f84260
+      - f5f84265
+      - f5f8426a
+      - f5f84270
+      - f5f84275
+  thumbnail: https://www.simtropolis.com/objects/screens/0032/thumb-dac77660889f03360d3164f4129cfce4-bp_views.jpg
+  url: https://community.simtropolis.com/files/file/26110-paengs-bicycle-paths-with-alley-parks/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Paeng_BikePaths_v100/Readme_BikePaths
+          id: simtropolis/26110-paengs-bicycle-paths-with-alley-parks
+          include:
+            - Paeng_BikePaths_v100
+      buildings:
+        Bikepaths_Lots/BikePath_Lots.dat:
+          1aa1f59c:
+            bulldoze: 1
+            categories: transport
+            cost: 75
+            label: BikePath RestStop
+            maintenance: 10
+            menu: MiscTransit
+            name: BikePath
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+            waterPollution: 1
+            waterPollutionRadius: 1
+          1aa20147:
+            bulldoze: 1
+            categories: transport
+            cost: 15
+            label: BikePath Tunnel north
+            maintenance: 2
+            menu: MiscTransit
+            name: BikePath
+          1aa208e2:
+            bulldoze: 1
+            categories: transport
+            cost: 15
+            label: BikePath Tunnel south
+            maintenance: 2
+            menu: MiscTransit
+            name: BikePath
+          3a9e5a2f:
+            bulldoze: 1
+            categories: transport
+            cost: 1
+            label: BikePath Straight
+            menu: MiscTransit
+            name: BikePath
+          3a9e5ee1:
+            bulldoze: 1
+            categories: transport
+            cost: 50
+            label: BikePath Shelters
+            maintenance: 5
+            menu: MiscTransit
+            name: BikePath
+          3a9e6ed9:
+            bulldoze: 1
+            categories: transport
+            cost: 5
+            label: BikePath Curve inner
+            menu: MiscTransit
+            name: BikePath
+          3a9e96a3:
+            bulldoze: 1
+            categories: transport
+            cost: 6
+            label: BikePath Curve 1 Intersection
+            menu: MiscTransit
+            name: BikePath
+          7a9e9728:
+            bulldoze: 1
+            categories: transport
+            cost: 7
+            label: BikePath Curve 2 intersection
+            menu: MiscTransit
+            name: BikePath
+          7a9f6893:
+            bulldoze: 1
+            categories: transport
+            cost: 3
+            label: BikePath Gap
+            menu: MiscTransit
+            name: BikePath
+          7a9f885f:
+            bulldoze: 1
+            categories: transport
+            cost: 4
+            label: BikePath Stop and Gap north
+            menu: MiscTransit
+            name: BikePath
+          7aa34e91:
+            bulldoze: 1
+            categories: transport
+            cost: 8
+            label: BikePath Exchange south
+            menu: MiscTransit
+            name: BikePath
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+            waterPollution: 1
+            waterPollutionRadius: 1
+          7aa3572f:
+            bulldoze: 1
+            categories: transport
+            cost: 8
+            label: BikePath Exchange north
+            menu: MiscTransit
+            name: BikePath
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+            waterPollution: 1
+            waterPollutionRadius: 1
+          7aa36ab5:
+            bulldoze: 1
+            categories: transport
+            cost: 2
+            label: BikePath Ped Crossing
+            menu: MiscTransit
+            name: BikePath
+          9a9fd29e:
+            bulldoze: 1
+            categories: transport
+            cost: 5
+            label: BikePath Curve outer
+            menu: MiscTransit
+            name: BikePath
+          9a9fec5e:
+            bulldoze: 1
+            categories: transport
+            cost: 100
+            label: BikePath Bus Stop (Eyecandy)
+            menu: MiscTransit
+            name: BikePath
+          9aa0bd8f:
+            bulldoze: 1
+            categories: transport
+            cost: 9
+            label: BikePath Exit north
+            menu: MiscTransit
+            name: BikePath
+          9aa38570:
+            bulldoze: 10
+            categories: bus
+            cost: 120
+            flamability: 38
+            garbage: 1
+            garbageRadius: 1
+            jobs:
+              $: 2
+            label: BikePath Bus Stop (Functional)
+            maintenance: 5
+            menu: MiscTransit
+            name: bp_busstop
+            pollution: 1
+            pollutionRadius: 2
+            power: 1
+            submenu: MiscTransit/Bus
+            waterPollution: 1
+            waterPollutionRadius: 1
+          ba9f88ba:
+            bulldoze: 1
+            categories: transport
+            cost: 4
+            label: BikePath Stop and Gap south
+            menu: MiscTransit
+            name: BikePath
+          daa0aa7b:
+            bulldoze: 1
+            categories: transport
+            cost: 30
+            label: BikePath Driveway
+            menu: MiscTransit
+            name: BikePath
+          daa0beb6:
+            bulldoze: 1
+            categories: transport
+            cost: 9
+            label: BikePath Exit south
+            menu: MiscTransit
+            name: BikePath
+          daa4aa11:
+            bulldoze: 1
+            categories: transport
+            cost: 1
+            label: BikePath Straight 3x
+            menu: MiscTransit
+            name: BikePath
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+            waterPollution: 1
+            waterPollutionRadius: 1
+      lastGenerated: 2024-12-17T17:01:33.327Z
+      lastModified: 2011-04-20T15:28:52.000Z
+      lots:
+        Bikepaths_Lots/BikePath_Lots.dat:
+          1aa1f59c:
+            building: 1aa1f59c
+            name: bikepath_reststop
+            size: 3x1
+          1aa20147:
+            building: 1aa20147
+            name: bikepath_tunnel-north
+            size: 2x1
+          1aa208e2:
+            building: 1aa208e2
+            name: bikepath_tunnel-south
+            size: 2x1
+          3a9e5a2f:
+            building: 3a9e5a2f
+            name: bikepath_straight01
+            size: 1x1
+          3a9e5ee1:
+            building: 3a9e5ee1
+            name: bikepath_shelter
+            size: 3x1
+          3a9e6ed9:
+            building: 3a9e6ed9
+            name: bikepath_curve-inner
+            size: 1x1
+          3a9e96a3:
+            building: 3a9e96a3
+            name: bikepath_1intersection
+            size: 1x1
+          7a9e9728:
+            building: 7a9e9728
+            name: bikepath_2intersection
+            size: 1x1
+          7a9f6893:
+            building: 7a9f6893
+            name: bikepath_straight_gap-small
+            size: 1x1
+          7a9f885f:
+            building: 7a9f885f
+            name: bikepath_stop-gap-north
+            size: 1x1
+          7aa34e91:
+            building: 7aa34e91
+            name: bikepath_exchange-south
+            size: 1x1
+          7aa3572f:
+            building: 7aa3572f
+            name: bikepath_exchange-north
+            size: 1x1
+          7aa36ab5:
+            building: 7aa36ab5
+            name: bikepath_ped-crossing
+            size: 1x1
+          9a9fd29e:
+            building: 9a9fd29e
+            name: bikepath_curve-outer
+            size: 1x1
+          9a9fec5e:
+            building: 9a9fec5e
+            name: bikepath_busstop
+            size: 3x1
+          9aa0bd8f:
+            building: 9aa0bd8f
+            name: bikepath_exit-north
+            size: 1x1
+          9aa38570:
+            building: 9aa38570
+            name: bikepath_busstop_functional
+            size: 3x1
+          ba9f88ba:
+            building: ba9f88ba
+            name: bikepath_stop-gap-south
+            size: 1x1
+          daa0aa7b:
+            building: daa0aa7b
+            name: bikepath_driveway
+            size: 1x1
+          daa0beb6:
+            building: daa0beb6
+            name: bikepath_exit-south
+            size: 1x1
+          daa4aa11:
+            building: daa4aa11
+            name: bikepath_straight03
+            size: 3x1
+      props:
+        Bikepath_Resource/Murimk_CustomProps_Bikepath.dat:
+          3da09c5c:
+            name: Murimk_bike_sign3
+          818fed8e:
+            name: Murimk_bike_busshelter
+          c39f4d2d:
+            name: Murimk_bike_sign1
+          c9c541ab:
+            name: Murimk_bike_sign2
+          da9ff345:
+            name: Murimk_bike_trafficlight
+          e33571f6:
+            name: Murimk_bike_post
+      release: 2024-12-17T16:13:42.307Z
+      version: 1.0.0
