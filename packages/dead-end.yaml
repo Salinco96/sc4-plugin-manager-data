@@ -215,7 +215,10 @@ dead-end/konsum:
     - robdragon/props-vol01
     - sfbt/essentials
     - shokthrpy/parking-pack
-    - zero7/industrial-pack # (Specifically the SC4DESC and SC4MODEL files for the Isuzu cargo truck)
+    - id: zero7/industrial-pack:
+      include:
+        - Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc
+        - z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model
   description: |-
     Konsum is a Swedish cooperative grocery store. This ploppable 2x2 lot fits on a street corner. The store has a loading dock in the back, which is accessed through the parking area. Sims are also able to park their bikes in the front. It offers 37 C$ jobs.
 

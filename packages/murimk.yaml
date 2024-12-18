@@ -549,46 +549,13 @@ murimk/bike-lots:
       version: 1.0.0
 
 murimk/bike-mmps:
-  categories: dependencies,mmps
+  categories: mmps,bikes
   dependencies:
-    - murimk/bike-lots
-  description: |-
-    **Murimk Bicycle Props**
-
-    For all who wish to introduce biycle-related items to their cities, here is the prop pack just for you. It is organized in different packages containing the following:
-
-    - Bikes (7 different colors)
-    - Bikers (straight and diagonal, in 7 different colors - timed to appear/disappear at certain times of the day)
-    - Stands (with varying number of bikes)
-    - Shop Stands (with advertisement and varying number of bikes)
-    - Bike Shelters (2 types, with various colors)
-    - Shop Signs (2 variations)
-
-    In addition to the single props you'll also find prop-families for most items, as well as a MayorMode Ploppable (MMP) set for the bikers.
-
-    All props are named with the prefix 'MUR' to easily locate them in LE.
-
-    The props from this pack can be used to make your own lots. Do not include them in your upload though - please point to this pack as a dependency.
-
-    ***NOTE: Props only - this package does not include any lots!***
-
-    (There is a test-lot in the ReadMe folder for preview purposes only - you can safely delete it).
-
-    This is a standalone version of the props used for [PAMU Bikes Inc.](https://community.simtropolis.com/files/file/25433-pamu-bikes-inc/) - if you have that set, you don't need this pack. The only difference is the included MMP set.
-
-    If you already have 'PAMU-Bikes' installed but want the MMP set: Download this pack, get the **Bikers_MMP.dat** file from the subfolder called 'Bikers' and put in the PAMU folder located in your plugins folder.
-
-    ~~For questions or support please visit the 'PAMU Dev-Thread'. \[[https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0\]](https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support/forum/index.php?topic=9079.0%5D)~~
-
-    A big thank you to Paeng for providing pictures for this prop pack, as well as modding everything and setting up the MMP file!
-
-    Enjoy!
-
-    **\-Cori Edit:** Fixed formatting and broken linky.
+    - murimk/props-vol01
   images:
     - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
     - https://www.simtropolis.com/objects/screens/0022/c5ba4a400b1e01c96c2e5b7237ad2e6f-stex02.jpg
-  name: Murimk - Props Vol01 - Bicycle Props with Bikers MMP
+  name: Bikers MMP
   support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2011/thumb-c5ba4a400b1e01c96c2e5b7237ad2e6f-stex01.jpg
   url: https://community.simtropolis.com/files/file/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp/
@@ -651,9 +618,7 @@ murimk/bike-mmps:
       version: 1.0.0
 
 murimk/props-vol01:
-  categories: props,mmps,bikes
-  dependencies:
-    - murimk/bike-lots
+  categories: props,bikes
   description: |-
     For all who wish to introduce biycle-related items to their cities, here is the prop pack just for you. It is organized in different packages containing the following:
 
