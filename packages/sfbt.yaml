@@ -1,5 +1,16 @@
 sfbt/essentials:
   categories: dependencies
+  dependencies:
+    - cycledogg/mega-props-vol01:
+        condition:
+          sfbt.trees:
+            - CP_Street_Deciduous_Trees
+            - CP_Street_Ponderosa_Pines
+            - CP_Street_Shore_Pinyon_Pines
+    - pegasus/mtp-super-pack:
+        condition:
+          sfbt.trees:
+            - PEG_Street_Pines
   description: The SFBT Essentials contain the custom UIs that every SFBT lot uses, as well as shared textures and prop packs. The file will be updated from time to time, so please check back to this download once in a while.
   features:
     - sfbt
