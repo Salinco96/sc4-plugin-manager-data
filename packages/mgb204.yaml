@@ -10,6 +10,7 @@ mgb204/convenience-stores:
         family: 5f85e461
         flamability: 40
         garbage: 4
+        model: 72bfbeef
         name: MGB Retail - Convenience Store Typ3
         pollution: 1
         pollutionRadius: 5
@@ -27,6 +28,7 @@ mgb204/convenience-stores:
         family: 5f85e461
         flamability: 40
         garbage: 4
+        model: f8770aa3
         name: MGB Retail - Convenience Store Typ2
         pollution: 1
         pollutionRadius: 5
@@ -44,6 +46,7 @@ mgb204/convenience-stores:
         family: 5f85e461
         flamability: 40
         garbage: 4
+        model: c3f8ef41
         name: MGB Retail - Convenience Store Typ1
         pollution: 1
         pollutionRadius: 5
@@ -88,22 +91,129 @@ mgb204/convenience-stores:
         building: 5f85e461
         density: all
         name: CS$$1_4x4_MGB Convenience Store
+        props:
+          - 5f85b914
+          - fc73e2ff
+          - bc73a32c
+          - 1b7ca999
+          - 1dfb0000
+          - 2aab0000
+          - 285f0000
+          - 2a9f0000
+          - 83dd1118
+          - e3dd103a
+          - 43dd10b2
+          - ddbe6da2
+          - 1dbe6dc2
+          - fdbe6dd0
+          - a000004d
+          - a000004b
+          - a000004a
+          - a000004c
+          - a0000069
+          - 5f4c9f75
+          - 9f4c9f96
+          - 5f85b909
+          - 5f85b915
+          - 2cb10000
+          - 5f85e460
+          - 9ca0c48e
+          - 1ca0c4fc
+          - bc77cf72
+          - fc9f36d4
+          - 2a8c0000
+          - 5f85b90b
+          - 5f85b90d
+          - 5f85b907
+          - 3c9f61d3
+          - fc73a36d
         size: 4x4
         stage: 1
+        textures:
+          - 258f0000
+          - f75040d0
+          - f75040b5
+          - 258c0000
+          - f75040c5
+          - f75040ca
+          - f75040c0
+          - f75040aa
+          - 25ae0000
+          - f8a0500a
+          - f8a0504a
     CS$$2_3x2_MGB Convenience Store_3538721e.SC4Lot:
       3538721e:
         building: 5f85e461
         density: all
         name: CS$$2_3x2_MGB Convenience Store
+        props:
+          - 5f85e460
+          - fc77cf67
+          - 5f85b915
+          - 5f85b909
+          - 5f85b907
+          - 5f85b90b
+          - 5f85b90d
+          - 2cb10000
+          - a000004d
+          - a000004b
+          - a000004a
+          - a0000069
+          - ffabbce3
+          - bfabbcf0
         size: 3x2
         stage: 2
+        textures:
+          - 258f0000
+          - 25fb0100
+          - f75040b5
+          - f75040c0
+          - 25ae0000
+          - 25b00000
+          - 251c0000
     CS$$2_3x3_MGB Convenience Store_05387230.SC4Lot:
       '05387230':
         building: 5f85e461
         density: all
         name: CS$$2_3x3_MGB Convenience Store
+        props:
+          - 5f85e460
+          - 5f85b915
+          - 5f85b914
+          - 5f85b90d
+          - 5f85b90b
+          - 5f85b909
+          - 5f85b907
+          - a0000069
+          - 2cb10000
+          - 3c790a6f
+          - fc73e2ff
+          - dca0c46d
+          - 3c9f3712
+          - bc77cf72
+          - e3ddeb5b
+          - 83ddeb1e
+          - 43ddebb3
+          - 9f9e1c54
+          - 9f70925c
+          - 5f85b908
+          - 5f85b90a
+          - bfabbcf0
+          - 1fabbcd5
+          - 7f71cd49
+          - 5f4c9f75
+          - dc73b997
         size: 3x3
         stage: 2
+        textures:
+          - 258f0000
+          - 25ba0000
+          - f834403a
+          - f75040c0
+          - f75040b5
+          - f75040aa
+          - 25bc0000
+          - 258d0000
   name: Convenience Store
   options:
     - choices:
@@ -133,7 +243,7 @@ mgb204/convenience-stores:
             - MGB_ConvenienceStore_{{quality}}-DN.dat
             - MGB_ConvenienceStore_Resource.dat
             - Lots
-      lastGenerated: 2024-12-18T09:40:53.642Z
+      lastGenerated: 2025-01-06T12:13:25.618Z
       lastModified: 2016-08-18T13:22:29.000Z
       name: Dark Nite
       release: 2024-12-18T09:40:53.649Z
@@ -149,7 +259,7 @@ mgb204/convenience-stores:
             - MGB_ConvenienceStore_{{quality}}-MN.dat
             - MGB_ConvenienceStore_Resource.dat
             - Lots
-      lastGenerated: 2024-12-18T09:40:53.642Z
+      lastGenerated: 2025-01-06T12:13:25.612Z
       lastModified: 2016-08-18T13:22:29.000Z
       name: Maxis Nite
       release: 2024-12-17T16:13:39.988Z
@@ -253,7 +363,7 @@ mgb204/texture-pack:
             - zMGB Texture Pack_RVT TSR Stret Override.dat:
                 condition:
                   tsr: true
-      lastGenerated: 2024-12-18T09:40:52.151Z
+      lastGenerated: 2025-01-06T12:13:24.425Z
       lastModified: 2023-12-06T10:44:02.000Z
       release: 2024-12-17T16:13:39.478Z
       textures:

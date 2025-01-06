@@ -18,1489 +18,2218 @@ girafe/carpack:
             - Cleanitol_BSC-VIP Girafe Carpack*.txt
             - Cleanitol_BSC-VIP Girafe Urbanpack*.txt
           docs:
-            - as: Indexes/*
-              path: BSC-VIP Girafe *pack*.jpg
-            - as: Indexes/*
-              path: Grfe_Props_Pack_*pack*.jpg
+            - BSC-VIP Girafe *pack*.jpg:
+                as: Indexes/*
+            - Grfe_Props_Pack_*pack*.jpg:
+                as: Indexes/*
             - ~Documents/BSC_Readmes/girafe
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC VIP Girafe Carpack*
             - BSC VIP Girafe Urbanpack*
-      lastGenerated: 2024-12-13T11:23:37.734Z
+      lastGenerated: 2025-01-06T12:13:24.128Z
       lastModified: 2024-08-21T22:51:45.000Z
       mmps:
         Grfe_CarPack_MMP vol01.dat:
           '19620210':
+            model: d8f733ac
             name: VIP_Grfe_Car_Orth_01
             stages:
               - id: '19620211'
+                model: 78f73798
                 name: VIP_Grfe_Car_Orth_02
               - id: '19620212'
+                model: b8f78405
                 name: VIP_Grfe_Car_Orth_03
               - id: '19620213'
+                model: 78f77fd1
                 name: VIP_Grfe_Car_Orth_04
               - id: '19620214'
+                model: 1a0431f8
                 name: VIP_Grfe_Car_Orth_05
               - id: '19620215'
+                model: 7a043959
                 name: VIP_Grfe_Car_Orth_06
               - id: '19620216'
+                model: 98651b46
                 name: VIP_Grfe_Car_Orth_07
               - id: '19620217'
+                model: b865187e
                 name: VIP_Grfe_Car_Orth_08
               - id: '19620218'
+                model: 9a04533d
                 name: VIP_Grfe_Car_Orth_09
               - id: '19620219'
+                model: 59db9f15
                 name: VIP_Grfe_Car_Orth_10
               - id: 1962021a
+                model: 59db9de4
                 name: VIP_Grfe_Car_Orth_11
               - id: 1962021b
+                model: 78f38252
                 name: VIP_Grfe_Car_Orth_12
               - id: 1962021c
+                model: f889ad9d
                 name: VIP_Grfe_Car_Orth_13
               - id: 1962021d
+                model: f88b49e8
                 name: VIP_Grfe_Car_Orth_14
               - id: 1962021e
+                model: b864c75d
                 name: VIP_Grfe_Car_Orth_15
               - id: 1962021f
+                model: 1865dc6a
                 name: VIP_Grfe_Car_Orth_16
               - id: '19620220'
+                model: b865dcfc
                 name: VIP_Grfe_Car_Orth_17
               - id: '19620221'
+                model: 986a146c
                 name: VIP_Grfe_Car_Orth_18
               - id: '19620222'
+                model: 786a0f9b
                 name: VIP_Grfe_Car_Orth_19
               - id: '19620223'
+                model: 9864c4c2
                 name: VIP_Grfe_Car_Orth_20
           '19620230':
+            model: 58f73c36
             name: VIP_Grfe_Car_Diag_01
             stages:
               - id: '19620231'
+                model: f8f78651
                 name: VIP_Grfe_Car_Diag_02
               - id: '19620232'
+                model: 9a043482
                 name: VIP_Grfe_Car_Diag_03
               - id: '19620233'
+                model: 98db34a2
                 name: VIP_Grfe_Car_Diag_04
               - id: '19620234'
+                model: '58636394'
                 name: VIP_Grfe_Car_Diag_05
               - id: '19620235'
+                model: 186380d4
                 name: VIP_Grfe_Car_Diag_06
               - id: '19620236'
+                model: d8651e72
                 name: VIP_Grfe_Car_Diag_07
               - id: '19620237'
+                model: 1864d06c
                 name: VIP_Grfe_Car_Diag_08
               - id: '19620238'
+                model: ba045525
                 name: VIP_Grfe_Car_Diag_09
               - id: '19620239'
+                model: 9a0455d8
                 name: VIP_Grfe_Car_Diag_10
               - id: 1962023a
+                model: 59dca1dd
                 name: VIP_Grfe_Car_Diag_11
               - id: 1962023b
+                model: 39dca1ec
                 name: VIP_Grfe_Car_Diag_12
               - id: 1962023c
+                model: 1a032c4d
                 name: VIP_Grfe_Car_Diag_13
               - id: 1962023d
+                model: 9a032d15
                 name: VIP_Grfe_Car_Diag_14
               - id: 1962023e
+                model: 58f385d8
                 name: VIP_Grfe_Car_Diag_15
               - id: 1962023f
+                model: 388b14f4
                 name: VIP_Grfe_Car_Diag_16
               - id: '19620240'
+                model: 588b4b65
                 name: VIP_Grfe_Car_Diag_17
               - id: '19620241'
+                model: 7864c5ab
                 name: VIP_Grfe_Car_Diag_18
               - id: '19620242'
+                model: 586a1606
                 name: VIP_Grfe_Car_Diag_19
               - id: '19620243'
+                model: 7868d06f
                 name: VIP_Grfe_Car_Diag_20
           '19620500':
+            model: b8f735fe
             name: VIP_Grfe_Car_Orth_21
             stages:
               - id: '19620501'
+                model: f8f78146
                 name: VIP_Grfe_Car_Orth_22
               - id: '19620502'
+                model: fa0431bb
                 name: VIP_Grfe_Car_Orth_23
               - id: '19620503'
+                model: b8db3591
                 name: VIP_Grfe_Car_Orth_24
               - id: '19620504'
+                model: f8db3631
                 name: VIP_Grfe_Car_Orth_25
               - id: '19620505'
+                model: 3863b560
                 name: VIP_Grfe_Car_Orth_26
               - id: '19620506'
+                model: 78651ded
                 name: VIP_Grfe_Car_Orth_27
               - id: '19620507'
+                model: b864d1b3
                 name: VIP_Grfe_Car_Orth_28
               - id: '19620508'
+                model: 5a044eb9
                 name: VIP_Grfe_Car_Orth_29
               - id: '19620509'
+                model: 98f38108
                 name: VIP_Grfe_Car_Orth_30
               - id: 1962050a
+                model: 38f381d0
                 name: VIP_Grfe_Car_Orth_31
               - id: 1962050b
+                model: 58886a6f
                 name: VIP_Grfe_Car_Orth_32
               - id: 1962050c
+                model: 388b6380
                 name: VIP_Grfe_Car_Orth_33
               - id: 1962050d
+                model: b8648408
                 name: VIP_Grfe_Car_Orth_34
               - id: 1962050e
+                model: 9864c83c
                 name: VIP_Grfe_Car_Orth_35
               - id: 1962050f
+                model: 986a153e
                 name: VIP_Grfe_Car_Orth_36
               - id: '19620510'
+                model: 1865d95f
                 name: VIP_Grfe_Car_Orth_37
               - id: '19620511'
+                model: b865de9d
                 name: VIP_Grfe_Car_Orth_38
               - id: '19620512'
+                model: d868aff6
                 name: VIP_Grfe_Car_Orth_39
               - id: '19620513'
+                model: 3868cfe0
                 name: VIP_Grfe_Car_Orth_40
           '19620520':
+            model: 38f78718
             name: VIP_Grfe_Car_Diag_21
             stages:
               - id: '19620521'
+                model: fa042c2b
                 name: VIP_Grfe_Car_Diag_22
               - id: '19620522'
+                model: 18db33a9
                 name: VIP_Grfe_Car_Diag_23
               - id: '19620523'
+                model: 186380d4
                 name: VIP_Grfe_Car_Diag_24
               - id: '19620524'
+                model: b8651be5
                 name: VIP_Grfe_Car_Diag_25
               - id: '19620525'
+                model: 9864e14a
                 name: VIP_Grfe_Car_Diag_26
               - id: '19620526'
+                model: f864d23e
                 name: VIP_Grfe_Car_Diag_27
               - id: '19620527'
+                model: b8651a85
                 name: VIP_Grfe_Car_Diag_28
               - id: '19620528'
+                model: 9a045649
                 name: VIP_Grfe_Car_Diag_29
               - id: '19620529'
+                model: f9dca1f8
                 name: VIP_Grfe_Car_Diag_30
               - id: 1962052a
+                model: da032fe6
                 name: VIP_Grfe_Car_Diag_31
               - id: 1962052b
+                model: 78f383df
                 name: VIP_Grfe_Car_Diag_32
               - id: 1962052c
+                model: 78f3874a
                 name: VIP_Grfe_Car_Diag_33
               - id: 1962052d
+                model: f889a462
                 name: VIP_Grfe_Car_Diag_34
               - id: 1962052e
+                model: 188b6198
                 name: VIP_Grfe_Car_Diag_35
               - id: 1962052f
+                model: 3864c8d3
                 name: VIP_Grfe_Car_Diag_36
               - id: '19620530'
+                model: f86a13b4
                 name: VIP_Grfe_Car_Diag_37
               - id: '19620531'
+                model: 7865dd79
                 name: VIP_Grfe_Car_Diag_38
               - id: '19620532'
+                model: 5865db91
                 name: VIP_Grfe_Car_Diag_39
               - id: '19620533'
+                model: 3868af19
                 name: VIP_Grfe_Car_Diag_40
         Grfe_CarPack_MMP vol03.dat:
           '19623060':
+            model: 7cde30f8
             name: VIP_Grfe_Car_Orth_41
             stages:
               - id: '19623061'
+                model: 5cde351d
                 name: VIP_Grfe_Car_Orth_42
               - id: '19623062'
+                model: 9cde37aa
                 name: VIP_Grfe_Car_Orth_43
               - id: '19623063'
+                model: dcde35e4
                 name: VIP_Grfe_Car_Orth_44
               - id: '19623064'
+                model: dc3d3b0f
                 name: VIP_Grfe_Car_Orth_45
               - id: '19623065'
+                model: bc3d3813
                 name: VIP_Grfe_Car_Orth_46
               - id: '19623066'
+                model: 1c3d3712
                 name: VIP_Grfe_Car_Orth_47
               - id: '19623067'
+                model: dc3d3a30
                 name: VIP_Grfe_Car_Orth_48
               - id: '19623068'
+                model: 7d5f8af8
                 name: VIP_Grfe_Car_Orth_49
               - id: '19623069'
+                model: 9d5f9226
                 name: VIP_Grfe_Car_Orth_50
               - id: 1962306a
+                model: dd5f8ef7
                 name: VIP_Grfe_Car_Orth_51
               - id: 1962306b
+                model: 5d5f8fec
                 name: VIP_Grfe_Car_Orth_52
               - id: 1962306c
+                model: fd04e15f
                 name: VIP_Grfe_Car_Orth_53
               - id: 1962306d
+                model: dd04e43e
                 name: VIP_Grfe_Car_Orth_54
               - id: 1962306e
+                model: bd04e250
                 name: VIP_Grfe_Car_Orth_55
               - id: 1962306f
+                model: 3d04e365
                 name: VIP_Grfe_Car_Orth_56
               - id: '19623070'
+                model: 5d6129bb
                 name: VIP_Grfe_Car_Orth_57
               - id: '19623071'
+                model: 7d612bd3
                 name: VIP_Grfe_Car_Orth_58
               - id: '19623072'
+                model: 1d612c44
                 name: VIP_Grfe_Car_Orth_59
               - id: '19623073'
+                model: 1d612cc7
                 name: VIP_Grfe_Car_Orth_60
               - id: '19623074'
+                model: 3d5d2d69
                 name: VIP_Grfe_Car_Orth_61
               - id: '19623075'
+                model: bd5d35af
                 name: VIP_Grfe_Car_Orth_62
               - id: '19623076'
+                model: fd5d3265
                 name: VIP_Grfe_Car_Orth_63
               - id: '19623077'
+                model: fd5d333d
                 name: VIP_Grfe_Car_Orth_64
               - id: '19623078'
+                model: 7c3d54d0
                 name: VIP_Grfe_Car_Orth_65
               - id: '19623079'
+                model: 5c3d51c0
                 name: VIP_Grfe_Car_Orth_66
               - id: 1962307a
+                model: 9c3d53bf
                 name: VIP_Grfe_Car_Orth_67
               - id: 1962307b
+                model: dc3d576d
                 name: VIP_Grfe_Car_Orth_68
               - id: 1962307c
+                model: 3d2d4d98
                 name: VIP_Grfe_Car_Orth_69
               - id: 1962307d
+                model: 5d2d4c88
                 name: VIP_Grfe_Car_Orth_70
               - id: 1962307e
+                model: 9d2d4a6c
                 name: VIP_Grfe_Car_Orth_71
               - id: 1962307f
+                model: 9d2d446c
                 name: VIP_Grfe_Car_Orth_72
               - id: '19623080'
+                model: 5c3d83f4
                 name: VIP_Grfe_Car_Orth_73
               - id: '19623081'
+                model: dc3d8ce0
                 name: VIP_Grfe_Car_Orth_74
               - id: '19623082'
+                model: 1c3d8c02
                 name: VIP_Grfe_Car_Orth_75
               - id: '19623083'
+                model: fc3d8fa9
                 name: VIP_Grfe_Car_Orth_76
               - id: '19623084'
+                model: dd7076cb
                 name: VIP_Grfe_Car_Orth_77
               - id: '19623085'
+                model: 5d708133
                 name: VIP_Grfe_Car_Orth_78
               - id: '19623086'
+                model: 9d7072b4
                 name: VIP_Grfe_Car_Orth_79
               - id: '19623087'
+                model: bd70a4d2
                 name: VIP_Grfe_Car_Orth_80
           af448230:
+            model: 7cde325f
             name: VIP_Grfe_Car_Diag_41
             stages:
               - id: af448231
+                model: 1cde347b
                 name: VIP_Grfe_Car_Diag_42
               - id: af448232
+                model: 9cde36ff
                 name: VIP_Grfe_Car_Diag_43
               - id: af448233
+                model: 3cde3666
                 name: VIP_Grfe_Car_Diag_44
               - id: af448234
+                model: bc3d3bac
                 name: VIP_Grfe_Car_Diag_45
               - id: af448235
+                model: 5c3d38a6
                 name: VIP_Grfe_Car_Diag_46
               - id: af448236
+                model: 9c3d3660
                 name: VIP_Grfe_Car_Diag_47
               - id: af448237
+                model: fc3d39a6
                 name: VIP_Grfe_Car_Diag_48
               - id: af448238
+                model: 5d5f8c51
                 name: VIP_Grfe_Car_Diag_49
               - id: af448239
+                model: 9d5f9195
                 name: VIP_Grfe_Car_Diag_50
               - id: af448240
+                model: fd5f8e11
                 name: VIP_Grfe_Car_Diag_51
               - id: af448241
+                model: 3d5f90b7
                 name: VIP_Grfe_Car_Diag_52
               - id: af448242
+                model: 3cb473e8
                 name: VIP_Grfe_Car_Diag_53
               - id: af448243
+                model: 3cb4752f
                 name: VIP_Grfe_Car_Diag_54
               - id: af448244
+                model: 7cb477e9
                 name: VIP_Grfe_Car_Diag_55
               - id: af448245
+                model: 5cb47747
                 name: VIP_Grfe_Car_Diag_56
               - id: af448246
+                model: 7d5e85fe
                 name: VIP_Grfe_Car_Diag_57
               - id: af448247
+                model: 9d5e8220
                 name: VIP_Grfe_Car_Diag_58
               - id: af448248
+                model: bd5e7970
                 name: VIP_Grfe_Car_Diag_59
               - id: af448249
+                model: dd5e882b
                 name: VIP_Grfe_Car_Diag_60
               - id: af448250
+                model: 9d5d2e2a
                 name: VIP_Grfe_Car_Diag_61
               - id: af448251
+                model: 7d5d3493
                 name: VIP_Grfe_Car_Diag_62
               - id: af448252
+                model: dd5d31bb
                 name: VIP_Grfe_Car_Diag_63
               - id: af448253
+                model: 7d5d33e9
                 name: VIP_Grfe_Car_Diag_64
               - id: af448254
+                model: 5c3d555c
                 name: VIP_Grfe_Car_Diag_65
               - id: af448255
+                model: 3c3d5268
                 name: VIP_Grfe_Car_Diag_66
               - id: af448256
+                model: 9c3d5333
                 name: VIP_Grfe_Car_Diag_67
               - id: af448257
+                model: 3c3d56ee
                 name: VIP_Grfe_Car_Diag_68
               - id: af448258
+                model: 9d2d4e67
                 name: VIP_Grfe_Car_Diag_69
               - id: af448259
+                model: bd2d4bfb
                 name: VIP_Grfe_Car_Diag_70
               - id: af448260
+                model: fd2d4978
                 name: VIP_Grfe_Car_Diag_71
               - id: af448261
+                model: fd2d46c8
                 name: VIP_Grfe_Car_Diag_72
               - id: af448262
+                model: 9c3d8675
                 name: VIP_Grfe_Car_Diag_73
               - id: af448263
+                model: 9c3d8d90
                 name: VIP_Grfe_Car_Diag_74
               - id: af448264
+                model: 9c3d8b78
                 name: VIP_Grfe_Car_Diag_75
               - id: af448265
+                model: 9c3d8f17
                 name: VIP_Grfe_Car_Diag_76
               - id: af448266
+                model: 7d707798
                 name: VIP_Grfe_Car_Diag_77
               - id: af448267
+                model: 3d7080a0
                 name: VIP_Grfe_Car_Diag_78
               - id: af448268
+                model: 1d7074f9
                 name: VIP_Grfe_Car_Diag_79
               - id: af448269
+                model: bd70a571
                 name: VIP_Grfe_Car_Diag_80
       props:
         Grfe_Props_Pack_4_rue_des_Lilas.dat:
           3f4e10f4:
+            model: '02161e27'
             name: Grfe_mailbox
           3f4e1131:
+            model: a2161b25
             name: Grfe_stone_small_wall_8x2
           9f4e10d4:
+            model: 2216330e
             name: Grfe_barbecue
         Grfe_Props_Pack_Carpack vol01-vol02-Original v2.dat:
           1867ab4a:
+            model: 3863b560
             name: VIP_car_Grfe_Fiat_500_rouge_90_HD
           1868be51:
+            model: b8648408
             name: VIP_car_Grfe_Seat_arosa_bleue_90_HD
           1868be92:
+            model: 3864c8d3
             name: VIP_car_Grfe_Seat_arosa_marron_45_HD
           1868d8c0:
+            model: 7864e0ae
             name: VIP_car_Grfe_Nissan_micra_rouge_90_HD
           1869d3b4:
+            model: b865de9d
             name: VIP_car_Grfe_Toyota_yaris_verte_90_HD
           186e0d4f:
+            model: 986a153e
             name: VIP_car_Grfe_Smart_42_blanche_90_HD
           188f0b23:
+            model: 388b15a9
             name: VIP_car_Grfe_Renault_megane_noire_90_HD
           18f5eef9:
+            model: 39db9f20
             name: VIP_car_Grfe_Porsche_cayenne_beige_90_HD
           18f63c62:
+            model: 7a032bf2
             name: VIP_car_Grfe_Renault_clio_noire_45_HD
           18f63c91:
+            model: 5a0328c1
             name: VIP_car_Grfe_Renault_clio_noire_90_HD
           18f77c85:
+            model: 58f385d8
             name: VIP_car_Grfe_Renault_kangoo_orange_45_HD
           18fb335d:
+            model: 38f736ec
             name: VIP_car_Grfe_Audi_a3_noire_90_HD
           18fb3384:
+            model: 18f73c2c
             name: VIP_car_Grfe_Audi_a3_rouge_45_HD
           18fb83a3:
+            model: 38f78718
             name: VIP_car_Grfe_Citroen_c2_rose_45_HD
           1d4e8b59:
+            model: 18db33a9
             name: Grfe_Dacia_logan_blue_45
           1d4e8b72:
+            model: 58bfd232
             name: Grfe_Dacia_logan_blue_90
           1d4e8b90:
+            model: 58db341f
             name: Grfe_Dacia_logan_grey_45
           1d4e8c81:
+            model: 18637bdc
             name: Grfe_Fiat_500_black_90
           1d4e9e44:
+            model: 78f38252
             name: Grfe_Renault_kangoo_white_90
           1d4ea325:
+            model: 59db9f09
             name: Grfe_Porsche_cayenne_black_90
           1d4ea36a:
+            model: 39dca1ec
             name: Grfe_Porsche_cayenne_white_45
           1d4ea4e9:
+            model: 9a486f74
             name: Grfe_Citroen_xsara_green_45
           1d4ea64d:
+            model: 1a042c55
             name: Grfe_Citroen_c3_purple_45
           1d4ea668:
+            model: ba042c1d
             name: Grfe_Citroen_c3_red_45
           1d4ea6a8:
+            model: fa042c2b
             name: Grfe_Citroen_c3_grey_45
           1d4ea6c1:
+            model: fa0431bb
             name: Grfe_Citroen_c3_blue_90
           1d4ea9a8:
+            model: 786a1296
             name: Grfe_Smart_42_orange_45
           1d4eab0c:
+            model: 1864c6c3
             name: Grfe_Seat_arosa_white_45
           1d4eab9a:
+            model: d88b64ce
             name: Grfe_Renault_scenic_green_45
           1d4eaebe:
+            model: 3868cfe0
             name: Grfe_VW_lupo_grey_90
           3868be77:
+            model: 9864c4c2
             name: VIP_car_Grfe_Seat_arosa_noire_90_HD
           3868be85:
+            model: 7864c5ab
             name: VIP_car_Grfe_Seat_arosa_noire_45_HD
           3868beb0:
+            model: 1864857a
             name: VIP_car_Grfe_Seat_arosa_bleue_45_HD
           3868c09c:
+            model: 5863b8bd
             name: VIP_car_Grfe_Fiat_500_verte_90_HD
           3868d2e7:
+            model: b864d1b3
             name: VIP_car_Grfe_Nissan_micra_grise_90_HD
           3869d3a5:
+            model: d865da4f
             name: VIP_car_Grfe_Toyota_yaris_bleue_45_HD
           386cc676:
+            model: d868d116
             name: VIP_car_Grfe_VW_lupo_verte_45_HD
           38df2c9a:
+            model: 18db33a9
             name: VIP_car_Grfe_Dacia_logan_bleue_45_HD
           38f63c3b:
+            model: 9a032d15
             name: VIP_car_Grfe_Renault_clio_bleue_45_HD
           38f63caf:
+            model: 3a0329a1
             name: VIP_car_Grfe_Renault_clio_bleue_90_HD
           38f73dad:
+            model: 1a042c55
             name: VIP_car_Grfe_Citroen_c3_violette_45_HD
           38f7624a:
+            model: fa044fd2
             name: VIP_car_Grfe_Peugeot_307_verte_90_HD
           38f7669b:
+            model: ba045525
             name: VIP_car_Grfe_Peugeot_307_blanche_45_HD
           38f77743:
+            model: f8f37ed6
             name: VIP_car_Grfe_Renault_kangoo_gris_90_HD
           38f77c97:
+            model: 38f381d0
             name: VIP_car_Grfe_Renault_kangoo_orange_90_HD
           38fb8305:
+            model: f8f78651
             name: VIP_car_Grfe_Citroen_c2_grise_45_HD
           38fb85a9:
+            model: f8f784c9
             name: VIP_car_Grfe_Citroen_c2_grise_90_HD
           3d4e8c99:
+            model: d863b615
             name: Grfe_Fiat_500_red_45
           3d4e8cc4:
+            model: 7863b825
             name: Grfe_Fiat_500_green_45
           3d4e8cdc:
+            model: 5863b8bd
             name: Grfe_Fiat_500_green_90
           3d4e9cc3:
+            model: 9a032d15
             name: Grfe_Renault_clio_blue_45
           3d4e9ddb:
+            model: 38f381d0
             name: Grfe_Renault_kangoo_orange_90
           3d4ea288:
+            model: da032fe6
             name: Grfe_Renault_clio_beige_45
           3d4ea3ee:
+            model: 9a0455d8
             name: Grfe_Peugeot_307_green_45
           3d4ea405:
+            model: 5a044eb9
             name: Grfe_Peugeot_307_brown_90
           3d4ea45a:
+            model: 9a04533d
             name: Grfe_Peugeot_307_white_90
           3d4ea67e:
+            model: 7a043959
             name: Grfe_Citroen_c3_red_90
           3d4ea78c:
+            model: 58f7872f
             name: Grfe_Citroen_c2_green_45
           3d4ea897:
+            model: 58f73c36
             name: Grfe_Audi_a3_black_45
           3d4eabcc:
+            model: 388b671e
             name: Grfe_Renault_scenic_blue_45
           3d4eabe3:
+            model: f88b49e8
             name: Grfe_Renault_scenic_white_90
           586cc6e1:
+            model: 3868af19
             name: VIP_car_Grfe_VW_lupo_bleue_45_HD
           588d942a:
+            model: 58886a6f
             name: VIP_car_Grfe_Renault_megane_bleue_90_HD
           588d997d:
+            model: f889a462
             name: VIP_car_Grfe_Renault_megane_bleue_45_HD
           588f5a64:
+            model: d88b64ce
             name: VIP_car_Grfe_Renault_scenic_vert_45_HD
           58df2c60:
+            model: 98db344f
             name: VIP_car_Grfe_Dacia_logan_verte_45_HD
           58f5ee85:
+            model: 79dca205
             name: VIP_car_Grfe_Porsche_cayenne_vert_45_HD
           58f73d5c:
+            model: ba042c1d
             name: VIP_car_Grfe_Citroen_c3_rouge_45_HD
           58f766af:
+            model: 9a045649
             name: VIP_car_Grfe_Peugeot_307_marron_45_HD
           58f766e2:
+            model: 7a044f07
             name: VIP_car_Grfe_Peugeot_307_grise_90_HD
           58f77c76:
+            model: 58f38672
             name: VIP_car_Grfe_Renault_kangoo_gris_45_HD
           58fb8356:
+            model: b8f78405
             name: VIP_car_Grfe_Citroen_c2_noire_90_HD
           5d4e8c0d:
+            model: f8db3631
             name: Grfe_Dacia_logan_green_90
           5d4e8c42:
+            model: d863623f
             name: Grfe_Fiat_500_white_90
           5d4e8cb1:
+            model: 3863b560
             name: Grfe_Fiat_500_red_90
           5d4e8d97:
+            model: b8651a85
             name: Grfe_Mercedes_cls_black_45
           5d4e8db0:
+            model: b865187e
             name: Grfe_Mercedes_cls_black_90
           5d4e9072:
+            model: f864d23e
             name: Grfe_Nissan_micra_grey_45
           5d4ea20c:
+            model: 3a0329a1
             name: Grfe_Renault_clio_blue_90
           5d4ea30d:
+            model: 79dca205
             name: Grfe_Porsche_cayenne_green_45
           5d4ea6d6:
+            model: 9a043482
             name: Grfe_Citroen_c3_blue_45
           5d4ea7fc:
+            model: f8f784c9
             name: Grfe_Citroen_c2_grey_90
           5d4ea8b1:
+            model: d8f733ac
             name: Grfe_Audi_a3_blue_90
           5d4eaa84:
+            model: 9864c4c2
             name: Grfe_Seat_arosa_black_90
           5d4eaab5:
+            model: 9864c83c
             name: Grfe_Seat_arosa_brown_90
           5d4eaaf9:
+            model: 1864857a
             name: Grfe_Seat_arosa_blue_45
           5d4eaf02:
+            model: 3868af19
             name: Grfe_VW_lupo_blue_45
           5d4eb038:
+            model: 5865db91
             name: Grfe_Toyota_yaris_yellow_45
           7869cf32:
+            model: 1865d95f
             name: VIP_car_Grfe_Toyota_yaris_bleue_90_HD
           786cc686:
+            model: d868aff6
             name: VIP_car_Grfe_VW_lupo_bleue_90_HD
           786cc693:
+            model: d868ad0c
             name: VIP_car_Grfe_VW_lupo_noire_45_HD
           786cc6b3:
+            model: 7868d06f
             name: VIP_car_Grfe_VW_lupo_grise_45_HD
           788f5481:
+            model: f88b49e8
             name: VIP_car_Grfe_Renault_scenic_blanche_90_HD
           788f5a55:
+            model: f88b653a
             name: VIP_car_Grfe_Renault_scenic_vert_90_HD
           788f5a8f:
+            model: 388b6380
             name: VIP_car_Grfe_Renault_scenic_bleu_90_HD
           78f5ee9f:
+            model: 59dca1dd
             name: VIP_car_Grfe_Porsche_cayenne_beige_45_HD
           78f73d3b:
+            model: fa042c2b
             name: VIP_car_Grfe_Citroen_c3_grise_45_HD
           78f741f2:
+            model: 1a0431f8
             name: VIP_car_Grfe_Citroen_c3_grise_90_HD
           78f76724:
+            model: 5a044eb9
             name: VIP_car_Grfe_Peugeot_307_marron_90_HD
           78f77c37:
+            model: 98f38108
             name: VIP_car_Grfe_Renault_kangoo_vert_90_HD
           78fb3328:
+            model: 78f73798
             name: VIP_car_Grfe_Audi_a3_rouge_90_HD
           7d4e8bc4:
+            model: 98db34a2
             name: Grfe_Dacia_logan_red_45
           7d4e8c65:
+            model: 186380d4
             name: Grfe_Fiat_500_black_45
           7d4e90a2:
+            model: 9864e14a
             name: Grfe_Nissan_micra_red_45
           7d4e9dee:
+            model: 58f385d8
             name: Grfe_Renault_kangoo_orange_45
           7d4e9e03:
+            model: 58f38672
             name: Grfe_Renault_kangoo_grey_45
           7d4e9e64:
+            model: 78f383df
             name: Grfe_Renault_kangoo_white_45
           7d4ea419:
+            model: 9a045649
             name: Grfe_Peugeot_307_brown_45
           7d4ea4d2:
+            model: fa486f10
             name: Grfe_Citroen_xsara_green_90
           7d4ea7a2:
+            model: f8f78146
             name: Grfe_Citroen_c2_pink_90
           7d4ea859:
+            model: 78f73798
             name: Grfe_Audi_a3_red_90
           7d4ea86e:
+            model: 18f73c2c
             name: Grfe_Audi_a3_red_45
           7d4eabb2:
+            model: 388b6380
             name: Grfe_Renault_scenic_blue_90
           7d4eae5b:
+            model: d868d116
             name: Grfe_VW_lupo_green_45
           7d4eaea6:
+            model: d868ad0c
             name: Grfe_VW_lupo_black_45
           7d4eaeeb:
+            model: d868aff6
             name: Grfe_VW_lupo_blue_90
           7d4eaff2:
+            model: b865dcfc
             name: Grfe_Toyota_yaris_red_90
           7d4eb054:
+            model: 1865d95f
             name: Grfe_Toyota_yaris_blue_90
           9868d888:
+            model: b864e36a
             name: VIP_car_Grfe_Nissan_micra_verte_90_HD
           '98691354':
+            model: b8651a85
             name: VIP_car_Grfe_Mercedes_cls_noire_45_HD
           '98691391':
+            model: d8651e72
             name: VIP_car_Grfe_Mercedes_cls_grise_45_HD
           9869d3f6:
+            model: 1865de14
             name: VIP_car_Grfe_Toyota_yaris_verte_45_HD
           9869d403:
+            model: 1865dc6a
             name: VIP_car_Grfe_Toyota_yaris_jaune_90_HD
           986ca082:
+            model: b868abb4
             name: VIP_car_Grfe_VW_lupo_noire_90_HD
           986e0d7a:
+            model: 586a1606
             name: VIP_car_Grfe_Smart_42_blanche_45_HD
           988f0ae0:
+            model: f889ad9d
             name: VIP_car_Grfe_Renault_megane_rouge_90_HD
           988f0af3:
+            model: d889a5c2
             name: VIP_car_Grfe_Renault_megane_grise_45_HD
           988f0b16:
+            model: 788abdbd
             name: VIP_car_Grfe_Renault_megane_rouge_45_HD
           988f5a72:
+            model: 988b6234
             name: VIP_car_Grfe_Renault_scenic_beige_90_HD
           98df2c31:
+            model: f8db3631
             name: VIP_car_Grfe_Dacia_logan_verte_90_HD
           98df2c87:
+            model: 58bfd232
             name: VIP_car_Grfe_Dacia_logan_bleue_90_HD
           98df342d:
+            model: 98db34a2
             name: VIP_car_Grfe_Dacia_logan_rouge_45_HD
           98f5eeb5:
+            model: 59db9f15
             name: VIP_car_Grfe_Porsche_cayenne_blanc_90_HD
           98f63cd3:
+            model: 1a032c4d
             name: VIP_car_Grfe_Renault_clio_blanche_45_HD
           98f77c68:
+            model: 78f38252
             name: VIP_car_Grfe_Renault_kangoo_blanc_90_HD
           98fb333b:
+            model: 58f73c36
             name: VIP_car_Grfe_Audi_a3_noire_45_HD
           98fb334c:
+            model: 38f73c4c
             name: VIP_car_Grfe_Audi_a3_bleue_45_HD
           9d4e8bdb:
+            model: b8db3591
             name: Grfe_Dacia_logan_red_90
           9d4e8d22:
+            model: 18651d3f
             name: Grfe_Mercedes_cls_beige_90
           9d4e8d35:
+            model: b8651be5
             name: Grfe_Mercedes_cls_white_45
           9d4e903e:
+            model: 1864d06c
             name: Grfe_Nissan_micra_blue_45
           9d4e908b:
+            model: b864d1b3
             name: Grfe_Nissan_micra_grey_90
           9d4e9dbd:
+            model: 98f38108
             name: Grfe_Renault_kangoo_green_90
           9d4ea33a:
+            model: f9dca1f8
             name: Grfe_Porsche_cayenne_black_45
           9d4ea352:
+            model: 59db9f15
             name: Grfe_Porsche_cayenne_white_90
           9d4ea380:
+            model: 39db9f20
             name: Grfe_Porsche_cayenne_beige_90
           9d4ea430:
+            model: 7a044f07
             name: Grfe_Peugeot_307_grey_90
           9d4ea446:
+            model: 3a045654
             name: Grfe_Peugeot_307_grey_45
           9d4ea693:
+            model: 1a0431f8
             name: Grfe_Citroen_c3_grey_90
           9d4ea811:
+            model: f8f78651
             name: Grfe_Citroen_c2_grey_45
           9d4ea9ea:
+            model: 986a146c
             name: Grfe_Smart_42_blue_90
           9d4eaacd:
+            model: 3864c8d3
             name: Grfe_Seat_arosa_brown_45
           9d4eab26:
+            model: b864c75d
             name: Grfe_Seat_arosa_white_90
           9d4eac14:
+            model: 988b6234
             name: Grfe_Renault_scenic_beige_90
           9d4eb008:
+            model: 7865dd79
             name: Grfe_Toyota_yaris_red_45
           9d4eb06b:
+            model: d865da4f
             name: Grfe_Toyota_yaris_blue_45
           9d4ebe5a:
+            model: 38f78718
             name: Grfe_Citroen_c2_pink_45
           9d4ebeb2:
+            model: 98651b46
             name: Grfe_Mercedes_cls_white_90
           b8675735:
+            model: d863623f
             name: VIP_car_Grfe_Fiat_500_blanche_90_HD
           b867ab5f:
+            model: d863b615
             name: VIP_car_Grfe_Fiat_500_rouge_45_HD
           b867ab8d:
+            model: '58636394'
             name: VIP_car_Grfe_Fiat_500_blanche_45_HD
           b868bdfc:
+            model: b864c75d
             name: VIP_car_Grfe_Seat_arosa_blanche_90_HD
           b868c08b:
+            model: 7863b825
             name: VIP_car_Grfe_Fiat_500_verte_45_HD
           b868d877:
+            model: f864d23e
             name: VIP_car_Grfe_Nissan_micra_grise_45_HD
           b868d8b0:
+            model: 9864cf9f
             name: VIP_car_Grfe_Nissan_micra_bleue_90_HD
           b868d8ce:
+            model: 1864d06c
             name: VIP_car_Grfe_Nissan_micra_bleue_45_HD
           b8690d6d:
+            model: b865187e
             name: VIP_car_Grfe_Mercedes_cls_noire_90_HD
           b8691328:
+            model: b8651cb7
             name: VIP_car_Grfe_Mercedes_cls_beige_45_HD
           b8691372:
+            model: 98651b46
             name: VIP_car_Grfe_Mercedes_cls_blanche_90_HD
           b869d3cc:
+            model: 7865dd79
             name: VIP_car_Grfe_Toyota_yaris_rouge_45_HD
           b86e0666:
+            model: 786a0f9b
             name: VIP_car_Grfe_Smart_42_orange_90_HD
           b86e0d27:
+            model: f86a1749
             name: VIP_car_Grfe_Smart_42_noire_45_HD
           b86e0d8e:
+            model: 386a180f
             name: VIP_car_Grfe_Smart_42_noire_90_HD
           b88f5495:
+            model: 588b4b65
             name: VIP_car_Grfe_Renault_scenic_blanche_45_HD
           b8f5eecf:
+            model: 59db9f09
             name: VIP_car_Grfe_Porsche_cayenne_noir_90_HD
           b8f63c7a:
+            model: 7a03274f
             name: VIP_car_Grfe_Renault_clio_blanche_90_HD
           b8f74652:
+            model: da0437d1
             name: VIP_car_Grfe_Citroen_c3_violette_90_HD
           b8f766d2:
+            model: 9a04533d
             name: VIP_car_Grfe_Peugeot_307_blanche_90_HD
           b8f76737:
+            model: 3a045654
             name: VIP_car_Grfe_Peugeot_307_grise_45_HD
           b8f77c4b:
+            model: 78f3874a
             name: VIP_car_Grfe_Renault_kangoo_vert_45_HD
           b8fb291f:
+            model: d8f733ac
             name: VIP_car_Grfe_Audi_a3_bleue_90_HD
           b8fb833c:
+            model: d8f78723
             name: VIP_car_Grfe_Citroen_c2_noire_45_HD
           bd4e8cf8:
+            model: b8651cb7
             name: Grfe_Mercedes_cls_beige_45
           bd4e905a:
+            model: 9864cf9f
             name: Grfe_Nissan_micra_blue_90
           bd4e9107:
+            model: b864e36a
             name: Grfe_Nissan_micra_green_90
           bd4e9e17:
+            model: f8f37ed6
             name: Grfe_Renault_kangoo_grey_90
           bd4ea525:
+            model: ba486d01
             name: Grfe_Citroen_xsara_grey_45
           bd4ea540:
+            model: da48703a
             name: Grfe_Citroen_xsara_blue_90
           bd4ea56b:
+            model: 5a486da5
             name: Grfe_Citroen_xsara_white_45
           bd4ea633:
+            model: da0437d1
             name: Grfe_Citroen_c3_purple_90
           bd4ea98b:
+            model: 786a0f9b
             name: Grfe_Smart_42_orange_90
           bd4ea9ba:
+            model: 386a180f
             name: Grfe_Smart_42_black_90
           bd4ea9d4:
+            model: f86a1749
             name: Grfe_Smart_42_black_45
           bd4eaa11:
+            model: 986a153e
             name: Grfe_Smart_42_white_90
           bd4eaae7:
+            model: b8648408
             name: Grfe_Seat_arosa_blue_90
           bd4eabfb:
+            model: 588b4b65
             name: Grfe_Renault_scenic_white_45
           bd4eae43:
+            model: 5868d185
             name: Grfe_VW_lupo_green_90
           bd4eaed1:
+            model: 7868d06f
             name: Grfe_VW_lupo_grey_45
           bd4eafc5:
+            model: b865de9d
             name: Grfe_Toyota_yaris_green_90
           bd4eafdd:
+            model: 1865de14
             name: Grfe_Toyota_yaris_green_45
           d86773f9:
+            model: 18637bdc
             name: VIP_car_Grfe_Fiat_500_noire_90_HD
           d868be68:
+            model: 9864c83c
             name: VIP_car_Grfe_Seat_arosa_marron_90_HD
           d868bea3:
+            model: 1864c6c3
             name: VIP_car_Grfe_Seat_arosa_blanche_45_HD
           d868d865:
+            model: f864e293
             name: VIP_car_Grfe_Nissan_micra_verte_45_HD
           d8691338:
+            model: 18651d3f
             name: VIP_car_Grfe_Mercedes_cls_beige_90_HD
           d869137e:
+            model: b8651be5
             name: VIP_car_Grfe_Mercedes_cls_blanche_45_HD
           d869d3bf:
+            model: b865dcfc
             name: VIP_car_Grfe_Toyota_yaris_rouge_90_HD
           d86e0d35:
+            model: f86a13b4
             name: VIP_car_Grfe_Smart_42_bleue_45_HD
           d86e0d6c:
+            model: 786a1296
             name: VIP_car_Grfe_Smart_42_orange_45_HD
           d88f0b06:
+            model: 9889a67e
             name: VIP_car_Grfe_Renault_megane_grise_90_HD
           d88f5a9c:
+            model: 188b6198
             name: VIP_car_Grfe_Renault_scenic_beige_45_HD
           d8df2d0b:
+            model: b8db3591
             name: VIP_car_Grfe_Dacia_logan_rouge_90_HD
           d8f4e7e9:
+            model: 59db9de4
             name: VIP_car_Grfe_Porsche_cayenne_vert_90_HD_C
           d8f5ee65:
+            model: f9dca1f8
             name: VIP_car_Grfe_Porsche_cayenne_noir_45_HD
           d8f5eee5:
+            model: 39dca1ec
             name: VIP_car_Grfe_Porsche_cayenne_blanc_45_HD
           dd4e8bf2:
+            model: 98db344f
             name: Grfe_Dacia_logan_green_45
           dd4e8d81:
+            model: 78651ded
             name: Grfe_Mercedes_cls_grey_90
           dd4e90b8:
+            model: 7864e0ae
             name: Grfe_Nissan_micra_red_90
           dd4ea234:
+            model: 5a0328c1
             name: Grfe_Renault_clio_black_90
           dd4ea3d6:
+            model: fa044fd2
             name: Grfe_Peugeot_307_green_90
           dd4ea46f:
+            model: ba045525
             name: Grfe_Peugeot_307_white_45
           dd4ea50d:
+            model: 3a486aec
             name: Grfe_Citroen_xsara_grey_90
           dd4ea583:
+            model: da486e2e
             name: Grfe_Citroen_xsara_white_90
           dd4ea775:
+            model: 78f77fd1
             name: Grfe_Citroen_c2_green_90
           dd4ea7cf:
+            model: b8f78405
             name: Grfe_Citroen_c2_black_90
           dd4ea7e4:
+            model: d8f78723
             name: Grfe_Citroen_c2_black_45
           dd4ea881:
+            model: 38f736ec
             name: Grfe_Audi_a3_black_90
           dd4ea8c8:
+            model: 38f73c4c
             name: Grfe_Audi_a3_blue_45
           dd4eaa28:
+            model: 586a1606
             name: Grfe_Smart_42_white_45
           dd4eac27:
+            model: 188b6198
             name: Grfe_Renault_scenic_beige_45
           dd4eae8f:
+            model: b868abb4
             name: Grfe_VW_lupo_black_90
           dd4eb01e:
+            model: 1865dc6a
             name: Grfe_Toyota_yaris_yellow_90
           dd4ebf11:
+            model: 59db9de4
             name: Grfe_Porsche_cayenne_green_90
           f867ab6e:
+            model: 186380d4
             name: VIP_car_Grfe_Fiat_500_noire_45_HD
           f868d8a0:
+            model: 9864e14a
             name: VIP_car_Grfe_Nissan_micra_rouge_45_HD
           f86913b1:
+            model: 78651ded
             name: VIP_car_Grfe_Mercedes_cls_grise_90_HD
           f869d3db:
+            model: 5865db91
             name: VIP_car_Grfe_Toyota_yaris_jaune_45_HD
           f86cc6c2:
+            model: 5868d185
             name: VIP_car_Grfe_VW_lupo_verte_90_HD
           f86cc6d3:
+            model: 3868cfe0
             name: VIP_car_Grfe_VW_lupo_grise_90_HD
           f86e0d5e:
+            model: 986a146c
             name: VIP_car_Grfe_Smart_42_bleue_90_HD
           f88f0b33:
+            model: 388b14f4
             name: VIP_car_Grfe_Renault_megane_noire_45_HD
           f88f5bec:
+            model: 388b671e
             name: VIP_car_Grfe_Renault_scenic_bleu_45_HD
           f8df2c73:
+            model: 58db341f
             name: VIP_car_Grfe_Dacia_logan_grise_45_HD
           f8df2cc1:
+            model: 38db353f
             name: VIP_car_Grfe_Dacia_logan_grise_90_HD
           f8f63edc:
+            model: da032fe6
             name: VIP_car_Grfe_Renault_clio_beige_45_HD
           f8f63ef4:
+            model: 7a03305a
             name: VIP_car_Grfe_Renault_clio_beige_90_HD
           f8f741c4:
+            model: fa0431bb
             name: VIP_car_Grfe_Citroen_c3_bleue_90_HD
           f8f7434b:
+            model: 9a043482
             name: VIP_car_Grfe_Citroen_c3_bleue_45_HD
           f8f74836:
+            model: 7a043959
             name: VIP_car_Grfe_Citroen_c3_rouge_90_HD
           f8f766c1:
+            model: 9a0455d8
             name: VIP_car_Grfe_Peugeot_307_verte_45_HD
           f8f77c5a:
+            model: 78f383df
             name: VIP_car_Grfe_Renault_kangoo_blanc_45_HD
           f8fb3305:
+            model: b8f735fe
             name: VIP_car_Grfe_Audi_a3_grise_90_HD
           f8fb769e:
+            model: 78f77fd1
             name: VIP_car_Grfe_Citroen_c2_verte_90_HD
           f8fb832a:
+            model: f8f78146
             name: VIP_car_Grfe_Citroen_c2_rose_90_HD
           f8fb8379:
+            model: 58f7872f
             name: VIP_car_Grfe_Citroen_c2_verte_45_HD
           fd4e8ba9:
+            model: 38db353f
             name: Grfe_Dacia_logan_grey_90
           fd4e8c28:
+            model: '58636394'
             name: Grfe_Fiat_500_white_45
           fd4e8d6c:
+            model: d8651e72
             name: Grfe_Mercedes_cls_grey_45
           fd4e90d3:
+            model: f864e293
             name: Grfe_Nissan_micra_green_45
           fd4e9d9c:
+            model: 78f3874a
             name: Grfe_Renault_kangoo_green_45
           fd4ea24a:
+            model: 7a03274f
             name: Grfe_Renault_clio_white_90
           fd4ea261:
+            model: 1a032c4d
             name: Grfe_Renault_clio_white_45
           fd4ea276:
+            model: 7a03305a
             name: Grfe_Renault_clio_beige_90
           fd4ea392:
+            model: 59dca1dd
             name: Grfe_Porsche_cayenne_beige_45
           fd4ea557:
+            model: 3a486f98
             name: Grfe_Citroen_xsara_blue_45
           fd4ea933:
+            model: b8f735fe
             name: Grfe_Audi_a3_grey_90
           fd4ea9fd:
+            model: f86a13b4
             name: Grfe_Smart_42_blue_45
           fd4eaa9c:
+            model: 7864c5ab
             name: Grfe_Seat_arosa_black_45
           fd4eab81:
+            model: f88b653a
             name: Grfe_Renault_scenic_green_90
           fd4ebf7a:
+            model: 7a032bf2
             name: Grfe_Renault_clio_black_45
         Grfe_Props_Pack_Carpack vol01-vol02-Remastered.dat:
           0dcbdb58:
+            model: f0a8da82
             name: Grfe_Fiat_500_blue_90
           0dcd9a1f:
+            model: 50f863cb
             name: Grfe_Peugeot_307_blue_90_B
           0dceba12:
+            model: f0f97572
             name: Grfe_Citroen_C2_red_90_B
           0dda7dc1:
+            model: 1069b41b
             name: Grfe_Seat_Arosa_red_90_B
           0dda9cc2:
+            model: 7069d44d
             name: Grfe_Porsche_Cayenne_grey_90_B
           0ddb8bba:
+            model: 506ab4c5
             name: Grfe_Toyota_Yaris_green_90_B
           0de10128:
+            model: 707037d0
             name: Grfe_Renault_Scenic_beige_45_B
           0de1dfb7:
+            model: 10703f42
             name: Grfe_Peugeot_307_grey_45_B
           0de4dd1c:
+            model: b0741548
             name: Grfe_Citroen_C3_orange_45_B
           0de4fe20:
+            model: d07435ea
             name: Grfe_Smart_42_grey_45_B
           0de4fe32:
+            model: b0743679
             name: Grfe_Smart_42_red_45_B
           0de74cea:
+            model: 707684dd
             name: Grfe_Toyota_Yaris_grey_45_B
           0de7cc85:
+            model: b0770599
             name: Grfe_VW_Lupo_grey_45_B
           0de7cca9:
+            model: 107703d8
             name: Grfe_VW_Lupo_blue_45_B
           0de8c328:
+            model: 9077fc5b
             name: Grfe_Citroen_Xsara_Picasso_beige_90_B
           0de8c5af:
+            model: 7077fe72
             name: Grfe_Citroen_Xsara_Picasso_grey_90_B
           2dce4aec:
+            model: 50f91515
             name: Grfe_Dacia_logan_black_90_B
           2dce4b0b:
+            model: 70f91448
             name: Grfe_Dacia_logan_green_90_B
           2dce9f1d:
+            model: f0f966e9
             name: Grfe_Audi_A3_red_90_B
           2dceba33:
+            model: 90f973cd
             name: Grfe_Citroen_C2_green_90_B
           2dcf9f54:
+            model: 7121f4eb
             name: Grfe_Mercedes_CLS_grey_90_B
           2dd9608d:
+            model: d068989a
             name: Grfe_Citroen_C3_blue_90_B
           2dda7dd5:
+            model: f069b10a
             name: Grfe_Seat_Arosa_yellow_90_B
           2ddf883a:
+            model: 506ec0bc
             name: Grfe_Renault_clio_red_45_B
           2ddf884f:
+            model: b06ec022
             name: Grfe_Renault_clio_white_45_B
           2ddf8ca7:
+            model: 306ec3d8
             name: Grfe_Renault_Kangoo_grey_45_B
           2de1dfd7:
+            model: 50703fd1
             name: Grfe_Peugeot_307_white_45_B
           2de4f4fc:
+            model: '10742664'
             name: Grfe_Dacia_logan_blue_45_B
           2de8b55e:
+            model: b077edc4
             name: Grfe_Nissan_Micra_white_45_B
           2de8c59e:
+            model: 9077fdeb
             name: Grfe_Citroen_Xsara_Picasso_green_90_B
           2de8df97:
+            model: b0780da7
             name: Grfe_Porsche_Cayenne_white_45_B
           4dcd97a3:
+            model: b0f85e98
             name: Grfe_Peugeot_307_white_90_B
           4dce3bbb:
+            model: 70f90484
             name: Grfe_Renault_clio_red_90_B
           4dce9eee:
+            model: 30f95351
             name: Grfe_Audi_A3_black_90_B
           4dcf914d:
+            model: '3121e811'
             name: Grfe_Nissan_Micra_green_90_B
           4dd960ae:
+            model: '50689982'
             name: Grfe_Citroen_C3_red_90_B
           4dda0f6a:
+            model: '10694849'
             name: Grfe_Smart_42_grey_90_B
           4dda9189:
+            model: d069c647
             name: Grfe_Renault_Scenic_beige_90_B
           4dda9cd0:
+            model: 3069d20e
             name: Grfe_Porsche_Cayenne_white_90_B
           4ddb730f:
+            model: d06aab82
             name: Grfe_VW_Lupo_green_90_B
           4ddf8cca:
+            model: b06ec5a5
             name: Grfe_Renault_Kangoo_yellow_45_B
           4de100eb:
+            model: b0703a06
             name: Grfe_Renault_Scenic_grey_45_B
           4de25520:
+            model: f0718dcd
             name: Grfe_Audi_A3_red_45_B
           4de4d75d:
+            model: '50741041'
             name: Grfe_Citroen_C2_yellow_45_B
           4de4f510:
+            model: 30742cf0
             name: Grfe_Dacia_logan_green_45_B
           4de4fe43:
+            model: '90743701'
             name: Grfe_Smart_42_white_45_B
           4de7cc94:
+            model: '507704e2'
             name: Grfe_VW_Lupo_green_45_B
           4de8a52c:
+            model: 3077dd72
             name: Grfe_Fiat_500_green_45_B
           4de8c5c1:
+            model: d077fee3
             name: Grfe_Citroen_Xsara_Picasso_red_90_B
           4de8ced0:
+            model: 3078066e
             name: Grfe_Seat_Arosa_grey_45_B
           6dcbdb46:
+            model: f0a8dbb0
             name: Grfe_Fiat_500_green_90
           6dcd78b9:
+            model: b0d2068b
             name: Grfe_Renault_Kangoo_yellow_90_B
           6dce37d3:
+            model: 10f90081
             name: Grfe_Renault_clio_green_90_B
           6dce3ba4:
+            model: d0f9058e
             name: Grfe_Renault_clio_grey_90_B
           6dcf9166:
+            model: 1121e4b4
             name: Grfe_Nissan_Micra_grey_90_B
           6ddf8823:
+            model: 306ec145
             name: Grfe_Renault_clio_grey_45_B
           6ddf8c92:
+            model: 906ec31e
             name: Grfe_Renault_Kangoo_green_45_B
           6de1dfa6:
+            model: 10703eb9
             name: Grfe_Peugeot_307_blue_45_B
           6de254ff:
+            model: f0718c46
             name: Grfe_Audi_A3_black_45_B
           6de74cfd:
+            model: b0768569
             name: Grfe_Toyota_Yaris_red_45_B
           6de7ccb8:
+            model: d077034f
             name: Grfe_VW_Lupo_black_45_B
           6de8a54d:
+            model: 7077de57
             name: Grfe_Fiat_500_white_45_B
           6de8b042:
+            model: f077e8c0
             name: Grfe_Nissan_Micra_green_45_B
           6de8cebf:
+            model: 107805a7
             name: Grfe_Seat_Arosa_green_45_B
           6de8cef0:
+            model: b07807dd
             name: Grfe_Seat_Arosa_yellow_45_B
           8dcbdb79:
+            model: 70a8dd2c
             name: Grfe_Fiat_500_pink_90
           8dcd85ec:
+            model: 30f84ca8
             name: Grfe_Renault_Kangoo_grey_90_B
           8dcd9791:
+            model: b0f86128
             name: Grfe_Peugeot_307_black_90_B
           8dce9efe:
+            model: 30f95425
             name: Grfe_Audi_A3_grey_90_B
           8dceba25:
+            model: b0f971e6
             name: Grfe_Citroen_C2_blue_90_B
           8dda0f8e:
+            model: b0694328
             name: Grfe_Smart_42_white_90_B
           8dda9154:
+            model: 5069c86a
             name: Grfe_Renault_Scenic_grey_90_B
           8dda9168:
+            model: 3069c931
             name: Grfe_Renault_Scenic_green_90_B
           8dda9177:
+            model: 5069c761
             name: Grfe_Renault_Scenic_blue_90_B
           8ddb7334:
+            model: 906aac21
             name: Grfe_VW_Lupo_black_90_B
           8ddb8be4:
+            model: 306ab405
             name: Grfe_Toyota_Yaris_red_90_B
           8ddf8cb9:
+            model: b06ec4b0
             name: Grfe_Renault_Kangoo_white_45_B
           8de100ff:
+            model: 3070394b
             name: Grfe_Renault_Scenic_green_45_B
           8de10116:
+            model: 307038a6
             name: Grfe_Renault_Scenic_blue_45_B
           8de74688:
+            model: 50767ef8
             name: Grfe_Mercedes_CLS_brown_45_B
           8de74cd5:
+            model: 1076843c
             name: Grfe_Toyota_Yaris_green_45_B
           8de74d0f:
+            model: d07685fd
             name: Grfe_Toyota_Yaris_yellow_45_B
           8de8b030:
+            model: f077e0bf
             name: Grfe_Nissan_Micra_blue_45_B
           8de8c878:
+            model: 307801be
             name: Grfe_Citroen_Xsara_Picasso_beige_45_B
           adce37c2:
+            model: f0f8feef
             name: Grfe_Renault_clio_white_90_B
           add9609e:
+            model: '306894e9'
             name: Grfe_Citroen_C3_orange_90_B
           adda0f57:
+            model: 3069440f
             name: Grfe_Smart_42_black_90_B
           addb8bd2:
+            model: 906ab5ed
             name: Grfe_Toyota_Yaris_grey_90_B
           addf85a5:
+            model: 506ebea7
             name: Grfe_Renault_clio_green_45_B
           ade2550f:
+            model: 70718cfe
             name: Grfe_Audi_A3_grey_45_B
           ade4d738:
+            model: b0740db7
             name: Grfe_Citroen_C2_green_45_B
           ade4dcf5:
+            model: 707413ae
             name: Grfe_Citroen_C3_beige_45_B
           ade4f51f:
+            model: d0742dea
             name: Grfe_Dacia_logan_grey_45_B
           ade74676:
+            model: d0767e7d
             name: Grfe_Mercedes_CLS_blue_45_B
           ade8a51c:
+            model: 3077dcf6
             name: Grfe_Fiat_500_blue_45_B
           ade8b055:
+            model: 5077e1d7
             name: Grfe_Nissan_Micra_grey_45_B
           ade8c894:
+            model: d07800dc
             name: Grfe_Citroen_Xsara_Picasso_grey_45_B
           ade8c8a2:
+            model: b0780044
             name: Grfe_Citroen_Xsara_Picasso_red_45_B
           ade8cede:
+            model: 7078071e
             name: Grfe_Seat_Arosa_red_45_B
           ade8df6f:
+            model: f0780b6c
             name: Grfe_Porsche_Cayenne_blue_45_B
           cdca9c26:
+            model: 508010d2
             name: Grfe_Fiat_500_white_90
           cdcd780b:
+            model: 50d1e4e9
             name: Grfe_Renault_Kangoo_white_90_B
           cdcd9a30:
+            model: b0f8644c
             name: Grfe_Peugeot_307_grey_90_B
           cdce4b1c:
+            model: 70f911c6
             name: Grfe_Dacia_logan_grey_90_B
           cdceba05:
+            model: f0f97675
             name: Grfe_Citroen_C2_yellow_90_B
           cdcf9178:
+            model: d121e0d5
             name: Grfe_Nissan_Micra_white_90_B
           cdcf9ba7:
+            model: 9121f074
             name: Grfe_Mercedes_CLS_black_90_B
           cdcf9f2e:
+            model: 1121f596
             name: Grfe_Mercedes_CLS_blue_90_B
           cdcf9f44:
+            model: d121f65c
             name: Grfe_Mercedes_CLS_brown_90_B
           cdda7d90:
+            model: 9069b4d2
             name: Grfe_Seat_Arosa_green_90_B
           cdda9c9a:
+            model: 5069d2ee
             name: Grfe_Porsche_Cayenne_black_90_B
           cde254ef:
+            model: b0718b84
             name: Grfe_Audi_A3_beige_45_B
           cde4d727:
+            model: 70740edb
             name: Grfe_Citroen_C2_blue_45_B
           cde4fe0c:
+            model: '90743551'
             name: Grfe_Smart_42_black_45_B
           cde74662:
+            model: 30767de4
             name: Grfe_Mercedes_CLS_black_45_B
           cde7469a:
+            model: 10767f6f
             name: Grfe_Mercedes_CLS_grey_45_B
           edcd8418:
+            model: b0f847a8
             name: Grfe_Renault_Kangoo_green_90_B
           edce4afb:
+            model: 90f9138f
             name: Grfe_Dacia_logan_blue_90_B
           edce9edc:
+            model: 90f968e9
             name: Grfe_Audi_A3_beige_90_B
           edcf9138:
+            model: b121e3b1
             name: Grfe_Nissan_Micra_blue_90_B
           edd9607a:
+            model: '30689643'
             name: Grfe_Citroen_C3_beige_90_B
           edda0f7b:
+            model: d0694625
             name: Grfe_Smart_42_red_90_B
           edda7dab:
+            model: b069b5d9
             name: Grfe_Seat_Arosa_grey_90_B
           edda9cb0:
+            model: 1069d563
             name: Grfe_Porsche_Cayenne_blue_90_B
           eddb72fa:
+            model: d06aaa87
             name: Grfe_VW_Lupo_grey_90_B
           eddb7320:
+            model: 906aa9c1
             name: Grfe_VW_Lupo_blue_90_B
           eddb8bf7:
+            model: f06ab55f
             name: Grfe_Toyota_Yaris_yellow_90_B
           ede1df92:
+            model: f0703c87
             name: Grfe_Peugeot_307_black_45_B
           ede4d748:
+            model: 90740f89
             name: Grfe_Citroen_C2_red_45_B
           ede4dd07:
+            model: '10741487'
             name: Grfe_Citroen_C3_blue_45_B
           ede4dd2f:
+            model: f07415f0
             name: Grfe_Citroen_C3_red_45_B
           ede4f4e9:
+            model: 5074259a
             name: Grfe_Dacia_logan_black_45_B
           ede8a53e:
+            model: 1077dddd
             name: Grfe_Fiat_500_pink_45_B
           ede8c887:
+            model: b078015e
             name: Grfe_Citroen_Xsara_Picasso_green_45_B
           ede8df5e:
+            model: 50780a8a
             name: Grfe_Porsche_Cayenne_black_45_B
           ede8df7f:
+            model: f0780ce5
             name: Grfe_Porsche_Cayenne_grey_45_B
         Grfe_Props_Pack_Carpack vol03 v2.dat:
           1d4f6f71:
+            model: 9c3d3660
             name: Grfe_Renault_cliors2_purple_45
           1d4f918e:
+            model: dc3d3a30
             name: Grfe_Renault_cliors2_red_90
           1d4f9238:
+            model: 5c3d555c
             name: Grfe_Opel_corsa_beige_45
           1d4f92a4:
+            model: 9c3d5333
             name: Grfe_Opel_corsa_grey_45
           1d4fc825:
+            model: 9c3d8675
             name: Grfe_Lamborghini_reventon_grey_45
           1d577dd0:
+            model: fd2d46c8
             name: Grfe_Audi_q7_white_45
           1d5fd813:
+            model: dd5d31bb
             name: Grfe_Renault_laguna_grey_45
           1d5fd822:
+            model: fd5d3265
             name: Grfe_Renault_laguna_grey_90
           1d612399:
+            model: bd5e7970
             name: Grfe_Seat_ibiza_orange_45
           1d612e64:
+            model: 7d5e85fe
             name: Grfe_Seat_ibiza_black_45
           1d622fc6:
+            model: 5d5f8c51
             name: Grfe_Citroen_ds3_blue_45
           1d63cd30:
+            model: 9d5f9195
             name: Grfe_Citroen_ds3_brown_45
           1d7c6559:
+            model: 7cde30f8
             name: Grfe_Mercedes_classA_black_90
           1d7d951f:
+            model: 5cde351d
             name: Grfe_Mercedes_classA_orange_90
           1d7d954b:
+            model: 3cde3666
             name: Grfe_Mercedes_classA_white_45
           3d4fc88c:
+            model: dc3d8ce0
             name: Grfe_Lamborghini_reventon_red_90
           3d4fc8bf:
+            model: 9c3d8f17
             name: Grfe_Lamborghini_reventon_yellow_45
           3d53ff69:
+            model: 3cb473e8
             name: Grfe_Ford_focus_blue_45
           3d577de3:
+            model: 9d2d4a6c
             name: Grfe_Audi_q7_grey_90
           3d577e4d:
+            model: 5d2d4c88
             name: Grfe_Audi_q7_green_90
           3d5fd358:
+            model: 9d5d2e2a
             name: Grfe_Renault_laguna_blue_45
           3d5fd84e:
+            model: fd5d333d
             name: Grfe_Renault_laguna_white_90
           3d63cd7a:
+            model: 5d5f8fec
             name: Grfe_Citroen_ds3_red_90
           3d63d032:
+            model: 1d612c44
             name: Grfe_Seat_ibiza_orange_90
           3d63d044:
+            model: 1d612cc7
             name: Grfe_Seat_ibiza_red_90
           3d7d9510:
+            model: 1cde347b
             name: Grfe_Mercedes_classA_orange_45
           3d7d953d:
+            model: 9cde37aa
             name: Grfe_Mercedes_classA_red_90
           5d4f9027:
+            model: 5c3d38a6
             name: Grfe_Renault_cliors2_grey_45
           5d4fc89f:
+            model: 9c3d8b78
             name: Grfe_Lamborghini_reventon_white_45
           5d4fc8ce:
+            model: fc3d8fa9
             name: Grfe_Lamborghini_reventon_yellow_90
           5d53ffc9:
+            model: 5cb47747
             name: Grfe_Ford_focus_yellow_45
           5d5774d6:
+            model: 9d2d446c
             name: Grfe_Audi_q7_white_90
           5d612e81:
+            model: 9d5e8220
             name: Grfe_Seat_ibiza_green_45
           5d612e9f:
+            model: dd5e882b
             name: Grfe_Seat_ibiza_red_45
           5d63cd3e:
+            model: 9d5f9226
             name: Grfe_Citroen_ds3_brown_90
           5d739ab2:
+            model: bd70a4d2
             name: Grfe_Mercedes_slk_white_90
           5d739b05:
+            model: 7d707798
             name: Grfe_Mercedes_slk_black_45
           7d4f9259:
+            model: 3c3d5268
             name: Grfe_Opel_corsa_blue_45
           7d577e77:
+            model: 3d2d4d98
             name: Grfe_Audi_q7_beige_90
           7d5fd36b:
+            model: 3d5d2d69
             name: Grfe_Renault_laguna_blue_90
           7d63cd08:
+            model: 5d6129bb
             name: Grfe_Seat_ibiza_black_90
           7d63cd4d:
+            model: fd5f8e11
             name: Grfe_Citroen_ds3_grey_45
           9d4f8fd2:
+            model: bc3d3bac
             name: Grfe_Renault_cliors2_green_45
           9d4f9118:
+            model: 1c3d3712
             name: Grfe_Renault_cliors2_purple_90
           9d4fc83c:
+            model: 5c3d83f4
             name: Grfe_Lamborghini_reventon_grey_90
           9d56a725:
+            model: 3d04e365
             name: Grfe_Ford_focus_yellow_90
           9d622fd5:
+            model: 7d5f8af8
             name: Grfe_Citroen_ds3_blue_90
           9d63cd5f:
+            model: dd5f8ef7
             name: Grfe_Citroen_ds3_grey_90
           9d739ad6:
+            model: 5d708133
             name: Grfe_Mercedes_slk_blue_90
           9d739ae8:
+            model: 3d7080a0
             name: Grfe_Mercedes_slk_blue_45
           9d739af7:
+            model: dd7076cb
             name: Grfe_Mercedes_slk_black_90
           bd4f90a0:
+            model: bc3d3813
             name: Grfe_Renault_cliors2_grey_90
           bd4f9179:
+            model: fc3d39a6
             name: Grfe_Renault_cliors2_red_45
           bd4f9267:
+            model: 5c3d51c0
             name: Grfe_Opel_corsa_blue_90
           bd4f92ca:
+            model: 3c3d56ee
             name: Grfe_Opel_corsa_white_45
           bd4f92da:
+            model: dc3d576d
             name: Grfe_Opel_corsa_white_90
           bd4fc8b0:
+            model: 1c3d8c02
             name: Grfe_Lamborghini_reventon_white_90
           bd53ffaa:
+            model: 7cb477e9
             name: Grfe_Ford_focus_white_45
           bd577e36:
+            model: bd2d4bfb
             name: Grfe_Audi_q7_green_45
           bd73161f:
+            model: 9d7072b4
             name: Grfe_Mercedes_slk_grey_90
           bd739ac3:
+            model: bd70a571
             name: Grfe_Mercedes_slk_white_45
           bd7d94f6:
+            model: 7cde325f
             name: Grfe_Mercedes_classA_black_45
           bd7d952e:
+            model: 9cde36ff
             name: Grfe_Mercedes_classA_red_45
           dd4f9011:
+            model: dc3d3b0f
             name: Grfe_Renault_cliors2_green_90
           dd4f9248:
+            model: 7c3d54d0
             name: Grfe_Opel_corsa_beige_90
           dd53ff8a:
+            model: 3cb4752f
             name: Grfe_Ford_focus_red_45
           dd577ed1:
+            model: 9d2d4e67
             name: Grfe_Audi_q7_beige_45
           dd5fd831:
+            model: 7d5d33e9
             name: Grfe_Renault_laguna_white_45
           dd5fda75:
+            model: bd5d35af
             name: Grfe_Renault_laguna_green_90
           dd63cd6d:
+            model: 3d5f90b7
             name: Grfe_Citroen_ds3_red_45
           dd7d9559:
+            model: dcde35e4
             name: Grfe_Mercedes_classA_white_90
           fd4f92b9:
+            model: 9c3d53bf
             name: Grfe_Opel_corsa_grey_90
           fd4fc84c:
+            model: 9c3d8d90
             name: Grfe_Lamborghini_reventon_red_45
           fd569f12:
+            model: fd04e15f
             name: Grfe_Ford_focus_blue_90
           fd56a015:
+            model: bd04e250
             name: Grfe_Ford_focus_white_90
           fd56a716:
+            model: dd04e43e
             name: Grfe_Ford_focus_red_90
           fd577df9:
+            model: fd2d4978
             name: Grfe_Audi_q7_grey_45
           fd5fda66:
+            model: 7d5d3493
             name: Grfe_Renault_laguna_green_45
           fd63d01d:
+            model: 7d612bd3
             name: Grfe_Seat_ibiza_green_90
           fd7318ee:
+            model: 1d7074f9
             name: Grfe_Mercedes_slk_grey_45
         Grfe_Props_Pack_Carpack vol04.dat:
           00152cef:
+            model: 800fe17b
             name: Grfe_Mini_cooperS_red_90
           00193e0e:
+            model: 6012a849
             name: Grfe_VW_touareg_purple_45
           '00267231':
+            model: e0bc3f2f
             name: Grfe_Mercedes_ml_blue_90
           0026723e:
+            model: 20bc39dc
             name: Grfe_Mercedes_ml_grey_45
           '00267258':
+            model: e0bc40b5
             name: Grfe_Mercedes_ml_white_45
           0027278f:
+            model: 20bcc759
             name: Grfe_Jeep_wrangler_black_45
           0039f4ad:
+            model: e034510d
             name: Grfe_Porsche_911_blue_45
           '00417982':
+            model: 803c2e31
             name: Grfe_Mercedes_sl190_grey_45
           20152d16:
+            model: c00fe2dd
             name: Grfe_Mini_cooperS_limestone_45
           20193dfb:
+            model: 8012a731
             name: Grfe_VW_touareg_purple_90
           '20193e32':
+            model: 0012a97b
             name: Grfe_VW_touareg_green_45
           '2025e713':
+            model: e0bc3141
             name: Grfe_Mercedes_ml_black_90
           '20267268':
+            model: 20bc4185
             name: Grfe_Mercedes_ml_white_90
           202eeeb8:
+            model: 40e568df
             name: Grfe_Opel_insignia_black_45
           2030aa1f:
+            model: c029ad17
             name: Grfe_Opel_insignia_red_45
           2030aac9:
+            model: 4029c1b2
             name: Grfe_Toyota_prius_black_90
           2038d2a5:
+            model: 60333e7a
             name: Grfe_Nissan_qashqai_red_45
           2038d2d2:
+            model: e033468b
             name: Grfe_Nissan_qashqai_blue_90
           2038d895:
+            model: '40339111'
             name: Grfe_Porsche_911_grey_90
           2039f496:
+            model: 80344a2a
             name: Grfe_Porsche_911_brown_45
           2041799c:
+            model: 003c2ef0
             name: Grfe_Mercedes_sl190_grey_90
           204179c3:
+            model: 803c3264
             name: Grfe_Mercedes_sl190_limestone_90
           401507fb:
+            model: c00fa3d6
             name: Grfe_BMW_X3_white_90
           4015084c:
+            model: 800fa318
             name: Grfe_BMW_X3_brown_90
           401514f1:
+            model: e00fcd6d
             name: Grfe_Mini_cooperS_blue_90
           40152d31:
+            model: 000fe57e
             name: Grfe_Mini_cooperS_black_45
           '40193e41':
+            model: '40129e07'
             name: Grfe_VW_touareg_brown_90
           4030a9eb:
+            model: e029aecc
             name: Grfe_Opel_insignia_green_45
           4030a9f7:
+            model: 2029b027
             name: Grfe_Opel_insignia_green_90
           4030aa91:
+            model: 8029c650
             name: Grfe_Toyota_prius_turquoise_90
           4030aad9:
+            model: 6029c0d2
             name: Grfe_Toyota_prius_black_45
           4038d292:
+            model: a033305a
             name: Grfe_Nissan_qashqai_red_90
           4039f46a:
+            model: 8033aac4
             name: Grfe_Porsche_911_white_45
           4039f477:
+            model: c033a66b
             name: Grfe_Porsche_911_grey_45
           404179aa:
+            model: 803c2fe9
             name: Grfe_Mercedes_sl190_red_90
           '60150841':
+            model: a00f9eeb
             name: Grfe_BMW_X3_green_45
           6025e8f0:
+            model: c0bc3369
             name: Grfe_Mercedes_ml_black_45
           '60272763':
+            model: a0bcc439
             name: Grfe_Jeep_wrangler_white_90
           '60272773':
+            model: 00bcc546
             name: Grfe_Jeep_wrangler_white_45
           '60272782':
+            model: a0bcc8bf
             name: Grfe_Jeep_wrangler_black_90
           6030aa05:
+            model: 0029aa07
             name: Grfe_Opel_insignia_grey_45
           6030aa11:
+            model: a029ab12
             name: Grfe_Opel_insignia_grey_90
           6038d269:
+            model: e0334035
             name: Grfe_Nissan_qashqai_grey_45
           6038d2c4:
+            model: '40334e11'
             name: Grfe_Nissan_qashqai_green_90
           6038d2de:
+            model: 2033492d
             name: Grfe_Nissan_qashqai_blue_45
           6039f4a2:
+            model: '80345937'
             name: Grfe_Porsche_911_blue_90
           604170ef:
+            model: 003c2a7e
             name: Grfe_Mercedes_sl190_black_90
           '60417278':
+            model: a03c2c17
             name: Grfe_Mercedes_sl190_black_45
           604179b6:
+            model: 203c30c7
             name: Grfe_Mercedes_sl190_red_45
           '80150816':
+            model: 400fa0b6
             name: Grfe_BMW_X3_grey_90
           '80150832':
+            model: 600f9fc7
             name: Grfe_BMW_X3_green_90
           8015242e:
+            model: a00fddc0
             name: Grfe_Mini_cooperS_blue_45
           80153ad7:
+            model: c00ff402
             name: Grfe_VW_touareg_white_90
           8017e22e:
+            model: e0129bbe
             name: Grfe_VW_touareg_white_45
           '80193e21':
+            model: a012aae0
             name: Grfe_VW_touareg_green_90
           8026721e:
+            model: 80bc4024
             name: Grfe_Mercedes_ml_blue_45
           8030aa2c:
+            model: 6029ac3e
             name: Grfe_Opel_insignia_red_90
           8030aa9d:
+            model: a029c4eb
             name: Grfe_Toyota_prius_turquoise_45
           8030aaaa:
+            model: 4029c289
             name: Grfe_Toyota_prius_blue_90
           8030aab6:
+            model: 6029c33d
             name: Grfe_Toyota_prius_blue_45
           8038d25b:
+            model: 803343f6
             name: Grfe_Nissan_qashqai_grey_90
           8039f45b:
+            model: 2033ab6a
             name: Grfe_Porsche_911_white_90
           8039f487:
+            model: '40344807'
             name: Grfe_Porsche_911_brown_90
           804179d0:
+            model: 803c319e
             name: Grfe_Mercedes_sl190_limestone_45
           a0150823:
+            model: a00fa163
             name: Grfe_BMW_X3_grey_45
           a0150857:
+            model: 400fa26d
             name: Grfe_BMW_X3_brown_45
           a0152cfb:
+            model: c00fe067
             name: Grfe_Mini_cooperS_red_45
           a0193e4f:
+            model: 60129d57
             name: Grfe_VW_touareg_brown_45
           a027274a:
+            model: 80bcc16c
             name: Grfe_Jeep_wrangler_yellow_45
           a038d459:
+            model: 80334c7e
             name: Grfe_Nissan_qashqai_green_45
           c0150809:
+            model: 000fa468
             name: Grfe_BMW_X3_white_45
           c0152d09:
+            model: 800fe247
             name: Grfe_Mini_cooperS_limestone_90
           c02671e9:
+            model: 20bcb9c3
             name: Grfe_Jeep_wrangler_red_90
           c026724a:
+            model: 20bc3d8c
             name: Grfe_Mercedes_ml_grey_90
           c0267544:
+            model: 20bcbf7b
             name: Grfe_Jeep_wrangler_red_45
           c0278f18:
+            model: '80e56571'
             name: Grfe_Opel_insignia_black_90
           e0152d24:
+            model: e00fe62e
             name: Grfe_Mini_cooperS_black_90
           e0272739:
+            model: 40bcc2bf
             name: Grfe_Jeep_wrangler_yellow_90
           e02f0075:
+            model: a029ba0f
             name: Grfe_Toyota_prius_white_90
           e030aa81:
+            model: 0029bf4d
             name: Grfe_Toyota_prius_white_45
         Grfe_Props_Pack_Urbanpack.dat:
           1faba99c:
@@ -1512,74 +2241,106 @@ girafe/carpack:
           1fabcf09:
             name: Grfe_flower_box_C_summer
           1fb0b027:
+            model: 21a45864
             name: Grfe_motorbike_D
           1fb0b4b1:
+            model: c1a45cdb
             name: Grfe_motorbike_H
           1fb0b6b1:
+            model: 01a45e30
             name: Grfe_motorbike_I
           1fb0b6cb:
+            model: a1a45edd
             name: Grfe_motorbike_K
           1fb0c0f5:
+            model: 21a46876
             name: Grfe_bike_station_small
           3f71cd3b:
+            model: e2010636
             name: Grfe_container_green
           3f71d38a:
+            model: 02010ce5
             name: Grfe_bin_green_A
           3f71d3c4:
+            model: 820108d5
             name: Grfe_bin_blue
           3f9e72dc:
+            model: 022d9f40
             name: Grfe_marking_double_autolib
           3f9e740c:
+            model: 422d7195
             name: Grfe_marking_simple_no_parking_B
           3faba9ab:
             name: Grfe_flower_box_D_summer
           3fb0b228:
+            model: a1a45a63
             name: Grfe_motorbike_G
           3fb0c6ee:
+            model: 01a46f46
             name: Grfe_fire_hydrant_A
           5f71d396:
+            model: '22010994'
             name: Grfe_bin_green_B
           5f9e37d4:
+            model: c22d7121
             name: Grfe_marking_simple_no_parking_A
           5f9e5d56:
+            model: 022d9691
             name: Grfe_marking_double_parking_pay
           5f9e648d:
+            model: a22d9cae
             name: Grfe_marking_simple_parking_bicycle
           5fb0b211:
+            model: e1a4599a
             name: Grfe_motorbike_E
           5fb0b757:
+            model: 41a45fa0
             name: Grfe_motorbike_A
           5fb0b895:
+            model: 01a4608f
             name: Grfe_motorbike_B
           5fb0b8a2:
+            model: 41a460e3
             name: Grfe_motorbike_C
           5fb0c4ed:
+            model: e1a46d4f
             name: Grfe_marking_double_parking_handicap
           7f71cd49:
+            model: 0201067a
             name: Grfe_container_blue
           7fb9c81f:
+            model: '82490140'
             name: Grfe_autolib
           9f70925c:
+            model: c1ffcbb4
             name: Grfe_marking_double_parking
           9f709808:
+            model: c1ffd162
             name: Grfe_marking_double_parking_handicap
           9f728091:
+            model: 2201b9d4
             name: Grfe_marking_double_taxis
           9f9e1c54:
+            model: 222d5572
             name: Grfe_marking_simple_handicap
           9f9e72f5:
+            model: 622d9745
             name: Grfe_marking_double_parking_delivery
           9fa204b1:
+            model: 22313d49
             name: Grfe_phone_box
           9fb0b21d:
+            model: 41a459fa
             name: Grfe_motorbike_F
           bfaba9c4:
             name: Grfe_flower_box_F_summer
           bfabbcf0:
             name: Grfe_flower_box_G_H_I_winter
           bfb0b6be:
+            model: a1a45e85
             name: Grfe_motorbike_J
           bfb0c102:
+            model: a1a46914
             name: Grfe_bike_station_large
           dfaba9b8:
             name: Grfe_flower_box_E_summer
@@ -1588,40 +2349,54 @@ girafe/carpack:
           dfabcd67:
             name: Grfe_flower_box_B_summer
           dfb0c6fc:
+            model: c1a46ed4
             name: Grfe_bike
           ffabbce3:
             name: Grfe_flower_box_I_summer
           ffabcf19:
             name: Grfe_flower_box_A_B_C_winter
           ffba1470:
+            model: 22494dd4
             name: Grfe_bin_yellow
         Grfe_Props_Pack_Villa Libeskind.dat:
           5f9944bd:
+            model: '22287e24'
             name: Grfe_wood_fence_A
         Grfe_Props_Pack_Wood_Fence_4m.dat:
           0dcfef17:
+            model: 1122459a
             name: Grfe_wood_fence_H_4m_1
           2dcfeec8:
+            model: f1224384
             name: Grfe_wood_fence_E_4m_2
           4dcfeea6:
+            model: d122421c
             name: Grfe_wood_fence_D_4m_1
           4dcff0fc:
+            model: 4cb31c5e
             name: Grfe_wood_fence_B_4m_2
           4dcff208:
+            model: '91224965'
             name: Grfe_wood_fence_G_4m_2
           6dcfee94:
+            model: '11224149'
             name: Grfe_wood_fence_C_4m_1
           6dcfeeea:
+            model: 3122442e
             name: Grfe_wood_fence_E_4m_4
           6dcfeef9:
+            model: 312244b4
             name: Grfe_wood_fence_F_4m_1
           adcfeeb7:
+            model: '312242e2'
             name: Grfe_wood_fence_E_4m_1
           cdcfee6e:
+            model: 91223f87
             name: Grfe_wood_fence_A_4m_1
           cdcfeed9:
+            model: 112243db
             name: Grfe_wood_fence_E_4m_3
-      release: 2024-11-26T21:04:04.961Z
+      release: 2025-01-06T12:11:37.283Z
       version: 2.0.0
 
 girafe/flora-pack:
@@ -1689,20 +2464,25 @@ girafe/flora-pack:
           include:
             - BSC/girafe/@1MM Flora Separator
             - BSC/girafe
-      lastGenerated: 2024-12-13T11:23:37.938Z
+      lastGenerated: 2025-01-06T12:13:24.439Z
       lastModified: 2024-01-20T12:12:48.000Z
       mmps:
         Abies grandis v1/Grfe_abies_grandis_evergreen.dat:
           af441000:
+            model: 792662b7-0012
             name: Grfe_abies_grandis_summer_A
             stages:
               - id: af441001
+                model: 19294c72-0012
                 name: Grfe_abies_grandis_summer_B
               - id: af441002
+                model: 99284eb1-0012
                 name: Grfe_abies_grandis_summer_C
               - id: af441003
+                model: d928538d-0012
                 name: Grfe_abies_grandis_summer_D
               - id: af441004
+                model: 99291063-0012
                 name: Grfe_abies_grandis_summer_E
         Abies grandis v1/Grfe_abies_grandis_seasonal.dat:
           33aa0010:
@@ -1718,27 +2498,37 @@ girafe/flora-pack:
                 name: Grfe_abies_grandis_seasonal_E
         Abies grandis v1/Grfe_abies_grandis_winter.dat:
           af442000:
+            model: 792662b7-0013
             name: Grfe_abies_grandis_winter_A
             stages:
               - id: af442001
+                model: 19294c72-0013
                 name: Grfe_abies_grandis_winter_B
               - id: af442002
+                model: 99284eb1-0013
                 name: Grfe_abies_grandis_winter_C
               - id: af442003
+                model: d928538d-0013
                 name: Grfe_abies_grandis_winter_D
               - id: af442004
+                model: 99291063-0013
                 name: Grfe_abies_grandis_winter_E
         Alders/Grfe_alders_evergreen.dat:
           af447720:
+            model: 6c2754ff
             name: Grfe_alder_evergreen_A
             stages:
               - id: af447721
+                model: 0c275273
                 name: Grfe_alder_evergreen_B
               - id: af447722
+                model: 2c274fac
                 name: Grfe_alder_evergreen_C
               - id: af447723
+                model: ec2744f7
                 name: Grfe_alder_evergreen_D
               - id: af447724
+                model: 8c27494e
                 name: Grfe_alder_evergreen_E
         Alders/Grfe_alders_seasonal.dat:
           af447730:
@@ -1766,27 +2556,37 @@ girafe/flora-pack:
                 name: Grfe_ash_seasonal_E
         Ashes v2/Grfe_ashes_summer.dat:
           af448210:
+            model: 5cdfd2f6
             name: Grfe_ash_summer_A
             stages:
               - id: af448211
+                model: 7cdfcf8e
                 name: Grfe_ash_summer_B
               - id: af448212
+                model: dd064901
                 name: Grfe_ash_summer_C
               - id: af448213
+                model: fd06549f
                 name: Grfe_ash_summer_D
               - id: af448214
+                model: 9d0701bd
                 name: Grfe_ash_summer_E
         Beeches v3/Grfe_beeches_evergreen.dat:
           af448610:
+            model: a2442dd1
             name: Grfe_beech_evergreen_A
             stages:
               - id: af448611
+                model: c2442c8f
                 name: Grfe_beech_evergreen_B
               - id: af448612
+                model: 22442bc8
                 name: Grfe_beech_evergreen_C
               - id: af448613
+                model: 2244289d
                 name: Grfe_beech_evergreen_D
               - id: af448614
+                model: e2442587
                 name: Grfe_beech_evergreen_E
         Beeches v3/Grfe_beeches_seasonal.dat:
           af448620:
@@ -1810,11 +2610,14 @@ girafe/flora-pack:
                 name: Grfe_berry_seasonal_C
         Berries/Grfe_Berries_summer.dat:
           af448360:
+            model: 0236ea5b
             name: Grfe_berry_summer_A
             stages:
               - id: af448361
+                model: 6236e6e8
                 name: Grfe_berry_summer_B
               - id: af448362
+                model: c236e4f5
                 name: Grfe_berry_summer_C
         Birches v2/Grfe_birches_seasonal.dat:
           af448080:
@@ -1830,15 +2633,20 @@ girafe/flora-pack:
                 name: Grfe_birch_seasonal_E
         Birches v2/Grfe_birches_summer.dat:
           af448000:
+            model: 3a97c44b
             name: Grfe_birch_summer_A
             stages:
               - id: af448001
+                model: 9aca0401
                 name: Grfe_birch_summer_B
               - id: af448002
+                model: 5a97c7c0
                 name: Grfe_birch_summer_C
               - id: af448003
+                model: 1a9802f2
                 name: Grfe_birch_summer_D
               - id: af448004
+                model: fa97d5e7
                 name: Grfe_birch_summer_E
         Bushes v2/Grfe_bushes_seasonal.dat:
           af449145:
@@ -1850,39 +2658,54 @@ girafe/flora-pack:
                 name: Grfe_bush_seasonal_C
         Bushes v2/Grfe_bushes_summer.dat:
           af449140:
+            model: db3d9fcc
             name: Grfe_bush_summer_A
             stages:
               - id: af449141
+                model: 3b3d96ac
                 name: Grfe_bush_summer_B
               - id: af449142
+                model: 9b3d9a2b
                 name: Grfe_bush_summer_C
         Canary date palms/Grfe_Canary_date_palms_evergreen.dat:
           af448900:
+            model: 853891d2
             name: Grfe_Canary_date_palm_evergreen_A
             stages:
               - id: af448901
+                model: e53894ee
                 name: Grfe_Canary_date_palm_evergreen_B
               - id: af448902
+                model: e5389595
                 name: Grfe_Canary_date_palm_evergreen_C
               - id: af448903
+                model: c5389639
                 name: Grfe_Canary_date_palm_evergreen_D
               - id: af448904
+                model: 253896d5
                 name: Grfe_Canary_date_palm_evergreen_E
               - id: af448905
+                model: '45389773'
                 name: Grfe_Canary_date_palm_evergreen_F
               - id: af448906
+                model: 2538980f
                 name: Grfe_Canary_date_palm_evergreen_F
               - id: af448907
+                model: '65389873'
                 name: Grfe_Canary_date_palm_evergreen_F
               - id: af448908
+                model: null
                 name: Grfe_Canary_date_palm_ghost_piece
         Cattails v2.1/Grfe_cattails_evergreen.dat:
           af449110:
+            model: da7e9901
             name: Grfe_cattail_evergreen_A
             stages:
               - id: af449111
+                model: 9a7e9b1a
                 name: Grfe_cattail_evergreen_B
               - id: af449112
+                model: da7e9bb9
                 name: Grfe_cattail_evergreen_C
         Cattails v2.1/Grfe_cattails_seasonal.dat:
           af449154:
@@ -1894,15 +2717,20 @@ girafe/flora-pack:
                 name: Grfe_cattail_seasonal_C
         Chestnuts/Grfe_chestnuts_evergreen.dat:
           af448670:
+            model: 61f640cf
             name: Grfe_chestnut_evergreen_A
             stages:
               - id: af448671
+                model: 21f63fa5
                 name: Grfe_chestnut_evergreen_B
               - id: af448672
+                model: 61f63e84
                 name: Grfe_chestnut_evergreen_C
               - id: af448673
+                model: a1f63d21
                 name: Grfe_chestnut_evergreen_D
               - id: af448674
+                model: c1f63b46
                 name: Grfe_chestnut_evergreen_E
         Chestnuts/Grfe_chestnuts_seasonal.dat:
           af448680:
@@ -1930,27 +2758,37 @@ girafe/flora-pack:
                 name: Grfe_common_spruce_seasonal_E
         Common spruces/Grfe_common_spruces_summer.dat:
           af448440:
+            model: 60bf2f78
             name: Grfe_common_spruce_summer_A
             stages:
               - id: af448441
+                model: 00beba96
                 name: Grfe_common_spruce_summer_B
               - id: af448442
+                model: e0bec1de
                 name: Grfe_common_spruce_summer_C
               - id: af448443
+                model: e0becc65
                 name: Grfe_common_spruce_summer_D
               - id: af448444
+                model: c0bf16c9
                 name: Grfe_common_spruce_summer_E
         Common spruces/Grfe_common_spruces_winter.dat:
           af448450:
+            model: e0c42105
             name: Grfe_common_spruce_winter_A
             stages:
               - id: af448451
+                model: c0c418dc
                 name: Grfe_common_spruce_winter_B
               - id: af448452
+                model: a0c4242b
                 name: Grfe_common_spruce_winter_C
               - id: af448453
+                model: 40c43312
                 name: Grfe_common_spruce_winter_D
               - id: af448454
+                model: 40c44a60
                 name: Grfe_common_spruce_winter_E
         Conifers/Grfe_conifers_seasonal.dat:
           af448810:
@@ -1966,39 +2804,54 @@ girafe/flora-pack:
                 name: Grfe_conifer_seasonal_E
         Conifers/Grfe_conifers_summer.dat:
           af448840:
+            model: 1b63fc39
             name: Grfe_conifer_summer_A
             stages:
               - id: af448841
+                model: 1aa894a8
                 name: Grfe_conifer_summer_B
               - id: af448842
+                model: 9af94cfe
                 name: Grfe_conifer_summer_C
               - id: af448843
+                model: faf95796
                 name: Grfe_conifer_summer_D
               - id: af448844
+                model: 7b2071af
                 name: Grfe_conifer_summer_E
         Conifers/Grfe_conifers_winter.dat:
           af448820:
+            model: db723a0d
             name: Grfe_conifer_winter_A
             stages:
               - id: af448821
+                model: 5b724045
                 name: Grfe_conifer_winter_B
               - id: af448822
+                model: 1b724c62
                 name: Grfe_conifer_winter_C
               - id: af448823
+                model: 7b9a14cb
                 name: Grfe_conifer_winter_D
               - id: af448824
+                model: 3b724fb1
                 name: Grfe_conifer_winter_E
         Cypresses/Grfe_cypresses_evergreen.dat:
           af448530:
+            model: 60af6a96
             name: Grfe_cypress_evergreen_A
             stages:
               - id: af448531
+                model: 60af6b71
                 name: Grfe_cypress_evergreen_B
               - id: af448532
+                model: 80af6fb1
                 name: Grfe_cypress_evergreen_C
               - id: af448533
+                model: c0af6841
                 name: Grfe_cypress_evergreen_D
               - id: af448534
+                model: 40af7137
                 name: Grfe_cypress_evergreen_E
         Daisy v2/Grfe_daisy_seasonal.dat:
           af448570:
@@ -2008,21 +2861,28 @@ girafe/flora-pack:
                 name: Grfe_daisy_seasonal_B
         Daisy v2/Grfe_daisy_summer.dat:
           af448580:
+            model: '23305483'
             name: Grfe_daisy_summer_A
             stages:
               - id: af448581
+                model: '43305503'
                 name: Grfe_daisy_summer_B
         Elms/Grfe_elm_evergreen.dat:
           af448740:
+            model: 83d9e04c
             name: Grfe_elm_evergreen_A
             stages:
               - id: af448741
+                model: e3d9dd4e
                 name: Grfe_elm_evergreen_B
               - id: af448742
+                model: 83d9db22
                 name: Grfe_elm_evergreen_C
               - id: af448743
+                model: 23cfcc93
                 name: Grfe_elm_evergreen_D
               - id: af448744
+                model: c3cfc753
                 name: Grfe_elm_evergreen_E
         Elms/Grfe_elm_seasonal.dat:
           af448750:
@@ -2044,21 +2904,28 @@ girafe/flora-pack:
                 name: Grfe_feather_grass_seasonal_B
         Feather grass/Grfe_feather_grass_summer.dat:
           af448630:
+            model: a0b1d5bf
             name: Grfe_feather_grass_summer_A
             stages:
               - id: af448631
+                model: 60b1d6ad
                 name: Grfe_feather_grass_summer_B
         Grand Firs (Abies Grandis v2)/Grfe_grand_firs_evergreen.dat:
           af481030:
+            model: 2c5458b3
             name: Grfe_grand_firs_evergreen_A2
             stages:
               - id: af481031
+                model: 4c546a20
                 name: Grfe_grand_firs_evergreen_B2
               - id: af481032
+                model: 8b1d51ad
                 name: Grfe_grand_firs_evergreen_C2
               - id: af481033
+                model: eb1d5978
                 name: Grfe_grand_firs_evergreen_D2
               - id: af481034
+                model: cb1d6697
                 name: Grfe_grand_firs_evergreen_E2
         Grand Firs (Abies Grandis v2)/Grfe_grand_firs_seasonal.dat:
           af481040:
@@ -2074,15 +2941,20 @@ girafe/flora-pack:
                 name: Grfe_grand_firs_seasonal_E2
         Grand Firs (Abies Grandis v2)/Grfe_grand_firs_winter (Abies Grandis v1).dat:
           af442000:
+            model: 792662b7-0013
             name: Grfe_abies_grandis_winter_A
             stages:
               - id: af442001
+                model: 19294c72-0013
                 name: Grfe_abies_grandis_winter_B
               - id: af442002
+                model: 99284eb1-0013
                 name: Grfe_abies_grandis_winter_C
               - id: af442003
+                model: d928538d-0013
                 name: Grfe_abies_grandis_winter_D
               - id: af442004
+                model: 99291063-0013
                 name: Grfe_abies_grandis_winter_E
         Grfe_broadleaf_trees.dat:
           af438700:
@@ -2101,15 +2973,20 @@ girafe/flora-pack:
             name: Grfe_palm_trees
         Honey locust/Grfe_honey_locust_evergreen.dat:
           af448690:
+            model: e20608a0
             name: Grfe_honey_locust_evergreen_A
             stages:
               - id: af448691
+                model: '22060736'
                 name: Grfe_honey_locust_evergreen_B
               - id: af448692
+                model: e20605bc
                 name: Grfe_honey_locust_evergreen_C
               - id: af448693
+                model: '02060220'
                 name: Grfe_honey_locust_evergreen_D
               - id: af448694
+                model: 82060a73
                 name: Grfe_honey_locust_evergreen_E
         Honey locust/Grfe_honey_locust_seasonal.dat:
           af448700:
@@ -2149,27 +3026,37 @@ girafe/flora-pack:
                 name: Grfe_larch_seasonal_E
         Larches/Grfe_larches_summer.dat:
           af448380:
+            model: bb112acd
             name: Grfe_larch_summer_A
             stages:
               - id: af448381
+                model: 7a63c29e
                 name: Grfe_larch_summer_B
               - id: af448382
+                model: 9b11c81d
                 name: Grfe_larch_summer_C
               - id: af448383
+                model: 9b131411
                 name: Grfe_larch_summer_D
               - id: af448384
+                model: 1bd1c258
                 name: Grfe_larch_summer_E
         Lindens/Grfe_Lindens_evergreen.dat:
           af448300:
+            model: 9dd7f9c4-0044
             name: Grfe_linden_summer_A
             stages:
               - id: af448301
+                model: 9dd7f9c4-0043
                 name: Grfe_linden_summer_B
               - id: af448302
+                model: 9dd7f9c4-0042
                 name: Grfe_linden_summer_C
               - id: af448303
+                model: 9dd7f9c4-0040
                 name: Grfe_linden_summer_D
               - id: af448304
+                model: 9dd7f9c4-0041
                 name: Grfe_linden_summer_E
         Lindens/Grfe_lindens_seasonal.dat:
           af448320:
@@ -2193,11 +3080,14 @@ girafe/flora-pack:
                 name: Grfe_lupin_seasonal_C
         Lupins/Grfe_lupins_summer.dat:
           af448340:
+            model: 4145aec7
             name: Grfe_lupin_summer_A
             stages:
               - id: af448341
+                model: 0145ae00
                 name: Grfe_lupin_summer_B
               - id: af448342
+                model: a145acf1
                 name: Grfe_lupin_summer_C
         Maples v2/Grfe_maples_seasonal.dat:
           af448200:
@@ -2225,15 +3115,20 @@ girafe/flora-pack:
                 name: Grfe_maple_seasonal_E
         Maples/Grfe_maples_summer.dat:
           af451000:
+            model: d9f00412-0013
             name: Grfe_maple_summer_A
             stages:
               - id: af451001
+                model: b9f008ba-0013
                 name: Grfe_maple_summer_B
               - id: af451002
+                model: 19f00eaa-0013
                 name: Grfe_maple_summer_C
               - id: af451003
+                model: f9effc6a-0013
                 name: Grfe_maple_summer_D
               - id: af451004
+                model: f9f01459-0013
                 name: Grfe_maple_summer_E
         Narcissus/Grfe_Narcissus_seasonal.dat:
           af448500:
@@ -2243,9 +3138,11 @@ girafe/flora-pack:
                 name: Grfe_narcissus_seasonal_B
         Narcissus/Grfe_Narcissus_summer.dat:
           af448490:
+            model: c0c8160e
             name: Grfe_narcissus_summer_A
             stages:
               - id: af448491
+                model: 80c80fa9
                 name: Grfe_narcissus_summer_B
         Norway maples v2/Grfe_norway_maple_seasonal.dat:
           af448040:
@@ -2259,13 +3156,17 @@ girafe/flora-pack:
                 name: Grfe_norway_maple_seasonal_D
         Norway maples v2/Grfe_norway_maples_summer.dat:
           af448030:
+            model: bc05058a
             name: Grfe_norway_maple_summer_A
             stages:
               - id: af448031
+                model: fc050819
                 name: Grfe_norway_maple_summer_B
               - id: af448032
+                model: dc050df1
                 name: Grfe_norway_maple_summer_C
               - id: af448033
+                model: fc051cc8
                 name: Grfe_norway_maple_summer_D
         Oaks v2/Grfe_oaks_seasonal.dat:
           af440260:
@@ -2281,39 +3182,54 @@ girafe/flora-pack:
                 name: Grfe_oak_seasonal_E
         Oaks v2/Grfe_oaks_summer.dat:
           af440250:
+            model: 7b1b5718
             name: Grfe_oak_summer_A
             stages:
               - id: af440251
+                model: 7b1b4ffd
                 name: Grfe_oak_summer_B
               - id: af440252
+                model: db1b4a6e
                 name: Grfe_oak_summer_C
               - id: af440253
+                model: 5b1b3a8d
                 name: Grfe_oak_summer_D
               - id: af440254
+                model: fb1b31a0
                 name: Grfe_oak_summer_E
         Parasol pines/Grfe_parasol_pines_summer.dat:
           af448070:
+            model: bd9da899
             name: Grfe_parasol_pine_summer_A
             stages:
               - id: af448071
+                model: bd9db347
                 name: Grfe_parasol_pine_summer_B
               - id: af448072
+                model: 3dc42c52
                 name: Grfe_parasol_pine_summer_C
               - id: af448073
+                model: 7dc4d498
                 name: Grfe_parasol_pine_summer_D
               - id: af448074
+                model: 3dc4e003
                 name: Grfe_parasol_pine_summer_E
         Poplars/Grfe_poplars_evergreen.dat:
           af447700:
+            model: 0790ce33
             name: Grfe_poplar_evergreen_A
             stages:
               - id: af447701
+                model: 4790d2f4
                 name: Grfe_poplar_evergreen_B
               - id: af447702
+                model: '6790e227'
                 name: Grfe_poplar_evergreen_C
               - id: af447703
+                model: 8790e69f
                 name: Grfe_poplar_evergreen_D
               - id: af447704
+                model: '6790e985'
                 name: Grfe_poplar_evergreen_E
         Poplars/Grfe_poplars_seasonal.dat:
           af447710:
@@ -2335,21 +3251,28 @@ girafe/flora-pack:
                 name: Grfe_poppies_seasonal_B
         Poppies/Grfe_Poppies_summer.dat:
           af448470:
+            model: a0c5aaa7
             name: Grfe_poppies_summer_A
             stages:
               - id: af448471
+                model: 20c5ac19
                 name: Grfe_poppies_summer_B
         Rowan trees v3/Grfe_Rowan_trees_evergreen.dat:
           af448720:
+            model: '22806260'
             name: Grfe_rowan_tree_evergreen_A
             stages:
               - id: af448721
+                model: e27fccf8
                 name: Grfe_rowan_tree_evergreen_B
               - id: af448722
+                model: 828063cd
                 name: Grfe_rowan_tree_evergreen_C
               - id: af448723
+                model: 628068ff
                 name: Grfe_rowan_tree_evergreen_D
               - id: af448724
+                model: 22806eb2
                 name: Grfe_rowan_tree_evergreen_E
         Rowan trees v3/Grfe_Rowan_trees_seasonal.dat:
           af448710:
@@ -2377,39 +3300,54 @@ girafe/flora-pack:
                 name: Grfe_serbian_spruces_seasonal_E
         Serbian Spruces v1/Grfe_serbian_spruces_summer.dat:
           af481000:
+            model: 5a0e874f-0012
             name: Grfe_serbian_spruce_summer_A
             stages:
               - id: af481001
+                model: ba0e8ba5-0012
                 name: Grfe_serbian_spruce_summer_B
               - id: af481002
+                model: 9a0e9076-0012
                 name: Grfe_serbian_spruce_summer_C
               - id: af481003
+                model: fa0e9663-0012
                 name: Grfe_serbian_spruce_summer_D
               - id: af481004
+                model: 5a0e9e08-0012
                 name: Grfe_serbian_spruce_summer_E
         Serbian Spruces v1/Grfe_serbian_spruces_winter.dat:
           af471000:
+            model: 5a0e874f-0013
             name: Grfe_serbian_spruces_winter_A
             stages:
               - id: af471001
+                model: ba0e8ba5-0013
                 name: Grfe_serbian_spruces_winter_B
               - id: af471002
+                model: 9a0e9076-0013
                 name: Grfe_serbian_spruces_winter_C
               - id: af471003
+                model: fa0e9663-0013
                 name: Grfe_serbian_spruces_winter_D
               - id: af471004
+                model: 5a0e9e08-0013
                 name: Grfe_serbian_spruces_winter_E
         Serbian spruces v2/Grfe_Serbian_spruces_evergreen v2.dat:
           af481010:
+            model: ab1cd8ca
             name: Grfe_Serbian_spruce_evergreen_A2
             stages:
               - id: af481011
+                model: eb458812
                 name: Grfe_Serbian_spruce_evergreen_B2
               - id: af481012
+                model: eb4590b1
                 name: Grfe_Serbian_spruce_evergreen_C2
               - id: af481013
+                model: 6b459800
                 name: Grfe_Serbian_spruce_evergreen_D2
               - id: af481014
+                model: 4b45a458
                 name: Grfe_Serbian_spruce_evergreen_E2
         Serbian spruces v2/Grfe_Serbian_spruces_seasonal v2.dat:
           af481020:
@@ -2425,15 +3363,20 @@ girafe/flora-pack:
                 name: Grfe_Serbian_spruce_seasonal_E2
         Serbian spruces v2/Grfe_serbian_spruces_winter v1.dat:
           af471000:
+            model: 5a0e874f-0013
             name: Grfe_serbian_spruces_winter_A
             stages:
               - id: af471001
+                model: ba0e8ba5-0013
                 name: Grfe_serbian_spruces_winter_B
               - id: af471002
+                model: 9a0e9076-0013
                 name: Grfe_serbian_spruces_winter_C
               - id: af471003
+                model: fa0e9663-0013
                 name: Grfe_serbian_spruces_winter_D
               - id: af471004
+                model: 5a0e9e08-0013
                 name: Grfe_serbian_spruces_winter_E
         Sparaxis/Grfe_sparaxis_seasonal.dat:
           af448520:
@@ -2443,9 +3386,11 @@ girafe/flora-pack:
                 name: Grfe_sparaxis_seasonal_B
         Sparaxis/Grfe_sparaxis_summer.dat:
           af448510:
+            model: 40fce789
             name: Grfe_sparaxis_summer_A
             stages:
               - id: af448511
+                model: 80fce825
                 name: Grfe_sparaxis_summer_B
         Subalpine firs/Grfe_subalpine_firs_seasonal.dat:
           af448110:
@@ -2461,27 +3406,37 @@ girafe/flora-pack:
                 name: Grfe_subalpine_fir_seasonal_E
         Subalpine firs/Grfe_subalpine_firs_summer.dat:
           af448085:
+            model: 1c52cfd3
             name: Grfe_subalpine_fir_summer_A
             stages:
               - id: af448086
+                model: 7c52dc22
                 name: Grfe_subalpine_fir_summer_B
               - id: af448087
+                model: bc52b624
                 name: Grfe_subalpine_fir_summer_C
               - id: af448088
+                model: fc539f52
                 name: Grfe_subalpine_fir_summer_D
               - id: af448089
+                model: dc5bfab5
                 name: Grfe_subalpine_fir_summer_E
         Subalpine firs/Grfe_subalpine_firs_winter.dat:
           af448090:
+            model: 7c540ebd
             name: Grfe_subalpine_fir_winter_A
             stages:
               - id: af448091
+                model: dc542077
                 name: Grfe_subalpine_fir_winter_B
               - id: af448092
+                model: 5c54cb3a
                 name: Grfe_subalpine_fir_winter_C
               - id: af448093
+                model: 7c559f4b
                 name: Grfe_subalpine_fir_winter_D
               - id: af448094
+                model: 5c83de35
                 name: Grfe_subalpine_fir_winter_E
         Vines v2/Grfe_vines_seasonal.dat:
           af448560:
@@ -2505,23 +3460,32 @@ girafe/flora-pack:
                 name: Grfe_vine_seasonal_A
         Vines v2/Grfe_vines_summer.dat:
           af448550:
+            model: 611f7f10
             name: Grfe_vine_summer_A
             stages:
               - id: af448551
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448552
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448553
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448554
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448555
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448556
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448557
+                model: 611f7f10
                 name: Grfe_vine_summer_A
               - id: af448558
+                model: null
                 name: Grfe_vine_summer_A
         Walnut trees/Grfe_wallnut_trees_seasonal.dat:
           af448860:
@@ -2537,21 +3501,27 @@ girafe/flora-pack:
                 name: Grfe_walnut_tree_seasonal_E
         Walnut trees/Grfe_walnut_trees_evergreen.dat:
           af448850:
+            model: a4f6cb32
             name: Grfe_walnut_tree_evergreen_A
             stages:
               - id: af448851
+                model: c4f6c694
                 name: Grfe_walnut_tree_evergreen_B
               - id: af448852
+                model: a4f6bc41
                 name: Grfe_walnut_tree_evergreen_C
               - id: af448853
+                model: 44f6ba6f
                 name: Grfe_walnut_tree_evergreen_D
               - id: af448854
+                model: 24f6b39f
                 name: Grfe_walnut_tree_evergreen_E
         Wheat v2/Grfe_wheat_seasonal.dat:
           af448050:
             name: Grfe_wheat_seasonal
         Wheat v2/Grfe_wheat_summer.dat:
           af448060:
+            model: bcbb0913
             name: Grfe_wheat_summer
       props:
         Alders/Grfe_props_pack_LE_alders.dat:
@@ -2580,14 +3550,19 @@ girafe/flora-pack:
           ac3f6443:
             name: Grfe_alder_B_autumn
           cc3ed5e4:
+            model: ec357b46-0036
             name: Grfe_alder_B_evergreen
           cc3ed5f5:
+            model: ec357b46-0035
             name: Grfe_alder_A_evergreen
           cc3ed83b:
+            model: ec357b46-0039
             name: Grfe_alder_E_evergreen
           ec3ed5c2:
+            model: ec357b46-0038
             name: Grfe_alder_D_evergreen
           ec3ed5d4:
+            model: ec357b46-0037
             name: Grfe_alder_C_evergreen
           ec3eea7a:
             name: Grfe_alder_D_summer
@@ -2601,8 +3576,10 @@ girafe/flora-pack:
           1dbe6e18:
             name: Grfe_ash_C_autumn
           1dbe6e69:
+            model: 1db9ac86
             name: Grfe_ash_C_evergreen
           3dbe6e2e:
+            model: ddbb0751
             name: Grfe_ash_D_evergreen
           3dbe6e3f:
             name: Grfe_ash_D_summer
@@ -2617,6 +3594,7 @@ girafe/flora-pack:
           3dbe6f67:
             name: Grfe_ash_H_autumn
           3dbe6f76:
+            model: 3dba9755
             name: Grfe_ash_H_evergreen
           3dbe6f86:
             name: Grfe_ash_H_summer
@@ -2629,14 +3607,17 @@ girafe/flora-pack:
           5dbe6ecc:
             name: Grfe_ash_E_summer
           5dbeb14c:
+            model: 3dbbcfac
             name: Grfe_ash_B_evergreen
           7dbe6db3:
+            model: ddb9a32f
             name: Grfe_ash_A_evergreen
           7dbe6e76:
             name: Grfe_ash_C_summer
           9dbe6dde:
             name: Grfe_ash_B_autumn
           9dbe6eb9:
+            model: ddb9af83
             name: Grfe_ash_E_evergreen
           bdbe6e5d:
             name: Grfe_ash_D_autumn
@@ -2645,6 +3626,7 @@ girafe/flora-pack:
           bdbe6ef0:
             name: Grfe_ash_F_autumn
           bdbe6f39:
+            model: 9dba92b3
             name: Grfe_ash_G_evergreen
           bdbe6f47:
             name: Grfe_ash_G_summer
@@ -2657,6 +3639,7 @@ girafe/flora-pack:
           fdbe6e0a:
             name: Grfe_ash_B_winter
           fdbe6efe:
+            model: 9db9b6d4
             name: Grfe_ash_F_evergreen
           fdbe6f1b:
             name: Grfe_ash_F_winter
@@ -2672,10 +3655,13 @@ girafe/flora-pack:
           7f28c687:
             name: Grfe_beech_A_winter
           7fb49d38:
+            model: a21d8cda
             name: Grfe_beech_B_evergreen
           7fb49d5c:
+            model: 021d8e4f
             name: Grfe_beech_D_evergreen
           7fb49d6b:
+            model: c21d9097
             name: Grfe_beech_E_evergreen
           7fb49d7b:
             name: Grfe_beech_A_summer
@@ -2684,10 +3670,12 @@ girafe/flora-pack:
           9f28c6b4:
             name: Grfe_beech_C_winter
           9fb49d4b:
+            model: 821d8d70
             name: Grfe_beech_C_evergreen
           9fb49db6:
             name: Grfe_beech_E_summer
           bfb49d19:
+            model: 421d8c44
             name: Grfe_beech_A_evergreen
           bfb49d9a:
             name: Grfe_beech_C_summer
@@ -2703,6 +3691,7 @@ girafe/flora-pack:
             name: Grfe_beech_D_winter
         Berries/Grfe_props_pack_LE_berries.dat:
           1e0daec4:
+            model: 809cd8b3
             name: Grfe_berries_A_evergreen
           1e0daf34:
             name: Grfe_berries_B_summer
@@ -2711,10 +3700,12 @@ girafe/flora-pack:
           3e0daf08:
             name: Grfe_berries_B_autumn
           3e0daf21:
+            model: 409cde2c
             name: Grfe_berries_B_evergreen
           5e0daea0:
             name: Grfe_berries_A_autumn
           5e0daf7a:
+            model: 009ce0f2
             name: Grfe_berries_C_evergreen
           5e0daf93:
             name: Grfe_berries_C_summer
@@ -2734,24 +3725,29 @@ girafe/flora-pack:
           1eaaf930:
             name: Grfe_birch_E_winter
           5eaaf89a:
+            model: c13a1220
             name: Grfe_birch_C_evergreen
           5eaaf8aa:
             name: Grfe_birch_C_summer
           5eaaf8b7:
             name: Grfe_birch_C_winter
           5eaaf913:
+            model: e13a1686
             name: Grfe_birch_E_evergreen
           7eaaf828:
+            model: a13a0e0b
             name: Grfe_birch_A_evergreen
           9eaaf836:
             name: Grfe_birch_A_summer
           9eaaf854:
             name: Grfe_birch_B_autumn
           9eaaf860:
+            model: 813a114d
             name: Grfe_birch_B_evergreen
           9eaaf8c6:
             name: Grfe_birch_D_autumn
           9eaaf94c:
+            model: 413a198b
             name: Grfe_birch_F_evergreen
           beaaf87c:
             name: Grfe_birch_B_winter
@@ -2762,6 +3758,7 @@ girafe/flora-pack:
           beaaf966:
             name: Grfe_birch_F_winter
           deaaf8d8:
+            model: 013a1542
             name: Grfe_birch_D_evergreen
           deaaf93f:
             name: Grfe_birch_F_autumn
@@ -2789,8 +3786,10 @@ girafe/flora-pack:
           2cdd41c1:
             name: Grfe_bush_H_summer
           4cdd25f1:
+            model: ec63d797
             name: Grfe_bush_C_evergreen
           4cdd2627:
+            model: 8c63d9d7
             name: Grfe_bush_F_evergreen
           4cdd3c4f:
             name: Grfe_bush_B_winter
@@ -2803,6 +3802,7 @@ girafe/flora-pack:
           4cdfc151:
             name: Grfe_bush_D_autumn
           6cdd260f:
+            model: 0c63d92e
             name: Grfe_bush_E_evergreen
           6cdd3c83:
             name: Grfe_bush_F_winter
@@ -2813,6 +3813,7 @@ girafe/flora-pack:
           6cdfc1bc:
             name: Grfe_bush_G_autumn
           8cdd25e1:
+            model: 0c63d6b7
             name: Grfe_bush_B_evergreen
           8cdfc123:
             name: Grfe_bush_A_autumn
@@ -2823,16 +3824,20 @@ girafe/flora-pack:
           acdd3c3a:
             name: Grfe_bush_A_winter
           ccdd25cc:
+            model: ec63d5db
             name: Grfe_bush_A_evergreen
           ccdd415d:
             name: Grfe_bush_B_summer
           ccdfc1ae:
             name: Grfe_bush_F_autumn
           ecdd2601:
+            model: ec63d875
             name: Grfe_bush_D_evergreen
           ecdd2635:
+            model: 6c63da7a
             name: Grfe_bush_G_evergreen
           ecdd2644:
+            model: 6c63db0f
             name: Grfe_bush_H_evergreen
           ecdd3c5d:
             name: Grfe_bush_C_winter
@@ -2842,29 +3847,40 @@ girafe/flora-pack:
             name: Grfe_bush_H_winter
         Canary date palms/Grfe_props_pack_LE_Canary_date_palms.dat:
           35b8401e:
+            model: 853891d2
             name: Grfe_Canary_date_palm_evergreen_A
           35b84053:
+            model: e5389595
             name: Grfe_Canary_date_palm_evergreen_C
           35b8406f:
+            model: c5389639
             name: Grfe_Canary_date_palm_evergreen_D
           35b840d4:
+            model: 2538980f
             name: Grfe_Canary_date_palm_evergreen_G
           55b840a7:
+            model: '45389773'
             name: Grfe_Canary_date_palm_evergreen_F
           55b840ed:
+            model: '65389873'
             name: Grfe_Canary_date_palm_evergreen_H
           75b8403b:
+            model: e53894ee
             name: Grfe_Canary_date_palm_evergreen_B
           75b8408e:
+            model: 253896d5
             name: Grfe_Canary_date_palm_evergreen_E
         Cattails v2.1/Grfe_props_pack_LE_cattails.dat:
           6cc82a70:
             name: Grfe_cattails_C_winter
           8cc829d9:
+            model: 6cc2dbe9
             name: Grfe_cattails_A_evergreen
           8cc82a1c:
+            model: 4cc2dde2
             name: Grfe_cattails_B_evergreen
           8cc82a4f:
+            model: acc2e107
             name: Grfe_cattails_C_evergreen
           8cc82a5e:
             name: Grfe_cattails_C_summer
@@ -2888,6 +3904,7 @@ girafe/flora-pack:
           3f69cdea:
             name: Grfe_chestnut_E_autumn
           5f698008:
+            model: 61f640cf
             name: Grfe_chestnut_A_evergreen
           5f6980d3:
             name: Grfe_chestnut_D_summer
@@ -2898,8 +3915,10 @@ girafe/flora-pack:
           5f69cdc8:
             name: Grfe_chestnut_C_autumn
           7f69805b:
+            model: 21f63fa5
             name: Grfe_chestnut_B_evergreen
           7f69807c:
+            model: a1f63d21
             name: Grfe_chestnut_D_evergreen
           7f6980b4:
             name: Grfe_chestnut_B_summer
@@ -2908,10 +3927,12 @@ girafe/flora-pack:
           9f69cda5:
             name: Grfe_chestnut_A_autumn
           bf69806b:
+            model: 61f63e84
             name: Grfe_chestnut_C_evergreen
           bf6980a0:
             name: Grfe_chestnut_A_summer
           df69808d:
+            model: c1f63b46
             name: Grfe_chestnut_E_evergreen
           df69cdb9:
             name: Grfe_chestnut_B_autumn
@@ -2919,14 +3940,18 @@ girafe/flora-pack:
             name: Grfe_chestnut_C_summer
         Common spruces/Grfe_props_pack_LE_common_spruces.dat:
           3e3226e2:
+            model: 80bf39ce
             name: Grfe_common_spruce_A_evergreen
           3e32274d:
             name: Grfe_common_spruce_B_summer
           3e32277d:
+            model: c0bf42c0
             name: Grfe_common_spruce_C_evergreen
           '3e322881':
+            model: c0c024cb
             name: Grfe_common_spruce_F_evergreen
           3e323dd8:
+            model: 60c1719b
             name: Grfe_common_spruce_E_evergreen
           '5e322702':
             name: Grfe_common_spruce_A_summer
@@ -2945,14 +3970,17 @@ girafe/flora-pack:
           7e363bde:
             name: Grfe_common_spruce_F_winter
           9e3228c7:
+            model: 60c060c1
             name: Grfe_common_spruce_G_evergreen
           9e363b90:
             name: Grfe_common_spruce_B_winter
           be322735:
+            model: c0bf3cb5
             name: Grfe_common_spruce_B_evergreen
           be3228dd:
             name: Grfe_common_spruce_G_summer
           de3227e0:
+            model: 40bf4991
             name: Grfe_common_spruce_D_evergreen
           de3298c6:
             name: Grfe_common_spruce_E_summer
@@ -2962,6 +3990,7 @@ girafe/flora-pack:
             name: Grfe_common_spruce_C_winter
         Conifers/Grfe_props_pack_LE_conifers.dat:
           1dfe2f82:
+            model: a23728af
             name: Grfe_conifer_E_evergreen
           1dfe323d:
             name: Grfe_conifer_B_winter
@@ -2972,20 +4001,24 @@ girafe/flora-pack:
           3dfe39a5:
             name: Grfe_conifer_D_winter
           3dfe4b05:
+            model: 408d82dc
             name: Grfe_conifer_A_evergreen
           3dfe50fe:
             name: Grfe_conifer_A_summer
           3dfe5224:
             name: Grfe_conifer_A_winter
           5dfe2f5d:
+            model: 0237145d
             name: Grfe_conifer_C_evergreen
           5dfe3091:
             name: Grfe_conifer_B_summer
           5dfe30c9:
             name: Grfe_conifer_E_summer
           7dfe2f4a:
+            model: '82371072'
             name: Grfe_conifer_B_evergreen
           7dfe3052:
+            model: a08d6853
             name: Grfe_conifer_H_evergreen
           7dfe30b6:
             name: Grfe_conifer_D_summer
@@ -3000,30 +4033,39 @@ girafe/flora-pack:
           9dfe3270:
             name: Grfe_conifer_E_winter
           bdfe2f6e:
+            model: 0237188c
             name: Grfe_conifer_D_evergreen
           bdfe2fa7:
+            model: 608d61dd
             name: Grfe_conifer_G_evergreen
           bdfe3205:
             name: Grfe_conifer_H_summer
           bdfefc81:
+            model: 608e33f4
             name: Grfe_conifer_F_evergreen
           ddfe30a4:
             name: Grfe_conifer_C_summer
         Cypresses/Grfe_props_pack_LE_cypresses.dat:
           3ee8b811:
+            model: 41c70a76
             name: Grfe_cypress_A_evergreen
           5ee41cf2:
+            model: e124c191
             name: Grfe_cypress_C_evergreen
           bee41cd0:
+            model: 2124c32e
             name: Grfe_cypress_E_evergreen
           dee41cff:
+            model: e124c0eb
             name: Grfe_cypress_B_evergreen
           fee41ce2:
+            model: 2124c23a
             name: Grfe_cypress_D_evergreen
         Daisy v2/Grfe_props_pack_LE_daisy.dat:
           13b03670:
             name: Grfe_daisy_B_spring
           33b0363a:
+            model: '43305503'
             name: Grfe_daisy_B_evergreen
           53b03622:
             name: Grfe_daisy_B_summer
@@ -3032,6 +4074,7 @@ girafe/flora-pack:
           93b035bb:
             name: Grfe_daisy_A_summer
           93b035de:
+            model: '23305483'
             name: Grfe_daisy_A_evergreen
         Elms/Grfe_props_pack_LE_elms.dat:
           23dd10c1:
@@ -3051,24 +4094,29 @@ girafe/flora-pack:
           83dd112f:
             name: Grfe_elm_E_autumn
           83ddeac2:
+            model: 83d9e04c
             name: Grfe_elm_A_evergreen
           83ddeb1e:
             name: Grfe_elm_B_summer
           83ddf665:
             name: Grfe_elm_A_autumn
           c3dd1828:
+            model: c3cfc753
             name: Grfe_elm_E_evergreen
           c3dd1839:
             name: Grfe_elm_E_summer
           c3ddeaf4:
+            model: 83d9db22
             name: Grfe_elm_C_evergreen
           c3ddebc4:
             name: Grfe_elm_C_winter
           e3dd0fdd:
+            model: 23cfcc93
             name: Grfe_elm_D_evergreen
           e3dd103a:
             name: Grfe_elm_D_summer
           e3ddeae1:
+            model: e3d9dd4e
             name: Grfe_elm_B_evergreen
           e3ddeb09:
             name: Grfe_elm_A_summer
@@ -3079,6 +4127,7 @@ girafe/flora-pack:
             name: Grfe_elm_A_autumn
         Feather grass/Grfe_props_pack_LE_feather_grass.dat:
           df334f28:
+            model: c0ff6a3a
             name: Grfe_feather_grass_A_evergreen
           df3350bc:
             name: Grfe_feather_grass_A_summer
@@ -3094,29 +4143,35 @@ girafe/flora-pack:
           4cc58c5d:
             name: Grfe_grand_fir_A_winter
           6c5ac742:
+            model: 4b1e3aec
             name: Grfe_grand_fir_E_evergreen
           6cc57988:
             name: Grfe_grand_fir_D_summer
           6cc58cbc:
             name: Grfe_grand_fir_B_winter
           8c5ac72b:
+            model: 8b1e2e2f
             name: Grfe_grand_fir_C_evergreen
           8c5ac773:
+            model: cb1e3464
             name: Grfe_grand_fir_D_evergreen
           acc57976:
             name: Grfe_grand_fir_C_summer
           acc58cf7:
             name: Grfe_grand_fir_E_winter
           cc5ac712:
+            model: 6b1e2af6
             name: Grfe_grand_fir_B_evergreen
           ccc57931:
             name: Grfe_grand_fir_A_summer
           ccc58ce5:
             name: Grfe_grand_fir_D_winter
           ec5ac6f4:
+            model: 0b1e1a7b
             name: Grfe_grand_fir_A_evergreen
         Honey locust/Grfe_props_pack_LE_honey_locust.dat:
           3f798ac4:
+            model: e20608a0
             name: Grfe_honey_locust_A_evergreen
           3f798ad8:
             name: Grfe_honey_locust_E_summer
@@ -3125,6 +4180,7 @@ girafe/flora-pack:
           5f798b10:
             name: Grfe_honey_locust_B_summer
           7f798a78:
+            model: 82060a73
             name: Grfe_honey_locust_E_evergreen
           7f798b1f:
             name: Grfe_honey_locust_A_summer
@@ -3147,10 +4203,13 @@ girafe/flora-pack:
           ff798652:
             name: Grfe_honey_locust_C_winter
           ff798a91:
+            model: '02060220'
             name: Grfe_honey_locust_D_evergreen
           ff798aa3:
+            model: e20605bc
             name: Grfe_honey_locust_C_evergreen
           ff798ab4:
+            model: '22060736'
             name: Grfe_honey_locust_B_evergreen
           ff7ac5ed:
             name: Grfe_honey_locust_E_autumn
@@ -3158,12 +4217,15 @@ girafe/flora-pack:
             name: Grfe_honey_locust_D_autumn
         Lindens/Grfe_props_pack_LE_lindens.dat:
           1def8ee5:
+            model: 9dd7f9c4-0045
             name: Grfe_linden_A_evergreen
           1deface2:
             name: Grfe_linden_F_autumn
           3def90f2:
+            model: 9dd7f9c4-0031
             name: Grfe_linden_D_evergreen
           3def9ae6:
+            model: 407ed32d
             name: Grfe_linden_E_evergreen
           3def9bda:
             name: Grfe_linden_D_summer
@@ -3188,14 +4250,17 @@ girafe/flora-pack:
           7e06ed75:
             name: Grfe_linden_C_summer
           7e06ee6c:
+            model: e0962388
             name: Grfe_linden_C_evergreen
           9def8f05:
+            model: 9dd7f9c4-0048
             name: Grfe_linden_B_evergreen
           bdefa194:
             name: Grfe_linden_E_winter
           ddef9bee:
             name: Grfe_linden_E_summer
           fdef9918:
+            model: a07ecec7
             name: Grfe_linden_F_evergreen
           fdef9b93:
             name: Grfe_linden_A_summer
@@ -3207,6 +4272,7 @@ girafe/flora-pack:
             name: Grfe_linden_E_autumn
         Lupins/Grfe_props_pack_LE_lupins.dat:
           1df7603d:
+            model: 2145cacf
             name: Grfe_lupin_A_evergreen
           1df7605a:
             name: Grfe_lupin_A_summer
@@ -3215,6 +4281,7 @@ girafe/flora-pack:
           3df7604c:
             name: Grfe_lupin_A_spring
           3df760aa:
+            model: c145cda7
             name: Grfe_lupin_C_evergreen
           3df760b8:
             name: Grfe_lupin_C_spring
@@ -3223,6 +4290,7 @@ girafe/flora-pack:
           7df760d3:
             name: Grfe_lupin_C_winter
           bdf7606f:
+            model: 2145cb72
             name: Grfe_lupin_B_evergreen
           ddf7607f:
             name: Grfe_lupin_B_spring
@@ -3244,6 +4312,7 @@ girafe/flora-pack:
           1cfcad83:
             name: Grfe_maple_G_winter
           1d04c88d:
+            model: fd0217b7
             name: Grfe_maple_E_evergreen
           3cfc98fc:
             name: Grfe_maple_A_autumn
@@ -3252,6 +4321,7 @@ girafe/flora-pack:
           3cfcbab5:
             name: Grfe_maple_B_winter
           3d04c818:
+            model: 5d02128f
             name: Grfe_maple_A_evergreen
           5cfb485d:
             name: Grfe_maple_H_summer
@@ -3268,18 +4338,23 @@ girafe/flora-pack:
           7cfcad43:
             name: Grfe_maple_D_winter
           7d04c8cb:
+            model: 1d022207
             name: Grfe_maple_H_evergreen
           9cfc9959:
             name: Grfe_maple_E_autumn
           9d04c8a2:
+            model: 1d021c24
             name: Grfe_maple_F_evergreen
           bd04c867:
+            model: 7d021659
             name: Grfe_maple_D_evergreen
           dcfb38b5:
             name: Grfe_maple_F_summer
           dd04c83d:
+            model: 9d0213ec
             name: Grfe_maple_B_evergreen
           dd04c8b6:
+            model: dd021f59
             name: Grfe_maple_G_evergreen
           fcfb2cd0:
             name: Grfe_maple_D_summer
@@ -3294,9 +4369,11 @@ girafe/flora-pack:
           fcfcad59:
             name: Grfe_maple_E_winter
           fd04c853:
+            model: fd02152d
             name: Grfe_maple_C_evergreen
         Narcissus/Grfe_props_pack_LE_narcissus.dat:
           1e390f91:
+            model: 00c84726
             name: Grfe_narcissus_A_evergreen
           1e390fa1:
             name: Grfe_narcissus_A_spring
@@ -3308,12 +4385,14 @@ girafe/flora-pack:
           1f4b6960:
             name: Grfe_norway_maple_D_summer
           3f4b6857:
+            model: a1da723d
             name: Grfe_norway_maple_A_evergreen
           3f4b6887:
             name: Grfe_norway_maple_B_autumn
           3f4b68d8:
             name: Grfe_norway_maple_C_autumn
           5f4b68ed:
+            model: 01da8465
             name: Grfe_norway_maple_C_evergreen
           5f4b693c:
             name: Grfe_norway_maple_D_autumn
@@ -3330,19 +4409,24 @@ girafe/flora-pack:
           df4b6870:
             name: Grfe_norway_maple_A_summer
           ff4b689c:
+            model: c1da7be5
             name: Grfe_norway_maple_B_evergreen
           ff4b68c4:
             name: Grfe_norway_maple_B_winter
           ff4b694e:
+            model: 01da963e
             name: Grfe_norway_maple_D_evergreen
         Oaks v2/Grfe_Props_Pack_LE_Oaks.dat:
           0cfbb16c:
+            model: 6cf3900f
             name: Grfe_oak_E_evergreen
           0cfcb7f4:
             name: Grfe_oak_B_winter
           2cfbb114:
+            model: 8cf3895e
             name: Grfe_oak_A_evergreen
           4cfcb7dd:
+            model: 2fb37d27
             name: Grfe_oak_B_evergreen
           6cfbb0cf:
             name: Grfe_oak_D_winter
@@ -3357,6 +4441,7 @@ girafe/flora-pack:
           8cfbb0e1:
             name: Grfe_oak_E_winter
           8cfbb144:
+            model: acf38cd9
             name: Grfe_oak_C_evergreen
           8cfc9dcc:
             name: Grfe_oak_A_autumn
@@ -3373,19 +4458,25 @@ girafe/flora-pack:
           ccfc9e22:
             name: Grfe_oak_D_autumn
           ecfbb158:
+            model: 0cf38e5d
             name: Grfe_oak_D_evergreen
           ecfbb198:
             name: Grfe_oak_D_summer
         Parasol pines/Grfe_props_pack_parasol_pines_LE.dat:
           7ea82a89:
+            model: 21375d47
             name: Grfe_parasol_pine_D_evergreen
           9ea82a5b:
+            model: e13753b3
             name: Grfe_parasol_pine_A_evergreen
           bea82a7c:
+            model: 813759f7
             name: Grfe_parasol_pine_C_evergreen
           bea82a95:
+            model: 61375fa8
             name: Grfe_parasol_pine_E_evergreen
           fea82a6f:
+            model: e137561b
             name: Grfe_parasol_pine_B_evergreen
         Poplars/Grfe_props_pack_LE_poplars.dat:
           079c1fc9:
@@ -3393,8 +4484,10 @@ girafe/flora-pack:
           079c2001:
             name: Grfe_poplar_E_summer
           279c1f0d:
+            model: 0790ce33
             name: Grfe_poplar_A_evergreen
           279c1f8e:
+            model: '6790e985'
             name: Grfe_poplar_E_evergreen
           279c1fef:
             name: Grfe_poplar_D_summer
@@ -3407,6 +4500,7 @@ girafe/flora-pack:
           479c20e7:
             name: Grfe_poplar_B_autumn
           679c1f65:
+            model: '6790e227'
             name: Grfe_poplar_C_evergreen
           a79c2067:
             name: Grfe_poplar_B_winter
@@ -3417,12 +4511,14 @@ girafe/flora-pack:
           a79c2120:
             name: Grfe_poplar_E_autumn
           c79c1f7b:
+            model: 8790e69f
             name: Grfe_poplar_D_evergreen
           c79c1fb1:
             name: Grfe_poplar_A_summer
           c79c210f:
             name: Grfe_poplar_D_autumn
           e79c1f4c:
+            model: 4790d2f4
             name: Grfe_poplar_B_evergreen
           e79c204d:
             name: Grfe_poplar_A_winter
@@ -3430,6 +4526,7 @@ girafe/flora-pack:
             name: Grfe_poplar_A_autumn
         Poppies/Grfe_props_pack_LE_poppies.dat:
           1e368cd8:
+            model: 80c5c640
             name: Grfe_poppy_A_evergreen
           5e368c3f:
             name: Grfe_poppy_A_spring
@@ -3441,12 +4538,15 @@ girafe/flora-pack:
           034ead65:
             name: Grfe_rowan_tree_C_winter
           034ead8c:
+            model: 628068ff
             name: Grfe_rowan_tree_D_evergreen
           034eadc5:
             name: Grfe_rowan_tree_D_winter
           234eac4d:
+            model: '22806260'
             name: Grfe_rowan_tree_A_evergreen
           234ead27:
+            model: 828063cd
             name: Grfe_rowan_tree_C_evergreen
           234ead51:
             name: Grfe_rowan_tree_C_autumn
@@ -3457,10 +4557,12 @@ girafe/flora-pack:
           634ead3c:
             name: Grfe_rowan_tree_C_summer
           634eae07:
+            model: 22806eb2
             name: Grfe_rowan_tree_E_evergreen
           a34eac98:
             name: Grfe_rowan_tree_A_winter
           a34eacba:
+            model: e27fccf8
             name: Grfe_rowan_tree_B_evergreen
           a34eacce:
             name: Grfe_rowan_tree_B_summer
@@ -3480,26 +4582,31 @@ girafe/flora-pack:
           0c372808:
             name: Grfe_Serbien_spruce_D_winter
           2c35c699:
+            model: ec357b46-0007
             name: Grfe_Serbien_spruce_A_evergreen
           2c3727fc:
             name: Grfe_Serbien_spruce_A_winter
           2c372823:
             name: Grfe_Serbien_spruce_B_winter
           4c3597db:
+            model: ec357b46-0004
             name: Grfe_Serbien_spruce_C_evergreen
           4c359801:
+            model: ec357b46
             name: Grfe_Serbien_spruce_B_evergreen
           4c35ca5e:
             name: Grfe_Serbien_spruce_E_summer
           6c3727ef:
             name: Grfe_Serbien_spruce_E_winter
           8c3597ca:
+            model: ec357b46-0005
             name: Grfe_Serbien_spruce_D_evergreen
           8c35ca48:
             name: Grfe_Serbien_spruce_D_summer
           ac35ca04:
             name: Grfe_Serbien_spruce_A_summer
           cc3597ac:
+            model: ec357b46-0006
             name: Grfe_Serbien_spruce_E_evergreen
           cc35ca1b:
             name: Grfe_Serbien_spruce_B_summer
@@ -3513,16 +4620,20 @@ girafe/flora-pack:
           3ee1e69b:
             name: Grfe_sparaxis_red_summer
           3ee1e93c:
+            model: a0fd1e24
             name: Grfe_sparaxis_orange_evergreen
           5ee1e678:
             name: Grfe_sparaxis_white_summer
           5ee1e91d:
+            model: a0fd1e6c
             name: Grfe_sparaxis_red_evergreen
           9ee1e68a:
             name: Grfe_sparaxis_spring
           9ee1e90e:
+            model: 00fd1db8
             name: Grfe_sparaxis_white_evergreen
           9ee1e92d:
+            model: 80fd1de9
             name: Grfe_sparaxis_pink_evergreen
           bee1e6cb:
             name: Grfe_sparaxis_orange_summer
@@ -3538,20 +4649,26 @@ girafe/flora-pack:
           3e05d121:
             name: Grfe_subalpinefir_E_summer
           5e05877c:
+            model: a094bc72
             name: Grfe_subalpinefir_A_evergreen
           5e05d0ce:
+            model: 4094ed40
             name: Grfe_subalpinefir_D_evergreen
           7e05d10c:
+            model: 8094f6c6
             name: Grfe_subalpinefir_E_evergreen
           7e060b28:
+            model: c09542f7
             name: Grfe_subalpinefir_B_evergreen
           '7e061040':
             name: Grfe_subalpinefir_B_winter
           9e057cff:
             name: Grfe_subalpinefir_F_winter
           9e05cfb6:
+            model: c095044f
             name: Grfe_subalpinefir_G_evergreen
           9e05d093:
+            model: c094e4f7
             name: Grfe_subalpinefir_C_evergreen
           be05d0e2:
             name: Grfe_subalpinefir_D_summer
@@ -3560,6 +4677,7 @@ girafe/flora-pack:
           be060e9a:
             name: Grfe_subalpinefir_B_summer
           de057766:
+            model: 6094ae55
             name: Grfe_subalpinefir_F_evergreen
           de0587a7:
             name: Grfe_subalpinefir_A_winter
@@ -3636,6 +4754,7 @@ girafe/flora-pack:
           0562eb1d:
             name: Grfe_walnut_tree_D_winter
           2562e9aa:
+            model: a4f6bc41
             name: Grfe_walnut_tree_C_evergreen
           2562ea30:
             name: Grfe_walnut_tree_C_summer
@@ -3644,6 +4763,7 @@ girafe/flora-pack:
           2562eb2d:
             name: Grfe_walnut_tree_E_winter
           4562e9be:
+            model: 44f6ba6f
             name: Grfe_walnut_tree_D_evergreen
           4562f1e3:
             name: Grfe_walnut_tree_A_autumn
@@ -3652,6 +4772,7 @@ girafe/flora-pack:
           6562eaf9:
             name: Grfe_walnut_tree_B_winter
           '8562e999':
+            model: c4f6c694
             name: Grfe_walnut_tree_B_evergreen
           8562ea1d:
             name: Grfe_walnut_tree_B_summer
@@ -3664,8 +4785,10 @@ girafe/flora-pack:
           a562ebad:
             name: Grfe_walnut_tree_D_autumn
           c562e985:
+            model: a4f6cb32
             name: Grfe_walnut_tree_A_evergreen
           c562e9d2:
+            model: 24f6b39f
             name: Grfe_walnut_tree_E_evergreen
           c562eb9c:
             name: Grfe_walnut_tree_C_autumn
@@ -3686,6 +4809,7 @@ girafe/flora-pack:
             name: Grfe_wheat_summer
           7cd69d2c:
             family: af440005
+            model: 3c39ba7e
             name: Grfe_haybale_empty_C
           9cc3cd1a:
             family: af440003
@@ -3742,41 +4866,49 @@ girafe/hedges:
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - Grfe_Props_Pack_LE_Hedges.dat
-      lastGenerated: 2024-12-13T11:23:37.740Z
+      lastGenerated: 2025-01-06T12:13:24.142Z
       lastModified: 2024-08-21T22:51:45.000Z
       props:
         Grfe_Props_Pack_LE_Hedges.dat:
           0d2fee57:
+            model: 10f3a518
             name: Grfe_hedge_12x3m_diag_evergreen
           0d2feed3:
             name: Grfe_hedge_12x3m_diag_seasonal
           0d2ff608:
+            model: 10f3ae16
             name: Grfe_hedge_18x3m_diag_evergreen
           1f4c9f62:
             name: Grfe_hedge_12x3m_seasonal
           5f4c8bc2:
+            model: 01dba151
             name: Grfe_hedge_2x3m_evergreen
           5f4c9f75:
             name: Grfe_hedge_18x3m_seasonal
           7f4c9f85:
             name: Grfe_hedge_2x3m_seasonal
           9f4c8bb3:
+            model: 81dba5fc
             name: Grfe_hedge_18x3m_evergreen
           9f4c9f96:
             name: Grfe_hedge_6x3m_seasonal
           bf4c8bd1:
+            model: 41dba203
             name: Grfe_hedge_6x3m_evergreen
           cd2feeaf:
             name: Grfe_hedge_6x3m_diag_seasonal
           ed2fe6cc:
+            model: b0f39e84
             name: Grfe_hedge_2x3m_diag_evergreen
           ed2fee99:
             name: Grfe_hedge_2x3m_diag_seasonal
           ed2feec4:
+            model: d0f3a22b
             name: Grfe_hedge_6x3m_diag_evergreen
           ed2ff747:
             name: Grfe_hedge_18x3m_diag_seasonal
           ff4c8ba3:
+            model: c1dba34a
             name: Grfe_hedge_12x3m_evergreen
-      release: 2024-11-26T21:04:04.961Z
+      release: 2025-01-06T12:11:37.341Z
       version: 1.0.0

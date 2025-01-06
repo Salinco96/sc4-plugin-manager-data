@@ -1,5 +1,7 @@
 robdragon/props-vol01:
   categories: props
+  dependencies:
+    - simgoober/mega-props-vol01
   description: |-
     This is a prop pack that will be needed for most if not all my lots.
 
@@ -7,26 +9,13 @@ robdragon/props-vol01:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/583364aeef437_Animal2.jpg.ae5abdfdeef2552f3033f15030b05d52.jpg
   name: RDG Prop Pack 1
-  textures:
-    RDG_Prop_Pack_1.dat:
-      - f75041c0
-      - f75041c5
-      - f75041ca
-      - f75041d0
-      - f75041d5
-      - f75041da
-      - f75041e0
-      - f75041e5
-      - f75041ea
-      - f75041f0
-      - f75041f5
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/5833656b2a26f_Animal2.thumb.jpg.de4026d918eb37ab712901819880127d.jpg
   url: https://community.simtropolis.com/files/file/31374-rdg-prop-pack-1/
   variants:
     default:
       assets:
         - id: simtropolis/31374-rdg-prop-pack-1
-      lastGenerated: 2024-12-17T16:13:39.328Z
+      lastGenerated: 2025-01-06T12:13:25.071Z
       lastModified: 2016-11-21T21:21:47.000Z
       props:
         RDG_Prop_Pack_1.dat:
@@ -79,6 +68,7 @@ robdragon/props-vol01:
             family: a0000066
             name: RDG_Aper2x2x4_male-lgt03-wait(12-13)
           0dd9a6e1:
+            model: 4dd99bdb
             name: RDG_SG_Prop_Vending_Aquafina
           0e2ce064:
             family: a0000860
@@ -185,6 +175,7 @@ robdragon/props-vol01:
             family: a0000860
             name: RDG_Prop_Person_Child01(12-13)
           28ea3518:
+            model: d10b1e15
             name: RDG_SG_Prop_Street_NewsStands01
           '29346826':
             name: rdg_jes_FordBronco_Strt
@@ -269,8 +260,10 @@ robdragon/props-vol01:
             family: 5f85b90c
             name: rdg_Pontiac GTO_(9-17)
           3bf5937a:
+            model: '6e097680'
             name: rdg_SG_Prop_3x3x7_LampPost_5lights
           3c4e9406:
+            model: 710b1e3f
             name: RDG_SG_Prop_Street_NewsStands04
           3e7a3b4a:
             family: 5f85b90a
@@ -318,8 +311,10 @@ robdragon/props-vol01:
             family: 5f85b911
             name: rdg_CLUSTER_2x_4_(9-17)
           4dd9a6a2:
+            model: edd99e45
             name: RDG_SG_Prop_Vending_Pepsi
           4dd9a6ec:
+            model: 0dd9a08b
             name: RDG_SG_Prop_Vending_Snacks
           4f1ebd14:
             family: a0000989
@@ -331,6 +326,7 @@ robdragon/props-vol01:
             family: 5f85b910
             name: rdg_CLUSTER_3x_4_(0-6)
           50350ba7:
+            model: b2d8d0e5
             name: rdg_jes_EnclosuredDumpster_WoodFence
           504ce593:
             name: rdg_jes_FordBronco_Strt(0-6)
@@ -552,6 +548,7 @@ robdragon/props-vol01:
             family: 5f85b906
             name: rdg_Chevy C10_Red_(9-17)
           90d1fe44:
+            model: b10b1e32
             name: RDG_SG_Prop_Street_NewsStands03
           9101e9b7:
             family: a0000066
@@ -633,6 +630,7 @@ robdragon/props-vol01:
             family: 5f85b90f
             name: rdg_CLUSTER_4x_4_(0-6)
           acacb009:
+            model: d10b1e24
             name: RDG_SG_Prop_Street_NewsStands02
           ad1b5392:
             family: a0000989
@@ -732,6 +730,7 @@ robdragon/props-vol01:
             family: 5f85b906
             name: rdg_Jeep Wrangler_Blue_(13-15)
           cdd9a6b7:
+            model: edd99b92
             name: RDG_SG_Prop_Vending_Cola
           cde14cca:
             family: 5f85b906
@@ -829,6 +828,7 @@ robdragon/props-vol01:
             family: 5f85b90f
             name: rdg_CLUSTER_4x_5_(9-17)
           e8a3af95:
+            model: 330f0593
             name: rdg_jes_BFIDumpster
           e9449062:
             family: a0000989
@@ -852,8 +852,10 @@ robdragon/props-vol01:
             family: a0000989
             name: RDG_Prop_PickupTruck_Small06(10-11)
           edd9a6cb:
+            model: add99d93
             name: RDG_SG_Prop_Vending_Coke
           edd9a6d7:
+            model: 4dd99dfe
             name: RDG_SG_Prop_Vending_Mt Dew
           f1d731ec:
             family: 5f85b910
@@ -895,4 +897,17 @@ robdragon/props-vol01:
             family: 5f85b906
             name: rdg_Jeep Wrangler_Blue_(10-12)
       release: 2024-12-17T16:13:39.316Z
+      textures:
+        RDG_Prop_Pack_1.dat:
+          - f75041c0
+          - f75041c5
+          - f75041ca
+          - f75041d0
+          - f75041d5
+          - f75041da
+          - f75041e0
+          - f75041e5
+          - f75041ea
+          - f75041f0
+          - f75041f5
       version: 1.0.0

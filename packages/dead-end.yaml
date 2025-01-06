@@ -24,7 +24,7 @@ dead-end/dutch-bicyclepaths:
     default:
       assets:
         - id: simtropolis/33761-dutch-bicyclepaths
-      lastGenerated: 2024-12-17T16:13:42.352Z
+      lastGenerated: 2025-01-06T12:13:26.660Z
       lastModified: 2020-08-13T16:07:06.000Z
       release: 2024-12-17T16:13:42.332Z
       textures:
@@ -83,17 +83,28 @@ dead-end/grimstad-pharmacy:
               $$$: 1
             maintenance: 300
             menu: Health
+            model: eba38cf7
             name: Grimstad Pharmacy
             power: 1
             submenu: Health/Small
-      lastGenerated: 2024-12-18T11:53:04.386Z
+      lastGenerated: 2025-01-06T12:13:26.566Z
       lastModified: 2024-09-22T07:43:56.000Z
       lots:
         Grimstad Pharmacy.SC4Lot:
           347423c9:
             building: 347423c9
             name: Grimstad Pharmacy
+            props:
+              - 109f9dcc
+              - dd37fbc0
+              - 5ee1e91d
+              - 9ee1e90e
+              - 9ee1e92d
+              - 1e390f91
             size: 1x1
+            textures:
+              - '251e0000'
+              - 258f0000
       release: 2024-12-17T16:13:42.153Z
       version: 1.0.1
 
@@ -128,6 +139,7 @@ dead-end/hisingen-apartments:
             categories: r$$
             flamability: 40
             garbage: 4
+            model: 8b89da67
             name: Hisingen Apartments
             pollution: 1
             pollutionRadius: 5
@@ -136,7 +148,7 @@ dead-end/hisingen-apartments:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 591
-      lastGenerated: 2024-12-18T11:53:04.326Z
+      lastGenerated: 2025-01-06T12:13:25.428Z
       lastModified: 2024-11-24T08:46:44.000Z
       lots:
         R$$2_3x2_Hisingen Apartments_04c27834.SC4Lot:
@@ -144,8 +156,29 @@ dead-end/hisingen-apartments:
             building: 54c1312c
             density: all
             name: R$$2_3x2_Hisingen Apartments
+            props:
+              - 8b90e718
+              - 109f9dcc
+              - 8cfbb144
+              - 5f85b910
+              - 5f85b911
+              - 93b035de
+              - 33b0363a
+              - 2a8c0000
+              - 1e9a0000
+              - ccdd25cc
+              - 8cdd25e1
+              - 4cdd25f1
+              - a00005f9
             size: 3x2
             stage: 2
+            textures:
+              - 25f40000
+              - f85d47da
+              - f85d47d0
+              - f85d478a
+              - f85d4785
+              - f85d47d5
       release: 2024-12-17T16:13:39.852Z
       version: 1.0.0
 
@@ -188,18 +221,52 @@ dead-end/hjorthagen-school-relot:
               $$: 6
             maintenance: 400
             menu: Education
+            model: 2ce3bb54
             name: Hjorthagens skola
             power: 2
             submenu: Education/Elementary
             water: 5
-      lastGenerated: 2024-12-18T11:53:04.396Z
+      lastGenerated: 2025-01-06T12:13:26.574Z
       lastModified: 2024-11-06T17:35:43.000Z
       lots:
         DE_PLOP_5x4_hjorthagens skola_e4acd9d0.SC4Lot:
           e4acd9d0:
             building: e4acd9d0
             name: DE_PLOP_5x4_hjorthagens skola
+            props:
+              - 1f0b0000
+              - dd37fbe8
+              - 8cdd25e1
+              - ccdd25cc
+              - eebe9b3a
+              - a00005f5
+              - 3f4b6857
+              - 33b0363a
+              - 1e9a0000
+              - 2a8c0000
+              - 5f85b910
+              - 5f85b911
+              - 034ead8c
+              - 234ead27
+              - a34eacba
+              - 7e06ee6c
             size: 5x4
+            textures:
+              - 258f0000
+              - 251c0000
+              - 25af0000
+              - 258c0000
+              - f8a04b30
+              - f8a043ba
+              - f8a04590
+              - f8a04095
+              - f8a0447a
+              - 25ae0000
+              - f8a04550
+              - f8a043d0
+              - f8a04055
+              - f8a045e0
+              - f5f84300
       release: 2024-12-17T16:13:42.195Z
       version: 1.0.0
 
@@ -207,6 +274,7 @@ dead-end/konsum:
   categories: landmarks,cs$
   dependencies:
     - 11241036/textures
+    - bsc/textures-vol02
     - cycledogg/mega-props-vol01
     - girafe/flora-pack
     - kingofsimcity/supershk-mega-parking-textures
@@ -245,6 +313,7 @@ dead-end/konsum:
             flamability: 45
             garbage: 4
             menu: Landmarks
+            model: fdb52aa6
             name: DE_konsumstorre
             pollution: 1
             pollutionRadius: 5
@@ -254,15 +323,123 @@ dead-end/konsum:
             waterPollution: 1
             waterPollutionRadius: 5
             worth: 283
-      lastGenerated: 2024-12-18T11:53:04.365Z
+      lastGenerated: 2025-01-06T12:13:26.344Z
       lastModified: 2024-11-16T14:10:26.000Z
       lots:
         PLOP_2x2_DE_konsumstorre_44b3469c.SC4Lot:
           44b3469c:
             building: 44b3469c
             name: PLOP_2x2_DE_konsumstorre
+            props:
+              - dd37fbc0
+              - 109f9dcc
+              - f09f9e0c
+              - 8cfbb144
+              - 51b84097
+              - 3def90f2
+              - 5f85b911
+              - 1e9a0000
+              - a00005f5
+              - dd37fbe8
+              - da02d424
             size: 2x2
+            textures:
+              - 258f0000
+              - 251c0000
+              - f85d42da
+              - f8a05310
+              - 258c0000
+              - f8a04410
+              - 6112c000
+              - f8a052d5
+              - f8a06025
       release: 2024-12-17T16:13:42.085Z
+      version: 1.0.0
+
+dead-end/lapinkirkko-relot:
+  categories: education
+  dependencies:
+    - bsc/textures-vol03
+    - girafe/flora-pack
+    - krio/lapinkirkko
+    - sfbt/essentials
+    - simmer2/dry-stone-walls
+  description: |-
+    This 4x5 lot features a church and a cemetery. It functions as a museum in the game.
+
+    A special thanks to [@Krio](https://community.simtropolis.com/profile/101267-krio/) for creating such a wonderful model!
+
+    The attached screenshots show my custom grass (Lowkee's [Appalachian terrain mod](https://www.sc4evermore.com/index.php/downloads/download/37-terrain-mods-and-tree-controllers/41-appalachian-terrain-mod-by-lowkee33)). As far as I know the used texture ID's are standard, so it should work whether or not you're using particular mods. Let me know in the comments if you run into any trouble! Also let know if you end up using this in your cities. I'd love to see some screenshots!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Screenshot_Lapin1.jpg.79b9076b78c287e3adf62f90b3efa400.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Screenshot_Lapin2.jpg.f531a63999d765bc9214b655037e4748.jpg
+  name: Lapinkirkko Relot
+  optional:
+    - flann/girafe-maxis-fence-hd-replacement-mod
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/Screenshot_Lapin1.thumb.jpg.cb1a48ce65c2b95b8beb1982d30d45e0.jpg
+  url: https://community.simtropolis.com/files/file/36625-lapinkirkko-relot/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36625-lapinkirkko-relot
+      buildings:
+        PLOP_4x5_DE_TG_Lapinkirkko_24d5c22b.SC4Lot:
+          24d5c22b:
+            bulldoze: 9440
+            categories: education
+            cost: 8650
+            flamability: 35
+            garbage: 2
+            jobs:
+              $: 27
+              $$: 114
+              $$$: 45
+            maintenance: 10600
+            menu: Education
+            model: 18ff952b
+            name: DE_TG_Lapinkirkko
+            pollution: 5
+            pollutionRadius: 3
+            power: 9
+            submenu: Education/Libraries
+            water: 34
+            waterPollution: 3
+            waterPollutionRadius: 4
+      lastGenerated: 2025-01-06T12:13:26.627Z
+      lastModified: 2024-12-24T09:43:29.000Z
+      lots:
+        PLOP_4x5_DE_TG_Lapinkirkko_24d5c22b.SC4Lot:
+          24d5c22b:
+            building: 24d5c22b
+            name: PLOP_4x5_DE_TG_Lapinkirkko
+            props:
+              - c77d3042
+              - 277fcd91
+              - 677a5cce
+              - 477d3081
+              - 7e06ee6c
+              - '29780000'
+              - 3def90f2
+              - '297e0000'
+              - dd37fbc0
+              - '29730000'
+              - ecdd2644
+              - ecdd2601
+              - e79c1f4c
+              - da40a0eb
+              - ccdd25cc
+              - 8cdd25e1
+              - 3f4b6857
+              - 33b0363a
+            size: 4x5
+            textures:
+              - 251c0000
+              - f2144750
+              - f2144710
+              - f21446e0
+              - f2144650
+              - 25f10000
+      release: 2025-01-06T11:26:36.676Z
       version: 1.0.0
 
 dead-end/norrkoping-clinic:
@@ -301,20 +478,35 @@ dead-end/norrkoping-clinic:
               $$$: 10
             maintenance: 700
             menu: Health
+            model: 0b873fc0
             name: Norrkoping_Clinic
             pollution: 1
             pollutionRadius: 3
             power: 3
             submenu: Health/Small
             water: 9
-      lastGenerated: 2024-12-18T11:53:04.377Z
+      lastGenerated: 2025-01-06T12:13:26.550Z
       lastModified: 2024-03-31T18:37:13.000Z
       lots:
         Norrkoping Clinic.SC4Lot:
           c38ed872:
             building: c38ed872
             name: Norrkoping Clinic
+            props:
+              - 109f9dcc
+              - dd37fbc0
+              - bb85e2c9
+              - 1b85e2d5
+              - 034ead8c
+              - a34eacba
+              - 33b887eb
+              - 33b887c0
             size: 5x2
+            textures:
+              - 251c0000
+              - 1da44a20
+              - 259d0000
+              - '259e0000'
       release: 2024-12-17T16:13:42.113Z
       version: 1.0.1
 
@@ -367,6 +559,7 @@ dead-end/scandinavian-supermarkets:
             categories: cs$$
             flamability: 40
             garbage: 4
+            model: c3f8ef41
             name: DE_MGB_Retail_Roofbrown_Joker
             pollution: 1
             pollutionRadius: 5
@@ -386,6 +579,7 @@ dead-end/scandinavian-supermarkets:
             flamability: 40
             garbage: 4
             menu: Landmarks
+            model: f8770aa3
             name: DE_MGB_Retail_Roofgrey_Kiwi
             pollution: 1
             pollutionRadius: 5
@@ -404,6 +598,7 @@ dead-end/scandinavian-supermarkets:
             categories: cs$$
             flamability: 40
             garbage: 4
+            model: c3f8ef41
             name: DE_MGB_Retail_Roofbrown_Rema1000
             pollution: 1
             pollutionRadius: 5
@@ -412,7 +607,7 @@ dead-end/scandinavian-supermarkets:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 1012
-      lastGenerated: 2024-12-18T11:53:04.355Z
+      lastGenerated: 2025-01-06T12:13:26.244Z
       lastModified: 2024-06-25T20:09:19.000Z
       lots:
         Joker/CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker_13f43e21.SC4Lot:
@@ -420,27 +615,91 @@ dead-end/scandinavian-supermarkets:
             building: d3f43cd2
             density: all
             name: CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker
+            props:
+              - 2f47a062
+              - 5f85b910
+              - 5f85b911
+              - 5f85b906
             size: 3x2
             stage: 1
+            textures:
+              - 262f0000
+              - 258c0000
+              - f8a04065
+              - 251c0000
+              - '259e0000'
         Joker/CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker_73f43ce4.SC4Lot:
           73f43ce4:
             building: d3f43cd2
             density: all
             name: CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker
+            props:
+              - 2f47a062
+              - 5f85b90f
+              - 5f85b906
+              - 5f85b908
+              - 5f85b90a
+              - 4e0ab3a8
+              - 2a8c0000
             size: 4x2
             stage: 1
+            textures:
+              - 262f0000
+              - 258c0000
+              - f8a04065
+              - f7504025
+              - f8a04125
+              - f8a041ba
         Kiwi/PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot:
           c3f365cc:
             building: c3f365cc
             name: PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi
+            props:
+              - cf42a4e9
+              - a00005f5
+              - 2a8c0000
+              - dd37fbc0
+              - eebe9b3a
+              - 0ed61b5e
+              - 4e0ab3a8
+              - 9ca0c48e
+              - 2ab50000
+              - 2ab40000
+              - '28900000'
             size: 3x2
+            textures:
+              - 258f0000
+              - 251c0000
+              - 259f0000
+              - 259d0000
+              - f5f843e0
         Rema1000/DE_MGB_Retail_Roofbrown_Rema1000_23f34b8e.SC4Lot:
           23f34b8e:
             building: d3f34613
             density: all
             name: DE_MGB_Retail_Roofbrown_Rema1000
+            props:
+              - af422346
+              - dd37fbe8
+              - 51b84097
+              - eebe9b3a
+              - 4e0ab3a8
+              - a00005f5
+              - 0ed61b5e
+              - 2a8c0000
+              - dca0c46d
+              - 1f0b0000
+              - a00005f7
+              - '28530000'
             size: 3x2
             stage: 1
+            textures:
+              - 262f0000
+              - 258c0000
+              - 259d0000
+              - 259f0000
+              - f5f843e0
+              - 1da447b0
       release: 2024-12-17T16:13:41.995Z
       version: 1.0.0
 
@@ -448,10 +707,12 @@ dead-end/spar-supermarket:
   categories: cs$$
   dependencies:
     - flann/girafe-maxis-fence-hd-replacement-mod
+    - girafe/carpack
     - girafe/flora-pack
     - glenni/mega-props-vol02
     - kingofsimcity/supershk-mega-parking-textures
     - murimk/props-vol01
+    - porkissimo/jenx-porkie-expanded-props
     - robdragon/props-vol01
     - shokthrpy/parking-pack
   description: |-
@@ -485,6 +746,7 @@ dead-end/spar-supermarket:
             categories: cs$$
             flamability: 40
             garbage: 5
+            model: 13d0265c
             name: DE_Glenni-Spar_grocerystore
             pollution: 4
             pollutionRadius: 5
@@ -493,7 +755,7 @@ dead-end/spar-supermarket:
             waterPollution: 2
             waterPollutionRadius: 6
             worth: 4075
-      lastGenerated: 2024-12-18T11:53:04.346Z
+      lastGenerated: 2025-01-06T12:13:26.237Z
       lastModified: 2024-06-17T18:09:29.000Z
       lots:
         DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot:
@@ -501,8 +763,38 @@ dead-end/spar-supermarket:
             building: 33f448cc
             density: all
             name: DE_Glenni-Spar_grocerystore_6x4
+            props:
+              - a00005f5
+              - dd37fbc0
+              - 5f85b914
+              - bc73e30d
+              - eebe9b3a
+              - 3e323dd8
+              - '3e322881'
+              - 3f71cd3b
+              - 79f5b8c4
+              - dca0c516
+              - 2a8c0000
+              - 288d0000
+              - 2aab0000
+              - 5f85b910
+              - 5f85b908
+              - be322735
+              - 3e3226e2
+              - 9e3228c7
             size: 6x4
             stage: 1
+            textures:
+              - 262f0000
+              - 251c0000
+              - 258c0000
+              - '259e0000'
+              - f8a05295
+              - f7504025
+              - f8a04ef5
+              - f8a04f00
+              - f8a04ee0
+              - f8a05070
       release: 2024-12-17T16:13:39.964Z
       version: 1.0.0
 
@@ -544,6 +836,7 @@ dead-end/stave-church:
               $$$: 30
             maintenance: 5350
             menu: Education
+            model: f1237b41
             name: DE_Stavechurch
             pollution: 3
             pollutionRadius: 3
@@ -552,20 +845,51 @@ dead-end/stave-church:
             water: 26
             waterPollution: 2
             waterPollutionRadius: 4
-      lastGenerated: 2024-12-18T11:53:04.408Z
+      lastGenerated: 2025-01-06T12:13:26.603Z
       lastModified: 2024-12-04T11:34:57.000Z
       lots:
         PLOP_5x5_DE_Stavechurch_e4cd1390.SC4Lot:
           e4cd1390:
             building: e4cd1390
             name: PLOP_5x5_DE_Stavechurch
+            props:
+              - c77d3042
+              - 677a5cce
+              - c77fd63f
+              - 277fcd91
+              - ff4b689c
+              - 0cfbb16c
+              - '297e0000'
+              - '29780000'
+              - '29730000'
+              - '29750000'
+              - '29760000'
+              - da40a0eb
+              - 1e9a0000
+              - 1e9b0422
+              - ccdd25cc
+              - 3f4b6857
+              - 234ead27
+              - e7813023
+              - 277fcd66
+              - 1e390f91
+              - ecdd2601
+              - 33b0363a
             size: 5x5
+            textures:
+              - 251c0000
+              - f2144750
+              - f2144650
+              - f2144720
+              - f2144710
+              - 25f10000
       release: 2024-12-17T16:13:42.286Z
       version: 1.0.0
 
 dead-end/white-villa:
   categories: r$$$
   dependencies:
+    - cycledogg/mega-props-vol01
     - 11241036/textures
     - flann/girafe-maxis-fence-hd-replacement-mod
     - girafe/flora-pack
@@ -599,6 +923,7 @@ dead-end/white-villa:
             categories: r$$$
             flamability: 35
             garbage: 4
+            model: 309e3443-0002
             name: DE_Witte Villa
             pollution: 1
             pollutionRadius: 6
@@ -607,7 +932,7 @@ dead-end/white-villa:
             waterPollution: 1
             waterPollutionRadius: 7
             worth: 671
-      lastGenerated: 2024-12-18T11:53:04.311Z
+      lastGenerated: 2025-01-06T12:13:25.283Z
       lastModified: 2024-11-07T22:45:10.000Z
       lots:
         R$$$4_2x2_DE_Witte Villa_3483f82f.SC4Lot:
@@ -615,7 +940,20 @@ dead-end/white-villa:
             building: 1483f821
             density: all
             name: R$$$4_2x2_DE_Witte Villa
+            props:
+              - dd37fbc0
+              - 109f9dcc
+              - 034ead8c
+              - 93b035de
+              - 279c1f0d
+              - 9a829a18
+              - 7a829999
+              - 5f85b906
             size: 2x2
             stage: 4
+            textures:
+              - 252b0000
+              - f85d4790
+              - f85d47b5
       release: 2024-12-17T16:13:39.807Z
       version: 1.0.0

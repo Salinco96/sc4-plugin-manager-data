@@ -74,7 +74,7 @@ null-45/auto-save:
         - exclude:
             - SC4AutoSave.ini
           id: github/0xC0000054/sc4-auto-save
-      lastGenerated: 2024-12-13T11:23:38.985Z
+      lastGenerated: 2025-01-06T12:13:27.938Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
@@ -109,7 +109,7 @@ null-45/bulldoze-extensions:
     default:
       assets:
         - id: github/0xC0000054/sc4-bulldoze-extensions
-      lastGenerated: 2024-12-13T11:23:39.509Z
+      lastGenerated: 2025-01-06T12:13:28.738Z
       lastModified: 2024-11-26T16:35:44.974Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -155,7 +155,7 @@ null-45/city-date-sync:
         - exclude:
             - SC4CityDateSync.ini
           id: github/0xC0000054/sc4-city-date-sync
-      lastGenerated: 2024-12-13T11:23:39.010Z
+      lastGenerated: 2025-01-06T12:13:27.973Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.3
@@ -284,7 +284,7 @@ null-45/city-lottery-ordinance:
         - exclude:
             - SC4CityLotteryOrdinance.ini
           id: github/0xC0000054/sc4-city-lottery-ordinance
-      lastGenerated: 2024-12-13T11:23:39.054Z
+      lastGenerated: 2025-01-06T12:13:28.045Z
       lastModified: 2023-12-21T04:43:57.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -358,7 +358,7 @@ null-45/cpu-options:
         - exclude:
             - SC4CPUOptions.ini
           id: github/0xC0000054/sc4-cpu-options
-      lastGenerated: 2024-12-13T11:23:39.199Z
+      lastGenerated: 2025-01-06T12:13:28.261Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
@@ -405,10 +405,100 @@ null-45/custom-budget-departments:
     default:
       assets:
         - id: github/0xC0000054/sc4-custom-budget-departments
-      lastGenerated: 2024-12-13T11:23:39.485Z
+      lastGenerated: 2025-01-06T12:13:28.703Z
       lastModified: 2024-10-04T22:22:34.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
+
+null-45/data-view-extensions-dll:
+  categories: graphics,dll
+  description: |-
+    A DLL Plugin for SimCity 4 that extends the game's data views.
+
+    This plugin includes a modified data view UI that adds dedicated radio buttons for Moisture, Park Aura and Landmark Aura data views. The modified UI is otherwise identical to the standard Maxis UI, so it will work with existing mods that re-purpose the Maxis data view radio buttons.
+
+    The DLL also supports a Transient Aura data view, this data view is provided as an optional DAT file that replaces the Garbage Pollution data view.
+
+    **Differences from Cori's Park Aura Mod**
+
+    This mod adds a new radio button instead of replacing the Garbage Pollution data view. The highlighted items on the Park Aura (and Landmark Aura) views are Parks/Landmarks instead of Garbage facilities.
+
+    **References**
+
+    See [That Unused Moisture Data View](https://community.simtropolis.com/forums/topic/70765-that-unused-moisture-data-view/) for a description of how the moisture data view works.
+
+    See [Cori's Park Aura](https://community.simtropolis.com/files/file/33412-coris-parks-aura/) mod page for a description of how the park aura data view works.
+
+    **New Features for Data View Modders**
+
+    **Data View Sources**
+
+    The DLL adds the following new data sources. The Data Source Property Value item corresponds to the numeric value of the game's "DataView: Data source" property (0x4A0B47E5).
+
+    | Name | Data Source Property Value | Description |
+    | --- | --- | --- |
+    | Landmark Aura | 13  | A data source using the game's landmark aura data. |
+    | Transient Aura | 14  | A data source using the game's transient aura data. |
+
+    **New Data View Highlight Modes**
+
+    The DLL adds the following new highlight modes. The Highlight Mode Property Value item corresponds to the numeric value of the game's "DataView: Highlight mode" property (0x4A0B47E9).
+
+    | Name | Highlight Mode Property Value | Description |
+    | --- | --- | --- |
+    | Park | 10  | Buildings that have a Park Effect exemplar property are highlighted. |
+    | Landmark | 11  | Buildings that have a Landmark Effect exemplar property are highlighted. |
+
+    **Troubleshooting**
+
+    The plugin should write a *SC4DataViewExtensions.log* file in the same folder as the plugin.
+
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: https://community.simtropolis.com/forums/topic/763502-data-view-extensions-dll/
+
+    The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-data-view-extensions
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC0000054
+
+    Thanks to the few people who have donated to me.
+
+    **Special Thanks**
+
+    To [@CorinaMarie](https://community.simtropolis.com/profile/737259-corinamarie/) for beta testing the mod and providing the Park Aura and Landmark Aura screenshots.
+  features:
+    - dataviews/parks-aura
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/STEXIcon.png.43a9af4dcebf6a408278b65c2ab01485.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/Moisture.jpg.0e549d1597a7d2565715faeace4c3f42.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/ParkAura.jpg.d33b957a3a8aa56c93cff23cdf95b850.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/LandmarkAura.jpg.542b4445c8fbb81e0d7555b3cdd8bf4e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/TransientAura.jpg.cad117b91faba1cd80c3450ad20ca061.jpg
+  logs: SC4DataViewExtensions.log
+  name: Data View Extensions DLL
+  readme:
+    - README.htm
+    - LICENSE.txt
+    - Third Party Notices.txt
+  repository: https://github.com/0xC0000054/sc4-data-view-extensions
+  support: https://community.simtropolis.com/forums/topic/70765-that-unused-moisture-data-view
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/STEXIcon.thumb.png.8f8fc2b7edf3cfcd3ad23c01f76b85cb.png
+  url: https://community.simtropolis.com/files/file/36632-data-view-extensions-dll/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/36632-data-view-extensions-dll
+          include:
+            - ExtendedDataViewUI.dat
+            - SC4DataViewExtensions.dll
+            - z_DataView - TransientAura.dat:
+                priority: 900
+      lastGenerated: 2025-01-06T12:13:28.759Z
+      lastModified: 2024-12-25T22:16:05.000Z
+      release: 2025-01-06T11:26:36.902Z
+      version: 1.0.0
 
 null-45/disable-cheats:
   categories: cheats,dll
@@ -441,7 +531,7 @@ null-45/disable-cheats:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-cheats
-      lastGenerated: 2024-12-13T11:50:17.291Z
+      lastGenerated: 2025-01-06T12:13:27.904Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -480,7 +570,7 @@ null-45/disable-demolition-animation:
         - id: github/0xC0000054/sc4-disable-demolition-animation
           include:
             - SC4DisableDemolitionAnimation.dll
-      lastGenerated: 2024-12-13T11:23:39.129Z
+      lastGenerated: 2025-01-06T12:13:28.149Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -521,7 +611,7 @@ null-45/disable-lot-plop-smoke:
         - id: github/0xC0000054/sc4-disable-lot-plop-smoke
           include:
             - SC4DisableLotPlopSmoke.dll
-      lastGenerated: 2024-12-13T11:23:39.222Z
+      lastGenerated: 2025-01-06T12:13:28.295Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -562,7 +652,7 @@ null-45/disable-network-construction-sounds:
     default:
       assets:
         - id: github/0xC0000054/sc4-disable-network-construction-sounds
-      lastGenerated: 2024-12-13T11:23:39.249Z
+      lastGenerated: 2025-01-06T12:13:28.326Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -615,7 +705,7 @@ null-45/extended-terrain-dll:
           id: simtropolis/36614-extended-terrain-dll
           include:
             - Dll
-      lastGenerated: 2024-12-20T07:38:12.164Z
+      lastGenerated: 2025-01-06T12:13:28.751Z
       lastModified: 2024-12-19T12:45:20.000Z
       release: 2024-12-20T07:38:12.037Z
       version: 1.0.0
@@ -745,7 +835,7 @@ null-45/graphics-options:
         - exclude:
             - SC4GraphicsOptions.ini
           id: github/0xC0000054/sc4-graphics-options
-      lastGenerated: 2024-12-13T11:23:39.152Z
+      lastGenerated: 2025-01-06T12:13:28.188Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.2.0
@@ -800,6 +890,9 @@ null-45/growify:
     Thanks to the few people who have donated to me.
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/Before.jpg.b3944172ebbdc52f6e0878fd2c10699a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/After.jpg.6d7423b6d948306a7465a8ae298a3803.jpg
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/Before.jpg.b3944172ebbdc52f6e0878fd2c10699a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_03/After.jpg.6d7423b6d948306a7465a8ae298a3803.jpg
   logs: SC4Growify.log
   name: Growify Plopped Buildings Cheat DLL
   readme:
@@ -813,7 +906,7 @@ null-45/growify:
     default:
       assets:
         - id: github/0xC0000054/sc4-growify
-      lastGenerated: 2024-12-13T11:23:39.317Z
+      lastGenerated: 2025-01-06T12:13:28.427Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
@@ -877,9 +970,9 @@ null-45/humane-society-ordinance:
         - exclude:
             - SC4HumaneSocietyOrdinance.ini
           id: github/0xC0000054/sc4-humane-society-ordinance
-      lastGenerated: 2024-12-13T11:23:39.032Z
+      lastGenerated: 2025-01-06T12:13:28.008Z
       lastModified: 2024-11-18T09:48:18.355Z
-      release: 2024-11-26T21:04:04.961Z
+      release: 2025-01-06T12:11:43.330Z
       version: 1.0.1
 
 null-45/legalize-gambling-ordinance:
@@ -980,7 +1073,7 @@ null-45/legalize-gambling-ordinance:
         - exclude:
             - SC4LegalizeGamblingUpgrade.ini
           id: github/0xC0000054/sc4-legalize-gambling-ordinance-upgrade
-      lastGenerated: 2024-12-13T11:23:39.081Z
+      lastGenerated: 2025-01-06T12:13:28.078Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -1173,7 +1266,7 @@ null-45/more-building-styles:
         - exclude:
             - SC4MoreBuildingStyles.ini
           id: github/0xC0000054/sc4-more-building-styles
-      lastGenerated: 2024-12-13T11:23:39.176Z
+      lastGenerated: 2025-01-06T12:13:28.229Z
       lastModified: 2024-11-15T01:08:15.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 3.2.0
@@ -1272,7 +1365,7 @@ null-45/more-demand-info:
           id: github/0xC0000054/sc4-more-demand-info
           include:
             - Dll
-      lastGenerated: 2024-12-18T09:40:53.720Z
+      lastGenerated: 2025-01-06T12:13:28.111Z
       lastModified: 2024-12-18T05:41:01.000Z
       release: 2024-12-18T09:40:53.703Z
       version: 1.3.0
@@ -1313,7 +1406,7 @@ null-45/no-kickout-lower-wealth:
     default:
       assets:
         - id: github/0xC0000054/sc4-no-kick-out
-      lastGenerated: 2024-12-13T11:23:39.294Z
+      lastGenerated: 2025-01-06T12:13:28.396Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -1450,7 +1543,7 @@ null-45/query-tool-ui-extensions:
         - exclude:
             - SC4QueryUIHooks.ini
           id: github/0xC0000054/sc4-query-ui-hooks
-      lastGenerated: 2024-12-13T11:23:39.363Z
+      lastGenerated: 2025-01-06T12:13:28.499Z
       lastModified: 2024-12-09T23:12:07.000Z
       release: 2024-12-10T10:25:09.262Z
       version: 2.2.0
@@ -1478,6 +1571,9 @@ null-45/region-view-census:
     The plugin's source code and issue tracker are located on GitHub: https://github.com/0xC0000054/sc4-region-census
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/RegionViewCensusDialog.jpg.86be894c72ed55eb758eba3d70e76749.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/RegionCensusMaxislandCSVCrop.jpg.b0fba40167ab5f759b221fea6277c090.jpg
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/RegionViewCensusDialog.jpg.86be894c72ed55eb758eba3d70e76749.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_02/RegionCensusMaxislandCSVCrop.jpg.b0fba40167ab5f759b221fea6277c090.jpg
   logs: SC4RegionCensus.log
   name: Region View Census
   readme:
@@ -1492,7 +1588,7 @@ null-45/region-view-census:
     default:
       assets:
         - id: github/0xC0000054/sc4-region-census
-      lastGenerated: 2024-12-13T11:23:39.271Z
+      lastGenerated: 2025-01-06T12:13:28.361Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
@@ -1533,6 +1629,9 @@ null-45/remove-phantom-budget-items:
     Thanks to the few people who have donated to me.
     - https://www.simtropolis.com/objects/screens/monthly_2024_09/Before.png.a6ce4c84d6638381dbe41ce91b5acdd6.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_09/After.png.cffb513db4bb06db0f770e89cfed4d42.png
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/Before.png.a6ce4c84d6638381dbe41ce91b5acdd6.png
+    - https://www.simtropolis.com/objects/screens/monthly_2024_09/After.png.cffb513db4bb06db0f770e89cfed4d42.png
   logs: SC4RemovePhantomBudgetItems.log
   name: Remove Phantom Budget Items
   readme:
@@ -1547,7 +1646,7 @@ null-45/remove-phantom-budget-items:
     default:
       assets:
         - id: github/0xC0000054/sc4-remove-phantom-budget-items
-      lastGenerated: 2024-12-13T11:23:39.460Z
+      lastGenerated: 2025-01-06T12:13:28.659Z
       lastModified: 2024-09-07T05:11:45.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -1588,7 +1687,7 @@ null-45/resource-loading-hooks:
     default:
       assets:
         - id: github/0xC0000054/sc4-resource-loading-hooks
-      lastGenerated: 2024-12-13T11:23:37.986Z
+      lastGenerated: 2025-01-06T12:13:24.511Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.1
@@ -1649,7 +1748,7 @@ null-45/startup-performance-optimization:
     default:
       assets:
         - id: github/0xC0000054/sc4-dbpf-loading
-      lastGenerated: 2024-12-13T11:23:39.386Z
+      lastGenerated: 2025-01-06T12:13:28.536Z
       lastModified: 2024-11-18T09:48:18.355Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.4

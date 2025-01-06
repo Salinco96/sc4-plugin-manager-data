@@ -1,0 +1,82 @@
+krio/lapinkirkko:
+  categories: landmarks
+  description: '**Lapinkirkko** is based on Rovaniemi Cathedral which is the largest church in Lapland. Rovaniemi Church was designed by Bertel Liljequist in 1950 and my version is slightly different, again thanks to lack of photos. Thats why I named it as Lapinkirkko (Lapland Church). And trivia: when I batted this building I used photos and roof was copper green. Now it is copper brown. Hah!'
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_10_2013/e9c2c58233b2821401f193111322f631-kirkko.jpg
+  name: Lapinkirkko
+  support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2013/thumb-e9c2c58233b2821401f193111322f631-kirkko.jpg
+  url: https://community.simtropolis.com/files/file/28023-lapinkirkko/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/28023-lapinkirkko
+          include:
+            - TG Lapinkirkko
+      buildings:
+        TG Lapinkirkko_f91c0233.SC4Lot:
+          f91c0233:
+            bulldoze: 100
+            categories: landmarks
+            cost: 10000
+            description: Church by Krio of TG, based on the Church of Rovaniemi
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            model: 18ff952b
+            name: TG_Lapinkirkko
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+        TG_Lapinkirkko-0x6534284a-0x546817ab-0x791bfc55.SC4Desc:
+          791bfc55:
+            bulldoze: 100
+            categories: landmarks
+            cost: 10000
+            description: Church by Krio of TG, based on the Church of Rovaniemi
+            flamability: 10
+            garbage: 15
+            label: Custom Ploppable
+            landmark: 40
+            landmarkRadius: 20
+            maintenance: 150
+            menu: Landmarks
+            model: 18ff952b
+            name: TG_Lapinkirkko
+            pollution: 1
+            pollutionRadius: 1
+            power: 60
+            rating: 10
+            ratingRadius: 256
+            waterPollution: 1
+            waterPollutionRadius: 2
+      lastGenerated: 2025-01-06T12:13:26.453Z
+      lastModified: 2012-09-14T18:23:29.000Z
+      lots:
+        TG Lapinkirkko_f91c0233.SC4Lot:
+          f91c0233:
+            building: f91c0233
+            name: TG Lapinkirkko
+            props:
+              - 297a0000
+              - 297b0000
+              - 2a130000
+              - 1e0b0000
+              - '29390000'
+              - '1e340000'
+            size: 3x5
+            textures:
+              - 25d60000
+              - '26300000'
+              - 25c00000
+              - 25c10000
+      release: 2025-01-06T11:26:36.654Z
+      version: 1.0.0

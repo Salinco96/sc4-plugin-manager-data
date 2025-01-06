@@ -108,6 +108,7 @@ zero7/industrial-pack:
             categories: i-ht
             flamability: 70
             garbage: 4
+            model: 73cb3347-0011
             name: K2 Distribution Centre - zero7
             pollution: 18
             pollutionRadius: 9
@@ -124,6 +125,7 @@ zero7/industrial-pack:
             categories: i-m
             flamability: 45
             garbage: 4
+            model: 73cb3347-0018
             name: MirrorBox HiTech Blue - zero7
             pollution: 5
             pollutionRadius: 6
@@ -140,6 +142,7 @@ zero7/industrial-pack:
             categories: i-ht
             flamability: 70
             garbage: 4
+            model: b8144390-001a
             name: Pearsons Period Furnishings - zero7
             pollution: 13
             pollutionRadius: 9
@@ -156,6 +159,7 @@ zero7/industrial-pack:
             categories: i-ht
             flamability: 70
             garbage: 4
+            model: 73cb3347-001e
             name: Steeton Mill - zero7
             pollution: 16
             pollutionRadius: 9
@@ -164,7 +168,7 @@ zero7/industrial-pack:
             waterPollution: 10
             waterPollutionRadius: 13
             worth: 2044
-      lastGenerated: 2024-12-17T17:01:32.726Z
+      lastGenerated: 2025-01-06T12:13:24.362Z
       lastModified: 2023-08-27T06:54:05.000Z
       lots:
         K2 Distribution Centre/IM$$3_4x5_K2 Distribution Centre - zero7_74842461.SC4Lot:
@@ -172,46 +176,167 @@ zero7/industrial-pack:
             building: d4842405
             density: medium,high
             name: IM$$3_4x5_K2 Distribution Centre - zero7
+            props:
+              - d285df69
+              - '90642105'
+              - '508215e2'
+              - f2aaec5c
+              - d3485481
+              - 4fd34557
+              - d0c9c9c7
+              - 70c9cba5
+              - 1e9a0000
+              - 539403bf
+              - 2cb00000
+              - 92a811c4
+              - 102b8722
+              - d02b8713
+              - 536d9d93
+              - 336d9dae
+              - '29860000'
             size: 4x5
             stage: 3
+            textures:
+              - 25fb0100
+              - 2d580000
+              - 6112f200
         Mirror Box Blue HighTech/IHT$$$4_3x3_MirrorBox HiTech Blue - zero7_c4b1bf0b.SC4Lot:
           c4b1bf0b:
             building: 74b1bef9
             density: medium,high
             name: IHT$$$4_3x3_MirrorBox HiTech Blue - zero7
+            props:
+              - 1d380000
+              - a53a1001
+              - 1e9a0000
+              - '28330000'
+              - ed762ac5
+              - cfbb8929
+              - 8fbb888b
+              - 0fcf3717
+              - ee6ad43d
+              - a0000069
+              - 8fcf34de
+              - 8fcf35b7
+              - a000007b
+              - 2cb00000
+              - a0000091
             requirements:
               cam: true
             size: 3x3
             stage: 4
+            textures:
+              - 258d0000
+              - 61bf4000
+              - 61bfa000
+              - 61bf8000
+              - 251c0000
         Pearsons Period Furnishings/IM$$2_7x4_Pearsons Period Furnishings - zero7_09fffe7a.SC4Lot:
           09fffe7a:
             building: d9fffe42
             density: high
             name: IM$$2_7x4_Pearsons Period Furnishings - zero7
+            props:
+              - d207335b
+              - 704c374c
+              - cfc606e4
+              - 87dc3abc
+              - d3485481
+              - d34854b6
+              - efcdb595
+              - 72ac4b57
+              - afd52db3
+              - 2fd52dec
+              - a0000069
+              - 1e9a0000
+              - 2aba0000
+              - d0499796
+              - 1df50000
+              - efd34605
+              - 2fd34536
+              - da02d424
+              - da07a163
+              - da07a1f7
+              - ba07a187
+              - 2a440000
+              - 9a07a1db
+              - 2a450000
+              - 2a470000
+              - 1dfb0000
             size: 7x4
             stage: 2
+            textures:
+              - fb74401a
+              - fb744025
+              - fb744010
+              - fb744015
+              - fb74400a
+              - 258c0000
         Steeton Mill/IM$$3_4x4_Steeton Mill - zero7_c5582efd.SC4Lot:
           c5582efd:
             building: 95582ec4
             density: medium,high
             name: IM$$3_4x4_Steeton Mill - zero7
+            props:
+              - 29c30000
+              - 536d9d93
+              - 92a82205
+              - '33485563'
+              - 334854f7
+              - d285df69
+              - f31e4666
+              - 4fbb880a
+              - 8fbb888b
+              - efbb893a
+              - efbb897b
+              - cfc5fdc1
+              - 8fd33c77
+              - 2a6d0000
+              - 8fcf337a
+              - 0fcf36dd
+              - 8fc60801
+              - 2a580000
+              - a0000021
+              - '1e020000'
+              - a0000064
+              - 1e9a0000
+              - '29860000'
+              - 2fd091c1
+              - 0fd092b6
+              - a000007b
             size: 4x4
             stage: 3
+            textures:
+              - 25fb0100
+              - f2140600
+              - f21405f0
+              - f2140620
+              - 25b80000
+              - 25b90000
+              - 25b74000
+              - 25b50000
+              - 25b70000
+              - '257e0000'
       props:
         Pearsons Period Furnishings/Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc:
           da02d424:
+            model: b8144390-001c
             name: Isuzu Cargo
         Pearsons Period Furnishings/z7prop_LowBrickWall16m-0x6534284a-0xb8144390-0xda07a163.SC4Desc:
           da07a163:
+            model: b8144390-001f
             name: z7prop_LowBrickWall16m
         Pearsons Period Furnishings/z7prop_LowBrickWall4m-0x6534284a-0xb8144390-0x9a07a1db.SC4Desc:
           9a07a1db:
+            model: b8144390-001d
             name: z7prop_LowBrickWall4m
         Pearsons Period Furnishings/z7prop_LowBrickWall8m-0x6534284a-0xb8144390-0xba07a187.SC4Desc:
           ba07a187:
+            model: b8144390-001e
             name: z7prop_LowBrickWall8m
         Pearsons Period Furnishings/z7prop_LowBrickWallPillar-0x6534284a-0xb8144390-0xda07a1f7.SC4Desc:
           da07a1f7:
+            model: b8144390-0020
             name: z7prop_LowBrickWallPillar
       release: 2024-12-17T16:13:42.046Z
       version: 1.0.0

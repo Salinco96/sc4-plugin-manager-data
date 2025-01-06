@@ -18,7 +18,7 @@ toroca/5x5-and-6x6-malls:
     default:
       assets:
         - id: simtropolis/2781-additional-5x5-and-6x6-mall-lots-v10
-      lastGenerated: 2024-12-13T11:23:38.103Z
+      lastGenerated: 2025-01-06T12:13:25.531Z
       lastModified: 2004-03-19T14:40:39.000Z
       lots:
         CS$$$1_5x5 Andrews Fashion Center_ed670794.SC4Lot:
@@ -26,71 +26,251 @@ toroca/5x5-and-6x6-malls:
             building: 4000003f
             density: all
             name: CS$$$1_5x5 Andrews Fashion Center
+            props:
+              - a000007b
+              - a000007f
+              - a000007c
+              - '1e990000'
+              - 1e9b0000
+              - 1e9a0000
+              - '1e120000'
+              - a0000055
+              - a000003d
+              - 2a7ccda1
+              - 1dff0000
+              - 1dfc0000
             size: 5x5
             stage: 1
+            textures:
+              - '258e0000'
+              - '25920000'
+              - '25910000'
         CS$$$1_5x5 Bilyk Galleria_6d670a55.SC4Lot:
           6d670a55:
             building: 051d0000
             density: all
             name: CS$$$1_5x5 Bilyk Galleria
+            props:
+              - a000007b
+              - a000007f
+              - a000007c
+              - 1e9a0000
+              - '1e990000'
+              - 1e9b0000
+              - a0000050
+              - '29810000'
+              - 1dfc0000
+              - a0000039
+              - '1e120000'
+              - a000003d
             size: 5x5
             stage: 1
+            textures:
+              - 259d0000
+              - 252b0000
+              - '258e0000'
+              - 258b0000
+              - '25920000'
+              - '25910000'
+              - '26260000'
+              - '25960000'
         CS$$$1_6x6 Bilyk Galleria_ed670b23.SC4Lot:
           ed670b23:
             building: 051d0000
             density: all
             name: CS$$$1_6x6 Bilyk Galleria
+            props:
+              - a000007b
+              - a000007f
+              - a000007c
+              - '1e990000'
+              - 1e9b0000
+              - 1e9a0000
+              - a000003d
+              - 1dfd0000
+              - '29060000'
+              - 1dfc0000
+              - a000004d
+              - a0000055
+              - a0000051
             size: 6x6
             stage: 1
+            textures:
+              - '258e0000'
+              - '26200000'
+              - '25920000'
+              - '25970000'
         CS$$$1_6x6 Nanale Shopping Center_cd670826.SC4Lot:
           cd670826:
             building: '05250000'
             density: all
             name: CS$$$1_6x6 Nanale Shopping Center
+            props:
+              - a000007b
+              - a000007f
+              - a000007c
+              - '1e990000'
+              - 1e9b0000
+              - 1e9a0000
+              - 28fe0000
+              - 1eec0000
+              - 1eea0000
+              - 1eeb0000
+              - a000005c
+              - 1dfd0000
+              - a000003d
+              - a0000050
+              - a000004d
+              - a0000055
+              - a0000051
+              - 1dfc0000
             size: 6x6
             stage: 1
+            textures:
+              - '258e0000'
+              - '26290000'
+              - '25920000'
+              - '25950000'
+              - '25960000'
+              - '25970000'
+              - '26200000'
+              - 25f40000
         CS$$$2_5x5 Nanale Shopping Center_ad67091b.SC4Lot:
           ad67091b:
             building: '05250000'
             density: all
             name: CS$$$2_5x5 Nanale Shopping Center
+            props:
+              - 1e9b0000
+              - 1e9a0000
+              - 2a8c0000
+              - 28fe0000
+              - 2a120000
+              - 2a8a0000
+              - a000007b
+              - a000007f
+              - a000007c
+              - a0000039
+              - 1ecd0000
+              - '1e990000'
+              - a000003d
             size: 5x5
             stage: 2
+            textures:
+              - '258e0000'
+              - '25920000'
+              - 258b0000
         CS$$1_5x5 Harris Galleria_4d670471.SC4Lot:
           4d670471:
             building: 051c0000
             density: all
             name: CS$$1_5x5 Harris Galleria
+            props:
+              - 1ee80000
+              - 1ee90000
+              - 1ee70000
+              - a000003d
+              - a0000055
+              - a0000021
+              - 1e9b0000
+              - 28fe0000
+              - 1e1a0000
+              - ce020000
             size: 5x5
             stage: 1
+            textures:
+              - 258f0000
+              - 252b0000
+              - 0ba00000
+              - 25aa0000
+              - 25a90000
+              - 258c0000
         CS$$1_5x5 Lee Shopping Mall_ed67020f.SC4Lot:
           ed67020f:
             building: 4000003e
             density: all
             name: CS$$1_5x5 Lee Shopping Mall
+            props:
+              - a0000077
+              - 1dfd0000
+              - 1dfb0000
+              - a000003d
             size: 5x5
             stage: 1
+            textures:
+              - 251c0000
+              - '26350000'
+              - 259d0000
+              - 25ab0000
+              - 25a90000
+              - 258c0000
+              - 25a30000
         CS$$1_6x6 Harris Galleria_2d6705a9.SC4Lot:
           2d6705a9:
             building: 051c0000
             density: all
             name: CS$$1_6x6 Harris Galleria
+            props:
+              - a000003d
+              - aa836b49
+              - '1e990000'
+              - 1dfb0000
+              - ce020000
+              - a0000057
+              - a0000021
+              - 1dfd0000
+              - 1ee90000
+              - 1f000000
+              - 1f010000
             size: 6x6
             stage: 1
+            textures:
+              - 258f0000
+              - 252b0000
+              - 25a30000
+              - 258c0000
+              - 25ab0000
         CS$$1_6x6 Hsu Mall_8d66fc4f.SC4Lot:
           8d66fc4f:
             building: 05f10000
             density: all
             name: CS$$1_6x6 Hsu Mall
+            props:
+              - aa836b49
+              - 1e9b0000
+              - a0000069
+              - 1e9a0000
+              - 1dfb0000
+              - a000003d
+              - ce020000
             size: 6x6
             stage: 1
+            textures:
+              - 258f0000
+              - 251c0000
+              - 252b0000
+              - 0ba00000
+              - '25910000'
+              - '25920000'
+              - '25960000'
+              - '25970000'
         CS$$2_5x5 Hsu Mall_ad670004.SC4Lot:
           ad670004:
             building: 05f10000
             density: all
             name: CS$$2_5x5 Hsu Mall
+            props:
+              - 1dfb0000
+              - a000003d
             size: 5x5
             stage: 2
+            textures:
+              - 252b0000
+              - '25920000'
+              - '25970000'
+              - '25960000'
+              - 262f0000
+              - '25910000'
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
@@ -141,21 +321,21 @@ toroca/commercial-services-doubler:
             - readme.html
           id: simtropolis/25651-commercial-services-doubler
           include:
-            - condition:
-                large: x2
-              path: LargeServicesDoubler.dat
-            - condition:
-                large: x3
-              path: LargeServicesTripler.dat
-            - condition:
-                malls: x2
-              path: MallsDoubler.dat
-            - condition:
-                malls: x4
-              path: MallsQuadrupler.dat
-            - condition:
-                small: x2
-              path: ServicesDoubler.dat
+            - LargeServicesDoubler.dat:
+                condition:
+                  large: x2
+            - LargeServicesTripler.dat:
+                condition:
+                  large: x3
+            - MallsDoubler.dat:
+                condition:
+                  malls: x2
+            - MallsQuadrupler.dat:
+                condition:
+                  malls: x4
+            - ServicesDoubler.dat:
+                condition:
+                  small: x2
       buildings:
         LargeServicesDoubler.dat:
           '05260000':
@@ -164,6 +344,7 @@ toroca/commercial-services-doubler:
               cs$: 4398
               cs$$: 1104
             categories: cs$$
+            model: badb57f1-0526
             name: CS$$40x54_7ChiCinema_0526
           '05280000':
             bulldoze: 710
@@ -171,6 +352,7 @@ toroca/commercial-services-doubler:
               cs$: 2822
               cs$$: 710
             categories: cs$$
+            model: badb57f1-0528
             name: CS$$44x30_7ChiFamilyInn_0528
           '05290000':
             bulldoze: 1100
@@ -179,6 +361,7 @@ toroca/commercial-services-doubler:
               cs$$: 1476
               cs$$$: 594
             categories: cs$$$
+            model: badb57f1-0529
             name: CS$$$60x30_7ChiRitzy_0529
           052a0000:
             bulldoze: 260
@@ -186,6 +369,7 @@ toroca/commercial-services-doubler:
               cs$: 1612
               cs$$: 408
             categories: cs$$
+            model: badb57f1-052a
             name: CS$$40x28_7ChiSimcys_052A
           05bb0000:
             bulldoze: 320
@@ -193,6 +377,7 @@ toroca/commercial-services-doubler:
               cs$: 1378
               cs$$: 350
             categories: cs$$
+            model: badb57f1-04f5
             name: CS$$44x26_5ChiMediumStore7_05BB
           05c30000:
             bulldoze: 320
@@ -200,6 +385,7 @@ toroca/commercial-services-doubler:
               cs$: 1378
               cs$$: 350
             categories: cs$$
+            model: badb57f1-0566
             name: CS$$44x26_5NYMediumStore7_05C3
           05cb0000:
             bulldoze: 320
@@ -207,24 +393,28 @@ toroca/commercial-services-doubler:
               cs$: 1570
               cs$$: 396
             categories: cs$$
+            model: badb57f1-0570
             name: CS$$44x26_5HouMediumStore7_05CB
           05d10000:
             bulldoze: 260
             capacity:
               cs$: 310
             categories: cs$
+            model: badb57f1-05d1
             name: CS$14x26_6ChiSmallShop5_05D1
           05d70000:
             bulldoze: 260
             capacity:
               cs$: 322
             categories: cs$
+            model: badb57f1-05d7
             name: CS$14x26_6NYSmallShop5_05D7
           05dd0000:
             bulldoze: 260
             capacity:
               cs$: 346
             categories: cs$
+            model: badb57f1-05dd
             name: CS$14x26_6HouSmallShop5_05DD
           '05e90000':
             bulldoze: 520
@@ -233,6 +423,7 @@ toroca/commercial-services-doubler:
               cs$$: 836
               cs$$$: 338
             categories: cs$$$
+            model: badb57f1-057f
             name: CS$$$44x26_5NYLuxuryStore5_05E9
           05ef0000:
             bulldoze: 520
@@ -241,6 +432,7 @@ toroca/commercial-services-doubler:
               cs$$: 844
               cs$$$: 342
             categories: cs$$$
+            model: badb57f1-0589
             name: CS$$$44x26_5HouLuxuryStore5_05EF
           '06250000':
             bulldoze: 320
@@ -248,6 +440,7 @@ toroca/commercial-services-doubler:
               cs$: 1570
               cs$$: 396
             categories: cs$$
+            model: badb57f1-060f
             name: CS$$44x26_5EuroMediumStore7_0625
           062b0000:
             bulldoze: 520
@@ -256,6 +449,7 @@ toroca/commercial-services-doubler:
               cs$$: 1146
               cs$$$: 462
             categories: cs$$$
+            model: badb57f1-0614
             name: CS$$$48x32_5EuroLuxuryStore5_062B
         LargeServicesTripler.dat:
           '05260000':
@@ -264,6 +458,7 @@ toroca/commercial-services-doubler:
               cs$: 6597
               cs$$: 1656
             categories: cs$$
+            model: badb57f1-0526
             name: CS$$40x54_7ChiCinema_0526
           '05280000':
             bulldoze: 710
@@ -271,6 +466,7 @@ toroca/commercial-services-doubler:
               cs$: 4233
               cs$$: 1065
             categories: cs$$
+            model: badb57f1-0528
             name: CS$$44x30_7ChiFamilyInn_0528
           '05290000':
             bulldoze: 1100
@@ -279,6 +475,7 @@ toroca/commercial-services-doubler:
               cs$$: 2214
               cs$$$: 891
             categories: cs$$$
+            model: badb57f1-0529
             name: CS$$$60x30_7ChiRitzy_0529
           052a0000:
             bulldoze: 260
@@ -286,6 +483,7 @@ toroca/commercial-services-doubler:
               cs$: 2418
               cs$$: 612
             categories: cs$$
+            model: badb57f1-052a
             name: CS$$40x28_7ChiSimcys_052A
           05bb0000:
             bulldoze: 320
@@ -293,6 +491,7 @@ toroca/commercial-services-doubler:
               cs$: 2067
               cs$$: 525
             categories: cs$$
+            model: badb57f1-04f5
             name: CS$$44x26_5ChiMediumStore7_05BB
           05c30000:
             bulldoze: 320
@@ -300,6 +499,7 @@ toroca/commercial-services-doubler:
               cs$: 2067
               cs$$: 525
             categories: cs$$
+            model: badb57f1-0566
             name: CS$$44x26_5NYMediumStore7_05C3
           05cb0000:
             bulldoze: 320
@@ -307,24 +507,28 @@ toroca/commercial-services-doubler:
               cs$: 2355
               cs$$: 594
             categories: cs$$
+            model: badb57f1-0570
             name: CS$$44x26_5HouMediumStore7_05CB
           05d10000:
             bulldoze: 260
             capacity:
               cs$: 456
             categories: cs$
+            model: badb57f1-05d1
             name: CS$14x26_6ChiSmallShop5_05D1
           05d70000:
             bulldoze: 260
             capacity:
               cs$: 483
             categories: cs$
+            model: badb57f1-05d7
             name: CS$14x26_6NYSmallShop5_05D7
           05dd0000:
             bulldoze: 260
             capacity:
               cs$: 519
             categories: cs$
+            model: badb57f1-05dd
             name: CS$14x26_6HouSmallShop5_05DD
           '05e90000':
             bulldoze: 520
@@ -333,6 +537,7 @@ toroca/commercial-services-doubler:
               cs$$: 1254
               cs$$$: 507
             categories: cs$$$
+            model: badb57f1-057f
             name: CS$$$44x26_5NYLuxuryStore5_05E9
           05ef0000:
             bulldoze: 520
@@ -341,6 +546,7 @@ toroca/commercial-services-doubler:
               cs$$: 1266
               cs$$$: 513
             categories: cs$$$
+            model: badb57f1-0589
             name: CS$$$44x26_5HouLuxuryStore5_05EF
           '06250000':
             bulldoze: 320
@@ -348,6 +554,7 @@ toroca/commercial-services-doubler:
               cs$: 2355
               cs$$: 594
             categories: cs$$
+            model: badb57f1-060f
             name: CS$$44x26_5EuroMediumStore7_0625
           062b0000:
             bulldoze: 520
@@ -356,6 +563,7 @@ toroca/commercial-services-doubler:
               cs$$: 1719
               cs$$$: 693
             categories: cs$$$
+            model: badb57f1-0614
             name: CS$$$48x32_5EuroLuxuryStore5_062B
         MallsDoubler.dat:
           050b0000:
@@ -364,6 +572,7 @@ toroca/commercial-services-doubler:
               cs$: 1014
               cs$$: 258
             categories: cs$$
+            model: badb57f1-050b
             name: CS$$60x56_1ChiMiddleClassMall_050B
           050c0000:
             bulldoze: 160
@@ -372,6 +581,7 @@ toroca/commercial-services-doubler:
               cs$$: 370
               cs$$$: 152
             categories: cs$$$
+            model: badb57f1-050c
             name: CS$$$60x52_1ChiFashionCentre_050C
           051c0000:
             bulldoze: 150
@@ -379,6 +589,7 @@ toroca/commercial-services-doubler:
               cs$: 1238
               cs$$: 314
             categories: cs$$
+            model: badb57f1-051c
             name: CS$$60x56_4ChiMiddleClassMall_051C
           051d0000:
             bulldoze: 220
@@ -387,6 +598,7 @@ toroca/commercial-services-doubler:
               cs$$: 322
               cs$$$: 132
             categories: cs$$$
+            model: badb57f1-051d
             name: CS$$$52x52_4ChiFashionCentre_051D
           '05250000':
             bulldoze: 330
@@ -395,6 +607,7 @@ toroca/commercial-services-doubler:
               cs$$: 578
               cs$$$: 234
             categories: cs$$$
+            model: badb57f1-0525
             name: CS$$$60x44_7ChiFashionCentre_0525
           05f10000:
             bulldoze: 260
@@ -402,6 +615,7 @@ toroca/commercial-services-doubler:
               cs$: 2118
               cs$$: 534
             categories: cs$$
+            model: badb57f1-05f1
             name: CS$$60x44_7ChiMiddleClassMall_05F1
         MallsQuadrupler.dat:
           050b0000:
@@ -410,6 +624,7 @@ toroca/commercial-services-doubler:
               cs$: 2028
               cs$$: 516
             categories: cs$$
+            model: badb57f1-050b
             name: CS$$60x56_1ChiMiddleClassMall_050B
           050c0000:
             bulldoze: 160
@@ -418,6 +633,7 @@ toroca/commercial-services-doubler:
               cs$$: 740
               cs$$$: 304
             categories: cs$$$
+            model: badb57f1-050c
             name: CS$$$60x52_1ChiFashionCentre_050C
           051c0000:
             bulldoze: 150
@@ -425,6 +641,7 @@ toroca/commercial-services-doubler:
               cs$: 2476
               cs$$: 628
             categories: cs$$
+            model: badb57f1-051c
             name: CS$$60x56_4ChiMiddleClassMall_051C
           051d0000:
             bulldoze: 220
@@ -433,6 +650,7 @@ toroca/commercial-services-doubler:
               cs$$: 644
               cs$$$: 264
             categories: cs$$$
+            model: badb57f1-051d
             name: CS$$$52x52_4ChiFashionCentre_051D
           '05250000':
             bulldoze: 330
@@ -441,6 +659,7 @@ toroca/commercial-services-doubler:
               cs$$: 1156
               cs$$$: 468
             categories: cs$$$
+            model: badb57f1-0525
             name: CS$$$60x44_7ChiFashionCentre_0525
           05f10000:
             bulldoze: 260
@@ -448,6 +667,7 @@ toroca/commercial-services-doubler:
               cs$: 4236
               cs$$: 1068
             categories: cs$$
+            model: badb57f1-05f1
             name: CS$$60x44_7ChiMiddleClassMall_05F1
         ServicesDoubler.dat:
           050d0000:
@@ -455,6 +675,7 @@ toroca/commercial-services-doubler:
             capacity:
               cs$: 262
             categories: cs$
+            model: badb57f1-050d
             name: CS$34x9_1ChiDrivein_050D
           '050e0000':
             bulldoze: 220
@@ -462,6 +683,7 @@ toroca/commercial-services-doubler:
               cs$: 828
               cs$$: 212
             categories: cs$$
+            model: badb57f1-050e
             name: CS$$44x28_1ChiMultiplex_050E
           050f0000:
             bulldoze: 220
@@ -470,12 +692,14 @@ toroca/commercial-services-doubler:
               cs$$: 174
               cs$$$: 74
             categories: cs$$$
+            model: badb57f1-050f
             name: CS$$$24x30_1ChiDinnerTheater_050F
           '05100000':
             bulldoze: 100
             capacity:
               cs$: 84
             categories: cs$
+            model: badb57f1-0510
             name: CS$28x14_1ChiFleaBagMotel_0510
           '05110000':
             bulldoze: 150
@@ -483,6 +707,7 @@ toroca/commercial-services-doubler:
               cs$: 334
               cs$$: 88
             categories: cs$$
+            model: badb57f1-0511
             name: CS$$44x16_1ChiFamilyCourt_0511
           '05120000':
             bulldoze: 160
@@ -491,12 +716,14 @@ toroca/commercial-services-doubler:
               cs$$: 26
               cs$$$: 14
             categories: cs$$$
+            model: badb57f1-0512
             name: CS$$$16x12_1ChiLuxurySpa_0512
           '05130000':
             bulldoze: 100
             capacity:
               cs$: 28
             categories: cs$
+            model: badb57f1-0513
             name: CS$12x6_1ChiGreasePit_0513
           '05140000':
             bulldoze: 110
@@ -504,6 +731,7 @@ toroca/commercial-services-doubler:
               cs$: 28
               cs$$: 12
             categories: cs$$
+            model: badb57f1-0514
             name: CS$$12x8_1ChiServiceStation_0514
           '05150000':
             bulldoze: 160
@@ -512,12 +740,14 @@ toroca/commercial-services-doubler:
               cs$$: 16
               cs$$$: 10
             categories: cs$$$
+            model: badb57f1-0515
             name: CS$$$14x8_1ChiCarCarCentre_0515
           '05160000':
             bulldoze: 100
             capacity:
               cs$: 14
             categories: cs$
+            model: badb57f1-0516
             name: CS$8x4_1ChiUsedCarCheap_0516
           '05170000':
             bulldoze: 150
@@ -525,6 +755,7 @@ toroca/commercial-services-doubler:
               cs$: 56
               cs$$: 18
             categories: cs$$
+            model: badb57f1-0517
             name: CS$$12x14_1ChiCarDealership_0517
           '05180000':
             bulldoze: 160
@@ -533,12 +764,14 @@ toroca/commercial-services-doubler:
               cs$$: 68
               cs$$$: 30
             categories: cs$$$
+            model: badb57f1-0518
             name: CS$$$24x26_1ChiLuxuryAutoCentr_0518
           '05190000':
             bulldoze: 100
             capacity:
               cs$: 14
             categories: cs$
+            model: badb57f1-0519
             name: CS$10x4_1ChiTacoStand_0519
           051a0000:
             bulldoze: 110
@@ -546,6 +779,7 @@ toroca/commercial-services-doubler:
               cs$: 52
               cs$$: 18
             categories: cs$$
+            model: badb57f1-051a
             name: CS$$10x14_1ChiFamilyDiner_051A
           051b0000:
             bulldoze: 160
@@ -554,6 +788,7 @@ toroca/commercial-services-doubler:
               cs$$: 18
               cs$$$: 12
             categories: cs$$$
+            model: badb57f1-051b
             name: CS$$$10x14_1ChiChezFancy_051B
           '051e0000':
             bulldoze: 220
@@ -561,6 +796,7 @@ toroca/commercial-services-doubler:
               cs$: 916
               cs$$: 234
             categories: cs$$
+            model: badb57f1-051e
             name: CS$$30x26_4ChiCinema_051E
           051f0000:
             bulldoze: 260
@@ -569,6 +805,7 @@ toroca/commercial-services-doubler:
               cs$$: 278
               cs$$$: 114
             categories: cs$$$
+            model: badb57f1-051f
             name: CS$$$26x46_4ChiMaxisSimTheatre_051F
           '05200000':
             bulldoze: 460
@@ -576,6 +813,7 @@ toroca/commercial-services-doubler:
               cs$: 1070
               cs$$: 272
             categories: cs$$
+            model: badb57f1-0520
             name: CS$$30x28_4ChiFamilyInn_0520
           '05210000':
             bulldoze: 480
@@ -584,6 +822,7 @@ toroca/commercial-services-doubler:
               cs$$: 382
               cs$$$: 156
             categories: cs$$$
+            model: badb57f1-0521
             name: CS$$$30x26_4ChiRitzy_0521
           '05220000':
             bulldoze: 220
@@ -591,6 +830,7 @@ toroca/commercial-services-doubler:
               cs$: 580
               cs$$: 150
             categories: cs$$
+            model: badb57f1-0522
             name: CS$$28x28_4ChiSimcys_0522
           '05230000':
             bulldoze: 260
@@ -599,6 +839,7 @@ toroca/commercial-services-doubler:
               cs$$: 144
               cs$$$: 60
             categories: cs$$$
+            model: badb57f1-0523
             name: CS$$$28x28_4ChiSims4thAve_0523
           '05270000':
             bulldoze: 330
@@ -607,6 +848,7 @@ toroca/commercial-services-doubler:
               cs$$: 190
               cs$$$: 80
             categories: cs$$$
+            model: badb57f1-0527
             name: CS$$$37x22_7ChiMaxisSimTheatre_0527
           052b0000:
             bulldoze: 330
@@ -615,12 +857,14 @@ toroca/commercial-services-doubler:
               cs$$: 332
               cs$$$: 136
             categories: cs$$$
+            model: badb57f1-052b
             name: CS$$$40x28_7ChiSims4thAve_052B
           '05720000':
             bulldoze: 140
             capacity:
               cs$: 178
             categories: cs$
+            model: badb57f1-0572
             name: CS$24x24_1ChiFleaMarket_0572
           05b50000:
             bulldoze: 110
@@ -628,6 +872,7 @@ toroca/commercial-services-doubler:
               cs$: 118
               cs$$: 34
             categories: cs$$
+            model: badb57f1-04e9
             name: CS$$12x28_1ChiMediumStore1_05B5
           05b70000:
             bulldoze: 150
@@ -635,6 +880,7 @@ toroca/commercial-services-doubler:
               cs$: 518
               cs$$: 134
             categories: cs$$
+            model: badb57f1-04f9
             name: CS$$40x24_2ChiMediumStore3_05B7
           05b80000:
             bulldoze: 150
@@ -642,6 +888,7 @@ toroca/commercial-services-doubler:
               cs$: 118
               cs$$: 34
             categories: cs$$
+            model: badb57f1-04e7
             name: CS$$14x14_4ChiMediumStore4_05B8
           05b90000:
             bulldoze: 220
@@ -649,6 +896,7 @@ toroca/commercial-services-doubler:
               cs$: 190
               cs$$: 52
             categories: cs$$
+            model: badb57f1-05f8
             name: CS$$14x22_4ChiMediumStore5_05B9
           05ba0000:
             bulldoze: 400
@@ -656,6 +904,7 @@ toroca/commercial-services-doubler:
               cs$: 468
               cs$$: 122
             categories: cs$$
+            model: badb57f1-0509
             name: CS$$30x22_6ChiMediumStore6_05BA
           05bd0000:
             bulldoze: 110
@@ -663,6 +912,7 @@ toroca/commercial-services-doubler:
               cs$: 140
               cs$$: 40
             categories: cs$$
+            model: badb57f1-05f4
             name: CS$$12x28_1NYMediumStore1_05BD
           05bf0000:
             bulldoze: 150
@@ -670,6 +920,7 @@ toroca/commercial-services-doubler:
               cs$: 1062
               cs$$: 270
             categories: cs$$
+            model: badb57f1-052d
             name: CS$$40x24_2NYMediumStore3_05BF
           05c00000:
             bulldoze: 150
@@ -677,6 +928,7 @@ toroca/commercial-services-doubler:
               cs$: 104
               cs$$: 30
             categories: cs$$
+            model: badb57f1-055e
             name: CS$$14x14_4NYMediumStore4_05C0
           05c10000:
             bulldoze: 220
@@ -684,6 +936,7 @@ toroca/commercial-services-doubler:
               cs$: 222
               cs$$: 60
             categories: cs$$
+            model: badb57f1-0560
             name: CS$$14x22_4NYMediumStore5_05C1
           05c20000:
             bulldoze: 400
@@ -691,6 +944,7 @@ toroca/commercial-services-doubler:
               cs$: 930
               cs$$: 238
             categories: cs$$
+            model: badb57f1-0564
             name: CS$$30x22_6NYMediumStore6_05C2
           05c50000:
             bulldoze: 110
@@ -698,6 +952,7 @@ toroca/commercial-services-doubler:
               cs$: 230
               cs$$: 62
             categories: cs$$
+            model: badb57f1-0533
             name: CS$$12x28_1HouMediumStore1_05C5
           05c70000:
             bulldoze: 150
@@ -705,6 +960,7 @@ toroca/commercial-services-doubler:
               cs$: 934
               cs$$: 238
             categories: cs$$
+            model: badb57f1-0539
             name: CS$$40x24_2HouMediumStore3_05C7
           05c80000:
             bulldoze: 150
@@ -712,6 +968,7 @@ toroca/commercial-services-doubler:
               cs$: 110
               cs$$: 32
             categories: cs$$
+            model: badb57f1-0568
             name: CS$$14x14_4HouMediumStore4_05C8
           05c90000:
             bulldoze: 220
@@ -719,6 +976,7 @@ toroca/commercial-services-doubler:
               cs$: 212
               cs$$: 58
             categories: cs$$
+            model: badb57f1-056a
             name: CS$$14x22_4HouMediumStore5_05C9
           05ca0000:
             bulldoze: 400
@@ -726,60 +984,70 @@ toroca/commercial-services-doubler:
               cs$: 820
               cs$$: 210
             categories: cs$$
+            model: badb57f1-056e
             name: CS$$30x22_6HouMediumStore6_05CA
           05cd0000:
             bulldoze: 100
             capacity:
               cs$: 98
             categories: cs$
+            model: badb57f1-05cd
             name: CS$14x14_1ChiSmallShop1_05CD
           05cf0000:
             bulldoze: 140
             capacity:
               cs$: 150
             categories: cs$
+            model: badb57f1-05cf
             name: CS$14x22_1ChiSmallShop3_05CF
           05d00000:
             bulldoze: 180
             capacity:
               cs$: 118
             categories: cs$
+            model: badb57f1-05d0
             name: CS$14x14_4ChiSmallShop4_05D0
           05d30000:
             bulldoze: 100
             capacity:
               cs$: 104
             categories: cs$
+            model: badb57f1-05d3
             name: CS$14x14_1NYSmallShop1_05D3
           05d50000:
             bulldoze: 140
             capacity:
               cs$: 160
             categories: cs$
+            model: badb57f1-05d5
             name: CS$14x22_1NYSmallShop3_05D5
           05d60000:
             bulldoze: 180
             capacity:
               cs$: 118
             categories: cs$
+            model: badb57f1-05d6
             name: CS$14x14_4NYSmallShop4_05D6
           05d90000:
             bulldoze: 100
             capacity:
               cs$: 64
             categories: cs$
+            model: badb57f1-05d9
             name: CS$14x14_1HouSmallShop1_05D9
           05db0000:
             bulldoze: 140
             capacity:
               cs$: 130
             categories: cs$
+            model: badb57f1-05db
             name: CS$14x22_1HouSmallShop3_05DB
           05dc0000:
             bulldoze: 180
             capacity:
               cs$: 124
             categories: cs$
+            model: badb57f1-05dc
             name: CS$14x14_4HouSmallShop4_05DC
           05df0000:
             bulldoze: 120
@@ -788,6 +1056,7 @@ toroca/commercial-services-doubler:
               cs$$: 36
               cs$$$: 18
             categories: cs$$$
+            model: badb57f1-04ef
             name: CS$$$12x28_1ChiLuxuryStore1_05DF
           '05e00000':
             bulldoze: 220
@@ -796,6 +1065,7 @@ toroca/commercial-services-doubler:
               cs$$: 82
               cs$$$: 36
             categories: cs$$$
+            model: badb57f1-0506
             name: CS$$$24x24_1ChiLuxuryStore2_05E0
           '05e10000':
             bulldoze: 260
@@ -804,6 +1074,7 @@ toroca/commercial-services-doubler:
               cs$$: 190
               cs$$$: 80
             categories: cs$$$
+            model: badb57f1-04f2
             name: CS$$$40x24_3ChiLuxuryStore3_05E1
           '05e20000':
             bulldoze: 370
@@ -812,6 +1083,7 @@ toroca/commercial-services-doubler:
               cs$$: 62
               cs$$$: 28
             categories: cs$$$
+            model: badb57f1-04fc
             name: CS$$$14x14_4ChiLuxuryStore4_05E2
           '05e30000':
             bulldoze: 520
@@ -820,6 +1092,7 @@ toroca/commercial-services-doubler:
               cs$$: 502
               cs$$$: 204
             categories: cs$$$
+            model: badb57f1-04fd
             name: CS$$$44x26_5ChiLuxuryStore5_05E3
           '05e50000':
             bulldoze: 120
@@ -828,6 +1101,7 @@ toroca/commercial-services-doubler:
               cs$$: 36
               cs$$$: 18
             categories: cs$$$
+            model: badb57f1-0543
             name: CS$$$12x28_1NYLuxuryStore1_05E5
           '05e60000':
             bulldoze: 220
@@ -836,6 +1110,7 @@ toroca/commercial-services-doubler:
               cs$$: 150
               cs$$$: 64
             categories: cs$$$
+            model: badb57f1-0546
             name: CS$$$24x24_1NYLuxuryStore2_05E6
           '05e70000':
             bulldoze: 260
@@ -844,6 +1119,7 @@ toroca/commercial-services-doubler:
               cs$$: 270
               cs$$$: 112
             categories: cs$$$
+            model: badb57f1-054c
             name: CS$$$40x24_3NYLuxuryStore3_05E7
           '05e80000':
             bulldoze: 370
@@ -852,6 +1128,7 @@ toroca/commercial-services-doubler:
               cs$$: 92
               cs$$$: 40
             categories: cs$$$
+            model: badb57f1-0579
             name: CS$$$14x14_4NYLuxuryStore4_05E8
           05eb0000:
             bulldoze: 120
@@ -860,6 +1137,7 @@ toroca/commercial-services-doubler:
               cs$$: 46
               cs$$$: 22
             categories: cs$$$
+            model: badb57f1-054f
             name: CS$$$12x28_1HouLuxuryStore1_05EB
           05ec0000:
             bulldoze: 220
@@ -868,6 +1146,7 @@ toroca/commercial-services-doubler:
               cs$$: 122
               cs$$$: 52
             categories: cs$$$
+            model: badb57f1-0552
             name: CS$$$24x24_1HouLuxuryStore2_05EC
           05ed0000:
             bulldoze: 260
@@ -876,6 +1155,7 @@ toroca/commercial-services-doubler:
               cs$$: 278
               cs$$$: 114
             categories: cs$$$
+            model: badb57f1-0558
             name: CS$$$40x24_3HouLuxuryStore3_05ED
           05ee0000:
             bulldoze: 370
@@ -884,36 +1164,42 @@ toroca/commercial-services-doubler:
               cs$$: 72
               cs$$$: 32
             categories: cs$$$
+            model: badb57f1-0583
             name: CS$$$14x14_4HouLuxuryStore4_05EE
           05f70000:
             bulldoze: 100
             capacity:
               cs$: 30
             categories: cs$
+            model: badb57f1-05f7
             name: CS$12x6_2ChiGreaseStation_05F7
           05fa0000:
             bulldoze: 100
             capacity:
               cs$: 52
             categories: cs$
+            model: badb57f1-05fa
             name: CS$14x14_1EuroSmallShop1_05FA
           05fb0000:
             bulldoze: 140
             capacity:
               cs$: 118
             categories: cs$
+            model: badb57f1-05fb
             name: CS$14x22_1EuroSmallShop3_05FB
           05fc0000:
             bulldoze: 180
             capacity:
               cs$: 104
             categories: cs$
+            model: badb57f1-05fc
             name: CS$14x14_4EuroSmallShop4_05FC
           05fd0000:
             bulldoze: 260
             capacity:
               cs$: 286
             categories: cs$
+            model: badb57f1-05fd
             name: CS$14x26_6EuroSmallShop5_05FD
           '06200000':
             bulldoze: 110
@@ -921,6 +1207,7 @@ toroca/commercial-services-doubler:
               cs$: 376
               cs$$: 98
             categories: cs$$
+            model: badb57f1-05fe
             name: CS$$12x28_1EuroMediumStore1_0620
           '06210000':
             bulldoze: 150
@@ -928,6 +1215,7 @@ toroca/commercial-services-doubler:
               cs$: 742
               cs$$: 190
             categories: cs$$
+            model: badb57f1-0606
             name: CS$$40x24_2EuroMediumStore3_0621
           '06220000':
             bulldoze: 150
@@ -935,6 +1223,7 @@ toroca/commercial-services-doubler:
               cs$: 84
               cs$$: 26
             categories: cs$$
+            model: badb57f1-060c
             name: CS$$14x14_4EuroMediumStore4_0622
           '06230000':
             bulldoze: 220
@@ -942,6 +1231,7 @@ toroca/commercial-services-doubler:
               cs$: 190
               cs$$: 52
             categories: cs$$
+            model: badb57f1-060d
             name: CS$$14x22_4EuroMediumStore5_0623
           '06240000':
             bulldoze: 400
@@ -949,6 +1239,7 @@ toroca/commercial-services-doubler:
               cs$: 798
               cs$$: 204
             categories: cs$$
+            model: badb57f1-060e
             name: CS$$30x22_6EuroMediumStore6_0624
           '06270000':
             bulldoze: 120
@@ -957,6 +1248,7 @@ toroca/commercial-services-doubler:
               cs$$: 28
               cs$$$: 14
             categories: cs$$$
+            model: badb57f1-0608
             name: CS$$$12x28_1EuroLuxuryStore1_0627
           '06280000':
             bulldoze: 220
@@ -965,6 +1257,7 @@ toroca/commercial-services-doubler:
               cs$$: 116
               cs$$$: 50
             categories: cs$$$
+            model: badb57f1-0609
             name: CS$$$24x24_1EuroLuxuryStore2_0628
           '06290000':
             bulldoze: 260
@@ -973,6 +1266,7 @@ toroca/commercial-services-doubler:
               cs$$: 382
               cs$$$: 156
             categories: cs$$$
+            model: badb57f1-060b
             name: CS$$$40x24_3EuroLuxuryStore3_0629
           062a0000:
             bulldoze: 370
@@ -981,8 +1275,9 @@ toroca/commercial-services-doubler:
               cs$$: 54
               cs$$$: 24
             categories: cs$$$
+            model: badb57f1-0611
             name: CS$$$14x14_4EuroLuxuryStore4_062A
-      lastGenerated: 2024-12-13T11:23:38.939Z
+      lastGenerated: 2025-01-06T12:13:27.862Z
       lastModified: 2011-01-07T19:58:30.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 2.0.0
@@ -1007,6 +1302,8 @@ toroca/functional-landmarks:
     Fourth, since they now provide jobs, they require workers! You can safely expect some of the skyscraper landmarks to deteriorate if you plop them in a region that only has a few thousand people, because the bigger landmarks now provide thousands of jobs! Use some common sense when placing them!
   features:
     - landmark-jobs
+  images:
+    - https://www.simtropolis.com/objects/screens/0025/e675466ad854f442bf5fefda2d41975a-default.jpg
   name: Functional Maxis Landmarks
   options:
     - choices:
@@ -1113,6 +1410,7 @@ toroca/functional-landmarks:
             garbage: 2
             maintenance: 100
             menu: Landmarks
+            model: badb57f1-0326
             name: Lm80x160_Alcatraz_0326
             pollution: 1
             pollutionRadius: 1
@@ -1134,6 +1432,7 @@ toroca/functional-landmarks:
             garbage: 5
             maintenance: 120
             menu: Landmarks
+            model: badb57f1-04bf
             name: Lm88x88_Amalienborg_04BF
             pollution: 1
             pollutionRadius: 2
@@ -1155,6 +1454,7 @@ toroca/functional-landmarks:
             garbage: 15
             maintenance: 220
             menu: Landmarks
+            model: badb57f1-04b2
             name: LM138x130_AmericanMuseumNatHistory_04B2
             pollution: 1
             pollutionRadius: 1
@@ -1176,6 +1476,7 @@ toroca/functional-landmarks:
             garbage: 39
             maintenance: 210
             menu: Landmarks
+            model: badb57f1-1003
             name: Lm80x48_BankofAmerica_1003
             pollution: 5
             pollutionRadius: 6
@@ -1197,6 +1498,7 @@ toroca/functional-landmarks:
             garbage: 15
             maintenance: 300
             menu: Landmarks
+            model: badb57f1-04c4
             name: Lm52x52_BankOfChinaTower_04C4
             pollution: 4
             pollutionRadius: 4
@@ -1218,6 +1520,7 @@ toroca/functional-landmarks:
             garbage: 2
             maintenance: 150
             menu: Landmarks
+            model: badb57f1-04cd
             name: Lm16x16_Big Ben_04CD
             pollution: 1
             pollutionRadius: 1
@@ -1240,6 +1543,7 @@ toroca/functional-landmarks:
             garbage: 4
             maintenance: 440
             menu: Landmarks
+            model: badb57f1-04db
             name: Lm85x98_CNtower_04DB
             power: 20
             rating: 7
@@ -1258,6 +1562,7 @@ toroca/functional-landmarks:
             garbage: 10
             maintenance: 100
             menu: Landmarks
+            model: badb57f1-04dc
             name: Lm88x124_CaliforniaPlaza_04DC
             pollution: 2
             pollutionRadius: 2
@@ -1276,6 +1581,7 @@ toroca/functional-landmarks:
             garbage: 12
             maintenance: 330
             menu: Landmarks
+            model: badb57f1-04d3
             name: Lm62x62_ChryslerBuilding_04D3
             pollution: 3
             pollutionRadius: 4
@@ -1298,6 +1604,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 110
             menu: Landmarks
+            model: badb57f1-1001
             name: Lm60x60_CoitTower_1001
             power: 1
             rating: 5
@@ -1317,6 +1624,7 @@ toroca/functional-landmarks:
             garbage: 15
             maintenance: 210
             menu: Landmarks
+            model: badb57f1-04b0
             name: Lm60x70_SeafirstTower_04B0
             pollution: 1
             pollutionRadius: 1
@@ -1338,6 +1646,7 @@ toroca/functional-landmarks:
             garbage: 9
             maintenance: 100
             menu: Landmarks
+            model: badb57f1-04cf
             name: Lm24x30_BostonFaneuilHall_04CF
             pollution: 1
             pollutionRadius: 2
@@ -1359,6 +1668,7 @@ toroca/functional-landmarks:
             garbage: 5
             maintenance: 170
             menu: Landmarks
+            model: badb57f1-04c6
             name: Lm48x48_Fernsehturm_04C6
             pollution: 1
             pollutionRadius: 1
@@ -1379,6 +1689,7 @@ toroca/functional-landmarks:
             garbage: 2
             maintenance: 180
             menu: Landmarks
+            model: badb57f1-04d9
             name: Lm160x16_GatewayArch_04D9
             power: 1
             rating: 8
@@ -1396,6 +1707,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 160
             menu: Landmarks
+            model: badb57f1-04c9
             name: Lm76x60_HagiaSofia_04C9
             pollution: 1
             pollutionRadius: 1
@@ -1415,6 +1727,7 @@ toroca/functional-landmarks:
             cost: 30000
             maintenance: 60
             menu: Landmarks
+            model: badb57f1-04d2
             name: Lm104x6_Hollywoodsign_04D2
             power: 1
             rating: 2
@@ -1431,6 +1744,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 120
             menu: Landmarks
+            model: badb57f1-04d7
             name: Lm30x24_IndependenceHall_04D7
             pollution: 1
             pollutionRadius: 1
@@ -1452,6 +1766,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 160
             menu: Landmarks
+            model: badb57f1-04dd
             name: Lm76x84_JeffersonMemorial_04DD
             power: 1
             rating: 8
@@ -1467,6 +1782,7 @@ toroca/functional-landmarks:
             garbage: 43
             maintenance: 320
             menu: Landmarks
+            model: badb57f1-04d0
             name: Lm84x52_JohnHancockCenter_04D0
             pollution: 6
             pollutionRadius: 6
@@ -1489,6 +1805,7 @@ toroca/functional-landmarks:
             garbage: 8
             maintenance: 275
             menu: Landmarks
+            model: badb57f1-04ab
             name: Lm98x87_LincolnCenter_04AB
             pollution: 1
             pollutionRadius: 1
@@ -1510,6 +1827,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 170
             menu: Landmarks
+            model: badb57f1-04de
             name: Lm72x55_LincolnMemorial_04DE
             power: 1
             rating: 8
@@ -1526,6 +1844,7 @@ toroca/functional-landmarks:
             garbage: 4
             maintenance: 180
             menu: Landmarks
+            model: badb57f1-1002
             name: Lm45x38_PalaceofFineArts_1002
             pollution: 1
             pollutionRadius: 1
@@ -1547,6 +1866,7 @@ toroca/functional-landmarks:
             garbage: 4
             maintenance: 130
             menu: Landmarks
+            model: badb57f1-04c8
             name: LM72x72_PalacioReal_04C8
             pollution: 1
             pollutionRadius: 2
@@ -1568,6 +1888,7 @@ toroca/functional-landmarks:
             garbage: 9
             maintenance: 130
             menu: Landmarks
+            model: badb57f1-04c7
             name: Lm52x48_RotesRathaus_04C7
             pollution: 2
             pollutionRadius: 2
@@ -1589,6 +1910,7 @@ toroca/functional-landmarks:
             garbage: 15
             maintenance: 180
             menu: Landmarks
+            model: badb57f1-04a2
             name: LM140x175_schlossneu_04A2
             pollution: 1
             pollutionRadius: 1
@@ -1609,6 +1931,7 @@ toroca/functional-landmarks:
             garbage: 11
             maintenance: 110
             menu: Landmarks
+            model: badb57f1-04d8
             name: Lm45x35_SmithTower_04D8
             pollution: 3
             pollutionRadius: 4
@@ -1630,6 +1953,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 180
             menu: Landmarks
+            model: badb57f1-04ce
             name: Lm54x64_StBasils_04CE
             pollution: 1
             pollutionRadius: 1
@@ -1653,6 +1977,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 170
             menu: Landmarks
+            model: badb57f1-04d6
             name: Lm30x30_StatueofLiberty_04D6
             power: 5
             rating: 9
@@ -1672,6 +1997,7 @@ toroca/functional-landmarks:
             garbage: 4
             maintenance: 200
             menu: Landmarks
+            model: badb57f1-04cc
             name: Lm64x64_TajMahal_04CC
             power: 10
             rating: 8
@@ -1691,6 +2017,7 @@ toroca/functional-landmarks:
             garbage: 2
             maintenance: 130
             menu: Landmarks
+            model: badb57f1-04da
             name: Lm26x32_Alamo_04DA
             power: 2
             rating: 7
@@ -1709,6 +2036,7 @@ toroca/functional-landmarks:
             garbage: 20
             maintenance: 470
             menu: Landmarks
+            model: badb57f1-04d4
             name: Lm128x60_EmpireStateBuilding_04D4
             pollution: 5
             pollutionRadius: 5
@@ -1729,6 +2057,7 @@ toroca/functional-landmarks:
             garbage: 2
             maintenance: 310
             menu: Landmarks
+            model: badb57f1-04cb
             name: Lm126x126_GreatPyramid_04CB
             power: 1
             rating: 10
@@ -1745,6 +2074,7 @@ toroca/functional-landmarks:
             garbage: 9
             maintenance: 180
             menu: Landmarks
+            model: badb57f1-04d5
             name: Lm77x48_Guggenhiem_04D5
             pollution: 1
             pollutionRadius: 1
@@ -1765,6 +2095,7 @@ toroca/functional-landmarks:
             garbage: 2
             maintenance: 100
             menu: Landmarks
+            model: badb57f1-04d1
             name: Lm64x24_Sphynx_04D1
             rating: 7
             ratingRadius: 256
@@ -1779,6 +2110,7 @@ toroca/functional-landmarks:
             garbage: 3
             maintenance: 140
             menu: Landmarks
+            model: badb57f1-04e0
             name: Lm46x46_WashingtonMonument_04E0
             power: 1
             rating: 7
@@ -1795,6 +2127,7 @@ toroca/functional-landmarks:
             garbage: 15
             maintenance: 140
             menu: Landmarks
+            model: badb57f1-04e1
             name: Lm70x70_WhiteHouse_04E1
             pollution: 1
             pollutionRadius: 1
@@ -1816,6 +2149,7 @@ toroca/functional-landmarks:
             garbage: 8
             maintenance: 340
             menu: Landmarks
+            model: badb57f1-04ca
             name: Lm94x94_TokyoTower_04CA
             pollution: 1
             pollutionRadius: 1
@@ -1837,6 +2171,7 @@ toroca/functional-landmarks:
             garbage: 5
             maintenance: 90
             menu: Landmarks
+            model: badb57f1-04c5
             name: Lm33x36_TowerOfLondon _04C5
             pollution: 1
             pollutionRadius: 2
@@ -1857,6 +2192,7 @@ toroca/functional-landmarks:
             garbage: 13
             maintenance: 260
             menu: Landmarks
+            model: badb57f1-04df
             name: Lm98x75_USCapitol_04DF
             pollution: 1
             pollutionRadius: 2
@@ -1866,7 +2202,7 @@ toroca/functional-landmarks:
             water: 450
             waterPollution: 2
             waterPollutionRadius: 3
-      lastGenerated: 2024-12-13T11:23:38.163Z
+      lastGenerated: 2025-01-06T12:13:26.850Z
       lastModified: 2004-03-16T00:00:00.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
@@ -2043,398 +2379,477 @@ toroca/industry-quadrupler:
             bulldoze: 90
             capacity:
               id: 27
+            model: badb57f1-07da
             name: ID14x16_1DirtyAnchor1_07DA
           07dc0000:
             bulldoze: 90
             capacity:
               id: 92
+            model: badb57f1-07dc
             name: ID45x30_1DirtyAnchor3_07DC
           07dd0000:
             bulldoze: 90
             capacity:
               id: 72
+            model: badb57f1-07dd
             name: ID30x24_1DirtyAnchor4_07DD
           07de0000:
             bulldoze: 90
             capacity:
               id: 72
+            model: badb57f1-07de
             name: ID30x30_1DirtyAnchor5_07DE
           07df0000:
             bulldoze: 200
             capacity:
               id: 112
+            model: badb57f1-07df
             name: ID22x14_2DirtyAnchor6_07DF
           '07e00000':
             bulldoze: 200
             capacity:
               id: 184
+            model: badb57f1-07e0
             name: ID48x30_2DirtyAnchor7_07E0
           '07e10000':
             bulldoze: 200
             capacity:
               id: 264
+            model: badb57f1-07e1
             name: ID48x46_2DirtyAnchor8_07E1
           '07e20000':
             bulldoze: 250
             capacity:
               id: 476
+            model: badb57f1-07e2
             name: ID48x32_3DirtyAnchor9_07E2
           '07e30000':
             bulldoze: 250
             capacity:
               id: 268
+            model: badb57f1-07e3
             name: ID48x46_2DirtyAnchor10_07E3
           '07e40000':
             bulldoze: 250
             capacity:
               id: 632
+            model: badb57f1-07e4
             name: ID64x46_3DirtyAnchor11_07E4
           '07e50000':
             bulldoze: 250
             capacity:
               id: 600
+            model: badb57f1-07e5
             name: ID64x62_3DirtyAnchor12_07E5
           '07e70000':
             bulldoze: 90
             capacity:
               id: 60
+            model: badb57f1-07e7
             name: ID24x24_1DirtyMech2_07E7
           '07e90000':
             bulldoze: 90
             capacity:
               id: 140
+            model: badb57f1-07e9
             name: ID28x28_2DirtyMech4_07E9
           07ea0000:
             bulldoze: 200
             capacity:
               id: 84
+            model: badb57f1-07ea
             name: ID14x14_2DirtyMech5_07EA
           07eb0000:
             bulldoze: 200
             capacity:
               id: 164
+            model: badb57f1-07eb
             name: ID28x28_2DirtyMech6_07EB
           07ec0000:
             bulldoze: 200
             capacity:
               id: 120
+            model: badb57f1-07ec
             name: ID20x16_2DirtyMech7_07EC
           07ed0000:
             bulldoze: 200
             capacity:
               id: 112
+            model: badb57f1-07ed
             name: ID28x16_2DirtyMech8_07ED
           07ee0000:
             bulldoze: 250
             capacity:
               id: 368
+            model: badb57f1-07ee
             name: ID32x32_3DirtyMech9_07EE
           07ef0000:
             bulldoze: 250
             capacity:
               id: 296
+            model: badb57f1-07ef
             name: ID32x16_3DirtyMech10_07EF
           07f10000:
             bulldoze: 250
             capacity:
               id: 400
+            model: badb57f1-07f1
             name: ID48x32_3DirtyMech12_07F1
           07f50000:
             bulldoze: 200
             capacity:
               id: 72
+            model: badb57f1-07f5
             name: ID14x14_2DirtyOut4_07F5
           07f60000:
             bulldoze: 200
             capacity:
               id: 100
+            model: badb57f1-07f6
             name: ID24x16_2DirtyOut5_07F6
           07f70000:
             bulldoze: 200
             capacity:
               id: 116
+            model: badb57f1-07f7
             name: ID28x16_2DirtyOut6_07F7
           07f80000:
             bulldoze: 250
             capacity:
               id: 228
+            model: badb57f1-07f8
             name: ID32x16_3DirtyOut7_07F8
           07f90000:
             bulldoze: 250
             capacity:
               id: 232
+            model: badb57f1-07f9
             name: ID30x14_3DirtyOut8_07F9
           07fa0000:
             bulldoze: 250
             capacity:
               id: 304
+            model: badb57f1-07fa
             name: ID30x30_3DirtyOut9_07FA
           07fb0000:
             bulldoze: 250
             capacity:
               id: 376
+            model: badb57f1-07fb
             name: ID46x32_3DirtyOut10_07FB
           '08090000':
             bulldoze: 90
             capacity:
               im: 76
+            model: badb57f1-0809
             name: IM14x28_1ManuAnchor1_0809
           080a0000:
             bulldoze: 150
             capacity:
               im: 92
+            model: badb57f1-080a
             name: IM14x28_1ManuAnchor2_080A
           080b0000:
             bulldoze: 90
             capacity:
               im: 92
+            model: badb57f1-080b
             name: IM28x28_1ManuAnchor3_080B
           080c0000:
             bulldoze: 150
             capacity:
               im: 100
+            model: badb57f1-080c
             name: IM24x28_1ManuAnchor4_080C
           '080e0000':
             bulldoze: 150
             capacity:
               im: 136
+            model: badb57f1-080e
             name: IM28x40_2ManuAnchor6_080E
           '08110000':
             bulldoze: 270
             capacity:
               im: 172
+            model: badb57f1-0811
             name: IM40x44_2ManuAnchor9_0811
           '08130000':
             bulldoze: 270
             capacity:
               im: 228
+            model: badb57f1-0813
             name: IM42x54_3ManuAnchor11_0813
           '08140000':
             bulldoze: 90
             capacity:
               im: 96
+            model: badb57f1-0814
             name: IM18x32_1ManuMech1_0814
           '08170000':
             bulldoze: 150
             capacity:
               im: 96
+            model: badb57f1-0817
             name: IM14x28_2ManuMech4_0817
           '08180000':
             bulldoze: 270
             capacity:
               im: 96
+            model: badb57f1-0818
             name: IM14x28_2ManuMech5_0818
           081a0000:
             bulldoze: 150
             capacity:
               im: 192
+            model: badb57f1-081a
             name: IM28x28_3ManuMech7_081A
           081b0000:
             bulldoze: 270
             capacity:
               im: 180
+            model: badb57f1-081b
             name: IM28x28_3ManuMech8_081B
           081c0000:
             bulldoze: 90
             capacity:
               im: 72
+            model: badb57f1-081c
             name: IM14x28_1ManuOut1_081C
           081d0000:
             bulldoze: 150
             capacity:
               im: 84
+            model: badb57f1-081d
             name: IM14x24_1ManuOut2_081D
           081f0000:
             bulldoze: 150
             capacity:
               im: 100
+            model: badb57f1-081f
             name: IM26x28_2ManuOut4_081F
           '08210000':
             bulldoze: 90
             capacity:
               im: 100
+            model: badb57f1-0821
             name: IM28x44_2ManuOut6_0821
           '08230000':
             bulldoze: 270
             capacity:
               im: 136
+            model: badb57f1-0823
             name: IM28x40_2ManuOut8_0823
           '08240000':
             bulldoze: 150
             capacity:
               im: 184
+            model: badb57f1-0824
             name: IM24x60_3ManuOut9_0824
           '08250000':
             bulldoze: 270
             capacity:
               im: 232
+            model: badb57f1-0825
             name: IM28x58_3ManuOut10_0825
           '08260000':
             bulldoze: 150
             capacity:
               im: 212
+            model: badb57f1-0826
             name: IM40x60_3ManuOut11_0826
           '08270000':
             bulldoze: 270
             capacity:
               im: 288
+            model: badb57f1-0827
             name: IM42x58_3ManuOut12_0827
           '08290000':
             bulldoze: 270
             capacity:
               im: 232
+            model: badb57f1-0829
             name: IM28x74_3ManuOut14_0829
           082a0000:
             bulldoze: 270
             capacity:
               im: 312
+            model: badb57f1-082a
             name: IM38x88_3ManuOut15_082A
           082b0000:
             bulldoze: 100
             capacity:
               iht: 80
+            model: badb57f1-082b
             name: IH14x28_1HTAnchor1_082B
           082c0000:
             bulldoze: 160
             capacity:
               iht: 80
+            model: badb57f1-082c
             name: IH14x28_1HTAnchor2_082C
           082d0000:
             bulldoze: 100
             capacity:
               iht: 128
+            model: badb57f1-082d
             name: IH28x28_1HTAnchor3_082D
           '082e0000':
             bulldoze: 160
             capacity:
               iht: 132
+            model: badb57f1-082e
             name: IH24x28_2HTAnchor4_082E
           '08320000':
             bulldoze: 160
             capacity:
               iht: 292
+            model: badb57f1-0832
             name: IH42x42_3HTAnchor8_0832
           '08330000':
             bulldoze: 290
             capacity:
               iht: 288
+            model: badb57f1-0833
             name: IH40x44_3HTAnchor9_0833
           '08350000':
             bulldoze: 290
             capacity:
               iht: 284
+            model: badb57f1-0835
             name: IH54x42_3HTAnchor11_0835
           '08360000':
             bulldoze: 100
             capacity:
               iht: 84
+            model: badb57f1-0836
             name: IH14x14_1HTMech1_0836
           '08390000':
             bulldoze: 160
             capacity:
               iht: 116
+            model: badb57f1-0839
             name: IH14x28_2HTMech4_0839
           083a0000:
             bulldoze: 290
             capacity:
               iht: 124
+            model: badb57f1-083a
             name: IH14x28_2HTMech5_083A
           083c0000:
             bulldoze: 160
             capacity:
               iht: 196
+            model: badb57f1-083c
             name: IH28x28_3HTMech7_083C
           083d0000:
             bulldoze: 290
             capacity:
               iht: 220
+            model: badb57f1-083d
             name: IH28x28_3HTMech8_083D
           '083e0000':
             bulldoze: 100
             capacity:
               iht: 88
+            model: badb57f1-083e
             name: IH14x28_1HTOut1_083E
           083f0000:
             bulldoze: 160
             capacity:
               iht: 72
+            model: badb57f1-083f
             name: IH14x24_1HTOut2_083F
           '08410000':
             bulldoze: 160
             capacity:
               iht: 120
+            model: badb57f1-0841
             name: IH26x28_1HTOut4_0841
           '08420000':
             bulldoze: 290
             capacity:
               iht: 108
+            model: badb57f1-0842
             name: IH26x26_1HTOut5_0842
           '08430000':
             bulldoze: 101
             capacity:
               iht: 160
+            model: badb57f1-0843
             name: IH28x44_2HTOut6_0843
           '08450000':
             bulldoze: 290
             capacity:
               iht: 176
+            model: badb57f1-0845
             name: IH28x40_2HTOut8_0845
           '08460000':
             bulldoze: 160
             capacity:
               iht: 204
+            model: badb57f1-0846
             name: IH24x60_2HTOut9_0846
           '08470000':
             bulldoze: 290
             capacity:
               iht: 268
+            model: badb57f1-0847
             name: IH28x58_3HTOut10_0847
           '08480000':
             bulldoze: 160
             capacity:
               iht: 272
+            model: badb57f1-0848
             name: IH40x60_3HTOut11_0848
           '08490000':
             bulldoze: 290
             capacity:
               iht: 364
+            model: badb57f1-0849
             name: IH42x58_3HTOut12_0849
           084b0000:
             bulldoze: 290
             capacity:
               iht: 376
+            model: badb57f1-084b
             name: IH28x74_3HTOut14_084B
           084c0000:
             bulldoze: 290
             capacity:
               iht: 388
+            model: badb57f1-084c
             name: IH38x88_3HTOut15_084C
           '08620000':
             bulldoze: 310
             capacity:
               id: 308
+            model: badb57f1-0862
             name: ID28x28_3DirtyMech13_0862
           '08630000':
             bulldoze: 250
             capacity:
               id: 68
+            model: badb57f1-0863
             name: ID30x30_1DirtyAnchor55_0863
           '08650000':
             bulldoze: 150
             capacity:
               im: 128
+            model: badb57f1-0865
             name: IM42x42_2ManuAnchor8_0865
           '08660000':
             bulldoze: 270
             capacity:
               im: 108
+            model: badb57f1-0866
             name: IM26x26_2ManuOut5_0866
           '08670000':
             bulldoze: 160
             capacity:
               iht: 156
+            model: badb57f1-0867
             name: IH28x40_2HTAnchor6_0867
-      lastGenerated: 2024-12-13T11:23:38.143Z
+      lastGenerated: 2025-01-06T12:13:26.819Z
       lastModified: 2017-11-27T03:07:27.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 2.1.0
@@ -2484,6 +2899,7 @@ toroca/no-radiation-rewards:
               $$$: 31
             maintenance: 280
             menu: Rewards
+            model: badb57f1-032f
             name: RW21x21_AdvResearchCenter_032F
             pollution: 3
             pollutionRadius: 2
@@ -2505,6 +2921,7 @@ toroca/no-radiation-rewards:
               $: 45
             maintenance: 380
             menu: Rewards
+            model: badb57f1-0396
             name: RW18x14_AreaControlTower_03960000
             pollution: 12
             pollutionRadius: 3
@@ -2526,6 +2943,7 @@ toroca/no-radiation-rewards:
               $: 45
             maintenance: 350
             menu: Rewards
+            model: badb57f1-0346
             name: RW64x96_ArmyBase_0346
             pollution: 4
             pollutionRadius: 4
@@ -2549,6 +2967,7 @@ toroca/no-radiation-rewards:
               $$$: 32
             maintenance: 180
             menu: Health
+            model: badb57f1-033f
             name: RW36x50_DiseaseCtr_033F
             pollution: 3
             pollutionRadius: 3
@@ -2570,6 +2989,7 @@ toroca/no-radiation-rewards:
             garbage: 35
             maintenance: 400
             menu: Rewards
+            model: badb57f1-0341
             name: RW40x40_ToxicDump_0341
             pollution: 44
             pollutionRadius: 8
@@ -2579,7 +2999,7 @@ toroca/no-radiation-rewards:
             water: 200
             waterPollution: 75
             waterPollutionRadius: 10
-      lastGenerated: 2024-12-13T11:23:38.155Z
+      lastGenerated: 2025-01-06T12:13:26.839Z
       lastModified: 2003-10-20T23:00:00.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
@@ -2604,6 +3024,7 @@ toroca/opera-house-fix:
             garbage: 10
             maintenance: 6875
             menu: Rewards
+            model: badb57f1-032b
             name: RW44x50_OperaHouse_032B
             pollution: 1
             pollutionRadius: 2
@@ -2614,7 +3035,7 @@ toroca/opera-house-fix:
             water: 60
             waterPollution: 1
             waterPollutionRadius: 3
-      lastGenerated: 2024-12-13T11:23:38.766Z
+      lastGenerated: 2025-01-06T12:13:27.663Z
       lastModified: 2004-03-31T00:00:00.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0
@@ -2666,6 +3087,7 @@ toroca/toll-booth-booster:
             garbage: 1
             maintenance: 12
             menu: MiscTransit
+            model: badb57f1-1f5c
             name: Ut12x32_TollBooth_road
             pollution: 1
             pollutionRadius: 1
@@ -2678,6 +3100,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-0000
             name: Ut12X32_TollBoothHwy_1F5D
             pollution: 1
             pollutionRadius: 1
@@ -2690,6 +3113,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-1f5e
             name: Ut12X32_TollBoothAve_1F5E
             pollution: 1
             pollutionRadius: 1
@@ -2702,6 +3126,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-0000
             name: Ut12X32_TollBoothGRHwy_2C99
             pollution: 1
             pollutionRadius: 1
@@ -2717,6 +3142,7 @@ toroca/toll-booth-booster:
             garbage: 1
             maintenance: 12
             menu: MiscTransit
+            model: badb57f1-1f5c
             name: Ut12x32_TollBooth_road
             pollution: 1
             pollutionRadius: 1
@@ -2729,6 +3155,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-0000
             name: Ut12X32_TollBoothHwy_1F5D
             pollution: 1
             pollutionRadius: 1
@@ -2741,6 +3168,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-1f5e
             name: Ut12X32_TollBoothAve_1F5E
             pollution: 1
             pollutionRadius: 1
@@ -2753,6 +3181,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-0000
             name: Ut12X32_TollBoothGRHwy_2C99
             pollution: 1
             pollutionRadius: 1
@@ -2768,6 +3197,7 @@ toroca/toll-booth-booster:
             garbage: 1
             maintenance: 12
             menu: MiscTransit
+            model: badb57f1-1f5c
             name: Ut12x32_TollBooth_road
             pollution: 1
             pollutionRadius: 1
@@ -2780,6 +3210,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-0000
             name: Ut12X32_TollBoothHwy_1F5D
             pollution: 1
             pollutionRadius: 1
@@ -2792,6 +3223,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-1f5e
             name: Ut12X32_TollBoothAve_1F5E
             pollution: 1
             pollutionRadius: 1
@@ -2804,6 +3236,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 12
+            model: badb57f1-0000
             name: Ut12X32_TollBoothGRHwy_2C99
             pollution: 1
             pollutionRadius: 1
@@ -2819,6 +3252,7 @@ toroca/toll-booth-booster:
             garbage: 1
             maintenance: 10
             menu: MiscTransit
+            model: badb57f1-1f5c
             name: Ut12x32_TollBooth_road
             pollution: 1
             pollutionRadius: 1
@@ -2831,6 +3265,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-0000
             name: Ut12X32_TollBoothHwy_1F5D
             pollution: 1
             pollutionRadius: 1
@@ -2843,6 +3278,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-1f5e
             name: Ut12X32_TollBoothAve_1F5E
             pollution: 1
             pollutionRadius: 1
@@ -2855,6 +3291,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-0000
             name: Ut12X32_TollBoothGRHwy_2C99
             pollution: 1
             pollutionRadius: 1
@@ -2870,6 +3307,7 @@ toroca/toll-booth-booster:
             garbage: 1
             maintenance: 10
             menu: MiscTransit
+            model: badb57f1-1f5c
             name: Ut12x32_TollBooth_road
             pollution: 1
             pollutionRadius: 1
@@ -2882,6 +3320,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-0000
             name: Ut12X32_TollBoothHwy_1F5D
             pollution: 1
             pollutionRadius: 1
@@ -2894,6 +3333,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-1f5e
             name: Ut12X32_TollBoothAve_1F5E
             pollution: 1
             pollutionRadius: 1
@@ -2906,6 +3346,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-0000
             name: Ut12X32_TollBoothGRHwy_2C99
             pollution: 1
             pollutionRadius: 1
@@ -2921,6 +3362,7 @@ toroca/toll-booth-booster:
             garbage: 1
             maintenance: 10
             menu: MiscTransit
+            model: badb57f1-1f5c
             name: Ut12x32_TollBooth_road
             pollution: 1
             pollutionRadius: 1
@@ -2933,6 +3375,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-0000
             name: Ut12X32_TollBoothHwy_1F5D
             pollution: 1
             pollutionRadius: 1
@@ -2945,6 +3388,7 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-1f5e
             name: Ut12X32_TollBoothAve_1F5E
             pollution: 1
             pollutionRadius: 1
@@ -2957,13 +3401,14 @@ toroca/toll-booth-booster:
             flamability: 38
             garbage: 1
             maintenance: 10
+            model: badb57f1-0000
             name: Ut12X32_TollBoothGRHwy_2C99
             pollution: 1
             pollutionRadius: 1
             power: 1
             waterPollution: 1
             waterPollutionRadius: 1
-      lastGenerated: 2024-12-13T11:23:38.149Z
+      lastGenerated: 2025-01-06T12:13:26.828Z
       lastModified: 2003-10-20T23:00:00.000Z
       release: 2024-11-27T09:00:58.547Z
       version: 1.0.0

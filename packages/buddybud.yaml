@@ -2,6 +2,8 @@ buddybud/jeronij-concrete-wall-addon-stairs:
   authors:
     - jeronij
   categories: parks,power
+  dependencies:
+    - bsc/textures-vol03
   description: |-
     First a thanx to Jeronij for letting me upload this.
 
@@ -36,6 +38,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             cost: 10
             maintenance: 2
             menu: Power
+            model: badb57f1-0e11
             name: PZ1x1_ParkGreens1_4a635a8a
             pollution: -1
             pollutionRadius: 1
@@ -51,6 +54,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             cost: 10
             maintenance: 2
             menu: Power
+            model: badb57f1-0e11
             name: PZ1x1_ParkGreens1_4a635a8a
             pollution: -1
             pollutionRadius: 1
@@ -66,6 +70,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             cost: 10
             maintenance: 2
             menu: Power
+            model: badb57f1-0e11
             name: PZ1x1_ParkGreens1_4a635a8a
             pollution: -1
             pollutionRadius: 1
@@ -81,6 +86,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             cost: 10
             maintenance: 2
             menu: Power
+            model: badb57f1-0e11
             name: PZ1x1_ParkGreens1_4a635a8a
             pollution: -1
             pollutionRadius: 1
@@ -96,6 +102,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             cost: 10
             maintenance: 2
             menu: Power
+            model: badb57f1-0e11
             name: PZ1x1_ParkGreens1_4a635a8a
             pollution: -1
             pollutionRadius: 1
@@ -111,6 +118,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             cost: 10
             maintenance: 2
             menu: Power
+            model: badb57f1-0e11
             name: PZ1x1_ParkGreens1_4a635a8a
             pollution: -1
             pollutionRadius: 1
@@ -120,53 +128,133 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-      lastGenerated: 2024-12-18T09:40:52.341Z
+      lastGenerated: 2025-01-06T15:31:22.298Z
       lastModified: 2005-10-12T01:46:25.000Z
       lots:
         BudUD-Jeronij_CW_Addon_Stairs_Lots.dat:
           5047df1e:
             building: 5047df1e
             name: BudUD-Jeronij_CW_Addon_HStairs-01
+            props:
+              - 1edf0000
+              - '28330000'
+              - 2a150000
+              - 2a140000
+              - 1dfb0000
+              - f047aa8c
+              - f047ab1f
+              - 1047ab4c
+              - 3047dcbe
+              - 9047dc87
             size: 1x1
+            textures:
+              - a990c41a
           5047efac:
             building: 5047efac
             name: BudUD-Jeronij_CW_Addon_HStairs-02
+            props:
+              - 1edf0000
+              - '28330000'
+              - 2a150000
+              - 2a140000
+              - f047aa8c
+              - f047ab1f
+              - 1047ab4c
+              - 1dfb0000
+              - 7047ec65
+              - 9047ec4f
+              - 5047ec8c
             size: 1x1
+            textures:
+              - a990c42a
           5047f322:
             building: 5047f322
             name: BudUD-Jeronij_CW_Addon_CS-Stairs
+            props:
+              - f047aa8c
+              - f047ab1f
+              - 1047ab4c
+              - 1dfb0000
+              - 7047ec65
+              - 9047ec4f
+              - 9047ec7b
             size: 1x1
+            textures:
+              - a990c420
           '50481653':
             building: '50481653'
             name: BudUD-Jeronij_CW_Addon_Diag-Stairs
+            props:
+              - 1047ab4c
+              - 1dfb0000
+              - 7047ec65
+              - 9047ec4f
+              - 5047ec8c
             size: 1x1
+            textures:
+              - 261a0000
+              - a990c445
           b047f102:
             building: b047f102
             name: BudUD-Jeronij_CW_Addon_CR-Stairs
+            props:
+              - 1edf0000
+              - '28330000'
+              - 2a150000
+              - 2a140000
+              - 7047ec65
+              - 9047ec4f
+              - 5047ec8c
+              - 1dfb0000
+              - 1047ab4c
             size: 1x1
+            textures:
+              - a990c425
           d058a6f4:
             building: d058a6f4
             name: BudUD-Jeronij_CW_Addon_HLookOut
+            props:
+              - 1edf0000
+              - '28330000'
+              - 2a150000
+              - 2a140000
+              - 1dfb0000
+              - f047aa8c
+              - f047ab1f
+              - 1047ab4c
+              - 1047dd02
+              - 5047dce9
             size: 1x1
+            textures:
+              - a5304000
+              - a990c44a
       props:
         Prop Packs/BudCW_Lookout_Prop_Back.dat:
           5047dce9:
+            model: 72d71307
             name: BudCW_Lookout_Back
         Prop Packs/BudCW_Stairs_Look_Prop.dat:
           1047dd02:
+            model: 52d7146d
             name: BudCW_Lookout_Front
           7047ec65:
+            model: 92d723f6
             name: BudCW_Stairs_Diag2
           9047dc87:
+            model: f2d71185
             name: BudCW_Stairs_Horizontal
           9047ec4f:
+            model: 32d723b1
             name: BudCW_Stairs_Diag1
         Prop Packs/BudCW_Stairs_Tops_Prop.dat:
           3047dcbe:
+            model: 92d7125a
             name: BudCW_Stairs_H_Top
           5047ec8c:
+            model: 92d724ec
             name: BudCW_Stairs_DiagR_Top
           9047ec7b:
+            model: 92d72461
             name: BudCW_Stairs_DiagS_Top
       release: 2024-12-17T16:13:38.876Z
       textures:

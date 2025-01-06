@@ -8,6 +8,7 @@ jasoncw/2-commerce-street:
         categories: co$$
         flamability: 40
         garbage: 4
+        model: cb5add8c
         name: Jasoncw - 2 Commerce Street (CO$$7_2x2)
         pollution: 2
         pollutionRadius: 5
@@ -27,6 +28,7 @@ jasoncw/2-commerce-street:
         garbage: 4
         label: 2 Commerce Street
         menu: Landmarks
+        model: cb5add8c
         name: Jasoncw - 2 Commerce Street (CO$$_2x2)
         pollution: 2
         pollutionRadius: 5
@@ -51,13 +53,21 @@ jasoncw/2-commerce-street:
         building: 5bd9b442
         density: medium,high
         name: CO$$7_2x2_2 Commerce Street
+        props:
+          - 2ac80000
         size: 2x2
         stage: 7
+        textures:
+          - '25900000'
     Jasoncw - 2 Commerce Street - Plop (CO$$_2x2).SC4Lot:
       5bd98c09:
         building: 5bd98c09
         name: PLOP_2x2_2 Commerce Street
+        props:
+          - 2ac80000
         size: 2x2
+        textures:
+          - '25900000'
   name: 2 Commerce Street
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_12/5fee5599c0f14_2CommmerceStreetP1.thumb.png.25632b0c32b14a6d66cc0e09b560b4f6.png
   url: https://community.simtropolis.com/files/file/34021-2-commerce-street/
@@ -67,7 +77,7 @@ jasoncw/2-commerce-street:
         - id: simtropolis/34021-2-commerce-street#184318
           include:
             - Jasoncw - 2 Commerce Street (DN)
-      lastGenerated: 2024-12-16T12:27:43.066Z
+      lastGenerated: 2025-01-06T12:13:25.647Z
       lastModified: 2020-12-31T22:50:04.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.051Z
@@ -79,7 +89,7 @@ jasoncw/2-commerce-street:
         - id: simtropolis/34021-2-commerce-street#184317
           include:
             - Jasoncw - 2 Commerce Street (MN)
-      lastGenerated: 2024-12-16T12:27:43.011Z
+      lastGenerated: 2025-01-06T12:13:25.639Z
       lastModified: 2020-12-31T22:50:04.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.990Z
@@ -98,6 +108,7 @@ jasoncw/alaska-building:
         categories: co$$$
         flamability: 35
         garbage: 4
+        model: ef9ae8f5
         name: Jasoncw - Alaska Building - Grow (CO$$$6_2x2)
         pollution: 2
         pollutionRadius: 6
@@ -117,6 +128,7 @@ jasoncw/alaska-building:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: ef9ae8f5
         name: Jasoncw - Alaska Building - Plop (CO$$$_2x2)
         pollution: 1
         pollutionRadius: 6
@@ -149,11 +161,19 @@ jasoncw/alaska-building:
         name: CO$$$6_2x2_Alaska Building
         size: 2x2
         stage: 6
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04025
     Jasoncw - Alaska Building - Plop (CO$$$_2x2).SC4Lot:
       a01cf76f:
         building: a01cf76f
         name: PLOP_2x2_Alaska Building
         size: 2x2
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c0402a
   name: Alaska Building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_01/63c389664115b_AlaskaBuilding00.thumb.jpg.8bf384764b325614d2fa9012c8e4c1b8.jpg
   url: https://community.simtropolis.com/files/file/35413-alaska-building/
@@ -163,7 +183,7 @@ jasoncw/alaska-building:
         - id: simtropolis/35413-alaska-building#196160
           include:
             - Jasoncw - Alaska Building (DN)
-      lastGenerated: 2024-12-16T12:27:43.983Z
+      lastGenerated: 2025-01-06T12:13:26.037Z
       lastModified: 2023-01-15T05:04:38.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.969Z
@@ -175,7 +195,7 @@ jasoncw/alaska-building:
         - id: simtropolis/35413-alaska-building#196159
           include:
             - Jasoncw - Alaska Building (MN)
-      lastGenerated: 2024-12-16T12:27:43.959Z
+      lastGenerated: 2025-01-06T12:13:26.031Z
       lastModified: 2023-01-15T05:04:38.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.944Z
@@ -193,6 +213,7 @@ jasoncw/albee-amphitheater:
         label: Albee Amphitheater
         maintenance: 30
         menu: Parks
+        model: null
         name: Jasoncw - Albee Amphitheater
         pollution: 4294967295
         relief:
@@ -213,11 +234,25 @@ jasoncw/albee-amphitheater:
       ccdc1adf:
         building: ccdc1adf
         name: PLOP_2x2_Albee Amphitheater
+        props:
+          - 7cdc1afe
+          - 2a100000
+          - 2a9e0000
+          - 2aa70000
+          - 1e9a0000
+          - '28610000'
+          - 2aa30000
+          - 28a20000
         size: 2x2
+        textures:
+          - 252b0000
+          - '25900000'
+          - 25c10000
   name: Albee Amphitheater
   props:
     Jasoncw - Albee Amphitheater.SC4Lot:
       7cdc1afe:
+        model: 2c5d87ab
         name: Jasoncw - Albee Amphitheater
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/Albee-Amphitheater-00.thumb.jpg.2db83af0831ff45a2f9dfb69ad43e1c1.jpg
   url: https://community.simtropolis.com/files/file/34731-albee-amphitheater/
@@ -227,7 +262,7 @@ jasoncw/albee-amphitheater:
         - id: simtropolis/34731-albee-amphitheater#190348
           include:
             - Jasoncw - Albee Amphitheater (DN)
-      lastGenerated: 2024-12-16T12:27:44.831Z
+      lastGenerated: 2025-01-06T12:13:26.677Z
       lastModified: 2021-11-01T18:49:47.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.820Z
@@ -239,7 +274,7 @@ jasoncw/albee-amphitheater:
         - id: simtropolis/34731-albee-amphitheater#190347
           include:
             - Jasoncw - Albee Amphitheater (MN)
-      lastGenerated: 2024-12-16T12:27:44.809Z
+      lastGenerated: 2025-01-06T12:13:26.669Z
       lastModified: 2021-11-01T18:49:47.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.797Z
@@ -259,6 +294,7 @@ jasoncw/apple-store-pack:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 7077f358
         name: Jasoncw - Apple Store (1x2 Marble)(CS$$$2_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -277,6 +313,7 @@ jasoncw/apple-store-pack:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: f0771c1d
         name: Jasoncw - Apple Store (1x3 Limestone)(CS$$$2_1x3)
         pollution: 1
         pollutionRadius: 6
@@ -295,6 +332,7 @@ jasoncw/apple-store-pack:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: f077e905
         name: Jasoncw - Apple Store (1x3 Marble)(CS$$$2_1x3)
         pollution: 1
         pollutionRadius: 6
@@ -313,6 +351,7 @@ jasoncw/apple-store-pack:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 3077063a
         name: Jasoncw - Apple Store (2x2 Limestone)(CS$$$3_2x2)
         pollution: 2
         pollutionRadius: 6
@@ -333,6 +372,7 @@ jasoncw/apple-store-pack:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: 3077063a
         name: Jasoncw - Apple Store (2x2 Limestone) Plop
         pollution: 3
         pollutionRadius: 6
@@ -364,6 +404,10 @@ jasoncw/apple-store-pack:
         name: CS$$$2_1x2_Apple Store (1x2 Marble)
         size: 1x2
         stage: 2
+        textures:
+          - 258f0000
+          - 258d0000
+          - 25bc0000
     Jasoncw - Apple Store (1x3 Limestone) (CS$$$2_1x3).SC4Lot:
       8e620a6b:
         building: be6209fa
@@ -371,6 +415,10 @@ jasoncw/apple-store-pack:
         name: CS$$$2_1x3_Apple Store (1x3 Limestone)
         size: 1x3
         stage: 2
+        textures:
+          - 25bc0000
+          - 258f0000
+          - 258d0000
     Jasoncw - Apple Store (1x3 Marble) (CS$$$2_1x3).SC4Lot:
       1e620bda:
         building: 5e620b7a
@@ -378,6 +426,10 @@ jasoncw/apple-store-pack:
         name: CS$$$2_1x3_Apple Store (1x3 Marble)(CS$$$2_1x3)
         size: 1x3
         stage: 2
+        textures:
+          - 258f0000
+          - 258d0000
+          - 25bc0000
     Jasoncw - Apple Store (2x2 Limestone) (CS$$$3_2x2).SC4Lot:
       1e611d04:
         building: 7e611cbf
@@ -385,11 +437,19 @@ jasoncw/apple-store-pack:
         name: CS$$$3_2x2_Apple Store (2x2 Limestone)
         size: 2x2
         stage: 3
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
     Jasoncw - Apple Store (2x2 Limestone) Plop (CS$$$_2x2).SC4Lot:
       3e611db0:
         building: 3e611db0
         name: PLOP_2x2_Apple Store (2x2 Limestone)
         size: 2x2
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
   name: Apple Store Pack
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_08/62e8929fb62e4_AppleStorePackSTEX00.thumb.jpg.60724d1b06f48310af9d7d12b0d7bf6c.jpg
   url: https://community.simtropolis.com/files/file/35245-apple-store-pack/
@@ -399,7 +459,7 @@ jasoncw/apple-store-pack:
         - id: simtropolis/35245-apple-store-pack#194901
           include:
             - Jasoncw - Apple Store Pack (DN)
-      lastGenerated: 2024-12-16T12:27:43.608Z
+      lastGenerated: 2025-01-06T12:13:25.913Z
       lastModified: 2022-08-02T02:42:36.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.591Z
@@ -411,7 +471,7 @@ jasoncw/apple-store-pack:
         - id: simtropolis/35245-apple-store-pack#194900
           include:
             - Jasoncw - Apple Store Pack (MN)
-      lastGenerated: 2024-12-16T12:27:43.582Z
+      lastGenerated: 2025-01-06T12:13:25.908Z
       lastModified: 2022-08-02T02:42:36.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.570Z
@@ -430,6 +490,7 @@ jasoncw/basildon-terraces:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: 3224cec6
         name: Jasoncw - Basildon Terraces (R$$4_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -447,6 +508,7 @@ jasoncw/basildon-terraces:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: 3224cec6
         name: Jasoncw - Basildon Terraces (R$$5_1x1)
         pollution: 1
         pollutionRadius: 5
@@ -470,15 +532,29 @@ jasoncw/basildon-terraces:
         building: b2a602f4
         density: medium,high
         name: R$$4_1x2_Basildon Terraces
+        props:
+          - a000003d
+          - 1f0b0000
+          - a000004a
+          - a0000050
         size: 1x2
         stage: 4
+        textures:
+          - 25f40000
+          - 25b90000
+          - 25ae0000
     Jasoncw - Basildon Terraces (R$$5_1x1).SC4Lot:
       b2a60a95:
         building: 12a60a62
         density: medium,high
         name: R$$5_1x1_Basildon Terraces
+        props:
+          - a0000050
         size: 1x1
         stage: 5
+        textures:
+          - 25f40000
+          - 25ae0000
   name: Basildon Terraces
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/675a78b3453b3_BasildonTerrace00.thumb.jpg.c6aa443be8fd867b9e5f7a408ec5b8fe.jpg
   url: https://community.simtropolis.com/files/file/36593-basildon-terraces/
@@ -488,7 +564,7 @@ jasoncw/basildon-terraces:
         - id: simtropolis/36593-basildon-terraces#204650
           include:
             - Jasoncw - Basildon Terraces (DN)
-      lastGenerated: 2024-12-16T12:27:42.858Z
+      lastGenerated: 2025-01-06T12:13:25.498Z
       lastModified: 2024-12-12T05:46:27.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.848Z
@@ -500,7 +576,7 @@ jasoncw/basildon-terraces:
         - id: simtropolis/36593-basildon-terraces#204649
           include:
             - Jasoncw - Basildon Terraces (MN)
-      lastGenerated: 2024-12-16T12:27:42.841Z
+      lastGenerated: 2025-01-06T12:13:25.493Z
       lastModified: 2024-12-12T05:46:27.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.826Z
@@ -519,6 +595,7 @@ jasoncw/beacon-apartments:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: f0c89be8
         name: Jasoncw - Beacon Apartments L (R$$5_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -536,6 +613,7 @@ jasoncw/beacon-apartments:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: d016723d
         name: Jasoncw - Beacon Apartments R (R$$5_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -563,6 +641,9 @@ jasoncw/beacon-apartments:
         name: R$$5_1x2_Beacon Apartments L
         size: 1x2
         stage: 5
+        textures:
+          - 258f0000
+          - f5c04025
     Jasoncw - Beacon Apartments R (R$$5_1x2).SC4Lot:
       8097c8e9:
         building: d097c841
@@ -570,6 +651,9 @@ jasoncw/beacon-apartments:
         name: R$$5_1x2_Beacon Apartments R
         size: 1x2
         stage: 5
+        textures:
+          - 258f0000
+          - f5c0402a
   name: Beacon Apartments
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_09/6312989ce763a_BeaconApartmentsL00-STEX.thumb.jpg.93698c8e164b4a9fb1aff1706e4ccab6.jpg
   url: https://community.simtropolis.com/files/file/35286-beacon-apartments/
@@ -579,7 +663,7 @@ jasoncw/beacon-apartments:
         - id: simtropolis/35286-beacon-apartments#195211
           include:
             - Jasoncw - Beacon Apartments (DN)
-      lastGenerated: 2024-12-16T12:27:42.602Z
+      lastGenerated: 2025-01-06T12:13:24.670Z
       lastModified: 2022-09-02T23:58:21.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.587Z
@@ -591,7 +675,7 @@ jasoncw/beacon-apartments:
         - id: simtropolis/35286-beacon-apartments#195210
           include:
             - Jasoncw - Beacon Apartments (MN)
-      lastGenerated: 2024-12-16T12:27:42.580Z
+      lastGenerated: 2025-01-06T12:13:24.664Z
       lastModified: 2022-09-02T23:58:21.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.566Z
@@ -609,6 +693,7 @@ jasoncw/cecil-hotel:
         categories: cs$
         flamability: 45
         garbage: 47
+        model: b061e06e
         name: Jasoncw - Cecil Hotel - Grow (CS$11_2x3)(CAM)
         pollution: 15
         pollutionRadius: 5
@@ -625,6 +710,7 @@ jasoncw/cecil-hotel:
         categories: cs$
         flamability: 45
         garbage: 47
+        model: b061e06e
         name: Jasoncw - Cecil Hotel - Grow (CS$8_2x3)
         pollution: 15
         pollutionRadius: 5
@@ -643,6 +729,7 @@ jasoncw/cecil-hotel:
         flamability: 45
         garbage: 47
         menu: Landmarks
+        model: b061e06e
         name: Jasoncw - Cecil Hotel
         pollution: 15
         pollutionRadius: 5
@@ -674,6 +761,10 @@ jasoncw/cecil-hotel:
           cam: true
         size: 2x3
         stage: 11
+        textures:
+          - 25bc0000
+          - 258f0000
+          - 258d0000
     Jasoncw - Cecil Hotel - Grow (CS$8_2x3).SC4Lot:
       '90e32499':
         building: d0e32452
@@ -683,11 +774,19 @@ jasoncw/cecil-hotel:
           cam: false
         size: 2x3
         stage: 8
+        textures:
+          - 25bc0000
+          - 258f0000
+          - 258d0000
     Jasoncw - Cecil Hotel - Plop (CS$_2x3).SC4Lot:
       '90e43813':
         building: '90e43813'
         name: PLOP_2x3_Cecil Hotel
         size: 2x3
+        textures:
+          - 258d0000
+          - 25bc0000
+          - 258f0000
   name: Cecil Hotel
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/65418ce0f1629_CecilHotel00.thumb.jpg.3b95e22ae1a6f4f64110471b8a3ff635.jpg
   url: https://community.simtropolis.com/files/file/35720-cecil-hotel/
@@ -700,7 +799,7 @@ jasoncw/cecil-hotel:
         - id: simtropolis/35720-cecil-hotel#198242
           include:
             - Jasoncw - Cecil Hotel (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.721Z
+      lastGenerated: 2025-01-06T12:13:26.134Z
       lastModified: 2023-11-02T01:38:39.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.108Z
@@ -715,7 +814,7 @@ jasoncw/cecil-hotel:
         - id: simtropolis/35720-cecil-hotel#198242
           include:
             - Jasoncw - Cecil Hotel (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.710Z
+      lastGenerated: 2025-01-06T12:13:26.124Z
       lastModified: 2023-11-02T01:38:39.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.089Z
@@ -734,6 +833,7 @@ jasoncw/centron-center:
         categories: co$$$
         flamability: 35
         garbage: 4
+        model: 5106a7cf
         name: Jasoncw - Centron Center - Grow (CO$$$8_3x3)
         pollution: 10
         pollutionRadius: 6
@@ -753,6 +853,7 @@ jasoncw/centron-center:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: 5106a7cf
         name: Jasoncw - Centron Center - Plop (CO$$$_3x3)
         pollution: 10
         pollutionRadius: 6
@@ -779,11 +880,15 @@ jasoncw/centron-center:
         name: CO$$$8_3x3_Centron Center
         size: 3x3
         stage: 8
+        textures:
+          - 258f0000
     Jasoncw - Centron Center - Plop (CO$$$_3x3).SC4Lot:
       a188eaef:
         building: a188eaef
         name: PLOP_3x3_Centron Center
         size: 3x3
+        textures:
+          - 258f0000
   name: Centron Center
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/Centron-00.thumb.jpg.d345e83bfab89da9c649de7eb4f85b5b.jpg
   url: https://community.simtropolis.com/files/file/35900-centron-center/
@@ -793,7 +898,7 @@ jasoncw/centron-center:
         - id: simtropolis/35900-centron-center#198978
           include:
             - Jasoncw - Centron Center (DN)
-      lastGenerated: 2024-12-16T12:27:44.282Z
+      lastGenerated: 2025-01-06T12:13:26.221Z
       lastModified: 2023-12-25T22:53:50.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.274Z
@@ -805,7 +910,7 @@ jasoncw/centron-center:
         - id: simtropolis/35900-centron-center#198977
           include:
             - Jasoncw - Centron Center (MN)
-      lastGenerated: 2024-12-16T12:27:44.266Z
+      lastGenerated: 2025-01-06T12:13:26.213Z
       lastModified: 2023-12-25T22:53:50.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.257Z
@@ -823,6 +928,7 @@ jasoncw/continental-bank-and-trust:
         categories: co$$
         flamability: 40
         garbage: 4
+        model: f04f569c
         name: Jasoncw - Continental Bank and Trust - Grow (CO$$10_2x3) (CAM)
         pollution: 9
         pollutionRadius: 5
@@ -839,6 +945,7 @@ jasoncw/continental-bank-and-trust:
         categories: co$$
         flamability: 40
         garbage: 4
+        model: f04f569c
         name: Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3)
         pollution: 9
         pollutionRadius: 5
@@ -857,6 +964,7 @@ jasoncw/continental-bank-and-trust:
         flamability: 40
         garbage: 4
         menu: Landmarks
+        model: f04f569c
         name: Jasoncw - Continental Bank and Trust (CO$$_2x3)
         pollution: 9
         pollutionRadius: 5
@@ -888,6 +996,10 @@ jasoncw/continental-bank-and-trust:
           cam: true
         size: 2x3
         stage: 10
+        textures:
+          - 258f0000
+          - 258d0000
+          - 25bc0000
     Jasoncw - Continental Bank and Trust - Grow (CO$$8_2x3).SC4Lot:
       6e39a262:
         building: 3e39a222
@@ -897,11 +1009,19 @@ jasoncw/continental-bank-and-trust:
           cam: false
         size: 2x3
         stage: 8
+        textures:
+          - 258f0000
+          - 258d0000
+          - 25bc0000
     Jasoncw - Continental Bank and Trust - Plop (CO$$_2x3).SC4Lot:
       9e39729e:
         building: 9e39729e
         name: PLOP_2x3_Continental Bank and Trust
         size: 2x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
   name: Continental Bank and Trust
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_06/62abaef504e12_ContinentalBankandTrust00.thumb.jpg.4fe9648d316b5c88f8c9924bd1c207e6.jpg
   url: https://community.simtropolis.com/files/file/35207-continental-bank-and-trust/
@@ -914,7 +1034,7 @@ jasoncw/continental-bank-and-trust:
         - id: simtropolis/35207-continental-bank-and-trust#194439
           include:
             - Jasoncw - Continental Bank and Trust (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.642Z
+      lastGenerated: 2025-01-06T12:13:25.903Z
       lastModified: 2022-06-16T22:30:14.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.511Z
@@ -929,7 +1049,7 @@ jasoncw/continental-bank-and-trust:
         - id: simtropolis/35207-continental-bank-and-trust#194439
           include:
             - Jasoncw - Continental Bank and Trust (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.630Z
+      lastGenerated: 2025-01-06T12:13:25.893Z
       lastModified: 2022-06-16T22:30:14.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.532Z
@@ -949,6 +1069,7 @@ jasoncw/db-franklin-co:
         categories: cs$$$
         flamability: 35
         garbage: 17
+        model: afa662d5
         name: Jasoncw - DB Franklin Co (CS$$$6_3x3)
         pollution: 13
         pollutionRadius: 6
@@ -969,6 +1090,7 @@ jasoncw/db-franklin-co:
         flamability: 35
         garbage: 17
         menu: Landmarks
+        model: afa662d5
         name: Jasoncw - DB Franklin Co
         pollution: 17
         pollutionRadius: 6
@@ -995,11 +1117,22 @@ jasoncw/db-franklin-co:
         name: CS$$$6_3x3_DB Franklin Co
         size: 3x3
         stage: 6
+        textures:
+          - 258f0000
+          - 258c0000
+          - 25bb0000
+          - 25f00000
+          - 25fc0000
     Jasoncw - DB Franklin Co - Plop (CS$$$_3x3).SC4Lot:
       6d90bb78:
         building: 6d90bb78
         name: PLOP_3x3_DB Franklin Co (CS$$$_3x3)
         size: 3x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25fc0000
+          - 25f00000
   name: D.B. Franklin Co.
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/619fe0fada852_DBFranklinCoP00.thumb.jpg.37dbdd8f51b0aeea2c6cdc1b8488801e.jpg
   url: https://community.simtropolis.com/files/file/34761-db-franklin-co/
@@ -1009,7 +1142,7 @@ jasoncw/db-franklin-co:
         - id: simtropolis/34761-db-franklin-co#190657
           include:
             - Jasoncw - DB Franklin Co (DN)
-      lastGenerated: 2024-12-16T12:27:43.456Z
+      lastGenerated: 2025-01-06T12:13:25.729Z
       lastModified: 2021-11-25T19:16:11.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.442Z
@@ -1021,7 +1154,7 @@ jasoncw/db-franklin-co:
         - id: simtropolis/34761-db-franklin-co#190656
           include:
             - Jasoncw - DB Franklin Co (MN)
-      lastGenerated: 2024-12-16T12:27:43.435Z
+      lastGenerated: 2025-01-06T12:13:25.723Z
       lastModified: 2021-11-25T19:16:11.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.418Z
@@ -1041,6 +1174,7 @@ jasoncw/delitz-designer-gallery:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 917d359e
         name: Jasoncw - Delitz Designer Gallery - Grow (CS$$$2_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -1068,8 +1202,14 @@ jasoncw/delitz-designer-gallery:
         building: 51fe7518
         density: medium,high
         name: CS$$$2_1x2_Delitz Designer Gallery
+        props:
+          - 288d0000
+          - 2aa90000
         size: 1x2
         stage: 2
+        textures:
+          - 258f0000
+          - f5c04010
   name: Delitz Designer Gallery
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/67105e28a05bf_DelitzDesignerGallery00.thumb.jpg.7ef0ba420cd02631409ec6d5330f26bc.jpg
   url: https://community.simtropolis.com/files/file/36507-delitz-designer-gallery/
@@ -1079,7 +1219,7 @@ jasoncw/delitz-designer-gallery:
         - id: simtropolis/36507-delitz-designer-gallery#203921
           include:
             - Jasoncw - Delitz Designer Gallery (DN)
-      lastGenerated: 2024-12-16T12:27:44.438Z
+      lastGenerated: 2025-01-06T12:13:26.295Z
       lastModified: 2024-10-17T00:45:28.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.431Z
@@ -1091,7 +1231,7 @@ jasoncw/delitz-designer-gallery:
         - id: simtropolis/36507-delitz-designer-gallery#203920
           include:
             - Jasoncw - Delitz Designer Gallery (MN)
-      lastGenerated: 2024-12-16T12:27:44.420Z
+      lastGenerated: 2025-01-06T12:13:26.287Z
       lastModified: 2024-10-17T00:45:28.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.409Z
@@ -1110,6 +1250,7 @@ jasoncw/denton-corporation:
         categories: co$$$
         flamability: 35
         garbage: 4
+        model: f0f6a0a1
         name: Jasoncw - Denton Corporation - Grow (CO$$$6_3x3)
         pollution: 3
         pollutionRadius: 6
@@ -1129,6 +1270,7 @@ jasoncw/denton-corporation:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: f0f6a0a1
         name: Jasoncw - Denton Corporation - Plop (CO$$$_3x3)
         pollution: 3
         pollutionRadius: 6
@@ -1157,11 +1299,21 @@ jasoncw/denton-corporation:
         name: CO$$$6_3x3_Denton Corporation
         size: 3x3
         stage: 6
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04000
+          - f5c04035
     Jasoncw - Denton Corporation - Plop (CO$$$_3x3).SC4Lot:
       2ee0c2a9:
         building: 2ee0c2a9
         name: PLOP_3x3_Denton Corporation
         size: 3x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04000
+          - f5c04035
   name: Denton Corporation
   thanks:
     - ids2: for fixing an export glitch with the SC4Model file
@@ -1173,7 +1325,7 @@ jasoncw/denton-corporation:
         - id: simtropolis/35364-denton-corporation#195888
           include:
             - Jasoncw - Denton Corporation (DN)
-      lastGenerated: 2024-12-16T12:27:43.702Z
+      lastGenerated: 2025-01-06T12:13:25.936Z
       lastModified: 2022-12-25T05:01:41.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.689Z
@@ -1185,7 +1337,7 @@ jasoncw/denton-corporation:
         - id: simtropolis/35364-denton-corporation#195887
           include:
             - Jasoncw - Denton Corporation (MN)
-      lastGenerated: 2024-12-16T12:27:43.681Z
+      lastGenerated: 2025-01-06T12:13:25.931Z
       lastModified: 2022-12-25T05:01:41.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.661Z
@@ -1219,6 +1371,7 @@ jasoncw/dreieck-park:
             cost: 470
             maintenance: 60
             menu: Parks
+            model: null
             name: Jasoncw - Dreieck Park (PZ3x3)
             pollution: 4294967278
             pollutionRadius: 6
@@ -1229,17 +1382,25 @@ jasoncw/dreieck-park:
             water: 15
             waterPollution: 3
             waterPollutionRadius: 3
-      lastGenerated: 2024-12-16T12:27:44.848Z
+      lastGenerated: 2025-01-06T12:13:26.684Z
       lastModified: 2022-12-25T05:12:21.000Z
       lots:
         Jasoncw - Dreieck Park (PZ3x3).SC4Lot:
           8f65cd97:
             building: 8f65cd97
             name: PLOP_3x3_Dreieck Park
+            props:
+              - a0000065
+              - a0000066
+              - a0000067
+              - bf6721c6
             size: 3x3
+            textures:
+              - '26210000'
       props:
         Jasoncw - Dreieck Park (Prop).SC4Desc:
           bf6721c6:
+            model: eee4c7c1
             name: Jasoncw - Dreieck Park (Prop)
       release: 2024-12-16T12:27:44.839Z
       version: 1.0.0
@@ -1256,6 +1417,7 @@ jasoncw/elks-building:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: f1a23986
         name: Jasoncw - Elks Building - Grow (CS$$$3_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -1283,6 +1445,9 @@ jasoncw/elks-building:
         name: CS$$$3_1x2_Elks Building
         size: 1x2
         stage: 3
+        textures:
+          - 258f0000
+          - f5c0400a
   name: Elks Building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/67229e7398eaf_ElksBuilding00.thumb.jpg.29153a9e2009833cd0a5c15303dde3a1.jpg
   url: https://community.simtropolis.com/files/file/36532-elks-building/
@@ -1292,7 +1457,7 @@ jasoncw/elks-building:
         - id: simtropolis/36532-elks-building#204154
           include:
             - Jasoncw - Elks Building (DN)
-      lastGenerated: 2024-12-16T12:27:44.514Z
+      lastGenerated: 2025-01-06T12:13:26.317Z
       lastModified: 2024-10-30T21:00:35.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.504Z
@@ -1304,7 +1469,7 @@ jasoncw/elks-building:
         - id: simtropolis/36532-elks-building#204153
           include:
             - Jasoncw - Elks Building (MN)
-      lastGenerated: 2024-12-16T12:27:44.496Z
+      lastGenerated: 2025-01-06T12:13:26.310Z
       lastModified: 2024-10-30T21:00:35.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.486Z
@@ -1323,6 +1488,7 @@ jasoncw/elviras-halloween-emporium:
         categories: cs$$
         flamability: 40
         garbage: 4
+        model: 3064ac87
         name: Jasoncw - Elviras Halloween Emporium - Grow (CS$$3_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -1342,6 +1508,7 @@ jasoncw/elviras-halloween-emporium:
         flamability: 40
         garbage: 4
         menu: Landmarks
+        model: 3064ac87
         name: Jasoncw - Elviras Halloween Emporium - Plop (CS$_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -1368,11 +1535,19 @@ jasoncw/elviras-halloween-emporium:
         name: CS$$3_1x2_Elviras Halloween Emporium
         size: 1x2
         stage: 3
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
     Jasoncw - Elviras Halloween Emporium - Plop (CS$$_1x2).SC4Lot:
       80e5e1af:
         building: 80e5e1af
         name: PLOP_1x2_Elviras Halloween Emporium
         size: 1x2
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
   name: Elvira's Halloween Emporium
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/65418d581dd31_ElvirasHalloweenEmporium00.thumb.jpg.15bc6e6c8cde10f3ef805d2f505d2f81.jpg
   url: https://community.simtropolis.com/files/file/35721-elviras-halloween-emporium/
@@ -1382,7 +1557,7 @@ jasoncw/elviras-halloween-emporium:
         - id: simtropolis/35721-elviras-halloween-emporium#198237
           include:
             - Jasoncw - Elviras Halloween Emporium (DN)
-      lastGenerated: 2024-12-16T12:27:44.189Z
+      lastGenerated: 2025-01-06T12:13:26.148Z
       lastModified: 2023-10-31T23:27:20.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.180Z
@@ -1394,7 +1569,7 @@ jasoncw/elviras-halloween-emporium:
         - id: simtropolis/35721-elviras-halloween-emporium#198236
           include:
             - Jasoncw - Elviras Halloween Emporium (MN)
-      lastGenerated: 2024-12-16T12:27:44.169Z
+      lastGenerated: 2025-01-06T12:13:26.143Z
       lastModified: 2023-10-31T23:27:20.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.158Z
@@ -1413,6 +1588,7 @@ jasoncw/emerson-apartments:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: '701299e2'
         name: Jasoncw - Emerson Apartments (R$$5_2x2)
         pollution: 1
         pollutionRadius: 5
@@ -1436,8 +1612,14 @@ jasoncw/emerson-apartments:
         building: 5093d15b
         density: all
         name: R$$5_2x2_Emerson Apartments
+        props:
+          - 1f0b0000
+          - 2ac10000
         size: 2x2
         stage: 5
+        textures:
+          - 25f40000
+          - 258f0000
   name: Emerson Apartments
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/64ffb41b9f83b_EmersonApartments00.thumb.jpg.8d407f97723c4172ab4ee58d2164567b.jpg
   url: https://community.simtropolis.com/files/file/35617-emerson-apartments/
@@ -1447,7 +1629,7 @@ jasoncw/emerson-apartments:
         - id: simtropolis/35617-emerson-apartments#197630
           include:
             - Jasoncw - Emerson Apartments (DN)
-      lastGenerated: 2024-12-16T12:27:42.704Z
+      lastGenerated: 2025-01-06T12:13:24.742Z
       lastModified: 2023-09-12T00:43:08.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.690Z
@@ -1459,7 +1641,7 @@ jasoncw/emerson-apartments:
         - id: simtropolis/35617-emerson-apartments#197629
           include:
             - Jasoncw - Emerson Apartments (MN)
-      lastGenerated: 2024-12-16T12:27:42.684Z
+      lastGenerated: 2025-01-06T12:13:24.719Z
       lastModified: 2023-09-12T00:43:08.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.666Z
@@ -1479,6 +1661,7 @@ jasoncw/farrands-department-store:
         categories: cs$$$
         flamability: 35
         garbage: 36
+        model: 8cf378cf
         name: Jasoncw - Farrands Department Store (CS$$$7_6x3)
         pollution: 27
         pollutionRadius: 6
@@ -1499,6 +1682,7 @@ jasoncw/farrands-department-store:
         flamability: 35
         garbage: 36
         menu: Landmarks
+        model: 8cf378cf
         name: Jasoncw - Farrands Department Store (CS$$$_6x3)
         pollution: 36
         pollutionRadius: 6
@@ -1525,13 +1709,51 @@ jasoncw/farrands-department-store:
         building: 1d721b2b
         density: medium,high
         name: CS$$$7_6x3_Farrands Department Store
+        props:
+          - 1e9a0000
+          - 1e9b0000
+          - 2ab70000
+          - 2ab60000
+          - 2a9b0000
+          - 2a9c0000
+          - 2a9d0000
+          - 2a9f0000
+          - 289c0000
+          - 28a20000
+          - 2aaf0000
         size: 6x3
         stage: 7
+        textures:
+          - f5c04000
+          - 258f0000
+          - 258d0000
+          - 25fc0000
+          - 25f00000
+          - f5c04020
     Jasoncw - Farrands Department Store - Plop (CS$$$_6x3).SC4Lot:
       1d734f1d:
         building: 1d721b2b
         name: PLOP_6x3_Farrands Department Store
+        props:
+          - 1e9a0000
+          - 1e9b0000
+          - 2ab70000
+          - 2ab60000
+          - 2a9b0000
+          - 2a9c0000
+          - 2a9d0000
+          - 2a9f0000
+          - 289c0000
+          - 28a20000
+          - 2aaf0000
         size: 6x3
+        textures:
+          - f5c04000
+          - 258f0000
+          - 258d0000
+          - 25fc0000
+          - 25f00000
+          - f5c04020
   name: Farrand's Department Store
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/6180375dc65c3_FarrandsP00.thumb.jpg.82ff7c74a2542bd65d9415ca4f7e0795.jpg
   url: https://community.simtropolis.com/files/file/34733-farrands-department-store/
@@ -1541,7 +1763,7 @@ jasoncw/farrands-department-store:
         - id: simtropolis/34733-farrands-department-store#190356
           include:
             - Jasoncw - Farrands Department Store (DN)
-      lastGenerated: 2024-12-16T12:27:43.407Z
+      lastGenerated: 2025-01-06T12:13:25.718Z
       lastModified: 2021-11-01T18:52:14.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.394Z
@@ -1553,7 +1775,7 @@ jasoncw/farrands-department-store:
         - id: simtropolis/34733-farrands-department-store#190355
           include:
             - Jasoncw - Farrands Department Store (MN)
-      lastGenerated: 2024-12-16T12:27:43.384Z
+      lastGenerated: 2025-01-06T12:13:25.712Z
       lastModified: 2021-11-01T18:52:14.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.364Z
@@ -1570,6 +1792,7 @@ jasoncw/geodesic-dome-pavilion:
         flamability: 10
         maintenance: 69
         menu: Parks
+        model: 50b62455
         name: Jasoncw - Geodesic Dome Pavilion (PZ_1x1)
         pollution: 4294967295
         pollutionRadius: 2
@@ -1595,6 +1818,8 @@ jasoncw/geodesic-dome-pavilion:
         building: 31375d81
         name: PLOP_1x1_Geodesic Dome Pavilion
         size: 1x1
+        textures:
+          - 251c0000
   name: Geodesic Dome Pavilion
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/658a06e84ca80_GeodesicDomePavilion00.thumb.jpg.65ee2983fa438b07f2d492b6c43a918d.jpg
   url: https://community.simtropolis.com/files/file/35898-geodesic-dome-pavilion/
@@ -1604,7 +1829,7 @@ jasoncw/geodesic-dome-pavilion:
         - id: simtropolis/35898-geodesic-dome-pavilion#198970
           include:
             - Jasoncw - Geodesic Dome Pavilion (DN)
-      lastGenerated: 2024-12-16T12:27:44.924Z
+      lastGenerated: 2025-01-06T12:13:26.716Z
       lastModified: 2023-12-25T22:49:12.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.917Z
@@ -1616,7 +1841,7 @@ jasoncw/geodesic-dome-pavilion:
         - id: simtropolis/35898-geodesic-dome-pavilion#198969
           include:
             - Jasoncw - Geodesic Dome Pavilion (MN)
-      lastGenerated: 2024-12-16T12:27:44.907Z
+      lastGenerated: 2025-01-06T12:13:26.708Z
       lastModified: 2023-12-25T22:49:12.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.896Z
@@ -1635,6 +1860,7 @@ jasoncw/great-lakes-ems-academy:
         categories: cs$$
         flamability: 40
         garbage: 4
+        model: 0a4600b9
         name: Jasoncw - Great Lakes EMS Academy (CS$$2_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -1654,6 +1880,7 @@ jasoncw/great-lakes-ems-academy:
         flamability: 40
         garbage: 4
         menu: Landmarks
+        model: 0a4600b9
         name: Jasoncw - Great Lakes EMS Academy (CS$$_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -1681,13 +1908,31 @@ jasoncw/great-lakes-ems-academy:
         building: 7c48334e
         density: all
         name: CS$$2_1x2_Great Lakes EMS Academy
+        props:
+          - 2a8b0000
+          - 2ac80000
+          - 1ed80000
+          - 1edc0000
+          - a0000038
         size: 1x2
         stage: 2
+        textures:
+          - 258f0000
+          - f5c04005
     Jasoncw - Great Lakes EMS Academy - Plop (CS$$_1x2).SC4Lot:
       bc482828:
         building: bc482828
         name: PLOP_1x2_Great Lakes EMS Academy
+        props:
+          - 2a8b0000
+          - 2ac80000
+          - 1ed80000
+          - 1edc0000
+          - a0000038
         size: 1x2
+        textures:
+          - 258f0000
+          - f5c04005
   name: Great Lakes EMS Academy
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_05/5ec732ebdcd34_GreatLakesEMSAcademy00.thumb.jpg.dba95275273bb39b82c7d70b2927a80d.jpg
   url: https://community.simtropolis.com/files/file/33614-great-lakes-ems-academy/
@@ -1697,7 +1942,7 @@ jasoncw/great-lakes-ems-academy:
         - id: simtropolis/33614-great-lakes-ems-academy#181092
           include:
             - Jasoncw - Great Lakes EMS Academy (DN)
-      lastGenerated: 2024-12-16T12:27:42.983Z
+      lastGenerated: 2025-01-06T12:13:25.634Z
       lastModified: 2020-05-22T02:03:24.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.971Z
@@ -1709,7 +1954,7 @@ jasoncw/great-lakes-ems-academy:
         - id: simtropolis/33614-great-lakes-ems-academy#181091
           include:
             - Jasoncw - Great Lakes EMS Academy (MN)
-      lastGenerated: 2024-12-16T12:27:42.964Z
+      lastGenerated: 2025-01-06T12:13:25.630Z
       lastModified: 2020-05-22T02:03:24.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.952Z
@@ -1728,6 +1973,7 @@ jasoncw/great-northern-hotel:
         categories: cs$$
         flamability: 40
         garbage: 4
+        model: 3012717a
         name: Jasoncw - Great Northern Hotel - Grow (CS$$4_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -1745,6 +1991,7 @@ jasoncw/great-northern-hotel:
         categories: cs$$
         flamability: 40
         garbage: 4
+        model: 3012717a
         name: Jasoncw - Great Northern Hotel - Grow (CS$$4_2x1)
         pollution: 1
         pollutionRadius: 5
@@ -1764,6 +2011,7 @@ jasoncw/great-northern-hotel:
         flamability: 40
         garbage: 4
         menu: Landmarks
+        model: 3012717a
         name: Jasoncw - Great Northern Hotel - Plop (CS$$_2x1)
         pollution: 2
         pollutionRadius: 5
@@ -1786,6 +2034,11 @@ jasoncw/great-northern-hotel:
         name: CS$$4_1x2_Great Northern Hotel
         size: 1x2
         stage: 4
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25ae0000
+          - 25bc0000
     Jasoncw - Great Northern Hotel - Grow (CS$$4_2x1).SC4Lot:
       b094ebb8:
         building: b094ebb8
@@ -1793,11 +2046,21 @@ jasoncw/great-northern-hotel:
         name: CS$$4_2x1_Great Northern Hotel
         size: 2x1
         stage: 4
+        textures:
+          - 258f0000
+          - 25bc0000
+          - 258d0000
+          - 25ae0000
     Jasoncw - Great Northern Hotel - Plop (CS$$_2x1).SC4Lot:
       0093a784:
         building: 0093a784
         name: PLOP_2x1_Great Northern Hotel
         size: 2x1
+        textures:
+          - 258f0000
+          - 25bc0000
+          - 258d0000
+          - 25ae0000
   name: Great Northern Hotel
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/64ffb392d1e42_GreatNothernHotel00.thumb.jpg.cf97f6ba7a45563e9c08b50f768943f5.jpg
   url: https://community.simtropolis.com/files/file/35616-great-northern-hotel/
@@ -1807,7 +2070,7 @@ jasoncw/great-northern-hotel:
         - id: simtropolis/35616-great-northern-hotel#197626
           include:
             - Jasoncw - Great Nothern Hotel (DN)
-      lastGenerated: 2024-12-16T12:27:44.081Z
+      lastGenerated: 2025-01-06T12:13:26.076Z
       lastModified: 2023-09-12T00:40:51.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.066Z
@@ -1819,7 +2082,7 @@ jasoncw/great-northern-hotel:
         - id: simtropolis/35616-great-northern-hotel#197625
           include:
             - Jasoncw - Great Nothern Hotel (MN)
-      lastGenerated: 2024-12-16T12:27:44.056Z
+      lastGenerated: 2025-01-06T12:13:26.070Z
       lastModified: 2023-09-12T00:40:51.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.034Z
@@ -1839,6 +2102,7 @@ jasoncw/hook-and-ladder-company-8:
           $$: 2
         maintenance: 250
         menu: Fire
+        model: f296300b
         name: Jasoncw - Hook Ladder Company 8
         pollution: 1
         pollutionRadius: 2
@@ -1846,6 +2110,8 @@ jasoncw/hook-and-ladder-company-8:
         powerProduction: 1
         water: 7
   categories: fire
+  dependencies:
+    - mipro/mipro-essentials
   description: |-
     Hook and Ladder Company 8 is a fire station located in New York City. It was used as the headquarters of the Ghostbusters in the film series.
 
@@ -1859,7 +2125,16 @@ jasoncw/hook-and-ladder-company-8:
       c31764d3:
         building: c31764d3
         name: PLOP_1x2_Hook Ladder 8
+        props:
+          - 2c9e0000
+          - a000000f
+          - 2a8b0000
+          - a000004b
         size: 1x2
+        textures:
+          - f5c04010
+          - f5c04005
+          - 258f0000
   name: Hook and Ladder Company 8 (Ghostbusters HQ)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/67639fe80e07f_HookandLadderCompany800.thumb.jpg.b4a1076e854b965ab32960ae96c82c62.jpg
   url: https://community.simtropolis.com/files/file/36612-hook-and-ladder-company-8-ghostbusters-hq/
@@ -1869,7 +2144,7 @@ jasoncw/hook-and-ladder-company-8:
         - id: simtropolis/36612-hook-and-ladder-company-8-ghostbusters-hq#204740
           include:
             - Jasoncw - Hook and Ladder Company 8 (DN)
-      lastGenerated: 2024-12-19T08:56:44.015Z
+      lastGenerated: 2025-01-06T12:13:26.619Z
       lastModified: 2024-12-19T04:24:08.000Z
       name: Dark Nite
       release: 2024-12-19T08:56:43.996Z
@@ -1881,7 +2156,7 @@ jasoncw/hook-and-ladder-company-8:
         - id: simtropolis/36612-hook-and-ladder-company-8-ghostbusters-hq#204739
           include:
             - Jasoncw - Hook and Ladder Company 8 (MN)
-      lastGenerated: 2024-12-19T08:56:43.988Z
+      lastGenerated: 2025-01-06T12:13:26.611Z
       lastModified: 2024-12-19T04:24:08.000Z
       name: Maxis Nite
       release: 2024-12-19T08:56:43.880Z
@@ -1901,6 +2176,7 @@ jasoncw/hotel-utica:
         categories: cs$$$
         flamability: 35
         garbage: 11
+        model: efec4a48
         name: Jasoncw - Hotel Utica - Grow (CS$$$6_2x3)
         pollution: 8
         pollutionRadius: 6
@@ -1921,6 +2197,7 @@ jasoncw/hotel-utica:
         flamability: 35
         garbage: 11
         menu: Landmarks
+        model: efec4a48
         name: Jasoncw - Hotel Utica - Plop (CS$$$_2x3)
         pollution: 11
         pollutionRadius: 6
@@ -1951,11 +2228,19 @@ jasoncw/hotel-utica:
         name: CS$$$6_2x3_Hotel Utica
         size: 2x3
         stage: 6
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25ae0000
     Jasoncw - Hotel Utica - Plop (CS$$$_2x3).SC4Lot:
       a06d80cf:
         building: a06d80cf
         name: PLOP_2x3_Hotel Utica
         size: 2x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25ae0000
   name: Hotel Utica
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_01/63c38ae42581b_HotelUtica00.thumb.jpg.ad3fcdaf04824700e456ad43678d6560.jpg
   url: https://community.simtropolis.com/files/file/35415-hotel-utica/
@@ -1965,7 +2250,7 @@ jasoncw/hotel-utica:
         - id: simtropolis/35415-hotel-utica#196168
           include:
             - Jasoncw - Hotel Utica (DN)
-      lastGenerated: 2024-12-16T12:27:44.022Z
+      lastGenerated: 2025-01-06T12:13:26.050Z
       lastModified: 2023-01-15T05:11:00.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.010Z
@@ -1977,7 +2262,7 @@ jasoncw/hotel-utica:
         - id: simtropolis/35415-hotel-utica#196167
           include:
             - Jasoncw - Hotel Utica (MN)
-      lastGenerated: 2024-12-16T12:27:44.003Z
+      lastGenerated: 2025-01-06T12:13:26.044Z
       lastModified: 2023-01-15T05:11:00.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.991Z
@@ -1996,6 +2281,7 @@ jasoncw/hsbc-tower:
         categories: co$$$
         flamability: 35
         garbage: 4
+        model: 8f71c672
         name: Jasoncw - HSBC Tower (CO$$$6_4x5)
         pollution: 9
         pollutionRadius: 6
@@ -2015,6 +2301,7 @@ jasoncw/hsbc-tower:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: 8f71c672
         name: Jasoncw - HSBC Tower (CO$$$_4x5)
         pollution: 9
         pollutionRadius: 6
@@ -2041,11 +2328,21 @@ jasoncw/hsbc-tower:
         name: CO$$$6_4x5_HSBC Tower
         size: 4x5
         stage: 6
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
+          - 25bb0000
     Jasoncw - HSBC Tower - Plop (CO$$$_4x5).SC4Lot:
       bff2feb1:
         building: bff2feb1
         name: PLOP_4x5_HSBC Tower
         size: 4x5
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
+          - 25bb0000
   name: HSBC Tower
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/HSBC-Auckland-00.thumb.jpg.c02a2ac76e4db3869e9e6908d2944ff0.jpg
   url: https://community.simtropolis.com/files/file/35371-hsbc-tower/
@@ -2055,7 +2352,7 @@ jasoncw/hsbc-tower:
         - id: simtropolis/35371-hsbc-tower#195915
           include:
             - Jasoncw - HSBC Tower (DN)
-      lastGenerated: 2024-12-16T12:27:43.935Z
+      lastGenerated: 2025-01-06T12:13:26.025Z
       lastModified: 2022-12-25T06:06:07.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.924Z
@@ -2067,7 +2364,7 @@ jasoncw/hsbc-tower:
         - id: simtropolis/35371-hsbc-tower#195914
           include:
             - Jasoncw - HSBC Tower (MN)
-      lastGenerated: 2024-12-16T12:27:43.917Z
+      lastGenerated: 2025-01-06T12:13:26.020Z
       lastModified: 2022-12-25T06:06:07.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.906Z
@@ -2085,6 +2382,7 @@ jasoncw/innovation-center:
         categories: i-m
         flamability: 45
         garbage: 4
+        model: 9153157b
         name: Jasoncw - Innovation Center - Grow (IHT$$$5_4x4)
         pollution: 13
         pollutionRadius: 6
@@ -2101,6 +2399,7 @@ jasoncw/innovation-center:
         categories: i-m
         flamability: 45
         garbage: 4
+        model: 9153157b
         name: Jasoncw - Innovation Center - Grow (IHT5_4x4)(x4 Jobs)
         pollution: 13
         pollutionRadius: 6
@@ -2119,6 +2418,7 @@ jasoncw/innovation-center:
         flamability: 45
         garbage: 4
         menu: Landmarks
+        model: 9153157b
         name: Jasoncw - Innovation Center - Plop (I-HT_4x4)
         pollution: 13
         pollutionRadius: 6
@@ -2146,20 +2446,32 @@ jasoncw/innovation-center:
         building: 71d45402
         density: high
         name: IHT$$$5_4x4_Innovation Center
+        props:
+          - 2a120000
         size: 4x4
         stage: 5
+        textures:
+          - 252b0000
     Jasoncw - Innovation Center - Grow - 4x Jobs (IHT$$$5_4x4).SC4Lot:
       91d45495:
         building: 91d45495
         density: high
         name: IHT$$$5_4x4_Innovation Center
+        props:
+          - 2a120000
         size: 4x4
         stage: 5
+        textures:
+          - 252b0000
     Jasoncw - Innovation Center - Plop (IHT_4x4).SC4Lot:
       e1d44d96:
         building: e1d44d96
         name: PLOP_4x4_Innovation Center
+        props:
+          - 2a120000
         size: 4x4
+        textures:
+          - 252b0000
   name: Innovation Center
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/67074468d21d6_InnovationCenter00.thumb.jpg.29699e3b8c7a35bf1d8f69c6bbb8bbc1.jpg
   url: https://community.simtropolis.com/files/file/36496-innovation-center/
@@ -2169,7 +2481,7 @@ jasoncw/innovation-center:
         - id: simtropolis/36496-innovation-center#203814
           include:
             - Jasoncw - Innovation Center (DN)
-      lastGenerated: 2024-12-16T12:27:44.625Z
+      lastGenerated: 2025-01-06T12:13:26.445Z
       lastModified: 2024-10-10T03:05:13.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.616Z
@@ -2181,7 +2493,7 @@ jasoncw/innovation-center:
         - id: simtropolis/36496-innovation-center#203813
           include:
             - Jasoncw - Innovation Center (MN)
-      lastGenerated: 2024-12-16T12:27:44.607Z
+      lastGenerated: 2025-01-06T12:13:26.435Z
       lastModified: 2024-10-10T03:05:13.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.598Z
@@ -2204,6 +2516,7 @@ jasoncw/judith-krug-branch-library:
         label: Judith Krug Branch Library
         maintenance: 600
         menu: Education
+        model: 0c54880b
         name: Jasoncw - Judith Krug Branch Library
         pollution: 2
         pollutionRadius: 2
@@ -2226,7 +2539,14 @@ jasoncw/judith-krug-branch-library:
       0cd31aea:
         building: 0cd31aea
         name: PLOP_4x4_Judith Krug Branch Library
+        props:
+          - 2a170000
+          - 2a100000
         size: 4x4
+        textures:
+          - 252b0000
+          - '25900000'
+          - 25c00000
   name: Judith Krug Branch Library
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/61803634d71b2_JudithKrugBranchLibrary00.thumb.jpg.8901780132fab60797f9da05f166a1b5.jpg
   url: https://community.simtropolis.com/files/file/34730-judith-krug-branch-library/
@@ -2236,7 +2556,7 @@ jasoncw/judith-krug-branch-library:
         - id: simtropolis/34730-judith-krug-branch-library#190344
           include:
             - Jasoncw - Judith Krug Branch Library (DN)
-      lastGenerated: 2024-12-16T12:27:44.666Z
+      lastGenerated: 2025-01-06T12:13:26.479Z
       lastModified: 2021-11-01T18:47:17.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.657Z
@@ -2248,7 +2568,7 @@ jasoncw/judith-krug-branch-library:
         - id: simtropolis/34730-judith-krug-branch-library#190343
           include:
             - Jasoncw - Judith Krug Branch Library (MN)
-      lastGenerated: 2024-12-16T12:27:44.649Z
+      lastGenerated: 2025-01-06T12:13:26.471Z
       lastModified: 2021-11-01T18:47:17.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.635Z
@@ -2268,6 +2588,7 @@ jasoncw/kallax-residential:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: 7027d485
         name: Jasoncw - Kallax House (R$$$6_2x2)
         pollution: 1
         pollutionRadius: 6
@@ -2286,6 +2607,7 @@ jasoncw/kallax-residential:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: 30278bcc
         name: Jasoncw - Kallax Housing (R$$$6_3x2)
         pollution: 1
         pollutionRadius: 6
@@ -2304,6 +2626,7 @@ jasoncw/kallax-residential:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: d0279933
         name: Jasoncw - Palisades Place (R$$$6_3x2)
         pollution: 2
         pollutionRadius: 6
@@ -2329,22 +2652,39 @@ jasoncw/kallax-residential:
         building: be11ed96
         density: medium,high
         name: R$$$6_2x2_Kallax House
+        props:
+          - a0000051
         size: 2x2
         stage: 6
+        textures:
+          - 252b0000
+          - 25ae0000
     Jasoncw - Kallax Housing - TP - Grow (R$$$6_3x2).SC4Lot:
       de11a333:
         building: 1e11a30e
         density: medium,high
         name: R$$$6_3x2_Kallax Housing
+        props:
+          - 2ac80000
         size: 3x2
         stage: 6
+        textures:
+          - 258f0000
     Jasoncw - Palisades Place - TT - Grow (R$$$6_3x2).SC4Lot:
       de11b10c:
         building: 1e11b0c5
         density: medium,high
         name: R$$$6_3x2_Palisades Place
+        props:
+          - 2ac80000
+          - 2ac30000
+          - 2a8a0000
         size: 3x2
         stage: 6
+        textures:
+          - 258f0000
+          - 251c0000
+          - 25ab0000
   name: Kallax Residential
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_06/62abadbfe31fc_Kallax00.thumb.jpg.cf6444932d0d86300b4f1d3b8d518cae.jpg
   url: https://community.simtropolis.com/files/file/35206-kallax-residential/
@@ -2356,7 +2696,7 @@ jasoncw/kallax-residential:
             - Jasoncw - Kallax Residential (DN)/Jasoncw - Kallax House  - T (DN)
             - Jasoncw - Kallax Residential (DN)/Jasoncw - Kallax Housing - TP (DN)
             - Jasoncw - Kallax Residential (DN)/Jasoncw - Palisades Place - TT (DN)
-      lastGenerated: 2024-12-16T12:27:42.489Z
+      lastGenerated: 2025-01-06T12:13:24.647Z
       lastModified: 2022-06-16T22:25:04.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.467Z
@@ -2370,7 +2710,7 @@ jasoncw/kallax-residential:
             - Jasoncw - Kallax Residential (MN)/Jasoncw - Kallax House - T (MN)
             - Jasoncw - Kallax Residential (MN)/Jasoncw - Kallax Housing - TP (MN)
             - Jasoncw - Kallax Residential (MN)/Jasoncw - Palisades Place - TT (MN)
-      lastGenerated: 2024-12-16T12:27:42.517Z
+      lastGenerated: 2025-01-06T12:13:24.651Z
       lastModified: 2022-06-16T22:25:04.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.497Z
@@ -2390,6 +2730,7 @@ jasoncw/korimako-hotel:
         categories: cs$$$
         flamability: 35
         garbage: 66
+        model: b0b3922a
         name: Jasoncw - Korimako Hotel - Grow (CS$$$12_4x4)(CAM)
         pollution: 49
         pollutionRadius: 6
@@ -2408,6 +2749,7 @@ jasoncw/korimako-hotel:
         categories: cs$$$
         flamability: 35
         garbage: 66
+        model: b0b3922a
         name: Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4)
         pollution: 49
         pollutionRadius: 6
@@ -2428,6 +2770,7 @@ jasoncw/korimako-hotel:
         flamability: 35
         garbage: 66
         menu: Landmarks
+        model: b0b3922a
         name: Jasoncw - Korimako Hotel - Plop (CS$$$_4x4)
         pollution: 66
         pollutionRadius: 6
@@ -2459,6 +2802,8 @@ jasoncw/korimako-hotel:
           cam: true
         size: 4x4
         stage: 12
+        textures:
+          - 258f0000
     Jasoncw - Korimako Hotel - Grow (CS$$$8_4x4).SC4Lot:
       d1362cb7:
         building: d1362cb7
@@ -2468,11 +2813,15 @@ jasoncw/korimako-hotel:
           cam: false
         size: 4x4
         stage: 8
+        textures:
+          - 258f0000
     Jasoncw - Korimako Hotel - Plop (CS$$$_4x4).SC4Lot:
       '1134e708':
         building: '1134e708'
         name: PLOP_4x4_Korimako Hotel
         size: 4x4
+        textures:
+          - 258f0000
   name: Korimako Hotel
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/KorimakoHotel00.thumb.jpg.8f002526cc2773cb73c798d778d17458.jpg
   url: https://community.simtropolis.com/files/file/35897-korimako-hotel/
@@ -2485,7 +2834,7 @@ jasoncw/korimako-hotel:
         - id: simtropolis/35897-korimako-hotel#198966
           include:
             - Jasoncw - Korimako Hotel (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.760Z
+      lastGenerated: 2025-01-06T12:13:26.207Z
       lastModified: 2023-12-25T22:46:08.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.217Z
@@ -2500,7 +2849,7 @@ jasoncw/korimako-hotel:
         - id: simtropolis/35897-korimako-hotel#198966
           include:
             - Jasoncw - Korimako Hotel (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.750Z
+      lastGenerated: 2025-01-06T12:13:26.192Z
       lastModified: 2023-12-25T22:46:08.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.199Z
@@ -2520,6 +2869,7 @@ jasoncw/magasin-valois:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 312cf218
         name: Jasoncw - Magasin Valois - Grow (CS$$$4_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -2540,6 +2890,7 @@ jasoncw/magasin-valois:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: 312cf218
         name: Jasoncw - Magasin Valois - Plop (CS$$$_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -2570,11 +2921,17 @@ jasoncw/magasin-valois:
         name: CS$$$4_1x2_Magasin Valois
         size: 1x2
         stage: 4
+        textures:
+          - 258f0000
+          - f5c04010
     Jasoncw - Magasin Valois - Plop (CS$$$_1x2).SC4Lot:
       31ae2d4c:
         building: 31ae2d4c
         name: CS$$$_1x2_Magasin Valois
         size: 1x2
+        textures:
+          - 258f0000
+          - f5c04015
   name: Magasin Valois
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/66f4a32601b9a_MagasinValois00.thumb.jpg.7e71abdf9ca452b3f4f87fb7574a81d5.jpg
   url: https://community.simtropolis.com/files/file/36465-magasin-valois/
@@ -2584,7 +2941,7 @@ jasoncw/magasin-valois:
         - id: simtropolis/36465-magasin-valois#203590
           include:
             - Jasoncw - Magasin Valois (DN)
-      lastGenerated: 2024-12-16T12:27:44.401Z
+      lastGenerated: 2025-01-06T12:13:26.277Z
       lastModified: 2024-09-25T23:56:22.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.390Z
@@ -2596,7 +2953,7 @@ jasoncw/magasin-valois:
         - id: simtropolis/36465-magasin-valois#203589
           include:
             - Jasoncw - Magasin Valois (MN)
-      lastGenerated: 2024-12-16T12:27:44.375Z
+      lastGenerated: 2025-01-06T12:13:26.272Z
       lastModified: 2024-09-25T23:56:22.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.366Z
@@ -2645,6 +3002,7 @@ jasoncw/medium-sized-train-station:
             label: Jasoncw - Medium Train Station
             maintenance: 20
             menu: Rail
+            model: 10121420-0013
             name: Jasoncw - Medium Train Station (1x4)
             pollution: 1
             pollutionRadius: 1
@@ -2653,14 +3011,29 @@ jasoncw/medium-sized-train-station:
             water: 8
             waterPollution: 2
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-16T12:27:45.049Z
+      lastGenerated: 2025-01-06T12:13:26.755Z
       lastModified: 2020-05-25T21:47:19.000Z
       lots:
         Jasoncw - Medium Train Station_Utils1x4_PassengerRailStation_90644677.SC4Lot:
           '90644677':
             building: '90644677'
             name: Jasoncw - Medium Train Station_Utils1x4_PassengerRailStation
+            props:
+              - 2bfc0000
+              - a000007b
+              - '1e120000'
+              - '1e010000'
+              - '1e090000'
+              - '29020000'
+              - 1dfb0000
+              - 2a8c0000
             size: 4x1
+            textures:
+              - 25c10000
+              - 25db0000
+              - 263d0000
+              - '25900000'
+              - 25bf0000
       release: 2024-12-16T12:27:45.029Z
       version: 1.1.0
 
@@ -2675,6 +3048,7 @@ jasoncw/metropolitan-exchange-plaza:
         categories: co$$$
         flamability: 35
         garbage: 13
+        model: cefde78f
         name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$13_4x4)
         pollution: 33
         pollutionRadius: 6
@@ -2692,6 +3066,7 @@ jasoncw/metropolitan-exchange-plaza:
         categories: co$$$
         flamability: 35
         garbage: 13
+        model: cefde78f
         name: Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4)
         pollution: 33
         pollutionRadius: 6
@@ -2711,6 +3086,7 @@ jasoncw/metropolitan-exchange-plaza:
         flamability: 35
         garbage: 13
         menu: Landmarks
+        model: cefde78f
         name: Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4)
         pollution: 33
         pollutionRadius: 6
@@ -2742,6 +3118,9 @@ jasoncw/metropolitan-exchange-plaza:
           cam: true
         size: 4x4
         stage: 13
+        textures:
+          - 258d0000
+          - 258f0000
     Jasoncw - Metropolitan Exchange Plaza - Grow (CO$$$8_4x4).SC4Lot:
       7f807b23:
         building: 7f807b23
@@ -2751,11 +3130,17 @@ jasoncw/metropolitan-exchange-plaza:
           cam: false
         size: 4x4
         stage: 8
+        textures:
+          - 258d0000
+          - 258f0000
     Jasoncw - Metropolitan Exchange Plaza - Plop (CO$$$_4x4).SC4Lot:
       ef7f3d32:
         building: ef7f3d32
         name: PLOP_4x4_Metropolitan Exchange Plaza
         size: 4x4
+        textures:
+          - 258d0000
+          - 258f0000
   name: Metropolitan Exchange Plaza
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7e6a0254a8_MetropolitanExchangePlaza00.thumb.jpg.4eaed79b8b70fe76dce4ed6eab3d7592.jpg
   url: https://community.simtropolis.com/files/file/35369-metropolitan-exchange-plaza/
@@ -2768,7 +3153,7 @@ jasoncw/metropolitan-exchange-plaza:
         - id: simtropolis/35369-metropolitan-exchange-plaza#195907
           include:
             - Jasoncw - Metropolitan Exchange Plaza (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.681Z
+      lastGenerated: 2025-01-06T12:13:26.012Z
       lastModified: 2022-12-25T05:58:56.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.861Z
@@ -2783,10 +3168,80 @@ jasoncw/metropolitan-exchange-plaza:
         - id: simtropolis/35369-metropolitan-exchange-plaza#195907
           include:
             - Jasoncw - Metropolitan Exchange Plaza (CAMeLot)
-      lastGenerated: 2024-12-16T14:36:27.672Z
+      lastGenerated: 2025-01-06T12:13:26.002Z
       lastModified: 2022-12-25T05:58:56.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.839Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/mettlen-inc:
+  buildings:
+    Jasoncw - Mettlens Inc and Mid Kansas Seamless Gutter (CS$2_1x3).SC4Lot:
+      536295f6:
+        bulldoze: 110
+        capacity:
+          cs$: 62
+        categories: cs$
+        flamability: 45
+        garbage: 4
+        model: 32e2b356
+        name: Jasoncw - Mettlens Inc and Mid Kansas Seamless Gutter (CS$2_1x3)
+        pollution: 1
+        pollutionRadius: 5
+        power: 2
+        water: 14
+        waterPollution: 1
+        waterPollutionRadius: 5
+        worth: 474
+  categories: cs$
+  description: |-
+    This set of businesses is located in Hutchinson, Kansas, USA. It grows in the New York tileset.
+
+    - 1x3 growable CS§ lot.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2d8773f80_MettlenIncandMidKansasSeamlessGutter00.jpg.8798726fb311b3a07ec772e9aac5330e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2da77e6d1_MettlenIncandMidKansasSeamlessGutter01.jpg.a493c1c8022054224636dcea5556f194.jpg
+  lots:
+    Jasoncw - Mettlens Inc and Mid Kansas Seamless Gutter (CS$2_1x3).SC4Lot:
+      e3629668:
+        building: 536295f6
+        density: all
+        name: CS$2_1x3_Mettlens Inc and Mid Kansas Seamless Gutter
+        size: 1x3
+        stage: 2
+        textures:
+          - 258d0000
+          - '25900000'
+          - 261b0000
+          - 25bb0000
+  name: Mettlen Inc and Mid Kansas Seamless Gutter
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2e0702a56_MettlenIncandMidKansasSeamlessGutter00.thumb.jpg.383a4c634dbc1afa7a2b6af5ad252879.jpg
+  url: https://community.simtropolis.com/files/file/36627-mettlen-inc-and-mid-kansas-seamless-gutter/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36627-mettlen-inc-and-mid-kansas-seamless-gutter#204881
+          include:
+            - Jasoncw - Mettlens Inc and Mid Kansas Seamless Gutter (DN)
+      lastGenerated: 2025-01-06T12:13:26.372Z
+      lastModified: 2024-12-24T21:56:23.000Z
+      name: Dark Nite
+      release: 2025-01-06T11:16:11.628Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36627-mettlen-inc-and-mid-kansas-seamless-gutter#204880
+          include:
+            - Jasoncw - Mettlens Inc and Mid Kansas Seamless Gutter (MN)
+      lastGenerated: 2025-01-06T12:13:26.366Z
+      lastModified: 2024-12-24T21:56:23.000Z
+      name: Maxis Nite
+      release: 2025-01-06T11:16:11.562Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -2803,6 +3258,7 @@ jasoncw/miu-miu:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: d17eb348
         name: Jasoncw - Miu Miu - Grow (CS$$$2_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -2830,6 +3286,10 @@ jasoncw/miu-miu:
         name: CS$$$2_1x2_Miu Miu
         size: 1x2
         stage: 2
+        textures:
+          - 258f0000
+          - 25bc0000
+          - 258d0000
   name: Miu Miu
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/6719a54ea0467_MiuMiu00.thumb.jpg.cbd62f505be310c26a586fcdcd9e7270.jpg
   url: https://community.simtropolis.com/files/file/36524-miu-miu/
@@ -2839,7 +3299,7 @@ jasoncw/miu-miu:
         - id: simtropolis/36524-miu-miu#204055
           include:
             - Jasoncw - Miu Miu (DN)
-      lastGenerated: 2024-12-16T12:27:44.478Z
+      lastGenerated: 2025-01-06T12:13:26.305Z
       lastModified: 2024-10-24T01:39:26.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.465Z
@@ -2851,7 +3311,7 @@ jasoncw/miu-miu:
         - id: simtropolis/36524-miu-miu#204054
           include:
             - Jasoncw - Miu Miu (MN)
-      lastGenerated: 2024-12-16T12:27:44.455Z
+      lastGenerated: 2025-01-06T12:13:26.300Z
       lastModified: 2024-10-24T01:39:26.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.447Z
@@ -2869,6 +3329,7 @@ jasoncw/model-discount-furniture:
         categories: cs$
         flamability: 45
         garbage: 4
+        model: d0df2037
         name: Jasoncw - Model Discount Furniture (CS$2_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -2894,6 +3355,11 @@ jasoncw/model-discount-furniture:
         name: CS$2_1x2_Model Discount Furniture
         size: 1x2
         stage: 2
+        textures:
+          - 258f0000
+          - 258d0000
+          - 25bc0000
+          - 25fc0000
   name: Model Discount Furniture
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/66e1ef9ce9157_ModelDiscountFurniture00.thumb.jpg.68772e7d239f2a551e8f3cf594c61c78.jpg
   url: https://community.simtropolis.com/files/file/36442-model-discount-furniture/
@@ -2903,7 +3369,7 @@ jasoncw/model-discount-furniture:
         - id: simtropolis/36442-model-discount-furniture#203386
           include:
             - Jasoncw - Model Discount Furniture (DN)
-      lastGenerated: 2024-12-16T12:27:44.322Z
+      lastGenerated: 2025-01-06T12:13:26.255Z
       lastModified: 2024-09-11T19:29:33.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.313Z
@@ -2915,7 +3381,7 @@ jasoncw/model-discount-furniture:
         - id: simtropolis/36442-model-discount-furniture#203385
           include:
             - Jasoncw - Model Discount Furniture (MN)
-      lastGenerated: 2024-12-16T12:27:44.304Z
+      lastGenerated: 2025-01-06T12:13:26.249Z
       lastModified: 2024-09-11T19:29:33.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.291Z
@@ -2933,6 +3399,7 @@ jasoncw/morrow-building:
         categories: co$$
         flamability: 40
         garbage: 4
+        model: cbff92df
         name: Jasoncw - Morrow Building (CO$$6_1x3)
         pollution: 1
         pollutionRadius: 5
@@ -2952,6 +3419,7 @@ jasoncw/morrow-building:
         garbage: 4
         label: Morrow Building
         menu: Landmarks
+        model: cbff92df
         name: Jasoncw - Morrow Building (CO$$_1x3)
         pollution: 1
         pollutionRadius: 5
@@ -2980,11 +3448,17 @@ jasoncw/morrow-building:
         name: CO$$6_1x3_Morrow Building
         size: 1x3
         stage: 6
+        textures:
+          - 258f0000
+          - f5c04000
     Jasoncw - Morrow Building - Plop (CO$$_1x3).SC4Lot:
       7c80eb61:
         building: 7c80eb61
         name: PLOP_1x3_Morrow Building
         size: 1x3
+        textures:
+          - 258f0000
+          - f5c04000
   name: Morrow Building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/618035c5d6eb5_MorrowBuilding(1x3)00.thumb.jpg.023fd0abec0b68ce8059520717119a01.jpg
   url: https://community.simtropolis.com/files/file/34729-morrow-building/
@@ -2994,7 +3468,7 @@ jasoncw/morrow-building:
         - id: simtropolis/34729-morrow-building#190340
           include:
             - Jasoncw - Morrow Building (1x3)(DN)
-      lastGenerated: 2024-12-16T12:27:43.299Z
+      lastGenerated: 2025-01-06T12:13:25.707Z
       lastModified: 2021-11-01T18:45:26.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.249Z
@@ -3006,7 +3480,7 @@ jasoncw/morrow-building:
         - id: simtropolis/34729-morrow-building#190339
           include:
             - Jasoncw - Morrow Building (1x3)(MN)
-      lastGenerated: 2024-12-16T12:27:43.239Z
+      lastGenerated: 2025-01-06T12:13:25.701Z
       lastModified: 2021-11-01T18:45:26.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.228Z
@@ -3029,6 +3503,7 @@ jasoncw/murray-musem-of-modern-art:
           $$$: 28
         maintenance: 4700
         menu: Education
+        model: 2c8d0709
         name: Jasoncw - Murray Museum of Modern Art (PLOP_6x6)
         pollution: 3
         pollutionRadius: 3
@@ -3051,7 +3526,16 @@ jasoncw/murray-musem-of-modern-art:
       dd0cb91a:
         building: dd0cb91a
         name: PLOP_6x6_Murray Museum of Modern Art
+        props:
+          - 2a100000
+          - 2ad20000
+          - 1d4b0000
+          - 2a170000
         size: 6x6
+        textures:
+          - 252b0000
+          - '262e0000'
+          - 25ae0000
   name: Murray Musem of Modern Art
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/Murray-P0.thumb.jpg.873fc4ecc541a4e42d61b1f4c7c677fa.jpg
   url: https://community.simtropolis.com/files/file/34732-murray-musem-of-modern-art/
@@ -3061,7 +3545,7 @@ jasoncw/murray-musem-of-modern-art:
         - id: simtropolis/34732-murray-musem-of-modern-art#190352
           include:
             - Jasoncw - Murray Muesum of Modern Art (DN)
-      lastGenerated: 2024-12-16T12:27:44.703Z
+      lastGenerated: 2025-01-06T12:13:26.498Z
       lastModified: 2021-11-01T18:51:14.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.695Z
@@ -3073,7 +3557,7 @@ jasoncw/murray-musem-of-modern-art:
         - id: simtropolis/34732-murray-musem-of-modern-art#190351
           include:
             - Jasoncw - Murray Museum of Modern Art (MN)
-      lastGenerated: 2024-12-16T12:27:44.686Z
+      lastGenerated: 2025-01-06T12:13:26.488Z
       lastModified: 2021-11-01T18:51:14.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.674Z
@@ -3093,6 +3577,7 @@ jasoncw/napier-tower:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: 910432d3
         name: Jasoncw - Napier Tower - Grow (R$$$7_3x3)
         pollution: 9
         pollutionRadius: 6
@@ -3120,6 +3605,10 @@ jasoncw/napier-tower:
         name: R$$$7_3x3_Napier Tower
         size: 3x3
         stage: 7
+        textures:
+          - 258f0000
+          - f5c04025
+          - 258d0000
   name: Napier Tower
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/658a078740781_NapierTower00.thumb.jpg.c6a205c5d33f7fa1e0db92d8e7857135.jpg
   url: https://community.simtropolis.com/files/file/35899-napier-tower/
@@ -3129,7 +3618,7 @@ jasoncw/napier-tower:
         - id: simtropolis/35899-napier-tower#198974
           include:
             - Jasoncw - Napier Tower (DN)
-      lastGenerated: 2024-12-16T12:27:42.820Z
+      lastGenerated: 2025-01-06T12:13:24.813Z
       lastModified: 2023-12-25T22:51:51.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.808Z
@@ -3141,7 +3630,7 @@ jasoncw/napier-tower:
         - id: simtropolis/35899-napier-tower#198973
           include:
             - Jasoncw - Napier Tower (MN)
-      lastGenerated: 2024-12-16T12:27:42.803Z
+      lastGenerated: 2025-01-06T12:13:24.808Z
       lastModified: 2023-12-25T22:51:51.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.789Z
@@ -3161,6 +3650,7 @@ jasoncw/newport-house:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: d224a923
         name: Jasoncw - Newport House (R$$$5_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -3186,6 +3676,9 @@ jasoncw/newport-house:
         name: R$$$5_1x2_Newport House
         size: 1x2
         stage: 5
+        textures:
+          - 258f0000
+          - 25bc0000
   name: Newport House
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/NewportHouse00.thumb.jpg.5ba159c59cb236600eca69863df8c581.jpg
   url: https://community.simtropolis.com/files/file/36581-newport-house/
@@ -3195,7 +3688,7 @@ jasoncw/newport-house:
         - id: simtropolis/36581-newport-house#204587
           include:
             - Jasoncw - Newport House (DN)
-      lastGenerated: 2024-12-17T13:54:10.611Z
+      lastGenerated: 2025-01-06T12:13:25.487Z
       lastModified: 2024-12-05T04:10:52.000Z
       name: Dark Nite
       release: 2024-12-17T13:54:10.592Z
@@ -3207,7 +3700,7 @@ jasoncw/newport-house:
         - id: simtropolis/36581-newport-house#204586
           include:
             - Jasoncw - Newport House (MN)
-      lastGenerated: 2024-12-17T14:29:39.726Z
+      lastGenerated: 2025-01-06T12:13:25.482Z
       lastModified: 2024-12-05T04:10:52.000Z
       name: Maxis Nite
       release: 2024-12-17T13:54:10.486Z
@@ -3225,6 +3718,7 @@ jasoncw/norfair-corporation:
         categories: co$$
         flamability: 40
         garbage: 5
+        model: cfe843e6
         name: Jasoncw - Norfair Corporation (CO$$8_3x4)
         pollution: 10
         pollutionRadius: 5
@@ -3241,6 +3735,7 @@ jasoncw/norfair-corporation:
         categories: co$$
         flamability: 40
         garbage: 5
+        model: cfe843e6
         name: Jasoncw - Norfair Corporation (CO$$8_4x3)
         pollution: 10
         pollutionRadius: 5
@@ -3259,6 +3754,7 @@ jasoncw/norfair-corporation:
         flamability: 40
         garbage: 5
         menu: Landmarks
+        model: cfe843e6
         name: Jasoncw - Norfair Corporation (CO$$_3x4)
         pollution: 10
         pollutionRadius: 5
@@ -3287,6 +3783,8 @@ jasoncw/norfair-corporation:
         name: CO$$8_3x4_Norfair Corporation
         size: 3x4
         stage: 8
+        textures:
+          - 258f0000
     Jasoncw - Norfair Corporation - Grow (CO$$8_4x3).SC4Lot:
       8dd50177:
         building: bdd50133
@@ -3294,11 +3792,15 @@ jasoncw/norfair-corporation:
         name: CO$$8_4x4_Jasoncw - Norfair Corporation (CO$$8_4x3)
         size: 4x3
         stage: 8
+        textures:
+          - 258f0000
     Jasoncw - Norfair Corporation - Plop (CO$$_3x4).SC4Lot:
       9dd268d0:
         building: 9dd268d0
         name: PLOP_3x4_Norfair Corporation
         size: 3x4
+        textures:
+          - 258f0000
   name: Norfair Corporation
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_05/6270450b83ba9_NorfairCorporation00.thumb.jpg.7c06cbd346d1ef24e4ffebdaf10b956f.jpg
   url: https://community.simtropolis.com/files/file/35173-norfair-corporation/
@@ -3308,7 +3810,7 @@ jasoncw/norfair-corporation:
         - id: simtropolis/35173-norfair-corporation#194101
           include:
             - Jasoncw - Norfair Corporation (DN)
-      lastGenerated: 2024-12-16T12:27:43.503Z
+      lastGenerated: 2025-01-06T12:13:25.858Z
       lastModified: 2022-05-02T20:54:35.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.488Z
@@ -3320,7 +3822,7 @@ jasoncw/norfair-corporation:
         - id: simtropolis/35173-norfair-corporation#194100
           include:
             - Norfair Corporation (MN)
-      lastGenerated: 2024-12-16T12:27:43.476Z
+      lastGenerated: 2025-01-06T12:13:25.854Z
       lastModified: 2022-05-02T20:54:35.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.466Z
@@ -3339,6 +3841,7 @@ jasoncw/otautahi-mews:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: 91ffcbff
         name: Jasoncw - Otautahi Mews (R$$4_1x3)
         pollution: 1
         pollutionRadius: 5
@@ -3362,8 +3865,16 @@ jasoncw/otautahi-mews:
         building: 528101d0
         density: all
         name: R$$4_1x3_Otautahi Mews
+        props:
+          - 2ac80000
+          - '16690000'
+          - a000000f
         size: 1x3
         stage: 4
+        textures:
+          - 258d0000
+          - 25b30000
+          - 251c0000
   name: Otautahi Mews
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/675126d35bb79_OtautahiMews00.thumb.jpg.13b58f5832299fd7aef8b984c82a7ade.jpg
   url: https://community.simtropolis.com/files/file/36580-otautahi-mews/
@@ -3373,7 +3884,7 @@ jasoncw/otautahi-mews:
         - id: simtropolis/36580-otautahi-mews#204583
           include:
             - Jasoncw - Otautahi Mews (DN)
-      lastGenerated: 2024-12-17T14:29:39.661Z
+      lastGenerated: 2025-01-06T12:13:25.478Z
       lastModified: 2024-12-05T04:06:43.000Z
       name: Dark Nite
       release: 2024-12-17T14:29:39.626Z
@@ -3385,7 +3896,7 @@ jasoncw/otautahi-mews:
         - id: simtropolis/36580-otautahi-mews#204582
           include:
             - Jasoncw - Otautahi Mews (MN)
-      lastGenerated: 2024-12-17T14:29:39.620Z
+      lastGenerated: 2025-01-06T12:13:25.474Z
       lastModified: 2024-12-05T04:06:43.000Z
       name: Maxis Nite
       release: 2024-12-17T14:29:39.510Z
@@ -3448,6 +3959,7 @@ jasoncw/perry-station:
             label: Perry Station
             maintenance: 375
             menu: Rail
+            model: b1d39911-003e
             name: Jasoncw - Perry Station
             pollution: 8
             pollutionRadius: 4
@@ -3456,7 +3968,7 @@ jasoncw/perry-station:
             water: 19
             waterPollution: 5
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-16T12:27:45.099Z
+      lastGenerated: 2025-01-06T12:13:26.773Z
       lastModified: 2020-05-25T21:48:04.000Z
       lots:
         Jasoncw - Perry Station_54b0b9a8.SC4Lot:
@@ -3464,6 +3976,13 @@ jasoncw/perry-station:
             building: 54b0b9a8
             name: Jasoncw - Perry Station
             size: 7x4
+            textures:
+              - 25db0000
+              - 263d0000
+              - '26060000'
+              - 25fa0000
+              - 258c0000
+              - 25f60000
       release: 2024-12-16T12:27:45.087Z
       version: 1.1.0
 
@@ -3479,6 +3998,7 @@ jasoncw/pietzsch-house:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 51cdd254
         name: Jasoncw - Einstein Hotel Cafe - Grow (CS$$$6_1x3)
         pollution: 3
         pollutionRadius: 6
@@ -3496,6 +4016,7 @@ jasoncw/pietzsch-house:
         categories: co$$$
         flamability: 35
         garbage: 4
+        model: 51cdd254
         name: Jasoncw - Pietzsch House - Grow (CO$$$6_1x3)
         pollution: 1
         pollutionRadius: 6
@@ -3521,6 +4042,9 @@ jasoncw/pietzsch-house:
         name: CS$$$6_1x3_Einstein Hotel Cafe
         size: 1x3
         stage: 6
+        textures:
+          - 258f0000
+          - 25bc0000
     Jasoncw - Pietzsch House - Grow (CO$$$6_1x3).SC4Lot:
       624f0858:
         building: 724f0820
@@ -3528,6 +4052,9 @@ jasoncw/pietzsch-house:
         name: CO$$$6_1x3_Pietzsch House
         size: 1x3
         stage: 6
+        textures:
+          - 258f0000
+          - 25bc0000
   name: Pietzsch House
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/67358539ad53e_PietzschHouse00.thumb.jpg.aefc559b601913cf1c71a00ec3c36d18.jpg
   url: https://community.simtropolis.com/files/file/36549-pietzsch-house/
@@ -3537,7 +4064,7 @@ jasoncw/pietzsch-house:
         - id: simtropolis/36549-pietzsch-house#204366
           include:
             - Jasoncw - Pietzsch House (DN)
-      lastGenerated: 2024-12-16T12:27:44.588Z
+      lastGenerated: 2025-01-06T12:13:26.338Z
       lastModified: 2024-11-14T05:06:01.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.580Z
@@ -3549,7 +4076,7 @@ jasoncw/pietzsch-house:
         - id: simtropolis/36549-pietzsch-house#204365
           include:
             - Jasoncw - Pietzsch House (MN)
-      lastGenerated: 2024-12-16T12:27:44.571Z
+      lastGenerated: 2025-01-06T12:13:26.333Z
       lastModified: 2024-11-14T05:06:01.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.562Z
@@ -3567,6 +4094,7 @@ jasoncw/pizza-ribs-sushi:
         categories: cs$
         flamability: 45
         garbage: 4
+        model: 312a539a
         name: Jasoncw - PIZZA RIBS SUSHI - Grow (CS$3_1x2)
         pollution: 1
         pollutionRadius: 5
@@ -3596,6 +4124,11 @@ jasoncw/pizza-ribs-sushi:
         name: CS$3_1x2_PIZZA RIBS SUSHI
         size: 1x2
         stage: 3
+        textures:
+          - 25bc0000
+          - 258c0000
+          - '25900000'
+          - 25fc0000
   name: Pizza Ribs Sushi
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_09/66eb313515722_PizzaRibsSushi00.thumb.jpg.4505c63f5eeaf45642ca0e9698f5ae48.jpg
   url: https://community.simtropolis.com/files/file/36453-pizza-ribs-sushi/
@@ -3605,7 +4138,7 @@ jasoncw/pizza-ribs-sushi:
         - id: simtropolis/36453-pizza-ribs-sushi#203488
           include:
             - Jasoncw - PIZZA RIBS SUSHI (DN)
-      lastGenerated: 2024-12-16T12:27:44.357Z
+      lastGenerated: 2025-01-06T12:13:26.265Z
       lastModified: 2024-09-18T19:59:49.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.349Z
@@ -3617,7 +4150,7 @@ jasoncw/pizza-ribs-sushi:
         - id: simtropolis/36453-pizza-ribs-sushi#203487
           include:
             - Jasoncw - PIZZA RIBS SUSHI (MN)
-      lastGenerated: 2024-12-16T12:27:44.339Z
+      lastGenerated: 2025-01-06T12:13:26.259Z
       lastModified: 2024-09-18T19:59:49.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.331Z
@@ -3637,6 +4170,7 @@ jasoncw/rasmussen-place:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: 508d01ba
         name: Jasoncw - Rasmussen Place (R$$$6_2x2)
         pollution: 2
         pollutionRadius: 6
@@ -3655,6 +4189,7 @@ jasoncw/rasmussen-place:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: 508d01ba
         name: Jasoncw - Rasmussen Place (R$$$8_2x1)
         pollution: 2
         pollutionRadius: 6
@@ -3678,8 +4213,14 @@ jasoncw/rasmussen-place:
         building: '910e6007'
         density: medium,high
         name: R$$$6_2x2_Rasmussen Place
+        props:
+          - 1f0b0000
+          - 2a100000
         size: 2x2
         stage: 6
+        textures:
+          - 252b0000
+          - 258f0000
     Jasoncw - Rasmussen Place (R$$$8_2x1).SC4Lot:
       610e5fb1:
         building: 710e5f9c
@@ -3687,6 +4228,8 @@ jasoncw/rasmussen-place:
         name: R$$$8_2x1_Rasmussen Place
         size: 2x1
         stage: 8
+        textures:
+          - 258f0000
   name: Rasmussen Place
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/658a0112cbf29_RasmussenPlace00.thumb.jpg.abc5ff06e0b5e3679449a0f417677b0b.jpg
   url: https://community.simtropolis.com/files/file/35895-rasmussen-place/
@@ -3696,7 +4239,7 @@ jasoncw/rasmussen-place:
         - id: simtropolis/35895-rasmussen-place#198957
           include:
             - Jasoncw - Rasmussen Place (DN)
-      lastGenerated: 2024-12-16T12:27:42.742Z
+      lastGenerated: 2025-01-06T12:13:24.778Z
       lastModified: 2023-12-25T22:24:19.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.732Z
@@ -3708,7 +4251,7 @@ jasoncw/rasmussen-place:
         - id: simtropolis/35895-rasmussen-place#198956
           include:
             - Jasoncw - Rasmussen Place (MN)
-      lastGenerated: 2024-12-16T12:27:42.725Z
+      lastGenerated: 2025-01-06T12:13:24.760Z
       lastModified: 2023-12-25T22:24:19.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.710Z
@@ -3726,6 +4269,7 @@ jasoncw/savisaar-insurance:
         categories: co$$
         flamability: 40
         garbage: 4
+        model: 3118fd5b
         name: Jasoncw - Savisaar Insurance (CO$$7_3x3)
         pollution: 4
         pollutionRadius: 5
@@ -3744,6 +4288,7 @@ jasoncw/savisaar-insurance:
         flamability: 40
         garbage: 4
         menu: Landmarks
+        model: 3118fd5b
         name: Jasoncw - Savisaar Insurance
         pollution: 4
         pollutionRadius: 5
@@ -3772,11 +4317,21 @@ jasoncw/savisaar-insurance:
         name: CO$$7_3x3_Savisaar Insurance
         size: 3x3
         stage: 7
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04025
+          - 25bb0000
     Jasoncw - Savisaar Insurance - Plop (CO$$_3x3).SC4Lot:
       bf0336ba:
         building: bf0336ba
         name: PLOP_3x3_Savisaar Insurance
         size: 3x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04025
+          - 25bb0000
   name: Savisaar Insurance
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7d9f8ba7c5_00SavisaarInsurance.thumb.jpg.8edace65a00e8e51027395be5f618d65.jpg
   url: https://community.simtropolis.com/files/file/35365-savisaar-insurance/
@@ -3786,7 +4341,7 @@ jasoncw/savisaar-insurance:
         - id: simtropolis/35365-savisaar-insurance#195892
           include:
             - Jasoncw - Savisaar Insurance (DN)
-      lastGenerated: 2024-12-16T12:27:43.743Z
+      lastGenerated: 2025-01-06T12:13:25.950Z
       lastModified: 2022-12-25T05:04:57.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.735Z
@@ -3798,10 +4353,78 @@ jasoncw/savisaar-insurance:
         - id: simtropolis/35365-savisaar-insurance#195891
           include:
             - Jasoncw - Savisaar Insurance (MN)
-      lastGenerated: 2024-12-16T12:27:43.722Z
+      lastGenerated: 2025-01-06T12:13:25.945Z
       lastModified: 2022-12-25T05:04:57.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.710Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/seaside-building:
+  buildings:
+    Jasoncw - Seaside Building (CS$$2_1x1).SC4Lot:
+      '53667177':
+        bulldoze: 160
+        capacity:
+          cs$: 24
+          cs$$: 8
+        categories: cs$$
+        flamability: 40
+        garbage: 4
+        model: 32e68bdc
+        name: Jasoncw - Seaside Building (CS$$2_1x1)
+        pollution: 1
+        pollutionRadius: 5
+        power: 1
+        water: 9
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 205
+  categories: cs$$
+  description: |-
+    The Seaside Building is located in Seaside, Oregon, USA. It grows in the New York Tileset.
+
+    - 1x1 growable CS§§ lots.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2e4b3a196_Seaside00.jpg.c52f3a887da6a5b033ed61c55246ebaf.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2e6161043_Seaside01.jpg.299761a7ff55755fc5a5bc06c62bc368.jpg
+  lots:
+    Jasoncw - Seaside Building (CS$$2_1x1).SC4Lot:
+      7366719e:
+        building: '53667177'
+        density: all
+        name: CS$$2_1x1_Seaside Building
+        size: 1x1
+        stage: 2
+        textures:
+          - 258f0000
+  name: Seaside Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2e8f118ff_Seaside00.thumb.jpg.6bfd84694da4c2917af9b7cca7e8927f.jpg
+  url: https://community.simtropolis.com/files/file/36628-seaside-building/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36628-seaside-building#204885
+          include:
+            - Jasoncw - Seaside Building (DN)
+      lastGenerated: 2025-01-06T12:13:26.383Z
+      lastModified: 2024-12-24T21:58:39.000Z
+      name: Dark Nite
+      release: 2025-01-06T11:16:11.519Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36628-seaside-building#204884
+          include:
+            - Jasoncw - Seaside Building (MN)
+      lastGenerated: 2025-01-06T12:13:26.377Z
+      lastModified: 2024-12-24T21:58:39.000Z
+      name: Maxis Nite
+      release: 2025-01-06T11:16:11.466Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -3818,6 +4441,7 @@ jasoncw/shields-youth-center:
         landmarkRadius: 5
         maintenance: 75
         menu: Parks
+        model: 0f3e3478
         name: Jasoncw - Shields Youth Center (PZ2x3)
         pollution: 1
         power: 4
@@ -3841,7 +4465,18 @@ jasoncw/shields-youth-center:
       cfbf7787:
         building: cfbf7787
         name: PZ2x3_Shields Youth Center
+        props:
+          - '28580000'
+          - '28980000'
+          - '28990000'
+          - 2a9c0000
+          - 28a30000
         size: 2x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - '26210000'
+          - 25fa0000
   name: Shields Youth Center
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/ShieldsYouthCenter00.thumb.jpg.3d22fccd6ccdfb53970fc79698bc0b3c.jpg
   url: https://community.simtropolis.com/files/file/35370-shields-youth-center/
@@ -3851,7 +4486,7 @@ jasoncw/shields-youth-center:
         - id: simtropolis/35370-shields-youth-center#195911
           include:
             - Jasoncw - Shields Youth Center (DN)
-      lastGenerated: 2024-12-16T12:27:44.886Z
+      lastGenerated: 2025-01-06T12:13:26.701Z
       lastModified: 2022-12-25T06:02:34.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.875Z
@@ -3863,7 +4498,7 @@ jasoncw/shields-youth-center:
         - id: simtropolis/35370-shields-youth-center#195910
           include:
             - Jasoncw - Shields Youth Center (MN)
-      lastGenerated: 2024-12-16T12:27:44.867Z
+      lastGenerated: 2025-01-06T12:13:26.694Z
       lastModified: 2022-12-25T06:02:34.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.856Z
@@ -3883,6 +4518,7 @@ jasoncw/skycliffe-tower:
         categories: r$$$
         flamability: 35
         garbage: 5
+        model: 51f5596c
         name: Jasoncw - Skycliffe Tower (R$$$8_3x2)
         pollution: 15
         pollutionRadius: 6
@@ -3901,6 +4537,7 @@ jasoncw/skycliffe-tower:
         categories: r$$$
         flamability: 35
         garbage: 5
+        model: 51f5596c
         name: Jasoncw - Skycliffe Tower (R$$$10_3x2)
         pollution: 15
         pollutionRadius: 6
@@ -3931,6 +4568,10 @@ jasoncw/skycliffe-tower:
         name: R$$$8_3x2_Skycliffe Tower
         size: 3x2
         stage: 8
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04025
     Jasoncw - Skycliffe Tower - CAM (R$$$10_3x2).SC4Lot:
       '32769e62':
         building: '32769e11'
@@ -3940,6 +4581,10 @@ jasoncw/skycliffe-tower:
           cam: true
         size: 3x2
         stage: 10
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04025
   name: Skycliffe Tower
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/6751219f350ab_SkycliffeTower00.thumb.jpg.d68fb61857b5ea6290396a16ed04b3e7.jpg
   url: https://community.simtropolis.com/files/file/36579-skycliffe-tower/
@@ -3952,7 +4597,7 @@ jasoncw/skycliffe-tower:
         - id: simtropolis/36579-skycliffe-tower#204579
           include:
             - Jasoncw - Skycliffe Tower (CAM)
-      lastGenerated: 2024-12-17T14:35:08.709Z
+      lastGenerated: 2025-01-06T12:13:25.470Z
       lastModified: 2024-12-05T03:44:31.000Z
       name: Dark Nite
       release: 2024-12-17T13:50:34.922Z
@@ -3967,7 +4612,7 @@ jasoncw/skycliffe-tower:
         - id: simtropolis/36579-skycliffe-tower#204579
           include:
             - Jasoncw - Skycliffe Tower (CAM)
-      lastGenerated: 2024-12-17T14:35:08.699Z
+      lastGenerated: 2025-01-06T12:13:25.462Z
       lastModified: 2024-12-05T03:44:31.000Z
       name: Maxis Nite
       release: 2024-12-17T13:50:34.886Z
@@ -3988,6 +4633,7 @@ jasoncw/small-police-station-1:
           $$: 4
         maintenance: 140
         menu: Police
+        model: 303bbe98
         name: Jasoncw - Small Police Station 1 (2x3)
         pollution: 1
         pollutionRadius: 2
@@ -4012,6 +4658,12 @@ jasoncw/small-police-station-1:
         building: 10bd03c4
         name: PLOP_2x3_Small Police Station 1
         size: 2x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
+          - 25f00000
+          - 25fc0000
   name: Small Police Station 1
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/65418b8b67c57_PoliceStation1-00.thumb.jpg.94fbf8004831b33e8eb9b66799bad89c.jpg
   url: https://community.simtropolis.com/files/file/35718-small-police-station-1/
@@ -4021,7 +4673,7 @@ jasoncw/small-police-station-1:
         - id: simtropolis/35718-small-police-station-1#198225
           include:
             - Jasoncw - Small Police Station 1 (DN)
-      lastGenerated: 2024-12-16T12:27:44.750Z
+      lastGenerated: 2025-01-06T12:13:26.518Z
       lastModified: 2023-10-31T23:19:40.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.738Z
@@ -4033,7 +4685,7 @@ jasoncw/small-police-station-1:
         - id: simtropolis/35718-small-police-station-1#198224
           include:
             - Jasoncw - Small Police Station 1 (MN)
-      lastGenerated: 2024-12-16T12:27:44.727Z
+      lastGenerated: 2025-01-06T12:13:26.508Z
       lastModified: 2023-10-31T23:19:40.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.714Z
@@ -4054,6 +4706,7 @@ jasoncw/small-police-station-2:
           $$: 3
         maintenance: 110
         menu: Police
+        model: 903b9e8f
         name: Jasoncw - Small Police Station 2 (3x3)
         pollution: 1
         pollutionRadius: 2
@@ -4075,7 +4728,19 @@ jasoncw/small-police-station-2:
       00bcd402:
         building: 00bcd402
         name: PLOP_3x3_Small Police Station 2
+        props:
+          - 2a100000
+          - 2a110000
+          - 2add0000
+          - 2ade0000
+          - 2adf0000
         size: 3x3
+        textures:
+          - 258d0000
+          - 252b0000
+          - '26250000'
+          - 25bb0000
+          - 25bc0000
   name: Small Police Station 2
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_10/65418bf5916d5_PoliceStation2-00.thumb.jpg.9dca6cc87e4e55831ffddd5da2debf73.jpg
   url: https://community.simtropolis.com/files/file/35719-small-police-station-2/
@@ -4085,7 +4750,7 @@ jasoncw/small-police-station-2:
         - id: simtropolis/35719-small-police-station-2#198229
           include:
             - Jasoncw - Small Police Station 2 (DN)
-      lastGenerated: 2024-12-16T12:27:44.787Z
+      lastGenerated: 2025-01-06T12:13:26.536Z
       lastModified: 2023-10-31T23:21:26.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.778Z
@@ -4097,7 +4762,7 @@ jasoncw/small-police-station-2:
         - id: simtropolis/35719-small-police-station-2#198228
           include:
             - Jasoncw - Small Police Station 2 (MN)
-      lastGenerated: 2024-12-16T12:27:44.768Z
+      lastGenerated: 2025-01-06T12:13:26.530Z
       lastModified: 2023-10-31T23:21:26.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.757Z
@@ -4146,6 +4811,7 @@ jasoncw/small-train-station:
             label: Jasoncw - Small Train Station
             maintenance: 10
             menu: Rail
+            model: 10121420-000f
             name: Jasoncw - Small Train Station (1x2)
             pollution: 1
             pollutionRadius: 1
@@ -4154,14 +4820,25 @@ jasoncw/small-train-station:
             water: 5
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-16T12:27:45.018Z
+      lastGenerated: 2025-01-06T12:13:26.747Z
       lastModified: 2020-05-25T21:46:54.000Z
       lots:
         Jasoncw - Small Train Station_Utils1x2_PassengerRailStation_d04dae96.SC4Lot:
           d04dae96:
             building: d04dae96
             name: Jasoncw - Small Train Station_Utils1x2_PassengerRailStation
+            props:
+              - 2bfc0000
+              - a000007b
+              - '1e120000'
+              - '1e010000'
+              - '1e090000'
             size: 2x1
+            textures:
+              - 25c10000
+              - 263d0000
+              - 25db0000
+              - '25900000'
       release: 2024-12-16T12:27:45.004Z
       version: 1.1.0
 
@@ -4177,6 +4854,7 @@ jasoncw/sp-building:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 31cc61c6
         name: Jasoncw - SP Building - Grow (CS$$$5_1x2)
         pollution: 2
         pollutionRadius: 6
@@ -4202,6 +4880,9 @@ jasoncw/sp-building:
         name: CS$$$5_1x2_SP Building
         size: 1x2
         stage: 5
+        textures:
+          - 258f0000
+          - 25bc0000
   name: S&P Building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/672d76ef8dba4_SPBuilding00.thumb.jpg.1c5864be536227070023fca41e12898d.jpg
   url: https://community.simtropolis.com/files/file/36542-sp-building/
@@ -4211,7 +4892,7 @@ jasoncw/sp-building:
         - id: simtropolis/36542-sp-building#204275
           include:
             - Jasoncw - SP Building (DN)
-      lastGenerated: 2024-12-16T12:27:44.553Z
+      lastGenerated: 2025-01-06T12:13:26.327Z
       lastModified: 2024-11-08T02:26:55.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.540Z
@@ -4223,7 +4904,7 @@ jasoncw/sp-building:
         - id: simtropolis/36542-sp-building#204274
           include:
             - Jasoncw - SP Building (MN)
-      lastGenerated: 2024-12-16T12:27:44.532Z
+      lastGenerated: 2025-01-06T12:13:26.322Z
       lastModified: 2024-11-08T02:26:55.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.522Z
@@ -4241,6 +4922,7 @@ jasoncw/surfside-apartments:
         categories: r$
         flamability: 45
         garbage: 4
+        model: 308eacd1
         name: Jasoncw - Surfside Apartments (R$5_2x2)
         pollution: 1
         pollutionRadius: 5
@@ -4257,6 +4939,7 @@ jasoncw/surfside-apartments:
         categories: r$
         flamability: 45
         garbage: 4
+        model: 308eacd1
         name: Jasoncw - Surfside Apartments (R$6_2x1)
         pollution: 1
         pollutionRadius: 5
@@ -4282,8 +4965,16 @@ jasoncw/surfside-apartments:
         building: 310fe459
         density: medium,high
         name: R$5_2x2_Surfside Apartments
+        props:
+          - a0000038
+          - a000000f
         size: 2x2
         stage: 5
+        textures:
+          - 258d0000
+          - 25b40000
+          - 25bc0000
+          - '25900000'
     R$6_2x1_Surfside Apartments_e10fe1dc.SC4Lot:
       e10fe1dc:
         building: b10fe1b7
@@ -4291,6 +4982,8 @@ jasoncw/surfside-apartments:
         name: R$6_2x1_Surfside Apartments
         size: 2x1
         stage: 6
+        textures:
+          - 258d0000
   name: Surfside Apartments
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_12/658a04744b119_SurfsideApartments00.thumb.jpg.5424452d5b352074b35d5b02b879af16.jpg
   url: https://community.simtropolis.com/files/file/35896-surfside-apartments/
@@ -4300,7 +4993,7 @@ jasoncw/surfside-apartments:
         - id: simtropolis/35896-surfside-apartments#198961
           include:
             - Jasoncw - Surfside Apartments (DN)
-      lastGenerated: 2024-12-16T12:27:42.783Z
+      lastGenerated: 2025-01-06T12:13:24.801Z
       lastModified: 2023-12-25T22:38:45.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.768Z
@@ -4312,7 +5005,7 @@ jasoncw/surfside-apartments:
         - id: simtropolis/35896-surfside-apartments#198960
           include:
             - Jasoncw - Surfside Apartments (MN)
-      lastGenerated: 2024-12-16T12:27:42.760Z
+      lastGenerated: 2025-01-06T12:13:24.787Z
       lastModified: 2023-12-25T22:38:45.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.750Z
@@ -4331,6 +5024,7 @@ jasoncw/target:
         categories: cs$$
         flamability: 40
         garbage: 8
+        model: 9141bbd3
         name: Jasoncw - Target - Grow (CS$$3_3x3)
         pollution: 6
         pollutionRadius: 5
@@ -4350,6 +5044,7 @@ jasoncw/target:
         flamability: 40
         garbage: 8
         menu: Landmarks
+        model: 9141bbd3
         name: Jasoncw - Target - Plop (CS$$_3x3)
         pollution: 8
         pollutionRadius: 5
@@ -4378,11 +5073,19 @@ jasoncw/target:
         name: CS$$3_3x3_Target
         size: 3x3
         stage: 3
+        textures:
+          - 258f0000
+          - 258d0000
+          - f5c04025
     Jasoncw - Target - Plop (CS$$_3x3).SC4Lot:
       9f2bfda5:
         building: 9f2bfda5
         name: PLOP_3x3_Target
         size: 3x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c04025
   name: Target
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7dab5dff6e_Target00.thumb.jpg.6fdfe5871cd2e2010c788336a12f59da.jpg
   url: https://community.simtropolis.com/files/file/35366-target/
@@ -4392,7 +5095,7 @@ jasoncw/target:
         - id: simtropolis/35366-target#195896
           include:
             - Jasoncw - Target (DN)
-      lastGenerated: 2024-12-16T12:27:43.791Z
+      lastGenerated: 2025-01-06T12:13:25.960Z
       lastModified: 2022-12-25T05:08:06.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.774Z
@@ -4404,7 +5107,7 @@ jasoncw/target:
         - id: simtropolis/35366-target#195895
           include:
             - Jasoncw - Target (MN)
-      lastGenerated: 2024-12-16T12:27:43.767Z
+      lastGenerated: 2025-01-06T12:13:25.955Z
       lastModified: 2022-12-25T05:08:06.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.753Z
@@ -4424,6 +5127,7 @@ jasoncw/the-paragon:
         categories: r$$$
         flamability: 35
         garbage: 4
+        model: cfaeae50
         name: Jasoncw - The Paragon - Grow (R$$$7_2x2)
         pollution: 4
         pollutionRadius: 6
@@ -4453,6 +5157,10 @@ jasoncw/the-paragon:
         name: R$$$7_2x2_The Paragon
         size: 2x2
         stage: 7
+        textures:
+          - 258d0000
+          - 258f0000
+          - 25bc0000
   name: The Paragon
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_01/63c38a3e7d148_Paragonimage00.thumb.jpg.944145b0c1203f524a6f0ca557167ea8.jpg
   url: https://community.simtropolis.com/files/file/35414-the-paragon/
@@ -4462,7 +5170,7 @@ jasoncw/the-paragon:
         - id: simtropolis/35414-the-paragon#196164
           include:
             - Jasoncw - The Paragon (DN)
-      lastGenerated: 2024-12-16T12:27:42.658Z
+      lastGenerated: 2025-01-06T12:13:24.698Z
       lastModified: 2023-01-15T05:08:15.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.637Z
@@ -4474,7 +5182,7 @@ jasoncw/the-paragon:
         - id: simtropolis/35414-the-paragon#196163
           include:
             - Jasoncw - The Paragon (MN)
-      lastGenerated: 2024-12-16T12:27:42.631Z
+      lastGenerated: 2025-01-06T12:13:24.674Z
       lastModified: 2023-01-15T05:08:15.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.610Z
@@ -4560,6 +5268,7 @@ jasoncw/train-station-set:
             label: Jasoncw - Large Train Station
             maintenance: 45
             menu: Rail
+            model: 10121420-0038
             name: Jasoncw - Large Train Station (2x4)
             pollution: 2
             pollutionRadius: 2
@@ -4581,6 +5290,7 @@ jasoncw/train-station-set:
             label: Jasoncw - Medium Train Station
             maintenance: 20
             menu: Rail
+            model: 10121420-0043
             name: Jasoncw - Medium Train Station (1x4) V2
             pollution: 1
             pollutionRadius: 1
@@ -4602,6 +5312,7 @@ jasoncw/train-station-set:
             label: Jasoncw - Small Train Station
             maintenance: 8
             menu: Rail
+            model: 10121420-0047
             name: Jasoncw - Small Train Station (1x2) V2
             pollution: 1
             pollutionRadius: 1
@@ -4610,24 +5321,93 @@ jasoncw/train-station-set:
             water: 4
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2024-12-16T12:27:45.073Z
+      lastGenerated: 2025-01-06T12:13:26.763Z
       lastModified: 2020-05-25T21:48:51.000Z
       lots:
         Jasoncw - Large Train Station_f184e53f.SC4Lot:
           f184e53f:
             building: f184e53f
             name: Jasoncw - Large Train Station
+            props:
+              - 1dfb0000
+              - a0000055
+              - a000004b
+              - a0000078
+              - a0000077
+              - 2a8a0000
+              - 291f0000
+              - '29010000'
+              - a000004a
+              - a000004d
+              - a0000057
+              - a000004e
+              - '1e120000'
+              - '29150000'
+              - a000007b
+              - 2a8b0000
+              - 2bfb0000
+              - 2bf70000
+              - 2bfc0000
+              - '29130000'
+              - 2a6c0000
+              - '290e0000'
+              - '29170000'
+              - 1d240000
+              - 1d2c0000
             size: 4x2
+            textures:
+              - '25900000'
+              - 263d0000
         Jasoncw - Medium Train Station_b184c540.SC4Lot:
           b184c540:
             building: b184c540
             name: Jasoncw - Medium Train Station
+            props:
+              - 1dfb0000
+              - 291f0000
+              - '29010000'
+              - a000004a
+              - a000004b
+              - a000004d
+              - a0000057
+              - a000004e
+              - '1e120000'
+              - a0000078
+              - '29150000'
+              - a000007b
+              - 2a8b0000
+              - 2bfc0000
+              - 1d2c0000
             size: 4x1
+            textures:
+              - '25900000'
+              - 263d0000
         Jasoncw - Small Train Station_9184ac98.SC4Lot:
           9184ac98:
             building: 9184ac98
             name: Jasoncw - Small Train Station
+            props:
+              - 1dfb0000
+              - '29010000'
+              - a000004a
+              - a000004b
+              - a000004d
+              - a0000057
+              - '29150000'
+              - a0000078
+              - '1e120000'
+              - a000007b
+              - 2a8b0000
+              - 2ab90000
+              - '1e090000'
+              - 1d2c0000
+              - '290e0000'
+              - '29140000'
+              - 69ae0000
             size: 2x1
+            textures:
+              - 263d0000
+              - '25900000'
       release: 2024-12-16T12:27:45.057Z
       version: 1.1.0
 
@@ -4642,6 +5422,7 @@ jasoncw/turtle-publishing:
         categories: co$$$
         flamability: 35
         garbage: 4
+        model: eed62ff2
         name: Jasoncw - Turtle Publishing - Grow (CO$$$8_2x3)
         pollution: 7
         pollutionRadius: 6
@@ -4661,6 +5442,7 @@ jasoncw/turtle-publishing:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: eed62ff2
         name: Jasoncw - Turtle Publishing (CO$$$_2x3)
         pollution: 7
         pollutionRadius: 6
@@ -4687,13 +5469,31 @@ jasoncw/turtle-publishing:
         building: df58f33f
         density: high
         name: CO$$$8_2x3_Turtle Publishing
+        props:
+          - 2aad0000
+          - 2aae0000
+          - 2aa30000
+          - 2aa40000
         size: 2x3
         stage: 8
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c0400a
     Jasoncw - Turtle Publishing - Plop (CO$$$_2x3).SC4Lot:
       3f578d33:
         building: 3f578d33
         name: PLOP_2x3_Turtle Publishing
+        props:
+          - 2aad0000
+          - 2aae0000
+          - 2aa30000
+          - 2aa40000
         size: 2x3
+        textures:
+          - 258d0000
+          - 258f0000
+          - f5c0400a
   name: Turtle Publishing
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_12/63a7db3c6076d_TurtlePublishing00.thumb.jpg.0e79a3d2dc69298f8e14bd028478825c.jpg
   url: https://community.simtropolis.com/files/file/35367-turtle-publishing/
@@ -4705,7 +5505,7 @@ jasoncw/turtle-publishing:
             - Jasoncw - Turtle Publishing (DN)/Jasoncw - Turtle Publishing (DN).SC4Model
             - Jasoncw - Turtle Publishing (DN)/Jasoncw - Turtle Publishing - Grow (CO$$$8_2x3).SC4Lot
             - Jasoncw - Turtle Publishing (DN)/Jasoncw - Turtle Publishing - Plop (CO$$$_2x3).SC4Lot
-      lastGenerated: 2024-12-16T12:27:43.832Z
+      lastGenerated: 2025-01-06T12:13:25.972Z
       lastModified: 2022-12-25T05:10:21.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.819Z
@@ -4719,7 +5519,7 @@ jasoncw/turtle-publishing:
             - Jasoncw - Turtle Publishing (MN)/Jasoncw - Turtle Publishing (MN).SC4Model
             - Jasoncw - Turtle Publishing (MN)/Jasoncw - Turtle Publishing - Grow (CO$$$8_2x3).SC4Lot
             - Jasoncw - Turtle Publishing (MN)/Jasoncw - Turtle Publishing - Plop (CO$$$_2x3).SC4Lot
-      lastGenerated: 2024-12-16T12:27:43.809Z
+      lastGenerated: 2025-01-06T12:13:25.967Z
       lastModified: 2022-12-25T05:10:21.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.800Z
@@ -4737,6 +5537,7 @@ jasoncw/union-bank-plaza:
         categories: co$$
         flamability: 40
         garbage: 8
+        model: 6bc32233
         name: Jasoncw - Union Bank Plaza (CO$$10_4x3)(CAM)
         pollution: 17
         pollutionRadius: 5
@@ -4753,6 +5554,7 @@ jasoncw/union-bank-plaza:
         categories: co$$
         flamability: 40
         garbage: 8
+        model: 6bc32233
         name: Jasoncw - Union Bank Plaza (CO$$12_4x2)(CAM)
         pollution: 17
         pollutionRadius: 5
@@ -4769,6 +5571,7 @@ jasoncw/union-bank-plaza:
         categories: co$$
         flamability: 40
         garbage: 8
+        model: 6bc32233
         name: Jasoncw - Union Bank Plaza (CO$$8_4x2)
         pollution: 17
         pollutionRadius: 5
@@ -4785,6 +5588,7 @@ jasoncw/union-bank-plaza:
         categories: co$$
         flamability: 40
         garbage: 8
+        model: 6bc32233
         name: Jasoncw - Union Bank Plaza (CO$$8_4x3)
         pollution: 17
         pollutionRadius: 5
@@ -4803,6 +5607,7 @@ jasoncw/union-bank-plaza:
         flamability: 40
         garbage: 8
         menu: Landmarks
+        model: 6bc32233
         name: Jasoncw - Union Bank Plaza (CO$$_4x2)
         pollution: 17
         pollutionRadius: 5
@@ -4822,6 +5627,7 @@ jasoncw/union-bank-plaza:
         flamability: 40
         garbage: 8
         menu: Landmarks
+        model: 6bc32233
         name: Jasoncw - Union Bank Plaza (CO$$_4x3)
         pollution: 17
         pollutionRadius: 5
@@ -4846,10 +5652,24 @@ jasoncw/union-bank-plaza:
         building: dc444322
         density: high
         name: CO$$10_4x3_Union Bank Plaza (CAM)
+        props:
+          - 2a100000
+          - 2a8a0000
+          - 2a110000
+          - 2ac00000
+          - 2ad20000
+          - '16660000'
+          - 2ad30000
+          - '1e990000'
+          - 2aa80000
         requirements:
           cam: true
         size: 4x3
         stage: 10
+        textures:
+          - 258f0000
+          - 25b00000
+          - '26200000'
     Jasoncw - Union Bank Plaza - Grow (CO$$12_4x2)(CAM).SC4Lot:
       dc4454a1:
         building: dc4454a1
@@ -4859,6 +5679,8 @@ jasoncw/union-bank-plaza:
           cam: true
         size: 4x2
         stage: 12
+        textures:
+          - 258f0000
     Jasoncw - Union Bank Plaza - Grow (CO$$8_4x2).SC4Lot:
       3c4455ca:
         building: 3c4455ca
@@ -4866,23 +5688,55 @@ jasoncw/union-bank-plaza:
         name: CO$$8_4x2_Union Bank Plaza
         size: 4x2
         stage: 8
+        textures:
+          - 258f0000
     Jasoncw - Union Bank Plaza - Grow (CO$$8_4x3).SC4Lot:
       dc444ff8:
         building: dc444ff8
         density: high
         name: CO$$8_4x3_Union Bank Plaza
+        props:
+          - 2a100000
+          - 2a8a0000
+          - 2a110000
+          - 2ac00000
+          - 2ad20000
+          - '16660000'
+          - 2ad30000
+          - '1e990000'
+          - 2aa80000
         size: 4x3
         stage: 8
+        textures:
+          - 258f0000
+          - 25b00000
+          - '26200000'
     Jasoncw - Union Bank Plaza - Plop (CO$$_4x2).SC4Lot:
       bc4453cf:
         building: bc4453cf
         name: PLOP_4x2_Union Bank Plaza
         size: 4x2
+        textures:
+          - 258f0000
     Jasoncw - Union Bank Plaza - Plop (CO$$_4x3).SC4Lot:
       2c443943:
         building: 2c443943
         name: PLOP_4x3_Union Bank Plaza
+        props:
+          - 2a100000
+          - 2a8a0000
+          - 2a110000
+          - 2ac00000
+          - 2ad20000
+          - '16660000'
+          - 2ad30000
+          - '1e990000'
+          - 2aa80000
         size: 4x3
+        textures:
+          - 258f0000
+          - 25b00000
+          - '26200000'
   name: Union Bank Plaza
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_11/Union-Bank-Plaza-P0.thumb.jpg.5d10bef66cce05e1194b58e5189fbc2e.jpg
   url: https://community.simtropolis.com/files/file/34728-union-bank-plaza/
@@ -4895,7 +5749,7 @@ jasoncw/union-bank-plaza:
         - id: simtropolis/34728-union-bank-plaza#190336
           include:
             - Jasoncw - Union Bank Plaza (CAMeLots)
-      lastGenerated: 2024-12-16T14:36:27.598Z
+      lastGenerated: 2025-01-06T12:13:25.696Z
       lastModified: 2021-11-01T18:43:06.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.164Z
@@ -4910,7 +5764,7 @@ jasoncw/union-bank-plaza:
         - id: simtropolis/34728-union-bank-plaza#190336
           include:
             - Jasoncw - Union Bank Plaza (CAMeLots)
-      lastGenerated: 2024-12-16T14:36:27.590Z
+      lastGenerated: 2025-01-06T12:13:25.685Z
       lastModified: 2021-11-01T18:43:06.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.079Z
@@ -4932,6 +5786,7 @@ jasoncw/us-bank-center:
         flamability: 40
         garbage: 13
         menu: Landmarks
+        model: 5a54b32d
         name: Jasoncw-US-Bank-Center
         pollution: 26
         pollutionRadius: 5
@@ -4952,6 +5807,7 @@ jasoncw/us-bank-center:
         flamability: 35
         garbage: 11
         menu: Landmarks
+        model: 5a54b32d
         name: Jasoncw-US-Bank-Center
         pollution: 28
         pollutionRadius: 6
@@ -4973,6 +5829,7 @@ jasoncw/us-bank-center:
         flamability: 35
         garbage: 11
         label: US Bank Center
+        model: 5a54b32d
         name: Jasoncw-US-Bank-Center
         pollution: 28
         pollutionRadius: 6
@@ -4991,6 +5848,7 @@ jasoncw/us-bank-center:
         flamability: 35
         garbage: 11
         label: US Bank Center
+        model: 5a54b32d
         name: Jasoncw-US-Bank-Center
         pollution: 28
         pollutionRadius: 6
@@ -5008,6 +5866,7 @@ jasoncw/us-bank-center:
         flamability: 40
         garbage: 13
         label: US Bank Center
+        model: 5a54b32d
         name: Jasoncw-US-Bank-Center
         pollution: 26
         pollutionRadius: 5
@@ -5025,6 +5884,7 @@ jasoncw/us-bank-center:
         flamability: 40
         garbage: 13
         label: US Bank Center
+        model: 5a54b32d
         name: Jasoncw-US-Bank-Center
         pollution: 26
         pollutionRadius: 5
@@ -5060,40 +5920,136 @@ jasoncw/us-bank-center:
       fbb09f4c:
         building: fbb09f4c
         name: CO$$_5x10_US-Bank-Center_PLOP
+        props:
+          - 3a5b3095
+          - 1ed70000
+          - 1ed90000
+          - 2a8b0000
+          - 2a100000
+          - 2a110000
+          - 2a8a0000
+          - 2aa80000
+          - 2aa90000
+          - 2ab60000
         size: 5x10
+        textures:
+          - 258f0000
+          - '26360000'
     Jasoncw - US Bank Center - CO$$$ - 5x10 Plop.SC4Lot:
       1baa2c4c:
         building: 1baa2c4c
         name: CO$$$_5x10_US-Bank-Center_PLOP
+        props:
+          - 3a5b3095
+          - 1ed70000
+          - 1ed90000
+          - 2a8b0000
+          - 2a100000
+          - 2a110000
+          - 2a8a0000
+          - 2aa80000
+          - 2aa90000
+          - 2ab60000
         size: 5x10
+        textures:
+          - 258f0000
+          - '26360000'
     Jasoncw - US Bank Center - CO$$$7 - 5x10 Grow.SC4Lot:
       9baa1d9f:
         building: dbaa1b0a
         density: high
         name: CO$$$7_5x10_US-Bank-Center
+        props:
+          - 3a5b3095
+          - 1ed70000
+          - 1ed90000
+          - 2a8b0000
+          - 2a100000
+          - 2a110000
+          - 2a8a0000
+          - 2aa80000
+          - 2aa90000
+          - 2ab60000
+          - 296f0000
+          - '29700000'
         size: 5x10
         stage: 7
+        textures:
+          - 258f0000
+          - 25ae0000
+          - '25900000'
     Jasoncw - US Bank Center - CO$$$8 - 10x5 Grow.SC4Lot:
       bbaa25f0:
         building: 5baa234d
         density: high
         name: CO$$$8_10x5_US-Bank-Center
+        props:
+          - 3a5b3095
+          - 1ed70000
+          - 1ed90000
+          - 2a8b0000
+          - 2a100000
+          - 2a110000
+          - 2a8a0000
+          - 2aa80000
+          - 2aa90000
+          - 2ab60000
+          - 296f0000
+          - '29700000'
         size: 10x5
         stage: 8
+        textures:
+          - 258f0000
+          - 25ae0000
+          - '25900000'
     Jasoncw - US Bank Center - CO$$7 - 5x10 Grow.SC4Lot:
       fbb09553:
         building: dbb0948c
         density: high
         name: CO$$7_5x10_US-Bank-Center
+        props:
+          - 3a5b3095
+          - 1ed70000
+          - 1ed90000
+          - 2a8b0000
+          - 2a100000
+          - 2a110000
+          - 2a8a0000
+          - 2aa80000
+          - 2aa90000
+          - 2ab60000
+          - 296f0000
+          - '29700000'
         size: 5x10
         stage: 7
+        textures:
+          - 258f0000
+          - 25ae0000
+          - '25900000'
     Jasoncw - US Bank Center - CO$$8 - 10x5 Grow.SC4Lot:
       bbb0996a:
         building: 3bb0985d
         density: high
         name: CO$$8_10x5_US-Bank-Center
+        props:
+          - 3a5b3095
+          - 1ed70000
+          - 1ed90000
+          - 2a8b0000
+          - 2a100000
+          - 2a110000
+          - 2a8a0000
+          - 2aa80000
+          - 2aa90000
+          - 2ab60000
+          - 296f0000
+          - '29700000'
         size: 10x5
         stage: 8
+        textures:
+          - 258f0000
+          - 25ae0000
+          - '25900000'
   name: US Bank Center
   support: https://community.simtropolis.com/forums/topic/4778-jasons-bats-tutorials
   thanks:
@@ -5108,12 +6064,13 @@ jasoncw/us-bank-center:
             - Jasoncw - US Bank Center (DN)/CO$$$
             - Jasoncw - US Bank Center (DN)/CO$$
             - Jasoncw - US Bank Center (DN)
-      lastGenerated: 2024-12-16T12:27:42.941Z
+      lastGenerated: 2025-01-06T12:13:25.520Z
       lastModified: 2024-10-10T03:24:40.000Z
       name: Dark Nite
       props:
         Jasoncw - US Bank Center - Sign (DN).dat:
           3a5b3095:
+            model: 1a56e64c
             name: Jasoncw-US-Bank-Center-Sign
       release: 2024-12-16T12:27:42.923Z
       requirements:
@@ -5126,12 +6083,13 @@ jasoncw/us-bank-center:
             - Jasoncw - US Bank Center (MN)/CO$$$
             - Jasoncw - US Bank Center (MN)/CO$$
             - Jasoncw - US Bank Center (MN)
-      lastGenerated: 2024-12-16T12:27:42.915Z
+      lastGenerated: 2025-01-06T12:13:25.513Z
       lastModified: 2024-10-10T03:24:40.000Z
       name: Maxis Nite
       props:
         Jasoncw - US Bank Center - Sign (MN).dat:
           3a5b3095:
+            model: 1a56e64c
             name: Jasoncw-US-Bank-Center-Sign
       release: 2024-12-16T12:27:42.890Z
       requirements:
@@ -5193,6 +6151,7 @@ jasoncw/vanwingerden-plaza-c:
             landmarkRadius: 15
             maintenance: 65
             menu: MiscTransit
+            model: b1d39911-003d
             name: Jasoncw - VanWingerden Plaza C
             pollution: 3
             pollutionRadius: 1
@@ -5201,16 +6160,166 @@ jasoncw/vanwingerden-plaza-c:
             water: 10
             waterPollution: 3
             waterPollutionRadius: 1
-      lastGenerated: 2024-12-16T12:27:42.883Z
+      lastGenerated: 2025-01-06T12:13:25.508Z
       lastModified: 2020-05-25T21:47:39.000Z
       lots:
         Jasoncw - VanWingerden Plaza C_d47c0d08.SC4Lot:
           d47c0d08:
             building: d47c0d08
             name: Jasoncw - VanWingerden Plaza C
+            props:
+              - 2ab60000
+              - 2ab70000
+              - 2af90000
             size: 2x2
+            textures:
+              - 25fa0000
+              - 25f80000
+              - 258f0000
       release: 2024-12-16T12:27:42.867Z
       version: 1.1.0
+
+jasoncw/wade-patton-insurance:
+  buildings:
+    Jasoncw - Hutchinson Garage (CS$2_1x1).SC4Lot:
+      1356b129:
+        bulldoze: 98
+        capacity:
+          cs$: 18
+        categories: cs$
+        flamability: 45
+        garbage: 4
+        model: f2d6b5d3
+        name: Jasoncw - Hutchinson Garage - Grow (CS$2_1x1)
+        pollution: 1
+        pollutionRadius: 5
+        power: 1
+        water: 5
+        waterPollution: 1
+        waterPollutionRadius: 5
+        worth: 137
+    Jasoncw - Patten Insurance Interim Healthcare (CS$$1_1x2).SC4Lot:
+      d356b49b:
+        bulldoze: 149
+        capacity:
+          cs$: 48
+          cs$$: 14
+        categories: cs$$
+        flamability: 40
+        garbage: 4
+        model: 72d6c4b1
+        name: Jasoncw - Patten Insurance Interim Healthcare (CS$$1_1x2)
+        pollution: 1
+        pollutionRadius: 5
+        power: 1
+        water: 15
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 411
+    Jasoncw - Patten Insurance Interim Healthcare (CS$$1_1x3).SC4Lot:
+      5356b725:
+        bulldoze: 149
+        capacity:
+          cs$: 77
+          cs$$: 22
+        categories: cs$$
+        flamability: 40
+        garbage: 4
+        model: 72d6c4b1
+        name: Jasoncw - Patten Insurance Interim Healthcare (CS$$1_1x3)
+        pollution: 1
+        pollutionRadius: 5
+        power: 2
+        water: 22
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 660
+  categories: cs$,cs$$
+  dependencies:
+    - mipro/mipro-essentials
+  description: |-
+    This set of businesses is located in Hutchinson, Kansas, USA. It comes as three versions, which all grow in the Chicago and New York tilesets.
+
+    - Wade Patton Insurance and Interim Healthcare, a 1x3 growable CS§§ lot.
+    - Wade Patton Insurance and Interim Healthcare, a 1x2 growable CS§§ lot.
+    - Hutchsinson Garage, a 1x1 CS§ lot.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2bdfde81d_PattonInsurance00.jpg.a7844f0b57e6da6f174f3739af3afda7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2c0a4ac46_PattonInsurance01.jpg.696b0fc199a036967301b6079b92a5cb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2c2115c49_PattonInsurance02.jpg.a858787cef1684f2961cada921b9a23a.jpg
+  lots:
+    Jasoncw - Hutchinson Garage (CS$2_1x1).SC4Lot:
+      9356b15d:
+        building: 1356b129
+        density: all
+        name: CS$2_1x1_Hutchinson Garage
+        props:
+          - a0000038
+        size: 1x1
+        stage: 2
+        textures:
+          - '25900000'
+          - f5c04000
+    Jasoncw - Patten Insurance Interim Healthcare (CS$$1_1x2).SC4Lot:
+      b356b4c6:
+        building: d356b49b
+        density: all
+        name: CS$$1_1x2_Patten Insurance Interim Healthcare
+        props:
+          - a0000038
+        size: 1x2
+        stage: 1
+        textures:
+          - 258f0000
+          - f5c04000
+    Jasoncw - Patten Insurance Interim Healthcare (CS$$1_1x3).SC4Lot:
+      d356b751:
+        building: 5356b725
+        density: all
+        name: CS$$1_1x3_Patten Insurance Interim Healthcare
+        props:
+          - 9356b6d6
+          - a0000038
+        size: 1x3
+        stage: 1
+        textures:
+          - 258f0000
+          - f5c04005
+          - f5c04000
+  name: Wade Patton Insurance and Interim Healthcare
+  props:
+    Jasoncw - Hutchinson Garage (Prop).SC4Desc:
+      9356b6d6:
+        model: f2d6b5d3
+        name: Jasoncw - Hutchinson Garage
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2d3c84c79_PattonInsurance00.thumb.jpg.88d2638b8aaad5b3f8bbed9f01c052b0.jpg
+  url: https://community.simtropolis.com/files/file/36626-wade-patton-insurance-and-interim-healthcare/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36626-wade-patton-insurance-and-interim-healthcare#204876
+          include:
+            - Jasoncw - Wade Patterson Insurance and Interim Healthcare (DN)
+      lastGenerated: 2025-01-06T12:13:26.360Z
+      lastModified: 2024-12-24T21:53:00.000Z
+      name: Dark Nite
+      release: 2025-01-06T11:16:11.824Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36626-wade-patton-insurance-and-interim-healthcare#204875
+          include:
+            - Jasoncw - Wade Patterson Insurance and Interim Healthcare (MN)
+      lastGenerated: 2025-01-06T12:13:26.355Z
+      lastModified: 2024-12-24T21:53:00.000Z
+      name: Maxis Nite
+      release: 2025-01-06T11:16:11.779Z
+      requirements:
+        darknite: false
+      version: 1.0.0
 
 jasoncw/webb-chapel-park-pavilion:
   buildings:
@@ -5221,6 +6330,7 @@ jasoncw/webb-chapel-park-pavilion:
         flamability: 10
         maintenance: 87
         menu: Parks
+        model: 9154717b
         name: Jasoncw - Webb Chapel Park Pavilion (PZ_2x2)
         pollution: 4294967292
         pollutionRadius: 4
@@ -5249,6 +6359,8 @@ jasoncw/webb-chapel-park-pavilion:
         building: 51d5c7c3
         name: PLOP_2x2_Webb Chapel Park Pavilion
         size: 2x2
+        textures:
+          - 252b0000
   name: Webb Chapel Park Pavilion
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_10/6707451535395_WebbChapelParkPavilion00.thumb.jpg.1c392bbfc8fbc0a882909ffa3769839d.jpg
   url: https://community.simtropolis.com/files/file/36497-webb-chapel-park-pavilion/
@@ -5258,7 +6370,7 @@ jasoncw/webb-chapel-park-pavilion:
         - id: simtropolis/36497-webb-chapel-park-pavilion#203818
           include:
             - Jasoncw - Webb Chapel Park Pavilion (DN)
-      lastGenerated: 2024-12-16T12:27:44.963Z
+      lastGenerated: 2025-01-06T12:13:26.737Z
       lastModified: 2024-10-10T03:08:05.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:44.953Z
@@ -5270,7 +6382,7 @@ jasoncw/webb-chapel-park-pavilion:
         - id: simtropolis/36497-webb-chapel-park-pavilion#203817
           include:
             - Jasoncw - Webb Chapel Park Pavilion (MN)
-      lastGenerated: 2024-12-16T12:27:44.944Z
+      lastGenerated: 2025-01-06T12:13:26.730Z
       lastModified: 2024-10-10T03:08:05.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:44.935Z
@@ -5289,6 +6401,7 @@ jasoncw/wellington-place:
         categories: r$$
         flamability: 40
         garbage: 4
+        model: 8bc70ae0
         name: Jasoncw - Wellington Place (R$$6_2x3)
         pollution: 3
         pollutionRadius: 5
@@ -5318,6 +6431,10 @@ jasoncw/wellington-place:
         name: R$$6_2x3_Wellington Place
         size: 2x3
         stage: 6
+        textures:
+          - 258f0000
+          - 258c0000
+          - 25bf0000
   name: Wellington Place
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_05/5ec72ff883fff_WellingtonPlace00.thumb.jpg.c78f1680c7f5ab2dc0be5dfb6f07009a.jpg
   url: https://community.simtropolis.com/files/file/33613-wellington-place/
@@ -5327,7 +6444,7 @@ jasoncw/wellington-place:
         - id: simtropolis/33613-wellington-place#181087
           include:
             - Jasoncw - Wellington Place (DN)
-      lastGenerated: 2024-12-16T12:27:42.461Z
+      lastGenerated: 2025-01-06T12:13:24.642Z
       lastModified: 2020-05-22T01:50:49.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:42.436Z
@@ -5339,7 +6456,7 @@ jasoncw/wellington-place:
         - id: simtropolis/33613-wellington-place#181086
           include:
             - Jasoncw - Wellington Place (MN)
-      lastGenerated: 2024-12-16T12:27:42.429Z
+      lastGenerated: 2025-01-06T12:13:24.638Z
       lastModified: 2020-05-22T01:50:49.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:42.315Z
@@ -5359,6 +6476,7 @@ jasoncw/wellman-building:
         categories: cs$$$
         flamability: 35
         garbage: 4
+        model: 30a0f28a
         name: Jasoncw - Wellman Building (CS$$$4_1x2)
         pollution: 1
         pollutionRadius: 6
@@ -5379,6 +6497,7 @@ jasoncw/wellman-building:
         flamability: 35
         garbage: 4
         menu: Landmarks
+        model: 30a0f28a
         name: Jasoncw - Wellman Building (CS$$$_1x2)
         pollution: 2
         pollutionRadius: 6
@@ -5407,11 +6526,17 @@ jasoncw/wellman-building:
         name: CS$$$4_1x2_WellmanBuilding
         size: 1x2
         stage: 4
+        textures:
+          - 258f0000
+          - f5c04000
     Jasoncw - Wellman Building - Plop (CS$$$_1x2).SC4Lot:
       8e8b21d2:
         building: 9e8b08ac
         name: PLOP_1x2_Wellman Building (CS$$$_1x2)
         size: 1x2
+        textures:
+          - 258f0000
+          - f5c04000
   name: Wellman Building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_08/wellman-00-STEX.thumb.jpg.0f2d0b9dd99def401885dc7a8d064668.jpg
   url: https://community.simtropolis.com/files/file/35246-wellman-building/
@@ -5421,7 +6546,7 @@ jasoncw/wellman-building:
         - id: simtropolis/35246-wellman-building#194905
           include:
             - Wellman Building (DN)
-      lastGenerated: 2024-12-16T12:27:43.652Z
+      lastGenerated: 2025-01-06T12:13:25.926Z
       lastModified: 2022-08-02T02:45:49.000Z
       name: Dark Nite
       release: 2024-12-16T12:27:43.640Z
@@ -5433,10 +6558,143 @@ jasoncw/wellman-building:
         - id: simtropolis/35246-wellman-building#194904
           include:
             - Wellman Building (MN)
-      lastGenerated: 2024-12-16T12:27:43.632Z
+      lastGenerated: 2025-01-06T12:13:25.920Z
       lastModified: 2022-08-02T02:45:49.000Z
       name: Maxis Nite
       release: 2024-12-16T12:27:43.620Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/xenon-center:
+  buildings:
+    Jasoncw - Xenon Center - Grow (CO$$$10_4x4)(CAM).SC4Lot:
+      939b2c86:
+        bulldoze: 4328
+        capacity:
+          co$$: 6022
+          co$$$: 4212
+        categories: co$$$
+        flamability: 35
+        garbage: 9
+        model: 931b1430
+        name: Jasoncw - Xenon Center (CO$$$10_4x4)(CAM)
+        pollution: 23
+        pollutionRadius: 6
+        power: 154
+        water: 1661
+        waterPollution: 23
+        waterPollutionRadius: 7
+        worth: 42908
+    Jasoncw - Xenon Center - Grow (CO$$$8_4x4).SC4Lot:
+      939b2c86:
+        bulldoze: 4328
+        capacity:
+          co$$: 6022
+          co$$$: 4212
+        categories: co$$$
+        flamability: 35
+        garbage: 9
+        model: 931b1430
+        name: Jasoncw - Xenon Center (CO$$$8_4x4)
+        pollution: 23
+        pollutionRadius: 6
+        power: 154
+        water: 1661
+        waterPollution: 23
+        waterPollutionRadius: 7
+        worth: 42908
+    Jasoncw - Xenon Center - Plop (CO$$$_4x4).SC4Lot:
+      e39dda9b:
+        bulldoze: 4328
+        capacity:
+          co$$: 6022
+          co$$$: 4212
+        categories: landmarks,co$$$
+        cost: 67688
+        flamability: 35
+        garbage: 9
+        menu: Landmarks
+        model: 931b1430
+        name: Jasoncw - Xenon Center (CO$$$_4x4)
+        pollution: 23
+        pollutionRadius: 6
+        power: 154
+        submenu: Commercial/CO$$$
+        water: 1661
+        waterPollution: 23
+        waterPollutionRadius: 7
+        worth: 42908
+  categories: co$$$,landmarks,cam
+  description: |-
+    Xenon Center is a 4x4 office building for the Euro tileset.
+
+    There's a stage 8 version for people who do not use the CAM, and a stage 10 version for people who do.
+
+    - 4x4 growable CO§§§ lot.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2ed10dfa5_00XenonCenter.jpg.8b441266ad79d97735aa8bb9971ae329.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2ed7a5a50_01XenonCenter.jpg.42ca94408e548608240a672f330213f8.jpg
+  lots:
+    Jasoncw - Xenon Center - Grow (CO$$$10_4x4)(CAM).SC4Lot:
+      039b2cca:
+        building: 939b2c86
+        density: high
+        name: CO$$$10_4x4_Xenon Center
+        requirements:
+          cam: true
+        size: 4x4
+        stage: 10
+        textures:
+          - '262e0000'
+    Jasoncw - Xenon Center - Grow (CO$$$8_4x4).SC4Lot:
+      039b2cca:
+        building: 939b2c86
+        density: high
+        name: CO$$$8_4x4_Xenon Center
+        size: 4x4
+        stage: 8
+        textures:
+          - '262e0000'
+    Jasoncw - Xenon Center - Plop (CO$$$_4x4).SC4Lot:
+      e39dda9b:
+        building: e39dda9b
+        name: CO$$$_4x4_Xenon Center
+        size: 4x4
+        textures:
+          - '262e0000'
+  name: Xenon Center
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/676b2f27467ef_00XenonCenter.thumb.jpg.3c70f098bf27a3dc95b00e21ff938bb6.jpg
+  url: https://community.simtropolis.com/files/file/36629-xenon-center/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36629-xenon-center#204889
+          include:
+            - Jasoncw - Xenon Center (DN)
+        - id: simtropolis/36629-xenon-center#204890
+          include:
+            - Jasoncw - Xenon Center (CAM)
+      lastGenerated: 2025-01-06T12:13:26.424Z
+      lastModified: 2024-12-24T22:01:11.000Z
+      name: Dark Nite
+      release: 2025-01-06T11:16:11.352Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/36629-xenon-center#204888
+          include:
+            - Jasoncw - Xenon Center (MN)
+        - id: simtropolis/36629-xenon-center#204890
+          include:
+            - Jasoncw - Xenon Center (CAM)
+      lastGenerated: 2025-01-06T12:13:26.413Z
+      lastModified: 2024-12-24T22:01:11.000Z
+      name: Maxis Nite
+      release: 2025-01-06T11:16:11.149Z
       requirements:
         darknite: false
       version: 1.0.0

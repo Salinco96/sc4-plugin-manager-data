@@ -30,7 +30,7 @@ orange/aesculus:
           id: simtropolis/27001-vip-orange-aesculus
           include:
             - VIP/Orange/Aesculus
-      lastGenerated: 2024-12-13T11:23:38.863Z
+      lastGenerated: 2025-01-06T12:13:27.774Z
       lastModified: 2024-02-04T10:24:41.000Z
       mmps:
         VIP_Or_Aesculus_Seasonal.dat:
@@ -49,17 +49,23 @@ orange/aesculus:
                 name: VIP_Or_FL_Aesculus_Seasonal_05
         VIP_Or_Aesculus_Summer.dat:
           78da2009:
+            model: 7bd15486
             name: VIP_Or_FL_Aesculus_Summer_00
             stages:
               - id: 78da200a
+                model: dbd15dd3
                 name: VIP_Or_FL_Aesculus_Summer_01
               - id: 78da200b
+                model: fbd1643f
                 name: VIP_Or_FL_Aesculus_Summer_02
               - id: 78da200c
+                model: fbd07936
                 name: VIP_Or_FL_Aesculus_Summer_03
               - id: 78da200d
+                model: bbd0f803
                 name: VIP_Or_FL_Aesculus_Summer_04
               - id: 78da200e
+                model: bbd11d02
                 name: VIP_Or_FL_Aesculus_Summer_05
       release: 2024-12-03T16:03:49.352Z
       version: 1.0.0
@@ -96,7 +102,7 @@ orange/fagus:
           id: simtropolis/27008-vip-orange-fagus
           include:
             - VIP/Orange/Fagus
-      lastGenerated: 2024-12-13T11:23:38.871Z
+      lastGenerated: 2025-01-06T12:13:27.782Z
       lastModified: 2024-02-04T10:19:19.000Z
       mmps:
         VIP_Or_Fagus_Seasonal.dat:
@@ -113,15 +119,20 @@ orange/fagus:
                 name: VIP_Or_FL_Fagus_Seasonal_05
         VIP_Or_Fagus_Summer.dat:
           78da2015:
+            model: 5bd95aea
             name: VIP_Or_FL_Fagus_Summer_01
             stages:
               - id: 78da2016
+                model: fbd9521d
                 name: VIP_Or_FL_Fagus_Summer_02
               - id: 78da2017
+                model: 1bd914e7
                 name: VIP_Or_FL_Fagus_Summer_03
               - id: 78da2018
+                model: 1bd8643a
                 name: VIP_Or_FL_Fagus_Summer_04
               - id: 78da2019
+                model: 7bd85213
                 name: VIP_Or_FL_Fagus_Summer_05
       release: 2024-12-03T16:03:49.352Z
       version: 1.0.0
@@ -158,34 +169,45 @@ orange/pinus-nigra:
           id: simtropolis/28847-vip-orange-pinus-nigra-v2
           include:
             - VIP/Orange/Pinus Nigra
-      lastGenerated: 2024-12-13T11:23:38.881Z
+      lastGenerated: 2025-01-06T12:13:27.792Z
       lastModified: 2024-02-04T10:35:34.000Z
       mmps:
         VIP_Or_PinusNigra_Evergreen_MMP.dat:
           78da1030:
+            model: 1a4ba992
             name: Or_TSC_Flplop_PinusNigra
             stages:
               - id: 78da1031
+                model: 1a4ba992
                 name: zzoff_plop_PinusNigra01
               - id: 78da1032
+                model: 9a4c327e
                 name: zzoff_plop_PinusNigra02
               - id: 78da1033
+                model: ba4bacc6
                 name: zzoff_plop_PinusNigra03
               - id: 78da1034
+                model: 3a4c2724
                 name: zzoff_plop_PinusNigra04
               - id: 78da1035
+                model: 1a4c355d
                 name: zzoff_plop_PinusNigra05
       props:
         VIP_Or_PinusNegra_Props.dat:
           1ac8e9ec:
+            model: 1a4ba992
             name: VIP_Or_FL_PinusNigra01
           7ac97662:
+            model: 3a4c2724
             name: VIP_Or_FL_PinusNigra03
           bac8ed81:
+            model: ba4bacc6
             name: VIP_Or_FL_PinusNigra02
           bac97696:
+            model: 1a4c355d
             name: VIP_Or_FL_PinusNigra05
           dac97670:
+            model: 9a4c327e
             name: VIP_Or_FL_PinusNigra04
       release: 2024-12-03T16:03:49.352Z
       version: 2.0.0

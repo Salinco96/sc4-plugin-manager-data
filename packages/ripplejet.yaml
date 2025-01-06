@@ -13,6 +13,7 @@ ripplejet/census-repository-building:
           $$: 5
         maintenance: 50
         menu: Rewards
+        model: d17c864e
         name: Census Repository Vault
         pollution: 1
         pollutionRadius: 3
@@ -38,6 +39,7 @@ ripplejet/census-repository-building:
         landmarkRadius: 20
         maintenance: 400
         menu: Rewards
+        model: 5465811a
         name: Census Repository Facility V3
         pollution: 3
         pollutionRadius: 3
@@ -67,16 +69,30 @@ ripplejet/census-repository-building:
       645e467b:
         building: 645e467b
         name: RW_2x2_Census Repository Vault
+        props:
+          - a0000069
+          - a000005f
+          - 1dfe0000
         size: 2x2
+        textures:
+          - 262c0000
     RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
       6471f58b:
         building: 6471f58b
         name: RW_3x1_Census Repository Facility_ZP_ULTRA
+        props:
+          - a000007f
+          - 1689d35d
+          - 1689d23a
         size: 3x1
+        textures:
+          - 258f0000
+          - '26370000'
   name: BSC Census Repository Building
   props:
     RJ - Census_Repository_Model_and_Query_3.1.dat:
       16888cf8:
+        model: 5465811a
         name: Census Repository Facility
       1689d23a:
         name: RJ - Census Repository Phone Booth
@@ -85,6 +101,7 @@ ripplejet/census-repository-building:
       8956a699:
         name: Gnome_CensusRepository
       b6888d35:
+        model: d17c864e
         name: Census Repository Vault
   readme: Readme_Census_Repository_Facility_v3.5.htm
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
@@ -99,7 +116,7 @@ ripplejet/census-repository-building:
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
             - BSC/Ripplejet/Census Repository
-      lastGenerated: 2024-12-13T11:23:36.840Z
+      lastGenerated: 2025-01-06T12:13:24.367Z
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
       release: 2024-11-27T09:00:58.547Z
@@ -124,7 +141,7 @@ ripplejet/census-repository-building:
         - ripplejet: Original author
         - null-45: Query updates
       disabled: true
-      lastGenerated: 2024-12-18T09:40:53.733Z
+      lastGenerated: 2025-01-06T12:13:24.398Z
       lastModified: 2024-12-18T05:41:01.000Z
       name: More Demand Info by Null 45
       release: 2024-11-27T09:00:58.547Z
