@@ -58,6 +58,9 @@ ripplejet/census-repository-building:
         waterPollution: 3
         waterPollutionRadius: 4
   categories: rewards
+  dependencies:
+    - bsc/textures-vol01
+    - maxis/maxis-buildings-as-props
   description: BSC Census Repository Building by RippleJet.
   lots:
     RW_2x2_Census Repository Vault.SC4Lot:

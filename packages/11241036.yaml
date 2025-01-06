@@ -7172,10 +7172,10 @@
             - STEX
           id: simtropolis/28975-traffic-blocker-set
           include:
-            - STEX
             - z_TBS SAM 8 Override.dat:
                 condition:
                   sam-8: true
+            - STEX
       buildings:
         Traffic Blocker Set.dat:
           1f4259aa:

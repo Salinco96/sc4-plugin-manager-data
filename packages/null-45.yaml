@@ -567,6 +567,59 @@ null-45/disable-network-construction-sounds:
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
 
+null-45/extended-terrain-dll:
+  categories: dependencies,dll
+  description: |-
+    A DLL Plugin for SimCity 4 that adds support for more terrain types.
+
+    Based on the data in terrain.ini, Maxis appears to have originally intended for SC4 to have 4 different terrain types: Arctic, Desert, Temperate and Tropical. But that feature was cut at some point in the game's development, and they only implemented the Tropical terrain type.
+
+    This DLL mod adds a region view cheat code that displays a UI for the user to switch between the different terrain types. The available terrain types will be shown using the prefix the terrain mod specifies in terrain.ini. The prefix is the text that comes before the TextureMapTable and MiscTexture section names. Note that the Terrain not a valid terrain mod prefix, TerrainMiscTextures is the section the game uses for cliff textures that are shared between different texture mods.
+
+    This DLL mod is intended as a dependency for other mods that add new terrain types beyond the Tropical terrain type that Maxis created, it does not add any terrain types to the game by itself.
+
+    **Usage**
+
+    The DLL adds a ExtendedTerrain cheat when in the region view. This cheat code has no parameters and shows a dialog that allows the terrain type to be changed for that region.
+
+    **Troubleshooting**
+
+    The plugin should write a SC4ExtendedTerrain.log file in the same folder as the plugin.
+
+    The log contains status information for the most recent run of the plugin.
+
+    **Source Code and Support**
+
+    Plugin thread: [https://community.simtropolis.com/forums/topic/763433-extended-terrain-dll/](https://community.simtropolis.com/forums/topic/763433-extended-terrain-dll-beta/)
+
+    The plugin's source code and issue tracker are located on GitHub: [https://github.com/0xC0000054/sc4-extended-terrain](https://github.com/0xC0000054/sc4-extended-terrain/releases)
+
+    If you would like to make voluntary contributions to support me in continuing to create more content for SimCity 4, I accept donations via PayPal: https://paypal.me/0xC000005
+
+    Thanks to the few people who have donated to me.
+  logs: SC4ExtendedTerrain.log
+  name: Extended Terrain DLL
+  readme:
+    - README.htm
+    - LICENSE.txt
+    - Third Party Notices.txt
+  repository: https://github.com/0xC0000054/sc4-extended-terrain
+  support: https://community.simtropolis.com/forums/topic/763433-extended-terrain-dll-beta
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_12/STEXIcon.thumb.png.1e1a5147bb6858b1f77d91363878165e.png
+  url: https://community.simtropolis.com/files/file/36614-extended-terrain-dll/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Dll
+          id: simtropolis/36614-extended-terrain-dll
+          include:
+            - Dll
+      lastGenerated: 2024-12-20T07:38:12.164Z
+      lastModified: 2024-12-19T12:45:20.000Z
+      release: 2024-12-20T07:38:12.037Z
+      version: 1.0.0
+
 null-45/graphics-options:
   categories: graphics,dll
   description: |-
