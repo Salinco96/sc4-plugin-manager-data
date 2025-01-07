@@ -102,7 +102,7 @@ corinamarie/no-kickout-lower-wealth:
 corinamarie/parks-aura:
   authors:
     - cyclone-boom
-  categories: graphics,overrides
+  categories: graphics,dataviews,overrides
   deprecated: null-45/data-view-extensions-dll
   description: |-
     **It's time to explore *Park Effect* in Data View form.**
@@ -151,8 +151,6 @@ corinamarie/parks-aura:
 
     For representing the data, a **Color Ramp** scale is used.
 
-    As follows:
-
     ![Color Scale Thinger.png](https://www.simtropolis.com/objects/attachments/monthly_2020_01/5e2dccbcf3fb5_ColorScaleThinger.png.4488f0ef529da90d445cd97a59864711.png)
 
     This forms how the Data View panel appears with the 9 breakpoints:
@@ -191,10 +189,6 @@ corinamarie/parks-aura:
 
     **[zz_Deuteranopia DataView - Cori's Parks Aura v1.0.dat](https://community.simtropolis.com/applications/core/interface/file/attachment.php?id=53930)** ![*:read:](https://community.simtropolis.com/assets/emoticons/default_49.gif "*:read:")
 
-    Open the spoiler below for a sample:
-
-    Spoiler
-
     This is a simulated Deuteranopia preview using the [Color Oracle](https://colororacle.org/) tool:
 
     ![A - Parks Aura Deuteranopia Actual Preview.jpg](https://www.simtropolis.com/objects/attachments/monthly_2020_01/5e2dcfe8ed5bb_A-ParksAuraDeuteranopiaActualPreview.jpg.d264d4d0c3e078a3ffddcb36cc89724d.jpg)
@@ -205,19 +199,11 @@ corinamarie/parks-aura:
 
     (For those with Deuteranopia color blindness, these two images above should appear very similar, if not identical.)
 
-    On a related note, we previously created a Data Views mod for Deuteranopia:
-
-    As follows:
-
-    Note: The included Garbage view there would conflict with this Parks Aura mod since it replaces that, and so it'd be a case of installing one or the other (not both of them).
-
     **Note on Maxis Parks**
 
     An observation from testing is how the Maxis Parks generate a high amount of aura. This is cumulative which means it builds up as more are located within a close vicinity. As such it means they're prone to producing the maximum extent of Park Effect that is shown as the top end *Lovely* side of the scale.
 
     For reference, here's a list of the data values:
-
-    Spoiler
 
     M = **10** R = **10** Open Paved Area
 
@@ -310,8 +296,6 @@ corinamarie/parks-aura:
     In particular, the meticulous testing carefully conducted by [@Naomi57](https://community.simtropolis.com/profile/780182-naomi57/) with each posted beta version inspired this release to be possible.
 
     Thank you! ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:&#41;")
-  features:
-    - dataviews/parks-aura
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65181406f_ParksAura-LogoFeature.jpg.86a2a6ca8c608272e49c85a3c08a559d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e651fa0251_ParksAurav1.0-Preview01.jpg.cb7aa98268f2be063f4f8eb13c9ece61.jpg
@@ -319,6 +303,8 @@ corinamarie/parks-aura:
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65261eebc_ParksAurav1.0-Preview03.jpg.daad321b91147377bf6792d08c59b5b6.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e652932880_ParksAurav1.0-Preview04.jpg.5cf1482b8109684fc19b8d6141731946.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e652cb463d_ParksAurav1.0-Preview05.jpg.97900694503b62df1ebf4a8394bcb580.jpg
+  features:
+    - dataviews/parks-aura
   name: Cori's Parks Aura
   readme: ReadMe - Cori's Parks Aura v1.0.txt
   support: https://community.simtropolis.com/forums/topic/26475-no-jobs-and-abandonment-due-to-commute-time
@@ -330,5 +316,19 @@ corinamarie/parks-aura:
         - id: simtropolis/33412-coris-parks-aura
       lastGenerated: 2025-01-06T12:13:27.734Z
       lastModified: 2020-01-27T04:34:02.000Z
+      name: Default
       release: 2025-01-06T11:26:36.812Z
+      version: 1.0.0
+    deuteranopia:
+      assets:
+        - id: simtropolis/33412-coris-parks-aura
+          exclude:
+            - z_DataView - Cori's Parks Aura v1.0.dat
+        - id: simtropolis/53930-coris-parks-aura-deuteranopia
+          include:
+            - zz_Deuteranopia DataView - Cori's Parks Aura v1.0.dat
+      lastGenerated: 2025-01-07T06:19:58.072Z
+      lastModified: 2020-01-27T04:34:02.000Z
+      name: Deuteranopia
+      release: 2025-01-07T06:19:58.072Z
       version: 1.0.0
