@@ -3,16 +3,14 @@ agriculture:
   priority: 410
 airplanes:
   label: Airplanes
-  parent: airports
 airports:
   label: Airports
-  parent: transport
   priority: 740
 access:
   label: Accessibility
+  parent: mods
 automata:
   label: Automata
-  parent: transport
   priority: 760
 bikes:
   label: Bikes
@@ -28,7 +26,6 @@ bugfixes:
   parent: mods
 bus:
   label: Bus
-  parent: transport
 cam:
   label: CAM
 canals:
@@ -38,7 +35,7 @@ cars:
   label: Cars
 cheats:
   label: Cheats
-  priority: 10
+  parent: mods
 commercial:
   label: Commercial
   priority: 300
@@ -77,13 +74,11 @@ ferry:
   parent: waterfront
 fillers:
   label: Fillers
-  priority: 660
 fire:
   label: Fire
   parent: civics
 flora:
   label: Flora
-  priority: 660
 freight:
   label: Freight stations
   parent: rail
@@ -127,6 +122,7 @@ mmps:
   priority: 670
 mods:
   label: Mods
+  priority: 10
 monorail:
   label: Monorail
   parent: rail
@@ -151,13 +147,13 @@ passengers:
   parent: rail
 pedestrians:
   label: Pedestrians
-  parent: transport
 police:
   label: Police
   parent: civics
 power:
   label: Energy
   parent: utilities
+  priority: 510
 props:
   label: Props
   parent: dependencies
@@ -173,7 +169,7 @@ residential:
   priority: 200
 rewards:
   label: Rewards
-  parent: landmarks
+  parent: civics
 roundabouts:
   label: Roundabouts
   parent: transport
@@ -226,9 +222,11 @@ utilities:
 waste:
   label: Waste
   parent: utilities
+  priority: 530
 water:
   label: Water
   parent: utilities
+  priority: 520
 waterfront:
   label: Waterfront
   priority: 750
