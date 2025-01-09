@@ -61,7 +61,6 @@ ripplejet/census-repository-building:
         waterPollutionRadius: 4
   categories: rewards
   dependencies:
-    - bsc/textures-vol01
     - maxis/maxis-buildings-as-props
   description: BSC Census Repository Building by RippleJet.
   lots:
@@ -88,6 +87,10 @@ ripplejet/census-repository-building:
         textures:
           - 258f0000
           - '26370000'
+  models:
+    RJ - Census_Repository_Model_and_Query_3.1.dat:
+      - 5465811a
+      - d17c864e
   name: BSC Census Repository Building
   props:
     RJ - Census_Repository_Model_and_Query_3.1.dat:
@@ -116,7 +119,7 @@ ripplejet/census-repository-building:
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
             - BSC/Ripplejet/Census Repository
-      lastGenerated: 2025-01-06T12:13:24.367Z
+      lastGenerated: 2025-01-08T13:07:29.511Z
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
       release: 2024-11-27T09:00:58.547Z
@@ -141,7 +144,7 @@ ripplejet/census-repository-building:
         - ripplejet: Original author
         - null-45: Query updates
       disabled: true
-      lastGenerated: 2025-01-06T12:13:24.398Z
+      lastGenerated: 2025-01-08T13:07:29.536Z
       lastModified: 2024-12-18T05:41:01.000Z
       name: More Demand Info by Null 45
       release: 2024-11-27T09:00:58.547Z

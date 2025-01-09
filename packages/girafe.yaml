@@ -1,3 +1,797 @@
+girafe/agripack-vol01:
+  authors:
+    - bsc
+    - vip
+  categories: agriculture,mmps
+  dependencies:
+    - girafe/flora-pack
+    - pegasus/mtp-super-pack
+  description: |-
+    Special thanks to **BSC** **/ VIP Members.**
+
+    The v2 update contains the compiled props and updated/cleaned up lot files too. They are also BTE enabled.
+
+    **Tractor props**:
+
+    Grfe_fertilizer_spreaders (seasonal props)
+
+    Grfe_field_irrigation_32m
+
+    Grfe_field_irrigation_48m
+
+    Grfe_harvester_A
+
+    Grfe_harvester_B (seasonal props)
+
+    Grfe_harvester_C
+
+    Grfe_harvester_D (seasonal props)
+
+    Grfe_harvester_E
+
+    Grfe_harvester_F (seasonal props)
+
+    Grfe_harvester_G (seasonal props)
+
+    Grfe_plow (seasonal props)
+
+    Grfe_roll_belt_A (seasonal props)
+
+    Grfe_roll_belt_B
+
+    Grfe_seed_drill (seasonal props)
+
+    Grfe_self_propelled_sprayer_A
+
+    Grfe_self_propelled_sprayer_B (seasonal props)
+
+    Grfe_sprayer
+
+    Grfe_sprayer_B
+
+    Grfe_stubble_cultivator (seasonal props)
+
+    Grfe_tractor_A (seasonal props)
+
+    Grfe_tractor_C (seasonal props)
+
+    Grfe_tractor_D (seasonal props)
+
+    Grfe_trailer_A
+
+    Grfe_trailer_B
+
+    Grfe_trailer_C
+
+    Grfe_trailer_harvester_A
+
+    **LOT**:
+
+    Corn, rapeseed and wheat are available as ploppable LOT (1 LOT with tractors and 1 LOT without tractors) that you can find under park menu.
+
+    This pack also includes growable farms and farm fields.
+
+    Note: the farms do not include any visible building (farm house) only plain field.
+  images:
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_agripack_2.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_agripack_1.jpg
+    - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Image_agripack_props.jpg
+  name: BSC-VIP Girafe Agripack Vol01
+  readme:
+    - readme_agripack_vol. 1.html
+    - readme_agripack_vol. 1_additional info.txt
+  variants:
+    default:
+      assets:
+        - docs:
+            - _Documents/BSC_Readmes/girafe
+          exclude:
+            - BSC/girafe/Wheat
+          id: sc4evermore/210-bsc-vip-girafe-agripack-vol01-v2
+          include:
+            - BSC/BSCProps/Grfe Props
+            - BSC/girafe/Agripack
+      buildings:
+        Corn/Grfe_seasonal_corn_farm-0x6534284a-0xec357b46-0xdce4f044.SC4Desc:
+          dce4f044:
+            bulldoze: 31
+            capacity:
+              ir: 2
+            categories: agriculture
+            flamability: 50
+            garbage: 4
+            model: ec87ce8a
+            name: Grfe_seasonal_corn_farm
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 309
+        Corn/Grfe_seasonal_corn_field-0x6534284a-0xec357b46-0x7ce4f0e5.SC4Desc:
+          7ce4f0e5:
+            bulldoze: 10
+            capacity:
+              ir: 1
+            model: ec87ce8a
+            name: Grfe_seasonal_corn_field
+            pollution: 4294967295
+            pollutionRadius: 2
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Corn/PLOP_1x1_Grfe_seasonal_corn_field_2ce2e2d9.SC4Lot:
+          2ce2e2d9:
+            bulldoze: 10
+            cost: 40
+            description: Seasonal corn field
+            label: Seasonal corn field
+            maintenance: 5
+            menu: Parks
+            model: null
+            name: Grfe_seasonal_corn_field
+            pollution: 4294967294
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Corn/PLOP_1x1_Grfe_seasonal_corn_field_3ce4f0f7.SC4Lot:
+          3ce4f0f7:
+            bulldoze: 10
+            capacity:
+              ir: 1
+            model: ec87ce8a
+            name: Grfe_seasonal_corn_field
+            pollution: 4294967295
+            pollutionRadius: 2
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Corn/PLOP_1x1_Grfe_seasonal_corn_field_with_tractors_ece2e03a.SC4Lot:
+          ece2e03a:
+            bulldoze: 10
+            cost: 40
+            description: Seasonal corn field with tractors
+            label: Seasonal corn field with tractors
+            maintenance: 5
+            menu: Parks
+            model: null
+            name: Grfe_seasonal_corn_field_with_tractors
+            pollution: 4294967294
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Rapeseed/Grfe_seasonal_rapeseed_farm-0x6534284a-0xec357b46-0xbce28754.SC4Desc:
+          bce28754:
+            bulldoze: 31
+            capacity:
+              ir: 2
+            categories: agriculture
+            flamability: 50
+            garbage: 4
+            model: ec8789da
+            name: Grfe_seasonal_rapeseed_farm
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 309
+        Rapeseed/Grfe_seasonal_rapeseed_field-0x6534284a-0xec357b46-0xdce2838a.SC4Desc:
+          dce2838a:
+            bulldoze: 10
+            capacity:
+              ir: 1
+            model: ec8789da
+            name: Grfe_seasonal_rapeseed_field
+            pollution: 4294967295
+            pollutionRadius: 2
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_3ce28398.SC4Lot:
+          3ce28398:
+            bulldoze: 10
+            capacity:
+              ir: 1
+            model: ec8789da
+            name: Grfe_seasonal_rapeseed_field
+            pollution: 4294967295
+            pollutionRadius: 2
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_ece29827.SC4Lot:
+          ece29827:
+            bulldoze: 10
+            cost: 40
+            description: Seasonal rapeseed field
+            label: Seasonal rapeseed field
+            maintenance: 5
+            menu: Parks
+            model: null
+            name: Grfe_seasonal_rapeseed_field
+            pollution: 4294967294
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_with_tractors_cce021f0.SC4Lot:
+          cce021f0:
+            bulldoze: 10
+            cost: 40
+            description: Seasonal rapeseed field with tractors
+            label: Seasonal rapeseed field with tractors
+            maintenance: 5
+            menu: Parks
+            model: null
+            name: Grfe_seasonal_rapeseed_field_with_tractors
+            pollution: 4294967294
+            pollutionRadius: 2
+            relief:
+              r$: 250
+              r$$: 250
+              r$$$: 250
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Wheat/Grfe_seasonal_wheat_field_farm_building-0x6534284a-0xec357b46-0x3ce2628b.SC4Desc:
+          3ce2628b:
+            bulldoze: 70
+            capacity:
+              ir: 2
+            categories: agriculture
+            flamability: 50
+            garbage: 4
+            model: 8cd7d4ec
+            name: Grfe_seasonal_wheat_field_farm_building
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 309
+        Wheat/Grfe_seasonal_wheat_field_field_building-0x6534284a-0xec357b46-0x3ce27ae7.SC4Desc:
+          3ce27ae7:
+            bulldoze: 10
+            capacity:
+              ir: 1
+            model: 4cd7d51a
+            name: Grfe_seasonal_wheat_field_field_building
+            pollution: 4294967295
+            pollutionRadius: 2
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Wheat/PLOP_1x1_Girafe Wheat Field_dd53e03d.SC4Lot:
+          dd53e03d:
+            description: A seasonal plop version of the Girafe wheat field.
+            label: Seasonal Wheat Field by Girafe
+            menu: Parks
+            model: null
+            name: Seasonal Wheat Field by Girafe
+        Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_8ce16804.SC4Lot:
+          8ce16804:
+            bulldoze: 41
+            cost: 90
+            description: Seasonal wheat field
+            flamability: 10
+            label: Seasonal wheat field
+            maintenance: 63
+            menu: Parks
+            model: 8cb097f8
+            name: Grfe_seasonal_wheat_field
+            pollution: 4294967295
+            pollutionRadius: 2
+            power: 1
+            relief:
+              r$: 500
+              r$$: 500
+              r$$$: 500
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_field_building_bce27aec.SC4Lot:
+          bce27aec:
+            bulldoze: 10
+            capacity:
+              ir: 1
+            model: 4cd7d51a
+            name: Grfe_seasonal_wheat_field_field_building
+            pollution: 4294967295
+            pollutionRadius: 2
+            waterPollution: 1
+            waterPollutionRadius: 1
+        Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_with_tractors_6ce168a8.SC4Lot:
+          6ce168a8:
+            bulldoze: 41
+            cost: 90
+            description: Seasonal wheat field with tractors
+            flamability: 10
+            label: Seasonal wheat field with tractors
+            maintenance: 63
+            menu: Parks
+            model: 8cb097f8
+            name: Grfe_seasonal_wheat_field_with_tractors
+            pollution: 4294967295
+            pollutionRadius: 2
+            power: 1
+            relief:
+              r$: 500
+              r$$: 500
+              r$$$: 500
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 1
+      lastGenerated: 2025-01-08T13:07:29.583Z
+      lastModified: 2024-01-20T16:42:09.000Z
+      lots:
+        Corn/IR$1_1x1_Grfe_seasonal_corn_farm_dce4f04b.SC4Lot:
+          dce4f04b:
+            building: dce4f044
+            density: low
+            name: IR$1_1x1_Grfe_seasonal_corn_farm
+            props:
+              - af446000
+              - af442000
+              - af443000
+              - af444000
+              - af445000
+            size: 1x1
+            stage: 1
+            textures:
+              - 25da0000
+        Corn/PLOP_1x1_Grfe_seasonal_corn_field_2ce2e2d9.SC4Lot:
+          2ce2e2d9:
+            building: 2ce2e2d9
+            name: PLOP_1x1_Grfe_seasonal_corn_field
+            props:
+              - af446000
+              - af442000
+              - af443000
+              - af444000
+              - af445000
+            size: 1x1
+            textures:
+              - 25da0000
+        Corn/PLOP_1x1_Grfe_seasonal_corn_field_3ce4f0f7.SC4Lot:
+          3ce4f0f7:
+            building: 3ce4f0f7
+            name: PLOP_1x1_Grfe_seasonal_corn_field
+            props:
+              - af446000
+              - af442000
+              - af443000
+              - af444000
+              - af445000
+            size: 1x1
+            textures:
+              - 25da0000
+        Corn/PLOP_1x1_Grfe_seasonal_corn_field_with_tractors_ece2e03a.SC4Lot:
+          ece2e03a:
+            building: ece2e03a
+            name: PLOP_1x1_Grfe_seasonal_corn_field_with_tractors
+            props:
+              - af440005
+              - 0c571fcf
+              - ec571fbb
+              - ec571fe5
+              - 0c57ed8b
+              - 6c69941d
+              - af446000
+              - af442000
+              - af443000
+              - af444000
+              - af445000
+              - 4c6bef9c
+              - 2c6c0ccb
+            size: 1x1
+            textures:
+              - 25da0000
+        Rapeseed/IR$1_1x1_Grfe_seasonal_rapeseed_farm_ece28787.SC4Lot:
+          ece28787:
+            building: bce28754
+            density: low
+            name: IR$1_1x1_Grfe_seasonal_rapeseed_farm
+            props:
+              - 9f61e278
+              - 9f61f3fd
+              - 1f61d262
+              - 9f620923
+              - 9f62045d
+              - df620353
+              - af440005
+            size: 1x1
+            stage: 1
+            textures:
+              - 25da0000
+        Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_3ce28398.SC4Lot:
+          3ce28398:
+            building: 3ce28398
+            name: PLOP_1x1_Grfe_seasonal_rapeseed_field
+            props:
+              - 9f61e278
+              - 9f61f3fd
+              - 1f61d262
+              - 9f620923
+              - 9f62045d
+              - df620353
+              - af440005
+            size: 1x1
+            textures:
+              - 1da4438a
+              - 25da0000
+        Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_ece29827.SC4Lot:
+          ece29827:
+            building: ece29827
+            name: PLOP_1x1_Grfe_seasonal_rapeseed_field
+            props:
+              - 9f61e278
+              - 9f61f3fd
+              - 1f61d262
+              - 9f620923
+              - 9f62045d
+              - df620353
+              - af440005
+            size: 1x1
+            textures:
+              - 1da4438a
+              - 25da0000
+        Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_with_tractors_cce021f0.SC4Lot:
+          cce021f0:
+            building: cce021f0
+            name: PLOP_1x1_Grfe_seasonal_rapeseed_field_with_tractors
+            props:
+              - 9f61e278
+              - 9f61f3fd
+              - 1f61d262
+              - 9f620923
+              - 9f62045d
+              - df620353
+              - af440005
+              - 0c571fcf
+              - ec571fbb
+              - cc44c73f
+              - ec571fe5
+              - 0c57ed8b
+              - 4c595771
+              - 8c582eb4
+              - 2c6c0ccb
+            size: 1x1
+            textures:
+              - 25da0000
+        Wheat/IR$1_1x1_Grfe_seasonal_wheat_field_farm_building_8ce262d0.SC4Lot:
+          8ce262d0:
+            building: 3ce2628b
+            density: low
+            name: IR$1_1x1_Grfe_seasonal_wheat_field_farm_building
+            props:
+              - af440004
+              - af440002
+              - af440000
+              - af440001
+              - af440003
+              - dcd62688
+              - af440005
+            size: 1x1
+            stage: 1
+            textures:
+              - 25da0000
+        Wheat/PLOP_1x1_Girafe Wheat Field_dd53e03d.SC4Lot:
+          dd53e03d:
+            building: dd53e03d
+            name: PLOP_1x1_Girafe Wheat Field
+            props:
+              - af440004
+              - af440002
+              - af440000
+              - af440001
+              - af440003
+              - dcd62688
+              - af440005
+            size: 1x1
+            textures:
+              - 25da0000
+        Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_8ce16804.SC4Lot:
+          8ce16804:
+            building: 8ce16804
+            name: PLOP_1x1_Grfe_seasonal_wheat_field
+            props:
+              - af440004
+              - af440002
+              - af440000
+              - af440001
+              - af440003
+              - dcd62688
+              - af440005
+            size: 1x1
+            textures:
+              - 25da0000
+        Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_field_building_bce27aec.SC4Lot:
+          bce27aec:
+            building: bce27aec
+            name: PLOP_1x1_Grfe_seasonal_wheat_field_field_building
+            props:
+              - af440004
+              - af440002
+              - af440000
+              - af440001
+              - af440003
+              - dcd62688
+              - af440005
+            size: 1x1
+            textures:
+              - 25da0000
+        Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_with_tractors_6ce168a8.SC4Lot:
+          6ce168a8:
+            building: 6ce168a8
+            name: PLOP_1x1_Grfe_seasonal_wheat_field_with_tractors
+            props:
+              - af440004
+              - af440002
+              - af440000
+              - af440001
+              - af440003
+              - dcd62688
+              - af440005
+              - 0c571fcf
+              - ec571fbb
+              - cc44c73f
+              - ec571fe5
+              - 0c57ed8b
+              - 4c573019
+              - cc5d145a
+              - 2c6c0ccb
+            size: 1x1
+            textures:
+              - 25da0000
+      models:
+        Corn/Grfe_seasonal_corn_field-0x5ad0e817_0xec87ce8a_0x30000.SC4Model:
+          - ec87ce8a
+        Grfe_Props_Pack_Agripack_vol01_private.dat:
+          - 01caccec
+          - 0b47428e
+          - 0c3f7cbf
+          - 0c51d97b
+          - 0c60481e
+          - 0c868a72
+          - 1cbb1181
+          - 1cc127fc
+          - 1cc12877
+          - 2c52ee6c
+          - 2c6024de
+          - 3c395412
+          - 3c39ba7e
+          - 3cc141a3
+          - 3cc14c30
+          - 4c602876
+          - 4c602de6
+          - 4c868959
+          - 5c394ae9
+          - 5c39543d
+          - 6b4733f8
+          - 6c601c76
+          - 7cbec506
+          - 7cc1347e
+          - 7cc1447c
+          - 81cadf97
+          - 81caf118
+          - 81cb0209
+          - 8b6cdbf5
+          - 8c487ec3
+          - 8c488e6a
+          - 8c53034e
+          - 8c601546
+          - a1cb00df
+          - ac51d630
+          - ac52aa94
+          - ac52e74a
+          - ac66b1a1
+          - bc394384
+          - bcbb0913
+          - bcbec973
+          - cb6d1eee
+          - cc3f8029
+          - cc48976c
+          - cc51e8d9
+          - cc52ade0
+          - cc602f77
+          - cc66a81c
+          - cc769080
+          - dcbafe39
+          - dcc14157
+          - e1cae8f9
+          - eb47301b
+          - ec51d251
+          - ec52a637
+          - ec53363a
+          - ec5410ec
+          - ec60465b
+          - ec644cf3
+          - fcbf03d2
+          - fcbf10ee
+          - fcbfc8de
+        Rapeseed/Grfe_seasonal_rapeseed_field-0x5ad0e817_0xec8789da_0x30000.SC4Model:
+          - ec8789da
+        Wheat/Grfe_seasonal_wheat_field-0x5ad0e817_0x8cb097f8_0x30000.SC4Model:
+          - 8cb097f8
+        Wheat/Grfe_seasonal_wheat_field_farm_building-0x5ad0e817_0x8cd7d4ec_0x30000.SC4Model:
+          - 8cd7d4ec
+        Wheat/Grfe_seasonal_wheat_field_field_building-0x5ad0e817_0x4cd7d51a_0x30000.SC4Model:
+          - 4cd7d51a
+      props:
+        Grfe_Props_Pack_Agripack_vol01_private.dat:
+          0c571fcf:
+            name: Grfe_fertilizer_spreaders
+          0c57ed8b:
+            name: Grfe_seed_drill
+          0c582751:
+            model: cc52ade0
+            name: Grfe_trailer_B
+          0c659588:
+            family: af446000
+            name: Grfe_corn_blade
+          1cc1b41d:
+            family: af440002
+            name: Grfe_wheat_autumn_B
+          1cc3e820:
+            family: af440004
+            name: Grfe_wheat_blade_B
+          1cd636e3:
+            family: af440005
+            name: Grfe_haybale_empty_B
+          1f61d262:
+            name: Grfe_rapeseed_summer_blossom
+          2c6576b3:
+            family: af444000
+            name: Grfe_corn_summer_2
+          2c658f42:
+            family: af445000
+            name: Grfe_corn_autumn
+          2c658f54:
+            family: af445000
+            name: Grfe_corn_autumn_M
+          2c65959d:
+            family: af446000
+            name: Grfe_corn_blade_M
+          2c6c0ccb:
+            name: Grfe_self_propelled_sprayer_B
+          3cc170ec:
+            family: af440001
+            name: Grfe_wheat_summer
+          4c573019:
+            name: Grfe_tractor_A
+          4c57f1e9:
+            model: ac52aa94
+            name: Grfe_trailer_A
+          4c584a49:
+            model: 8c53034e
+            name: Grfe_sprayer
+          4c595771:
+            name: Grfe_tractor_C
+          4c5c45bc:
+            model: 0b47428e
+            name: Grfe_sprayer_B
+          4c657741:
+            family: af444000
+            name: Grfe_corn_summer_2_M
+          4c6bef9c:
+            name: Grfe_tractor_D
+          6c5c0f8d:
+            model: 6b4733f8
+            name: Grfe_field_irrigation_32m
+          6c5c0f9d:
+            model: eb47301b
+            name: Grfe_field_irrigation_48m
+          6c655c57:
+            family: af442000
+            name: Grfe_corn_spring
+          6c69941d:
+            name: Grfe_harvester_G
+          7cd69d2c:
+            family: af440005
+            model: 3c39ba7e
+            name: Grfe_haybale_empty_C
+          8c44c375:
+            model: 0c3f7cbf
+            name: Grfe_roll_belt_B
+          8c4dde7d:
+            model: cc48976c
+            name: Grfe_harvester_C
+          8c582eb4:
+            name: Grfe_harvester_D
+          8c58366c:
+            model: 2c52ee6c
+            name: Grfe_harvester_E
+          8c5cd4ca:
+            model: 8b6cdbf5
+            name: Grfe_self_propelled_sprayer_A
+          9cc3cd1a:
+            family: af440003
+            name: Grfe_poppy
+          9cc3d7ad:
+            family: af440003
+            name: Grfe_poppy_empty
+          9cc3eab1:
+            family: af440000
+            name: Grfe_wheat_spring_C
+          9f61e278:
+            name: Grfe_rapeseed_spring
+          9f61f3fd:
+            name: Grfe_rapeseed_summer_mature
+          9f62045d:
+            name: Grfe_rapeseed_blade
+          9f620923:
+            name: Grfe_rapeseed_autumn_cut
+          ac7bd792:
+            model: cc769080
+            name: Grfe_trailer_C
+          bcc16a3c:
+            family: af440002
+            name: Grfe_wheat_autumn
+          bcc1a9f8:
+            family: af440001
+            name: Grfe_wheat_summer_B
+          cc44c73f:
+            name: Grfe_roll_belt_A
+          cc4dd7c6:
+            model: 8c488e6a
+            name: Grfe_trailer_harvester_A
+          cc587de3:
+            name: Grfe_harvester_F
+          cc5d145a:
+            name: Grfe_harvester_B
+          cc656fd9:
+            family: af443000
+            name: Grfe_corn_summer_1
+          cc656fef:
+            family: af443000
+            name: Grfe_corn_summer_1_M
+          dcc3cd31:
+            family: af440003
+            name: Grfe_poppy_B
+          dcc3e80f:
+            family: af440004
+            name: Grfe_wheat_blade
+          dcc3f2b8:
+            family: af440000
+            name: Grfe_wheat_spring_D
+          dcd62688:
+            name: Grfe_swath_B
+          dcd62e04:
+            family: af440005
+            name: Grfe_haybale_B
+          dcd636d2:
+            family: af440005
+            name: Grfe_haybale_empty_A
+          df620353:
+            name: Grfe_swath_R
+          ec4dc939:
+            model: 8c487ec3
+            name: Grfe_harvester_A
+          ec571fbb:
+            name: Grfe_plow
+          ec571fe5:
+            name: Grfe_stubble_cultivator
+          ec6563d3:
+            family: af442000
+            name: Grfe_corn_spring_M
+          fcc26c91:
+            name: Grfe_swath
+      release: 2025-01-08T11:38:48.274Z
+      version: 2.0.0
+
 girafe/carpack:
   authors:
     - bsc
@@ -27,7 +821,7 @@ girafe/carpack:
           include:
             - BSC VIP Girafe Carpack*
             - BSC VIP Girafe Urbanpack*
-      lastGenerated: 2025-01-06T12:13:24.128Z
+      lastGenerated: 2025-01-08T13:07:29.344Z
       lastModified: 2024-08-21T22:51:45.000Z
       mmps:
         Grfe_CarPack_MMP vol01.dat:
@@ -518,6 +1312,515 @@ girafe/carpack:
               - id: af448269
                 model: bd70a571
                 name: VIP_Grfe_Car_Diag_80
+      models:
+        Grfe_Props_Pack_4_rue_des_Lilas.dat:
+          - '02161e27'
+          - 2216330e
+          - a2161b25
+        Grfe_Props_Pack_Carpack vol01-vol02-Original v2.dat:
+          - 18637bdc
+          - 186380d4
+          - 1864857a
+          - 1864c6c3
+          - 1864d06c
+          - 18651d3f
+          - 1865d95f
+          - 1865dc6a
+          - 1865de14
+          - 188b6198
+          - 18db33a9
+          - 18f73c2c
+          - 1a032c4d
+          - 1a042c55
+          - 1a0431f8
+          - 3863b560
+          - 3864c8d3
+          - 3868af19
+          - 3868cfe0
+          - 386a180f
+          - 388b14f4
+          - 388b15a9
+          - 388b6380
+          - 388b671e
+          - 38db353f
+          - 38f381d0
+          - 38f736ec
+          - 38f73c4c
+          - 38f78718
+          - 39db9f20
+          - 39dca1ec
+          - 3a0329a1
+          - 3a045654
+          - 3a486aec
+          - 3a486f98
+          - '58636394'
+          - 5863b8bd
+          - 5865db91
+          - 5868d185
+          - 586a1606
+          - 58886a6f
+          - 588b4b65
+          - 58bfd232
+          - 58db341f
+          - 58f385d8
+          - 58f38672
+          - 58f73c36
+          - 58f7872f
+          - 59db9de4
+          - 59db9f09
+          - 59db9f15
+          - 59dca1dd
+          - 5a0328c1
+          - 5a044eb9
+          - 5a486da5
+          - 7863b825
+          - 7864c5ab
+          - 7864e0ae
+          - 78651ded
+          - 7865dd79
+          - 7868d06f
+          - 786a0f9b
+          - 786a1296
+          - 788abdbd
+          - 78f38252
+          - 78f383df
+          - 78f3874a
+          - 78f73798
+          - 78f77fd1
+          - 79dca205
+          - 7a03274f
+          - 7a032bf2
+          - 7a03305a
+          - 7a043959
+          - 7a044f07
+          - 9864c4c2
+          - 9864c83c
+          - 9864cf9f
+          - 9864e14a
+          - 98651b46
+          - 986a146c
+          - 986a153e
+          - 9889a67e
+          - 988b6234
+          - 98db344f
+          - 98db34a2
+          - 98f38108
+          - 9a032d15
+          - 9a043482
+          - 9a04533d
+          - 9a0455d8
+          - 9a045649
+          - 9a486f74
+          - b8648408
+          - b864c75d
+          - b864d1b3
+          - b864e36a
+          - b865187e
+          - b8651a85
+          - b8651be5
+          - b8651cb7
+          - b865dcfc
+          - b865de9d
+          - b868abb4
+          - b8db3591
+          - b8f735fe
+          - b8f78405
+          - ba042c1d
+          - ba045525
+          - ba486d01
+          - d863623f
+          - d863b615
+          - d8651e72
+          - d865da4f
+          - d868ad0c
+          - d868aff6
+          - d868d116
+          - d889a5c2
+          - d88b64ce
+          - d8f733ac
+          - d8f78723
+          - da032fe6
+          - da0437d1
+          - da486e2e
+          - da48703a
+          - f864d23e
+          - f864e293
+          - f86a13b4
+          - f86a1749
+          - f889a462
+          - f889ad9d
+          - f88b49e8
+          - f88b653a
+          - f8db3631
+          - f8f37ed6
+          - f8f78146
+          - f8f784c9
+          - f8f78651
+          - f9dca1f8
+          - fa042c2b
+          - fa0431bb
+          - fa044fd2
+          - fa486f10
+        Grfe_Props_Pack_Carpack vol01-vol02-Remastered.dat:
+          - '10694849'
+          - 1069b41b
+          - 1069d563
+          - 10703eb9
+          - 10703f42
+          - '10741487'
+          - '10742664'
+          - 10767f6f
+          - 1076843c
+          - 107703d8
+          - 1077dddd
+          - 107805a7
+          - 10f90081
+          - 1121e4b4
+          - 1121f596
+          - '306894e9'
+          - '30689643'
+          - 3069440f
+          - 3069c931
+          - 3069d20e
+          - 306ab405
+          - 306ec145
+          - 306ec3d8
+          - 307038a6
+          - 3070394b
+          - 30742cf0
+          - 30767de4
+          - 3077dcf6
+          - 3077dd72
+          - 307801be
+          - 3078066e
+          - 30f84ca8
+          - 30f95351
+          - 30f95425
+          - '3121e811'
+          - '50689982'
+          - 5069c761
+          - 5069c86a
+          - 5069d2ee
+          - 506ab4c5
+          - 506ebea7
+          - 506ec0bc
+          - 50703fd1
+          - '50741041'
+          - 5074259a
+          - 50767ef8
+          - '507704e2'
+          - 5077e1d7
+          - 50780a8a
+          - 508010d2
+          - 50d1e4e9
+          - 50f863cb
+          - 50f91515
+          - 7069d44d
+          - 707037d0
+          - 70718cfe
+          - 70740edb
+          - 707413ae
+          - 707684dd
+          - 7077de57
+          - 7077fe72
+          - 7078071e
+          - 70a8dd2c
+          - 70f90484
+          - 70f911c6
+          - 70f91448
+          - 7121f4eb
+          - 9069b4d2
+          - 906aa9c1
+          - 906aac21
+          - 906ab5ed
+          - 906ec31e
+          - 90740f89
+          - '90743551'
+          - '90743701'
+          - 9077fc5b
+          - 9077fdeb
+          - 90f9138f
+          - 90f968e9
+          - 90f973cd
+          - 9121f074
+          - b0694328
+          - b069b5d9
+          - b06ec022
+          - b06ec4b0
+          - b06ec5a5
+          - b0703a06
+          - b0718b84
+          - b0740db7
+          - b0741548
+          - b0743679
+          - b0768569
+          - b0770599
+          - b077edc4
+          - b0780044
+          - b078015e
+          - b07807dd
+          - b0780da7
+          - b0d2068b
+          - b0f847a8
+          - b0f85e98
+          - b0f86128
+          - b0f8644c
+          - b0f971e6
+          - b121e3b1
+          - d068989a
+          - d0694625
+          - d069c647
+          - d06aaa87
+          - d06aab82
+          - d0742dea
+          - d07435ea
+          - d0767e7d
+          - d07685fd
+          - d077034f
+          - d077fee3
+          - d07800dc
+          - d0f9058e
+          - d121e0d5
+          - d121f65c
+          - f069b10a
+          - f06ab55f
+          - f0703c87
+          - f0718c46
+          - f0718dcd
+          - f07415f0
+          - f077e0bf
+          - f077e8c0
+          - f0780b6c
+          - f0780ce5
+          - f0a8da82
+          - f0a8dbb0
+          - f0f8feef
+          - f0f966e9
+          - f0f97572
+          - f0f97675
+        Grfe_Props_Pack_Carpack vol03 v2.dat:
+          - 1c3d3712
+          - 1c3d8c02
+          - 1cde347b
+          - 1d612c44
+          - 1d612cc7
+          - 1d7074f9
+          - 3c3d5268
+          - 3c3d56ee
+          - 3cb473e8
+          - 3cb4752f
+          - 3cde3666
+          - 3d04e365
+          - 3d2d4d98
+          - 3d5d2d69
+          - 3d5f90b7
+          - 3d7080a0
+          - 5c3d38a6
+          - 5c3d51c0
+          - 5c3d555c
+          - 5c3d83f4
+          - 5cb47747
+          - 5cde351d
+          - 5d2d4c88
+          - 5d5f8c51
+          - 5d5f8fec
+          - 5d6129bb
+          - 5d708133
+          - 7c3d54d0
+          - 7cb477e9
+          - 7cde30f8
+          - 7cde325f
+          - 7d5d33e9
+          - 7d5d3493
+          - 7d5e85fe
+          - 7d5f8af8
+          - 7d612bd3
+          - 7d707798
+          - 9c3d3660
+          - 9c3d5333
+          - 9c3d53bf
+          - 9c3d8675
+          - 9c3d8b78
+          - 9c3d8d90
+          - 9c3d8f17
+          - 9cde36ff
+          - 9cde37aa
+          - 9d2d446c
+          - 9d2d4a6c
+          - 9d2d4e67
+          - 9d5d2e2a
+          - 9d5e8220
+          - 9d5f9195
+          - 9d5f9226
+          - 9d7072b4
+          - bc3d3813
+          - bc3d3bac
+          - bd04e250
+          - bd2d4bfb
+          - bd5d35af
+          - bd5e7970
+          - bd70a4d2
+          - bd70a571
+          - dc3d3a30
+          - dc3d3b0f
+          - dc3d576d
+          - dc3d8ce0
+          - dcde35e4
+          - dd04e43e
+          - dd5d31bb
+          - dd5e882b
+          - dd5f8ef7
+          - dd7076cb
+          - fc3d39a6
+          - fc3d8fa9
+          - fd04e15f
+          - fd2d46c8
+          - fd2d4978
+          - fd5d3265
+          - fd5d333d
+          - fd5f8e11
+        Grfe_Props_Pack_Carpack vol04.dat:
+          - 000fa468
+          - 000fe57e
+          - 0012a97b
+          - 0029aa07
+          - 0029bf4d
+          - 003c2a7e
+          - 003c2ef0
+          - 00bcc546
+          - 2029b027
+          - 2033492d
+          - 2033ab6a
+          - 203c30c7
+          - 20bc39dc
+          - 20bc3d8c
+          - 20bc4185
+          - 20bcb9c3
+          - 20bcbf7b
+          - 20bcc759
+          - 400fa0b6
+          - 400fa26d
+          - '40129e07'
+          - 4029c1b2
+          - 4029c289
+          - '40334e11'
+          - '40339111'
+          - '40344807'
+          - 40bcc2bf
+          - 40e568df
+          - 600f9fc7
+          - 60129d57
+          - 6012a849
+          - 6029ac3e
+          - 6029c0d2
+          - 6029c33d
+          - 60333e7a
+          - 800fa318
+          - 800fe17b
+          - 800fe247
+          - 8012a731
+          - 8029c650
+          - 803343f6
+          - 80334c7e
+          - 8033aac4
+          - 80344a2a
+          - '80345937'
+          - 803c2e31
+          - 803c2fe9
+          - 803c319e
+          - 803c3264
+          - 80bc4024
+          - 80bcc16c
+          - '80e56571'
+          - a00f9eeb
+          - a00fa163
+          - a00fddc0
+          - a012aae0
+          - a029ab12
+          - a029ba0f
+          - a029c4eb
+          - a033305a
+          - a03c2c17
+          - a0bcc439
+          - a0bcc8bf
+          - c00fa3d6
+          - c00fe067
+          - c00fe2dd
+          - c00ff402
+          - c029ad17
+          - c033a66b
+          - c0bc3369
+          - e00fcd6d
+          - e00fe62e
+          - e0129bbe
+          - e029aecc
+          - e0334035
+          - e033468b
+          - e034510d
+          - e0bc3141
+          - e0bc3f2f
+          - e0bc40b5
+        Grfe_Props_Pack_Urbanpack.dat:
+          - 0103d377
+          - 0103e48d
+          - 01a45e30
+          - 01a4608f
+          - 01a46f46
+          - 0201067a
+          - 02010ce5
+          - 022d9691
+          - 022d9f40
+          - 2103be57
+          - 2103d303
+          - 21a45864
+          - 21a46876
+          - '22010994'
+          - 2201b9d4
+          - 222d5572
+          - 22313d49
+          - 22494dd4
+          - 4103bef1
+          - '4103e345'
+          - 41a459fa
+          - 41a45fa0
+          - 41a460e3
+          - 422d7195
+          - 622d9745
+          - 8103bfa7
+          - 8103e5bb
+          - 820108d5
+          - '82490140'
+          - a1a45a63
+          - a1a45e85
+          - a1a45edd
+          - a1a46914
+          - a22d9cae
+          - c103c021
+          - c103d27a
+          - c103e52c
+          - c1a45cdb
+          - c1a46ed4
+          - c1ffcbb4
+          - c1ffd162
+          - c22d7121
+          - e103d407
+          - e1a4599a
+          - e1a46d4f
+          - e2010636
+        Grfe_Props_Pack_Villa Libeskind.dat:
+          - '22287e24'
+        Grfe_Props_Pack_Wood_Fence_4m.dat:
+          - '11224149'
+          - 112243db
+          - 1122459a
+          - '312242e2'
+          - 3122442e
+          - 312244b4
+          - 4cb31c5e
+          - 91223f87
+          - '91224965'
+          - d122421c
+          - f1224384
       props:
         Grfe_Props_Pack_4_rue_des_Lilas.dat:
           3f4e10f4:
@@ -2443,6 +3746,7 @@ girafe/flora-pack:
     - readme_norway_maples.html
     - readme_oaks.html
     - readme_parasol_pines.html
+    - readme_plane_trees.html
     - readme_poplars.html
     - readme_poppies.html
     - readme_rowan trees.html
@@ -2456,16 +3760,15 @@ girafe/flora-pack:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_SC4D LEX Legacy - BSC-VIP Girafe Flora Pack V3__master.txt
+        - cleanitol: Cleanitol_SC4D LEX Legacy - BSC-VIP Girafe Flora Pack V4.txt
           docs:
             - ~Documents/BSC_Readmes/girafe
           id: sc4evermore/27-sc4d-lex-legacy-bsc-vip-girafe-flora
           include:
             - BSC/girafe/@1MM Flora Separator
             - BSC/girafe
-      lastGenerated: 2025-01-06T12:13:24.439Z
-      lastModified: 2024-01-20T12:12:48.000Z
+      lastGenerated: 2025-01-08T13:07:29.589Z
+      lastModified: 2025-01-08T10:36:02.000Z
       mmps:
         Abies grandis v1/Grfe_abies_grandis_evergreen.dat:
           af441000:
@@ -3214,6 +4517,45 @@ girafe/flora-pack:
               - id: af448074
                 model: 3dc4e003
                 name: Grfe_parasol_pine_summer_E
+        Plane trees/Grfe_Plane_trees_evergreen.dat:
+          af449010:
+            description: Click one or several times to make vary plants.
+            model: f3d1101f
+            name: Grfe_Plane_trees_summer_A
+            stages:
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_evergreen.dat
+                id: af449011
+                model: 73d11f1d
+                name: Grfe_Plane_trees_summer_B
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_evergreen.dat
+                id: af449012
+                model: 93d12313
+                name: Grfe_Plane_trees_summer_C
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_evergreen.dat
+                id: af449013
+                model: 73d124c6
+                name: Grfe_Plane_trees_summer_D
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_evergreen.dat
+                id: af449014
+                model: 73d1314b
+                name: Grfe_Plane_trees_summer_E
+        Plane trees/Grfe_Plane_trees_seasonal.dat:
+          af449020:
+            description: To be planted the 1st September. Click one or several times to make vary plants.
+            name: Grfe_plane_tree_seasonal_A
+            stages:
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_seasonal.dat
+                id: af449021
+                name: Grfe_plane_tree_seasonal_B
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_seasonal.dat
+                id: af449022
+                name: Grfe_plane_tree_seasonal_C
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_seasonal.dat
+                id: af449023
+                name: Grfe_plane_tree_seasonal_D
+              - file: BSC/girafe/Plane trees/Grfe_Plane_trees_seasonal.dat
+                id: af449024
+                name: Grfe_plane_tree_seasonal_E
         Poplars/Grfe_poplars_evergreen.dat:
           af447700:
             model: 0790ce33
@@ -3523,6 +4865,990 @@ girafe/flora-pack:
           af448060:
             model: bcbb0913
             name: Grfe_wheat_summer
+      models:
+        Abies grandis v1/Grfe_props_pack_MM_abies_grandis.dat:
+          - 19294c72-0012
+          - 19294c72-0013
+          - 19294c72-0014
+          - 792662b7-0012
+          - 792662b7-0013
+          - 792662b7-0014
+          - 99284eb1-0012
+          - 99284eb1-0013
+          - 99284eb1-0014
+          - 99291063-0012
+          - 99291063-0013
+          - 99291063-0014
+          - d928538d-0012
+          - d928538d-0013
+          - d928538d-0014
+        Alders/Grfe_props_pack_LE_alders.dat:
+          - ec357b46-0035
+          - ec357b46-0036
+          - ec357b46-0037
+          - ec357b46-0038
+          - ec357b46-0039
+          - ec357b46-003a
+          - ec357b46-003b
+          - ec357b46-003c
+          - ec357b46-003e
+          - ec357b46-0040
+          - ec357b46-0042
+          - ec357b46-0043
+          - ec357b46-0044
+          - ec357b46-0045
+          - ec357b46-0046
+        Alders/Grfe_props_pack_MM_alders.dat:
+          - 0c275273
+          - 2c274fac
+          - 6c2754ff
+          - 6c279d1a
+          - 8c27494e
+          - 8c27964f
+          - 8c279769
+          - ac27986e
+          - ec2744f7
+          - ec2799a4
+          - ec357b46-002e
+          - ec357b46-002f
+          - ec357b46-0030
+          - ec357b46-0031
+          - ec357b46-0034
+        Ashes v2/Grfe_props_pack_LE_ashes.dat:
+          - 1db9ac86
+          - 1dbaacdf
+          - 3db9a60f
+          - 3dba9755
+          - 3dbaff7a
+          - 3dbb0009
+          - 3dbbcfac
+          - 5db9aa2c
+          - 5dbb04d1
+          - 7db9b3cb
+          - 7dbaa3d2
+          - 7dbab5dc
+          - 9db9b6d4
+          - 9dba8f4a
+          - 9dba92b3
+          - 9dbab221
+          - 9dbab50e
+          - bdba9d9e
+          - bdbaa9d0
+          - bdbab561
+          - ddb9a32f
+          - ddb9af83
+          - ddb9b138
+          - ddba9fae
+          - ddbab460
+          - ddbafef1
+          - ddbb03f3
+          - ddbb0751
+          - fdb9a26e
+          - fdb9a831
+          - fdbb019f
+          - fdbb036f
+        Ashes v2/Grfe_props_pack_MM_ashes.dat:
+          - 1d0728de
+          - 3dac2ae2
+          - 3dac2deb
+          - 3dd0fa28
+          - 3dd11bf0
+          - 5cdfd2f6
+          - 5dabec83
+          - 5dabed23
+          - 7cdfcf8e
+          - 7dd101da
+          - 9d0701bd
+          - dd064901
+          - ddac2d55
+          - fd06549f
+          - fdabe666
+        Beeches v3/Grfe_props_pack_LE_beeches.dat:
+          - 01b7f9fd
+          - 021d8e4f
+          - 203f61dc
+          - 21b7fa57
+          - 3fcf651c
+          - 41b7fb51
+          - 421d8c44
+          - 5fcf6721
+          - 603f65b8
+          - 61b7fbec
+          - 821d8d70
+          - a21d8cda
+          - c1b7faf6
+          - c21d9097
+          - ffcf5b83
+        Beeches v3/Grfe_props_pack_MM_beeches.dat:
+          - 003ddd37
+          - 203de41a
+          - 214ea0cb
+          - 2244289d
+          - 22442bc8
+          - 403dd160
+          - 403dee55
+          - 403f5e12
+          - 414ea185
+          - a14ea212
+          - a2442dd1
+          - c14ea122
+          - c2442c8f
+          - e14ea334
+          - e2442587
+        Berries/Grfe_props_pack_LE_berries.dat:
+          - 009cdecb
+          - 009ce0f2
+          - 209cdd3f
+          - 209cdf80
+          - 409cd933
+          - 409cde2c
+          - 409ce02f
+          - 809cd8b3
+          - 809ce2f0
+          - a09ce1db
+          - c09ce4a0
+          - e09cdc63
+        Berries/Grfe_props_pack_MM_berries.dat:
+          - 008e5b81
+          - 0236ea5b
+          - 609cbd0f
+          - 609cbe67
+          - 6236e6e8
+          - 808e592c
+          - a09cb29f
+          - a09cb97d
+          - a09cbb17
+          - a09cbc8d
+          - c236e4f5
+          - e08e583f
+        Birches v2/Grfe_props_pack_LE_birches.dat:
+          - 013a1542
+          - 213a2b35
+          - 413a198b
+          - 413a1d37
+          - 413a1f40
+          - 413a2d3f
+          - 413a2e84
+          - 613a0f3d
+          - 613a12cd
+          - 613a1fab
+          - 813a114d
+          - 813a1870
+          - 813a1ecd
+          - a13a0e0b
+          - a13a105e
+          - a13a139e
+          - a13a1c89
+          - a13a2c40
+          - c13a1220
+          - c13a30b0
+          - e13a1686
+          - e13a177b
+          - e13a1e33
+          - e13a29e8
+        Birches v2/Grfe_props_pack_MM_birches.dat:
+          - 1a9802f2
+          - 3a97c44b
+          - 3aca0699
+          - 3aca13c5
+          - 3b1a64b8
+          - 3b1a6614
+          - 5a97c7c0
+          - 5aca0f7c
+          - 5b1a616d
+          - 9aca0401
+          - 9b1a63bc
+          - baca08bc
+          - bb1a5ca8
+          - bb4353ab
+          - fa97d5e7
+        Bushes v2/Grfe_Props_Pack_MM_bushes.dat:
+          - 1b5b04a0
+          - 3b3d96ac
+          - 3b5b0682
+          - 5b5b032c
+          - 9b3d9a2b
+          - ba59acfb
+          - bb5bee2c
+          - db3d9fcc
+          - fb5bfcd5
+        Bushes v2/Grfe_props_pack_LE_bushes.dat:
+          - 0c63d6b7
+          - 0c63d92e
+          - 0c63eff4
+          - 0c63f128
+          - 0c63f1b6
+          - 0cb4310c
+          - 0cb434c7
+          - 0cb43771
+          - 2cb41e59
+          - 2cb43368
+          - 2cb436e4
+          - 4c63eeed
+          - 6c63da7a
+          - 6c63db0f
+          - 6c63f20c
+          - 8c63d9d7
+          - 8c63f0bc
+          - ac63ef70
+          - acb4363a
+          - ccb437ea
+          - ec63d5db
+          - ec63d797
+          - ec63d875
+          - ec63f064
+        Canary date palms/Grfe_props_pack_Canary_date_palms.dat:
+          - 253896d5
+          - 2538980f
+          - '45389773'
+          - '65389873'
+          - 853891d2
+          - c5389639
+          - e53894ee
+          - e5389595
+        Cattails v2.1/Grfe_props_pack_LE_cattails.dat:
+          - 4cc2dde2
+          - 4cc2e342
+          - 6cc2dbe9
+          - 6cc2dcec
+          - 6cc2dec5
+          - acc2e107
+        Cattails v2.1/Grfe_props_pack_MM_cattails.dat:
+          - 1b5ad226
+          - 9a7e9b1a
+          - 9b5acfd7
+          - da7e9901
+          - da7e9bb9
+          - db5ad2df
+        Chestnuts/Grfe_props_pack_LE_chestnuts.dat:
+          - 01f6379f
+          - 01f63a7d
+          - 01f9022e
+          - 21f63fa5
+          - 41f63934
+          - 41f8d148
+          - 41f8de27
+          - 61f63813
+          - 61f63e84
+          - 61f640cf
+          - 61f8cbc1
+          - 81f8fea5
+          - a1f638a7
+          - a1f63d21
+          - c1f63b46
+        Chestnuts/Grfe_props_pack_MM_chestnuts.dat:
+          - 01f6379f
+          - 01f63a7d
+          - 01f9022e
+          - 21f63fa5
+          - 41f63934
+          - 41f8d148
+          - 41f8de27
+          - 61f63813
+          - 61f63e84
+          - 61f640cf
+          - 61f8cbc1
+          - 81f8fea5
+          - a1f638a7
+          - a1f63d21
+          - c1f63b46
+        Common spruces/Grfe_props_pack_LE_common_spruces.dat:
+          - 00bf3bc8
+          - 00c56b6e
+          - 20c067df
+          - 20c56a8d
+          - 20c57481
+          - 40bf40ea
+          - 40bf4628
+          - 40bf4991
+          - 60c060c1
+          - 60c1719b
+          - 80bf39ce
+          - 80c01483
+          - a0c17823
+          - a0c569e6
+          - c0bf391d
+          - c0bf3cb5
+          - c0bf42c0
+          - c0c024cb
+          - c0c02f45
+          - c0c56c8c
+          - c0c57121
+          - e0c56eed
+        Common spruces/Grfe_props_pack_MM_common_spruces.dat:
+          - 00beba96
+          - 40c43312
+          - 40c44a60
+          - 60bf2f78
+          - a0c4242b
+          - c0bf16c9
+          - c0c418dc
+          - e0bec1de
+          - e0becc65
+          - e0c42105
+        Conifers/Grfe_props_pack_LE_conifers.dat:
+          - 0237145d
+          - 0237188c
+          - 208d6b3d
+          - 408d82dc
+          - 42372cb4
+          - 608d61dd
+          - 608e33f4
+          - 808d69be
+          - 808d8476
+          - '82371072'
+          - 82372b65
+          - a08d64ac
+          - a08d6853
+          - a08d6fb6
+          - a08d8a5f
+          - a08e37b3
+          - a23728af
+          - c08d7a9a
+          - c08e353a
+          - e08d633a
+          - e23711ec
+          - e23712c2
+          - e2371558
+          - e237166a
+          - e2371d39
+        Conifers/Grfe_props_pack_MM_conifers.dat:
+          - 1aa894a8
+          - 1b63fc39
+          - 1b724c62
+          - 3b724fb1
+          - 5b724045
+          - 7b2071af
+          - 7b9a14cb
+          - 9af94cfe
+          - db723a0d
+          - faf95796
+        Cypresses/Grfe_props_pack_LE_cypresses.dat:
+          - 2124c23a
+          - 2124c32e
+          - 41c70a76
+          - e124c0eb
+          - e124c191
+        Cypresses/Grfe_props_pack_MM_cypresses.dat:
+          - 40af7137
+          - 60af6a96
+          - 60af6b71
+          - 80af6fb1
+          - c0af6841
+        Daisy v2/Grfe_props_pack_LE_daisy.dat:
+          - 032db52b
+          - 232db58d
+          - '23305483'
+          - '43305503'
+        Daisy v2/Grfe_props_pack_MM_daisy.dat:
+          - 032db52b
+          - 232db58d
+          - '23305483'
+          - '43305503'
+        Elms/Grfe_props_pack_LE_elms.dat:
+          - 03d9f08e
+          - 23cfcc93
+          - 23cfe13f
+          - 23d9ea42
+          - 23da0022
+          - 63d0ed49
+          - 83d9db22
+          - 83d9e04c
+          - 83d9e79f
+          - a3cfe0a7
+          - a3d0bce8
+          - a3d9f16e
+          - c3cfc753
+          - e3d9dd4e
+          - e3d9f0f2
+        Elms/Grfe_props_pack_MM_elms.dat:
+          - 03d9f08e
+          - 23cfcc93
+          - 23cfe13f
+          - 23d9ea42
+          - 23da0022
+          - 63d0ed49
+          - 83d9db22
+          - 83d9e04c
+          - 83d9e79f
+          - a3cfe0a7
+          - a3d0bce8
+          - a3d9f16e
+          - c3cfc753
+          - e3d9dd4e
+          - e3d9f0f2
+        Feather grass/Grfe_props_pack_LE_feather_grass.dat:
+          - c0ff6a3a
+          - e0ff6b71
+          - e0ff6bef
+        Feather grass/Grfe_props_pack_MM_feather_grass.dat:
+          - 60b1d6ad
+          - 80ff63ac
+          - a0b1d5bf
+          - c0ff6413
+        Grand Firs (Abies Grandis v2)/Grfe_Props_Pack_LE_grand_firs.dat:
+          - 0b1e1a7b
+          - 2cc03cf5
+          - 4b1e3aec
+          - 6b1e2af6
+          - 6cc0443d
+          - 8b1e2e2f
+          - 8cc0417e
+          - cb1e3464
+          - ccc03b33
+          - ecc042e1
+        Grand Firs (Abies Grandis v2)/Grfe_Props_Pack_MM_grand_firs.dat:
+          - 19294c72-0012
+          - 19294c72-0013
+          - 19294c72-0014
+          - 2c5458b3
+          - 4c546a20
+          - 792662b7-0012
+          - 792662b7-0013
+          - 792662b7-0014
+          - 8b1d51ad
+          - 99284eb1-0012
+          - 99284eb1-0013
+          - 99284eb1-0014
+          - 99291063-0012
+          - 99291063-0013
+          - 99291063-0014
+          - cb1d6697
+          - d928538d-0012
+          - d928538d-0013
+          - d928538d-0014
+          - eb1d5978
+        Honey locust/Grfe_props_pack_LE_honey_locust.dat:
+          - '02060220'
+          - '22060736'
+          - 2209c569
+          - 62060fb3
+          - 6208c27d
+          - 82060a73
+          - '82061000'
+          - a2061054
+          - a208c7ef
+          - c2060f05
+          - c20610bc
+          - c208bb53
+          - c209b8a6
+          - e20605bc
+          - e20608a0
+        Honey locust/Grfe_props_pack_MM_honey_locust.dat:
+          - '02060220'
+          - '22060736'
+          - 2209c569
+          - 62060fb3
+          - 6208c27d
+          - 82060a73
+          - '82061000'
+          - a2061054
+          - a208c7ef
+          - c2060f05
+          - c20610bc
+          - c208bb53
+          - c209b8a6
+          - e20605bc
+          - e20608a0
+        Larches/Grfe_props_pack_MM_larches.dat:
+          - 009fed34
+          - 00a9000f
+          - 00cca44d
+          - 1bd1c258
+          - 3caad638
+          - 40a2a7ed
+          - 5caacbf9
+          - 7a63c29e
+          - 7caad2d7
+          - 80a90404
+          - 9b11c81d
+          - 9b131411
+          - 9caacfce
+          - a09f5275
+          - a0a0db60
+          - a0a901b2
+          - bb112acd
+          - dcaacb1d
+          - e09eaeaf
+          - e0ccaac2
+        Lindens/Grfe_props_pack_LE_lindens.dat:
+          - 00a66f86
+          - 2096263a
+          - 407ed32d
+          - 407ed8ec
+          - 40a6674b
+          - 40a671c1
+          - 607ed3dd
+          - 60a66790
+          - 60a66a15
+          - 80a666a7
+          - 80a66953
+          - 80a66d6a
+          - 9dd7f9c4-0030
+          - 9dd7f9c4-0031
+          - 9dd7f9c4-0045
+          - 9dd7f9c4-0046
+          - 9dd7f9c4-0047
+          - 9dd7f9c4-0048
+          - a07ecec7
+          - a0961d1f
+          - e07ecd9a
+          - e0961fc8
+          - e0962388
+          - e0a66655
+        Lindens/Grfe_props_pack_MM_lindens.dat:
+          - 9dd7f9c4-0025
+          - 9dd7f9c4-0026
+          - 9dd7f9c4-0027
+          - 9dd7f9c4-0028
+          - 9dd7f9c4-0029
+          - 9dd7f9c4-0037
+          - 9dd7f9c4-0038
+          - 9dd7f9c4-0039
+          - 9dd7f9c4-003a
+          - 9dd7f9c4-003b
+          - 9dd7f9c4-0040
+          - 9dd7f9c4-0041
+          - 9dd7f9c4-0042
+          - 9dd7f9c4-0043
+          - 9dd7f9c4-0044
+        Lupins/Grfe_props_pack_LE_lupins.dat:
+          - 2145cacf
+          - 2145cb72
+          - 2145cef7
+          - 2145d268
+          - 2145d382
+          - 4145cc02
+          - 4145cccb
+          - 4145d185
+          - 6145d456
+          - 8145ca21
+          - a145d3e7
+          - c145cda7
+        Lupins/Grfe_props_pack_MM_lupins.dat:
+          - '01459499'
+          - 0145ae00
+          - 41458e6c
+          - 4145aec7
+          - 61458c87
+          - '61459381'
+          - 61459e9d
+          - 6145a668
+          - 81458fd5
+          - 814596d4
+          - '81459771'
+          - '814597e1'
+          - 81459f8e
+          - 8145a26f
+          - a1459403
+          - a1459ddf
+          - a145a2e3
+          - a145a584
+          - a145acf1
+          - c145a745
+          - e145a346
+        Maples v2/Grfe_props_pack_LE_maples.dat:
+          - 1c120f26
+          - 1cf87a8d
+          - 1cf8a001
+          - 1d021c24
+          - 1d022207
+          - 3c11e251
+          - 5c11f645
+          - 5c12016a
+          - 5cf87d1b
+          - 5cf88519
+          - 5cf8bcfb
+          - 5d02128f
+          - 7c11e47f
+          - 7c11ff3e
+          - 7c120003
+          - 7c1200ec
+          - 7d021659
+          - 9c120072
+          - 9cf88191
+          - 9cf8c25d
+          - 9d0213ec
+          - bc11e6fb
+          - bc11e98e
+          - bcf89376
+          - dc11ffa2
+          - dcf87f55
+          - dd021f59
+          - fc11fe99
+          - fcf8911c
+          - fcf8e825
+          - fd02152d
+          - fd0217b7
+        Maples v2/Grfe_props_pack_MM_maples_v2.dat:
+          - 3d2a9870
+          - 5cf7be7e
+          - 7d2ab17f
+          - 7d2ab49d
+          - 9d2ab1cf
+          - 9d2ab34c
+          - bcf7b557
+          - bcf86a2e
+          - bd2ab3f1
+          - dd2a7ba6
+          - dd2a9e5e
+          - fcf7bff5
+          - fcf7c295
+          - fd2a7d13
+          - fd2a910c
+        Maples/Grfe_props_pack_MM_maples.dat:
+          - 19f00eaa-0011
+          - 19f00eaa-0012
+          - 19f00eaa-0013
+          - b9f008ba-0011
+          - b9f008ba-0012
+          - b9f008ba-0013
+          - d9f00412-0011
+          - d9f00412-0012
+          - d9f00412-0013
+          - f9effc6a-0011
+          - f9effc6a-0012
+          - f9effc6a-0013
+          - f9f01459-0011
+          - f9f01459-0012
+          - f9f01459-0013
+        Narcissus/Grfe_props_pack_LE_narcissus.dat:
+          - 00c84726
+          - 20c84782
+          - 40c846d1
+        Narcissus/Grfe_props_pack_MM_narcissus.dat:
+          - 80c80fa9
+          - a0c8406d
+          - c0c8160e
+          - e0c83f69
+        Norway maples v2/Grfe_props_pack_LE_norway_maples.dat:
+          - 01da8465
+          - 01da963e
+          - 21da770a
+          - 21da82ca
+          - 21da9948
+          - 41da70ab
+          - 61da7576
+          - 61da7a44
+          - 61da9471
+          - 81da85e2
+          - a1da723d
+          - a1da7d99
+          - a1da7fd3
+          - a1da8744
+          - a1da97ee
+          - c1da7be5
+        Norway maples v2/Grfe_props_pack_MM_norway_maples.dat:
+          - 1c04eb59
+          - 5c03c08d
+          - 9c03b101
+          - 9c03bdef
+          - bc03b8a4
+          - bc05058a
+          - dc04f363
+          - dc050df1
+          - fc03ae63
+          - fc03b690
+          - fc050819
+          - fc051cc8
+        Oaks v2/Grfe_Props_Pack_LE_Oaks.dat:
+          - 0cf38e5d
+          - 2fb2a6cd
+          - 2fb37d27
+          - 4f8b14be
+          - 6cf3900f
+          - 8cf3895e
+          - 8cf4e0e3
+          - 8cf51521
+          - 8f8b0adc
+          - 8f8b1262
+          - 8fb37de4
+          - acf38cd9
+          - cf8b0ff4
+          - ecf4e159
+          - ecf51490
+        Oaks v2/Grfe_props_pack_MM_oaks.dat:
+          - 1a2cbbf5
+          - 1a2cd4a9
+          - 5a2cbe33
+          - 5b1b3a8d
+          - 7a2cc011
+          - 7b1b4ffd
+          - 7b1b5718
+          - 9a2cc199
+          - 9a2ccb8a
+          - ba2ccf8c
+          - ba2cf7d3
+          - db1b4a6e
+          - fa2cb908
+          - fa2cef55
+          - fb1b31a0
+        Parasol pines/Grfe_props_pack_parasol_pines_LE.dat:
+          - 21375d47
+          - 61375fa8
+          - 813759f7
+          - e13753b3
+          - e137561b
+        Parasol pines/Grfe_props_pack_parasol_pines_MM.dat:
+          - 3dc42c52
+          - 3dc4e003
+          - 7dc4d498
+          - bd9da899
+          - bd9db347
+        Plane trees/Grfe_props_pack_LE_plane_trees.dat:
+          - 33d135c2
+          - 73d1125b
+          - 73d11f1d
+          - 73d124c6
+          - 73d1314b
+          - 93d12313
+          - 93d123c9
+          - 93d1244e
+          - 93d13281
+          - b3d11ec5
+          - b3d12079
+          - b3d1269b
+          - f3d1101f
+          - f3d11fd1
+          - f3d125d4
+        Plane trees/Grfe_props_pack_MM_plane_trees.dat:
+          - 33d135c2
+          - 73d1125b
+          - 73d11f1d
+          - 73d124c6
+          - 73d1314b
+          - 93d12313
+          - 93d123c9
+          - 93d1244e
+          - 93d13281
+          - b3d11ec5
+          - b3d12079
+          - b3d1269b
+          - f3d1101f
+          - f3d11fd1
+          - f3d125d4
+        Poplars/Grfe_props_pack_LE_poplars.dat:
+          - 0790ce33
+          - 07937b11
+          - 27921f43
+          - 27921ff2
+          - 4790d2f4
+          - '47922136'
+          - '6790e227'
+          - '6790e985'
+          - 67923de0
+          - 8790e69f
+          - 87923f2b
+          - a7921e67
+          - c7922088
+          - c7937189
+          - e79375a0
+        Poplars/Grfe_props_pack_MM_poplars.dat:
+          - 0790ce33
+          - 07937b11
+          - 27921f43
+          - 27921ff2
+          - 4790d2f4
+          - '47922136'
+          - '6790e227'
+          - '6790e985'
+          - 67923de0
+          - 8790e69f
+          - 87923f2b
+          - a7921e67
+          - c7922088
+          - c7937189
+          - e79375a0
+        Poppies/Grfe_props_pack_LE_poppies.dat:
+          - 40c5c523
+          - 80c5c640
+          - a0c5c5a0
+        Poppies/Grfe_props_pack_MM_poppies.dat:
+          - 20c5ac19
+          - 80c5c1e3
+          - a0c5aaa7
+          - c0c5c193
+        Rowan trees v3/Grfe_props_pack_LE_rowan_trees.dat:
+          - '02807938'
+          - 02fa2949
+          - '22806260'
+          - 22806eb2
+          - 42807bb1
+          - 42807c21
+          - 628068ff
+          - 828063cd
+          - a2807a5a
+          - a2d1425f
+          - a2d14c26
+          - c280e9f7
+          - e27fccf8
+          - e2807af6
+          - e2fa2552
+        Rowan trees v3/Grfe_props_pack_MM_rowan_trees.dat:
+          - '02807938'
+          - 02fa2949
+          - '22806260'
+          - 22806eb2
+          - 42807bb1
+          - 42807c21
+          - 628068ff
+          - 828063cd
+          - a2807a5a
+          - a2d1425f
+          - a2d14c26
+          - c280e9f7
+          - e27fccf8
+          - e2807af6
+          - e2fa2552
+        Serbian Spruces v1/Grfe_Props_Pack_MM_serbian_spruces v1.dat:
+          - 5a0e874f-0012
+          - 5a0e874f-0013
+          - 5a0e874f-0014
+          - 5a0e9e08-0012
+          - 5a0e9e08-0013
+          - 5a0e9e08-0014
+          - 9a0e9076-0012
+          - 9a0e9076-0013
+          - 9a0e9076-0014
+          - ba0e8ba5-0012
+          - ba0e8ba5-0013
+          - ba0e8ba5-0014
+          - fa0e9663-0012
+          - fa0e9663-0013
+          - fa0e9663-0014
+        Serbian spruces v2/Grfe_Props_Pack_LE_Serbian_spruces.dat:
+          - ec357b46
+          - ec357b46-0004
+          - ec357b46-0005
+          - ec357b46-0006
+          - ec357b46-0007
+          - ec357b46-000d
+          - ec357b46-000e
+          - ec357b46-000f
+          - ec357b46-0010
+          - ec357b46-0011
+        Serbian spruces v2/Grfe_Props_Pack_MM_Serbian_spruces.dat:
+          - 4b45a458
+          - 5a0e874f-0013
+          - 5a0e9e08-0013
+          - 6b459800
+          - 9a0e9076-0013
+          - ab1cd8ca
+          - ba0e8ba5-0013
+          - eb458812
+          - eb4590b1
+          - fa0e9663-0013
+        Sparaxis/Grfe_props_pack_LE_sparaxis.dat:
+          - 00fd1aea
+          - 00fd1db8
+          - 20fd1aab
+          - 80fd1b1d
+          - 80fd1de9
+          - a0fd1ba0
+          - a0fd1e24
+          - a0fd1e6c
+          - e0fd1b5a
+        Sparaxis/Grfe_props_pack_MM_sparaxis.dat:
+          - 20fcea10
+          - 20fcea95
+          - 40fce789
+          - 80fce825
+        Subalpine firs/Grfe_props_pack_LE_subalpinefirs.dat:
+          - 0094b19d
+          - 0094bea6
+          - '0094e912'
+          - 2094bd91
+          - 2094f895
+          - 2094fd6a
+          - 4094ed40
+          - 6094ae55
+          - 8094f6c6
+          - 809509c2
+          - a094bc72
+          - a09546dd
+          - c094afc9
+          - c094e4f7
+          - c094e685
+          - c094ef23
+          - c095044f
+          - c0950e81
+          - c09542f7
+          - c095454e
+          - e094f191
+        Subalpine firs/Grfe_props_pack_MM_subalpinefirs.dat:
+          - 1c52cfd3
+          - 5c54cb3a
+          - 5c83de35
+          - 7c52dc22
+          - 7c540ebd
+          - 7c559f4b
+          - bc52b624
+          - dc542077
+          - dc5bfab5
+          - fc539f52
+        Vines v2/Grfe_props_pack_LE_vines.dat:
+          - 011f8059
+          - 211f82d6
+          - 40cea2fc
+          - 411f3dd4
+          - '41480843'
+          - 611f3af7
+          - 611f3d9c
+          - 611f7f10
+          - 80ceac44
+          - 811f3a8d
+          - 811f3e05
+          - 811f815b
+          - 8148095e
+          - a11f3a21
+          - a147e4fb
+          - a1480a2b
+          - a1480bcf
+          - c11f39af
+          - c14808bd
+          - e11f3d6c
+        Vines v2/Grfe_props_pack_MM_vines.dat:
+          - 40cea2fc
+          - 611f7f10
+          - 80cec19e
+        Walnut trees/Grfe_props_pack_MM_walnut_trees.dat:
+          - 04dca8fc
+          - 04dca9aa
+          - 04dcaa46
+          - '05574842'
+          - 24f6b39f
+          - 255c28b2
+          - 44f6ba6f
+          - 455c212d
+          - 655c22a2
+          - a4dca7b7
+          - a4f6bc41
+          - a4f6cb32
+          - a55746c7
+          - c4f6c694
+          - e4dca85e
+        Wheat v2/Grfe_Props_Pack_LE_Wheat.dat:
+          - 1cc127fc
+          - 1cc12877
+          - 3c395412
+          - 3c39ba7e
+          - 3cc141a3
+          - 3cc14c30
+          - 5c394ae9
+          - 5c39543d
+          - 7cbec506
+          - 7cc1347e
+          - 7cc1447c
+          - bc394384
+          - bcbec973
+          - dcc14157
+          - fcbf03d2
+          - fcbf10ee
+          - fcbfc8de
+        Wheat v2/Grfe_Props_Pack_MM_Wheat.dat:
+          - 1cbb1181
+          - bcbb0913
+          - dcbafe39
       props:
         Alders/Grfe_props_pack_LE_alders.dat:
           0c3eead4:
@@ -4478,6 +6804,52 @@ girafe/flora-pack:
           fea82a6f:
             model: e137561b
             name: Grfe_parasol_pine_B_evergreen
+        Plane trees/Grfe_props_pack_LE_plane_trees.dat:
+          13d7b8b0:
+            model: f3d1101f
+            name: Grfe_Plane_tree_A_evergreen
+          13d7bec2:
+            model: 93d12313
+            name: Grfe_Plane_tree_C_evergreen
+          13d7bf34:
+            name: Grfe_Plane_tree_D_autumn
+          13d7bf46:
+            name: Grfe_Plane_tree_D_winter
+          13d7cdd4:
+            name: Grfe_Plane_tree_E_winter
+          33d7b155:
+            name: Grfe_Plane_tree_A_summer
+          33d7cdc3:
+            name: Grfe_Plane_tree_E_autumn
+          53d7b869:
+            name: Grfe_Plane_tree_B_summer
+          53d7b884:
+            name: Grfe_Plane_tree_B_autumn
+          53d7bea2:
+            name: Grfe_Plane_tree_C_summer
+          53d7cd90:
+            name: Grfe_Plane_tree_E_summer
+          53d7cdaf:
+            model: 73d1314b
+            name: Grfe_Plane_tree_E_evergreen
+          73d7b83c:
+            name: Grfe_Plane_tree_A_winter
+          93d7bed6:
+            name: Grfe_Plane_tree_C_autumn
+          b3d7b89b:
+            name: Grfe_Plane_tree_B_winter
+          d3d7b8c4:
+            model: 73d11f1d
+            name: Grfe_Plane_tree_B_evergreen
+          d3d7bf1a:
+            model: 73d124c6
+            name: Grfe_Plane_tree_D_evergreen
+          f3d7b171:
+            name: Grfe_Plane_tree_A_autumn
+          f3d7beef:
+            name: Grfe_Plane_tree_C_winter
+          f3d7bf05:
+            name: Grfe_Plane_tree_D_summer
         Poplars/Grfe_props_pack_LE_poplars.dat:
           079c1fc9:
             name: Grfe_poplar_B_summer
@@ -4859,15 +7231,32 @@ girafe/hedges:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_Grfe_Props_Pack_LE_Hedges.txt
+        - cleanitol: Cleanitol_Grfe_Props_Pack_LE_Hedges.txt
           docs:
             - Grfe_Props_Pack_LE_Hedges_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - Grfe_Props_Pack_LE_Hedges.dat
-      lastGenerated: 2025-01-06T12:13:24.142Z
+      lastGenerated: 2025-01-08T13:07:29.351Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        Grfe_Props_Pack_LE_Hedges.dat:
+          - 01dba151
+          - 10f3a518
+          - 10f3a5ef
+          - 10f3ae16
+          - 30f3af20
+          - 41dba203
+          - 41dbe0da
+          - 50f3a3c5
+          - 50f3a6b0
+          - 81dba5fc
+          - a1dbe175
+          - a1dbe25c
+          - a1dbe352
+          - b0f39e84
+          - c1dba34a
+          - d0f3a22b
       props:
         Grfe_Props_Pack_LE_Hedges.dat:
           0d2fee57:

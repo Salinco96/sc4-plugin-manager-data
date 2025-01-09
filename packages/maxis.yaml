@@ -33,13 +33,16 @@ maxis/63-building:
           - '26060000'
           - 258f0000
           - 252b0000
+  models:
+    Plugin_00A_63Building.dat:
+      - badb57f1-04b8
   name: 63 Building
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00A-63-building
-      lastGenerated: 2025-01-06T12:13:26.881Z
+      lastGenerated: 2025-01-08T13:07:31.806Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -78,7 +81,7 @@ maxis/63-building:
             waterPollutionRadius: 7
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:26.896Z
+      lastGenerated: 2025-01-08T13:07:31.820Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -119,13 +122,16 @@ maxis/adler-planetarium:
         size: 6x6
         textures:
           - '26060000'
+  models:
+    Plugin_031_AdlerPlanetarium.dat:
+      - badb57f1-0489
   name: Adler Planetarium (Chicago)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-031-adler-planetarium
-      lastGenerated: 2025-01-06T12:13:26.920Z
+      lastGenerated: 2025-01-08T13:07:31.852Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -165,7 +171,7 @@ maxis/adler-planetarium:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:26.937Z
+      lastGenerated: 2025-01-08T13:07:31.867Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -205,7 +211,7 @@ maxis/air-force-base:
             water: 150
             waterPollution: 3
             waterPollutionRadius: 4
-      lastGenerated: 2025-01-06T12:13:28.776Z
+      lastGenerated: 2025-01-08T13:07:33.882Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_007_AirForceBase.dat:
@@ -270,6 +276,25 @@ maxis/air-force-base:
               - '25670000'
               - '25610000'
               - 25c60000
+      models:
+        Plugin_007_AirForceBase.dat:
+          - badb57f1-036f
+          - badb57f1-1117
+          - badb57f1-111a
+          - badb57f1-111b
+          - badb57f1-111c
+          - badb57f1-111d
+          - badb57f1-111e
+          - badb57f1-111f
+          - badb57f1-1120
+          - badb57f1-1121
+          - badb57f1-1122
+          - badb57f1-1123
+          - badb57f1-1124
+          - badb57f1-1125
+          - badb57f1-1126
+          - badb57f1-2b94
+          - badb57f1-eae4
       props:
         Plugin_007_AirForceBase.dat:
           2aee0fb3:
@@ -321,13 +346,16 @@ maxis/arc-de-triomphe:
           - 257c0000
           - '26060000'
           - 257d0000
+  models:
+    Plugin_003_ArcTriomphe.dat:
+      - badb57f1-04c1
   name: Arc de Triomphe (Paris)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-003-arc-de-triomphe
-      lastGenerated: 2025-01-06T12:13:26.966Z
+      lastGenerated: 2025-01-08T13:07:31.889Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -366,7 +394,7 @@ maxis/arc-de-triomphe:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:26.981Z
+      lastGenerated: 2025-01-08T13:07:31.904Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -418,13 +446,16 @@ maxis/brandenburg-gate:
         textures:
           - '26060000'
           - 25f40000
+  models:
+    Plugin_00C_BrandenburgGate.dat:
+      - badb57f1-04b7
   name: Brandenburg Gate (Berlin)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00C-brandenburg-gate
-      lastGenerated: 2025-01-06T12:13:27.008Z
+      lastGenerated: 2025-01-08T13:07:31.926Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -464,7 +495,7 @@ maxis/brandenburg-gate:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.024Z
+      lastGenerated: 2025-01-08T13:07:31.940Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -512,13 +543,16 @@ maxis/capitol-records:
           - '258e0000'
           - '25950000'
           - '25960000'
+  models:
+    Plugin_012_CapitolRecords.dat:
+      - badb57f1-04b1
   name: Capitol Records
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-012-capitol-records
-      lastGenerated: 2025-01-06T12:13:27.048Z
+      lastGenerated: 2025-01-08T13:07:31.963Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -557,7 +591,7 @@ maxis/capitol-records:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.062Z
+      lastGenerated: 2025-01-08T13:07:31.981Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -573,7 +607,7 @@ maxis/day-of-peace:
     default:
       assets:
         - id: simtropolis/maxis-day-of-peace
-      lastGenerated: 2025-01-06T12:13:28.768Z
+      lastGenerated: 2025-01-08T13:07:33.873Z
       lastModified: 2024-11-18T09:48:18.355Z
       props:
         dayopeace.dat:
@@ -690,6 +724,10 @@ maxis/globe-arena:
           - 258f0000
           - 258c0000
           - 25b20000
+  models:
+    Plugin_006_GlobeArena.dat:
+      - badb57f1-04bc
+      - badb57f1-2b96
   name: Globe Arena (Stockholm)
   props:
     Plugin_006_GlobeArena.dat:
@@ -701,7 +739,7 @@ maxis/globe-arena:
     default:
       assets:
         - id: simtropolis/maxis-plugin-006-globe-arena
-      lastGenerated: 2025-01-06T12:13:27.088Z
+      lastGenerated: 2025-01-08T13:07:32.014Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -741,7 +779,7 @@ maxis/globe-arena:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.106Z
+      lastGenerated: 2025-01-08T13:07:32.032Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -782,13 +820,16 @@ maxis/grand-central-station:
         size: 7x8
         textures:
           - 25fb0000
+  models:
+    Plugin_010_GrandCentralStation.dat:
+      - badb57f1-04b3
   name: Grand Central Station (New York)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-010-grand-central-station
-      lastGenerated: 2025-01-06T12:13:27.133Z
+      lastGenerated: 2025-01-08T13:07:32.055Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -828,7 +869,7 @@ maxis/grand-central-station:
             waterPollutionRadius: 5
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.149Z
+      lastGenerated: 2025-01-08T13:07:32.070Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -893,7 +934,7 @@ maxis/grutze-industries:
             water: 10
             waterPollution: 3
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.818Z
+      lastGenerated: 2025-01-08T13:07:33.926Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM4x5_GrutzeInd_2d217719.SC4Lot:
@@ -914,6 +955,9 @@ maxis/grutze-industries:
               - '25920000'
               - '25950000'
               - 256c0000
+      models:
+        IndstryPipes-0x5ad0e817_0x6cd8b254_0x2f0000.SC4Model:
+          - 6cd8b254-002f
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -974,7 +1018,7 @@ maxis/grutzehaus:
             water: 5
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.826Z
+      lastGenerated: 2025-01-08T13:07:33.934Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM2x3_Grutzehaus_ed2174a0.SC4Lot:
@@ -997,6 +1041,9 @@ maxis/grutzehaus:
               - 1e7e0000
               - 25f80000
               - 25b00000
+      models:
+        DstTxtr-0x5ad0e817_0x6cd8b254_0x2d0000.SC4Model:
+          - 6cd8b254-002d
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -1045,6 +1092,13 @@ maxis/kunjungjon:
           - 262a0000
           - 262c0000
           - 262b0000
+  models:
+    Plugin_008_Kunjungjon.dat:
+      - badb57f1-04ba
+      - badb57f1-2b97
+      - badb57f1-2b98
+      - badb57f1-2b99
+      - badb57f1-2b9a
   name: Kunjungjon
   props:
     Plugin_008_Kunjungjon.dat:
@@ -1065,7 +1119,7 @@ maxis/kunjungjon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-008-kunjungjon
-      lastGenerated: 2025-01-06T12:13:27.176Z
+      lastGenerated: 2025-01-08T13:07:32.092Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -1105,7 +1159,7 @@ maxis/kunjungjon:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.199Z
+      lastGenerated: 2025-01-08T13:07:32.108Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -1206,7 +1260,7 @@ maxis/longfellow-castle:
             ratingRadius: 256
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.833Z
+      lastGenerated: 2025-01-08T13:07:33.946Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         CastleSet.dat:
@@ -1351,6 +1405,50 @@ maxis/longfellow-castle:
               - 257a0000
               - 257c0000
               - '25800000'
+      models:
+        CastleSet.dat:
+          - badb57f1-2d01
+          - badb57f1-2d02
+          - badb57f1-2d03
+          - badb57f1-2d04
+          - badb57f1-2d05
+          - badb57f1-2d06
+          - badb57f1-2d07
+          - badb57f1-2d08
+          - badb57f1-2d09
+          - badb57f1-2d0a
+          - badb57f1-2d0b
+          - badb57f1-2d0c
+          - badb57f1-2d0d
+          - badb57f1-2d0f
+          - badb57f1-2d10
+          - badb57f1-2d13
+          - badb57f1-2d3f
+          - badb57f1-2d40
+          - badb57f1-2d41
+          - badb57f1-2d42
+          - badb57f1-2d43
+          - badb57f1-2d44
+          - badb57f1-2d45
+          - badb57f1-2d46
+          - badb57f1-2d47
+          - badb57f1-2d48
+          - badb57f1-2d49
+          - badb57f1-2d4a
+          - badb57f1-2d4b
+          - badb57f1-2d4c
+          - badb57f1-2d4d
+          - badb57f1-2d4e
+          - badb57f1-2d4f
+          - badb57f1-2d50
+          - badb57f1-2d51
+          - badb57f1-2d52
+          - badb57f1-2d53
+          - badb57f1-2d54
+          - badb57f1-2d55
+          - badb57f1-2d56
+          - badb57f1-2d57
+          - badb57f1-2d59
       props:
         CastleSet.dat:
           2d010000:
@@ -1516,7 +1614,7 @@ maxis/luckys-hang-ten:
             water: 9
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.809Z
+      lastGenerated: 2025-01-08T13:07:33.917Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_036_LuckysHangTen.dat:
@@ -1532,6 +1630,9 @@ maxis/luckys-hang-ten:
             textures:
               - '26110000'
               - '26140000'
+      models:
+        Plugin_036_LuckysHangTen.dat:
+          - badb57f1-0484
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -1570,8 +1671,58 @@ maxis/maxis-buildings-as-props:
           id: sc4evermore/14-maxis-buildings-as-props-and-dlc-props-v2-1
           include:
             - Maxis DLC Props.dat
-      lastGenerated: 2025-01-06T12:13:24.474Z
+      lastGenerated: 2025-01-08T13:07:29.623Z
       lastModified: 2024-10-14T12:05:00.000Z
+      models:
+        Maxis DLC Props.dat:
+          - 6cd8b254-002f
+          - badb57f1-2b9d
+          - badb57f1-2b9e
+          - badb57f1-2b9f
+          - badb57f1-2ba0
+          - badb57f1-2ba1
+          - badb57f1-2ba2
+          - badb57f1-2ba3
+          - badb57f1-2ba4
+          - badb57f1-2ba5
+          - badb57f1-2ba6
+          - badb57f1-2ba7
+          - badb57f1-2ba8
+          - badb57f1-2ba9
+          - badb57f1-2baa
+          - badb57f1-2bab
+          - badb57f1-2bac
+          - badb57f1-2bad
+          - badb57f1-2bae
+          - badb57f1-2d05
+          - badb57f1-2d06
+          - badb57f1-2d07
+          - badb57f1-2d08
+          - badb57f1-2d09
+          - badb57f1-2d0a
+          - badb57f1-2d0b
+          - badb57f1-2d0c
+          - badb57f1-2d3c
+          - badb57f1-2d41
+          - badb57f1-2d42
+          - badb57f1-2d43
+          - badb57f1-2d44
+          - badb57f1-2d45
+          - badb57f1-2d46
+          - badb57f1-2d47
+          - badb57f1-2d48
+          - badb57f1-2d49
+          - badb57f1-2d4a
+          - badb57f1-2d4e
+          - badb57f1-2d4f
+          - badb57f1-2d51
+          - badb57f1-2d52
+          - badb57f1-2d53
+          - badb57f1-2d54
+          - badb57f1-2d55
+          - badb57f1-2d56
+          - badb57f1-2d57
+          - badb57f1-2d59
       propFamilies:
         z_All Maxis building props with proper names.dat:
           '00001234':
@@ -4777,7 +4928,7 @@ maxis/mayflower-port:
             water: 250
             waterPollution: 2
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.785Z
+      lastGenerated: 2025-01-08T13:07:33.891Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_032_MayflowerPort.dat:
@@ -4788,6 +4939,11 @@ maxis/mayflower-port:
               - 2d390000
               - 2d370000
             size: 4x3
+      models:
+        Plugin_032_MayflowerPort.dat:
+          - badb57f1-0488
+          - badb57f1-2d37
+          - badb57f1-2d38
       props:
         Plugin_032_MayflowerPort.dat:
           2d370000:
@@ -4827,13 +4983,16 @@ maxis/namdaemun:
         size: 4x4
         textures:
           - 258b0000
+  models:
+    Plugin_009_NamDaeMoon.dat:
+      - badb57f1-04b9
   name: Namdaemun (Seoul)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-009-namdaemun
-      lastGenerated: 2025-01-06T12:13:27.505Z
+      lastGenerated: 2025-01-08T13:07:32.535Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -4871,7 +5030,7 @@ maxis/namdaemun:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.521Z
+      lastGenerated: 2025-01-08T13:07:32.550Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -4929,6 +5088,27 @@ maxis/parthenon:
         size: 3x5
         textures:
           - 25db0000
+  models:
+    Plugin_00D_Parthenon.dat:
+      - badb57f1-04b6
+      - badb57f1-2b9d
+      - badb57f1-2b9e
+      - badb57f1-2b9f
+      - badb57f1-2ba0
+      - badb57f1-2ba1
+      - badb57f1-2ba2
+      - badb57f1-2ba3
+      - badb57f1-2ba4
+      - badb57f1-2ba5
+      - badb57f1-2ba6
+      - badb57f1-2ba7
+      - badb57f1-2ba8
+      - badb57f1-2ba9
+      - badb57f1-2baa
+      - badb57f1-2bab
+      - badb57f1-2bac
+      - badb57f1-2bad
+      - badb57f1-2bae
   name: Parthenon (Athens)
   props:
     Plugin_00D_Parthenon.dat:
@@ -4991,7 +5171,7 @@ maxis/parthenon:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00D-parthenon
-      lastGenerated: 2025-01-06T12:13:27.225Z
+      lastGenerated: 2025-01-08T13:07:32.131Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5029,7 +5209,7 @@ maxis/parthenon:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.239Z
+      lastGenerated: 2025-01-08T13:07:32.149Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5081,6 +5261,13 @@ maxis/rockefeller-center:
         textures:
           - '26370000'
           - '26350000'
+  models:
+    Plugin_033_RockefellerCenter.dat:
+      - badb57f1-0487
+      - badb57f1-2d3a
+      - badb57f1-2d3b
+      - badb57f1-2d3c
+      - badb57f1-2d3d
   name: Rockefeller Center (New York)
   props:
     Plugin_033_RockefellerCenter.dat:
@@ -5098,7 +5285,7 @@ maxis/rockefeller-center:
     default:
       assets:
         - id: simtropolis/maxis-plugin-033-rockefeller-center
-      lastGenerated: 2025-01-06T12:13:27.262Z
+      lastGenerated: 2025-01-08T13:07:32.176Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5138,7 +5325,7 @@ maxis/rockefeller-center:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.278Z
+      lastGenerated: 2025-01-08T13:07:32.191Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5175,13 +5362,16 @@ maxis/sagrada-familia:
         size: 5x5
         textures:
           - '258e0000'
+  models:
+    Plugin_00F_TempleExpiatiori.dat:
+      - badb57f1-04b4
   name: Sagrada Familia (Barcelona)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00F-temple-expiatiori
-      lastGenerated: 2025-01-06T12:13:27.584Z
+      lastGenerated: 2025-01-08T13:07:32.609Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5219,7 +5409,7 @@ maxis/sagrada-familia:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.602Z
+      lastGenerated: 2025-01-08T13:07:32.623Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5258,13 +5448,16 @@ maxis/san-francisco-city-hall:
         size: 11x7
         textures:
           - 25d60000
+  models:
+    Plugin_017_SanFranCityHall.dat:
+      - badb57f1-04ac
   name: San Francisco City Hall
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-017-san-francisco-city-hall
-      lastGenerated: 2025-01-06T12:13:27.302Z
+      lastGenerated: 2025-01-08T13:07:32.219Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5304,7 +5497,7 @@ maxis/san-francisco-city-hall:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.317Z
+      lastGenerated: 2025-01-08T13:07:32.238Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5367,6 +5560,11 @@ maxis/schloss-schoenbrun:
           - 25ea0000
           - '26060000'
           - 257a0000
+  models:
+    Plugin_00E_SchlossSchoenbrun.dat:
+      - badb57f1-04b5
+      - badb57f1-2b9b
+      - badb57f1-2b9c
   name: Schönbrunn Palace (Vienna)
   props:
     Plugin_00E_SchlossSchoenbrun.dat:
@@ -5381,7 +5579,7 @@ maxis/schloss-schoenbrun:
     default:
       assets:
         - id: simtropolis/maxis-plugin-00E-schloss-schoenbrun
-      lastGenerated: 2025-01-06T12:13:27.343Z
+      lastGenerated: 2025-01-08T13:07:32.269Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5421,7 +5619,7 @@ maxis/schloss-schoenbrun:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.357Z
+      lastGenerated: 2025-01-08T13:07:32.291Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5473,6 +5671,10 @@ maxis/seoul-city-hall:
           - 25b40000
           - 25f10000
           - '26270000'
+  models:
+    Plugin_004_SeoulCityHall.dat:
+      - badb57f1-04bd
+      - badb57f1-04c3
   name: Seoul City Hall
   props:
     Plugin_004_SeoulCityHall.dat:
@@ -5484,7 +5686,7 @@ maxis/seoul-city-hall:
     default:
       assets:
         - id: simtropolis/maxis-plugin-004-seoul-city-hall
-      lastGenerated: 2025-01-06T12:13:27.382Z
+      lastGenerated: 2025-01-08T13:07:32.322Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5524,7 +5726,7 @@ maxis/seoul-city-hall:
             waterPollutionRadius: 3
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.399Z
+      lastGenerated: 2025-01-08T13:07:32.340Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5575,13 +5777,16 @@ maxis/seoul-soccer-stadium:
           - 25ea0000
           - 25ed0000
           - 25aa0000
+  models:
+    Plugin_005_SeoulSoccerStad.dat:
+      - badb57f1-04c2
   name: Seoul World Cup Stadium
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-005-seoul-soccer-stadium
-      lastGenerated: 2025-01-06T12:13:27.423Z
+      lastGenerated: 2025-01-08T13:07:32.368Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5620,7 +5825,7 @@ maxis/seoul-soccer-stadium:
             waterPollutionRadius: 6
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.437Z
+      lastGenerated: 2025-01-08T13:07:32.385Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5657,7 +5862,7 @@ maxis/shorty-burger:
             water: 9
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.801Z
+      lastGenerated: 2025-01-08T13:07:33.910Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_035_ShortyBurger.dat:
@@ -5673,6 +5878,9 @@ maxis/shorty-burger:
             textures:
               - 25fb0100
               - 25b40000
+      models:
+        Plugin_035_ShortyBurger.dat:
+          - badb57f1-0485
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -5705,7 +5913,7 @@ maxis/sobchak-lanes:
             water: 9
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.793Z
+      lastGenerated: 2025-01-08T13:07:33.900Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         Plugin_034_SobchakLanes.dat:
@@ -5720,6 +5928,9 @@ maxis/sobchak-lanes:
               - '25920000'
               - '25960000'
               - '26350000'
+      models:
+        Plugin_034_SobchakLanes.dat:
+          - badb57f1-0486
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -5778,7 +5989,7 @@ maxis/stone-house:
             water: 8
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.842Z
+      lastGenerated: 2025-01-08T13:07:33.957Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM3x3_StoneHouse_0d1d6acb.SC4Lot:
@@ -5796,6 +6007,9 @@ maxis/stone-house:
               - '262e0000'
               - '1e810000'
               - 1e7e0000
+      models:
+        StoneHouse-0x5ad0e817_0x6cd8b254_0x2e0000.SC4Model:
+          - 6cd8b254-002e
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -5837,6 +6051,16 @@ maxis/stonehenge:
         textures:
           - 25f40000
           - '25e90000'
+  models:
+    Plugin_016_Stonehenge.dat:
+      - badb57f1-04ad
+      - badb57f1-2b9d
+      - badb57f1-2ba0
+      - badb57f1-2ba2
+      - badb57f1-2ba5
+      - badb57f1-2ba8
+      - badb57f1-2bab
+      - badb57f1-2bad
   name: Stonehenge
   props:
     Plugin_016_Stonehenge.dat:
@@ -5866,7 +6090,7 @@ maxis/stonehenge:
     default:
       assets:
         - id: simtropolis/maxis-plugin-016-stonehenge
-      lastGenerated: 2025-01-06T12:13:27.461Z
+      lastGenerated: 2025-01-08T13:07:32.416Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5903,7 +6127,7 @@ maxis/stonehenge:
             waterPollutionRadius: 1
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.480Z
+      lastGenerated: 2025-01-08T13:07:32.472Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -5942,13 +6166,16 @@ maxis/taipei-art-museum:
         size: 5x7
         textures:
           - 252b0000
+  models:
+    Plugin_030_TaipeiArtMuseum.dat:
+      - badb57f1-0490
   name: Taipei Fine Arts Museum
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-030-taipei-art-museum
-      lastGenerated: 2025-01-06T12:13:27.546Z
+      lastGenerated: 2025-01-08T13:07:32.572Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -5988,7 +6215,7 @@ maxis/taipei-art-museum:
             waterPollutionRadius: 2
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.560Z
+      lastGenerated: 2025-01-08T13:07:32.587Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z
@@ -6047,7 +6274,7 @@ maxis/temple-of-grutz:
             ratingRadius: 256
             waterPollution: 1
             waterPollutionRadius: 2
-      lastGenerated: 2025-01-06T12:13:28.850Z
+      lastGenerated: 2025-01-08T13:07:33.966Z
       lastModified: 2024-11-18T09:48:18.355Z
       lots:
         LM6x6_TempleOfGrutz_2d1e7a9e.SC4Lot:
@@ -6061,6 +6288,9 @@ maxis/temple-of-grutz:
             textures:
               - 25ba0000
               - 251c0000
+      models:
+        TempleOfGrutz-0x5ad0e817_0xad1d67dc_0x30000.SC4Model:
+          - ad1d67dc
       release: 2024-11-27T09:17:21.435Z
       version: 1.0.0
 
@@ -6105,13 +6335,16 @@ maxis/the-living-mall:
           - 258f0000
           - '26210000'
           - 25c40000
+  models:
+    Plugin_002_TheLivingMall.dat:
+      - badb57f1-04c0
   name: The Living Mall (Taipei)
   url: https://community.simtropolis.com/sc4-maxis-files
   variants:
     default:
       assets:
         - id: simtropolis/maxis-plugin-002-the-living-mall
-      lastGenerated: 2025-01-06T12:13:27.634Z
+      lastGenerated: 2025-01-08T13:07:32.647Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: Original
       release: 2024-11-27T09:17:21.435Z
@@ -6151,7 +6384,7 @@ maxis/the-living-mall:
             waterPollutionRadius: 5
       credits:
         - toroca: Jobs
-      lastGenerated: 2025-01-06T12:13:27.656Z
+      lastGenerated: 2025-01-08T13:07:32.661Z
       lastModified: 2024-11-18T09:48:18.355Z
       name: With jobs
       release: 2024-11-27T09:00:58.547Z

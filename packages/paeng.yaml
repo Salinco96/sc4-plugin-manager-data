@@ -1,5 +1,5 @@
 paeng/bikepaths:
-  categories: parks,bus
+  categories: parks,bus,transport
   dependencies:
     - maxis/brandenburg-gate # tex 262e0000
     - maxis/maxis-buildings-as-props
@@ -274,7 +274,7 @@ paeng/bikepaths:
               r$$$: 750
             waterPollution: 1
             waterPollutionRadius: 1
-      lastGenerated: 2025-01-06T12:13:26.650Z
+      lastGenerated: 2025-01-08T13:07:31.611Z
       lastModified: 2011-04-20T15:28:52.000Z
       lots:
         Bikepaths_Lots/BikePath_Lots.dat:
@@ -759,6 +759,16 @@ paeng/bikepaths:
             textures:
               - '262e0000'
               - f5f84220
+      models:
+        Bikepath_Resource/Common.dat:
+          - 17519ddb
+        Bikepath_Resource/Murimk_CustomProps_Bikepath.dat:
+          - 1a9bed26
+          - 7a2b6b54
+          - da2b6b89
+          - da2b6d5e
+          - fa2bd88d
+          - fa790f49
       props:
         Bikepath_Resource/Murimk_CustomProps_Bikepath.dat:
           3da09c5c:

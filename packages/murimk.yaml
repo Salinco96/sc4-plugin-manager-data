@@ -443,7 +443,7 @@ murimk/bike-lots:
             pollutionRadius: 2
             waterPollution: 1
             waterPollutionRadius: 1
-      lastGenerated: 2025-01-06T12:13:25.017Z
+      lastGenerated: 2025-01-08T13:07:30.047Z
       lastModified: 2010-12-07T19:13:50.000Z
       lots:
         Bike_Kindergarten/Bike_Kindergarten_d9f99d8a.SC4Lot:
@@ -1155,6 +1155,10 @@ murimk/bike-lots:
             textures:
               - 1da447b0
               - 1da479e5
+      models:
+        common.dat:
+          - 713d210c
+          - 750fac58
       props:
         common.dat:
           15020cb0:
@@ -1190,7 +1194,7 @@ murimk/bike-mmps:
           id: simtropolis/25681-murimk-props-vol01-bicycle-props-with-bikers-mmp
           include:
             - Murimk_Bicycle_Props/Bikers/Bikers_MMP.dat
-      lastGenerated: 2025-01-06T12:13:25.034Z
+      lastGenerated: 2025-01-08T13:07:30.063Z
       lastModified: 2011-01-13T11:14:03.000Z
       mmps:
         Bikers_MMP.dat:
@@ -1300,7 +1304,7 @@ murimk/props-vol01:
             water: 5
             waterPollution: 1
             waterPollutionRadius: 1
-      lastGenerated: 2025-01-06T12:13:25.025Z
+      lastGenerated: 2025-01-08T13:07:30.055Z
       lastModified: 2011-01-13T11:14:03.000Z
       lots:
         MUR_Bicycle-Props_Testlot_3a39c1b5.SC4Lot:
@@ -1349,6 +1353,69 @@ murimk/props-vol01:
             size: 2x2
             textures:
               - 25fb0000
+      models:
+        Bike_Shelters/shelters.dat:
+          - 18a2c9e1
+          - 387dde7a
+          - 38a2cb4c
+          - b8a2c884
+          - f8a2ca8e
+        Bike_Stands/stands-shop.dat:
+          - 39f1ac36
+          - 39f1b2a6
+          - 59f1b027
+          - 79f1aa91
+          - 79f1af8c
+          - 987ddc8a
+          - 99f1ab75
+          - b9f1ab04
+          - b9f1b1d3
+          - b9f1b351
+          - f87ddc3c
+        Bike_Stands/stands-simple.dat:
+          - 19f1bc6f
+          - 19f1bcd7
+          - 39f1bd40
+          - 59e6e2f0
+          - 59f1baed
+          - 59f1bb84
+          - 59f1bbfa
+          - 79f1ba1d
+          - 99f1b774
+          - b9e6e7bc
+          - b9f1b6f2
+          - b9f1be9a
+          - d9e70b7d
+          - d9f1b7f2
+          - f9e6e51c
+        Bikers/bikers.dat:
+          - 19e884e2
+          - 396b6256
+          - 39e6d5fc
+          - 39e6e1fd
+          - 596b62eb
+          - 596b6582
+          - 59e6e01d
+          - 796b66c9
+          - 79e6d49e
+          - 79e6d513
+          - 99f1c094
+          - d96b661c
+          - d9e8840c
+          - d9e88469
+        Bikes/bikes.dat:
+          - 5992fd0e
+          - 5992fd6a
+          - 5992fe46
+          - 7992fe91
+          - 9992fdde
+          - b9e833ec
+          - d9f1c0ed
+        Signs/signs.dat:
+          - 387ddcd4
+          - 587ddcf7
+          - 987ddd13
+          - d87ddcbe
       propFamilies:
         Family-Names.dat:
           a00005f5:
@@ -1753,7 +1820,7 @@ murimk/props-vol02:
             water: 5
             waterPollution: 1
             waterPollutionRadius: 1
-      lastGenerated: 2025-01-06T12:13:25.042Z
+      lastGenerated: 2025-01-08T13:07:30.072Z
       lastModified: 2011-09-21T21:23:18.000Z
       lots:
         Test_Lots/graffitti_tester_da5f6605.SC4Lot:
@@ -1895,6 +1962,138 @@ murimk/props-vol02:
             size: 2x2
             textures:
               - 25fb0000
+      models:
+        Graffiti/Murimk_graffiti.dat:
+          - 1a4d978b
+          - 1a4d99c6
+          - 1a4d9dd0
+          - 3a4d9974
+          - 3a4d99fa
+          - 5a4d9b48
+          - 5a4d9bb1
+          - 5a4d9c17
+          - 5a75c1ff
+          - 7a4d9807
+          - 7a4d9f81
+          - 7b405abe
+          - 9a4d987a
+          - 9a4d9937
+          - 9a4d9be2
+          - ba4d97d3
+          - ba4d98e8
+          - ba4d9ac3
+          - ba4d9c8c
+          - ba4d9ccf
+          - ba4d9e1b
+          - ba75c273
+          - da75c015
+          - fa4d9832
+          - fa4d9b11
+          - fa4d9da6
+          - fa75c1a7
+        IndustrialWalls/Murimk_industrialwalls.dat:
+          - 3a4daead
+          - 7a4db985
+          - 7a4dbb11
+          - 9a4dae13
+          - 9a4daf64
+          - 9a4dc318
+          - 9a51e37b
+          - fbb8c3a8
+        ParkFences/Murimk_parkfences.dat:
+          - 1b69632e
+          - 1b780ba5
+          - 1bc3459a
+          - 1be988b5
+          - 1be99679
+          - 3b696452
+          - 3b69781e
+          - 3b77d530
+          - 3b7807f1
+          - 3be98737
+          - 5b696245
+          - 5b696531
+          - 5b696680
+          - 5b69779e
+          - 5bc2c06e
+          - 5be99725
+          - 5beab40a
+          - 7b696dfa
+          - 7b698132
+          - 7b77cf74
+          - 7be9878d
+          - 7beaab22
+          - 9b6981c0
+          - 9b7806a5
+          - 9b781f47
+          - 9b782013
+          - 9be9980f
+          - bb696607
+          - bb696ca1
+          - bb6972ec
+          - bb69847b
+          - bb781633
+          - bb781947
+          - bbc2be3d
+          - bbe997a3
+          - bbeab14e
+          - db698532
+          - db781702
+          - db781fe1
+          - dbeab07e
+          - fb6963a1
+          - fb77c1ff
+          - fb77ca8b
+          - fb780592
+          - fb781040
+          - fb781f06
+          - fbc2c1ab
+          - fbc345d9
+        ParkProps/Murimk_Park_props_1_large.dat:
+          - 1a640bbd
+          - 3a41bb28
+          - 3b90a88b
+          - 5a41c115
+          - 5b90a50d
+          - 7a64074d
+          - 7be11637
+          - b92e7674-0070
+          - b92e7674-0071
+          - b92e7674-0077
+          - b92e7674-0078
+          - da41bb7b
+          - da41bdef
+          - db909a02
+          - fbe11937
+        ParkProps/Murimk_Park_props_1_small.dat:
+          - 1b90e9ba
+          - 3b90bb33
+          - 3bb8ccd9
+          - 3be11f53
+          - 5a41bed1
+          - 5b90aeda
+          - 5b90e623
+          - 5b90e94d
+          - 5bb8ceaf
+          - 5be120a7
+          - 5be120d7
+          - 7bb8ca24
+          - 7bb8cadf
+          - 7be11e9c
+          - 7be11fa1
+          - 9b90e549
+          - 9bb8cbb0
+          - 9bb8ce61
+          - 9be1204b
+          - bb90eb6c
+          - bbb8ceee
+          - bbe11ff1
+          - db90e5aa
+          - db90ebbd
+          - dbb8ca7f
+          - fb90e4db
+          - fbb8cf5c
+          - fbe11f08
       propFamilies:
         Graffiti/Murimk_graffiti.dat:
           5f855f02:

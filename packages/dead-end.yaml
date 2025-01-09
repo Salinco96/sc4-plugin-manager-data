@@ -24,7 +24,7 @@ dead-end/dutch-bicyclepaths:
     default:
       assets:
         - id: simtropolis/33761-dutch-bicyclepaths
-      lastGenerated: 2025-01-06T12:13:26.660Z
+      lastGenerated: 2025-01-08T13:07:31.618Z
       lastModified: 2020-08-13T16:07:06.000Z
       release: 2024-12-17T16:13:42.332Z
       textures:
@@ -87,7 +87,7 @@ dead-end/grimstad-pharmacy:
             name: Grimstad Pharmacy
             power: 1
             submenu: Health/Small
-      lastGenerated: 2025-01-06T12:13:26.566Z
+      lastGenerated: 2025-01-08T13:07:31.540Z
       lastModified: 2024-09-22T07:43:56.000Z
       lots:
         Grimstad Pharmacy.SC4Lot:
@@ -148,7 +148,7 @@ dead-end/hisingen-apartments:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 591
-      lastGenerated: 2025-01-06T12:13:25.428Z
+      lastGenerated: 2025-01-08T13:07:30.338Z
       lastModified: 2024-11-24T08:46:44.000Z
       lots:
         R$$2_3x2_Hisingen Apartments_04c27834.SC4Lot:
@@ -226,7 +226,7 @@ dead-end/hjorthagen-school-relot:
             power: 2
             submenu: Education/Elementary
             water: 5
-      lastGenerated: 2025-01-06T12:13:26.574Z
+      lastGenerated: 2025-01-08T13:07:31.547Z
       lastModified: 2024-11-06T17:35:43.000Z
       lots:
         DE_PLOP_5x4_hjorthagens skola_e4acd9d0.SC4Lot:
@@ -283,10 +283,10 @@ dead-end/konsum:
     - robdragon/props-vol01
     - sfbt/essentials
     - shokthrpy/parking-pack
-    - id: zero7/industrial-pack
-      include:
-        - Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc
-        - z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model
+    - zero7/industrial-pack:
+        include:
+          - Isuzu Cargo-0x6534284a-0xb8144390-0xda02d424.SC4Desc
+          - z7prop_IsuzuCargoPearsons-0x5ad0e817_0xb8144390_0x1c0000.SC4Model
   description: |-
     Konsum is a Swedish cooperative grocery store. This ploppable 2x2 lot fits on a street corner. The store has a loading dock in the back, which is accessed through the parking area. Sims are also able to park their bikes in the front. It offers 37 C$ jobs.
 
@@ -323,7 +323,7 @@ dead-end/konsum:
             waterPollution: 1
             waterPollutionRadius: 5
             worth: 283
-      lastGenerated: 2025-01-06T12:13:26.344Z
+      lastGenerated: 2025-01-08T13:07:31.339Z
       lastModified: 2024-11-16T14:10:26.000Z
       lots:
         PLOP_2x2_DE_konsumstorre_44b3469c.SC4Lot:
@@ -405,7 +405,7 @@ dead-end/lapinkirkko-relot:
             water: 34
             waterPollution: 3
             waterPollutionRadius: 4
-      lastGenerated: 2025-01-06T12:13:26.627Z
+      lastGenerated: 2025-01-08T13:07:31.590Z
       lastModified: 2024-12-24T09:43:29.000Z
       lots:
         PLOP_4x5_DE_TG_Lapinkirkko_24d5c22b.SC4Lot:
@@ -485,7 +485,7 @@ dead-end/norrkoping-clinic:
             power: 3
             submenu: Health/Small
             water: 9
-      lastGenerated: 2025-01-06T12:13:26.550Z
+      lastGenerated: 2025-01-08T13:07:31.526Z
       lastModified: 2024-03-31T18:37:13.000Z
       lots:
         Norrkoping Clinic.SC4Lot:
@@ -607,7 +607,7 @@ dead-end/scandinavian-supermarkets:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 1012
-      lastGenerated: 2025-01-06T12:13:26.244Z
+      lastGenerated: 2025-01-08T13:07:31.239Z
       lastModified: 2024-06-25T20:09:19.000Z
       lots:
         Joker/CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker_13f43e21.SC4Lot:
@@ -755,7 +755,7 @@ dead-end/spar-supermarket:
             waterPollution: 2
             waterPollutionRadius: 6
             worth: 4075
-      lastGenerated: 2025-01-06T12:13:26.237Z
+      lastGenerated: 2025-01-08T13:07:31.232Z
       lastModified: 2024-06-17T18:09:29.000Z
       lots:
         DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot:
@@ -845,7 +845,7 @@ dead-end/stave-church:
             water: 26
             waterPollution: 2
             waterPollutionRadius: 4
-      lastGenerated: 2025-01-06T12:13:26.603Z
+      lastGenerated: 2025-01-08T13:07:31.571Z
       lastModified: 2024-12-04T11:34:57.000Z
       lots:
         PLOP_5x5_DE_Stavechurch_e4cd1390.SC4Lot:
@@ -889,8 +889,8 @@ dead-end/stave-church:
 dead-end/white-villa:
   categories: r$$$
   dependencies:
-    - cycledogg/mega-props-vol01
     - 11241036/textures
+    - cycledogg/mega-props-vol01
     - flann/girafe-maxis-fence-hd-replacement-mod
     - girafe/flora-pack
     - haarlemmergold/dutch-mega-props-vol01
@@ -932,7 +932,7 @@ dead-end/white-villa:
             waterPollution: 1
             waterPollutionRadius: 7
             worth: 671
-      lastGenerated: 2025-01-06T12:13:25.283Z
+      lastGenerated: 2025-01-08T13:07:30.296Z
       lastModified: 2024-11-07T22:45:10.000Z
       lots:
         R$$$4_2x2_DE_Witte Villa_3483f82f.SC4Lot:

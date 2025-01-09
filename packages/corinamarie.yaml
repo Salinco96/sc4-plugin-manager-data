@@ -94,7 +94,7 @@ corinamarie/no-kickout-lower-wealth:
     default:
       assets:
         - id: simtropolis/34027-coris-no-kickout-lower-wealth-mod
-      lastGenerated: 2025-01-06T12:13:27.751Z
+      lastGenerated: 2025-01-08T13:07:32.778Z
       lastModified: 2021-01-02T14:05:00.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 1.0.0
@@ -296,6 +296,8 @@ corinamarie/parks-aura:
     In particular, the meticulous testing carefully conducted by [@Naomi57](https://community.simtropolis.com/profile/780182-naomi57/) with each posted beta version inspired this release to be possible.
 
     Thank you! ![*:)](https://community.simtropolis.com/assets/emoticons/default_1.gif "*:&#41;")
+  features:
+    - dataviews/parks-aura
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65181406f_ParksAura-LogoFeature.jpg.86a2a6ca8c608272e49c85a3c08a559d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e651fa0251_ParksAurav1.0-Preview01.jpg.cb7aa98268f2be063f4f8eb13c9ece61.jpg
@@ -303,8 +305,6 @@ corinamarie/parks-aura:
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e65261eebc_ParksAurav1.0-Preview03.jpg.daad321b91147377bf6792d08c59b5b6.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e652932880_ParksAurav1.0-Preview04.jpg.5cf1482b8109684fc19b8d6141731946.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2020_01/5e2e652cb463d_ParksAurav1.0-Preview05.jpg.97900694503b62df1ebf4a8394bcb580.jpg
-  features:
-    - dataviews/parks-aura
   name: Cori's Parks Aura
   readme: ReadMe - Cori's Parks Aura v1.0.txt
   support: https://community.simtropolis.com/forums/topic/26475-no-jobs-and-abandonment-due-to-commute-time
@@ -314,20 +314,20 @@ corinamarie/parks-aura:
     default:
       assets:
         - id: simtropolis/33412-coris-parks-aura
-      lastGenerated: 2025-01-06T12:13:27.734Z
+      lastGenerated: 2025-01-08T13:07:32.739Z
       lastModified: 2020-01-27T04:34:02.000Z
       name: Default
       release: 2025-01-06T11:26:36.812Z
       version: 1.0.0
     deuteranopia:
       assets:
-        - id: simtropolis/33412-coris-parks-aura
-          exclude:
+        - exclude:
             - z_DataView - Cori's Parks Aura v1.0.dat
+          id: simtropolis/33412-coris-parks-aura
         - id: simtropolis/53930-coris-parks-aura-deuteranopia
           include:
             - zz_Deuteranopia DataView - Cori's Parks Aura v1.0.dat
-      lastGenerated: 2025-01-07T06:19:58.072Z
+      lastGenerated: 2025-01-08T13:07:32.762Z
       lastModified: 2020-01-27T04:34:02.000Z
       name: Deuteranopia
       release: 2025-01-07T06:19:58.072Z

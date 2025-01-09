@@ -514,15 +514,14 @@ bsc/common-dependencies:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC Common Dependencies Pack*.txt
+        - cleanitol: Cleanitol_BSC Common Dependencies Pack*.txt
           docs:
             - ~Documents/readme*
             - readme.css
             - readme_bsc_common_dependencies.html
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include: []
-      lastGenerated: 2025-01-06T12:13:23.052Z
+      lastGenerated: 2025-01-08T13:07:28.586Z
       lastModified: 2024-08-21T22:51:45.000Z
       release: 2024-11-26T21:04:04.961Z
       version: 9.0.0
@@ -628,7 +627,7 @@ bsc/essentials:
             name: T1 - CS$ Timber frame shops
           effec014:
             name: T1 - Small Tenements (double)
-      lastGenerated: 2025-01-06T12:13:23.943Z
+      lastGenerated: 2025-01-08T13:07:29.152Z
       lastModified: 2024-08-21T22:51:45.000Z
       propFamilies:
         BSC_PropFamilyNames v4.dat:
@@ -3523,8 +3522,7 @@ bsc/misc-props-vol01:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC MEGA Props - Misc Vol01*.txt
+        - cleanitol: Cleanitol_BSC MEGA Props - Misc Vol01*.txt
           docs:
             - BSC MEGA Props - Misc Vol01*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
@@ -3620,8 +3618,236 @@ bsc/misc-props-vol01:
             pollution: 5
             power: 12
             waterPollution: 4
-      lastGenerated: 2025-01-06T12:13:23.253Z
+      lastGenerated: 2025-01-08T13:07:28.702Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        BSC MEGA Props - Misc Vol01 v2.dat:
+          - 0e8e29e8
+          - 0e95320d
+          - 0ec767a3-000e
+          - 0ec767a3-000f
+          - 0ec767a3-0011
+          - 0ec767a3-0012
+          - 0ec767a3-0018
+          - 0ec767a3-001a
+          - 0ec767a3-001d
+          - 0ec767a3-001e
+          - 0ec767a3-001f
+          - 1196dc0f
+          - '11996560'
+          - 119a0a59
+          - 11abcb06
+          - 12149f41
+          - 1214b2a1
+          - 121c10c1
+          - 122bf33c
+          - 12881af6
+          - 12b11a4f
+          - 2d0d4aa0-0084
+          - 2d0d4aa0-0086
+          - 2d0d4aa0-00a8
+          - 2d2e4fa5-0052
+          - 2d2e4fa5-006b
+          - 2d2e4fa5-006c
+          - 2d2e4fa5-0071
+          - 2d2e4fa5-0073
+          - 2d2e4fa5-0078
+          - 2d5511de
+          - 2d7475ab
+          - 2d74e17e
+          - 31996ca4
+          - 319a0a97
+          - 321053d2
+          - 32109f5b
+          - 3214a02c
+          - 3214b76e
+          - 321c7417
+          - 321c8272
+          - '32881858'
+          - 4e2492fc
+          - 4e8e30ad
+          - 4e95256b
+          - 4e9580bc
+          - 519a0108
+          - 51ba10be
+          - 520751c2
+          - '52104909'
+          - 52109cf3
+          - 52149da6
+          - 5214a3b4
+          - '52155351'
+          - 5215718b
+          - 52157d67
+          - '52159271'
+          - 521592a0
+          - 521592cf
+          - 5215b3c0
+          - 522bc9f9
+          - 522bcc81
+          - 522bccf1
+          - 522bcdcb
+          - 52afeaa1
+          - 5309d3a3
+          - 6d2eab0a-002c
+          - 6d2eab0a-002d
+          - 6d2eab0a-0065
+          - 6d2eab0a-0066
+          - 6d2eab0a-006c
+          - 6d2eab0a-0071
+          - 6d2eab0a-0073
+          - 6d2eab0a-007a
+          - 6d2eab0a-007b
+          - 6d2eab0a-007c
+          - 6d2eab0a-007d
+          - 6d2eab0a-0081
+          - 6d2eab0a-0082
+          - 6d2eab0a-0084
+          - 6df765e5
+          - 6e27fb40-000a
+          - 6e27fb40-000f
+          - 6e27fb40-0011
+          - 6e27fb40-001b
+          - 6e27fb40-001d
+          - 6e27fb40-001e
+          - 6e27fb40-002a
+          - 6e27fb40-002e
+          - 6e27fb40-0033
+          - 6e27fb40-0037
+          - 6e27fb40-0038
+          - 6e27fb40-0039
+          - 6e27fb40-003b
+          - 6e27fb40-003c
+          - 6e27fb40-003d
+          - 6e27fb40-003e
+          - 6e27fb40-003f
+          - 6e27fb40-0040
+          - 6e27fb40-0042
+          - 6e27fb40-0043
+          - 6e27fb40-0047
+          - 6e27fb40-0048
+          - 6e27fb40-0049
+          - 6e27fb40-004a
+          - 6e27fb40-004e
+          - 6e27fb40-0050
+          - 6e27fb40-007d
+          - 6ef03acf-005e
+          - 6fd5a725-0025
+          - 6fd5a725-0026
+          - 6fd5a725-0027
+          - 6fd5a725-0028
+          - 6fd5a725-0029
+          - 6fd5a725-002a
+          - 6fd5a725-002f
+          - 6fd5a725-0031
+          - 6fd5a725-0032
+          - 6fd5a725-0033
+          - 7198d89f
+          - 71997a95
+          - 719a0408
+          - 71a09155
+          - 71c91156
+          - 721049a0
+          - '72106045'
+          - '72106224'
+          - 72109da1
+          - 72149e7c
+          - 7214a68d
+          - 7214abe0
+          - 7214ad6e
+          - 7214b67a
+          - 7215615f
+          - 72156b3d
+          - 72156fdd
+          - 72159a67
+          - 72159b42
+          - 721c0f39
+          - 722bcae9
+          - 722bcd42
+          - 7309cc21
+          - 7309cda2
+          - 8e0c2666
+          - 8e8e2de2
+          - '92106139'
+          - 9214a7ec
+          - 92159a2a
+          - 921bfc7f
+          - 921c78dd
+          - 922bcc14
+          - 922bce2b
+          - 922beb3a
+          - 9309c59d
+          - ad32a630-0011
+          - ad4ce3f2
+          - ae953364
+          - ae953557
+          - b196d4ee
+          - b19a0005
+          - b1aecf2b
+          - b1f0bc81
+          - b2071e8f
+          - b2104b00
+          - b2105d4b
+          - b2109c49
+          - b214a1c3
+          - b214a9d5
+          - b21546e2
+          - b21572fe
+          - b2159247
+          - b215a3aa
+          - b21c12a2
+          - b22bca78
+          - b22bce83
+          - b22beea8
+          - cd412adf-0010
+          - cd412adf-0011
+          - cd412adf-0012
+          - cd412adf-0013
+          - cd412adf-0014
+          - cd412adf-0015
+          - cd412adf-0016
+          - cd524ac0
+          - cd7a35c4
+          - cd7a3778
+          - cd7ab656
+          - cdb42458-0084
+          - cdb42458-0086
+          - d1993fe6
+          - d199ed9c
+          - d1b00e02
+          - d1b4f022
+          - d20647d0
+          - d20a2807
+          - d2105770
+          - d210a898
+          - d214b468
+          - d2155114
+          - d215862c
+          - d2158a31
+          - d21591c6
+          - d2159b13
+          - d21bf95a
+          - d21c1342
+          - ed368fa1-001e
+          - ed368fa1-001f
+          - ed368fa1-0020
+          - ed368fa1-0021
+          - ed368fa1-0031
+          - ed368fa1-0032
+          - ed368fa1-0033
+          - ed368fa1-0034
+          - ed7a36d8
+          - edf95e3e
+          - ee9530bd
+          - f1c15585
+          - f2072951
+          - f20a0cee
+          - f214a0f7
+          - f214a29d
+          - f21564de
+          - f2156e39
+          - f22bcb57
+          - f22bcbba
+          - f22bf54d
       props:
         BSC MEGA Props - Misc Vol01 v2.dat:
           073d45f1:
@@ -4438,15 +4664,194 @@ bsc/misc-props-vol02:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC MEGA Props - Misc Vol02*.txt
+        - cleanitol: Cleanitol_BSC MEGA Props - Misc Vol02*.txt
           docs:
             - BSC MEGA Props MISC Vol02*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Misc Vol02*.dat
-      lastGenerated: 2025-01-06T12:13:23.263Z
+      lastGenerated: 2025-01-08T13:07:28.708Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        BSC MEGA Props - Misc Vol02 v4.dat:
+          - 0d3d6b37-0004
+          - 0dbcf6c9
+          - 0dbe8b5a
+          - 0df42b1d
+          - 0df43365
+          - 0df433fb
+          - 0e15a986
+          - 0ebc899c
+          - 0ebc89c8
+          - 0ed70f12
+          - 0ed71560
+          - 110cb7ba-0060
+          - 110cb7ba-0061
+          - 110cb7ba-0062
+          - 110cb7ba-0063
+          - 110cb7ba-0064
+          - 11bc4c72
+          - 14f83efb
+          - 18c53c68
+          - 2ddee5a2
+          - 2e14489b
+          - 2e144b3b
+          - 2e15a96b
+          - 2e773dfd
+          - 2ebc88bb
+          - 2ed715ab
+          - 30c5d2f5
+          - 30c5d307
+          - 315546c3
+          - 31a05da4
+          - 31b5aa9f
+          - 31bc42ea
+          - 3218325d
+          - 4dbe8c06
+          - 4de86d36
+          - 4df432de
+          - 4dfb4549
+          - 4dfb4644
+          - 4e091d7c
+          - 4e14491e
+          - 50c5d32f
+          - 50e1269c
+          - 51577dde
+          - 51bc3fbe
+          - 51bc41fb
+          - 5492d6bc
+          - 54f83a75
+          - 54f8435b
+          - 6d6b58ea-0042
+          - 6d6b58ea-0043
+          - 6d6b58ea-0044
+          - 6d6b58ea-0045
+          - 6dbe8a2e
+          - 6dbe9232
+          - 6dd20f1d
+          - 6de713f3
+          - 6e034df3
+          - 6e07b7c3
+          - 6e091d12
+          - 6e144b2d
+          - 6e159cb0
+          - 7060054d-0033
+          - 7060054d-006d
+          - 707b2989-002d
+          - 707b2989-0036
+          - 707b2989-0047
+          - 707b2989-0048
+          - 707b2989-0050
+          - 707b2989-0051
+          - 707b2989-0052
+          - 707b2989-0054
+          - 707b2989-0057
+          - 707b2989-0058
+          - 707b2989-005b
+          - 707b2989-005c
+          - 707b2989-005f
+          - 707b2989-0060
+          - 707b2989-0063
+          - 707b2989-0064
+          - 707b2989-0067
+          - 707b2989-0068
+          - 707b2989-006b
+          - 707b2989-006c
+          - 707b2989-0071
+          - 707b2989-0073
+          - 707b2989-0077
+          - 707b2989-007a
+          - 707b2989-007b
+          - 707b2989-007c
+          - 707b2989-0081
+          - 707b2989-0082
+          - 707b2989-0084
+          - 707b2990-0009
+          - 707b2990-0060
+          - 707b2990-0061
+          - 707b2990-0063
+          - 707b2990-0064
+          - 707b2990-0066
+          - 707b2990-0067
+          - 707b2990-0069
+          - 707b2990-006a
+          - 707b2990-006c
+          - 707b2990-006d
+          - 707b2990-0070
+          - 70c5d1d5
+          - '70e12672'
+          - 7152c698
+          - 71577b27
+          - 71a05e8a
+          - 71b59748
+          - 71bc446e
+          - 72900c0c
+          - 8dbd02eb
+          - 8dbd260e
+          - 8dbfe9c0
+          - 8dfb4582
+          - 8ebc88e7
+          - 8ebc891f
+          - 8ebc8977
+          - 8ed70ee6
+          - '91539e94'
+          - 91a05e16
+          - 91a05f0f
+          - 91a05f97
+          - 91bc4f4d
+          - 9335a119-0016
+          - 94368cf6
+          - ad4ba465-0058
+          - ad4ba465-0059
+          - ad4ba465-005a
+          - ad4ba465-005b
+          - ad4ba465-005c
+          - ad4ba465-005d
+          - ad4ba465-005e
+          - ad4ba465-005f
+          - ad4ba465-0081
+          - ad4ba465-0082
+          - ad4ba465-0084
+          - adbfdb2c
+          - adf34a88
+          - adfb4fa9
+          - ae091bee
+          - ae15a953
+          - b15781f6
+          - b187a075
+          - b187a301
+          - b1bc4173
+          - b1bc425d
+          - b1bc43ef
+          - b4f83b37
+          - b4f83c41
+          - badb57f1-ba50
+          - badb57f1-c35c
+          - cdbcf2ae
+          - ce144928
+          - ce15a95f
+          - ce771757
+          - ce77191d
+          - d0e12686
+          - d0e1268e
+          - d1551190
+          - d1563d5d
+          - d1bc41b7
+          - d4f83937
+          - d4f83e50
+          - ed773eb1-0022
+          - ed773eb1-0027
+          - edbced2f
+          - edf42445
+          - edfb44d1
+          - ee15a97a
+          - eed71492
+          - eed714c4
+          - f0c5d2da
+          - f0e1267c
+          - f1578561
+          - f1a05e41
+          - f4f84241
       props:
         BSC MEGA Props - Misc Vol02 v4.dat:
           '00590000':
@@ -6358,15 +6763,55 @@ bsc/misc-props-vol03:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC MEGA Props - Misc Vol03*.txt
+        - cleanitol: Cleanitol_BSC MEGA Props - Misc Vol03*.txt
           docs:
             - BSC MEGA Props - Misc Vol03*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - Misc Vol03*.dat
-      lastGenerated: 2025-01-06T12:13:23.274Z
+      lastGenerated: 2025-01-08T13:07:28.715Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        BSC MEGA Props - Misc Vol03.dat:
+          - 0d539c06-0036
+          - 11f10361-0013
+          - 2dbd5cd3
+          - 5465811a
+          - 59c3d1e5
+          - 6dc138fd
+          - 6dd414f2
+          - 72220a5b
+          - 73c23687
+          - 79a8ebef
+          - 7ac8bae3
+          - 8fb4d8b8-000e
+          - 93f70424-0004
+          - 93f70424-0005
+          - 93f70424-0006
+          - 93f70424-0007
+          - 93f70424-0008
+          - 93f70424-0009
+          - 93f70424-000a
+          - 93f70424-000b
+          - 93f70424-000c
+          - 93f70424-000d
+          - 93f70424-000e
+          - cde7aafb
+          - ce96e9ca
+          - d17c864e
+          - d2b51acd
+          - d2e33f87
+          - d9c3e157
+          - f235452b-002a
+          - f235452b-002b
+          - f2b519c4
+          - f3081b74-011b
+          - f3081b74-011f
+          - f3081b74-012a
+          - f3081b74-012b
+          - f3081b74-012c
+          - f3081b74-012d
+          - f9a8efd8
       props:
         BSC MEGA Props - Misc Vol03.dat:
           127d409b:
@@ -6495,15 +6940,187 @@ bsc/snm-props-vol01:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC MEGA Props - SNM Vol01*.txt
+        - cleanitol: Cleanitol_BSC MEGA Props - SNM Vol01*.txt
           docs:
             - BSC MEGA Props - SNM Vol01*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - SNM Vol01*.dat
-      lastGenerated: 2025-01-06T12:13:23.770Z
+      lastGenerated: 2025-01-08T13:07:29.053Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        BSC MEGA Props - SNM Vol01 v2.dat:
+          - 1185fed7
+          - 119db4de
+          - 124b05d7
+          - 12f0cee1
+          - '131983e0'
+          - 13198c26
+          - '19573470'
+          - 30c5d2f5
+          - 30c5d307
+          - 30d16db2
+          - 30f8965a
+          - 30f8a3e4
+          - 311da76b
+          - 311dc6e5
+          - 311dff4d
+          - 31369aa7
+          - 314c2bf5
+          - 31907eb2
+          - 3191985d
+          - 324ba419
+          - 324cdc5e
+          - 325227f0
+          - 3260e0ce
+          - 3260fab8
+          - 32f0ca72
+          - 32f0d1c4
+          - 33196ef7
+          - '33197502'
+          - 331977cf
+          - 33412fb5
+          - 3957346a
+          - '39573474'
+          - 4de23686
+          - 50c5d32f
+          - 50d18150
+          - 50d18a1c
+          - 50d18eca
+          - 50d192c4
+          - 50e1269c
+          - 50f8880f
+          - 50f88ef8
+          - 5110a683
+          - 51368ecc
+          - 513c5e5d
+          - 513f0f05
+          - 514923c9
+          - 5166570b
+          - 524d7efa
+          - 524d818e
+          - 524d8830
+          - 524d8b1b
+          - 52a116d1
+          - 52ca5d22
+          - 52f0cacc
+          - 52f0cb26
+          - 5319780c
+          - 5319843f
+          - 531984eb
+          - '53198646'
+          - 53198a3d
+          - 5341300f
+          - 5341304c
+          - 5369b12a
+          - 5369b698
+          - 6fd14352-0011
+          - 70c5d1d5
+          - 70d1970a
+          - '70e12672'
+          - 70f89c7a
+          - 711d892b
+          - 713d99c0
+          - 713db306
+          - 716657ae
+          - 718e92f5
+          - '71933007'
+          - 719cf819
+          - 719d071b
+          - 719d13eb
+          - 719d8c4b
+          - 721ee457-0012
+          - 721ee457-0013
+          - 721ee457-0014
+          - 721ee457-0017
+          - 721ee457-001a
+          - 721ee457-001b
+          - 721ee457-001c
+          - 721ee457-001e
+          - 721ee457-001f
+          - 721ee457-0020
+          - 724b0bda
+          - 724d8d34
+          - 725511f0
+          - 72a118a5
+          - 72a133a9
+          - 72f0cca0
+          - 72f0cd0a
+          - 72f0ce2f
+          - 72f0d1ae
+          - 72f0d1cd
+          - 7317c2e6
+          - 911db63a
+          - '91389e20'
+          - '91849378'
+          - 924ba55d
+          - 92f0d0f7
+          - '93198320'
+          - 9319859a
+          - 9327d78b
+          - b0cecb27
+          - b1109591
+          - b110a228
+          - b11df6f8
+          - b13db5f6
+          - b24cdac9
+          - b24d769b
+          - b2551b3a
+          - b25fc84e
+          - b26a2ad2
+          - b2a1167e
+          - b2a11867
+          - b2f0cb77
+          - b2f0cd75
+          - b3197886
+          - b31982c7
+          - b31986f6
+          - b3413076
+          - d0e12686
+          - d0e1268e
+          - d1369726
+          - d13aa4fa
+          - d13ebbbf
+          - d166531d
+          - d190add7
+          - d1943d89
+          - d24d7ba6
+          - d24d8f04
+          - d24f68f9
+          - d2550f58
+          - d2551c27
+          - d25fca0c
+          - d2e75163
+          - d2e780a5
+          - d2f0cbcc
+          - d2f0cf91
+          - d2f0d1b9
+          - d311369d
+          - d317c03f
+          - d3197102
+          - d3197848
+          - d3198381
+          - d341311f
+          - d957346d
+          - d9573477
+          - ef388d5c-0022
+          - ef388d5c-002b
+          - f0c5d2da
+          - f0e1267c
+          - f1109c39
+          - f13693ae
+          - f13eee01
+          - f16655de
+          - f24ba12a
+          - f24ba6bc
+          - f25512ed
+          - f2f0cc33
+          - f2f0d043
+          - f316ffe4
+          - f31987a3
+          - f3198853
+          - f369c00a
+          - f9573467
       props:
         BSC MEGA Props - SNM Vol01 v2.dat:
           021fd09d:
@@ -7568,15 +8185,60 @@ bsc/snm-props-vol02:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC MEGA Props - SNM Vol02*.txt
+        - cleanitol: Cleanitol_BSC MEGA Props - SNM Vol02*.txt
           docs:
             - BSC MEGA Props - SNM Vol02*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - SNM Vol02*.dat
-      lastGenerated: 2025-01-06T12:13:23.781Z
+      lastGenerated: 2025-01-08T13:07:29.058Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        BSC MEGA Props - SNM Vol02 - Naval v2.dat:
+          - 1154fbdf
+          - 115bb4ff
+          - 1923c5cd
+          - 315b8a9c
+          - 315bc1ea
+          - 315cf0c7
+          - '31849870'
+          - 3270d9a7
+          - 3270f682
+          - 3923bd12
+          - 3923c809
+          - 533567b4
+          - 5335748f
+          - 713946a8
+          - 71849b00
+          - 7270df10
+          - '73357390'
+          - 7335f28e
+          - 7923c4d0
+          - 7923c84c
+          - 91849de2
+          - '92710177'
+          - 9923c447
+          - 9923c59f
+          - b14052a1
+          - b14c47b9
+          - b15cce72
+          - b195aca5
+          - b270d874
+          - b270d8e6
+          - b270df5d
+          - b335efc5
+          - b923c624
+          - d0fe21f0
+          - d13a93b9
+          - d15a8b94
+          - d195f5f5
+          - d3360905
+          - f15caf06
+          - f160bfa4
+          - f270d947
+          - f270da06
+          - f33555d2
+          - f3473068
       props:
         BSC MEGA Props - SNM Vol02 - Naval v2.dat:
           113bee46:
@@ -7726,14 +8388,13 @@ bsc/textures-vol01:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC Textures Vol01*.txt
+        - cleanitol: Cleanitol_BSC Textures Vol01*.txt
           docs:
             - BSC Textures Vol01*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Textures Vol01*.dat
-      lastGenerated: 2025-01-06T12:13:24.025Z
+      lastGenerated: 2025-01-08T13:07:29.220Z
       lastModified: 2024-08-21T22:51:45.000Z
       release: 2025-01-06T12:11:36.550Z
       textures:
@@ -9089,14 +9750,13 @@ bsc/textures-vol02:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC Textures Vol02*.txt
+        - cleanitol: Cleanitol_BSC Textures Vol02*.txt
           docs:
             - BSC Textures Vol02*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Textures Vol02*.dat
-      lastGenerated: 2025-01-06T12:13:24.033Z
+      lastGenerated: 2025-01-08T13:07:29.232Z
       lastModified: 2024-08-21T22:51:45.000Z
       release: 2025-01-06T12:11:36.603Z
       textures:
@@ -10013,14 +10673,13 @@ bsc/textures-vol03:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC Textures vol03*.txt
+        - cleanitol: Cleanitol_BSC Textures vol03*.txt
           docs:
             - BSC Textures vol03*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC Textures Vol03*.dat
-      lastGenerated: 2025-01-06T12:13:24.040Z
+      lastGenerated: 2025-01-08T13:07:29.243Z
       lastModified: 2024-08-21T22:51:45.000Z
       propFamilies:
         BSC Textures Vol03 v5.dat:
@@ -10723,15 +11382,104 @@ bsc/w2w-props-vol01:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_BSC MEGA Props - W2W Vol01*.txt
+        - cleanitol: Cleanitol_BSC MEGA Props - W2W Vol01*.txt
           docs:
             - BSC MEGA Props - W2W Vol01*_index.jpg
           id: sc4evermore/3-sc4d-lex-legacy-bsc-common-dependencies-pack
           include:
             - BSC MEGA Props - W2W Vol01*.dat
-      lastGenerated: 2025-01-06T12:13:23.853Z
+      lastGenerated: 2025-01-08T13:07:29.093Z
       lastModified: 2024-08-21T22:51:45.000Z
+      models:
+        BSC MEGA Props - W2W Vol01 v2.dat:
+          - 0d3020be
+          - 0db411ce
+          - 0e018c78
+          - 0ed27b9c
+          - 0ed27e5c
+          - 0ed2801d
+          - 0ed2844d
+          - 0ed2b47e
+          - 2e0052b9
+          - 2e0c4470
+          - 2ed27d8e
+          - 2ed2817e
+          - 2ed2873a
+          - 2ed2b3e5
+          - 2ed2b753
+          - 4d400be9-000c
+          - 4d400be9-0047
+          - 4d400be9-004e
+          - 4d400be9-0055
+          - 4d400be9-0059
+          - 4d400be9-005b
+          - 4d400be9-005c
+          - 4d400be9-005d
+          - 4d400be9-005f
+          - 4d400be9-0061
+          - 4d400be9-0067
+          - 4d400be9-0069
+          - 4d400be9-006a
+          - 4d400be9-006c
+          - 4d400be9-006d
+          - 4d400be9-0071
+          - 4d400be9-007b
+          - 4d400be9-007c
+          - 4d400be9-007d
+          - 4d400be9-008d
+          - 4deaec31
+          - 4e004d1e
+          - '4e018763'
+          - 4e0189ad
+          - 4e079aca
+          - 4ed283bf
+          - 4ed28817
+          - 4ed2b87a
+          - 6d2edce8-003b
+          - 6d2edce8-0059
+          - 6d2ef127
+          - 6da384ec
+          - 6db40c28
+          - 6dd76656-0024
+          - 6dd76656-002e
+          - 6dd76656-002f
+          - 6dd76656-0031
+          - 6dd76656-0035
+          - 6dd76656-0036
+          - 6dd76656-0037
+          - 6e0049b4
+          - 6ed27cd4
+          - 6ed28678
+          - 6ed29795
+          - 6ed2b7e9
+          - 6ed2b923
+          - 71eb1a2c
+          - 7302b9ae
+          - 8deaeb77
+          - 8ed28325
+          - 8ed28527
+          - 8ed2b408
+          - 8ed2b51c
+          - 9189a2a5
+          - '92101145'
+          - ad30209e
+          - adb40e1d
+          - ae0051a0
+          - aed280c6
+          - aed285d2
+          - aed288f0
+          - aed2c03a
+          - ce004ba6
+          - ce004c8c
+          - ced27f4f
+          - ced2bfc7
+          - d19d6e30
+          - ed2eee13
+          - ee004b28
+          - ee004fd9
+          - ee018b5e
+          - ee018e59
+          - eed2825b
       props:
         BSC MEGA Props - W2W Vol01 v2.dat:
           0d7d499d:

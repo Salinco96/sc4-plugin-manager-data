@@ -30,7 +30,7 @@ orange/aesculus:
           id: simtropolis/27001-vip-orange-aesculus
           include:
             - VIP/Orange/Aesculus
-      lastGenerated: 2025-01-06T12:13:27.774Z
+      lastGenerated: 2025-01-08T13:07:32.796Z
       lastModified: 2024-02-04T10:24:41.000Z
       mmps:
         VIP_Or_Aesculus_Seasonal.dat:
@@ -67,6 +67,26 @@ orange/aesculus:
               - id: 78da200e
                 model: bbd11d02
                 name: VIP_Or_FL_Aesculus_Summer_05
+      models:
+        VIP_Or_Aesculus_Props.dat:
+          - 1bd07928
+          - 1bd15475
+          - 1bd15dc5
+          - 3bd0f810
+          - 3bd0f85f
+          - 3bd16728
+          - 7bd15486
+          - 9bd11cf2
+          - 9bd16428
+          - bbd0f803
+          - bbd11d02
+          - bbd11d0f
+          - dbd0791a
+          - dbd15499
+          - dbd15dd3
+          - fbd07936
+          - fbd15db8
+          - fbd1643f
       release: 2024-12-03T16:03:49.352Z
       version: 1.0.0
 
@@ -102,7 +122,7 @@ orange/fagus:
           id: simtropolis/27008-vip-orange-fagus
           include:
             - VIP/Orange/Fagus
-      lastGenerated: 2025-01-06T12:13:27.782Z
+      lastGenerated: 2025-01-08T13:07:32.804Z
       lastModified: 2024-02-04T10:19:19.000Z
       mmps:
         VIP_Or_Fagus_Seasonal.dat:
@@ -134,6 +154,23 @@ orange/fagus:
               - id: 78da2019
                 model: 7bd85213
                 name: VIP_Or_FL_Fagus_Summer_05
+      models:
+        VIP_Or_Fagus_Props.dat:
+          - 1bd8643a
+          - 1bd914e7
+          - 5bd95aea
+          - 7bd85205
+          - 7bd85213
+          - 7bd8642b
+          - 7bd95210
+          - bbd91268
+          - dbd86446
+          - dbd91284
+          - dbd95229
+          - dbd95ae0
+          - fbd85222
+          - fbd9521d
+          - fbd95afe
       release: 2024-12-03T16:03:49.352Z
       version: 1.0.0
 
@@ -162,14 +199,13 @@ orange/pinus-nigra:
   variants:
     default:
       assets:
-        - cleanitol:
-            - Cleanitol_VIP Orange Pinus Nigra v2.txt
+        - cleanitol: Cleanitol_VIP Orange Pinus Nigra v2.txt
           docs:
             - ~Documents/VIP_Readmes/Orange_o
           id: simtropolis/28847-vip-orange-pinus-nigra-v2
           include:
             - VIP/Orange/Pinus Nigra
-      lastGenerated: 2025-01-06T12:13:27.792Z
+      lastGenerated: 2025-01-08T13:07:32.812Z
       lastModified: 2024-02-04T10:35:34.000Z
       mmps:
         VIP_Or_PinusNigra_Evergreen_MMP.dat:
@@ -192,6 +228,13 @@ orange/pinus-nigra:
               - id: 78da1035
                 model: 1a4c355d
                 name: zzoff_plop_PinusNigra05
+      models:
+        VIP_Or_PinusNegra_Props.dat:
+          - 1a4ba992
+          - 1a4c355d
+          - 3a4c2724
+          - 9a4c327e
+          - ba4bacc6
       props:
         VIP_Or_PinusNegra_Props.dat:
           1ac8e9ec:
