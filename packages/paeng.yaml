@@ -58,7 +58,7 @@ paeng/bikepaths:
             - Paeng_BikePaths_v100
       buildings:
         Bikepaths_Lots/BikePath_Lots.dat:
-          1aa1f59c:
+          07bddf1c-1aa1f59c:
             bulldoze: 1
             categories: transport
             cost: 75
@@ -75,7 +75,7 @@ paeng/bikepaths:
               r$$$: 750
             waterPollution: 1
             waterPollutionRadius: 1
-          1aa20147:
+          07bddf1c-1aa20147:
             bulldoze: 1
             categories: transport
             cost: 15
@@ -84,7 +84,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          1aa208e2:
+          07bddf1c-1aa208e2:
             bulldoze: 1
             categories: transport
             cost: 15
@@ -93,7 +93,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          3a9e5a2f:
+          07bddf1c-3a9e5a2f:
             bulldoze: 1
             categories: transport
             cost: 1
@@ -101,7 +101,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          3a9e5ee1:
+          07bddf1c-3a9e5ee1:
             bulldoze: 1
             categories: transport
             cost: 50
@@ -110,7 +110,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          3a9e6ed9:
+          07bddf1c-3a9e6ed9:
             bulldoze: 1
             categories: transport
             cost: 5
@@ -118,7 +118,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          3a9e96a3:
+          07bddf1c-3a9e96a3:
             bulldoze: 1
             categories: transport
             cost: 6
@@ -126,7 +126,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          7a9e9728:
+          07bddf1c-7a9e9728:
             bulldoze: 1
             categories: transport
             cost: 7
@@ -134,7 +134,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          7a9f6893:
+          07bddf1c-7a9f6893:
             bulldoze: 1
             categories: transport
             cost: 3
@@ -142,7 +142,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          7a9f885f:
+          07bddf1c-7a9f885f:
             bulldoze: 1
             categories: transport
             cost: 4
@@ -150,7 +150,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          7aa34e91:
+          07bddf1c-7aa34e91:
             bulldoze: 1
             categories: transport
             cost: 8
@@ -166,7 +166,7 @@ paeng/bikepaths:
               r$$$: 750
             waterPollution: 1
             waterPollutionRadius: 1
-          7aa3572f:
+          07bddf1c-7aa3572f:
             bulldoze: 1
             categories: transport
             cost: 8
@@ -182,7 +182,7 @@ paeng/bikepaths:
               r$$$: 750
             waterPollution: 1
             waterPollutionRadius: 1
-          7aa36ab5:
+          07bddf1c-7aa36ab5:
             bulldoze: 1
             categories: transport
             cost: 2
@@ -190,7 +190,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          9a9fd29e:
+          07bddf1c-9a9fd29e:
             bulldoze: 1
             categories: transport
             cost: 5
@@ -198,7 +198,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          9a9fec5e:
+          07bddf1c-9a9fec5e:
             bulldoze: 1
             categories: transport
             cost: 100
@@ -206,7 +206,7 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          9aa0bd8f:
+          07bddf1c-9aa0bd8f:
             bulldoze: 1
             categories: transport
             cost: 9
@@ -214,7 +214,47 @@ paeng/bikepaths:
             menu: MiscTransit
             model: badb57f1-0e11
             name: BikePath
-          9aa38570:
+          07bddf1c-ba9f88ba:
+            bulldoze: 1
+            categories: transport
+            cost: 4
+            label: BikePath Stop and Gap south
+            menu: MiscTransit
+            model: badb57f1-0e11
+            name: BikePath
+          07bddf1c-daa0aa7b:
+            bulldoze: 1
+            categories: transport
+            cost: 30
+            label: BikePath Driveway
+            menu: MiscTransit
+            model: badb57f1-0e11
+            name: BikePath
+          07bddf1c-daa0beb6:
+            bulldoze: 1
+            categories: transport
+            cost: 9
+            label: BikePath Exit south
+            menu: MiscTransit
+            model: badb57f1-0e11
+            name: BikePath
+          07bddf1c-daa4aa11:
+            bulldoze: 1
+            categories: transport
+            cost: 1
+            label: BikePath Straight 3x
+            menu: MiscTransit
+            model: badb57f1-0e11
+            name: BikePath
+            pollution: -2
+            pollutionRadius: 2
+            relief:
+              r$: 750
+              r$$: 750
+              r$$$: 750
+            waterPollution: 1
+            waterPollutionRadius: 1
+          17519ddb-9aa38570:
             bulldoze: 10
             categories: bus
             cost: 120
@@ -234,47 +274,7 @@ paeng/bikepaths:
             submenu: MiscTransit/Bus
             waterPollution: 1
             waterPollutionRadius: 1
-          ba9f88ba:
-            bulldoze: 1
-            categories: transport
-            cost: 4
-            label: BikePath Stop and Gap south
-            menu: MiscTransit
-            model: badb57f1-0e11
-            name: BikePath
-          daa0aa7b:
-            bulldoze: 1
-            categories: transport
-            cost: 30
-            label: BikePath Driveway
-            menu: MiscTransit
-            model: badb57f1-0e11
-            name: BikePath
-          daa0beb6:
-            bulldoze: 1
-            categories: transport
-            cost: 9
-            label: BikePath Exit south
-            menu: MiscTransit
-            model: badb57f1-0e11
-            name: BikePath
-          daa4aa11:
-            bulldoze: 1
-            categories: transport
-            cost: 1
-            label: BikePath Straight 3x
-            menu: MiscTransit
-            model: badb57f1-0e11
-            name: BikePath
-            pollution: -2
-            pollutionRadius: 2
-            relief:
-              r$: 750
-              r$$: 750
-              r$$$: 750
-            waterPollution: 1
-            waterPollutionRadius: 1
-      lastGenerated: 2025-01-08T13:07:31.611Z
+      lastGenerated: 2025-01-10T08:12:50.866Z
       lastModified: 2011-04-20T15:28:52.000Z
       lots:
         Bikepaths_Lots/BikePath_Lots.dat:
@@ -282,26 +282,26 @@ paeng/bikepaths:
             building: 1aa1f59c
             name: bikepath_reststop
             props:
-              - afcede18
-              - eed4d217
-              - a00009a6
               - 0ee5b477
-              - a5a00100
-              - 8ee82b92
-              - eebe9b3a
-              - a00009a3
-              - a00005f9
-              - a00005f5
-              - ced4d617
               - 29c20000
-              - a000007b
-              - a0000065
-              - a000007f
-              - 6ef30071
-              - 4eef798e
               - 3da09c5c
-              - a00005f8
+              - 4eef798e
+              - 6ef30071
+              - 8ee82b92
+              - a0000065
+              - a000007b
+              - a000007f
+              - a00005f5
               - a00005f7
+              - a00005f8
+              - a00005f9
+              - a00009a3
+              - a00009a6
+              - a5a00100
+              - afcede18
+              - ced4d617
+              - eebe9b3a
+              - eed4d217
             size: 3x1
             textures:
               - '262e0000'
@@ -311,26 +311,26 @@ paeng/bikepaths:
             building: 1aa20147
             name: bikepath_tunnel-north
             props:
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - eed614d8
-              - eebe9b3a
-              - afcede18
-              - a5a00100
-              - 2b1a0000
-              - ceef799c
-              - 1ece0000
-              - a5a00104
               - 1e9a0000
-              - a000007b
-              - a0000065
-              - a000007f
-              - a00005f9
-              - d948c518
+              - 1ece0000
+              - 2b1a0000
               - 3da09c5c
+              - a0000065
+              - a000007b
+              - a000007f
               - a00005f7
+              - a00005f9
+              - a00009a6
+              - a5a00100
+              - a5a00104
+              - afcede18
+              - ceef799c
+              - d948c518
               - e33571f6
+              - eebe9b3a
+              - eed4d217
+              - eed614d8
             size: 2x1
             textures:
               - '262e0000'
@@ -340,38 +340,38 @@ paeng/bikepaths:
             building: 1aa208e2
             name: bikepath_tunnel-south
             props:
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - eed614d8
-              - eebe9b3a
-              - afcede18
-              - a5a00100
-              - ceef799c
               - 1ece0000
-              - a000007b
-              - a0000065
-              - a000007f
-              - 2a140000
               - 1ecf0000
-              - a5a00108
-              - d948c518
+              - 2a140000
               - 3da09c5c
+              - a0000065
+              - a000007b
+              - a000007f
               - a00005f8
+              - a00009a6
+              - a5a00100
+              - a5a00108
+              - afcede18
+              - ceef799c
+              - d948c518
               - e33571f6
+              - eebe9b3a
+              - eed4d217
+              - eed614d8
             size: 2x1
             textures:
               - '262e0000'
-              - f5f84250
               - f5f84230
+              - f5f84250
           3a9e5a2f:
             building: 3a9e5a2f
             name: bikepath_straight01
             props:
-              - afcede18
-              - eed4d217
               - 0ee5b477
               - a00009a6
+              - afcede18
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -380,40 +380,40 @@ paeng/bikepaths:
             building: 3a9e5ee1
             name: bikepath_shelter
             props:
-              - afcede18
-              - a00005f5
-              - b9ec8dbb
-              - a00005f8
-              - a00005f7
-              - a000007c
-              - a000007a
-              - a00009a4
               - 1ecf0000
-              - eed4d217
-              - a5a00104
               - a0000043
+              - a000007a
+              - a000007c
+              - a00005f5
+              - a00005f7
+              - a00005f8
+              - a00009a4
+              - a5a00104
+              - afcede18
+              - b9ec8dbb
+              - eed4d217
             size: 3x1
             textures:
-              - '262e0000'
               - 1da479e5
-              - f5f84230
+              - '262e0000'
               - f5f84220
+              - f5f84230
           3a9e6ed9:
             building: 3a9e6ed9
             name: bikepath_curve-inner
             props:
-              - afcede18
-              - a5a00100
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - a000007f
-              - a5a00104
-              - f948c554
-              - 2a160000
               - 1ece0000
-              - a00005f8
+              - 2a160000
+              - a000007f
               - a00005f7
+              - a00005f8
+              - a00009a6
+              - a5a00100
+              - a5a00104
+              - afcede18
+              - eed4d217
+              - f948c554
             size: 1x1
             textures:
               - '262e0000'
@@ -422,19 +422,19 @@ paeng/bikepaths:
             building: 3a9e96a3
             name: bikepath_1intersection
             props:
-              - afcede18
-              - a5a00100
               - 1ecf0000
-              - eed4d217
-              - a5a00104
-              - d948c518
-              - da9ff345
               - a0000044
-              - a000007c
               - a000007a
-              - eebe9b3a
+              - a000007c
               - a00005f7
               - a00005f8
+              - a5a00100
+              - a5a00104
+              - afcede18
+              - d948c518
+              - da9ff345
+              - eebe9b3a
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -443,18 +443,18 @@ paeng/bikepaths:
             building: 7a9e9728
             name: bikepath_2intersection
             props:
-              - afcede18
-              - a5a00100
               - 1ecf0000
-              - eed4d217
-              - a5a00104
-              - a000007c
               - a000007a
+              - a000007c
+              - a00005f7
+              - a00005f8
+              - a5a00100
+              - a5a00104
+              - afcede18
               - d948c518
               - da9ff345
               - eebe9b3a
-              - a00005f8
-              - a00005f7
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -463,17 +463,17 @@ paeng/bikepaths:
             building: 7a9f6893
             name: bikepath_straight_gap-small
             props:
-              - a5a00100
-              - 1ecf0000
-              - 1ece0000
-              - eed4d217
-              - 2a140000
-              - a0000044
               - 1dab0000
-              - a000007a
-              - eebe9b3a
+              - 1ece0000
+              - 1ecf0000
+              - 2a140000
               - 3da09c5c
+              - a0000044
+              - a000007a
               - a00005f7
+              - a5a00100
+              - eebe9b3a
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -482,19 +482,19 @@ paeng/bikepaths:
             building: 7a9f885f
             name: bikepath_stop-gap-north
             props:
-              - a5a00100
+              - 1dd60000
               - 1ecf0000
-              - eed4d217
+              - 3da09c5c
+              - a000007a
+              - a000007c
+              - a000007f
+              - a00005f7
+              - a5a00100
               - a5a00104
               - d948c518
               - da9ff345
               - eebe9b3a
-              - a000007f
-              - a000007c
-              - a000007a
-              - 1dd60000
-              - 3da09c5c
-              - a00005f7
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -503,21 +503,21 @@ paeng/bikepaths:
             building: 7aa34e91
             name: bikepath_exchange-south
             props:
-              - eed4d217
               - 0ee5b477
-              - 29c20000
-              - a00009a6
-              - a000007c
-              - a000007a
-              - f948c554
-              - 2a160000
               - 1ece0000
-              - afcede18
               - 1ecf0000
+              - 29c20000
+              - 2a160000
               - 3da09c5c
+              - a000007a
+              - a000007c
               - a00005f7
+              - a00009a6
+              - afcede18
               - c39f4d2d
               - e33571f6
+              - eed4d217
+              - f948c554
             size: 1x1
             textures:
               - '262e0000'
@@ -526,21 +526,21 @@ paeng/bikepaths:
             building: 7aa3572f
             name: bikepath_exchange-north
             props:
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - a000007c
-              - a000007a
-              - a5a00104
-              - f948c554
-              - a5a00100
               - 1ece0000
-              - afcede18
-              - a000007f
               - 3da09c5c
+              - a000007a
+              - a000007c
+              - a000007f
               - a00005f8
+              - a00009a6
+              - a5a00100
+              - a5a00104
+              - afcede18
               - c39f4d2d
               - e33571f6
+              - eed4d217
+              - f948c554
             size: 1x1
             textures:
               - '262e0000'
@@ -549,19 +549,19 @@ paeng/bikepaths:
             building: 7aa36ab5
             name: bikepath_ped-crossing
             props:
-              - a5a00100
-              - 1ecf0000
-              - 1ece0000
-              - eed4d217
-              - 2a140000
-              - a0000044
               - 1dab0000
-              - a000007a
+              - 1ece0000
+              - 1ecf0000
+              - 2a140000
               - 3da09c5c
-              - a00005f7
+              - a0000044
+              - a000007a
               - a000007c
+              - a00005f7
+              - a5a00100
               - c39f4d2d
               - e33571f6
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -570,17 +570,17 @@ paeng/bikepaths:
             building: 9a9fd29e
             name: bikepath_curve-outer
             props:
-              - eed4d217
               - 0ee5b477
-              - 29c20000
-              - a00009a6
-              - a000007c
-              - a000007a
-              - a5a00104
-              - f948c554
-              - a5a00100
-              - 2a160000
               - 1ece0000
+              - 29c20000
+              - 2a160000
+              - a000007a
+              - a000007c
+              - a00009a6
+              - a5a00100
+              - a5a00104
+              - eed4d217
+              - f948c554
             size: 1x1
             textures:
               - '262e0000'
@@ -589,27 +589,27 @@ paeng/bikepaths:
             building: 9a9fec5e
             name: bikepath_busstop
             props:
-              - afcede18
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - a5a00100
-              - ae340000
-              - 29c20000
-              - a000007b
-              - eebe9b3a
-              - 4eef798e
-              - a000007f
-              - a5a00104
-              - 4ef2154f
-              - 2a140000
               - 1ece0000
               - 1ecf0000
+              - 29c20000
+              - 2a140000
+              - 3da09c5c
+              - 4eef798e
+              - 4ef2154f
               - 818fed8e
               - a0000065
-              - a00005f8
+              - a000007b
+              - a000007f
               - a00005f7
-              - 3da09c5c
+              - a00005f8
+              - a00009a6
+              - a5a00100
+              - a5a00104
+              - ae340000
+              - afcede18
+              - eebe9b3a
+              - eed4d217
             size: 3x1
             textures:
               - '262e0000'
@@ -620,19 +620,19 @@ paeng/bikepaths:
             building: 9aa0bd8f
             name: bikepath_exit-north
             props:
-              - afcede18
-              - a5a00100
-              - 2a130000
+              - 0ee5b477
               - 1ece0000
               - 1ecf0000
-              - a5a00104
-              - eed4d217
-              - 0ee5b477
               - 29c20000
-              - a000007a
-              - c9c541ab
+              - 2a130000
               - 3da09c5c
+              - a000007a
               - a00005f8
+              - a5a00100
+              - a5a00104
+              - afcede18
+              - c9c541ab
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -641,27 +641,27 @@ paeng/bikepaths:
             building: 9aa38570
             name: bikepath_busstop_functional
             props:
-              - afcede18
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - a5a00100
-              - ae340000
-              - 29c20000
-              - a000007b
-              - eebe9b3a
-              - 4eef798e
-              - a000007f
-              - a5a00104
-              - 4ef2154f
-              - 2a140000
               - 1ece0000
               - 1ecf0000
+              - 29c20000
+              - 2a140000
+              - 3da09c5c
+              - 4eef798e
+              - 4ef2154f
               - 818fed8e
               - a0000065
-              - a00005f8
+              - a000007b
+              - a000007f
               - a00005f7
-              - 3da09c5c
+              - a00005f8
+              - a00009a6
+              - a5a00100
+              - a5a00104
+              - ae340000
+              - afcede18
+              - eebe9b3a
+              - eed4d217
             size: 3x1
             textures:
               - '262e0000'
@@ -672,20 +672,20 @@ paeng/bikepaths:
             building: ba9f88ba
             name: bikepath_stop-gap-south
             props:
-              - a5a00100
+              - 1dd60000
               - 1ecf0000
-              - eed4d217
+              - 3da09c5c
+              - a000007f
+              - a00005f7
+              - a00005f8
+              - a00009a2
+              - a00009a4
+              - a5a00100
               - a5a00104
               - d948c518
               - da9ff345
-              - a00009a4
               - eebe9b3a
-              - a00009a2
-              - a000007f
-              - 1dd60000
-              - 3da09c5c
-              - a00005f8
-              - a00005f7
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -694,20 +694,20 @@ paeng/bikepaths:
             building: daa0aa7b
             name: bikepath_driveway
             props:
+              - 1dd60000
               - 1ece0000
               - 1ecf0000
-              - a5a00104
-              - 1dd60000
-              - 8ef02ab1
-              - eef02abf
+              - 3da09c5c
               - 4ef2154f
+              - 8ef02ab1
+              - a000007a
               - a000007b
               - a000007f
-              - a000007a
-              - c39f4d2d
-              - 3da09c5c
               - a00005f7
+              - a5a00104
+              - c39f4d2d
               - e33571f6
+              - eef02abf
             size: 1x1
             textures:
               - f5f84265
@@ -715,21 +715,21 @@ paeng/bikepaths:
             building: daa0beb6
             name: bikepath_exit-south
             props:
-              - afcede18
-              - a5a00100
+              - 0ee5b477
+              - 1ece0000
               - 2a140000
               - 2a160000
-              - 1ece0000
               - 2ba20000
-              - eed4d217
-              - 0ee5b477
-              - a000007f
-              - a000007c
-              - a000007a
-              - ba043f3e
               - 3da09c5c
-              - c9c541ab
+              - a000007a
+              - a000007c
+              - a000007f
               - a00005f7
+              - a5a00100
+              - afcede18
+              - ba043f3e
+              - c9c541ab
+              - eed4d217
             size: 1x1
             textures:
               - '262e0000'
@@ -738,23 +738,23 @@ paeng/bikepaths:
             building: daa4aa11
             name: bikepath_straight03
             props:
-              - afcede18
-              - eed4d217
               - 0ee5b477
-              - a00009a6
-              - a00005f7
-              - a5a00104
-              - a0000043
-              - eebe9b3a
-              - 6ee77247
+              - 29c20000
               - 4ee7725a
               - 4ee77269
+              - 6ee77247
               - 8ee77279
-              - 29c20000
-              - aa836b49
+              - a0000043
+              - a0000065
               - a000007c
               - a000007f
-              - a0000065
+              - a00005f7
+              - a00009a6
+              - a5a00104
+              - aa836b49
+              - afcede18
+              - eebe9b3a
+              - eed4d217
             size: 3x1
             textures:
               - '262e0000'
@@ -771,22 +771,22 @@ paeng/bikepaths:
           - fa790f49
       props:
         Bikepath_Resource/Murimk_CustomProps_Bikepath.dat:
-          3da09c5c:
+          b92e7674-3da09c5c:
             model: da2b6b89
             name: Murimk_bike_sign3
-          818fed8e:
+          b92e7674-818fed8e:
             model: fa2bd88d
             name: Murimk_bike_busshelter
-          c39f4d2d:
+          b92e7674-c39f4d2d:
             model: da2b6d5e
             name: Murimk_bike_sign1
-          c9c541ab:
+          b92e7674-c9c541ab:
             model: 7a2b6b54
             name: Murimk_bike_sign2
-          da9ff345:
+          b92e7674-da9ff345:
             model: 1a9bed26
             name: Murimk_bike_trafficlight
-          e33571f6:
+          b92e7674-e33571f6:
             model: fa790f49
             name: Murimk_bike_post
       release: 2024-12-17T16:13:42.307Z

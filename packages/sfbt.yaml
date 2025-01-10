@@ -37,15 +37,21 @@ sfbt/essentials:
             - SFBT
             - _Documents/SFBT_ReadMe/_Trees Replacement/SFBT_{{sfbt.trees}}.dat:
                 as: SFBT_Trees/*
-      lastGenerated: 2025-01-08T13:07:29.545Z
+      lastGenerated: 2025-01-10T08:00:37.448Z
       lastModified: 2023-08-17T18:52:53.000Z
       mmps:
         SFBT_Props/SFBT_ArkenbergeJoe_Baeume.dat:
-          16b00000:
+          e83e0437-16b00000:
+            description: One click plants a single spruce. Click and hold for multiple trees. The trees will grow over the time.
+            label: Spruce
             name: SFBT_BSC-Tanne
-          16c00000:
+          e83e0437-16c00000:
+            description: One click plants a single poplar. Click and hold for multiple trees. The trees will grow over the time.
+            label: Poplar
             name: SFBT_BSC-Pappel
-          '30000000':
+          e83e0437-30000000:
+            description: One click plants a single birch tree. Click and hold for multiple trees. The trees will grow over the time.
+            label: Birch tree
             name: SFBT_Birke
       models:
         SFBT_Props/SFBT_ArkenbergeJoe_Baeume.dat:
@@ -208,779 +214,779 @@ sfbt/essentials:
           - d545dffe
       propFamilies:
         SFBT_Props/SFBT_ArkenbergeJoe_Baeume.dat:
-          '30000014':
+          67bddf0c-30000014:
             name: SFBT_Flora_small
-          '30000015':
+          67bddf0c-30000015:
             name: SFBT_Flora_medium
-          '30000016':
+          67bddf0c-30000016:
             name: SFBT_Flora_large
         SFBT_Props/SFBT_ArkenbergeJoe_Props.dat:
-          '30000018':
+          67bddf0c-30000018:
             name: SFBT_MaxisFlowers-Saison
         SFBT_Props/SFBT_Khiyana_Props.dat:
-          '51911010':
+          67bddf0c-51911010:
             name: SFBT_Haltestellenschilder
-          '51911030':
+          67bddf0c-51911030:
             name: SFBT_Muelleimer
         SFBT_Props/SFBT_Party_Props.dat:
-          3000000a:
+          67bddf0c-3000000a:
             name: SFBT_Party_Tisch_gerade_Saison
-          3000000b:
+          67bddf0c-3000000b:
             name: SFBT_Party_Tisch_diagonal_Saison
-          3000000c:
+          67bddf0c-3000000c:
             name: SFBT_Party_Sims_frueh_gerade
-          3000000d:
+          67bddf0c-3000000d:
             name: SFBT_Party_Sims_frueh_diagonal
-          3000000e:
+          67bddf0c-3000000e:
             name: SFBT_Party_Sims_spaet_gerade
-          3000000f:
+          67bddf0c-3000000f:
             name: SFBT_Party_Sims_spaet_diagonal
-          '30000010':
+          67bddf0c-30000010:
             name: SFBT_Party_Tisch_gerade
-          '30000011':
+          67bddf0c-30000011:
             name: SFBT_Party_Tisch_diagonal
-          '30000012':
+          67bddf0c-30000012:
             name: SFBT_Party_Sims_gerade
-          '30000013':
+          67bddf0c-30000013:
             name: SFBT_Party_Sims_diagonal
         SFBT_Props/SFBT_Temroc_Props.dat:
-          ff5f8505:
+          67bddf0c-ff5f8505:
             name: SFBT_Muelltonnen
         SFBT_Props/SFBT_stephenhh_Props.dat:
-          ff5f8506:
+          67bddf0c-ff5f8506:
             name: SFBT_Muellcontainer
       props:
         SFBT_Props/SFBT_ArkenbergeJoe_Baeume.dat:
-          16b10000:
-            family: '30000015'
+          c977c536-16b10000:
+            family: 30000015,30000016
             model: bad0e817-16b1
             name: SFBT_Flora-BSC-Med-Tanne
-          16b20000:
+          c977c536-16b20000:
             family: '30000016'
             model: bad0e817-16b2
             name: SFBT_Flora-BSC-Large-Tanne
-          16c10000:
-            family: '30000015'
+          c977c536-16c10000:
+            family: 30000015,30000016
             model: bad0e817-16c1
             name: SFBT_Flora-BSC-Med-Pappel
-          16c20000:
+          c977c536-16c20000:
             family: '30000016'
             model: bad0e817-16c2
             name: SFBT_Flora-BSC-Large-Pappel
-          30fe5992:
-            family: '30000015'
+          f0e57136-30fe5992:
+            family: 30000015,30000016
             model: f0e57136-0031
             name: SFBT_Flora-Birke-mittel
-          30ff72b4:
+          f0e57136-30ff72b4:
             family: '30000016'
             model: f0e57136-0032
             name: SFBT_Flora-Birke-gross
-          30ff73f6:
-            family: '30000014'
+          f0e57136-30ff73f6:
+            family: 30000014,30000015,30000016
             model: f0e57136-0030
             name: SFBT_Flora-Birke-klein
         SFBT_Props/SFBT_ArkenbergeJoe_Props.dat:
-          '12665669':
-            name: SFBT_Strassenlaterne_Ost
-          330f0632:
-            name: SFBT_Pz_Diagonale-Mittel
-          52720f30:
-            family: '30000018'
-            name: SFBT_Saison_MaxisFlowersOrange
-          52720f31:
-            family: '30000018'
-            name: SFBT_Saison_MaxisFlowersPink
-          52720f32:
-            family: '30000018'
-            name: SFBT_Saison_MaxisFlowersPurple
-          52720f33:
-            family: '30000018'
-            name: SFBT_Saison_MaxisFlowersWhite
-          52720f34:
-            family: '30000018'
-            name: SFBT_Saison_MaxisFlowersRed
-          52720f35:
-            family: '30000018'
-            name: SFBT_Saison_MaxisFlowersYellow
-          530f0658:
-            name: SFBT_Pz_Gerade-Mittel
-          56bafb9f:
-            model: f0e57136-0079
-            name: SFBT_Fundament_Platte
-          730f0662:
-            name: SFBT_Pz_Gerade-Lang
-          930f064c:
-            name: SFBT_Pz_Gerade-Kurz
-          b2b2b2b2:
-            family: '30000017'
-            name: SFBT_Saison_Osterbirke
-          b2b2b2b3:
-            family: '30000019'
-            name: SFBT_Saison_Kuerbis_boese
-          b2b2b2b4:
-            family: '30000019'
-            name: SFBT_Saison_Kuerbis_gross
-          b2b2b2b5:
-            family: '30000019'
-            name: SFBT_Saison_Kuerbis_klein
-          b30f0643:
-            name: SFBT_Pz_Diagonale-Lang
-          f6bfbe4f:
+          b33cfaa5-f6bfbe4f:
             model: 1a12780c
             name: SFBT_Halbkreisfoermige_Baumscheibe
+          f0e57136-12665669:
+            name: SFBT_Strassenlaterne_Ost
+          f0e57136-330f0632:
+            name: SFBT_Pz_Diagonale-Mittel
+          f0e57136-52720f30:
+            family: '30000018'
+            name: SFBT_Saison_MaxisFlowersOrange
+          f0e57136-52720f31:
+            family: '30000018'
+            name: SFBT_Saison_MaxisFlowersPink
+          f0e57136-52720f32:
+            family: '30000018'
+            name: SFBT_Saison_MaxisFlowersPurple
+          f0e57136-52720f33:
+            family: '30000018'
+            name: SFBT_Saison_MaxisFlowersWhite
+          f0e57136-52720f34:
+            family: '30000018'
+            name: SFBT_Saison_MaxisFlowersRed
+          f0e57136-52720f35:
+            family: '30000018'
+            name: SFBT_Saison_MaxisFlowersYellow
+          f0e57136-530f0658:
+            name: SFBT_Pz_Gerade-Mittel
+          f0e57136-56bafb9f:
+            model: f0e57136-0079
+            name: SFBT_Fundament_Platte
+          f0e57136-730f0662:
+            name: SFBT_Pz_Gerade-Lang
+          f0e57136-930f064c:
+            name: SFBT_Pz_Gerade-Kurz
+          f0e57136-b2b2b2b2:
+            family: '30000017'
+            name: SFBT_Saison_Osterbirke
+          f0e57136-b2b2b2b3:
+            family: '30000019'
+            name: SFBT_Saison_Kuerbis_boese
+          f0e57136-b2b2b2b4:
+            family: '30000019'
+            name: SFBT_Saison_Kuerbis_gross
+          f0e57136-b2b2b2b5:
+            family: '30000019'
+            name: SFBT_Saison_Kuerbis_klein
+          f0e57136-b30f0643:
+            name: SFBT_Pz_Diagonale-Lang
         SFBT_Props/SFBT_Baustellen_Props.dat:
-          2ffe6ff1:
+          0f741cb6-2ffe6ff1:
             model: '32490199'
             name: SFBT_Baustelle_Krangewicht
-          '300251e0':
+          ad32af56-300251e0:
             model: 5269fe3b
             name: SFBT_Baustelle_Zementsilo
-          50021fd7:
+          ad32af56-50021fd7:
             model: 5269cb85
             name: SFBT_Baustelle_Kran mit Schaltafel
-          50021fe1:
+          ad32af56-50021fe1:
             model: 5269b884
             name: SFBT_Baustelle_Tieflader mit Ladung
-          50021fe7:
+          ad32af56-50021fe7:
             model: 3269b72d
             name: SFBT_Baustelle_Tieflader
-          5039cef8:
+          ad32af56-5039cef8:
             model: 32c9072e
             name: SFBT_Baustelle_Schalautomat
-          8fbb6ca2:
+          ad32af56-8fbb6ca2:
             model: 724aa109
             name: SFBT_Baustelle_Kran
-          90021fc4:
+          ad32af56-90021fc4:
             model: b242a952
             name: SFBT_Baustelle_Baucontainer
-          9039cd13:
+          ad32af56-9039cd13:
             model: d2c90219
             name: SFBT_Baustelle_Kran mit Schaltafel
-          b0021fcb:
+          ad32af56-b0021fcb:
             model: 9269ca29
             name: SFBT_Baustelle_Kleiner Kran
         SFBT_Props/SFBT_Fahrraeder_Props.dat:
-          af2dcf23:
+          ad32af56-af2dcf23:
             model: 71bd0868
             name: SFBT_Fahrraeder
         SFBT_Props/SFBT_Garagenblock_Prop.dat:
-          b9cb2dc6:
+          f8bf4618-b9cb2dc6:
             model: f8bf4618-005c
             name: SFBT_Garagenblock
         SFBT_Props/SFBT_Holzwirtschaft.dat:
-          12d51aa2:
+          728f627e-12d51aa2:
             model: 728f627e-001d
             name: SFBT_Forst_Brennholz1
-          12d51abb:
+          728f627e-12d51abb:
             model: 728f627e-001e
             name: SFBT_Forst_Brennholz2
-          32d51a2f:
+          728f627e-32d51a2f:
             model: 728f627e-001a
             name: SFBT_Forst_Baumstaemme2
-          72d51a91:
+          728f627e-72d51a91:
             model: 728f627e-001c
             name: SFBT_Forst_Brennholz3
-          f2d51a17:
+          728f627e-f2d51a17:
             model: 728f627e-0017
             name: SFBT_Forst_Baumstaemme1
-          f2d51a5f:
+          728f627e-f2d51a5f:
             model: 728f627e-0019
             name: SFBT_Forst_Baumstaemme3
         SFBT_Props/SFBT_Khiyana_Props.dat:
-          141c0588:
+          530da964-73aebde6:
+            model: 53ac1a44
+            name: SFBT_Haltestellenschild
+          d3fa9e74-141c0588:
             family: '51911010'
             model: d3fa9e74-0041
             name: SFBT_Haltestellenschild_gelb_1
-          141cf99c:
+          d3fa9e74-141cf99c:
             model: d3fa9e74-0046
             name: SFBT_Schild_Spielplatz
-          141d4d85:
+          d3fa9e74-141d4d85:
             family: '51911030'
             model: d3fa9e74-004e
             name: SFBT_Muelleimer_orange
-          341573f1:
+          d3fa9e74-341573f1:
             model: d3fa9e74-001e
             name: SFBT_Absperrung_Poller
-          341d4855:
+          d3fa9e74-341d4855:
             family: '51911030'
             model: d3fa9e74-0049
             name: SFBT_Muelleimer_rot
-          342368a3:
+          d3fa9e74-342368a3:
             model: d3fa9e74-0058
             name: SFBT_Schachfiguren
-          541d4566:
+          d3fa9e74-541d4566:
             family: '51911030'
             model: d3fa9e74-0047
             name: SFBT_Muelleimer_gruen
-          73aebde6:
-            model: 53ac1a44
-            name: SFBT_Haltestellenschild
-          741c05f2:
+          d3fa9e74-741c05f2:
             family: '51911010'
             model: d3fa9e74-0042
             name: SFBT_Haltestellenschild_rot_1
-          741c0803:
+          d3fa9e74-741c0803:
             family: '51911010'
             model: d3fa9e74-0043
             name: SFBT_Haltestellenschild_faehnchen_1
-          941c0449:
+          d3fa9e74-941c0449:
             family: '51911010'
             model: d3fa9e74-0040
             name: SFBT_Haltestellenschild_rund_1
-          941e4d23:
+          d3fa9e74-941e4d23:
             model: d3fa9e74-0055
             name: SFBT_Absperrung_gruen
-          b4195632:
+          d3fa9e74-b4195632:
             model: d3fa9e74-0029
             name: SFBT_Absperrung_braun
-          b41d496e:
+          d3fa9e74-b41d496e:
             family: '51911030'
             model: d3fa9e74-004a
             name: SFBT_Muelleimer_blau
-          d415242d:
+          d3fa9e74-d415242d:
             model: d3fa9e74-0019
             name: SFBT_Absperrung_grau
-          f41d4606:
+          d3fa9e74-f41d4606:
             family: '51911030'
             model: d3fa9e74-0048
             name: SFBT_Muelleimer_gelb
-          f41e4be8:
+          d3fa9e74-f41e4be8:
             model: d3fa9e74-0054
             name: SFBT_Absperrung_rot
         SFBT_Props/SFBT_N1_Props.dat:
-          43492b9c:
-            model: 2280c5b6
-            name: SFBT_N1_Boite aux lettres_+z4m
-          61d00a3e:
+          01caffa2-61d00a3e:
             model: 61cac427
             name: SFBT_N1_Poller Eck
-          83492b8f:
-            model: 2280c4da
-            name: SFBT_N1_Boite aux lettres
-          '83493057':
-            model: 8280cc01
-            name: SFBT_N1_Poller doppelt
-          a1d00fd6:
+          01caffa2-a1d00fd6:
             model: c1cac83d
             name: SFBT_N1_Poller
-          c2334aef:
+          c22f3343-43492b9c:
+            model: 2280c5b6
+            name: SFBT_N1_Boite aux lettres_+z4m
+          c22f3343-83492b8f:
+            model: 2280c4da
+            name: SFBT_N1_Boite aux lettres
+          c22f3343-83493057:
+            model: 8280cc01
+            name: SFBT_N1_Poller doppelt
+          c22f3343-c2334aef:
             model: e317505b
             name: SFBT_N1_Aussenecke_Pflaster_$$$
-          c33979fa:
+          c22f3343-c33979fa:
             model: 2334334f
             name: SFBT_N1_Aussenecke_Pflaster_$$
         SFBT_Props/SFBT_Party_Props.dat:
-          11adcedb:
-            family: 3000000f
-            name: SFBT_Party_Sim_Sitzend0530_Saison
-          11add000:
-            name: SFBT_Party_Tisch_Saison
-          11add178:
-            name: SFBT_Party_Grill_Saison
-          11adda0a:
-            name: SFBT_Party_Zelt_Spitz30_Saison
-          11eccedb:
+          ed2eee45-11eccedb:
             family: '30000013'
             model: d1ea2b2c
             name: SFBT_Party_Sim_Sitzend0530
-          11ecd000:
+          ed2eee45-11ecd000:
             family: '30000010'
             model: b1e93a50
             name: SFBT_Party_Tisch
-          11ecd178:
+          ed2eee45-11ecd178:
             model: 11ea23db
             name: SFBT_Party_Grill
-          11ecda0a:
+          ed2eee45-11ecda0a:
             model: 11ea36dd
             name: SFBT_Party_Zelt_Spitz30
-          31adcfa7:
-            family: 3000000f
-            name: SFBT_Party_Sim_Sitzend0630_Saison
-          31eccfa7:
+          ed2eee45-31eccfa7:
             family: '30000013'
             model: b1ea2b74
             name: SFBT_Party_Sim_Sitzend0630
-          51adcf28:
-            name: SFBT_Party_Grill30_Saison
-          51add060:
-            family: 3000000e
-            name: SFBT_Party_Sim_Sitzend06_Saison
-          51add4fb:
-            name: SFBT_Party_Zelt_Saison
-          51eccf28:
+          ed2eee45-51eccf28:
             model: d1ea26a4
             name: SFBT_Party_Grill30
-          51ecd060:
+          ed2eee45-51ecd060:
             family: '30000012'
             model: 91ea16e7
             name: SFBT_Party_Sim_Sitzend06
-          51ecd4fb:
+          ed2eee45-51ecd4fb:
             model: 91ea28ef
             name: SFBT_Party_Zelt
-          71adcec8:
-            family: 3000000c
-            name: SFBT_Party_Sim_Sitzend02_Saison
-          71adcf38:
-            family: 3000000e
-            name: SFBT_Party_Sim_Sitzend05_Saison
-          71adcf98:
-            name: SFBT_Party_Bank_Saison
-          71add071:
-            name: SFBT_Party_Zelt_Lang_Saison
-          71add4a6:
-            family: 3000000b
-            name: SFBT_Party_Tisch_Essen30_Saison
-          71adda8b:
-            name: SFBT_Party_Zelt_Spitz_Saison
-          71eccec8:
+          ed2eee45-71eccec8:
             family: '30000012'
             model: f1ea155e
             name: SFBT_Party_Sim_Sitzend02
-          71eccf38:
+          ed2eee45-71eccf38:
             family: '30000012'
             model: d1ea1665
             name: SFBT_Party_Sim_Sitzend05
-          71eccf98:
+          ed2eee45-71eccf98:
             model: d1e93a0b
             name: SFBT_Party_Bank
-          71ecd071:
+          ed2eee45-71ecd071:
             model: 91e8ea46
             name: SFBT_Party_Zelt_Lang
-          71ecd4a6:
+          ed2eee45-71ecd4a6:
             family: '30000011'
             model: d1ea27b9
             name: SFBT_Party_Tisch_Essen30
-          71ecda8b:
+          ed2eee45-71ecda8b:
             model: d1ea36a6
             name: SFBT_Party_Zelt_Spitz
-          91adcf48:
-            family: 3000000e
-            name: SFBT_Party_Sim_Sitzend04_Saison
-          91adcf6a:
-            family: 3000000a
-            name: SFBT_Party_Tisch_Trinken_Saison
-          91add0f0:
-            name: SFBT_Party_Zelt_Lang30_Saison
-          91add4b9:
-            family: 3000000a
-            name: SFBT_Party_Tisch_Essen_Saison
-          91add4c8:
-            family: 3000000b
-            name: SFBT_Party_Tisch_Trinken30_Saison
-          91eccf48:
+          ed2eee45-91eccf48:
             family: '30000012'
             model: d1ea160d
             name: SFBT_Party_Sim_Sitzend04
-          91eccf6a:
+          ed2eee45-91eccf6a:
             family: '30000010'
             model: d1e93fac
             name: SFBT_Party_Tisch_Trinken
-          91ecd0f0:
+          ed2eee45-91ecd0f0:
             model: 31ea2971
             name: SFBT_Party_Zelt_Lang30
-          91ecd4b9:
+          ed2eee45-91ecd4b9:
             family: '30000010'
             model: 51ea30e9
             name: SFBT_Party_Tisch_Essen
-          91ecd4c8:
+          ed2eee45-91ecd4c8:
             family: '30000011'
             model: b1ea310f
             name: SFBT_Party_Tisch_Trinken30
-          b1adcee9:
-            family: 3000000d
-            name: SFBT_Party_Sim_Sitzend0330_Saison
-          b1add161:
-            name: SFBT_Party_Tisch30_Saison
-          b1eccee9:
+          ed2eee45-b1eccee9:
             family: '30000013'
             model: d1ea2acd
             name: SFBT_Party_Sim_Sitzend0330
-          b1ecd161:
+          ed2eee45-b1ecd161:
             family: '30000011'
             model: 11ea273a
             name: SFBT_Party_Tisch30
-          d1adcfb7:
-            name: SFBT_Party_Bank30_Saison
-          d1add13f:
-            family: 3000000d
-            name: SFBT_Party_Sim_Sitzend0230_Saison
-          d1add4de:
-            name: SFBT_Party_Zelt30_Saison
-          d1eccfb7:
+          ed2eee45-d1eccfb7:
             model: b1ea26ff
             name: SFBT_Party_Bank30
-          d1ecd13f:
+          ed2eee45-d1ecd13f:
             family: '30000013'
             model: 11ea2a9e
             name: SFBT_Party_Sim_Sitzend0230
-          d1ecd4de:
+          ed2eee45-d1ecd4de:
             model: 91ea2931
             name: SFBT_Party_Zelt30
-          f1adcf5d:
-            family: 3000000c
-            name: SFBT_Party_Sim_Sitzend03_Saison
-          f1add0b2:
-            family: 3000000d
-            name: SFBT_Party_Sim_Sitzend0130_Saison
-          f1add133:
-            family: 3000000f
-            name: SFBT_Party_Sim_Sitzend0430_Saison
-          f1add523:
-            family: 3000000c
-            name: SFBT_Party_Sim_Sitzend01_Saison
-          f1eccf5d:
+          ed2eee45-f1eccf5d:
             family: '30000012'
             model: d1ea15c0
             name: SFBT_Party_Sim_Sitzend03
-          f1ecd0b2:
+          ed2eee45-f1ecd0b2:
             family: '30000013'
             model: 71ea2a72
             name: SFBT_Party_Sim_Sitzend0130
-          f1ecd133:
+          ed2eee45-f1ecd133:
             family: '30000013'
             model: 11ea2af9
             name: SFBT_Party_Sim_Sitzend0430
-          f1ecd523:
+          ed2eee45-f1ecd523:
             family: '30000012'
             model: 91ea2a34
             name: SFBT_Party_Sim_Sitzend01
+          f0e57136-11adcedb:
+            family: 3000000f
+            name: SFBT_Party_Sim_Sitzend0530_Saison
+          f0e57136-11add000:
+            name: SFBT_Party_Tisch_Saison
+          f0e57136-11add178:
+            name: SFBT_Party_Grill_Saison
+          f0e57136-11adda0a:
+            name: SFBT_Party_Zelt_Spitz30_Saison
+          f0e57136-31adcfa7:
+            family: 3000000f
+            name: SFBT_Party_Sim_Sitzend0630_Saison
+          f0e57136-51adcf28:
+            name: SFBT_Party_Grill30_Saison
+          f0e57136-51add060:
+            family: 3000000e
+            name: SFBT_Party_Sim_Sitzend06_Saison
+          f0e57136-51add4fb:
+            name: SFBT_Party_Zelt_Saison
+          f0e57136-71adcec8:
+            family: 3000000c
+            name: SFBT_Party_Sim_Sitzend02_Saison
+          f0e57136-71adcf38:
+            family: 3000000e
+            name: SFBT_Party_Sim_Sitzend05_Saison
+          f0e57136-71adcf98:
+            name: SFBT_Party_Bank_Saison
+          f0e57136-71add071:
+            name: SFBT_Party_Zelt_Lang_Saison
+          f0e57136-71add4a6:
+            family: 3000000b
+            name: SFBT_Party_Tisch_Essen30_Saison
+          f0e57136-71adda8b:
+            name: SFBT_Party_Zelt_Spitz_Saison
+          f0e57136-91adcf48:
+            family: 3000000e
+            name: SFBT_Party_Sim_Sitzend04_Saison
+          f0e57136-91adcf6a:
+            family: 3000000a
+            name: SFBT_Party_Tisch_Trinken_Saison
+          f0e57136-91add0f0:
+            name: SFBT_Party_Zelt_Lang30_Saison
+          f0e57136-91add4b9:
+            family: 3000000a
+            name: SFBT_Party_Tisch_Essen_Saison
+          f0e57136-91add4c8:
+            family: 3000000b
+            name: SFBT_Party_Tisch_Trinken30_Saison
+          f0e57136-b1adcee9:
+            family: 3000000d
+            name: SFBT_Party_Sim_Sitzend0330_Saison
+          f0e57136-b1add161:
+            name: SFBT_Party_Tisch30_Saison
+          f0e57136-d1adcfb7:
+            name: SFBT_Party_Bank30_Saison
+          f0e57136-d1add13f:
+            family: 3000000d
+            name: SFBT_Party_Sim_Sitzend0230_Saison
+          f0e57136-d1add4de:
+            name: SFBT_Party_Zelt30_Saison
+          f0e57136-f1adcf5d:
+            family: 3000000c
+            name: SFBT_Party_Sim_Sitzend03_Saison
+          f0e57136-f1add0b2:
+            family: 3000000d
+            name: SFBT_Party_Sim_Sitzend0130_Saison
+          f0e57136-f1add133:
+            family: 3000000f
+            name: SFBT_Party_Sim_Sitzend0430_Saison
+          f0e57136-f1add523:
+            family: 3000000c
+            name: SFBT_Party_Sim_Sitzend01_Saison
         SFBT_Props/SFBT_SIR_Props.dat:
-          0016156c:
-            model: 7fd4cfb6-000b
-            name: SFBT_SIR_Baumscheibe
-          3a45cc45:
+          5a2f2c54-3a45cc45:
             model: fa41d48e
             name: SFBT_SIR_Fahrradstaender1
-          da40a0eb:
+          5a2f2c54-da40a0eb:
             model: bb67ed6e
             name: SFBT_SIR_Sitzbank
-          fa45cbc1:
+          5a2f2c54-fa45cbc1:
             model: 7a41d467
             name: SFBT_SIR_Fahrradstaender1
+          7fd4cfb6-0016156c:
+            model: 7fd4cfb6-000b
+            name: SFBT_SIR_Baumscheibe
         SFBT_Props/SFBT_Sicherungsprops.dat:
-          2ed6230f:
+          ed2eee45-2ed6230f:
             model: 0ed61b98
             name: SFBT_MaschendrahtzaunTor
-          6ed622ff:
+          ed2eee45-6ed622ff:
             model: 2ed61c21
             name: SFBT_MaschendrahtzaunQuer
-          6ed62318:
+          ed2eee45-6ed62318:
             model: 0ed622ce
             name: SFBT_SchrankeRotWeiss
-          aed61a69:
+          ed2eee45-aed61a69:
             model: 8ed61a58
             name: SFBT_Maschendrahtzaun
-          aed622f4:
+          ed2eee45-aed622f4:
             model: 6ed61bd6
             name: SFBT_MaschendrahtzaunTuer
-          aed62c4d:
+          ed2eee45-aed62c4d:
             model: ced62bf6
             name: SFBT_SchrankeRotWeissOffen
-          eed33ef5:
+          ed2eee45-eed33ef5:
             model: ced33ee5
             name: SFBT_Plattenweg
         SFBT_Props/SFBT_Temroc_Props.dat:
-          3a842be3:
+          3a5f1130-3a842be3:
             model: 3943ca6b
             name: SFBT_Baustelle_Container
-          3a842c24:
+          3a5f1130-3a842c24:
             model: d943caf5
             name: SFBT_Baustelle_Geruest
-          3a842d2e:
+          3a5f1130-3a842d2e:
             model: d943cecf
             name: SFBT_Fahrrad_Herren_rot
-          3a842d52:
+          3a5f1130-3a842d52:
             model: 9943cec0
             name: SFBT_Fahrrad_Herren_gruen
-          5a829953:
+          3a5f1130-5a829953:
             family: ff5f8505
             model: f91c0083
             name: SFBT_Muelltonne_gelb
-          5a842de2:
+          3a5f1130-5a842de2:
             model: 1943cd37
             name: SFBT_Post_Telefonzelle
-          7a829999:
+          3a5f1130-7a829999:
             family: ff5f8505
             model: 191c00bc
             name: SFBT_Muelltonne_schwarz
-          7a842d6d:
+          3a5f1130-7a842d6d:
             model: 1943ceb1
             name: SFBT_Fahrrad_Damen_rot
-          98c01ccb:
-            model: 784974ff
-            name: SFBT_Post_Postbote
-          9a829a18:
+          3a5f1130-9a829a18:
             family: ff5f8505
             model: f91c01f0
             name: SFBT_Muelltonne_gruen
-          9a842d89:
+          3a5f1130-9a842d89:
             model: f943ce9d
             name: SFBT_Fahrrad_Damen_gruen
-          ba82990b:
+          3a5f1130-ba82990b:
             family: ff5f8505
             model: d91c0037
             name: SFBT_Muelltonne_braun
-          ba842c69:
+          3a5f1130-ba842c69:
             model: 3943cc25
             name: SFBT_Baustelle_Geruest_Offset_links
-          ba842d07:
+          3a5f1130-ba842d07:
             model: 9943cedd
             name: SFBT_Post_Fahrrad_beladen
-          d8b27110:
-            model: 78ae8655
-            name: SFBT_Post_Briefkasten_freistehend
-          da842c8a:
+          3a5f1130-da842c8a:
             model: 1943cc8e
             name: SFBT_Baustelle_Geruest_Offset_rechts
-          da842cb4:
+          3a5f1130-da842cb4:
             model: 5943cef0
             name: SFBT_Post_Fahrrad_leer
-          f8c25e0b:
+          b33cfaa5-98c01ccb:
+            model: 784974ff
+            name: SFBT_Post_Postbote
+          b33cfaa5-d8b27110:
+            model: 78ae8655
+            name: SFBT_Post_Briefkasten_freistehend
+          b33cfaa5-f8c25e0b:
             model: f873436b
             name: SFBT_Post_Postbote_mit_Wagen
-          f8c264d4:
+          b33cfaa5-f8c264d4:
             model: 38734aaf
             name: SFBT_Post_Postwagen
         SFBT_Props/SFBT_stephenhh_Props.dat:
-          11b8403c:
+          706e4b85-11b8403c:
             family: ff5f8506
             model: 706e4b85-0065
             name: SFBT_Container doppelt schwarz
-          12195f7d:
+          706e4b85-12195f7d:
             model: 706e4b85-007a
             name: SFBT_Carport_modern
-          12197bb4:
+          706e4b85-12197bb4:
             model: 706e4b85-007d
             name: SFBT_Carport_gross
-          '32352288':
+          706e4b85-32352288:
             model: 706e4b85-0084
             name: SFBT_Gartenhaus_gross
-          51b7f68f:
+          706e4b85-51b7f68f:
             family: ff5f8506
             model: 706e4b85-0061
             name: SFBT_Cleanaway Container
-          51b7f845:
+          706e4b85-51b7f845:
             family: ff5f8506
             model: 706e4b85-0052
             name: SFBT_Container doppelt gelb
-          51b84097:
+          706e4b85-51b84097:
             family: ff5f8506
             model: 706e4b85-0064
             name: SFBT_Container schwarz
-          9219ea3b:
+          706e4b85-9219ea3b:
             model: 706e4b85-0081
             name: SFBT_Carport_Holz
-          923506c7:
+          706e4b85-923506c7:
             family: ff5f8506
             model: 706e4b85-0082
             name: SFBT_Container grau
-          d1b840a6:
+          706e4b85-d1b840a6:
             family: ff5f8506
             model: 706e4b85-0063
             name: SFBT_Container doppelt gruen
-          d1b840b7:
+          706e4b85-d1b840b7:
             family: ff5f8506
             model: 706e4b85-0062
             name: SFBT_Container gruen
-          f1b7f773:
+          706e4b85-f1b7f773:
             family: ff5f8506
             model: 706e4b85-0051
             name: SFBT_Container gelb
-          f2195f6e:
+          706e4b85-f2195f6e:
             model: 706e4b85-007b
             name: SFBT_Fahrradschuppen
-          f21963f2:
+          706e4b85-f21963f2:
             model: 706e4b85-007c
             name: SFBT_Gartenhaus
         SFBT_Props/SFBT_voltaic_Props.dat:
-          55f66081:
+          14d9e94f-55f66081:
             name: SFBT_Herbstlaub
-          564ebed0:
+          14d9e94f-564ebed0:
             model: 564d6c8e
             name: SFBT_Kreisel1
-          b5f79304:
+          14d9e94f-b5f79304:
             name: SFBT_Herbstlaub_mittel
-          b5f79324:
+          14d9e94f-b5f79324:
             name: SFBT_Herbstlaub_klein
-          b65ffab4:
+          14d9e94f-b65ffab4:
             model: 165ea876
             name: SFBT_Kreisel2
-          f54732a8:
+          14d9e94f-f54732a8:
             model: d545dffe
             name: SFBT_Garten_01
         SFBT_Trees/SFBT_CP_Street_Deciduous_Trees.dat:
-          ff5f8100:
-            family: ff5f8400
+          0e274fb2-ff5f8100:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-6554
             name: CP_Street_ScarletOak_Evergreen
-          ff5f8101:
-            family: ff5f8400
+          0e274fb2-ff5f8101:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-654c
             name: CP_Street_Oak1
-          ff5f8102:
-            family: ff5f8400
+          0e274fb2-ff5f8102:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-6552
             name: CP_Street_Oak2
-          ff5f8103:
-            family: ff5f8400
+          0e274fb2-ff5f8103:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-636a
             name: CP_Street_OakEvergreen
-          ff5f8104:
-            family: ff5f8400
+          0e274fb2-ff5f8104:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-6553
             name: CP_Street_ValleyOakEvergreen
-          ff5f8105:
-            family: ff5f8400
+          0e274fb2-ff5f8105:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-6549
             name: CP_Street_ElmEvergreen
-          ff5f8106:
-            family: ff5f8400
+          0e274fb2-ff5f8106:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-654b
             name: CP_Street_CottonwoodSmEvergreen
-          ff5f8107:
-            family: ff5f8400
+          0e274fb2-ff5f8107:
+            family: ff5f8400,ff5f8401
             model: 0e274fb2-654a
             name: CP_Street_CottonwoodLgEvergreen
         SFBT_Trees/SFBT_CP_Street_Ponderosa_Pines.dat:
-          ff5f8111:
-            family: ff5f8400
+          0e274fb2-ff5f8111:
+            family: ff5f8400,ff5f8403
             model: 0e274fb2-0027
             name: CP_Street_Ponderosa1
-          ff5f8112:
-            family: ff5f8400
+          0e274fb2-ff5f8112:
+            family: ff5f8400,ff5f8403
             model: 0e274fb2-6500
             name: CP_Street_PonderosaStreetProp_Small
-          ff5f8113:
-            family: ff5f8400
+          0e274fb2-ff5f8113:
+            family: ff5f8400,ff5f8403
             model: 0e274fb2-64ff
             name: CP_Street_PonderosaStreetProp_Med
-          ff5f8114:
-            family: ff5f8400
+          0e274fb2-ff5f8114:
+            family: ff5f8400,ff5f8403
             model: 0e274fb2-6320
             name: CP_Street_PonderosaSm
-          ff5f8115:
-            family: ff5f8400
+          0e274fb2-ff5f8115:
+            family: ff5f8400,ff5f8403
             model: 0e274fb2-6321
             name: CP_Street_PonderosaMed
         SFBT_Trees/SFBT_CP_Street_Shore_Pinyon_Pines.dat:
-          ff5f8108:
-            family: ff5f8400
+          0e274fb2-ff5f8108:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-6550
             name: CP_Street_ShorePine1
-          ff5f8109:
-            family: ff5f8400
+          0e274fb2-ff5f8109:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-6551
             name: CP_Street_ShorePine2
-          ff5f810a:
-            family: ff5f8400
+          0e274fb2-ff5f810a:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-637b
             name: CP_Street_ShorePineProp1
-          ff5f810b:
-            family: ff5f8400
+          0e274fb2-ff5f810b:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-6378
             name: CP_Street_ExtraShorePineFlatModel
-          ff5f810c:
-            family: ff5f8400
+          0e274fb2-ff5f810c:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-6345
             name: CP_Street_ShorePine3
-          ff5f810f:
-            family: ff5f8400
+          0e274fb2-ff5f810f:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-654e
             name: CP_Street_PinyonPine1
-          ff5f8110:
-            family: ff5f8400
+          0e274fb2-ff5f8110:
+            family: ff5f8400,ff5f8402
             model: 0e274fb2-654f
             name: CP_Street_PinyonPine2
         SFBT_Trees/SFBT_Maxis_Street_Deciduous_Trees.dat:
-          ff5f8120:
-            family: ff5f8400
+          c977c536-ff5f8120:
+            family: ff5f8400,ff5f8405
             model: badb57f1-29f7
             name: Flora10x10x15_no-tp-tree_29F7
-          ff5f8121:
-            family: ff5f8400
+          c977c536-ff5f8121:
+            family: ff5f8400,ff5f8405
             model: badb57f1-29f7
             name: Flora10x10x15_no-tp-tree_29F7
-          ff5f8122:
-            family: ff5f8400
+          c977c536-ff5f8122:
+            family: ff5f8400,ff5f8405
             model: badb57f1-29f7
             name: Flora10x10x15_$$$no-tp-tree7
-          ff5f8123:
-            family: ff5f8400
+          c977c536-ff5f8123:
+            family: ff5f8400,ff5f8405
             model: badb57f1-1649
             name: Flora1x1x5_StreetTreeOne_1649
-          ff5f8124:
-            family: ff5f8400
+          c977c536-ff5f8124:
+            family: ff5f8400,ff5f8405
             model: badb57f1-164a
             name: Flora7x7x16_StreetTreeTwo_164A
-          ff5f8125:
-            family: ff5f8400
+          c977c536-ff5f8125:
+            family: ff5f8400,ff5f8405
             model: badb57f1-164b
             name: Flora6x6x15_StreetTreeThree_164B
-          ff5f8126:
-            family: ff5f8400
+          c977c536-ff5f8126:
+            family: ff5f8400,ff5f8405
             model: badb57f1-1671
             name: Flora6x6x15_Meddecisious
-          ff5f8127:
-            family: ff5f8400
+          c977c536-ff5f8127:
+            family: ff5f8400,ff5f8405
             model: badb57f1-1661
             name: Flora6x6x15_Meddecisious2
-          ff5f8128:
-            family: ff5f8400
+          c977c536-ff5f8128:
+            family: ff5f8400,ff5f8405
             model: badb57f1-1672
             name: Flora6x6x15_Largedecisious
-          ff5f8129:
-            family: ff5f8400
+          c977c536-ff5f8129:
+            family: ff5f8400,ff5f8405
             model: badb57f1-1662
             name: Flora6x6x15_Largedecisious2
-          ff5f812a:
-            family: ff5f8400
+          c977c536-ff5f812a:
+            family: ff5f8400,ff5f8405
             model: badb57f1-1e13
             name: Flora2x2x3_balltree_1E13
         SFBT_Trees/SFBT_Maxis_Street_Palm_Trees.dat:
-          ff5f812f:
-            family: ff5f8400
+          c977c536-ff5f812f:
+            family: ff5f8400,ff5f8407
             model: badb57f1-16a1
             name: Flora6x6x15_MedPalm
-          ff5f8130:
-            family: ff5f8400
+          c977c536-ff5f8130:
+            family: ff5f8400,ff5f8407
             model: badb57f1-16a2
             name: Flora6x6x15_LargePalm
         SFBT_Trees/SFBT_Maxis_Street_Pine_Trees.dat:
-          ff5f812b:
-            family: ff5f8400
+          c977c536-ff5f812b:
+            family: ff5f8400,ff5f8406
             model: badb57f1-1691
             name: Flora6x6x15_MedPines
-          ff5f812c:
-            family: ff5f8400
+          c977c536-ff5f812c:
+            family: ff5f8400,ff5f8406
             model: badb57f1-1681
             name: Flora6x6x15_MedPines2
-          ff5f812d:
-            family: ff5f8400
+          c977c536-ff5f812d:
+            family: ff5f8400,ff5f8406
             model: badb57f1-1692
             name: Flora6x6x15_LargePines
-          ff5f812e:
-            family: ff5f8400
+          c977c536-ff5f812e:
+            family: ff5f8400,ff5f8406
             model: badb57f1-1682
             name: Flora6x6x15_LargePines2
         SFBT_Trees/SFBT_PEG_Street_Pines.dat:
-          ff5f8117:
-            family: ff5f8400
+          4d2d325b-ff5f8117:
+            family: ff5f8400,ff5f8404
             model: b2f49e67
             name: peg-pinetree_short
-          ff5f8119:
-            family: ff5f8400
+          4d2d325b-ff5f8119:
+            family: ff5f8400,ff5f8404
             model: 52f4a0ce
             name: peg-pinetree_med2
-          ff5f811a:
-            family: ff5f8400
+          4d2d325b-ff5f811a:
+            family: ff5f8400,ff5f8404
             model: 52f462fb
             name: peg-pinetree-vtall
-          ff5f811b:
-            family: ff5f8400
+          4d2d325b-ff5f811b:
+            family: ff5f8400,ff5f8404
             model: 52f46d61
             name: peg-pinetree-utall
-          ff5f811c:
-            family: ff5f8400
+          4d2d325b-ff5f811c:
+            family: ff5f8400,ff5f8404
             model: 72f41d73
             name: peg_pine-med3
       release: 2024-12-03T16:03:49.352Z

@@ -30,11 +30,13 @@ orange/aesculus:
           id: simtropolis/27001-vip-orange-aesculus
           include:
             - VIP/Orange/Aesculus
-      lastGenerated: 2025-01-08T13:07:32.796Z
+      lastGenerated: 2025-01-10T08:12:51.941Z
       lastModified: 2024-02-04T10:24:41.000Z
       mmps:
         VIP_Or_Aesculus_Seasonal.dat:
-          78da2003:
+          e83e0437-78da2003:
+            description: To be planted the 1st September.  The timing will be correct in the next game year.  Click one or several times to make vary trees.
+            label: Aesculus seasonal.
             name: VIP_Or_FL_Aesculus_Seasonal_00
             stages:
               - id: 78da2004
@@ -48,7 +50,9 @@ orange/aesculus:
               - id: 78da2008
                 name: VIP_Or_FL_Aesculus_Seasonal_05
         VIP_Or_Aesculus_Summer.dat:
-          78da2009:
+          e83e0437-78da2009:
+            description: Click one or several times to make vary trees.
+            label: Aesculus evergreen.
             model: 7bd15486
             name: VIP_Or_FL_Aesculus_Summer_00
             stages:
@@ -122,11 +126,13 @@ orange/fagus:
           id: simtropolis/27008-vip-orange-fagus
           include:
             - VIP/Orange/Fagus
-      lastGenerated: 2025-01-08T13:07:32.804Z
+      lastGenerated: 2025-01-10T08:12:51.948Z
       lastModified: 2024-02-04T10:19:19.000Z
       mmps:
         VIP_Or_Fagus_Seasonal.dat:
-          78da2010:
+          e83e0437-78da2010:
+            description: To be planted the 1st September.  The timing will be correct in the next game year.  Click one or several times to make vary trees.
+            label: Fagus seasonal.
             name: VIP_Or_FL_Fagus_Seasonal_01
             stages:
               - id: 78da2011
@@ -138,7 +144,9 @@ orange/fagus:
               - id: 78da2014
                 name: VIP_Or_FL_Fagus_Seasonal_05
         VIP_Or_Fagus_Summer.dat:
-          78da2015:
+          e83e0437-78da2015:
+            description: Click one or several times to make vary trees.
+            label: Fagus evergreen.
             model: 5bd95aea
             name: VIP_Or_FL_Fagus_Summer_01
             stages:
@@ -205,11 +213,13 @@ orange/pinus-nigra:
           id: simtropolis/28847-vip-orange-pinus-nigra-v2
           include:
             - VIP/Orange/Pinus Nigra
-      lastGenerated: 2025-01-08T13:07:32.812Z
+      lastGenerated: 2025-01-10T08:12:51.955Z
       lastModified: 2024-02-04T10:35:34.000Z
       mmps:
         VIP_Or_PinusNigra_Evergreen_MMP.dat:
-          78da1030:
+          e83e0437-78da1030:
+            description: "Pinus Nigra ploppables, pas de coût de construction ni de démolition. Cliquez une ou plusieurs fois afin de faire varier les Arbres.\r\n\r\nPloppables Pinus Nigra, no cost of construction nor demolition. Click one or several times to make vary Trees."
+            label: Pinus Nigra
             model: 1a4ba992
             name: Or_TSC_Flplop_PinusNigra
             stages:
@@ -237,19 +247,19 @@ orange/pinus-nigra:
           - ba4bacc6
       props:
         VIP_Or_PinusNegra_Props.dat:
-          1ac8e9ec:
+          d60d2608-1ac8e9ec:
             model: 1a4ba992
             name: VIP_Or_FL_PinusNigra01
-          7ac97662:
+          d60d2608-7ac97662:
             model: 3a4c2724
             name: VIP_Or_FL_PinusNigra03
-          bac8ed81:
+          d60d2608-bac8ed81:
             model: ba4bacc6
             name: VIP_Or_FL_PinusNigra02
-          bac97696:
+          d60d2608-bac97696:
             model: 1a4c355d
             name: VIP_Or_FL_PinusNigra05
-          dac97670:
+          d60d2608-dac97670:
             model: 9a4c327e
             name: VIP_Or_FL_PinusNigra04
       release: 2024-12-03T16:03:49.352Z

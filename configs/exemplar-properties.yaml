@@ -7338,6 +7338,14 @@
       value: 0x1114
     - label: Commercial, Sims4thAve
       value: 0x1117
+    - label: Tileset - Chicago
+      value: 0x2000
+    - label: Tileset - New York
+      value: 0x2001
+    - label: Tileset - Houston
+      value: 0x2002
+    - label: Tileset - Euro
+      value: 0x2003
     - label: R$
       value: 0x11010
     - label: R$$
@@ -7535,6 +7543,27 @@
   name: Building Submenus
   type: UInt32
   unique: true
+
+"0xaa1dd400":
+  choices:
+    - label: Chicago
+      value: 0x2000
+    - label: New York
+      value: 0x2001
+    - label: Houston
+      value: 0x2002
+    - label: Euro
+      value: 0x2003
+  desc: List of building styles, overriding Occupant Groups if present. In particular, this property works for industrial buildings. Requires More Building Styles DLL by Null 45.
+  minLength: 1
+  name: Building Styles
+  type: UInt32
+  unique: true
+
+"0xaa1dd401":
+  desc: Whether this building is treated as wall-to-wall. Requires More Building Styles DLL by Null 45.
+  name: Building Is W2W
+  type: Bool
 
 "0xaa1f8ab7":
   desc: Cost per unit of garbage sent to landfill, incinerator or w2e

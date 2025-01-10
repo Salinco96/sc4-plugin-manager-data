@@ -33,7 +33,8 @@ vip/rural-pack:
   variants:
     default:
       assets:
-        - docs:
+        - cleanitol: Cleanitol_VIP Rural Pack.txt
+          docs:
             - ~Documents/Prop-Texture Catalogue Index and Cleanitol:
                 as: Index
             - ~Documents/VIP_Readmes
@@ -43,11 +44,11 @@ vip/rural-pack:
                 as: RuralPack
             - VIP/VIPProps:
                 as: Props
-      lastGenerated: 2025-01-08T13:07:32.786Z
+      lastGenerated: 2025-01-10T08:00:40.405Z
       lastModified: 2024-02-04T11:16:22.000Z
       mmps:
         RuralPack/Manchou/VIP_Man_Cows_Seasonal_MMP.dat:
-          '19620420':
+          e83e0437-19620420:
             description: Click one or several times to make vary models. The models will automatically vary 3 times through the year.
             label: Cows seasonal.
             name: VIP_Man_Cow_01
@@ -93,12 +94,12 @@ vip/rural-pack:
               - id: '19620434'
                 name: VIP_Man_Cow_21
         RuralPack/Orange/VIP_Or_Corylus_Seasonal_MMP.dat:
-          '19620275':
+          e83e0437-19620275:
             description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante.To be planted the 1st September. The timing will be correct in the next game year.
             label: Corylus saisonnier. Corylus seasonal.
             name: Or_VIP_Corylus01
         RuralPack/Orange/VIP_Or_Narcissus_Seasonal_MMP.dat:
-          '19620280':
+          e83e0437-19620280:
             description: 'A planter un 1er Septembre. Le timing sera initialisé l''année suivante. Cliquez une ou plusieurs fois pour faire varier les 5 modèles. Note : en hiver les fougères remplacent les jonquilles. To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 5 models. Note: in winter ferns replace Narcissus.'
             label: Narcissus. Jonquilles. Yellow Daffodills.
             name: VIP_RP-FL_Or_Narcissus01
@@ -112,7 +113,7 @@ vip/rural-pack:
               - id: '19620284'
                 name: VIP_RP-FL_Or_Narcissus05
         RuralPack/Orange/VIP_Or_Populus_Seasonal_MMP.dat:
-          '19620270':
+          e83e0437-19620270:
             description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante. Cliquez une ou plusieurs fois pour faire varier les 4 modèles.To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 4 models.
             label: Populus. Peupliers. Poplars.
             name: 'Or_VIP_Populus04 '
@@ -124,7 +125,7 @@ vip/rural-pack:
               - id: '19620273'
                 name: 'Or_VIP_Populus02  '
         RuralPack/R6/VIP_R6_Herbes_Pampa_Big_MMP.dat:
-          '19620074':
+          e83e0437-19620074:
             description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
             label: Herbes de la Pampa grandes. Pampa grass (big).
             model: 5a76609f
@@ -137,7 +138,7 @@ vip/rural-pack:
                 model: 9a766455
                 name: R6_VIP_ploppable_HPampaBig03
         RuralPack/R6/VIP_R6_Herbes_Pampa_Small_MMP.dat:
-          '19620080':
+          e83e0437-19620080:
             description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
             label: Herbes de la Pampa petites. Pampa grass (small).
             model: ba4eca7a
@@ -150,7 +151,7 @@ vip/rural-pack:
                 model: ba4ece32
                 name: R6_VIP_ploppable_HPampaSmall03
         RuralPack/R6/VIP_R6_Iris_Des_Marais_Seasonal_MMP.dat:
-          '19620130':
+          e83e0437-19620130:
             description: A planter un 1er Septembre. Les iris sont en fleur pendant 8 mois. To be planted the 1st September. The flowering lasts 8 months.
             label: Iris des Marais saisoniers. Marsh Iris seasonal.
             name: R6_VIP_Iris des Marais01
@@ -160,7 +161,7 @@ vip/rural-pack:
               - id: '19620132'
                 name: R6_VIP_Iris des Marais03
         RuralPack/R6/VIP_R6_Nenuphars_MMP.dat:
-          '19620020':
+          e83e0437-19620020:
             description: Cliquez une ou plusieurs fois afin de faire varier les 4 modèles. Click one or several times to make vary the 4 models.
             label: Nenuphars. Lilly pads.
             model: 9a4eceec
@@ -179,7 +180,7 @@ vip/rural-pack:
                 model: 1a76a1d2
                 name: R6_VIP_plop_Nenuphar04
         RuralPack/R6/VIP_R6_Potamot_MMP.dat:
-          '19620100':
+          e83e0437-19620100:
             description: Cliquez une ou plusieurs fois afin de faire varier les 4 modèles. Click one or several times to make vary the 4 models.
             label: Potamot nageant. Potamogeton.
             model: fb17348d
@@ -198,7 +199,7 @@ vip/rural-pack:
                 model: 7b173594
                 name: R6_VIP_plop_Potamot04
         RuralPack/R6/VIP_R6_Rochers_MMP.dat:
-          '19620160':
+          e83e0437-19620160:
             description: Cliquez une ou plusieurs fois afin de faire varier les 8 modèles. Click one or several times to make vary the 8 models.
             label: Rochers mousse petits et gros. Mossy rocks small and big.
             model: 1a6414bc
@@ -229,7 +230,7 @@ vip/rural-pack:
                 model: 3a63ea03
                 name: R6_VIP_RochersMousseBig04
         RuralPack/R6/VIP_R6_Roseaux_Big_MMP.dat:
-          '19620070':
+          e83e0437-19620070:
             description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
             label: Roseaux grands. Cattails (big).
             model: 9a7655ec
@@ -242,7 +243,7 @@ vip/rural-pack:
                 model: 3a765f46
                 name: R6_VIP_ploppable_RoseauxBig03
         RuralPack/R6/VIP_R6_Roseaux_Small_MMP.dat:
-          '19620030':
+          e83e0437-19620030:
             description: Cliquez une ou plusieurs fois afin de faire varier les 3 modèles. Click one or several times to make vary the 3 models.
             label: Roseaux petits. Cattails (small).
             model: ba4ed06b
@@ -255,7 +256,7 @@ vip/rural-pack:
                 model: 3a4ed162
                 name: R6_VIP_ploppable_RoseauxSmall03
         RuralPack/VIP_Garbage_MMP.dat:
-          '19620400':
+          e83e0437-19620400:
             description: Click one or several times to make vary models.
             label: Garbage.
             model: badb57f1-1c49
@@ -295,7 +296,7 @@ vip/rural-pack:
                 model: badb57f1-1df8
                 name: VIP_Garbage_12
         RuralPack/VIP_Kayaks_And_Zodiacs_MMP.dat:
-          '19620110':
+          e83e0437-19620110:
             description: Cliquez une ou plusieurs fois afin de faire varier les 13 modèles. Click one or several times to make vary the 13 models.
             label: Kayaks et zodiacs. Kayaks and zodiacs.
             model: 7a48711c
@@ -338,7 +339,7 @@ vip/rural-pack:
                 model: fb171d12
                 name: VIP_plop_ZodiacOccup�03
         RuralPack/Vnaoned/VIP_VV_Barques_MMP.dat:
-          '19620096':
+          e83e0437-19620096:
             description: Cliquez une ou plusieurs fois afin de faire varier les différents modèles. Click one or several times to make vary the different models.
             label: 'Barques. Rowboats. '
             model: 1a4f1caa
@@ -354,7 +355,7 @@ vip/rural-pack:
                 model: 1a4f235e
                 name: VV_VIP_ploppable_Barque04
         RuralPack/Vnaoned/VIP_VV_Bouses_MMP.dat:
-          '19620150':
+          e83e0437-19620150:
             description: Cliquez une ou plusieurs fois afin de faire varier les différents modèles. Click one or several times to make vary the different models.
             label: Bouses de vaches. Cowpats.
             model: 5a51effb
@@ -364,7 +365,7 @@ vip/rural-pack:
                 model: 1a51f18a
                 name: VV_VIP_plop_Bouses02
         RuralPack/Vnaoned/VIP_VV_Chickens_MMP.dat:
-          '19620040':
+          e83e0437-19620040:
             description: Cliquez une ou plusieurs fois pour faire varier les 9 modèles. Click one or several times to make vary the 9 models.
             label: Poules et poussins. Hens and chicks.
             model: 5893f9d0
@@ -398,7 +399,7 @@ vip/rural-pack:
                 model: ba76ac53
                 name: VV_VIP_plop_Chicken09
         RuralPack/Vnaoned/VIP_VV_Cows_MMP.dat:
-          '19620001':
+          e83e0437-19620001:
             description: Cliquez une ou plusieurs fois pour faire varier les 14 modèles. Click one or several times to make vary the 14 models.
             label: Vaches. Cows.
             model: 786de570
@@ -447,7 +448,7 @@ vip/rural-pack:
                 model: 1aeec73e
                 name: VV_plop_Cow14
         RuralPack/Vnaoned/VIP_VV_Fougeres_Seasonal_MMP.dat:
-          '19620090':
+          e83e0437-19620090:
             description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante. Cliquez une ou plusieurs fois pour faire varier les 6 modèles.To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 6 models.
             label: Fougères saisonnières. Ferns seasonal.
             name: VV_TSC_ploppable_Fougere01
@@ -463,7 +464,7 @@ vip/rural-pack:
               - id: 1962009b
                 name: VV_TSC_ploppable_Fougere06
         RuralPack/Vnaoned/VIP_VV_Genets_Seasonal_MMP.dat:
-          '19620190':
+          e83e0437-19620190:
             description: A planter un 1er Septembre. Le timing sera initialisé l'année suivante. Cliquez une ou plusieurs fois pour faire varier les 3 modèles.To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary the 3 models.
             label: Genêts sasisonniers. Jennets seasonal.
             name: VV_VIP_ploppable_Genet01
@@ -473,7 +474,7 @@ vip/rural-pack:
               - id: '19620192'
                 name: VV_VIP_ploppable_Genet03
         RuralPack/Vnaoned/VIP_VV_Herons_MMP.dat:
-          '19620180':
+          e83e0437-19620180:
             description: Cliquez une ou plusieurs fois pour faire varier les 8 modèles. Click one or several times to make vary the 8 models.
             label: Hérons. Herons.
             model: 7a6abadc
@@ -501,7 +502,7 @@ vip/rural-pack:
                 model: fa6abc98
                 name: VV_VIP_plop_Heron02d
         RuralPack/Vnaoned/VIP_VV_Perso_Baigneurs_MMP.dat:
-          '19620194':
+          e83e0437-19620194:
             description: Cliquez une ou plusieurs fois afin de faire varier les différents modèles. Click one or several times to make vary the different models.
             label: Baigneurs. Bathers
             model: ba7c13c5
@@ -556,7 +557,7 @@ vip/rural-pack:
                 model: 3a7c2175
                 name: VV_BaigneurDebout
         RuralPack/Vnaoned/VIP_VV_Perso_Pecheurs_MMP.dat:
-          '19620170':
+          e83e0437-19620170:
             description: Cliquez une ou plusieurs fois pour faire varier les 12 modèles. Click one or several times to make vary the 12 models.
             label: Pêcheurs. Fishermans.
             model: ba7aea71
@@ -596,7 +597,7 @@ vip/rural-pack:
                 model: '593548e4'
                 name: VV_Pecheur12
         RuralPack/Vnaoned/VIP_VV_Pigeons_MMP.dat:
-          '19620454':
+          e83e0437-19620454:
             description: Click one or several times to make vary models.
             label: Pigeons.
             model: '38899977'
@@ -618,7 +619,7 @@ vip/rural-pack:
                 model: f8914ccc
                 name: VIP_VV_Pigeon_06
         RuralPack/Vnaoned/VIP_VV_Ravens_MMP.dat:
-          '19620435':
+          e83e0437-19620435:
             description: Click one or several times to make vary models.
             label: Ravens.
             model: 190e856c
@@ -649,11 +650,11 @@ vip/rural-pack:
                 model: f90e885b
                 name: VIP_VV_Raven_09
         RuralPack/Vnaoned/VIP_VV_Varioius_Trees_Seasonal_MMP.dat:
-          '19620286':
+          e83e0437-19620286:
             description: 'To be planted on March 1st. No autumn version. '
             label: Cherry tree seasonal.
             name: VIP_VV_Cherry_Tree
-          '19620300':
+          e83e0437-19620300:
             description: To be planted the 1st September. The timing will be correct in the next game year. Click one or several times to make vary flora.
             label: Seasonal trees.
             name: VIP_VV_Tree_01
@@ -945,980 +946,980 @@ vip/rural-pack:
           - 986c5a2c
       propFamilies:
         Props/VIP_Props_VV_Cows.dat:
-          5f85f1bd:
+          67bddf0c-5f85f1bd:
             name: VV Cows Family
         Props/VIP_Props_VV_Pigeons.dat:
-          5f85f1bb:
+          67bddf0c-5f85f1bb:
             name: VV Pigeon Family
         Props/VIP_Props_VV_Ravens.dat:
-          5f85f1bc:
+          67bddf0c-5f85f1bc:
             name: VV Raven Family
       props:
         Props/VIP_Props_Grfe-R6-VV_Kayaks_And_Zodiacs.dat:
-          37ef6e2b:
-            model: fa7ea67c
-            name: VIP_RP_VV_Kayak 02 HD
-          5a5c14d2:
+          348527d8-5a5c14d2:
             model: 5a4234f1
             name: VIP_RP_VV_Kayakiste + kayak 03 HD
-          5a5c159a:
+          348527d8-5a5c159a:
             model: 7ac701d0
             name: VIP_RP_R6_Zodiac_Ortho
-          5a5c1620:
+          348527d8-5a5c1620:
             model: fb171d12
             name: VIP_RP_R6_Zodiac_Pilote_Diag45
-          7a5c15e5:
+          348527d8-7a5c15e5:
             model: 7b171be7
             name: VIP_RP_R6_Zodiac_Pilote_Ortho
-          97f08cda:
-            model: 3a7ed517
-            name: VIP_RP_VV_Kayak 01 HD
-          9a4d6bd6:
+          348527d8-9a4d6bd6:
             model: 7a48711c
             name: VIP_RP_Grfe_remorque_kayak_vide
-          9a5c1608:
+          348527d8-9a5c1608:
             model: bb171c71
             name: VIP_RP_R6_Zodiac_Pilote_Diag22.5
-          ba5c15b7:
+          348527d8-ba5c15b7:
             model: 1b1715d4
             name: VIP_RP_R6_Zodiac_Diag22.5
-          da4d6bf8:
+          348527d8-da4d6bf8:
             model: 1a4870e6
             name: VIP_RP_Grfe_remorque_kayak
-          da5c15cd:
+          348527d8-da5c15cd:
             model: 5b17169c
             name: VIP_RP_R6_Zodiac_Diag45
-          f7ee50b7:
+          757ad7ca-37ef6e2b:
+            model: fa7ea67c
+            name: VIP_RP_VV_Kayak 02 HD
+          757ad7ca-97f08cda:
+            model: 3a7ed517
+            name: VIP_RP_VV_Kayak 01 HD
+          757ad7ca-f7ee50b7:
             model: fa7d892a
             name: VIP_RP_VV_Kayakiste + kayak 01 HD
-          f7ee50f0:
+          757ad7ca-f7ee50f0:
             model: 5a7d80fd
             name: VIP_RP_VV_Kayakiste + kayak 02 HD
         Props/VIP_Props_Man_Cows v2.dat:
-          1913d6c7:
+          17c15600-1913d6c7:
             model: 589655ae
             name: Manchou_Prop_Vache_01
-          1913d8c4:
+          17c15600-1913d8c4:
             model: 98965a0d
             name: Manchou_Prop_Vache_08
-          1913d8f0:
+          17c15600-1913d8f0:
             model: 78965acc
             name: Manchou_Prop_Vache_09
-          1913d932:
+          17c15600-1913d932:
             model: 18965b7e
             name: Manchou_Prop_Vache_10
-          1913da72:
+          17c15600-1913da72:
             model: b89660d2
             name: Manchou_Prop_Vache_17
-          1913dbfa:
+          17c15600-1913dbfa:
             model: f8966800
             name: Manchou_Prop_Vache_22
-          1913dc25:
+          17c15600-1913dc25:
             model: 989669f1
             name: Manchou_Prop_Vache_25
-          1913dc3f:
+          17c15600-1913dc3f:
             model: b8966b49
             name: Manchou_Prop_Vache_27
-          1913de2b:
+          17c15600-1913de2b:
             model: '58967014'
             name: Manchou_Prop_Vache_33
-          1913e1c0:
+          17c15600-1913e1c0:
             model: 78967fad
             name: Manchou_Prop_Vache_55
-          '1913e215':
+          17c15600-1913e215:
             model: f89683a3
             name: Manchou_Prop_Vache_61
-          '1913e222':
+          17c15600-1913e222:
             model: b896846e
             name: Manchou_Prop_Vache_62
-          3913da80:
+          17c15600-3913da80:
             model: b8966176
             name: Manchou_Prop_Vache_18
-          3913de7f:
+          17c15600-3913de7f:
             model: b89674b0
             name: Manchou_Prop_Vache_39
-          3913dfe9:
+          17c15600-3913dfe9:
             model: 18967a09
             name: Manchou_Prop_Vache_47
-          '3913e016':
+          17c15600-3913e016:
             model: 58967c7b
             name: Manchou_Prop_Vache_50
-          3913e18b:
+          17c15600-3913e18b:
             model: 38967d2a
             name: Manchou_Prop_Vache_51
-          3913e1b4:
+          17c15600-3913e1b4:
             model: 98967efb
             name: Manchou_Prop_vache_54
-          3913e1cb:
+          17c15600-3913e1cb:
             model: '78968054'
             name: Manchou_Prop_vache_56
-          3913e1d9:
+          17c15600-3913e1d9:
             model: b89680ff
             name: Manchou_Prop_vache_57
-          5913d7f7:
+          17c15600-5913d7f7:
             model: 1896579f
             name: Manchou_Prop_Vache_04
-          5913d859:
+          17c15600-5913d859:
             model: '98965885'
             name: Manchou_Prop_Vache_06
-          5913da8c:
+          17c15600-5913da8c:
             model: b896660c
             name: Manchou_Prop_Vache_19
-          5913dc05:
+          17c15600-5913dc05:
             model: 3896689c
             name: Manchou_Prop_Vache_23
-          5913dc35:
+          17c15600-5913dc35:
             model: 98966a7b
             name: Manchou_Prop_Vache_26
-          5913de13:
+          17c15600-5913de13:
             model: b8966ed3
             name: Manchou_Prop_Vache_31
-          5913de1f:
+          17c15600-5913de1f:
             model: 78966f72
             name: Manchou_Prop_Vache_32
-          5913de38:
+          17c15600-5913de38:
             model: f89670d9
             name: Manchou_Prop_Vache_34
-          5913de47:
+          17c15600-5913de47:
             model: f89671d0
             name: Manchou_Prop_Vache_35
-          5913dfc7:
+          17c15600-5913dfc7:
             model: f89678b7
             name: Manchou_Prop_Vache_45
-          5913dff7:
+          17c15600-5913dff7:
             model: 78967ab8
             name: Manchou_Prop_Vache_48
-          5913e1a9:
+          17c15600-5913e1a9:
             model: 98967e5d
             name: Manchou_Prop_Vache_53
-          5913e1e6:
+          17c15600-5913e1e6:
             model: 389681a2
             name: Manchou_Prop_Vache_58
-          5913e1f5:
+          17c15600-5913e1f5:
             model: '78968244'
             name: Manchou_Prop_vahce_59
-          7913da52:
+          17c15600-7913da52:
             model: b8965f76
             name: Manchou_Prop_Vache_15
-          7913dc17:
+          17c15600-7913dc17:
             model: b8966946
             name: Manchou_Prop_Vache_24
-          7913de65:
+          17c15600-7913de65:
             model: 9896734d
             name: Manchou_Prop_Vache_37
-          7913de8e:
+          17c15600-7913de8e:
             model: f8967545
             name: Manchou_Prop_vache_40
-          7913dfad:
+          17c15600-7913dfad:
             model: '98967753'
             name: Manchou_Prop_Vache_43
-          7913e19c:
+          17c15600-7913e19c:
             model: 78967dbe
             name: Manchou_Prop_Vache_52
-          7913e22c:
+          17c15600-7913e22c:
             model: '38968507'
             name: Manchou_Prop_Vache_63
-          9913d791:
+          17c15600-9913d791:
             model: '78965682'
             name: Manchou_Prop_Vache_02
-          9913d998:
+          17c15600-9913d998:
             model: b8965cbc
             name: Manchou_Prop_Vache_12
-          9913da12:
+          17c15600-9913da12:
             model: 58965ecc
             name: Manchou_Prop_Vache_14
-          9913df92:
+          17c15600-9913df92:
             model: 1896761c
             name: Manchou_Prop_Vache_41
-          '9913e005':
+          17c15600-9913e005:
             model: 18967bb8
             name: Manchou_Prop_Vache_49
-          '9913e203':
+          17c15600-9913e203:
             model: '78968244'
             name: Manchou_Prop_vache_60
-          b913d88c:
+          17c15600-b913d88c:
             model: d8965949
             name: Manchou_Prop_Vache_07
-          b913d9cf:
+          17c15600-b913d9cf:
             model: 98965d58
             name: Manchou_Prop_Vache_13
-          b913da64:
+          17c15600-b913da64:
             model: '98966028'
             name: Manchou_Prop_Vache_16
-          b913dc58:
+          17c15600-b913dc58:
             model: 18966ce0
             name: Manchou_Prop_Vache_29
-          b913de72:
+          17c15600-b913de72:
             model: 989673f3
             name: Manchou_Prop_Vache_38
-          b913dfbb:
+          17c15600-b913dfbb:
             model: 989677fc
             name: Manchou_Prop_Vache_44
-          b913dfdd:
+          17c15600-b913dfdd:
             model: 3896795c
             name: Manchou_Prop_Vache_46
-          d913d7c4:
+          17c15600-d913d7c4:
             model: f8965703
             name: Manchou_Prop_Vache_03
-          d913d82c:
+          17c15600-d913d82c:
             model: '38965810'
             name: Manchou_Prop_Vache_05
-          d913d964:
+          17c15600-d913d964:
             model: 18965c1a
             name: Manchou_Prop_Vache_11
-          d913da99:
+          17c15600-d913da99:
             model: b89666ce
             name: Manchou_Prop_Vache_20
-          d913dbee:
+          17c15600-d913dbee:
             model: '58966766'
             name: Manchou_Prop_Vache_21
-          d913dc4b:
+          17c15600-d913dc4b:
             model: b8966bf4
             name: Manchou_Prop_Vache_28
-          d913dc64:
+          17c15600-d913dc64:
             model: 98966df4
             name: Manchou_Prop_Vache_30
-          d913de59:
+          17c15600-d913de59:
             model: d896726c
             name: Manchou_Prop_Vache_36
-          d913df9d:
+          17c15600-d913df9d:
             model: d89676ca
             name: Manchou_Prop_Vache_42
         Props/VIP_Props_Or_Corylus_Seasonal.dat:
-          133e61bb:
-            name: VIP_Or_Seasonal_Corylus01_Autumn
-          3a80c298:
+          348527d8-3a80c298:
             model: 59ad6059
             name: VIP_RP-FL_Or_Corylus01_E
-          3a80c2dd:
+          348527d8-3a80c2dd:
             model: 19ad637c
             name: VIP_RP-FL_Or_Corylus01_P
-          533e63d8:
-            name: VIP_Or_Seasonal_Corylus01_Summer
-          9a80c285:
+          348527d8-9a80c285:
             model: b9ad6901
             name: VIP_RP-FL_Or_Corylus01_A
-          d33e626b:
-            name: VIP_Or_Seasonal_Corylus01_Winter
-          d33e62d4:
-            name: VIP_Or_Seasonal_Corylus01_Spring
-          fa80c2bf:
+          348527d8-fa80c2bf:
             model: 39ad6d72
             name: VIP_RP-FL_Or_Corylus01_H
+          9b9d22a8-133e61bb:
+            name: VIP_Or_Seasonal_Corylus01_Autumn
+          9b9d22a8-533e63d8:
+            name: VIP_Or_Seasonal_Corylus01_Summer
+          9b9d22a8-d33e626b:
+            name: VIP_Or_Seasonal_Corylus01_Winter
+          9b9d22a8-d33e62d4:
+            name: VIP_Or_Seasonal_Corylus01_Spring
         Props/VIP_Props_Or_Narcissus_Seasonal.dat:
-          '133e6519':
-            name: VIP_Or_Seasonal_Narcissus02_Summer
-          533e667c:
-            name: VIP_Or_Seasonal_Narcissus04_Summer
-          '533e6722':
-            name: VIP_Or_Seasonal_Narcissus05_Spring
-          733e653e:
-            name: VIP_Or_Seasonal_Narcissus02_Spring
-          733e66ba:
-            name: VIP_Or_Seasonal_Narcissus03_Spring
-          7a8219f7:
+          348527d8-7a8219f7:
             model: 5ac8c3c4
             name: VIP_RP-FL_Or_Narcissus02_E
-          7a821a1e:
+          348527d8-7a821a1e:
             model: 7ac8d2aa
             name: VIP_RP-FL_Or_Narcissus01_E
-          7a821a60:
+          348527d8-7a821a60:
             model: 1ac8d152
             name: VIP_RP-FL_Or_Narcissus01_P
-          7a821aca:
+          348527d8-7a821aca:
             model: fac8c21d
             name: VIP_RP-FL_Or_Narcissus02_P
-          7a821af0:
+          348527d8-7a821af0:
             model: 5ac8c642
             name: VIP_RP-FL_Or_Narcissus04_E
-          7a821b12:
+          348527d8-7a821b12:
             model: fac8d47a
             name: VIP_RP-FL_Or_Narcissus03_E
-          7a821b3c:
+          348527d8-7a821b3c:
             model: 9ac8d3c6
             name: VIP_RP-FL_Or_Narcissus03_P
-          7a821ba3:
+          348527d8-7a821ba3:
             model: bac8c470
             name: VIP_RP-FL_Or_Narcissus04_P
-          7a821bd0:
+          348527d8-7a821bd0:
             model: 1ac8d0df
             name: VIP_RP-FL_Or_Narcissus05_E
-          7a821bfb:
+          348527d8-7a821bfb:
             model: fac8cc15
             name: VIP_RP-FL_Or_Narcissus05_P
-          933e66c9:
+          9b9d22a8-133e6519:
+            name: VIP_Or_Seasonal_Narcissus02_Summer
+          9b9d22a8-533e667c:
+            name: VIP_Or_Seasonal_Narcissus04_Summer
+          9b9d22a8-533e6722:
+            name: VIP_Or_Seasonal_Narcissus05_Spring
+          9b9d22a8-733e653e:
+            name: VIP_Or_Seasonal_Narcissus02_Spring
+          9b9d22a8-733e66ba:
+            name: VIP_Or_Seasonal_Narcissus03_Spring
+          9b9d22a8-933e66c9:
             name: VIP_Or_Seasonal_Narcissus04_Spring
-          b33e656e:
+          9b9d22a8-b33e656e:
             name: VIP_Or_Seasonal_Narcissus01_Summer
-          b33e6583:
+          9b9d22a8-b33e6583:
             name: VIP_Or_Seasonal_Narcissus01_Spring
-          b33e6694:
+          9b9d22a8-b33e6694:
             name: VIP_Or_Seasonal_Narcissus03_Summer
-          d33e670a:
+          9b9d22a8-d33e670a:
             name: VIP_Or_Seasonal_Narcissus05_Summer
         Props/VIP_Props_Or_Populus_Seasonal.dat:
-          133e69a9:
+          9b9d22a8-133e69a9:
             name: VIP_Or_Seasonal_Populus01_Summer
-          133e6ccf:
+          9b9d22a8-133e6ccf:
             name: VIP_Or_Seasonal_Populus04_Autumn
-          1834438b:
-            model: dabfa08e
-            name: VIP_RP-FL_Or_Populus02_H
-          183443f9:
-            model: dac2413b
-            name: VIP_RP-FL_Or_Populus01_P
-          333e697d:
+          9b9d22a8-333e697d:
             name: VIP_Or_Seasonal_Populus01_Autumn
-          '333e6996':
+          9b9d22a8-333e6996:
             name: VIP_Or_Seasonal_Populus01_Spring
-          333e6b18:
+          9b9d22a8-333e6b18:
             name: VIP_Or_Seasonal_Populus02_Spring
-          333e6be5:
+          9b9d22a8-333e6be5:
             name: VIP_Or_Seasonal_Populus03_Summer
-          3834436b:
-            model: fac1e8c9
-            name: VIP_RP-FL_Or_Populus03_A
-          383443d6:
-            model: bac23b47
-            name: VIP_RP-FL_Or_Populus01_E
-          5834435a:
-            model: 3ac1984a
-            name: VIP_RP-FL_Or_Populus03_E
-          '733e6989':
+          9b9d22a8-733e6989:
             name: VIP_Or_Seasonal_Populus01_Winter
-          733e6bb5:
+          9b9d22a8-733e6bb5:
             name: VIP_Or_Seasonal_Populus03_Autumn
-          '783442e5':
-            model: 7ac19d68
-            name: VIP_RP-FL_Or_Populus04_P
-          '78344328':
-            model: 1ac19af3
-            name: VIP_RP-FL_Or_Populus03_P
-          933e6af1:
+          9b9d22a8-933e6af1:
             name: VIP_Or_Seasonal_Populus02_Autumn
-          933e6b25:
+          9b9d22a8-933e6b25:
             model: 7abf9de9
             name: VIP_Or_Seasonal_Populus02_Summer
-          '98344318':
+          9b9d22a8-b33e6aff:
+            name: VIP_Or_Seasonal_Populus02_Winter
+          9b9d22a8-b33e6bd3:
+            name: VIP_Or_Seasonal_Populus03_Spring
+          9b9d22a8-d33e6bc2:
+            name: VIP_Or_Seasonal_Populus03_Winter
+          9b9d22a8-d33e6cd9:
+            name: VIP_Or_Seasonal_Populus04_Winter
+          9b9d22a8-d33e6ce6:
+            name: VIP_Or_Seasonal_Populus04_Spring
+          9b9d22a8-d33e6cf2:
+            name: VIP_Or_Seasonal_Populus04_Summer
+          d60d2608-1834438b:
+            model: dabfa08e
+            name: VIP_RP-FL_Or_Populus02_H
+          d60d2608-183443f9:
+            model: dac2413b
+            name: VIP_RP-FL_Or_Populus01_P
+          d60d2608-3834436b:
+            model: fac1e8c9
+            name: VIP_RP-FL_Or_Populus03_A
+          d60d2608-383443d6:
+            model: bac23b47
+            name: VIP_RP-FL_Or_Populus01_E
+          d60d2608-5834435a:
+            model: 3ac1984a
+            name: VIP_RP-FL_Or_Populus03_E
+          d60d2608-783442e5:
+            model: 7ac19d68
+            name: VIP_RP-FL_Or_Populus04_P
+          d60d2608-78344328:
+            model: 1ac19af3
+            name: VIP_RP-FL_Or_Populus03_P
+          d60d2608-98344318:
             model: fac1e887
             name: VIP_RP-FL_Or_Populus04_A
-          9834437b:
+          d60d2608-9834437b:
             model: fabf9e4f
             name: VIP_RP-FL_Or_Populus02_P
-          983443ab:
+          d60d2608-983443ab:
             model: dabf9f5e
             name: VIP_RP-FL_Or_Populus02_A
-          '983443e7':
+          d60d2608-983443e7:
             model: 9ac2463e
             name: VIP_RP-FL_Or_Populus01_H
-          b33e6aff:
-            name: VIP_Or_Seasonal_Populus02_Winter
-          b33e6bd3:
-            name: VIP_Or_Seasonal_Populus03_Spring
-          b8344307:
+          d60d2608-b8344307:
             model: 7ac19c28
             name: VIP_RP-FL_Or_Populus04_E
-          d33e6bc2:
-            name: VIP_Or_Seasonal_Populus03_Winter
-          d33e6cd9:
-            name: VIP_Or_Seasonal_Populus04_Winter
-          d33e6ce6:
-            name: VIP_Or_Seasonal_Populus04_Spring
-          d33e6cf2:
-            name: VIP_Or_Seasonal_Populus04_Summer
-          d83442f4:
+          d60d2608-d83442f4:
             model: 7ac1ea9c
             name: VIP_RP-FL_Or_Populus04_H
-          d8344342:
+          d60d2608-d8344342:
             model: fac1fb21
             name: VIP_RP-FL_Or_Populus03_H
-          f834439c:
+          d60d2608-f834439c:
             model: 7abf9de9
             name: VIP_RP-FL_Or_Populus02_E
-          f83443c8:
+          d60d2608-f83443c8:
             model: 5ac240f2
             name: VIP_RP-FL_Or_Populus01_A
         Props/VIP_Props_R6_Herbes_Pampa_Big.dat:
-          5a56cf9f:
+          348527d8-5a56cf9f:
             model: fa766faf
             name: VIP_RP-FL_R6_Herbe_Pampa_02
-          9a56cf89:
+          348527d8-9a56cf89:
             model: 5a76609f
             name: VIP_RP-FL_R6_Herbe_Pampa_01
-          ba56cfb3:
+          348527d8-ba56cfb3:
             model: 9a766455
             name: VIP_RP-FL_R6_Herbe_Pampa_03
         Props/VIP_Props_R6_Herbes_Pampa_Small.dat:
-          1a5346c8:
+          348527d8-1a5346c8:
             model: fa4ecc85
             name: VIP_RP-FL_R6_Herbe_Pampa_Small02
-          3a5346f3:
+          348527d8-3a5346f3:
             model: ba4ece32
             name: VIP_RP-FL_R6_Herbe_Pampa_Small03
-          9a534707:
+          348527d8-9a534707:
             model: ba4eca7a
             name: VIP_RP-FL_R6_Herbe_Pampa_Small01
         Props/VIP_Props_R6_Iris_Des_Marais_Seasonal.dat:
-          '533e7030':
-            name: VIP_R6_Seasonal_Iris_Marais_01_bloom
-          '533e7197':
-            name: VIP_R6_Seasonal_Iris_Marais_02_bloom
-          533e71ac:
-            name: VIP_R6_Seasonal_Iris_Marais_03_bloom
-          5a5c1cc6:
+          348527d8-5a5c1cc6:
             model: 9b174f15
             name: VIP_RP-FL_R6_Iris_Marais_01
-          5a5c2b67:
+          348527d8-5a5c2b67:
             model: 7b175f5d
             name: VIP_RP-FL_R6_Iris_Marais_Fleur_02
-          733e6fb9:
-            name: VIP_R6_Seasonal_Iris_Marais_01_no_bloom
-          '733e7184':
-            name: VIP_R6_Seasonal_Iris_Marais_03_no_bloom
-          9a5c1cf2:
+          348527d8-9a5c1cf2:
             model: 5b174ff1
             name: VIP_RP-FL_R6_Iris_Marais_03
-          9a5c1d23:
+          348527d8-9a5c1d23:
             model: 3b174e27
             name: VIP_RP-FL_R6_Iris_Marais_Fleur_03
-          9a5c2b79:
+          348527d8-9a5c2b79:
             model: 7b175eed
             name: VIP_RP-FL_R6_Iris_Marais_02
-          ba5c1d02:
+          348527d8-ba5c1d02:
             model: bb174aa9
             name: VIP_RP-FL_R6_Iris_Marais_Fleur_01
-          d33e714f:
+          9b9d22a8-533e7030:
+            name: VIP_R6_Seasonal_Iris_Marais_01_bloom
+          9b9d22a8-533e7197:
+            name: VIP_R6_Seasonal_Iris_Marais_02_bloom
+          9b9d22a8-533e71ac:
+            name: VIP_R6_Seasonal_Iris_Marais_03_bloom
+          9b9d22a8-733e6fb9:
+            name: VIP_R6_Seasonal_Iris_Marais_01_no_bloom
+          9b9d22a8-733e7184:
+            name: VIP_R6_Seasonal_Iris_Marais_03_no_bloom
+          9b9d22a8-d33e714f:
             name: VIP_R6_Seasonal_Iris_Marais_02_no_bloom
         Props/VIP_Props_R6_Nenuphars.dat:
-          3a53474f:
+          348527d8-3a53474f:
             model: 9a4eceec
             name: VIP_RP-FL_R6_Nenuphars_01
-          9a534760:
+          348527d8-9a534760:
             model: 7a4ecf69
             name: VIP_RP-FL_R6_Nenuphars_02
-          9a5705fe:
+          348527d8-9a5705fe:
             model: 1a76a1d2
             name: VIP_RP-FL_R6_Nenuphars_04
-          da534776:
+          348527d8-da534776:
             model: 1a4ecfdf
             name: VIP_RP-FL_R6_Nenuphars_03
         Props/VIP_Props_R6_Potamot.dat:
-          3a5c082b:
+          348527d8-3a5c082b:
             model: 7b173594
             name: VIP_RP-FL_R6_Potamot_04
-          5a5c07e9:
+          348527d8-5a5c07e9:
             model: fb17348d
             name: VIP_RP-FL_R6_Potamot_01
-          5a5c07fc:
+          348527d8-5a5c07fc:
             model: fb1734e3
             name: VIP_RP-FL_R6_Potamot_02
-          ba5c0819:
+          348527d8-ba5c0819:
             model: 5b173537
             name: VIP_RP-FL_R6_Potamot_03
         Props/VIP_Props_R6_Rochers.dat:
-          1ae15878:
+          5706ee5e-1ae15878:
             model: 3a631538
             name: VIP_RP_R6_Rochers_Bg_Mousse_02_Prop
-          5ae158ee:
+          5706ee5e-5ae158ee:
             model: 5a64160a
             name: VIP_RP_R6_Rochers_Sm_Mousse_02_Prop
-          7ae15895:
+          5706ee5e-7ae15895:
             model: 9a63e662
             name: VIP_RP_R6_Rochers_Bg_Mousse_03_Prop
-          7ae1591d:
+          5706ee5e-7ae1591d:
             model: da64196b
             name: VIP_RP_R6_Rochers_Sm_Mousse_04_Prop
-          bae1584a:
+          5706ee5e-bae1584a:
             model: ba631112
             name: VIP_RP_R6_Rochers_Bg_Mousse_01_Prop
-          bae158b6:
+          5706ee5e-bae158b6:
             model: 3a63ea03
             name: VIP_RP_R6_Rochers_Bg_Mousse_04_Prop
-          bae158d1:
+          5706ee5e-bae158d1:
             model: 1a6414bc
             name: VIP_RP_R6_Rochers_Sm_Mousse_01_Prop
-          dae15905:
+          5706ee5e-dae15905:
             model: 5a6417ce
             name: VIP_RP_R6_Rochers_Sm_Mousse_03_Prop
         Props/VIP_Props_R6_Roseaux_Big.dat:
-          1a56d0e0:
+          348527d8-1a56d0e0:
             model: 3a765f46
             name: VIP_RP-FL_R6_RoseauxBig_03
-          9a56d03e:
+          348527d8-9a56d03e:
             model: 9a7655ec
             name: VIP_RP-FL_R6_RoseauxBig_01
-          ba56d0c4:
+          348527d8-ba56d0c4:
             model: 1a765a61
             name: VIP_RP-FL_R6_RoseauxBig_02
         Props/VIP_Props_R6_Roseaux_Small.dat:
-          5a5346dd:
+          348527d8-5a5346dd:
             model: ba4ed06b
             name: VIP_RP-FL_R6_RoseauxSmall_01
-          5a53473b:
+          348527d8-5a53473b:
             model: 3a4ed162
             name: VIP_RP-FL_R6_RoseauxSmall_03
-          da534728:
+          348527d8-da534728:
             model: 9a4ed0fd
             name: VIP_RP-FL_R6_RoseauxSmall_02
         Props/VIP_Props_VV_Barques.dat:
-          1a53188e:
+          99bfc843-1a53188e:
             model: 3a4f2272
             name: VIP_RP_VV_Barque 04a HD
-          7a53116a:
+          99bfc843-7a53116a:
             model: 1a4f1caa
             name: VIP_RP_VV_Barque 03a
-          9a53187e:
+          99bfc843-9a53187e:
             model: 7a4f1fe8
             name: VIP_RP_VV_Barque 03b
-          9a5318a6:
+          99bfc843-9a5318a6:
             model: 1a4f235e
             name: VIP_RP_VV_Barque 04b HD
         Props/VIP_Props_VV_Bouses.dat:
-          9a5702a1:
+          99bfc843-9a5702a1:
             model: 5a51effb
             name: VIP_RP_VV_Bouse vache x1 HD
-          da5702c4:
+          99bfc843-da5702c4:
             model: 1a51f18a
             name: VIP_RP_VV_Bouse vache x3 HD
         Props/VIP_Props_VV_Chickens.dat:
-          1a571934:
+          348527d8-1a571934:
             model: 5a76aade
             name: VIP_RP_VV_Poule 01-Groupe x4
-          584cd483:
-            model: f893f756
-            name: VIP_RP_VV_Poule 01-6 HD
-          984cd430:
-            model: b893f635
-            name: VIP_RP_VV_Poule 01-2 HD
-          984cd448:
-            model: b893f676
-            name: VIP_RP_VV_Poule 01-3 HD
-          9a571912:
+          348527d8-9a571912:
             model: ba76ac53
             name: VIP_RP_VV_Poule 01-Groupe x14
-          b84cd41e:
+          757ad7ca-584cd483:
+            model: f893f756
+            name: VIP_RP_VV_Poule 01-6 HD
+          757ad7ca-984cd430:
+            model: b893f635
+            name: VIP_RP_VV_Poule 01-2 HD
+          757ad7ca-984cd448:
+            model: b893f676
+            name: VIP_RP_VV_Poule 01-3 HD
+          757ad7ca-b84cd41e:
             model: 5893f9d0
             name: VIP_RP_VV_Poule 01-1 poussin HD
-          b84cd45a:
+          757ad7ca-b84cd45a:
             model: d893f6a2
             name: VIP_RP_VV_Poule 01-4 HD
-          b84cd46d:
+          757ad7ca-b84cd46d:
             model: 1893f72a
             name: VIP_RP_VV_Poule 01-5 HD
-          f84cd40a:
+          757ad7ca-f84cd40a:
             model: 5893f5bb
             name: VIP_RP_VV_Poule 01-1 HD
         Props/VIP_Props_VV_Cows.dat:
-          187897a0:
+          757ad7ca-187897a0:
             family: 5f85f1bd
             model: 786de570
             name: VIP_RP_VV_Vache NB 03
-          187897b8:
+          757ad7ca-187897b8:
             family: 5f85f1bd
             model: 586de67a
             name: VIP_RP_VV_Vache NB 02 HD
-          187897eb:
+          757ad7ca-187897eb:
             family: 5f85f1bd
             model: d86de6e4
             name: VIP_RP_VV_Vache NB 05
-          1a325a11:
-            family: 5f85f1bd
-            model: 9aeec598
-            name: VIP_RP_VV_Vache NB 11
-          1a325a37:
-            family: 5f85f1bd
-            model: 1aeec73e
-            name: VIP_RP_VV_Vache NB 12
-          3a30e403:
-            family: 5f85f1bd
-            model: da24eeb0
-            name: VIP_RP_VV_Vache NB 06
-          '587990e5':
+          757ad7ca-587990e5:
             family: 5f85f1bd
             model: 190e80b6
             name: VIP_RP_VV_Vache NB 01
-          7a325a24:
-            family: 5f85f1bd
-            model: daeec64f
-            name: VIP_RP_VV_Vache NB 10
-          ba3259ff:
-            family: 5f85f1bd
-            model: baeec31d
-            name: VIP_RP_VV_Vache NB 09
-          d87990d1:
+          757ad7ca-d87990d1:
             family: 5f85f1bd
             model: '790e8142'
             name: VIP_RP_VV_Vache NB 03
-          da30e41a:
-            family: 5f85f1bd
-            model: 1a24f45f
-            name: VIP_RP_VV_Vache NB 07
-          f87990f8:
+          757ad7ca-f87990f8:
             family: 5f85f1bd
             model: 390e81dc
             name: VIP_RP_VV_Vache NB 04
-          fa30e431:
+          99bfc843-1a325a11:
+            family: 5f85f1bd
+            model: 9aeec598
+            name: VIP_RP_VV_Vache NB 11
+          99bfc843-1a325a37:
+            family: 5f85f1bd
+            model: 1aeec73e
+            name: VIP_RP_VV_Vache NB 12
+          99bfc843-3a30e403:
+            family: 5f85f1bd
+            model: da24eeb0
+            name: VIP_RP_VV_Vache NB 06
+          99bfc843-7a325a24:
+            family: 5f85f1bd
+            model: daeec64f
+            name: VIP_RP_VV_Vache NB 10
+          99bfc843-ba3259ff:
+            family: 5f85f1bd
+            model: baeec31d
+            name: VIP_RP_VV_Vache NB 09
+          99bfc843-da30e41a:
+            family: 5f85f1bd
+            model: 1a24f45f
+            name: VIP_RP_VV_Vache NB 07
+          99bfc843-fa30e431:
             family: 5f85f1bd
             model: 7a24ede5
             name: VIP_RP_VV_Vache NB 08
         Props/VIP_Props_VV_Fougeres_Seasonal.dat:
-          '133e7358':
-            name: VIP_VV_Seasonal_Fern_002_Winter
-          133e73f6:
-            name: VIP_VV_Seasonal_Fern_005_Summer
-          '133e7436':
-            name: VIP_VV_Seasonal_Fern_006_Summer
-          1a3f5f07:
+          348527d8-1a3f5f07:
             model: '98899277'
             name: VIP_RP-FL_VV_Fougere_001_Larg_Ete
-          1a691253:
+          348527d8-1a691253:
             model: fa62c143
             name: VIP_RP-FL_VV_Fougere_001_4XL_Hivers
-          3a3f5eee:
+          348527d8-3a3f5eee:
             model: 988993a1
             name: VIP_RP-FL_VV_Fougere_001_XXL_Ete
-          3a62af42:
-            model: fbb96da2
-            name: VIP_RP-FL_VV_Fougere_001_XXXL_Ete
-          3a64512f:
-            model: fa6058ce
-            name: VIP_RP-FL_VV_Fougere_001_4XL_Ete
-          3a69120f:
+          348527d8-3a69120f:
             model: 5a62c0d4
             name: VIP_RP-FL_VV_Fougere_001_XXL_Hivers
-          533e72c8:
-            name: VIP_VV_Seasonal_Fern_001_Summer
-          533e72f6:
-            name: VIP_VV_Seasonal_Fern_001_Winter
-          533e740a:
-            name: VIP_VV_Seasonal_Fern_005_Winter
-          5a6911e0:
+          348527d8-5a6911e0:
             model: da62c08c
             name: VIP_RP-FL_VV_Fougere_001_XL_Hivers
-          733e73c1:
-            name: VIP_VV_Seasonal_Fern_004_Summer
-          7a691236:
+          348527d8-7a691236:
             model: 7a62be49
             name: VIP_RP-FL_VV_Fougere_001_XXXL_Hivers
-          9a3f5f6e:
+          348527d8-9a3f5f6e:
             model: 188992d5
             name: VIP_RP-FL_VV_Fougere_001_XL_Ete
-          b33e7346:
-            name: VIP_VV_Seasonal_Fern_002_Summer
-          d33e7393:
-            name: VIP_VV_Seasonal_Fern_003_Summer
-          d33e73a1:
-            name: VIP_VV_Seasonal_Fern_003_Winter
-          d33e73d8:
-            name: VIP_VV_Seasonal_Fern_004_Winter
-          d33e7450:
-            name: VIP_VV_Seasonal_Fern_006_Winter
-          da3f5f51:
+          348527d8-da3f5f51:
             model: '38899245'
             name: VIP_RP-FL_VV_Fougere_001_Ete
-          da6911bf:
+          348527d8-da6911bf:
             model: da62c059
             name: VIP_RP-FL_VV_Fougere_001_Larg_Hivers
-          fa691192:
+          348527d8-fa691192:
             model: fa62c02b
             name: VIP_RP-FL_VV_Fougere_001_Hivers
+          99bfc843-3a62af42:
+            model: fbb96da2
+            name: VIP_RP-FL_VV_Fougere_001_XXXL_Ete
+          99bfc843-3a64512f:
+            model: fa6058ce
+            name: VIP_RP-FL_VV_Fougere_001_4XL_Ete
+          9b9d22a8-133e7358:
+            name: VIP_VV_Seasonal_Fern_002_Winter
+          9b9d22a8-133e73f6:
+            name: VIP_VV_Seasonal_Fern_005_Summer
+          9b9d22a8-133e7436:
+            name: VIP_VV_Seasonal_Fern_006_Summer
+          9b9d22a8-533e72c8:
+            name: VIP_VV_Seasonal_Fern_001_Summer
+          9b9d22a8-533e72f6:
+            name: VIP_VV_Seasonal_Fern_001_Winter
+          9b9d22a8-533e740a:
+            name: VIP_VV_Seasonal_Fern_005_Winter
+          9b9d22a8-733e73c1:
+            name: VIP_VV_Seasonal_Fern_004_Summer
+          9b9d22a8-b33e7346:
+            name: VIP_VV_Seasonal_Fern_002_Summer
+          9b9d22a8-d33e7393:
+            name: VIP_VV_Seasonal_Fern_003_Summer
+          9b9d22a8-d33e73a1:
+            name: VIP_VV_Seasonal_Fern_003_Winter
+          9b9d22a8-d33e73d8:
+            name: VIP_VV_Seasonal_Fern_004_Winter
+          9b9d22a8-d33e7450:
+            name: VIP_VV_Seasonal_Fern_006_Winter
         Props/VIP_Props_VV_Genets_Seasonal.dat:
-          1a3f5f3a:
+          348527d8-1a3f5f3a:
             model: 38d10a89
             name: VIP_RP-FL_VV_Genets 02
-          333e7bd9:
-            name: VIP_VV_Seasonal_Genets_001_Winter
-          3a728e58:
+          348527d8-3a728e58:
             model: fa6d718a
             name: VIP_RP-FL_VV_Genets 03 - Hivers
-          533e7a6e:
-            name: VIP_VV_Seasonal_Genets_001_Summer
-          733e7bfb:
-            name: VIP_VV_Seasonal_Genets_002_Winter
-          7a62af25:
-            model: fb90f21c
-            name: VIP_RP-FL_VV_Genets 01 - Hivers
-          933e7be8:
-            name: VIP_VV_Seasonal_Genets_002_Summer
-          933e7c35:
-            name: VIP_VV_Seasonal_Genets_003_Winter
-          b33e7c1f:
-            name: VIP_VV_Seasonal_Genets_003_Summer
-          ba3f5f23:
+          348527d8-ba3f5f23:
             model: 78d109af
             name: VIP_RP-FL_VV_Genets 01
-          ba728e76:
+          348527d8-ba728e76:
             model: ba6d639f
             name: VIP_RP-FL_VV_Genets 02 - Hivers
-          fa728e8c:
+          348527d8-fa728e8c:
             model: 5a6d6f3b
             name: VIP_RP-FL_VV_Genets 03
+          99bfc843-7a62af25:
+            model: fb90f21c
+            name: VIP_RP-FL_VV_Genets 01 - Hivers
+          9b9d22a8-333e7bd9:
+            name: VIP_VV_Seasonal_Genets_001_Winter
+          9b9d22a8-533e7a6e:
+            name: VIP_VV_Seasonal_Genets_001_Summer
+          9b9d22a8-733e7bfb:
+            name: VIP_VV_Seasonal_Genets_002_Winter
+          9b9d22a8-933e7be8:
+            name: VIP_VV_Seasonal_Genets_002_Summer
+          9b9d22a8-933e7c35:
+            name: VIP_VV_Seasonal_Genets_003_Winter
+          9b9d22a8-b33e7c1f:
+            name: VIP_VV_Seasonal_Genets_003_Summer
         Props/VIP_Props_VV_Herons.dat:
-          1a6eb1d0:
+          99bfc843-1a6eb1d0:
             model: 7a6abadc
             name: VIP_RP_VV_Heron 001 HD
-          3a6eb1e2:
+          99bfc843-3a6eb1e2:
             model: fa6abc98
             name: VIP_RP_VV_Heron 002 HD
         Props/VIP_Props_VV_Perso_Baigneurs.dat:
-          37ecdae8:
+          757ad7ca-37ecdae8:
             model: 9a7c121c
             name: VIP_RP_VV_Perso - Baigneur allonge 02 HD
-          58d608dd:
+          757ad7ca-58d608dd:
             model: 19db5e62
             name: VIP_RP_VV_Perso - Baigneuse allongee 01 HD
-          77ecf1e1:
+          757ad7ca-77ecf1e1:
             model: 3a7c2175
             name: VIP_RP_VV_Perso - Baigneur debout 01 HD
-          97ecdab1:
+          757ad7ca-97ecdab1:
             model: ba7c13c5
             name: VIP_RP_VV_Perso - Baigneur allonge 01 HD
-          97f4ea05:
+          757ad7ca-97f4ea05:
             model: ba81543d
             name: VIP_RP_VV_Perso - Baigneur Assis 01 HD
         Props/VIP_Props_VV_Perso_Pecheurs.dat:
-          d7ecdad0:
+          757ad7ca-d7ecdad0:
             model: ba7aea71
             name: VIP_RP_VV_Perso - Pecheur debout 01 HD
-          d8528780:
+          757ad7ca-d8528780:
             model: '593548e4'
             name: VIP_RP_VV_Perso - Pecheur debout 03 HD
-          f7ecdb02:
+          757ad7ca-f7ecdb02:
             model: 3a7ae9f8
             name: VIP_RP_VV_Perso - Pecheur assis 01 HD
         Props/VIP_Props_VV_Pigeons.dat:
-          533f1244:
+          9b9d22a8-533f1244:
             family: 5f85f1bb
             model: d89149a4
             name: VIP_VV_Pigeon_002
-          533f1249:
+          9b9d22a8-533f1249:
             family: 5f85f1bb
             model: 389149d6
             name: VIP_VV_Pigeon_002_45_HD
-          533f1252:
+          9b9d22a8-533f1252:
             family: 5f85f1bb
             model: f8914ccc
             name: VIP_VV_Pigeon_003_45_HD
-          933f123f:
+          9b9d22a8-933f123f:
             family: 5f85f1bb
             model: d89148e1
             name: VIP_VV_Pigeon_001_45_HD
-          b33f124d:
+          9b9d22a8-b33f124d:
             family: 5f85f1bb
             model: 58914c89
             name: VIP_VV_Pigeon_003
-          d33f1239:
+          9b9d22a8-d33f1239:
             family: 5f85f1bb
             model: '38899977'
             name: VIP_VV_Pigeon_001
         Props/VIP_Props_VV_Ravens.dat:
-          333f1315:
+          9b9d22a8-333f1315:
             family: 5f85f1bc
             model: 190e856c
             name: VIP_VV_Raven_001
-          333f1322:
+          9b9d22a8-333f1322:
             family: 5f85f1bc
             model: 190e860a
             name: VIP_VV_Raven_001_-225
-          533f132d:
+          9b9d22a8-533f132d:
             family: 5f85f1bc
             model: d90e85cb
             name: VIP_VV_Raven_001_225
-          733f134f:
+          9b9d22a8-733f134f:
             family: 5f85f1bc
             model: 390e881e
             name: VIP_VV_Raven_003
-          733f1358:
+          9b9d22a8-733f1358:
             family: 5f85f1bc
             model: f90e885b
             name: VIP_VV_Raven_003_-225
-          733f1361:
+          9b9d22a8-733f1361:
             family: 5f85f1bc
             model: 990e888c
             name: VIP_VV_Raven_003_225
-          733f136a:
+          9b9d22a8-733f136a:
             family: 5f85f1bc
             model: 590e88d3
             name: VIP_VV_Raven_003_45
-          933f1338:
+          9b9d22a8-933f1338:
             family: 5f85f1bc
             model: b90e86c3
             name: VIP_VV_Raven_002
-          933f1340:
+          9b9d22a8-933f1340:
             family: 5f85f1bc
             model: '190e8914'
             name: VIP_VV_Raven_002_45
         Props/VIP_Props_VV_Various_Trees_Seasonal.dat:
-          133f8aca:
+          9b9d22a8-133f8aca:
             model: '99794909'
             name: VIP_RP-FL_VV_Tree_001_Summer
-          133f8ad1:
+          9b9d22a8-133f8ad1:
             model: d9799604
             name: VIP_RP-FL_VV_Tree_001_Winter
-          133f8b4f:
+          9b9d22a8-133f8b4f:
             model: 39782f1b
             name: VIP_RP-FL_VV_Tree_002_Cherry_Tree_Winter
-          133f8b63:
+          9b9d22a8-133f8b63:
             model: 79787d84
             name: VIP_RP-FL_VV_Tree_003_Summer
-          133f8b93:
+          9b9d22a8-133f8b93:
             model: f9745833
             name: VIP_RP-FL_VV_Tree_004_Winter
-          133f8bbb:
+          9b9d22a8-133f8bbb:
             model: 78c76f36
             name: VIP_RP-FL_VV_Tree_006_Spring
-          '13402935':
+          9b9d22a8-13402935:
             name: VIP_VV_Seasonal_Tree_002_Cherry_Tree_Summer
-          1340296f:
+          9b9d22a8-1340296f:
             name: VIP_VV_Seasonal_Tree_002_Cherry_Tree_Winter_Snow
-          13402ad0:
+          9b9d22a8-13402ad0:
             name: VIP_VV_Seasonal_Tree_005_Populus_Winter_Snow
-          13402aed:
+          9b9d22a8-13402aed:
             name: VIP_VV_Seasonal_Tree_006_Autumn
-          13402b0c:
+          9b9d22a8-13402b0c:
             name: VIP_VV_Seasonal_Tree_006_Winter_Snow
-          333f8b48:
+          9b9d22a8-333f8b48:
             model: 5978136f
             name: VIP_RP-FL_VV_Tree_002_Cherry_Tree_Summer
-          333f8b6f:
+          9b9d22a8-333f8b6f:
             model: bb3f0f3e
             name: VIP_RP-FL_VV_Tree_003_Winter_Snow
-          333f8b90:
+          9b9d22a8-333f8b90:
             model: 3b3f2a22
             name: VIP_RP-FL_VV_Tree_004_Winter_Snow
-          333f8bc0:
+          9b9d22a8-333f8bc0:
             model: f8c74a82
             name: VIP_RP-FL_VV_Tree_006_Summer
-          3340286a:
+          9b9d22a8-3340286a:
             name: VIP_VV_Seasonal_Tree_001_Spring
-          3340292b:
+          9b9d22a8-3340292b:
             name: VIP_VV_Seasonal_Tree_002_Cherry_Tree_Spring
-          33402b63:
+          9b9d22a8-33402b63:
             name: VIP_VV_Seasonal_Tree_007_Spring
-          33402b7b:
+          9b9d22a8-33402b7b:
             name: VIP_VV_Seasonal_Tree_007_Winter_Snow
-          533f8ac2:
+          9b9d22a8-533f8ac2:
             model: d979699c
             name: VIP_RP-FL_VV_Tree_001_Autumn
-          533f8b44:
+          9b9d22a8-533f8b44:
             model: 9977155a
             name: VIP_RP-FL_VV_Tree_002_Cherry_Tree_Spring
-          533f8b73:
+          9b9d22a8-533f8b73:
             model: 79745a73
             name: VIP_RP-FL_VV_Tree_004_Autumn
-          533f8b8b:
+          9b9d22a8-533f8b8b:
             model: 59734b07
             name: VIP_RP-FL_VV_Tree_004_Summer
-          533f8ba3:
+          9b9d22a8-533f8ba3:
             model: 3975c1ce
             name: VIP_RP-FL_VV_Tree_005_Populus_Autumn
-          533f8bc5:
+          9b9d22a8-533f8bc5:
             model: b8c77e21
             name: VIP_RP-FL_VV_Tree_006_Winter
-          533f8be4:
+          9b9d22a8-533f8be4:
             model: 7a38cedd
             name: VIP_RP-FL_VV_Tree_007_Winter_Snow
-          534029b1:
+          9b9d22a8-534029b1:
             name: VIP_VV_Seasonal_Tree_003_Winter
-          53402a6e:
+          9b9d22a8-53402a6e:
             name: VIP_VV_Seasonal_Tree_004_Winter
-          733f8ba8:
+          9b9d22a8-733f8ba8:
             model: f975baa0
             name: VIP_RP-FL_VV_Tree_005_Populus_Summer
-          733f8bc9:
+          9b9d22a8-733f8bc9:
             model: db8fab97
             name: VIP_RP-FL_VV_Tree_006_Winter_Snow
-          7340287e:
+          9b9d22a8-7340287e:
             name: VIP_VV_Seasonal_Tree_001_Winter
-          '73402923':
+          9b9d22a8-73402923:
             name: VIP_VV_Seasonal_Tree_002_Cherry_Tree_Autumn
-          '73402982':
+          9b9d22a8-73402982:
             name: VIP_VV_Seasonal_Tree_003_Autumn
-          '73402988':
+          9b9d22a8-73402988:
             name: VIP_VV_Seasonal_Tree_003_Spring
-          73402a76:
+          9b9d22a8-73402a76:
             name: VIP_VV_Seasonal_Tree_004_Winter_Snow
-          73402ac5:
+          9b9d22a8-73402ac5:
             name: VIP_VV_Seasonal_Tree_005_Populus_Summer
-          73402acb:
+          9b9d22a8-73402acb:
             name: VIP_VV_Seasonal_Tree_005_Populus_Winter
-          73402afc:
+          9b9d22a8-73402afc:
             name: VIP_VV_Seasonal_Tree_006_Summer
-          73402b5c:
+          9b9d22a8-73402b5c:
             name: VIP_VV_Seasonal_Tree_007_Autumn
-          933f8ac5:
+          9b9d22a8-933f8ac5:
             model: f979929a
             name: VIP_RP-FL_VV_Tree_001_Spring
-          933f8b59:
+          9b9d22a8-933f8b59:
             model: d97852b1
             name: VIP_RP-FL_VV_Tree_003_Autumn
-          933f8b5e:
+          9b9d22a8-933f8b5e:
             model: 997857b4
             name: VIP_RP-FL_VV_Tree_003_Spring
-          933f8b79:
+          9b9d22a8-933f8b79:
             model: 38513cdf
             name: VIP_RP-FL_VV_Tree_004_Spring
-          933f8bb0:
+          9b9d22a8-933f8bb0:
             model: bb8f9fd5
             name: VIP_RP-FL_VV_Tree_005_Populus_Winter_Snow
-          933f8bdc:
+          9b9d22a8-933f8bdc:
             model: da1be726
             name: VIP_RP-FL_VV_Tree_007_Winter
-          9340284d:
+          9b9d22a8-9340284d:
             name: VIP_VV_Seasonal_Tree_001_Autumn
-          '93402872':
+          9b9d22a8-93402872:
             name: VIP_VV_Seasonal_Tree_001_Summer
-          93402a31:
+          9b9d22a8-93402a31:
             model: bb3f0f3e
             name: VIP_VV_Seasonal_Tree_003_Winter_Snow
-          93402a60:
+          9b9d22a8-93402a60:
             name: VIP_VV_Seasonal_Tree_004_Spring
-          93402b71:
+          9b9d22a8-93402b71:
             name: VIP_VV_Seasonal_Tree_007_Winter
-          b33f8ad6:
+          9b9d22a8-b33f8ad6:
             model: db3efa4b
             name: VIP_RP-FL_VV_Tree_001_Winter_Snow
-          b33f8b40:
+          9b9d22a8-b33f8b40:
             model: d97af5d5
             name: VIP_RP-FL_VV_Tree_002_Cherry_Tree_Autumn
-          b33f8b6b:
+          9b9d22a8-b33f8b6b:
             model: '19789865'
             name: VIP_RP-FL_VV_Tree_003_Winter
-          b33f8bce:
+          9b9d22a8-b33f8bce:
             model: 1a1bd9c1
             name: VIP_RP-FL_VV_Tree_007_Autumn
-          b33f8bd3:
+          9b9d22a8-b33f8bd3:
             model: ba1be0d6
             name: VIP_RP-FL_VV_Tree_007_Spring
-          b3402944:
+          9b9d22a8-b3402944:
             name: VIP_VV_Seasonal_Tree_002_Cherry_Tree_Winter
-          b3402a57:
+          9b9d22a8-b3402a57:
             name: VIP_VV_Seasonal_Tree_004_Autumn
-          b3402a68:
+          9b9d22a8-b3402a68:
             name: VIP_VV_Seasonal_Tree_004_Summer
-          b3402b05:
+          9b9d22a8-b3402b05:
             name: VIP_VV_Seasonal_Tree_006_Winter
-          d33f8b54:
+          9b9d22a8-d33f8b54:
             model: 1b3f1a62
             name: VIP_RP-FL_VV_Tree_002_Cherry_Tree_Winter_Snow
-          d33f8bad:
+          9b9d22a8-d33f8bad:
             model: d975d7d4
             name: VIP_RP-FL_VV_Tree_005_Populus_Winter
-          d33f8bb6:
+          9b9d22a8-d33f8bb6:
             model: f8c77245
             name: VIP_RP-FL_VV_Tree_006_Autumn
-          d33f8bd8:
+          9b9d22a8-d33f8bd8:
             model: fa1be3be
             name: VIP_RP-FL_VV_Tree_007_Summer
-          d34029a0:
+          9b9d22a8-d34029a0:
             name: VIP_VV_Seasonal_Tree_003_Summer
-          d3402a7e:
+          9b9d22a8-d3402a7e:
             name: VIP_VV_Seasonal_Tree_001_Winter_Snow
-          d3402abd:
+          9b9d22a8-d3402abd:
             name: VIP_VV_Seasonal_Tree_005_Populus_Autumn
-          d3402af5:
+          9b9d22a8-d3402af5:
             name: VIP_VV_Seasonal_Tree_006_Spring
-          d3402b69:
+          9b9d22a8-d3402b69:
             name: VIP_VV_Seasonal_Tree_007_Summer
       release: 2024-12-03T16:03:49.352Z
       version: 2.0.0
@@ -1938,16 +1939,17 @@ vip/tree-props:
     default:
       assets:
         - id: simtropolis/33702-vip-trees-as-props
+          include: ''
       buildings:
         Testlot VIP Orange Trees_ec1d2367.SC4Lot:
-          ec1d2367:
+          07bddf1c-ec1d2367:
             bulldoze: 1
             cost: 1
             flamability: 10
             label: Testlot VIP Orange Trees
             menu: Parks
             name: Testlot VIP Orange Trees
-      lastGenerated: 2025-01-08T13:07:32.834Z
+      lastGenerated: 2025-01-10T08:00:40.440Z
       lastModified: 2020-07-17T05:25:00.000Z
       lots:
         Testlot VIP Orange Trees_ec1d2367.SC4Lot:
@@ -1956,279 +1958,279 @@ vip/tree-props:
             default: false
             name: Testlot VIP Orange Trees
             props:
-              - a490f7e2
-              - d27caea8
-              - 847f682f
-              - 134d17fa
-              - 86fcc11a
-              - 32be80f4
-              - 1e150bbc
-              - 9dce103f
-              - 2676c11a
-              - e1b5e007
-              - 8cebeae7
-              - 3010fee6
-              - d7813195
-              - 8b0104bf
-              - ca8bdb74
-              - 839f3f5f
-              - ad915296
-              - 4bd91623
-              - '11478e51'
-              - 3419023c
-              - c06b8c7b
-              - dba7d312
-              - 61c976dc
-              - 96a707d5
-              - 2a67deae
-              - ae582c0a
-              - 9020633f
-              - c05bcebc
-              - 56b3847b
-              - d32a5a31
-              - 5eb92dee
-              - 4d36549a
-              - 7e89319a
-              - '9e580652'
-              - 31083bf0
-              - 42fd5a58
-              - 0b0b8e4a
-              - 989fbc98
-              - 78464ee5
-              - 4ad90df2
-              - d9ed36b2
-              - 688b78eb
-              - 5bf673ac
-              - '87570384'
-              - bac97696
-              - dac97670
-              - 7ac97662
-              - bac8ed81
-              - 1ac8e9ec
-              - 9291bc7c
-              - c8cb5586
-              - 7d9a283a
-              - 9f13e986
-              - 3541bffc
-              - 10cecf58
-              - d59813c7
-              - d3edfff3
-              - 228825b7
               - '02516558'
-              - 856e1d94
-              - 5c99c2ad
-              - 82c06641
               - 09fb8dbf
+              - 0aa6e93b
+              - 0b0b8e4a
+              - 0b4acee9
+              - 10cecf58
+              - '11478e51'
+              - 134d17fa
+              - 1ac8e9ec
+              - 1e150bbc
               - 1e92ec84
+              - 1fcbbb64
+              - 228825b7
+              - 2676c11a
+              - 26c9f2bd
+              - 2a67deae
+              - 3010fee6
+              - 31083bf0
+              - 32be80f4
+              - 3419023c
+              - 3541bffc
+              - 3b2ba4a3
+              - 3c3aef64
+              - 42fd5a58
+              - 4627b061
+              - 4ad90df2
+              - 4bd91623
+              - 4d36549a
               - 55fc9759
-              - 87f25b8d
+              - 56b3847b
+              - 5bf673ac
+              - 5c99c2ad
+              - 5eb92dee
+              - 61c976dc
+              - '67176245'
+              - 688b78eb
               - 6e44eb24
               - 757a84b7
-              - f8445f57
-              - 3b2ba4a3
-              - 0aa6e93b
-              - 1fcbbb64
-              - 901b317a
+              - 78464ee5
+              - 7ac97662
+              - 7d9a283a
+              - 7e89319a
+              - 82c06641
+              - 839f3f5f
+              - 847f682f
+              - 856e1d94
+              - 86fcc11a
+              - '87570384'
               - '87713216'
-              - 26c9f2bd
-              - 3c3aef64
-              - '67176245'
-              - ff7cf43a
-              - 0b4acee9
+              - 87f25b8d
+              - 8b0104bf
+              - 8cebeae7
+              - 901b317a
+              - 9020633f
+              - 9291bc7c
               - 946861d1
-              - 4627b061
+              - 96a707d5
+              - 989fbc98
+              - 9dce103f
+              - '9e580652'
+              - 9f13e986
+              - a490f7e2
+              - ad915296
+              - ae582c0a
+              - bac8ed81
+              - bac97696
+              - c05bcebc
+              - c06b8c7b
+              - c8cb5586
+              - ca8bdb74
+              - d27caea8
+              - d32a5a31
+              - d3edfff3
+              - d59813c7
+              - d7813195
+              - d9ed36b2
+              - dac97670
+              - dba7d312
+              - e1b5e007
+              - f8445f57
+              - ff7cf43a
             size: 8x7
             textures:
               - 251c0000
       props:
         Orange_Aesculus.dat:
-          0b0b8e4a:
+          10405872-0b0b8e4a:
             name: Orange_Aesculus_B_Winter
-          2a67deae:
+          10405872-2a67deae:
             name: Orange_Aesculus_E_Winter
-          31083bf0:
+          10405872-31083bf0:
             name: Orange_Aesculus_C_Fall
-          42fd5a58:
+          10405872-42fd5a58:
             model: fbd1643f
             name: Orange_Aesculus_C_Evergreen
-          4ad90df2:
+          10405872-4ad90df2:
             model: dbd15dd3
             name: Orange_Aesculus_B_Evergreen
-          4d36549a:
+          10405872-4d36549a:
             model: fbd07936
             name: Orange_Aesculus_D_Evergreen
-          56b3847b:
+          10405872-56b3847b:
             name: Orange_Aesculus_D_Winter
-          5bf673ac:
+          10405872-5bf673ac:
             name: Orange_Aesculus_A_Fall
-          5eb92dee:
+          10405872-5eb92dee:
             name: Orange_Aesculus_D_Fall
-          61c976dc:
+          10405872-61c976dc:
             name: Orange_Aesculus_F_Fall
-          688b78eb:
+          10405872-688b78eb:
             name: Orange_Aesculus_A_Summer
-          78464ee5:
+          10405872-78464ee5:
             name: Orange_Aesculus_B_Fall
-          7e89319a:
+          10405872-7e89319a:
             name: Orange_Aesculus_C_Winter
-          '87570384':
+          10405872-87570384:
             model: 7bd15486
             name: Orange_Aesculus_A_Evergreen
-          9020633f:
+          10405872-9020633f:
             name: Orange_Aesculus_E_Fall
-          96a707d5:
+          10405872-96a707d5:
             model: bbd11d02
             name: Orange_Aesculus_F_Evergreen
-          989fbc98:
+          10405872-989fbc98:
             name: Orange_Aesculus_B_Summer
-          '9e580652':
+          10405872-9e580652:
             name: Orange_Aesculus_C_Summer
-          ae582c0a:
+          10405872-ae582c0a:
             name: Orange_Aesculus_E_Summer
-          c05bcebc:
+          10405872-c05bcebc:
             model: bbd0f803
             name: Orange_Aesculus_E_Evergreen
-          c06b8c7b:
+          10405872-c06b8c7b:
             name: Orange_Aesculus_F_Winter
-          d32a5a31:
+          10405872-d32a5a31:
             name: Orange_Aesculus_D_Summer
-          d9ed36b2:
+          10405872-d9ed36b2:
             name: Orange_Aesculus_A_Winter
-          dba7d312:
+          10405872-dba7d312:
             name: Orange_Aesculus_F_Summer
         Orange_Fagus.dat:
-          '11478e51':
+          10405872-11478e51:
             name: Orange_Fagus_A_Fall
-          134d17fa:
+          10405872-134d17fa:
             name: Orange_Fagus_D_Fall
-          1e150bbc:
+          10405872-1e150bbc:
             name: Orange_Fagus_E_Summer
-          2676c11a:
+          10405872-2676c11a:
             name: Orange_Fagus_C_Winter
-          3010fee6:
+          10405872-3010fee6:
             model: 1bd914e7
             name: Orange_Fagus_C_Evergreen
-          32be80f4:
+          10405872-32be80f4:
             name: Orange_Fagus_E_Winter
-          3419023c:
+          10405872-3419023c:
             model: 5bd95aea
             name: Orange_Fagus_A_Evergreen
-          4bd91623:
+          10405872-4bd91623:
             name: Orange_Fagus_A_Summer
-          839f3f5f:
+          10405872-839f3f5f:
             model: fbd9521d
             name: Orange_Fagus_B_Evergreen
-          847f682f:
+          10405872-847f682f:
             name: Orange_Fagus_D_Summer
-          86fcc11a:
+          10405872-86fcc11a:
             model: 7bd85213
             name: Orange_Fagus_E_Evergreen
-          8b0104bf:
+          10405872-8b0104bf:
             name: Orange_Fagus_B_Summer
-          8cebeae7:
+          10405872-8cebeae7:
             name: Orange_Fagus_C_Fall
-          9dce103f:
+          10405872-9dce103f:
             name: Orange_Fagus_E_Fall
-          a490f7e2:
+          10405872-a490f7e2:
             model: 1bd8643a
             name: Orange_Fagus_D_Evergreen
-          ad915296:
+          10405872-ad915296:
             name: Orange_Fagus_A_Winter
-          ca8bdb74:
+          10405872-ca8bdb74:
             name: Orange_Fagus_B_Fall
-          d27caea8:
+          10405872-d27caea8:
             name: Orange_Fagus_D_Winter
-          d7813195:
+          10405872-d7813195:
             name: Orange_Fagus_B_Winter
-          e1b5e007:
+          10405872-e1b5e007:
             name: Orange_Fagus_C_Summer
         Orange_PinusNigra.dat:
-          1ac8e9ec:
+          d60d2608-1ac8e9ec:
             model: 1a4ba992
             name: Or_TSC_FL_PinusNigra01
-          7ac97662:
+          d60d2608-7ac97662:
             model: 3a4c2724
             name: Or_TSC_FL_PinusNigra03
-          bac8ed81:
+          d60d2608-bac8ed81:
             model: ba4bacc6
             name: Or_TSC_FL_PinusNigra02
-          bac97696:
+          d60d2608-bac97696:
             model: 1a4c355d
             name: Or_TSC_FL_PinusNigra05
-          dac97670:
+          d60d2608-dac97670:
             model: 9a4c327e
             name: Or_TSC_FL_PinusNigra04
         VIPTrees_Props.dat:
-          '02516558':
+          10405872-02516558:
             name: VIP_Tree6 Summer
-          09fb8dbf:
+          10405872-09fb8dbf:
             name: VIP_Tree5 Summer
-          0aa6e93b:
+          10405872-0aa6e93b:
             name: VIP_Tree3 Summer
-          0b4acee9:
+          10405872-0b4acee9:
             name: VIP_Tree1 Summer
-          10cecf58:
+          10405872-10cecf58:
             name: VIP_Tree7 Summer
-          1e92ec84:
+          10405872-1e92ec84:
             name: VIP_Tree5 Fall
-          1fcbbb64:
+          10405872-1fcbbb64:
             name: VIP_Tree3 Fall
-          228825b7:
+          10405872-228825b7:
             name: VIP_Tree6 Winter
-          26c9f2bd:
+          10405872-26c9f2bd:
             name: VIP_Tree2 Summer
-          3541bffc:
+          10405872-3541bffc:
             name: VIP_Tree7 Winter
-          3b2ba4a3:
+          10405872-3b2ba4a3:
             name: VIP_Tree3 Winter
-          3c3aef64:
+          10405872-3c3aef64:
             name: VIP_Tree2 Fall
-          4627b061:
+          10405872-4627b061:
             model: f8c74a82
             name: VIP_Tree1 Evergreen
-          55fc9759:
+          10405872-55fc9759:
             model: 59734b07
             name: VIP_Tree5 Evergreen
-          5c99c2ad:
+          10405872-5c99c2ad:
             model: 79787d84
             name: VIP_Tree6 Evergreen
-          '67176245':
+          10405872-67176245:
             model: 5978136f
             name: VIP_Tree2 Evergreen
-          6e44eb24:
+          10405872-6e44eb24:
             name: VIP_Tree4 Summer
-          757a84b7:
+          10405872-757a84b7:
             name: VIP_Tree4 Fall
-          7d9a283a:
+          10405872-7d9a283a:
             name: VIP_Cherry Summer
-          82c06641:
+          10405872-82c06641:
             name: VIP_Tree5 Winter
-          856e1d94:
+          10405872-856e1d94:
             name: VIP_Tree6 Fall
-          '87713216':
+          10405872-87713216:
             name: VIP_Tree2 Winter
-          87f25b8d:
+          10405872-87f25b8d:
             name: VIP_Tree4 Winter
-          901b317a:
+          10405872-901b317a:
             model: '99794909'
             name: VIP_Tree3 Evergreen
-          9291bc7c:
+          10405872-9291bc7c:
             model: 5978136f
             name: VIP_Cherry Evergreen
-          946861d1:
+          10405872-946861d1:
             name: VIP_Tree1 Fall
-          9f13e986:
+          10405872-9f13e986:
             name: VIP_Cherry Spring
-          c8cb5586:
+          10405872-c8cb5586:
             name: VIP_Cherry Winter
-          d3edfff3:
+          10405872-d3edfff3:
             model: f975baa0
             name: VIP_Tree7 Evergreen
-          d59813c7:
+          10405872-d59813c7:
             name: VIP_Tree7 Fall
-          f8445f57:
+          10405872-f8445f57:
             model: fa1be3be
             name: VIP_Tree4 Evergreen
-          ff7cf43a:
+          10405872-ff7cf43a:
             name: VIP_Tree1 Winter
       version: 1.0.0

@@ -24,7 +24,7 @@ dead-end/dutch-bicyclepaths:
     default:
       assets:
         - id: simtropolis/33761-dutch-bicyclepaths
-      lastGenerated: 2025-01-08T13:07:31.618Z
+      lastGenerated: 2025-01-10T08:12:50.873Z
       lastModified: 2020-08-13T16:07:06.000Z
       release: 2024-12-17T16:13:42.332Z
       textures:
@@ -72,7 +72,7 @@ dead-end/grimstad-pharmacy:
         - id: simtropolis/36457-grimstad-pharmacy
       buildings:
         Grimstad Pharmacy.SC4Lot:
-          347423c9:
+          50508c53-347423c9:
             bulldoze: 30
             categories: health
             cost: 250
@@ -87,7 +87,7 @@ dead-end/grimstad-pharmacy:
             name: Grimstad Pharmacy
             power: 1
             submenu: Health/Small
-      lastGenerated: 2025-01-08T13:07:31.540Z
+      lastGenerated: 2025-01-10T08:12:50.817Z
       lastModified: 2024-09-22T07:43:56.000Z
       lots:
         Grimstad Pharmacy.SC4Lot:
@@ -96,11 +96,11 @@ dead-end/grimstad-pharmacy:
             name: Grimstad Pharmacy
             props:
               - 109f9dcc
-              - dd37fbc0
+              - 1e390f91
               - 5ee1e91d
               - 9ee1e90e
               - 9ee1e92d
-              - 1e390f91
+              - dd37fbc0
             size: 1x1
             textures:
               - '251e0000'
@@ -131,7 +131,7 @@ dead-end/hisingen-apartments:
         - id: simtropolis/36568-hisingen-apartments
       buildings:
         Hisingen Apartments-0x6534284a-0x50508c53-0x54c1312c.SC4Desc:
-          54c1312c:
+          50508c53-54c1312c:
             bulldoze: 184
             capacity:
               r$: 41
@@ -148,7 +148,7 @@ dead-end/hisingen-apartments:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 591
-      lastGenerated: 2025-01-08T13:07:30.338Z
+      lastGenerated: 2025-01-10T08:12:49.837Z
       lastModified: 2024-11-24T08:46:44.000Z
       lots:
         R$$2_3x2_Hisingen Apartments_04c27834.SC4Lot:
@@ -157,28 +157,28 @@ dead-end/hisingen-apartments:
             density: all
             name: R$$2_3x2_Hisingen Apartments
             props:
-              - 8b90e718
               - 109f9dcc
-              - 8cfbb144
+              - 1e9a0000
+              - 2a8c0000
+              - 33b0363a
+              - 4cdd25f1
               - 5f85b910
               - 5f85b911
-              - 93b035de
-              - 33b0363a
-              - 2a8c0000
-              - 1e9a0000
-              - ccdd25cc
+              - 8b90e718
               - 8cdd25e1
-              - 4cdd25f1
+              - 8cfbb144
+              - 93b035de
               - a00005f9
+              - ccdd25cc
             size: 3x2
             stage: 2
             textures:
               - 25f40000
-              - f85d47da
-              - f85d47d0
-              - f85d478a
               - f85d4785
+              - f85d478a
+              - f85d47d0
               - f85d47d5
+              - f85d47da
       release: 2024-12-17T16:13:39.852Z
       version: 1.0.0
 
@@ -211,7 +211,7 @@ dead-end/hjorthagen-school-relot:
         - id: simtropolis/36540-hjorthagen-school-relot
       buildings:
         DE_PLOP_5x4_hjorthagens skola_e4acd9d0.SC4Lot:
-          e4acd9d0:
+          1cd54632-e4acd9d0:
             bulldoze: 30
             categories: education
             cost: 300
@@ -226,7 +226,7 @@ dead-end/hjorthagen-school-relot:
             power: 2
             submenu: Education/Elementary
             water: 5
-      lastGenerated: 2025-01-08T13:07:31.547Z
+      lastGenerated: 2025-01-10T08:12:50.822Z
       lastModified: 2024-11-06T17:35:43.000Z
       lots:
         DE_PLOP_5x4_hjorthagens skola_e4acd9d0.SC4Lot:
@@ -234,39 +234,39 @@ dead-end/hjorthagen-school-relot:
             building: e4acd9d0
             name: DE_PLOP_5x4_hjorthagens skola
             props:
-              - 1f0b0000
-              - dd37fbe8
-              - 8cdd25e1
-              - ccdd25cc
-              - eebe9b3a
-              - a00005f5
-              - 3f4b6857
-              - 33b0363a
+              - 034ead8c
               - 1e9a0000
+              - 1f0b0000
+              - 234ead27
               - 2a8c0000
+              - 33b0363a
+              - 3f4b6857
               - 5f85b910
               - 5f85b911
-              - 034ead8c
-              - 234ead27
-              - a34eacba
               - 7e06ee6c
+              - 8cdd25e1
+              - a00005f5
+              - a34eacba
+              - ccdd25cc
+              - dd37fbe8
+              - eebe9b3a
             size: 5x4
             textures:
-              - 258f0000
               - 251c0000
-              - 25af0000
               - 258c0000
-              - f8a04b30
-              - f8a043ba
-              - f8a04590
-              - f8a04095
-              - f8a0447a
+              - 258f0000
               - 25ae0000
-              - f8a04550
-              - f8a043d0
-              - f8a04055
-              - f8a045e0
+              - 25af0000
               - f5f84300
+              - f8a04055
+              - f8a04095
+              - f8a043ba
+              - f8a043d0
+              - f8a0447a
+              - f8a04550
+              - f8a04590
+              - f8a045e0
+              - f8a04b30
       release: 2024-12-17T16:13:42.195Z
       version: 1.0.0
 
@@ -304,7 +304,7 @@ dead-end/konsum:
         - id: simtropolis/36561-konsum
       buildings:
         PLOP_2x2_DE_konsumstorre_44b3469c.SC4Lot:
-          44b3469c:
+          50508c53-44b3469c:
             bulldoze: 157
             capacity:
               cs$: 37
@@ -323,7 +323,7 @@ dead-end/konsum:
             waterPollution: 1
             waterPollutionRadius: 5
             worth: 283
-      lastGenerated: 2025-01-08T13:07:31.339Z
+      lastGenerated: 2025-01-10T08:12:50.616Z
       lastModified: 2024-11-16T14:10:26.000Z
       lots:
         PLOP_2x2_DE_konsumstorre_44b3469c.SC4Lot:
@@ -331,27 +331,27 @@ dead-end/konsum:
             building: 44b3469c
             name: PLOP_2x2_DE_konsumstorre
             props:
-              - dd37fbc0
               - 109f9dcc
-              - f09f9e0c
-              - 8cfbb144
-              - 51b84097
-              - 3def90f2
-              - 5f85b911
               - 1e9a0000
+              - 3def90f2
+              - 51b84097
+              - 5f85b911
+              - 8cfbb144
               - a00005f5
-              - dd37fbe8
               - da02d424
+              - dd37fbc0
+              - dd37fbe8
+              - f09f9e0c
             size: 2x2
             textures:
-              - 258f0000
               - 251c0000
-              - f85d42da
-              - f8a05310
               - 258c0000
-              - f8a04410
+              - 258f0000
               - 6112c000
+              - f85d42da
+              - f8a04410
               - f8a052d5
+              - f8a05310
               - f8a06025
       release: 2024-12-17T16:13:42.085Z
       version: 1.0.0
@@ -384,7 +384,7 @@ dead-end/lapinkirkko-relot:
         - id: simtropolis/36625-lapinkirkko-relot
       buildings:
         PLOP_4x5_DE_TG_Lapinkirkko_24d5c22b.SC4Lot:
-          24d5c22b:
+          50508c53-24d5c22b:
             bulldoze: 9440
             categories: education
             cost: 8650
@@ -405,7 +405,7 @@ dead-end/lapinkirkko-relot:
             water: 34
             waterPollution: 3
             waterPollutionRadius: 4
-      lastGenerated: 2025-01-08T13:07:31.590Z
+      lastGenerated: 2025-01-10T08:12:50.852Z
       lastModified: 2024-12-24T09:43:29.000Z
       lots:
         PLOP_4x5_DE_TG_Lapinkirkko_24d5c22b.SC4Lot:
@@ -413,32 +413,32 @@ dead-end/lapinkirkko-relot:
             building: 24d5c22b
             name: PLOP_4x5_DE_TG_Lapinkirkko
             props:
-              - c77d3042
               - 277fcd91
-              - 677a5cce
-              - 477d3081
-              - 7e06ee6c
-              - '29780000'
-              - 3def90f2
-              - '297e0000'
-              - dd37fbc0
               - '29730000'
-              - ecdd2644
-              - ecdd2601
-              - e79c1f4c
-              - da40a0eb
-              - ccdd25cc
-              - 8cdd25e1
-              - 3f4b6857
+              - '29780000'
+              - '297e0000'
               - 33b0363a
+              - 3def90f2
+              - 3f4b6857
+              - 477d3081
+              - 677a5cce
+              - 7e06ee6c
+              - 8cdd25e1
+              - c77d3042
+              - ccdd25cc
+              - da40a0eb
+              - dd37fbc0
+              - e79c1f4c
+              - ecdd2601
+              - ecdd2644
             size: 4x5
             textures:
               - 251c0000
-              - f2144750
-              - f2144710
-              - f21446e0
-              - f2144650
               - 25f10000
+              - f2144650
+              - f21446e0
+              - f2144710
+              - f2144750
       release: 2025-01-06T11:26:36.676Z
       version: 1.0.0
 
@@ -446,7 +446,7 @@ dead-end/norrkoping-clinic:
   categories: health
   dependencies:
     - cycledogg/mega-props-vol01
-    - flann/girafe-maxis-fence-hd-replacement-mod # Grfe-Maxis-Fence_New-LE-Props.dat
+    - flann/girafe-maxis-fence-hd-replacement-mod
     - girafe/flora-pack
     - oidaas/malmberget-props-vol01
     - pegasus/mtp-super-pack
@@ -467,7 +467,7 @@ dead-end/norrkoping-clinic:
         - id: simtropolis/36187-n%C3%B6rrk%C3%B6ping-clinic
       buildings:
         Norrkoping Clinic.SC4Lot:
-          c38ed872:
+          50508c53-c38ed872:
             bulldoze: 60
             categories: health
             cost: 1050
@@ -485,7 +485,7 @@ dead-end/norrkoping-clinic:
             power: 3
             submenu: Health/Small
             water: 9
-      lastGenerated: 2025-01-08T13:07:31.526Z
+      lastGenerated: 2025-01-10T08:12:50.803Z
       lastModified: 2024-03-31T18:37:13.000Z
       lots:
         Norrkoping Clinic.SC4Lot:
@@ -493,18 +493,18 @@ dead-end/norrkoping-clinic:
             building: c38ed872
             name: Norrkoping Clinic
             props:
-              - 109f9dcc
-              - dd37fbc0
-              - bb85e2c9
-              - 1b85e2d5
               - 034ead8c
-              - a34eacba
-              - 33b887eb
+              - 109f9dcc
+              - 1b85e2d5
               - 33b887c0
+              - 33b887eb
+              - a34eacba
+              - bb85e2c9
+              - dd37fbc0
             size: 5x2
             textures:
-              - 251c0000
               - 1da44a20
+              - 251c0000
               - 259d0000
               - '259e0000'
       release: 2024-12-17T16:13:42.113Z
@@ -551,7 +551,7 @@ dead-end/scandinavian-supermarkets:
             - DE_MGB_pclark06_Supermarket
       buildings:
         Joker/DE_MGB_Retail_Roofbrown_Joker-0x6534284a-0x50508c53-0xd3f43cd2.SC4Desc:
-          d3f43cd2:
+          50508c53-d3f43cd2:
             bulldoze: 152
             capacity:
               cs$: 118
@@ -569,7 +569,7 @@ dead-end/scandinavian-supermarkets:
             waterPollutionRadius: 6
             worth: 1012
         Kiwi/PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot:
-          c3f365cc:
+          50508c53-c3f365cc:
             bulldoze: 152
             capacity:
               cs$: 118
@@ -590,7 +590,7 @@ dead-end/scandinavian-supermarkets:
             waterPollutionRadius: 6
             worth: 1012
         Rema1000/DE_MGB_Retail_Roofbrown-0x6534284a-0x50508c53-0xd3f34613.SC4Desc:
-          d3f34613:
+          50508c53-d3f34613:
             bulldoze: 152
             capacity:
               cs$: 118
@@ -607,7 +607,7 @@ dead-end/scandinavian-supermarkets:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 1012
-      lastGenerated: 2025-01-08T13:07:31.239Z
+      lastGenerated: 2025-01-10T08:12:50.509Z
       lastModified: 2024-06-25T20:09:19.000Z
       lots:
         Joker/CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker_13f43e21.SC4Lot:
@@ -617,37 +617,37 @@ dead-end/scandinavian-supermarkets:
             name: CS$$1_3x2_DE_MGB_Retail_Roofbrown_Joker
             props:
               - 2f47a062
+              - 5f85b906
               - 5f85b910
               - 5f85b911
-              - 5f85b906
             size: 3x2
             stage: 1
             textures:
-              - 262f0000
-              - 258c0000
-              - f8a04065
               - 251c0000
+              - 258c0000
               - '259e0000'
+              - 262f0000
+              - f8a04065
         Joker/CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker_73f43ce4.SC4Lot:
           73f43ce4:
             building: d3f43cd2
             density: all
             name: CS$$1_4x2_DE_MGB_Retail_Roofbrown_Joker
             props:
+              - 2a8c0000
               - 2f47a062
-              - 5f85b90f
+              - 4e0ab3a8
               - 5f85b906
               - 5f85b908
               - 5f85b90a
-              - 4e0ab3a8
-              - 2a8c0000
+              - 5f85b90f
             size: 4x2
             stage: 1
             textures:
-              - 262f0000
               - 258c0000
-              - f8a04065
+              - 262f0000
               - f7504025
+              - f8a04065
               - f8a04125
               - f8a041ba
         Kiwi/PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi_c3f365cc.SC4Lot:
@@ -655,23 +655,23 @@ dead-end/scandinavian-supermarkets:
             building: c3f365cc
             name: PLOP_3x2_DE_MGB_Retail_Roofgrey_Kiwi
             props:
-              - cf42a4e9
-              - a00005f5
-              - 2a8c0000
-              - dd37fbc0
-              - eebe9b3a
               - 0ed61b5e
+              - '28900000'
+              - 2a8c0000
+              - 2ab40000
+              - 2ab50000
               - 4e0ab3a8
               - 9ca0c48e
-              - 2ab50000
-              - 2ab40000
-              - '28900000'
+              - a00005f5
+              - cf42a4e9
+              - dd37fbc0
+              - eebe9b3a
             size: 3x2
             textures:
-              - 258f0000
               - 251c0000
-              - 259f0000
+              - 258f0000
               - 259d0000
+              - 259f0000
               - f5f843e0
         Rema1000/DE_MGB_Retail_Roofbrown_Rema1000_23f34b8e.SC4Lot:
           23f34b8e:
@@ -679,27 +679,27 @@ dead-end/scandinavian-supermarkets:
             density: all
             name: DE_MGB_Retail_Roofbrown_Rema1000
             props:
-              - af422346
-              - dd37fbe8
-              - 51b84097
-              - eebe9b3a
-              - 4e0ab3a8
-              - a00005f5
               - 0ed61b5e
-              - 2a8c0000
-              - dca0c46d
               - 1f0b0000
-              - a00005f7
               - '28530000'
+              - 2a8c0000
+              - 4e0ab3a8
+              - 51b84097
+              - a00005f5
+              - a00005f7
+              - af422346
+              - dca0c46d
+              - dd37fbe8
+              - eebe9b3a
             size: 3x2
             stage: 1
             textures:
-              - 262f0000
+              - 1da447b0
               - 258c0000
               - 259d0000
               - 259f0000
+              - 262f0000
               - f5f843e0
-              - 1da447b0
       release: 2024-12-17T16:13:41.995Z
       version: 1.0.0
 
@@ -738,7 +738,7 @@ dead-end/spar-supermarket:
             - DE_Spar-Glenni
       buildings:
         DE_Glenni-Spar_grocerystore-0x6534284a-0x50508c53-0x33f448cc.SC4Desc:
-          33f448cc:
+          50508c53-33f448cc:
             bulldoze: 129
             capacity:
               cs$: 475
@@ -755,7 +755,7 @@ dead-end/spar-supermarket:
             waterPollution: 2
             waterPollutionRadius: 6
             worth: 4075
-      lastGenerated: 2025-01-08T13:07:31.232Z
+      lastGenerated: 2025-01-10T08:12:50.503Z
       lastModified: 2024-06-17T18:09:29.000Z
       lots:
         DE_Glenni-Spar_grocerystore_6x4_73f449c3.SC4Lot:
@@ -764,37 +764,37 @@ dead-end/spar-supermarket:
             density: all
             name: DE_Glenni-Spar_grocerystore_6x4
             props:
-              - a00005f5
-              - dd37fbc0
-              - 5f85b914
-              - bc73e30d
-              - eebe9b3a
-              - 3e323dd8
-              - '3e322881'
-              - 3f71cd3b
-              - 79f5b8c4
-              - dca0c516
-              - 2a8c0000
               - 288d0000
+              - 2a8c0000
               - 2aab0000
-              - 5f85b910
-              - 5f85b908
-              - be322735
               - 3e3226e2
+              - '3e322881'
+              - 3e323dd8
+              - 3f71cd3b
+              - 5f85b908
+              - 5f85b910
+              - 5f85b914
+              - 79f5b8c4
               - 9e3228c7
+              - a00005f5
+              - bc73e30d
+              - be322735
+              - dca0c516
+              - dd37fbc0
+              - eebe9b3a
             size: 6x4
             stage: 1
             textures:
-              - 262f0000
               - 251c0000
               - 258c0000
               - '259e0000'
-              - f8a05295
+              - 262f0000
               - f7504025
+              - f8a04ee0
               - f8a04ef5
               - f8a04f00
-              - f8a04ee0
               - f8a05070
+              - f8a05295
       release: 2024-12-17T16:13:39.964Z
       version: 1.0.0
 
@@ -824,7 +824,7 @@ dead-end/stave-church:
         - id: simtropolis/36577-stave-church
       buildings:
         PLOP_5x5_DE_Stavechurch_e4cd1390.SC4Lot:
-          e4cd1390:
+          50508c53-e4cd1390:
             bulldoze: 4070
             categories: education
             cost: 4550
@@ -845,7 +845,7 @@ dead-end/stave-church:
             water: 26
             waterPollution: 2
             waterPollutionRadius: 4
-      lastGenerated: 2025-01-08T13:07:31.571Z
+      lastGenerated: 2025-01-10T08:12:50.835Z
       lastModified: 2024-12-04T11:34:57.000Z
       lots:
         PLOP_5x5_DE_Stavechurch_e4cd1390.SC4Lot:
@@ -853,36 +853,36 @@ dead-end/stave-church:
             building: e4cd1390
             name: PLOP_5x5_DE_Stavechurch
             props:
-              - c77d3042
-              - 677a5cce
-              - c77fd63f
-              - 277fcd91
-              - ff4b689c
               - 0cfbb16c
-              - '297e0000'
-              - '29780000'
+              - 1e390f91
+              - 1e9a0000
+              - 1e9b0422
+              - 234ead27
+              - 277fcd66
+              - 277fcd91
               - '29730000'
               - '29750000'
               - '29760000'
-              - da40a0eb
-              - 1e9a0000
-              - 1e9b0422
-              - ccdd25cc
-              - 3f4b6857
-              - 234ead27
-              - e7813023
-              - 277fcd66
-              - 1e390f91
-              - ecdd2601
+              - '29780000'
+              - '297e0000'
               - 33b0363a
+              - 3f4b6857
+              - 677a5cce
+              - c77d3042
+              - c77fd63f
+              - ccdd25cc
+              - da40a0eb
+              - e7813023
+              - ecdd2601
+              - ff4b689c
             size: 5x5
             textures:
               - 251c0000
-              - f2144750
-              - f2144650
-              - f2144720
-              - f2144710
               - 25f10000
+              - f2144650
+              - f2144710
+              - f2144720
+              - f2144750
       release: 2024-12-17T16:13:42.286Z
       version: 1.0.0
 
@@ -914,7 +914,7 @@ dead-end/white-villa:
         - id: simtropolis/36541-white-villa
       buildings:
         DE_Witte Villa-0x6534284a-0x50508c53-0x1483f821.SC4Desc:
-          1483f821:
+          50508c53-1483f821:
             bulldoze: 256
             capacity:
               r$: 44
@@ -932,7 +932,7 @@ dead-end/white-villa:
             waterPollution: 1
             waterPollutionRadius: 7
             worth: 671
-      lastGenerated: 2025-01-08T13:07:30.296Z
+      lastGenerated: 2025-01-10T08:12:49.806Z
       lastModified: 2024-11-07T22:45:10.000Z
       lots:
         R$$$4_2x2_DE_Witte Villa_3483f82f.SC4Lot:
@@ -941,14 +941,14 @@ dead-end/white-villa:
             density: all
             name: R$$$4_2x2_DE_Witte Villa
             props:
-              - dd37fbc0
-              - 109f9dcc
               - 034ead8c
-              - 93b035de
+              - 109f9dcc
               - 279c1f0d
-              - 9a829a18
-              - 7a829999
               - 5f85b906
+              - 7a829999
+              - 93b035de
+              - 9a829a18
+              - dd37fbc0
             size: 2x2
             stage: 4
             textures:

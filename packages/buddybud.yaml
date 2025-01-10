@@ -32,7 +32,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             - SimCity 4/Plugins/Buddybud
       buildings:
         BudUD-Jeronij_CW_Addon_Stairs_Lots.dat:
-          5047df1e:
+          07bddf1c-5047df1e:
             bulldoze: 5
             categories: power
             cost: 10
@@ -48,7 +48,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-          5047efac:
+          07bddf1c-5047efac:
             bulldoze: 5
             categories: power
             cost: 10
@@ -64,7 +64,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-          5047f322:
+          07bddf1c-5047f322:
             bulldoze: 5
             categories: power
             cost: 10
@@ -80,7 +80,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-          '50481653':
+          07bddf1c-50481653:
             bulldoze: 5
             categories: power
             cost: 10
@@ -96,7 +96,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-          b047f102:
+          07bddf1c-b047f102:
             bulldoze: 5
             categories: power
             cost: 10
@@ -112,7 +112,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-          d058a6f4:
+          07bddf1c-d058a6f4:
             bulldoze: 5
             categories: power
             cost: 10
@@ -128,7 +128,7 @@ buddybud/jeronij-concrete-wall-addon-stairs:
               r$$$: 250
             submenu: Power/Misc
             water: 5
-      lastGenerated: 2025-01-08T13:07:30.033Z
+      lastGenerated: 2025-01-10T08:12:49.608Z
       lastModified: 2005-10-12T01:46:25.000Z
       lots:
         BudUD-Jeronij_CW_Addon_Stairs_Lots.dat:
@@ -136,16 +136,16 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             building: 5047df1e
             name: BudUD-Jeronij_CW_Addon_HStairs-01
             props:
+              - 1047ab4c
+              - 1dfb0000
               - 1edf0000
               - '28330000'
-              - 2a150000
               - 2a140000
-              - 1dfb0000
-              - f047aa8c
-              - f047ab1f
-              - 1047ab4c
+              - 2a150000
               - 3047dcbe
               - 9047dc87
+              - f047aa8c
+              - f047ab1f
             size: 1x1
             textures:
               - a990c41a
@@ -153,17 +153,17 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             building: 5047efac
             name: BudUD-Jeronij_CW_Addon_HStairs-02
             props:
-              - 1edf0000
-              - '28330000'
-              - 2a150000
-              - 2a140000
-              - f047aa8c
-              - f047ab1f
               - 1047ab4c
               - 1dfb0000
+              - 1edf0000
+              - '28330000'
+              - 2a140000
+              - 2a150000
+              - 5047ec8c
               - 7047ec65
               - 9047ec4f
-              - 5047ec8c
+              - f047aa8c
+              - f047ab1f
             size: 1x1
             textures:
               - a990c42a
@@ -171,13 +171,13 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             building: 5047f322
             name: BudUD-Jeronij_CW_Addon_CS-Stairs
             props:
-              - f047aa8c
-              - f047ab1f
               - 1047ab4c
               - 1dfb0000
               - 7047ec65
               - 9047ec4f
               - 9047ec7b
+              - f047aa8c
+              - f047ab1f
             size: 1x1
             textures:
               - a990c420
@@ -187,9 +187,9 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             props:
               - 1047ab4c
               - 1dfb0000
+              - 5047ec8c
               - 7047ec65
               - 9047ec4f
-              - 5047ec8c
             size: 1x1
             textures:
               - 261a0000
@@ -198,15 +198,15 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             building: b047f102
             name: BudUD-Jeronij_CW_Addon_CR-Stairs
             props:
+              - 1047ab4c
+              - 1dfb0000
               - 1edf0000
               - '28330000'
-              - 2a150000
               - 2a140000
+              - 2a150000
+              - 5047ec8c
               - 7047ec65
               - 9047ec4f
-              - 5047ec8c
-              - 1dfb0000
-              - 1047ab4c
             size: 1x1
             textures:
               - a990c425
@@ -214,16 +214,16 @@ buddybud/jeronij-concrete-wall-addon-stairs:
             building: d058a6f4
             name: BudUD-Jeronij_CW_Addon_HLookOut
             props:
-              - 1edf0000
-              - '28330000'
-              - 2a150000
-              - 2a140000
-              - 1dfb0000
-              - f047aa8c
-              - f047ab1f
               - 1047ab4c
               - 1047dd02
+              - 1dfb0000
+              - 1edf0000
+              - '28330000'
+              - 2a140000
+              - 2a150000
               - 5047dce9
+              - f047aa8c
+              - f047ab1f
             size: 1x1
             textures:
               - a5304000
@@ -242,30 +242,30 @@ buddybud/jeronij-concrete-wall-addon-stairs:
           - 92d724ec
       props:
         Prop Packs/BudCW_Lookout_Prop_Back.dat:
-          5047dce9:
+          269dd011-5047dce9:
             model: 72d71307
             name: BudCW_Lookout_Back
         Prop Packs/BudCW_Stairs_Look_Prop.dat:
-          1047dd02:
+          269dd011-1047dd02:
             model: 52d7146d
             name: BudCW_Lookout_Front
-          7047ec65:
+          269dd011-7047ec65:
             model: 92d723f6
             name: BudCW_Stairs_Diag2
-          9047dc87:
+          269dd011-9047dc87:
             model: f2d71185
             name: BudCW_Stairs_Horizontal
-          9047ec4f:
+          269dd011-9047ec4f:
             model: 32d723b1
             name: BudCW_Stairs_Diag1
         Prop Packs/BudCW_Stairs_Tops_Prop.dat:
-          3047dcbe:
+          269dd011-3047dcbe:
             model: 92d7125a
             name: BudCW_Stairs_H_Top
-          5047ec8c:
+          269dd011-5047ec8c:
             model: 92d724ec
             name: BudCW_Stairs_DiagR_Top
-          9047ec7b:
+          269dd011-9047ec7b:
             model: 92d72461
             name: BudCW_Stairs_DiagS_Top
       release: 2024-12-17T16:13:38.876Z

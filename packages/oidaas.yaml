@@ -104,7 +104,7 @@ oidaas/esa-stores:
             - ESA
       buildings:
         ICA/ICA lantlig/ica lantlig 1-0x6534284a-0x65b2703b-0xe5d75037.SC4Desc:
-          e5d75037:
+          65b2703b-e5d75037:
             bulldoze: 161
             capacity:
               cs$: 20
@@ -116,12 +116,13 @@ oidaas/esa-stores:
             pollution: 4
             pollutionRadius: 5
             power: 2
+            tilesets: Houston
             water: 15
             waterPollution: 2
             waterPollutionRadius: 5
             worth: 614
         Konsum/ESA konsumstorre-0x6534284a-0x8d9dcdfd-0x713e00c2.SC4Desc:
-          713e00c2:
+          8d9dcdfd-713e00c2:
             bulldoze: 157
             capacity:
               cs$: 37
@@ -137,7 +138,7 @@ oidaas/esa-stores:
             waterPollution: 1
             waterPollutionRadius: 5
             worth: 283
-      lastGenerated: 2025-01-08T13:07:31.051Z
+      lastGenerated: 2025-01-10T08:12:50.340Z
       lastModified: 2023-01-25T14:26:26.000Z
       lots:
         ICA/ICA lantlig/CS$1_2x2icastorre_45d754bd.SC4Lot:
@@ -146,54 +147,54 @@ oidaas/esa-stores:
             density: all
             name: CS$1_2x2icastorre
             props:
-              - a000003d
-              - 296f0000
-              - a000004a
               - 1d220000
               - '29170000'
+              - 296f0000
+              - a000003d
+              - a000004a
             size: 3x2
             stage: 1
             textures:
-              - ddf89000
+              - 258c0000
               - dd734900
-              - f8a0408a
+              - ddf89000
               - f8a0406a
               - f8a04070
-              - 258c0000
+              - f8a0408a
         ICA/ICA lantlig/CS$1_2x2icastorre_v2_85d81cde.SC4Lot:
           85d81cde:
             building: e5d75037
             density: all
             name: CS$1_2x2icastorre_v2
             props:
-              - a000003d
-              - 296f0000
-              - a000004a
               - 1d220000
               - '29170000'
+              - 296f0000
+              - a000003d
+              - a000004a
             size: 2x2
             stage: 2
             textures:
-              - ddf89000
-              - dd734900
-              - f8a04070
               - 258c0000
-              - 35ea4900
               - 25b50000
+              - 35ea4900
+              - dd734900
+              - ddf89000
+              - f8a04070
         Konsum/CS$1_2x2_ESA konsumstorre_013e0668.SC4Lot:
           '013e0668':
             building: 713e00c2
             density: all
             name: CS$1_2x2_ESA konsumstorre
             props:
-              - '1e510000'
-              - 1eda0000
-              - 1ed70000
-              - 8ef6999a
               - 1ad07950
-              - fad07984
-              - bad079c5
+              - '1e510000'
+              - 1ed70000
+              - 1eda0000
               - '29870000'
+              - 8ef6999a
+              - bad079c5
+              - fad07984
             size: 2x2
             stage: 1
             textures:
@@ -223,7 +224,7 @@ oidaas/malmberget-props-vol01:
         - id: simtropolis/33552-malmberget-proppack-vol1
       buildings:
         Malmberget Props.dat:
-          6ba2666d:
+          ca547049-6ba2666d:
             bulldoze: 100
             categories: landmarks
             cost: 110000
@@ -244,7 +245,7 @@ oidaas/malmberget-props-vol01:
             ratingRadius: 256
             waterPollution: 1
             waterPollutionRadius: 2
-          8ba315ff:
+          ca547049-8ba315ff:
             bulldoze: 100
             categories: education
             cost: 100
@@ -259,7 +260,7 @@ oidaas/malmberget-props-vol01:
             model: eb9dca1c
             name: Malmberget Touddarvillan
             submenu: Education/Libraries
-          cba266be:
+          ca547049-cba266be:
             bulldoze: 100
             categories: police
             cost: 2500
@@ -275,7 +276,7 @@ oidaas/malmberget-props-vol01:
             name: vita duvan
             power: 1
             powerProduction: 1
-      lastGenerated: 2025-01-08T13:07:30.334Z
+      lastGenerated: 2025-01-10T08:12:49.830Z
       lastModified: 2020-04-17T14:24:21.000Z
       models:
         Malmberget Props.dat:
@@ -365,259 +366,259 @@ oidaas/malmberget-props-vol01:
           - ec07321c
       props:
         Malmberget Props.dat:
-          0b90e590:
+          ca547049-0b90e590:
             model: ca547049-005d
             name: ostgotavagen 1
-          0b90e636:
+          ca547049-0b90e636:
             model: ca547049-007a
             name: Malmberget Pumpbacken 1
-          0b90e69e:
+          ca547049-0b90e69e:
             model: ab893bad
             name: Malmberget Bolagsvagen Johannes Tp 1
-          0b90e6fb:
+          ca547049-0b90e6fb:
             model: 8b8a8d95
             name: Malmberget Upplandsvagen 1
-          0b90e79c:
+          ca547049-0b90e79c:
             model: 4b8a919c
             name: Malmberget Upplandsvagen 22
-          0b90e7a7:
+          ca547049-0b90e7a7:
             model: 4b8a5c16
             name: Malmberget Upplandsvagen 2 FND
-          0b90e834:
+          ca547049-0b90e834:
             model: 2b86459b
             name: Malmberget Hermelinsbacken 7
-          0b90e87a:
+          ca547049-0b90e87a:
             model: 0b175383
             name: Malmberget Ostgotavagen 2
-          0b9131f6:
+          ca547049-0b9131f6:
             model: 8b17e4df
             name: Malmberget Poutikavagen 14
-          0b9210ac:
+          ca547049-0b9210ac:
             model: ab172aae
             name: Malmberget Jamtlandsvagen
-          0b9210f3:
+          ca547049-0b9210f3:
             model: cb403e50
             name: Malmberget Upplandsvagen 2
-          0b9222cb:
+          ca547049-0b9222cb:
             model: ab172aae
             name: Malmberget Jamtlandsvagen
-          0b986cf1:
+          ca547049-0b986cf1:
             model: ab1797f9
             name: Malmberget Ostgotavagen 3
-          2b90e7b1:
+          ca547049-2b90e7b1:
             model: 4b8a28cb
             name: Malmberget Stallvagen 1
-          2b90e84c:
+          ca547049-2b90e84c:
             model: 0b89c42e
             name: Malmberget Ingenjorsvillan
-          2b912e8d:
+          ca547049-2b912e8d:
             model: cb17db6b
             name: Malmberget Langaraden 3
-          2b913814:
+          ca547049-2b913814:
             model: 8b17e4df
             name: Malmberget Poutikavagen 14
-          2b989ed8:
+          ca547049-2b989ed8:
             model: ec07321c
             name: Stallvagen 6 FND
-          4b90e59f:
+          ca547049-4b90e59f:
             model: eb8a195f
             name: Malmberget Ringvagen 31
-          4b90e5f3:
+          ca547049-4b90e5f3:
             model: cb8a8586
             name: Malmberget Upplandsvagen 3
-          4b90e612:
+          ca547049-4b90e612:
             model: cb89cd42
             name: Malmberget Krokvagen
-          4b90e73c:
+          ca547049-4b90e73c:
             model: 8b873a46
             name: Malmberget Stallvagen
-          4b90e751:
+          ca547049-4b90e751:
             model: 6b89abcf
             name: Malmberget Furuvagen
-          4b90e793:
+          ca547049-4b90e793:
             model: 6937f70d
             name: Malmberget Bolagsvagen Johannes
-          4b90e7c8:
+          ca547049-4b90e7c8:
             model: 4b8a0568
             name: Malmberget Pouitakvagen
-          4b90e7d3:
+          ca547049-4b90e7d3:
             model: 4b89e012
             name: Malmberget Bolagsvagen 11
-          4b90e7ff:
+          ca547049-4b90e7ff:
             model: 2b89d3eb
             name: Malmberget Krokvagen 8
-          4b90e80e:
+          ca547049-4b90e80e:
             model: 2b89bf96
             name: Malmberget Hoijerska huset
-          4b922130:
+          ca547049-4b922130:
             model: 8b40473e
             name: jamtlandsvagen FND
-          4b927d46:
+          ca547049-4b927d46:
             model: 2b40adce
             name: Malmberget Engelskavagen 27
-          4b986d93:
+          ca547049-4b986d93:
             model: ca547049-0053
             name: Malmberget Vastgotavagen
-          6b90e652:
+          ca547049-6b90e652:
             model: ca547049-0070
             name: Malmberget Selsbacken 3
-          6b90e6ab:
+          ca547049-6b90e6ab:
             model: ab8648fd
             name: Malmberget Skanebacken
-          6b90e746:
+          ca547049-6b90e746:
             model: 6b8a876f
             name: Malmberget Upplandsvagen 4  FND
-          6b90e76d:
+          ca547049-6b90e76d:
             model: 6b864f04
             name: Malmberget Hermelinesbacken
-          6b90e7ba:
+          ca547049-6b90e7ba:
             model: 4b8a0d2e
             name: Malmberget Ringvagen 29
-          6b90e86e:
+          ca547049-6b90e86e:
             model: 0b868c43
             name: Malmberget Upplandsvagen 19
-          6b90f9bd:
+          ca547049-6b90f9bd:
             model: 4b17acc4
             name: Malmberget Bolagagen 10
-          6b927d6b:
+          ca547049-6b927d6b:
             model: ab40bc6a
             name: Malmberget Engelskavagen 27 FND
-          6b986d35:
+          ca547049-6b986d35:
             model: ca547049-005d
             name: Malmberget Ostgotavagen 1
-          6ba26632:
+          ca547049-6ba26632:
             model: 4b9d1ab9
             name: Malmberget Disponentvillan
-          6ba315d1:
+          ca547049-6ba315d1:
             model: eb9dca1c
             name: Malmberget Touddarvillan
-          6ba3452e:
+          ca547049-6ba3452e:
             model: cb9df35c
             name: Malmberget Upplandsvagen 14
-          6ba34559:
+          ca547049-6ba34559:
             model: eb9df76d
             name: Malmberget Upplandsvagen Grund
-          6ba34577:
+          ca547049-6ba34577:
             model: 6b9df8e8
             name: Malmberget Upplandsvagen 16
-          8b90e62c:
+          ca547049-8b90e62c:
             model: cb8943b9
             name: Malmberget Formansklubben
-          8b90e678:
+          ca547049-8b90e678:
             model: ca547049-0055
             name: Malmberget Stallvagen
-          8b90e68e:
+          ca547049-8b90e68e:
             model: ab8a4392
             name: Malmberget Stallvagen 10
-          8b90e718:
+          ca547049-8b90e718:
             model: 8b89da67
             name: Malmberget Krokvagen 3
-          8b90e77c:
+          ca547049-8b90e77c:
             model: 6b864a0f
             name: Malmberget Bolagsvagen
-          8b90e789:
+          ca547049-8b90e789:
             model: 6b861e5b
             name: 'Malmberget '
-          8b90e7e8:
+          ca547049-8b90e7e8:
             model: 4b873e83
             name: Malmberget Stallvagen11
-          8b90e7f3:
+          ca547049-8b90e7f3:
             model: 4b86572a
             name: Malmberget Bolagshotellet
-          8b90e858:
+          ca547049-8b90e858:
             model: 0b8918b4
             name: Malmberget Pouitakvagen 19
-          8b90ff44:
+          ca547049-8b90ff44:
             model: eb8a9c5c
             name: Malmberget Upplandsvagen 14
-          8b9222f8:
+          ca547049-8b9222f8:
             model: 2b4032b9
             name: Malmberget Jamtlandsvagen 3
-          8b989ea6:
+          ca547049-8b989ea6:
             model: ac075a16
             name: ingenjorsvillan FND
-          8ba34594:
+          ca547049-8ba34594:
             model: 4b9dfc69
             name: Malmberget Upplandsvagen 20
-          ab90e5c3:
+          ca547049-ab90e5c3:
             model: eb89c2e9
             name: Malmberget Hojertzbacke 3
-          ab90e63f:
+          ca547049-ab90e63f:
             model: ca547049-0073
             name: Malmberget Skanebacken 3
-          ab90e70a:
+          ca547049-ab90e70a:
             model: 8b89dde9
             name: Malmberget Granvagen 7
-          ab90e75c:
+          ca547049-ab90e75c:
             model: 6b8934f6
             name: Malmberget Bolagsvagen 18
-          ab90e7de:
+          ca547049-ab90e7de:
             model: 4b884de7
             name: Malmberget Langaraden 5
-          ab90e827:
+          ca547049-ab90e827:
             model: 2b8847b9
             name: Malmberget Langaraden 7
-          ab91384e:
+          ca547049-ab91384e:
             model: 8b17ea22
             name: Malmberget Krokvagen 9
-          ab922318:
+          ca547049-ab922318:
             model: 0b400f48
             name: Malmberget Jamtlandsvagen 3 fnd
-          ab927d1a:
+          ca547049-ab927d1a:
             model: 8b40a5e6
             name: Malmberget Granvagen 7 FND
-          ab989ebe:
+          ca547049-ab989ebe:
             model: ac074823
             name: Hermelinsbacken FND
-          cb90e5e8:
+          ca547049-cb90e5e8:
             model: cb8a8882
             name: Malmberget Upplandsvagen 4
-          cb90e607:
+          ca547049-cb90e607:
             model: cb89f839
             name: Malmberget Pouitakvagen 22
-          cb90e6bc:
+          ca547049-cb90e6bc:
             model: ab1797f9
             name: Malmberget Ostgotavagen 3
-          cb90e6e1:
+          ca547049-cb90e6e1:
             model: 8b8a8d95
             name: Malmberget Upplandsvagen 1
-          cb90e81b:
+          ca547049-cb90e81b:
             model: 2b894135
             name: Malmberget Bolagsvagen Johannes Tp 2
-          cb90e862:
+          ca547049-cb90e862:
             model: 0b873fc0
             name: Malmberget Bolagskontoret
-          cb912e7b:
+          ca547049-cb912e7b:
             model: 8b892268
             name: Malmberget Poitakvagen 20
-          cb92110f:
+          ca547049-cb92110f:
             model: eb403d67
             name: Malmberget Upplandsvagen 19 FND
-          cb989eb3:
+          ca547049-cb989eb3:
             model: 0c075395
             name: Bolagsvagen 11 FND
-          eb90e5d7:
+          ca547049-eb90e5d7:
             model: eb868a5d
             name: Malmberget Stallvagen 11
-          eb90e66e:
+          ca547049-eb90e66e:
             model: ca547049-0057
             name: Malmberget Hermelinsskolan
-          eb90e725:
+          ca547049-eb90e725:
             model: 8b87c98b
             name: Malmberget Skanebacken 5
-          eb9210d3:
+          ca547049-eb9210d3:
             model: 8b40473e
             name: Malmberget Jamtlandsvagen FND
-          eb92512f:
+          ca547049-eb92512f:
             model: 4b409331
             name: hoijerska huset fnd
-          eb986d03:
+          ca547049-eb986d03:
             model: 0b175383
             name: Malmberget Ostgotavagen 2
-          eb989eca:
+          ca547049-eb989eca:
             model: 0c073f35
             name: stallvagen11 FND
-          eb989ee7:
+          ca547049-eb989ee7:
             model: eb8f3e52
             name: upplandsvagen  2 alt
       release: 2024-12-17T16:13:39.839Z
@@ -637,7 +638,7 @@ oidaas/malmberget-props-vol02:
         - id: simtropolis/35927-malmberget-proppack-vol-2
       buildings:
         Malmberget 2.dat:
-          2b63bd11:
+          ca547049-2b63bd11:
             bulldoze: 106
             capacity:
               r$: 30
@@ -651,7 +652,7 @@ oidaas/malmberget-props-vol02:
             power: 1
             water: 2
             worth: 401
-      lastGenerated: 2025-01-08T13:07:31.534Z
+      lastGenerated: 2025-01-10T08:12:50.811Z
       lastModified: 2024-01-07T17:04:05.000Z
       models:
         Malmberget 2.dat:
@@ -682,89 +683,89 @@ oidaas/malmberget-props-vol02:
           - ebb8b20c
       props:
         Malmberget 2.dat:
-          0b9131f6:
-            model: 8b17e4df
-            name: Malmberget Poutikavagen 14
-          0bbf12e3:
-            model: 4be1596f
-            name: Malmberget poutakvagen uthus
-          0bde502b:
-            model: abd1c8ba
-            name: Malmberget Haggvagen
-          2b913814:
-            model: 8b17e4df
-            name: Malmberget Poutikavagen 14
-          2ba87bf0:
-            model: eba22a75
-            name: uthus skanebacken 3
-          2ba87c1e:
-            model: cba3009c
-            name: uthus bolagsvagen 11
-          4b13ad34:
-            model: ca547049-0051
-            name: uthus johannes
-          4b13b480:
-            model: ca547049-004d
-            name: uthus johannes 2
-          4b13b48e:
-            model: ca547049-004f
-            name: uthus johannes 3
-          4bbe0f20:
-            family: 5f860026
-            model: 6bb8c3a5
-            name: Malmberget Bolagsvagen Johannes Tp 4
-          4bbe0f3b:
-            family: 5f860026
-            model: 8bb8bc95
-            name: Malmberget Bolagsvagen Johannes Tp 3
-          6ba87c10:
-            model: eba2fa70
-            name: Jamtlands uthus
-          6ba89657:
-            model: eba34f3a
-            name: uthus ostgotavagen
-          6bde6e66:
-            model: 6bd90b46
-            name: Malmberget Granvagen 4
-          6bde6e83:
-            model: 6bd90f0e
-            name: Malmberget Granvagen 6
-          70442b82:
+          7fa4f215-70442b82:
             family: 5f860026
             model: 8bb8bc95
             name: Bolagsvagen Johannes Tp 3
-          8ba87c03:
-            model: 2ba2f485
-            name: uthus vastgota
-          8bab9210:
-            model: 6ba5fbfe
-            name: Malmberget Langaraden uthus
-          aba9b705:
-            model: 2ba455e8
-            name: Malmberget uthus krokvagen
-          aba9b71d:
-            model: 2ba45f3f
-            name: Malmberget uthus poutak
-          abaaeb96:
-            model: 4ba59f7d
-            name: Malmberget Bolagsvagen 3
-          b0442bba:
+          7fa4f215-b0442bba:
             family: 5f860026
             model: 6bb8c3a5
             name: Bolagsvagen Johannes Tp 4
-          cba8d4dd:
+          ca547049-0b9131f6:
+            model: 8b17e4df
+            name: Malmberget Poutikavagen 14
+          ca547049-0bbf12e3:
+            model: 4be1596f
+            name: Malmberget poutakvagen uthus
+          ca547049-0bde502b:
+            model: abd1c8ba
+            name: Malmberget Haggvagen
+          ca547049-2b913814:
+            model: 8b17e4df
+            name: Malmberget Poutikavagen 14
+          ca547049-2ba87bf0:
+            model: eba22a75
+            name: uthus skanebacken 3
+          ca547049-2ba87c1e:
+            model: cba3009c
+            name: uthus bolagsvagen 11
+          ca547049-4b13ad34:
+            model: ca547049-0051
+            name: uthus johannes
+          ca547049-4b13b480:
+            model: ca547049-004d
+            name: uthus johannes 2
+          ca547049-4b13b48e:
+            model: ca547049-004f
+            name: uthus johannes 3
+          ca547049-4bbe0f20:
+            family: 5f860026
+            model: 6bb8c3a5
+            name: Malmberget Bolagsvagen Johannes Tp 4
+          ca547049-4bbe0f3b:
+            family: 5f860026
+            model: 8bb8bc95
+            name: Malmberget Bolagsvagen Johannes Tp 3
+          ca547049-6ba87c10:
+            model: eba2fa70
+            name: Jamtlands uthus
+          ca547049-6ba89657:
+            model: eba34f3a
+            name: uthus ostgotavagen
+          ca547049-6bde6e66:
+            model: 6bd90b46
+            name: Malmberget Granvagen 4
+          ca547049-6bde6e83:
+            model: 6bd90f0e
+            name: Malmberget Granvagen 6
+          ca547049-8ba87c03:
+            model: 2ba2f485
+            name: uthus vastgota
+          ca547049-8bab9210:
+            model: 6ba5fbfe
+            name: Malmberget Langaraden uthus
+          ca547049-aba9b705:
+            model: 2ba455e8
+            name: Malmberget uthus krokvagen
+          ca547049-aba9b71d:
+            model: 2ba45f3f
+            name: Malmberget uthus poutak
+          ca547049-abaaeb96:
+            model: 4ba59f7d
+            name: Malmberget Bolagsvagen 3
+          ca547049-cba8d4dd:
             model: eba38cf7
             name: Malmberget Bolagsvagen 4
-          cba9b732:
+          ca547049-cba9b732:
             model: 8ba46f1f
             name: Malmberget uthus puitak 1
-          cbaae7d9:
+          ca547049-cbaae7d9:
             model: 4ba59f7d
             name: bolagsvagen 3
-          eba9d06e:
+          ca547049-eba9d06e:
             model: 6ba43a8b
             name: Malmberget Bolagsvagen 6
-          ebab01b6:
+          ca547049-ebab01b6:
             model: 2ba5b6ce
             name: Malmberget uthus Johannes
       release: 2024-12-17T16:13:42.135Z

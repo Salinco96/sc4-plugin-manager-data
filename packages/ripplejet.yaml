@@ -3,7 +3,7 @@ ripplejet/census-repository-building:
     - bsc
   buildings:
     RW_2x2_Census Repository Vault.SC4Lot:
-      645e467b:
+      3224a93f-645e467b:
         bulldoze: 1500
         categories: rewards
         cost: 2000
@@ -25,7 +25,7 @@ ripplejet/census-repository-building:
         waterPollution: 1
         waterPollutionRadius: 4
     RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
-      6471f58b:
+      3224a93f-6471f58b:
         bulldoze: 9000
         categories: rewards
         cost: 15000
@@ -69,9 +69,9 @@ ripplejet/census-repository-building:
         building: 645e467b
         name: RW_2x2_Census Repository Vault
         props:
-          - a0000069
-          - a000005f
           - 1dfe0000
+          - a000005f
+          - a0000069
         size: 2x2
         textures:
           - 262c0000
@@ -80,9 +80,9 @@ ripplejet/census-repository-building:
         building: 6471f58b
         name: RW_3x1_Census Repository Facility_ZP_ULTRA
         props:
-          - a000007f
-          - 1689d35d
           - 1689d23a
+          - 1689d35d
+          - a000007f
         size: 3x1
         textures:
           - 258f0000
@@ -94,39 +94,41 @@ ripplejet/census-repository-building:
   name: BSC Census Repository Building
   props:
     RJ - Census_Repository_Model_and_Query_3.1.dat:
-      16888cf8:
+      3224a93f-16888cf8:
         model: 5465811a
         name: Census Repository Facility
-      1689d23a:
+      3224a93f-1689d23a:
         name: RJ - Census Repository Phone Booth
-      1689d35d:
+      3224a93f-1689d35d:
         name: RJ - Census Repository Phone Booth Rear
-      8956a699:
-        name: Gnome_CensusRepository
-      b6888d35:
+      3224a93f-b6888d35:
         model: d17c864e
         name: Census Repository Vault
+      c977c536-8956a699:
+        name: Gnome_CensusRepository
   readme: Readme_Census_Repository_Facility_v3.5.htm
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
   url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
   variants:
     default:
       assets:
-        - docs:
+        - cleanitol: Cleanitol_RJ_Census_Repository_Facility_v3.5.txt
+          docs:
             - _Documents/BSC_Readmes/RippleJet
           exclude:
             - _Census Repository___CHOOSE ONE --- SEE README!!!
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
             - BSC/Ripplejet/Census Repository
-      lastGenerated: 2025-01-08T13:07:29.511Z
+      lastGenerated: 2025-01-10T08:12:49.327Z
       lastModified: 2023-07-20T10:48:28.000Z
       name: Original
       release: 2024-11-27T09:00:58.547Z
       version: 3.5.0
     more-demand-info:
       assets:
-        - docs:
+        - cleanitol: Cleanitol_RJ_Census_Repository_Facility_v3.5.txt
+          docs:
             - _Documents/BSC_Readmes/RippleJet
           exclude:
             - _Census Repository___CHOOSE ONE --- SEE README!!!
@@ -144,7 +146,7 @@ ripplejet/census-repository-building:
         - ripplejet: Original author
         - null-45: Query updates
       disabled: true
-      lastGenerated: 2025-01-08T13:07:29.536Z
+      lastGenerated: 2025-01-10T08:12:49.348Z
       lastModified: 2024-12-18T05:41:01.000Z
       name: More Demand Info by Null 45
       release: 2024-11-27T09:00:58.547Z
