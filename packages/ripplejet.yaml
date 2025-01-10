@@ -2,6 +2,39 @@ ripplejet/census-repository-building:
   authors:
     - bsc
   buildings:
+    RJ - Census_Repository_Model_and_Query_3.1.dat:
+      cd5164da-0dd41d65:
+        bulldoze: 100
+        categories: rewards
+        cost: 15000
+        flamability: 45
+        garbage: 23
+        garbageRadius: 2
+        jobs:
+          $: 170
+          $$: 105
+          $$$: 45
+        landmark: 20
+        landmarkRadius: 5
+        maintenance: 250
+        menu: Rewards
+        model: 6dd414f2
+        name: CensusRepository
+        pollution: 3
+        pollutionRadius: 3
+        power: 125
+        rating: 8
+        ratingRadius: 256
+        relief:
+          co$$: 100000
+          co$$$: 100000
+          r$: 2500
+          r$$: 2500
+          r$$$: 2500
+        submenu: Landmarks/Government
+        water: 150
+        waterPollution: 2
+        waterPollutionRadius: 2
     RW_2x2_Census Repository Vault.SC4Lot:
       3224a93f-645e467b:
         bulldoze: 1500
@@ -61,9 +94,31 @@ ripplejet/census-repository-building:
         waterPollutionRadius: 4
   categories: rewards
   dependencies:
+    - bsc/misc-props-vol03
+    - bsc/textures-vol01
     - maxis/maxis-buildings-as-props
   description: BSC Census Repository Building by RippleJet.
   lots:
+    RJ - Census_Repository_Model_and_Query_3.1.dat:
+      0dd41d65:
+        building: 0dd41d65
+        name: CensusRepository
+        props:
+          - 2a590000
+          - 2aa40000
+          - 2aa70000
+          - 2aa90000
+          - 2aaa0000
+          - 2aab0000
+          - 2aac0000
+          - 2aad0000
+          - 2aae0000
+          - 2ae80000
+          - 8956a699
+        size: 1x1
+        textures:
+          - 258d1000
+          - '258e3000'
     RW_2x2_Census Repository Vault.SC4Lot:
       645e467b:
         building: 645e467b
@@ -74,7 +129,7 @@ ripplejet/census-repository-building:
           - a0000069
         size: 2x2
         textures:
-          - 262c0000
+          - 262c3000
     RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
       6471f58b:
         building: 6471f58b
@@ -85,8 +140,8 @@ ripplejet/census-repository-building:
           - a000007f
         size: 3x1
         textures:
-          - 258f0000
-          - '26370000'
+          - 258f2000
+          - '26372000'
   models:
     RJ - Census_Repository_Model_and_Query_3.1.dat:
       - 5465811a

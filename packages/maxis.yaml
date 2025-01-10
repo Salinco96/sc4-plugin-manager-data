@@ -30,8 +30,8 @@ maxis/63-building:
         replace: 6afc49f8
         size: 4x5
         textures:
-          - 252b0000
-          - 258f0000
+          - 252b3000
+          - 258f2000
           - '26060000'
   models:
     Plugin_00A_63Building.dat:
@@ -258,25 +258,25 @@ maxis/air-force-base:
               - ca3d9724
             size: 10x29
             textures:
-              - '25610000'
-              - '25620000'
-              - '25630000'
-              - '25640000'
-              - '25650000'
-              - '25660000'
-              - '25670000'
-              - '25680000'
-              - 256a0000
-              - 256d0000
-              - '256e0000'
-              - 256f0000
-              - '25700000'
-              - '25710000'
-              - '25730000'
-              - 25c60000
+              - '25611000'
+              - '25621000'
+              - '25631000'
+              - '25641000'
+              - '25651000'
+              - '25661000'
+              - '25671000'
+              - '25681000'
+              - 256a1000
+              - 256d1000
+              - '256e1000'
+              - 256f1000
+              - '25701000'
+              - '25711000'
+              - '25731000'
+              - 25c61000
               - 25d60000
               - 25d70000
-              - 25fb0000
+              - 25fb1000
       models:
         Plugin_007_AirForceBase.dat:
           - badb57f1-036f
@@ -344,8 +344,8 @@ maxis/arc-de-triomphe:
         textures:
           - 257c0000
           - 257d0000
-          - 259d0000
-          - 25fb0000
+          - 259d3000
+          - 25fb1000
           - '26060000'
   models:
     Plugin_003_ArcTriomphe.dat:
@@ -451,6 +451,9 @@ maxis/brandenburg-gate:
     Plugin_00C_BrandenburgGate.dat:
       - badb57f1-04b7
   name: Brandenburg Gate (Berlin)
+  textures:
+    Plugin_00C_BrandenburgGate.dat:
+      - '262e3000'
   variants:
     default:
       assets:
@@ -539,11 +542,11 @@ maxis/capitol-records:
         replace: cb549981
         size: 5x5
         textures:
-          - 258b0000
-          - '258e0000'
-          - '25920000'
-          - '25950000'
-          - '25960000'
+          - 258b3000
+          - '258e3000'
+          - '25923000'
+          - '25953000'
+          - '25963000'
   models:
     Plugin_012_CapitolRecords.dat:
       - badb57f1-04b1
@@ -721,10 +724,10 @@ maxis/globe-arena:
         replace: aae108a3
         size: 11x8
         textures:
-          - 258c0000
-          - 258f0000
-          - 25aa0000
-          - 25b20000
+          - 258c2000
+          - 258f2000
+          - 25aa2000
+          - 25b22000
   models:
     Plugin_006_GlobeArena.dat:
       - badb57f1-04bc
@@ -820,7 +823,7 @@ maxis/grand-central-station:
         replace: 2b589d69
         size: 7x8
         textures:
-          - 25fb0000
+          - 25fb1000
   models:
     Plugin_010_GrandCentralStation.dat:
       - badb57f1-04b3
@@ -950,12 +953,12 @@ maxis/grutze-industries:
               - 2a440000
             size: 4x5
             textures:
-              - 256c0000
-              - 258d0000
-              - '25920000'
-              - '25930000'
-              - '25950000'
-              - '25960000'
+              - 256c1000
+              - 258d1000
+              - '25923000'
+              - '25933000'
+              - '25953000'
+              - '25963000'
       models:
         IndstryPipes-0x5ad0e817_0x6cd8b254_0x2f0000.SC4Model:
           - 6cd8b254-002f
@@ -1040,7 +1043,7 @@ maxis/grutzehaus:
             textures:
               - 1e7e0000
               - '1e810000'
-              - 25b00000
+              - 25b02000
               - 25f80000
       models:
         DstTxtr-0x5ad0e817_0x6cd8b254_0x2d0000.SC4Model:
@@ -1090,9 +1093,9 @@ maxis/kunjungjon:
         replace: 4afc8bd5
         size: 5x6
         textures:
-          - 262a0000
-          - 262b0000
-          - 262c0000
+          - 262a3000
+          - 262b3000
+          - 262c3000
   models:
     Plugin_008_Kunjungjon.dat:
       - badb57f1-04ba
@@ -1115,6 +1118,11 @@ maxis/kunjungjon:
       c977c536-2b9a0000:
         model: badb57f1-2b9a
         name: LM7x16x6_Shrine-wall_2B9A
+  textures:
+    Plugin_008_Kunjungjon.dat:
+      - 262a3000
+      - 262b3000
+      - 262c3000
   variants:
     default:
       assets:
@@ -1320,12 +1328,13 @@ maxis/longfellow-castle:
               - 2d590000
             size: 13x12
             textures:
-              - 251c0000
-              - 252b0000
+              - 251c2000
+              - 251c3000
+              - 252b1000
               - 257a0000
               - 257c0000
               - '25800000'
-              - 258b0000
+              - 258b3000
               - 25d80000
               - '25e00000'
               - 2d580000
@@ -1391,12 +1400,13 @@ maxis/longfellow-castle:
               - 2d590000
             size: 13x12
             textures:
-              - 251c0000
-              - 252b0000
+              - 251c2000
+              - 251c3000
+              - 252b1000
               - 257a0000
               - 257c0000
               - '25800000'
-              - 258b0000
+              - 258b3000
               - 25d80000
               - '25e00000'
               - 2d580000
@@ -4983,7 +4993,7 @@ maxis/namdaemun:
         replace: 8af9d28c
         size: 4x4
         textures:
-          - 258b0000
+          - 258b3000
   models:
     Plugin_009_NamDaeMoon.dat:
       - badb57f1-04b9
@@ -5260,8 +5270,8 @@ maxis/rockefeller-center:
         replace: 8ccf053d
         size: 4x13
         textures:
-          - '26350000'
-          - '26370000'
+          - '26353000'
+          - '26372000'
   models:
     Plugin_033_RockefellerCenter.dat:
       - badb57f1-0487
@@ -5362,7 +5372,7 @@ maxis/sagrada-familia:
         replace: 6bce41a2
         size: 5x5
         textures:
-          - '258e0000'
+          - '258e3000'
   models:
     Plugin_00F_TempleExpiatiori.dat:
       - badb57f1-04b4
@@ -5554,13 +5564,13 @@ maxis/schloss-schoenbrun:
           - 257a0000
           - 257c0000
           - '25800000'
-          - 258c0000
-          - 258f0000
+          - 258c2000
+          - 258f2000
           - 25ea0000
           - 25f40000
           - 25f60000
           - '26060000'
-          - '26210000'
+          - '26213000'
   models:
     Plugin_00E_SchlossSchoenbrun.dat:
       - badb57f1-04b5
@@ -5666,12 +5676,12 @@ maxis/seoul-city-hall:
         replace: 2ac40624
         size: 6x5
         textures:
-          - 258f0000
-          - '25900000'
-          - 25b40000
+          - 258f2000
+          - '25901000'
+          - 25b41000
           - 25f10000
-          - '26210000'
-          - '26270000'
+          - '26213000'
+          - '26271000'
   models:
     Plugin_004_SeoulCityHall.dat:
       - badb57f1-04bd
@@ -5771,9 +5781,9 @@ maxis/seoul-soccer-stadium:
         replace: 4ac40971
         size: 15x15
         textures:
-          - 258c0000
-          - 258f0000
-          - 25aa0000
+          - 258c2000
+          - 258f2000
+          - 25aa2000
           - 25ea0000
           - 25ed0000
           - 25ee0000
@@ -5877,8 +5887,8 @@ maxis/shorty-burger:
               - 1f000000
             size: 2x3
             textures:
-              - 25b40000
-              - 25fb0100
+              - 25b41000
+              - 25fb1100
       models:
         Plugin_035_ShortyBurger.dat:
           - badb57f1-0485
@@ -5926,9 +5936,9 @@ maxis/sobchak-lanes:
               - 28ac0000
             size: 3x3
             textures:
-              - '25920000'
-              - '25960000'
-              - '26350000'
+              - '25923000'
+              - '25963000'
+              - '26353000'
       models:
         Plugin_034_SobchakLanes.dat:
           - badb57f1-0486
@@ -6007,7 +6017,7 @@ maxis/stone-house:
             textures:
               - 1e7e0000
               - '1e810000'
-              - '262e0000'
+              - '262e3000'
       models:
         StoneHouse-0x5ad0e817_0x6cd8b254_0x2e0000.SC4Model:
           - 6cd8b254-002e
@@ -6166,7 +6176,7 @@ maxis/taipei-art-museum:
         replace: 4c9fcb9f
         size: 5x7
         textures:
-          - 252b0000
+          - 252b3000
   models:
     Plugin_030_TaipeiArtMuseum.dat:
       - badb57f1-0490
@@ -6287,8 +6297,8 @@ maxis/temple-of-grutz:
               - '28340000'
             size: 6x6
             textures:
-              - 251c0000
-              - 25ba0000
+              - 251c2000
+              - 25ba1000
       models:
         TempleOfGrutz-0x5ad0e817_0xad1d67dc_0x30000.SC4Model:
           - ad1d67dc
@@ -6333,9 +6343,9 @@ maxis/the-living-mall:
         replace: 6ac4085b
         size: 6x6
         textures:
-          - 258f0000
-          - 25c40000
-          - '26210000'
+          - 258f2000
+          - 25c43000
+          - '26213000'
   models:
     Plugin_002_TheLivingMall.dat:
       - badb57f1-04c0

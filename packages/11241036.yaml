@@ -12,25 +12,11 @@
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.jpg.d34b5066fa746c20427bb6e6fea90199.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2016_11/Anleitung_3.png.de43eb44243c947ce7eff75c17b88c17.png
   name: Various Lot Foundations and Retaining Walls
-  optional:
-    - rebalynnts/spot
-    - memo/submenus-dll
   options:
-    - default: true
-      description: 4 lots that can be used on slopes to connect ground traffic routes to the overpass puzzle pieces from the NAM and thereby blending them in with the seawall system you get with this download
-      id: seawall-connection-lots
-      label: Seawall connection lots
+    - default: false
+      id: test-lots
+      label: Test lots
       type: boolean
-    - choices:
-        - label: Parks
-          value: parks
-        - label: Plazas
-          value: plazas
-      condition:
-        submenus: true
-      id: submenu
-      label: Submenu
-      type: string
   support: https://community.simtropolis.com/forums/topic/759685-11241036-lottingmodding-thread
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_11/Scr_1.thumb.jpg.f55da6bf2b5ff6a084ff49f28359e41b.jpg
   url: https://community.simtropolis.com/files/file/31346-various-lot-foundations-and-retaining-walls/
@@ -102,91 +88,91 @@
             name: WhiteBrick1 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           05221bcc:
             building: 05221bcc
             default: false
             name: ConcreteBlocks8 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           25221ba4:
             building: 25221ba4
             default: false
             name: LightBrick1 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           25221bf5:
             building: 25221bf5
             default: false
             name: Concrete2 Maxis
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           25221bfd:
             building: 25221bfd
             default: false
             name: Concrete3 Maxis
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           65221b9c:
             building: 65221b9c
             default: false
             name: MossyConcrete1 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           85221bae:
             building: 85221bae
             default: false
             name: GreyStone3 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           85221be3:
             building: 85221be3
             default: false
             name: BrownStone2 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           a5221bd8:
             building: a5221bd8
             default: false
             name: CheckeredConcrete Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           c5221b88:
             building: c5221b88
             default: false
             name: WhiteBrick2 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           c5221bbf:
             building: c5221bbf
             default: false
             name: GreyBrick5 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           c5221bef:
             building: c5221bef
             default: false
             name: Concrete1 Maxis
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           e5221bb5:
             building: e5221bb5
             default: false
             name: GreyStone2 Mas71
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
       release: 2024-12-17T16:13:39.131Z
       version: 1.0.0
 
@@ -1188,7 +1174,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       02f2eb7a:
         building: 02f2eb7a
         name: MPS Seawall Stairs
@@ -1199,7 +1185,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       052253c2:
         building: 052253c2
         name: MPS Market Stalls 2x2 Market Hall
@@ -1210,7 +1196,7 @@
           - 2b3a0000
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       1f6de657:
         building: 1f6de657
         name: MPS Tree Ash
@@ -1221,7 +1207,7 @@
           - bdbe6ede
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       1f6de6a0:
         building: 1f6de6a0
         name: MPS Tree Common Spruce
@@ -1230,7 +1216,7 @@
           - 9e3228c7
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       1fb001b0:
         building: 1fb001b0
         name: MPS Square Tables
@@ -1242,7 +1228,7 @@
           - d948c533
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       20067f8b:
         building: 20067f8b
         name: MPS Flowerbed 2x2
@@ -1259,7 +1245,7 @@
           - f90b5ab8
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       252034b6:
         building: 252034b6
         name: MPS Seawall Underpass Left
@@ -1270,7 +1256,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       3f689579:
         building: 3f689579
         name: MPS Flowerbed Straight Tree
@@ -1283,7 +1269,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
           - f85c40ca
       3f689b8e:
         building: 3f689b8e
@@ -1293,7 +1279,7 @@
           - f32100fc
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       3f6cbc0c:
         building: 3f6cbc0c
         name: MPS Plaza 3x3
@@ -1311,7 +1297,7 @@
           - ff4b68c4
         size: 3x3
         textures:
-          - 258f0000
+          - 258f2000
       3fb002ee:
         building: 3fb002ee
         name: MPS Square Pond 1x1
@@ -1324,7 +1310,7 @@
           - c62422b3
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       40082c31:
         building: 40082c31
         name: MPS Square Fountain 2x2
@@ -1337,7 +1323,7 @@
           - c62422b3
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       42f19f4f:
         building: 42f19f4f
         name: MPS Seawall Ash Benches
@@ -1353,7 +1339,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       5368c021:
         building: 5368c021
         name: MPS Square Phone Booths
@@ -1363,13 +1349,13 @@
           - a000007b
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       5f5d185d:
         building: 5f5d185d
         name: MPS Square Bare
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       5f689864:
         building: 5f689864
         name: MPS Square Fountain 1x1
@@ -1378,7 +1364,7 @@
           - 2a7ccda1
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       5f6b50fb:
         building: 5f6b50fb
         name: MPS Statue 2x2 Male
@@ -1392,7 +1378,7 @@
           - ee0c0620
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       5f6cbbff:
         building: 5f6cbbff
         name: MPS Plaza 1x1
@@ -1406,7 +1392,7 @@
           - f90b5ab8
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       5f6cbc1b:
         building: 5f6cbc1b
         name: MPS Plaza 2x2
@@ -1423,7 +1409,7 @@
           - deaaf93f
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       5fb00304:
         building: 5fb00304
         name: MPS Square Pond 2x2
@@ -1439,7 +1425,7 @@
           - e3dd103a
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       600d210f:
         building: 600d210f
         name: MPS Seawall OC
@@ -1449,7 +1435,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       62f19f55:
         building: 62f19f55
         name: MPS Seawall Linden Benches
@@ -1465,7 +1451,7 @@
           - fdefa1a7
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       650df300:
         building: 650df300
         name: MPS Square Bike Stand
@@ -1475,7 +1461,7 @@
           - b9f5b78e
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       650f1948:
         building: 650f1948
         name: MPS Seawall Beech
@@ -1489,7 +1475,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       65225aac:
         building: 65225aac
         name: MPS Market Stalls 2x1
@@ -1518,7 +1504,7 @@
           - f948c549
         size: 2x1
         textures:
-          - 258f0000
+          - 258f2000
       7368c00d:
         building: 7368c00d
         name: MPS Square Column
@@ -1532,7 +1518,7 @@
           - ba7bf9b7
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       7f64d503:
         building: 7f64d503
         name: MPS Square Lantern
@@ -1540,7 +1526,7 @@
           - 1dfb0000
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       7f6890fa:
         building: 7f6890fa
         name: MPS Flowerbed Straight
@@ -1551,7 +1537,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
           - f85c40ca
       800d1d3a:
         building: 800d1d3a
@@ -1562,7 +1548,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       800d20d7:
         building: 800d20d7
         name: MPS Seawall Gazebo
@@ -1573,7 +1559,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       852258d4:
         building: 852258d4
         name: MPS Market Stalls 1x1 3x T
@@ -1592,7 +1578,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       9368c013:
         building: 9368c013
         name: MPS Square Vending Machines
@@ -1609,7 +1595,7 @@
           - edd9a6d7
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       9f68965c:
         building: 9f68965c
         name: MPS Flowerbed Straight Benches
@@ -1624,7 +1610,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
           - f85c40ca
       9f6de67e:
         building: 9f6de67e
@@ -1636,7 +1622,7 @@
           - deaaf93f
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       9f6de6bc:
         building: 9f6de6bc
         name: MPS Tree Elm
@@ -1647,7 +1633,7 @@
           - e3dd103a
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       9fb00128:
         building: 9fb00128
         name: MPS Square Benches
@@ -1658,7 +1644,7 @@
           - c62422b3
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       9fb001d6:
         building: 9fb001d6
         name: MPS Square Gazebo
@@ -1672,7 +1658,7 @@
           - ac0734b5
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       a00d1e8a:
         building: a00d1e8a
         name: MPS Seawall Linden
@@ -1686,7 +1672,7 @@
           - fdefa1a7
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       a52255f8:
         building: a52255f8
         name: MPS Market Stalls 1x1 Large Canopy
@@ -1697,7 +1683,7 @@
           - a000007b
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       a5225647:
         building: a5225647
         name: MPS Market Stalls 1x1 Medium Canopies
@@ -1710,7 +1696,7 @@
           - d948c533
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       bf664af5:
         building: bf664af5
         name: MPS Square Diagonal Grass
@@ -1719,8 +1705,8 @@
           - b948c54e
         size: 1x1
         textures:
-          - 258f0000
-          - '30310000'
+          - 258f2000
+          - '30312000'
       bf688f3a:
         building: bf688f3a
         name: MPS Flowerbed 1x1
@@ -1732,7 +1718,7 @@
           - f90b5ab8
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
           - f85c40c0
       bf6de630:
         building: bf6de630
@@ -1744,13 +1730,13 @@
           - e04755c9
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       c00d20f6:
         building: c00d20f6
         name: MPS Seawall IC
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       c52254f1:
         building: c52254f1
         name: MPS Market Stalls 1x1 2 Rows
@@ -1766,7 +1752,7 @@
           - f21ffc86
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       c5225732:
         building: c5225732
         name: MPS Market Stalls 1x1 4x Corner
@@ -1791,7 +1777,7 @@
           - ef3dac39
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       c5225d6a:
         building: c5225d6a
         name: MPS Market Stalls 1x1 Refreshment Stand
@@ -1805,7 +1791,7 @@
           - d948c518
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       df68907c:
         building: df68907c
         name: MPS Flowerbed End
@@ -1816,7 +1802,7 @@
           - d948c533
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
           - f85c40c5
       df689aa4:
         building: df689aa4
@@ -1826,7 +1812,7 @@
           - f37e00fc
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       df6de6dc:
         building: df6de6dc
         name: MPS Tree Linden
@@ -1837,7 +1823,7 @@
           - fdefa1a7
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       e00d1e33:
         building: e00d1e33
         name: MPS Seawall Ash
@@ -1851,7 +1837,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       e183538b:
         building: e183538b
         name: MPS Seawall Bridge Other Side
@@ -1860,7 +1846,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       e50f19a8:
         building: e50f19a8
         name: MPS Seawall Beech Benches
@@ -1876,7 +1862,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       e52034a2:
         building: e52034a2
         name: MPS Seawall Underpass Right
@@ -1887,7 +1873,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       e52257cc:
         building: e52257cc
         name: MPS Market Stalls 1x1 5x Curve
@@ -1913,7 +1899,7 @@
           - ef3dac39
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       e5225819:
         building: e5225819
         name: MPS Market Stalls 1x1 5x T
@@ -1940,7 +1926,7 @@
           - f948c549
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       eee859e4:
         building: eee859e4
         name: MPS Square Toilets
@@ -1950,7 +1936,7 @@
           - a000007b
         size: 1x1
         textures:
-          - 258f0000
+          - 258f2000
       ff6b48a5:
         building: ff6b48a5
         name: MPS Statue 2x2 Female
@@ -1964,7 +1950,7 @@
           - ee0c0620
         size: 2x2
         textures:
-          - 258f0000
+          - 258f2000
       ffb00478:
         building: ffb00478
         name: MPS Square Pond 3x3
@@ -1984,36 +1970,36 @@
           - ff4b68c4
         size: 3x3
         textures:
-          - 258f0000
+          - 258f2000
     Seawall Connection Lots.dat:
       0014acfb:
         building: 0014acfb
         name: Seawall Connection OWR
         size: 1x1
         textures:
-          - 258f0000
-          - '26380000'
+          - 258f2000
+          - '26382000'
       0014ad6c:
         building: 0014ad6c
         name: Seawall Connection Railway
         size: 1x1
         textures:
           - 25db0000
-          - 263d0000
+          - 263d2000
       8014ad35:
         building: 8014ad35
         name: Seawall Connection Avenue
         size: 2x1
         textures:
-          - 258f0000
-          - '26360000'
+          - 258f2000
+          - '26362000'
       a014ad06:
         building: a014ad06
         name: Seawall Connection Road
         size: 1x1
         textures:
-          - 258f0000
-          - '26370000'
+          - 258f2000
+          - '26372000'
   name: Modular Plaza System (MPS)
   optional:
     - memo/submenus-dll
@@ -2587,7 +2573,7 @@
               - b948c54e
             size: 1x1
             textures:
-              - '30310000'
+              - '30312000'
               - cf000200
           bf688f3a:
             building: bf688f3a
@@ -3422,7 +3408,7 @@
             size: 1x1
             textures:
               - 2d580000
-              - '30310000'
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -4255,7 +4241,7 @@
               - b948c54e
             size: 1x1
             textures:
-              - '30310000'
+              - '30312000'
               - 6cc14000
           bf688f3a:
             building: bf688f3a
@@ -4581,7 +4567,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           02f2eb7a:
             building: 02f2eb7a
             name: MPS Seawall Stairs
@@ -4592,7 +4578,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           052253c2:
             building: 052253c2
             name: MPS Market Stalls 2x2 Market Hall
@@ -4603,7 +4589,7 @@
               - 2b3a0000
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           1f6de657:
             building: 1f6de657
             name: MPS Tree Ash
@@ -4614,7 +4600,7 @@
               - bdbe6ede
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           1f6de6a0:
             building: 1f6de6a0
             name: MPS Tree Common Spruce
@@ -4623,7 +4609,7 @@
               - 9e3228c7
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           1fb001b0:
             building: 1fb001b0
             name: MPS Square Tables
@@ -4635,7 +4621,7 @@
               - d948c533
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           20067f8b:
             building: 20067f8b
             name: MPS Flowerbed 2x2
@@ -4652,7 +4638,7 @@
               - f90b5ab8
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           252034b6:
             building: 252034b6
             name: MPS Seawall Underpass Left
@@ -4663,7 +4649,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           3f689579:
             building: 3f689579
             name: MPS Flowerbed Straight Tree
@@ -4676,7 +4662,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
               - f85c40ca
           3f689b8e:
             building: 3f689b8e
@@ -4686,7 +4672,7 @@
               - f32100fc
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           3f6cbc0c:
             building: 3f6cbc0c
             name: MPS Plaza 3x3
@@ -4704,7 +4690,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - 258c0000
+              - 258c2000
           3fb002ee:
             building: 3fb002ee
             name: MPS Square Pond 1x1
@@ -4717,7 +4703,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           40082c31:
             building: 40082c31
             name: MPS Square Fountain 2x2
@@ -4730,7 +4716,7 @@
               - c62422b3
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           42f19f4f:
             building: 42f19f4f
             name: MPS Seawall Ash Benches
@@ -4746,7 +4732,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           5368c021:
             building: 5368c021
             name: MPS Square Phone Booths
@@ -4756,13 +4742,13 @@
               - a000007b
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           5f5d185d:
             building: 5f5d185d
             name: MPS Square Bare
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           5f689864:
             building: 5f689864
             name: MPS Square Fountain 1x1
@@ -4771,7 +4757,7 @@
               - 2a7ccda1
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           5f6b50fb:
             building: 5f6b50fb
             name: MPS Statue 2x2 Male
@@ -4785,7 +4771,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           5f6cbbff:
             building: 5f6cbbff
             name: MPS Plaza 1x1
@@ -4799,7 +4785,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           5f6cbc1b:
             building: 5f6cbc1b
             name: MPS Plaza 2x2
@@ -4816,7 +4802,7 @@
               - deaaf93f
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           5fb00304:
             building: 5fb00304
             name: MPS Square Pond 2x2
@@ -4832,7 +4818,7 @@
               - e3dd103a
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           600d210f:
             building: 600d210f
             name: MPS Seawall OC
@@ -4842,7 +4828,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           62f19f55:
             building: 62f19f55
             name: MPS Seawall Linden Benches
@@ -4858,7 +4844,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           650df300:
             building: 650df300
             name: MPS Square Bike Stand
@@ -4868,7 +4854,7 @@
               - b9f5b78e
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           650f1948:
             building: 650f1948
             name: MPS Seawall Beech
@@ -4882,7 +4868,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           65225aac:
             building: 65225aac
             name: MPS Market Stalls 2x1
@@ -4911,7 +4897,7 @@
               - f948c549
             size: 2x1
             textures:
-              - 258c0000
+              - 258c2000
           7368c00d:
             building: 7368c00d
             name: MPS Square Column
@@ -4925,7 +4911,7 @@
               - ba7bf9b7
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           7f64d503:
             building: 7f64d503
             name: MPS Square Lantern
@@ -4933,7 +4919,7 @@
               - 1dfb0000
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           7f6890fa:
             building: 7f6890fa
             name: MPS Flowerbed Straight
@@ -4944,7 +4930,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
               - f85c40ca
           800d1d3a:
             building: 800d1d3a
@@ -4955,7 +4941,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           800d20d7:
             building: 800d20d7
             name: MPS Seawall Gazebo
@@ -4966,7 +4952,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           852258d4:
             building: 852258d4
             name: MPS Market Stalls 1x1 3x T
@@ -4985,7 +4971,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           9368c013:
             building: 9368c013
             name: MPS Square Vending Machines
@@ -5002,7 +4988,7 @@
               - edd9a6d7
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           9f68965c:
             building: 9f68965c
             name: MPS Flowerbed Straight Benches
@@ -5017,7 +5003,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
               - f85c40ca
           9f6de67e:
             building: 9f6de67e
@@ -5029,7 +5015,7 @@
               - deaaf93f
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           9f6de6bc:
             building: 9f6de6bc
             name: MPS Tree Elm
@@ -5040,7 +5026,7 @@
               - e3dd103a
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           9fb00128:
             building: 9fb00128
             name: MPS Square Benches
@@ -5051,7 +5037,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           9fb001d6:
             building: 9fb001d6
             name: MPS Square Gazebo
@@ -5065,7 +5051,7 @@
               - ac0734b5
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           a00d1e8a:
             building: a00d1e8a
             name: MPS Seawall Linden
@@ -5079,7 +5065,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           a52255f8:
             building: a52255f8
             name: MPS Market Stalls 1x1 Large Canopy
@@ -5090,7 +5076,7 @@
               - a000007b
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           a5225647:
             building: a5225647
             name: MPS Market Stalls 1x1 Medium Canopies
@@ -5103,7 +5089,7 @@
               - d948c533
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           bf664af5:
             building: bf664af5
             name: MPS Square Diagonal Grass
@@ -5112,8 +5098,8 @@
               - b948c54e
             size: 1x1
             textures:
-              - 258c0000
-              - '30310000'
+              - 258c2000
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -5125,7 +5111,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
               - f85c40c0
           bf6de630:
             building: bf6de630
@@ -5137,13 +5123,13 @@
               - e04755c9
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           c00d20f6:
             building: c00d20f6
             name: MPS Seawall IC
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           c52254f1:
             building: c52254f1
             name: MPS Market Stalls 1x1 2 Rows
@@ -5159,7 +5145,7 @@
               - f21ffc86
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           c5225732:
             building: c5225732
             name: MPS Market Stalls 1x1 4x Corner
@@ -5184,7 +5170,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           c5225d6a:
             building: c5225d6a
             name: MPS Market Stalls 1x1 Refreshment Stand
@@ -5198,7 +5184,7 @@
               - d948c518
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           df68907c:
             building: df68907c
             name: MPS Flowerbed End
@@ -5209,7 +5195,7 @@
               - d948c533
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
               - f85c40c5
           df689aa4:
             building: df689aa4
@@ -5219,7 +5205,7 @@
               - f37e00fc
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           df6de6dc:
             building: df6de6dc
             name: MPS Tree Linden
@@ -5230,7 +5216,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           e00d1e33:
             building: e00d1e33
             name: MPS Seawall Ash
@@ -5244,7 +5230,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           e183538b:
             building: e183538b
             name: MPS Seawall Bridge Other Side
@@ -5253,7 +5239,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           e50f19a8:
             building: e50f19a8
             name: MPS Seawall Beech Benches
@@ -5269,7 +5255,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           e52034a2:
             building: e52034a2
             name: MPS Seawall Underpass Right
@@ -5280,7 +5266,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           e52257cc:
             building: e52257cc
             name: MPS Market Stalls 1x1 5x Curve
@@ -5306,7 +5292,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           e5225819:
             building: e5225819
             name: MPS Market Stalls 1x1 5x T
@@ -5333,7 +5319,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           eee859e4:
             building: eee859e4
             name: MPS Square Toilets
@@ -5343,7 +5329,7 @@
               - a000007b
             size: 1x1
             textures:
-              - 258c0000
+              - 258c2000
           ff6b48a5:
             building: ff6b48a5
             name: MPS Statue 2x2 Female
@@ -5357,7 +5343,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - 258c0000
+              - 258c2000
           ffb00478:
             building: ffb00478
             name: MPS Square Pond 3x3
@@ -5377,7 +5363,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - 258c0000
+              - 258c2000
       name: Maxis Concrete
       release: 2024-12-18T09:40:53.364Z
       version: 2.0.0
@@ -5947,7 +5933,7 @@
             size: 1x1
             textures:
               - 1da445ba
-              - '30310000'
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -6778,7 +6764,7 @@
               - b948c54e
             size: 1x1
             textures:
-              - '30310000'
+              - '30312000'
               - '30360000'
           bf688f3a:
             building: bf688f3a
@@ -7079,7 +7065,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           02f2eb7a:
             building: 02f2eb7a
             name: MPS Seawall Stairs
@@ -7090,7 +7076,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           052253c2:
             building: 052253c2
             name: MPS Market Stalls 2x2 Market Hall
@@ -7101,7 +7087,7 @@
               - 2b3a0000
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           1f6de657:
             building: 1f6de657
             name: MPS Tree Ash
@@ -7112,7 +7098,7 @@
               - bdbe6ede
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           1f6de6a0:
             building: 1f6de6a0
             name: MPS Tree Common Spruce
@@ -7121,7 +7107,7 @@
               - 9e3228c7
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           1fb001b0:
             building: 1fb001b0
             name: MPS Square Tables
@@ -7133,7 +7119,7 @@
               - d948c533
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           20067f8b:
             building: 20067f8b
             name: MPS Flowerbed 2x2
@@ -7150,7 +7136,7 @@
               - f90b5ab8
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           252034b6:
             building: 252034b6
             name: MPS Seawall Underpass Left
@@ -7161,7 +7147,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           3f689579:
             building: 3f689579
             name: MPS Flowerbed Straight Tree
@@ -7174,7 +7160,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
               - f85c40ca
           3f689b8e:
             building: 3f689b8e
@@ -7184,7 +7170,7 @@
               - f32100fc
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           3f6cbc0c:
             building: 3f6cbc0c
             name: MPS Plaza 3x3
@@ -7202,7 +7188,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - 258d0000
+              - 258d1000
           3fb002ee:
             building: 3fb002ee
             name: MPS Square Pond 1x1
@@ -7215,7 +7201,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           40082c31:
             building: 40082c31
             name: MPS Square Fountain 2x2
@@ -7228,7 +7214,7 @@
               - c62422b3
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           42f19f4f:
             building: 42f19f4f
             name: MPS Seawall Ash Benches
@@ -7244,7 +7230,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           5368c021:
             building: 5368c021
             name: MPS Square Phone Booths
@@ -7254,13 +7240,13 @@
               - a000007b
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           5f5d185d:
             building: 5f5d185d
             name: MPS Square Bare
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           5f689864:
             building: 5f689864
             name: MPS Square Fountain 1x1
@@ -7269,7 +7255,7 @@
               - 2a7ccda1
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           5f6b50fb:
             building: 5f6b50fb
             name: MPS Statue 2x2 Male
@@ -7283,7 +7269,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           5f6cbbff:
             building: 5f6cbbff
             name: MPS Plaza 1x1
@@ -7297,7 +7283,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           5f6cbc1b:
             building: 5f6cbc1b
             name: MPS Plaza 2x2
@@ -7314,7 +7300,7 @@
               - deaaf93f
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           5fb00304:
             building: 5fb00304
             name: MPS Square Pond 2x2
@@ -7330,7 +7316,7 @@
               - e3dd103a
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           600d210f:
             building: 600d210f
             name: MPS Seawall OC
@@ -7340,7 +7326,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           62f19f55:
             building: 62f19f55
             name: MPS Seawall Linden Benches
@@ -7356,7 +7342,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           650df300:
             building: 650df300
             name: MPS Square Bike Stand
@@ -7366,7 +7352,7 @@
               - b9f5b78e
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           650f1948:
             building: 650f1948
             name: MPS Seawall Beech
@@ -7380,7 +7366,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           65225aac:
             building: 65225aac
             name: MPS Market Stalls 2x1
@@ -7409,7 +7395,7 @@
               - f948c549
             size: 2x1
             textures:
-              - 258d0000
+              - 258d1000
           7368c00d:
             building: 7368c00d
             name: MPS Square Column
@@ -7423,7 +7409,7 @@
               - ba7bf9b7
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           7f64d503:
             building: 7f64d503
             name: MPS Square Lantern
@@ -7431,7 +7417,7 @@
               - 1dfb0000
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           7f6890fa:
             building: 7f6890fa
             name: MPS Flowerbed Straight
@@ -7442,7 +7428,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
               - f85c40ca
           800d1d3a:
             building: 800d1d3a
@@ -7453,7 +7439,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           800d20d7:
             building: 800d20d7
             name: MPS Seawall Gazebo
@@ -7464,7 +7450,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           852258d4:
             building: 852258d4
             name: MPS Market Stalls 1x1 3x T
@@ -7483,7 +7469,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           9368c013:
             building: 9368c013
             name: MPS Square Vending Machines
@@ -7500,7 +7486,7 @@
               - edd9a6d7
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           9f68965c:
             building: 9f68965c
             name: MPS Flowerbed Straight Benches
@@ -7515,7 +7501,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
               - f85c40ca
           9f6de67e:
             building: 9f6de67e
@@ -7527,7 +7513,7 @@
               - deaaf93f
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           9f6de6bc:
             building: 9f6de6bc
             name: MPS Tree Elm
@@ -7538,7 +7524,7 @@
               - e3dd103a
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           9fb00128:
             building: 9fb00128
             name: MPS Square Benches
@@ -7549,7 +7535,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           9fb001d6:
             building: 9fb001d6
             name: MPS Square Gazebo
@@ -7563,7 +7549,7 @@
               - ac0734b5
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           a00d1e8a:
             building: a00d1e8a
             name: MPS Seawall Linden
@@ -7577,7 +7563,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           a52255f8:
             building: a52255f8
             name: MPS Market Stalls 1x1 Large Canopy
@@ -7588,7 +7574,7 @@
               - a000007b
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           a5225647:
             building: a5225647
             name: MPS Market Stalls 1x1 Medium Canopies
@@ -7601,7 +7587,7 @@
               - d948c533
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           bf664af5:
             building: bf664af5
             name: MPS Square Diagonal Grass
@@ -7610,8 +7596,8 @@
               - b948c54e
             size: 1x1
             textures:
-              - 258d0000
-              - '30310000'
+              - 258d1000
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -7623,7 +7609,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
               - f85c40c0
           bf6de630:
             building: bf6de630
@@ -7635,13 +7621,13 @@
               - e04755c9
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           c00d20f6:
             building: c00d20f6
             name: MPS Seawall IC
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           c52254f1:
             building: c52254f1
             name: MPS Market Stalls 1x1 2 Rows
@@ -7657,7 +7643,7 @@
               - f21ffc86
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           c5225732:
             building: c5225732
             name: MPS Market Stalls 1x1 4x Corner
@@ -7682,7 +7668,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           c5225d6a:
             building: c5225d6a
             name: MPS Market Stalls 1x1 Refreshment Stand
@@ -7696,7 +7682,7 @@
               - d948c518
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           df68907c:
             building: df68907c
             name: MPS Flowerbed End
@@ -7707,7 +7693,7 @@
               - d948c533
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
               - f85c40c5
           df689aa4:
             building: df689aa4
@@ -7717,7 +7703,7 @@
               - f37e00fc
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           df6de6dc:
             building: df6de6dc
             name: MPS Tree Linden
@@ -7728,7 +7714,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           e00d1e33:
             building: e00d1e33
             name: MPS Seawall Ash
@@ -7742,7 +7728,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           e183538b:
             building: e183538b
             name: MPS Seawall Bridge Other Side
@@ -7751,7 +7737,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           e50f19a8:
             building: e50f19a8
             name: MPS Seawall Beech Benches
@@ -7767,7 +7753,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           e52034a2:
             building: e52034a2
             name: MPS Seawall Underpass Right
@@ -7778,7 +7764,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           e52257cc:
             building: e52257cc
             name: MPS Market Stalls 1x1 5x Curve
@@ -7804,7 +7790,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           e5225819:
             building: e5225819
             name: MPS Market Stalls 1x1 5x T
@@ -7831,7 +7817,7 @@
               - f948c549
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           eee859e4:
             building: eee859e4
             name: MPS Square Toilets
@@ -7841,7 +7827,7 @@
               - a000007b
             size: 1x1
             textures:
-              - 258d0000
+              - 258d1000
           ff6b48a5:
             building: ff6b48a5
             name: MPS Statue 2x2 Female
@@ -7855,7 +7841,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - 258d0000
+              - 258d1000
           ffb00478:
             building: ffb00478
             name: MPS Square Pond 3x3
@@ -7875,7 +7861,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - 258d0000
+              - 258d1000
       name: NAM Industrial
       release: 2024-12-18T09:40:53.013Z
       version: 2.0.0
@@ -7911,7 +7897,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           02f2eb7a:
             building: 02f2eb7a
             name: MPS Seawall Stairs
@@ -7922,7 +7908,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           052253c2:
             building: 052253c2
             name: MPS Market Stalls 2x2 Market Hall
@@ -7933,7 +7919,7 @@
               - 2b3a0000
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           1f6de657:
             building: 1f6de657
             name: MPS Tree Ash
@@ -7944,7 +7930,7 @@
               - bdbe6ede
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           1f6de6a0:
             building: 1f6de6a0
             name: MPS Tree Common Spruce
@@ -7953,7 +7939,7 @@
               - 9e3228c7
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           1fb001b0:
             building: 1fb001b0
             name: MPS Square Tables
@@ -7965,7 +7951,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           20067f8b:
             building: 20067f8b
             name: MPS Flowerbed 2x2
@@ -7982,7 +7968,7 @@
               - f90b5ab8
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           252034b6:
             building: 252034b6
             name: MPS Seawall Underpass Left
@@ -7993,7 +7979,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           3f689579:
             building: 3f689579
             name: MPS Flowerbed Straight Tree
@@ -8006,7 +7992,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
               - f85c40ca
           3f689b8e:
             building: 3f689b8e
@@ -8016,7 +8002,7 @@
               - f32100fc
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           3f6cbc0c:
             building: 3f6cbc0c
             name: MPS Plaza 3x3
@@ -8034,7 +8020,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - '26330000'
+              - '26333000'
           3fb002ee:
             building: 3fb002ee
             name: MPS Square Pond 1x1
@@ -8047,7 +8033,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           40082c31:
             building: 40082c31
             name: MPS Square Fountain 2x2
@@ -8060,7 +8046,7 @@
               - c62422b3
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           42f19f4f:
             building: 42f19f4f
             name: MPS Seawall Ash Benches
@@ -8076,7 +8062,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           5368c021:
             building: 5368c021
             name: MPS Square Phone Booths
@@ -8086,13 +8072,13 @@
               - a000007b
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           5f5d185d:
             building: 5f5d185d
             name: MPS Square Bare
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           5f689864:
             building: 5f689864
             name: MPS Square Fountain 1x1
@@ -8101,7 +8087,7 @@
               - 2a7ccda1
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           5f6b50fb:
             building: 5f6b50fb
             name: MPS Statue 2x2 Male
@@ -8115,7 +8101,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           5f6cbbff:
             building: 5f6cbbff
             name: MPS Plaza 1x1
@@ -8129,7 +8115,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           5f6cbc1b:
             building: 5f6cbc1b
             name: MPS Plaza 2x2
@@ -8146,7 +8132,7 @@
               - deaaf93f
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           5fb00304:
             building: 5fb00304
             name: MPS Square Pond 2x2
@@ -8162,7 +8148,7 @@
               - e3dd103a
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           600d210f:
             building: 600d210f
             name: MPS Seawall OC
@@ -8172,7 +8158,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           62f19f55:
             building: 62f19f55
             name: MPS Seawall Linden Benches
@@ -8188,7 +8174,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           650df300:
             building: 650df300
             name: MPS Square Bike Stand
@@ -8198,7 +8184,7 @@
               - b9f5b78e
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           650f1948:
             building: 650f1948
             name: MPS Seawall Beech
@@ -8212,7 +8198,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           65225aac:
             building: 65225aac
             name: MPS Market Stalls 2x1
@@ -8241,7 +8227,7 @@
               - f948c549
             size: 2x1
             textures:
-              - '26330000'
+              - '26333000'
           7368c00d:
             building: 7368c00d
             name: MPS Square Column
@@ -8255,7 +8241,7 @@
               - ba7bf9b7
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           7f64d503:
             building: 7f64d503
             name: MPS Square Lantern
@@ -8263,7 +8249,7 @@
               - 1dfb0000
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           7f6890fa:
             building: 7f6890fa
             name: MPS Flowerbed Straight
@@ -8274,7 +8260,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
               - f85c40ca
           800d1d3a:
             building: 800d1d3a
@@ -8285,7 +8271,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           800d20d7:
             building: 800d20d7
             name: MPS Seawall Gazebo
@@ -8296,7 +8282,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           852258d4:
             building: 852258d4
             name: MPS Market Stalls 1x1 3x T
@@ -8315,7 +8301,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           9368c013:
             building: 9368c013
             name: MPS Square Vending Machines
@@ -8332,7 +8318,7 @@
               - edd9a6d7
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           9f68965c:
             building: 9f68965c
             name: MPS Flowerbed Straight Benches
@@ -8347,7 +8333,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
               - f85c40ca
           9f6de67e:
             building: 9f6de67e
@@ -8359,7 +8345,7 @@
               - deaaf93f
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           9f6de6bc:
             building: 9f6de6bc
             name: MPS Tree Elm
@@ -8370,7 +8356,7 @@
               - e3dd103a
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           9fb00128:
             building: 9fb00128
             name: MPS Square Benches
@@ -8381,7 +8367,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           9fb001d6:
             building: 9fb001d6
             name: MPS Square Gazebo
@@ -8395,7 +8381,7 @@
               - ac0734b5
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           a00d1e8a:
             building: a00d1e8a
             name: MPS Seawall Linden
@@ -8409,7 +8395,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           a52255f8:
             building: a52255f8
             name: MPS Market Stalls 1x1 Large Canopy
@@ -8420,7 +8406,7 @@
               - a000007b
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           a5225647:
             building: a5225647
             name: MPS Market Stalls 1x1 Medium Canopies
@@ -8433,7 +8419,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           bf664af5:
             building: bf664af5
             name: MPS Square Diagonal Grass
@@ -8442,8 +8428,8 @@
               - b948c54e
             size: 1x1
             textures:
-              - '26330000'
-              - '30310000'
+              - '26333000'
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -8455,7 +8441,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
               - f85c40c0
           bf6de630:
             building: bf6de630
@@ -8467,13 +8453,13 @@
               - e04755c9
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           c00d20f6:
             building: c00d20f6
             name: MPS Seawall IC
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           c52254f1:
             building: c52254f1
             name: MPS Market Stalls 1x1 2 Rows
@@ -8489,7 +8475,7 @@
               - f21ffc86
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           c5225732:
             building: c5225732
             name: MPS Market Stalls 1x1 4x Corner
@@ -8514,7 +8500,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           c5225d6a:
             building: c5225d6a
             name: MPS Market Stalls 1x1 Refreshment Stand
@@ -8528,7 +8514,7 @@
               - d948c518
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           df68907c:
             building: df68907c
             name: MPS Flowerbed End
@@ -8539,7 +8525,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
               - f85c40c5
           df689aa4:
             building: df689aa4
@@ -8549,7 +8535,7 @@
               - f37e00fc
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           df6de6dc:
             building: df6de6dc
             name: MPS Tree Linden
@@ -8560,7 +8546,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           e00d1e33:
             building: e00d1e33
             name: MPS Seawall Ash
@@ -8574,7 +8560,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           e183538b:
             building: e183538b
             name: MPS Seawall Bridge Other Side
@@ -8583,7 +8569,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           e50f19a8:
             building: e50f19a8
             name: MPS Seawall Beech Benches
@@ -8599,7 +8585,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           e52034a2:
             building: e52034a2
             name: MPS Seawall Underpass Right
@@ -8610,7 +8596,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           e52257cc:
             building: e52257cc
             name: MPS Market Stalls 1x1 5x Curve
@@ -8636,7 +8622,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           e5225819:
             building: e5225819
             name: MPS Market Stalls 1x1 5x T
@@ -8663,7 +8649,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           eee859e4:
             building: eee859e4
             name: MPS Square Toilets
@@ -8673,7 +8659,7 @@
               - a000007b
             size: 1x1
             textures:
-              - '26330000'
+              - '26333000'
           ff6b48a5:
             building: ff6b48a5
             name: MPS Statue 2x2 Female
@@ -8687,7 +8673,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - '26330000'
+              - '26333000'
           ffb00478:
             building: ffb00478
             name: MPS Square Pond 3x3
@@ -8707,7 +8693,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - '26330000'
+              - '26333000'
       name: NAM Pink Pavement
       release: 2024-12-18T09:40:52.868Z
       version: 2.0.0
@@ -8743,7 +8729,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           02f2eb7a:
             building: 02f2eb7a
             name: MPS Seawall Stairs
@@ -8754,7 +8740,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           052253c2:
             building: 052253c2
             name: MPS Market Stalls 2x2 Market Hall
@@ -8765,7 +8751,7 @@
               - 2b3a0000
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           1f6de657:
             building: 1f6de657
             name: MPS Tree Ash
@@ -8776,7 +8762,7 @@
               - bdbe6ede
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           1f6de6a0:
             building: 1f6de6a0
             name: MPS Tree Common Spruce
@@ -8785,7 +8771,7 @@
               - 9e3228c7
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           1fb001b0:
             building: 1fb001b0
             name: MPS Square Tables
@@ -8797,7 +8783,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           20067f8b:
             building: 20067f8b
             name: MPS Flowerbed 2x2
@@ -8814,7 +8800,7 @@
               - f90b5ab8
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           252034b6:
             building: 252034b6
             name: MPS Seawall Underpass Left
@@ -8825,7 +8811,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           3f689579:
             building: 3f689579
             name: MPS Flowerbed Straight Tree
@@ -8838,7 +8824,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
               - f85c40ca
           3f689b8e:
             building: 3f689b8e
@@ -8848,7 +8834,7 @@
               - f32100fc
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           3f6cbc0c:
             building: 3f6cbc0c
             name: MPS Plaza 3x3
@@ -8866,7 +8852,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - '26310000'
+              - '26313000'
           3fb002ee:
             building: 3fb002ee
             name: MPS Square Pond 1x1
@@ -8879,7 +8865,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           40082c31:
             building: 40082c31
             name: MPS Square Fountain 2x2
@@ -8892,7 +8878,7 @@
               - c62422b3
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           42f19f4f:
             building: 42f19f4f
             name: MPS Seawall Ash Benches
@@ -8908,7 +8894,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           5368c021:
             building: 5368c021
             name: MPS Square Phone Booths
@@ -8918,13 +8904,13 @@
               - a000007b
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           5f5d185d:
             building: 5f5d185d
             name: MPS Square Bare
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           5f689864:
             building: 5f689864
             name: MPS Square Fountain 1x1
@@ -8933,7 +8919,7 @@
               - 2a7ccda1
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           5f6b50fb:
             building: 5f6b50fb
             name: MPS Statue 2x2 Male
@@ -8947,7 +8933,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           5f6cbbff:
             building: 5f6cbbff
             name: MPS Plaza 1x1
@@ -8961,7 +8947,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           5f6cbc1b:
             building: 5f6cbc1b
             name: MPS Plaza 2x2
@@ -8978,7 +8964,7 @@
               - deaaf93f
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           5fb00304:
             building: 5fb00304
             name: MPS Square Pond 2x2
@@ -8994,7 +8980,7 @@
               - e3dd103a
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           600d210f:
             building: 600d210f
             name: MPS Seawall OC
@@ -9004,7 +8990,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           62f19f55:
             building: 62f19f55
             name: MPS Seawall Linden Benches
@@ -9020,7 +9006,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           650df300:
             building: 650df300
             name: MPS Square Bike Stand
@@ -9030,7 +9016,7 @@
               - b9f5b78e
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           650f1948:
             building: 650f1948
             name: MPS Seawall Beech
@@ -9044,7 +9030,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           65225aac:
             building: 65225aac
             name: MPS Market Stalls 2x1
@@ -9073,7 +9059,7 @@
               - f948c549
             size: 2x1
             textures:
-              - '26310000'
+              - '26313000'
           7368c00d:
             building: 7368c00d
             name: MPS Square Column
@@ -9087,7 +9073,7 @@
               - ba7bf9b7
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           7f64d503:
             building: 7f64d503
             name: MPS Square Lantern
@@ -9095,7 +9081,7 @@
               - 1dfb0000
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           7f6890fa:
             building: 7f6890fa
             name: MPS Flowerbed Straight
@@ -9106,7 +9092,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
               - f85c40ca
           800d1d3a:
             building: 800d1d3a
@@ -9117,7 +9103,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           800d20d7:
             building: 800d20d7
             name: MPS Seawall Gazebo
@@ -9128,7 +9114,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           852258d4:
             building: 852258d4
             name: MPS Market Stalls 1x1 3x T
@@ -9147,7 +9133,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           9368c013:
             building: 9368c013
             name: MPS Square Vending Machines
@@ -9164,7 +9150,7 @@
               - edd9a6d7
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           9f68965c:
             building: 9f68965c
             name: MPS Flowerbed Straight Benches
@@ -9179,7 +9165,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
               - f85c40ca
           9f6de67e:
             building: 9f6de67e
@@ -9191,7 +9177,7 @@
               - deaaf93f
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           9f6de6bc:
             building: 9f6de6bc
             name: MPS Tree Elm
@@ -9202,7 +9188,7 @@
               - e3dd103a
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           9fb00128:
             building: 9fb00128
             name: MPS Square Benches
@@ -9213,7 +9199,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           9fb001d6:
             building: 9fb001d6
             name: MPS Square Gazebo
@@ -9227,7 +9213,7 @@
               - ac0734b5
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           a00d1e8a:
             building: a00d1e8a
             name: MPS Seawall Linden
@@ -9241,7 +9227,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           a52255f8:
             building: a52255f8
             name: MPS Market Stalls 1x1 Large Canopy
@@ -9252,7 +9238,7 @@
               - a000007b
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           a5225647:
             building: a5225647
             name: MPS Market Stalls 1x1 Medium Canopies
@@ -9265,7 +9251,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           bf664af5:
             building: bf664af5
             name: MPS Square Diagonal Grass
@@ -9274,8 +9260,8 @@
               - b948c54e
             size: 1x1
             textures:
-              - '26310000'
-              - '30310000'
+              - '26313000'
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -9287,7 +9273,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
               - f85c40c0
           bf6de630:
             building: bf6de630
@@ -9299,13 +9285,13 @@
               - e04755c9
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           c00d20f6:
             building: c00d20f6
             name: MPS Seawall IC
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           c52254f1:
             building: c52254f1
             name: MPS Market Stalls 1x1 2 Rows
@@ -9321,7 +9307,7 @@
               - f21ffc86
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           c5225732:
             building: c5225732
             name: MPS Market Stalls 1x1 4x Corner
@@ -9346,7 +9332,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           c5225d6a:
             building: c5225d6a
             name: MPS Market Stalls 1x1 Refreshment Stand
@@ -9360,7 +9346,7 @@
               - d948c518
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           df68907c:
             building: df68907c
             name: MPS Flowerbed End
@@ -9371,7 +9357,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
               - f85c40c5
           df689aa4:
             building: df689aa4
@@ -9381,7 +9367,7 @@
               - f37e00fc
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           df6de6dc:
             building: df6de6dc
             name: MPS Tree Linden
@@ -9392,7 +9378,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           e00d1e33:
             building: e00d1e33
             name: MPS Seawall Ash
@@ -9406,7 +9392,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           e183538b:
             building: e183538b
             name: MPS Seawall Bridge Other Side
@@ -9415,7 +9401,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           e50f19a8:
             building: e50f19a8
             name: MPS Seawall Beech Benches
@@ -9431,7 +9417,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           e52034a2:
             building: e52034a2
             name: MPS Seawall Underpass Right
@@ -9442,7 +9428,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           e52257cc:
             building: e52257cc
             name: MPS Market Stalls 1x1 5x Curve
@@ -9468,7 +9454,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           e5225819:
             building: e5225819
             name: MPS Market Stalls 1x1 5x T
@@ -9495,7 +9481,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           eee859e4:
             building: eee859e4
             name: MPS Square Toilets
@@ -9505,7 +9491,7 @@
               - a000007b
             size: 1x1
             textures:
-              - '26310000'
+              - '26313000'
           ff6b48a5:
             building: ff6b48a5
             name: MPS Statue 2x2 Female
@@ -9519,7 +9505,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - '26310000'
+              - '26313000'
           ffb00478:
             building: ffb00478
             name: MPS Square Pond 3x3
@@ -9539,7 +9525,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - '26310000'
+              - '26313000'
       name: NAM Red Brick
       release: 2024-12-18T09:40:52.796Z
       version: 2.0.0
@@ -9575,7 +9561,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           02f2eb7a:
             building: 02f2eb7a
             name: MPS Seawall Stairs
@@ -9586,7 +9572,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           052253c2:
             building: 052253c2
             name: MPS Market Stalls 2x2 Market Hall
@@ -9597,7 +9583,7 @@
               - 2b3a0000
             size: 2x2
             textures:
-              - '262e0000'
+              - '262e3000'
           1f6de657:
             building: 1f6de657
             name: MPS Tree Ash
@@ -9608,7 +9594,7 @@
               - bdbe6ede
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           1f6de6a0:
             building: 1f6de6a0
             name: MPS Tree Common Spruce
@@ -9617,7 +9603,7 @@
               - 9e3228c7
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           1fb001b0:
             building: 1fb001b0
             name: MPS Square Tables
@@ -9629,7 +9615,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           20067f8b:
             building: 20067f8b
             name: MPS Flowerbed 2x2
@@ -9655,7 +9641,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           3f689579:
             building: 3f689579
             name: MPS Flowerbed Straight Tree
@@ -9668,7 +9654,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
               - f85c40ca
           3f689b8e:
             building: 3f689b8e
@@ -9678,7 +9664,7 @@
               - f32100fc
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           3f6cbc0c:
             building: 3f6cbc0c
             name: MPS Plaza 3x3
@@ -9696,7 +9682,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - '262e0000'
+              - '262e3000'
           3fb002ee:
             building: 3fb002ee
             name: MPS Square Pond 1x1
@@ -9709,7 +9695,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           40082c31:
             building: 40082c31
             name: MPS Square Fountain 2x2
@@ -9722,7 +9708,7 @@
               - c62422b3
             size: 2x2
             textures:
-              - '262e0000'
+              - '262e3000'
           42f19f4f:
             building: 42f19f4f
             name: MPS Seawall Ash Benches
@@ -9738,7 +9724,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           5368c021:
             building: 5368c021
             name: MPS Square Phone Booths
@@ -9748,13 +9734,13 @@
               - a000007b
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           5f5d185d:
             building: 5f5d185d
             name: MPS Square Bare
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           5f689864:
             building: 5f689864
             name: MPS Square Fountain 1x1
@@ -9763,7 +9749,7 @@
               - 2a7ccda1
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           5f6b50fb:
             building: 5f6b50fb
             name: MPS Statue 2x2 Male
@@ -9777,7 +9763,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - '262e0000'
+              - '262e3000'
           5f6cbbff:
             building: 5f6cbbff
             name: MPS Plaza 1x1
@@ -9791,7 +9777,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           5f6cbc1b:
             building: 5f6cbc1b
             name: MPS Plaza 2x2
@@ -9808,7 +9794,7 @@
               - deaaf93f
             size: 2x2
             textures:
-              - '262e0000'
+              - '262e3000'
           5fb00304:
             building: 5fb00304
             name: MPS Square Pond 2x2
@@ -9824,7 +9810,7 @@
               - e3dd103a
             size: 2x2
             textures:
-              - '262e0000'
+              - '262e3000'
           600d210f:
             building: 600d210f
             name: MPS Seawall OC
@@ -9834,7 +9820,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           62f19f55:
             building: 62f19f55
             name: MPS Seawall Linden Benches
@@ -9850,7 +9836,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           650df300:
             building: 650df300
             name: MPS Square Bike Stand
@@ -9860,7 +9846,7 @@
               - b9f5b78e
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           650f1948:
             building: 650f1948
             name: MPS Seawall Beech
@@ -9874,7 +9860,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           65225aac:
             building: 65225aac
             name: MPS Market Stalls 2x1
@@ -9903,7 +9889,7 @@
               - f948c549
             size: 2x1
             textures:
-              - '262e0000'
+              - '262e3000'
           7368c00d:
             building: 7368c00d
             name: MPS Square Column
@@ -9917,7 +9903,7 @@
               - ba7bf9b7
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           7f64d503:
             building: 7f64d503
             name: MPS Square Lantern
@@ -9925,7 +9911,7 @@
               - 1dfb0000
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           7f6890fa:
             building: 7f6890fa
             name: MPS Flowerbed Straight
@@ -9936,7 +9922,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
               - f85c40ca
           800d1d3a:
             building: 800d1d3a
@@ -9947,7 +9933,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           800d20d7:
             building: 800d20d7
             name: MPS Seawall Gazebo
@@ -9958,7 +9944,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           852258d4:
             building: 852258d4
             name: MPS Market Stalls 1x1 3x T
@@ -9977,7 +9963,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           9368c013:
             building: 9368c013
             name: MPS Square Vending Machines
@@ -9994,7 +9980,7 @@
               - edd9a6d7
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           9f68965c:
             building: 9f68965c
             name: MPS Flowerbed Straight Benches
@@ -10009,7 +9995,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
               - f85c40ca
           9f6de67e:
             building: 9f6de67e
@@ -10021,7 +10007,7 @@
               - deaaf93f
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           9f6de6bc:
             building: 9f6de6bc
             name: MPS Tree Elm
@@ -10032,7 +10018,7 @@
               - e3dd103a
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           9fb00128:
             building: 9fb00128
             name: MPS Square Benches
@@ -10043,7 +10029,7 @@
               - c62422b3
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           9fb001d6:
             building: 9fb001d6
             name: MPS Square Gazebo
@@ -10057,7 +10043,7 @@
               - ac0734b5
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           a00d1e8a:
             building: a00d1e8a
             name: MPS Seawall Linden
@@ -10071,7 +10057,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           a52255f8:
             building: a52255f8
             name: MPS Market Stalls 1x1 Large Canopy
@@ -10082,7 +10068,7 @@
               - a000007b
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           a5225647:
             building: a5225647
             name: MPS Market Stalls 1x1 Medium Canopies
@@ -10095,7 +10081,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           bf664af5:
             building: bf664af5
             name: MPS Square Diagonal Grass
@@ -10104,8 +10090,8 @@
               - b948c54e
             size: 1x1
             textures:
-              - '262e0000'
-              - '30310000'
+              - '262e3000'
+              - '30312000'
           bf688f3a:
             building: bf688f3a
             name: MPS Flowerbed 1x1
@@ -10117,7 +10103,7 @@
               - f90b5ab8
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
               - f85c40c0
           bf6de630:
             building: bf6de630
@@ -10129,13 +10115,13 @@
               - e04755c9
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           c00d20f6:
             building: c00d20f6
             name: MPS Seawall IC
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           c52254f1:
             building: c52254f1
             name: MPS Market Stalls 1x1 2 Rows
@@ -10151,7 +10137,7 @@
               - f21ffc86
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           c5225732:
             building: c5225732
             name: MPS Market Stalls 1x1 4x Corner
@@ -10176,7 +10162,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           c5225d6a:
             building: c5225d6a
             name: MPS Market Stalls 1x1 Refreshment Stand
@@ -10190,7 +10176,7 @@
               - d948c518
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           df68907c:
             building: df68907c
             name: MPS Flowerbed End
@@ -10201,7 +10187,7 @@
               - d948c533
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
               - f85c40c5
           df689aa4:
             building: df689aa4
@@ -10211,7 +10197,7 @@
               - f37e00fc
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           df6de6dc:
             building: df6de6dc
             name: MPS Tree Linden
@@ -10222,7 +10208,7 @@
               - fdefa1a7
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           e00d1e33:
             building: e00d1e33
             name: MPS Seawall Ash
@@ -10236,7 +10222,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           e183538b:
             building: e183538b
             name: MPS Seawall Bridge Other Side
@@ -10245,7 +10231,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           e50f19a8:
             building: e50f19a8
             name: MPS Seawall Beech Benches
@@ -10261,7 +10247,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           e52034a2:
             building: e52034a2
             name: MPS Seawall Underpass Right
@@ -10272,7 +10258,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           e52257cc:
             building: e52257cc
             name: MPS Market Stalls 1x1 5x Curve
@@ -10298,7 +10284,7 @@
               - ef3dac39
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           e5225819:
             building: e5225819
             name: MPS Market Stalls 1x1 5x T
@@ -10325,7 +10311,7 @@
               - f948c549
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           eee859e4:
             building: eee859e4
             name: MPS Square Toilets
@@ -10335,7 +10321,7 @@
               - a000007b
             size: 1x1
             textures:
-              - '262e0000'
+              - '262e3000'
           ff6b48a5:
             building: ff6b48a5
             name: MPS Statue 2x2 Female
@@ -10349,7 +10335,7 @@
               - ee0c0620
             size: 2x2
             textures:
-              - '262e0000'
+              - '262e3000'
           ffb00478:
             building: ffb00478
             name: MPS Square Pond 3x3
@@ -10369,7 +10355,7 @@
               - ff4b68c4
             size: 3x3
             textures:
-              - '262e0000'
+              - '262e3000'
       name: NAM Sandstone
       release: 2024-12-18T09:40:52.707Z
       version: 2.0.0
@@ -10939,7 +10925,7 @@
               - b948c54e
             size: 1x1
             textures:
-              - '30310000'
+              - '30312000'
               - f820419a
           bf688f3a:
             building: bf688f3a
@@ -11774,7 +11760,7 @@
               - b948c54e
             size: 1x1
             textures:
-              - '30310000'
+              - '30312000'
               - f82041c5
           bf688f3a:
             building: bf688f3a
@@ -15052,7 +15038,7 @@
           - feaaf922
         size: 4x1
         textures:
-          - 251c0000
+          - 251c3000
       '47832244':
         building: '47832244'
         name: GSW_Blank Urban 4x1
@@ -15125,7 +15111,7 @@
           - feaaf922
         size: 1x1
         textures:
-          - 251c0000
+          - 251c3000
       678322aa:
         building: 678322aa
         name: GSW_Blank Rural 1x1
@@ -17092,7 +17078,7 @@
               - fdbe6efe
             size: 4x1
             textures:
-              - 251c0000
+              - 251c3000
           '47832244':
             building: '47832244'
             name: GSW_Blank Urban 4x1
@@ -17129,7 +17115,7 @@
               - fdbe6efe
             size: 1x1
             textures:
-              - 251c0000
+              - 251c3000
           678322aa:
             building: 678322aa
             name: GSW_Blank Rural 1x1
@@ -18729,21 +18715,21 @@
             name: Traffic Blocker SAM 8 Cobblestone Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f834997a
           1f426486:
             building: 1f426486
             name: Traffic Blocker MIS B
             size: 1x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5de4b100
           1f4264c4:
             building: 1f4264c4
             name: Traffic Blocker RHW-4 B
             size: 1x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5eb4b100
           1f426533:
             building: 1f426533
@@ -18757,56 +18743,56 @@
             name: Traffic Blocker SAM 9 Red Brick Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349980
           1f426572:
             building: 1f426572
             name: Traffic Blocker Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8344600
           1f5deabc:
             building: 1f5deabc
             name: Traffic Blocker SAM 10 Japanese Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349985
           33e447a3:
             building: 33e447a3
             name: Traffic Blocker SAM 11 Industrial Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349990
           3f42584f:
             building: 3f42584f
             name: Traffic Blocker MIS F
             size: 1x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5de4b100
           3f425898:
             building: 3f425898
             name: Traffic Blocker OneWay C
             size: 1x1
             textures:
-              - 258f0000
-              - '26380000'
+              - 258f2000
+              - '26382000'
           3f425a81:
             building: 3f425a81
             name: Traffic Blocker SAM 7 Asphalt Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349975
           3f425bf4:
             building: 3f425bf4
             name: Traffic Blocker RHW-8 F
             size: 2x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5ed4b100
               - 5ef5b100
           3f4264bb:
@@ -18814,14 +18800,14 @@
             name: Traffic Blocker RHW-2 B
             size: 1x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5e004b00
           3f4264e5:
             building: 3f4264e5
             name: Traffic Blocker SAM 2 Herringbone Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f834995a
           3f4264f4:
             building: 3f4264f4
@@ -18835,14 +18821,14 @@
             name: Traffic Blocker SAM 6 Klinker Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349970
           5f425912:
             building: 5f425912
             name: Traffic Blocker RHW-4 F
             size: 1x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5eb4b100
           5f4259dd:
             building: 5f4259dd
@@ -18863,7 +18849,7 @@
             name: Traffic Blocker RHW-10 F
             size: 2x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5ef4b100
               - 5ef5b100
           5f4264de:
@@ -18871,28 +18857,28 @@
             name: Traffic Blocker Road F
             size: 1x1
             textures:
-              - 258f0000
-              - '26370000'
+              - 258f2000
+              - '26372000'
           5f426549:
             building: 5f426549
             name: Traffic Blocker SAM 7 Asphalt Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349975
           5f426558:
             building: 5f426558
             name: Traffic Blocker SAM 8 Cobblestone Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f834997a
           5f42656f:
             building: 5f42656f
             name: Traffic Blocker Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8344600
           5f578575:
             building: 5f578575
@@ -18905,42 +18891,42 @@
             name: Traffic Blocker TramonStreet B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f85c405a
           '62663833':
             building: '62663833'
             name: Traffic Blocker SAM 11 Industrial Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349990
           7f4257f0:
             building: 7f4257f0
             name: Traffic Blocker Avenue C
             size: 2x1
             textures:
-              - 258f0000
-              - '26360000'
+              - 258f2000
+              - '26362000'
           7f426473:
             building: 7f426473
             name: Traffic Blocker Avenue B
             size: 2x1
             textures:
-              - 258f0000
-              - '26360000'
+              - 258f2000
+              - '26362000'
           7f4264a7:
             building: 7f4264a7
             name: Traffic Blocker OneWay F
             size: 1x1
             textures:
-              - 258f0000
-              - '26380000'
+              - 258f2000
+              - '26382000'
           7f4264b1:
             building: 7f4264b1
             name: Traffic Blocker RHW-10 B
             size: 2x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5ef4b100
               - 5ef5b100
           7f4264f8:
@@ -18955,14 +18941,14 @@
             name: Traffic Blocker SAM 7 Asphalt Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349975
           7f42770a:
             building: 7f42770a
             name: Traffic Blocker RHW-6 B
             size: 2x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5ec6b100
               - 5ef5b100
           9f425b51:
@@ -18970,42 +18956,42 @@
             name: Traffic Blocker Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8344600
           9f426477:
             building: 9f426477
             name: Traffic Blocker Avenue F
             size: 2x1
             textures:
-              - 258f0000
-              - '26360000'
+              - 258f2000
+              - '26362000'
           9f5785c0:
             building: 9f5785c0
             name: Traffic Blocker TramonStreet F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f85c405a
           9f5dea93:
             building: 9f5dea93
             name: Traffic Blocker SAM 10 Japanese Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349985
           9f5deae1:
             building: 9f5deae1
             name: Traffic Blocker SAM 10 Japanese Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349985
           bf425983:
             building: bf425983
             name: Traffic Blocker SAM 2 Herringbone Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f834995a
           bf42653d:
             building: bf42653d
@@ -19025,35 +19011,35 @@
             name: Traffic Blocker SAM 6 Klinker Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349970
           df4258d8:
             building: df4258d8
             name: Traffic Blocker RHW-2 F
             size: 1x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5e004b00
           df425947:
             building: df425947
             name: Traffic Blocker Road C
             size: 1x1
             textures:
-              - 258f0000
-              - '26370000'
+              - 258f2000
+              - '26372000'
           df4264a4:
             building: df4264a4
             name: Traffic Blocker OneWay B
             size: 1x1
             textures:
-              - 258f0000
-              - '26380000'
+              - 258f2000
+              - '26382000'
           df4264d3:
             building: df4264d3
             name: Traffic Blocker RHW-8 B
             size: 2x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5ed4b100
               - 5ef5b100
           df4264e9:
@@ -19061,7 +19047,7 @@
             name: Traffic Blocker SAM 2 Herringbone Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f834995a
           df426537:
             building: df426537
@@ -19075,7 +19061,7 @@
             name: Traffic Blocker SAM 9 Red Brick Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349980
           df578534:
             building: df578534
@@ -19094,36 +19080,36 @@
             name: Traffic Blocker TramonStreet C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f85c405a
           df5dea7e:
             building: df5dea7e
             name: Traffic Blocker SAM 6 Klinker Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349970
           e0ed19ba:
             building: e0ed19ba
             name: Traffic Blocker SAM 11 Industrial Street B
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349990
           ff425af2:
             building: ff425af2
             name: Traffic Blocker SAM 9 Red Brick Street C
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f8349980
           ff4264da:
             building: ff4264da
             name: Traffic Blocker Road B
             size: 1x1
             textures:
-              - 258f0000
-              - '26370000'
+              - 258f2000
+              - '26372000'
           ff426541:
             building: ff426541
             name: Traffic Blocker SAM 5 Trolca Dirt Road F
@@ -19136,14 +19122,14 @@
             name: Traffic Blocker SAM 8 Cobblestone Street F
             size: 1x1
             textures:
-              - 258f0000
+              - 258f2000
               - f834997a
           ff42770f:
             building: ff42770f
             name: Traffic Blocker RHW-6 F
             size: 2x1
             textures:
-              - 251c0000
+              - 251c1000
               - 5ec6b100
               - 5ef5b100
           ff57853d:
