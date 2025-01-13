@@ -1224,6 +1224,214 @@ wannglondon/apartments-3:
       release: 2024-12-17T13:50:34.757Z
       version: 1.0.0
 
+wannglondon/french-hospital:
+  categories: health
+  dependencies:
+    - girafe/flora-pack
+  description: A "take-it-or-leave-it" project, this is a modular Parisian-inspired hospital with pieces indicated below. Complete with my less than adequate lotting skills and one dependency; Girafe's rowan trees ([SC4D LEX Details - BSC - VIP girafe rowan trees (v1.0) (sc4devotion.com)](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=3244))
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/623d2f1b9aa59_Baiefronte-Est-Mar.291111648176244.png.b0956d87c9cf147786c3da3aab8605c9.png
+  name: French Hospital
+  requirements:
+    darknite: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/623d30516fefb_Baiefronte-Est-Mar.291111648176244.thumb.png.a8504d4f5cbf4cf0b2e6a2ac2e9db41e.png
+  url: https://community.simtropolis.com/files/file/35022-french-hospital/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/35022-french-hospital
+          include:
+            - Hopital 1_DN
+      buildings:
+        PLOP_2x2_Hospital Corner_1fc233f9.SC4Lot:
+          1c2d4663-1fc233f9:
+            bulldoze: 1050
+            categories: health
+            cost: 9250
+            description: This building was made by a Typing Monkey
+            flamability: 36
+            jobs:
+              $: 121
+              $$: 352
+              $$$: 116
+            label: Hospital Corner
+            maintenance: 800
+            menu: Health
+            model: 6f3e5668
+            name: Hospital Corner
+            pollution: 1
+            pollutionRadius: 3
+            power: 3
+            submenu: Health/Large
+            water: 8
+        PLOP_2x2_Hospital Intersection_8fc234eb.SC4Lot:
+          1c2d4663-8fc234eb:
+            bulldoze: 1200
+            categories: health
+            cost: 10700
+            description: This building was made by a Typing Monkey
+            flamability: 36
+            jobs:
+              $: 142
+              $$: 414
+              $$$: 137
+            label: Hospital Intersection
+            maintenance: 950
+            menu: Health
+            model: af3e635a
+            name: Hospital Intersection
+            pollution: 1
+            pollutionRadius: 3
+            power: 3
+            submenu: Health/Large
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 4
+        PLOP_2x2_Hospital Middle_9fc2355d.SC4Lot:
+          1c2d4663-9fc2355d:
+            bulldoze: 1000
+            categories: health
+            cost: 8950
+            description: This building was made by a Typing Monkey
+            flamability: 36
+            jobs:
+              $: 117
+              $$: 339
+              $$$: 112
+            label: Hospital Middle
+            maintenance: 800
+            menu: Health
+            model: 2f40fd80
+            name: Hospital Middle
+            pollution: 1
+            pollutionRadius: 3
+            power: 3
+            submenu: Health/Large
+            water: 8
+        PLOP_2x4_Hospital End_afc2346e.SC4Lot:
+          1c2d4663-afc2346e:
+            bulldoze: 1600
+            categories: health
+            cost: 14450
+            description: This building was made by a Typing Monkey
+            flamability: 36
+            garbage: 1
+            jobs:
+              $: 196
+              $$: 577
+              $$$: 191
+            label: Hospital End
+            maintenance: 1300
+            menu: Health
+            model: cf3fbc6c
+            name: Hospital End
+            pollution: 2
+            pollutionRadius: 3
+            power: 5
+            submenu: Health/Large
+            water: 17
+            waterPollution: 1
+            waterPollutionRadius: 4
+        PLOP_4x2_Hospital Center_dfc23284.SC4Lot:
+          1c2d4663-dfc23284:
+            bulldoze: 1725
+            categories: health
+            cost: 15550
+            description: This building was made by a Typing Monkey
+            flamability: 36
+            garbage: 1
+            jobs:
+              $: 213
+              $$: 627
+              $$$: 208
+            label: Hospital Center
+            maintenance: 1350
+            menu: Health
+            model: ef3df5b8
+            name: Hospital Center
+            pollution: 2
+            pollutionRadius: 3
+            power: 5
+            submenu: Health/Large
+            water: 19
+            waterPollution: 1
+            waterPollutionRadius: 4
+      lastGenerated: 2025-01-13T10:43:28.373Z
+      lastModified: 2022-03-25T03:00:33.000Z
+      lots:
+        PLOP_2x2_Hospital Corner_1fc233f9.SC4Lot:
+          1fc233f9:
+            building: 1fc233f9
+            name: PLOP_2x2_Hospital Corner
+            props:
+              - 2a8a0000
+              - 634eae07
+              - a34ead9d
+            size: 2x2
+            textures:
+              - '26060000'
+        PLOP_2x2_Hospital Intersection_8fc234eb.SC4Lot:
+          8fc234eb:
+            building: 8fc234eb
+            name: PLOP_2x2_Hospital Intersection
+            props:
+              - 1dfb0000
+              - 2a8a0000
+              - a34eacce
+              - a34ead9d
+            size: 2x2
+            textures:
+              - '26060000'
+        PLOP_2x2_Hospital Middle_9fc2355d.SC4Lot:
+          9fc2355d:
+            building: 9fc2355d
+            name: PLOP_2x2_Hospital Middle
+            props:
+              - 2a8a0000
+              - a34eae23
+            size: 2x2
+            textures:
+              - '26060000'
+        PLOP_2x4_Hospital End_afc2346e.SC4Lot:
+          afc2346e:
+            building: afc2346e
+            name: PLOP_2x4_Hospital End
+            props:
+              - 2a8a0000
+              - a34eacba
+            size: 2x4
+            textures:
+              - '26060000'
+        PLOP_4x2_Hospital Center_dfc23284.SC4Lot:
+          dfc23284:
+            building: dfc23284
+            name: PLOP_4x2_Hospital Center
+            props:
+              - 1dfb0000
+              - 234eac4d
+              - 2a8a0000
+              - 634eae07
+              - a34eacce
+              - a34ead9d
+            size: 4x2
+            textures:
+              - 25f60000
+              - '26060000'
+      models:
+        Hopital1CornerDN-0x5ad0e817_0x6f3e5668_0x30000.SC4Model:
+          - 6f3e5668
+        Hopital1DN-0x5ad0e817_0xef3df5b8_0x30000.SC4Model:
+          - ef3df5b8
+        Hopital1EndDN-0x5ad0e817_0xcf3fbc6c_0x30000.SC4Model:
+          - cf3fbc6c
+        Hopital1IntersectionDN-0x5ad0e817_0xaf3e635a_0x30000.SC4Model:
+          - af3e635a
+        Hopital1MidDN-0x5ad0e817_0x2f40fd80_0x30000.SC4Model:
+          - 2f40fd80
+      name: Dark Nite
+      release: 2025-01-13T10:43:28.364Z
+      version: 1.0.0
+
 wannglondon/grand-arch:
   categories: education
   description: A fantasy grand arch to place in your city. Functions as a museum in-game.
@@ -1395,6 +1603,75 @@ wannglondon/grand-mediterranean-hotels:
       release: 2025-01-06T11:26:36.529Z
       version: 1.0.0
 
+wannglondon/haunted-mansion:
+  categories: education
+  description: As October approaches, I quickly whipped up this BAT in preparation for Halloween festivities. This BAT is based on the Haunted Mansion at Disneyland, California. It is offered as a museum in-game.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/632b312d37989_HMDay.jpg.f5badcd0f291cfe14b647f3e50107d22.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/632b3132bcd10_HMNight.jpg.7aaabe2e2f2b79af7b7c27e5e4515e97.jpg
+  name: Haunted Mansion
+  requirements:
+    darknite: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_09/632b31a4e48b1_HMDay.thumb.jpg.37275d5cc63f9f55ff44ed184c77044d.jpg
+  url: https://community.simtropolis.com/files/file/35301-haunted-mansion/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/35301-haunted-mansion
+          include:
+            - Haunted Mansion_DN
+      buildings:
+        PLOP_2x2_Haunted Mansion Museum_DN_d0af7bf0.SC4Lot:
+          1c2d4663-d0af7bf0:
+            bulldoze: 180
+            categories: education
+            cost: 750
+            description: This building was made by a Typing Monkey
+            flamability: 35
+            jobs:
+              $: 8
+              $$: 20
+              $$$: 7
+            label: Haunted Mansion Museum_DN
+            maintenance: 450
+            menu: Education
+            model: d02e4699
+            name: Haunted Mansion Museum_DN
+            power: 2
+            submenu: Education/Libraries
+            water: 5
+      lastGenerated: 2025-01-13T10:43:28.387Z
+      lastModified: 2022-09-21T15:45:41.000Z
+      lots:
+        PLOP_2x2_Haunted Mansion Museum_DN_d0af7bf0.SC4Lot:
+          d0af7bf0:
+            building: d0af7bf0
+            name: PLOP_2x2_Haunted Mansion Museum_DN
+            props:
+              - '16670000'
+              - '29730000'
+              - '29780000'
+              - 297c0000
+              - '297e0000'
+              - 2a100000
+              - 2a110000
+              - 2a150000
+              - 2acf0000
+              - a000003a
+              - a0000051
+            size: 2x2
+            textures:
+              - 25ef0000
+              - 25f00000
+              - 25f40000
+              - 25fa0000
+      models:
+        HauntedMansionDN-0x5ad0e817_0xd02e4699_0x30000.SC4Model:
+          - d02e4699
+      name: Dark Nite
+      release: 2025-01-13T10:43:28.380Z
+      version: 1.0.0
+
 wannglondon/home-alone-house:
   categories: r$$$
   description: Whipped this famous house up, inspired by the Christmas classic, *Home Alone* (1 & 2). Certain liberties were taken and as usual my lotting is sub-par, so please feel free to re-lot to your desired aesthetic.
@@ -1466,7 +1743,123 @@ wannglondon/home-alone-house:
       release: 2025-01-10T15:04:18.795Z
       version: 1.0.0
 
-wannglondon/london-flats-3:
+wannglondon/london-building-1:
+  categories: cs$$$,london
+  description: A quick BAT/lot I created inspired by a building located near Covent Garden in London.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6239f570296e7_Central-Jan.1714661647827170.png.031626db6c1ad38368bdde0851da004e.png
+  name: London Flats 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/6239f5b9c071b_Central-Jan.1714661647827170.thumb.png.dc59717f35a38a206b3a210d3754cf3e.png
+  url: https://community.simtropolis.com/files/file/35017-london-building-1/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/35017-london-building-1#192571
+          include:
+            - London Bldg 1_DN
+      buildings:
+        London Bldg 1_DN-0x6534284a-0x1c2d4663-0x3fbce29c.SC4Desc:
+          1c2d4663-3fbce29c:
+            bulldoze: 350
+            capacity:
+              cs$: 80
+              cs$$: 22
+              cs$$$: 11
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 6f3babe5
+            name: London Bldg 1_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 3
+            tilesets: Euro
+            water: 26
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 777
+      lastGenerated: 2025-01-13T10:54:42.075Z
+      lastModified: 2022-03-22T16:13:47.000Z
+      lots:
+        CS$$$2_1x2_London Bldg 1_DN_2fbce2aa.SC4Lot:
+          2fbce2aa:
+            building: 3fbce29c
+            density: medium,high
+            name: CS$$$2_1x2_London Bldg 1_DN
+            props:
+              - 1d9c0000
+              - 1dfb0000
+              - 1ecb0000
+              - 2a8a0000
+              - 2b1a0000
+            size: 1x2
+            stage: 2
+            textures:
+              - 25b81000
+              - '26060000'
+      models:
+        LondonBldg1DN-0x5ad0e817_0x6f3babe5_0x30000.SC4Model:
+          - 6f3babe5
+      name: Dark Nite
+      release: 2025-01-13T10:43:28.130Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/35017-london-building-1#192572
+          include:
+            - London Bldg 1_MN
+      buildings:
+        London Bldg 1_MN-0x6534284a-0x1c2d4663-0x3fbce1dc.SC4Desc:
+          1c2d4663-3fbce1dc:
+            bulldoze: 350
+            capacity:
+              cs$: 80
+              cs$$: 22
+              cs$$$: 11
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 6f3babe5
+            name: London Bldg 1_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 3
+            tilesets: Euro
+            water: 26
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 777
+      lastGenerated: 2025-01-13T10:54:42.080Z
+      lastModified: 2022-03-22T16:13:47.000Z
+      lots:
+        CS$$$2_1x2_London Bldg 1_MN_5fbce1e5.SC4Lot:
+          5fbce1e5:
+            building: 3fbce1dc
+            density: medium,high
+            name: CS$$$2_1x2_London Bldg 1_MN
+            props:
+              - 1d9c0000
+              - 1dfb0000
+              - 1ecb0000
+              - 2a150000
+              - 2a8a0000
+            size: 1x2
+            stage: 2
+            textures:
+              - 25b81000
+              - '26060000'
+      models:
+        LondonBldg1MN-0x5ad0e817_0x6f3babe5_0x30000.SC4Model:
+          - 6f3babe5
+      name: Maxis Nite
+      release: 2025-01-13T10:43:28.198Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/london-building-3:
   categories: r$$$,london
   description: Three variations of London rowhomes found in Notting Hill.
   images:
@@ -1599,7 +1992,7 @@ wannglondon/london-flats-3:
       release: 2025-01-10T15:04:18.749Z
       version: 1.0.0
 
-wannglondon/london-flats-5:
+wannglondon/london-building-5:
   categories: r$$$,london
   description: Three variations of London rowhomes found in Kensington.
   images:
@@ -1935,10 +2328,7 @@ wannglondon/los-angeles-home-pack-1:
 
 wannglondon/mairie:
   categories: rewards,paris
-  description: |-
-    An administrative mairie inspired by those found around Paris's many arrondissements which functions as an in-game city hall. You are able to plop this multiple times.
-
-    - 3x3 lot reward
+  description: An administrative mairie inspired by those found around Paris's many arrondissements which functions as an in-game city hall. You are able to plop this multiple times.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_03/Mairie.jpg.7e050461a16f20b92a556fbd6a279ad2.jpg
   name: Mairie
@@ -2000,6 +2390,2666 @@ wannglondon/mairie:
           - 12ecd1e2
       name: Dark Nite
       release: 2024-12-17T13:25:06.360Z
+      version: 1.0.0
+
+wannglondon/mediterranean-building-15:
+  categories: cs$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 15
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 15_DN
+      buildings:
+        Green/CS Medit Bldg 15 G_DN-0x6534284a-0x1c2d4663-0x5f34c022.SC4Desc:
+          1c2d4663-5f34c022:
+            bulldoze: 288
+            capacity:
+              cs$: 52
+              cs$$: 15
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: b14aac36
+            name: CS Medit Bldg 15 G_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 446
+        Green/Medit Bldg 15 G_DN-0x6534284a-0x1c2d4663-0xdf34bfd4.SC4Desc:
+          1c2d4663-df34bfd4:
+            bulldoze: 288
+            capacity:
+              r$: 42
+              r$$: 25
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: b14aac36
+            name: Medit Bldg 15 G_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+        Orange/CS Medit Bldg 15 O_DN-0x6534284a-0x1c2d4663-0x7f34f355.SC4Desc:
+          1c2d4663-7f34f355:
+            bulldoze: 288
+            capacity:
+              cs$: 54
+              cs$$: 16
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: b14ade67
+            name: CS Medit Bldg 15 O_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 463
+        Orange/Medit Bldg 15 O_DN-0x6534284a-0x1c2d4663-0x9f34f2f0.SC4Desc:
+          1c2d4663-9f34f2f0:
+            bulldoze: 288
+            capacity:
+              r$: 44
+              r$$: 26
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: b14ade67
+            name: Medit Bldg 15 O_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 634
+        Pink/CS Medit Bldg 15 P_DN-0x6534284a-0x1c2d4663-0x5f34a585.SC4Desc:
+          1c2d4663-5f34a585:
+            bulldoze: 288
+            capacity:
+              cs$: 52
+              cs$$: 15
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 714a914f
+            name: CS Medit Bldg 15 P_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 446
+        Pink/Medit Bldg 15 P_DN-0x6534284a-0x1c2d4663-0x5f34a537.SC4Desc:
+          1c2d4663-5f34a537:
+            bulldoze: 288
+            capacity:
+              r$: 42
+              r$$: 25
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 714a914f
+            name: Medit Bldg 15 P_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+        Yellow/CS Medit Bldg 15 Y_DN-0x6534284a-0x1c2d4663-0x7f349eb8.SC4Desc:
+          1c2d4663-7f349eb8:
+            bulldoze: 288
+            capacity:
+              cs$: 52
+              cs$$: 15
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 114a6123
+            name: CS Medit Bldg 15 Y_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 446
+        Yellow/Medit Bldg 15 Y_DN-0x6534284a-0x1c2d4663-0xbf349e67.SC4Desc:
+          1c2d4663-bf349e67:
+            bulldoze: 288
+            capacity:
+              r$: 42
+              r$$: 25
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 114a6123
+            name: Medit Bldg 15 Y_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+      lastGenerated: 2025-01-13T11:21:46.006Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        Green/CS$$4_1x1_CS Medit Bldg 15 G_DN_cf34c02e.SC4Lot:
+          cf34c02e:
+            building: 5f34c022
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 G_DN
+            props:
+              - 1c550000
+              - 1c5c0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Green/R$$5_1x1_Medit Bldg 15 G_DN_df34bfe4.SC4Lot:
+          df34bfe4:
+            building: df34bfd4
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 G_DN
+            props:
+              - 1ecb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        Orange/CS$$4_1x1_CS Medit Bldg 15 O_DN_0f34f382.SC4Lot:
+          0f34f382:
+            building: 7f34f355
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 O_DN
+            props:
+              - 1c530000
+              - 1c5e0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Orange/R$$5_1x1_Medit Bldg 15 O_DN_2f34f300.SC4Lot:
+          2f34f300:
+            building: 9f34f2f0
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 O_DN
+            props:
+              - 1dfb0000
+              - 1ecd0000
+              - 1ed40000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        Pink/CS$$4_1x1_CS Medit Bldg 15 P_DN_3f34a58f.SC4Lot:
+          3f34a58f:
+            building: 5f34a585
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 P_DN
+            props:
+              - 1c570000
+              - 1c5b0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Pink/R$$5_1x1_Medit Bldg 15 P_DN_5f34a540.SC4Lot:
+          5f34a540:
+            building: 5f34a537
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 P_DN
+            props:
+              - 1ecd0000
+              - 1ed40000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        Yellow/CS$$4_1x1_CS Medit Bldg 15 Y_DN_0f349ec6.SC4Lot:
+          0f349ec6:
+            building: 7f349eb8
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 Y_DN
+            props:
+              - 1d9d0000
+              - 29b10000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Yellow/R$$5_1x1_Medit Bldg 15 Y_DN_3f349e75.SC4Lot:
+          3f349e75:
+            building: bf349e67
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 Y_DN
+            props:
+              - 1ed30000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        Green/MeditBldg15GDN-0x5ad0e817_0xb14aac36_0x30000.SC4Model:
+          - b14aac36
+        Orange/MeditBldg15ODN-0x5ad0e817_0xb14ade67_0x30000.SC4Model:
+          - b14ade67
+        Pink/MeditBldg15PDN-0x5ad0e817_0x714a914f_0x30000.SC4Model:
+          - 714a914f
+        Yellow/MeditBldg15YDN-0x5ad0e817_0x114a6123_0x30000.SC4Model:
+          - 114a6123
+      name: Dark Nite
+      release: 2025-01-13T11:14:26.976Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 15_MN
+      buildings:
+        Green/CS Medit Bldg 15 G_MN-0x6534284a-0x1c2d4663-0xbf34bf3f.SC4Desc:
+          1c2d4663-bf34bf3f:
+            bulldoze: 288
+            capacity:
+              cs$: 52
+              cs$$: 15
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: b14aac36
+            name: CS Medit Bldg 15 G_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 446
+        Green/Medit Bldg 15 G_MN-0x6534284a-0x1c2d4663-0x9f34befe.SC4Desc:
+          1c2d4663-9f34befe:
+            bulldoze: 288
+            capacity:
+              r$: 42
+              r$$: 25
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: b14aac36
+            name: Medit Bldg 15 G_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+        Orange/CS Medit Bldg 15 O_MN-0x6534284a-0x1c2d4663-0x9f34f228.SC4Desc:
+          1c2d4663-9f34f228:
+            bulldoze: 288
+            capacity:
+              cs$: 54
+              cs$$: 16
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: b14ade67
+            name: CS Medit Bldg 15 O_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 463
+        Orange/Medit Bldg 15 O_MN-0x6534284a-0x1c2d4663-0x5f34f1d8.SC4Desc:
+          1c2d4663-5f34f1d8:
+            bulldoze: 288
+            capacity:
+              r$: 44
+              r$$: 26
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: b14ade67
+            name: Medit Bldg 15 O_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 634
+        Pink/CS Medit Bldg 15 P_MN-0x6534284a-0x1c2d4663-0x7f34a4c1.SC4Desc:
+          1c2d4663-7f34a4c1:
+            bulldoze: 288
+            capacity:
+              cs$: 52
+              cs$$: 15
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 714a914f
+            name: CS Medit Bldg 15 P_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 446
+        Pink/Medit Bldg 15 P_MN-0x6534284a-0x1c2d4663-0x7f34a46d.SC4Desc:
+          1c2d4663-7f34a46d:
+            bulldoze: 288
+            capacity:
+              r$: 42
+              r$$: 25
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 714a914f
+            name: Medit Bldg 15 P_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+        Yellow/CS Medit Bldg 15 Y_MN-0x6534284a-0x1c2d4663-0x9f349db8.SC4Desc:
+          1c2d4663-9f349db8:
+            bulldoze: 288
+            capacity:
+              cs$: 52
+              cs$$: 15
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 114a6123
+            name: CS Medit Bldg 15 Y_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 16
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 446
+        Yellow/Medit Bldg 15 Y_MN-0x6534284a-0x1c2d4663-0x1f349d62.SC4Desc:
+          1c2d4663-1f349d62:
+            bulldoze: 288
+            capacity:
+              r$: 42
+              r$$: 25
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 114a6123
+            name: Medit Bldg 15 Y_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+      lastGenerated: 2025-01-13T11:21:46.023Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        Green/CS$$4_1x1_CS Medit Bldg 15 G_MN_ef34bf4d.SC4Lot:
+          ef34bf4d:
+            building: bf34bf3f
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 G_MN
+            props:
+              - 1c550000
+              - 1c5c0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Green/R$$5_1x1_Medit Bldg 15 G_MN_3f34bf08.SC4Lot:
+          3f34bf08:
+            building: 9f34befe
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 G_MN
+            props:
+              - 1ecb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        Orange/CS$$4_1x1_CS Medit Bldg 15 O_MN_8f34f233.SC4Lot:
+          8f34f233:
+            building: 9f34f228
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 O_MN
+            props:
+              - 1c530000
+              - 1c5e0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Orange/R$$5_1x1_Medit Bldg 15 O_MN_9f34f1e6.SC4Lot:
+          9f34f1e6:
+            building: 5f34f1d8
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 O_MN
+            props:
+              - 1dfb0000
+              - 1ecd0000
+              - 1ed40000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        Pink/CS$$4_1x1_CS Medit Bldg 15 P_MN_cf34a4d1.SC4Lot:
+          cf34a4d1:
+            building: 7f34a4c1
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 P_MN
+            props:
+              - 1c570000
+              - 1c5b0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Pink/R$$5_1x1_Medit Bldg 15 P_MN_df34a478.SC4Lot:
+          df34a478:
+            building: 7f34a46d
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 P_MN
+            props:
+              - 1ecd0000
+              - 1ed40000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        Yellow/CS$$4_1x1_CS Medit Bldg 15 Y_MN_9f349dc5.SC4Lot:
+          9f349dc5:
+            building: 9f349db8
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 15 Y_MN
+            props:
+              - 1d9d0000
+              - 29b10000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        Yellow/R$$5_1x1_Medit Bldg 15 Y_MN_0f349d6e.SC4Lot:
+          0f349d6e:
+            building: 1f349d62
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 15 Y_MN
+            props:
+              - 1ed30000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        Green/MeditBldg15GMN-0x5ad0e817_0xb14aac36_0x30000.SC4Model:
+          - b14aac36
+        Orange/MeditBldg15OMN-0x5ad0e817_0xb14ade67_0x30000.SC4Model:
+          - b14ade67
+        Pink/MeditBldg15PMN-0x5ad0e817_0x714a914f_0x30000.SC4Model:
+          - 714a914f
+        Yellow/MeditBldg15YMN-0x5ad0e817_0x114a6123_0x30000.SC4Model:
+          - 114a6123
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.059Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-16:
+  categories: cs$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 16
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 16_DN
+      buildings:
+        CS Medit Bldg 16_DN-0x6534284a-0x1c2d4663-0xdf3b9dd8.SC4Desc:
+          1c2d4663-df3b9dd8:
+            bulldoze: 339
+            capacity:
+              cs$: 62
+              cs$$: 18
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: d1518864
+            name: CS Medit Bldg 16_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 18
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 531
+        Medit Bldg 16_DN-0x6534284a-0x1c2d4663-0x1f3b9d76.SC4Desc:
+          1c2d4663-1f3b9d76:
+            bulldoze: 339
+            capacity:
+              r$: 51
+              r$$: 29
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: d1518864
+            name: Medit Bldg 16_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 735
+      lastGenerated: 2025-01-13T11:14:27.095Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 16_DN_ef3b9de5.SC4Lot:
+          ef3b9de5:
+            building: df3b9dd8
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 16_DN
+            props:
+              - 1c660000
+              - 1ecb0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 16_DN_0f3b9d8a.SC4Lot:
+          0f3b9d8a:
+            building: 1f3b9d76
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 16_DN
+            props:
+              - '1e120000'
+              - 1ed30000
+              - 2a8a0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg16DN-0x5ad0e817_0xd1518864_0x30000.SC4Model:
+          - d1518864
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.085Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 16_MN
+      buildings:
+        CS Medit Bldg 16_MN-0x6534284a-0x1c2d4663-0xbf3b9cc9.SC4Desc:
+          1c2d4663-bf3b9cc9:
+            bulldoze: 339
+            capacity:
+              cs$: 62
+              cs$$: 18
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: '31514672'
+            name: CS Medit Bldg 16_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 18
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 531
+        Medit Bldg 16_MN-0x6534284a-0x1c2d4663-0x9f3b9c55.SC4Desc:
+          1c2d4663-9f3b9c55:
+            bulldoze: 339
+            capacity:
+              r$: 51
+              r$$: 29
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: '31514672'
+            name: Medit Bldg 16_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 735
+      lastGenerated: 2025-01-13T11:14:27.114Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 16_MN_8f3b9cd8.SC4Lot:
+          8f3b9cd8:
+            building: bf3b9cc9
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 16_MN
+            props:
+              - 1c660000
+              - 1ecb0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 16_MN_df3b9c75.SC4Lot:
+          df3b9c75:
+            building: 9f3b9c55
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 16_MN
+            props:
+              - '1e120000'
+              - 1ed30000
+              - 2a8a0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg16MN-0x5ad0e817_0x31514672_0x30000.SC4Model:
+          - '31514672'
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.102Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-17:
+  categories: cs$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 17
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 17_DN
+      buildings:
+        CS Medit Bldg 17_DN-0x6534284a-0x1c2d4663-0x5f3cf77f.SC4Desc:
+          1c2d4663-5f3cf77f:
+            bulldoze: 360
+            capacity:
+              cs$: 67
+              cs$$: 19
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 7152c0d0
+            name: CS Medit Bldg 17_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 574
+        Medit Bldg 17_DN-0x6534284a-0x1c2d4663-0x3f3cf738.SC4Desc:
+          1c2d4663-3f3cf738:
+            bulldoze: 360
+            capacity:
+              r$: 54
+              r$$: 31
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 7152c0d0
+            name: Medit Bldg 17_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 779
+      lastGenerated: 2025-01-13T11:14:27.131Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 17_DN_0f3cf78c.SC4Lot:
+          0f3cf78c:
+            building: 5f3cf77f
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 17_DN
+            props:
+              - 1c5b0000
+              - 1c5d0000
+              - 29b10000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 17_DN_ef3cf744.SC4Lot:
+          ef3cf744:
+            building: 3f3cf738
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 17_DN
+            props:
+              - 1ecd0000
+              - 1ed40000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg17DN-0x5ad0e817_0x7152c0d0_0x30000.SC4Model:
+          - 7152c0d0
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.120Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 17_MN
+      buildings:
+        CS Medit Bldg 17_MN-0x6534284a-0x1c2d4663-0x1f3cf69a.SC4Desc:
+          1c2d4663-1f3cf69a:
+            bulldoze: 360
+            capacity:
+              cs$: 67
+              cs$$: 19
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 7152c0d0
+            name: CS Medit Bldg 17_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 574
+        Medit Bldg 17_MN-0x6534284a-0x1c2d4663-0x7f3cf644.SC4Desc:
+          1c2d4663-7f3cf644:
+            bulldoze: 360
+            capacity:
+              r$: 54
+              r$$: 31
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 7152c0d0
+            name: Medit Bldg 17_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 779
+      lastGenerated: 2025-01-13T11:14:27.148Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 17_MN_3f3cf6a4.SC4Lot:
+          3f3cf6a4:
+            building: 1f3cf69a
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 17_MN
+            props:
+              - 1c5b0000
+              - 1c5d0000
+              - 29b10000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 17_MN_8f3cf651.SC4Lot:
+          8f3cf651:
+            building: 7f3cf644
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 17_MN
+            props:
+              - 1ecd0000
+              - 1ed40000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg17MN-0x5ad0e817_0x7152c0d0_0x30000.SC4Model:
+          - 7152c0d0
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.139Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-18:
+  categories: cs$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 18
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 18_DN
+      buildings:
+        CS Medit Bldg 18_DN-0x6534284a-0x1c2d4663-0x3f3e25a9.SC4Desc:
+          1c2d4663-3f3e25a9:
+            bulldoze: 360
+            capacity:
+              cs$: 67
+              cs$$: 19
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: '31541014'
+            name: CS Medit Bldg 18_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 574
+        Medit Bldg 18_DN-0x6534284a-0x1c2d4663-0x1f3e2557.SC4Desc:
+          1c2d4663-1f3e2557:
+            bulldoze: 360
+            capacity:
+              r$: 54
+              r$$: 31
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: '31541014'
+            name: Medit Bldg 18_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 779
+      lastGenerated: 2025-01-13T11:14:27.164Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 18_DN_1f3e25b8.SC4Lot:
+          1f3e25b8:
+            building: 3f3e25a9
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 18_DN
+            props:
+              - 1c570000
+              - 1dfb0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 18_DN_7f3e2565.SC4Lot:
+          7f3e2565:
+            building: 1f3e2557
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 18_DN
+            props:
+              - 1ecb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg18DN-0x5ad0e817_0x31541014_0x30000.SC4Model:
+          - '31541014'
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.154Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 18_MN
+      buildings:
+        CS Medit Bldg 18_MN-0x6534284a-0x1c2d4663-0xbf3e24e3.SC4Desc:
+          1c2d4663-bf3e24e3:
+            bulldoze: 360
+            capacity:
+              cs$: 67
+              cs$$: 19
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: '31541014'
+            name: CS Medit Bldg 18_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 574
+        Medit Bldg 18_MN-0x6534284a-0x1c2d4663-0x1f3e249e.SC4Desc:
+          1c2d4663-1f3e249e:
+            bulldoze: 360
+            capacity:
+              r$: 54
+              r$$: 31
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: '31541014'
+            name: Medit Bldg 18_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 779
+      lastGenerated: 2025-01-13T11:14:27.182Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 18_MN_5f3e24f1.SC4Lot:
+          5f3e24f1:
+            building: bf3e24e3
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 18_MN
+            props:
+              - 1c570000
+              - 1dfb0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 18_MN_cf3e24a8.SC4Lot:
+          cf3e24a8:
+            building: 1f3e249e
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 18_MN
+            props:
+              - 1ecb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg18MN-0x5ad0e817_0x31541014_0x30000.SC4Model:
+          - '31541014'
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.171Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-19:
+  categories: cs$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 19
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 19_DN
+      buildings:
+        CS Medit Bldg 19_DN-0x6534284a-0x1c2d4663-0x1f3e4e6c.SC4Desc:
+          1c2d4663-1f3e4e6c:
+            bulldoze: 360
+            capacity:
+              cs$: 67
+              cs$$: 19
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 515435b2
+            name: CS Medit Bldg 19_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 574
+        Medit Bldg 19_DN-0x6534284a-0x1c2d4663-0x9f3e4e04.SC4Desc:
+          1c2d4663-9f3e4e04:
+            bulldoze: 360
+            capacity:
+              r$: 54
+              r$$: 31
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 515435b2
+            name: Medit Bldg 19_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 779
+      lastGenerated: 2025-01-13T11:14:27.200Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 19_DN_1f3e4e7b.SC4Lot:
+          1f3e4e7b:
+            building: 1f3e4e6c
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 19_DN
+            props:
+              - 1d9d0000
+              - 1dfb0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 19_DN_bf3e4e10.SC4Lot:
+          bf3e4e10:
+            building: 9f3e4e04
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 19_DN
+            props:
+              - 1d280000
+              - 1ed00000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg19DN-0x5ad0e817_0x515435b2_0x30000.SC4Model:
+          - 515435b2
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.190Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 19_MN
+      buildings:
+        CS Medit Bldg 19_MN-0x6534284a-0x1c2d4663-0x9f3e4d6e.SC4Desc:
+          1c2d4663-9f3e4d6e:
+            bulldoze: 360
+            capacity:
+              cs$: 67
+              cs$$: 19
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 515435b2
+            name: CS Medit Bldg 19_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 20
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 574
+        Medit Bldg 19_MN-0x6534284a-0x1c2d4663-0x1f3e4ce4.SC4Desc:
+          1c2d4663-1f3e4ce4:
+            bulldoze: 360
+            capacity:
+              r$: 54
+              r$$: 31
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 515435b2
+            name: Medit Bldg 19_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 779
+      lastGenerated: 2025-01-13T11:14:27.218Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$4_1x1_CS Medit Bldg 19_MN_df3e4d79.SC4Lot:
+          df3e4d79:
+            building: 9f3e4d6e
+            density: medium,high
+            name: CS$$4_1x1_CS Medit Bldg 19_MN
+            props:
+              - 1d9d0000
+              - 1dfb0000
+            size: 1x1
+            stage: 4
+            textures:
+              - '26060000'
+        R$$5_1x1_Medit Bldg 19_MN_0f3e4cf8.SC4Lot:
+          0f3e4cf8:
+            building: 1f3e4ce4
+            density: medium,high
+            name: R$$5_1x1_Medit Bldg 19_MN
+            props:
+              - 1d280000
+              - 1ed00000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg19MN-0x5ad0e817_0x515435b2_0x30000.SC4Model:
+          - 515435b2
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.208Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-20:
+  categories: cs$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 20
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 20_DN
+      buildings:
+        CS Medit Bldg 20_DN-0x6534284a-0x1c2d4663-0x5f3f5988.SC4Desc:
+          1c2d4663-5f3f5988:
+            bulldoze: 443
+            capacity:
+              cs$: 84
+              cs$$: 23
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 31553fb9
+            name: CS Medit Bldg 20_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 24
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 720
+        Medit Bldg 20_DN-0x6534284a-0x1c2d4663-0xbf3f58e9.SC4Desc:
+          1c2d4663-bf3f58e9:
+            bulldoze: 443
+            capacity:
+              r$: 68
+              r$$: 39
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 31553fb9
+            name: Medit Bldg 20_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 981
+      lastGenerated: 2025-01-13T11:14:27.236Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$5_1x1_CS CRMedit Bldg 20_DN_ef3f59e5.SC4Lot:
+          ef3f59e5:
+            building: 5f3f5988
+            density: medium,high
+            name: CS$$5_1x1_CS CRMedit Bldg 20_DN
+            props:
+              - 1c550000
+              - 1c6c0000
+              - 1d9e0000
+              - 1dfb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        CS$$5_1x1_CS Medit Bldg 20_DN_2f3f5996.SC4Lot:
+          2f3f5996:
+            building: 5f3f5988
+            density: medium,high
+            name: CS$$5_1x1_CS Medit Bldg 20_DN
+            props:
+              - 1d9a0000
+              - 1d9d0000
+              - 1dfb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        R$$6_1x1_CRMedit Bldg 20_DN_af3f5934.SC4Lot:
+          af3f5934:
+            building: bf3f58e9
+            density: medium,high
+            name: R$$6_1x1_CRMedit Bldg 20_DN
+            props:
+              - 1dfb0000
+              - 1ed30000
+            size: 1x1
+            stage: 6
+            textures:
+              - '26060000'
+        R$$6_1x1_Medit Bldg 20_DN_5f3f58f4.SC4Lot:
+          5f3f58f4:
+            building: bf3f58e9
+            density: medium,high
+            name: R$$6_1x1_Medit Bldg 20_DN
+            props:
+              - 1dfb0000
+              - 1ed40000
+            size: 1x1
+            stage: 6
+            textures:
+              - '26060000'
+      models:
+        MeditBldg20DN-0x5ad0e817_0x31553fb9_0x30000.SC4Model:
+          - 31553fb9
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.226Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 20_MN
+      buildings:
+        CS Medit Bldg 20_MN-0x6534284a-0x1c2d4663-0x9f3f57ab.SC4Desc:
+          1c2d4663-9f3f57ab:
+            bulldoze: 443
+            capacity:
+              cs$: 84
+              cs$$: 23
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: 31553fb9
+            name: CS Medit Bldg 20_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 24
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 720
+        Medit Bldg 20_MN-0x6534284a-0x1c2d4663-0x5f3f56b9.SC4Desc:
+          1c2d4663-5f3f56b9:
+            bulldoze: 443
+            capacity:
+              r$: 68
+              r$$: 39
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 31553fb9
+            name: Medit Bldg 20_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 981
+      lastGenerated: 2025-01-13T11:14:27.253Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$5_1x1_CS CRMedit Bldg 20_MN_0f3f582b.SC4Lot:
+          0f3f582b:
+            building: 9f3f57ab
+            density: medium,high
+            name: CS$$5_1x1_CS CRMedit Bldg 20_MN
+            props:
+              - 1c550000
+              - 1c6c0000
+              - 1d9e0000
+              - 1dfb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        CS$$5_1x1_CS Medit Bldg 20_MN_1f3f57b7.SC4Lot:
+          1f3f57b7:
+            building: 9f3f57ab
+            density: medium,high
+            name: CS$$5_1x1_CS Medit Bldg 20_MN
+            props:
+              - 1d9a0000
+              - 1d9d0000
+              - 1dfb0000
+            size: 1x1
+            stage: 5
+            textures:
+              - '26060000'
+        R$$6_1x1_CRMedit Bldg 20_MN_6f3f5715.SC4Lot:
+          6f3f5715:
+            building: 5f3f56b9
+            density: medium,high
+            name: R$$6_1x1_CRMedit Bldg 20_MN
+            props:
+              - 1dfb0000
+              - 1ed30000
+            size: 1x1
+            stage: 6
+            textures:
+              - '26060000'
+        R$$6_1x1_Medit Bldg 20_MN_1f3f56c6.SC4Lot:
+          1f3f56c6:
+            building: 5f3f56b9
+            density: medium,high
+            name: R$$6_1x1_Medit Bldg 20_MN
+            props:
+              - 1dfb0000
+              - 1ed40000
+            size: 1x1
+            stage: 6
+            textures:
+              - '26060000'
+      models:
+        MeditBldg20MN-0x5ad0e817_0x31553fb9_0x30000.SC4Model:
+          - 31553fb9
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.243Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-21:
+  categories: co$$,r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 21
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 21_DN
+      buildings:
+        CO Medit Bldg 21_DN-0x6534284a-0x1c2d4663-0xdf421141.SC4Desc:
+          1c2d4663-df421141:
+            bulldoze: 401
+            capacity:
+              co$$: 66
+            categories: co$$
+            flamability: 40
+            garbage: 4
+            model: f157f9a3
+            name: CO Medit Bldg 21_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro,Houston
+            water: 23
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 461
+        Medit Bldg 21_DN-0x6534284a-0x1c2d4663-0x1f4210d6.SC4Desc:
+          1c2d4663-1f4210d6:
+            bulldoze: 401
+            capacity:
+              r$: 117
+              r$$: 66
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: f157f9a3
+            name: Medit Bldg 21_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro,Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1688
+      lastGenerated: 2025-01-13T11:14:27.269Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CO$$5_1x2_CO Medit Bldg 21_DN_7f42115d.SC4Lot:
+          7f42115d:
+            building: df421141
+            density: medium,high
+            name: CO$$5_1x2_CO Medit Bldg 21_DN
+            props:
+              - 1c6f0000
+              - 1dfb0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 25a32000
+              - '26060000'
+        R$$5_1x2_Medit Bldg 21_DN_cf4210e4.SC4Lot:
+          cf4210e4:
+            building: 1f4210d6
+            density: medium,high
+            name: R$$5_1x2_Medit Bldg 21_DN
+            props:
+              - '1e120000'
+              - 2a8a0000
+              - 2acf0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253a2000
+              - '26060000'
+      models:
+        MeditBldg21DN-0x5ad0e817_0xf157f9a3_0x30000.SC4Model:
+          - f157f9a3
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.260Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 21_MN
+      buildings:
+        CO Medit Bldg 21_MN-0x6534284a-0x1c2d4663-0xdf421049.SC4Desc:
+          1c2d4663-df421049:
+            bulldoze: 401
+            capacity:
+              co$$: 66
+            categories: co$$
+            flamability: 40
+            garbage: 4
+            model: f157f9a3
+            name: CO Medit Bldg 21_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro,Houston
+            water: 23
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 461
+        Medit Bldg 21_MN-0x6534284a-0x1c2d4663-0x3f420fd2.SC4Desc:
+          1c2d4663-3f420fd2:
+            bulldoze: 401
+            capacity:
+              r$: 117
+              r$$: 66
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: f157f9a3
+            name: Medit Bldg 21_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro,Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1688
+      lastGenerated: 2025-01-13T11:14:27.282Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CO$$5_1x2_CO Medit Bldg 21_MN_9f421059.SC4Lot:
+          9f421059:
+            building: df421049
+            density: medium,high
+            name: CO$$5_1x2_CO Medit Bldg 21_MN
+            props:
+              - 1c6f0000
+              - 1dfb0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 25a32000
+              - '26060000'
+        R$$5_1x2_Medit Bldg 21_MN_9f420fe2.SC4Lot:
+          9f420fe2:
+            building: 3f420fd2
+            density: medium,high
+            name: R$$5_1x2_Medit Bldg 21_MN
+            props:
+              - '1e120000'
+              - 2a8a0000
+              - 2acf0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253a2000
+              - '26060000'
+      models:
+        MeditBldg21MN-0x5ad0e817_0xf157f9a3_0x30000.SC4Model:
+          - f157f9a3
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.276Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-22:
+  categories: cs$$$,r$$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 22
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 22_DN
+      buildings:
+        CS Medit Bldg 22_DN-0x6534284a-0x1c2d4663-0xdf47408b.SC4Desc:
+          1c2d4663-df47408b:
+            bulldoze: 478
+            capacity:
+              cs$: 225
+              cs$$: 59
+              cs$$$: 25
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 115d2905
+            name: CS Medit Bldg 22_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 7
+            tilesets: Euro
+            water: 62
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 2187
+        Medit Bldg 22_DN-0x6534284a-0x1c2d4663-0x3f474030.SC4Desc:
+          1c2d4663-3f474030:
+            bulldoze: 478
+            capacity:
+              r$: 182
+              r$$: 102
+              r$$$: 46
+            categories: r$$$
+            flamability: 35
+            garbage: 4
+            model: 115d2905
+            name: Medit Bldg 22_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 6
+            tilesets: Euro,Houston
+            water: 11
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 2779
+      lastGenerated: 2025-01-13T11:14:27.302Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$$4_1x2_CS Medit Bldg 22_DN_cf4740ad.SC4Lot:
+          cf4740ad:
+            building: df47408b
+            density: medium,high
+            name: CS$$$4_1x2_CS Medit Bldg 22_DN
+            props:
+              - 1c570000
+              - 1c5b0000
+            size: 1x2
+            stage: 4
+            textures:
+              - '26060000'
+        R$$$5_1x2_Medit Bldg 22_DN_af47403e.SC4Lot:
+          af47403e:
+            building: 3f474030
+            density: medium,high
+            name: R$$$5_1x2_Medit Bldg 22_DN
+            props:
+              - '1e120000'
+              - 2a8a0000
+            size: 1x2
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg22DN-0x5ad0e817_0x115d2905_0x30000.SC4Model:
+          - 115d2905
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.290Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 22_MN
+      buildings:
+        CS Medit Bldg 22_MN-0x6534284a-0x1c2d4663-0x5f473fa3.SC4Desc:
+          1c2d4663-5f473fa3:
+            bulldoze: 478
+            capacity:
+              cs$: 225
+              cs$$: 59
+              cs$$$: 25
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 115d2905
+            name: CS Medit Bldg 22_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 7
+            tilesets: Euro
+            water: 62
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 2187
+        Medit Bldg 22_MN-0x6534284a-0x1c2d4663-0x1f473f2f.SC4Desc:
+          1c2d4663-1f473f2f:
+            bulldoze: 478
+            capacity:
+              r$: 182
+              r$$: 102
+              r$$$: 46
+            categories: r$$$
+            flamability: 35
+            garbage: 4
+            model: 115d2905
+            name: Medit Bldg 22_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 6
+            tilesets: Euro,Houston
+            water: 11
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 2779
+      lastGenerated: 2025-01-13T11:14:27.317Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$$4_1x2_CS Medit Bldg 22_MN_bf473fb2.SC4Lot:
+          bf473fb2:
+            building: 5f473fa3
+            density: medium,high
+            name: CS$$$4_1x2_CS Medit Bldg 22_MN
+            props:
+              - 1c570000
+              - 1c5b0000
+            size: 1x2
+            stage: 4
+            textures:
+              - '26060000'
+        R$$$5_1x2_Medit Bldg 22_MN_df473f3d.SC4Lot:
+          df473f3d:
+            building: 1f473f2f
+            density: medium,high
+            name: R$$$5_1x2_Medit Bldg 22_MN
+            props:
+              - '1e120000'
+              - 2a8a0000
+            size: 1x2
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg22MN-0x5ad0e817_0x115d2905_0x30000.SC4Model:
+          - 115d2905
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.309Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-23:
+  categories: co$$$,cs$$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Building 23
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Bldg 23_DN
+      buildings:
+        CO Medit Bldg 23_DN-0x6534284a-0x1c2d4663-0xdf523987.SC4Desc:
+          1c2d4663-df523987:
+            bulldoze: 456
+            capacity:
+              co$$: 297
+              co$$$: 209
+            categories: co$$$
+            flamability: 35
+            garbage: 4
+            model: 9167cf07
+            name: CO Medit Bldg 23_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 9
+            tilesets: Euro,Houston
+            water: 104
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 2322
+        CS Medit Bldg 23_DN-0x6534284a-0x1c2d4663-0x7f51e911.SC4Desc:
+          1c2d4663-7f51e911:
+            bulldoze: 456
+            capacity:
+              cs$: 665
+              cs$$: 168
+              cs$$$: 69
+            categories: cs$$$
+            flamability: 35
+            garbage: 5
+            model: 9167cf07
+            name: CS Medit Bldg 23_DN
+            pollution: 4
+            pollutionRadius: 6
+            power: 19
+            tilesets: Euro,Houston
+            water: 172
+            waterPollution: 2
+            waterPollutionRadius: 7
+            worth: 6463
+      lastGenerated: 2025-01-13T11:14:27.330Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CO$$$6_2x2_CO Medit Bldg 23_DN_0f523a19.SC4Lot:
+          0f523a19:
+            building: df523987
+            density: medium,high
+            name: CO$$$6_2x2_CO Medit Bldg 23_DN
+            props:
+              - 1c5e0000
+              - 1da70000
+              - 1da90000
+              - 1dfb0000
+              - '1e010000'
+              - 1ecb0000
+              - 1ecd0000
+              - 1ed00000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25aa2000
+              - '26060000'
+        CO$$$6_2x2_CO Medit Bldg 23_DN_af523995.SC4Lot:
+          af523995:
+            building: df523987
+            density: medium,high
+            name: CO$$$6_2x2_CO Medit Bldg 23_DN
+            props:
+              - 1c520000
+              - 1c5b0000
+              - 1d9a0000
+              - 1da00000
+              - 1dfb0000
+              - 1ecb0000
+              - 1ecd0000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25aa2000
+              - '26060000'
+        CS$$$6_2x2_CS Medit Bldg 23_DN_1f51e9c3.SC4Lot:
+          1f51e9c3:
+            building: 7f51e911
+            density: medium,high
+            name: CS$$$6_2x2_CS Medit Bldg 23_DN
+            props:
+              - 1c500000
+              - 1c570000
+              - 1d9a0000
+              - 1da40000
+              - 1dfb0000
+              - '1e120000'
+              - 1e9a0000
+              - 29b10000
+              - 2a8a0000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25aa2000
+              - '26060000'
+        CS$$$6_2x2_CS Medit Bldg 23_DN_5f51e926.SC4Lot:
+          5f51e926:
+            building: 7f51e911
+            density: medium,high
+            name: CS$$$6_2x2_CS Medit Bldg 23_DN
+            props:
+              - 1da50000
+              - 1da90000
+              - 1dfb0000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25aa2000
+              - '26060000'
+      models:
+        MeditBldg23DN-0x5ad0e817_0x9167cf07_0x30000.SC4Model:
+          - 9167cf07
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.324Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Bldg 23_MN
+      buildings:
+        CO Medit Bldg 23_MN-0x6534284a-0x1c2d4663-0x9f523834.SC4Desc:
+          1c2d4663-9f523834:
+            bulldoze: 456
+            capacity:
+              co$$: 297
+              co$$$: 209
+            categories: co$$$
+            flamability: 35
+            garbage: 4
+            model: 9167cf07
+            name: CO Medit Bldg 23_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 9
+            tilesets: Euro,Houston
+            water: 104
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 2322
+        CS Medit Bldg 23_MN-0x6534284a-0x1c2d4663-0x3f51e77e.SC4Desc:
+          1c2d4663-3f51e77e:
+            bulldoze: 456
+            capacity:
+              cs$: 665
+              cs$$: 168
+              cs$$$: 69
+            categories: cs$$$
+            flamability: 35
+            garbage: 5
+            model: 9167cf07
+            name: CS Medit Bldg 23_MN
+            pollution: 4
+            pollutionRadius: 6
+            power: 19
+            tilesets: Euro,Houston
+            water: 172
+            waterPollution: 2
+            waterPollutionRadius: 7
+            worth: 6463
+      lastGenerated: 2025-01-13T11:14:27.344Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CO$$$6_2x2_CO Medit Bldg 23_MN_4f523842.SC4Lot:
+          4f523842:
+            building: 9f523834
+            density: medium,high
+            name: CO$$$6_2x2_CO Medit Bldg 23_MN
+            props:
+              - 1c680000
+              - 1d9a0000
+              - 1daa0000
+              - 1dfb0000
+            size: 2x2
+            stage: 6
+            textures:
+              - '25993000'
+              - '26060000'
+        CO$$$6_2x2_CO Medit Bldg 23_MN_af5238cd.SC4Lot:
+          af5238cd:
+            building: 9f523834
+            density: medium,high
+            name: CO$$$6_2x2_CO Medit Bldg 23_MN
+            props:
+              - 1c580000
+              - 1c5d0000
+              - 1da10000
+              - 1da40000
+              - 1dfb0000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25aa2000
+              - '26060000'
+        CS$$$6_2x2_CS Medit Bldg 23_MN_bf51e817.SC4Lot:
+          bf51e817:
+            building: 3f51e77e
+            density: medium,high
+            name: CS$$$6_2x2_CS Medit Bldg 23_MN
+            props:
+              - 1c500000
+              - 1c540000
+              - 1d9c0000
+              - 1da50000
+              - 1dfb0000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25ab2000
+              - '26060000'
+        CS$$$6_2x2_CS Medit Bldg 23_MN_df51e78e.SC4Lot:
+          df51e78e:
+            building: 3f51e77e
+            density: medium,high
+            name: CS$$$6_2x2_CS Medit Bldg 23_MN
+            props:
+              - 1c550000
+              - 1da10000
+              - 1da90000
+              - 1dfb0000
+            size: 2x2
+            stage: 6
+            textures:
+              - 25ab2000
+              - '26060000'
+      models:
+        MeditBldg23MN-0x5ad0e817_0x9167cf07_0x30000.SC4Model:
+          - 9167cf07
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.337Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-24:
+  categories: r$$,mediterranean
+  description: A bit of Marseille and Nice for you for the community. Also, for fun, I created a Marseille-inspired BAT with a rooftop restaurant.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda49cf73_Baiefronte-Est-Jan.5671645566709.png.937c5983f5cb8ca0c7cf01a9a17184c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda846f56_Centrale-Nov.12361645841899.png.171a8f010a580ecfa941f69672cd25f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdad69461_Centrale-Nov.91981644517457.png.f3ddc180a3c36d87b513fea6c7da100a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdb0641ea_Centrale-Oct.282361645841889.png.fbe1a9f42ae5b70860ee903e672751f9.png
+  name: Mediterranean Building 24
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/621bce42abd79_Baiefronte-Est-Jan.5671645566709.thumb.png.56da204b7b444eb248fcc842a401763a.png
+  url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191813
+          include:
+            - Medit Pack 3_DN/Medit Bldg 24_DN
+      buildings:
+        Medit Bldg 24_DN-0x6534284a-0x1c2d4663-0xdf7c3678.SC4Desc:
+          1c2d4663-df7c3678:
+            bulldoze: 401
+            capacity:
+              r$: 84
+              r$$: 48
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 4efafeb3
+            name: Medit Bldg 24_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro,Houston
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1212
+      lastGenerated: 2025-01-13T11:03:52.780Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        R$$5_1x2_Medit Bldg 24_DN_af7c3686.SC4Lot:
+          af7c3686:
+            building: df7c3678
+            density: medium,high
+            name: R$$5_1x2_Medit Bldg 24_DN
+            props:
+              - '1e120000'
+              - 2a8a0000
+              - 2acf0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 252f2000
+              - '26060000'
+      models:
+        MeditBldg24DN-0x5ad0e817_0x4efafeb3_0x30000.SC4Model:
+          - 4efafeb3
+      name: Dark Nite
+      release: 2025-01-13T11:03:52.768Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191814
+          include:
+            - Medit Pack 3_MN/Medit Bldg 24_MN
+      buildings:
+        Medit Bldg 24_MN-0x6534284a-0x1c2d4663-0xbf7c35e6.SC4Desc:
+          1c2d4663-bf7c35e6:
+            bulldoze: 401
+            capacity:
+              r$: 84
+              r$$: 48
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 4efafeb3
+            name: Medit Bldg 24_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            tilesets: Euro,Houston
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1212
+      lastGenerated: 2025-01-13T11:03:52.798Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        R$$5_1x2_Medit Bldg 24_MN_5f7c35f7.SC4Lot:
+          5f7c35f7:
+            building: bf7c35e6
+            density: medium,high
+            name: R$$5_1x2_Medit Bldg 24_MN
+            props:
+              - 164b0000
+              - '1e120000'
+              - 2a8a0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 252f2000
+              - '26060000'
+      models:
+        MeditBldg24MN-0x5ad0e817_0x4efafeb3_0x30000.SC4Model:
+          - 4efafeb3
+      name: Maxis Nite
+      release: 2025-01-13T11:03:52.790Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-25:
+  categories: cs$$$,mediterranean
+  description: A bit of Marseille and Nice for you for the community. Also, for fun, I created a Marseille-inspired BAT with a rooftop restaurant.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda49cf73_Baiefronte-Est-Jan.5671645566709.png.937c5983f5cb8ca0c7cf01a9a17184c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda846f56_Centrale-Nov.12361645841899.png.171a8f010a580ecfa941f69672cd25f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdad69461_Centrale-Nov.91981644517457.png.f3ddc180a3c36d87b513fea6c7da100a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdb0641ea_Centrale-Oct.282361645841889.png.fbe1a9f42ae5b70860ee903e672751f9.png
+  name: Mediterranean Building 25
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/621bce42abd79_Baiefronte-Est-Jan.5671645566709.thumb.png.56da204b7b444eb248fcc842a401763a.png
+  url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191813
+          include:
+            - Medit Pack 3_DN/Medit Bldg 25_DN
+      buildings:
+        CS Medit Bldg 25_DN-0x6534284a-0x1c2d4663-0xbf864ec6.SC4Desc:
+          1c2d4663-bf864ec6:
+            bulldoze: 435
+            capacity:
+              cs$: 175
+              cs$$: 46
+              cs$$$: 20
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 4f0462aa
+            name: CS Medit Bldg 25_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 5
+            tilesets: Euro,Houston
+            water: 49
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1701
+      lastGenerated: 2025-01-13T11:03:52.816Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        CS$$$4_1x2_CS Medit Bldg 25_DN_8f864ed6.SC4Lot:
+          8f864ed6:
+            building: bf864ec6
+            density: medium,high
+            name: CS$$$4_1x2_CS Medit Bldg 25_DN
+            props:
+              - 1d9a0000
+              - 1d9b0000
+              - 1da90000
+              - 1dfb0000
+              - aa836b49
+            size: 1x2
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg25DN-0x5ad0e817_0x4f0462aa_0x30000.SC4Model:
+          - 4f0462aa
+      name: Dark Nite
+      release: 2025-01-13T11:03:52.806Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191814
+          include:
+            - Medit Pack 3_MN/Medit Bldg 25_MN
+      buildings:
+        CS Medit Bldg 25_MN-0x6534284a-0x1c2d4663-0x1f864d49.SC4Desc:
+          1c2d4663-1f864d49:
+            bulldoze: 435
+            capacity:
+              cs$: 175
+              cs$$: 46
+              cs$$$: 20
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 4f0462aa
+            name: CS Medit Bldg 25_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 5
+            tilesets: Euro,Houston
+            water: 49
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1701
+      lastGenerated: 2025-01-13T11:03:52.830Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        CS$$$4_1x2_CS Medit Bldg 25_MN_7f864d66.SC4Lot:
+          7f864d66:
+            building: 1f864d49
+            density: medium,high
+            name: CS$$$4_1x2_CS Medit Bldg 25_MN
+            props:
+              - 1d9a0000
+              - 1d9b0000
+              - 1da90000
+              - 1dfb0000
+              - aa836b49
+            size: 1x2
+            stage: 5
+            textures:
+              - '26060000'
+      models:
+        MeditBldg25MN-0x5ad0e817_0x4f0462aa_0x30000.SC4Model:
+          - 4f0462aa
+      name: Maxis Nite
+      release: 2025-01-13T11:03:52.823Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-26:
+  categories: cs$$$,mediterranean
+  description: A bit of Marseille and Nice for you for the community. Also, for fun, I created a Marseille-inspired BAT with a rooftop restaurant.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda49cf73_Baiefronte-Est-Jan.5671645566709.png.937c5983f5cb8ca0c7cf01a9a17184c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda846f56_Centrale-Nov.12361645841899.png.171a8f010a580ecfa941f69672cd25f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdad69461_Centrale-Nov.91981644517457.png.f3ddc180a3c36d87b513fea6c7da100a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdb0641ea_Centrale-Oct.282361645841889.png.fbe1a9f42ae5b70860ee903e672751f9.png
+  name: Mediterranean Building 26
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/621bce42abd79_Baiefronte-Est-Jan.5671645566709.thumb.png.56da204b7b444eb248fcc842a401763a.png
+  url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191813
+          include:
+            - Medit Pack 3_DN/Medit Bldg 26_DN
+      buildings:
+        CS Medit Bldg 26_DN-0x6534284a-0x1c2d4663-0x1f86c564.SC4Desc:
+          1c2d4663-1f86c564:
+            bulldoze: 435
+            capacity:
+              cs$: 175
+              cs$$: 46
+              cs$$$: 20
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 0f058c36
+            name: CS Medit Bldg 26_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 5
+            tilesets: Euro,Houston
+            water: 49
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1701
+      lastGenerated: 2025-01-13T11:03:52.844Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        CS$$$4_1x2_CS Medit Bldg 26_DN_3f86c570.SC4Lot:
+          3f86c570:
+            building: 1f86c564
+            density: medium,high
+            name: CS$$$4_1x2_CS Medit Bldg 26_DN
+            props:
+              - 1d9c0000
+              - 1d9e0000
+              - 1da60000
+              - 1dfb0000
+            size: 1x2
+            stage: 4
+            textures:
+              - '26060000'
+      models:
+        MeditBldg26DN-0x5ad0e817_0xf058c36_0x30000.SC4Model:
+          - 0f058c36
+      name: Dark Nite
+      release: 2025-01-13T11:03:52.836Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191814
+          include:
+            - Medit Pack 3_MN/Medit Bldg 26_MN
+      buildings:
+        CS Medit Bldg 26_MN-0x6534284a-0x1c2d4663-0x3f86c4b3.SC4Desc:
+          1c2d4663-3f86c4b3:
+            bulldoze: 435
+            capacity:
+              cs$: 175
+              cs$$: 46
+              cs$$$: 20
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 0f058c36
+            name: CS Medit Bldg 26_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 5
+            tilesets: Euro,Houston
+            water: 49
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1701
+      lastGenerated: 2025-01-13T11:03:52.862Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        CS$$$4_1x2_CS Medit Bldg 26_MN_ef86c4c0.SC4Lot:
+          ef86c4c0:
+            building: 3f86c4b3
+            density: medium,high
+            name: CS$$$4_1x2_CS Medit Bldg 26_MN
+            props:
+              - 1d9c0000
+              - 1d9e0000
+              - 1da60000
+              - 1dfb0000
+            size: 1x2
+            stage: 4
+            textures:
+              - '26060000'
+      models:
+        MeditBldg26MN-0x5ad0e817_0xf058c36_0x30000.SC4Model:
+          - 0f058c36
+      name: Maxis Nite
+      release: 2025-01-13T11:03:52.850Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-27:
+  categories: r$$$,mediterranean
+  description: A bit of Marseille and Nice for you for the community. Also, for fun, I created a Marseille-inspired BAT with a rooftop restaurant.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda49cf73_Baiefronte-Est-Jan.5671645566709.png.937c5983f5cb8ca0c7cf01a9a17184c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda846f56_Centrale-Nov.12361645841899.png.171a8f010a580ecfa941f69672cd25f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdad69461_Centrale-Nov.91981644517457.png.f3ddc180a3c36d87b513fea6c7da100a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdb0641ea_Centrale-Oct.282361645841889.png.fbe1a9f42ae5b70860ee903e672751f9.png
+  name: Mediterranean Building 27
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/621bce42abd79_Baiefronte-Est-Jan.5671645566709.thumb.png.56da204b7b444eb248fcc842a401763a.png
+  url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191813
+          include:
+            - Medit Pack 3_DN/Medit Bldg 27_DN
+      buildings:
+        Medit Bldg 27_DN-0x6534284a-0x1c2d4663-0xdf964bd0.SC4Desc:
+          1c2d4663-df964bd0:
+            bulldoze: 350
+            capacity:
+              r$: 83
+              r$$: 47
+              r$$$: 22
+            categories: r$$$
+            flamability: 35
+            garbage: 4
+            model: 6f151251
+            name: Medit Bldg 27_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 3
+            tilesets: Euro,Houston
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1267
+      lastGenerated: 2025-01-13T11:03:52.880Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        R$$$5_1x2_Medit Bldg 27_DN_ef964be9.SC4Lot:
+          ef964be9:
+            building: df964bd0
+            density: medium,high
+            name: R$$$5_1x2_Medit Bldg 27_DN
+            props:
+              - 1d280000
+              - 2ad30000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253b3000
+              - '26060000'
+      models:
+        MeditBldg27DN-0x5ad0e817_0x6f151251_0x30000.SC4Model:
+          - 6f151251
+      name: Dark Nite
+      release: 2025-01-13T11:03:52.869Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191814
+          include:
+            - Medit Pack 3_MN/Medit Bldg 27_MN
+      buildings:
+        Medit Bldg 27_MN-0x6534284a-0x1c2d4663-0x1f964ad7.SC4Desc:
+          1c2d4663-1f964ad7:
+            bulldoze: 350
+            capacity:
+              r$: 83
+              r$$: 47
+              r$$$: 22
+            categories: r$$$
+            flamability: 35
+            garbage: 4
+            model: 6f151251
+            name: Medit Bldg 27_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 3
+            tilesets: Euro,Houston
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1267
+      lastGenerated: 2025-01-13T11:03:52.897Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        R$$$5_1x2_Medit Bldg 27_MN_3f964af5.SC4Lot:
+          3f964af5:
+            building: 1f964ad7
+            density: medium,high
+            name: R$$$5_1x2_Medit Bldg 27_MN
+            props:
+              - 1d280000
+              - 2ad30000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253b3000
+              - '26060000'
+      models:
+        MeditBldg27MN-0x5ad0e817_0x6f151251_0x30000.SC4Model:
+          - 6f151251
+      name: Maxis Nite
+      release: 2025-01-13T11:03:52.886Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-building-28:
+  categories: cs$$,mediterranean
+  description: A bit of Marseille and Nice for you for the community. Also, for fun, I created a Marseille-inspired BAT with a rooftop restaurant.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda49cf73_Baiefronte-Est-Jan.5671645566709.png.937c5983f5cb8ca0c7cf01a9a17184c8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcda846f56_Centrale-Nov.12361645841899.png.171a8f010a580ecfa941f69672cd25f3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdad69461_Centrale-Nov.91981644517457.png.f3ddc180a3c36d87b513fea6c7da100a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_02/621bcdb0641ea_Centrale-Oct.282361645841889.png.fbe1a9f42ae5b70860ee903e672751f9.png
+  name: Mediterranean Building 28
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_02/621bce42abd79_Baiefronte-Est-Jan.5671645566709.thumb.png.56da204b7b444eb248fcc842a401763a.png
+  url: https://community.simtropolis.com/files/file/34876-mediterranean-pack-3/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191813
+          include:
+            - Medit Pack 3_DN/Medit Bldg 28_DN
+      buildings:
+        CS Medit Bldg 28_DN-0x6534284a-0x1c2d4663-0x9f9e8c66.SC4Desc:
+          1c2d4663-9f9e8c66:
+            bulldoze: 443
+            capacity:
+              cs$: 138
+              cs$$: 37
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: af1d4e9d
+            name: CS Medit Bldg 28_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 3
+            tilesets: Euro
+            water: 37
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1184
+      lastGenerated: 2025-01-13T11:03:52.913Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        CS$$3_1x2_CS Medit Bldg 28_DN_df9e8c72.SC4Lot:
+          df9e8c72:
+            building: 9f9e8c66
+            density: medium,high
+            name: CS$$3_1x2_CS Medit Bldg 28_DN
+            props:
+              - 1dfb0000
+              - 29b10000
+              - aa836b49
+            size: 1x2
+            stage: 3
+            textures:
+              - 25c52000
+              - '26060000'
+      models:
+        MeditBldg28DN-0x5ad0e817_0xaf1d4e9d_0x30000.SC4Model:
+          - af1d4e9d
+      name: Dark Nite
+      release: 2025-01-13T11:03:52.903Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34876-mediterranean-pack-3#191814
+          include:
+            - Medit Pack 3_MN/Medit Bldg 28_MN
+      buildings:
+        CS Medit Bldg 28_MN-0x6534284a-0x1c2d4663-0x5f9e8bbb.SC4Desc:
+          1c2d4663-5f9e8bbb:
+            bulldoze: 443
+            capacity:
+              cs$: 138
+              cs$$: 37
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: af1d4e9d
+            name: CS Medit Bldg 28_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 3
+            tilesets: Euro
+            water: 37
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1184
+      lastGenerated: 2025-01-13T11:03:52.932Z
+      lastModified: 2022-02-27T19:17:29.000Z
+      lots:
+        CS$$3_1x2_CS Medit Bldg 28_MN_6f9e8bcf.SC4Lot:
+          6f9e8bcf:
+            building: 5f9e8bbb
+            density: medium,high
+            name: CS$$3_1x2_CS Medit Bldg 28_MN
+            props:
+              - 1dfb0000
+              - 29b10000
+            size: 1x2
+            stage: 3
+            textures:
+              - 25c52000
+              - '26060000'
+      models:
+        MeditBldg28MN-0x5ad0e817_0xaf1d4e9d_0x30000.SC4Model:
+          - af1d4e9d
+      name: Maxis Nite
+      release: 2025-01-13T11:03:52.920Z
+      requirements:
+        darknite: false
       version: 1.0.0
 
 wannglondon/mediterranean-building-50:
@@ -2132,6 +5182,486 @@ wannglondon/mediterranean-building-59:
           - 330d9ebf
       name: Dark Nite
       release: 2024-12-17T13:25:04.841Z
+      version: 1.0.0
+
+wannglondon/mediterranean-flats-h:
+  categories: r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Flats H
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Flats H_DN
+      buildings:
+        CS Medit Flats H_DN-0x6534284a-0x1c2d4663-0x5f222d2c.SC4Desc:
+          1c2d4663-5f222d2c:
+            bulldoze: 443
+            capacity:
+              cs$: 178
+              cs$$: 47
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: f106563a
+            name: CS Medit Flats H_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 4
+            tilesets: Houston
+            water: 46
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1527
+        Medit Flats H_DN-0x6534284a-0x1c2d4663-0x7ef06b7b.SC4Desc:
+          1c2d4663-7ef06b7b:
+            bulldoze: 443
+            capacity:
+              r$: 144
+              r$$: 81
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: f106563a
+            name: Medit Flats H_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2077
+      categories: cs$$
+      lastGenerated: 2025-01-13T11:14:27.360Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$3_1x2_CS Medit Flats H_DN_7f222d37.SC4Lot:
+          7f222d37:
+            building: 5f222d2c
+            density: medium,high
+            name: CS$$3_1x2_CS Medit Flats H_DN
+            props:
+              - 1c540000
+              - 1d8c0000
+              - 1ed00000
+            size: 1x2
+            stage: 3
+            textures:
+              - 25c52000
+              - '26060000'
+        R$$5_1x2_Medit Flats H_DN_bef06b89.SC4Lot:
+          bef06b89:
+            building: 7ef06b7b
+            density: medium,high
+            name: R$$5_1x2_Medit Flats H_DN
+            props:
+              - '1e120000'
+              - 1ed40000
+              - 1f000000
+            size: 1x2
+            stage: 5
+            textures:
+              - 25f10000
+              - '26060000'
+      models:
+        MeditFlatsHDN-0x5ad0e817_0xf106563a_0x30000.SC4Model:
+          - f106563a
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.350Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Flats H_MN
+      buildings:
+        Medit Flats H_MN-0x6534284a-0x1c2d4663-0x5ef06aa6.SC4Desc:
+          1c2d4663-5ef06aa6:
+            bulldoze: 443
+            capacity:
+              r$: 144
+              r$$: 81
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: f106563a
+            name: Medit Flats H_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2077
+      lastGenerated: 2025-01-13T11:14:27.374Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        R$$5_1x2_Medit Flats H_MN_3ef06ab3.SC4Lot:
+          3ef06ab3:
+            building: 5ef06aa6
+            density: medium,high
+            name: R$$5_1x2_Medit Flats H_MN
+            props:
+              - '1e120000'
+              - 1ed40000
+              - 1f000000
+            size: 1x2
+            stage: 5
+            textures:
+              - 25f10000
+              - '26060000'
+      models:
+        MeditFlatsHMN-0x5ad0e817_0xf106563a_0x30000.SC4Model:
+          - f106563a
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.368Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-flats-i:
+  categories: r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Flats I
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Flats I_DN
+      buildings:
+        CS Medit Flats I_DN-0x6534284a-0x1c2d4663-0x7f222dbf.SC4Desc:
+          1c2d4663-7f222dbf:
+            bulldoze: 443
+            capacity:
+              cs$: 178
+              cs$$: 47
+            categories: cs$$
+            flamability: 40
+            garbage: 4
+            model: '71372705'
+            name: CS Medit Flats I_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 4
+            tilesets: Houston
+            water: 46
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1527
+        Medit Flats I_DN-0x6534284a-0x1c2d4663-0x7f213da1.SC4Desc:
+          1c2d4663-7f213da1:
+            bulldoze: 443
+            capacity:
+              r$: 144
+              r$$: 81
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: '71372705'
+            name: Medit Flats I_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2077
+      categories: cs$$
+      lastGenerated: 2025-01-13T11:14:27.388Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        CS$$3_1x2_CS Medit Flats I_DN_cf222dcc.SC4Lot:
+          cf222dcc:
+            building: 7f222dbf
+            density: medium,high
+            name: CS$$3_1x2_CS Medit Flats I_DN
+            props:
+              - 1c580000
+              - 1c5b0000
+              - 1ecb0000
+            size: 1x2
+            stage: 3
+            textures:
+              - 25c52000
+              - '26060000'
+        R$$5_1x2_Medit Flats I_DN_df213dac.SC4Lot:
+          df213dac:
+            building: 7f213da1
+            density: medium,high
+            name: R$$5_1x2_Medit Flats I_DN
+            props:
+              - 1ed40000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253d2000
+              - '26060000'
+      models:
+        MeditFlatsIDN-0x5ad0e817_0x71372705_0x30000.SC4Model:
+          - '71372705'
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.380Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Flats I_MN
+      buildings:
+        Medit Flats I_MN-0x6534284a-0x1c2d4663-0x3f213c8f.SC4Desc:
+          1c2d4663-3f213c8f:
+            bulldoze: 443
+            capacity:
+              r$: 144
+              r$$: 81
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: '71372705'
+            name: Medit Flats I_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2077
+      lastGenerated: 2025-01-13T11:14:27.401Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        R$$5_1x2_Medit Flats I_MN_2f213c99.SC4Lot:
+          2f213c99:
+            building: 3f213c8f
+            density: medium,high
+            name: R$$5_1x2_Medit Flats I_MN
+            props:
+              - 1ed40000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253d2000
+              - '26060000'
+      models:
+        MeditFlatsIMN-0x5ad0e817_0x71372705_0x30000.SC4Model:
+          - '71372705'
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.395Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-flats-j:
+  categories: r$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Flats J
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Flats J_DN
+      buildings:
+        Medit Flats J_DN-0x6534284a-0x1c2d4663-0x1f225505.SC4Desc:
+          1c2d4663-1f225505:
+            bulldoze: 443
+            capacity:
+              r$: 144
+              r$$: 81
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 513840d1
+            name: Medit Flats J_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2077
+      lastGenerated: 2025-01-13T11:14:27.423Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        R$$5_1x2_Medit Flats J_DN_9f225511.SC4Lot:
+          9f225511:
+            building: 1f225505
+            density: medium,high
+            name: R$$5_1x2_Medit Flats J_DN
+            props:
+              - 1ed40000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253d2000
+              - '26060000'
+      models:
+        MeditFlatsJDN-0x5ad0e817_0x513840d1_0x30000.SC4Model:
+          - 513840d1
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.410Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191211
+          include:
+            - Medit Pack 3_MN/Medit Flats J_MN
+      buildings:
+        Medit Flats J_MN-0x6534284a-0x1c2d4663-0x5f225498.SC4Desc:
+          1c2d4663-5f225498:
+            bulldoze: 443
+            capacity:
+              r$: 144
+              r$$: 81
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 513840d1
+            name: Medit Flats J_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Houston
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2077
+      lastGenerated: 2025-01-13T11:14:27.447Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        R$$5_1x2_Medit Flats J_MN_6f2254a2.SC4Lot:
+          6f2254a2:
+            building: 5f225498
+            density: medium,high
+            name: R$$5_1x2_Medit Flats J_MN
+            props:
+              - 1ed40000
+            size: 1x2
+            stage: 5
+            textures:
+              - 253d2000
+              - '26060000'
+      models:
+        MeditFlatsJMN-0x5ad0e817_0x513840d1_0x30000.SC4Model:
+          - 513840d1
+      name: Maxis Nite
+      release: 2025-01-13T11:14:27.430Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/mediterranean-hotel:
+  categories: landmarks,cs$$$,mediterranean
+  description: Happy New Year community! I have been sitting on these for a bit and finally got some time to upload. A pack of Mediterranean residential and commercial buildings based on those found on the French Riviera. In the DarkNite set, a large Mediterranean-inspired hotel is included as a CS$$$ plop - please feel free to delete the lot/desc file and lot to your heart's content (you know I stink at lotting).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c741c281_Centrale-Mar.211361641945407.png.2ed4c8a96cc8a9654e805452bf1b6f6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c7e2f4c7_Centrale-Feb.101361641946118.png.d9feeac247be5b2d1e28bfb7673c4f94.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c808b2d6_Centrale-Mar.211361641945323.png.d29f15ec4d590f1d3dfbb3f7b868f662.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c82c4fca_Centrale-Mar.211361641945343.png.a10074215d6461198af7e089f216a0ac.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c8600328_Centrale-Mar.211361641945478.png.cca9735f7dd52be795e34f1732720c4b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1c88b8459_Centrale-Mar.211361641945500.png.99c008cb1802ae426dbb119cc80a63d4.png
+  name: Mediterranean Hotel
+  requirements:
+    darknite: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61de1d6f53f44_Centrale-Mar.211361641945407.thumb.png.0cb191b8bb856f26918dabff758df692.png
+  url: https://community.simtropolis.com/files/file/34835-mediterranean-pack-2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34835-mediterranean-pack-2#191210
+          include:
+            - Medit Pack 3_DN/Medit Hotel_DN
+      buildings:
+        PLOP_4x2_Medit Hotel_DN_af49bfef.SC4Lot:
+          1c2d4663-af49bfef:
+            bulldoze: 456
+            capacity:
+              cs$: 1182
+              cs$$: 298
+              cs$$$: 121
+            categories: landmarks,cs$$$
+            cost: 8864
+            description: This building was made by a Typing Monkey
+            flamability: 35
+            garbage: 10
+            label: Medit Hotel_DN
+            menu: Landmarks
+            model: 915fa54b
+            name: Medit Hotel_DN
+            pollution: 10
+            pollutionRadius: 6
+            power: 34
+            submenu: Commercial/CS$$$
+            water: 301
+            waterPollution: 5
+            waterPollutionRadius: 7
+            worth: 11489
+      lastGenerated: 2025-01-13T11:14:27.460Z
+      lastModified: 2022-01-12T00:14:44.000Z
+      lots:
+        PLOP_4x2_Medit Hotel_DN_af49bfef.SC4Lot:
+          af49bfef:
+            building: af49bfef
+            name: PLOP_4x2_Medit Hotel_DN
+            props:
+              - 1d280000
+              - 1d9a0000
+              - 1da30000
+              - 1da70000
+              - 1daa0000
+              - 1dfb0000
+              - '1e120000'
+              - 29b10000
+              - 2a8a0000
+            size: 4x2
+            textures:
+              - '25e20000'
+              - 25f40000
+              - '26060000'
+      models:
+        MeditHotelDN-0x5ad0e817_0x915fa54b_0x30000.SC4Model:
+          - 915fa54b
+      name: Dark Nite
+      release: 2025-01-13T11:14:27.454Z
       version: 1.0.0
 
 wannglondon/mid-century-modern-homes-pack:
@@ -3324,7 +6854,288 @@ wannglondon/ny-building-9:
       release: 2025-01-10T15:16:30.953Z
       version: 1.0.0
 
-wannglondon/paris-batiment-32:
+wannglondon/paris-building-20:
+  categories: r$$,paris
+  description: Two buildings inspired by those found along the quais of Paris. One includes a CS version as well. Enjoy!
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61f5b4a94f8f9_Centrale-Dec.15141643492263.png.fb80406080fc1c58a179e985468af042.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61f5b4abd1626_Centrale-Nov.4141643492243.png.a31b4ea09ec5fd75e9e2862e41608bc0.png
+  name: Paris Batiment 20
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61f5b507cbfcf_Centrale-Nov.4141643492243.thumb.png.ae5677dfc71cc4046e9833e86adff6dd.png
+  url: https://community.simtropolis.com/files/file/34843-paris-batiments-20-21/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34843-paris-batiments-20-21#191277
+          include:
+            - Paris Batiment 20_DN
+      buildings:
+        Paris Batiment 20_DN-0x6534284a-0x1c2d4663-0x9f72ab44.SC4Desc:
+          1c2d4663-9f72ab44:
+            bulldoze: 370
+            capacity:
+              r$: 140
+              r$$: 78
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 6ef1712f
+            name: Paris Batiment 20_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2020
+      lastGenerated: 2025-01-13T10:54:42.108Z
+      lastModified: 2022-01-29T21:43:36.000Z
+      lots:
+        R$$5_1x2_Paris Batiment 20_DN_0f72ab59.SC4Lot:
+          0f72ab59:
+            building: 9f72ab44
+            density: medium,high
+            name: R$$5_1x2_Paris Batiment 20_DN
+            props:
+              - 2a8a0000
+              - 2acf0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 252f2000
+              - '26060000'
+      models:
+        ParisBatiment20DN-0x5ad0e817_0x6ef1712f_0x30000.SC4Model:
+          - 6ef1712f
+      name: Dark Nite
+      release: 2025-01-13T10:43:28.269Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34843-paris-batiments-20-21#191278
+          include:
+            - Paris Batiment 20_MN
+      buildings:
+        Paris Batiment 20_MN-0x6534284a-0x1c2d4663-0xdf72aa88.SC4Desc:
+          1c2d4663-df72aa88:
+            bulldoze: 370
+            capacity:
+              r$: 140
+              r$$: 78
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 6ef1712f
+            name: Paris Batiment 20_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2020
+      lastGenerated: 2025-01-13T10:54:42.113Z
+      lastModified: 2022-01-29T21:43:36.000Z
+      lots:
+        R$$5_1x2_Paris Batiment 20_MN_2f72aabc.SC4Lot:
+          2f72aabc:
+            building: df72aa88
+            density: medium,high
+            name: R$$5_1x2_Paris Batiment 20_MN
+            props:
+              - 2a8a0000
+              - 2acf0000
+            size: 1x2
+            stage: 5
+            textures:
+              - 252f2000
+              - '26060000'
+      models:
+        ParisBatiment20MN-0x5ad0e817_0x6ef1712f_0x30000.SC4Model:
+          - 6ef1712f
+      name: Maxis Nite
+      release: 2025-01-13T10:43:28.282Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/paris-building-21:
+  categories: cs$$$,r$$,paris
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61f5b4a94f8f9_Centrale-Dec.15141643492263.png.fb80406080fc1c58a179e985468af042.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61f5b4abd1626_Centrale-Nov.4141643492243.png.a31b4ea09ec5fd75e9e2862e41608bc0.png
+  name: Paris Batiment 21
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61f5b507cbfcf_Centrale-Nov.4141643492243.thumb.png.ae5677dfc71cc4046e9833e86adff6dd.png
+  url: https://community.simtropolis.com/files/file/34843-paris-batiments-20-21/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/34843-paris-batiments-20-21#191279
+          include:
+            - Paris Batiment 21_DN
+      buildings:
+        CS Paris Batiment 21_DN-0x6534284a-0x1c2d4663-0x7f7ab10d.SC4Desc:
+          1c2d4663-7f7ab10d:
+            bulldoze: 424
+            capacity:
+              cs$: 199
+              cs$$: 52
+              cs$$$: 23
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 0ef974eb
+            name: CS Paris Batiment 21_DN
+            pollution: 1
+            pollutionRadius: 6
+            power: 6
+            tilesets: Euro
+            water: 55
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1934
+        Paris Batiment 21_DN-0x6534284a-0x1c2d4663-0x7f7ab099.SC4Desc:
+          1c2d4663-7f7ab099:
+            bulldoze: 412
+            capacity:
+              r$: 161
+              r$$: 90
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 0ef974eb
+            name: Paris Batiment 21_DN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2323
+      lastGenerated: 2025-01-13T10:54:42.118Z
+      lastModified: 2022-01-29T21:43:36.000Z
+      lots:
+        CS$$$4_1x2_CS Paris Batiment 21_DN_bf7ab120.SC4Lot:
+          bf7ab120:
+            building: 7f7ab10d
+            density: medium,high
+            name: CS$$$4_1x2_CS Paris Batiment 21_DN
+            props:
+              - 1d9a0000
+            size: 1x2
+            stage: 4
+            textures:
+              - 25aa2000
+              - '26060000'
+        R$$5_1x2_Paris Batiment 21_DN_5f7ab0b6.SC4Lot:
+          5f7ab0b6:
+            building: 7f7ab099
+            density: medium,high
+            name: R$$5_1x2_Paris Batiment 21_DN
+            props:
+              - 164b0000
+              - 1ed30000
+            size: 1x2
+            stage: 5
+            textures:
+              - '25352000'
+              - '26060000'
+      models:
+        ParisBatiment21DN-0x5ad0e817_0xef974eb_0x30000.SC4Model:
+          - 0ef974eb
+      name: Dark Nite
+      release: 2025-01-13T10:43:28.296Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/34843-paris-batiments-20-21#191280
+          include:
+            - Paris Batiment 21_MN
+      buildings:
+        CS Paris Batiment 21_MN-0x6534284a-0x1c2d4663-0x1f7aaff6.SC4Desc:
+          1c2d4663-1f7aaff6:
+            bulldoze: 424
+            capacity:
+              cs$: 199
+              cs$$: 52
+              cs$$$: 23
+            categories: cs$$$
+            flamability: 35
+            garbage: 4
+            model: 0ef974eb
+            name: CS Paris Batiment 21_MN
+            pollution: 1
+            pollutionRadius: 6
+            power: 6
+            tilesets: Euro
+            water: 55
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1934
+        Paris Batiment 21_MN-0x6534284a-0x1c2d4663-0x1f7aaf5b.SC4Desc:
+          1c2d4663-1f7aaf5b:
+            bulldoze: 412
+            capacity:
+              r$: 161
+              r$$: 90
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 0ef974eb
+            name: Paris Batiment 21_MN
+            pollution: 1
+            pollutionRadius: 5
+            power: 2
+            tilesets: Euro
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 2323
+      lastGenerated: 2025-01-13T10:54:42.128Z
+      lastModified: 2022-01-29T21:43:36.000Z
+      lots:
+        CS$$$4_1x2_CS Paris Batiment 21_MN_bf7ab00e.SC4Lot:
+          bf7ab00e:
+            building: 1f7aaff6
+            density: medium,high
+            name: CS$$$4_1x2_CS Paris Batiment 21_MN
+            props:
+              - 1d9a0000
+            size: 1x2
+            stage: 4
+            textures:
+              - 25aa2000
+              - '26060000'
+        R$$5_1x2_Paris Batiment 21_MN_4f7aaf74.SC4Lot:
+          4f7aaf74:
+            building: 1f7aaf5b
+            density: medium,high
+            name: R$$5_1x2_Paris Batiment 21_MN
+            props:
+              - 164b0000
+              - 1ed30000
+            size: 1x2
+            stage: 5
+            textures:
+              - '25352000'
+              - '26060000'
+      models:
+        ParisBatiment21MN-0x5ad0e817_0xef974eb_0x30000.SC4Model:
+          - 0ef974eb
+      name: Maxis Nite
+      release: 2025-01-13T10:43:28.309Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+wannglondon/paris-building-32:
   categories: co$$$,cs$$$,r$$$,paris
   description: Two Parisian-inspired BATs found in the 16th arrondissement.
   images:
@@ -3573,7 +7384,7 @@ wannglondon/paris-batiment-32:
       release: 2025-01-10T15:04:18.615Z
       version: 1.0.0
 
-wannglondon/paris-batiment-33:
+wannglondon/paris-building-33:
   categories: r$$$,paris
   description: Two Parisian-inspired BATs found in the 16th arrondissement.
   images:
@@ -3670,7 +7481,7 @@ wannglondon/paris-batiment-33:
       release: 2025-01-10T15:04:18.686Z
       version: 1.0.0
 
-wannglondon/paris-batiment-34:
+wannglondon/paris-building-34:
   categories: r$$$,paris
   description: A Parisian-inspired BAT found in the 16th arrondissement.
   images:
