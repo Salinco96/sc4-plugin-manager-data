@@ -1,5 +1,5 @@
 wannglondon/american-townhomes-1:
-  categories: r$$$
+  categories: r$$$,ny
   description: These are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/One.jpg.a3f46c4df2a583042111a84b37ead649.jpg
@@ -210,7 +210,7 @@ wannglondon/american-townhomes-1:
       version: 1.0.0
 
 wannglondon/american-townhomes-2:
-  categories: r$$$
+  categories: r$$$,ny
   description: These are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/One.jpg.a3f46c4df2a583042111a84b37ead649.jpg
@@ -352,11 +352,13 @@ wannglondon/american-townhomes-2:
       version: 1.0.0
 
 wannglondon/american-townhomes-3:
-  categories: r$$$
+  categories: r$$$,ny
   description: These are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/650cd2d8e84c3_Townhomes3.jpg.f196794505d30b26d87c46125700b23b.jpg
   name: American Rowhomes 3
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -409,11 +411,12 @@ wannglondon/american-townhomes-3:
       models:
         Townhomes3DN-0x5ad0e817_0x30c962e2_0x30000.SC4Model:
           - 30c962e2
+      name: Dark Nite
       release: 2025-01-10T15:16:30.973Z
       version: 1.0.0
 
 wannglondon/american-townhomes-4:
-  categories: r$$
+  categories: r$$,ny
   description: These are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/One.jpg.a3f46c4df2a583042111a84b37ead649.jpg
@@ -587,7 +590,7 @@ wannglondon/american-townhomes-4:
       version: 1.0.0
 
 wannglondon/american-townhomes-5:
-  categories: r$$$
+  categories: r$$$,ny
   description: These are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/One.jpg.a3f46c4df2a583042111a84b37ead649.jpg
@@ -689,7 +692,7 @@ wannglondon/american-townhomes-5:
       version: 1.0.0
 
 wannglondon/american-townhomes-6:
-  categories: r$$$
+  categories: r$$$,ny
   description: These are based on the pretty rowhomes found in Chicago, New York, and Philadelphia.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/One.jpg.a3f46c4df2a583042111a84b37ead649.jpg
@@ -898,7 +901,7 @@ wannglondon/american-townhomes-6:
       version: 1.0.0
 
 wannglondon/american-townhomes-8:
-  categories: r$$
+  categories: r$$,ny
   description: A corner residential to complement other American rowhomes. Mirror version is included.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_10/East.jpg.8934bb7bea98f73b554e0bfebe7e1743.jpg
@@ -996,7 +999,7 @@ wannglondon/american-townhomes-8:
       version: 1.0.0
 
 wannglondon/american-townhomes-pack:
-  categories: r$$$,r$$
+  categories: r$$$,r$$,ny
   dependencies:
     - wannglondon/american-townhomes-1
     - wannglondon/american-townhomes-2
@@ -1078,15 +1081,9 @@ wannglondon/ancient-ampitheater:
       version: 1.0.0
 
 wannglondon/apartments-2:
-  categories: r$$$
+  categories: r$$$,la
   description: |-
     LA has its fair share of chateau-inspired architecture and during a recent outing these style of apartment buildings really inspired me. I have created two versions; one with and one without the rooftop sign (very common here in Los Angeles).
-
-    - Stage 6 R$$$
-
-    - Chicago tileset
-
-    - 2x3 lots
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_11/6744c6008e9bb_Day1.jpg.f506a5e542de099e266ea78d50090203.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_11/6744c6012db4f_Day2.jpg.b17ffdad2670c0a6eb7e8906d5961c16.jpg
@@ -1197,17 +1194,9 @@ wannglondon/apartments-2:
       version: 1.0.0
 
 wannglondon/apartments-3:
-  categories: r$$
+  categories: r$$,la
   description: |-
     Another grand apartment building inspired by one found in my favorite neighborhood in Los Angeles, Hancock Park.
-
-    - R$$ 3x3 left corner lot
-
-    - New York tileset
-
-    - Medium & High density zones
-
-    - DarkNite version only
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/674cc4170fe61_day1.jpg.c6f19fd9bb8e5afc966411f3a93a78a2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/674cc4178a0fd_day2.jpg.2785deee257a096901d57539e6d40cf9.jpg
@@ -1280,7 +1269,7 @@ wannglondon/grand-arch:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_07/64bc3c6ba9b1d_ArchDay.thumb.jpg.f1afc8611afe4bfb02224c1f5e4ca9ed.jpg
   url: https://community.simtropolis.com/files/file/35575-grand-arch/
   variants:
-    default:
+    darknite:
       assets:
         - id: simtropolis/35575-grand-arch
           include:
@@ -1326,11 +1315,12 @@ wannglondon/grand-arch:
       models:
         GrandArchDN-0x5ad0e817_0x11b446d8_0x30000.SC4Model:
           - 11b446d8
+      name: Dark Nite
       release: 2025-01-10T15:04:18.830Z
       version: 1.0.0
 
 wannglondon/grand-mediterranean-hotels:
-  categories: landmarks,cs$$$
+  categories: landmarks,cs$$$,mediterranean
   dependencies:
     - agc/environment-dlc
   description: |-
@@ -1510,7 +1500,7 @@ wannglondon/home-alone-house:
       version: 1.0.0
 
 wannglondon/london-flats-3:
-  categories: r$$$
+  categories: r$$$,london
   description: Three variations of London rowhomes found in Notting Hill.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b8574b317fc_FrontDay.jpg.e90d7a4c15145c8920925e30c466592a.jpg
@@ -1521,7 +1511,7 @@ wannglondon/london-flats-3:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_07/64b85770bfa83_FrontDay.thumb.jpg.c0485dd06f47dab992b8a0361620337a.jpg
   url: https://community.simtropolis.com/files/file/35571-london-flats-3/
   variants:
-    default:
+    darknite:
       assets:
         - id: simtropolis/35571-london-flats-3
           include:
@@ -1638,11 +1628,12 @@ wannglondon/london-flats-3:
           - f1bc2c72
         LondonFlats3DN-0x5ad0e817_0xd1bb1fcc_0x30000.SC4Model:
           - d1bb1fcc
+      name: Dark Nite
       release: 2025-01-10T15:04:18.749Z
       version: 1.0.0
 
 wannglondon/london-flats-5:
-  categories: r$$$
+  categories: r$$$,london
   description: Three variations of London rowhomes found in Kensington.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_07/64b58f5e43630_BackDay.jpg.37529963545e976665c4ecb165cb9c3a.jpg
@@ -1654,7 +1645,7 @@ wannglondon/london-flats-5:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_07/64b58fa85c9fb_DayFront.thumb.jpg.8c5f7380009e23dfc8e1afc25e67eb19.jpg
   url: https://community.simtropolis.com/files/file/35568-london-flats-5/
   variants:
-    default:
+    darknite:
       assets:
         - id: simtropolis/35568-london-flats-5
           include:
@@ -1772,11 +1763,12 @@ wannglondon/london-flats-5:
           - b1b96058
         LondonFlats5DN-0x5ad0e817_0x11b89f9e_0x30000.SC4Model:
           - 11b89f9e
+      name: Dark Nite
       release: 2025-01-10T15:04:18.734Z
       version: 1.0.0
 
 wannglondon/los-angeles-home-pack-1:
-  categories: r$$
+  categories: r$$,la
   description: |-
     After another viewing of *L.A. Confidential*, I created a pack of four homes (and a lotted bungalow court) found all over beautiful Los Angeles, California (my home). These sprung up all over the city in the 1920s and there are a plethora of them still around today, also found in neighboring cities. I personally love them and even lotted a bungalow court (another LA favorite style of mine).
 
@@ -1975,7 +1967,7 @@ wannglondon/los-angeles-home-pack-1:
       version: 1.0.0
 
 wannglondon/mairie:
-  categories: rewards
+  categories: rewards,paris
   description: |-
     An administrative mairie inspired by those found around Paris's many arrondissements which functions as an in-game city hall. You are able to plop this multiple times.
 
@@ -2044,7 +2036,7 @@ wannglondon/mairie:
       version: 1.0.0
 
 wannglondon/mediterranean-building-50:
-  categories: r$$
+  categories: r$$,mediterranean
   description: Seaside flats found up and down the French Riviera.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_07/Flats.jpg.f609fdac36d8d17add588423df2cca0e.jpg
@@ -2055,7 +2047,7 @@ wannglondon/mediterranean-building-50:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_07/Flats.thumb.jpg.adf1446b31a8f5071fe09d0ee3f7dedb.jpg
   url: https://community.simtropolis.com/files/file/35566-medit-bldg-50/
   variants:
-    default:
+    darknite:
       assets:
         - exclude:
             - desktop.ini
@@ -2108,11 +2100,12 @@ wannglondon/mediterranean-building-50:
       models:
         MeditBldg50DN-0x5ad0e817_0x517904e8_0x30000.SC4Model:
           - '517904e8'
+      name: Dark Nite
       release: 2025-01-10T15:04:18.717Z
       version: 1.0.0
 
 wannglondon/mediterranean-building-59:
-  categories: r$$$
+  categories: r$$$,mediterranean
   description: I have been modeling quite a lot, but have been so busy playing the game that I have not uploaded for a while. This model is based on one found flanking Mount Boron in Nice, France. This is lotted to meet the wants of my city, but please feel free to re-lot with PIM/Lot Editor.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/Day.jpg.c4c824840add13de04ac19cc71ecbc37.jpg
@@ -2334,10 +2327,10 @@ wannglondon/mid-century-modern-homes-pack:
       version: 1.0.0
 
 wannglondon/ny-building-1:
-  categories: cs$$,r$$
+  categories: cs$$,r$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/1.jpg.fba18eb19c25051ac4e3779cb51d257c.jpg
-  name: New York Building 1
+  name: NY Building 1
   requirements:
     darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
@@ -2504,11 +2497,12 @@ wannglondon/ny-building-1:
           - '904088e5'
         NYBuilding1ADN-0x5ad0e817_0xd04175ed_0x30000.SC4Model:
           - d04175ed
+      name: Dark Nite
       release: 2025-01-10T15:16:30.844Z
       version: 1.0.0
 
 wannglondon/ny-building-10:
-  categories: r$
+  categories: r$,ny
   description: A pack of low-wealth apartments inspired by those found in the East Village of Manhattan, New York.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_10/NY10.jpg.4a684ddd207f87cd93e6ebf82714e312.jpg
@@ -2655,11 +2649,12 @@ wannglondon/ny-building-10:
           - 5221824c
         NYBldg10DN-0x5ad0e817_0xd2217825_0x30000.SC4Model:
           - d2217825
+      name: Dark Nite
       release: 2025-01-10T15:04:18.780Z
       version: 1.0.0
 
 wannglondon/ny-building-11:
-  categories: cs$$$
+  categories: cs$$$,ny
   description: A high wealth commercial services building based off of one found in Midtown Manhattan.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/Day.jpg.64a08e4a4b9f8f68ba1954c3564003d4.jpg
@@ -2720,7 +2715,7 @@ wannglondon/ny-building-11:
       version: 1.0.0
 
 wannglondon/ny-building-12:
-  categories: r$$$
+  categories: r$$$,ny
   description: A luxurious, pre-war building based on one found in the West Village of Manhattan. Mirror version included.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/Day1.jpg.8e6054f3427b483cbcc0b0d4b0f4726f.jpg
@@ -2819,10 +2814,10 @@ wannglondon/ny-building-12:
       version: 1.0.0
 
 wannglondon/ny-building-2:
-  categories: r$$$
+  categories: r$$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/2.jpg.eea76e7eff7bfd7a251b1919928f9539.jpg
-  name: New York Building 2
+  name: NY Building 2
   requirements:
     darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
@@ -2912,14 +2907,17 @@ wannglondon/ny-building-2:
           - 50518b46
         NYBldg2DN-0x5ad0e817_0x70518870_0x30000.SC4Model:
           - '70518870'
+      name: Dark Nite
       release: 2025-01-10T15:16:30.865Z
       version: 1.0.0
 
 wannglondon/ny-building-3:
-  categories: co$$
+  categories: co$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/3and4.jpg.e1c85ff7a916e5301a9282520e1dc193.jpg
-  name: New York Building 3
+  name: NY Building 3
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -2969,14 +2967,17 @@ wannglondon/ny-building-3:
       models:
         NYBldg3DN-0x5ad0e817_0x1052ea65_0x30000.SC4Model:
           - 1052ea65
+      name: Dark Nite
       release: 2025-01-10T15:21:12.316Z
       version: 1.0.0
 
 wannglondon/ny-building-4:
-  categories: cs$$$
+  categories: cs$$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/3and4.jpg.e1c85ff7a916e5301a9282520e1dc193.jpg
-  name: New York Building 4
+  name: NY Building 4
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -3028,14 +3029,17 @@ wannglondon/ny-building-4:
       models:
         NYBldg4DN-0x5ad0e817_0x505462b9_0x30000.SC4Model:
           - 505462b9
+      name: Dark Nite
       release: 2025-01-10T15:16:30.881Z
       version: 1.0.0
 
 wannglondon/ny-building-6:
-  categories: cs$$$
+  categories: cs$$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/6.jpg.d533e8a331464378d66ffb7aa8bd7042.jpg
-  name: New York Building 6
+  name: NY Building 6
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -3129,14 +3133,17 @@ wannglondon/ny-building-6:
           - b0682fa8
         NYBldg6DN-0x5ad0e817_0xf068146b_0x30000.SC4Model:
           - f068146b
+      name: Dark Nite
       release: 2025-01-10T15:16:30.898Z
       version: 1.0.0
 
 wannglondon/ny-building-7:
-  categories: cs$$$
+  categories: cs$$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/7.jpg.1deaaa68ccdb6ee1f15a7ad172213b5a.jpg
-  name: New York Building 7
+  name: NY Building 7
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -3224,14 +3231,17 @@ wannglondon/ny-building-7:
           - 30699c29
         NYBldg7DN-0x5ad0e817_0xb0696374_0x30000.SC4Model:
           - b0696374
+      name: Dark Nite
       release: 2025-01-10T15:16:30.913Z
       version: 1.0.0
 
 wannglondon/ny-building-8:
-  categories: r$$$
+  categories: r$$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/8.jpg.16b9269eb53b5b241febc29b53975d8d.jpg
-  name: New York Building 8
+  name: NY Building 8
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -3281,14 +3291,17 @@ wannglondon/ny-building-8:
       models:
         NYBldg8DN-0x5ad0e817_0x1209fc21_0x30000.SC4Model:
           - 1209fc21
+      name: Dark Nite
       release: 2025-01-10T15:21:12.331Z
       version: 1.0.0
 
 wannglondon/ny-building-9:
-  categories: r$$
+  categories: r$$,ny
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/9.jpg.9d05880f917d262c6b20cd1464348a07.jpg
-  name: New York Building 9
+  name: NY Building 9
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
   url: https://community.simtropolis.com/files/file/35632-new-york-pack-1/
   variants:
@@ -3340,11 +3353,12 @@ wannglondon/ny-building-9:
       models:
         NYBldg9DN-0x5ad0e817_0x52109bba_0x30000.SC4Model:
           - 52109bba
+      name: Dark Nite
       release: 2025-01-10T15:16:30.953Z
       version: 1.0.0
 
 wannglondon/ny-pack:
-  categories: r$$,r$$$,cs$$,cs$$$,co$$
+  categories: r$$,r$$$,cs$$,cs$$$,co$$,ny
   dependencies:
     - wannglondon/ny-building-1
     - wannglondon/ny-building-2
@@ -3364,7 +3378,7 @@ wannglondon/ny-pack:
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/2.jpg.eea76e7eff7bfd7a251b1919928f9539.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/7.jpg.1deaaa68ccdb6ee1f15a7ad172213b5a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_09/3and4.jpg.e1c85ff7a916e5301a9282520e1dc193.jpg
-  name: New York Pack
+  name: NY Pack
   requirements:
     darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_09/9.thumb.jpg.23ef8b3d9bd8cf1860aa6a144781b375.jpg
@@ -3380,18 +3394,18 @@ wannglondon/ny-pack:
       version: 1.0.0
 
 wannglondon/paris-batiment-32:
-  categories: co$$$,cs$$$,r$$$
+  categories: co$$$,cs$$$,r$$$,paris
   description: Two Parisian-inspired BATs found in the 16th arrondissement.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/32.jpg.c7cdb74570b5dc5e195d1e9c5de2709d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/33.jpg.b172eccd0818494eb4b1af464a98c7e2.jpg
-  name: Paris Batiments 32
+  name: Paris Batiment 32
   requirements:
     darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_06/32.thumb.jpg.8fa22d447d2b772eeb83a0bb6e854b7d.jpg
   url: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/
   variants:
-    default:
+    darknite:
       assets:
         - id: simtropolis/35555-paris-batiments-32-33#197281
           include:
@@ -3624,20 +3638,23 @@ wannglondon/paris-batiment-32:
           - b193ade8
         ParisBatiment32DN-0x5ad0e817_0x91939e3e_0x30000.SC4Model:
           - 91939e3e
+      name: Dark Nite
       release: 2025-01-10T15:04:18.615Z
       version: 1.0.0
 
 wannglondon/paris-batiment-33:
-  categories: r$$$
+  categories: r$$$,paris
   description: Two Parisian-inspired BATs found in the 16th arrondissement.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/32.jpg.c7cdb74570b5dc5e195d1e9c5de2709d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/33.jpg.b172eccd0818494eb4b1af464a98c7e2.jpg
-  name: Paris Batiments 33
+  name: Paris Batiment 33
+  requirements:
+    darknite: true
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_06/32.thumb.jpg.8fa22d447d2b772eeb83a0bb6e854b7d.jpg
   url: https://community.simtropolis.com/files/file/35555-paris-batiments-32-33/
   variants:
-    default:
+    darknite:
       assets:
         - id: simtropolis/35555-paris-batiments-32-33#197282
           include:
@@ -3718,11 +3735,12 @@ wannglondon/paris-batiment-33:
           - d194f737
         ParisBatiment33DN-0x5ad0e817_0xb194bff1_0x30000.SC4Model:
           - b194bff1
+      name: Dark Nite
       release: 2025-01-10T15:04:18.686Z
       version: 1.0.0
 
 wannglondon/paris-batiment-34:
-  categories: r$$$
+  categories: r$$$,paris
   description: A Parisian-inspired BAT found in the 16th arrondissement.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_07/Day.jpg.d639b8876c983f1cac9711a59669315f.jpg
@@ -3733,7 +3751,7 @@ wannglondon/paris-batiment-34:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_07/Day.thumb.jpg.2c73a83dbdfb5f753bb93359028868c2.jpg
   url: https://community.simtropolis.com/files/file/35563-paris-batiment-34/
   variants:
-    default:
+    darknite:
       assets:
         - id: simtropolis/35563-paris-batiment-34
           include:
@@ -3779,6 +3797,7 @@ wannglondon/paris-batiment-34:
       models:
         ParisBatiment34DN-0x5ad0e817_0xb19a54a5_0x30000.SC4Model:
           - b19a54a5
+      name: Dark Nite
       release: 2025-01-10T15:04:18.703Z
       version: 1.0.0
 
@@ -3803,7 +3822,7 @@ wannglondon/paris-park-hyatt-vendome:
         waterPollution: 2
         waterPollutionRadius: 6
         worth: 3346
-  categories: cs$$
+  categories: cs$$,paris
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_11/6551407e94571_FrontDay.jpg.8c0c6355fc48fbdcdc53f80831c7658e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2023_11/Night.jpg.8cccd3d82a6c24a943aced69497633f1.jpg
@@ -4334,7 +4353,7 @@ wannglondon/raven-hollow-inn:
       version: 1.0.0
 
 wannglondon/sf-buildings-1:
-  categories: r$$
+  categories: r$$,sf
   description: It has always astonished me how few BATs there are from beautiful San Francisco, California. This is my attempt to help close that gap.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_08/SF.jpg.b4052ab6fbc9f4f09e5bc8f5094c129d.jpg

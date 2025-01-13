@@ -608,6 +608,255 @@ jestarr/allied-pickle-works:
       release: 2025-01-10T10:12:21.615Z
       version: 1.0.0
 
+jestarr/altman-miller-machine-shop:
+  categories: i-ht,landmarks
+  dependencies:
+    - bsc/textures-vol02
+    - girafe/carpack
+    - girafe/flora-pack
+    - jestarr/batprops-vol10
+    - jestarr/batprops-vol12
+    - jestarr/batprops-vol13
+    - jestarr/batprops-vol14
+    - jestarr/batprops-vol17
+    - jestarr/resourcepack-vol27
+  description: Makers of custom machined parts for various applications. This comes as an 2x2 IM$$1 growable and a 2x2 ploppable with jobs, all in HD & SD.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/jes_Altman-MillerMachineShop_Day.jpg.98f955d3e4c8fbc7ef9622a9d832438c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/jes_Altman-MillerMachineShop_Nite.jpg.3d1d929eb246d2094b52cff78cd2e37a.jpg
+  name: Altman-Miller Machine Shop
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2025_01/jes_Altman-MillerMachineShop_Day.thumb.jpg.a10984092e92ff48c2bf4e785150d2af.jpg
+  url: https://community.simtropolis.com/files/file/36660-altman-miller-machine-shop/
+  variants:
+    hd:
+      assets:
+        - docs:
+            - Documentation
+          id: simtropolis/36660-altman-miller-machine-shop#205234
+          include:
+            - BSC/BSCProps
+            - BSC/jestarr
+      buildings:
+        Growable/IM$$1_2x2_jes_AltmanMillerMachineShop_90_HD_c5051165.SC4Lot:
+          54a94000-d5051157:
+            bulldoze: 180
+            capacity:
+              im: 12
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            model: 371a0b6d
+            name: jes_AltmanMillerMachineShop_90_HD
+            pollution: 1
+            pollutionRadius: 9
+            power: 1
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 13
+            worth: 91
+        Ploppable/jes_2x2_plop_AltmanMillerMachineShop_90_HD_5504fb49.SC4Lot:
+          54a94000-5504fb49:
+            bulldoze: 180
+            capacity:
+              im: 12
+            categories: landmarks,i-ht
+            cost: 2746
+            description: Makers of custom machined parts for various applications.
+            flamability: 70
+            garbage: 4
+            label: jes_AltmanMillerMachineShop_90_HD
+            menu: Landmarks
+            model: 371a0b6d
+            name: jes_AltmanMillerMachineShop_90_HD
+            pollution: 1
+            pollutionRadius: 9
+            power: 1
+            submenu: Industrial/Manufacture
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 13
+            worth: 91
+      lastGenerated: 2025-01-13T09:44:55.088Z
+      lastModified: 2025-01-11T19:45:53.000Z
+      lots:
+        Growable/IM$$1_2x2_jes_AltmanMillerMachineShop_90_HD_c5051165.SC4Lot:
+          c5051165:
+            building: d5051157
+            density: high
+            name: IM$$1_2x2_jes_AltmanMillerMachineShop_90_HD
+            props:
+              - 132e6a6d
+              - 1348d427
+              - 1ece0000
+              - 331ee4a4
+              - 34018f52
+              - 532aa5cc
+              - 72ff2ae0
+              - 931ab1c1
+              - 932d2914
+              - b2ff2ac7
+              - b32aa53c
+              - c02671e9
+              - d3d7b8c4
+              - d4019a53
+              - dd7d9559
+              - fd569f12
+            size: 2x2
+            stage: 1
+            textures:
+              - fb238045
+              - fb238080
+              - fb238105
+              - fbd10000
+        Ploppable/jes_2x2_plop_AltmanMillerMachineShop_90_HD_5504fb49.SC4Lot:
+          5504fb49:
+            building: 5504fb49
+            name: jes_2x2_plop_AltmanMillerMachineShop_90_HD
+            props:
+              - 132e6a6d
+              - 1348d427
+              - 1ece0000
+              - 331ee4a4
+              - 34018f52
+              - 532aa5cc
+              - 72ff2ae0
+              - 931ab1c1
+              - 932d2914
+              - b2ff2ac7
+              - b32aa53c
+              - c02671e9
+              - d3d7b8c4
+              - d4019a53
+              - dd7d9559
+              - fd569f12
+            size: 2x2
+            textures:
+              - fb238045
+              - fb238080
+              - fb238105
+              - fbd10000
+      models:
+        jes_AltmanMillerMachineShop_90_HD-0x5ad0e817_0x371a0b6d_0x30000.SC4Model:
+          - 371a0b6d
+      name: HD
+      readme: jes_Altman-MillerMachineShop_HD.html
+      release: 2025-01-13T09:28:19.501Z
+      version: 1.0.0
+    sd:
+      assets:
+        - docs:
+            - Documentation
+          id: simtropolis/36660-altman-miller-machine-shop#205235
+          include:
+            - BSC/BSCProps
+            - BSC/jestarr
+      buildings:
+        Growable/IM$$1_2x2_jes_AltmanMillerMachineShop_90_SD_75051183.SC4Lot:
+          54a94000-75051173:
+            bulldoze: 180
+            capacity:
+              im: 12
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            model: d71a0d0a
+            name: jes_AltmanMillerMachineShop_90_SD
+            pollution: 1
+            pollutionRadius: 9
+            power: 1
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 13
+            worth: 91
+        Ploppable/jes_2x2__AltmanMillerMachineShop_90_SD_0504fb66.SC4Lot:
+          54a94000-0504fb66:
+            bulldoze: 180
+            capacity:
+              im: 12
+            categories: landmarks,i-ht
+            cost: 2746
+            description: Makers of custom machined parts for various applications.
+            flamability: 70
+            garbage: 4
+            label: jes_AltmanMillerMachineShop_90_SD
+            menu: Landmarks
+            model: d71a0d0a
+            name: jes_AltmanMillerMachineShop_90_SD
+            pollution: 1
+            pollutionRadius: 9
+            power: 1
+            submenu: Industrial/Manufacture
+            water: 10
+            waterPollution: 1
+            waterPollutionRadius: 13
+            worth: 91
+      lastGenerated: 2025-01-13T09:44:55.094Z
+      lastModified: 2025-01-11T19:45:53.000Z
+      lots:
+        Growable/IM$$1_2x2_jes_AltmanMillerMachineShop_90_SD_75051183.SC4Lot:
+          '75051183':
+            building: '75051173'
+            density: high
+            name: IM$$1_2x2_jes_AltmanMillerMachineShop_90_SD
+            props:
+              - 132e6a6d
+              - 1348d427
+              - 1ece0000
+              - 331ee4a4
+              - 34018f52
+              - 532aa5cc
+              - 72ff2ae0
+              - 931ab1c1
+              - 932d2914
+              - b2ff2ac7
+              - b32aa53c
+              - c02671e9
+              - d3d7b8c4
+              - d4019a53
+              - dd7d9559
+              - fd569f12
+            size: 2x2
+            stage: 1
+            textures:
+              - fb238045
+              - fb238080
+              - fb238105
+              - fbd10000
+        Ploppable/jes_2x2__AltmanMillerMachineShop_90_SD_0504fb66.SC4Lot:
+          0504fb66:
+            building: 0504fb66
+            name: jes_2x2__AltmanMillerMachineShop_90_SD
+            props:
+              - 132e6a6d
+              - 1348d427
+              - 1ece0000
+              - 331ee4a4
+              - 34018f52
+              - 532aa5cc
+              - 72ff2ae0
+              - 931ab1c1
+              - 932d2914
+              - b2ff2ac7
+              - b32aa53c
+              - c02671e9
+              - d3d7b8c4
+              - d4019a53
+              - dd7d9559
+              - fd569f12
+            size: 2x2
+            textures:
+              - fb238045
+              - fb238080
+              - fb238105
+              - fbd10000
+      models:
+        jes_AltmanMillerMachineShop_90_SD-0x5ad0e817_0xd71a0d0a_0x30000.SC4Model:
+          - d71a0d0a
+      name: SD
+      readme: jes_Altman-MillerMachineShop_SD.html
+      release: 2025-01-13T09:28:19.573Z
+      version: 1.0.0
+
 jestarr/batprops-vol10:
   authors:
     - bsc

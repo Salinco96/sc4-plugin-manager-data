@@ -2,39 +2,6 @@ ripplejet/census-repository-building:
   authors:
     - bsc
   buildings:
-    RJ - Census_Repository_Model_and_Query_3.1.dat:
-      cd5164da-0dd41d65:
-        bulldoze: 100
-        categories: rewards
-        cost: 15000
-        flamability: 45
-        garbage: 23
-        garbageRadius: 2
-        jobs:
-          $: 170
-          $$: 105
-          $$$: 45
-        landmark: 20
-        landmarkRadius: 5
-        maintenance: 250
-        menu: Rewards
-        model: 6dd414f2
-        name: CensusRepository
-        pollution: 3
-        pollutionRadius: 3
-        power: 125
-        rating: 8
-        ratingRadius: 256
-        relief:
-          co$$: 100000
-          co$$$: 100000
-          r$: 2500
-          r$$: 2500
-          r$$$: 2500
-        submenu: Landmarks/Government
-        water: 150
-        waterPollution: 2
-        waterPollutionRadius: 2
     RW_2x2_Census Repository Vault.SC4Lot:
       3224a93f-645e467b:
         bulldoze: 1500
@@ -56,6 +23,111 @@ ripplejet/census-repository-building:
         submenu: Landmarks/Government
         water: 8
         waterPollution: 1
+        waterPollutionRadius: 4
+    RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot:
+      3224a93f-6471f58b:
+        bulldoze: 9000
+        categories: rewards
+        cost: 15000
+        flamability: 38
+        garbage: 47
+        jobs:
+          $: 10
+          $$: 70
+          $$$: 5
+        landmark: 40
+        landmarkRadius: 20
+        maintenance: 400
+        menu: Rewards
+        model: 5465811a
+        name: Census Repository Facility V3
+        pollution: 3
+        pollutionRadius: 3
+        power: 84
+        rating: 10
+        ratingRadius: 256
+        relief:
+          co$$: 10000
+          co$$$: 10000
+          id: 10000
+          iht: 10000
+          im: 10000
+          r$: 10000
+          r$$: 10000
+          r$$$: 10000
+        submenu: Landmarks/Government,Rewards
+        water: 84
+        waterPollution: 3
+        waterPollutionRadius: 4
+    RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot:
+      3224a93f-6471f58b:
+        bulldoze: 9000
+        categories: rewards
+        cost: 15000
+        flamability: 38
+        garbage: 47
+        jobs:
+          $: 10
+          $$: 70
+          $$$: 5
+        landmark: 40
+        landmarkRadius: 20
+        maintenance: 400
+        menu: Rewards
+        model: 5465811a
+        name: Census Repository Facility V3
+        pollution: 3
+        pollutionRadius: 3
+        power: 84
+        rating: 10
+        ratingRadius: 256
+        relief:
+          co$$: 10000
+          co$$$: 10000
+          id: 10000
+          iht: 10000
+          im: 10000
+          r$: 10000
+          r$$: 10000
+          r$$$: 10000
+        submenu: Landmarks/Government,Rewards
+        water: 84
+        waterPollution: 3
+        waterPollutionRadius: 4
+    RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot:
+      3224a93f-6471f58b:
+        bulldoze: 9000
+        categories: rewards
+        cost: 15000
+        flamability: 38
+        garbage: 47
+        jobs:
+          $: 10
+          $$: 70
+          $$$: 5
+        landmark: 40
+        landmarkRadius: 20
+        maintenance: 400
+        menu: Rewards
+        model: 5465811a
+        name: Census Repository Facility V3
+        pollution: 3
+        pollutionRadius: 3
+        power: 84
+        rating: 10
+        ratingRadius: 256
+        relief:
+          co$$: 10000
+          co$$$: 10000
+          id: 10000
+          iht: 10000
+          im: 10000
+          r$: 10000
+          r$$: 10000
+          r$$$: 10000
+        submenu: Landmarks/Government,Rewards
+        water: 84
+        waterPollution: 3
         waterPollutionRadius: 4
     RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
       3224a93f-6471f58b:
@@ -92,44 +164,79 @@ ripplejet/census-repository-building:
         water: 84
         waterPollution: 3
         waterPollutionRadius: 4
+    RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot:
+      3224a93f-6471f58b:
+        bulldoze: 9000
+        categories: rewards
+        cost: 15000
+        flamability: 38
+        garbage: 47
+        jobs:
+          $: 10
+          $$: 70
+          $$$: 5
+        landmark: 40
+        landmarkRadius: 20
+        maintenance: 400
+        menu: Rewards
+        model: 5465811a
+        name: Census Repository Facility V3
+        pollution: 3
+        pollutionRadius: 3
+        power: 84
+        rating: 10
+        ratingRadius: 256
+        relief:
+          co$$: 10000
+          co$$$: 10000
+          id: 10000
+          iht: 10000
+          im: 10000
+          r$: 10000
+          r$$: 10000
+          r$$$: 10000
+        submenu: Landmarks/Government,Rewards
+        water: 84
+        waterPollution: 3
+        waterPollutionRadius: 4
   categories: rewards
-  dependencies:
-    - bsc/misc-props-vol03
-    - bsc/textures-vol01
-    - maxis/maxis-buildings-as-props
-  description: BSC Census Repository Building by RippleJet.
   lots:
-    RJ - Census_Repository_Model_and_Query_3.1.dat:
-      0dd41d65:
-        building: 0dd41d65
-        name: CensusRepository
+    RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot:
+      6471f58b:
+        building: 6471f58b
+        name: RW_3x1_Census Repository Facility_ZP_HIGH
         props:
-          - 2a590000
-          - 2aa40000
-          - 2aa70000
-          - 2aa90000
-          - 2aaa0000
-          - 2aab0000
-          - 2aac0000
-          - 2aad0000
-          - 2aae0000
-          - 2ae80000
-          - 8956a699
-        size: 1x1
+          - 1689d23a
+          - 1689d35d
+          - a000007f
+        size: 3x1
         textures:
-          - 258d1000
-          - '258e3000'
-    RW_2x2_Census Repository Vault.SC4Lot:
-      645e467b:
-        building: 645e467b
-        name: RW_2x2_Census Repository Vault
+          - 258f2000
+          - '26372000'
+    RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot:
+      6471f58b:
+        building: 6471f58b
+        name: RW_3x1_Census Repository Facility_ZP_LOW
         props:
-          - 1dfe0000
-          - a000005f
-          - a0000069
-        size: 2x2
+          - 1689d23a
+          - 1689d35d
+          - a000007f
+        size: 3x1
         textures:
-          - 262c3000
+          - 258f2000
+          - '26372000'
+    RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot:
+      6471f58b:
+        building: 6471f58b
+        name: RW_3x1_Census Repository Facility_ZP_MEDIUM
+        props:
+          - 1689d23a
+          - 1689d35d
+          - a000007f
+        size: 3x1
+        textures:
+          - 258f2000
+          - '26372000'
     RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
       6471f58b:
         building: 6471f58b
@@ -142,28 +249,23 @@ ripplejet/census-repository-building:
         textures:
           - 258f2000
           - '26372000'
-  models:
-    RJ - Census_Repository_Model_and_Query_3.1.dat:
-      - 5465811a
-      - d17c864e
+    RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot:
+      6471f58b:
+        building: 6471f58b
+        name: RW_3x1_Census Repository Facility_Z_CLASSIC
+        props:
+          - 1689d23a
+          - 1689d35d
+          - a000007f
+        size: 3x1
+        textures:
+          - 258f2000
+          - '26372000'
   name: BSC Census Repository Building
-  props:
-    RJ - Census_Repository_Model_and_Query_3.1.dat:
-      3224a93f-16888cf8:
-        model: 5465811a
-        name: Census Repository Facility
-      3224a93f-1689d23a:
-        name: RJ - Census Repository Phone Booth
-      3224a93f-1689d35d:
-        name: RJ - Census Repository Phone Booth Rear
-      3224a93f-b6888d35:
-        model: d17c864e
-        name: Census Repository Vault
-      c977c536-8956a699:
-        name: Gnome_CensusRepository
-  readme: Readme_Census_Repository_Facility_v3.5.htm
-  thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
-  url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
+  options:
+    - global: true
+      id: nam.traffic
+      type: string
   variants:
     default:
       assets:
@@ -171,41 +273,168 @@ ripplejet/census-repository-building:
           docs:
             - _Documents/BSC_Readmes/RippleJet
           exclude:
-            - _Census Repository___CHOOSE ONE --- SEE README!!!
+            - BSC/Ripplejet/Census Repository/RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
           id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
           include:
+            - RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot:
+                condition:
+                  nam.traffic: High
+            - RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot:
+                condition:
+                  nam.traffic: Low
+            - RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot:
+                condition:
+                  nam.traffic: Medium
+            - RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
+                condition:
+                  nam.traffic: Ultra
+            - RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot:
+                condition:
+                  nam.traffic: Classic
             - BSC/Ripplejet/Census Repository
-      lastGenerated: 2025-01-10T08:12:49.327Z
-      lastModified: 2023-07-20T10:48:28.000Z
-      name: Original
+      dependencies:
+        - bsc/textures-vol01
+      lastGenerated: 2025-01-13T10:00:33.424Z
+      lastModified: 2025-01-12T20:53:14.000Z
+      lots:
+        RW_2x2_Census Repository Vault.SC4Lot:
+          645e467b:
+            building: 645e467b
+            name: RW_2x2_Census Repository Vault
+            props:
+              - 1dfe0000
+              - a000005f
+              - a0000069
+            size: 2x2
+            textures:
+              - 262c3000
+      models:
+        RJ - Census_Repository_Model_and_Query_3.1.dat:
+          - 5465811a
+          - d17c864e
+      name: Legacy
+      props:
+        RJ - Census_Repository_Model_and_Query_3.1.dat:
+          3224a93f-16888cf8:
+            model: 5465811a
+            name: Census Repository Facility
+          3224a93f-1689d23a:
+            name: RJ - Census Repository Phone Booth
+          3224a93f-1689d35d:
+            name: RJ - Census Repository Phone Booth Rear
+          3224a93f-b6888d35:
+            model: d17c864e
+            name: Census Repository Vault
+          c977c536-8956a699:
+            name: Gnome_CensusRepository
+      readme: Readme_Census_Repository_Facility_v3.5.htm
       release: 2024-11-27T09:00:58.547Z
+      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
+      url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
       version: 3.5.0
-    more-demand-info:
+    kel9509:
       assets:
-        - cleanitol: Cleanitol_RJ_Census_Repository_Facility_v3.5.txt
+        - cleanitol: Cleanitol_Census_Repository_Facility_v4.0.txt
           docs:
-            - _Documents/BSC_Readmes/RippleJet
-          exclude:
-            - _Census Repository___CHOOSE ONE --- SEE README!!!
-            - RJ - Census_Repository_Model_and_Query_3.1.dat
-          id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
+            - ~Documents/Census Repository v4.0
+          id: sc4evermore/331-kel9509-census-repository-facility
           include:
-            - BSC/Ripplejet/Census Repository
-        - docs: []
-          id: simtropolis/35978-sc4-more-demand-info
-          include:
-            - RJ - Census_Repository_Model_and_Query_3.1.dat
+            - RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot:
+                condition:
+                  nam.traffic: High
+            - RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot:
+                condition:
+                  nam.traffic: Low
+            - RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot:
+                condition:
+                  nam.traffic: Medium
+            - RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
+                condition:
+                  nam.traffic: Ultra
+            - RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot:
+                condition:
+                  nam.traffic: Classic
+            - Census_Repository_Query_and_Essentials_v4.0-{{query}}_Size.dat
+            - Kel9509/Census Repository v4.0#/!Census Repository Vault
       authors:
+        - kel9509
         - null-45
-      credits:
-        - ripplejet: Original author
-        - null-45: Query updates
-      disabled: true
-      lastGenerated: 2025-01-10T08:12:49.348Z
-      lastModified: 2024-12-18T05:41:01.000Z
-      name: More Demand Info by Null 45
-      release: 2024-11-27T09:00:58.547Z
-      requirements:
-        more-demand-info: true
-      support: https://community.simtropolis.com/forums/topic/762906-sc4moredemandinfo
-      version: 3.5.0
+      dependencies:
+        - bsc/essentials
+        - bsc/misc-props-vol03
+        - null-45/more-demand-info
+      description: |-
+        After 16 years from the release of RippleJet's Census Repository Facility v3.5 (since October 26, 2008), the Census Repository has been upgraded to take advantage of modern DLL functionality now available for Simcity4. There are also numerous fixes, one of them critical and some others identified by RippleJet himself subsequent to the release of version 3.5, which are now incorporated into the Census Repository query along with some other new features. This readme has been revised to reflect the new fixes and features.
+
+        ### **CREDITS:**
+
+        The following members contributed models, textures, and modding support to this collection:
+
+        - RalphaelNinja
+        - RippleJet
+        - Callagrafx
+        - Colyn
+        - Kel9509
+        - Null 45
+        - CorinaMarie
+        - Cyclone Boom
+
+        This package has been made possible by the Project ZIP efforts of Tyberius06.
+
+        ##### Special Thanks
+
+        Webmaster & administration staff at SC4 Devotion & Simtropolis (STEX)
+
+        And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
+
+        And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **20 years** thanks to you!
+
+        And last but not least, a thanks for the Maxis individuals too, for the \[paid\] work that they did. ;-)
+      images:
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day.jpg
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Night.jpg
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Query Expanded.jpg
+      lastGenerated: 2025-01-13T10:00:33.430Z
+      lastModified: 2025-01-12T01:43:35.000Z
+      lots:
+        RW_2x2_Census Repository Vault.SC4Lot:
+          645e467b:
+            building: 645e467b
+            name: RW_2x2_Census Repository Vault
+            props:
+              - 1dfe0000
+              - a000005f
+              - a0000069
+            size: 2x2
+            textures:
+              - 258f2000
+      name: Kel9509
+      options:
+        - choices:
+            - Regular
+            - Expanded
+          default: Regular
+          id: query
+          label: Query mode
+          type: string
+      props:
+        Census_Repository_Query_and_Essentials_v4.0-Expanded_Size.dat:
+          3224a93f-1689d23a:
+            name: RJ - Census Repository Phone Booth
+          3224a93f-1689d35d:
+            name: RJ - Census Repository Phone Booth Rear
+          c977c536-8956a699:
+            name: Gnome_CensusRepository
+        Census_Repository_Query_and_Essentials_v4.0-Regular_Size.dat:
+          3224a93f-1689d23a:
+            name: RJ - Census Repository Phone Booth
+          3224a93f-1689d35d:
+            name: RJ - Census Repository Phone Booth Rear
+          c977c536-8956a699:
+            name: Gnome_CensusRepository
+      readme:
+        - Readme_Census_Repository_Facility_v4.0.html
+      release: 2025-01-13T09:28:19.372Z
+      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day.jpg
+      url: https://www.sc4evermore.com/index.php/downloads/download/21-other/331-kel9509-census-repository-facility
+      version: 4.0.0

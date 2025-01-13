@@ -111,12 +111,18 @@ i-ht:
 i-m:
   label: I-M
   parent: industry
+la:
+  label: Los Angeles
 landmarks:
   label: Landmarks
   priority: 360
+london:
+  label: London
 marina:
   label: Marina
   parent: waterfront
+mediterranean:
+  label: Mediterranean
 mmps:
   label: MMPs
   priority: 670
@@ -130,12 +136,16 @@ nam:
   label: NAM
   parent: transport
   priority: 720
+ny:
+  label: New York
 ordinances:
   label: Ordinances
   parent: mods
 overrides:
   label: Overrides
   priority: 900
+paris:
+  label: Paris
 parkings:
   label: Parkings
   parent: transport
@@ -185,6 +195,8 @@ r$$$:
 seaports:
   label: Seaports
   parent: waterfront
+sf:
+  label: San Francisco
 ships:
   label: Ships
   parent: waterfront
