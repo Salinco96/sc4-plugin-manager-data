@@ -1,0 +1,252 @@
+manchou/prop-pack-vol01:
+  categories: props
+  name: Manchou Prop Pack Vol01
+  readme: lisez-moi.html
+  thumbnail: https://www.toutsimcities.com/img/downloads/image_1714.jpg
+  url: https://www.toutsimcities.com/downloads/view/1714
+  variants:
+    default:
+      assets:
+        - docs:
+            - Manchou_Prop_Pack_01
+          id: toutsimcities/1714-manchou-prop-pack-01
+          include:
+            - Manchou_Prop_Pack_01
+      lastGenerated: 2025-01-13T21:17:26.402Z
+      lastModified: 2010-06-07T00:00:00.000Z
+      models:
+        Manchou_Props_Pack_01.dat:
+          - 1900509c
+          - 590873a1
+          - 790033ae
+          - '79058755'
+          - 9905877e
+          - b908740a
+          - b9087464
+          - d9094db8
+          - f905870b
+          - f9096a07
+      props:
+        Manchou_Props_Pack_01.dat:
+          19294531-1982c8a3:
+            model: 9905877e
+            name: Manchou_Prop_Pack_01_Poteau+Antiderap_03
+          19294531-1986746f:
+            model: b908740a
+            name: Manchou_Prop_Pack_01_Rembarde_02
+          19294531-1986747d:
+            model: 590873a1
+            name: Manchou_Prop_Pack_01_Rembarde_03
+          19294531-5986aa29:
+            name: Manchou_Prop_Pack_01_Poubelles_02
+          19294531-7982c8b0:
+            model: f905870b
+            name: Manchou_Prop_Pack_01_Poteau+Antiderap_04
+          19294531-9986aa10:
+            name: Manchou_Prop_Pack_01_Poubelles_01
+          19294531-b982c895:
+            model: '79058755'
+            name: Manchou_Prop_Pack_01_Poteau+Antiderap_02
+          19294531-b986745f:
+            model: b9087464
+            name: Manchou_Prop_Pack_01_Rembarde_01
+          19294531-d97d90bf:
+            model: 790033ae
+            name: Manchou_Prop_Pack_01_Gens_01
+          19294531-d97d90df:
+            model: 1900509c
+            name: Manchou_Prop_Pack_01_PresentoireMC_01
+      release: 2025-01-13T21:17:26.402Z
+      version: 1.0.0
+
+manchou/ville-vol01:
+  categories: r$$,cs$$,landmarks,paris
+  dependencies:
+    - manchou/prop-pack-vol01
+  name: Manchou Pack Ville 1
+  readme: Lisez-moi.html
+  thumbnail: https://www.toutsimcities.com/img/downloads/image_1713.jpg
+  url: https://www.toutsimcities.com/downloads/view/1713
+  variants:
+    default:
+      assets:
+        - docs:
+            - Manchou_Pack_Ville_01
+          id: toutsimcities/1713-manchou-pack-ville-01
+          include:
+            - Fichiers .dat
+            - Fichiers .lot
+      buildings:
+        LOT PLOPPABLE/PLOP_2x1_Manchou_CS$$_0-4_1986bf2b.SC4Lot:
+          19294531-1986bf2b:
+            bulldoze: 131
+            capacity:
+              cs$: 7
+              cs$$: 14
+            categories: landmarks,cs$$
+            cost: 530
+            description: This building was made by a Typing Monkey
+            flamability: 40
+            garbage: 4
+            garbageRadius: 1
+            label: Manchou_CS$$_0-4
+            menu: Landmarks
+            model: b8912c9c
+            name: Manchou_CS$$_0-4
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            submenu: Commercial/CS$$
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 25
+        R$/Manchou_R$_01/Manchou_R$$_01_v6-0x6534284a-0x19294531-0x79646586.SC4Desc:
+          19294531-79646586:
+            bulldoze: 298
+            capacity:
+              r$: 18
+              r$$: 11
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: '98e16755'
+            name: Manchou_R$$_01_v6
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 259
+        R$/Manchou_R$_02/Manchou_R$$_02_v6-0x6534284a-0x19294531-0xb96465f3.SC4Desc:
+          19294531-b96465f3:
+            bulldoze: 391
+            capacity:
+              r$: 14
+              r$$: 9
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: b8994c6c
+            name: Manchou_R$$_02_v6
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 202
+        R$/Manchou_R$_03/Manchou_R$$_03_v6-0x6534284a-0x19294531-0x197ed7d1.SC4Desc:
+          19294531-197ed7d1:
+            bulldoze: 370
+            capacity:
+              r$: 42
+              r$$: 24
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: 1901692f
+            name: Manchou_R$$_03_v6
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 606
+        R$/Manchou_R$_04/Manchou_R$$_04_v6-0x6534284a-0x19294531-0x197d9076.SC4Desc:
+          19294531-197d9076:
+            bulldoze: 345
+            capacity:
+              r$: 71
+              r$$: 41
+            categories: r$$
+            flamability: 40
+            garbage: 4
+            model: f8ffdcef
+            name: Manchou_R$$_04_v6
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 3
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1024
+      lastGenerated: 2025-01-13T21:24:26.976Z
+      lastModified: 2010-06-07T00:00:00.000Z
+      lots:
+        LOT GROWABLE/R$$4_2x1_Manchou_R$$_0-4_d986c141.SC4Lot:
+          d986c141:
+            building: d986c141
+            density: all
+            name: R$$4_2x1_Manchou_R$$_0-4
+            props:
+              - 197ed789
+              - 1982c8a3
+              - 1986746f
+              - 1986747d
+              - 5986aa29
+              - 797d90a3
+              - 7982c8b0
+              - 9986aa10
+              - b964664b
+              - b9646672
+              - b986745f
+              - d97d90bf
+              - d97d90df
+            size: 2x1
+            stage: 4
+            textures:
+              - 258d1000
+        LOT PLOPPABLE/PLOP_2x1_Manchou_CS$$_0-4_1986bf2b.SC4Lot:
+          1986bf2b:
+            building: 1986bf2b
+            name: PLOP_2x1_Manchou_CS$$_0-4
+            props:
+              - 197ed789
+              - 1982c8a3
+              - 1986746f
+              - 1986747d
+              - 5986aa29
+              - 797d90a3
+              - 7982c8b0
+              - 9986aa10
+              - b964664b
+              - b9646672
+              - b986745f
+              - d97d90bf
+              - d97d90df
+            size: 2x1
+            textures:
+              - 258d1000
+      models:
+        Manchou_Blank-0x5ad0e817_0xb8912c9c_0x30000.SC4Model:
+          - b8912c9c
+        R$/Manchou_R$_01/Manchou_R$$_01_v6-0x5ad0e817_0x98e16755_0x30000.SC4Model:
+          - '98e16755'
+        R$/Manchou_R$_02/Manchou_R$$_02_v6-0x5ad0e817_0xb8994c6c_0x30000.SC4Model:
+          - b8994c6c
+        R$/Manchou_R$_03/Manchou_R$$_03_v6-0x5ad0e817_0x1901692f_0x30000.SC4Model:
+          - 1901692f
+        R$/Manchou_R$_04/Manchou_R$$_04_v6-0x5ad0e817_0xf8ffdcef_0x30000.SC4Model:
+          - f8ffdcef
+      props:
+        R$/Manchou_R$_01/Manchou_Prop_R$$_01_v6-0x6534284a-0x19294531-0xb964664b.SC4Desc:
+          19294531-b964664b:
+            model: '98e16755'
+            name: Manchou_Prop_R$$_01_v6
+        R$/Manchou_R$_02/Manchou_Prop_R$$_02_v6-0x6534284a-0x19294531-0xb9646672.SC4Desc:
+          19294531-b9646672:
+            model: b8994c6c
+            name: Manchou_Prop_R$$_02_v6
+        R$/Manchou_R$_03/Manchou_Prop_R$$_03_v6-0x6534284a-0x19294531-0x197ed789.SC4Desc:
+          19294531-197ed789:
+            model: 1901692f
+            name: Manchou_Prop_R$$_03_v6
+        R$/Manchou_R$_04/Manchou_Prop_R$$_04_v6-0x6534284a-0x19294531-0x797d90a3.SC4Desc:
+          19294531-797d90a3:
+            model: f8ffdcef
+            name: Manchou_Prop_R$$_04_v6
+      release: 2025-01-13T21:22:02.697Z
+      version: 1.0.0
