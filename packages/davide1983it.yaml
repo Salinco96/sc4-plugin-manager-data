@@ -3140,6 +3140,59 @@ davide1983it/20-huskies-building:
       release: 2025-01-14T09:57:54.437Z
       version: 2.0.0
 
+davide1983it/atlantia-insurance-building:
+  categories: co$$$
+  dependencies:
+    - pegasus/mtp-super-pack
+  description: An imposing artdeco skyscraper
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d7324009241_AtlantiaInsuranceBuilding.jpg.96b4cebf9cb306b0455e3a5a643522d9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d732464b127_AtlantiaInsuranceBuilding(2).jpg.064ab24102167b842d9d9931d356cbab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d7324cc9f65_AtlantiaInsuranceBuilding(3).jpg.f398f42bf357158e2b64e92ccb8351c1.jpg
+  name: Atlantia Insurance Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_01/61d73261ec1fa_AtlantiaInsuranceBuilding.thumb.jpg.2cfeff1747bff7850e4318256992a9e9.jpg
+  url: https://community.simtropolis.com/files/file/34828-atlantia-insurance-building/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/34828-atlantia-insurance-building
+      buildings:
+        Davide1983it - Atlantia Insurance Building.SC4Desc:
+          6bb84eba-4edfb616:
+            bulldoze: 2588
+            capacity:
+              co$$: 2511
+              co$$$: 1757
+            categories: co$$$
+            flamability: 35
+            garbage: 85
+            model: cf220646
+            name: Davide1983it - Atlantia Insurance Bld
+            pollution: 43
+            pollutionRadius: 6
+            power: 71
+            water: 3725
+            waterPollution: 21
+            waterPollutionRadius: 7
+            worth: 19634
+      lastGenerated: 2025-01-14T10:21:27.280Z
+      lastModified: 2022-01-06T18:18:12.000Z
+      lots:
+        davide1983it - Atlantia Insurance Building.SC4Lot:
+          6edfb72d:
+            building: 4edfb616
+            density: high
+            name: davide1983it - Atlantia Insurance Building
+            size: 2x3
+            stage: 8
+            textures:
+              - 1da44650
+      models:
+        Davide1983it - Atlantia Insurance Building.SC4Model:
+          - cf220646
+      release: 2025-01-14T10:21:27.269Z
+      version: 1.0.0
+
 davide1983it/bbva-building:
   categories: co$$$
   description: Headquarter of the spanish "Banco Bilbao Vizcaya Argentaria"
@@ -3247,6 +3300,246 @@ davide1983it/caltea-building:
         Davide1983it - Caltea Building.SC4Model:
           - 70e832dc
       release: 2025-01-14T09:57:54.486Z
+      version: 1.0.0
+
+davide1983it/duplex-house-set-1:
+  categories: r$$,r$
+  dependencies:
+    - agc/environment-dlc
+    - bsc/textures-vol01
+    - davide1983it/prop-pack-vol01
+    - kingofsimcity/superpaths-pathway-textures
+    - kingofsimcity/supershk-mega-parking-textures
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/626ed2087a0f8_duplexhouseset1(1).png.4d15a0d5332be28509aa5d1be057528b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/626ed21e46ae8_duplexhouseset1(4).png.39300de256341502de1f57a8ea7954f8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/626ed233973ef_duplexhouseset1(3).png.1f7bc65528a2a2e9e93e6ca4d08de796.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/626ed242f0beb_duplexhouseset1(2).png.830538cb3ccf158577f12e859406b746.png
+  name: Duplex House Set 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_05/626ed29cb4ada_duplexhouseset1(3).thumb.png.5a6dcbb95c858046f8dac2a97450c167.png
+  url: https://community.simtropolis.com/files/file/35169-duplex-house-set-1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35169-duplex-house-set-1
+      buildings:
+        Davide1983it - Villa Chronologie.SC4Desc:
+          6bb84eba-cf780369:
+            bulldoze: 206
+            capacity:
+              r$: 85
+              r$$: 48
+            categories: r$$
+            flamability: 40
+            garbage: 7
+            model: af6feb86
+            name: Davide1983it - Villa Chronologie
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 8
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1223
+        Davide1983it - Villa Equinoxe.SC4Desc:
+          6bb84eba-cf785de2:
+            bulldoze: 215
+            capacity:
+              r$: 84
+              r$$: 48
+            categories: r$$
+            flamability: 40
+            garbage: 7
+            model: 6f706f4f
+            name: Davide1983it - Villa Equinoxe
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 8
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1212
+        Davide1983it - Villa Oxygene.SC4Desc:
+          6bb84eba-4f788a2f:
+            bulldoze: 206
+            capacity:
+              r$: 82
+              r$$: 47
+            categories: r$$
+            flamability: 40
+            garbage: 6
+            model: 4f702897
+            name: Davide1983it - Villa Oxygene
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 8
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1184
+        Davide1983it - Villa Palawan.SC4Desc:
+          6bb84eba-0f78035e:
+            bulldoze: 173
+            capacity:
+              r$: 73
+              r$$: 41
+            categories: r$$
+            flamability: 40
+            garbage: 6
+            model: 4f7015ec
+            name: Davide1983it - Villa Palawan
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 1049
+        Davide1983it - Villa Tarkio.SC4Desc:
+          6bb84eba-af78c85f:
+            bulldoze: 145
+            capacity:
+              r$: 32
+            categories: r$
+            flamability: 45
+            garbage: 2
+            model: 4f70a958
+            name: Davide1983it - Villa Tarkio
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 434
+        Davide1983it - Villa Walnut.SC4Desc:
+          6bb84eba-4f78ae50:
+            bulldoze: 154
+            capacity:
+              r$: 28
+            categories: r$
+            flamability: 45
+            garbage: 2
+            model: af70c228
+            name: Davide1983it - Villa Walnut
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 377
+      lastGenerated: 2025-01-14T10:21:27.211Z
+      lastModified: 2022-05-01T18:34:07.000Z
+      lots:
+        Davide1983it - Villa Chronologie.SC4Lot:
+          af787d1d:
+            building: cf780369
+            density: medium,high
+            name: Davide1983it - Villa Chronologie
+            props:
+              - 0df6a974
+              - 2dee0871
+              - 6f2fc7b5
+              - cf2189c0
+              - cf2c9f30
+            size: 1x2
+            stage: 5
+            textures:
+              - '25273000'
+        Davide1983it - Villa Equinoxe.SC4Lot:
+          0f71dcaa:
+            building: cf785de2
+            density: medium,high
+            name: Davide1983it  - Villa Equinoxe
+            props:
+              - 4e41353d
+              - 4e924d8c
+              - 8df719f8
+              - cf2189c0
+            size: 1x2
+            stage: 5
+            textures:
+              - 252b2000
+        Davide1983it - Villa Oxygene.SC4Lot:
+          8f78173d:
+            building: 4f788a2f
+            density: medium,high
+            name: Davide1983it  - Villa Oxygene
+            props:
+              - 0f2c9f26
+              - 0f2fc7ad
+              - 2f2b06d7
+              - 2f2fc7ce
+              - 8df719f8
+              - cf2189c0
+              - cf2fc835
+            size: 1x2
+            stage: 4
+            textures:
+              - 252b2000
+        Davide1983it - Villa Palawan.SC4Lot:
+          8f7804f9:
+            building: 0f78035e
+            density: medium,high
+            name: Davide1983it  - Villa Palawan
+            props:
+              - 0e097e00
+              - 0f2b0e8b
+              - 0f2c9f26
+              - cf2189c0
+              - cf2b06b6
+              - cf2c9f30
+              - edee0c48
+            size: 1x2
+            stage: 4
+            textures:
+              - 615f6000
+        Davide1983it - Villa Tarkio.SC4Lot:
+          6f78b316:
+            building: af78c85f
+            density: all
+            name: Davide1983it - Villa Tarkio
+            props:
+              - 0f2b0e8b
+              - 0f2c9f26
+              - 2dee090d
+              - 2f2fc7ce
+              - 4dedf2ea
+              - 6df387f6
+              - af2b06f8
+              - cf2189c0
+              - cf2c9f30
+              - cf2fc835
+              - ef2fc796
+            size: 1x2
+            stage: 3
+            textures:
+              - 25d60000
+              - f8a0501a
+              - f8a0908a
+        Davide1983it - Villa Walnut.SC4Lot:
+          0f78b0ad:
+            building: 4f78ae50
+            density: medium,high
+            name: Davide1983it - Villa Walnut
+            props:
+              - cf2189c0
+            size: 1x1
+            stage: 4
+            textures:
+              - 252b1000
+              - f8a09040
+      models:
+        Davide1983it - Villa Chronologie.SC4Model:
+          - af6feb86
+        Davide1983it - Villa Equinoxe.SC4Model:
+          - 6f706f4f
+        Davide1983it - Villa Oxygene.SC4Model:
+          - 4f702897
+        Davide1983it - Villa Palawan.SC4Model:
+          - 4f7015ec
+        Davide1983it - Villa Tarkio.SC4Model:
+          - 4f70a958
+        Davide1983it - Villa Walnut.SC4Model:
+          - af70c228
+      release: 2025-01-14T10:21:27.198Z
       version: 1.0.0
 
 davide1983it/harold-building:
@@ -3991,6 +4284,62 @@ davide1983it/mansion-lorca:
       release: 2025-01-14T09:09:51.097Z
       version: 1.0.0
 
+davide1983it/maraldi-building:
+  categories: cs$$
+  dependencies:
+    - 11241036/textures
+    - agc/environment-dlc
+  description: Artdeco skyscraper
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/6327160b90147_Maraldibuilding(1).png.b44e0db6330ba652df4fd322233cd30d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/6327161452ea9_Maraldibuilding(2).png.932fb53874d36176c3362170159c5275.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/6327162a58272_Maraldibuilding(4).png.9bc17e9fd56612e4894c75ad52b4c12d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_09/63271634c27b5_Maraldibuilding(3).png.14b91bcf26f81a8ee5f5bb3f12a5a8e9.png
+  name: Maraldi Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_09/63271672f0d5d_Maraldibuilding(1).thumb.png.e8fb53bcb8b418c8d42cd2eeeddf0a61.png
+  url: https://community.simtropolis.com/files/file/35299-maraldi-building/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35299-maraldi-building
+      buildings:
+        Davide1983it - Maraldi Building.SC4Desc:
+          6bb84eba-d032d287:
+            bulldoze: 1754
+            capacity:
+              cs$: 3466
+              cs$$: 869
+            categories: cs$$
+            flamability: 40
+            garbage: 607
+            model: 10703ee4
+            name: Davide1983it - Maraldi Building
+            pollution: 65
+            pollutionRadius: 5
+            power: 70
+            water: 1202
+            waterPollution: 43
+            waterPollutionRadius: 6
+            worth: 29735
+      lastGenerated: 2025-01-14T10:21:27.326Z
+      lastModified: 2022-09-18T13:00:43.000Z
+      lots:
+        Davide1983it - Maraldi Building.SC4Lot:
+          9032dc28:
+            building: d032d287
+            density: high
+            name: Davide1983it - Maraldi Building
+            size: 3x2
+            stage: 8
+            textures:
+              - 258f2000
+              - f85d4160
+      models:
+        Davide1983it - Maraldi Building.SC4Model:
+          - 10703ee4
+      release: 2025-01-14T10:21:27.319Z
+      version: 1.0.0
+
 davide1983it/milcoln-tower:
   categories: cs$$
   dependencies:
@@ -4731,7 +5080,477 @@ davide1983it/palazzo-currucci:
       release: 2025-01-14T09:57:54.337Z
       version: 1.0.0
 
-davide1983it/playgrounds:
+davide1983it/palazzo-derio:
+  categories: r$$
+  dependencies:
+    - davide1983it/prop-pack-vol01
+    - paeng/textures
+  description: Small corner building
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0c735bddcc_palazzoderio(2).png.66b52b0377e12cdf2a90d1e11474156b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0c7578c502_palazzoderio.png.68fcd08c3ed3d9007c72cc9f8989d18a.png
+  name: Palazzo Derio
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0c78e1ab83_palazzoderio.thumb.png.f6d10e28867b99bb0d971241d18e8fd7.png
+  url: https://community.simtropolis.com/files/file/35211-palazzo-derio/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35211-palazzo-derio
+      buildings:
+        Davide1983it - Palazzo Derio.SC4Desc:
+          6bb84eba-cf888495:
+            bulldoze: 503
+            capacity:
+              r$: 151
+              r$$: 85
+            categories: r$$
+            flamability: 40
+            garbage: 12
+            model: b0917dbc
+            name: Davide1983it - Palazzo Derio
+            pollution: 2
+            pollutionRadius: 5
+            power: 2
+            water: 14
+            waterPollution: 2
+            waterPollutionRadius: 6
+            worth: 2178
+      lastGenerated: 2025-01-14T10:21:27.251Z
+      lastModified: 2022-06-20T19:16:30.000Z
+      lots:
+        Davide1983it - Palazzo Derio.SC4Lot:
+          0f888d44:
+            building: cf888495
+            density: high
+            name: Davide1983it - Palazzo Derio
+            props:
+              - 6df5f58b
+            size: 1x1
+            stage: 7
+            textures:
+              - 252b1000
+              - '26353000'
+              - f5f844ba
+      models:
+        Davide1983it - Palazzo Derio.SC4Model:
+          - b0917dbc
+      release: 2025-01-14T10:21:27.244Z
+      version: 1.0.0
+
+davide1983it/palazzo-maresio:
+  categories: r$$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/623239528831f_palazzomaresio(1).png.ef4d583b46dd72093fe229226a1fe616.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62323960c681c_palazzomaresio(2).png.807c3fd1277d9c06166651bd1db3784a.png
+  name: Palazzo Maresio
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/6232396aca2db_palazzomaresio(1).thumb.png.ad98185f60d277f2ff765cb53974a27f.png
+  url: https://community.simtropolis.com/files/file/35010-palazzo-maresio/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35010-palazzo-maresio
+      buildings:
+        davide1983it - palazzo maresio p10.SC4Desc:
+          6bb84eba-2f395979:
+            bulldoze: 624
+            capacity:
+              r$: 337
+              r$$: 187
+              r$$$: 84
+            categories: r$$$
+            flamability: 35
+            garbage: 12
+            model: cf31822d
+            name: davide1983it - palazzo maresio p10
+            pollution: 2
+            pollutionRadius: 6
+            power: 11
+            water: 50
+            waterPollution: 2
+            waterPollutionRadius: 7
+            worth: 5144
+        davide1983it - palazzo maresio p20.SC4Desc:
+          6bb84eba-0f39596d:
+            bulldoze: 1090
+            capacity:
+              r$: 598
+              r$$: 332
+              r$$$: 147
+            categories: r$$$
+            flamability: 35
+            garbage: 22
+            model: cf319213
+            name: davide1983it - palazzo maresio p20
+            pollution: 4
+            pollutionRadius: 6
+            power: 19
+            water: 89
+            waterPollution: 4
+            waterPollutionRadius: 7
+            worth: 9135
+        davide1983it - palazzo maresio p30.SC4Desc:
+          6bb84eba-8f395949:
+            bulldoze: 1556
+            capacity:
+              r$: 860
+              r$$: 476
+              r$$$: 210
+            categories: r$$$
+            flamability: 35
+            garbage: 31
+            model: 0f31a4ce
+            name: davide1983it - palazzo maresio p30
+            pollution: 5
+            pollutionRadius: 6
+            power: 27
+            water: 128
+            waterPollution: 5
+            waterPollutionRadius: 7
+            worth: 13126
+        davide1983it - palazzo maresio p40.SC4Desc:
+          6bb84eba-6f3959ae:
+            bulldoze: 2021
+            capacity:
+              r$: 1121
+              r$$: 620
+              r$$$: 273
+            categories: r$$$
+            flamability: 35
+            garbage: 40
+            model: 0f31bd3d
+            name: davide1983it - palazzo maresio p40
+            pollution: 7
+            pollutionRadius: 6
+            power: 35
+            water: 167
+            waterPollution: 7
+            waterPollutionRadius: 7
+            worth: 17116
+        davide1983it - palazzo maresio p6.SC4Desc:
+          6bb84eba-cf3969d7:
+            bulldoze: 411
+            capacity:
+              r$: 217
+              r$$: 121
+              r$$$: 55
+            categories: r$$$
+            flamability: 35
+            garbage: 8
+            model: 6f3178b1
+            name: davide1983it - palazzo maresio p6
+            pollution: 1
+            pollutionRadius: 6
+            power: 7
+            water: 33
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 3319
+      lastGenerated: 2025-01-14T10:21:27.020Z
+      lastModified: 2022-03-16T19:24:31.000Z
+      lots:
+        davide1983it - palazzo maresio p10.SC4Lot:
+          ef39c1ed:
+            building: 2f395979
+            density: medium,high
+            name: davide1983it - palazzo maresio p10
+            size: 1x2
+            stage: 6
+            textures:
+              - '258e3000'
+              - '26343000'
+        davide1983it - palazzo maresio p20.SC4Lot:
+          cf39c204:
+            building: 0f39596d
+            density: high
+            name: davide1983it - palazzo maresio p20
+            size: 1x2
+            stage: 7
+            textures:
+              - '258e3000'
+              - '26343000'
+        davide1983it - palazzo maresio p30.SC4Lot:
+          ef39c22d:
+            building: 8f395949
+            density: high
+            name: davide1983it - palazzo maresio p30
+            size: 1x2
+            stage: 8
+            textures:
+              - '258e3000'
+              - '26343000'
+        davide1983it - palazzo maresio p40.SC4Lot:
+          cf39c256:
+            building: 6f3959ae
+            density: high
+            name: davide1983it - palazzo maresio p40
+            size: 1x2
+            stage: 8
+            textures:
+              - '258e3000'
+              - '26343000'
+        davide1983it - palazzo maresio p6.SC4Lot:
+          8f39c1d8:
+            building: cf3969d7
+            density: medium,high
+            name: davide1983it - palazzo maresio p6
+            size: 1x2
+            stage: 5
+            textures:
+              - '258e3000'
+              - '26343000'
+      models:
+        davide1983it - palazzo maresio p10.SC4Model:
+          - cf31822d
+        davide1983it - palazzo maresio p20.SC4Model:
+          - cf319213
+        davide1983it - palazzo maresio p30.SC4Model:
+          - 0f31a4ce
+        davide1983it - palazzo maresio p40.SC4Model:
+          - 0f31bd3d
+        davide1983it - palazzo maresio p6.SC4Model:
+          - 6f3178b1
+      release: 2025-01-14T10:21:26.951Z
+      version: 1.0.0
+
+davide1983it/palazzo-sagesta:
+  categories: r$$
+  dependencies:
+    - davide1983it/prop-pack-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/623a1aea6264c_palazzosagesta(1).png.83bc8c8ce0d5e9e36f3fd788a38cc732.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/623a1b342e576_palazzosagesta(2).png.f5d329c4dc527b01ffa4df24fe8ef8a3.png
+  name: Palazzo Sagesta
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/623a1bccdc2dc_palazzosagesta(1).thumb.png.57a0c434067fbe11eb74d93b4f53c0bf.png
+  url: https://community.simtropolis.com/files/file/35018-palazzo-sagesta/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35018-palazzo-sagesta
+      buildings:
+        davide1983it - palazzo sagesta p10.SC4Desc:
+          6bb84eba-ef395b6f:
+            bulldoze: 571
+            capacity:
+              r$: 291
+              r$$: 162
+            categories: r$$
+            flamability: 40
+            garbage: 23
+            model: 2f31f4a0
+            name: davide1983it - palazzo sagesta p10
+            pollution: 5
+            pollutionRadius: 5
+            power: 3
+            water: 26
+            waterPollution: 5
+            waterPollutionRadius: 6
+            worth: 4204
+        davide1983it - palazzo sagesta p20.SC4Desc:
+          6bb84eba-4f395b62:
+            bulldoze: 992
+            capacity:
+              r$: 516
+              r$$: 286
+            categories: r$$
+            flamability: 40
+            garbage: 40
+            model: ef31fa59
+            name: davide1983it - palazzo sagesta p20
+            pollution: 8
+            pollutionRadius: 5
+            power: 4
+            water: 45
+            waterPollution: 8
+            waterPollutionRadius: 6
+            worth: 7446
+        davide1983it - palazzo sagesta p30.SC4Desc:
+          6bb84eba-2f395b57:
+            bulldoze: 1414
+            capacity:
+              r$: 741
+              r$$: 410
+            categories: r$$
+            flamability: 40
+            garbage: 58
+            model: cf32031d
+            name: davide1983it - palazzo sagesta p30
+            pollution: 12
+            pollutionRadius: 5
+            power: 6
+            water: 65
+            waterPollution: 12
+            waterPollutionRadius: 6
+            worth: 10688
+        davide1983it - palazzo sagesta p40.SC4Desc:
+          6bb84eba-cf395b4c:
+            bulldoze: 1835
+            capacity:
+              r$: 965
+              r$$: 534
+            categories: r$$
+            flamability: 40
+            garbage: 75
+            model: 2f322936
+            name: davide1983it - palazzo sagesta p40
+            pollution: 15
+            pollutionRadius: 5
+            power: 8
+            water: 84
+            waterPollution: 15
+            waterPollutionRadius: 6
+            worth: 13930
+        davide1983it - palazzo sagesta p6.SC4Desc:
+          6bb84eba-af456cce:
+            bulldoze: 402
+            capacity:
+              r$: 201
+              r$$: 113
+            categories: r$$
+            flamability: 40
+            garbage: 16
+            model: cf31eb27
+            name: davide1983it - palazzo sagesta p6
+            pollution: 3
+            pollutionRadius: 5
+            power: 2
+            water: 18
+            waterPollution: 3
+            waterPollutionRadius: 6
+            worth: 2907
+      lastGenerated: 2025-01-14T10:21:27.077Z
+      lastModified: 2022-03-29T18:38:45.000Z
+      lots:
+        davide1983it - palazzo sagesta p10.SC4Lot:
+          8f404ae1:
+            building: ef395b6f
+            density: high
+            name: davide1983it - palazzo sagesta p10
+            props:
+              - ef257026
+            size: 1x2
+            stage: 7
+            textures:
+              - '26060000'
+        davide1983it - palazzo sagesta p20.SC4Lot:
+          cf404b53:
+            building: 4f395b62
+            density: high
+            name: davide1983it - palazzo sagesta p20
+            props:
+              - ef257026
+            size: 1x2
+            stage: 7
+            textures:
+              - '26060000'
+        davide1983it - palazzo sagesta p30.SC4Lot:
+          2f404ba7:
+            building: 2f395b57
+            density: high
+            name: davide1983it - palazzo sagesta p30
+            props:
+              - ef257026
+            size: 1x2
+            stage: 8
+            textures:
+              - '26060000'
+        davide1983it - palazzo sagesta p40.SC4Lot:
+          cf404bd9:
+            building: cf395b4c
+            density: high
+            name: davide1983it - palazzo sagesta p40
+            props:
+              - ef257026
+            size: 1x2
+            stage: 8
+            textures:
+              - '26060000'
+        davide1983it - palazzo sagesta p6.SC4Lot:
+          8f456da9:
+            building: af456cce
+            density: medium,high
+            name: davide1983it - palazzo sagesta p6
+            props:
+              - ef257026
+            size: 1x2
+            stage: 6
+            textures:
+              - '26060000'
+      models:
+        davide1983it - palazzo sagesta p10.SC4Model:
+          - 2f31f4a0
+        davide1983it - palazzo sagesta p20.SC4Model:
+          - ef31fa59
+        davide1983it - palazzo sagesta p30.SC4Model:
+          - cf32031d
+        davide1983it - palazzo sagesta p40.SC4Model:
+          - 2f322936
+        davide1983it - palazzo sagesta p6.SC4Model:
+          - cf31eb27
+      release: 2025-01-14T10:21:27.066Z
+      version: 2.0.0
+
+davide1983it/parea-building:
+  categories: co$$$
+  dependencies:
+    - agc/environment-dlc
+    - davide1983it/prop-pack-vol01
+    - paeng/textures
+  description: Office Building with two different entrances, and a Plaza with a red cube similiar to the red cube of Isamu Noguchi, in 140 Broadway - New York.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8e7f0b343_pareabuilding(2).png.6fa6b80cf7c4ced5aa640ad4f872b7a2.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8e9668040_pareabuilding(5).png.5ddb0704fcbc9d3fa913bece15c06e5b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8ea4417da_pareabuilding(1).png.f3fc84fd21dfbab5e5886886f797f937.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8ec505cd6_pareabuilding(4).png.460fe5993abbb4266ffdf6c870f4eb6b.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8eede89cc_pareabuilding(3).png.ca9d13c869aaf9c602a0e22116ccf34c.png
+  name: Parea Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8f5194e5f_pareabuilding(2).thumb.png.286f4963a050e070d5d14832450e11f4.png
+  url: https://community.simtropolis.com/files/file/35229-parea-building/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35229-parea-building
+      buildings:
+        Davide1983it - Parea Building.SC4Desc:
+          6bb84eba-afdbca52:
+            bulldoze: 2371
+            capacity:
+              co$$: 5089
+              co$$$: 3560
+            categories: co$$$
+            flamability: 35
+            garbage: 173
+            model: 6fd3903e
+            name: Davide1983it - Parea Building
+            pollution: 86
+            pollutionRadius: 6
+            power: 143
+            water: 7549
+            waterPollution: 43
+            waterPollutionRadius: 7
+            worth: 39796
+      lastGenerated: 2025-01-14T10:21:27.309Z
+      lastModified: 2022-07-14T03:36:55.000Z
+      lots:
+        Davide1983it - Parea Building.SC4Lot:
+          efdbcc25:
+            building: afdbca52
+            density: high
+            name: Davide1983it - Parea Building
+            props:
+              - 0eec4691
+              - ee7daa61
+            size: 3x5
+            stage: 8
+            textures:
+              - '25901000'
+              - f5f84305
+      models:
+        Davide1983it - Parea Building.SC4Model:
+          - 6fd3903e
+      release: 2025-01-14T10:21:27.289Z
+      version: 1.0.0
+
+davide1983it/playground:
   categories: dependencies
   dependencies:
     - bsc/textures-vol01
@@ -4740,16 +5559,8 @@ davide1983it/playgrounds:
     - sfbt/essentials
     - simgoober/mega-props-vol01
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/prop.png.1302f34f0d163a3004bf2baeba58810a.png
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6224a88a86afa_setpool.jpg.29a606ed6399a5f883dc893387f687d2.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6224a88f4ed0c_setpatio.jpg.ae472a142c7cb64959ba69217411013d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6224a894f2b41_setopen.jpg.562b03451b54a40c0867278184b5c44d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6224a896a714c_spazio1999-alpha.jpg.abe9e0d8c2ca69e838370610d2ec5f5e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/playground.jpg.8a9580f20335c02acfdd04a6a42d5d0e.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/americancar2.jpg.1e5e46f107b8865e507e89eeb1e2f79d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/tatra-wartburg.jpg.f6e9a34788d77919184cf2681d520fab.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2022_03/trabant.jpg.9d77f56cff2caa9190a89a1902f34f0d.jpg
-  name: Playgrounds
+  name: Playground
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/prop.thumb.png.09a2462fd38d4350362f6c6dd672864d.png
   url: https://community.simtropolis.com/files/file/34972-davide-prop-v1/
   variants:
@@ -4778,7 +5589,7 @@ davide1983it/playgrounds:
             water: 2
             waterPollution: 2
             waterPollutionRadius: 1
-      lastGenerated: 2025-01-14T09:28:28.650Z
+      lastGenerated: 2025-01-14T10:33:46.983Z
       lastModified: 2022-03-13T08:56:14.000Z
       lots:
         Davide1983it - Playground 2x3 V1.SC4Lot:
@@ -4834,7 +5645,7 @@ davide1983it/prop-pack-vol01:
 
     - table, chair, deckchair
 
-    - play ground set
+    - playground set
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/prop.png.1302f34f0d163a3004bf2baeba58810a.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/6224a88a86afa_setpool.jpg.29a606ed6399a5f883dc893387f687d2.jpg
@@ -4852,14 +5663,14 @@ davide1983it/prop-pack-vol01:
     default:
       assets:
         - exclude:
-            - Davide1983it - Fuji Restaurant*
-            - Davide1983it - Fuku Ramen*
-            - Davide1983it - Playground*.SC4Lot
-            - Davide1983it - Restaurant Nara Okonomiyaki*
+            - davide prop v1/Davide1983it - Fuji Restaurant*
+            - davide prop v1/Davide1983it - Fuku Ramen*
+            - davide prop v1/Davide1983it - Playground*.SC4Lot
+            - davide prop v1/Davide1983it - Restaurant Nara Okonomiyaki*
           id: simtropolis/34972-davide-prop-v1
           include:
             - davide prop v1
-      lastGenerated: 2025-01-14T09:26:50.161Z
+      lastGenerated: 2025-01-14T10:49:42.549Z
       lastModified: 2022-03-13T08:56:14.000Z
       models:
         Davide1983it - Bbq1.SC4Model:
@@ -5936,6 +6747,892 @@ davide1983it/prop-pack-vol01:
       release: 2025-01-14T09:09:51.167Z
       version: 2.0.0
 
+davide1983it/residential-building-set-1:
+  categories: r$$$,r$$,r$
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - davide1983it/prop-pack-vol01
+    - kingofsimcity/superpaths-pathway-textures
+    - kingofsimcity/supershk-mega-parking-textures
+    - lbt/mega-textures-vol01
+    - ndex/textures-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb29abcc8_palazzoberrucci(1).png.c6ff2c03c86e48fb49dc42afd811a694.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb3908578_palazzoberrucci(2).png.cd8924e634845d3cdde56c12ba682b2e.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb42abc76_palazzoborgato(1).png.e8e22374609875271a76473408ebbf26.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb4e46251_palazzoborgato(2).png.85587d89a56c3c0acd5d441f7d20e3a8.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb59893fe_palazzoferraio(1).png.b84899ac6e1bbd7259ef1545e838abb0.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb654c3ce_palazzoferraio(2).png.98c2e7cdc2148cd8d58a11354652e651.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb7129a05_palazzogustese(1).png.17c0d406af5aa5f5c261b6f08d85d5f9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb7b6f842_palazzogustese(2).png.ed1ec06109cb8e31e571a7a6440219d7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb8d2fb56_palazzoruspini(1).png.f2d0d49e41560889575f3366f73ee79d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eb99c5dc3_palazzoruspini(2).png.0e6dfe9689e9d5c79e52e49af1d3e987.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eba3c1b34_palazzoularia(1).png.1ef70ce3cef334a0533b3bb8d0d83d6c.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258ebaf9a055_palazzoularia(2).png.4eb6a07fd7de337a2afa55c7695478b5.png
+  name: Palazzo Residential Building Set 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_04/6258ec3fdc207_palazzoruspini(1).thumb.png.818cfa9c3a8afa4f4c1ec6dc9db70ed2.png
+  url: https://community.simtropolis.com/files/file/35057-palazzo-residential-building-set-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Building set 1
+          id: simtropolis/35057-palazzo-residential-building-set-1
+          include:
+            - Building set 1
+      buildings:
+        Davide1983it - Palazzo Borgato p10.SC4Desc:
+          6bb84eba-8f5c3a6f:
+            bulldoze: 581
+            capacity:
+              r$: 551
+              r$$: 305
+              r$$$: 135
+            categories: r$$$
+            flamability: 35
+            garbage: 20
+            model: 0fef8d9e
+            name: Davide1983it - Palazzo Borgato p10
+            pollution: 3
+            pollutionRadius: 6
+            power: 17
+            water: 82
+            waterPollution: 3
+            waterPollutionRadius: 7
+            worth: 8410
+        Davide1983it - Palazzo Borgato p20.SC4Desc:
+          6bb84eba-0f61beba:
+            bulldoze: 1016
+            capacity:
+              r$: 983
+              r$$: 544
+              r$$$: 239
+            categories: r$$$
+            flamability: 35
+            garbage: 35
+            model: 2fefcd3e
+            name: Davide1983it - Palazzo Borgato p20
+            pollution: 6
+            pollutionRadius: 6
+            power: 30
+            water: 146
+            waterPollution: 6
+            waterPollutionRadius: 7
+            worth: 15012
+        Davide1983it - Palazzo Ferraio p10.SC4Desc:
+          6bb84eba-0f5ba14d:
+            bulldoze: 564
+            capacity:
+              r$: 549
+              r$$: 304
+            categories: r$$
+            flamability: 40
+            garbage: 43
+            model: 0f49aae3
+            name: Davide1983it - Palazzo Ferraio p10
+            pollution: 9
+            pollutionRadius: 5
+            power: 5
+            water: 48
+            waterPollution: 9
+            waterPollutionRadius: 6
+            worth: 7915
+        Davide1983it - Palazzo Ferraio p20.SC4Desc:
+          6bb84eba-6f5ba280:
+            bulldoze: 985
+            capacity:
+              r$: 979
+              r$$: 542
+            categories: r$$
+            flamability: 40
+            garbage: 76
+            model: 6f49bad0
+            name: Davide1983it - Palazzo Ferraio p20
+            pollution: 15
+            pollutionRadius: 5
+            power: 8
+            water: 85
+            waterPollution: 15
+            waterPollutionRadius: 6
+            worth: 14129
+        Davide1983it - Palazzo Gustese p10.SC4Desc:
+          6bb84eba-6f51c46b:
+            bulldoze: 538
+            capacity:
+              r$: 173
+            categories: r$
+            flamability: 45
+            garbage: 10
+            model: 6f49903a
+            name: Davide1983it - Palazzo Gustese p10
+            pollution: 5
+            pollutionRadius: 5
+            power: 1
+            water: 9
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 2348
+        Davide1983it - Palazzo Gustese p5.SC4Desc:
+          6bb84eba-2f51c453:
+            bulldoze: 334
+            capacity:
+              r$: 105
+            categories: r$
+            flamability: 45
+            garbage: 6
+            model: af498443
+            name: Davide1983it - Palazzo Gustese p5
+            pollution: 3
+            pollutionRadius: 5
+            power: 1
+            water: 5
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1423
+        Davide1983it - Palazzo Ruspini p10.SC4Desc:
+          6bb84eba-ef6121d9:
+            bulldoze: 546
+            capacity:
+              r$: 1076
+            categories: r$
+            flamability: 45
+            garbage: 65
+            model: 10903a7a
+            name: Davide1983it - Palazzo ruspini p10
+            pollution: 32
+            pollutionRadius: 5
+            power: 5
+            water: 51
+            waterPollution: 11
+            waterPollutionRadius: 5
+            worth: 14620
+        Davide1983it - Palazzo Ruspini p20.SC4Desc:
+          6bb84eba-4f6121bf:
+            bulldoze: 954
+            capacity:
+              r$: 1923
+            categories: r$
+            flamability: 45
+            garbage: 115
+            model: b09048d6
+            name: Davide1983it - Palazzo Ruspini p20
+            pollution: 58
+            pollutionRadius: 5
+            power: 9
+            water: 90
+            waterPollution: 19
+            waterPollutionRadius: 5
+            worth: 26130
+        Davide1983it - Palazzo Ularia p10.SC4Desc:
+          6bb84eba-0f5ba00f:
+            bulldoze: 559
+            capacity:
+              r$: 419
+              r$$: 233
+              r$$$: 103
+            categories: r$$$
+            flamability: 35
+            garbage: 15
+            model: 4f4a4ebb
+            name: Davide1983it - Palazzo Ularia p10
+            pollution: 3
+            pollutionRadius: 6
+            power: 13
+            water: 63
+            waterPollution: 3
+            waterPollutionRadius: 7
+            worth: 6403
+        Davide1983it - Palazzo Ularia p20.SC4Desc:
+          6bb84eba-cf5baea5:
+            bulldoze: 1038
+            capacity:
+              r$: 796
+              r$$: 441
+              r$$$: 194
+            categories: r$$$
+            flamability: 35
+            garbage: 29
+            model: eff083c5
+            name: Davide1983it - Palazzo Ularia p20
+            pollution: 5
+            pollutionRadius: 6
+            power: 25
+            water: 119
+            waterPollution: 5
+            waterPollutionRadius: 7
+            worth: 12150
+        davide1983it - Palazzo Berrucci.SC4Desc:
+          6bb84eba-af503c02:
+            bulldoze: 513
+            capacity:
+              r$: 453
+              r$$: 251
+            categories: r$$
+            flamability: 40
+            garbage: 35
+            model: af484c56
+            name: Davide1983it - Palazzo Berrucci
+            pollution: 7
+            pollutionRadius: 5
+            power: 4
+            water: 40
+            waterPollution: 7
+            waterPollutionRadius: 6
+            worth: 6531
+      lastGenerated: 2025-01-14T10:33:47.015Z
+      lastModified: 2022-04-15T03:53:41.000Z
+      lots:
+        Davide1983it - Palazzo Borgato p10.SC4Lot:
+          af5c4927:
+            building: 8f5c3a6f
+            density: high
+            name: Davide1983it - Palazzo Borgato p10
+            size: 2x2
+            stage: 7
+            textures:
+              - 35ea4b00
+              - 4400d000
+              - f20b4110
+              - f49b0290
+        Davide1983it - Palazzo Borgato p20.SC4Lot:
+          ef5c4900:
+            building: 0f61beba
+            density: high
+            name: Davide1983it - Palazzo Borgato p20
+            size: 2x2
+            stage: 7
+            textures:
+              - 35ea4b00
+              - 4400d000
+              - f20b4110
+              - f49b0290
+        Davide1983it - Palazzo Ferraio p10.SC4Lot:
+          6f5c5005:
+            building: 0f5ba14d
+            density: high
+            name: Davide1983it - Palazzo Ferraio p10
+            size: 2x2
+            stage: 7
+            textures:
+              - 35ea4b00
+              - 4400d000
+              - f20b4110
+              - f8a09010
+        Davide1983it - Palazzo Ferraio p20.SC4Lot:
+          2f5c5017:
+            building: 6f5ba280
+            density: high
+            name: Davide1983it - Palazzo Ferraio p20
+            size: 2x2
+            stage: 7
+            textures:
+              - 35ea4b00
+              - 4400d000
+              - f20b4110
+              - f8a09010
+        Davide1983it - Palazzo Gustese p5.SC4Lot:
+          0f51d765:
+            building: 2f51c453
+            density: high
+            name: davide1983it - Palazzo Gustese p5
+            size: 1x1
+            stage: 7
+            textures:
+              - '26353000'
+        Davide1983it - Palazzo Ruspini p10.SC4Lot:
+          0f612888:
+            building: ef6121d9
+            density: high
+            name: Davide1983it  - Palazzo Ruspini p10
+            props:
+              - 2f2fc7ce
+              - 8f25f746
+              - 8f2ca030
+              - aed3804d
+              - cf2c9f30
+              - ef25efda
+              - ef2f85ca
+            size: 3x3
+            stage: 7
+            textures:
+              - '25273000'
+              - f8a09040
+              - f8a09050
+              - f8a09120
+              - f8a09125
+              - f8a0924a
+              - f8a09255
+        Davide1983it - Palazzo Ruspini p20.SC4Lot:
+          0f612836:
+            building: 4f6121bf
+            density: high
+            name: Davide1983it  - Palazzo Ruspini p20
+            props:
+              - 2f2fc7ce
+              - 8f25f746
+              - 8f2ca030
+              - aed3804d
+              - cf2c9f30
+              - ef25efda
+              - ef2f85ca
+            size: 3x3
+            stage: 8
+            textures:
+              - '25273000'
+              - f8a09040
+              - f8a09050
+              - f8a09120
+              - f8a09125
+              - f8a0924a
+              - f8a09255
+        Davide1983it - Palazzo Ularia p10.SC4Lot:
+          4f5ba600:
+            building: 0f5ba00f
+            density: medium,high
+            name: Davide1983it - Palazzo Ularia p10
+            size: 2x2
+            stage: 5
+            textures:
+              - e9014000
+              - f8a04300
+        Davide1983it - Palazzo Ularia p20.SC4Lot:
+          4f5bd42f:
+            building: cf5baea5
+            density: medium,high
+            name: Davide1983it - Palazzo Ularia p20
+            size: 2x2
+            stage: 6
+            textures:
+              - e9014000
+              - f8a04300
+        davide1983it - Palazzo Berrucci.SC4Lot:
+          8f39b22c:
+            building: af503c02
+            density: high
+            name: davide1983it - Palazzo Berrucci
+            props:
+              - 2f25f708
+              - cf25f738
+            size: 2x2
+            stage: 7
+            textures:
+              - '25273000'
+              - f8a09045
+              - fb768005
+        davide1983it - Palazzo Gustese p10.SC4Lot:
+          cf51d750:
+            building: 6f51c46b
+            density: high
+            name: davide1983it - Palazzo Gustese p10
+            size: 1x1
+            stage: 7
+            textures:
+              - '26353000'
+      models:
+        Davide1983it - Palazzo Borgato p10.SC4Model:
+          - 0fef8d9e
+        Davide1983it - Palazzo Borgato p20.SC4Model:
+          - 2fefcd3e
+        Davide1983it - Palazzo Ferraio p10.SC4Model:
+          - 0f49aae3
+        Davide1983it - Palazzo Ferraio p20.SC4Model:
+          - 6f49bad0
+        Davide1983it - Palazzo Gustese p10.SC4Model:
+          - 6f49903a
+        Davide1983it - Palazzo Gustese p5.SC4Model:
+          - af498443
+        Davide1983it - Palazzo Ruspini p10.SC4Model:
+          - 10903a7a
+        Davide1983it - Palazzo Ruspini p20.SC4Model:
+          - b09048d6
+        Davide1983it - Palazzo Ularia p10.SC4Model:
+          - 4f4a4ebb
+        Davide1983it - Palazzo Ularia p20.SC4Model:
+          - eff083c5
+        davide1983it - Palazzo Berrucci.SC4Model:
+          - af484c56
+        palazzo corense-0x5ad0e817_0x8f49b095_0x31000.SC4Model:
+          - 8f49b095
+      release: 2025-01-14T10:21:27.170Z
+      version: 1.0.0
+
+davide1983it/social-housing-set-1:
+  categories: r$
+  dependencies:
+    - agc/environment-dlc
+    - bsc/textures-vol02
+    - davide1983it/prop-pack-vol01
+    - kingofsimcity/superpaths-pathway-textures
+  description: Set of prefabricated low-wealth residential buildinds (4 types)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/628080f0ab9ad_PREFABBRICATO(1).png.78c841d4d6c3057606dd65853e178ce9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/628081137728f_PREFABBRICATO(2).png.fdd2e5667df41ca396c190fef7ed0717.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/62808123acc7b_PREFABBRICATO(3).png.66ef23a92755c094ac66c27b69df8c4d.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6280813a70e9b_PREFABBRICATO(4).png.9f2e4af704f51b7f93f614986e703db9.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6280814beb102_PREFABBRICATO(5).png.b2a1b499f560854d06242e220b3fa949.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6280815f598a0_PREFABBRICATO(6).png.ee3451eb949cfe0d1fb48779e9cc1f91.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6280817013166_PREFABBRICATO(7).png.dc6f33f4a03124e3ad3b976d576b1911.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6280818e13a1d_PREFABBRICATO(8).png.711fcbf8823af3294e6e05f1776ff9cd.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_05/6280819b0794a_PREFABBRICATO(9).png.ff88e551c943bcf6883e7dbcfb92a263.png
+  name: Social Housing Set 1
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_05/6280823c5127f_PREFABBRICATO(1).thumb.png.db7be01babf83ab889b374725b71e506.png
+  url: https://community.simtropolis.com/files/file/35187-social-housing-set-1/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35187-social-housing-set-1
+      buildings:
+        Davide1983it - Prefab - Tipo A-V2.SC4Desc:
+          6bb84eba-cf7dbaaf:
+            bulldoze: 476
+            capacity:
+              r$: 190
+            categories: r$
+            flamability: 45
+            garbage: 11
+            model: cf71201f
+            name: Davide1983it - Prefab - A-V2
+            pollution: 6
+            pollutionRadius: 5
+            power: 1
+            water: 9
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 2578
+        Davide1983it - Prefab - Tipo A-V3.SC4Desc:
+          6bb84eba-0f7dbab9:
+            bulldoze: 476
+            capacity:
+              r$: 190
+            categories: r$
+            flamability: 45
+            garbage: 11
+            model: ef27fa52
+            name: Davide1983it - Prefab - A-V3
+            pollution: 6
+            pollutionRadius: 5
+            power: 1
+            water: 9
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 2578
+        Davide1983it - Prefab - Tipo A-V4.SC4Desc:
+          6bb84eba-8f87e4a2:
+            bulldoze: 476
+            capacity:
+              r$: 190
+            categories: r$
+            flamability: 45
+            garbage: 11
+            model: 6f2804aa
+            name: Davide1983it - Prefab - A-V4
+            pollution: 6
+            pollutionRadius: 5
+            power: 1
+            water: 9
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 2578
+        Davide1983it - Prefab - Tipo B-V1.SC4Desc:
+          6bb84eba-6f87f5c2:
+            bulldoze: 355
+            capacity:
+              r$: 117
+            categories: r$
+            flamability: 45
+            garbage: 7
+            model: ef50327c
+            name: Davide1983it - Prefab - A-V4
+            pollution: 4
+            pollutionRadius: 5
+            power: 1
+            water: 6
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1592
+        Davide1983it - Prefab - Tipo B-V2.SC4Desc:
+          6bb84eba-ef7e6aaa:
+            bulldoze: 355
+            capacity:
+              r$: 117
+            categories: r$
+            flamability: 45
+            garbage: 7
+            model: 2f501ec4
+            name: Davide1983it - Prefab - B-V2
+            pollution: 4
+            pollutionRadius: 5
+            power: 1
+            water: 6
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1592
+        Davide1983it - Prefab - Tipo B-V3.SC4Desc:
+          6bb84eba-6f7e6ab3:
+            bulldoze: 355
+            capacity:
+              r$: 117
+            categories: r$
+            flamability: 45
+            garbage: 7
+            model: 4f5028b5
+            name: Davide1983it - Prefab - B-V3
+            pollution: 4
+            pollutionRadius: 5
+            power: 1
+            water: 6
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1592
+        Davide1983it - Prefab - Tipo C-V1.SC4Desc:
+          6bb84eba-af82c6fe:
+            bulldoze: 297
+            capacity:
+              r$: 79
+            categories: r$
+            flamability: 45
+            garbage: 5
+            model: 6fa07f06
+            name: Davide1983it - Prefab - C-V1
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1072
+        Davide1983it - Prefab - Tipo C-V2.SC4Desc:
+          6bb84eba-cf82c71b:
+            bulldoze: 297
+            capacity:
+              r$: 79
+            categories: r$
+            flamability: 45
+            garbage: 5
+            model: afa0809c
+            name: Davide1983it - Prefab - C-V2
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1072
+        Davide1983it - Prefab - Tipo C-V3.SC4Desc:
+          6bb84eba-af82c70b:
+            bulldoze: 297
+            capacity:
+              r$: 79
+            categories: r$
+            flamability: 45
+            garbage: 5
+            model: 0fa0a30d
+            name: Davide1983it - Prefab - C-V3
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1072
+        Davide1983it - Prefab - Tipo D-V1.SC4Desc:
+          6bb84eba-0f82c77d:
+            bulldoze: 255
+            capacity:
+              r$: 77
+            categories: r$
+            flamability: 45
+            garbage: 5
+            model: 4fa088eb
+            name: Davide1983it - Prefab - D-V1
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1041
+        Davide1983it - Prefab - Tipo D-V2.SC4Desc:
+          6bb84eba-af82c514:
+            bulldoze: 255
+            capacity:
+              r$: 77
+            categories: r$
+            flamability: 45
+            garbage: 5
+            model: 8fc86435
+            name: Davide1983it - Prefab - D-V2
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1041
+        Davide1983it - Prefab - Tipo D-V3.SC4Desc:
+          6bb84eba-6f8316f1:
+            bulldoze: 255
+            capacity:
+              r$: 77
+            categories: r$
+            flamability: 45
+            garbage: 5
+            model: 6fc8e7a5
+            name: Davide1983it - Prefab - D-V3
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 1041
+        Davide1983it - Prefab -Tipo A-V1.SC4Desc:
+          6bb84eba-0f861d4c:
+            bulldoze: 476
+            capacity:
+              r$: 190
+            categories: r$
+            flamability: 45
+            garbage: 11
+            model: cf273137
+            name: Davide1983it - Prefab - A-V1
+            pollution: 6
+            pollutionRadius: 5
+            power: 1
+            water: 9
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 2578
+      lastGenerated: 2025-01-14T10:21:27.231Z
+      lastModified: 2022-05-15T04:32:11.000Z
+      lots:
+        Davide1983it - Prefab - Tipo A-V1.SC4Lot:
+          2f861e43:
+            building: 0f861d4c
+            density: medium,high
+            name: Davide1983it - Prefab - AV1
+            props:
+              - 2f2fc7be
+              - 2f2fc7ce
+              - af2b06f8
+            size: 2x1
+            stage: 6
+            textures:
+              - 35ea4550
+              - f8a09045
+        Davide1983it - Prefab - Tipo A-V2.SC4Lot:
+          2f82ed8b:
+            building: cf7dbaaf
+            density: medium,high
+            name: Davide1983it - Prefab - AV2
+            props:
+              - 2f25f708
+              - 2f2fc7ce
+              - 6f2fc7b5
+              - ef25efda
+            size: 2x1
+            stage: 6
+            textures:
+              - 35ea4550
+              - f8a09045
+        Davide1983it - Prefab - Tipo A-V3.SC4Lot:
+          0f82ee58:
+            building: 0f7dbab9
+            density: medium,high
+            name: Davide1983it - Prefab - AV3
+            props:
+              - 0f28ab3d
+              - 2f25f758
+              - cf2fc835
+            size: 2x1
+            stage: 6
+            textures:
+              - 35ea4550
+              - f8a09045
+        Davide1983it - Prefab - Tipo A-V4.SC4Lot:
+          af87e61a:
+            building: 8f87e4a2
+            density: medium,high
+            name: Davide1983it - Prefab - AV4
+            props:
+              - 6f2fc7b5
+              - 8f25f746
+            size: 2x1
+            stage: 6
+            textures:
+              - 35ea4550
+              - f8a09045
+        Davide1983it - Prefab - Tipo B-V1.SC4Lot:
+          6f82fc6b:
+            building: 6f87f5c2
+            density: medium,high
+            name: Davide1983it - Prefab BV1
+            props:
+              - 0f2b0e8b
+              - 0f2fc7ad
+              - cf25f6d0
+            size: 2x1
+            stage: 6
+            textures:
+              - 251c3000
+              - 252b1000
+              - f8a09045
+        Davide1983it - Prefab - Tipo B-V2.SC4Lot:
+          4f82fcb0:
+            building: ef7e6aaa
+            density: medium,high
+            name: Davide1983it - Prefab BV2
+            props:
+              - 0f2ca054
+              - 2f25f708
+              - cf2fc835
+            size: 2x1
+            stage: 6
+            textures:
+              - 251c3000
+              - 252b1000
+              - f8a09045
+        Davide1983it - Prefab - Tipo B-V3.SC4Lot:
+          0f82fd04:
+            building: 6f7e6ab3
+            density: medium,high
+            name: Davide1983it - Prefab BV3
+            props:
+              - 2f25f758
+              - cf25f738
+            size: 2x1
+            stage: 6
+            textures:
+              - 251c3000
+              - 252b1000
+              - f8a09045
+        Davide1983it - Prefab - Tipo C-V1.SC4Lot:
+          af82fe09:
+            building: af82c6fe
+            density: medium,high
+            name: Davide1983it - Prefab CV1
+            props:
+              - 0df6a974
+              - 2f25f708
+              - 2f25f758
+            size: 1x1
+            stage: 6
+            textures:
+              - 251c3000
+              - 252b1000
+        Davide1983it - Prefab - Tipo C-V2.SC4Lot:
+          ef82ff30:
+            building: cf82c71b
+            density: medium,high
+            name: Davide1983it - Prefab CV2
+            props:
+              - 0df6a974
+              - 0f28ab3d
+              - 8f25f746
+              - ef25efda
+            size: 1x1
+            stage: 6
+            textures:
+              - 251c3000
+              - 252b1000
+        Davide1983it - Prefab - Tipo C-V3.SC4Lot:
+          8f82ff63:
+            building: af82c70b
+            density: medium,high
+            name: Davide1983it - Prefab CV3
+            props:
+              - 0df6a974
+              - 6f2fc7b5
+              - cf2fc835
+              - ef2fc796
+            size: 1x1
+            stage: 6
+            textures:
+              - 251c3000
+              - 252b1000
+        Davide1983it - Prefab - Tipo D-V1.SC4Lot:
+          2f83010e:
+            building: 0f82c77d
+            density: medium,high
+            name: Davide1983it - Prefab - DV1
+            props:
+              - 0df254b9
+              - 0df6a974
+              - 0f28ab3d
+              - 0f2c9f26
+              - 4df7052b
+              - cdf75fe7
+            size: 2x1
+            stage: 5
+            textures:
+              - 35ea4550
+              - f8a09000
+        Davide1983it - Prefab - Tipo D-V2.SC4Lot:
+          4f83024e:
+            building: af82c514
+            density: medium,high
+            name: Davide1983it - Prefab - DV2
+            props:
+              - 0df254b9
+              - 0df6a974
+              - 0dff4060
+              - 2f2fc7ce
+              - cdf75fe7
+              - cf2fc835
+            size: 2x1
+            stage: 5
+            textures:
+              - 35ea4550
+              - f8a09000
+        Davide1983it - Prefab - Tipo D-V3.SC4Lot:
+          6f831d36:
+            building: 6f8316f1
+            density: medium,high
+            name: Davide1983it - Prefab - DV3
+            props:
+              - 0df6a974
+              - 0eec4691
+              - 2f2b06d7
+              - 2f2fc7be
+              - 2f2fc7ce
+              - 4df73b51
+            size: 2x1
+            stage: 5
+            textures:
+              - 35ea4550
+              - f8a09000
+      models:
+        Davide1983it - Prefab - Tipo A-V1.SC4Model:
+          - cf273137
+        Davide1983it - Prefab - Tipo A-V2.SC4Model:
+          - cf71201f
+        Davide1983it - Prefab - Tipo A-V3.SC4Model:
+          - ef27fa52
+        Davide1983it - Prefab - Tipo A-V4.SC4Model:
+          - 6f2804aa
+        Davide1983it - Prefab - Tipo B-V1.SC4Model:
+          - ef50327c
+        Davide1983it - Prefab - Tipo B-V2.SC4Model:
+          - 2f501ec4
+        Davide1983it - Prefab - Tipo B-V3.SC4Model:
+          - 4f5028b5
+        Davide1983it - Prefab - Tipo C-V1.SC4Model:
+          - 6fa07f06
+        Davide1983it - Prefab - Tipo C-V2.SC4Model:
+          - afa0809c
+        Davide1983it - Prefab - Tipo C-V3.SC4Model:
+          - 0fa0a30d
+        Davide1983it - Prefab - Tipo D-V1.SC4Model:
+          - 4fa088eb
+        Davide1983it - Prefab - Tipo D-V2.SC4Model:
+          - 8fc86435
+        Davide1983it - Prefab - Tipo D-V3.SC4Model:
+          - 6fc8e7a5
+      release: 2025-01-14T10:21:27.223Z
+      version: 1.0.0
+
 davide1983it/supermarket-prix:
   categories: cs$$
   dependencies:
@@ -6072,4 +7769,572 @@ davide1983it/tarasco-building:
         Davide1983it - Tarasco Building.SC4Model:
           - 70bccf59
       release: 2025-01-14T09:57:54.458Z
+      version: 1.0.0
+
+davide1983it/torre-teala:
+  categories: r$$$
+  dependencies:
+    - kingofsimcity/supershk-mega-parking-textures
+  description: Highrise residential building
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0cb3ae0360_torreteala(1).png.e632fc510026e955aa9628b0e8331dae.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0cb3fd0968_torreteala(2).png.9f38cb4ac7543b6656b9a57a094410f3.png
+  name: Torre Teala
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0cb72445fd_torreteala(1).thumb.png.83bb48548caed4ddf34114f6a0ae0baa.png
+  url: https://community.simtropolis.com/files/file/35212-torre-teala/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35212-torre-teala
+      buildings:
+        Davide1983it - Torre Teala.SC4Desc:
+          6bb84eba-cf906b2e:
+            bulldoze: 1475
+            capacity:
+              r$: 1325
+              r$$: 733
+              r$$$: 322
+            categories: r$$$
+            flamability: 35
+            garbage: 48
+            model: 4f8859bc
+            name: Davide1983it - Torre Teala
+            pollution: 8
+            pollutionRadius: 6
+            power: 41
+            water: 197
+            waterPollution: 8
+            waterPollutionRadius: 7
+            worth: 20236
+      lastGenerated: 2025-01-14T10:21:27.264Z
+      lastModified: 2022-06-20T19:33:08.000Z
+      lots:
+        Davide1983it - Torre Teala.SC4Lot:
+          ef9073ff:
+            building: cf906b2e
+            density: high
+            name: Davide1983it - Torre Teala
+            size: 2x2
+            stage: 8
+            textures:
+              - 258f2000
+              - f8a04300
+      models:
+        Davide1983it - Torre Teala.SC4Model:
+          - 4f8859bc
+      release: 2025-01-14T10:21:27.257Z
+      version: 1.0.0
+
+davide1983it/villa-almansa:
+  categories: r$$$
+  dependencies:
+    - 11241036/textures
+    - agc/environment-dlc
+    - bsc/textures-vol02
+    - davide1983it/prop-pack-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6239509cf2954_villaalmansa(2).png.5ee07746a2ca5fe73ead672ce8dd84fc.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/623950aab9124_villaalmansa(1).png.6a729cdfc091d317686d925b427b99cf.png
+  name: Villa Almansa
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/623950d064636_villaalmansa(2).thumb.png.65dcd7752cc15d86cab546ad3a30b082.png
+  url: https://community.simtropolis.com/files/file/35016-villa-almansa/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35016-villa-almansa
+      buildings:
+        Davide1983it - Villa Almansa.SC4Desc:
+          6bb84eba-0f443a0e:
+            bulldoze: 127
+            capacity:
+              r$: 20
+              r$$: 12
+              r$$$: 7
+            categories: r$$$
+            flamability: 35
+            garbage: 1
+            model: aefd991d
+            name: davide1983it - villa almansa
+            power: 1
+            water: 3
+            worth: 306
+      lastGenerated: 2025-01-14T10:21:27.060Z
+      lastModified: 2022-03-22T04:30:10.000Z
+      lots:
+        Davide1983it - Villa Almansa 1x2.SC4Lot:
+          8f2ca263:
+            building: 0f443a0e
+            density: all
+            name: Davide1983it - Villa Almansa 1x2
+            props:
+              - 0df6a974
+              - 0f2b0e8b
+              - 0f2ca026
+              - 2dee0871
+              - 2f2b06d7
+              - 4e41353d
+              - 4f2c9efb
+              - 8dea5ca6
+              - 8df719f8
+              - aed38033
+              - af28ba2b
+              - cf2189c0
+              - ee81825b
+            size: 1x2
+            stage: 3
+            textures:
+              - 251c2000
+              - f85d421a
+              - f85d425a
+        Davide1983it - Villa Almansa 1x3.SC4Lot:
+          af2ca37f:
+            building: 0f443a0e
+            density: all
+            name: Davide1983it - Villa Almansa 1x3 new
+            props:
+              - 0f2c9f26
+              - 0f2ca054
+              - 4dedf2ea
+              - 8df719f8
+              - 8e64b810
+              - 8e8dc68e
+              - aed38033
+              - af28ba2b
+              - cdee2f6b
+              - cdf26264
+              - cf2189c0
+              - cf2b06b6
+              - cf2c9f30
+              - edee0c48
+              - ef2ca04a
+            size: 1x3
+            stage: 3
+            textures:
+              - 35ea4300
+              - f85d421a
+              - f85d425a
+      models:
+        Davide1983it - Villa Almansa.SC4Model:
+          - aefd991d
+      release: 2025-01-14T10:21:27.029Z
+      version: 1.0.0
+
+davide1983it/villa-cubelles:
+  categories: r$$$
+  dependencies:
+    - agc/environment-dlc
+    - bsc/textures-vol02
+    - cycledogg/textures-vol01
+    - davide1983it/prop-pack-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62435cd209e9a_villacubelles(2).png.bb69ffd8ddabb720ccc3d8378a34ab40.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/62435ce262e49_villacubelles(1).png.dc878ed23f27f016abf13ee1941a949f.png
+  name: Villa Cubelles
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/62435cf488ca0_villacubelles(2).thumb.png.ec5664843dd7903d1403bc31aeb6a759.png
+  url: https://community.simtropolis.com/files/file/35028-villa-cubelles/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35028-villa-cubelles
+      buildings:
+        Davide1983it - Villa Cubelles.SC4Desc:
+          cbd483bc-ce80aeb1:
+            bulldoze: 129
+            capacity:
+              r$: 19
+              r$$: 12
+              r$$$: 7
+            categories: r$$$
+            flamability: 35
+            garbage: 1
+            model: 910fb753
+            name: Davide1983it - villa cubelles
+            power: 1
+            water: 3
+            worth: 294
+      lastGenerated: 2025-01-14T10:21:27.110Z
+      lastModified: 2022-03-29T19:24:38.000Z
+      lots:
+        davide1983it - Villa Cubelles 1x1.SC4Lot:
+          0eb71ef6:
+            building: ce80aeb1
+            density: medium,high
+            name: davide1983it - Villa Cubellas 1x1
+            props:
+              - 0df6a974
+              - 0f2b0e8b
+              - 0f2ca054
+              - 4e41353d
+              - 8f2ca03a
+              - aed38033
+              - cf2189c0
+            size: 1x1
+            stage: 4
+            textures:
+              - dd766800
+        davide1983it - Villa Cubelles 1x2.SC4Lot:
+          2eb72021:
+            building: ce80aeb1
+            density: all
+            name: davide1983it - Villa Cubellas 1x2
+            props:
+              - 0e70d57b
+              - 0f2ca043
+              - 0f2ca054
+              - 2f25f758
+              - 2f2b06d7
+              - 2f2fc7be
+              - 4e41353d
+              - 6de31b0a
+              - 6f2fc7b5
+              - 8df719f8
+              - aed38033
+              - af28ba2b
+              - af2b06f8
+              - cf2189c0
+            size: 1x2
+            stage: 2
+            textures:
+              - '35014100'
+              - dd766800
+      models:
+        Davide1983it - Villa Cubelles.SC4Model:
+          - 910fb753
+      release: 2025-01-14T10:21:27.102Z
+      version: 1.0.0
+
+davide1983it/villa-denia:
+  categories: r$
+  dependencies:
+    - agc/environment-dlc
+    - bsc/textures-vol02
+    - davide1983it/prop-pack-vol01
+    - paeng/textures
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6243ce3ee54e2_villadenia(1).png.b41827a0ae9918a425e992fa0f79eb83.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6243ce477ec6b_villadenia(2).png.c4f2e6cc3e26d93aff06622027a3d7cf.png
+  name: Villa Denia
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/6243ce5974e65_villadenia(1).thumb.png.e40aed50e30d2148d79784f2d145f98e.png
+  url: https://community.simtropolis.com/files/file/35029-villa-denia/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35029-villa-denia
+      buildings:
+        davide1983it - Villa Denia.SC4Desc:
+          6bb84eba-4f1d5045:
+            bulldoze: 124
+            capacity:
+              r$: 26
+            categories: r$
+            flamability: 45
+            garbage: 2
+            model: 2efdc6a9
+            name: davide1983it - Villa Denia
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 354
+      lastGenerated: 2025-01-14T10:21:27.130Z
+      lastModified: 2022-03-30T03:28:29.000Z
+      lots:
+        Davide1983it - Villa Denia.SC4Lot:
+          4f1d5589:
+            building: 4f1d5045
+            density: all
+            name: Davide1983it - Villa Denia 2x1
+            props:
+              - 0e53402c
+              - 0f2ca026
+              - 0f2ca043
+              - 2f25f708
+              - 4e924d8c
+              - 6f25f6dd
+              - 8df719f8
+              - 8f25f746
+              - 8f2ca030
+              - 8f2ca03a
+              - aed38033
+              - cf2189c0
+              - cf2b06b6
+              - ef2f85ca
+            size: 1x2
+            stage: 3
+            textures:
+              - 35ea4300
+              - f5f845e0
+      models:
+        davide1983it - Villa Denia.SC4Model:
+          - 2efdc6a9
+      release: 2025-01-14T10:21:27.117Z
+      version: 1.0.0
+
+davide1983it/villa-javea:
+  categories: r$$$
+  dependencies:
+    - agc/environment-dlc
+    - davide1983it/prop-pack-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6243ce9141d74_villajavea(2).png.f2f916f968c8f99c9e44ac87a0d94488.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/6243ce98c13e3_villajavea(1).png.7d4f2457e01864bc2697bba929843ced.png
+  name: Villa Javea
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/6243cea004fec_villajavea(2).thumb.png.0c077453b224b412dc95d6da67812a2c.png
+  url: https://community.simtropolis.com/files/file/35030-villa-javea/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35030-villa-javea
+      buildings:
+        Davide1983it - Villa Javea.SC4Desc:
+          6bb84eba-ef34f28a:
+            bulldoze: 141
+            capacity:
+              r$: 35
+              r$$: 20
+              r$$$: 11
+            categories: r$$$
+            flamability: 35
+            garbage: 1
+            model: d017b25e
+            name: Davide1983it - Villa Javea
+            power: 2
+            water: 6
+            worth: 527
+      lastGenerated: 2025-01-14T10:21:27.148Z
+      lastModified: 2022-03-30T03:29:38.000Z
+      lots:
+        Davide1983it - Villa Javea.SC4Lot:
+          6f34f4d0:
+            building: ef34f28a
+            density: medium,high
+            name: Davide1983it - Villa Javea
+            props:
+              - 0df7a014
+              - 0e70d57b
+              - 0f2b0e8b
+              - 0f2c9f26
+              - 2f2b06d7
+              - 4dedf2ea
+              - 6df387f6
+              - 8f2ca030
+              - 8f2ca03a
+              - af28ba2b
+              - af2b06f8
+              - cf2189c0
+              - cf2fc835
+            size: 1x2
+            stage: 4
+            textures:
+              - 251c2000
+      models:
+        Davide1983it - Villa Javea.SC4Model:
+          - d017b25e
+      release: 2025-01-14T10:21:27.135Z
+      version: 1.0.0
+
+davide1983it/villa-oropesa:
+  categories: r$
+  dependencies:
+    - agc/environment-dlc
+    - davide1983it/prop-pack-vol01
+    - pegasus/mtp-super-pack
+    - sfbt/essentials
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624bb5e0e81e4_villaoropesa(1).png.0b61658bf8c14026bd81f99d817c10e5.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_04/624bb5ea8ca16_villaoropesa(2).png.9d5d5ef01e333e70a2decda922056bca.png
+  name: Villa Oropesa
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_04/624bb641bb18b_villaoropesa(1).thumb.png.158f8000b5e4afaf65cee6a43e648daf.png
+  url: https://community.simtropolis.com/files/file/35039-villa-oropesa/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35039-villa-oropesa
+      buildings:
+        Davide1983it - Villa Oropesa.SC4Desc:
+          cbd483bc-ae7cbf50:
+            bulldoze: 119
+            capacity:
+              r$: 13
+            categories: r$
+            flamability: 45
+            garbage: 1
+            model: 91092fa1
+            name: Davide1983it - Villa Oropesa
+            power: 1
+            water: 1
+            worth: 178
+      lastGenerated: 2025-01-14T10:21:27.165Z
+      lastModified: 2022-04-05T03:23:49.000Z
+      lots:
+        Davide1983it - Villa Oropesa 1x1.SC4Lot:
+          ce9ef089:
+            building: ae7cbf50
+            density: all
+            name: Davide1983it - Villa Oropesa 1x1
+            props:
+              - 0df6a974
+              - 0f2c9f26
+              - 4e41353d
+              - aed38033
+              - af2b06f8
+              - cf2189c0
+              - cf2b06b6
+            size: 1x1
+            stage: 3
+            textures:
+              - 252b3000
+              - '30401000'
+        Davide1983it - Villa Oropesa 1x2.SC4Lot:
+          6f392ddf:
+            building: ae7cbf50
+            density: all
+            name: Davide1983it - Villa Oropesa 1x2
+            props:
+              - 0e70d57b
+              - 0f2c9f26
+              - 2e3794f5
+              - 2f2189b7
+              - 2f25f708
+              - 8f2ca03a
+              - aed38033
+              - cf2189c0
+              - ede38cbe
+              - ee617c49
+              - ef25efda
+            size: 1x2
+            stage: 2
+            textures:
+              - 1da44a0a
+              - '25291000'
+              - 252b3000
+      models:
+        Davide1983it - Villa Oropesa.SC4Model:
+          - 91092fa1
+      release: 2025-01-14T10:21:27.154Z
+      version: 1.0.0
+
+davide1983it/villa-teulada:
+  categories: r$
+  dependencies:
+    - agc/environment-dlc
+    - davide1983it/prop-pack-vol01
+    - pegasus/mtp-super-pack
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/624357436a933_villateulada(1).png.33b4127b5bcd6481032c1d703ba8043a.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_03/624357532962c_villateulada(2).png.178d6464e8a10d646c6e1d52402a6888.png
+  name: Villa Teulada
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/62435761d60b8_villateulada(1).thumb.png.a358af44b3385ef23a9aa5fed881e7fc.png
+  url: https://community.simtropolis.com/files/file/35027-villa-teulada/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35027-villa-teulada
+      buildings:
+        Davide1983it - Villa Teulada.SC4Desc:
+          6bb84eba-2f45696f:
+            bulldoze: 121
+            capacity:
+              r$: 24
+            categories: r$
+            flamability: 45
+            garbage: 1
+            model: 101792b8
+            name: davide1983it - villa teulada
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 325
+      lastGenerated: 2025-01-14T10:21:27.097Z
+      lastModified: 2022-03-29T19:00:54.000Z
+      lots:
+        Davide1983it - Villa Teulada.SC4Lot:
+          8f4566b5:
+            building: 2f45696f
+            density: all
+            name: Davide1983it - Villa Teulada
+            props:
+              - 0e53402c
+              - 0f2c9f26
+              - 0f2ca026
+              - 0f2fc7ad
+              - 2f25f708
+              - 2f2fc7ce
+              - 4f2c9efb
+              - 6f25f6dd
+              - 6f2fc7b5
+              - 8f25f746
+              - cf2189c0
+              - cf2c9f30
+              - ee617c49
+              - ef2f85ca
+            size: 1x2
+            stage: 3
+            textures:
+              - 1da44615
+              - 25ae2000
+      models:
+        Davide1983it - Villa Teulada.SC4Model:
+          - 101792b8
+      release: 2025-01-14T10:21:27.083Z
+      version: 1.0.0
+
+davide1983it/zasco-building:
+  categories: co$$$
+  dependencies:
+    - davide1983it/prop-pack-vol01
+    - hk/textures-vol01
+  description: Artdeco building in honour of Zasco
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/6387ab35e1e64_zascobuilding(1).png.0336a58e1333d95b7030352766668fc3.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/6387ab4874323_zascobuilding(2).png.4272e621b926af5ff853867cbaa5df14.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/6387ab5a2da1e_zascobuilding(4).png.0d1fa0179f51e9d38cfd8c5fbd854832.png
+    - https://www.simtropolis.com/objects/screens/monthly_2022_11/6387ab6a41f2f_zascobuilding(3).png.a3be8b0c2034a6eacd5b42ff692e2eb2.png
+  name: Zasco Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_11/6387abf443422_zascobuilding(1).thumb.png.e57da9fd157aa87f2cdc8d7ece522545.png
+  url: https://community.simtropolis.com/files/file/35345-zasco-building/
+  variants:
+    default:
+      assets:
+        - id: simtropolis/35345-zasco-building
+      buildings:
+        Davide1983it - Zasco Building.SC4Desc:
+          70b5c3f4-307d3943:
+            bulldoze: 2974
+            capacity:
+              co$$: 3146
+              co$$$: 2202
+            categories: co$$$
+            flamability: 35
+            garbage: 107
+            model: 8fa8e877
+            name: Davide1983it - Zasco building
+            pollution: 53
+            pollutionRadius: 6
+            power: 89
+            water: 4668
+            waterPollution: 27
+            waterPollutionRadius: 7
+            worth: 24604
+      lastGenerated: 2025-01-14T10:21:27.341Z
+      lastModified: 2022-11-30T19:16:06.000Z
+      lots:
+        Davide1983it - Zasco Building.SC4Lot:
+          b07d3fac:
+            building: 307d3943
+            density: high
+            name: Davide1983it - Zasco Building
+            props:
+              - 0eec4691
+            size: 3x3
+            stage: 8
+            textures:
+              - 258f2000
+              - f165f000
+              - f175f000
+      models:
+        Davide1983it - Zasco Building.SC4Model:
+          - 8fa8e877
+      release: 2025-01-14T10:21:27.333Z
       version: 1.0.0
