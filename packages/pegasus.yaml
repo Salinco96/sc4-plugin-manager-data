@@ -1321,6 +1321,233 @@ pegasus/mtp-super-pack:
           - 4400c000
       version: 1.5.0
 
+pegasus/old-west-prop-pack:
+  categories: props,civics
+  description: The PEG Old West Prop Pack contains a variety of useful props with an Old West flavor that can be used by developers. For the player, it contains no usable or ploppable material but is required as a Dependency for many other lots, including Fort Pegasus. Lots requiring this product should list it as a dependency in their descriptions and readme files.
+  images:
+    - https://www.simtropolis.com/objects/screens/0023/ce89326ada04fd4c3224bf12df6f947d-product_image.jpg
+  name: PEG Old West Prop Pack
+  readme: readme_010.htm
+  support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2004/thumb-ce89326ada04fd4c3224bf12df6f947d-product_image.jpg
+  url: https://community.simtropolis.com/files/file/4513-peg-old-west-prop-pack-205/
+  variants:
+    default:
+      assets:
+        - docs:
+            - product_image.jpg
+            - readme_010.htm
+          id: simtropolis/4513-peg-old-west-prop-pack-205
+          include:
+            - PEG_OldWestPack_205.dat
+      lastGenerated: 2025-01-14T09:48:55.665Z
+      lastModified: 2004-10-23T07:53:27.000Z
+      models:
+        PEG_OldWestPack_205.dat:
+          - 2dcf3e23
+          - 2dcf7dc2
+          - 4d2d325b-0024
+          - 4dd324d1
+          - 6dcf3b63
+          - 8dc24934
+          - cdd075ed
+          - cdd31319
+          - edd31431
+      props:
+        PEG_OldWestPack_205.dat:
+          4d2d325b-0d34ea75:
+            model: 4d2d325b-0024
+            name: peg_SageBrush_PROP
+          4d2d325b-0dd0761a:
+            model: cdd075ed
+            name: peg_tee-pee_PROP
+          4d2d325b-2dcf7de0:
+            model: 2dcf7dc2
+            name: peg_cavalry_PROP
+          4d2d325b-2dd315d7:
+            model: cdd31319
+            name: peg_horse-brn_PROP
+          4d2d325b-6dc259be:
+            model: 8dc24934
+            name: peg_chuckwagon_PROP
+          4d2d325b-8dc2df74:
+            model: 2dcf3e23
+            name: peg_settler-wagon_PROP
+          4d2d325b-adc2dfc3:
+            model: 6dcf3b63
+            name: peg_stagecoach_PROP
+          4d2d325b-cdd3159f:
+            model: edd31431
+            name: peg_cow-brn_PROP
+          4d2d325b-cdd3258d:
+            model: 4dd324d1
+            name: peg_horse-drk_PROP
+      release: 2025-01-14T09:46:24.724Z
+      version: 1.0.0
+
+pegasus/oww2-resource-pack-1:
+  categories: props,waterfront
+  description: |-
+    This is the primary dependency file for the re-styled CDK-OWW2 (Old Wooden Waterfront) and will be required for all new CDK-OWW lots.
+
+    The new CDK-OWW2 has been completely overhauled to match the new CDK Marina style of lots. These lots can be used to expand and add variety to your CDK Marina complexes... or used on their own to create attractive seawall boardwalks along your coastlines. Like the Marina lots, the CDK-OWW2 lots are 3 tiles deep... and also have the upper dock/boardwalk and the rear parking areas that align in a modular fashion. In fact, the only differences between the two styles is that Marina lots have the lower floating docks... and higher recreational properties.
+
+    As the new CDK-OWW lots are 3 tiles deep, they will not directly replace the older OWW style lots which were only 2 tiles deep. Players can choose to use both old & new versions... or uninstall the older version after replacing the older lots in their cities.
+  images:
+    - https://www.simtropolis.com/objects/screens/0007/342507e204e8ff0dc0aa183ae5c73707-product_image.jpg
+  name: PEG OWW2 Resource Pack 1
+  readme: readme_206.htm
+  support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_10_2007/thumb-342507e204e8ff0dc0aa183ae5c73707-product_image.jpg
+  url: https://community.simtropolis.com/files/file/18831-peg-oww2-resource-pack-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - PEGPROD/CDK3/OWW2
+          id: simtropolis/18831-peg-oww2-resource-pack-1
+          include:
+            - PEGPROD/CDK3/OWW2
+      lastGenerated: 2025-01-14T09:48:55.674Z
+      lastModified: 2007-10-22T08:12:39.000Z
+      models:
+        PEG-OWW2_RESOURCE.dat:
+          - 141554d4
+          - 141626ec
+          - 14168a15
+          - '14169330'
+          - 1417cf94
+          - 141b306c
+          - 34190cd5
+          - 7414c859
+          - '94122852'
+          - b418abca
+          - d4152bac
+          - d4167cac
+          - d417b1f3
+          - d41908ba
+          - f414d74d
+          - f4160d05
+          - f416e646
+          - f418f277
+      props:
+        PEG-OWW2_RESOURCE.dat:
+          c977c536-073d469f:
+            family: a0001422
+            name: AR2x2x3_sit-lean-forward-idle_peg9-18
+          c977c536-073d46a0:
+            family: a0001422
+            name: AR2x2x3_sit-backwardchair-idle_peg9-18
+          c977c536-073d46a1:
+            family: a0001422
+            name: AR2x2x3_sit-cross-leg-arm-idle_peg9-18
+          c977c536-073d46a2:
+            family: a0001422
+            name: AR2x2x3_sit-idle_peg9-18
+          c977c536-073d489d:
+            family: a0001496
+            name: Amill4x2x4_exploritorium_29C2_R80_5-17
+          c977c536-073d489e:
+            family: a0001496
+            name: Amill4x4x4_small_1E9A_R85_8-20
+          c977c536-073d489f:
+            family: a0001496
+            name: Amill4x7x4_small-medium_1E9B_R80_11-15
+          c977c536-073d48a0:
+            family: a0001496
+            name: Amill5x7x4_medium_1E99_R80_16-120
+          c977c536-073d48a1:
+            family: a0001496
+            name: Aper2x2x4_male-drk01-wait_R90_23-4
+          c977c536-073d48a2:
+            family: a0001496
+            name: Aper2x2x4_male-med03-wait_R75_22-8
+          c977c536-073d48a3:
+            family: a0001497
+            name: A4x9x4_tail-gaiters_1E9C_R80_14-22
+          c977c536-073d48a4:
+            family: a0001497
+            name: R4x8x2_$$speedboatontrailer1_1D0B_R80_8-14
+          c977c536-073d48a5:
+            family: a0001497
+            name: R4x8x3_$$Rowboat_AE00_R80_11-19
+          c977c536-073d48a6:
+            family: a0001497
+            name: Street2x6x2_$$SUV_1D4D_R80_17-3
+          f38748f8-1418aec5:
+            family: a0001499
+            model: f414d74d
+            name: CDK-OWW_1x1_Corner_UD_w NFFD_stairs2
+          f38748f8-14194398:
+            family: a000149a
+            model: 14168a15
+            name: CDKM_1x-UD_w NFFD_stairs
+          f38748f8-34191978:
+            family: a0001498
+            model: d4152bac
+            name: CDK-OWW_1x1_Corner_Snack1
+          f38748f8-34194369:
+            family: a000149a
+            model: '14169330'
+            name: CDKM_1x-UD_w NFFD_ramp
+          f38748f8-341dd5d1:
+            model: 141b306c
+            name: PEG_barricade
+          f38748f8-541a80ee:
+            family: a000149b
+            model: 1417cf94
+            name: CDKM_1x_UD_Quad1
+          f38748f8-74191923:
+            family: a0001498
+            model: f4160d05
+            name: CDK-OWW_1x1_Corner_Snack3
+          f38748f8-74192297:
+            family: a000149a
+            model: d4167cac
+            name: CDKM_1x-UD_w NFFD
+          f38748f8-741a811b:
+            family: a000149b
+            model: d417b1f3
+            name: CDKM_1x_UD_Quad2
+          f38748f8-9416ca3c:
+            family: a0001499
+            model: 141626ec
+            name: CDK-OWW_1x1_Corner_UD_w NFFD
+          f38748f8-941a9070:
+            family: a000149b
+            model: f416e646
+            name: CDKM_1x_UD_RestRooms
+          f38748f8-94247f89:
+            model: b421e752
+            name: OWW2_pierset_1x
+          f38748f8-b418af0b:
+            family: a0001499
+            model: 7414c859
+            name: CDK-OWW_1x1_Corner_UD_w NFFD_stairs
+          f38748f8-b41b4f0c:
+            family: a000149c
+            model: b418abca
+            name: CDKM_3x3_UD_OuterCorner
+          f38748f8-d41ba2d3:
+            family: a000149c
+            model: f418f277
+            name: CDKM_3x3_UD_OuterCorner_round
+          f38748f8-d41baa8a:
+            model: d41908ba
+            name: PLP_InnerCorner
+          f38748f8-d41bb006:
+            model: 34190cd5
+            name: PLP_Short-Stub_4
+          f38748f8-f4191952:
+            family: a0001498
+            model: 141554d4
+            name: CDK-OWW_1x1_Corner_Snack2
+      release: 2025-01-14T09:46:24.795Z
+      textures:
+        PEG-OWW2_RESOURCE.dat:
+          - 1da44a55
+      version: 1.0.0
+
 pegasus/security-fencing-kit:
   categories: props
   description: |-
@@ -1434,6 +1661,8 @@ pegasus/spam:
   dependencies:
     - maxis/maxis-buildings-as-props
     - pegasus/mtp-super-pack
+    - pegasus/old-west-prop-pack
+    - pegasus/oww2-resource-pack-1
     - pegasus/spam-super-resource-pack
   description: |-
     The **S**im**P**eg **A**gricultural **M**od (**SPAM**) is an absolute, total and complete replacement for the game-default farming system.
