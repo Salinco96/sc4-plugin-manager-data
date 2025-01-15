@@ -1386,7 +1386,7 @@ pegasus/old-west-prop-pack:
       version: 1.0.0
 
 pegasus/oww2-resource-pack-1:
-  categories: props,waterfront
+  categories: waterfront,dependencies
   description: |-
     This is the primary dependency file for the re-styled CDK-OWW2 (Old Wooden Waterfront) and will be required for all new CDK-OWW lots.
 
@@ -1546,6 +1546,146 @@ pegasus/oww2-resource-pack-1:
       textures:
         PEG-OWW2_RESOURCE.dat:
           - 1da44a55
+      version: 1.0.0
+
+pegasus/oww2-resource-pack-2:
+  categories: waterfront,dependencies
+  description: This is the second, essential dependency file for the re-styled CDK-OWW2 (Old Wooden Waterfront) and is required for all CDK-OWW lots.
+  images:
+    - https://www.simtropolis.com/objects/screens/0028/ff5f0213be1973077bc70957bc3fc590-product_image.jpg
+  name: PEG OWW2 Resource Pack 2
+  readme: readme_236.htm
+  support: https://community.simtropolis.com/forums/topic/68471-plex-on-the-stex-community-support
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_01_2008/thumb-ff5f0213be1973077bc70957bc3fc590-product_image.jpg
+  url: https://community.simtropolis.com/files/file/19261-peg-oww2-resource-pack-2/
+  variants:
+    default:
+      assets:
+        - docs:
+            - PEGPROD/CDK3/OWW2
+          id: simtropolis/19261-peg-oww2-resource-pack-2
+          include:
+            - PEGPROD/CDK3/OWW2
+      lastGenerated: 2025-01-14T11:22:18.049Z
+      lastModified: 2008-01-21T22:52:14.000Z
+      models:
+        PEG-OWW2_RESOURCE2.dat:
+          - 148cb2d9
+          - 3484c248
+          - '3484e019'
+          - 348cbce7
+          - 5489343f
+          - '94825828'
+          - aebb18e9
+          - b480a71c
+          - b49c8926
+          - d484e9bc
+          - f43b1382
+          - f4804fc3
+          - f48cba46
+      props:
+        PEG-OWW2_RESOURCE2.dat:
+          4d2d325b-6ebb2157:
+            name: peg_xmas lites_14x1_colored
+          c977c536-073d4581:
+            name: Effect_pigeons
+          c977c536-073d4708:
+            family: a0001435
+            name: C16x7x3_$$5LotCarCluster-11111_28B5
+          c977c536-073d4709:
+            family: a0001435
+            name: C16x7x3_$$5LotCarCluster-11111_28B4
+          c977c536-073d470a:
+            family: a0001435
+            name: C16x7x3_$$5LotCarCluster-11111_28B3
+          c977c536-073d470b:
+            family: a0001435
+            name: C16x7x3_$4LotCarCluster-11110_1E59
+          c977c536-073d470c:
+            family: a0001435
+            name: C16x7x3_$4LotCarCluster-11101_1E56
+          c977c536-073d470d:
+            family: a0001435
+            name: C16x7x3_$4LotCarCluster-11011_1E58
+          c977c536-073d470e:
+            family: a0001435
+            name: C16x7x3_$3LotCarCluster-10101_1E53
+          c977c536-073d470f:
+            family: a0001435
+            name: C16x7x3_$3LotCarCluster-01011_1E4E
+          c977c536-073d48af:
+            family: a000149d
+            name: Aper2x2x4_fisherman-drk01-wait
+          c977c536-073d48b0:
+            family: a000149d
+            name: Aper2x2x4_male-Chuck
+          c977c536-073d48b1:
+            family: a000149d
+            name: Aper2x2x4_female-S-med01-wait
+          c977c536-073d48b2:
+            family: a000149d
+            name: Aper2x2x4_male-lgt01-wait
+          c977c536-073d48b3:
+            family: a000149d
+            name: Aper2x2x4_male-med01-wait
+          c977c536-073d48b4:
+            family: a000149d
+            name: Aper2x2x4_child-M-lgt03-wait
+          c977c536-073d48b5:
+            family: a000149d
+            name: Aper2x2x4_male-lgt01-negative-booer_287B
+          c977c536-073d48b7:
+            family: a000149d
+            name: Aper2x2x4_male-drk01-negative-booer_2870
+          c977c536-073d48b8:
+            family: a000149d
+            name: Aper2x2x4_male-med02-negative-booer_2886
+          f38748f8-143db69f:
+            name: OWW2_pierset_fishingpoles
+          f38748f8-148a9dcd:
+            model: 5489343f
+            name: OWW2_3x_Dual-AccessRamp
+          f38748f8-348e0e92:
+            name: OWW_Fishermen-Front
+          f38748f8-5486bf96:
+            model: d484e9bc
+            name: OWW2_pier-ramp_angled+5
+          f38748f8-549ded4a:
+            model: b49c8926
+            name: OWW2_2x_Dual-AccessRamp
+          f38748f8-748e0ed0:
+            name: OWW_Fishermen-Left
+          f38748f8-94835e40:
+            model: b480a71c
+            name: OWW2_3x_Feature_dock
+          f38748f8-949e359e:
+            family: a00014a2,a00014a5,a00014a6
+            model: 949ce134
+            name: CDK3_CabinCruiser_V
+          f38748f8-b482f322:
+            model: f4804fc3
+            name: OWW2_2x_Feature_dock
+          f38748f8-b4852451:
+            model: '94825828'
+            name: OWW2_pier-short
+          f38748f8-b486232f:
+            model: 3484c248
+            name: OWW2_pier-stub
+          f38748f8-b486334d:
+            model: '3484e019'
+            name: OWW2_pier-ramp
+          f38748f8-d48e0eb5:
+            name: OWW_Fishermen-Right
+      release: 2025-01-14T11:22:18.043Z
+      textures:
+        PEG-OWW2_RESOURCE2.dat:
+          - 1da44a5a
+          - 1da44a60
+          - 1da44a65
+          - 1da44a6a
+          - 1da44a70
+          - 1da44a75
+          - 1da44a7a
       version: 1.0.0
 
 pegasus/security-fencing-kit:
@@ -2843,1409 +2983,452 @@ pegasus/spam:
             building: a0001532
             density: low
             name: I-r2_1x2_D_FarmMarket
-            props:
-              - 0bf7dc29
-              - 1a3eeb0d
-              - '28e00000'
-              - '28e30000'
-              - '28e50000'
-              - 29c20000
-              - 2a580000
-              - 2e93539e
-              - 3eea27a4
-              - 791b99b3
-              - a000003d
-              - a000007b
-              - a0001541
+            props: 0bf7dc29,1a3eeb0d,28e00000,28e30000,28e50000,29c20000,2a580000,2e93539e,3eea27a4,791b99b3,a000003d,a000007b,a0001541
             size: 1x2
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44d95
+            textures: 1da44c05,1da44d95
         SPAM_Core_Lots/I-r1_1x2_D_Shed_90001300.SC4Lot:
           '90001300':
             building: a0001532
             density: low
             name: I-r1_1x2_D_Shed
-            props:
-              - '03060000'
-              - 1a706cba
-              - 1cf70000
-              - '29120000'
-              - 2a580000
-              - 3918c355
-              - 50d035ae
-              - 94fd8c13
-              - a0001541
-              - a0dcb9bd
-              - e741574f
+            props: 03060000,1a706cba,1cf70000,29120000,2a580000,3918c355,50d035ae,94fd8c13,a0001541,a0dcb9bd,e741574f
             size: 1x2
             stage: 1
-            textures:
-              - 1da44cf5
-              - 1da44d95
+            textures: 1da44cf5,1da44d95
         SPAM_Core_Lots/I-r1_1x2_Homestead_b91ea651.SC4Lot:
           b91ea651:
             building: a0001500
             density: low
             name: I-r1_1x2_Homestead
-            props:
-              - 073d475d
-              - 0bf7dc29
-              - 1ece0000
-              - 1ecf0000
-              - 27aa01ad
-              - 2ba20000
-              - 2fc11611
-              - 3eea27a4
-              - 791b99b3
-              - 94d11400
-              - a0001541
+            props: 073d475d,0bf7dc29,1ece0000,1ecf0000,27aa01ad,2ba20000,2fc11611,3eea27a4,791b99b3,94d11400,a0001541
             size: 1x2
             stage: 1
-            textures:
-              - 1da44c65
-              - 1da44cf5
-              - 1da44d70
+            textures: 1da44c65,1da44cf5,1da44d70
         SPAM_Core_Lots/I-r1_1x2_Shed_7921769c.SC4Lot:
           7921769c:
             building: a0001532
             density: low
             name: I-r1_1x2_Shed
-            props:
-              - 0bf7dc29
-              - 1ece0000
-              - 1ecf0000
-              - 27aa01ad
-              - 2a580000
-              - 2ba20000
-              - 3eea27a4
-              - '40725970'
-              - 791b99b3
-              - 94d11400
-              - 9c4ad13b
-              - a0dcb9bd
-              - d295233d
-              - e741574f
+            props: 0bf7dc29,1ece0000,1ecf0000,27aa01ad,2a580000,2ba20000,3eea27a4,40725970,791b99b3,94d11400,9c4ad13b,a0dcb9bd,d295233d,e741574f
             size: 1x2
             stage: 1
-            textures:
-              - 1da44d20
-              - 1da44d35
-              - 25d60000
+            textures: 1da44d20,1da44d35,25d60000
         SPAM_Core_Lots/I-r1_2x1_BasicBarn_f9235e5a.SC4Lot:
           f9235e5a:
             building: a0001514
             density: low
             name: I-r1_2x1_BasicBarn
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 29c20000
-              - 2ba20000
-              - 2e93539e
-              - a0001541
-              - e741574f
+            props: 073d4699,0bf7dc29,1a3eeb0d,29c20000,2ba20000,2e93539e,a0001541,e741574f
             size: 2x1
             stage: 1
-            textures:
-              - 1da44c10
-              - 1da44c65
-              - 1da44d85
+            textures: 1da44c10,1da44c65,1da44d85
         SPAM_Core_Lots/I-r1_2x1_D_Shed_900012f0.SC4Lot:
           900012f0:
             building: a0001532
             density: low
             name: I-r1_2x1_D_Shed
-            props:
-              - 1ece0000
-              - 1ecf0000
-              - 27aa01ad
-              - 2a490000
-              - 2a580000
-              - 2ba20000
-              - 2fc11611
-              - '40725970'
-              - 50d035ae
-              - 791b99b3
-              - 94fd8c13
-              - a0001541
-              - a0001549
-              - a0dcb9bd
+            props: 1ece0000,1ecf0000,27aa01ad,2a490000,2a580000,2ba20000,2fc11611,40725970,50d035ae,791b99b3,94fd8c13,a0001541,a0001549,a0dcb9bd
             size: 2x1
             stage: 1
-            textures:
-              - 1da44c10
-              - 1da44d2a
-              - 1da44d45
+            textures: 1da44c10,1da44d2a,1da44d45
         SPAM_Core_Lots/I-r1_2x2_D_FarmHouse-Silo_90001370.SC4Lot:
           '90001370':
             building: a0001500
             density: low
             name: I-r1_2x2_D_FarmHouse-Silo
-            props:
-              - 0bf7dc29
-              - 1ece0000
-              - 29c20000
-              - 2ba20000
-              - 5123c52d
-              - 791b99b3
-              - 94d11400
-              - a000007d
-              - a000150e
-              - a0001541
-              - a0001549
+            props: 0bf7dc29,1ece0000,29c20000,2ba20000,5123c52d,791b99b3,94d11400,a000007d,a000150e,a0001541,a0001549
             size: 2x2
             stage: 1
-            textures:
-              - 1da44c65
-              - 1da44cf5
-              - 1da44d75
-              - 1da44d7a
-              - 1da44d85
+            textures: 1da44c65,1da44cf5,1da44d75,1da44d7a,1da44d85
         SPAM_Core_Lots/I-r1_2x2_D_FulFarm_90001310.SC4Lot:
           '90001310':
             building: a0001530
             density: low
             name: I-r1_2x2_D_FullFarm
-            props:
-              - 084fa8ca
-              - '40725970'
-              - 50d035ae
-              - 791b99b3
-              - 94fd8c13
-              - c1cd4a24
+            props: 084fa8ca,40725970,50d035ae,791b99b3,94fd8c13,c1cd4a24
             size: 2x2
             stage: 1
-            textures:
-              - 1da44c00
+            textures: 1da44c00
         SPAM_Core_Lots/I-r1_2x2_D_Greenhouse_900012b0.SC4Lot:
           900012b0:
             building: a0001535
             density: low
             name: I-r1_2x2_D_Greenhouse
-            props:
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1a9935bf
-              - 1d300000
-              - 1ece0000
-              - 2ba20000
-              - 791b99b3
-              - a0000021
-              - a000005f
-              - a000007c
-              - a0001547
-              - a0dcb9bd
+            props: 0bf7dc29,1a3eeb0d,1a9935bf,1d300000,1ece0000,2ba20000,791b99b3,a0000021,a000005f,a000007c,a0001547,a0dcb9bd
             size: 2x2
             stage: 1
-            textures:
-              - 1da44cf5
-              - 1da44d15
-              - 1da44d70
-              - 1da44d7a
+            textures: 1da44cf5,1da44d15,1da44d70,1da44d7a
         SPAM_Core_Lots/I-r1_2x3_D_BasicBarn_90001390.SC4Lot:
           '90001390':
             building: a0001514
             density: low
             name: I-r1_2x3_D_BasicBarn
-            props:
-              - 073d4699
-              - 084fa8ca
-              - 0bf7dc29
-              - 29c20000
-              - 2a190000
-              - 2a1a0000
-              - 2a420000
-              - 2a490000
-              - 2a580000
-              - 2e93539e
-              - 3eea27a4
-              - '40725970'
-              - 50d035ae
-              - 791b99b3
-              - 94fd8c13
-              - a000003d
-              - a0000052
-              - a0000078
-              - a0001540
-              - a0001541
-              - a0001543
-              - a0dcb9bd
-              - ae060000
+            props: 073d4699,084fa8ca,0bf7dc29,29c20000,2a190000,2a1a0000,2a420000,2a490000,2a580000,2e93539e,3eea27a4,40725970,50d035ae,791b99b3,94fd8c13,a000003d,a0000052,a0000078,a0001540,a0001541,a0001543,a0dcb9bd,ae060000
             size: 2x3
             stage: 1
-            textures:
-              - 1da44cf5
-              - 1da44d70
-              - 1da44d75
-              - 1da44d7a
-              - 1da44d80
+            textures: 1da44cf5,1da44d70,1da44d75,1da44d7a,1da44d80
         SPAM_Core_Lots/I-r1_2x3_D_Greenhouses_900012d0.SC4Lot:
           900012d0:
             building: a0001501
             density: low
             name: I-r1_2x3_Greenhouses
-            props:
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1a9935bf
-              - 27aa01ad
-              - 29c20000
-              - 2fc11611
-              - 3eea27a4
-              - 5034d90b
-              - 50d035ae
-              - 791b99b3
-              - 95589f6b
-              - a0001405
-              - a0001541
-              - a0001542
-              - b8eabdd5
-              - c3b05200
-              - d0ac71c3
+            props: 0bf7dc29,1a3eeb0d,1a9935bf,27aa01ad,29c20000,2fc11611,3eea27a4,5034d90b,50d035ae,791b99b3,95589f6b,a0001405,a0001541,a0001542,b8eabdd5,c3b05200,d0ac71c3
             size: 2x3
             stage: 1
-            textures:
-              - 1da44ce5
-              - 1da44d05
-              - 1da44d30
-              - 1da44d90
+            textures: 1da44ce5,1da44d05,1da44d30,1da44d90
         SPAM_Core_Lots/I-r1_2x3_D_TriBarn_90001330.SC4Lot:
           '90001330':
             building: a0001530
             density: low
             name: I-r1_2x3_D_TriBarn
-            props:
-              - 0bf7dc29
-              - 1c3f0000
-              - 1c400000
-              - 1c410000
-              - 1c420000
-              - 1d430000
-              - 1d4a0000
-              - 1de00000
-              - 2a190000
-              - 2a1a0000
-              - 2a480000
-              - 2a490000
-              - 2a4b0000
-              - 2a4c0000
-              - 2a580000
-              - 2a6e0000
-              - 2a6f0000
-              - 2ba20000
-              - '40725970'
-              - 50d035ae
-              - 5123c52d
-              - 791b99b3
-              - 94d11400
-              - 94fd8c13
-              - a000007b
-              - a0001541
+            props: 0bf7dc29,1c3f0000,1c400000,1c410000,1c420000,1d430000,1d4a0000,1de00000,2a190000,2a1a0000,2a480000,2a490000,2a4b0000,2a4c0000,2a580000,2a6e0000,2a6f0000,2ba20000,40725970,50d035ae,5123c52d,791b99b3,94d11400,94fd8c13,a000007b,a0001541
             size: 2x3
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44d85
-              - 1da44d8a
+            textures: 1da44c05,1da44d85,1da44d8a
         SPAM_Core_Lots/I-r1_3x2_D_Farm w silo_90001380.SC4Lot:
           '90001380':
             building: a0001514
             density: low
             name: I-r1_3x2_D_Farm w silo
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 1a9935bf
-              - 1ece0000
-              - '29120000'
-              - 2a580000
-              - 2ba20000
-              - 2e93539e
-              - 3918c355
-              - '40725970'
-              - 6a3fcb62
-              - 791b99b3
-              - 95589f6b
-              - a000007d
-              - a000150f
-              - a0001541
-              - a0001546
-              - a0dcb9bd
-              - c3b05200
+            props: 073d4699,0bf7dc29,1a9935bf,1ece0000,29120000,2a580000,2ba20000,2e93539e,3918c355,40725970,6a3fcb62,791b99b3,95589f6b,a000007d,a000150f,a0001541,a0001546,a0dcb9bd,c3b05200
             size: 3x2
             stage: 1
-            textures:
-              - 1da44c65
-              - 1da44c75
-              - 1da44cf5
-              - 1da44d70
-              - 1da44d75
-              - 1da44d80
+            textures: 1da44c65,1da44c75,1da44cf5,1da44d70,1da44d75,1da44d80
         SPAM_Core_Lots/I-r1_3x2_D_Farm wBarn_900012c0.SC4Lot:
           900012c0:
             building: a0001514
             density: low
             name: I-r1_3x2_D_Farm wBarn
-            props:
-              - 073d4699
-              - 073d475c
-              - 0bf7dc29
-              - 1a706cba
-              - 1ece0000
-              - 2a580000
-              - 3eea27a4
-              - 420521a4
-              - 6ba34e09
-              - 791b99b3
-              - a000007b
-              - a0001505
-              - a0001541
-              - a0001547
-              - a0001549
-              - ae060000
-              - d0ac71c3
-              - e741574f
+            props: 073d4699,073d475c,0bf7dc29,1a706cba,1ece0000,2a580000,3eea27a4,420521a4,6ba34e09,791b99b3,a000007b,a0001505,a0001541,a0001547,a0001549,ae060000,d0ac71c3,e741574f
             size: 3x2
             stage: 1
-            textures:
-              - 1da44c55
-              - 1da44c60
-              - 1da44c65
-              - 1da44cf5
-              - 1da44d75
-              - 1da44d7a
-              - 1da44d95
+            textures: 1da44c55,1da44c60,1da44c65,1da44cf5,1da44d75,1da44d7a,1da44d95
         SPAM_Core_Lots/I-r1_3x2_D_Farmhouse wBarnSilo_90001320.SC4Lot:
           '90001320':
             building: a0001500
             density: low
             name: I-r1_3x2_D_Farmhouse wBarnSilo
-            props:
-              - 073d4699
-              - 073d475d
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1a706cba
-              - 1c420000
-              - 1ece0000
-              - 29c20000
-              - 2a1a0000
-              - 2a580000
-              - 2fc11611
-              - 3eea27a4
-              - 4079b7a9
-              - 420521a4
-              - 791b99b3
-              - 94d11400
-              - a000150b
-              - a0001541
-              - a0001547
-              - e741574f
+            props: 073d4699,073d475d,0bf7dc29,1a3eeb0d,1a706cba,1c420000,1ece0000,29c20000,2a1a0000,2a580000,2fc11611,3eea27a4,4079b7a9,420521a4,791b99b3,94d11400,a000150b,a0001541,a0001547,e741574f
             size: 3x2
             stage: 1
-            textures:
-              - 1da44c65
-              - 1da44cf5
-              - 1da44d15
-              - 1da44d60
-              - 1da44d75
-              - 1da44d90
+            textures: 1da44c65,1da44cf5,1da44d15,1da44d60,1da44d75,1da44d90
         SPAM_Core_Lots/I-r1_5x6_D_TriBarn_90001311.SC4Lot:
           '90001311':
             building: a0001530
             density: low
             name: I-r1_5x6_D_TriBarn_
-            props:
-              - 073d4750
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1a706cba
-              - 1a9935bf
-              - 1c410000
-              - 1c420000
-              - 1e9a0000
-              - 2a190000
-              - 2a1a0000
-              - 2a490000
-              - 2a4b0000
-              - 2a4c0000
-              - 2a580000
-              - 2a6e0000
-              - 2a6f0000
-              - 2fc11611
-              - 3eea27a4
-              - 774e0edb
-              - 791b99b3
-              - a000004a
-              - a0000056
-              - a0001541
-              - a0001547
-              - a0001549
-              - e741574f
+            props: 073d4750,0bf7dc29,1a3eeb0d,1a706cba,1a9935bf,1c410000,1c420000,1e9a0000,2a190000,2a1a0000,2a490000,2a4b0000,2a4c0000,2a580000,2a6e0000,2a6f0000,2fc11611,3eea27a4,774e0edb,791b99b3,a000004a,a0000056,a0001541,a0001547,a0001549,e741574f
             size: 5x6
             stage: 1
-            textures:
-              - 1da44820
-              - 1da44c50
-              - 1da44c55
-              - 1da44c65
-              - 1da44cf5
-              - 1da44d15
-              - 1da44d5a
-              - 1da44d75
-              - 1da44d7a
-              - 261c0000
+            textures: 1da44820,1da44c50,1da44c55,1da44c65,1da44cf5,1da44d15,1da44d5a,1da44d75,1da44d7a,261c0000
         SPAM_Core_Lots/I-r2_2x1_FancyBarn_f936f4fd.SC4Lot:
           f936f4fd:
             building: a0001516
             density: low
             name: I-r2_2x1_FancyBarn
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 29c20000
-              - 2a580000
-              - 2ba20000
-              - 2e93539e
-              - 2fc11611
-              - 3eea27a4
-              - 5123c52d
-              - 791b99b3
-              - 95589f6b
-              - a0001541
-              - e741574f
+            props: 073d4699,0bf7dc29,1a3eeb0d,29c20000,2a580000,2ba20000,2e93539e,2fc11611,3eea27a4,5123c52d,791b99b3,95589f6b,a0001541,e741574f
             size: 2x1
             stage: 2
-            textures:
-              - 1da44c10
-              - 1da44c65
-              - 1da44d85
+            textures: 1da44c10,1da44c65,1da44d85
         SPAM_Core_Lots/I-r2_2x2_D_Stables_90001350.SC4Lot:
           '90001350':
             building: a0001534
             density: low
             name: I-r2_2x2_D_Stables
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 1a9935bf
-              - 29c20000
-              - 2a190000
-              - 2fc11611
-              - 4ede9e23
-              - 95589f6b
-              - a0001541
-              - e741574f
+            props: 073d4699,0bf7dc29,1a9935bf,29c20000,2a190000,2fc11611,4ede9e23,95589f6b,a0001541,e741574f
             size: 2x2
             stage: 2
-            textures:
-              - 1da44cf5
-              - 1da44d70
+            textures: 1da44cf5,1da44d70
         SPAM_Core_Lots/I-r2_2x2__D_BigBarn_90001250.SC4Lot:
           '90001250':
             building: a0001533
             density: low
             name: I-r2_2x2_D_BigBarn
-            props:
-              - 1c410000
-              - 1d430000
-              - 2a1a0000
-              - 2a490000
-              - 2a580000
-              - 50d035ae
-              - 6ba34e09
-              - 94fd8c13
-              - a0001549
+            props: 1c410000,1d430000,2a1a0000,2a490000,2a580000,50d035ae,6ba34e09,94fd8c13,a0001549
             size: 2x2
             stage: 2
-            textures:
-              - 1da44c05
-              - 1da44c60
-              - 1da44d75
-              - 1da44d95
+            textures: 1da44c05,1da44c60,1da44d75,1da44d95
         SPAM_Core_Lots/I-r2_2x3_D_GreenHouse02_90001270.SC4Lot:
           '90001270':
             building: a0001502
             density: low
             name: I-r2_2x3_D_GreenHouse02
-            props:
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 29c20000
-              - 2a580000
-              - 31d610f7
-              - 791b99b3
-              - a0001541
-              - a0001549
-              - c1cd4a24
-              - c76943f6
+            props: 0bf7dc29,1a3eeb0d,29c20000,2a580000,31d610f7,791b99b3,a0001541,a0001549,c1cd4a24,c76943f6
             size: 2x3
             stage: 2
-            textures:
-              - 1da44c65
-              - 1da44c6a
-              - 1da44cf5
-              - 1da44d70
-              - 1da44d7a
-              - 1da44d80
+            textures: 1da44c65,1da44c6a,1da44cf5,1da44d70,1da44d7a,1da44d80
         SPAM_Core_Lots/I-r2_2x3_D_MultiFarm_90001360.SC4Lot:
           '90001360':
             building: a0001516
             density: low
             name: I-r2_2x3_D_MultiFarm
-            props:
-              - 073d4699
-              - 073d475d
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1ece0000
-              - 1eff0000
-              - 29c20000
-              - 2fc11611
-              - 3eea27a4
-              - 725f1723
-              - 791b99b3
-              - 9c4ad13b
-              - a0001505
-              - a0001541
-              - a0dcb9bd
-              - a454dbc9
-              - ae060000
-              - c1cd4a24
+            props: 073d4699,073d475d,0bf7dc29,1a3eeb0d,1ece0000,1eff0000,29c20000,2fc11611,3eea27a4,725f1723,791b99b3,9c4ad13b,a0001505,a0001541,a0dcb9bd,a454dbc9,ae060000,c1cd4a24
             size: 2x3
             stage: 2
-            textures:
-              - 1da44c6a
-              - 1da44cf5
-              - 1da44d05
-              - 1da44d10
-              - 1da44d15
-              - 1da44d5a
+            textures: 1da44c6a,1da44cf5,1da44d05,1da44d10,1da44d15,1da44d5a
         SPAM_Core_Lots/I-r2_3x2_D_Farm_90001260.SC4Lot:
           '90001260':
             building: a0001533
             density: low
             name: I-r2_3x2_D_Farm
-            props:
-              - 0bf7dc29
-              - 1ece0000
-              - 1ecf0000
-              - 29fb0dd2
-              - 2a580000
-              - 3eea27a4
-              - 94d11400
-              - a000007b
-              - a0001541
-              - a0001549
-              - e741574f
+            props: 0bf7dc29,1ece0000,1ecf0000,29fb0dd2,2a580000,3eea27a4,94d11400,a000007b,a0001541,a0001549,e741574f
             size: 3x2
             stage: 2
-            textures:
-              - 1da44cf5
-              - 1da44d70
-              - 1da44d75
-              - 1da44d7a
+            textures: 1da44cf5,1da44d70,1da44d75,1da44d7a
         SPAM_Core_Lots/I-r3_2x2_Elevator_Small_3936f638.SC4Lot:
           3936f638:
             building: a0001510
             density: low
             name: I-r3_2x2_Elevator_Small
-            props:
-              - 0bf7dc29
-              - 1ece0000
-              - 29c20000
-              - 2ba20000
-              - 5123c52d
-              - 791b99b3
-              - 94d11400
-              - a000007d
-              - a0001540
-              - a0001541
-              - a0001544
+            props: 0bf7dc29,1ece0000,29c20000,2ba20000,5123c52d,791b99b3,94d11400,a000007d,a0001540,a0001541,a0001544
             size: 2x2
             stage: 3
-            textures:
-              - 1da44c65
-              - 1da44cf5
-              - 1da44d75
-              - 1da44d7a
-              - 1da44d85
+            textures: 1da44c65,1da44cf5,1da44d75,1da44d7a,1da44d85
         SPAM_Core_Lots/I-r3_2x2_Greenhouses_59309f52.SC4Lot:
           59309f52:
             building: a0001503
             density: low
             name: I-r3_2x2_Greenhouses
-            props:
-              - 0bf7dc29
-              - 1a3eeb0d
-              - '1e060000'
-              - 1e9a0000
-              - 1ece0000
-              - 1edd0000
-              - '29010000'
-              - '29150000'
-              - '29330000'
-              - 29fb0dd2
-              - 2e240fe9
-              - 384e3fd4
-              - 95940fdf
-              - 9fab4942
-              - a000003d
-              - a000005f
-              - a000007c
-              - a0dcb9bd
-              - a52f0609
+            props: 0bf7dc29,1a3eeb0d,1e060000,1e9a0000,1ece0000,1edd0000,29010000,29150000,29330000,29fb0dd2,2e240fe9,384e3fd4,95940fdf,9fab4942,a000003d,a000005f,a000007c,a0dcb9bd,a52f0609
             size: 3x3
             stage: 3
-            textures:
-              - 1da44750
-              - 1da447f0
-              - 1da447f5
-              - 1da44cd5
-              - 1da44cf5
+            textures: 1da44750,1da447f0,1da447f5,1da44cd5,1da44cf5
         SPAM_Core_Lots/I-r3_2x3_BarnSilo_f9370279.SC4Lot:
           f9370279:
             building: a000150a
             density: low
             name: I-r3_2x3_BarnSilo
-            props:
-              - 06f6c79c
-              - 073d4699
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 29c20000
-              - 5123c52d
-              - 725f1723
-              - 791b99b3
-              - a0001541
-              - a0001549
-              - a454dbc9
-              - b063964b
-              - b8eabdd5
-              - c1cd4a24
-              - c76943f6
-              - c8df1fef
+            props: 06f6c79c,073d4699,0bf7dc29,1a3eeb0d,29c20000,5123c52d,725f1723,791b99b3,a0001541,a0001549,a454dbc9,b063964b,b8eabdd5,c1cd4a24,c76943f6,c8df1fef
             size: 2x3
             stage: 3
-            textures:
-              - 1da44c55
-              - 1da44c65
-              - 1da44c6a
-              - 1da44cf5
-              - 1da44d70
-              - 1da44d7a
+            textures: 1da44c55,1da44c65,1da44c6a,1da44cf5,1da44d70,1da44d7a
         SPAM_Core_Lots/I-r3_6x5_D_Ranch_90001251.SC4Lot:
           '90001251':
             building: 7955afd8
             density: low
             name: I-r3_6x5_D_Ranch
-            props:
-              - 04996c10
-              - 073d4699
-              - 0bf7dc29
-              - 0c0741a7
-              - 1a3eeb0d
-              - 1a706cba
-              - 1a9935bf
-              - 1c410000
-              - 1c420000
-              - 1d1407c2
-              - 1e9a0000
-              - 29c20000
-              - 29fb0dd2
-              - 2a190000
-              - 2a1a0000
-              - 2a490000
-              - 2a4c0000
-              - 2a580000
-              - 2a6f0000
-              - 2aba0000
-              - 2dd315d7
-              - 2fc11611
-              - 384e3fd4
-              - 3eea27a4
-              - 420521a4
-              - 4ede9e23
-              - 6ede9e43
-              - 791b99b3
-              - 9fab4942
-              - a0001540
-              - a0001541
-              - a0dcb9bd
-              - a1ebb58b
-              - a48f0664
-              - aa739fa7
-              - cdd3258d
-              - e741574f
+            props: 04996c10,073d4699,0bf7dc29,0c0741a7,1a3eeb0d,1a706cba,1a9935bf,1c410000,1c420000,1d1407c2,1e9a0000,29c20000,29fb0dd2,2a190000,2a1a0000,2a490000,2a4c0000,2a580000,2a6f0000,2aba0000,2dd315d7,2fc11611,384e3fd4,3eea27a4,420521a4,4ede9e23,6ede9e43,791b99b3,9fab4942,a0001540,a0001541,a0dcb9bd,a1ebb58b,a48f0664,aa739fa7,cdd3258d,e741574f
             size: 6x5
             stage: 3
-            textures:
-              - 1da44c50
-              - 1da44c55
-              - 1da44c5a
-              - 1da44c60
-              - 1da44c65
-              - 1da44cca
-              - 1da44cf5
-              - 1da44d00
-              - 1da44d05
-              - 1da44d10
-              - 1da44d70
-              - 1da44d7a
-              - 1da44d80
+            textures: 1da44c50,1da44c55,1da44c5a,1da44c60,1da44c65,1da44cca,1da44cf5,1da44d00,1da44d05,1da44d10,1da44d70,1da44d7a,1da44d80
         SPAM_Core_Lots/I-r4_4x4_D_Dairy_90001280.SC4Lot:
           '90001280':
             building: a0001508
             density: low
             name: I-r4_4x4_D_Dairy
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1d1407c2
-              - 1eec0000
-              - 27aa01ad
-              - 29c20000
-              - 29fb0dd2
-              - 2a580000
-              - 2fc11611
-              - 31d610f7
-              - 384e3fd4
-              - 3eea27a4
-              - 473b069f
-              - 4bb95093
-              - 735641c2
-              - 94d11400
-              - a000006d
-              - a000007d
-              - a0001540
-              - a0001541
-              - a0001547
-              - a0001548
-              - a1011af0
-              - aa739fa6
-              - c3b05200
-              - ef183c1d
+            props: 073d4699,0bf7dc29,1a3eeb0d,1d1407c2,1eec0000,27aa01ad,29c20000,29fb0dd2,2a580000,2fc11611,31d610f7,384e3fd4,3eea27a4,473b069f,4bb95093,735641c2,94d11400,a000006d,a000007d,a0001540,a0001541,a0001547,a0001548,a1011af0,aa739fa6,c3b05200,ef183c1d
             size: 4x4
             stage: 4
-            textures:
-              - 1da44c00
-              - 1da44c50
-              - 1da44c65
-              - 1da44cca
-              - 1da44cf5
-              - 1da44d00
-              - 1da44d05
-              - 1da44d15
-              - 1da44d1a
-              - 1da44d5a
-              - 1da44d70
-              - 1da44d80
-              - 1da44d90
+            textures: 1da44c00,1da44c50,1da44c65,1da44cca,1da44cf5,1da44d00,1da44d05,1da44d15,1da44d1a,1da44d5a,1da44d70,1da44d80,1da44d90
         SPAM_Core_Lots/I-r4_4x4_Dairy_59306c7c.SC4Lot:
           59306c7c:
             building: a0001508
             density: low
             name: I-r4_4x4_Dairy
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1ca10000
-              - 1d1407c2
-              - 1ece0000
-              - 1eec0000
-              - 27aa01ad
-              - 29c20000
-              - 29fb0dd2
-              - 2a580000
-              - 2a6e0000
-              - 2a6f0000
-              - 2fc11611
-              - 31d610f7
-              - 384e3fd4
-              - 3918c355
-              - 3eea27a4
-              - 473b069f
-              - 4bb95093
-              - 4bcf8d40
-              - 735641c2
-              - 94d11400
-              - a000007d
-              - a0001540
-              - a0001541
-              - a0001547
-              - a0001548
-              - a1011af0
-              - a454dbc9
-              - aa739fa6
-              - c3b05200
-              - ef183c1d
+            props: 073d4699,0bf7dc29,1a3eeb0d,1ca10000,1d1407c2,1ece0000,1eec0000,27aa01ad,29c20000,29fb0dd2,2a580000,2a6e0000,2a6f0000,2fc11611,31d610f7,384e3fd4,3918c355,3eea27a4,473b069f,4bb95093,4bcf8d40,735641c2,94d11400,a000007d,a0001540,a0001541,a0001547,a0001548,a1011af0,a454dbc9,aa739fa6,c3b05200,ef183c1d
             size: 4x4
             stage: 4
-            textures:
-              - 1da447b0
-              - 1da44835
-              - 1da44845
-              - 1da44850
-              - 1da44855
-              - 1da44a4a
-              - 1da44a50
-              - 1da44cca
-              - 1da44cf5
-              - 1da44d15
-              - 1da44d1a
+            textures: 1da447b0,1da44835,1da44845,1da44850,1da44855,1da44a4a,1da44a50,1da44cca,1da44cf5,1da44d15,1da44d1a
         SPAM_Core_Lots/I-r4_7x6_D_Dairy_90001341.SC4Lot:
           '90001341':
             building: a0001508
             density: low
             name: I-r4_7x6_D_Dairy
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 0c0741a7
-              - 1a3eeb0d
-              - 1c410000
-              - 1ca10000
-              - 1ece0000
-              - 27aa01ad
-              - 29c20000
-              - 2a1a0000
-              - 2a490000
-              - 2a4c0000
-              - 2a580000
-              - 2a6f0000
-              - 2fc11611
-              - 3eea27a4
-              - 4363cfc2
-              - 4a080362
-              - 50d035ae
-              - 94fd8c13
-              - 95589f6b
-              - a0001540
-              - a0001541
-              - a0001547
-              - a0001548
-              - a0001549
-              - aa739fa6
-              - c76943f6
-              - c8df1fef
+            props: 073d4699,0bf7dc29,0c0741a7,1a3eeb0d,1c410000,1ca10000,1ece0000,27aa01ad,29c20000,2a1a0000,2a490000,2a4c0000,2a580000,2a6f0000,2fc11611,3eea27a4,4363cfc2,4a080362,50d035ae,94fd8c13,95589f6b,a0001540,a0001541,a0001547,a0001548,a0001549,aa739fa6,c76943f6,c8df1fef
             size: 7x6
             stage: 4
-            textures:
-              - 1da44c50
-              - 1da44c55
-              - 1da44c5a
-              - 1da44c65
-              - 1da44c6a
-              - 1da44cc0
-              - 1da44cca
-              - 1da44cf5
-              - 1da44d00
-              - 1da44d05
-              - 1da44d10
-              - 1da44d1a
-              - 1da44d60
-              - 1da44d70
-              - 1da44d80
+            textures: 1da44c50,1da44c55,1da44c5a,1da44c65,1da44c6a,1da44cc0,1da44cca,1da44cf5,1da44d00,1da44d05,1da44d10,1da44d1a,1da44d60,1da44d70,1da44d80
         SPAM_Core_Lots/I-r5_4x6_D_Elevator_900012a0.SC4Lot:
           900012a0:
             building: a0001512
             density: low
             name: I-r5_4x6_D_LargeElevator
-            props:
-              - 073d4699
-              - 073d489d
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1c420000
-              - 1e9a0000
-              - 29c20000
-              - 2a1a0000
-              - 2a580000
-              - 2e93539e
-              - 2fc11611
-              - 3918c355
-              - '40725970'
-              - 4450a572
-              - 50d035ae
-              - 5123c52d
-              - 6ba34e09
-              - 791b99b3
-              - 94fd8c13
-              - 95589f6b
-              - a0001540
-              - a0001541
-              - a0001544
-              - a0001549
-              - a0dcb9bd
-              - a454dbc9
+            props: 073d4699,073d489d,0bf7dc29,1a3eeb0d,1c420000,1e9a0000,29c20000,2a1a0000,2a580000,2e93539e,2fc11611,3918c355,40725970,4450a572,50d035ae,5123c52d,6ba34e09,791b99b3,94fd8c13,95589f6b,a0001540,a0001541,a0001544,a0001549,a0dcb9bd,a454dbc9
             size: 4x6
             stage: 5
-            textures:
-              - 1da44c00
-              - 1da44c05
-              - 1da44c50
-              - 1da44c55
-              - 1da44c6a
-              - 1da44ca5
-              - 1da44d15
-              - 1da44d5a
-              - 1da44d70
-              - 1da44d80
+            textures: 1da44c00,1da44c05,1da44c50,1da44c55,1da44c6a,1da44ca5,1da44d15,1da44d5a,1da44d70,1da44d80
         SPAM_Core_Lots/I-r5_4x6_Elevator_593083cb.SC4Lot:
           593083cb:
             building: a0001512
             density: low
             name: I-r5_4x6_LargeElevator
-            props:
-              - 073d4699
-              - 073d489d
-              - 0bf7dc29
-              - 15896c1c
-              - 1a3eeb0d
-              - 1a706cba
-              - 1c420000
-              - 1e9a0000
-              - 1ece0000
-              - 29c20000
-              - 29fb0dd2
-              - 2a1a0000
-              - 2a580000
-              - 2a6e0000
-              - 2a6f0000
-              - 2e93539e
-              - 2fc11611
-              - 384e3fd4
-              - 3d4a4f9d
-              - '40725970'
-              - 4450a572
-              - 50d035ae
-              - 5123c52d
-              - 791b99b3
-              - 84658eea
-              - 94fd8c13
-              - a000003d
-              - a0001540
-              - a0001541
-              - a0001544
-              - a0001549
-              - a657405e
-              - c1cd4a24
-              - ffb26053
+            props: 073d4699,073d489d,0bf7dc29,15896c1c,1a3eeb0d,1a706cba,1c420000,1e9a0000,1ece0000,29c20000,29fb0dd2,2a1a0000,2a580000,2a6e0000,2a6f0000,2e93539e,2fc11611,384e3fd4,3d4a4f9d,40725970,4450a572,50d035ae,5123c52d,791b99b3,84658eea,94fd8c13,a000003d,a0001540,a0001541,a0001544,a0001549,a657405e,c1cd4a24,ffb26053
             size: 4x6
             stage: 5
-            textures:
-              - 1da447b0
-              - 1da447d0
-              - 1da44835
-              - 1da44840
-              - 1da44845
-              - 1da44850
-              - 1da44855
-              - 1da44a4a
-              - 1da44a50
-              - 1da44c00
-              - 1da44c10
-              - 1da44c6a
-              - 1da44cca
+            textures: 1da447b0,1da447d0,1da44835,1da44840,1da44845,1da44850,1da44855,1da44a4a,1da44a50,1da44c00,1da44c10,1da44c6a,1da44cca
         SPAM_Core_Lots/I-r5_4x6_LargeElevator_593083cb.SC4Lot:
           593083cb:
             building: a0001512
             density: low
             name: I-r5_4x6_LargeElevator
-            props:
-              - 073d4699
-              - 073d489d
-              - 0bf7dc29
-              - 15896c1c
-              - 1a3eeb0d
-              - 1a706cba
-              - 1c420000
-              - 1e9a0000
-              - 1ece0000
-              - 29c20000
-              - 29fb0dd2
-              - 2a1a0000
-              - 2a580000
-              - 2a6e0000
-              - 2a6f0000
-              - 2e93539e
-              - 2fc11611
-              - 384e3fd4
-              - 3d4a4f9d
-              - '40725970'
-              - 4450a572
-              - 50d035ae
-              - 5123c52d
-              - 791b99b3
-              - 84658eea
-              - 94fd8c13
-              - a000003d
-              - a0001540
-              - a0001541
-              - a0001544
-              - a0001549
-              - a657405e
-              - c1cd4a24
-              - ffb26053
+            props: 073d4699,073d489d,0bf7dc29,15896c1c,1a3eeb0d,1a706cba,1c420000,1e9a0000,1ece0000,29c20000,29fb0dd2,2a1a0000,2a580000,2a6e0000,2a6f0000,2e93539e,2fc11611,384e3fd4,3d4a4f9d,40725970,4450a572,50d035ae,5123c52d,791b99b3,84658eea,94fd8c13,a000003d,a0001540,a0001541,a0001544,a0001549,a657405e,c1cd4a24,ffb26053
             size: 4x6
             stage: 5
-            textures:
-              - 1da447b0
-              - 1da447d0
-              - 1da44835
-              - 1da44840
-              - 1da44845
-              - 1da44850
-              - 1da44855
-              - 1da44a4a
-              - 1da44a50
-              - 1da44c00
-              - 1da44c10
-              - 1da44c6a
-              - 1da44cca
+            textures: 1da447b0,1da447d0,1da44835,1da44840,1da44845,1da44850,1da44855,1da44a4a,1da44a50,1da44c00,1da44c10,1da44c6a,1da44cca
         SPAM_Core_Lots/I-r5_5x6_TriBarn_BioFuel_7930b6be.SC4Lot:
           7930b6be:
             building: 341c37ff
             density: low
             name: I-r5_5x6_TriBarn_BioFuel
-            props:
-              - 073d4699
-              - 0bf7dc29
-              - 15ce155b
-              - 1a3eeb0d
-              - 1c420000
-              - 1e9a0000
-              - 1ece0000
-              - 299d0000
-              - '299e0000'
-              - '29e50000'
-              - '29e60000'
-              - 29fb0dd2
-              - 2a1a0000
-              - 2a580000
-              - 2fc11611
-              - 3918c355
-              - 3eea27a4
-              - 791b99b3
-              - 95589f6b
-              - a000003d
-              - a000007b
-              - a0001541
-              - a0001547
-              - a0001549
-              - b3a209d7
-              - d0ac71c3
-              - e741574f
+            props: 073d4699,0bf7dc29,15ce155b,1a3eeb0d,1c420000,1e9a0000,1ece0000,299d0000,299e0000,29e50000,29e60000,29fb0dd2,2a1a0000,2a580000,2fc11611,3918c355,3eea27a4,791b99b3,95589f6b,a000003d,a000007b,a0001541,a0001547,a0001549,b3a209d7,d0ac71c3,e741574f
             size: 5x6
             stage: 5
-            textures:
-              - 1da447a0
-              - 1da447b0
-              - 1da447d0
-              - 1da447d5
-              - 1da447f5
-              - 1da44835
-              - 1da44840
-              - 1da44845
-              - 1da44850
-              - 1da44855
-              - 1da44a4a
-              - 1da44c00
-              - 1da44c05
+            textures: 1da447a0,1da447b0,1da447d0,1da447d5,1da447f5,1da44835,1da44840,1da44845,1da44850,1da44855,1da44a4a,1da44c00,1da44c05
         SPAM_Core_Lots/I-r5_6x4_D_Large Granary_90001290.SC4Lot:
           '90001290':
             building: a0001512
             density: low
             name: I-r5_6x4_D_Large Granary
-            props:
-              - 073d4699
-              - 084fa8ca
-              - 0b703b90
-              - 0bf7dc29
-              - 1a3eeb0d
-              - 1a706cba
-              - 1a9935bf
-              - 1ca10000
-              - 1e9a0000
-              - 1ece0000
-              - 29c20000
-              - 2a540000
-              - 2a580000
-              - 2de463a4
-              - 2e93539e
-              - 2fc11611
-              - 3918c355
-              - 3eea27a4
-              - '40725970'
-              - 465db454
-              - 50d035ae
-              - 5123c52d
-              - 791b99b3
-              - 7ea69467
-              - 94d11400
-              - 94fd8c13
-              - 95589f6b
-              - a000003d
-              - a000004a
-              - a000004d
-              - a000007b
-              - a0001540
-              - a0001541
-              - a0001544
-              - a000154a
-              - a0dcb9bd
-              - e741574f
+            props: 073d4699,084fa8ca,0b703b90,0bf7dc29,1a3eeb0d,1a706cba,1a9935bf,1ca10000,1e9a0000,1ece0000,29c20000,2a540000,2a580000,2de463a4,2e93539e,2fc11611,3918c355,3eea27a4,40725970,465db454,50d035ae,5123c52d,791b99b3,7ea69467,94d11400,94fd8c13,95589f6b,a000003d,a000004a,a000004d,a000007b,a0001540,a0001541,a0001544,a000154a,a0dcb9bd,e741574f
             size: 6x4
             stage: 5
-            textures:
-              - 1da44c05
-              - 1da44c10
-              - 1da44c50
-              - 1da44c55
-              - 1da44c60
-              - 1da44c65
-              - 1da44c75
-              - 1da44cd5
-              - 1da44cf5
-              - 1da44d7a
-              - 1da44d80
-              - 1da44d95
+            textures: 1da44c05,1da44c10,1da44c50,1da44c55,1da44c60,1da44c65,1da44c75,1da44cd5,1da44cf5,1da44d7a,1da44d80,1da44d95
         SPAM_Mod_Main/PEG-SPAM_MOD-MAIN_b200.dat:
           10a8e301:
             building: 10a8e301
             density: low
             name: I-r1_1x1_Orangetree
-            props:
-              - 0b703b90
-              - 3918c355
+            props: 0b703b90,3918c355
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44ca0
+            textures: 1da44c05,1da44ca0
           145ed92d:
             building: 145ed92d
             density: low
             name: I-r1_1x1_Agave
-            props:
-              - 2ba20000
-              - 3918c355
-              - 878e5f87
+            props: 2ba20000,3918c355,878e5f87
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c10
-              - 1da44ca5
+            textures: 1da44c10,1da44ca5
           1879ed69:
             building: 1879ed69
             density: low
             name: I-r1_1x1_Wheat
-            props:
-              - 3918c355
-              - 7a61d6c1
-              - b168a3e3
+            props: 3918c355,7a61d6c1,b168a3e3
             size: 1x1
             stage: 1
-            textures:
-              - 1da4472a
-              - 25da0000
+            textures: 1da4472a,25da0000
           198f529d:
             building: 198f529d
             density: low
             name: I-r1_1x1_Tilled
-            props:
-              - 3918c355
+            props: 3918c355
             size: 1x1
             stage: 255
-            textures:
-              - 1da44c05
+            textures: 1da44c05
           2348d63f:
             building: 2348d63f
             density: low
             name: I-r1_1x1_Grapes
-            props:
-              - 1cf70000
-              - '29120000'
-              - 3918c355
+            props: 1cf70000,29120000,3918c355
             size: 1x1
             stage: 1
-            textures:
-              - 1da4472a
-              - 25da0000
+            textures: 1da4472a,25da0000
           278a3d53:
             building: 278a3d53
             density: low
             name: I-r1_1x1_Hops
-            props:
-              - 3918c355
-              - 890ca8a4
+            props: 3918c355,890ca8a4
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           2a85b88e:
             building: 2a85b88e
             density: low
             name: I-r1_1x1_Appletree
-            props:
-              - 3918c355
-              - ce49cb03
+            props: 3918c355,ce49cb03
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44ca0
+            textures: 1da44c05,1da44ca0
           30ebdd06:
             building: 30ebdd06
             density: low
             name: I-r1_1x1_Switchgrass
-            props:
-              - 15ce155b
-              - 2ba20000
-              - 2e93539e
+            props: 15ce155b,2ba20000,2e93539e
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
+            textures: 1da44c05
           3c5ea03a:
             building: 3c5ea03a
             density: low
             name: I-r1_1x1_YoungLettuce
-            props:
-              - '29120000'
-              - 3918c355
+            props: 29120000,3918c355
             size: 1x1
             stage: 1
-            textures:
-              - 25d80000
+            textures: 25d80000
           43a07361:
             building: 43a07361
             density: low
             name: I-r1_1x1_Corn
-            props:
-              - 1ece0000
-              - 1ecf0000
-              - 2ba20000
-              - 3918c355
-              - 3e5b097e
-              - 85750a62
-              - aad5b41c
+            props: 1ece0000,1ecf0000,2ba20000,3918c355,3e5b097e,85750a62,aad5b41c
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           617c94c7:
             building: 617c94c7
             density: low
             name: I-r1_1x1_Tomatoes
-            props:
-              - 2e93539e
-              - 3918c355
-              - 95940fdf
+            props: 2e93539e,3918c355,95940fdf
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           75f8d36d:
             building: 75f8d36d
             density: low
             name: I-r1_1x1_Lemontree
-            props:
-              - 0c8d15bf
-              - 3918c355
+            props: 0c8d15bf,3918c355
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           '900012e0':
             building: '70000052'
             density: low
             name: I-r1_1x1
-            props:
-              - '16550000'
-              - '16630000'
-              - 1c410000
-              - 1d430000
-              - 1d6e0000
-              - 2a190000
-              - 2a480000
-              - a000004a
-              - a000004b
-              - a000004d
-              - a0000052
+            props: 16550000,16630000,1c410000,1d430000,1d6e0000,2a190000,2a480000,a000004a,a000004b,a000004d,a0000052
             size: 1x1
             stage: 255
-            textures:
-              - '26170000'
+            textures: '26170000'
           '94169840':
             building: '94169840'
             density: low
             name: I-r1_1x1_Barley
-            props:
-              - 129d1fe1
-              - 2ba20000
-              - 3918c355
-              - 96af6486
+            props: 129d1fe1,2ba20000,3918c355,96af6486
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
+            textures: 1da44c05
           9a4c8535:
             building: 9a4c8535
             density: low
             name: I-r1_1x1_Rye
-            props:
-              - 3918c355
-              - '48340589'
-              - 8371624e
+            props: 3918c355,48340589,8371624e
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
+            textures: 1da44c05
           a9270458:
             building: a9270458
             density: low
             name: I-r1_1x1_Pasture
-            props:
-              - 1c420000
-              - 2a1a0000
+            props: 1c420000,2a1a0000
             size: 1x1
             stage: 255
-            textures:
-              - 1da44cf5
+            textures: 1da44cf5
           f945b3f3:
             building: f945b3f3
             density: low
             name: I-r1_1x1_LettuceMature
-            props:
-              - '29120000'
-              - 3918c355
+            props: 29120000,3918c355
             size: 1x1
             stage: 1
-            textures:
-              - 25d90000
+            textures: 25d90000
           ffebf1c7:
             building: ffebf1c7
             density: low
             name: I-r1_1x1_Peachtree
-            props:
-              - 3918c355
-              - c9102970
+            props: 3918c355,c9102970
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44ca0
+            textures: 1da44c05,1da44ca0
       props:
         SPAM_Mod_Main/PEG-SPAM_MOD-MAIN_b200.dat:
           c977c536-16c136b7:
@@ -4399,197 +3582,137 @@ pegasus/spam-super-resource-pack:
             building: 073dc000
             density: low
             name: Farm Field-Tilled
-            props:
-              - 0f8aaf48
-              - a000154a
+            props: 0f8aaf48,a000154a
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
           073dc001:
             building: 073dc001
             density: low
             name: Farm Field-Pasture
             size: 1x1
             stage: 1
-            textures:
-              - 1da44cf5
+            textures: 1da44cf5
           073dc002:
             building: 073dc002
             density: low
             name: Farm Field-Agava
-            props:
-              - 878e5f87
-              - d26905bc
+            props: 878e5f87,d26905bc
             size: 1x1
             stage: 1
-            textures:
-              - 1da44ca5
-              - 25db0000
+            textures: 1da44ca5,25db0000
           073dc003:
             building: 073dc003
             density: low
             name: Farm Field-Tomatoes
-            props:
-              - 95940fdf
-              - d26905bc
+            props: 95940fdf,d26905bc
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           073dc004:
             building: 073dc004
             density: low
             name: Farm Field-Hops
-            props:
-              - 2a060000
-              - 890ca8a4
+            props: 2a060000,890ca8a4
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           073dc005:
             building: 073dc005
             density: low
             name: Farm Field-Grapes
-            props:
-              - 2a060000
-              - d1eded6c
+            props: 2a060000,d1eded6c
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c10
-              - 1da44ca5
+            textures: 1da44c10,1da44ca5
           073dc006:
             building: 073dc006
             density: low
             name: Farm Field-Corn
-            props:
-              - 3e5b097e
-              - 85750a62
-              - aad5b41c
+            props: 3e5b097e,85750a62,aad5b41c
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           073dc007:
             building: 073dc007
             density: low
             name: Farm Field-Wheat
-            props:
-              - 7a61d6c1
-              - b168a3e3
+            props: 7a61d6c1,b168a3e3
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
           073dc008:
             building: 073dc008
             density: low
             name: Farm Field-Barley
-            props:
-              - 129d1fe1
-              - 96af6486
+            props: 129d1fe1,96af6486
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
           073dc009:
             building: 073dc009
             density: low
             name: Farm Field-Rye
-            props:
-              - '48340589'
-              - 8371624e
+            props: 48340589,8371624e
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
           073dc00a:
             building: 073dc00a
             density: low
             name: Farm Field-Switchgrass
-            props:
-              - 15ce155b
+            props: 15ce155b
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c10
-              - 1da44c85
-              - 25da0000
+            textures: 1da44c10,1da44c85,25da0000
           073dc00b:
             building: 073dc00b
             density: low
             name: Farm Field-Orangetree
-            props:
-              - 0b703b90
-              - 427d3028
+            props: 0b703b90,427d3028
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44ca0
+            textures: 1da44c05,1da44ca0
           073dc00c:
             building: 073dc00c
             density: low
             name: Farm Field-Appletree
-            props:
-              - 427d3028
-              - ce49cb03
+            props: 427d3028,ce49cb03
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44ca0
+            textures: 1da44c05,1da44ca0
           073dc00d:
             building: 073dc00d
             density: low
             name: Farm Field-Lemontree
-            props:
-              - 0c8d15bf
-              - 427d3028
+            props: 0c8d15bf,427d3028
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           073dc00e:
             building: 073dc00e
             density: low
             name: Farm Field-Peachtree
-            props:
-              - 427d3028
-              - c9102970
+            props: 427d3028,c9102970
             size: 1x1
             stage: 1
-            textures:
-              - 1da44c05
-              - 1da44caa
+            textures: 1da44c05,1da44caa
           073dc00f:
             building: 073dc00f
             density: low
             name: Farm Field - Rubbarb
-            props:
-              - 16c136b7
-              - 33ada2ee
+            props: 16c136b7,33ada2ee
             size: 1x1
             stage: 1
-            textures:
-              - 09bee100
+            textures: 09bee100
           073dc010:
             building: 073dc010
             density: low
             name: Farm Field - LettuceMature
-            props:
-              - 16c136b7
-              - 33ada2ee
+            props: 16c136b7,33ada2ee
             size: 1x1
             stage: 1
-            textures:
-              - 25d90000
+            textures: 25d90000
       models:
         SPAM_Crops_Resource/PEG-SPAM_CROPS-01_RESOURCE_b200.dat:
           - 18d84fbc-0077
@@ -5505,44 +4628,27 @@ pegasus/terrain-kit:
           16fdac0f:
             building: 16fdac0f
             name: PEG-PPOND_Tahoe_TURB
-            props:
-              - 073d46c2
-              - 16fdaa85
-              - 8d948460
+            props: 073d46c2,16fdaa85,8d948460
             size: 1x1
-            textures:
-              - 261f0000
+            textures: 261f0000
           56fdac74:
             building: 56fdac74
             name: PEG_PPond_Tahoe_1x1
-            props:
-              - 16fdaa85
-              - 8d948460
+            props: 16fdaa85,8d948460
             size: 1x1
-            textures:
-              - 261f0000
+            textures: 261f0000
           96fdb0e5:
             building: 96fdb0e5
             name: PEG-PPOND_Tahoe_WF
-            props:
-              - 073d46c2
-              - 16fdaa85
-              - 8d948460
-              - e2f04e0f
+            props: 073d46c2,16fdaa85,8d948460,e2f04e0f
             size: 1x2
-            textures:
-              - 1da444d5
-              - 261f0000
+            textures: 1da444d5,261f0000
           d6fe0d77:
             building: d6fe0d77
             name: PEG-PPOND_Tahoe_Pipes
-            props:
-              - 16fdaa85
-              - 4c8497a5
-              - 8d948460
+            props: 16fdaa85,4c8497a5,8d948460
             size: 1x1
-            textures:
-              - 261f0000
+            textures: 261f0000
       mmps:
         MTP MM2 Scrub Brush/PEG-MTP_MM2-ScrubBrush_MOD_100.dat:
           e83e0437-073d48f0:

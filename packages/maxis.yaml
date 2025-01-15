@@ -25,14 +25,10 @@ maxis/63-building:
       6afc49f8:
         building: 04b80000
         name: Lm4x5_KoreaLifeBldg
-        props:
-          - a0000077
+        props: a0000077
         replace: 6afc49f8
         size: 4x5
-        textures:
-          - 252b3000
-          - 258f2000
-          - '26060000'
+        textures: 252b3000,258f2000,26060000
   models:
     Plugin_00A_63Building.dat:
       - badb57f1-04b8
@@ -55,8 +51,7 @@ maxis/63-building:
           include:
             - 63Building.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         63Building.dat:
           ca386e22-04b80000:
@@ -120,8 +115,7 @@ maxis/adler-planetarium:
         name: LM6x6_adlerp
         replace: 8c9fb724
         size: 6x6
-        textures:
-          - '26060000'
+        textures: '26060000'
   models:
     Plugin_031_AdlerPlanetarium.dat:
       - badb57f1-0489
@@ -144,8 +138,7 @@ maxis/adler-planetarium:
           include:
             - AdlerPlanetarium.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         AdlerPlanetarium.dat:
           ca386e22-04890000:
@@ -219,64 +212,9 @@ maxis/air-force-base:
           0ade2f1b:
             building: 036f0000
             name: RW10x10_AirForceBase
-            props:
-              - '00590000'
-              - 1ccd0000
-              - 1d4a0000
-              - 1d4b0000
-              - 1e4f0000
-              - 1ed70000
-              - 1ed90000
-              - 1eda0000
-              - 1f520000
-              - '28270000'
-              - '28350000'
-              - '29230000'
-              - '29260000'
-              - '29280000'
-              - 292a0000
-              - 294d0000
-              - '294e0000'
-              - '29500000'
-              - '29510000'
-              - '29860000'
-              - 29a90000
-              - 29aa0000
-              - 29c20000
-              - 2a470000
-              - 2a94b0d9
-              - 2af8bbd2
-              - 4ae643c1
-              - 4ae643c2
-              - 4ae643c3
-              - 6ab6ec78
-              - 6ab6ec79
-              - a000004b
-              - aa836b46
-              - ae1d0000
-              - ca3d9723
-              - ca3d9724
+            props: 00590000,1ccd0000,1d4a0000,1d4b0000,1e4f0000,1ed70000,1ed90000,1eda0000,1f520000,28270000,28350000,29230000,29260000,29280000,292a0000,294d0000,294e0000,29500000,29510000,29860000,29a90000,29aa0000,29c20000,2a470000,2a94b0d9,2af8bbd2,4ae643c1,4ae643c2,4ae643c3,6ab6ec78,6ab6ec79,a000004b,aa836b46,ae1d0000,ca3d9723,ca3d9724
             size: 10x29
-            textures:
-              - '25611000'
-              - '25621000'
-              - '25631000'
-              - '25641000'
-              - '25651000'
-              - '25661000'
-              - '25671000'
-              - '25681000'
-              - 256a1000
-              - 256d1000
-              - '256e1000'
-              - 256f1000
-              - '25701000'
-              - '25711000'
-              - '25731000'
-              - 25c61000
-              - 25d60000
-              - 25d70000
-              - 25fb1000
+            textures: 25611000,25621000,25631000,25641000,25651000,25661000,25671000,25681000,256a1000,256d1000,256e1000,256f1000,25701000,25711000,25731000,25c61000,25d60000,25d70000,25fb1000
       models:
         Plugin_007_AirForceBase.dat:
           - badb57f1-036f
@@ -337,16 +275,10 @@ maxis/arc-de-triomphe:
       aac407c0:
         building: 04c10000
         name: LM3x3_ArcTriomphe
-        props:
-          - 1d2f0000
+        props: 1d2f0000
         replace: aac407c0
         size: 3x3
-        textures:
-          - 257c0000
-          - 257d0000
-          - 259d3000
-          - 25fb1000
-          - '26060000'
+        textures: 257c0000,257d0000,259d3000,25fb1000,26060000
   models:
     Plugin_003_ArcTriomphe.dat:
       - badb57f1-04c1
@@ -369,8 +301,7 @@ maxis/arc-de-triomphe:
           include:
             - ArcDeTriomphe.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         ArcDeTriomphe.dat:
           ca386e22-04c10000:
@@ -432,21 +363,10 @@ maxis/brandenburg-gate:
       ab5e1192:
         building: 04b70000
         name: LM5x7_BrandenburgGate
-        props:
-          - 1dff0000
-          - '1e110000'
-          - 1edd0000
-          - 1edf0000
-          - '29840000'
-          - 2a590000
-          - 2a7ccda1
-          - a000004e
-          - aa836b49
+        props: 1dff0000,1e110000,1edd0000,1edf0000,29840000,2a590000,2a7ccda1,a000004e,aa836b49
         replace: ab5e1192
         size: 5x7
-        textures:
-          - 25f40000
-          - '26060000'
+        textures: 25f40000,26060000
   models:
     Plugin_00C_BrandenburgGate.dat:
       - badb57f1-04b7
@@ -472,8 +392,7 @@ maxis/brandenburg-gate:
           include:
             - BrandenburgGate.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         BrandenburgGate.dat:
           ca386e22-04b70000:
@@ -534,19 +453,10 @@ maxis/capitol-records:
       cb549981:
         building: 04b10000
         name: Lm5x5_CapitolRecordsBuilding
-        props:
-          - 69ad0000
-          - a000003d
-          - a000007f
-          - aa836b49
+        props: 69ad0000,a000003d,a000007f,aa836b49
         replace: cb549981
         size: 5x5
-        textures:
-          - 258b3000
-          - '258e3000'
-          - '25923000'
-          - '25953000'
-          - '25963000'
+        textures: 258b3000,258e3000,25923000,25953000,25963000
   models:
     Plugin_012_CapitolRecords.dat:
       - badb57f1-04b1
@@ -569,8 +479,7 @@ maxis/capitol-records:
           include:
             - CapitolRecordsBuilding.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         CapitolRecordsBuilding.dat:
           ca386e22-04b10000:
@@ -705,29 +614,10 @@ maxis/globe-arena:
       aae108a3:
         building: 04bc0000
         name: LM11x8_GlobeArena
-        props:
-          - 1d250000
-          - 1d2e0000
-          - 1d4a0000
-          - 1d550000
-          - 296f0000
-          - '29710000'
-          - '29720000'
-          - 2a5a0000
-          - 2a5b0000
-          - 2a5c0000
-          - 2a8a0000
-          - 2b960000
-          - a0000078
-          - aa836b48
-          - aa836b49
+        props: 1d250000,1d2e0000,1d4a0000,1d550000,296f0000,29710000,29720000,2a5a0000,2a5b0000,2a5c0000,2a8a0000,2b960000,a0000078,aa836b48,aa836b49
         replace: aae108a3
         size: 11x8
-        textures:
-          - 258c2000
-          - 258f2000
-          - 25aa2000
-          - 25b22000
+        textures: 258c2000,258f2000,25aa2000,25b22000
   models:
     Plugin_006_GlobeArena.dat:
       - badb57f1-04bc
@@ -756,8 +646,7 @@ maxis/globe-arena:
           include:
             - GlobeArena.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         GlobeArena.dat:
           ca386e22-04bc0000:
@@ -822,8 +711,7 @@ maxis/grand-central-station:
         name: LM7x8_GrandCentral
         replace: 2b589d69
         size: 7x8
-        textures:
-          - 25fb1000
+        textures: 25fb1000
   models:
     Plugin_010_GrandCentralStation.dat:
       - badb57f1-04b3
@@ -846,8 +734,7 @@ maxis/grand-central-station:
           include:
             - GrandCentralStation.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         GrandCentralStation.dat:
           ca386e22-04b30000:
@@ -945,20 +832,9 @@ maxis/grutze-industries:
           2d217719:
             building: 2d217719
             name: LM4x5_GrutzeInd
-            props:
-              - 1c930000
-              - 1d4a0000
-              - 1d4b0000
-              - 2a430000
-              - 2a440000
+            props: 1c930000,1d4a0000,1d4b0000,2a430000,2a440000
             size: 4x5
-            textures:
-              - 256c1000
-              - 258d1000
-              - '25923000'
-              - '25933000'
-              - '25953000'
-              - '25963000'
+            textures: 256c1000,258d1000,25923000,25933000,25953000,25963000
       models:
         IndstryPipes-0x5ad0e817_0x6cd8b254_0x2f0000.SC4Model:
           - 6cd8b254-002f
@@ -1029,22 +905,9 @@ maxis/grutzehaus:
           ed2174a0:
             building: ed2174a0
             name: LM2x3_Grutzehaus
-            props:
-              - 1cce0000
-              - 1d8f0000
-              - 1dfb0000
-              - 1f0b0000
-              - 28f10000
-              - '29300000'
-              - '29320000'
-              - a000004d
-              - a0000050
+            props: 1cce0000,1d8f0000,1dfb0000,1f0b0000,28f10000,29300000,29320000,a000004d,a0000050
             size: 2x3
-            textures:
-              - 1e7e0000
-              - '1e810000'
-              - 25b02000
-              - 25f80000
+            textures: 1e7e0000,1e810000,25b02000,25f80000
       models:
         DstTxtr-0x5ad0e817_0x6cd8b254_0x2d0000.SC4Model:
           - 6cd8b254-002d
@@ -1080,22 +943,10 @@ maxis/kunjungjon:
       4afc8bd5:
         building: 04ba0000
         name: Lm5x6_KonjongjonHall
-        props:
-          - '1e980000'
-          - 1e9a0000
-          - 1e9b0000
-          - 2ab60000
-          - 2b970000
-          - 2b980000
-          - 2b990000
-          - 2b9a0000
-          - aa836b49
+        props: 1e980000,1e9a0000,1e9b0000,2ab60000,2b970000,2b980000,2b990000,2b9a0000,aa836b49
         replace: 4afc8bd5
         size: 5x6
-        textures:
-          - 262a3000
-          - 262b3000
-          - 262c3000
+        textures: 262a3000,262b3000,262c3000
   models:
     Plugin_008_Kunjungjon.dat:
       - badb57f1-04ba
@@ -1141,8 +992,7 @@ maxis/kunjungjon:
           include:
             - Kunjungjon.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         Kunjungjon.dat:
           ca386e22-04ba0000:
@@ -1276,146 +1126,16 @@ maxis/longfellow-castle:
           0d4fdea6:
             building: 0d4fdea6
             name: Longfellow Castle
-            props:
-              - '16550000'
-              - 1cf70000
-              - 1de50000
-              - 1de60000
-              - 295d0000
-              - '29740000'
-              - '29760000'
-              - '29770000'
-              - 29bd0000
-              - 29be0000
-              - 2a110000
-              - 2a590000
-              - 2ac20000
-              - 2ac30000
-              - 2ac40000
-              - 2d010000
-              - 2d050000
-              - 2d060000
-              - 2d070000
-              - 2d080000
-              - 2d090000
-              - 2d0a0000
-              - 2d0b0000
-              - 2d0c0000
-              - 2d0d0000
-              - 2d0f0000
-              - 2d100000
-              - 2d130000
-              - 2d420000
-              - 2d430000
-              - 2d440000
-              - 2d460000
-              - 2d470000
-              - 2d480000
-              - 2d490000
-              - 2d4a0000
-              - 2d4c0000
-              - 2d4d0000
-              - 2d4e0000
-              - 2d4f0000
-              - 2d500000
-              - 2d510000
-              - 2d520000
-              - 2d530000
-              - 2d540000
-              - 2d550000
-              - 2d560000
-              - 2d570000
-              - 2d590000
+            props: 16550000,1cf70000,1de50000,1de60000,295d0000,29740000,29760000,29770000,29bd0000,29be0000,2a110000,2a590000,2ac20000,2ac30000,2ac40000,2d010000,2d050000,2d060000,2d070000,2d080000,2d090000,2d0a0000,2d0b0000,2d0c0000,2d0d0000,2d0f0000,2d100000,2d130000,2d420000,2d430000,2d440000,2d460000,2d470000,2d480000,2d490000,2d4a0000,2d4c0000,2d4d0000,2d4e0000,2d4f0000,2d500000,2d510000,2d520000,2d530000,2d540000,2d550000,2d560000,2d570000,2d590000
             size: 13x12
-            textures:
-              - 251c2000
-              - 251c3000
-              - 252b1000
-              - 257a0000
-              - 257c0000
-              - '25800000'
-              - 258b3000
-              - 25d80000
-              - '25e00000'
-              - 2d580000
-              - 2d590000
-              - 2d5a0000
-              - 2d5d0000
-              - 2d5f0010
-              - 2d600010
-              - 2d610010
+            textures: 251c2000,251c3000,252b1000,257a0000,257c0000,25800000,258b3000,25d80000,25e00000,2d580000,2d590000,2d5a0000,2d5d0000,2d5f0010,2d600010,2d610010
         Longfellow Castle_4d50ba18.SC4Lot:
           4d50ba18:
             building: 4d50ba18
             name: Longfellow Castle
-            props:
-              - '16550000'
-              - 1cf70000
-              - 1de50000
-              - 1de60000
-              - 295d0000
-              - '29740000'
-              - '29760000'
-              - '29770000'
-              - 29bd0000
-              - 29be0000
-              - 2a110000
-              - 2a590000
-              - 2ac20000
-              - 2ac30000
-              - 2ac40000
-              - 2d010000
-              - 2d050000
-              - 2d060000
-              - 2d070000
-              - 2d080000
-              - 2d090000
-              - 2d0a0000
-              - 2d0b0000
-              - 2d0c0000
-              - 2d0d0000
-              - 2d0f0000
-              - 2d100000
-              - 2d130000
-              - 2d420000
-              - 2d430000
-              - 2d440000
-              - 2d460000
-              - 2d470000
-              - 2d480000
-              - 2d490000
-              - 2d4a0000
-              - 2d4c0000
-              - 2d4d0000
-              - 2d4e0000
-              - 2d4f0000
-              - 2d500000
-              - 2d510000
-              - 2d520000
-              - 2d530000
-              - 2d540000
-              - 2d550000
-              - 2d560000
-              - 2d570000
-              - 2d590000
+            props: 16550000,1cf70000,1de50000,1de60000,295d0000,29740000,29760000,29770000,29bd0000,29be0000,2a110000,2a590000,2ac20000,2ac30000,2ac40000,2d010000,2d050000,2d060000,2d070000,2d080000,2d090000,2d0a0000,2d0b0000,2d0c0000,2d0d0000,2d0f0000,2d100000,2d130000,2d420000,2d430000,2d440000,2d460000,2d470000,2d480000,2d490000,2d4a0000,2d4c0000,2d4d0000,2d4e0000,2d4f0000,2d500000,2d510000,2d520000,2d530000,2d540000,2d550000,2d560000,2d570000,2d590000
             size: 13x12
-            textures:
-              - 251c2000
-              - 251c3000
-              - 252b1000
-              - 257a0000
-              - 257c0000
-              - '25800000'
-              - 258b3000
-              - 25d80000
-              - '25e00000'
-              - 2d580000
-              - 2d590000
-              - 2d5a0000
-              - 2d5d0000
-              - 2d5f0010
-              - 2d600010
-              - 2d610010
+            textures: 251c2000,251c3000,252b1000,257a0000,257c0000,25800000,258b3000,25d80000,25e00000,2d580000,2d590000,2d5a0000,2d5d0000,2d5f0010,2d600010,2d610010
       models:
         CastleSet.dat:
           - badb57f1-2d01
@@ -1632,15 +1352,9 @@ maxis/luckys-hang-ten:
           cea1e6b4:
             building: '04840000'
             name: LM3x2_LuckysHangTen
-            props:
-              - '1e540000'
-              - 28d70000
-              - 29b20000
-              - 2a180000
+            props: 1e540000,28d70000,29b20000,2a180000
             size: 3x2
-            textures:
-              - '26110000'
-              - '26140000'
+            textures: 26110000,26140000
       models:
         Plugin_036_LuckysHangTen.dat:
           - badb57f1-0484
@@ -1648,8 +1362,7 @@ maxis/luckys-hang-ten:
       version: 1.0.0
 
 maxis/maxis-buildings-as-props:
-  authors:
-    - ralphaelninja
+  authors: ralphaelninja
   categories: props
   credits:
     - maxis: Original author
@@ -1663,6 +1376,19 @@ maxis/maxis-buildings-as-props:
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
     - https://www.simtropolis.com/objects/screens/0003/0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_2_AFTER.jpg
   name: Maxis Buildings As Props and DLC Props
+  optional:
+    - maxis/63-building
+    - maxis/brandenburg-gate
+    - maxis/capitol-records
+    - maxis/globe-arena
+    - maxis/grand-central-station
+    - maxis/kunjungjon
+    - maxis/namdaemun
+    - maxis/parthenon
+    - maxis/sagrada-familia
+    - maxis/seoul-city-hall
+    - maxis/seoul-soccer-stadium
+    - maxis/the-living-mall
   readme: T Wrecks - Maxis Prop Names And Query Fix_readme.txt
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_09_2009/thumb-0cd458dcfedd5b2ed5f7c24f2a45a302-PropFix_1_BEFORE.jpg
   url: https://www.sc4evermore.com/index.php/downloads/download/40-maxis/14-maxis-buildings-as-props-and-dlc-props-v2-1
@@ -4946,9 +4672,7 @@ maxis/mayflower-port:
           acae3f0c:
             building: '04880000'
             name: Lm4x3_Mayflower
-            props:
-              - 2d370000
-              - 2d390000
+            props: 2d370000,2d390000
             size: 4x3
       models:
         Plugin_032_MayflowerPort.dat:
@@ -4992,8 +4716,7 @@ maxis/namdaemun:
         name: Lm4x4_NamDaeMoon
         replace: 8af9d28c
         size: 4x4
-        textures:
-          - 258b3000
+        textures: 258b3000
   models:
     Plugin_009_NamDaeMoon.dat:
       - badb57f1-04b9
@@ -5016,8 +4739,7 @@ maxis/namdaemun:
           include:
             - Sungrye-mun.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         Sungrye-mun.dat:
           ca386e22-04b90000:
@@ -5076,29 +4798,10 @@ maxis/parthenon:
       cb68c0df:
         building: 04b60000
         name: Lm4x7_Parthenon
-        props:
-          - 2b9d0000
-          - 2b9e0000
-          - 2b9f0000
-          - 2ba00000
-          - 2ba10000
-          - 2ba20000
-          - 2ba30000
-          - 2ba40000
-          - 2ba50000
-          - 2ba60000
-          - 2ba70000
-          - 2ba80000
-          - 2ba90000
-          - 2baa0000
-          - 2bab0000
-          - 2bac0000
-          - 2bad0000
-          - 2bae0000
+        props: 2b9d0000,2b9e0000,2b9f0000,2ba00000,2ba10000,2ba20000,2ba30000,2ba40000,2ba50000,2ba60000,2ba70000,2ba80000,2ba90000,2baa0000,2bab0000,2bac0000,2bad0000,2bae0000
         replace: cb68c0df
         size: 3x5
-        textures:
-          - 25db0000
+        textures: 25db0000
   models:
     Plugin_00D_Parthenon.dat:
       - badb57f1-04b6
@@ -5195,8 +4898,7 @@ maxis/parthenon:
           include:
             - Parthenon.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         Parthenon.dat:
           ca386e22-04b60000:
@@ -5258,20 +4960,10 @@ maxis/rockefeller-center:
       8ccf053d:
         building: '04870000'
         name: LM4x4_RockefellerCtr
-        props:
-          - '1e040000'
-          - '1e050000'
-          - 1e0d0000
-          - 2d3a0000
-          - 2d3c0000
-          - 2d3d0000
-          - 2d3e0000
-          - a0000055
+        props: 1e040000,1e050000,1e0d0000,2d3a0000,2d3c0000,2d3d0000,2d3e0000,a0000055
         replace: 8ccf053d
         size: 4x13
-        textures:
-          - '26353000'
-          - '26372000'
+        textures: 26353000,26372000
   models:
     Plugin_033_RockefellerCenter.dat:
       - badb57f1-0487
@@ -5309,8 +5001,7 @@ maxis/rockefeller-center:
           include:
             - RockefellerCenter.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         RockefellerCenter.dat:
           ca386e22-04870000:
@@ -5371,8 +5062,7 @@ maxis/sagrada-familia:
         name: LM12x12_sagradafamilia
         replace: 6bce41a2
         size: 5x5
-        textures:
-          - '258e3000'
+        textures: '258e3000'
   models:
     Plugin_00F_TempleExpiatiori.dat:
       - badb57f1-04b4
@@ -5395,8 +5085,7 @@ maxis/sagrada-familia:
           include:
             - TempleExpiatioriDeLaSagradaFamilia.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         TempleExpiatioriDeLaSagradaFamilia.dat:
           ca386e22-04b40000:
@@ -5457,8 +5146,7 @@ maxis/san-francisco-city-hall:
         name: LM11x7_SanFranciscoCityHall
         replace: 0c83e29f
         size: 11x7
-        textures:
-          - 25d60000
+        textures: 25d60000
   models:
     Plugin_017_SanFranCityHall.dat:
       - badb57f1-04ac
@@ -5481,8 +5169,7 @@ maxis/san-francisco-city-hall:
           include:
             - SanFranciscoCityHall.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         SanFranciscoCityHall.dat:
           ca386e22-04ac0000:
@@ -5543,34 +5230,10 @@ maxis/schloss-schoenbrun:
       eb4e47b4:
         building: 04b50000
         name: Lm11x6_SchlossSchoenbrun
-        props:
-          - 1d2f0000
-          - 1d3e0000
-          - 1d530000
-          - 29b10000
-          - 2a590000
-          - 2a8c0000
-          - 2b910000
-          - 2b9b0000
-          - 2b9c0000
-          - a000004b
-          - a000004d
-          - a0000061
-          - a0000077
-          - aa836b49
+        props: 1d2f0000,1d3e0000,1d530000,29b10000,2a590000,2a8c0000,2b910000,2b9b0000,2b9c0000,a000004b,a000004d,a0000061,a0000077,aa836b49
         replace: eb4e47b4
         size: 11x6
-        textures:
-          - 257a0000
-          - 257c0000
-          - '25800000'
-          - 258c2000
-          - 258f2000
-          - 25ea0000
-          - 25f40000
-          - 25f60000
-          - '26060000'
-          - '26213000'
+        textures: 257a0000,257c0000,25800000,258c2000,258f2000,25ea0000,25f40000,25f60000,26060000,26213000
   models:
     Plugin_00E_SchlossSchoenbrun.dat:
       - badb57f1-04b5
@@ -5603,8 +5266,7 @@ maxis/schloss-schoenbrun:
           include:
             - SchlossSchoenbrun.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         SchlossSchoenbrun.dat:
           ca386e22-04b50000:
@@ -5665,23 +5327,10 @@ maxis/seoul-city-hall:
       2ac40624:
         building: 04c30000
         name: LM6x6_SeoulCityHallSquare
-        props:
-          - 04bd0000
-          - 1d240000
-          - 28f30000
-          - 29b10000
-          - 69ad0000
-          - a000003d
-          - a000004d
+        props: 04bd0000,1d240000,28f30000,29b10000,69ad0000,a000003d,a000004d
         replace: 2ac40624
         size: 6x5
-        textures:
-          - 258f2000
-          - '25901000'
-          - 25b41000
-          - 25f10000
-          - '26213000'
-          - '26271000'
+        textures: 258f2000,25901000,25b41000,25f10000,26213000,26271000
   models:
     Plugin_004_SeoulCityHall.dat:
       - badb57f1-04bd
@@ -5710,8 +5359,7 @@ maxis/seoul-city-hall:
           include:
             - SeoulCityHall.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         SeoulCityHall.dat:
           ca386e22-04c30000:
@@ -5772,22 +5420,10 @@ maxis/seoul-soccer-stadium:
       4ac40971:
         building: 04c20000
         name: LM0x0_WorldCupFootballStadium
-        props:
-          - 1d550000
-          - 2a150000
-          - 2a8a0000
-          - a000004b
-          - a000004d
+        props: 1d550000,2a150000,2a8a0000,a000004b,a000004d
         replace: 4ac40971
         size: 15x15
-        textures:
-          - 258c2000
-          - 258f2000
-          - 25aa2000
-          - 25ea0000
-          - 25ed0000
-          - 25ee0000
-          - 25f40000
+        textures: 258c2000,258f2000,25aa2000,25ea0000,25ed0000,25ee0000,25f40000
   models:
     Plugin_005_SeoulSoccerStad.dat:
       - badb57f1-04c2
@@ -5810,8 +5446,7 @@ maxis/seoul-soccer-stadium:
           include:
             - SeoulWorldCupStadium.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         SeoulWorldCupStadium.dat:
           ca386e22-04c20000:
@@ -5880,15 +5515,9 @@ maxis/shorty-burger:
           2e891faa:
             building: '04850000'
             name: LM3x3_ShortyBurger_2e891faa
-            props:
-              - 1dfe0000
-              - '1e270000'
-              - '1e680000'
-              - 1f000000
+            props: 1dfe0000,1e270000,1e680000,1f000000
             size: 2x3
-            textures:
-              - 25b41000
-              - 25fb1100
+            textures: 25b41000,25fb1100
       models:
         Plugin_035_ShortyBurger.dat:
           - badb57f1-0485
@@ -5931,14 +5560,9 @@ maxis/sobchak-lanes:
           ae52bebe:
             building: '04860000'
             name: Lm3x3_SobchakLanes
-            props:
-              - '1e900000'
-              - 28ac0000
+            props: 1e900000,28ac0000
             size: 3x3
-            textures:
-              - '25923000'
-              - '25963000'
-              - '26353000'
+            textures: 25923000,25963000,26353000
       models:
         Plugin_034_SobchakLanes.dat:
           - badb57f1-0486
@@ -6007,17 +5631,9 @@ maxis/stone-house:
           0d1d6acb:
             building: 0d1d6acb
             name: LM3x3_StoneHouse
-            props:
-              - '00580000'
-              - '29010000'
-              - 2ba10000
-              - a000004d
-              - a0000050
+            props: 00580000,29010000,2ba10000,a000004d,a0000050
             size: 3x3
-            textures:
-              - 1e7e0000
-              - '1e810000'
-              - '262e3000'
+            textures: 1e7e0000,1e810000,262e3000
       models:
         StoneHouse-0x5ad0e817_0x6cd8b254_0x2e0000.SC4Model:
           - 6cd8b254-002e
@@ -6050,18 +5666,10 @@ maxis/stonehenge:
       4b61d755:
         building: 04ad0000
         name: LM6x6_Stonehenge
-        props:
-          - 2b9d0000
-          - 2ba00000
-          - 2ba20000
-          - 2ba50000
-          - 2ba80000
-          - aa836b49
+        props: 2b9d0000,2ba00000,2ba20000,2ba50000,2ba80000,aa836b49
         replace: 4b61d755
         size: 6x6
-        textures:
-          - '25e90000'
-          - 25f40000
+        textures: 25e90000,25f40000
   models:
     Plugin_016_Stonehenge.dat:
       - badb57f1-04ad
@@ -6114,8 +5722,7 @@ maxis/stonehenge:
           include:
             - Stonehenge.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         Stonehenge.dat:
           ca386e22-04ad0000:
@@ -6175,8 +5782,7 @@ maxis/taipei-art-museum:
         name: LM5x7_TaipeiArtMuseum
         replace: 4c9fcb9f
         size: 5x7
-        textures:
-          - 252b3000
+        textures: 252b3000
   models:
     Plugin_030_TaipeiArtMuseum.dat:
       - badb57f1-0490
@@ -6199,8 +5805,7 @@ maxis/taipei-art-museum:
           include:
             - TaipeiFineArtMuseum.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         TaipeiFineArtMuseum.dat:
           ca386e22-04900000:
@@ -6292,13 +5897,9 @@ maxis/temple-of-grutz:
           2d1e7a9e:
             building: 2d1e7a9e
             name: LM6x6_TempleOfGrutz
-            props:
-              - 1ece0000
-              - '28340000'
+            props: 1ece0000,28340000
             size: 6x6
-            textures:
-              - 251c2000
-              - 25ba1000
+            textures: 251c2000,25ba1000
       models:
         TempleOfGrutz-0x5ad0e817_0xad1d67dc_0x30000.SC4Model:
           - ad1d67dc
@@ -6332,20 +5933,10 @@ maxis/the-living-mall:
       6ac4085b:
         building: 04c00000
         name: LM6x6_TheLivingMall
-        props:
-          - 1ecf0000
-          - 29b10000
-          - 2a0f0000
-          - 2a180000
-          - 2a8b0000
-          - a000003d
-          - a000004d
+        props: 1ecf0000,29b10000,2a0f0000,2a180000,2a8b0000,a000003d,a000004d
         replace: 6ac4085b
         size: 6x6
-        textures:
-          - 258f2000
-          - 25c43000
-          - '26213000'
+        textures: 258f2000,25c43000,26213000
   models:
     Plugin_002_TheLivingMall.dat:
       - badb57f1-04c0
@@ -6368,8 +5959,7 @@ maxis/the-living-mall:
           include:
             - TheLivingMall.dat:
                 priority: 900
-      authors:
-        - toroca
+      authors: toroca
       buildings:
         TheLivingMall.dat:
           ca386e22-04c00000:

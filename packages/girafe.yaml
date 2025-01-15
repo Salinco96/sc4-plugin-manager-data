@@ -1,7 +1,5 @@
 girafe/agripack-vol01:
-  authors:
-    - bsc
-    - vip
+  authors: bsc,vip
   categories: agriculture,mmps
   dependencies:
     - girafe/flora-pack
@@ -342,220 +340,98 @@ girafe/agripack-vol01:
             building: dce4f044
             density: low
             name: IR$1_1x1_Grfe_seasonal_corn_farm
-            props:
-              - af442000
-              - af443000
-              - af444000
-              - af445000
-              - af446000
+            props: af442000,af443000,af444000,af445000,af446000
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Corn/PLOP_1x1_Grfe_seasonal_corn_field_2ce2e2d9.SC4Lot:
           2ce2e2d9:
             building: 2ce2e2d9
             name: PLOP_1x1_Grfe_seasonal_corn_field
-            props:
-              - af442000
-              - af443000
-              - af444000
-              - af445000
-              - af446000
+            props: af442000,af443000,af444000,af445000,af446000
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Corn/PLOP_1x1_Grfe_seasonal_corn_field_3ce4f0f7.SC4Lot:
           3ce4f0f7:
             building: 3ce4f0f7
             name: PLOP_1x1_Grfe_seasonal_corn_field
-            props:
-              - af442000
-              - af443000
-              - af444000
-              - af445000
-              - af446000
+            props: af442000,af443000,af444000,af445000,af446000
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Corn/PLOP_1x1_Grfe_seasonal_corn_field_with_tractors_ece2e03a.SC4Lot:
           ece2e03a:
             building: ece2e03a
             name: PLOP_1x1_Grfe_seasonal_corn_field_with_tractors
-            props:
-              - 0c571fcf
-              - 0c57ed8b
-              - 2c6c0ccb
-              - 4c6bef9c
-              - 6c69941d
-              - af440005
-              - af442000
-              - af443000
-              - af444000
-              - af445000
-              - af446000
-              - ec571fbb
-              - ec571fe5
+            props: 0c571fcf,0c57ed8b,2c6c0ccb,4c6bef9c,6c69941d,af440005,af442000,af443000,af444000,af445000,af446000,ec571fbb,ec571fe5
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Rapeseed/IR$1_1x1_Grfe_seasonal_rapeseed_farm_ece28787.SC4Lot:
           ece28787:
             building: bce28754
             density: low
             name: IR$1_1x1_Grfe_seasonal_rapeseed_farm
-            props:
-              - 1f61d262
-              - 9f61e278
-              - 9f61f3fd
-              - 9f62045d
-              - 9f620923
-              - af440005
-              - df620353
+            props: 1f61d262,9f61e278,9f61f3fd,9f62045d,9f620923,af440005,df620353
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_3ce28398.SC4Lot:
           3ce28398:
             building: 3ce28398
             name: PLOP_1x1_Grfe_seasonal_rapeseed_field
-            props:
-              - 1f61d262
-              - 9f61e278
-              - 9f61f3fd
-              - 9f62045d
-              - 9f620923
-              - af440005
-              - df620353
+            props: 1f61d262,9f61e278,9f61f3fd,9f62045d,9f620923,af440005,df620353
             size: 1x1
-            textures:
-              - 1da4438a
-              - 25da0000
+            textures: 1da4438a,25da0000
         Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_ece29827.SC4Lot:
           ece29827:
             building: ece29827
             name: PLOP_1x1_Grfe_seasonal_rapeseed_field
-            props:
-              - 1f61d262
-              - 9f61e278
-              - 9f61f3fd
-              - 9f62045d
-              - 9f620923
-              - af440005
-              - df620353
+            props: 1f61d262,9f61e278,9f61f3fd,9f62045d,9f620923,af440005,df620353
             size: 1x1
-            textures:
-              - 1da4438a
-              - 25da0000
+            textures: 1da4438a,25da0000
         Rapeseed/PLOP_1x1_Grfe_seasonal_rapeseed_field_with_tractors_cce021f0.SC4Lot:
           cce021f0:
             building: cce021f0
             name: PLOP_1x1_Grfe_seasonal_rapeseed_field_with_tractors
-            props:
-              - 0c571fcf
-              - 0c57ed8b
-              - 1f61d262
-              - 2c6c0ccb
-              - 4c595771
-              - 8c582eb4
-              - 9f61e278
-              - 9f61f3fd
-              - 9f62045d
-              - 9f620923
-              - af440005
-              - cc44c73f
-              - df620353
-              - ec571fbb
-              - ec571fe5
+            props: 0c571fcf,0c57ed8b,1f61d262,2c6c0ccb,4c595771,8c582eb4,9f61e278,9f61f3fd,9f62045d,9f620923,af440005,cc44c73f,df620353,ec571fbb,ec571fe5
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Wheat/IR$1_1x1_Grfe_seasonal_wheat_field_farm_building_8ce262d0.SC4Lot:
           8ce262d0:
             building: 3ce2628b
             density: low
             name: IR$1_1x1_Grfe_seasonal_wheat_field_farm_building
-            props:
-              - af440000
-              - af440001
-              - af440002
-              - af440003
-              - af440004
-              - af440005
-              - dcd62688
+            props: af440000,af440001,af440002,af440003,af440004,af440005,dcd62688
             size: 1x1
             stage: 1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Wheat/PLOP_1x1_Girafe Wheat Field_dd53e03d.SC4Lot:
           dd53e03d:
             building: dd53e03d
             name: PLOP_1x1_Girafe Wheat Field
-            props:
-              - af440000
-              - af440001
-              - af440002
-              - af440003
-              - af440004
-              - af440005
-              - dcd62688
+            props: af440000,af440001,af440002,af440003,af440004,af440005,dcd62688
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_8ce16804.SC4Lot:
           8ce16804:
             building: 8ce16804
             name: PLOP_1x1_Grfe_seasonal_wheat_field
-            props:
-              - af440000
-              - af440001
-              - af440002
-              - af440003
-              - af440004
-              - af440005
-              - dcd62688
+            props: af440000,af440001,af440002,af440003,af440004,af440005,dcd62688
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_field_building_bce27aec.SC4Lot:
           bce27aec:
             building: bce27aec
             name: PLOP_1x1_Grfe_seasonal_wheat_field_field_building
-            props:
-              - af440000
-              - af440001
-              - af440002
-              - af440003
-              - af440004
-              - af440005
-              - dcd62688
+            props: af440000,af440001,af440002,af440003,af440004,af440005,dcd62688
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
         Wheat/PLOP_1x1_Grfe_seasonal_wheat_field_with_tractors_6ce168a8.SC4Lot:
           6ce168a8:
             building: 6ce168a8
             name: PLOP_1x1_Grfe_seasonal_wheat_field_with_tractors
-            props:
-              - 0c571fcf
-              - 0c57ed8b
-              - 2c6c0ccb
-              - 4c573019
-              - af440000
-              - af440001
-              - af440002
-              - af440003
-              - af440004
-              - af440005
-              - cc44c73f
-              - cc5d145a
-              - dcd62688
-              - ec571fbb
-              - ec571fe5
+            props: 0c571fcf,0c57ed8b,2c6c0ccb,4c573019,af440000,af440001,af440002,af440003,af440004,af440005,cc44c73f,cc5d145a,dcd62688,ec571fbb,ec571fe5
             size: 1x1
-            textures:
-              - 25da0000
+            textures: 25da0000
       models:
         Corn/Grfe_seasonal_corn_field-0x5ad0e817_0xec87ce8a_0x30000.SC4Model:
           - ec87ce8a
@@ -793,9 +669,7 @@ girafe/agripack-vol01:
       version: 2.0.0
 
 girafe/carpack:
-  authors:
-    - bsc
-    - vip
+  authors: bsc,vip
   categories: props,mmps
   name: BSC VIP Girafe Carpack / Urbanpack
   readme:
@@ -3715,9 +3589,7 @@ girafe/carpack:
       version: 2.0.0
 
 girafe/flora-pack:
-  authors:
-    - bsc
-    - vip
+  authors: bsc,vip
   categories: mmps,flora,props
   dependencies:
     - lowkee33/seasonal-flora-patch
@@ -7332,9 +7204,7 @@ girafe/flora-pack:
       version: 3.0.0
 
 girafe/hedges:
-  authors:
-    - bsc
-    - vip
+  authors: bsc,vip
   categories: props
   name: BSC VIP Girafe LE Hedges
   thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/BSC_Common_Dependencies_Pack_V9b.png
