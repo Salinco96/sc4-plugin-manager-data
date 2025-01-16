@@ -100,6 +100,148 @@ jasoncw/2-commerce-street:
         darknite: false
       version: 1.0.0
 
+jasoncw/994-vargas-avenue:
+  buildings:
+    Jasoncw - 994 Vargas Avenue - Grow (CO$$8_6x2).SC4Lot:
+      34957ef6-74958f9e:
+        bulldoze: 918
+        capacity:
+          co$$: 3239
+        categories: co$$
+        flamability: 40
+        garbage: 6
+        model: 0200e353-0004
+        name: Jasoncw - 994 Vargas Avenue (CO$$8_6x2)
+        pollution: 12
+        pollutionRadius: 5
+        power: 65
+        tilesets: Euro
+        water: 657
+        waterPollution: 12
+        waterPollutionRadius: 6
+        worth: 22640
+    Jasoncw - 994 Vargas Avenue - Grow (CO$$9_6x2) (CAM).SC4Lot:
+      34957ef6-54958e41:
+        bulldoze: 918
+        capacity:
+          co$$: 3239
+        categories: co$$
+        flamability: 40
+        garbage: 6
+        model: 0200e353-0004
+        name: Jasoncw - 994 Vargas Avenue (CO$$9_6x2) (CAM)
+        pollution: 12
+        pollutionRadius: 5
+        power: 65
+        tilesets: Euro
+        water: 657
+        waterPollution: 12
+        waterPollutionRadius: 6
+        worth: 22640
+    Jasoncw - 994 Vargas Avenue - Plop (PLOP_6x2).SC4Lot:
+      34957ef6-a4958914:
+        bulldoze: 918
+        capacity:
+          co$$: 3239
+        categories: landmarks,co$$
+        cost: 12832
+        flamability: 40
+        garbage: 6
+        menu: Landmarks
+        model: 0200e353-0004
+        name: Jasoncw - 994 Vargas Avenue (PLOP_CO$$_6x2)
+        pollution: 12
+        pollutionRadius: 5
+        power: 65
+        submenu: Commercial/CO$$
+        water: 657
+        waterPollution: 12
+        waterPollutionRadius: 6
+        worth: 22640
+  categories: co$$,landmarks,cam
+  description: |-
+    994 Vargas Avenue is located on [President Vargas Avenue](https://en.wikipedia.org/wiki/Avenida_Presidente_Vargas), a long straight avenue that was carved out of downtown Rio de Janeiro in the 1940s. The broad avenue features uniform building heights and colonnades along the road's length.
+
+    This BAT has been created for the [Rio 2016 Project](https://community.simtropolis.com/forums/topic/65595-rio-2016-project/).
+
+    - 6x2 growable and ploppable CO§§ lots.
+    - CAM versions included.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-0.jpg.74c0f9913ac2d938e6340a605b92e3ed.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-1.jpg.b9fbdae954241047079cd4b9bca02afd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-2.jpg.4b4a0a0664460fb764b51a3db9cd09f6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-3.jpg.cdc8af1cb66d9e887f8a3225fb6fe241.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-4.jpg.4d8240fa6300f76d37de9ebc967a4348.jpg
+  lots:
+    Jasoncw - 994 Vargas Avenue - Grow (CO$$8_6x2).SC4Lot:
+      24958fbc:
+        building: 74958f9e
+        density: medium,high
+        name: CO$$8_6x2_994 Vargas Avenue
+        requirements:
+          cam: false
+        size: 6x2
+        stage: 8
+        textures: 258d1000,258f2000,25f00000,25fb1100,25fc0000
+    Jasoncw - 994 Vargas Avenue - Grow (CO$$9_6x2) (CAM).SC4Lot:
+      a4958e9a:
+        building: '54958e41'
+        density: medium,high
+        name: CO$$9_6x2_994 Vargas Avenue (CAM)
+        requirements:
+          cam: true
+        size: 6x2
+        stage: 9
+        textures: 258d1000,258f2000,25f00000,25fb1100,25fc0000
+    Jasoncw - 994 Vargas Avenue - Plop (PLOP_6x2).SC4Lot:
+      a4958914:
+        building: a4958914
+        name: PLOP_6x2_994 Vargas Avenue
+        size: 6x2
+        textures: 258d1000,258f2000,25f00000,25fb1100,25fc0000
+  name: 994 Vargas Avenue
+  support: https://community.simtropolis.com/forums/topic/65595-rio-2016-project
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_04/994-Vargas-Ave-STEX-0.thumb.jpg.c558e9fe857e8044c9c79deb5b580d0c.jpg
+  url: https://community.simtropolis.com/files/file/31028-994-vargas-avenue/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/31028-994-vargas-avenue#161391
+          include:
+            - Jasoncw - 994 Vargas Avenue (DN)
+        - id: simtropolis/31028-994-vargas-avenue#161392
+          include:
+            - Jasoncw - 994 Vargas Avenue (CAM)
+      lastGenerated: 2025-01-16T13:34:10.415Z
+      lastModified: 2016-04-15T22:30:40.000Z
+      models:
+        Jasoncw - 994 Vargas Avenue (DN).SC4Model:
+          - 0200e353-0004
+      name: Dark Nite
+      release: 2025-01-16T13:34:10.375Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/31028-994-vargas-avenue#161390
+          include:
+            - Jasoncw - 994 Vargas Avenue (MN)
+        - id: simtropolis/31028-994-vargas-avenue#161392
+          include:
+            - Jasoncw - 994 Vargas Avenue (CAM)
+      lastGenerated: 2025-01-16T13:34:10.405Z
+      lastModified: 2016-04-15T22:30:40.000Z
+      models:
+        Jasoncw - 994 Vargas Avenue (MN).SC4Model:
+          - 0200e353-0004
+      name: Maxis Nite
+      release: 2025-01-16T13:34:10.343Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
 jasoncw/alaska-building:
   buildings:
     Jasoncw - Alaska Building - Grow (CO$$$6_2x2).SC4Lot:
@@ -2265,10 +2407,9 @@ jasoncw/guardian-building:
         - id: simtropolis/32737-guardian-building#174542
           include:
             - Jasoncw - Guardian Building (HD Model)(DN)
+      lastGenerated: 2025-01-16T13:34:10.613Z
       lastModified: 2019-02-01T05:23:19.000Z
       models:
-        Jasoncw - Guardian Building (DN).SC4Model:
-          - 34957ef6
         Jasoncw - Guardian Building (HD)(DN).SC4Model:
           - 34957ef6
       name: Dark Nite (HD)
@@ -2284,6 +2425,7 @@ jasoncw/guardian-building:
         - id: simtropolis/32737-guardian-building#174540
           include:
             - Jasoncw - Guardian Building (CAMeLots)
+      lastGenerated: 2025-01-16T13:34:10.565Z
       lastModified: 2019-02-01T05:23:19.000Z
       models:
         Jasoncw - Guardian Building (DN).SC4Model:
@@ -2306,11 +2448,10 @@ jasoncw/guardian-building:
         - id: simtropolis/32737-guardian-building#174541
           include:
             - Jasoncw - Guardian Building (HD Model)(MN)
+      lastGenerated: 2025-01-16T13:34:10.597Z
       lastModified: 2019-02-01T05:23:19.000Z
       models:
         Jasoncw - Guardian Building (HD)(MN).SC4Model:
-          - 34957ef6
-        Jasoncw - Guardian Building (MN).SC4Model:
           - 34957ef6
       name: Maxis Nite (HD)
       release: 2025-01-16T13:12:52.745Z
@@ -2325,6 +2466,7 @@ jasoncw/guardian-building:
         - id: simtropolis/32737-guardian-building#174540
           include:
             - Jasoncw - Guardian Building (CAMeLots)
+      lastGenerated: 2025-01-16T13:34:10.538Z
       lastModified: 2019-02-01T05:23:19.000Z
       models:
         Jasoncw - Guardian Building (MN).SC4Model:
@@ -2388,6 +2530,7 @@ jasoncw/hathaway-tower:
         - id: simtropolis/33180-hathaway-tower#177899
           include:
             - Jasoncw - Hathaway Tower (DN)
+      lastGenerated: 2025-01-16T13:34:10.129Z
       lastModified: 2019-09-18T02:30:50.000Z
       models:
         Jasoncw - Hathaway Tower (DN).SC4Model:
@@ -2402,6 +2545,7 @@ jasoncw/hathaway-tower:
         - id: simtropolis/33180-hathaway-tower#177898
           include:
             - Jasoncw - Hathaway Tower (MN)
+      lastGenerated: 2025-01-16T13:34:10.122Z
       lastModified: 2019-09-18T02:30:50.000Z
       models:
         Jasoncw - Hathaway Tower (MN).SC4Model:
@@ -4566,6 +4710,7 @@ jasoncw/rachel-de-queiroz:
         - id: simtropolis/33179-residencial-rachel-de-queiroz#177887
           include:
             - Jasoncw - Residencial Rachel de Queiroz (DN)
+      lastGenerated: 2025-01-16T13:34:10.114Z
       lastModified: 2019-09-17T19:42:13.000Z
       models:
         Jasoncw - Residencial Rachel de Queiroz (DN).SC4Model:
@@ -4580,6 +4725,7 @@ jasoncw/rachel-de-queiroz:
         - id: simtropolis/33179-residencial-rachel-de-queiroz#177886
           include:
             - Jasoncw - Residencial Rachel de Queiroz (MN)
+      lastGenerated: 2025-01-16T13:34:10.105Z
       lastModified: 2019-09-17T19:42:13.000Z
       models:
         Jasoncw - Residencial Rachel de Queiroz (MN).SC4Model:
@@ -4690,6 +4836,84 @@ jasoncw/rasmussen-place:
           - 508d01ba
       name: Maxis Nite
       release: 2024-12-16T12:27:42.710Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/roosevelt-circle:
+  buildings:
+    Jasoncw - Roosevelt Circle (PZ2x2).SC4Lot:
+      b5365d1c-b53748b3:
+        bulldoze: 417
+        cost: 670
+        flamability: 10
+        garbage: 1
+        maintenance: 65
+        menu: Parks
+        model: 0200e353-0008
+        name: Jasoncw - Roosevelt Circle (PZ2x2_Roosevelt Circle)
+        pollution: 4294967294
+        pollutionRadius: 4
+        power: 4
+        relief:
+          r$: 4000
+          r$$: 4000
+          r$$$: 4000
+        water: 2
+        waterPollution: 4294967295
+        waterPollutionRadius: 2
+  categories: parks
+  description: |-
+    Roosevelt Circle is a 2x2 roundabout filler park dedicated to Franklin Delano Roosevelt, the 32nd President of the United State of America. It features an art deco bell tower, reflection pool, and steel statues.
+
+    This park was created to be placed in roundabouts, but it also works well as a normal park outside of roundabouts. It can be found near the end of the parks menu.
+
+    - 2x2 park lot.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d4dbbe4_1RooseveltCircleSTEX.jpg.f4f8776ecbca040ee8b68cf2302e7286.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d5cf203_2RooseveltCircleSTEX.jpg.b8045dc5ac195fb71f19526c76544edc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d6ed69b_3RooseveltCircleSTEX.jpg.75dfef702e7ddf333e6cff03db224452.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220d8d536f_4RooseveltCircleSTEX.jpg.5c372465d3a7870368971276242d55cd.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_08/57b220da76655_5RooseveltCircleSTEX.jpg.000fd35ce9eb7c10f267a4806ace532b.jpg
+  lots:
+    Jasoncw - Roosevelt Circle (PZ2x2).SC4Lot:
+      b53748b3:
+        building: b53748b3
+        name: PZ2x2_Roosevelt Circle
+        size: 2x2
+        textures: 258f2000
+  name: Roosevelt Circle
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_08/57b2246e6687a_1RooseveltCircleSTEX.thumb.jpg.c98f5e66b057abbf1330bb8b33e1ccf9.jpg
+  url: https://community.simtropolis.com/files/file/31240-roosevelt-circle/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/31240-roosevelt-circle#162872
+          include:
+            - Jasoncw - Roosevelt Circle (DN)
+      lastGenerated: 2025-01-16T13:34:10.639Z
+      lastModified: 2016-08-15T20:22:06.000Z
+      models:
+        Jasoncw - Roosevelt Circle (DN).SC4Model:
+          - 0200e353-0008
+      name: Dark Nite
+      release: 2025-01-16T13:34:10.639Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/31240-roosevelt-circle#162871
+          include:
+            - Jasoncw - Roosevelt Circle (MN)
+      lastGenerated: 2025-01-16T13:34:10.621Z
+      lastModified: 2016-08-15T20:22:06.000Z
+      models:
+        Jasoncw - Roosevelt Circle (MN).SC4Model:
+          - 0200e353-0008
+      name: Maxis Nite
+      release: 2025-01-16T13:34:10.621Z
       requirements:
         darknite: false
       version: 1.0.0
@@ -5794,6 +6018,117 @@ jasoncw/train-station-set:
       release: 2024-12-16T12:27:45.057Z
       version: 1.1.0
 
+jasoncw/trier-tower:
+  buildings:
+    Jasoncw - Trier Tower - Grow (CO$$$8_2x3).SC4Lot:
+      b5365d1c-d5ed4215:
+        bulldoze: 1320
+        capacity:
+          co$$: 1656
+          co$$$: 1159
+        categories: co$$$
+        flamability: 35
+        garbage: 4
+        model: f55dce2b-0014
+        name: Jasoncw - Trier Tower (CO$$$8_2x3)
+        pollution: 7
+        pollutionRadius: 6
+        power: 47
+        tilesets: Euro
+        water: 511
+        waterPollution: 7
+        waterPollutionRadius: 7
+        worth: 12949
+    Jasoncw - Trier Tower - Plop (CO$$$_2x3).SC4Lot:
+      b5365d1c-25ed448d:
+        bulldoze: 1320
+        capacity:
+          co$$: 1656
+          co$$$: 1159
+        categories: landmarks,co$$$
+        cost: 20644
+        flamability: 35
+        garbage: 4
+        menu: Landmarks
+        model: f55dce2b-0014
+        name: Jasoncw - Trier Tower (CO$$$_2x3)
+        pollution: 7
+        pollutionRadius: 6
+        power: 47
+        submenu: Commercial/CO$$$
+        water: 511
+        waterPollution: 7
+        waterPollutionRadius: 7
+        worth: 12949
+  categories: co$$$,landmarks
+  description: |-
+    This is the third entry into my V2 series of BATs, where I improve upon old creations for re-release. This includes a visual makeover, more accurate modding, and DarkNite versions.
+
+    It's recommended to demolish all old Trier Tower lots in your cities before using this. The new lots have more accurate modding.
+
+    ![Trier-Tower-before-and-after.gif.1b67b38](https://www.simtropolis.com/repository/screens/monthly_2017_01/Trier-Tower-before-and-after.gif.1b67b389c1856da7797258ab8350e5f5.gif)
+
+    - 2x3 growable and ploppable CO§§§ lots.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-00.jpg.a8d29f20c83e33f53db7e9876e6b9ec1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-01.jpg.9f5f15b15fdcae394c1d9e93f9881b3f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-02.jpg.00e4932b16d8a6f663ed3873ce42ce78.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-03.jpg.a3c74eb1b827bd4543673bc9a4f1c9bb.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-04.jpg.cf5dc3c7cf56ccd74f9de64a022930d2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-Tower-before-and-after.gif.1b67b389c1856da7797258ab8350e5f5.gif
+  lots:
+    Jasoncw - Trier Tower - Grow (CO$$$8_2x3).SC4Lot:
+      05ed42b7:
+        building: d5ed4215
+        density: high
+        name: CO$$$8_2x3_Trier Tower
+        props: 29c20000,2ab60000,2ab70000
+        size: 2x3
+        stage: 8
+        textures: 25901000,25ae2000
+    Jasoncw - Trier Tower - Plop (CO$$$_2x3).SC4Lot:
+      25ed448d:
+        building: 25ed448d
+        name: PLOP_2x3_Trier Tower
+        props: 1e990000,2ab60000,2ab70000
+        size: 2x3
+        textures: 25901000,25ae2000
+  name: Trier Tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2017_01/Trier-STEX-00.thumb.jpg.1fa36f0f4bd70cad24345c5d046954b1.jpg
+  url: https://community.simtropolis.com/files/file/31421-trier-tower-v2/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/31421-trier-tower-v2#164197
+          include:
+            - Jasoncw - Trier Tower (DN)
+      lastGenerated: 2025-01-16T13:34:10.447Z
+      lastModified: 2017-01-01T04:49:25.000Z
+      models:
+        Jasoncw - Trier Tower (DN).SC4Model:
+          - f55dce2b-0014
+      name: Dark Nite
+      release: 2025-01-16T13:34:10.447Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/31421-trier-tower-v2#164196
+          include:
+            - Jasoncw - Trier Tower (MN)
+      lastGenerated: 2025-01-16T13:34:10.421Z
+      lastModified: 2017-01-01T04:49:25.000Z
+      models:
+        Jasoncw - Trier Tower (MN).SC4Model:
+          - f55dce2b-0014
+      name: Maxis Nite
+      release: 2025-01-16T13:34:10.421Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
 jasoncw/turtle-publishing:
   buildings:
     Jasoncw - Turtle Publishing - Grow (CO$$$8_2x3).SC4Lot:
@@ -6844,6 +7179,163 @@ jasoncw/wellman-building:
           - 30a0f28a
       name: Maxis Nite
       release: 2024-12-16T12:27:43.620Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/windsor-atlantica:
+  buildings:
+    Jasoncw - Windosr Atlantica Hotel - Plop (CS$$$_2x2).SC4Lot:
+      fb90fd6c-b3f98cde:
+        bulldoze: 1523
+        capacity:
+          cs$: 2526
+          cs$$: 634
+          cs$$$: 255
+        categories: landmarks,cs$$$
+        cost: 29606
+        flamability: 35
+        garbage: 22
+        label: Windsor Atlantica Hotel
+        menu: Landmarks
+        model: 4374c98c
+        name: Jasoncw-Windsor-Atlantica (CS$$$_2x2)
+        pollution: 22
+        pollutionRadius: 6
+        power: 71
+        submenu: Commercial/CS$$$
+        water: 637
+        waterPollution: 11
+        waterPollutionRadius: 7
+        worth: 24552
+    Jasoncw - Windsor Atlantica Hotel - Grow (CS$$$12_2x2) (CAM).SC4Lot:
+      fb90fd6c-73f98a61:
+        bulldoze: 1523
+        capacity:
+          cs$: 3057
+          cs$$: 767
+          cs$$$: 308
+        categories: cs$$$
+        flamability: 35
+        garbage: 27
+        model: 4374c98c
+        name: Jasoncw - Windsor Atlantica (CS$$$12_2x2) (CAM)
+        pollution: 20
+        pollutionRadius: 6
+        power: 86
+        tilesets: Euro,Houston
+        water: 770
+        waterPollution: 13
+        waterPollutionRadius: 7
+        worth: 29714
+    Jasoncw - Windsor Atlantica Hotel - Grow (CS$$$8_2x2).SC4Lot:
+      fb90fd6c-73f98b6b:
+        bulldoze: 1523
+        capacity:
+          cs$: 2526
+          cs$$: 634
+          cs$$$: 255
+        categories: cs$$$
+        flamability: 35
+        garbage: 22
+        model: 4374c98c
+        name: Jasoncw - Windsor Atlantica (CS$$$8_2x2)
+        pollution: 17
+        pollutionRadius: 6
+        power: 71
+        tilesets: Euro,Houston
+        water: 637
+        waterPollution: 11
+        waterPollutionRadius: 7
+        worth: 24552
+  categories: landmarks,cs$$$,cam
+  dependencies:
+    - simfox/day-and-nite
+  description: |-
+    The Windsor Atlantica Hotel is an upscale hotel, built in 1976. It's located on the Copacabana Beach, where it is the tallest building.
+
+    This BAT has been created for the [Rio 2016 Project](https://community.simtropolis.com/forums/topic/65595-rio-2016-project/).
+
+    - 2x2 growable and ploppable CS§§§ lots.
+    - CAM versions included.
+    - MaxisNite and DarkNite versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-00.jpg.d15e1963f25a5ec7d409987c1e03e62d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-01.jpg.e0863b96043102bc1586f6e419c2ab10.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-02.jpg.9339346cb53f3c2ed85044bceba50cd6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-03.jpg.b1f519835a65ac3fe7b667e78d1646a1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-04.jpg.3fcf868b0366a46c7d87ff653cd800b7.jpg
+  lots:
+    Jasoncw - Windosr Atlantica Hotel - Plop (CS$$$_2x2).SC4Lot:
+      b3f98cde:
+        building: b3f98cde
+        name: PLOP_2x2_Windsor Atlantica
+        size: 2x2
+        textures: 258f2000,25bc1000
+    Jasoncw - Windsor Atlantica Hotel - Grow (CS$$$12_2x2) (CAM).SC4Lot:
+      43f98acb:
+        building: 73f98a61
+        density: high
+        name: CS$$$12_2x2_Windsor Atlantica (CAM)
+        replace: 33f98ba2
+        requirements:
+          cam: true
+        size: 2x2
+        stage: 12
+        textures: 258f2000,25bc1000
+    Jasoncw - Windsor Atlantica Hotel - Grow (CS$$$8_2x2).SC4Lot:
+      33f98ba2:
+        building: 73f98b6b
+        density: high
+        name: CS$$$8_2x2_Windsor Atlantica
+        replace: 43f98acb
+        requirements:
+          cam: false
+        size: 2x2
+        stage: 8
+        textures: 258f2000,25bc1000
+  name: Windsor Atlantica Hotel
+  support: https://community.simtropolis.com/forums/topic/65595-rio-2016-project
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2016_02/Windsor-Atlantica-00.thumb.jpg.81cd39ccfcb875a49664bc0918a7e699.jpg
+  url: https://community.simtropolis.com/files/file/30962-windsor-atlantica-hotel/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/30962-windsor-atlantica-hotel#160814
+          include:
+            - Jasoncw - Windsor Atlantica Hotel (DN)
+        - id: simtropolis/30962-windsor-atlantica-hotel#160816
+          include:
+            - Jasoncw - Windsor Atlantica Hotel - Grow*.SC4Lot
+            - Jasoncw - Windsor Atlantica Hotel (CAM) (DN)/Jasoncw - Windosr Atlantica Hotel - Plop (CS$$$_2x2).SC4Lot
+            - Jasoncw - Windsor Atlantica Hotel (CAM) (DN)/Jasoncw - Windsor Atlantica Hotel (DN).SC4Model
+      lastGenerated: 2025-01-16T15:40:07.375Z
+      lastModified: 2016-02-20T22:10:53.000Z
+      models:
+        Jasoncw - Windsor Atlantica Hotel (DN).SC4Model:
+          - 4374c98c
+      name: Dark Nite
+      release: 2025-01-16T13:34:10.281Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/30962-windsor-atlantica-hotel#160813
+          include:
+            - Jasoncw - Windsor Atlantica Hotel (MN)
+        - id: simtropolis/30962-windsor-atlantica-hotel#160815
+          include:
+            - Jasoncw - Windsor Atlantica Hotel - Grow*.SC4Lot
+            - Jasoncw - Windsor Atlantica Hotel (CAM) (MN)/Jasoncw - Windosr Atlantica Hotel - Plop (CS$$$_2x2).SC4Lot
+            - Jasoncw - Windsor Atlantica Hotel (CAM) (MN)/Jasoncw - Windsor Atlantica Hotel (MN).SC4Model
+      lastGenerated: 2025-01-16T15:40:07.366Z
+      lastModified: 2016-02-20T22:10:53.000Z
+      models:
+        Jasoncw - Windsor Atlantica Hotel (MN).SC4Model:
+          - 4374c98c
+      name: Maxis Nite
+      release: 2025-01-16T13:34:10.144Z
       requirements:
         darknite: false
       version: 1.0.0
