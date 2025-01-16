@@ -4,7 +4,7 @@ davide1983it/1250-building:
     - bsc/textures-vol02
     - pegasus/oww2-resource-pack-2
     - simgoober/mega-props-vol01
-  description: It's a skyscraper in internation style, with its 50 stories was built between 1962-1966
+  summary: 50-story skyscraper in international style, built between 1962-1966
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/600c3b48cc0e5_1250building.jpg.d3c37f03ef93e924f9d6381f0ff52507.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/600c3b5246f12_1250building(1).jpg.db686986ff23ed65eea287f996622aeb.jpg
@@ -63,11 +63,9 @@ davide1983it/1x1-residential-building-set-1:
     - davide1983it/props-vol01
     - hk/textures-vol01
   description: |-
-    This set includes 1x1 residential buildings in the $ category (Low Wealth).
+    This set includes 4 corner buildings and 4 linear buildings.
 
-    Each building type has two variations of color schemes.
-
-    Each type of building has 3 different heights: 3, 5, 8 floors.
+    Each building type comes in 2 color schemes and 3 different heights: 3, 5, 8 floors.
 
     Each building has a prop variant to use if you want to create blocks.
   images:
@@ -78,6 +76,7 @@ davide1983it/1x1-residential-building-set-1:
     - https://www.simtropolis.com/objects/screens/monthly_2023_04/64287cd61d578_set1x1(5).png.e2da0d797f1c197d1c2475ffb2386fc3.png
     - https://www.simtropolis.com/objects/screens/monthly_2023_04/64287d2139eee_set1x1(6).png.9b27e6ff7c46c97e138bcdf15cba4074.png
   name: 1x1 Residential Building Set 1
+  summary: Set of 1x1 low-wealth residential buildings in multiple color and height combinations
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_04/64287e5b1b344_set1x1(1).thumb.png.f276673bab2c1af2a4e34ec7c2b943bb.png
   url: https://community.simtropolis.com/files/file/35492-residential-building-1x1/
   variants:
@@ -1245,11 +1244,9 @@ davide1983it/1x1-residential-building-set-2:
     - davide1983it/props-vol01
     - hk/textures-vol01
   description: |-
-    This set includes 1x1 residential buildings in the $ category (Low Wealth): 4 corner buildings and 4 linear buildings.
+    This set includes 4 corner buildings and 4 linear buildings.
 
-    Each building type has two variations of color schemes.
-
-    Each type of building has 3 different heights: 3, 5, 8 floors.
+    Each building type comes in 2 color schemes and 3 different heights: 3, 5, 8 floors.
 
     Each building has a prop variant to use if you want to create blocks.
   images:
@@ -1258,6 +1255,7 @@ davide1983it/1x1-residential-building-set-2:
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/66252f98bdea7_set1x1(1).png.e3f32b1bbd40575b008ea1fec3620d07.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_04/66252fcd6905f_set1x1(2).png.fd4fdf66ff99e1fe99845d80ee9e3813.png
   name: 1x1 Residential Building Set 2
+  summary: Set of 1x1 low-wealth residential buildings in multiple color and height combinations
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/6625313f9695e_set1x1(4).thumb.png.882d14434f4315f15c7dbcb41ac2428b.png
   url: https://community.simtropolis.com/files/file/36212-1x1-residential-building-set/
   variants:
@@ -2792,7 +2790,7 @@ davide1983it/20-huskies-building:
   dependencies:
     - jestarr/mega-props-vol01
     - simgoober/mega-props-vol01
-  description: Artdeco skyscraper
+  summary: Imposing artdeco skyscraper
   name: 20 Huskies Building
   variants:
     hd:
@@ -2897,11 +2895,70 @@ davide1983it/20-huskies-building:
       url: https://community.simtropolis.com/files/file/34329-20-huskies-building/
       version: 1.0.0
 
+davide1983it/apartaments-utsunomiya:
+  categories: r$$,japan
+  dependencies:
+    - bsc/textures-vol01
+    - cycledogg/mega-props-vol01
+    - delecto/people-props
+    - sfbt/essentials
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fba41808b1eb_ApartamentUtsunomiya(1).jpg.aeedce5e18c32d3a0185f1a2158dc279.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fba4181cb7fb_ApartamentUtsunomiya(2).jpg.40b021b0fea8693d2b84b84e83818182.jpg
+  name: Apartments Utsunomiya
+  summary: Japanese-style residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fba41a2bc836_ApartamentUtsunomiya(1).thumb.jpg.2a2e7296c556db248cb0adc5746f6bb1.jpg
+  url: https://community.simtropolis.com/files/file/33970-apartaments-utsunomiya/
+  variants:
+    default:
+      assets:
+        - docs:
+            - apartament Utsunomiya
+          id: simtropolis/33970-apartaments-utsunomiya
+          include:
+            - apartament Utsunomiya
+      buildings:
+        Davide1983it - Apartament Utsunomiya.SC4Desc:
+          cbd483bc-acc65186:
+            bulldoze: 381
+            capacity:
+              r$: 123
+              r$$: 69
+            categories: r$$
+            flamability: 40
+            garbage: 10
+            model: cbd483bc-00b9
+            name: Davide1983it - Apartament Utsunomiya
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 11
+            waterPollution: 2
+            waterPollutionRadius: 6
+            worth: 1773
+      lastGenerated: 2025-01-15T13:23:21.800Z
+      lastModified: 2020-11-22T10:47:00.000Z
+      lots:
+        Davide1983it - Apartament Utsunomiya.SC4Lot:
+          6cc66fc0:
+            building: acc65186
+            density: medium,high
+            name: R$$5_3x2
+            props: 1337b3d7,1dfb0000,1f0b0000,5337b3f7,5337b3f8,5a829953,9337b3b3,9a829a18,a000004d,ba82990b,ffd9493e,ffd9530e
+            size: 2x2
+            stage: 4
+            textures: 59225000,59226000,5922a000,cf000170
+      models:
+        Davide1983it - Apartament Utsunomiya.SC4Model:
+          - cbd483bc-00b9
+      release: 2025-01-15T13:23:21.800Z
+      version: 1.0.0
+
 davide1983it/atlantia-insurance-building:
   categories: co$$$
   dependencies:
     - pegasus/mtp-super-pack
-  description: An imposing artdeco skyscraper
+  summary: Imposing artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d7324009241_AtlantiaInsuranceBuilding.jpg.96b4cebf9cb306b0455e3a5a643522d9.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_01/61d732464b127_AtlantiaInsuranceBuilding(2).jpg.064ab24102167b842d9d9931d356cbab.jpg
@@ -2961,6 +3018,7 @@ davide1983it/barroco-hispano-building:
     - https://www.simtropolis.com/objects/screens/monthly_2021_04/60847e805b588_BarrocoHispanoBuilding(3).jpg.ddc77f8a3214a10b6e43a67f98c34221.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_04/60847e81c2df0_BarrocoHispanoBuilding(4).jpg.f84ed6af50ab76a8cedb467bd10db248.jpg
   name: Barroco Hispano Building
+  summary: Artdeco skyscraper
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_04/60847f09ce910_BarrocoHispanoBuilding(1).thumb.jpg.de83ef91256f07529735545fa314966e.jpg
   url: https://community.simtropolis.com/files/file/34407-barroco-hispano-building/
   variants:
@@ -3019,7 +3077,7 @@ davide1983it/barroco-hispano-building:
 
 davide1983it/bbva-building:
   categories: co$$$
-  description: Headquarter of the spanish "Banco Bilbao Vizcaya Argentaria"
+  summary: Headquarter of the spanish "Banco Bilbao Vizcaya Argentaria"
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/676c1c8f3ae61_BBVAbuilding(1).png.83391dd58aa6b4ba5831c9ad1febac2f.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_12/676c1c8e235e1_BBVAbuilding(2).png.89863f027b5e94182ee2eb48bfba7cae.png
@@ -3077,10 +3135,8 @@ davide1983it/belvedere:
     - pclark06/mega-props-vol01
     - porkissimo/jenx-porkie-expanded-props
     - simmer2/mega-props-vol03
-  description: |-
-    Belvedere in italian is used to indicate a viewpoint.
-
-    A small viewpoint with terrace, a small pic nic area, a toilett and a parking.
+  summary: Small viewpoint with terrace, a small picnic area, a toilet, and a parking
+  description: Belvedere in italian is used to indicate a viewpoint.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/6040a94d25bc7_belvedere(1).jpg.c223b8ec7859181be14ea146b98f1c02.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/6040a94e8e9a5_belvedere(2).jpg.c58c2affb06898cf9c850a68b6e58241.jpg
@@ -3162,7 +3218,7 @@ davide1983it/caltea-building:
     - 11241036/textures
     - agc/environment-dlc
     - pegasus/mtp-super-pack
-  description: Artdeco skyscraper
+  summary: Artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_08/64cb9a0ac0fb2_calteabuilding(1).png.7b52a485b53298cd978dba8584009c75.png
     - https://www.simtropolis.com/objects/screens/monthly_2023_08/64cb9a1508405_calteabuilding(4).png.3b07d739b079b7c8a5450874d5946555.png
@@ -3222,7 +3278,7 @@ davide1983it/capitol-state-building:
     - pegasus/oww2-resource-pack-2
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
-  description: Comes with or without garden.
+  summary: Government landmark in 2 versions, with or without garden
   name: Capitol State Building
   variants:
     hd:
@@ -3448,7 +3504,7 @@ davide1983it/captcity-tower:
     - cycledogg/mega-props-vol01
     - delecto/people-props
     - sfbt/essentials
-  description: Artdeco tower
+  summary: Artdeco skyscraper
   name: CaptCity Tower
   variants:
     hd:
@@ -3577,14 +3633,193 @@ davide1983it/captcity-tower:
       url: https://community.simtropolis.com/files/file/34398-captcity-tower/
       version: 1.0.0
 
+davide1983it/condominio-aleardi:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol02
+    - couchpotato/mega-props-vol01
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f55a9a412e31_CondominioAleardi(1).jpg.29f776e19f34d30bc809f7866e3c50c1.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f55a9ab79987_CondominioAleardi(2).jpg.56f29c4f84850362a936c35e3f6c4f17.jpg
+  name: Condominio Aleardi
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f55a9f4efc46_CondominioAleardi(1).thumb.jpg.403ab9990a4f7a501ab1d5685d8ab719.jpg
+  url: https://community.simtropolis.com/files/file/33821-condominio-aleardi/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio aleardi
+          id: simtropolis/33821-condominio-aleardi
+          include:
+            - condominio aleardi
+      buildings:
+        Davide1983it - Condominio Aleardi.SC4Desc:
+          cbd483bc-2c60114b:
+            bulldoze: 932
+            capacity:
+              r$: 1821
+              r$$: 1007
+            categories: r$$
+            flamability: 40
+            garbage: 141
+            model: cbd483bc-006d
+            name: Davide1983it - Condominio Aleardi
+            pollution: 28
+            pollutionRadius: 5
+            power: 14
+            water: 158
+            waterPollution: 28
+            waterPollutionRadius: 6
+            worth: 26281
+      lastGenerated: 2025-01-15T13:23:21.615Z
+      lastModified: 2020-09-07T03:33:09.000Z
+      lots:
+        Davide1983it - Condominio Aleardi.SC4Lot:
+          0c6015ae:
+            building: 2c60114b
+            density: high
+            name: Davide1983it - Condominio Aleardi
+            props: 1dff0000,1ee00000,28f10000,2a7ccda1,8eee1c74
+            size: 3x3
+            stage: 7
+            textures: 258f2000,f20b4065
+      models:
+        Davide1983it - Condominio Aleardi.SC4Model:
+          - cbd483bc-006d
+      release: 2025-01-15T13:23:21.615Z
+      version: 1.0.0
+
+davide1983it/condominio-alfieri:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol02
+    - cycledogg/mega-props-vol01
+    - paeng/textures
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa69b50c8d23_condominioaflieri(1).jpg.5904146e2b965a3f983f4247288b9470.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa69b5566eff_condominioaflieri(2).jpg.ce1f44bf53b0cd2dc4d38e4dac0194ac.jpg
+  name: Condominio Alfieri
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa69b76a333b_condominioaflieri(1).thumb.jpg.93f2720a7a515da6660745238f4a8b92.jpg
+  url: https://community.simtropolis.com/files/file/33943-condominio-alfieri/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio alfieri
+          id: simtropolis/33943-condominio-alfieri
+          include:
+            - condominio alfieri
+      buildings:
+        Davide1983it - Condominio Alfieri.SC4Desc:
+          cbd483bc-ccb2c33c:
+            bulldoze: 1381
+            capacity:
+              r$: 1764
+              r$$: 975
+            categories: r$$
+            flamability: 40
+            garbage: 137
+            model: cbd483bc-00a5
+            name: Davide1983it - Condominio Alfieri
+            pollution: 27
+            pollutionRadius: 5
+            power: 14
+            water: 153
+            waterPollution: 27
+            waterPollutionRadius: 6
+            worth: 25459
+      lastGenerated: 2025-01-15T13:23:21.754Z
+      lastModified: 2020-11-07T13:04:55.000Z
+      lots:
+        Davide1983it - Condominio Alfieri.SC4Lot:
+          6cb2c99e:
+            building: ccb2c33c
+            density: high
+            name: davide1983it - Condominio Alfieri
+            props: 1337b3d6,1e120000,5337b3f8,9337b3b2,f337b44b
+            size: 3x2
+            stage: 8
+            textures: 258f2000,61c34000,f5f84305
+      models:
+        Davide1983it - Condominio Alfieri.SC4Model:
+          - cbd483bc-00a5
+      release: 2025-01-15T13:23:21.754Z
+      version: 1.0.0
+
 davide1983it/condominio-aristide:
+  categories: r$$$
+  dependencies:
+    - girafe/carpack
+  deprecated: davide1983it/condominio-aristide-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1d82d1cec79_CondominioAristide1.jpg.59820959c1691cbd0b713580f0b67078.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1d82d6a1161_CondominioAristide2.jpg.05a912f1bccb0f1bd4f8cf9a61940fb2.jpg
+  name: Condominio Aristide
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1d8363bf8f1_CondominioAristide1.thumb.jpg.551ccc1ccaee6662e26927e40458bf34.jpg
+  url: https://community.simtropolis.com/files/file/33718-condominio-aristide/
+  variants:
+    default:
+      assets:
+        - docs:
+            - Condominio Aristide
+          id: simtropolis/33718-condominio-aristide
+          include:
+            - Condominio Aristide
+      buildings:
+        Davide1983it - Condominio Aristide.SC4Desc:
+          cbd483bc-4c29bf17:
+            bulldoze: 592
+            capacity:
+              r$: 1532
+              r$$: 847
+              r$$$: 372
+            categories: r$$$
+            flamability: 35
+            garbage: 55
+            model: 8c222447
+            name: Davide1983it - Condominio Aristide
+            pollution: 9
+            pollutionRadius: 6
+            power: 47
+            water: 228
+            waterPollution: 9
+            waterPollutionRadius: 7
+            worth: 23387
+      lastGenerated: 2025-01-15T13:23:21.460Z
+      lastModified: 2020-07-26T13:21:41.000Z
+      lots:
+        Davide1983it - Condominio Aristide.SC4Lot:
+          0c29c1c6:
+            building: 4c29bf17
+            density: medium,high
+            name: Davide1983it - Condominio Aristide
+            props: 3d4ea405,5d4e8c42,9d4e8bdb,9d4ea352,9d4ea380,bd4e905a,bd4ea540,dd4eae8f,fd4ea24a
+            size: 4x3
+            stage: 6
+            textures: 258f2000,25a32000
+      models:
+        Davide1983it - Condominio Aristide.SC4Model:
+          - 8c222447
+      release: 2025-01-15T13:23:21.460Z
+      version: 1.0.0
+
+davide1983it/condominio-aristide-v2:
   categories: r$$$
   dependencies:
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
     - girafe/carpack
     - swi21/mega-props-vol01
-  name: Condominio Aristide
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045283b01068_condominioaristide(1).jpg.2efdb1f98eb8d4d898888988f6fbed44.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045283f2fc79_condominioaristide.jpg.090379095369f8681be6dbd424c74983.jpg
+  name: Condominio Aristide v2
+  summary: Highrise residential block (updated texture)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6045288c80c5d_condominioaristide(1).thumb.jpg.eff264cdf96585e5e4066f0c31cfccba.jpg
   variants:
     hd:
       assets:
@@ -3611,9 +3846,6 @@ davide1983it/condominio-aristide:
             waterPollution: 4
             waterPollutionRadius: 7
             worth: 11054
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2003dae992_condominioset(3).jpg.fdff33de3564f00b6f202ed96c209453.jpg
       lastGenerated: 2025-01-14T13:29:03.357Z
       lastModified: 2021-07-04T18:41:20.000Z
       lots:
@@ -3632,9 +3864,8 @@ davide1983it/condominio-aristide:
           - 306a77f3
       name: HD
       release: 2025-01-14T13:29:03.296Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
       url: https://community.simtropolis.com/files/file/34567-condominio-set/
-      version: 1.0.0
+      version: 2.0.0
     sd:
       assets:
         - docs:
@@ -3662,9 +3893,6 @@ davide1983it/condominio-aristide:
             waterPollution: 9
             waterPollutionRadius: 7
             worth: 23387
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045283b01068_condominioaristide(1).jpg.2efdb1f98eb8d4d898888988f6fbed44.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045283f2fc79_condominioaristide.jpg.090379095369f8681be6dbd424c74983.jpg
       lastGenerated: 2025-01-14T13:01:59.448Z
       lastModified: 2021-03-07T19:25:01.000Z
       lots:
@@ -3683,11 +3911,66 @@ davide1983it/condominio-aristide:
           - 8c222447
       name: SD
       release: 2025-01-14T13:01:59.440Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6045288c80c5d_condominioaristide(1).thumb.jpg.eff264cdf96585e5e4066f0c31cfccba.jpg
       url: https://community.simtropolis.com/files/file/34234-condominio-aristide-v2/
       version: 2.0.0
 
 davide1983it/condominio-atlantia:
+  categories: r$$
+  deprecated: davide1983it/condominio-atlantia-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fcdf744d5026_condominioatlantia(2).jpg.4ef162eae9f711ab49bfd639393540b6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fcdf74ac08f7_condominioatlantia(1).jpg.6cc4dbbc651f8711783877f442db960d.jpg
+  name: Condominio Atlantia
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_12/5fcdf767db53b_condominioatlantia(2).thumb.jpg.a96a175d1e592dd26c45d1d1ce0e74fc.jpg
+  url: https://community.simtropolis.com/files/file/33985-condominio-atlantia/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio atlantia
+          id: simtropolis/33985-condominio-atlantia
+          include:
+            - condominio atlantia
+      buildings:
+        Davide1983it - Condominio Atlantia.SC4Desc:
+          cbd483bc-2cda24cf:
+            bulldoze: 1873
+            capacity:
+              r$: 2007
+              r$$: 1109
+            categories: r$$
+            flamability: 40
+            garbage: 156
+            model: cbd483bc-00ad
+            name: Davide1983it - Condominio Atlantia
+            pollution: 31
+            pollutionRadius: 5
+            power: 16
+            water: 175
+            waterPollution: 31
+            waterPollutionRadius: 6
+            worth: 28962
+      lastGenerated: 2025-01-15T13:23:21.822Z
+      lastModified: 2020-12-07T09:35:37.000Z
+      lots:
+        Davide1983it - Condominio Atlantia.SC4Lot:
+          8cda275b:
+            building: 2cda24cf
+            density: high
+            name: Davide1983it - Condominio Atlantia
+            props: 1dfb0000,291f0000,2a180000,9079062c
+            size: 3x2
+            stage: 8
+            textures: 251c2000,258f2000,25b02000
+      models:
+        Davide1983it - Condominio Atlantia.SC4Model:
+          - cbd483bc-00ad
+      name: v1
+      release: 2025-01-15T13:23:21.822Z
+      version: 1.0.0
+
+davide1983it/condominio-atlantia-v2:
   categories: r$$
   dependencies:
     - bsc/textures-vol01
@@ -3701,7 +3984,8 @@ davide1983it/condominio-atlantia:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045fcb845385_CondominioAtlantia(1).jpg.a8b1f65c336ba2d8674027f274174e73.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045fcc03e382_CondominioAtlantia(2).jpg.06650346a91cf5de3594ca42afdef326.jpg
-  name: Condominio Atlantia
+  name: Condominio Atlantia v2
+  summary: Highrise residential block (updated texture)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6045fd3796ab5_CondominioAtlantia(1).thumb.jpg.e72403a1e174341a0fc06af5b057949f.jpg
   url: https://community.simtropolis.com/files/file/34241-condominio-atlantia-v2/
   variants:
@@ -3749,7 +4033,122 @@ davide1983it/condominio-atlantia:
       release: 2025-01-14T11:22:16.874Z
       version: 2.0.0
 
+davide1983it/condominio-bacro:
+  categories: r$
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f9b8de9134cf_condominiobacro.jpg.fb4072163e055f7bbe092df47aec3d96.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f9b8df13f6bd_condominiobacro(1).jpg.40a94525d26d4252851d0bc76cb3550c.jpg
+  name: Condominio Bacro
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f9b8f29acc58_condominiobacro.thumb.jpg.9cd153403bc142ddef4be7a4a6e05d23.jpg
+  url: https://community.simtropolis.com/files/file/33921-condominio-bacro/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio bacro
+          id: simtropolis/33921-condominio-bacro
+          include:
+            - condominio bacro
+      buildings:
+        Davide1983it - Condominio Bacro.SC4Desc:
+          cbd483bc-6ca75282:
+            bulldoze: 331
+            capacity:
+              r$: 289
+            categories: r$
+            flamability: 45
+            garbage: 17
+            model: cbd483bc-00a3
+            name: Davide1983it - Condominio Bacro
+            pollution: 9
+            pollutionRadius: 5
+            power: 2
+            water: 14
+            waterPollution: 3
+            waterPollutionRadius: 5
+            worth: 3925
+      lastGenerated: 2025-01-15T13:23:21.727Z
+      lastModified: 2020-10-30T03:57:30.000Z
+      lots:
+        Davide1983it - Condominio Bacro.SC4Lot:
+          6ca7580f:
+            building: 6ca75282
+            density: medium,high
+            name: davide1983it - Condominio Bacro
+            props: 12665669,5337b3f7,5337b3f8,cdf471ef,f337b393,f337b394
+            size: 2x2
+            stage: 6
+            textures: 25ae2000,dd767600
+      models:
+        Davide1983it - Condominio Bacro.SC4Model:
+          - cbd483bc-00a3
+      release: 2025-01-15T13:23:21.727Z
+      version: 1.0.0
+
 davide1983it/condominio-bellavista:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol02
+  deprecated: davide1983it/condominio-bellavista-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f70da79bad21_bellavistaresidence1.jpg.667e1e7da94c3c57978d74e2fa63cc27.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f70da7c87974_bellavistaresidence2.jpg.15c9084fd4074cdc548e4c591d62eaac.jpg
+  name: Condominio Bellavista
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f70dadc28129_bellavistaresidence1.thumb.jpg.adb9bd31a87d2771a3409a2b0f7f2d44.jpg
+  url: https://community.simtropolis.com/files/file/33841-bellavista-residence/
+  variants:
+    default:
+      assets:
+        - docs:
+            - bellavista residence
+          id: simtropolis/33841-bellavista-residence
+          include:
+            - bellavista residence
+      buildings:
+        Davide1983it - Bellavista Residence.SC4Desc:
+          cbd483bc-4c7d185d:
+            bulldoze: 1835
+            capacity:
+              r$: 1909
+              r$$: 1055
+            categories: r$$
+            flamability: 40
+            garbage: 148
+            model: cbd483bc-0097
+            name: Davide1983it - Bellavista Residence
+            pollution: 30
+            pollutionRadius: 5
+            power: 15
+            water: 166
+            waterPollution: 30
+            waterPollutionRadius: 6
+            worth: 27542
+      lastGenerated: 2025-01-15T13:23:21.658Z
+      lastModified: 2020-09-27T18:33:01.000Z
+      lots:
+        Davide1983it - Bellavista Residence.SC4Lot:
+          8c7d1ac9:
+            building: 4c7d185d
+            density: high
+            name: Davide1983it - Bellavista Residence
+            size: 2x2
+            stage: 8
+            textures: 26333000,61134a00
+      models:
+        Davide1983it - Bellavista Residence.SC4Model:
+          - cbd483bc-0097
+      name: v1
+      release: 2025-01-15T13:23:21.658Z
+      version: 1.0.0
+
+davide1983it/condominio-bellavista-v2:
   categories: r$$
   dependencies:
     - bsc/textures-vol01
@@ -3762,7 +4161,8 @@ davide1983it/condominio-bellavista:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045217bb0b1a_condominiobellavista(2).jpg.1b27498fd8bd57c6df884600a836401f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60452180c9d29_condominiobellavista(1).jpg.1d1025d1dc1517cc832cb895c6b6bfba.jpg
-  name: Condominio Bellavista
+  name: Condominio Bellavista v2
+  summary: Highrise residential block (updated texture)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6045263b2d21d_condominiobellavista(2).thumb.jpg.dff7cf620d498f1aa4c07baf0b82d3d7.jpg
   url: https://community.simtropolis.com/files/file/34232-condominio-bellavista-2/
   variants:
@@ -3812,7 +4212,12 @@ davide1983it/condominio-bellavista:
 
 davide1983it/condominio-betulla:
   categories: r$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/60145d703e183_condominiobetulla(1).jpg.d79a464bea2ac422417d2804dd9f2140.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/60145d72ea494_condominiobetulla.jpg.4e8172bc95a44bced22945edcba765a2.jpg
   name: Condominio Betulla
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_01/60145d8d850ad_condominiobetulla(1).thumb.jpg.15dd49698083dee9ff0bf82dd705b4db.jpg
   variants:
     hd:
       assets:
@@ -3842,9 +4247,6 @@ davide1983it/condominio-betulla:
         - bsc/textures-vol02
         - cycledogg/mega-props-vol01
         - swi21/mega-props-vol01
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2003dae992_condominioset(3).jpg.fdff33de3564f00b6f202ed96c209453.jpg
       lastGenerated: 2025-01-14T13:29:03.374Z
       lastModified: 2021-07-04T18:41:20.000Z
       lots:
@@ -3863,7 +4265,6 @@ davide1983it/condominio-betulla:
           - b06a69a8
       name: HD
       release: 2025-01-14T13:29:03.363Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
       url: https://community.simtropolis.com/files/file/34567-condominio-set/
       version: 1.0.0
     sd:
@@ -3894,9 +4295,6 @@ davide1983it/condominio-betulla:
             worth: 24607
       dependencies:
         - simgoober/mega-props-vol01
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_01/60145d703e183_condominiobetulla(1).jpg.d79a464bea2ac422417d2804dd9f2140.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_01/60145d72ea494_condominiobetulla.jpg.4e8172bc95a44bced22945edcba765a2.jpg
       lastGenerated: 2025-01-14T13:01:59.349Z
       lastModified: 2021-01-29T19:10:05.000Z
       lots:
@@ -3915,11 +4313,123 @@ davide1983it/condominio-betulla:
           - cbd483bc-00c7
       name: SD
       release: 2025-01-14T13:01:59.336Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_01/60145d8d850ad_condominiobetulla(1).thumb.jpg.15dd49698083dee9ff0bf82dd705b4db.jpg
       url: https://community.simtropolis.com/files/file/34076-condominio-betulla/
       version: 1.0.0
 
+davide1983it/condominio-bottoli:
+  categories: r$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0607ad96e53_CondominioBottoli(1).jpg.a5794cec42458e1c76f51f7fef9ee5f7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0607afb689e_CondominioBottoli(2).jpg.a853593f782b5b98b1e49da2ba7c671e.jpg
+  name: Condominio Bottoli
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0607de508f5_CondominioBottoli(1).thumb.jpg.42ba1693af167d45f60c50a13c311dfe.jpg
+  url: https://community.simtropolis.com/files/file/33689-condominio-bottoli/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio bottoli
+          id: simtropolis/33689-condominio-bottoli
+          include:
+            - condominio bottoli
+      buildings:
+        Davide1983it - Condominio Bottoli.SC4Desc:
+          cbd483bc-ac067d0f:
+            bulldoze: 596
+            capacity:
+              r$: 1459
+              r$$: 807
+            categories: r$$
+            flamability: 40
+            garbage: 113
+            model: cbd483bc-003c
+            name: condominio bottoli V3
+            pollution: 23
+            pollutionRadius: 5
+            power: 11
+            water: 127
+            waterPollution: 23
+            waterPollutionRadius: 6
+            worth: 50000
+      lastGenerated: 2025-01-15T13:14:23.101Z
+      lastModified: 2020-07-08T17:52:30.000Z
+      lots:
+        Davide1983it - Condominio Bottoli.SC4Lot:
+          0c067dfc:
+            building: ac067d0f
+            density: high
+            name: Davide1983it - Condominio Bottoli
+            size: 3x3
+            stage: 7
+            textures: '258e3000'
+      models:
+        Davide1983it - Condominio Bottoli.SC4Model:
+          - cbd483bc-003c
+      release: 2025-01-15T13:14:23.101Z
+      version: 2.0.0
+
 davide1983it/condominio-bramante:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  deprecated: davide1983it/condominio-bramante-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fd5e89acdc18_condominiobramante.jpg.e031c7798c35f05c255d731cbaacf40d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fd5e8a0183f2_condominiobramante(1).jpg.cf8df47c31aeba7adba6ed97b5a386a4.jpg
+  name: Condominio Bramante
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_12/5fd5e9dda7bfc_condominiobramante.thumb.jpg.658963fe7dcccb0c8c82a7f3d9ce230c.jpg
+  url: https://community.simtropolis.com/files/file/33990-condominio-bramante/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio bramante
+          id: simtropolis/33990-condominio-bramante
+          include:
+            - condominio bramante
+      buildings:
+        Davide1983it - Condominio Bramante.SC4Desc:
+          cbd483bc-2ce1d60f:
+            bulldoze: 2025
+            capacity:
+              r$: 4984
+              r$$: 2753
+            categories: r$$
+            flamability: 40
+            garbage: 387
+            model: cbd483bc-00ae
+            name: Davide1983it - Condominio Bramante
+            pollution: 77
+            pollutionRadius: 5
+            power: 38
+            water: 433
+            waterPollution: 77
+            waterPollutionRadius: 6
+            worth: 71922
+      lastGenerated: 2025-01-15T13:23:21.847Z
+      lastModified: 2020-12-13T10:15:59.000Z
+      lots:
+        Davide1983it - Condominio Bramante.SC4Lot:
+          6ce1de72:
+            building: 2ce1d60f
+            density: high
+            name: Davide1983it - Condominio Bramante
+            props: 1dfb0000,2a100000,52720f32,52720f34,52720f35,ae09d341,ce0c0619
+            size: 4x3
+            stage: 8
+            textures: 258f2000,25ae2000,59214000,5922a000,61c2f000
+      models:
+        Davide1983it - Condominio Bramante.SC4Model:
+          - cbd483bc-00ae
+      release: 2025-01-15T13:23:21.847Z
+      version: 1.0.0
+
+davide1983it/condominio-bramante-v2:
   categories: r$$
   dependencies:
     - bsc/textures-vol03
@@ -3933,7 +4443,8 @@ davide1983it/condominio-bramante:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/604529a3f0593_condominiobramante(1).jpg.8973563e785cf8f2ee773d6d96407445.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/604529a868cfc_condominiobramante(2).jpg.cd983cac113ea8781666d3e1468baf4b.jpg
-  name: Condominio Bramante
+  name: Condominio Bramante v2
+  summary: Highrise residential block (updated texture)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/604529e6768ce_condominiobramante(1).thumb.jpg.10c43bf0e8d3cb44e0b47d9b2b6c4bc2.jpg
   url: https://community.simtropolis.com/files/file/34235-condominio-bramante-v2/
   variants:
@@ -3982,13 +4493,79 @@ davide1983it/condominio-bramante:
       version: 2.0.0
 
 davide1983it/condominio-burrini:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - cycledogg/mega-props-vol01
+    - girafe/carpack
+    - simgoober/mega-props-vol01
+  deprecated: davide1983it/condominio-burrini-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8ddd4fc7df1_condominioburrini.jpg.13025631df5cce7306c84800095b60fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8ddd47167da_condominioburrini(1).jpg.f17ecd95cfb375e12c94710e4a75a802.jpg
+  name: Condominio Burrini
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8dde1ab613c_condominioburrini.thumb.jpg.037a6888bf91049cdc34d327344acf06.jpg
+  url: https://community.simtropolis.com/files/file/33895-condominio-burrini/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio burrini
+          id: simtropolis/33895-condominio-burrini
+          include:
+            - condominio burrini
+      buildings:
+        Davide1983it - Condominio Burrini.SC4Desc:
+          cbd483bc-6c994416:
+            bulldoze: 1411
+            capacity:
+              r$: 1241
+              r$$: 686
+            categories: r$$
+            flamability: 40
+            garbage: 96
+            model: cbd483bc-009f
+            name: Davide1983it - Condominio Burrini
+            pollution: 19
+            pollutionRadius: 5
+            power: 10
+            water: 108
+            waterPollution: 19
+            waterPollutionRadius: 6
+            worth: 17903
+      lastGenerated: 2025-01-15T13:23:21.702Z
+      lastModified: 2020-10-19T18:42:35.000Z
+      lots:
+        Davide1983it - Condominio Burrini.SC4Lot:
+          0c9a15ab:
+            building: 6c994416
+            density: high
+            name: Davide1983it - Condominio Burrini
+            props: 1dfb0000,5337b3f8,5d4eaab5,7d4ea7a2,7d4eaeeb,9337b3b3,9d4e9dbd,f337b392,f337b394,f337b429,f337b44b,fd4ea276,fd4ea933
+            size: 3x2
+            stage: 7
+            textures: 26213000,26220000,61005000,f0b06290
+      models:
+        Davide1983it - Condominio Burrini.SC4Model:
+          - cbd483bc-009f
+      release: 2025-01-15T13:23:21.702Z
+      version: 1.0.0
+
+davide1983it/condominio-burrini-v2:
   categories: residential
   dependencies:
     - bsc/textures-vol01
     - cycledogg/mega-props-vol01
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
-  name: Condominio Burrini
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045274136cb0_condominioburrini(1).jpg.ab4fd16ceaab9f9cdc27e3cc72b8a84f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604527465a048_condominioburrini(2).jpg.89097c687c28f579ac40186894948194.jpg
+  name: Condominio Burrini v2
+  summary: Highrise residential block (updated texture)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/604527749e519_condominioburrini(1).thumb.jpg.0765d1680be436bba07d72c68ccb8d0d.jpg
   variants:
     hd:
       assets:
@@ -4015,9 +4592,6 @@ davide1983it/condominio-burrini:
             waterPollutionRadius: 6
             worth: 18037
       categories: r$$
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2003dae992_condominioset(3).jpg.fdff33de3564f00b6f202ed96c209453.jpg
       lastGenerated: 2025-01-14T13:29:03.387Z
       lastModified: 2021-07-04T18:41:20.000Z
       lots:
@@ -4036,9 +4610,8 @@ davide1983it/condominio-burrini:
           - 306a79a0
       name: HD (R$$)
       release: 2025-01-14T13:29:03.379Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e200ce735fe_condominioset(1).thumb.jpg.cdd2a25207255185206dda3b7e6656fe.jpg
       url: https://community.simtropolis.com/files/file/34567-condominio-set/
-      version: 1.0.0
+      version: 2.0.0
     sd:
       assets:
         - docs:
@@ -4067,9 +4640,6 @@ davide1983it/condominio-burrini:
             waterPollutionRadius: 7
             worth: 19087
       categories: r$$$
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045274136cb0_condominioburrini(1).jpg.ab4fd16ceaab9f9cdc27e3cc72b8a84f.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/604527465a048_condominioburrini(2).jpg.89097c687c28f579ac40186894948194.jpg
       lastGenerated: 2025-01-14T13:01:59.430Z
       lastModified: 2021-03-07T19:20:21.000Z
       lots:
@@ -4088,17 +4658,80 @@ davide1983it/condominio-burrini:
           - cbd483bc-011b
       name: SD (R$$$)
       release: 2025-01-14T13:01:59.424Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/604527749e519_condominioburrini(1).thumb.jpg.0765d1680be436bba07d72c68ccb8d0d.jpg
       url: https://community.simtropolis.com/files/file/34233-condominio-burrini-v2/
       version: 2.0.0
 
 davide1983it/condominio-colombo:
+  categories: r$$
+  dependencies:
+    - cycledogg/textures-vol01
+    - lbt/mega-textures-vol01
+    - pclark06/mega-props-vol01
+  deprecated: davide1983it/condominio-colombo-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f26faa7562f8_condomniocolombo(2).jpg.1458785ed3c518370ea2e1076cc3a1a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f26faaf564ea_condomniocolombo(1).jpg.01d7b77125ac2b02730248bee23f9476.jpg
+  name: Condominio Colombo
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_08/5f26faff7efba_condomniocolombo(2).thumb.jpg.1e5ea680e8a7e6884941fdc2d421db86.jpg
+  url: https://community.simtropolis.com/files/file/33731-condominio-colombo/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio colombo
+          id: simtropolis/33731-condominio-colombo
+          include:
+            - condominio colombo
+      buildings:
+        Davide1983it - Condominio Colombo.SC4Desc:
+          cbd483bc-8c332b21:
+            bulldoze: 997
+            capacity:
+              r$: 1586
+              r$$: 877
+            categories: r$$
+            flamability: 40
+            garbage: 123
+            model: cbd483bc-003e
+            name: Davide1983it - Condominio Colombo
+            pollution: 25
+            pollutionRadius: 5
+            power: 12
+            water: 138
+            waterPollution: 25
+            waterPollutionRadius: 6
+            worth: 22893
+      lastGenerated: 2025-01-15T13:23:21.555Z
+      lastModified: 2020-08-02T17:42:25.000Z
+      lots:
+        Davide1983it - Condominio Colombro.SC4Lot:
+          ec3338da:
+            building: 8c332b21
+            density: high
+            name: Davide1983it - Condominio Colombro
+            props: 1e120000,49e4d237,69e78b35,a9d2355c,a9d3b006,a9d4e928,a9eb5db8,e9e9e532
+            size: 3x3
+            stage: 7
+            textures: 1e810000,25a32000,dd7a8c00,dd7a8e00,f49ca950
+      models:
+        Davide1983it - Condominio Colombo.SC4Model:
+          - cbd483bc-003e
+      release: 2025-01-15T13:23:21.555Z
+      version: 1.0.0
+
+davide1983it/condominio-colombo-v2:
   categories: residential
   dependencies:
     - bsc/textures-vol01
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
-  name: Condominio Colombo
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604530d40c8fe_condominiocolombo(1).jpg.a32681f23ed77618031b6c80a798931c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604530d9cf1e5_condominiocolombo(2).jpg.8cd1e35fa3b405fb40653d8046aa222a.jpg
+  name: Condominio Colombo v2
+  summary: Highrise residential block (updated texture)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60453111c89a6_condominiocolombo(1).thumb.jpg.038471b8052dec3117e5d94365e7e091.jpg
   variants:
     hd:
       assets:
@@ -4125,9 +4758,6 @@ davide1983it/condominio-colombo:
             waterPollutionRadius: 6
             worth: 22893
       categories: r$$
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2003dae992_condominioset(3).jpg.fdff33de3564f00b6f202ed96c209453.jpg
       lastGenerated: 2025-01-14T13:29:03.399Z
       lastModified: 2021-07-04T18:41:20.000Z
       lots:
@@ -4146,9 +4776,8 @@ davide1983it/condominio-colombo:
           - f06a79e6
       name: HD (R$$)
       release: 2025-01-14T13:29:03.391Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2001956d68_condominioset(2).jpg.3da90e33af65fa0cc8a6b6ec7bf6409e.jpg
       url: https://community.simtropolis.com/files/file/34567-condominio-set/
-      version: 1.0.0
+      version: 2.0.0
     sd:
       assets:
         - docs:
@@ -4179,9 +4808,6 @@ davide1983it/condominio-colombo:
       categories: r$$$
       dependencies:
         - swi21/mega-props-vol01
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/604530d40c8fe_condominiocolombo(1).jpg.a32681f23ed77618031b6c80a798931c.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/604530d9cf1e5_condominiocolombo(2).jpg.8cd1e35fa3b405fb40653d8046aa222a.jpg
       lastGenerated: 2025-01-14T13:01:59.459Z
       lastModified: 2021-03-07T20:01:23.000Z
       lots:
@@ -4200,16 +4826,78 @@ davide1983it/condominio-colombo:
           - cbd483bc-0119
       name: SD (R$$$)
       release: 2025-01-14T13:01:59.453Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60453111c89a6_condominiocolombo(1).thumb.jpg.038471b8052dec3117e5d94365e7e091.jpg
       url: https://community.simtropolis.com/files/file/34236-condominio-colombo-v2/
       version: 2.0.0
 
 davide1983it/condominio-euripide:
   categories: r$$
   dependencies:
+    - cycledogg/textures-vol01
+    - sfbt/essentials
+  deprecated: davide1983it/condominio-euripide-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2b0ad65d850_condominioeuripide(1).jpg.fe0c97d31e87219d8f8ca7557f2b974f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2b0adc77c61_condominioeuripide.jpg.3fcec830e46e211f4b1b6f542b25386a.jpg
+  name: Condominio Euripide
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_08/5f2b0af1dc7cb_condominioeuripide(1).thumb.jpg.b989c8adc5c42499dfbd4e30755728fb.jpg
+  url: https://community.simtropolis.com/files/file/33739-condominio-euripide/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio euripide
+          id: simtropolis/33739-condominio-euripide
+          include:
+            - condominio euripide
+      buildings:
+        Davide1983it - Condominio Euripide.SC4Desc:
+          cbd483bc-6c3747ba:
+            bulldoze: 988
+            capacity:
+              r$: 1643
+              r$$: 908
+            categories: r$$
+            flamability: 40
+            garbage: 128
+            model: cbd483bc-003f
+            name: Davide1983it - Condominio Euripide
+            pollution: 26
+            pollutionRadius: 5
+            power: 13
+            water: 143
+            waterPollution: 26
+            waterPollutionRadius: 6
+            worth: 23710
+      lastGenerated: 2025-01-15T13:23:21.571Z
+      lastModified: 2020-08-05T19:39:30.000Z
+      lots:
+        Davide1983it - Condominio Euripide.SC4Lot:
+          6c374bc0:
+            building: 6c3747ba
+            density: high
+            name: Davide1983it - Condominio Euripide
+            props: 1ee00000,28f00000,29300000,29320000
+            size: 3x3
+            stage: 7
+            textures: 30211000,dd7b4800
+      models:
+        Davide1983it - Condominio Euripide.SC4Model:
+          - cbd483bc-003f
+      release: 2025-01-15T13:23:21.571Z
+      version: 1.0.0
+
+davide1983it/condominio-euripide-v2:
+  categories: r$$
+  dependencies:
     - cycledogg/mega-props-vol01
     - paeng/textures
-  name: Condominio Euripide
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/60453715eef24_condominioeuripide(2).jpg.973d06fabef5a0d6f5e114c5f01b69ab.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045371d6f7f9_condominioeuripide(1).jpg.ea2c8954d9719c887f9548a7eed8657d.jpg
+  name: Condominio Euripide v2
+  summary: Highrise residential block (updated texture)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6045372b1529a_condominioeuripide(2).thumb.jpg.67c1f2177f8ea2150d7120a245ab7c82.jpg
   variants:
     hd:
       assets:
@@ -4235,9 +4923,6 @@ davide1983it/condominio-euripide:
             waterPollution: 26
             waterPollutionRadius: 6
             worth: 23710
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e1fff381de6_condominioset(1).jpg.422ffe3f4e0eb9232243aa458f9afea3.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2005d77b21_condominioset(4).jpg.754e27ae70098703bfb919a8bb57a2c7.jpg
       lastGenerated: 2025-01-14T13:29:03.411Z
       lastModified: 2021-07-04T18:41:20.000Z
       lots:
@@ -4256,9 +4941,8 @@ davide1983it/condominio-euripide:
           - 106a7e45
       name: HD
       release: 2025-01-14T13:29:03.403Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e200ce735fe_condominioset(1).thumb.jpg.cdd2a25207255185206dda3b7e6656fe.jpg
       url: https://community.simtropolis.com/files/file/34567-condominio-set/
-      version: 1.0.0
+      version: 2.0.0
     sd:
       assets:
         - docs:
@@ -4285,9 +4969,6 @@ davide1983it/condominio-euripide:
             waterPollution: 26
             waterPollutionRadius: 6
             worth: 23710
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/60453715eef24_condominioeuripide(2).jpg.973d06fabef5a0d6f5e114c5f01b69ab.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_03/6045371d6f7f9_condominioeuripide(1).jpg.ea2c8954d9719c887f9548a7eed8657d.jpg
       lastGenerated: 2025-01-14T13:01:59.474Z
       lastModified: 2021-03-07T20:27:24.000Z
       lots:
@@ -4306,8 +4987,171 @@ davide1983it/condominio-euripide:
           - cbd483bc-0116
       name: SD
       release: 2025-01-14T13:01:59.464Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6045372b1529a_condominioeuripide(2).thumb.jpg.67c1f2177f8ea2150d7120a245ab7c82.jpg
       url: https://community.simtropolis.com/files/file/34237-condominio-euripide/
+      version: 1.0.0
+
+davide1983it/condominio-fusina:
+  categories: r$$
+  dependencies:
+    - cycledogg/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5f9ea8896e33b_condominiofusina(1).jpg.1c1774aa6d0bd1175f021d206701ea88.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5f9ea88bf0463_condominiofusina.jpg.7162cbe73785a29546ab0e141e1dbc06.jpg
+  name: Condominio Fusina
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5f9ea89f3605b_condominiofusina(1).thumb.jpg.1c8b5d0ea04b9d8834d77d70fb073a47.jpg
+  url: https://community.simtropolis.com/files/file/33929-condominio-fusina/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio fusina
+          id: simtropolis/33929-condominio-fusina
+          include:
+            - condominio fusina
+      buildings:
+        Davide1983it - Condominio Fusina.SC4Desc:
+          cbd483bc-ccaad511:
+            bulldoze: 985
+            capacity:
+              r$: 1135
+              r$$: 628
+            categories: r$$
+            flamability: 40
+            garbage: 88
+            model: cbd483bc-00a4
+            name: Davide1983it - Condominio Fusina
+            pollution: 18
+            pollutionRadius: 5
+            power: 9
+            water: 99
+            waterPollution: 18
+            waterPollutionRadius: 6
+            worth: 16384
+      lastGenerated: 2025-01-15T13:23:21.740Z
+      lastModified: 2020-11-01T12:22:56.000Z
+      lots:
+        Davide1983it - Condominio Fusina.SC4Lot:
+          8caad813:
+            building: ccaad511
+            density: high
+            name: davide1983it - Condominio Fusina
+            props: 1337b3d6,5337b3f8,9337b3b3,a000004a,a000004b,a000004d,f337b429,f337b44b
+            size: 3x2
+            stage: 7
+            textures: 252b3000,258f2000,25b02000
+      models:
+        Davide1983it - Condominio Fusina.SC4Model:
+          - cbd483bc-00a4
+      release: 2025-01-15T13:23:21.740Z
+      version: 1.0.0
+
+davide1983it/condominio-garroso:
+  categories: r$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa7d665c71a3_condminiogarroso(1).jpg.b7bdbd79fcba80ea404df61273b8d57f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa7d669349fa_condminiogarroso(2).jpg.b379512e15613aa48976cf2e63474829.jpg
+  name: Condominio Garroso
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fa7d683211ff_condminiogarroso(1).thumb.jpg.9bdce74245cd2ffca6f59d2ab4f65cbd.jpg
+  url: https://community.simtropolis.com/files/file/33945-condominio-garroso/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio garroso
+          id: simtropolis/33945-condominio-garroso
+          include:
+            - condominio garroso
+      buildings:
+        Davide1983it - Condominio Garroso.SC4Desc:
+          cbd483bc-ecb3ec25:
+            bulldoze: 1398
+            capacity:
+              r$: 1836
+              r$$: 1015
+            categories: r$$
+            flamability: 40
+            garbage: 143
+            model: cbd483bc-00a6
+            name: Davide1983it - Condominio Garroso
+            pollution: 29
+            pollutionRadius: 5
+            power: 14
+            water: 160
+            waterPollution: 29
+            waterPollutionRadius: 6
+            worth: 26495
+      lastGenerated: 2025-01-15T13:23:21.764Z
+      lastModified: 2020-11-08T11:29:08.000Z
+      lots:
+        Davide1983it - Condominio Garroso.SC4Lot:
+          acb3edf4:
+            building: ecb3ec25
+            density: high
+            name: Davide1983it - Condominio Garroso
+            props: 291f0000,2a180000
+            size: 3x2
+            stage: 8
+            textures: 251c2000,258f2000,25b02000
+      models:
+        Davide1983it - Condominio Garroso.SC4Model:
+          - cbd483bc-00a6
+      release: 2025-01-15T13:23:21.764Z
+      version: 1.0.0
+
+davide1983it/condominio-giotto:
+  categories: r$$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1d84336a9ee_condominiogiotto1.jpg.8d045873742007ad6df730da6e98d4b7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1d8439b904f_condominiogiotto2.jpg.bee803c1f030862f4caa4f4eb6cae15f.jpg
+  name: Condominio Giotto
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1d8454a3930_condominiogiotto1.thumb.jpg.fd4efb32176fe12e4831c544bf42c34e.jpg
+  url: https://community.simtropolis.com/files/file/33720-condominio-giotto/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio giotto
+          id: simtropolis/33720-condominio-giotto
+          include:
+            - condominio giotto
+      buildings:
+        Davide1983it - Condominio Giotto.SC4Desc:
+          cbd483bc-6c29bf23:
+            bulldoze: 614
+            capacity:
+              r$: 1998
+              r$$: 1104
+              r$$$: 484
+            categories: r$$$
+            flamability: 35
+            garbage: 72
+            model: 6c245a5d
+            name: Davide1983it - Condominio Giotto
+            pollution: 12
+            pollutionRadius: 6
+            power: 61
+            water: 297
+            waterPollution: 12
+            waterPollutionRadius: 7
+            worth: 30510
+      lastGenerated: 2025-01-15T13:23:21.527Z
+      lastModified: 2020-07-26T13:25:41.000Z
+      lots:
+        Davide1983it - Condominio Giotto.SC4Lot:
+          2c29c093:
+            building: 6c29bf23
+            density: medium,high
+            name: Davide1983it - Condominio Giotto
+            size: 4x3
+            stage: 6
+            textures: 258f2000
+      models:
+        Davide1983it - Condominio Giotto.SC4Model:
+          - 6c245a5d
+      release: 2025-01-15T13:23:21.527Z
       version: 1.0.0
 
 davide1983it/condominio-guccini:
@@ -4316,7 +5160,14 @@ davide1983it/condominio-guccini:
     - bsc/textures-vol02
     - cycledogg/mega-props-vol01
     - sfbt/essentials
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5b87a964_condominioguccini(1).jpg.0a03169990cdac7c89eeff7cf7cbe63a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5be20b57_condominioguccini(2).jpg.3e996b6a4f7e0368e838699f4e4ef6c3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5d514771_condominioguccini(3).jpg.75369fb9c70c7b2d19d93d785e8f9d2c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5d928f41_condominioguccini(4).jpg.53b71c72344e91af3af38e66b1fd8516.jpg
   name: Condominio Guccini
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5ef687ee_condominioguccini(1).thumb.jpg.d305592f9f5768f45aae88fe1953fd5d.jpg
   variants:
     hd:
       assets:
@@ -4343,9 +5194,6 @@ davide1983it/condominio-guccini:
             waterPollution: 8
             waterPollutionRadius: 7
             worth: 19198
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e1fff381de6_condominioset(1).jpg.422ffe3f4e0eb9232243aa458f9afea3.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e2005d77b21_condominioset(4).jpg.754e27ae70098703bfb919a8bb57a2c7.jpg
       lastGenerated: 2025-01-14T13:29:03.421Z
       lastModified: 2021-07-04T18:41:20.000Z
       lots:
@@ -4364,7 +5212,6 @@ davide1983it/condominio-guccini:
           - d06a7ed0
       name: HD
       release: 2025-01-14T13:29:03.414Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e200ce735fe_condominioset(1).thumb.jpg.cdd2a25207255185206dda3b7e6656fe.jpg
       url: https://community.simtropolis.com/files/file/34567-condominio-set/
       version: 1.0.0
     sd:
@@ -4394,11 +5241,6 @@ davide1983it/condominio-guccini:
             waterPollution: 8
             waterPollutionRadius: 7
             worth: 19198
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5b87a964_condominioguccini(1).jpg.0a03169990cdac7c89eeff7cf7cbe63a.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5be20b57_condominioguccini(2).jpg.3e996b6a4f7e0368e838699f4e4ef6c3.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5d514771_condominioguccini(3).jpg.75369fb9c70c7b2d19d93d785e8f9d2c.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5d928f41_condominioguccini(4).jpg.53b71c72344e91af3af38e66b1fd8516.jpg
       lastGenerated: 2025-01-14T13:01:59.397Z
       lastModified: 2021-02-02T20:28:32.000Z
       lots:
@@ -4417,8 +5259,63 @@ davide1983it/condominio-guccini:
           - cbd483bc-00d2
       name: SD
       release: 2025-01-14T13:01:59.388Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b5ef687ee_condominioguccini(1).thumb.jpg.d305592f9f5768f45aae88fe1953fd5d.jpg
       url: https://community.simtropolis.com/files/file/34086-condominio-guccini/
+      version: 1.0.0
+
+davide1983it/condominio-michelangelo:
+  categories: r$
+  dependencies:
+    - cycledogg/textures-vol01
+    - lbt/mega-textures-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/condominiomichelangelo.jpg.86dc7d229bc556300666fd318d917e80.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/condominiomichelangelo-1.jpg.605a6b458dcb675cf0ffeb153f002399.jpg
+  name: Condominio Michelangelo
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/condominiomichelangelo.thumb.jpg.8e8550e1b0e49065483c300282fa0d1c.jpg
+  url: https://community.simtropolis.com/files/file/33819-condominio-michelangelo/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio michelangelo
+          id: simtropolis/33819-condominio-michelangelo
+          include:
+            - condominio michelangelo
+      buildings:
+        Davide1983it - Condominio Michelangelo.SC4Desc:
+          cbd483bc-6c56d1b3:
+            bulldoze: 617
+            capacity:
+              r$: 466
+            categories: r$
+            flamability: 45
+            garbage: 28
+            model: cbd483bc-005e
+            name: Davide1983it - Condominio Michelangelo
+            pollution: 14
+            pollutionRadius: 5
+            power: 2
+            water: 22
+            waterPollution: 5
+            waterPollutionRadius: 5
+            worth: 6336
+      lastGenerated: 2025-01-15T13:23:21.604Z
+      lastModified: 2020-09-05T15:19:43.000Z
+      lots:
+        Davide1983it - Condominio Michelangelo.SC4Lot:
+          0c56d838:
+            building: 6c56d1b3
+            density: medium,high
+            name: Davide1983it - Condominio Michelangelo
+            props: 1edf0000,1ee00000,1ee20000,28330000,28f00000,28f10000,29300000,29320000,a000004a,a000004d,a0000050
+            size: 3x2
+            stage: 6
+            textures: dd766f00,f49b0260
+      models:
+        Davide1983it - Condominio Michelangelo.SC4Model:
+          - cbd483bc-005e
+      release: 2025-01-15T13:23:21.604Z
       version: 1.0.0
 
 davide1983it/condominio-pecs:
@@ -4433,8 +5330,8 @@ davide1983it/condominio-pecs:
     - pegasus/mtp-super-pack
     - sfbt/essentials
     - simgoober/mega-props-vol01
-  description: Highrise residential block in 4 colors
   name: Condominio Pecs
+  summary: Highrise residential block in 4 colors
   variants:
     hd:
       assets:
@@ -4730,7 +5627,175 @@ davide1983it/condominio-pecs:
       url: https://community.simtropolis.com/files/file/34428-condominio-pecs/
       version: 1.0.0
 
+davide1983it/condominio-plutarco:
+  categories: r$$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1457d29157e_condominioplutarco(1).jpg.bdb5e9e76a544a6f920d81aa99aef987.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1457d568aae_condominioplutarco(2).jpg.0aac5602774a34c1fe40dcbb894bb9e4.jpg
+  name: Condominio Plutarco
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f1457fdbc48a_condominioplutarco(1).thumb.jpg.3bc7e79f0658a7c8c1ab19b09de711b3.jpg
+  url: https://community.simtropolis.com/files/file/33705-condominio-plutarco/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio plutarco
+          id: simtropolis/33705-condominio-plutarco
+          include:
+            - condominio plutarco
+      buildings:
+        Davide1983it - Condominio Plutarco.SC4Desc:
+          cbd483bc-8c207b3c:
+            bulldoze: 595
+            capacity:
+              r$: 1574
+              r$$: 870
+              r$$$: 382
+            categories: r$$$
+            flamability: 35
+            garbage: 57
+            model: 6c1b32ad
+            name: Davide1983it - Condominio Plutarco
+            pollution: 9
+            pollutionRadius: 6
+            power: 48
+            water: 234
+            waterPollution: 9
+            waterPollutionRadius: 7
+            worth: 24038
+      lastGenerated: 2025-01-15T13:14:23.140Z
+      lastModified: 2020-07-19T14:26:06.000Z
+      lots:
+        Davide1983it - Condominio Plutarco.SC4Lot:
+          cc207c7f:
+            building: 8c207b3c
+            density: medium,high
+            name: Davide1983it - Condominio Plutarco
+            size: 3x3
+            stage: 6
+            textures: 262f3000
+      models:
+        Davide1983it - Condominio Plutarco.SC4Model:
+          - 6c1b32ad
+      release: 2025-01-15T13:14:23.140Z
+      version: 1.0.0
+
+davide1983it/condominio-ponti:
+  categories: r$$$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f25c00f227b9_condominioponti(2).jpg.e6a7c335d5627c600878b240c9925667.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_08/5f25c00439c68_condominioponti(1).jpg.69919f2f9b93ffec3011cb44a8a6f73f.jpg
+  name: Condominio Ponti
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_08/5f25c03161402_condominioponti(2).thumb.jpg.6c1fbbb8f3bab7ef826e15bfa27fc07b.jpg
+  url: https://community.simtropolis.com/files/file/33729-condominio-ponti/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio ponti
+          id: simtropolis/33729-condominio-ponti
+          include:
+            - condominio ponti
+      buildings:
+        Davide1983it - Condominio Ponti.SC4Desc:
+          cbd483bc-cc31fe57:
+            bulldoze: 667
+            capacity:
+              r$: 2468
+              r$$: 1364
+              r$$$: 598
+            categories: r$$$
+            flamability: 35
+            garbage: 89
+            model: eb1cf32d
+            name: Davide1983it - Condominio Ponti
+            pollution: 15
+            pollutionRadius: 6
+            power: 76
+            water: 367
+            waterPollution: 15
+            waterPollutionRadius: 7
+            worth: 37692
+      lastGenerated: 2025-01-15T13:23:21.542Z
+      lastModified: 2020-08-01T19:19:13.000Z
+      lots:
+        Davide1983it - Codnominio Ponti.SC4Lot:
+          4c31ff4b:
+            building: cc31fe57
+            density: medium,high
+            name: Davide1983it - Codnominio Ponti
+            size: 4x3
+            stage: 6
+            textures: '258e3000'
+      models:
+        Davide1983it - Condominio Ponti.SC4Model:
+          - eb1cf32d
+      release: 2025-01-15T13:23:21.542Z
+      version: 1.0.0
+
 davide1983it/condominio-tubico:
+  categories: r$$$
+  dependencies:
+    - bsc/textures-vol01
+    - cycledogg/mega-props-vol01
+    - ndex/textures-vol01
+  deprecated: davide1983it/condominio-tubico-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f95c1573e558_condominiotubico1.jpg.efed04502ee9232919fc8bcefc2f22fe.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f95c15f23361_condominiotubico.jpg.8cab346701677ce7a7cf5f3d28372500.jpg
+  name: Condominio Tubico
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f95c179bd11f_condominiotubico1.thumb.jpg.25bebf66445c8945053263f30b54d67f.jpg
+  url: https://community.simtropolis.com/files/file/33911-condominio-tubico/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio tubico
+          id: simtropolis/33911-condominio-tubico
+          include:
+            - condominio tubico
+      buildings:
+        Davide1983it - Condominio Tubico.SC4Desc:
+          cbd483bc-8ca130e1:
+            bulldoze: 1459
+            capacity:
+              r$: 2251
+              r$$: 1244
+              r$$$: 545
+            categories: r$$$
+            flamability: 35
+            garbage: 81
+            model: cbd483bc-00a0
+            name: Davide1983it - Condominio Tubico
+            pollution: 13
+            pollutionRadius: 6
+            power: 69
+            water: 334
+            waterPollution: 13
+            waterPollutionRadius: 7
+            worth: 34379
+      lastGenerated: 2025-01-15T13:23:21.715Z
+      lastModified: 2020-10-27T03:41:09.000Z
+      lots:
+        Davide1983it - Condominio Tubico.SC4Lot:
+          2ca138a0:
+            building: 8ca130e1
+            density: high
+            name: Davide1983it - Condominio Tubico
+            props: 1dfb0000,2a8b0000,5337b3f7,5337b3f8,a000004a,a000004b,a0000078,f337b429,f337b44a
+            size: 4x3
+            stage: 7
+            textures: cd504030,e9014000
+      models:
+        Davide1983it - Condominio Tubico.SC4Model:
+          - cbd483bc-00a0
+      release: 2025-01-15T13:23:21.715Z
+      version: 1.0.0
+
+davide1983it/condominio-tubico-v2:
   categories: r$
   dependencies:
     - bsc/textures-vol01
@@ -4745,7 +5810,8 @@ davide1983it/condominio-tubico:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60451e0d0a4c1_condominiotubico.jpg.09fcb66b4c26cf1f5ae724263cc58db3.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60451e10ae0a8_condominiotubico(1).jpg.d494bbe79ef5e0e6ed68afaa4636872c.jpg
-  name: Condominio Tubico
+  name: Condominio Tubico v2
+  summary: Highrise residential block (updated texture)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60451e2972fb7_condominiotubico.thumb.jpg.69ee6a459b165d7a5df21da54ecf3512.jpg
   url: https://community.simtropolis.com/files/file/34231-condominio-tubico-v2/
   variants:
@@ -4792,7 +5858,128 @@ davide1983it/condominio-tubico:
       release: 2025-01-14T11:22:16.676Z
       version: 2.0.0
 
+davide1983it/condominio-uriani:
+  categories: r$$$
+  dependencies:
+    - cycledogg/textures-vol01
+    - dolphin66/mega-props-vol01
+    - dolphin66/mega-props-vol02
+    - girafe/carpack
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f053fd158dc5_CondominioUriani(1).png.71baff48f0f8ec357b9dacea297613c7.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f053fd4c8641_CondominioUriani(2).jpg.4399bedd764a9425c544f207bba377a2.jpg
+  name: Condominio Uriani
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f053ffc381a1_CondominioUriani(1).thumb.png.d85223235e846c5391498f55495ed547.png
+  url: https://community.simtropolis.com/files/file/33686-condominio-uriani/
+  variants:
+    default:
+      assets:
+        - docs:
+            - davide1983it - Condominio uriani
+          id: simtropolis/33686-condominio-uriani
+          include:
+            - davide1983it - Condominio uriani
+      buildings:
+        Davide1983it - Condominio Uriani.SC4Desc:
+          cbd483bc-ec0692cf:
+            bulldoze: 1053
+            capacity:
+              r$: 1587
+              r$$: 877
+              r$$$: 385
+            categories: r$$$
+            flamability: 35
+            garbage: 57
+            model: cbd483bc-0041
+            name: Davide1983it - Condominio Uriani V3
+            pollution: 9
+            pollutionRadius: 6
+            power: 49
+            water: 236
+            waterPollution: 9
+            waterPollutionRadius: 7
+            worth: 300000
+      lastGenerated: 2025-01-15T13:14:23.080Z
+      lastModified: 2020-07-08T03:39:41.000Z
+      lots:
+        Davide1983it - Condominio Uriani.SC4Lot:
+          2c0693d8:
+            building: ec0692cf
+            density: medium,high
+            name: Davide1983it - Condominio Uriani
+            props: 0e4b238d,0f8d5168,1d4ea325,2a120000,2f8d5170,4f8d515f,5d4e8db0,af8d5177,dd4e90b8,fd4ea276
+            size: 4x3
+            stage: 6
+            textures: 258e3000,25923000,262f3000,302c2000,dd778000
+      models:
+        Davide1983it - Condominio Uriani.SC4Model:
+          - cbd483bc-0041
+      release: 2025-01-15T13:14:23.080Z
+      version: 2.0.0
+
 davide1983it/condominio-vergano:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol01
+    - dolphin66/mega-props-vol01
+    - porkissimo/jenx-porkie-expanded-props
+  deprecated: davide1983it/condominio-vergano-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fde4bb8403ea_condominiovergano.jpg.93a84f320590cab6e01489d16ef8297b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fde4bb425115_condominiovergano(1).jpg.f8ca70837a93b08bcc95e40cf3cce4b4.jpg
+  name: Condominio Vergano
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_12/5fde4bbf9cc77_condominiovergano.thumb.jpg.e5b9ad021fc359455c5a81f6692deb8b.jpg
+  url: https://community.simtropolis.com/files/file/33996-condominio-vergano/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio vergano
+          id: simtropolis/33996-condominio-vergano
+          include:
+            - condominio vergano
+      buildings:
+        Davide1983it - Condominio Vergano.SC4Desc:
+          cbd483bc-4cea0e75:
+            bulldoze: 1828
+            capacity:
+              r$: 2102
+              r$$: 1162
+            categories: r$$
+            flamability: 40
+            garbage: 163
+            model: cbd483bc-00b4
+            name: Davide1983it - Condominio Vergano
+            pollution: 33
+            pollutionRadius: 5
+            power: 16
+            water: 183
+            waterPollution: 33
+            waterPollutionRadius: 6
+            worth: 30337
+      lastGenerated: 2025-01-15T13:23:21.930Z
+      lastModified: 2020-12-19T18:51:40.000Z
+      lots:
+        Davide1983it - Condominio Vergano.SC4Lot:
+          acea5a0d:
+            building: 4cea0e75
+            density: high
+            name: Davide1983it - Condominio Vergano
+            props: 0ed61b5e,0f86c5ae,1f0b0000,2ac40000,4f86c56d,4f86c5bb,cf9366df,ef86c599
+            size: 2x3
+            stage: 8
+            textures: 258f2000,61e37000,61e3c000
+      models:
+        Davide1983it - Condominio Vergano.SC4Model:
+          - cbd483bc-00b4
+      release: 2025-01-15T13:23:21.930Z
+      version: 1.0.0
+
+davide1983it/condominio-vergano-v2:
   categories: r$$
   dependencies:
     - bsc/misc-props-vol01
@@ -4805,7 +5992,8 @@ davide1983it/condominio-vergano:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476ef8b4000_condominiovergano(1).jpg.a3d3bc3965ab7c792b93fc71ce3c92e2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476efc49f12_condominiovergano.jpg.1481950a1062dc72ecf01f92a182bb0a.jpg
-  name: Condominio Vergano
+  name: Condominio Vergano v2
+  summary: Highrise residential block (updated texture)
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60476f2cdfde7_condominiovergano(1).thumb.jpg.f37aa193c8a4b970163238c21bd7bddf.jpg
   url: https://community.simtropolis.com/files/file/34256-condominio-vergano-v2/
   variants:
@@ -4864,7 +6052,7 @@ davide1983it/condominio-zamosc:
     - moto-kloss/car-props
     - sfbt/essentials
     - simgoober/mega-props-vol01
-  description: Highrise residential block
+  summary: Highrise residential block in 4 colors
   name: Condominio Zamosc
   variants:
     hd:
@@ -5174,12 +6362,67 @@ davide1983it/condominio-zamosc:
       url: https://community.simtropolis.com/files/file/34402-condominio-zamosc/
       version: 1.0.0
 
+davide1983it/condominio-zurlani:
+  categories: r$
+  dependencies:
+    - bsc/textures-vol02
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c386f15d1c_condominiozurlani(1).png.bce0264eac7d79cca9281f8c87bb2b74.png
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c387568fa4_condominiozurlani(2).png.08aabb2ebf3cea8f25d31c8848cb0ac8.png
+  name: Condominio Zurlani
+  summary: Highrise residential block
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8c39511fe35_condominiozurlani(2).thumb.png.d37a3e00c8808f718202e8cbba7e26fd.png
+  url: https://community.simtropolis.com/files/file/33890-condominio-zurlani/
+  variants:
+    default:
+      assets:
+        - docs:
+            - condominio zurlani
+          id: simtropolis/33890-condominio-zurlani
+          include:
+            - condominio zurlani
+      buildings:
+        Davide1983it - Condominio Zurlani.SC4Desc:
+          cbd483bc-8c986c2c:
+            bulldoze: 546
+            capacity:
+              r$: 278
+            categories: r$
+            flamability: 45
+            garbage: 17
+            model: cbd483bc-009e
+            name: 'Davide1983it - Condominio Zurlani '
+            pollution: 8
+            pollutionRadius: 5
+            power: 2
+            water: 13
+            waterPollution: 3
+            waterPollutionRadius: 5
+            worth: 3772
+      lastGenerated: 2025-01-15T13:23:21.688Z
+      lastModified: 2020-10-18T12:47:14.000Z
+      lots:
+        Davide1983it - Condominio Zurlani.SC4Lot:
+          8c986d97:
+            building: 8c986c2c
+            density: medium,high
+            name: Davide1983it - Condominio Zurlani
+            props: 28f20000,2a100000
+            size: 2x2
+            stage: 6
+            textures: 61c38000,61c3c000,6cc25340
+      models:
+        Davide1983it - Condominio Zurlani.SC4Model:
+          - cbd483bc-009e
+      release: 2025-01-15T13:23:21.688Z
+      version: 1.0.0
+
 davide1983it/djohaal-building:
   categories: co$$
   dependencies:
     - cycledogg/mega-props-vol01
     - sfbt/essentials
-  description: Artdeco Skyscraper
+  summary: Artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_11/61836ad2cd28e_DjohaalBuilding(1).jpg.6b9f8a447f893a9e75d7d1c4de557f24.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_11/61836ad61219f_DjohaalBuilding(3).jpg.2b26c6b7dfa390630c792bd53933ab2f.jpg
@@ -5423,6 +6666,61 @@ davide1983it/duplex-house-set-1:
       release: 2025-01-14T10:21:27.198Z
       version: 1.0.0
 
+davide1983it/edificio-matzla:
+  categories: co$$
+  dependencies:
+    - bsc/textures-vol01
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f05ff912848c_EdificioMatzla(1).jpg.36c663457d409077586f5955957799fa.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f05ff96ce2a3_EdificioMatzla(2).jpg.fa80dcc59b4386c3d2157e6ffe5274cf.jpg
+  name: Edificio Matzla
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f060097dcbb0_EdificioMatzla(1).thumb.jpg.6a4c0b59e63352410c0056d9f3995820.jpg
+  url: https://community.simtropolis.com/files/file/33687-edificio-matzla/
+  variants:
+    default:
+      assets:
+        - docs:
+            - edificio maztla
+          id: simtropolis/33687-edificio-matzla
+          include:
+            - edificio maztla
+      buildings:
+        Davide1983it - Edificio Matzla.SC4Desc:
+          cbd483bc-4c06ef64:
+            bulldoze: 945
+            capacity:
+              co$$: 1044
+            categories: co$$
+            flamability: 40
+            garbage: 52
+            model: cbd483bc-0046
+            name: Davide1983it - Edificio Matzla1
+            pollution: 10
+            pollutionRadius: 5
+            power: 21
+            water: 905
+            waterPollution: 10
+            waterPollutionRadius: 6
+            worth: 300000
+      lastGenerated: 2025-01-15T13:23:21.939Z
+      lastModified: 2020-07-08T17:21:28.000Z
+      lots:
+        Davide1983it - Edificio Matzla.SC4Lot:
+          2c06f079:
+            building: 4c06ef64
+            density: medium,high
+            name: Davide1983it - Edificio Matzla
+            props: 1ecb0000,710ddeb3,710ddef2
+            size: 4x3
+            stage: 6
+            textures: '61005000'
+      models:
+        Davide1983it - Edificio Matzla.SC4Model:
+          - cbd483bc-0046
+      release: 2025-01-15T13:23:21.939Z
+      version: 1.0.0
+
 davide1983it/edvarz-building:
   categories: cs$$
   dependencies:
@@ -5430,7 +6728,7 @@ davide1983it/edvarz-building:
     - davide1983it/props-vol01
     - sfbt/essentials
     - simgoober/mega-props-vol01
-  description: Small artdeco building
+  summary: Small artdeco building
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_07/6100d3a19034d_Davide1983it-EdvarzBuilding(1).jpg.57ee54ed39aa5db1c352c0ba556858df.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_07/6100d39cda93d_Davide1983it-EdvarzBuilding(2).jpg.17d5067a8eb57eebd3aff642975e5618.jpg
@@ -5484,7 +6782,7 @@ davide1983it/first-plaza-tower:
     - bsc/textures-vol01
     - cycledogg/mega-props-vol01
     - sfbt/essentials
-  description: Copy of First Plaza Tower Tulsa (US)
+  summary: First Plaza Tower, Tulsa (US)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_09/6150822097948_FirstPlaceTower(2).jpg.6734716f9c9e1ee3940945c49fe269b2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_09/61508225aa137_FirstPlaceTower(1).jpg.3b2c0a553de07a25965e17f6eb1ae3a4.jpg
@@ -5611,8 +6909,8 @@ davide1983it/flann-building:
             waterPollutionRadius: 7
             worth: 97448
       images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_08/61103a3b5172a_flannbuilding(2).jpg.cdb224cc0db750b97a6f0c3db30ae4a3.jpg
         - https://www.simtropolis.com/objects/screens/monthly_2021_08/61103a3e85574_flannbuilding(1).jpg.d6b7d1381e6355b9320a262696800c29.jpg
+        - https://www.simtropolis.com/objects/screens/monthly_2021_08/61103a3b5172a_flannbuilding(2).jpg.cdb224cc0db750b97a6f0c3db30ae4a3.jpg
       lastGenerated: 2025-01-14T13:01:59.504Z
       lastModified: 2021-08-08T20:13:26.000Z
       lots:
@@ -5631,8 +6929,216 @@ davide1983it/flann-building:
           - b0ab6496
       name: SD
       release: 2025-01-14T13:01:59.495Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_08/61103ae5d08c0_flannbuilding(2).thumb.jpg.c9f239fa312b04eb98b99151f337445e.jpg
+      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_08/61103ae6733ae_flannbuilding(1).thumb.jpg.b2c30785713b6b27a3aeac0c913bca83.jpg
       url: https://community.simtropolis.com/files/file/34634-flann-building-sd/
+      version: 1.0.0
+
+davide1983it/fuji-restaurant:
+  categories: cs$,japan,restaurant
+  dependencies:
+    - bsc/textures-vol02
+    - cycledogg/textures-vol01
+    - dolphin66/mega-props-vol01
+    - girafe/carpack
+    - namspopof/prop-pack-vol02
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fabed9d0d110_fujirestaurant(2).jpg.94c0d8fa5007a50baf4079ccbd53a7a3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fabed9a45985_fujirestaurant(1).jpg.0ed47349781d3ea0fa0b4fc37e1fd5e9.jpg
+  name: Fuji Restaurant
+  summary: Small japanese restaurant
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fabedb58d3ae_fujirestaurant(2).thumb.jpg.9fd02a7b75be83ba18c21f25a5c1079e.jpg
+  variants:
+    hd:
+      assets:
+        - id: simtropolis/34972-davide-prop-v1
+          include:
+            - davide prop v1/Davide1983it - Fuji Restaurant*
+      buildings:
+        Davide1983it - Fuji Restaurant Hd.SC4Desc:
+          cbd483bc-cddb7371:
+            bulldoze: 93
+            capacity:
+              cs$: 34
+            categories: cs$
+            flamability: 45
+            garbage: 25
+            model: d0698a56
+            name: Davide1983it - Ristorante fuji hd
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 260
+      dependencies:
+        - davide1983it/props-vol01
+      lastGenerated: 2025-01-16T08:09:50.602Z
+      lastModified: 2022-03-13T08:56:14.000Z
+      lots:
+        Davide1983it - Fuji Restaurant Hd.SC4Lot:
+          addb9309:
+            building: cddb7371
+            density: all
+            name: Davide1983it - Fuji Restaurant HD
+            props: 0ece1136,0ece1163,1bc496df,2ece110a,3bcf32c3,5a829953,5bc35c45,6ece111e,6f864337,7d4eabb2,8ece114d,9a829a18,9d4eab26,9d4eac14,adf47218,aed3804d,bd4e9e17,bd4ea98b,cdf471ef,fd4ea276,fd4eab81
+            size: 2x2
+            stage: 1
+            textures: 258d1000,25a32000,26252000,dd7a4e00,fb765605
+      models:
+        Davide1983it - Fuji Restaurant Hd.SC4Model:
+          - d0698a56
+      name: HD
+      release: 2025-01-16T08:09:50.602Z
+      url: https://community.simtropolis.com/files/file/34565-japanese-restaurant-hd/
+      version: 1.0.0
+    sd:
+      assets:
+        - docs:
+            - fuji restaurant
+          id: simtropolis/33954-fuji-restaurant
+          include:
+            - fuji restaurant
+      buildings:
+        Davide1983it - Fuji restaurant.SC4Desc:
+          cbd483bc-0cb8117f:
+            bulldoze: 93
+            capacity:
+              cs$: 34
+            categories: cs$
+            flamability: 45
+            garbage: 25
+            model: cbd483bc-00a9
+            name: Davide1983it - Fuji restaurant
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 260
+      dependencies:
+        - cycledogg/mega-props-vol01
+        - jeronij/mega-props-vol02
+      lastGenerated: 2025-01-16T09:01:48.823Z
+      lastModified: 2020-11-11T13:57:10.000Z
+      lots:
+        Davide1983it - Fuji Restaurant.SC4Lot:
+          acb818ec:
+            building: 0cb8117f
+            density: all
+            name: Davide1983it - Fuji Restaurant
+            props: 0ece1136,0ece1163,1bc496df,2ece110a,316bdeb8,3bcf32c3,5a829953,5bc35c45,6ece111e,6f864337,7d4eabb2,8ece114d,9a829a18,9d4eab26,9d4eac14,adf47218,bd4e9e17,bd4ea98b,cdf471ef,ee09cc9e,f0a05426,fd4ea276,fd4eab81
+            size: 2x2
+            stage: 1
+            textures: 258d1000,25a32000,26252000,dd7a4e00,fb765605
+      models:
+        Davide1983it - Fuji restaurant.SC4Model:
+          - cbd483bc-00a9
+      name: SD
+      release: 2025-01-15T13:23:21.993Z
+      url: https://community.simtropolis.com/files/file/33954-fuji-restaurant/
+      version: 1.0.0
+
+davide1983it/fuku-ramen:
+  categories: cs$$,japan,restaurant
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - pclark06/mega-props-vol01
+    - sfbt/essentials
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb4218d6aaf2_fukuramen.jpg.7b82e58e1b0c3d00ded29c744c6e50e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb4218eb6425_fukuramen(1).jpg.fb8dcec253eb355d667540dda3b98ceb.jpg
+  name: Fuku Ramen Restaurant
+  summary: Small japanese restaurant
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb421b304449_fukuramen.thumb.jpg.5b634e443faef936a756ad34c196826f.jpg
+  variants:
+    hd:
+      assets:
+        - id: simtropolis/34972-davide-prop-v1
+          include:
+            - davide prop v1/Davide1983it - Fuku Ramen*
+      buildings:
+        Davide1983it - Fuku Ramen Hd.SC4Desc:
+          cbd483bc-addb740e:
+            bulldoze: 134
+            capacity:
+              cs$: 32
+              cs$$: 10
+            categories: cs$$
+            flamability: 40
+            garbage: 6
+            model: d06989cf
+            name: Davide1983it - Ristorante Fuku Ramen HD
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 11
+            worth: 270
+      lastGenerated: 2025-01-16T08:09:50.715Z
+      lastModified: 2022-03-13T08:56:14.000Z
+      lots:
+        Davide1983it - Fuku Ramen Hd.SC4Lot:
+          8ddb80cf:
+            building: addb740e
+            density: all
+            name: davide1983it - Fuku Ramen HD
+            props: 1337b3d7,29d9eb78,9337b3b2,9337b3b3,9a829a18,aed62c4d,ba82990b,c9d64ae6,c9df93b9,c9df9468,f337b393,f337b429,f337b42a,f337b44a
+            size: 2x1
+            stage: 1
+            textures: 25a82000,26263000,dd778000
+      models:
+        Davide1983it - Fuku Ramen Hd.SC4Model:
+          - d06989cf
+      name: HD
+      release: 2025-01-16T08:09:50.715Z
+      url: https://community.simtropolis.com/files/file/34565-japanese-restaurant-hd/
+      version: 1.0.0
+    sd:
+      assets:
+        - docs:
+            - fuku ramen
+          id: simtropolis/33964-fuku-ramen-restaurant
+          include:
+            - fuku ramen
+      buildings:
+        davide1983it - Fuku Ramen.SC4Desc:
+          cbd483bc-8cbf24d5:
+            bulldoze: 134
+            capacity:
+              cs$: 32
+              cs$$: 10
+            categories: cs$$
+            flamability: 40
+            garbage: 6
+            model: cbd483bc-00b7
+            name: fuku ramen
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 11
+            worth: 270
+      lastGenerated: 2025-01-16T09:01:48.835Z
+      lastModified: 2020-11-17T19:17:07.000Z
+      lots:
+        davide1983it - Fuku Ramen.SC4Lot:
+          6cbf8936:
+            building: 8cbf24d5
+            density: all
+            name: davide1983it - Fuku Ramen
+            props: 1337b3d7,29d9eb78,9337b3b2,9337b3b3,9a829a18,aed62c4d,ba82990b,c9d64ae6,c9df93b9,c9df9468,f337b393,f337b429,f337b42a,f337b44a
+            size: 2x1
+            stage: 1
+            textures: 25a82000,26263000,dd778000
+      models:
+        davide1983it - Fuku Ramen.SC4Model:
+          - cbd483bc-00b7
+      name: SD
+      release: 2025-01-15T13:23:22.027Z
+      url: https://community.simtropolis.com/files/file/33964-fuku-ramen-restaurant/
       version: 1.0.0
 
 davide1983it/harold-building:
@@ -5641,7 +7147,7 @@ davide1983it/harold-building:
     - https://www.simtropolis.com/objects/screens/monthly_2024_11/6742fd416efb7_HaroldBuilding(1).png.c103c75cb1d8f0383c265b123f687677.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_11/6742fd4441561_HaroldBuilding(2).png.1f576eead21ea9072caad5316b413f83.png
   name: Harold Building
-  summary: Artdeco skyscraper with onservatory on the top
+  summary: Artdeco skyscraper with an observatory on the top
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_11/6742fd8b2b5eb_HaroldBuilding(1).thumb.png.ed28e736a84cf038e5fca22496f0a81c.png
   url: https://community.simtropolis.com/files/file/36569-harold-building/
   variants:
@@ -5682,6 +7188,175 @@ davide1983it/harold-building:
         Davide1983it - Harold BuildingSC4Desc.SC4Model:
           - d44847a9
       release: 2025-01-14T09:09:51.293Z
+      version: 1.0.0
+
+davide1983it/himoto-tower:
+  categories: cs$$,japan
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fe87aa4b6730_himototower(1).jpg.cef2c4a00d619e414f00b46980ce9bc9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_12/5fe87aa761633_himototower(2).jpg.e3c413b137ee990a945f04e3a1680fe8.jpg
+  name: Himoto Tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_12/5fe87b2a49bc6_himototower(1).thumb.jpg.270f585d6f607cf60855332e30b52146.jpg
+  url: https://community.simtropolis.com/files/file/34016-himoto-tower/
+  variants:
+    default:
+      assets:
+        - docs:
+            - himoto tower
+          id: simtropolis/34016-himoto-tower
+          include:
+            - himoto tower
+      buildings:
+        Davide1983it - Himoto Tower.SC4Desc:
+          cbd483bc-ccf48da5:
+            bulldoze: 2688
+            capacity:
+              cs$: 7378
+              cs$$: 1847
+            categories: cs$$
+            flamability: 40
+            garbage: 1292
+            model: cbd483bc-00b5
+            name: Davide1983it - Himoto Tower
+            pollution: 138
+            pollutionRadius: 5
+            power: 148
+            water: 2559
+            waterPollution: 92
+            waterPollutionRadius: 6
+            worth: 63305
+      lastGenerated: 2025-01-15T13:23:22.042Z
+      lastModified: 2020-12-27T12:20:52.000Z
+      lots:
+        davide1983it - Himoto Tower.SC4Lot:
+          4cf48f5c:
+            building: ccf48da5
+            density: high
+            name: davide1983it - Himoto Tower
+            props: 2a150000,2a8a0000,d07a38d6
+            size: 4x3
+            stage: 8
+            textures: 258f2000
+      models:
+        Davide1983it - Himoto Tower.SC4Model:
+          - cbd483bc-00b5
+      release: 2025-01-15T13:23:22.042Z
+      version: 1.0.0
+
+davide1983it/hurmay-building:
+  categories: co$$
+  dependencies:
+    - delecto/people-props
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f696fd63388a_hurmaybuilding(1).jpg.a74132565fab2e91624d6c3e9b6c9f5b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f696fd14ce1b_hurmaybuilding(2).jpg.e130c36f6f98c7e87d559ecf185ca2b5.jpg
+  name: Hurmay Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f697007ae9ec_hurmaybuilding(1).thumb.jpg.4063b55fae5531c755c241517e76b74e.jpg
+  url: https://community.simtropolis.com/files/file/33835-hurmay-building/
+  variants:
+    default:
+      assets:
+        - docs:
+            - hurmay building
+          id: simtropolis/33835-hurmay-building
+          include:
+            - hurmay building
+      buildings:
+        Davide1983it - Hurmay building.SC4Desc:
+          cbd483bc-cc75aaa9:
+            bulldoze: 2257
+            capacity:
+              co$$: 1616
+            categories: co$$
+            flamability: 40
+            garbage: 81
+            model: cbd483bc-0095
+            name: Davide1983it - Hurmay building
+            pollution: 16
+            pollutionRadius: 5
+            power: 33
+            water: 1401
+            waterPollution: 16
+            waterPollutionRadius: 6
+            worth: 11295
+      lastGenerated: 2025-01-15T13:23:21.963Z
+      lastModified: 2020-09-22T03:31:19.000Z
+      lots:
+        Davide1983it - Hurmay Building.SC4Lot:
+          ac75aca5:
+            building: cc75aaa9
+            density: high
+            name: davide1983it - Hurmay Building
+            props: 1e0f0000,2ab60000,2ab70000,710ddeb3,9079062c,9fd8ab5f,d07a3a98,ffd9493e
+            size: 3x2
+            stage: 8
+            textures: 258f2000
+      models:
+        Davide1983it - Hurmay building.SC4Model:
+          - cbd483bc-0095
+      release: 2025-01-15T13:23:21.963Z
+      version: 1.0.0
+
+davide1983it/ica-supermarket:
+  categories: co$$$
+  dependencies:
+    - bsc/textures-vol02
+    - cycledogg/textures-vol01
+    - girafe/carpack
+    - pclark06/mega-props-vol01
+    - pclark06/mega-props-vol02
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/ica1.jpg.8733799fb5fe15480c788d2fed5f459f.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/ica.jpg.07cd0fd1559561afcdf04b950891a57b.jpg
+  name: Ica Supermarket
+  summary: Ica, a swedish supermaket
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/ica1.thumb.jpg.edd94995fa0410407452d7df96b3d8a6.jpg
+  url: https://community.simtropolis.com/files/file/33813-ica-supermarket/
+  variants:
+    default:
+      assets:
+        - docs:
+            - ica
+          id: simtropolis/33813-ica-supermarket
+          include:
+            - ica
+      buildings:
+        Davide1983it - Ica.SC4Desc:
+          cbd483bc-ac5d7c07:
+            bulldoze: 174
+            capacity:
+              co$$: 182
+              co$$$: 128
+            categories: co$$$
+            flamability: 35
+            garbage: 6
+            model: cbd483bc-0069
+            name: Davide1983it - Ica
+            pollution: 3
+            pollutionRadius: 6
+            power: 6
+            water: 271
+            waterPollution: 2
+            waterPollutionRadius: 7
+            worth: 1424
+      lastGenerated: 2025-01-15T13:23:21.953Z
+      lastModified: 2020-09-04T03:35:46.000Z
+      lots:
+        Davide1983it - Ica.SC4Lot:
+          6c5d814b:
+            building: ac5d7c07
+            density: all
+            name: Davide1983it - Ica
+            props: 09d0a404,29d8eaaa,2a1431a8,3d4ea405,49e340a3,49e4d237,5d4e8c42,5d4e8cb1,69e78b2a,69eb6136,7d4ea859,89ce5b4b,89d35826,9d4e8bdb,9d4e8d22,9d4ebeb2,a9da3243,adcf0f5c,bd4e9107,bd4ea98b,bd4eae43,bd4eafc5,c9e8c3ba,dd4ea583,dd4ea7cf,dd4ea881,dd4eb01e,e9db7f35,e9e7996a,fd4ea933
+            size: 4x4
+            stage: 1
+            textures: 258d1000,25b41000,25b81000,25b91000,61c2f000,dd7b7500
+      models:
+        Davide1983it - Ica.SC4Model:
+          - cbd483bc-0069
+      release: 2025-01-15T13:23:21.953Z
       version: 1.0.0
 
 davide1983it/imperial-tower:
@@ -5739,125 +7414,61 @@ davide1983it/imperial-tower:
       release: 2025-01-14T11:22:17.640Z
       version: 1.0.0
 
-davide1983it/japanese-restaurants:
-  categories: cs$,cs$$
+davide1983it/isuraki-building:
+  categories: co$$,japan
   dependencies:
-    - bsc/textures-vol02
-    - cycledogg/mega-props-vol01
-    - cycledogg/textures-vol01
-    - davide1983it/props-vol01
-    - dolphin66/mega-props-vol01
-    - girafe/carpack
-    - lbt/mega-textures-vol01
-    - namspopof/prop-pack-vol02
-    - pclark06/mega-props-vol01
-    - sfbt/essentials
+    - bsc/textures-vol01
+    - couchpotato/mega-props-vol01
     - simgoober/mega-props-vol01
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e1f82b780ea_japaneserestaurant1.jpg.8aeffe2fcbdc07df4a7d42cf1a4b835d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60e1f83043a1d_japaneserestaurant.jpg.b22b0b59d6f5375535de15eb33563d4b.jpg
-  name: Japanese Restaurants
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60e1f891e71d0_japaneserestaurant1.thumb.jpg.96a18dea4d68a39d648d0db28ed1d1a3.jpg
-  url: https://community.simtropolis.com/files/file/34565-japanese-restaurant-hd/
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f74d58aebaa3_IsurakiBuilding(2).jpg.6ff7349b128d74ee637b15cadd70c5de.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f74d58ea2a29_IsurakiBuilding(1).jpg.93efa4f13c32fed8c812f684d21e3386.jpg
+  name: Isuraki Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f74d5ae44caf_IsurakiBuilding(2).thumb.jpg.92f8050cbc0de99787723796f9b3dd50.jpg
+  url: https://community.simtropolis.com/files/file/33846-isuraki-building/
   variants:
-    hd:
+    default:
       assets:
-        - id: simtropolis/34972-davide-prop-v1
+        - docs:
+            - isuraki building
+          id: simtropolis/33846-isuraki-building
           include:
-            - davide prop v1/Davide1983it - Fuji Restaurant*
-            - davide prop v1/Davide1983it - Fuku Ramen*
-            - davide prop v1/Davide1983it - Restaurant Nara Okonomiyaki*
+            - isuraki building
       buildings:
-        Davide1983it - Fuji Restaurant Hd.SC4Desc:
-          cbd483bc-cddb7371:
-            bulldoze: 93
+        Davide1983it - Isuraki building.SC4Desc:
+          cbd483bc-6c80fb16:
+            bulldoze: 2287
             capacity:
-              cs$: 34
-            categories: cs$
-            flamability: 45
-            garbage: 25
-            model: d0698a56
-            name: Davide1983it - Ristorante fuji hd
-            pollution: 2
-            pollutionRadius: 5
-            power: 1
-            water: 7
-            waterPollution: 1
-            waterPollutionRadius: 5
-            worth: 260
-        Davide1983it - Fuku Ramen Hd.SC4Desc:
-          cbd483bc-addb740e:
-            bulldoze: 134
-            capacity:
-              cs$: 32
-              cs$$: 10
-            categories: cs$$
+              co$$: 2127
+            categories: co$$
             flamability: 40
-            garbage: 6
-            model: d06989cf
-            name: Davide1983it - Ristorante Fuku Ramen HD
-            pollution: 1
+            garbage: 106
+            model: cbd483bc-0098
+            name: Davide1983it - Isuraki building
+            pollution: 21
             pollutionRadius: 5
-            power: 1
-            water: 11
-            worth: 270
-        Davide1983it - Restaurant Nara Okonomiyaki Hd.SC4Desc:
-          cbd483bc-edee39aa:
-            bulldoze: 103
-            capacity:
-              cs$: 37
-            categories: cs$
-            flamability: 45
-            garbage: 28
-            model: 90698ade
-            name: Davide1983it - Ristorante Okonomiyaki hd
-            pollution: 2
-            pollutionRadius: 5
-            power: 1
-            water: 7
-            waterPollution: 1
-            waterPollutionRadius: 5
-            worth: 285
-      lastGenerated: 2025-01-14T09:28:28.594Z
-      lastModified: 2022-03-13T08:56:14.000Z
+            power: 43
+            water: 1844
+            waterPollution: 21
+            waterPollutionRadius: 6
+            worth: 14868
+      lastGenerated: 2025-01-15T13:23:21.972Z
+      lastModified: 2020-09-30T18:59:59.000Z
       lots:
-        Davide1983it - Fuji Restaurant Hd.SC4Lot:
-          addb9309:
-            building: cddb7371
-            density: all
-            name: Davide1983it - Fuji Restaurant HD
-            props: 0ece1136,0ece1163,1bc496df,2ece110a,3bcf32c3,5a829953,5bc35c45,6ece111e,6f864337,7d4eabb2,8ece114d,9a829a18,9d4eab26,9d4eac14,adf47218,aed3804d,bd4e9e17,bd4ea98b,cdf471ef,fd4ea276,fd4eab81
-            size: 2x2
-            stage: 1
-            textures: 258d1000,25a32000,26252000,dd7a4e00,fb765605
-        Davide1983it - Fuku Ramen Hd.SC4Lot:
-          8ddb80cf:
-            building: addb740e
-            density: all
-            name: davide1983it - Fuku Ramen HD
-            props: 1337b3d7,29d9eb78,9337b3b2,9337b3b3,9a829a18,aed62c4d,ba82990b,c9d64ae6,c9df93b9,c9df9468,f337b393,f337b429,f337b42a,f337b44a
-            size: 2x1
-            stage: 1
-            textures: 25a82000,26263000,dd778000
-        Davide1983it - Restaurant Nara Okonomiyaki Hd.SC4Lot:
-          6dee3a21:
-            building: edee39aa
-            density: all
-            name: Davide1983it - Restaurant Nara Okonomiyaki HD
-            props: 5a829953,6f864337,71eccf98,7a829999,cdf471ef
-            size: 2x1
-            stage: 2
-            textures: f49bf460
+        Davide1983it - Isuraki Building.SC4Lot:
+          8c8110ef:
+            building: 6c80fb16
+            density: high
+            name: davide1983it - Isuraki Building
+            props: 2a9d0000,2ab60000,2ab70000,aeee1c86,af013c19
+            size: 3x3
+            stage: 8
+            textures: 262c3000
       models:
-        Davide1983it - Fuji Restaurant Hd.SC4Model:
-          - d0698a56
-        Davide1983it - Fuku Ramen Hd.SC4Model:
-          - d06989cf
-        Davide1983it - Restaurant Nara Okonomiyaki Hd.SC4Model:
-          - 90698ade
-      name: HD
-      release: 2025-01-14T09:28:28.534Z
-      version: 2.0.0
+        Davide1983it - Isuraki Building.SC4Model:
+          - cbd483bc-0098
+      release: 2025-01-15T13:23:21.972Z
+      version: 1.0.0
 
 davide1983it/kloudkicker-building:
   categories: co$$$
@@ -5868,7 +7479,7 @@ davide1983it/kloudkicker-building:
     - sfbt/essentials
     - simmer2/mega-props-vol01
   name: Kloudkicker Building
-  summary: Skyscraper in artdeco style, built between 1930 and 1933, with elegant marble entrances.
+  summary: Artdeco skyscraper, built between 1930 and 1933, with elegant marble entrances
   variants:
     hd:
       assets:
@@ -5980,12 +7591,11 @@ davide1983it/kukurydze-tower:
     - 11241036/textures
     - agc/environment-dlc
     - bsc/textures-vol01
+  summary: Residential prefabricated block tower in communist style
   description: |-
-    Kukurydze Tower, is a residential prefabricated block tower in comunist style.
+    Kukurydze Tower has 20 stories and each floor has 7 flats.
 
-    It has 20 stories and each floor has 7 flats.
-
-    The real Kukurydze Tower is situated in Katowice Poland.
+    The real tower is situated in Katowice, Poland.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bf0bf2d8135_KukurydzeTower.(1).png.25e1bd1ef083f23360c2377e9bbb5c7d.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bf0bc96efe3_KukurydzeTower.(2).png.3fc1b23b5e4986c4b25c5da5d890634a.png
@@ -6038,7 +7648,7 @@ davide1983it/m10:
     - cycledogg/textures-vol01
     - sfbt/essentials
     - simgoober/mega-props-vol01
-  description: Highrise residential block
+  summary: Highrise residential block
   name: M10
   variants:
     hd:
@@ -6319,7 +7929,7 @@ davide1983it/mansion-lorca:
   dependencies:
     - agc/environment-dlc
     - davide1983it/props-vol01
-  description: A splendid Spanish-style residence surrounded by a vast garden featuring a swimming pool
+  summary: Splendid Spanish-style residence surrounded by a vast garden featuring a swimming pool
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bd570c2614a_MansionLorca(1).png.c1f9126ede9869ed8e17331a6d2490f0.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_02/65bd57250e2c9_MansionLorca(2).png.97069892e1a05d4f79aca9152e2d34fe.png
@@ -6373,7 +7983,7 @@ davide1983it/maraldi-building:
   dependencies:
     - 11241036/textures
     - agc/environment-dlc
-  description: Artdeco skyscraper
+  summary: Artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_09/6327160b90147_Maraldibuilding(1).png.b44e0db6330ba652df4fd322233cd30d.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_09/6327161452ea9_Maraldibuilding(2).png.932fb53874d36176c3362170159c5275.png
@@ -6426,7 +8036,7 @@ davide1983it/milcoln-tower:
   categories: cs$$
   dependencies:
     - 11241036/textures
-  description: An Art-deco skyscraper
+  summary: Artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/668ac39287b2d_milcontower(1).png.202d1ea0528ec6739268d21156a6691e.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_07/668ac3d32b87b_milcontower(2).png.01b9e912410b2a1dd9c1ddc820995f73.png
@@ -6617,9 +8227,113 @@ davide1983it/mittelganghaus:
       release: 2025-01-14T11:22:17.320Z
       version: 1.0.0
 
+davide1983it/nara-okonomiyaki:
+  categories: cs$,japan,restaurant
+  dependencies:
+    - lbt/mega-textures-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fad61947b4cb_nararestaurant(2).jpg.581c7c78e72443bcf499233dd1db5ee9.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fad6196afece_nararestaurant(1).jpg.c0dcbdd1c3fa13187b09b4a0f6d293fa.jpg
+  name: Nara okonomiyaki restaurant
+  summary: Small japanese restaurant
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fad6e6fe8f51_nararestaurant(2).thumb.jpg.ab2dcd43dd53b5604422152a13e456e7.jpg
+  variants:
+    hd:
+      assets:
+        - id: simtropolis/34972-davide-prop-v1
+          include:
+            - davide prop v1/Davide1983it - Restaurant Nara Okonomiyaki*
+      buildings:
+        Davide1983it - Restaurant Nara Okonomiyaki Hd.SC4Desc:
+          cbd483bc-edee39aa:
+            bulldoze: 103
+            capacity:
+              cs$: 37
+            categories: cs$
+            flamability: 45
+            garbage: 28
+            model: 90698ade
+            name: Davide1983it - Ristorante Okonomiyaki hd
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 285
+      dependencies:
+        - dolphin66/mega-props-vol01
+      lastGenerated: 2025-01-16T08:09:50.743Z
+      lastModified: 2022-03-13T08:56:14.000Z
+      lots:
+        Davide1983it - Restaurant Nara Okonomiyaki Hd.SC4Lot:
+          6dee3a21:
+            building: edee39aa
+            density: all
+            name: Davide1983it - Restaurant Nara Okonomiyaki HD
+            props: 5a829953,6f864337,71eccf98,7a829999,cdf471ef
+            size: 2x1
+            stage: 2
+            textures: f49bf460
+      models:
+        Davide1983it - Restaurant Nara Okonomiyaki Hd.SC4Model:
+          - 90698ade
+      name: HD
+      release: 2025-01-16T08:09:50.743Z
+      url: https://community.simtropolis.com/files/file/34565-japanese-restaurant-hd/
+      version: 1.0.0
+    sd:
+      assets:
+        - docs:
+            - nara restaurant
+          id: simtropolis/33955-nara-okonomiyaki-restaurant
+          include:
+            - nara restaurant
+      buildings:
+        Davide1983it - Restaurant Nara Okonomiyaki.SC4Desc:
+          cbd483bc-ccb98afa:
+            bulldoze: 103
+            capacity:
+              cs$: 37
+            categories: cs$
+            flamability: 45
+            garbage: 28
+            model: cbd483bc-00ab
+            name: Davide1983it - Restaurant Nara Okonomiyaki
+            pollution: 2
+            pollutionRadius: 5
+            power: 1
+            water: 7
+            waterPollution: 1
+            waterPollutionRadius: 5
+            worth: 285
+      dependencies:
+        - dolphin66/mega-props-vol01
+      lastGenerated: 2025-01-15T13:23:22.002Z
+      lastModified: 2020-11-12T17:18:40.000Z
+      lots:
+        Davide1983it - Restaurant Nara Okonomiyaki.SC4Lot:
+          2cb98ee1:
+            building: ccb98afa
+            density: all
+            name: Davide1983it - Restaurant Nara Okonomiyaki
+            props: 5a829953,6f864337,71eccf98,7a829999,cdf471ef
+            size: 2x1
+            stage: 2
+            textures: f49bf460
+      models:
+        Davide1983it - Restaurant Nara Okonomiyaki.SC4Model:
+          - cbd483bc-00ab
+      name: SD
+      release: 2025-01-15T13:23:22.002Z
+      url: https://community.simtropolis.com/files/file/33955-nara-okonomiyaki-restaurant/
+      version: 1.0.0
+
 davide1983it/niroco-building:
   categories: co$$
-  description: Artdeco skyscraper
+  summary: Artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2023_07/64bf2dfbad35b_nirocobuilding(1).png.2246b44a3e104d76926ed21330262cab.png
     - https://www.simtropolis.com/objects/screens/monthly_2023_07/64bf2e03c59ba_nirocobuilding(2).png.8dbbef0ddde158323f125bf0dfe9daaa.png
@@ -6663,6 +8377,63 @@ davide1983it/niroco-building:
         Davide1983it - Niroco Building.SC4Model:
           - f24d59c0
       release: 2025-01-14T09:57:54.473Z
+      version: 1.0.0
+
+davide1983it/pacoma-building:
+  categories: co$$
+  dependencies:
+    - bsc/textures-vol02
+    - cycledogg/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb41100cf4b0_pacomabuilding(1).jpg.2b378d375305ca3ec182f7d6bf050565.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb41106939f0_pacomabuilding.jpg.ef6f987ce0cb461ce59a6f4c58b1ebdc.jpg
+  name: Pacoma Building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fb4111fd128c_pacomabuilding(1).thumb.jpg.a5195c8b52a38c12ad519356c11cc54f.jpg
+  url: https://community.simtropolis.com/files/file/33963-pacoma-building/
+  variants:
+    default:
+      assets:
+        - docs:
+            - pacoma  building
+          id: simtropolis/33963-pacoma-building
+          include:
+            - pacoma  building
+      buildings:
+        Davide1983it - Pacoma Building.SC4Desc:
+          cbd483bc-4cb5cf65:
+            bulldoze: 964
+            capacity:
+              co$$: 994
+            categories: co$$
+            flamability: 40
+            garbage: 50
+            model: cbd483bc-00a7
+            name: Davide1983it - Pacoma Building
+            pollution: 10
+            pollutionRadius: 5
+            power: 20
+            water: 862
+            waterPollution: 10
+            waterPollutionRadius: 6
+            worth: 6947
+      lastGenerated: 2025-01-15T13:23:22.018Z
+      lastModified: 2020-11-17T18:06:24.000Z
+      lots:
+        Davide1983it - Pacoma Building.SC4Lot:
+          2cb5d28f:
+            building: 4cb5cf65
+            density: high
+            name: Davide1983it - Pacoma Building
+            props: 1337b3d6,6ece111e,9337b3b3,adf47218,cdf471ef,d07a38d6,f337b392,f337b394,f337b44a,f337b44b
+            size: 3x3
+            stage: 7
+            textures: 258f2000,61134200
+      models:
+        Davide1983it - Pacoma Building.SC4Model:
+          - cbd483bc-00a7
+      release: 2025-01-15T13:23:22.018Z
       version: 1.0.0
 
 davide1983it/palazzo-currucci:
@@ -6888,7 +8659,7 @@ davide1983it/palazzo-derio:
   dependencies:
     - davide1983it/props-vol01
     - paeng/textures
-  description: Small corner building
+  summary: Small corner building
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0c735bddcc_palazzoderio(2).png.66b52b0377e12cdf2a90d1e11474156b.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0c7578c502_palazzoderio.png.68fcd08c3ed3d9007c72cc9f8989d18a.png
@@ -6942,6 +8713,7 @@ davide1983it/palazzo-maresio:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/623239528831f_palazzomaresio(1).png.ef4d583b46dd72093fe229226a1fe616.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/62323960c681c_palazzomaresio(2).png.807c3fd1277d9c06166651bd1db3784a.png
   name: Palazzo Maresio
+  summary: Residential tower in different heights
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/6232396aca2db_palazzomaresio(1).thumb.png.ad98185f60d277f2ff765cb53974a27f.png
   url: https://community.simtropolis.com/files/file/35010-palazzo-maresio/
   variants:
@@ -7109,6 +8881,7 @@ davide1983it/palazzo-sagesta:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/623a1b342e576_palazzosagesta(2).png.f5d329c4dc527b01ffa4df24fe8ef8a3.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/623a1aea6264c_palazzosagesta(1).png.83bc8c8ce0d5e9e36f3fd788a38cc732.png
   name: Palazzo Sagesta
+  summary: Residential tower in different heights
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/623a1b342e576_palazzosagesta(2).png.f5d329c4dc527b01ffa4df24fe8ef8a3.png
   url: https://community.simtropolis.com/files/file/35018-palazzo-sagesta/
   variants:
@@ -7285,7 +9058,7 @@ davide1983it/palazzo-simmer:
     - simmer2/mega-props-vol01
     - swi21/mega-props-vol01
   name: Palazzo Simmer
-  summary: Highrise building in 30's styles
+  summary: Highrise residential building in 30's styles
   variants:
     hd:
       assets:
@@ -7452,7 +9225,7 @@ davide1983it/parea-building:
     - agc/environment-dlc
     - davide1983it/props-vol01
     - paeng/textures
-  description: Office Building with two different entrances, and a Plaza with a red cube similiar to the red cube of Isamu Noguchi, in 140 Broadway - New York.
+  summary: Highrise office building with two entrances and a plaza with a red cube, similiar to the red cube of Isamu Noguchi, in 140 Broadway - New York.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8e7f0b343_pareabuilding(2).png.6fa6b80cf7c4ced5aa640ad4f872b7a2.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_07/62cf8e9668040_pareabuilding(5).png.5ddb0704fcbc9d3fa913bece15c06e5b.png
@@ -7514,6 +9287,7 @@ davide1983it/playgrounds:
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/playground.jpg.8a9580f20335c02acfdd04a6a42d5d0e.jpg
   name: Playgrounds
+  summary: Set of playground lots in Parks menu
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/playground.jpg.8a9580f20335c02acfdd04a6a42d5d0e.jpg
   url: https://community.simtropolis.com/files/file/34972-davide-prop-v1/
   variants:
@@ -7692,25 +9466,18 @@ davide1983it/playgrounds:
 davide1983it/props-vol01:
   categories: props
   description: |-
-    Compilation of outdoor props:
-
+    This pack includes props for:
     - streetlights
-
     - flowers, plants
-
     - benches, trash bins
-
     - patio, swimming pools
-
     - old cars from Eastern Europe
-
     - old american cars
-
     - driveways
-
     - tables, chairs, deckchairs
-
     - playgrounds
+    - the Eagle spaceship from Space: 1999
+    - etc.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/prop.png.1302f34f0d163a3004bf2baeba58810a.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/6224a88a86afa_setpool.jpg.29a606ed6399a5f883dc893387f687d2.jpg
@@ -7721,7 +9488,8 @@ davide1983it/props-vol01:
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/americancar2.jpg.1e5e46f107b8865e507e89eeb1e2f79d.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/tatra-wartburg.jpg.f6e9a34788d77919184cf2681d520fab.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2022_03/trabant.jpg.9d77f56cff2caa9190a89a1902f34f0d.jpg
-  name: Davide Mega Prop Pack Vol01
+  name: Davide Prop Pack Vol01
+  summary: Compilation of outdoor props
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_03/prop.thumb.png.09a2462fd38d4350362f6c6dd672864d.png
   url: https://community.simtropolis.com/files/file/34972-davide-prop-v1/
   variants:
@@ -8829,7 +10597,7 @@ davide1983it/r$-villa-pack-1:
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/609430ebade77_set(1).jpg.720186edff7695b1625a75e812034533.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_05/609430edb601d_set(2).jpg.05644b578e81730fc2dfe55ab40f5824.jpg
   name: R$ Villa Pack 1
-  summary: Set of 5 low-wealth villas (1x2 or 1x3).
+  summary: Set of 5 low-wealth villas
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_05/60943137e7f5e_set(1).thumb.jpg.8d936f82941e750e2179a457a3d02232.jpg
   url: https://community.simtropolis.com/files/file/34435-villa-pack-r/
   variants:
@@ -8984,7 +10752,7 @@ davide1983it/r$-villa-pack-2:
     - bsc/textures-vol02
     - cycledogg/textures-vol01
     - davide1983it/props-vol01
-  description: Set of 10 low-wealth villas.
+  summary: Set of 10 low-wealth villas
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6648be0359446_10villaset.png.dee2eb53cbb1feccbebad70d041ce6e1.png
     - https://www.simtropolis.com/objects/screens/monthly_2024_05/6648be3c133cf_10villaset(2).png.4ee94a03643b1dd965f4320f70d305ca.png
@@ -9272,7 +11040,7 @@ davide1983it/reg-building:
   dependencies:
     - cycledogg/mega-props-vol01
   name: Reg Building
-  summary: Imposing skyscraper in artdeco style
+  summary: Imposing artdeco skyscraper
   variants:
     hd:
       assets:
@@ -9400,6 +11168,7 @@ davide1983it/residential-building-set-1:
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258eba3c1b34_palazzoularia(1).png.1ef70ce3cef334a0533b3bb8d0d83d6c.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_04/6258ebaf9a055_palazzoularia(2).png.4eb6a07fd7de337a2afa55c7695478b5.png
   name: Palazzo Residential Building Set 1
+  summary: Set of residential buildings
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2022_04/6258ec3fdc207_palazzoruspini(1).thumb.png.818cfa9c3a8afa4f4c1ec6dc9db70ed2.png
   url: https://community.simtropolis.com/files/file/35057-palazzo-residential-building-set-1/
   variants:
@@ -9746,8 +11515,6 @@ davide1983it/rv-stopover:
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
   description: |-
-    A small area for RV / camper stopover with 4 places with power connection.
-
     In the area there is a refueling and unloading point:
 
     - a grate on the ground is used for the discharge of dirty water,
@@ -9763,6 +11530,7 @@ davide1983it/rv-stopover:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/602f5e6db96a2_Camperstopover(2).jpg.a1223a272728871b1ac54ef63a12b24b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/602f5e6fefeb1_Camperstopover(1).jpg.1d849685aed8cf7eeb3884581fd79c2f.jpg
   name: RV/Camper Stopover
+  summary: Small area for RV / camper stopover with 4 places with power connection
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/602f60338cd4b_Camperstopover(2).thumb.jpg.85b76f33a6a168b2b401e53762bb7fb8.jpg
   url: https://community.simtropolis.com/files/file/34152-rvcamper-stopover/
   variants:
@@ -9810,7 +11578,7 @@ davide1983it/shell-building:
   dependencies:
     - cycledogg/mega-props-vol01
     - sfbt/essentials
-  description: Artdeco tower
+  summary: Artdeco skyscraper
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_09/6142c5cc81e3b_ShellBuilding.jpg.9a92401a19971dd20086e8441251e8c2.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_09/6142c5c335fbd_ShellBuilding(3).jpg.a13602392b229deb19790fc516b57e3d.jpg
@@ -9862,7 +11630,7 @@ davide1983it/shell-building:
 
 davide1983it/small-park:
   categories: parks
-  description: Small 1x1 park
+  summary: Small 1x1 park
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/600d7cd407777_parco4strade.jpg.93eb4ee67df108cdc753d2449ee112e9.jpg
   name: Small park
@@ -9933,7 +11701,7 @@ davide1983it/social-housing-set-1:
     - bsc/textures-vol02
     - davide1983it/props-vol01
     - kingofsimcity/superpaths-pathway-textures
-  description: Set of prefabricated low-wealth residential buildinds (4 types)
+  summary: Set of prefabricated low-wealth residential buildings (4 types)
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_05/628080f0ab9ad_PREFABBRICATO(1).png.78c841d4d6c3057606dd65853e178ce9.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_05/628081137728f_PREFABBRICATO(2).png.fdd2e5667df41ca396c190fef7ed0717.png
@@ -10323,31 +12091,6 @@ davide1983it/social-housing-set-1:
       release: 2025-01-14T10:21:27.223Z
       version: 1.0.0
 
-davide1983it/space-1999-eagle:
-  categories: props
-  description: The famous Eagle of Space 1999 (as prop)
-  images:
-    - https://www.simtropolis.com/objects/screens/monthly_2021_07/60fd98cc4cec5_spazio1999-alpha.jpg.eedc1116f0f5cf62915c62c882b0c9bb.jpg
-  name: Space 1999 - The eagle
-  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_07/60fd990ecf790_spazio1999-alpha.thumb.jpg.ffff98c4b42095dd5b792eb4248dd661.jpg
-  url: https://community.simtropolis.com/files/file/34610-space-1999-the-eagle/
-  variants:
-    default:
-      assets:
-        - id: simtropolis/34610-space-1999-the-eagle
-      lastGenerated: 2025-01-14T11:22:18.155Z
-      lastModified: 2021-07-25T17:02:07.000Z
-      models:
-        Davide1983it - Space 1999 - Eagle.SC4Model:
-          - d098eb8f
-      props:
-        Davide1983it - Space 1999 - Eagle.SC4Desc:
-          cbd483bc-6e09b4b2:
-            model: d098eb8f
-            name: Davide1983it - Space 1999 - Eagle
-      release: 2025-01-14T11:22:18.150Z
-      version: 1.0.0
-
 davide1983it/supermarket-prix:
   categories: cs$$
   dependencies:
@@ -10416,6 +12159,66 @@ davide1983it/supermarket-prix:
       release: 2025-01-14T09:57:54.500Z
       version: 1.0.0
 
+davide1983it/sushi-restaurant:
+  categories: cs$,japan,restaurant
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - girafe/carpack
+    - pclark06/mega-props-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  summary: Small japanese restaurant
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faa8c044afaf_sushirestaurant(2).jpg.eadb3ddd7dbecd6330a9525f85fad95c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faa8c0029af2_sushirestaurant(1).jpg.eb6fdc72cbebdb24e53bf9438b7be806.jpg
+  name: Sushi restaurant
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5faa8c1fc9b6a_sushirestaurant(2).thumb.jpg.00b301321bb96696aa435dbd1f788b7e.jpg
+  url: https://community.simtropolis.com/files/file/33948-sushi-restaurant/
+  variants:
+    default:
+      assets:
+        - docs:
+            - sushi restaurant - Copia
+          id: simtropolis/33948-sushi-restaurant
+          include:
+            - sushi restaurant - Copia
+      buildings:
+        Davide1983it - Sushi restaurant.SC4Desc:
+          cbd483bc-4cb6b87e:
+            bulldoze: 97
+            capacity:
+              cs$: 56
+            categories: cs$
+            flamability: 45
+            garbage: 41
+            model: cbd483bc-00a8
+            name: Davide1983it - Sushi restaurant
+            pollution: 3
+            pollutionRadius: 5
+            power: 2
+            water: 11
+            waterPollution: 2
+            waterPollutionRadius: 5
+            worth: 429
+      lastGenerated: 2025-01-15T13:23:21.982Z
+      lastModified: 2020-11-10T12:48:32.000Z
+      lots:
+        Davide1983it - Sushi Restaurant.SC4Lot:
+          6cb6bce1:
+            building: 4cb6b87e
+            density: all
+            name: Davide1983it - Sushi Restaurant
+            props: 29d8eaaa,5a829953,5d4e8cb1,9337b3b2,9337b3b3,9d4ea352,a9d24bee,b337b8c0,ba82990b,bd4ea633,dd4ea3d6,ee0c0620,f337b392,f337b393,f337b394
+            size: 2x2
+            stage: 1
+            textures: 259d3000,25ad2000,dd8c4800
+      models:
+        Davide1983it - Sushi restaurant.SC4Model:
+          - cbd483bc-00a8
+      release: 2025-01-15T13:23:21.982Z
+      version: 1.0.0
+
 davide1983it/tarasco-building:
   categories: co$$
   dependencies:
@@ -10427,6 +12230,7 @@ davide1983it/tarasco-building:
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/647ad776520dc_TarascoBuilding(5).png.5450b9a2dbfc6a7e3d28664c6e4f2149.png
     - https://www.simtropolis.com/objects/screens/monthly_2023_06/647ad78e82082_TarascoBuilding(2).png.7fa55ef903179654e6aadac452e4c7b7.png
   name: Tarasco Building
+  summary: Imposing artdeco skyscraper
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2023_06/647ad851d4ffb_TarascoBuilding(1).thumb.png.00e69c9579cd16826f07e461d51fb975.png
   url: https://community.simtropolis.com/files/file/35540-tarasco-building/
   variants:
@@ -10469,14 +12273,67 @@ davide1983it/tarasco-building:
       version: 1.0.0
 
 davide1983it/torre-237:
+  categories: r$
+  deprecated: davide1983it/torre-237-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f66e0b30c410_torre237(1).jpg.e2ea7707248755d532641a55ea5a4f93.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f66e0b5490ab_torre237(2).jpg.fd19c3c1b9d824271979499e5ea01ef2.jpg
+  name: Torre 237
+  summary: Residential pencil tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f66e0d0b6abf_torre237(1).thumb.jpg.273e71dadddc1c1c1e818046b4e237e8.jpg
+  url: https://community.simtropolis.com/files/file/33833-torre-237/
+  variants:
+    default:
+      assets:
+        - docs:
+            - torre 237
+          id: simtropolis/33833-torre-237
+          include:
+            - torre 237
+      buildings:
+        Davide1983it - Torre 237.SC4Desc:
+          cbd483bc-2c7305a8:
+            bulldoze: 1801
+            capacity:
+              r$: 1179
+            categories: r$
+            flamability: 45
+            garbage: 71
+            model: cbd483bc-008c
+            name: Davide1983it - Torre 237
+            pollution: 35
+            pollutionRadius: 5
+            power: 5
+            water: 56
+            waterPollution: 12
+            waterPollutionRadius: 5
+            worth: 16025
+      lastGenerated: 2025-01-15T15:19:59.471Z
+      lastModified: 2020-09-20T04:55:45.000Z
+      lots:
+        Davide1983it - Torre 237.SC4Lot:
+          ec730753:
+            building: 2c7305a8
+            density: high
+            name: Davide1983it - Torre 237
+            size: 1x2
+            stage: 8
+            textures: '25901000'
+      models:
+        Davide1983it - Torre 237.SC4Model:
+          - cbd483bc-008c
+      release: 2025-01-15T15:19:59.471Z
+      version: 1.0.0
+
+davide1983it/torre-237-v2:
   categories: r$$$
   dependencies:
     - bsc/textures-vol01
-  description: Pencil Tower
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60453cd299576_torre237(1).jpg.359a17ca6c0855767a042703e8072ca8.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60453cd4d78fd_torre237(2).jpg.71ee3cc4f7c39e9e62c11274fcd7389d.jpg
-  name: Torre 237
+  name: Torre 237 v2
+  summary: Residential pencil tower
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60453d0f9ede3_torre237(1).thumb.jpg.e5dd99b30f843bc461ba81d878374b4a.jpg
   url: https://community.simtropolis.com/files/file/34238-torre-237/
   variants:
@@ -10507,7 +12364,7 @@ davide1983it/torre-237:
             waterPollution: 7
             waterPollutionRadius: 7
             worth: 18006
-      lastGenerated: 2025-01-14T11:22:16.869Z
+      lastGenerated: 2025-01-15T15:21:27.325Z
       lastModified: 2021-03-07T20:52:31.000Z
       lots:
         Davide1983it - Torre 237.SC4Lot:
@@ -10524,11 +12381,237 @@ davide1983it/torre-237:
       release: 2025-01-14T11:22:16.864Z
       version: 1.0.0
 
+davide1983it/torre-410:
+  categories: r$
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f5e3d442ad8f_torre410(1).jpg.e3262896d4efd7a7f237560f81f277e3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f5e3d4cb0324_torre410(2).jpg.11bf40abd6954b49192f36ff7f2f6012.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f5e3d50d3410_torre410(3).jpg.b190679520238beff491ce9091d3f66b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f5e3d54f2aad_torre410(4).jpg.8216d80258d569910c96e2e2cf30ee3c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f5e3d59462d9_torre410(5).jpg.2611e83cb36a3f78a617c2e7e9f5def7.jpg
+  name: Torre 410
+  summary: Residential pencil tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f5e3db99b697_torre410(1).thumb.jpg.5a6fd3176bf008281c77eb352a5bc665.jpg
+  url: https://community.simtropolis.com/files/file/33824-torre-410/
+  variants:
+    default:
+      assets:
+        - docs:
+            - torre 410
+          id: simtropolis/33824-torre-410
+          include:
+            - torre 410
+      buildings:
+        Davide1983it - Torre 410.SC4Desc:
+          cbd483bc-0c6a7c03:
+            bulldoze: 1645
+            capacity:
+              r$: 1096
+            categories: r$
+            flamability: 45
+            garbage: 66
+            model: cbd483bc-0076
+            name: Davide1983it - Torre 410
+            pollution: 33
+            pollutionRadius: 5
+            power: 5
+            water: 52
+            waterPollution: 11
+            waterPollutionRadius: 5
+            worth: 14896
+      lastGenerated: 2025-01-15T13:23:21.635Z
+      lastModified: 2020-09-13T15:41:48.000Z
+      lots:
+        Davide1983it - Torre 410.SC4Lot:
+          cc6a7cf7:
+            building: 0c6a7c03
+            density: high
+            name: Davide1983 - Torre 410
+            size: 1x2
+            stage: 8
+            textures: '26353000'
+      models:
+        Davide1983it - Torre 410.SC4Model:
+          - cbd483bc-0076
+      release: 2025-01-15T13:23:21.635Z
+      version: 1.0.0
+
+davide1983it/torre-530:
+  categories: r$
+  dependencies:
+    - cycledogg/textures-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/torre530-1.jpg.29fd1a4fbf92f15792f5e5470fa757f4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/torre530.jpg.9bf84573f409ff4595b8f6f9efa1237c.jpg
+  name: Torre 530
+  summary: Residential pencil tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/torre530-1.thumb.jpg.b78e021cfec0db6e97177c5cbaf07111.jpg
+  url: https://community.simtropolis.com/files/file/33818-torre-530/
+  variants:
+    default:
+      assets:
+        - docs:
+            - torre 530
+          id: simtropolis/33818-torre-530
+          include:
+            - torre 530
+      buildings:
+        Davide1983it - Torre 530.SC4Desc:
+          cbd483bc-4c5eccad:
+            bulldoze: 1822
+            capacity:
+              r$: 1557
+            categories: r$
+            flamability: 45
+            garbage: 93
+            model: cbd483bc-006b
+            name: Davide1983it - Torre 530
+            pollution: 47
+            pollutionRadius: 5
+            power: 7
+            water: 73
+            waterPollution: 16
+            waterPollutionRadius: 5
+            worth: 21157
+      lastGenerated: 2025-01-15T13:23:21.594Z
+      lastModified: 2020-09-05T15:12:37.000Z
+      lots:
+        Davide1983it - Torre 530.SC4Lot:
+          cc5edb40:
+            building: 4c5eccad
+            density: high
+            name: Davide1983it - Torre 530
+            size: 2x2
+            stage: 8
+            textures: dd7ab900
+      models:
+        Davide1983it - Torre 530.SC4Model:
+          - cbd483bc-006b
+      release: 2025-01-15T13:23:21.594Z
+      version: 1.0.0
+
+davide1983it/torre-aran:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol02
+    - jeronij/mega-props-vol02
+    - lbt/mega-textures-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8740e70f0da_torrearan.jpg.f8c9ee59e705d94702189ab3bc25d4e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_10/5f8740eaad861_torrearan(1).jpg.a986c74740d45d7fbe61f8382e414137.jpg
+  name: Torre Aran
+  summary: Highrise residential building
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_10/5f874109a7960_torrearan.thumb.jpg.1467d0b2fd3abb5bd28e639dfac7bb03.jpg
+  url: https://community.simtropolis.com/files/file/33872-torre-aran/
+  variants:
+    default:
+      assets:
+        - docs:
+            - torre aran
+          id: simtropolis/33872-torre-aran
+          include:
+            - torre aran
+      buildings:
+        Davide1983it - Torre Aran.SC4Desc:
+          cbd483bc-0c8e160d:
+            bulldoze: 1394
+            capacity:
+              r$: 1631
+              r$$: 902
+            categories: r$$
+            flamability: 40
+            garbage: 127
+            model: cbd483bc-009b
+            name: Davide1983it - Torre Aran
+            pollution: 25
+            pollutionRadius: 5
+            power: 13
+            water: 142
+            waterPollution: 25
+            waterPollutionRadius: 6
+            worth: 23531
+      lastGenerated: 2025-01-15T13:23:21.673Z
+      lastModified: 2020-10-14T18:18:50.000Z
+      lots:
+        Davide1983it - Torre Aran.SC4Lot:
+          ac8e3096:
+            building: 0c8e160d
+            density: high
+            name: Davide1983it - Torre Aran
+            props: 11712d79,2a110000,d07a3a98
+            size: 3x2
+            stage: 8
+            textures: 61134a00,f49a0070
+      models:
+        Davide1983it - Torre Aran.SC4Model:
+          - cbd483bc-009b
+      release: 2025-01-15T13:23:21.673Z
+      version: 1.0.0
+
+davide1983it/torre-fara:
+  categories: r$$
+  dependencies:
+    - bsc/textures-vol01
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - couchpotato/mega-props-vol01
+  summary: Highrise residential building in Artdeco style, inspired by Torre Fara di Chiavari (Italy)
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f53a9c60bd2d_torrefara(1).jpg.958c6a3b6f701bcede1ee5aae86fd01c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_09/5f53a9c8ee0b2_torrefara(2).jpg.054888893e9676c4146521dec1e463e6.jpg
+  name: Torre Fara
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_09/5f53aa45845c8_torrefara(1).thumb.jpg.89bea01520d9554a6696ce3dffa676f5.jpg
+  url: https://community.simtropolis.com/files/file/33817-torre-fara/
+  variants:
+    default:
+      assets:
+        - docs:
+            - torre fara
+          id: simtropolis/33817-torre-fara
+          include:
+            - torre fara
+      buildings:
+        Davide1983ir - Torre Fara.SC4Desc:
+          cbd483bc-0c5fb897:
+            bulldoze: 993
+            capacity:
+              r$: 1216
+              r$$: 673
+            categories: r$$
+            flamability: 40
+            garbage: 94
+            model: cbd483bc-006c
+            name: Davide1983it - Torre Fara
+            pollution: 19
+            pollutionRadius: 5
+            power: 10
+            water: 106
+            waterPollution: 19
+            waterPollutionRadius: 6
+            worth: 17552
+      lastGenerated: 2025-01-15T13:23:21.582Z
+      lastModified: 2020-09-05T15:53:23.000Z
+      lots:
+        Davide1983it - Torre Fara.SC4Lot:
+          0c5fbe64:
+            building: 0c5fb897
+            density: high
+            name: Davide1983it - Torre Fara
+            props: 2a7ccda1,a0000078,aecfc6e7
+            size: 3x3
+            stage: 7
+            textures: 258f2000,59403000,61066000,61c2f000,61c3c000
+      models:
+        Davide1983it - Torre Fara.SC4Model:
+          - cbd483bc-006c
+      release: 2025-01-15T13:23:21.582Z
+      version: 2.0.0
+
 davide1983it/torre-teala:
   categories: r$$$
   dependencies:
     - kingofsimcity/supershk-mega-parking-textures
-  description: Highrise residential building
+  summary: Highrise residential building
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0cb3ae0360_torreteala(1).png.e632fc510026e955aa9628b0e8331dae.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_06/62b0cb3fd0968_torreteala(2).png.9f38cb4ac7543b6656b9a57a094410f3.png
@@ -10587,7 +12670,8 @@ davide1983it/villa-akron:
     - porkissimo/jenx-porkie-expanded-props
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
-  description: A small villa surrondend by a lovely garden. The house in red falun wood, typical colour in Sweden and Norway.
+  summary: Small villa surrounded by a lovely garden
+  description: The house in red falun wood, typical color in Sweden and Norway.
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/604770b9078cd_villaakron(1).jpg.536520a967c9648f87856193b7deada8.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/604770bb94fe4_villaakron(2).jpg.c7425a9740b1137f94be4be620487d27.jpg
@@ -11947,13 +14031,74 @@ davide1983it/villa-cincinnati:
     - porkissimo/jenx-porkie-expanded-props
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
+  deprecated: davide1983it/villa-cincinnati-v2
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a3e27591_villacincinnati(1).jpg.e13d94a435b9060b7e3014b04fbfeb8c.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a3f704bf_villacincinnati(2).jpg.8feb3a449c649d57dbd999ab7bd0c60f.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6030b287e842a_villacincinnati(2).jpg.51edf197d5385c0ff2c8544603619b2e.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6030b28db8f5a_villacincinnati(1).jpg.009b7ab8693206e958c0750210c48530.jpg
   name: Villa Cincinnati
   summary: Small wooden house with a patio as entrance and a little garden
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6030b2a58e886_villacincinnati(2).thumb.jpg.afa644493c459d6d8e75062707593f96.jpg
+  url: https://community.simtropolis.com/files/file/34156-villa-cincinnati/
+  variants:
+    default:
+      assets:
+        - docs:
+            - villa cincinnati
+          id: simtropolis/34156-villa-cincinnati
+          include:
+            - villa cincinnati
+      buildings:
+        Davide1983it - Villa Cincinnati.SC4Desc:
+          cbd483bc-6d3ae715:
+            bulldoze: 121
+            capacity:
+              r$: 36
+            categories: r$
+            flamability: 45
+            garbage: 2
+            model: cbd483bc-00f2
+            name: Davide1983it - Villa Cincinnati
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 494
+      lastGenerated: 2025-01-14T11:22:16.552Z
+      lastModified: 2021-02-20T06:56:38.000Z
+      lots:
+        Davide1983it - Villa Cincinnati.SC4Lot:
+          4d3af073:
+            building: 6d3ae715
+            density: all
+            name: Davide1983it - Villa Cincinnati
+            props: 0f70155e,1337b3d6,1337b3d7,1e1a0000,29e9e3f5,4e0c0604,4e2e6001,4f6ad47d,5337b3f7,7bbe11a7,8f6ad464,9337b3b2,9337b3b3,ae9d693b,ee0c0620,eef02abf,f337b393,f337b394
+            replace: 0dda7095,ad575633
+            size: 2x2
+            stage: 3
+            textures: 25933000,dd1f4000,dd766600
+      models:
+        Davide1983it - Villa Cincinnati.SC4Model:
+          - cbd483bc-00f2
+      release: 2025-01-14T11:22:16.546Z
+      version: 1.0.0
+
+davide1983it/villa-cincinnati-v2:
+  categories: r$
+  dependencies:
+    - cycledogg/mega-props-vol01
+    - cycledogg/textures-vol01
+    - dolphin66/mega-props-vol01
+    - namspopof/prop-pack-vol02
+    - pclark06/mega-props-vol01
+    - porkissimo/jenx-porkie-expanded-props
+    - simgoober/mega-props-vol01
+    - swi21/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a3e27591_villacincinnati(1).jpg.e13d94a435b9060b7e3014b04fbfeb8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a3f704bf_villacincinnati(2).jpg.8feb3a449c649d57dbd999ab7bd0c60f.jpg
+  name: Villa Cincinnati v2
+  summary: Small wooden house with a patio as entrance and a little garden (updated texture)
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a8442d88_villacincinnati(1).thumb.jpg.2e8f4d89d5ea02178e9ce9aac6c62ab6.jpg
   variants:
     hd:
       assets:
@@ -11992,57 +14137,11 @@ davide1983it/villa-cincinnati:
       models:
         Davide1983it - Villa Cincinnati HD.SC4Model:
           - 506997ac
-      name: v2 - HD
+      name: HD
       release: 2025-01-14T15:04:48.343Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a8442d88_villacincinnati(1).thumb.jpg.2e8f4d89d5ea02178e9ce9aac6c62ab6.jpg
       url: https://community.simtropolis.com/files/file/34537-set-villa-hd-1/
       version: 1.0.0
-    v1:
-      assets:
-        - docs:
-            - villa cincinnati
-          id: simtropolis/34156-villa-cincinnati
-          include:
-            - villa cincinnati
-      buildings:
-        Davide1983it - Villa Cincinnati.SC4Desc:
-          cbd483bc-6d3ae715:
-            bulldoze: 121
-            capacity:
-              r$: 36
-            categories: r$
-            flamability: 45
-            garbage: 2
-            model: cbd483bc-00f2
-            name: Davide1983it - Villa Cincinnati
-            pollution: 1
-            pollutionRadius: 5
-            power: 1
-            water: 2
-            worth: 494
-      deprecated: v2
-      lastGenerated: 2025-01-14T11:22:16.552Z
-      lastModified: 2021-02-20T06:56:38.000Z
-      lots:
-        Davide1983it - Villa Cincinnati.SC4Lot:
-          4d3af073:
-            building: 6d3ae715
-            density: all
-            name: Davide1983it - Villa Cincinnati
-            props: 0f70155e,1337b3d6,1337b3d7,1e1a0000,29e9e3f5,4e0c0604,4e2e6001,4f6ad47d,5337b3f7,7bbe11a7,8f6ad464,9337b3b2,9337b3b3,ae9d693b,ee0c0620,eef02abf,f337b393,f337b394
-            replace: 0dda7095,ad575633
-            size: 2x2
-            stage: 3
-            textures: 25933000,dd1f4000,dd766600
-      models:
-        Davide1983it - Villa Cincinnati.SC4Model:
-          - cbd483bc-00f2
-      name: v1
-      release: 2025-01-14T11:22:16.546Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6030b2a58e886_villacincinnati(2).thumb.jpg.afa644493c459d6d8e75062707593f96.jpg
-      url: https://community.simtropolis.com/files/file/34156-villa-cincinnati/
-      version: 1.0.0
-    v2:
+    sd:
       assets:
         - docs:
             - villa cincinnati
@@ -12081,9 +14180,8 @@ davide1983it/villa-cincinnati:
       models:
         Davide1983it - Villa Cincinnati.SC4Model:
           - cbd483bc-012f
-      name: v2 - SD
+      name: SD
       release: 2025-01-14T11:22:16.930Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/604c8a8442d88_villacincinnati(1).thumb.jpg.2e8f4d89d5ea02178e9ce9aac6c62ab6.jpg
       url: https://community.simtropolis.com/files/file/34276-villa-cincinnati-v2/
       version: 1.0.0
 
@@ -12108,7 +14206,6 @@ davide1983it/villa-cleveland:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b67b85520_villacleveland(3).jpg.9e29caa7f652c23cb9036c0de702b032.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b67da69d6_villacleveland(4).jpg.a0e04c1e0bf0f7f1ac071c4b31ac316b.jpg
   name: Villa Cleveland
-  summary: A mansion house
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6019b6865b29d_villacleveland(1).thumb.jpg.cc249b43c53dd9bd9afd53ca2d64a8a2.jpg
   url: https://community.simtropolis.com/files/file/34087-villa-cleveland/
   variants:
@@ -13467,7 +15564,6 @@ davide1983it/villa-hartford:
     - pegasus/mtp-super-pack
     - porkissimo/jenx-porkie-expanded-props
     - simgoober/mega-props-vol01
-  description: 2x2 residential building
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/6016fb7bd1d23_villahartford(1).jpg.2ae14411e3213f54f25320175b6a7092.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/6016fb7ee542f_villahartford(2).jpg.2f5d9d13ffde5d5b3d212204e0733bf2.jpg
@@ -13535,7 +15631,6 @@ davide1983it/villa-helena:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/603398fa4e2da_davide1983it-VillaHelena(2).jpg.25a4fc62eda692eeaccf85517d4332e7.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/603398fbec5c1_davide1983it-VillaHelena(1).jpg.9f723da5f6cc573bcdfd03f092af95d9.jpg
   name: Villa Helena
-  summary: Small wooden house
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/60339981eaf89_davide1983it-VillaHelena(2).thumb.jpg.fdd7a0703acb5c94f8e4dca28ce789a3.jpg
   variants:
     hd:
@@ -13850,7 +15945,6 @@ davide1983it/villa-jackson:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a92c482f2_villajackson(2).jpg.ceae63bd85033c854b52613cb458401b.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a92e05850_villajackson(1).jpg.028b8c02bd1d638b3ac4abafad8a8db0.jpg
   name: Villa Jackson
-  summary: 3x2 residential building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a9472d4da_villajackson(2).thumb.jpg.fc0b4894b15d8318387d687f2b5c33cf.jpg
   url: https://community.simtropolis.com/files/file/34113-villa-jackson/
   variants:
@@ -14156,7 +16250,6 @@ davide1983it/villa-lexington:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6028f454267d3_villalexington(1).jpg.ba84c720c594fcf08e01b05d1be07ee8.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6028f455c6116_villalexington(2).jpg.cafb9b7678d293cb7eaa286a0efa94b3.jpg
   name: Villa Lexington
-  summary: 2x2 residential building
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6028f47424ccd_villalexington(1).thumb.jpg.a46d2699c97c6bbcc5872e879c721436.jpg
   url: https://community.simtropolis.com/files/file/34133-villa-lexington/
   variants:
@@ -14557,7 +16650,6 @@ davide1983it/villa-memphis:
     - lbt/mega-textures-vol01
     - pclark06/mega-props-vol01
     - simgoober/mega-props-vol01
-  description: Small 2x1 house
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a0eb07d98_villamemphis(1).jpg.8902e6360f24f2b618068d24b5c2736a.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a0ec3f8ff_villamemphis(2).jpg.68587030cc6f19d3230a263a9eda8b40.jpg
@@ -14606,6 +16698,70 @@ davide1983it/villa-memphis:
       release: 2025-01-14T11:22:16.420Z
       version: 1.0.0
 
+davide1983it/villa-nagoya:
+  categories: r$,japan
+  dependencies:
+    - bsc/textures-vol02
+    - couchpotato/mega-props-vol01
+    - cycledogg/textures-vol01
+    - dolphin66/mega-props-vol01
+    - girafe/carpack
+    - namspopof/prop-pack-vol02
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - swi21/mega-props-vol01
+  summary: Small Japanese-style house
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faeb8827bca4_villanagoya(3).jpg.cd044695698f322d51bcd1de65518f8c.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faeb88ad913a_villanagoya(4).jpg.5114b252c4afc2d662350b82daa48c25.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faeb88e41c3d_villanagoya(5).jpg.0274270e8f68e8e63113c09d6bd9a875.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faeb89136b75_villanagoya(1).jpg.8838f5ec563fe08ec05fbc7183c3b9d7.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5faeb893b25d8_villanagoya(2).jpg.cb7aaf546a4bfa3f26fbbfadc9d4bb99.jpg
+  name: Villa Nagoya
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5faeb8c313c3b_villanagoya(3).thumb.jpg.973429362bf4005ea5d47a78598ec835.jpg
+  url: https://community.simtropolis.com/files/file/33957-villa-nagoya/
+  variants:
+    default:
+      assets:
+        - docs:
+            - villa nagoya
+          id: simtropolis/33957-villa-nagoya
+          include:
+            - villa nagoya
+      buildings:
+        Davide1983it - Villa Nagoya.SC4Desc:
+          cbd483bc-acbae6f0:
+            bulldoze: 164
+            capacity:
+              r$: 32
+            categories: r$
+            flamability: 45
+            garbage: 2
+            model: cbd483bc-00b0
+            name: Davide1983it - Villa Nagoya 01
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 2
+            worth: 432
+      lastGenerated: 2025-01-15T13:23:21.772Z
+      lastModified: 2020-11-13T16:48:06.000Z
+      lots:
+        Davide1983it - Villa Nagoya.SC4Lot:
+          6cbae775:
+            building: acbae6f0
+            density: all
+            name: davide1983it - Villa Nagoya 01
+            props: 0e2e5fcc,1bbe118d,2e35e32d,4e0c060e,4ece309c,5a829953,6f864337,7bbdf395,7bbe1251,9a829a18,bd4eafc5,eece30af
+            size: 1x2
+            stage: 3
+            textures: dd26c000,f0f0401a
+      models:
+        Davide1983it - Villa Nagoya.SC4Model:
+          - cbd483bc-00b0
+      release: 2025-01-15T13:23:21.772Z
+      version: 1.0.0
+
 davide1983it/villa-nashville:
   categories: r$
   dependencies:
@@ -14616,7 +16772,7 @@ davide1983it/villa-nashville:
     - porkissimo/jenx-porkie-expanded-props
     - sfbt/essentials
     - simgoober/mega-props-vol01
-  description: Small 2x1 American house
+  summary: Small American house
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/601541e95c1f7_villanashville(1).jpg.e320808cf0fceda5de3f255bc6755631.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_01/601541eb72881_villanashville(4).jpg.46eb1371edc3aebe44c8233db474a871.jpg
@@ -14677,7 +16833,7 @@ davide1983it/villa-omaha:
     - pclark06/mega-props-vol02
     - simgoober/mega-props-vol01
     - swi21/mega-props-vol01
-  description: Small 2x2 house
+  summary: Small American house
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a1ec162a7_villaomaha(1).jpg.89dae4df26769f9149f9b91afa7373bb.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6021a1ed9d47c_villaomaha(2).jpg.7a7408efd5e4b015e05f5654c6263ba5.jpg
@@ -15146,7 +17302,7 @@ davide1983it/villa-phoenix:
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6031fb7a5cf07_Villaphoenix(1).jpg.84e8fe6a1eb30fbf69fad1a76032f7b6.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_02/6031fb7c14108_Villaphoenix(2).jpg.72f1f74215b622a0c2a2d2bb4f4e2367.jpg
   name: Villa Phoenix
-  summary: Elegant house, with garden and swimming pool
+  summary: Elegant house with a garden and a swimming pool
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/6031fbb40051a_Villaphoenix(1).thumb.jpg.5418690539172ddf63ca12c11f6edc93.jpg
   variants:
     hd:
@@ -15952,6 +18108,68 @@ davide1983it/villa-savannah:
       url: https://community.simtropolis.com/files/file/34308-villa-savannah/
       version: 1.0.0
 
+davide1983it/villa-takamatsu:
+  categories: r$,japan
+  dependencies:
+    - bsc/textures-vol02
+    - cycledogg/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - namspopof/prop-pack-vol02
+    - pclark06/mega-props-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+    - swi21/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fafd2b07c5b0_a(1).jpg.8475d490553d031f074d677852870ff3.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fafd2b2cc96f_a(2).jpg.c2ec9c69e21ac38fac138db500ab4685.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fafd2b49e265_a(3).jpg.0a39a749cfc52871acf289a59733bb53.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_11/5fafd2b6a0523_a(4).jpg.88cb2b98052f17d4e880aaf3c538a2ab.jpg
+  name: Villa Takamatsu
+  summary: Small Japanese-style house
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_11/5fafd2e2c393b_a(1).thumb.jpg.d77bc251f2438aa7dfe7cb3155d7e5b9.jpg
+  url: https://community.simtropolis.com/files/file/33960-villa-takamatsu/
+  variants:
+    default:
+      assets:
+        - docs:
+            - villa takamatsu
+          id: simtropolis/33960-villa-takamatsu
+          include:
+            - villa takamatsu
+      buildings:
+        Davide1983it - Villa Takamatsu.SC4Desc:
+          cbd483bc-2cbbf438:
+            bulldoze: 140
+            capacity:
+              r$: 21
+            categories: r$
+            flamability: 45
+            garbage: 1
+            model: cbd483bc-00b2
+            name: Davide1983it - Villa Takamatsu
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 1
+            worth: 279
+      lastGenerated: 2025-01-15T13:23:21.781Z
+      lastModified: 2020-11-14T12:51:48.000Z
+      lots:
+        davide1983it - Villa Takamatsu.SC4Lot:
+          6cbc0084:
+            building: 2cbbf438
+            density: all
+            name: davide1983it - Villa Takamatsu
+            props: 0e2e5fcc,1bbe118d,29dcccbd,3bcf3587,4e0c060e,5a829953,6f864337,9337b3b3,9a829a18,f337b393,f337b394
+            size: 1x2
+            stage: 3
+            textures: 61128000,f0f0401a
+      models:
+        Davide1983it - Villa Takamatsu.SC4Model:
+          - cbd483bc-00b2
+      release: 2025-01-15T13:23:21.781Z
+      version: 1.0.0
+
 davide1983it/villa-tallahassee:
   categories: r$
   dependencies:
@@ -16136,10 +18354,74 @@ davide1983it/villa-topeka:
     - pclark06/mega-props-vol01
     - porkissimo/jenx-porkie-expanded-props
     - swi21/mega-props-vol01
+  deprecated: davide1983it/villa-topeka-v2
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/601c4c8a1d23b_villatopeka(2).jpg.b917af0655a8cf39fcbf03fba30736d8.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_02/601c4c8bd8504_villatopeka(1).jpg.27ab66ff9d1b13538934033cced42837.jpg
+  name: Villa Topeka
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/601c4ccd46236_villatopeka(2).thumb.jpg.99432aced7a7fad3da7c2b03378be462.jpg
+  url: https://community.simtropolis.com/files/file/34092-villa-topeka/
+  variants:
+    default:
+      assets:
+        - docs:
+            - villa topeka
+          id: simtropolis/34092-villa-topeka
+          include:
+            - villa topeka
+      buildings:
+        Davide1983it - Villa Topeka.SC4Desc:
+          cbd483bc-ed28489d:
+            bulldoze: 132
+            capacity:
+              r$: 39
+              r$$: 23
+            categories: r$$
+            flamability: 40
+            garbage: 3
+            model: cbd483bc-00d8
+            name: Davide1983it - Villa Topeka
+            pollution: 1
+            pollutionRadius: 5
+            power: 1
+            water: 4
+            waterPollution: 1
+            waterPollutionRadius: 6
+            worth: 567
+      lastGenerated: 2025-01-14T13:01:59.408Z
+      lastModified: 2021-02-04T19:36:45.000Z
+      lots:
+        Davide1983it - Villa Topeka.SC4Lot:
+          cd285b2d:
+            building: ed28489d
+            density: all
+            name: Davide1983it - Villa Topeka
+            props: 1337b3d7,1e030000,29150000,2ab60000,49d64602,4e2e6001,7bbdf326,7bbe11a7,8ef02ab1,9337b3b2,9337b3b3,aeee1c86,ce2d43cd,ef13f647,f337b392,f337b393,f337b394
+            replace: 2dd9a54b,6d5285cb
+            size: 2x2
+            stage: 3
+            textures: 252b2000,25bf1000
+      models:
+        Davide1983it - Villa Topeka.SC4Model:
+          - cbd483bc-00d8
+      release: 2025-01-14T13:01:59.402Z
+      version: 1.0.0
+
+davide1983it/villa-topeka-v2:
+  categories: r$$
+  dependencies:
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - dolphin66/mega-props-vol01
+    - namspopof/prop-pack-vol02
+    - pclark06/mega-props-vol01
+    - porkissimo/jenx-porkie-expanded-props
+    - swi21/mega-props-vol01
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476f68b55b4_villatopeka(1).jpg.8dd40c1da21fc78c473ad00c4a1fa3b7.jpg
     - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476f6f7de40_villatopeka(2).jpg.426a0ec75534d258e42bdb53810f25fa.jpg
-  name: Villa Topeka
+  name: Villa Topeka v2
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60476fc6a0f9e_villatopeka(1).thumb.jpg.85c1dde7e0a8edb9f4627310eb357659.jpg
   variants:
     hd:
       assets:
@@ -16181,63 +18463,11 @@ davide1983it/villa-topeka:
       models:
         Davide1983it - Villa Topeka HD.SC4Model:
           - 1068dc1a
-      name: v2 - HD
+      name: HD
       release: 2025-01-14T15:04:48.597Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60476fc6a0f9e_villatopeka(1).thumb.jpg.85c1dde7e0a8edb9f4627310eb357659.jpg
       url: https://community.simtropolis.com/files/file/34537-set-villa-hd-1/
       version: 1.0.0
-    v1:
-      assets:
-        - docs:
-            - villa topeka
-          id: simtropolis/34092-villa-topeka
-          include:
-            - villa topeka
-      buildings:
-        Davide1983it - Villa Topeka.SC4Desc:
-          cbd483bc-ed28489d:
-            bulldoze: 132
-            capacity:
-              r$: 39
-              r$$: 23
-            categories: r$$
-            flamability: 40
-            garbage: 3
-            model: cbd483bc-00d8
-            name: Davide1983it - Villa Topeka
-            pollution: 1
-            pollutionRadius: 5
-            power: 1
-            water: 4
-            waterPollution: 1
-            waterPollutionRadius: 6
-            worth: 567
-      deprecated: v2
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_02/601c4c8a1d23b_villatopeka(2).jpg.b917af0655a8cf39fcbf03fba30736d8.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_02/601c4c8bd8504_villatopeka(1).jpg.27ab66ff9d1b13538934033cced42837.jpg
-      lastGenerated: 2025-01-14T13:01:59.408Z
-      lastModified: 2021-02-04T19:36:45.000Z
-      lots:
-        Davide1983it - Villa Topeka.SC4Lot:
-          cd285b2d:
-            building: ed28489d
-            density: all
-            name: Davide1983it - Villa Topeka
-            props: 1337b3d7,1e030000,29150000,2ab60000,49d64602,4e2e6001,7bbdf326,7bbe11a7,8ef02ab1,9337b3b2,9337b3b3,aeee1c86,ce2d43cd,ef13f647,f337b392,f337b393,f337b394
-            replace: 2dd9a54b,6d5285cb
-            size: 2x2
-            stage: 3
-            textures: 252b2000,25bf1000
-      models:
-        Davide1983it - Villa Topeka.SC4Model:
-          - cbd483bc-00d8
-      name: v1
-      release: 2025-01-14T13:01:59.402Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_02/601c4ccd46236_villatopeka(2).thumb.jpg.99432aced7a7fad3da7c2b03378be462.jpg
-      url: https://community.simtropolis.com/files/file/34092-villa-topeka/
-      version: 1.0.0
-    v2:
+    sd:
       assets:
         - docs:
             - villa topeka
@@ -16263,6 +18493,8 @@ davide1983it/villa-topeka:
             waterPollution: 1
             waterPollutionRadius: 6
             worth: 567
+      dependencies:
+        - davide1983it/villa-topeka
       lastGenerated: 2025-01-14T13:01:59.420Z
       lastModified: 2021-03-09T12:53:27.000Z
       lots:
@@ -16279,9 +18511,8 @@ davide1983it/villa-topeka:
       models:
         Davide1983it - Villa Topeka.SC4Model:
           - cbd4-83bc
-      name: v2 - SD
+      name: SD
       release: 2025-01-14T13:01:59.413Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/60476fc6a0f9e_villatopeka(1).thumb.jpg.85c1dde7e0a8edb9f4627310eb357659.jpg
       url: https://community.simtropolis.com/files/file/34257-villa-topeka-v2/
       version: 1.0.0
 
@@ -16401,12 +18632,17 @@ davide1983it/villa-tucson:
     - pclark06/mega-props-vol01
     - sfbt/essentials
     - simgoober/mega-props-vol01
+  deprecated: davide1983it/villa-tucson-v2
   images:
-    - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476fea50ded_villatucson(1).jpg.9d3a413337c617d3b1f969ac6f0e5c7d.jpg
-    - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476ff225512_villatucson(2).jpg.b7368d71ec23fa3381121a8c4c5788a2.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a91ecf4ab_villatucson(3).jpg.caf347360ad03bb7cbee3b29a6bb61a4.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a9208b3ea_villatucson(4).jpg.df92c5f214d2e5f3ccb38dddb975343e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a9221c16b_villatucson(1).jpg.d2cc9c00d2fe25a719705a5c4e1b2e23.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a9237fe78_villatucson(2).jpg.09583088635b5b69d9f4004114306a4b.jpg
   name: Villa Tucson
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a95f364c3_villatucson(3).thumb.jpg.b4dabe486cd128545ad1dcc611c21b75.jpg
+  url: https://community.simtropolis.com/files/file/34081-villa-tucson/
   variants:
-    v1:
+    default:
       assets:
         - docs:
             - villa tucson
@@ -16431,12 +18667,6 @@ davide1983it/villa-tucson:
             waterPollution: 1
             waterPollutionRadius: 5
             worth: 1143
-      deprecated: v2
-      images:
-        - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a91ecf4ab_villatucson(3).jpg.caf347360ad03bb7cbee3b29a6bb61a4.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a9208b3ea_villatucson(4).jpg.df92c5f214d2e5f3ccb38dddb975343e.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a9221c16b_villatucson(1).jpg.d2cc9c00d2fe25a719705a5c4e1b2e23.jpg
-        - https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a9237fe78_villatucson(2).jpg.09583088635b5b69d9f4004114306a4b.jpg
       lastGenerated: 2025-01-14T13:01:59.361Z
       lastModified: 2021-01-30T18:45:52.000Z
       lots:
@@ -16453,12 +18683,30 @@ davide1983it/villa-tucson:
       models:
         Davide1983it - Villa Tucson.SC4Model:
           - cbd483bc-00cb
-      name: v1
       release: 2025-01-14T13:01:59.354Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_01/6015a95f364c3_villatucson(3).thumb.jpg.b4dabe486cd128545ad1dcc611c21b75.jpg
-      url: https://community.simtropolis.com/files/file/34081-villa-tucson/
       version: 1.0.0
-    v2:
+
+davide1983it/villa-tucson-v2:
+  categories: r$
+  dependencies:
+    - couchpotato/mega-props-vol01
+    - cycledogg/mega-props-vol01
+    - cycledogg/mega-props-vol02
+    - cycledogg/textures-vol01
+    - delecto/people-props
+    - lbt/mega-textures-vol01
+    - namspopof/prop-pack-vol02
+    - pclark06/mega-props-vol01
+    - sfbt/essentials
+    - simgoober/mega-props-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476fea50ded_villatucson(1).jpg.9d3a413337c617d3b1f969ac6f0e5c7d.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2021_03/60476ff225512_villatucson(2).jpg.b7368d71ec23fa3381121a8c4c5788a2.jpg
+  name: Villa Tucson v2
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6047703dcd958_villatucson(1).thumb.jpg.e40b4af16f59a92ac8bea548e73bc5a4.jpg
+  url: https://community.simtropolis.com/files/file/34258-villa-tucson-v2/
+  variants:
+    default:
       assets:
         - docs:
             - villa tucson
@@ -16499,10 +18747,7 @@ davide1983it/villa-tucson:
       models:
         Davide1983it - Villa Tucson.SC4Model:
           - cbd483bc-0120
-      name: v2
       release: 2025-01-14T13:01:59.366Z
-      thumbnail: https://www.simtropolis.com/objects/screens/monthly_2021_03/6047703dcd958_villatucson(1).thumb.jpg.e40b4af16f59a92ac8bea548e73bc5a4.jpg
-      url: https://community.simtropolis.com/files/file/34258-villa-tucson-v2/
       version: 1.0.0
 
 davide1983it/villa-tupelo:
@@ -16729,6 +18974,115 @@ davide1983it/villa-wooster:
           - 9068d2db
       name: HD
       release: 2025-01-14T15:04:48.713Z
+      version: 1.0.0
+
+davide1983it/villino-razionale-1:
+  categories: r$
+  dependencies:
+    - bsc/textures-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0af4adba56f_Davide1983it-VillinoRazionale1(1).jpg.17f4d8aef4fc181e7dd8336527f8cc8b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0af4b19bc8f_Davide1983it-VillinoRazionale2.jpg.cffbf0fb76fed00f94d721272989401e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0af4b3eae41_Davide1983it-VillinoRazionale3.jpg.34d6070767ce952b4c71de017581f0b4.jpg
+  name: Villino Razionale 1
+  summary: Small residential building in rationalism architecture of 1930's
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0af4f28a215_Davide1983it-VillinoRazionale1(1).thumb.jpg.756c9521b05e67f4ae35a5ba63708cce.jpg
+  url: https://community.simtropolis.com/files/file/33700-villino-razionale-1/
+  variants:
+    default:
+      assets:
+        - docs:
+            - villino razionale 1
+          id: simtropolis/33700-villino-razionale-1
+          include:
+            - villino razionale 1
+      buildings:
+        Davide1983it - Villino razionale 1.SC4Desc:
+          cbd483bc-ac172ac2:
+            bulldoze: 292
+            capacity:
+              r$: 346
+            categories: r$
+            flamability: 45
+            garbage: 21
+            model: ccd4c4ae
+            name: Davide1983it - Villino Razionale 1
+            pollution: 10
+            pollutionRadius: 5
+            power: 2
+            water: 17
+            waterPollution: 3
+            waterPollutionRadius: 5
+            worth: 4700
+      lastGenerated: 2025-01-15T13:14:23.115Z
+      lastModified: 2020-07-12T11:33:08.000Z
+      lots:
+        Davide1983it - Villino Razionale 1.SC4Lot:
+          6c172beb:
+            building: ac172ac2
+            density: medium,high
+            name: Davide1983it - Villino Razionale 1
+            size: 2x2
+            stage: 6
+            textures: cf000170
+      models:
+        Davide1983it - Villino razionale 1.SC4Model:
+          - ccd4c4ae
+      release: 2025-01-15T13:14:23.115Z
+      version: 1.0.0
+
+davide1983it/villino-razionale-2:
+  categories: r$
+  dependencies:
+    - bsc/textures-vol01
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0b3327c3154_davide1983it-VillinoRazionale2(1).jpg.0aa0c82b49580ca88aeecc9455e7e1bc.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0b332b2c592_davide1983it-VillinoRazionale2(2).jpg.25d14aa5bbd4a010df6e105265d33a61.jpg
+  name: Villino Razionale 2
+  summary: Small residential building in rationalism architecture of 1930's
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2020_07/5f0b3342f1a27_davide1983it-VillinoRazionale2(1).thumb.jpg.5eb8b3f47e74fb3cdab1aedf774c5a3d.jpg
+  url: https://community.simtropolis.com/files/file/33701-villino-razionale-2/
+  variants:
+    default:
+      assets:
+        - docs:
+            - villino razionale 2
+          id: simtropolis/33701-villino-razionale-2
+          include:
+            - villino razionale 2
+      buildings:
+        Davide1983it - Villino Razionale 2.SC4Desc:
+          cbd483bc-0c170d3a:
+            bulldoze: 221
+            capacity:
+              r$: 266
+            categories: r$
+            flamability: 45
+            garbage: 16
+            model: 6cd4cc6e
+            name: Davide1983it - Villino razionale 2
+            pollution: 8
+            pollutionRadius: 5
+            power: 2
+            water: 13
+            waterPollution: 3
+            waterPollutionRadius: 5
+            worth: 3611
+      lastGenerated: 2025-01-15T13:14:23.125Z
+      lastModified: 2020-07-12T15:59:00.000Z
+      lots:
+        Davide1983it - Villino Razionale 2.SC4Lot:
+          4c170ea0:
+            building: 0c170d3a
+            density: medium,high
+            name: Davide1983it - Villino Razionale 2
+            size: 2x2
+            stage: 6
+            textures: cf000170
+      models:
+        Davide1983it - Villino Razionale 2.SC4Model:
+          - 6cd4cc6e
+      release: 2025-01-15T13:14:23.125Z
       version: 1.0.0
 
 davide1983it/whh-20:
@@ -17273,7 +19627,7 @@ davide1983it/zasco-building:
   dependencies:
     - davide1983it/props-vol01
     - hk/textures-vol01
-  description: Artdeco building in honour of Zasco
+  summary: Imposing artdeco skyscraper in honor of Zasco
   images:
     - https://www.simtropolis.com/objects/screens/monthly_2022_11/6387ab35e1e64_zascobuilding(1).png.0336a58e1333d95b7030352766668fc3.png
     - https://www.simtropolis.com/objects/screens/monthly_2022_11/6387ab4874323_zascobuilding(2).png.4272e621b926af5ff853867cbaa5df14.png

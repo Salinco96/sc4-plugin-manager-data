@@ -251,51 +251,6 @@ ripplejet/census-repository-building:
       id: nam.traffic
       type: string
   variants:
-    legacy:
-      assets:
-        - cleanitol: Cleanitol_RJ_Census_Repository_Facility_v3.6.txt
-          docs:
-            - ~Documents/BSC_Readmes/RippleJet
-          exclude:
-            - BSC/Ripplejet/Census Repository/RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
-          id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
-          include:
-            - RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot:
-                condition:
-                  nam.traffic: High
-            - RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot:
-                condition:
-                  nam.traffic: Low
-            - RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot:
-                condition:
-                  nam.traffic: Medium
-            - RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
-                condition:
-                  nam.traffic: Ultra
-            - RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot:
-                condition:
-                  nam.traffic: Classic
-            - BSC/Ripplejet/Census Repository
-      deprecated: default
-      images:
-        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day0.jpg
-        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Night0.jpg
-      lastGenerated: 2025-01-15T09:46:52.155Z
-      lastModified: 2025-01-14T12:17:00.000Z
-      name: v3.6
-      props:
-        RJ - Census_Repository_Query_and_Essentials_v3.3.dat:
-          3224a93f-1689d23a:
-            name: RJ - Census Repository Phone Booth
-          3224a93f-1689d35d:
-            name: RJ - Census Repository Phone Booth Rear
-          c977c536-8956a699:
-            name: Gnome_CensusRepository
-      readme: Readme_Census_Repository_Facility_v3.6.html
-      release: 2024-11-27T09:00:58.547Z
-      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day0.jpg
-      url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
-      version: 3.6.0
     default:
       assets:
         - cleanitol: Cleanitol_Census_Repository_Facility_v4.0.txt
@@ -385,3 +340,48 @@ ripplejet/census-repository-building:
       thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day.jpg
       url: https://www.sc4evermore.com/index.php/downloads/download/21-other/331-kel9509-census-repository-facility
       version: 4.0.0
+    legacy:
+      assets:
+        - cleanitol: Cleanitol_RJ_Census_Repository_Facility_v3.6.txt
+          docs:
+            - ~Documents/BSC_Readmes/RippleJet
+          exclude:
+            - BSC/Ripplejet/Census Repository/RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot
+          id: sc4evermore/39-bsc-census-repository-building-by-ripplejet
+          include:
+            - RW_3x1_Census Repository Facility_ZP_HIGH.SC4Lot:
+                condition:
+                  nam.traffic: High
+            - RW_3x1_Census Repository Facility_ZP_LOW.SC4Lot:
+                condition:
+                  nam.traffic: Low
+            - RW_3x1_Census Repository Facility_ZP_MEDIUM.SC4Lot:
+                condition:
+                  nam.traffic: Medium
+            - RW_3x1_Census Repository Facility_ZP_ULTRA.SC4Lot:
+                condition:
+                  nam.traffic: Ultra
+            - RW_3x1_Census Repository Facility_Z_CLASSIC.SC4Lot:
+                condition:
+                  nam.traffic: Classic
+            - BSC/Ripplejet/Census Repository
+      deprecated: default
+      images:
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day0.jpg
+        - https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Night0.jpg
+      lastGenerated: 2025-01-15T09:46:52.155Z
+      lastModified: 2025-01-14T12:17:00.000Z
+      name: v3.6
+      props:
+        RJ - Census_Repository_Query_and_Essentials_v3.3.dat:
+          3224a93f-1689d23a:
+            name: RJ - Census Repository Phone Booth
+          3224a93f-1689d35d:
+            name: RJ - Census Repository Phone Booth Rear
+          c977c536-8956a699:
+            name: Gnome_CensusRepository
+      readme: Readme_Census_Repository_Facility_v3.6.html
+      release: 2024-11-27T09:00:58.547Z
+      thumbnail: https://www.sc4evermore.com/images/jdownloads/screenshots/thumbnails/Census Repository Facility Day0.jpg
+      url: https://www.sc4evermore.com/index.php/downloads/download/21-other/39-bsc-census-repository-building-by-ripplejet
+      version: 3.6.0
