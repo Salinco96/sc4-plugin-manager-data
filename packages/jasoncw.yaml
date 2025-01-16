@@ -2076,6 +2076,342 @@ jasoncw/great-northern-hotel:
         darknite: false
       version: 1.0.0
 
+jasoncw/guardian-building:
+  buildings:
+    Jasoncw - Guardian Building - Grow (CO$$$10_2x5)(CAM).SC4Lot:
+      79afe621-b9c640ad:
+        bulldoze: 2487
+        capacity:
+          co$$: 4103
+          co$$$: 2871
+        categories: co$$$
+        flamability: 35
+        garbage: 6
+        model: 34957ef6
+        name: Jasoncw - Guardian Building (CO$$$10_2x5)(CAM)
+        pollution: 17
+        pollutionRadius: 6
+        power: 115
+        tilesets: NY
+        water: 1245
+        waterPollution: 17
+        waterPollutionRadius: 7
+        worth: 32085
+    Jasoncw - Guardian Building - Grow (CO$$$10_5x2)(CAM).SC4Lot:
+      79afe621-59c37fe3:
+        bulldoze: 2487
+        capacity:
+          co$$: 4103
+          co$$$: 2871
+        categories: co$$$
+        flamability: 35
+        garbage: 6
+        model: 34957ef6
+        name: Jasoncw - Guardian Building (CO$$$10_5x2)(CAM)
+        pollution: 17
+        pollutionRadius: 6
+        power: 115
+        tilesets: NY
+        water: 1245
+        waterPollution: 17
+        waterPollutionRadius: 7
+        worth: 32085
+    Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot:
+      79afe621-b9c640ad:
+        bulldoze: 2487
+        capacity:
+          co$$: 4103
+          co$$$: 2871
+        categories: co$$$
+        flamability: 35
+        garbage: 6
+        model: 34957ef6
+        name: Jasoncw - Guardian Building (CO$$$8_2x5)
+        pollution: 17
+        pollutionRadius: 6
+        power: 115
+        tilesets: NY
+        water: 1245
+        waterPollution: 17
+        waterPollutionRadius: 7
+        worth: 32085
+    Jasoncw - Guardian Building - Grow (CO$$$8_5x2).SC4Lot:
+      79afe621-59c37fe3:
+        bulldoze: 2487
+        capacity:
+          co$$: 4103
+          co$$$: 2871
+        categories: co$$$
+        flamability: 35
+        garbage: 6
+        model: 34957ef6
+        name: Jasoncw - Guardian Building (CO$$$8_5x2)
+        pollution: 17
+        pollutionRadius: 6
+        power: 115
+        tilesets: NY
+        water: 1245
+        waterPollution: 17
+        waterPollutionRadius: 7
+        worth: 32085
+    Jasoncw - Guardian Building - Plop (CO$$$_5x2).SC4Lot:
+      79afe621-99b0f6e6:
+        bulldoze: 2487
+        capacity:
+          co$$: 2624
+          co$$$: 1836
+        categories: landmarks,co$$$
+        cost: 38896
+        flamability: 35
+        garbage: 4
+        label: Guardian Building
+        menu: Landmarks
+        model: 34957ef6
+        name: Jasoncw - Guardian Building (CO$$$_5x2)
+        pollution: 11
+        pollutionRadius: 6
+        power: 74
+        submenu: Commercial/CO$$$
+        water: 802
+        waterPollution: 11
+        waterPollutionRadius: 7
+        worth: 20519
+  categories: co$$$,landmarks,cam
+  dependencies:
+    - mipro/mipro-essentials
+  description: |-
+    "We no longer live in a leisurely age, nor do we move on streets from which it is possible to contemplate and enjoy minute sculpted detail. What we see we must see quickly in passing, and the impression must be immediate, strong, and complete. Color has this vital power."
+
+    Wirt Rowland of Smith, Hinchman, and Grylls, designed the Guardian Building to be a bold modern skyscraper for a bold modern city. It was designed functionally, and composed according to a rigorous geometric system. The building features ceramic art by Mary Chase Perry of Pewabic Pottery, murals by Ezra Winters, stained glass clocks from Tiffany Studios, and sculptures by Corrado Parducci.
+
+    The Guardian Building opened in 1929 as the headquarters of the Union Trust Company, which quickly became Guardian Detroit Union after a series of mergers, before failing during the Great Depression. It now houses offices for Wayne County, and various companies, including SmithGroup, the original designer of the building.
+
+    All of the models share the same TGI, and you may switch between any combination of SD, HD, MaxisNite, and DarkNite, by swapping out the .SC4Model files.
+
+    ![*:party:](https://community.simtropolis.com/assets/emoticons/default_39.gif "*:party:") This is my **100<sup>th</sup>** upload! ![*:party:](https://community.simtropolis.com/assets/emoticons/default_39.gif "*:party:")
+
+    - 5x2 and 2x5 growable CO$$$ lots.
+    - 5x2 ploppable CO$$$ lot.
+    - CAM version included.
+    - High definition (HD) version included.
+    - MaxisNite and DarkNite night versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-00-2.jpg.5bedffe1a5dbed318b537eee418b5e50.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-01.jpg.93150fc9edcd5c4f681006385b5d0e8a.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-02.jpg.b9e7f9665a7f748d940466f116e99e16.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-03.jpg.c400c2b56bc4ea7ae95601ff47060be8.jpg
+  lots:
+    Jasoncw - Guardian Building - Grow (CO$$$10_2x5)(CAM).SC4Lot:
+      29c64137:
+        building: b9c640ad
+        density: high
+        name: CO$$$10_2x5_Guardian Building
+        requirements:
+          cam: true
+        size: 2x5
+        stage: 10
+        textures: 258d1000,258f2000,25f00000,25fc0000,f5c04010
+    Jasoncw - Guardian Building - Grow (CO$$$10_5x2)(CAM).SC4Lot:
+      19c3839a:
+        building: 59c37fe3
+        density: high
+        name: CO$$$10_5x2_Guardian Building
+        requirements:
+          cam: true
+        size: 5x2
+        stage: 10
+        textures: 258d1000,258f2000,25f00000,25fc0000,f5c0401a
+    Jasoncw - Guardian Building - Grow (CO$$$8_2x5).SC4Lot:
+      29c64137:
+        building: b9c640ad
+        density: high
+        name: CO$$$8_2x5_Guardian Building
+        requirements:
+          cam: false
+        size: 2x5
+        stage: 8
+        textures: 258d1000,258f2000,25f00000,25fc0000,f5c04010
+    Jasoncw - Guardian Building - Grow (CO$$$8_5x2).SC4Lot:
+      19c3839a:
+        building: 59c37fe3
+        density: high
+        name: CO$$$8_5x2_Guardian Building
+        requirements:
+          cam: false
+        size: 5x2
+        stage: 8
+        textures: 258d1000,258f2000,25f00000,25fc0000,f5c0401a
+    Jasoncw - Guardian Building - Plop (CO$$$_5x2).SC4Lot:
+      99b0f6e6:
+        building: 99b0f6e6
+        name: PLOP_5x2_Guardian Building
+        size: 5x2
+        textures: 258d1000,258f2000,25f00000,25fc0000,f5c04000,f5c04010
+  name: Guardian Building
+  support: https://community.simtropolis.com/forums/topic/60777-mipro
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_02/STEX-00-2.thumb.jpg.7b9134c9974c2d774e74b11f3239133d.jpg
+  url: https://community.simtropolis.com/files/file/32737-guardian-building/
+  variants:
+    darknite-hd:
+      assets:
+        - exclude:
+            - Jasoncw - Guardian Building (DN).SC4Model
+          id: simtropolis/32737-guardian-building#174539
+          include:
+            - Jasoncw - Guardian Building (DN)
+        - id: simtropolis/32737-guardian-building#174540
+          include:
+            - Jasoncw - Guardian Building (CAMeLots)
+        - id: simtropolis/32737-guardian-building#174542
+          include:
+            - Jasoncw - Guardian Building (HD Model)(DN)
+      lastModified: 2019-02-01T05:23:19.000Z
+      models:
+        Jasoncw - Guardian Building (DN).SC4Model:
+          - 34957ef6
+        Jasoncw - Guardian Building (HD)(DN).SC4Model:
+          - 34957ef6
+      name: Dark Nite (HD)
+      release: 2025-01-16T13:12:52.826Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    darknite-sd:
+      assets:
+        - id: simtropolis/32737-guardian-building#174539
+          include:
+            - Jasoncw - Guardian Building (DN)
+        - id: simtropolis/32737-guardian-building#174540
+          include:
+            - Jasoncw - Guardian Building (CAMeLots)
+      lastModified: 2019-02-01T05:23:19.000Z
+      models:
+        Jasoncw - Guardian Building (DN).SC4Model:
+          - 34957ef6
+      name: Dark Nite (SD)
+      release: 2025-01-16T13:12:52.783Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    hd:
+      assets:
+        - exclude:
+            - Jasoncw - Guardian Building (MN).SC4Model
+          id: simtropolis/32737-guardian-building#174538
+          include:
+            - Jasoncw - Guardian Building (MN)
+        - id: simtropolis/32737-guardian-building#174540
+          include:
+            - Jasoncw - Guardian Building (CAMeLots)
+        - id: simtropolis/32737-guardian-building#174541
+          include:
+            - Jasoncw - Guardian Building (HD Model)(MN)
+      lastModified: 2019-02-01T05:23:19.000Z
+      models:
+        Jasoncw - Guardian Building (HD)(MN).SC4Model:
+          - 34957ef6
+        Jasoncw - Guardian Building (MN).SC4Model:
+          - 34957ef6
+      name: Maxis Nite (HD)
+      release: 2025-01-16T13:12:52.745Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+    sd:
+      assets:
+        - id: simtropolis/32737-guardian-building#174538
+          include:
+            - Jasoncw - Guardian Building (MN)
+        - id: simtropolis/32737-guardian-building#174540
+          include:
+            - Jasoncw - Guardian Building (CAMeLots)
+      lastModified: 2019-02-01T05:23:19.000Z
+      models:
+        Jasoncw - Guardian Building (MN).SC4Model:
+          - 34957ef6
+      name: Maxis Nite (SD)
+      release: 2025-01-16T13:12:52.696Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/hathaway-tower:
+  buildings:
+    Jasoncw - Hathaway Tower - R$$ Grow (R$$6_1x1).SC4Lot:
+      b9d64dd2-3b068a1e:
+        bulldoze: 474
+        capacity:
+          r$: 90
+          r$$: 51
+        categories: r$$
+        flamability: 40
+        garbage: 4
+        model: ea86a64a
+        name: Jasoncw - Hathaway Tower (R$$6_1x1)
+        pollution: 1
+        pollutionRadius: 5
+        power: 1
+        tilesets: NY
+        water: 3
+        waterPollution: 1
+        waterPollutionRadius: 6
+        worth: 1298
+  categories: r$$
+  description: |-
+    Hathaway Tower is a small apartment tower located in Milwaukee, United States. It grows on medium and high density residential zones on corner lots, and is in the New York tileset.
+
+    After years of thinking that the Maxis 1x1 buildings were implausibly skinny, I discovered a real life American 1x1 building in Milwaukee!
+
+    Because this is a 1x1 lot which houses a relatively large amount of sims, you can expect it to grow a lot.
+
+    - 1x1 growable R$$ corner lot.
+    - MaxisNite and DarkNite night versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d8163da45c15_STEXHathawayTower00.jpg.7d7f3642b4010265674435f37cfc2b15.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d8196cbd93a5_STEXHathawayTower01.jpg.58207043fa79d0567bde8dc420a90e9e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/5d8196d5158db_STEXHathawayTower02.jpg.0a418c9cad0f1b5b5abff76849931753.jpg
+  lots:
+    Jasoncw - Hathaway Tower - R$$ Grow (R$$6_1x1).SC4Lot:
+      1b068b7e:
+        building: 3b068a1e
+        density: medium,high
+        name: R$$6_1x1_ Hathaway Tower
+        size: 1x1
+        stage: 6
+        textures: 258d1000
+  name: Hathaway Tower
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_09/5d816d406451e_STEXHathawayTower00.thumb.jpg.bc79ba1bb07ffb5dc59b916f78a4d2a6.jpg
+  url: https://community.simtropolis.com/files/file/33180-hathaway-tower/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/33180-hathaway-tower#177899
+          include:
+            - Jasoncw - Hathaway Tower (DN)
+      lastModified: 2019-09-18T02:30:50.000Z
+      models:
+        Jasoncw - Hathaway Tower (DN).SC4Model:
+          - ea86a64a
+      name: Dark Nite
+      release: 2025-01-16T13:12:52.663Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/33180-hathaway-tower#177898
+          include:
+            - Jasoncw - Hathaway Tower (MN)
+      lastModified: 2019-09-18T02:30:50.000Z
+      models:
+        Jasoncw - Hathaway Tower (MN).SC4Model:
+          - ea86a64a
+      name: Maxis Nite
+      release: 2025-01-16T13:12:52.631Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
 jasoncw/hook-and-ladder-company-8:
   buildings:
     Jasoncw - Hook Ladder Company 8.SC4Lot:
@@ -4176,6 +4512,80 @@ jasoncw/pizza-ribs-sushi:
           - 312a539a
       name: Maxis Nite
       release: 2024-12-16T12:27:44.331Z
+      requirements:
+        darknite: false
+      version: 1.0.0
+
+jasoncw/rachel-de-queiroz:
+  buildings:
+    Jasoncw - Residencial Rachel de Queiroz - R$ Grow (R$6_5x4).SC4Lot:
+      b9d64dd2-1b052559:
+        bulldoze: 261
+        capacity:
+          r$: 1053
+        categories: r$
+        flamability: 45
+        garbage: 4
+        model: 2a83fc08
+        name: Jasoncw - Residencial Rachel de Queiroz (R$6_5x4)
+        pollution: 5
+        pollutionRadius: 5
+        power: 5
+        tilesets: Houston
+        water: 11
+        waterPollution: 2
+        waterPollutionRadius: 5
+        worth: 14310
+  categories: r$
+  description: |-
+    Residencial Rachel de Queiroz is an apartment complex located in Fortaleza, Brazil. It grows on medium and high density residential zones, and is in the Houston tileset.
+
+    - 5x4 growable R$ lot.
+    - MaxisNite and DarkNite night versions included.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-00.jpg.b804f97df495c6e14c61712693f4244b.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-01.jpg.55dfe40c8754bd57a24f4d7c8f8d7bc0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-02.jpg.f3981b52ff06f011818ce4f9f1a439e6.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-03.jpg.9ba79b411c19339cc69ad6ec502a871e.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-04.jpg.42a4f4d36d94864dc6e6dde90b85018b.jpg
+  lots:
+    Jasoncw - Residencial Rachel de Queiroz - R$ Grow (R$6_5x4).SC4Lot:
+      7b0525fb:
+        building: 1b052559
+        density: all
+        name: R$6_5x4_Residencial Rachel de Queiroz
+        size: 5x4
+        stage: 6
+        textures: 251c1100,256b1000,256c1000,25901000,25ae2000,25b02000,25f00000,25fc0000
+  name: Residencial Rachel de Queiroz
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2019_09/RRQ-00.thumb.jpg.139dbf0a1c61907b6e695ccb083d7a00.jpg
+  url: https://community.simtropolis.com/files/file/33179-residencial-rachel-de-queiroz/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/33179-residencial-rachel-de-queiroz#177887
+          include:
+            - Jasoncw - Residencial Rachel de Queiroz (DN)
+      lastModified: 2019-09-17T19:42:13.000Z
+      models:
+        Jasoncw - Residencial Rachel de Queiroz (DN).SC4Model:
+          - 2a83fc08
+      name: Dark Nite
+      release: 2025-01-16T13:12:52.607Z
+      requirements:
+        darknite: true
+      version: 1.0.0
+    default:
+      assets:
+        - id: simtropolis/33179-residencial-rachel-de-queiroz#177886
+          include:
+            - Jasoncw - Residencial Rachel de Queiroz (MN)
+      lastModified: 2019-09-17T19:42:13.000Z
+      models:
+        Jasoncw - Residencial Rachel de Queiroz (MN).SC4Model:
+          - 2a83fc08
+      name: Maxis Nite
+      release: 2025-01-16T13:12:52.496Z
       requirements:
         darknite: false
       version: 1.0.0
