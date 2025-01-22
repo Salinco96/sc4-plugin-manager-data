@@ -2565,6 +2565,63 @@ wannglondon/london-flats-5:
       release: 2025-01-10T15:04:18.734Z
       version: 1.0.0
 
+wannglondon/los-angeles-home-5:
+  categories: r$$$,la
+  description: |-
+    In light of the fires that have swept through my beautiful city I wanted to upload this mansion. Inspired by a home found in Hancock Park (far enough from the fires).
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/Day.jpg.1bc948f772f9778688133a61fe05bc2d.jpg
+  name: Los Angeles Home 5
+  requirements:
+    darknite: true
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2025_01/Day.thumb.jpg.5d5d890b00535de679340435adb9ab70.jpg
+  url: https://community.simtropolis.com/files/file/36671-los-angeles-home-5/
+  variants:
+    darknite:
+      assets:
+        - id: simtropolis/36671-los-angeles-home-5
+          include:
+            - LA Home 5_DN
+      buildings:
+        LA Home 5-0x6534284a-0x1c2d4663-0xb48a8077.SC4Desc:
+          1c2d4663-b48a8077:
+            bulldoze: 264
+            capacity:
+              r$: 117
+              r$$: 66
+              r$$$: 31
+            categories: r$$$
+            flamability: 35
+            garbage: 4
+            model: d40a927c
+            name: LA Home 5
+            pollution: 1
+            pollutionRadius: 6
+            power: 4
+            tilesets: Chicago
+            water: 8
+            waterPollution: 1
+            waterPollutionRadius: 7
+            worth: 1786
+      lastGenerated: 2025-01-22T08:20:03.608Z
+      lastModified: 2025-01-16T21:47:21.000Z
+      lots:
+        R$$$4_3x3_LA Home 5_e48a8088.SC4Lot:
+          e48a8088:
+            building: b48a8077
+            density: low
+            name: R$$$4_3x3_LA Home 5
+            props: 1f0b0000,2a0f0000,2a180000,a0000008,a0000014,a0000015,a0000038,a000003a,a0000050,a0000051
+            size: 3x3
+            stage: 4
+            textures: 252a2000,25f40000,25f50000,25f60000,25f80000,25fa0000
+      models:
+        AmericanHome3DN-0x5ad0e817_0xd40a927c_0x30000.SC4Model:
+          - d40a927c
+      name: Dark Nite
+      release: 2025-01-22T08:20:03.608Z
+      version: 1.0.0
+
 wannglondon/los-angeles-home-pack-1:
   categories: r$$,la
   description: |-
