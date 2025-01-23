@@ -19,6 +19,18 @@ cicdec:
 dgvoodoo:
   asset: simtropolis/36227-dgvoodoo-2-simcity-4-edition
   authors: ulisse-wolf
+  description: |-
+    **dgVoodoo2 is a set of implementation of old graphics API's for Windows 7 and later versions**
+
+    They are implemented on Direct3D 11/12 and they can use different device types as wrapping output:
+
+    - Hardware rendering at GPU feature level 12.0 (recommended but currently has some issues)
+    - Hardware rendering at GPU feature level 11.0 (recommended)
+    - Hardware rendering at GPU feature level 10.1 (has a minor limitation for D3D8/9)
+    - Hardware rendering at GPU feature level 10.0 (there are some restrictions)
+    - Software rendering through Microsoft WARP renderer
+
+    More information at https://dege.freeweb.hu/dgVoodoo2/
   exe: Apps/dgVoodooCpl.exe
   install: DgVoodoo 2 SC4 Version/SimCity 4
   name: DgVoodoo 2 (SimCity 4 Edition)
@@ -27,6 +39,8 @@ dgvoodoo:
   thumbnail: https://www.simtropolis.com/objects/screens/monthly_2024_04/communityIcon_pznebvf29ih91.thumb.jpg.ff024df162ef710ab91aae67c66745e4.jpg
   url: https://community.simtropolis.com/files/file/36227-dgvoodoo-2-simcity-4-edition/
   version: 2.81.3
+  warnings:
+    - Some antivirus programs may block the control panel executable. The compatibility fix should work regardless.
 
 reader:
   asset: simtropolis/21343-ilive-reader-093
