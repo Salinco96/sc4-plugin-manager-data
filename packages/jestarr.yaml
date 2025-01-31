@@ -382,6 +382,183 @@ jestarr/acme-pool-garden-supply:
           - fb238015
       version: 1.0.0
 
+jestarr/acme-restoration-company:
+  categories: i-ht,landmarks
+  dependencies:
+    - bsc/textures-vol02
+    - bsc/textures-vol03
+    - cycledogg/mega-props-vol01
+    - girafe/carpack
+    - jestarr/batprops-vol10
+    - jestarr/batprops-vol12
+    - jestarr/batprops-vol13
+    - jestarr/batprops-vol17
+    - jestarr/mega-props-vol04
+    - jestarr/mega-props-vol05
+    - jestarr/resourcepack-vol27
+  description: ACME Restoration Company specializes in repairs for carnival & park rides, from roller coasters to carousels, leaving them looking fresh and clean, the way they would've appeared when they first emerged from the factory.
+  images:
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/ACMERestorationCompany_Day.jpg.cf59f46d9fa7c83ada0eb6020360bab0.jpg
+    - https://www.simtropolis.com/objects/screens/monthly_2025_01/ACMERestorationCompany_Nite.jpg.419dbcf5772355fdd3070defb9122f05.jpg
+  name: ACME Restoration Company
+  thumbnail: https://www.simtropolis.com/objects/screens/monthly_2025_01/ACMERestorationCompany_Day.thumb.jpg.ba9b19e51e6aeced2fddbd0175e825bf.jpg
+  url: https://community.simtropolis.com/files/file/36682-acme-restoration-company/
+  variants:
+    hd:
+      assets:
+        - docs:
+            - Documentation
+          exclude:
+            - '*_SD*'
+          id: simtropolis/36682-acme-restoration-company#205500
+          include:
+            - BSC/BSCProps
+            - BSC/jestarr/Growable
+            - BSC/jestarr/Ploppable
+      buildings:
+        IM$$3_4x3_jes_ACMERestorationCompany_HD_c51f79be.SC4Lot:
+          54a94000-151f799a:
+            bulldoze: 491
+            capacity:
+              im: 259
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            model: 1455c226
+            name: jes_ACMERestorationCompany_HD
+            pollution: 15
+            pollutionRadius: 9
+            power: 16
+            water: 233
+            waterPollution: 10
+            waterPollutionRadius: 13
+            worth: 1976
+        jes_4x3_plop_ACMERestorationCompany_HD_74a624c3.SC4Lot:
+          54a94000-74a624c3:
+            bulldoze: 491
+            capacity:
+              im: 259
+            categories: landmarks,i-ht
+            cost: 7492
+            description: ACME Restoration Company specializes in repairs for carnival & park rides, from roller coasters to carousels, leaving them looking fresh and clean, the way they would've appeared when they first emerged from the factory.
+            flamability: 70
+            garbage: 4
+            label: jes_ACMERestorationCompany_HD
+            menu: Landmarks
+            model: 1455c226
+            name: jes_ACMERestorationCompany_HD
+            pollution: 15
+            pollutionRadius: 9
+            power: 16
+            submenu: Industrial/Manufacture
+            water: 233
+            waterPollution: 10
+            waterPollutionRadius: 13
+            worth: 1976
+      lastGenerated: 2025-01-31T11:54:31.155Z
+      lastModified: 2025-01-29T21:41:35.000Z
+      lots:
+        IM$$3_4x3_jes_ACMERestorationCompany_HD_c51f79be.SC4Lot:
+          c51f79be:
+            building: 151f799a
+            density: high
+            name: IM$$3_4x3_jes_ACMERestorationCompany_HD
+            props: 1402eb66,1e9a0000,29c20000,2dce4b0b,2dcf9f54,2dd9608d,34018f52,34019243,3402ead6,4de8c5c1,505eb2df,533e93a3,53f966ad,705eb290,71d53688,732016b7,732d2cf4,80150832,8dce9efe,905eb2b7,94019630,9401a0f1,b30df18f,b33e9394,c02671e9,d05eb239,d32d2bab,d337b357,fd56a716
+            size: 4x3
+            stage: 3
+            textures: fb238045,fb238050,fb238055,fb238100,fb745000,fb864040,fb864045,fbd10000
+        jes_4x3_plop_ACMERestorationCompany_HD_74a624c3.SC4Lot:
+          74a624c3:
+            building: 74a624c3
+            name: jes_4x3_plop_ACMERestorationCompany_HD
+            props: 1402eb66,1e9a0000,29c20000,2dce4b0b,2dcf9f54,2dd9608d,34018f52,34019243,3402ead6,4de8c5c1,505eb2df,533e93a3,53f966ad,705eb290,71d53688,732016b7,732d2cf4,80150832,8dce9efe,905eb2b7,94019630,9401a0f1,b30df18f,b33e9394,c02671e9,d05eb239,d32d2bab,d337b357,fd56a716
+            size: 4x3
+            textures: fb238045,fb238050,fb238055,fb238100,fb745000,fb864040,fb864045,fbd10000
+      models:
+        jes_ACMERestorationCompany_HD-0x5ad0e817_0x1455c226_0x30000.SC4Model:
+          - 1455c226
+      name: HD
+      readme: Readme_ACMERestorationCompany_HD.html
+      release: 2025-01-31T11:51:48.434Z
+      version: 1.0.0
+    sd:
+      assets:
+        - docs:
+            - Documentation
+          exclude:
+            - '*_HD*'
+          id: simtropolis/36682-acme-restoration-company#205500
+          include:
+            - BSC/BSCProps
+            - BSC/jestarr/Growable
+            - BSC/jestarr/Ploppable
+      buildings:
+        IM$$3_4x3_jes_ACMERestorationCompany_SD_351f79ed.SC4Lot:
+          54a94000-551f79e1:
+            bulldoze: 491
+            capacity:
+              im: 259
+            categories: i-ht
+            flamability: 70
+            garbage: 4
+            model: f455bfd8
+            name: jes_ACMERestorationCompany_SD
+            pollution: 15
+            pollutionRadius: 9
+            power: 16
+            water: 233
+            waterPollution: 10
+            waterPollutionRadius: 13
+            worth: 1976
+        jes_4x3_plop_ACMERestorationCompany_SD_74a6257e.SC4Lot:
+          54a94000-74a6257e:
+            bulldoze: 491
+            capacity:
+              im: 259
+            categories: landmarks,i-ht
+            cost: 7492
+            description: ACME Restoration Company specializes in repairs for carnival & park rides, from roller coasters to carousels, leaving them looking fresh and clean, the way they would've appeared when they first emerged from the factory.
+            flamability: 70
+            garbage: 4
+            label: jes_ACMERestorationCompany_SD
+            menu: Landmarks
+            model: f455bfd8
+            name: jes_ACMERestorationCompany_SD
+            pollution: 15
+            pollutionRadius: 9
+            power: 16
+            submenu: Industrial/Manufacture
+            water: 233
+            waterPollution: 10
+            waterPollutionRadius: 13
+            worth: 1976
+      lastGenerated: 2025-01-31T11:58:30.179Z
+      lastModified: 2025-01-29T21:41:35.000Z
+      lots:
+        IM$$3_4x3_jes_ACMERestorationCompany_SD_351f79ed.SC4Lot:
+          351f79ed:
+            building: 551f79e1
+            density: high
+            name: IM$$3_4x3_jes_ACMERestorationCompany_SD
+            props: 1402eb66,1e9a0000,29c20000,2dce4b0b,2dcf9f54,2dd9608d,34018f52,34019243,3402ead6,4de8c5c1,505eb2df,533e93a3,53f966ad,705eb290,71d53688,732016b7,732d2cf4,80150832,8dce9efe,905eb2b7,94019630,9401a0f1,b30df18f,b33e9394,c02671e9,d05eb239,d32d2bab,d337b357,fd56a716
+            size: 4x3
+            stage: 3
+            textures: fb238045,fb238050,fb238055,fb238100,fb745000,fb864040,fb864045,fbd10000
+        jes_4x3_plop_ACMERestorationCompany_SD_74a6257e.SC4Lot:
+          74a6257e:
+            building: 74a6257e
+            name: jes_4x3_plop_ACMERestorationCompany_SD
+            props: 1402eb66,1e9a0000,29c20000,2dce4b0b,2dcf9f54,2dd9608d,34018f52,34019243,3402ead6,4de8c5c1,505eb2df,533e93a3,53f966ad,705eb290,71d53688,732016b7,732d2cf4,80150832,8dce9efe,905eb2b7,94019630,9401a0f1,b30df18f,b33e9394,c02671e9,d05eb239,d32d2bab,d337b357,fd56a716
+            size: 4x3
+            textures: fb238045,fb238050,fb238055,fb238100,fb745000,fb864040,fb864045,fbd10000
+      models:
+        jes_ACMERestorationCompany_SD-0x5ad0e817_0xf455bfd8_0x30000.SC4Model:
+          - f455bfd8
+      name: SD
+      readme: Readme_ACMERestorationCompany_SD.html
+      release: 2025-01-31T11:51:48.563Z
+      version: 1.0.0
+
 jestarr/acme-tire-recappers:
   categories: landmarks,i-ht
   dependencies:
